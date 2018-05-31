@@ -19,7 +19,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 
 BATCH_SIZE = 50
-WORKER_COUNT = 15
+WORKER_COUNT = 5
 SRCPATH = Path('datadump', 'graphtreon', '2018-04.csv')
 DATA_DIR = Path('datadump', 'patreon', 'overviews')
 DATA_DIR.mkdir(parents=True, exist_ok=True)

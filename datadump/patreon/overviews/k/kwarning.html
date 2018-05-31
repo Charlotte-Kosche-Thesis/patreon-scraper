@@ -1,0 +1,625 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "YkgJKkSjSOoHMGjX5hPbkWy1GhjZzQIGW2X-RcbVEaY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "201238",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/201238"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-08-01T13:47:37+00:00",
+    "creation_name": "cross stitch patterns",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/449627/5cae1ee1dddf4ffcb95df922e3d6352b?token-time=2145916800\u0026token-hash=CCkprFcVwOI6g1M43-hIA9Bf2Cp_PlR4P_4N4WiblNQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/449627/5cae1ee1dddf4ffcb95df922e3d6352b?token-time=2145916800\u0026token-hash=JORjngVV_bDf0cTFz1EGTyxmICgrHFP99cu9ezuRVrY%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 19,
+    "pay_per_name": "month",
+    "pledge_sum": 12716,
+    "pledge_url": "/bePatron?c=449627",
+    "published_at": "2016-08-03T18:55:31+00:00",
+    "summary": "Hi, my name is Kari and I am a Creative streamer on Twitch. For now, I have chosen not to pursue partnership through Twitch. \u00a0This Patreon is my way for you to subscribe to my channel, but it also serves to jump start the possibility of being self employed with my crafts. \u00a0Thank you so much for your consideration and your viewership!"
+   },
+   "id": "449627",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3326891",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3326891"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "501649",
+       "type": "goal"
+      },
+      {
+       "id": "501650",
+       "type": "goal"
+      },
+      {
+       "id": "501651",
+       "type": "goal"
+      },
+      {
+       "id": "501652",
+       "type": "goal"
+      },
+      {
+       "id": "713127",
+       "type": "goal"
+      },
+      {
+       "id": "713131",
+       "type": "goal"
+      },
+      {
+       "id": "1046615",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-449627",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-449627"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "646061",
+       "type": "reward"
+      },
+      {
+       "id": "646062",
+       "type": "reward"
+      },
+      {
+       "id": "646063",
+       "type": "reward"
+      },
+      {
+       "id": "646064",
+       "type": "reward"
+      },
+      {
+       "id": "646065",
+       "type": "reward"
+      },
+      {
+       "id": "973347",
+       "type": "reward"
+      },
+      {
+       "id": "973355",
+       "type": "reward"
+      },
+      {
+       "id": "646066",
+       "type": "reward"
+      },
+      {
+       "id": "646079",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-05-19T21:37:30+00:00",
+     "facebook": "https://www.facebook.com/8bitstitch",
+     "first_name": "kwarning",
+     "full_name": "kwarning",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3326891/90002d3b08ab4f09ad45d5c6e92210c0?token-time=2145916800\u0026token-hash=uSX_Ne7rzV7elxjXGMU3IQlnKeFSkcyhH3ov2nKaqV8%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3326891/90002d3b08ab4f09ad45d5c6e92210c0?token-time=2145916800\u0026token-hash=eX7DAVJ0fKHYgqsNHPyryx8DP79ePpoWRTqbQYQUZak%3D",
+     "twitch": "https://www.twitch.tv/kwarning",
+     "twitter": "kwarning9",
+     "url": "https://www.patreon.com/kwarning",
+     "vanity": "kwarning",
+     "youtube": null
+    },
+    "id": "3326891",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "449627",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/449627"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 4,
+     "upgrade_url": "/bePatron?c=449627\u0026rid=646061"
+    },
+    "id": "post-aggregation-for-0-449627",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-27T21:21:35+00:00",
+     "description": "Official patron status. This means you\u0027ll get access to my subscriber-only discord room, and early access patterns available to test stitchers!\u00a0",
+     "discord_role_ids": [
+      "210121855837667329"
+     ],
+     "edited_at": "2018-04-29T12:20:15.637969+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-29T12:20:15.630700+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Test Pattern Early Access",
+     "unpublished_at": null,
+     "url": "/bePatron?c=449627\u0026rid=646061",
+     "user_limit": null
+    },
+    "id": "646061",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-10-27T21:21:35+00:00",
+     "description": "With this tier you\u0027ll receive a generation 1 Pokemon cross stitch pattern designed by me, starting with #001 himself Bulbasaur! Plus you\u0027ll get access to my subscriber-only discord room, and early access patterns available to test stitchers!",
+     "discord_role_ids": [
+      "210121855837667329"
+     ],
+     "edited_at": "2018-04-29T12:20:02.860207+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-29T12:20:02.853116+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pokemon Patterns!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=449627\u0026rid=646062",
+     "user_limit": null
+    },
+    "id": "646062",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2016-10-27T21:21:35+00:00",
+     "description": "With this tier you\u0027ll receive a patron exclusive cross stitch pattern designed by me. Theme changes month to month and your feedback will be considered. Plus you\u0027ll get access to my subscriber-only discord room,\u00a0and early access patterns available to test stitchers!",
+     "discord_role_ids": [
+      "210121855837667329"
+     ],
+     "edited_at": "2018-04-29T12:19:49.215458+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-29T12:19:49.208150+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Exclusive Patterns!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=449627\u0026rid=646063",
+     "user_limit": null
+    },
+    "id": "646063",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2016-10-27T21:21:35+00:00",
+     "description": "With this tier you\u0027ll receive both the monthly Pokemon cross stitch pattern and the monthly patron exclusive cross stitch pattern.\u00a0Plus you\u0027ll get access to my subscriber-only discord room, and early access patterns available to test stitchers!",
+     "discord_role_ids": [
+      "210121855837667329"
+     ],
+     "edited_at": "2018-04-29T12:19:38.171618+00:00",
+     "image_url": null,
+     "patron_count": 10,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-29T12:19:38.162072+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pokemon \u0026 Exclusive Patterns!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=449627\u0026rid=646064",
+     "user_limit": null
+    },
+    "id": "646064",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-27T21:21:35+00:00",
+     "description": "With this tier you will be able to request a custom cross stitch pattern from me (up to 8 inches by 8 inches in size). Plus you\u0027ll get access to my subscriber-only discord room, and early access patterns available to test stitchers!\u00a0",
+     "discord_role_ids": [
+      "210121855837667329"
+     ],
+     "edited_at": "2018-04-29T12:19:24.356039+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-29T12:19:24.348997+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Custom Patterns!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=449627\u0026rid=646065",
+     "user_limit": null
+    },
+    "id": "646065",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1300,
+     "amount_cents": 1300,
+     "created_at": "2016-10-27T21:21:35+00:00",
+     "description": "With this tier you\u0027ll receive the monthly generation 1 Pokemon cross stitch pattern and a monthly request for a custom cross stitch pattern (up to 8 inches by 8 inches in size). Plus you\u0027ll get access to my subscriber-only discord room, and early access patterns available to test stitchers!\u00a0",
+     "discord_role_ids": [
+      "210121855837667329"
+     ],
+     "edited_at": "2018-04-29T12:19:08.753968+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-29T12:19:08.744270+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pokemon \u0026 Custom Patterns!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=449627\u0026rid=973347",
+     "user_limit": null
+    },
+    "id": "973347",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1400,
+     "amount_cents": 1400,
+     "created_at": "2016-10-27T21:21:35+00:00",
+     "description": "With this tier you\u0027ll receive the monthly Patreon exclusive cross stitch pattern and a monthly request for a custom cross stitch pattern (up to 8 inches by 8 inches in size). Plus you\u0027ll get access to my subscriber-only discord room, and early access patterns available to test stitchers!\u00a0",
+     "discord_role_ids": [
+      "210121855837667329"
+     ],
+     "edited_at": "2018-04-29T12:18:57.664655+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-29T12:18:57.657421+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Exclusive \u0026 Custom Patterns!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=449627\u0026rid=973355",
+     "user_limit": null
+    },
+    "id": "973355",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1700,
+     "amount_cents": 1700,
+     "created_at": "2016-10-27T21:21:35+00:00",
+     "description": "With this tier you\u0027ll receive all the above listed rewards! 1) monthly generation 1 Pokemon cross stitch patterns. 2) monthly patron exclusive cross stitch patterns. 3) monthly request for a custom cross stitch pattern (up to 8 inches by 8 inches in size). 4) Access to my subscriber-only discord room, and early access patterns available to test stitchers!\u00a0",
+     "discord_role_ids": [
+      "210121855837667329"
+     ],
+     "edited_at": "2018-04-29T12:18:47.428816+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-29T12:18:47.421863+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "All The Patterns!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=449627\u0026rid=646066",
+     "user_limit": null
+    },
+    "id": "646066",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-27T21:21:35+00:00",
+     "description": "I hope you like surprises, because I will be sending you a gift box full of goodies! Items may include, but are not limited to: finished creations from me, cross stitch kits, my favorite snacks, and fun collectables! You\u0027ll also get access to my subscriber-only discord room, and early access patterns available to test stitchers!\u00a0",
+     "discord_role_ids": [
+      "210121855837667329"
+     ],
+     "edited_at": "2018-04-29T12:18:36.689507+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-29T12:18:36.682110+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Special Gift Box!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=449627\u0026rid=646079",
+     "user_limit": 5
+    },
+    "id": "646079",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 100,
+     "created_at": "2016-08-03T18:46:48+00:00",
+     "description": "Etsy fees are no joke! This campaign focuses on helping me contend with those fees. \u00a0With your help 8 Bit Stitch will be up to date with the patterns and products you love!",
+     "reached_at": "2016-08-05T00:30:26+00:00",
+     "title": ""
+    },
+    "id": "501649",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2016-08-03T18:46:48+00:00",
+     "description": "This campaign focuses on cover Etsy fees, cost of supplies, and the cost of having extra BTTV emotes in my Twitch channel.",
+     "reached_at": "2017-02-10T19:16:59+00:00",
+     "title": ""
+    },
+    "id": "501650",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 12,
+     "created_at": "2016-08-03T18:46:48+00:00",
+     "description": "Let\u0027s build a stream room! Who doesn\u0027t want their dream craft room to become a reality?! \u00a0This campaign will focus on the creation of my own crafting/stream room. \u00a0I would love for this to not only include the cross stitch and crochet that you are used to, but incorporate my machine sewing into my streaming as well!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "501651",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 6,
+     "created_at": "2016-08-03T18:46:48+00:00",
+     "description": "Doing this as a full time job would be a dream come true. \u00a0This campaign focuses on the monthly income I would need to do crafting and Twitch full time!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "501652",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 63,
+     "created_at": "2017-02-11T00:05:47+00:00",
+     "description": "We have Etsy fees covered! This goal will also cover monthly supplies, the cost of extra emotes per month, and the cost of my P.O. Box. \u00a0This means I can load up on even more supplies for even more giveaways!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "713127",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 25,
+     "created_at": "2017-02-11T00:09:27+00:00",
+     "description": "New equipment is needed for my new streaming computer. This tier will add in the cost of new equipment on top of Etsy fees, P.O. Box fees, and supplies for giveaways!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "713131",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2017-12-11T16:11:32+00:00",
+     "description": "This campaign focuses on covering Etsy fees and supplies needed each month to make new projects!",
+     "reached_at": "2018-01-02T15:53:48+00:00",
+     "title": ""
+    },
+    "id": "1046615",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/449627"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ba5eecc8-dc36-42ee-8328-274260174963",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "kwarning is creating cross stitch patterns"
+});
+    </script>

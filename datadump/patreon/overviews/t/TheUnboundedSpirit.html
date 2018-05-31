@@ -1,0 +1,431 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "1xlcxq28z9iTrCm_m_aSzpsEkBhGWVA1y9hmbfSqg9s";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "150109",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/150109"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-02-24T16:21:20+00:00",
+    "creation_name": "mind-expanding articles",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/303330/39319131a6a44f8885e248e4fb51be76?token-time=2145916800\u0026token-hash=3EVBwfV0mfj-R-wEyNPaR6nUsV7i37o7rcJsSESKAnU%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/303330/39319131a6a44f8885e248e4fb51be76?token-time=2145916800\u0026token-hash=ybN2Ic95KTK1QX5Fx4IVZjtqeUYMzEubCDMVV-TH-D4%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 16,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=303330",
+    "published_at": "2016-03-30T19:01:13+00:00",
+    "summary": "I created\u00a0\u003ca href=\"https://theunboundedspirit.com/\"\u003e\u003cstrong\u003e\u003cem\u003eThe Unbounded Spirit\u003c/em\u003e\u003c/strong\u003e\u003c/a\u003e to I write about things that\nmatter. So far I\u2019ve published hundreds of original, long, in-depth\narticles, which have been viewed tens of millions of times and have inspired men\nand women from around the globe to make positive change in their lives and the\nworld. \u003cbr\u003e\u003cbr\u003e\u003cem\u003eThe Unbounded Spirit is\u003c/em\u003e\u00a0my labor of love and I offer it freely as a gift to the world. However, as you can understand, maintaining the site is quite financially burdensome, so if you appreciate my work, please\nconsider supporting me with a donation of any amount \u2014 even a tiny contribution\ncan help make a big positive difference. I\u0027ve chosen some great rewards, so\nbesides helping in my cause, you\u0027ll get something personal out of it. \n\u003cbr\u003e\n\u003cbr\u003e\nMy deepest thanks for any support you can offer.\n\u003cbr\u003e\u003cbr\u003e\u2014Sofo\u003cbr\u003e"
+   },
+   "id": "303330",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2931695",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2931695"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "716818",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-303330",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-303330"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1404170",
+       "type": "reward"
+      },
+      {
+       "id": "1404180",
+       "type": "reward"
+      },
+      {
+       "id": "1404181",
+       "type": "reward"
+      },
+      {
+       "id": "1404200",
+       "type": "reward"
+      },
+      {
+       "id": "1404207",
+       "type": "reward"
+      },
+      {
+       "id": "1404216",
+       "type": "reward"
+      },
+      {
+       "id": "1404217",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-02-24T16:15:13+00:00",
+     "facebook": "https://www.facebook.com/TheUnboundedSpirit/",
+     "first_name": "The",
+     "full_name": "The Unbounded Spirit",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/2931695/c1ca4f231e284734bf9533bcbb67c5d0?token-time=2145916800\u0026token-hash=k4RmfonUhmXLBoJBfH9zhqwEvS2es51dAy9HL_xYzQM%3D",
+     "last_name": "Unbounded Spirit",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2931695/c1ca4f231e284734bf9533bcbb67c5d0?token-time=2145916800\u0026token-hash=6eyXgSKQ7yMfT1Iw9VSxDg_XEgJSpu5s5FOi7ECI5pE%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/TheUnboundedSpirit",
+     "vanity": "TheUnboundedSpirit",
+     "youtube": null
+    },
+    "id": "2931695",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "303330",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/303330"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 8,
+     "upgrade_url": "/bePatron?c=303330\u0026rid=1404180"
+    },
+    "id": "post-aggregation-for-0-303330",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-02-14T14:37:04.047515+00:00",
+     "description": "Never doubt the impact a small act of giving can have! At just 3\u00a2 a day, you help me dedicate more of my time and energy on writing about things that actually matter and this way you contribute your part in creating a more beautiful world. At this level, you\u0027ll \u003cstrong\u003eget access to my Patreon-only feed\u003c/strong\u003e.",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-28T08:04:28.397869+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-14T14:38:20.821289+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Make a Difference!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=303330\u0026rid=1404170"
+    },
+    "id": "1404170",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-02-14T14:42:14.029336+00:00",
+     "description": "Believe it or not, a five is tremendously beneficial! At just 17\u00a2 a day, your pledge will add up to a very meaningful amount over the course of a year that will help me spend more of my time writing new, empowering content. At this level, \u003cstrong\u003eI\u0027ll send you a list of 10 books I highly recommend\u003c/strong\u003e - not just any books, but the most consciousness-shifting ones I\u2019ve ever read.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0\u003cem\u003e\u003cstrong\u003e\u25ba Plus you get access to my Patreon-only feed.\u003c/strong\u003e\u003c/em\u003e \u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-10T15:15:44.869621+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-02-14T14:42:14.029336+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "A High-Five of Generosity",
+     "unpublished_at": null,
+     "url": "/bePatron?c=303330\u0026rid=1404180"
+    },
+    "id": "1404180",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-02-14T14:43:19.413936+00:00",
+     "description": "A five is good, but a double-five is so much better! At just 33\u00a2 a day, you help me cover 7 days of hosting fees every month. This might not seem like a lot, but it actually does wonders to keep me focused on producing more high-quality, truth-revealing blog posts. At this level, I\u0027ll give you a \u003cstrong\u003eshout-out on Facebook\u003c/strong\u003e as a way to thank you for your support.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0\u003cem\u003e\u003cstrong\u003e\u25ba \u003c/strong\u003e\u003c/em\u003e\u00a0\u003cem\u003e\u003cstrong\u003ePlus you get my top 10 book recommendations, and access to my Patreon-only feed.\u003c/strong\u003e\u003c/em\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-10T15:15:44.889586+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-02-14T14:43:19.413936+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "10 Points for Truth!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=303330\u0026rid=1404181"
+    },
+    "id": "1404181",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-02-14T14:57:25.136406+00:00",
+     "description": "Wow, you amaze me! At just 67\u00a2 a day, you help me cover half of my monthly hosting expenses. This takes a weight off of my shoulders and gives me extra freedom to create even better and longer blog posts. At this level, you will join my \u201cinner circle,\" which means that every couple of months \u003cstrong\u003eyou\u0027ll receive a list of the most worth-sharing content that I come across during my research\u003c/strong\u003e.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0\u00a0\u003cem\u003e\u003cstrong\u003e\u25ba \u003c/strong\u003e\u003c/em\u003e\u00a0\u003cem\u003e\u003cstrong\u003ePlus you get a shout-out on Facebook, my top 10 book recommendations, and access to my Patreon-only feed.\u003c/strong\u003e\u003c/em\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-28T08:08:20.670590+00:00",
+     "image_url": null,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2017-02-14T14:57:25.136406+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Say a Big YES to Freedom!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=303330\u0026rid=1404200"
+    },
+    "id": "1404200",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-02-14T14:59:42.229991+00:00",
+     "description": "I\u2019m serious \u2013 you are incredible! At just $1.67 a day, you help me cover my hosting fees for an entire month (over the course of a year). This ensures that the blog can keep going for much longer and makes me want to continue producing more frequent, in-depth original content as an expression of gratitude for all your warm support. At this level, you will be able to \u003cstrong\u003eask me a question related to writting, blogging or self-improvement, \u003c/strong\u003eand I\u2019ll answer it to the best of my knowledge in written form.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003e\u25ba Plus you get an invitation to join my \"inner circle,\" a shout-out on Facebook, my top 10 book recommendations, and access to my Patreon-only feed.\u003c/strong\u003e\u003c/em\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-10T15:15:44.934906+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-02-14T14:59:42.229991+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Incredible Giver",
+     "unpublished_at": null,
+     "url": "/bePatron?c=303330\u0026rid=1404207"
+    },
+    "id": "1404207",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-02-14T15:01:17.449969+00:00",
+     "description": "I can\u0027t believe this! You\u2019re changing lives! At just $3.33 a day, you help me cover my monthly hosting and newsletter fees (over the course of a year). This will enable me to write the best content that I can on a regular basis. At this level, \u003cstrong\u003eI\u2019ll give you a thoughtful written personal advice every single month on\u003c/strong\u003e \u003cstrong\u003ea psychological concern you\u0027d like help with\u003c/strong\u003e. Although I hold a Psychology degree, I don\u2019t consider myself a coach and I\u2019m certainly not a psychotherapist, but I\u2019ll do my best to help you if I can.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0\u00a0\u003cem\u003e\u003cstrong\u003e\u25ba Plus you get an answer to a question of yours related to writting, blogging or self-improvement, an invitation to join my \"inner circle,\" a shout-out on Facebook, my top 10 book recommendations, and access to my Patreon-only feed.\u003c/strong\u003e\u003c/em\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-10T15:15:44.956193+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-02-14T15:01:17.449969+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Is This For Real?",
+     "unpublished_at": null,
+     "url": "/bePatron?c=303330\u0026rid=1404216"
+    },
+    "id": "1404216",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2017-02-14T15:01:57.001251+00:00",
+     "description": "You\u0027re officially spreading the message of love! At $8,3 a day, you help me cover all of TUS\u2019s basic costs and hire a professional web developer that will do all the dirty work the site needs. This will ensure that TUS is always in the best state possible and without experiencing any downtime. More importantly, you help me work full-time on the blog researching and crafting mind-expanding content that makes a difference in millions of people\u2019s lives. At this level, \u003cstrong\u003ethere is no extra reward that can express my gratitude for your big heart, but you\u0027ll get a huge THANK YOU from the depths of my being.\u003c/strong\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0\u00a0\u003cem\u003e\u003cstrong\u003e\u25ba Plus you get my monthly advice on a psychological concern you\u0027d like help with, an answer to a question of yours related to writting, blogging or self-improvement, an invitation to join my \"inner circle,\" a shout-out on Facebook, my top 10 book recommendations, and access to my Patreon-only feed.\u003c/strong\u003e\u003c/em\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-10T15:15:44.978288+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-14T15:01:57.001251+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fuel the Love Revolution!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=303330\u0026rid=1404217"
+    },
+    "id": "1404217",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 3,
+     "created_at": "2017-02-14T15:33:12+00:00",
+     "description": "Any funding I raise on Patreon is hugely helpful, but this is\nthe goal that would allow me to keep\u00a0\u003ca href=\"http://theunboundedspirit.com\" target=\"_blank\"\u003e\u003cem\u003eThe Unbounded Spirit\u003c/em\u003e\u003c/a\u003e going for a long time. \u003cbr\u003e\u003cbr\u003eHitting the goal would enable me to:\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e- Pay for hosting\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e- Pay for newsletter service\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e- Hire a web developer\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e- Create new, high-quality content on a regular basis\u003c/strong\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "716818",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/303330"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "b24870a9-b931-44e8-ac68-474d81c1a167",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "The Unbounded Spirit is creating mind-expanding articles"
+});
+    </script>

@@ -1,0 +1,479 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "yXmmHV7S4YyYnAlKApJa-3SNBYKQjCp1BfQiLFkYj4E";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "39182",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/39182"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-10-21T20:10:58+00:00",
+    "creation_name": "a speculative fiction magazine",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/119900/87ed7ddd9009448f99eec37133246232?token-time=2145916800\u0026token-hash=4vVZvADZpW-EcSIgkKx_k1TeVzH_srO9SGqJcN9BkH8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/119900/87ed7ddd9009448f99eec37133246232?token-time=2145916800\u0026token-hash=ufUpXGV2U79r62LrpDV5vtuZHXJp5IZIgrL6aMBjjCQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "I publish science fiction and fantasy, and provide the Submission Grinder tool for writers.",
+    "patron_count": 18,
+    "pay_per_name": "month",
+    "pledge_sum": 3862,
+    "pledge_url": "/bePatron?c=119900",
+    "published_at": "2015-03-21T03:40:55+00:00",
+    "summary": "I am publishing monthly fiction by both new and established authors, chosen from anonymous slushpile so that only the quality of the story is a factor. \u00a0No authors are solicited just for their marketing draw, their stories have to stand for themselves.\u003cbr\u003e\u003cbr\u003eI would love to make this an ongoing publication. \u00a0I would love to publish more stories and/or longer stories. \u00a0I would love to expand to other formats, especially to podcast fiction. \u00a0I am a voracious consumer of podcast fiction--you can share my enjoyment with the\u00a0\u003ca href=\"http://www.diabolicalplots.com/category/the-best-of/\" rel=\"nofollow\" target=\"_blank\"\u003eBest Of podcast lists\u00a0\u003c/a\u003eI have posted to the site since 2009 on Diabolical Plots.\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "119900",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "352962",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/352962"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "76314",
+       "type": "goal"
+      },
+      {
+       "id": "140861",
+       "type": "goal"
+      },
+      {
+       "id": "140862",
+       "type": "goal"
+      },
+      {
+       "id": "140863",
+       "type": "goal"
+      },
+      {
+       "id": "140864",
+       "type": "goal"
+      },
+      {
+       "id": "140865",
+       "type": "goal"
+      },
+      {
+       "id": "144889",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-119900",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-119900"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "182535",
+       "type": "reward"
+      },
+      {
+       "id": "182536",
+       "type": "reward"
+      },
+      {
+       "id": "182537",
+       "type": "reward"
+      },
+      {
+       "id": "182538",
+       "type": "reward"
+      },
+      {
+       "id": "187790",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Diabolical Plots has been publishing nonfiction since 2008, reviews and interviews, best of podcast lists, con reports, and such.  In 2013, we expanded to offer the Submission Grinder, a tool for writers to find new markets, to learn response times of markets, and to track their own submissions.  In 2015 we are expanding into exciting new territory: publishing original fiction. \u00a0 The first story is already published,\u00a0\u003ca href=\"http://www.diabolicalplots.com/dp-fiction-1-taste-the-whip-by-andy-dudak/\" target=\"_blank\"\u003e\"Taste the Whip\" by Andy Dudak\u003c/a\u003e.\u003cbr\u003e\u003cbr\u003eIf you like what we publish, or you like what the Submission Grinder does, please consider donating either through Patreon or PayPal.  One-time donations are great, but recurring donations are more important \u00a0At the start of this campaign we have enough recurring PayPal donations to balance our hosting costs, but not to balance the costs of publishing fiction or to pursue bigger and better things.\u003cbr\u003e\u003cbr\u003eOur first goal is to reach a level where we can sustain the publication rate we are publishing now. \u00a0Other goals will expand that fiction in volume and in formats--expanding to a podcast and ebooks as the levels go up.\u003cbr\u003e\u003cbr\u003eWe are still working on \u00a0goals and donation incentives.  Feel free to suggest any that we might be able to provide.  Thanks so much.",
+     "created": "2014-10-21T20:10:58+00:00",
+     "facebook": null,
+     "first_name": "Diabolical",
+     "full_name": "Diabolical Plots",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/352962/0b9d630074714c60b68ef157078a3cfd?token-time=2145916800\u0026token-hash=r9ZEAVmNjQTnSuAq5y2c8i1NbEVWYVN2RpuZIvDkQEs%3D",
+     "last_name": "Plots",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/352962/0b9d630074714c60b68ef157078a3cfd?token-time=2145916800\u0026token-hash=KrM4fY0qKFv0n21QTmBKK8Ps91VYzoiSkGjJr4n3xn4%3D",
+     "twitch": null,
+     "twitter": "diabolicalplots",
+     "url": "https://www.patreon.com/diabolicalplots",
+     "vanity": "diabolicalplots",
+     "youtube": null
+    },
+    "id": "352962",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "119900",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/119900"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 2,
+     "upgrade_url": "/bePatron?c=119900\u0026rid=182535"
+    },
+    "id": "post-aggregation-for-0-119900",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-03-21T03:39:25+00:00",
+     "description": "After 12 months at this level, we\u0027ll list you as a Diabolical Plots donor on the supporter page of the Diabolical Plots and Grinder sites. \u00a0After 25 months, we will list you as a Lab Assistant. \u00a0After 50 months, we will list you as Mad Scientist. \u00a0After 100 months, we will list you as a Robot Overlord.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2015-03-21T03:39:25+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=119900\u0026rid=182535",
+     "user_limit": null
+    },
+    "id": "182535",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2015-03-21T03:39:25+00:00",
+     "description": "After 6 months at this level, we\u0027ll list you as a Diabolical Plots donor on the supporter page of the Diabolical Plots and Grinder sites.  After 12 months, we will list you as a Lab Assistant.  After 25 months, we will list you as Mad Scientist.  After 50 months, we will list you as a Robot Overlord.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-03-21T03:39:25+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=119900\u0026rid=182536",
+     "user_limit": null
+    },
+    "id": "182536",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2015-03-21T03:39:25+00:00",
+     "description": "Once the $60 goal is reached, donors at this level will get to read the stories a week before the public.\u003cbr\u003eAfter 4 months at this level, we\u0027ll list you as a Diabolical Plots donor on the supporter page of the Diabolical Plots and Grinder sites. After 9 months, we will list you as a Lab Assistant. After 17 months, we will list you as Mad Scientist. After 34 months, we will list you as a Robot Overlord.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-03-21T03:39:25+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=119900\u0026rid=182537",
+     "user_limit": null
+    },
+    "id": "182537",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2015-03-21T03:39:25+00:00",
+     "description": "Once the $60 goal is reached, donors at this level will get to read the stories a week before the public.\u003cbr\u003eAfter 3 months at this level, we\u0027ll list you as a Diabolical Plots donor on the supporter page of the Diabolical Plots and Grinder sites. After 7 months, we will list you as a Lab Assistant. After 12 months, we will list you as Mad Scientist. After 25 months, we will list you as a Robot Overlord.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-03-21T03:39:25+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=119900\u0026rid=182538",
+     "user_limit": null
+    },
+    "id": "182538",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-03-29T04:15:28+00:00",
+     "description": "Once the $60 goal is reached, donors at this level will get to read the stories a week before the public.\u003cbr\u003eOnce the $550 goal is reached, donors at this level will get ebook copies.\u003cbr\u003eAfter 2 months at this level, we\u0027ll list you as a Diabolical Plots donor on the supporter page of the Diabolical Plots and Grinder sites. After 5 months, we will list you as a Lab Assistant. After 10 months, we will list you as Mad Scientist. After 20 months, we will list you as a Robot Overlord.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2015-03-29T04:15:28+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=119900\u0026rid=187790",
+     "user_limit": null
+    },
+    "id": "187790",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 14000,
+     "completed_percentage": 27,
+     "created_at": "2014-10-23T18:41:03+00:00",
+     "description": "For this level of funding, we can cover our fiction costs at the rate we\u0027re publishing now. \u00a0If we can\u0027t reach this goal, we won\u0027t be able to keep publishing indefinitely.",
+     "reached_at": null,
+     "title": "2000 words/month"
+    },
+    "id": "76314",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 19,
+     "created_at": "2015-03-21T03:25:59+00:00",
+     "description": "For this level of funding, we will produce audio production of episodes, making us accessible to a wider audience, vision-impaired and anyone like me who just loves audio fiction.",
+     "reached_at": null,
+     "title": "Podcast"
+    },
+    "id": "140861",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 9,
+     "created_at": "2015-03-21T03:25:59+00:00",
+     "description": "For this level of funding, we will publish 4000 words of fiction a month, either as longer stories or multiple shorter stories",
+     "reached_at": null,
+     "title": "4000 words/month"
+    },
+    "id": "140862",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 7,
+     "created_at": "2015-03-21T03:25:59+00:00",
+     "description": "For this level of funding we will start soliciting original artwork for each month",
+     "reached_at": null,
+     "title": "Art"
+    },
+    "id": "140863",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 55000,
+     "completed_percentage": 7,
+     "created_at": "2015-03-21T03:25:59+00:00",
+     "description": "For this level of funding we will produce ebook editions.",
+     "reached_at": null,
+     "title": "Ebook Edition"
+    },
+    "id": "140864",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 70000,
+     "completed_percentage": 5,
+     "created_at": "2015-03-21T03:25:59+00:00",
+     "description": "For this level of funding we will publish 6000 words of original fiction a month",
+     "reached_at": null,
+     "title": "6000 words/month"
+    },
+    "id": "140865",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 6000,
+     "completed_percentage": 64,
+     "created_at": "2015-03-29T04:17:04+00:00",
+     "description": "At this level, can publish 1000 words of fiction per month indefinitely.",
+     "reached_at": null,
+     "title": "1000 words/month"
+    },
+    "id": "144889",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/119900"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ba00a6e7-9a9d-425e-becc-113e53928397",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Diabolical Plots is creating a speculative fiction magazine"
+});
+    </script>

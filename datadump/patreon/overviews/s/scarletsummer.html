@@ -1,0 +1,492 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "LMDRDPKpKo5_01qLQiSbuROYns0Y0SkR-T75oRr66GM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "614816",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/614816"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-10-22T00:53:04+00:00",
+    "creation_name": "SFW \u0026 NSFW photography and videos ",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1286442/fd830987dbd048148e19d5255fa7b5c1?token-time=2145916800\u0026token-hash=yZMXsri91Lg3ZxYlx5CySlnNhE_UlAQwTjbkjjTs0s4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1286442/fd830987dbd048148e19d5255fa7b5c1?token-time=2145916800\u0026token-hash=Rm-_7W2eJEISbOcRCpdnCBxI8laxMjSP68qVI-eHtOI%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 9,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1286442",
+    "published_at": "2017-10-26T19:13:46+00:00",
+    "summary": "Hello there ! First of all I just want to say thank you for checking out my Patreon! My name is Scarlet Summer, I\u0027m a webcam model on mfc; and in my spare time I do alternative modelling! My passion for adventure is accompanied by a love for tattoos \u0026amp; a desire to take awesome photos of the beauty around me ! I do a lot of nude \u0026amp; implied modelling and felt this is the best possible platform to share it with y\u0027all ! Having a subscription to my Patreon will grant you access to a world of fun photos, videos, poems, paintings and short stories I have in store for you all ! The majority of my photos and videos are NSFW, including my premium snap which you can gain access to through one of my tiers! My poems, paintings, and short stories will mainly consist of erotic imagery, through drawing or words I promise I\u0027ll keep you captivated. I put a lot of hard work into my passion and I hope you enjoy my content !\u00a0"
+   },
+   "id": "1286442",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8155670",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8155670"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "45656",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1286442",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1286442"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2105106",
+       "type": "reward"
+      },
+      {
+       "id": "2485971",
+       "type": "reward"
+      },
+      {
+       "id": "2105120",
+       "type": "reward"
+      },
+      {
+       "id": "2120606",
+       "type": "reward"
+      },
+      {
+       "id": "2105133",
+       "type": "reward"
+      },
+      {
+       "id": "2433647",
+       "type": "reward"
+      },
+      {
+       "id": "2433663",
+       "type": "reward"
+      },
+      {
+       "id": "2120610",
+       "type": "reward"
+      },
+      {
+       "id": "2433678",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-10-22T00:52:55+00:00",
+     "facebook": "https://www.facebook.com/scarletsummersuicide",
+     "first_name": "Scarlet",
+     "full_name": "Scarlet Summer",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/8155670/fd31fa050dc049ef88c7aa07fab5213f?token-time=2145916800\u0026token-hash=AYvzmDmG1QOd2P7ZJBa3KckGP-D4S7i3mpJs3txmglU%3D",
+     "last_name": "Summer",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/8155670/fd31fa050dc049ef88c7aa07fab5213f?token-time=2145916800\u0026token-hash=rDl_hJtiDzVOG3sI_ND3oM5fR8k3RZev-qAwSLoXMGA%3D",
+     "twitch": null,
+     "twitter": "scarletsummerxx",
+     "url": "https://www.patreon.com/scarletsummer",
+     "vanity": "scarletsummer",
+     "youtube": null
+    },
+    "id": "8155670",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1286442",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1286442"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 37,
+     "upgrade_url": "/bePatron?c=1286442\u0026rid=2105106"
+    },
+    "id": "post-aggregation-for-0-1286442",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-10-26T18:56:42.217062+00:00",
+     "description": "Exclusive SFW content, access to my patron-only posts, behind the scenes of my photo sets, costumes, and videos! See photos I never post on my social media and selfies! Ill also always make sure to drop the links to all my youtube videos and other content ! Ill be posting photo sets here before theyre published on IG\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-09T05:50:43.564138+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2105106/e2a953ca085c42daa09c226d8cf240dc?token-time=2145916800\u0026token-hash=9BydzRbAPMQHc9Ykv9J3Szqgud8zfZweUQLI5lgMXjs%3D",
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-09T05:50:43.557179+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Scarlet Garnet",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1286442\u0026rid=2105106"
+    },
+    "id": "2105106",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-03-30T03:26:26.723379+00:00",
+     "description": "Recieve a monthly nsfw polaroid\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-30T03:26:26.723379+00:00",
+     "image_url": null,
+     "post_count": 18,
+     "published": true,
+     "published_at": "2018-03-30T03:26:26.723379+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Scarlet Pearl",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1286442\u0026rid=2485971"
+    },
+    "id": "2485971",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-10-26T19:00:17.453985+00:00",
+     "description": "Exclusive NSFW Selfies and Professional Photos ! All the fun topless photos I can\u0027t post on Instagram here for your eyes only! Can you believe it? This deal will also include everything in the tier above:) You finally get to see my tattooed nipples!",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-30T03:25:32.943316+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2105120/7417a85c22ce46d3adfdcb6ce962561a?token-time=2145916800\u0026token-hash=TqfesgiuqW6Ze5gwM5nYbswda_0L61KwrR9Y7Rq_2A0%3D",
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-30T03:25:32.935390+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Scarlet Amethyst ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1286442\u0026rid=2105120"
+    },
+    "id": "2105120",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-11-02T05:37:53.027948+00:00",
+     "description": "Here lies my fully nude photos, all the below the belt action you dream of. Are you tired of instagram constantly censoring photos ? ya me too, check out this tier for all that uncensored content !\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-09T05:55:50.202852+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2120606/e7f501079f274841990bf5ace69a17d5?token-time=2145916800\u0026token-hash=HNU8fpFdxChShGuJRKNhr_pf7KsV8g4MMzwm4z1nJxo%3D",
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-03-09T05:55:50.195727+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Scarlet Diamond",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1286442\u0026rid=2120606"
+    },
+    "id": "2120606",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-10-26T19:04:18.462018+00:00",
+     "description": "YES THE GOLDEN TICKET. You\u0027ve unlocked my premium snapchat with this tier! Experience a wild XXX ride of photos, \u00a0videos and more! I\u0027m always getting more creative!Ill take you on and adventure of shower shows, dancing, dildo play, b/g shows and beyond. On there you will be able to communicate special requests and ideas for future sets swell ! Everything in the prior tiers will obviously be included ! :)\n\u003cp\u003eBUT HEADS UP, you will not be added to this feature until your payment is accepted on the 1st of the next month. I aint giving this away for free kiddes.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-09T05:58:08.749179+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2105133/2499bf1fc8304948905cec111862d9db?token-time=2145916800\u0026token-hash=b-iFrLZ8TiQ1wiKIniKLRUMwz_98i4pxVQr4f7BIsn4%3D",
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-09T05:58:08.741598+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Scarlet Platinum",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1286442\u0026rid=2105133"
+    },
+    "id": "2105133",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-03-09T05:59:38.682045+00:00",
+     "description": "Hello to all my foot lovers, here i will link you to my drop box album of all my cute lil toe pics n such. Did I mention you also get a pair of my socks in the mail every month ? ASWELL as everything included above !\n\u003cp\u003eItems will be shipped out upon receiving payment\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-09T06:02:49.760851+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-09T06:02:49.753914+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Scarlet Emerald",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1286442\u0026rid=2433647"
+    },
+    "id": "2433647",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2018-03-09T06:07:50.873259+00:00",
+     "description": "Who doesnt love panties? Here you can pledge to receive a pair of my sweet little shorts every month. I\u0027ll provide a polaroid photo of me wearing the underwear in the package aswell before i ship em off all zip locked up ;)\u00a0\n\u003cp\u003eyou also receive access to all content listed above !\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-09T06:07:50.873259+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-09T06:07:50.873259+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Scarlet Sapphire",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1286442\u0026rid=2433663"
+    },
+    "id": "2433663",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-11-02T05:41:11.241843+00:00",
+     "description": "The tier of all tiers ! Here you will receive my monthly surprise gift boxes ! Some of the mandatory items include, polaroids, candy and letters! Each box will have a bundle of both my socks and underwear, OR you can request two of one item ! This tier also gets you MASSIVE discounts on all of my other online content",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-09T06:13:01.741442+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2120610/c5e59ada394b462285671f0dab778014?token-time=2145916800\u0026token-hash=elx5f1pWJHkRs6oVtAP-2GfyPnbsqHC6-_P9-6XbVmw%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-09T06:13:01.734116+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Scarlet Ruby",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1286442\u0026rid=2120610"
+    },
+    "id": "2120610",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2018-03-09T06:14:21.075455+00:00",
+     "description": "Photos just for you \u0026amp; only you, all content posted here will only be viewable by this tier. OOH, how much kinky shit are you missing out on?",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-09T06:15:02.473245+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-09T06:15:02.460291+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Scarlet Citrine",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1286442\u0026rid=2433678"
+    },
+    "id": "2433678",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-10-26T18:20:43+00:00",
+     "deleted_at": null,
+     "description": "When I have 50 patrons Ill mail each of you a hand signed NSFW print with a cute little note!\u00a0",
+     "goal_text": "When I have 50 patrons Ill mail each of you a hand signed NSFW print with a cute little note!\u00a0",
+     "number_patrons": 50,
+     "reached_at": null
+    },
+    "id": "45656",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1286442"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "83c339a2-6b77-48ea-94c7-e78c42882967",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Scarlet Summer is creating SFW \u0026 NSFW photography and videos "
+});
+    </script>

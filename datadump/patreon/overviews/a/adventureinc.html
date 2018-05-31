@@ -1,0 +1,575 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "mPt2MZNqcncfUUydEhZQc5RPmoDuKGE1b_lNaxFqO88";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "861682",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/861682"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-03-24T05:46:59+00:00",
+    "creation_name": "Actual Play D\u0026D 5e Podcasts",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1633705/752db23ee115421ca154c51cd1972fba?token-time=2145916800\u0026token-hash=wej7vHEox-M80udPIOZFpbsaeoMww6YkkPv7k1If7xQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1633705/752db23ee115421ca154c51cd1972fba?token-time=2145916800\u0026token-hash=Uvfce8mP7nYDI6lhMqeUtu0WgOSaQ7cQ0bvNEYdCV5I%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 16,
+    "pay_per_name": "month",
+    "pledge_sum": 12922,
+    "pledge_url": "/bePatron?c=1633705",
+    "published_at": "2018-04-01T17:47:11+00:00",
+    "summary": "We want to thank you so much for coming to be a part of this show! If you get value out of Adventure Incorporated, we hope you\u0027ll give a little value back. In addition to our gratitude, you could unlock a number of exciting options from short stories, to extra episodes, to a personal D\u0026amp;D experience. Together, as a community, we can make some amazing things happen; like switching to a live stream format or starting a live show tour around the country. There is no limit to where the show can go if we come together. We are committed to creating value for you when you donate money to the show. We know there are a lot of D\u0026amp;D podcasts out there, we are glad you\u0027ve come to be part of ours."
+   },
+   "id": "1633705",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "10383583",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/10383583"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1150069",
+       "type": "goal"
+      },
+      {
+       "id": "1150070",
+       "type": "goal"
+      },
+      {
+       "id": "1150071",
+       "type": "goal"
+      },
+      {
+       "id": "1150072",
+       "type": "goal"
+      },
+      {
+       "id": "1150073",
+       "type": "goal"
+      },
+      {
+       "id": "1150074",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1633705",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1633705"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2470849",
+       "type": "reward"
+      },
+      {
+       "id": "2470850",
+       "type": "reward"
+      },
+      {
+       "id": "2470853",
+       "type": "reward"
+      },
+      {
+       "id": "2470855",
+       "type": "reward"
+      },
+      {
+       "id": "2470858",
+       "type": "reward"
+      },
+      {
+       "id": "2470860",
+       "type": "reward"
+      },
+      {
+       "id": "2470863",
+       "type": "reward"
+      },
+      {
+       "id": "2470866",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2018-03-24T05:46:48+00:00",
+     "facebook": "https://www.facebook.com/adventureincpodcast",
+     "first_name": "Adventure",
+     "full_name": "Adventure Incorporated",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/10383583/1d6e4454c0414b0081de04a9e268d861?token-time=2145916800\u0026token-hash=pqJvMnfDboyVkf2U22CPJx99r30y3KzQsjmw3ZF7tqM%3D",
+     "last_name": "Incorporated",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/10383583/1d6e4454c0414b0081de04a9e268d861?token-time=2145916800\u0026token-hash=ifPIgfGmoFqW-kWd3veuiaMyTg60f_WZZn4RKE_-1Ow%3D",
+     "twitch": "https://www.twitch.tv/adventureincorporated",
+     "twitter": "adventureincpod",
+     "url": "https://www.patreon.com/adventureinc",
+     "vanity": "adventureinc",
+     "youtube": "https://www.youtube.com/channel/UCEUo8nhd9_9Z-QlWBMAxQGg"
+    },
+    "id": "10383583",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1633705",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1633705"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 10,
+     "upgrade_url": "/bePatron?c=1633705\u0026rid=2470850"
+    },
+    "id": "post-aggregation-for-0-1633705",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-03-24T05:54:06.582203+00:00",
+     "description": "\u00a0You get special flair and gain access to the Patrons Only channel on our Discord along with the Adventure Incorporated crew! (Most of them, some are slow adopters.) (Note: Inappropriate or offensive behavior towards other backers in the chat will be grounds for immediate removal without refund.)\u00a0",
+     "discord_role_ids": [
+      "426984309094744065"
+     ],
+     "edited_at": "2018-03-24T06:06:38.584192+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-24T06:06:38.550259+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Goblin",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1633705\u0026rid=2470849",
+     "user_limit": null
+    },
+    "id": "2470849",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-03-24T05:54:36.385028+00:00",
+     "description": "Each month, a new short story will be published. The short story will be exclusive to patrons for at least six months, then they will eventually be released in collections. Each short story will be an in canon story exploring some of the fringes of the Many Pennies\u2019 quests. This extra world building will come from various authors. Additionally, patrons at this level get to see the exclusive handwritten Jennuvera\u2019s Journal; the notes Steph takes during the show. It will be filled with half thoughts, odd drawings, and a fair amount of swearing. Includes previous levels.\u00a0",
+     "discord_role_ids": [
+      "426984309094744065"
+     ],
+     "edited_at": "2018-03-24T06:06:43.872430+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-03-24T06:06:43.841914+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Ogre",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1633705\u0026rid=2470850",
+     "user_limit": null
+    },
+    "id": "2470850",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-03-24T05:54:57.164955+00:00",
+     "description": "Each month we will do a special one-shot, patrons only, episode that will flesh out the world of New Meritta a little bit more. These side stories will feature a rotating cast of Dungeon Masters and frequent special guest players. They will help influence the main story and create background and context for the world. Includes previous levels.\u00a0",
+     "discord_role_ids": [
+      "426984309094744065"
+     ],
+     "edited_at": "2018-03-24T06:06:52.650413+00:00",
+     "image_url": null,
+     "patron_count": 8,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-03-24T06:06:52.622315+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Orc",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1633705\u0026rid=2470853",
+     "user_limit": null
+    },
+    "id": "2470853",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-03-24T05:55:26.436242+00:00",
+     "description": "New Meritta is filled to the brim with all manner of exciting creatures and powerful adventurers. Each month, patrons of this level will receive a number of exciting options for their home Dungeons and Dragons campaigns including new monsters, magic items, classes and subclasses, spells, settings and more! Some of it will be stuff created for the podcast, some will be made specifically for the patrons and to help flesh out the world of New Meritta. Includes previous levels.\u00a0",
+     "discord_role_ids": [
+      "426984309094744065"
+     ],
+     "edited_at": "2018-03-24T06:07:01.445016+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-03-24T06:07:01.415426+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Beholder",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1633705\u0026rid=2470855",
+     "user_limit": null
+    },
+    "id": "2470855",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-03-24T05:55:53.213277+00:00",
+     "description": "As an executive producer of the show you will be part of a quarterly earnings call where we will answer questions in a google hangout. We will show you how much money we\u2019ve made and what we are doing with it to make the podcast better for everyone. Transparency! Accountability! Undoubtedly jokes! Includes previous levels.\u00a0",
+     "discord_role_ids": [
+      "426984309094744065"
+     ],
+     "edited_at": "2018-03-24T06:07:07.307711+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-24T06:07:07.278754+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Lich",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1633705\u0026rid=2470858",
+     "user_limit": null
+    },
+    "id": "2470858",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-03-24T05:56:17.336092+00:00",
+     "description": "You will join other Ancient Dragons in a D\u0026amp;D session with dungeon master Anthony Reed. The actions you take in this session could permanently affect the podcast going forward! Includes previous levels.(Note: Inappropriate or offensive behavior towards other players in your session will be grounds for immediate removal from the session without refund)",
+     "discord_role_ids": [
+      "426984309094744065"
+     ],
+     "edited_at": "2018-03-24T06:07:16.542532+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-24T06:07:16.512239+00:00",
+     "remaining": 7,
+     "requires_shipping": false,
+     "title": "Ancient Dragon",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1633705\u0026rid=2470860",
+     "user_limit": 8
+    },
+    "id": "2470860",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-03-24T05:56:59.827693+00:00",
+     "description": "You will be our one and only sponsor on an episode of the show. You can shout out a project you are working on, or submit a special message to someone else listening to the show. You will get your ad sometime in the following month of episodes and we will e-mail you to let you know when it is coming. Includes previous levels except the Ancient Dragon.\u00a0",
+     "discord_role_ids": [
+      "426984309094744065"
+     ],
+     "edited_at": "2018-03-24T06:07:23.345437+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-24T06:07:23.314695+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "Terrasque",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1633705\u0026rid=2470863",
+     "user_limit": 4
+    },
+    "id": "2470863",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2018-03-24T05:57:36.015036+00:00",
+     "description": "You and up to four of your friends get a private D\u0026amp;D session with dungeon master Anthony Reed. The actions you take in this session could permanently affect the podcast going forward! Includes previous levels except the Ancient Dragon or the Terrasque.\u00a0",
+     "discord_role_ids": [
+      "426984309094744065"
+     ],
+     "edited_at": "2018-03-24T06:07:39.897017+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-24T06:07:39.865543+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Deity",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1633705\u0026rid=2470866",
+     "user_limit": null
+    },
+    "id": "2470866",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 4000,
+     "completed_percentage": 100,
+     "created_at": "2018-03-24T05:59:59+00:00",
+     "description": "\u003cem\u003e\u003cstrong\u003eOverhead -\u00a0\u003c/strong\u003e\u003c/em\u003eThis covers our costs for yearly operation. Between server space, bandwidth, and recording/editing software, this is the cost of doing business.",
+     "reached_at": "2018-04-03T10:25:58+00:00",
+     "title": ""
+    },
+    "id": "1150069",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 86,
+     "created_at": "2018-03-24T05:59:59+00:00",
+     "description": "\u003cstrong\u003e\u003cem\u003eMonthly Tavern Night -\u003c/em\u003e\u003c/strong\u003e At this level, we can make the ADVENTURE MARCH tavern night that was so much fun a regular monthly occurrence. We\u2019ll stream it live on Twitch.tv and release it on the Patreon feed as a bonus episode. It will not, however, go on the main feed, so if you want to experience these pseudo-canon conversations, make sure you are a patron of any level.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1150070",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 27500,
+     "completed_percentage": 46,
+     "created_at": "2018-03-24T05:59:59+00:00",
+     "description": "\u003cstrong\u003e\u003cem\u003eCustom Art -\u003c/em\u003e\u003c/strong\u003e At this level, we can start commissioning custom artwork from various artists to start dressing up the show a little bit. Nice looking album art here, beautiful website layout there, and before you know it we look real professional like.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1150071",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 32,
+     "created_at": "2018-03-24T05:59:59+00:00",
+     "description": "\u003cstrong\u003e\u003cem\u003eLive Streaming Video -\u003c/em\u003e\u003c/strong\u003e Not only will the show become a video podcast, but we will stream it live on Twitch.tv for all of our listeners to see the raw uncut sessions. Now, at least for a while, these will be a little spoilery as we try to figure out what the new world order of the podcast is, but we\u2019ll be happy to tackle the challenge.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1150072",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 80000,
+     "completed_percentage": 16,
+     "created_at": "2018-03-24T05:59:59+00:00",
+     "description": "\u003cstrong\u003e\u003cem\u003eSecond Podcast -\u003c/em\u003e\u003c/strong\u003e  Mike Ellison (Jebeddo) will DM a brand new Adventure Inc podcast set in the world of New Meritta. What\u2019s it about? I don\u2019t know. I\u2019m not in his brain. But I am super excited about it.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1150073",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 110000,
+     "completed_percentage": 11,
+     "created_at": "2018-03-24T05:59:59+00:00",
+     "description": "\u003cstrong\u003e\u003cem\u003eThird Podcast -\u003c/em\u003e\u003c/strong\u003e WHAT?!? Seriously? Yes. At this level, Anthony will be bringing home enough money from his time consuming hobby that his lovely, beautiful, understanding wife will let him start a second one of these time consuming, children ignoring podcasts. Anthony will DM for a new cast of characters as they start their own story with Adventure Incorporated. Anthony\u2019s lovely wife may or may not be one of the characters (I\u2019m hoping yes).",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1150074",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1633705"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e2840d14-c156-45c7-95e4-dc28190d2074",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Adventure Incorporated is creating Actual Play D\u0026D 5e Podcasts"
+});
+    </script>

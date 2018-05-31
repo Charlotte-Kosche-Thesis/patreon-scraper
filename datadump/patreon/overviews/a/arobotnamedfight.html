@@ -1,0 +1,394 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "QdgXPre9CQlSkGEBJjTCiTz9E8i3BVM6tQEYTvT9gw8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "598250",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/598250"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-10-03T01:29:00+00:00",
+    "creation_name": "A Video Game",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1250319/777fc9efa7d9439cb4ee2a2d598639a7?token-time=2145916800\u0026token-hash=oE4kHOh-o6nM6ayUI_59GWzo719R6W-Xquo8lxsmgCE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1250319/777fc9efa7d9439cb4ee2a2d598639a7?token-time=2145916800\u0026token-hash=EPuH-lB5bElpBkkUL1b0wMY6-vJ7bnGaYKF2OqAxvxM%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/AelsarV0Wks\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/AelsarV0Wks",
+    "one_liner": null,
+    "patron_count": 26,
+    "pay_per_name": "month",
+    "pledge_sum": 60135,
+    "pledge_url": "/bePatron?c=1250319",
+    "published_at": "2017-10-10T01:50:53+00:00",
+    "summary": "A Robot Named Fight is a game continuously being developed by one guy. Me! Matt Bitner.\u003cbr\u003e\u003cbr\u003eThe game combines the genres of roguelite and metroidvania to create an endlessly re-playable platformer centered around item based exploration. It is heavily influenced by Super Metroid and Binding of Isaac, but draws inspiration from a wide range of retro classics as well.\u003cbr\u003e\u003cbr\u003eThe game launched on Steam September 7th, 2017 with a full single player campaign, local co-op, and achievement based unlocks for new items and additional endings. However, the nature of the game lends its self to the continuous integration of new content, and I intend to do just that.\u003cbr\u003e\u003cbr\u003eYour support on Patreon will allow me to continue working on the game full-time, keeping it ever stocked with new items, monsters, bosses, environments and more!\u003cbr\u003e"
+   },
+   "id": "1250319",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7923208",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7923208"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "989691",
+       "type": "goal"
+      },
+      {
+       "id": "989716",
+       "type": "goal"
+      },
+      {
+       "id": "989717",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1250319",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1250319"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2063045",
+       "type": "reward"
+      },
+      {
+       "id": "2063056",
+       "type": "reward"
+      },
+      {
+       "id": "2114232",
+       "type": "reward"
+      },
+      {
+       "id": "2063087",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-10-03T01:28:37+00:00",
+     "facebook": "https://www.facebook.com/ARobotNamedFight/",
+     "first_name": "A",
+     "full_name": "A Robot Named Fight",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7923208/88b458099f084d439ccd0a844dfce1a3?token-time=2145916800\u0026token-hash=DDC8xNSF9NijWnJebhDH__payadjC8WZ_zwiaKzra2U%3D",
+     "last_name": "Robot Named Fight",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7923208/88b458099f084d439ccd0a844dfce1a3?token-time=2145916800\u0026token-hash=IUv1jZclgRRcLgye_1Gve3-2qBgWn9_-5PfK578ZTRo%3D",
+     "twitch": "https://www.twitch.tv/arobotnamedfight",
+     "twitter": "RobotNamedFight",
+     "url": "https://www.patreon.com/arobotnamedfight",
+     "vanity": "arobotnamedfight",
+     "youtube": "https://www.youtube.com/channel/UCt0rPH6s1F05UkwwWMPB2Dg?view_as=subscriber"
+    },
+    "id": "7923208",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1250319",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1250319"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 21,
+     "upgrade_url": "/bePatron?c=1250319\u0026rid=2063045"
+    },
+    "id": "post-aggregation-for-0-1250319",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-10-09T23:37:03.161588+00:00",
+     "description": "Donating a dollar a month will let you show off what a cool Meatling you are with a special role on ARNF\u0027s discord server. You\u0027ll also get special access to Patreon-exclusive previews of new content and what I\u0027m currently working on.",
+     "discord_role_ids": [
+      "351880910150303744"
+     ],
+     "edited_at": "2017-10-30T18:20:56.765926+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": 10,
+     "published": true,
+     "published_at": "2017-10-30T18:20:56.740183+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Meatling",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1250319\u0026rid=2063045",
+     "user_limit": null
+    },
+    "id": "2063045",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-10-09T23:40:10.937029+00:00",
+     "description": "Five dollars a month gets a better Discord role that gives you access to private channels. \u00a0You\u0027ll also get access to an alpha branch on Steam that receives more frequent updates with experimental features and in-progress new content!",
+     "discord_role_ids": [
+      "352210252219023362",
+      "351880910150303744"
+     ],
+     "edited_at": "2017-10-30T18:21:51.523581+00:00",
+     "image_url": null,
+     "patron_count": 14,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-30T18:21:51.496785+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fight Smith",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1250319\u0026rid=2063056",
+     "user_limit": null
+    },
+    "id": "2063056",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-10-30T18:24:12.461985+00:00",
+     "description": "$20 a month gets you one steam key for the game and \u00a0your name in the credits! You also get all the other stuff that the other tiers get.",
+     "discord_role_ids": [
+      "351880910150303744",
+      "352210252219023362"
+     ],
+     "edited_at": "2017-10-30T18:24:24.542101+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-30T18:24:24.517435+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mega Beast",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1250319\u0026rid=2114232",
+     "user_limit": null
+    },
+    "id": "2114232",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-10-09T23:46:57.390200+00:00",
+     "description": "If you just throw all kinds of money at me, I\u0027ll send you weird shit in the mail. Plus, you get the other stuff that all the other tiers get.",
+     "discord_role_ids": [
+      "351880910150303744",
+      "352210252219023362"
+     ],
+     "edited_at": "2017-10-09T23:46:57.390200+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-09T23:46:57.390200+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "A Crazy Person",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1250319\u0026rid=2063087",
+     "user_limit": null
+    },
+    "id": "2063087",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 100,
+     "created_at": "2017-10-09T23:34:04+00:00",
+     "description": "Five hundred dollars a month will ensure I\u0027m able to work on supporting ARNF full-time and update the game at least once a month, probably more.",
+     "reached_at": "2018-05-05T11:24:40+00:00",
+     "title": ""
+    },
+    "id": "989691",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 60,
+     "created_at": "2017-10-09T23:54:54+00:00",
+     "description": "I\u0027ll look in to paying a level designer to keep the game updated with all kinds of new rooms all of the time. Hopefully I can find such a person. This would enable me to spend more time making new content and add new areas to the game more quickly.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "989716",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 30,
+     "created_at": "2017-10-09T23:54:54+00:00",
+     "description": "I\u0027ll definitely find that level guy. Maybe I\u0027ll get a pixel artist to help with animating bosses and other stuff that takes a long time. I\u0027ll definitely hire on some kind of help. Whatever role makes sense. Maybe someone that can multitask a bit.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "989717",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1250319"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ff8cc9ea-2640-4aca-837e-b228f100ec0e",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "A Robot Named Fight is creating A Video Game"
+});
+    </script>

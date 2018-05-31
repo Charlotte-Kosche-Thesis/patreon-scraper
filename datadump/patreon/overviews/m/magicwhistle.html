@@ -1,0 +1,543 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "aiAFfoTh6b5IAN4yrcihAEBRbqiy49Zc8aWeLoFJrJI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "188508",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/188508"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-07-10T21:18:58+00:00",
+    "creation_name": "something called HAIL SEIZURE",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/423033/fbd1e21718fc4eefbcd3732d322a8e7d?token-time=2145916800\u0026token-hash=zUFIu14BCgLKYyLTcuPYp0gGy_1jvDnHXoqrWWcxFwg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/423033/fbd1e21718fc4eefbcd3732d322a8e7d?token-time=2145916800\u0026token-hash=QMQpew8dqcY3oAgS_qeEiWss7HEMJQR9MTxtTF5fZIs%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 19,
+    "pay_per_name": "month",
+    "pledge_sum": 5800,
+    "pledge_url": "/bePatron?c=423033",
+    "published_at": "2016-07-10T21:23:24+00:00",
+    "summary": "My name is Sam Henderson. I\u0027ve been around professionally for about 25 years. I edit a comic called MAGIC WHISTLE. I had a regular comic for NICKELODEON magazine from 1993 to 2009. I\u0027ve done work for NEW YORK PRESS, OBSERVER, COMICS JOURNAL, DC COMICS, CARTOON NETWORK, DISNEY, AOL, was nominated for an Emmy for my writing on SPONGEBOB SQUAREPANTS in 2001, still write for the comic, have had several book collections, a development deal, yet despite all this I\u0027m always broke. Last year I made, uh, let\u0027s just say... less than you. Hoping this will be one of the things to change that.\u003cbr\u003e\u003cbr\u003eRight now I\u0027m working on what you\u0027d call a \"graphic memoir\" and people told me to set up a Patreon page for it.\u003cbr\u003e"
+   },
+   "id": "423033",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3640981",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3640981"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "575549",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-423033",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-423033"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "926133",
+       "type": "reward"
+      },
+      {
+       "id": "1492401",
+       "type": "reward"
+      },
+      {
+       "id": "934071",
+       "type": "reward"
+      },
+      {
+       "id": "895508",
+       "type": "reward"
+      },
+      {
+       "id": "895507",
+       "type": "reward"
+      },
+      {
+       "id": "895509",
+       "type": "reward"
+      },
+      {
+       "id": "934072",
+       "type": "reward"
+      },
+      {
+       "id": "1359166",
+       "type": "reward"
+      },
+      {
+       "id": "1398987",
+       "type": "reward"
+      },
+      {
+       "id": "1399013",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-07-10T21:18:36+00:00",
+     "facebook": "https://www.facebook.com/magicwhistle",
+     "first_name": "Sam",
+     "full_name": "Sam Henderson",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3640981/6a896b995fc74a659326d5a45440c54a?token-time=2145916800\u0026token-hash=z4Rt8Im1S066JIV697dWJQPhAWpOALezcpHB2_HLKMM%3D",
+     "last_name": "Henderson",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3640981/6a896b995fc74a659326d5a45440c54a?token-time=2145916800\u0026token-hash=aZOKOjTMxfV9K_pjtcjrsInloYsITuVGhfD_VdHwPh4%3D",
+     "twitch": "https://www.twitch.tv/magicwhistle.henderson@gmail.com",
+     "twitter": "magicwhistle",
+     "url": "https://www.patreon.com/magicwhistle",
+     "vanity": "magicwhistle",
+     "youtube": "https://www.youtube.com/magicwhistle.com"
+    },
+    "id": "3640981",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "423033",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/423033"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 53,
+     "upgrade_url": "/bePatron?c=423033\u0026rid=926133"
+    },
+    "id": "post-aggregation-for-0-423033",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-13T19:36:33+00:00",
+     "description": "A look at the second go at the roughs for each page",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-13T11:06:16.337322+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/926133/ab5d4d2449eb480798abd8999df5e5c9?token-time=2145916800\u0026token-hash=yp9EZfqLvyuc32_yLloRnUC0OezC1PXq-mNkETxHXTQ%3D",
+     "patron_count": 4,
+     "post_count": 23,
+     "published": true,
+     "published_at": "2016-10-30T23:51:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Rough art",
+     "unpublished_at": null,
+     "url": "/bePatron?c=423033\u0026rid=926133",
+     "user_limit": null
+    },
+    "id": "926133",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-03-13T17:10:13.254919+00:00",
+     "description": "Look at final art\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e(I guess because I changed this tier, you can\u0027t see who the donors are now. Sorry.)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-13T17:25:38.202087+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1492401/4414de64caf74b97849e843b3fd4a8fe?token-time=2145916800\u0026token-hash=NjoGUaGyDH1ImCQo2oi0xcP-vNbXTRcagFJs2L39kbI%3D",
+     "patron_count": 2,
+     "post_count": 29,
+     "published": true,
+     "published_at": "2017-03-13T17:10:13.254919+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Look at final art",
+     "unpublished_at": null,
+     "url": "/bePatron?c=423033\u0026rid=1492401",
+     "user_limit": null
+    },
+    "id": "1492401",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-13T19:36:33+00:00",
+     "description": "Patreon doesn\u0027t keep a permanent archive of pages like I thought. If you come late and have missed pages, for this amount I will e-mail a PDF of a particular chapter to you personally plus another of sketches for those pages. Though you\u0027ll you\u0027ll have to e-mail me to let me know what you\u0027re missing because I don\u0027t see the same Patreon page as you.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-13T17:30:09.158467+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-31T17:54:08.972768+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Missed pages",
+     "unpublished_at": null,
+     "url": "/bePatron?c=423033\u0026rid=934071",
+     "user_limit": null
+    },
+    "id": "934071",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1200,
+     "amount_cents": 1200,
+     "created_at": "2016-11-13T19:36:33+00:00",
+     "description": "MAGIC WHISTLE 3.3\u003cbr\u003e\n\u003cbr\u003e\n40 pages. Postpaid. Sketch by me.\u003cbr\u003e\nTWO-COLOR\u003cbr\u003e\n\u003cbr\u003e\ncover by Tony Millionaire\u003cbr\u003e\n\u003cbr\u003e\n20 pages by me, additional work by Steven Weissman, Roy Tompkins, Jen Sandwich, and Corinne Halbert\u003cbr\u003e\n\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-13T11:06:16.411558+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/895508/a949ca01b973460ab825540eeab2eabc?token-time=2145916800\u0026token-hash=uaaFmZBX71ONt1VfnsxpVNncXmiOg78ILPyeqARMfuk%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-30T23:51:03+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Magic Whistle 3.3",
+     "unpublished_at": null,
+     "url": "/bePatron?c=423033\u0026rid=895508",
+     "user_limit": null
+    },
+    "id": "895508",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-11-13T19:36:33+00:00",
+     "description": "Original artwork of your choice from my many gags I\u0027ve posted on social media through magicwhistle.storenvy.com. Not through here, and unfortunately it won\u0027t show up on my goals but it will feed me at least.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-13T11:06:16.434249+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/895507/ce34660967354d4b82753d1b578d4330?token-time=2145916800\u0026token-hash=-uQL3_Ha_picMGyKq50R6xR-i9I3ooiEiagKgmBLhKw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-30T23:51:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "original art",
+     "unpublished_at": null,
+     "url": "/bePatron?c=423033\u0026rid=895507",
+     "user_limit": null
+    },
+    "id": "895507",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-11-13T19:36:33+00:00",
+     "description": "includes #14 (last solo issue) and issues 3.1, 3.2, and 3.3, as well as an original sketch by me. \u00a0Have some of these? E-mail me at magicwhistle.henderson@gmail.com and we\u0027ll work something out.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-13T11:06:16.457358+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/895509/af90e320ad9241fb9d75b86609a96c41?token-time=2145916800\u0026token-hash=uN3RI2aUgzF34xJWypGh1XVkW3wkZJWdlivo3FgxyPM%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-30T23:51:03+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "issues of MAGIC  WHISTLE",
+     "unpublished_at": null,
+     "url": "/bePatron?c=423033\u0026rid=895509",
+     "user_limit": null
+    },
+    "id": "895509",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-11-13T19:36:33+00:00",
+     "description": "Anything you want me to draw, original 11\" x 14\" bristol black and white.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-13T11:06:16.480152+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-30T23:51:03+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Custom drawring",
+     "unpublished_at": null,
+     "url": "/bePatron?c=423033\u0026rid=934072",
+     "user_limit": null
+    },
+    "id": "934072",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-01-31T22:04:21.696277+00:00",
+     "description": "A supporting character will be named after you! Wheee!",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-13T11:06:16.503410+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-31T22:04:21.696277+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "You\u0027re in the comic",
+     "unpublished_at": null,
+     "url": "/bePatron?c=423033\u0026rid=1359166",
+     "user_limit": null
+    },
+    "id": "1359166",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2017-02-12T23:18:18.434472+00:00",
+     "description": "With this pledge plus the cost of transportation, I will come to your house.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-13T11:06:16.526529+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-12T23:18:18.434472+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "I\u0027ll visit you",
+     "unpublished_at": null,
+     "url": "/bePatron?c=423033\u0026rid=1398987",
+     "user_limit": null
+    },
+    "id": "1398987",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20100,
+     "amount_cents": 20100,
+     "created_at": "2017-02-12T23:22:43.583978+00:00",
+     "description": "For this plus the cost of transportation, I will come to your house and bring a disc of the movie of your choosing (if Redbox has it) and we\u0027ll watch it.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-13T11:06:16.552204+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-12T23:22:43.583978+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "I\u0027ll visit you and we\u0027ll watch a movie",
+     "unpublished_at": null,
+     "url": "/bePatron?c=423033\u0026rid=1399013",
+     "user_limit": null
+    },
+    "id": "1399013",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 18300,
+     "completed_percentage": 31,
+     "created_at": "2016-10-08T22:39:12+00:00",
+     "description": "My goal will probably increase monthly as I see what this does. I want to make this cartooning thing a career again like it once was, and not just a hobby like it\u0027s been for the past few years. I\u0027ve been told this is one of the places to do it.\u003cbr\u003e\u003cbr\u003eI know I\u0027m supposed to reciprocate and I will, but only if I meet my goals first, so tell your friends about this. $2 a month is less than a book that would cost at least $25, and I don\u0027t have the ability to hold down a regular job anyway. This work\u0027s even somewhat about that.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "575549",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/423033"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "09817755-73cf-41cb-bb13-3dde8b7ee2fa",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Sam Henderson is creating something called HAIL SEIZURE"
+});
+    </script>

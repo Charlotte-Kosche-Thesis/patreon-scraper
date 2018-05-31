@@ -1,0 +1,575 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "AkPS24-hVUsBEf245wjAGrMuoRzFAMtYzb5M2hKku9Q";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "575814",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/575814"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-01-22T16:45:55+00:00",
+    "creation_name": "#TechF1",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI0IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/141245/d33bed18452d410db619838df5cf1e70?token-time=2145916800\u0026token-hash=iIbjNEhN1jVkkfdTtpgW0NzAbPwM0aNLByK3hXKmpHE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNCJ9/patreon-media/campaign/141245/d33bed18452d410db619838df5cf1e70?token-time=2145916800\u0026token-hash=pkj0t0QKl0e5IB_hZ_W4Q4oeB2zM9R7PyaHAziBV7rs%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Bringing you everything technical from the world of F1 in a more understandable format",
+    "patron_count": 20,
+    "pay_per_name": "month",
+    "pledge_sum": 4540,
+    "pledge_url": "/bePatron?c=141245",
+    "published_at": "2017-09-14T13:49:42+00:00",
+    "summary": "\u003cstrong\u003eWhy I\u0027m here\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003ePatreon offers YOU the reader, an alternative option. It means you can \nreward me for my work to the tune of any sum you feel appropriate, \nsetting a monthly budget.  I like the idea of Patreon as it\u0027s voluntary,\n making it none intrusive and allowing me to continue to provide content\n that everyone can see. Think of it like a tip jar, like what you see, \nthe you can give me something for it.\u003cbr\u003e\u003cbr\u003eWith your help I\u0027d love to get to the stage where I can concentrate on \nwhat I love to do full-time, not only with the written word but with \nillustrations, podcasts, video analysis etc. However, to focus more heavily on the content I produce I need to \nmake a change in my lifestyle, currently my day job takes up 60 hours a\n week, with some of my analysis being done during lunch breaks etc, \nwhilst the bulk of it has to be done outside of that, meaning at times \nI\u0027m committing another 20-30+ hours on top.  If I could generate enough \nincome I could reduce my day job hours and commit the rest to F1, or \neven better focus on F1 full time.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWhat you might know me from already\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eAs many of you know I\u0027ve had the good fortune to work with some great \npublications in the last few years, including Motorsport.com where I\u0027m currently\n plying my trade alongside the legend that is \u003ca href=\"https://www.motorsport.com/topic/giorgio-piola-s-f1-technical-analysis\"\u003eGiorgio Piola\u003c/a\u003e. \u003cbr\u003e\u003cbr\u003eI also use \u003ca href=\"http://www.twitter.com/somersf1\"\u003eTwitter\u003c/a\u003e quite extensively, as it provides a vehicle to promote my work and interact with other like minded individuals, so, if you haven\u0027t already give me a follow and we\u0027ll have a chat there too. I also have an Instagram account but I\u0027m a little more lax in its use as I don\u0027t have the time to commit to it fully.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eMore money, more content\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eThe written word is but one tool in my armoury, as I can also provide illustations too. The problem is these suck huge amounts of time. For example:\u003cbr\u003e\u003cimg src=\"https://3.bp.blogspot.com/-CRCK2VFcF7k/Wjjiw6fCsgI/AAAAAAAAdyA/fr-t3SpqRygNoKU7ttBdSK21fWEtJqGSwCLcBGAs/s640/1%2BLAUNCH.png\"\u003e\u003cbr\u003eOR\u003cbr\u003e\u003cimg src=\"https://2.bp.blogspot.com/-_lvtd0-ziKs/Wk9KiLZ9PBI/AAAAAAAAdzU/wdpqSmnpV8A2KRaNaPKP_gT-2IHhgxhWACLcBGAs/s640/1%2BLAUNCH.png\"\u003e\u003cbr\u003e\u003cbr\u003eI completed these illustrations for a feature I was doing with \u003ca href=\"https://missedapexpodcast.com/\"\u003eMissed Apex Podcast\u003c/a\u003e recently where we talked through the updates used by \u003ca href=\"http://www.somersf1.co.uk/2017/12/vlog-technical-review-of-ferrari-sf70h.html\"\u003eFerrari\u003c/a\u003e and \u003ca href=\"http://www.somersf1.co.uk/2017/12/vlog-technical-review-of-red-bull-rb13.html\"\u003eRed Bull\u003c/a\u003e in 2017, (if you visit the links we also made the content into shorter format videos too). We will also cover the all-conquering Mercedes team in its own show in a few weeks too, for which I\u0027ve illustrated every major update - 40-50ish hours work. \u003cbr\u003e\u003cbr\u003eIllustrations on this scale (full car) take in the region of 10-20 hours depending how I go about them and I\u0027d hope to draw every car in the field next season, then redraw each with the updates after each race, followed up with my own written technical analysis alongside it, for you, the Patrons.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eEarly access content\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eThe plan behind using Patreon is not only to give you all better content but if I can get enough support I\u0027d like to give those that help the project the opportunity to see the content first, with anyone donating to the second tier ($5 a month) getting access to it at least 3 days before the content is posted on \u003ca href=\"http://www.somersf1.co.uk\"\u003eSomersF1.co.uk\u003c/a\u003e. This not only includes the illustrations and technical analysis I\u0027ve already talked about but also current content such as my race #Prixview which gives insight ahead of each race.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIt doesn\u0027t stop there...\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eJust because the primary focus of SomersF1 is currently on the technical side of the sport doesn\u0027t mean it has to be. We can easily switch gears and add news content too if desired but obviously I need to be able to apportion time/money to getting the site changed and creating the content itself. This could also mean adding additional authors to the site, something I\u0027ve already started to deal with as \u003ca href=\"https://twitter.com/mattpt55\"\u003eMatt Ragsdale\u003c/a\u003e is onboard and producing his unique qualifying and race reviews.\u003cbr\u003e\u003cbr\u003eOf course, just like the content I produce these authors are in it for the love of what they do, however, some financial recognition would go a long way toward helping them and bring onboard more authors too. As such I\u0027ve set up a seperate goal so that you can directly contribute toward the costs and increase of that content.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eRewards\u003c/strong\u003e\u003cbr\u003eI\u0027ll continue to build reward packages as I go but if you think you have an idea for one that\u0027s not listed just drop me a line \u003ca href=\"mailto:somersf1@gmail.com\"\u003eSomersF1\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eDreaming bigger\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIF\u003c/strong\u003e I had enough support I see no \nreason why I couldn\u0027t travel to races and deliver even more indepth \ncontent direct from the GP\u0027s too, but obviously this is the longest of stretch goals so let\u0027s see where this takes us.\u003cbr\u003e"
+   },
+   "id": "141245",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "502386",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/502386"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "966005",
+       "type": "goal"
+      },
+      {
+       "id": "966006",
+       "type": "goal"
+      },
+      {
+       "id": "966007",
+       "type": "goal"
+      },
+      {
+       "id": "966008",
+       "type": "goal"
+      },
+      {
+       "id": "966010",
+       "type": "goal"
+      },
+      {
+       "id": "966011",
+       "type": "goal"
+      },
+      {
+       "id": "966012",
+       "type": "goal"
+      },
+      {
+       "id": "966013",
+       "type": "goal"
+      },
+      {
+       "id": "1068211",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-141245",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-141245"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2002603",
+       "type": "reward"
+      },
+      {
+       "id": "2006710",
+       "type": "reward"
+      },
+      {
+       "id": "2260462",
+       "type": "reward"
+      },
+      {
+       "id": "2260470",
+       "type": "reward"
+      },
+      {
+       "id": "2002604",
+       "type": "reward"
+      },
+      {
+       "id": "2002616",
+       "type": "reward"
+      },
+      {
+       "id": "2002625",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m a freelance F1 technical analyst\u003cbr\u003e",
+     "created": "2015-01-22T09:34:15+00:00",
+     "facebook": "https://www.facebook.com/SomersF1/",
+     "first_name": "Matthew",
+     "full_name": "Matthew Somerfield (SomersF1)",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/502386/f37d72e4be384903b330607e014963e4?token-time=2145916800\u0026token-hash=DxDrpXrglv7A74VVNLMjMT-bqUkv9stWk1DNMwLJSiA%3D",
+     "last_name": "Somerfield (SomersF1)",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/502386/f37d72e4be384903b330607e014963e4?token-time=2145916800\u0026token-hash=qEYUJNJLTpHcdCk5UJcB6r4qXwk5f-iZZ-EGprqVYm0%3D",
+     "twitch": null,
+     "twitter": "SomersF1",
+     "url": "https://www.patreon.com/SomersF1",
+     "vanity": "SomersF1",
+     "youtube": "https://www.youtube.com/channel/UCfG_q8EUiUC6kwpqbsLcg1w"
+    },
+    "id": "502386",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "141245",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/141245"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 6,
+     "upgrade_url": "/bePatron?c=141245\u0026rid=2002603"
+    },
+    "id": "post-aggregation-for-0-141245",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-09-14T11:26:34.596390+00:00",
+     "description": "You like what I do, drop me $1 a month (or whatever you can afford) to show your grattitude and help drive forward my website and the content provided.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-05T12:42:54.205675+00:00",
+     "image_url": null,
+     "patron_count": 9,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-05T12:42:54.176661+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tip Jar",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141245\u0026rid=2002603",
+     "user_limit": null
+    },
+    "id": "2002603",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-09-16T10:45:49.704009+00:00",
+     "description": "Get the ball rolling and support the site, I\u0027ll take a subject matter from the first three supporters of the site and create an article for each.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-05T12:36:04.923677+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-05T12:36:04.903446+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "False Start",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141245\u0026rid=2006710",
+     "user_limit": 3
+    },
+    "id": "2006710",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-01-05T12:38:23.924932+00:00",
+     "description": "Patrons selecting this reward will get early access to my content (upto 3 days before it hits the main site)",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-05T12:40:31.452209+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-05T12:40:31.431289+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Formation Lap (Early Access)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141245\u0026rid=2260462",
+     "user_limit": null
+    },
+    "id": "2260462",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-05T12:46:43.027672+00:00",
+     "description": "Want the original of one of my illustrations? This is the reward for you. I\u0027ll forward you a digital copy of one of my illustrations without the watermarks so you can use it as a desktop or get it printed out.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-05T12:46:43.027672+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-05T12:46:43.027672+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Design Blueprint",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141245\u0026rid=2260470",
+     "user_limit": null
+    },
+    "id": "2260470",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-09-14T11:29:05.168137+00:00",
+     "description": "Have a burning question that needs answering? I\u0027ll produce a one-off article sponsored by you on a subject matter of your choosing (F1 related, obvs).",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-05T12:46:56.449826+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-05T12:46:56.377270+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Data Engineer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141245\u0026rid=2002604",
+     "user_limit": null
+    },
+    "id": "2002604",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-09-14T11:39:10.896862+00:00",
+     "description": "Want to get the word out about your business, website or even social media account? this is the one for you. I\u0027ll create a blog post that\u0027ll have your name all over it - well actually it\u0027ll be a paragraph at the start of the article but you get the picture.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-05T12:41:09.098941+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-05T12:41:09.059587+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Name on the front wing endplate",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141245\u0026rid=2002616",
+     "user_limit": null
+    },
+    "id": "2002616",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2017-09-14T11:52:01.054450+00:00",
+     "description": "From a branding point of view you\u0027ll be able to supply a backdrop for the site, have the main sponsor block in the header and all but the other \u0027Sponsored Content\u0027 posts credited to you.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-05T12:39:05.364167+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-05T12:39:05.341481+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Title Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141245\u0026rid=2002625",
+     "user_limit": 1
+    },
+    "id": "2002625",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 90,
+     "created_at": "2017-09-14T12:36:08+00:00",
+     "description": "When we reach $50 I\u0027ll be able to produce at least one post a week for the blog, rather than just sporadically as it is now.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "966005",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 45,
+     "created_at": "2017-09-14T12:36:08+00:00",
+     "description": "When we reach $100 per month I\u0027ll be able to take a subject matter (F1 related, obvs) from a Patron each week and produce content around it.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "966006",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 18,
+     "created_at": "2017-09-14T12:36:08+00:00",
+     "description": "When we reach $250 per month I\u0027ll be able to provide a full illustration after each GP with in-depth analysis to accompany it.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "966007",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3000,
+     "completed_percentage": 100,
+     "created_at": "2017-09-14T12:36:08+00:00",
+     "description": "When we reach $30 a month I can keep the lights on, spruce up the site when needed and keep on top of the regulation pages etc.\u003cbr\u003e",
+     "reached_at": "2018-02-23T22:19:08+00:00",
+     "title": ""
+    },
+    "id": "966008",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 3,
+     "created_at": "2017-09-14T12:36:08+00:00",
+     "description": "When we reach $1500 a month I\u0027ll be able to produce more video and podcast content, as I\u0027ll be able to improve my equipment.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "966010",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 0,
+     "created_at": "2017-09-14T12:36:08+00:00",
+     "description": "When we reach $5000 a month I\u0027ll be able to concentrate on F1 full-time and bring you more content than you\u0027ll be able to handle.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "966011",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 750000,
+     "completed_percentage": 0,
+     "created_at": "2017-09-14T12:36:09+00:00",
+     "description": "When we reach $7500 a month I\u0027ll be able to do at least the European leg of the F1 season onsite.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "966012",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000000,
+     "completed_percentage": 0,
+     "created_at": "2017-09-14T12:36:09+00:00",
+     "description": "If we reach this goal I\u0027m set, I\u0027ll be able to provide you with almost any coverage I\u0027ve either already thought of or will be able to think of in the future.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "966013",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 9,
+     "created_at": "2018-01-05T12:56:51+00:00",
+     "description": "Early access content, once we reach this stretch goal I\u0027ll start supplying content to the Patrons at least 3 days before it hits the website.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1068211",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/141245"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "4077add8-f8b4-4ac7-a937-897ac6c4ce77",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Matthew Somerfield (SomersF1) is creating #TechF1"
+});
+    </script>

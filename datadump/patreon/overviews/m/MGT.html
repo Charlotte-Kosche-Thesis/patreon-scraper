@@ -1,0 +1,495 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "xphQSND5rThwam5kpfifvzuPMkjooBThCCjLSRw5WII";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "315043",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/315043"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-10-13T04:58:30+00:00",
+    "creation_name": "Podcasts",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/564144/a63ac66d19af45ddabea60001039c84c?token-time=2145916800\u0026token-hash=RAWdiRcK34Ztxzjuz-qpo4Rtb1wxkbU3HGB8Pw5Sz5M%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/564144/a63ac66d19af45ddabea60001039c84c?token-time=2145916800\u0026token-hash=NhK46JNG5VLErSWONOr9C7UFLC0aQqYmvlV-YgR7deU%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 22,
+    "pay_per_name": "month",
+    "pledge_sum": 12651,
+    "pledge_url": "/bePatron?c=564144",
+    "published_at": "2016-12-08T22:09:42+00:00",
+    "summary": "Hey there, Home Tree! Thank you for visiting our Patreon page! The fact that you\u0027re even thinking about supporting the Podcast warms our cockles! We\u0027d do this podcast for free, but it does cost some money to keep the show going. Every donation matters, and we\u0027d love to make it worth your while. Thank you again, from the bottom of our hearts. \u003cbr\u003e"
+   },
+   "id": "564144",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4223421",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4223421"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "634053",
+       "type": "goal"
+      },
+      {
+       "id": "970142",
+       "type": "goal"
+      },
+      {
+       "id": "1166253",
+       "type": "goal"
+      },
+      {
+       "id": "1166254",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-564144",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-564144"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1139051",
+       "type": "reward"
+      },
+      {
+       "id": "913697",
+       "type": "reward"
+      },
+      {
+       "id": "913698",
+       "type": "reward"
+      },
+      {
+       "id": "913699",
+       "type": "reward"
+      },
+      {
+       "id": "913700",
+       "type": "reward"
+      },
+      {
+       "id": "913701",
+       "type": "reward"
+      },
+      {
+       "id": "913702",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-10-13T04:57:59+00:00",
+     "facebook": "https://www.facebook.com/Facebook.com/moregooderthan",
+     "first_name": "More",
+     "full_name": "More Gooder Than",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4223421/95388b10bf1c4fb8b57870562bd3f08c?token-time=2145916800\u0026token-hash=kDvPUU4W9qbZatT5mi6YJH9hFFUl7ztH8Ut4FYbKCkk%3D",
+     "last_name": "Gooder Than",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4223421/95388b10bf1c4fb8b57870562bd3f08c?token-time=2145916800\u0026token-hash=a0hMGLKMWbWj4xBhx04UnsjnIxWpc_bEG8hPZ69_BBQ%3D",
+     "twitch": null,
+     "twitter": "MGTpodcast",
+     "url": "https://www.patreon.com/MGT",
+     "vanity": "MGT",
+     "youtube": null
+    },
+    "id": "4223421",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "564144",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/564144"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 11,
+     "upgrade_url": "/bePatron?c=564144\u0026rid=1139051"
+    },
+    "id": "post-aggregation-for-0-564144",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-12-08T00:35:03.653858+00:00",
+     "description": "What?! You actually want to start paying us to do the show? You\u0027re amazing! You get the Tier One Prize, which is a shout out on the next episode we record after your first donation, and as with ALL tiers, you get access to THE SACRED GROVE: monthly extra content like the Viewing parties and blooper reels. \u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-09T01:28:23.084626+00:00",
+     "image_url": null,
+     "patron_count": 7,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-04-09T01:28:23.077454+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Home Tree Seedling",
+     "unpublished_at": null,
+     "url": "/bePatron?c=564144\u0026rid=1139051",
+     "user_limit": null
+    },
+    "id": "1139051",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-10-13T05:00:45+00:00",
+     "description": "TRIPLE the amount of the previous Tier of support?! You must REALLY like the show! You get the Tier One Prize, plus Tier 2: a personalized MP3 for you to use for your voicemail, and the Theme Song of MGT to use as your ringtone.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-04T22:04:52.992087+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-13T05:00:45+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Home Tree Sprout",
+     "unpublished_at": null,
+     "url": "/bePatron?c=564144\u0026rid=913697",
+     "user_limit": null
+    },
+    "id": "913697",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-13T05:00:45+00:00",
+     "description": "Ok...C\u0027mon, you\u0027re kidding! You\u0027re going to pay us THIS much to do the show? You might as well be an angel sent from above. You get all Previous Tiers, plus your choice of ANY prize from the MGT Stash and a spot on our websites Wall of Fame with a custom bio written by the Hosts. \u00a0\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-12T14:23:10.254769+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-13T05:00:45+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Home Tree Sapling",
+     "unpublished_at": null,
+     "url": "/bePatron?c=564144\u0026rid=913698",
+     "user_limit": null
+    },
+    "id": "913698",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-13T05:00:45+00:00",
+     "description": "HOLY CRAP! How rich are you? This is getting serious.\u003cbr\u003e\nYou get the all Previous Tier Prizes plus the Tier 4 prize: You pick the three movies, title, and which host defends which movie for a main episode! \u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-12T14:20:26.102862+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-13T05:00:45+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Full Grown Home Tree",
+     "unpublished_at": null,
+     "url": "/bePatron?c=564144\u0026rid=913699",
+     "user_limit": null
+    },
+    "id": "913699",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-10-13T05:00:45+00:00",
+     "description": "Ok...that\u0027s it! You\u0027re our new Best Friend!\u003cbr\u003eAll Previous Tier rewards, plus ANY one Item for\u00a0 FREE from the MGT Merchandise Store\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-04T22:04:53.057277+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-13T05:00:45+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Old Growth Home Tree",
+     "unpublished_at": null,
+     "url": "/bePatron?c=564144\u0026rid=913700",
+     "user_limit": null
+    },
+    "id": "913700",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3100,
+     "amount_cents": 3100,
+     "created_at": "2016-10-13T05:00:45+00:00",
+     "description": "You are officially covering all the Base operating costs of MGT. Every other dollar that comes after this is just icing on the cake. You get all previous Tier rewards, plus every episode from now on will include your name at the end of every episode as our sponsor. \u00a0\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-12T14:26:42.620031+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-13T05:00:45+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Full Shade Home Tree",
+     "unpublished_at": null,
+     "url": "/bePatron?c=564144\u0026rid=913701",
+     "user_limit": null
+    },
+    "id": "913701",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-10-13T05:00:45+00:00",
+     "description": "You are basically the Mother Earth of our show. We might as well change the name of the show to More Gooder Than: Brought To You By (Insert Your Name Here) at this point. All Previous Tier Rewards, plus YOU GET TO GUEST ON THE SHOW! \u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-04T22:04:53.104298+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-13T05:00:45+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Eywa of the MGT Na\u0027vi",
+     "unpublished_at": null,
+     "url": "/bePatron?c=564144\u0026rid=913702",
+     "user_limit": null
+    },
+    "id": "913702",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3000,
+     "completed_percentage": 100,
+     "created_at": "2016-12-07T22:11:23+00:00",
+     "description": "This will allow us to cover ALL of our operating costs to run the show each month. Basically, it allows us to run the show indefinitely! \u003cbr\u003e",
+     "reached_at": "2017-07-26T15:28:04+00:00",
+     "title": ""
+    },
+    "id": "634053",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2017-09-18T22:35:33+00:00",
+     "description": "All of our hosting \u0026amp; website costs are covered, and we can purchase stickers and other swag monthly for giveaways.",
+     "reached_at": "2017-09-19T03:26:27+00:00",
+     "title": ""
+    },
+    "id": "970142",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2018-04-09T01:24:53+00:00",
+     "description": "All of our hosting \u0026amp; website costs are covered. We can purchase stickers \u0026amp; other swag monthly for giveaways, and now we can start to upgrade our equipment! We need new headphones, mic stands, cables, mics and audio interface.\u00a0",
+     "reached_at": "2018-04-19T04:45:23+00:00",
+     "title": ""
+    },
+    "id": "1166253",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 84,
+     "created_at": "2018-04-09T01:24:53+00:00",
+     "description": "All of our hosting \u0026amp; website costs are covered. We can now purchase stickers \u0026amp; other swag monthly for giveaways, and now we can start to upgrade our equipment! We need new headphones, mic stands, cables, mics and audio interface. NOW we can pay for ad space on a regular basis\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1166254",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/564144"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ac08f537-f00e-4e66-bcba-a4ac82c8d324",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "More Gooder Than is creating Podcasts"
+});
+    </script>

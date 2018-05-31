@@ -1,0 +1,661 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "fxuSk7kTr0W1iEuZN2czeIE8I1-SXENzBRLoEFMZCX0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "877740",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/877740"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-04-12T15:25:21+00:00",
+    "creation_name": "The Archivist:VR",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1681842/ddb6276997ef4ec6b4701bef01e027c5?token-time=2145916800\u0026token-hash=ztz_s3la_obkR3RsZ5TzZGeEgZ9lMv7HPny1dSYDwks%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/1681842/ddb6276997ef4ec6b4701bef01e027c5?token-time=2145916800\u0026token-hash=486jORwyyIwZTNyXFE93kZxSIwjWqQqm24OP3fsBrhw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/dlgegkxrjCc\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://youtu.be/dlgegkxrjCc",
+    "one_liner": null,
+    "patron_count": 21,
+    "pay_per_name": "month",
+    "pledge_sum": 20366,
+    "pledge_url": "/bePatron?c=1681842",
+    "published_at": "2018-04-13T20:57:17+00:00",
+    "summary": "Nothing Like You Productions is a small indie based development team founded upon the desire to create virtual reality experiences at an unprecedented level of immersion.\u00a0With \u2018The Archivist: VR\u2019, we have set out to create a unique virtual reality experience that takes you beyond the curtain,  into the unpredictable dreamscape of Twin Peaks. Leaving the borders of reality behind, you will enter the meticulously recreated world in virtual reality. Featuring an original story line, set against the supernatural mythos of television\u2019s most mysterious town, \u2018The Archivist: VR\u2019 will bring you closer to the Twin Peaks universe than anything you have ever played before."
+   },
+   "id": "1681842",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "10704380",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/10704380"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1171411",
+       "type": "goal"
+      },
+      {
+       "id": "1171412",
+       "type": "goal"
+      },
+      {
+       "id": "1171413",
+       "type": "goal"
+      },
+      {
+       "id": "1171415",
+       "type": "goal"
+      },
+      {
+       "id": "1171416",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1681842",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1681842"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2522729",
+       "type": "reward"
+      },
+      {
+       "id": "2522764",
+       "type": "reward"
+      },
+      {
+       "id": "2522835",
+       "type": "reward"
+      },
+      {
+       "id": "2522853",
+       "type": "reward"
+      },
+      {
+       "id": "2522856",
+       "type": "reward"
+      },
+      {
+       "id": "2522883",
+       "type": "reward"
+      },
+      {
+       "id": "2522978",
+       "type": "reward"
+      },
+      {
+       "id": "2523075",
+       "type": "reward"
+      },
+      {
+       "id": "2525903",
+       "type": "reward"
+      },
+      {
+       "id": "2525931",
+       "type": "reward"
+      },
+      {
+       "id": "2525979",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-04-12T15:01:05+00:00",
+     "facebook": "https://www.facebook.com/OrlyVR/",
+     "first_name": "Nothing",
+     "full_name": "Nothing Like You Productions",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/10704380/eac977f14d404ea2a6f0c23c16361632?token-time=2145916800\u0026token-hash=RP0atQCGOy2KmDDFvqGrNrI8OTtarHTLHIvMo9v-nTw%3D",
+     "last_name": "Like You Productions",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/10704380/eac977f14d404ea2a6f0c23c16361632?token-time=2145916800\u0026token-hash=SERUOKpYK6ETb4Ya5IaYtCL5NkEiPr3bWoSktgCPOMY%3D",
+     "twitch": null,
+     "twitter": "AVRExperience",
+     "url": "https://www.patreon.com/TheArchivistVR",
+     "vanity": "TheArchivistVR",
+     "youtube": "https://www.youtube.com/channel/UCwoCyMHnfrnJW3TpiWsckQQ/videos"
+    },
+    "id": "10704380",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1681842",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1681842"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 20,
+     "upgrade_url": "/bePatron?c=1681842\u0026rid=2522729"
+    },
+    "id": "post-aggregation-for-0-1681842",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-04-12T16:08:42.734559+00:00",
+     "description": "\u003cem\u003e\"I Love You Sheriff Truman.\" -Albert Rosenfield.\u003c/em\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou wan to help us or want to be part of the journey. Your help is very appreciated.\u003c/p\u003e\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAccess to patron-only development updates, pics and content road map.\u003c/li\u003e\n\u003cli\u003eBecome part of our \u003cstrong\u003eDiscord community\u003c/strong\u003e to chat with us live.\u00a0\u003c/li\u003e\n\u003cli\u003ePatron-only polls.\u003c/li\u003e\n\u003cli\u003eOur thanks and a virtual hug!\u003c/li\u003e\n\u003cli\u003eYour name in the credits.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "434013988750229504"
+     ],
+     "edited_at": "2018-04-12T17:54:16.334347+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 9,
+     "published": true,
+     "published_at": "2018-04-12T17:54:16.326904+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "I Love You Edition",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681842\u0026rid=2522729",
+     "user_limit": null
+    },
+    "id": "2522729",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-04-12T16:18:22.204743+00:00",
+     "description": "\u003cem\u003e\"Agent Cooper Loves Coffee.\" -Audrey Horne\u003c/em\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou are serious about your commitment to this project and would like to take a more serious role in the action by subscribing to the monthly PC Tech Demos. Plus you want a damn fine cup of coffee.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e*If we reach PSVR goal you will also have access to a monthly PSVR Tech Demo.\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAccess to the monthly PC Tech Demos.\u00a0\u003c/li\u003e\n\u003cli\u003eThe official Archivist:VR Coffee Mug.\u003c/li\u003e\n\u003cli\u003eAccess to patron-only development updates, pics and content road map.\u003c/li\u003e\n\u003cli\u003eBecome part of our \u003cstrong\u003eDiscord community\u003c/strong\u003e to chat with us live.\u00a0\u003c/li\u003e\n\u003cli\u003ePatron-only polls.\u003c/li\u003e\n\u003cli\u003eOur thanks and a virtual hug!\u003c/li\u003e\n\u003cli\u003eYour name in the credits.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "434013988750229504"
+     ],
+     "edited_at": "2018-04-13T20:05:35.421469+00:00",
+     "image_url": null,
+     "patron_count": 12,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-04-13T20:05:35.413825+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Damn Good Coffee Edition",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681842\u0026rid=2522764",
+     "user_limit": null
+    },
+    "id": "2522764",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-04-12T16:43:36.579290+00:00",
+     "description": "\u003cem\u003e\"I\u0027m gonna let you in on a little secret. Every week, once a week, give yourself a present. Don\u0027t plan it, don\u0027t wait for it, just... make it happen.\" -Agent Dale Cooper from The Archivist:VR\u003c/em\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou have listened to the wisdom of Agent Cooper and you want exclusive access to our weekly Beta updates. Be among the first to see all the new game changes, including \u00a0VR Interactions, Puzzles, Scenes and Characters. \u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e*If we reach PSVR goal you will also have access to the closed weekly PSVR Beta Releases and Tech Demo.\u00a0\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAccess to the closed weekly PC Beta Releases.\u003c/li\u003e\n\u003cli\u003eThe official Archivist:VR Coffee Mug.\u003c/li\u003e\n\u003cli\u003eAccess to the monthly PC Tech Demos.\u003c/li\u003e\n\u003cli\u003eAccess to patron-only development updates, pics and content road map.\u003c/li\u003e\n\u003cli\u003eBecome part of our \u003cstrong\u003eDiscord community\u003c/strong\u003e to chat with us live.\u00a0\u003c/li\u003e\n\u003cli\u003ePatron-only polls.\u003c/li\u003e\n\u003cli\u003eOur thanks and a virtual hug!\u003c/li\u003e\n\u003cli\u003eYour name in the credits.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "434013988750229504"
+     ],
+     "edited_at": "2018-04-13T20:05:11.952563+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-13T20:05:11.942662+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Give Yourself A Present Edition",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681842\u0026rid=2522835",
+     "user_limit": null
+    },
+    "id": "2522835",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-04-12T16:51:51.764888+00:00",
+     "description": "\u003cem\u003e\"A path is formed by laying one stone at a time.\" -The Giant\u003c/em\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eWant to learn how we made key scenes, game play interactions and characters from the Archivist:VR? Our developers will walk you through exclusive development tutorials so you can get started in creating your own game and learn tips that will get your game quality to the standards that you see in The Archivist:VR\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e*If we reach PSVR goal you will also have access to the closed weekly PSVR Beta Releases and Tech Demo.\u00a0\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAccess to exclusive Development and Tutorial Videos every month.\u003c/li\u003e\n\u003cli\u003eAccess to the closed weekly PC Beta Releases.\u003c/li\u003e\n\u003cli\u003eThe official Archivist:VR Coffee Mug.\u003c/li\u003e\n\u003cli\u003eAccess to the monthly PC Tech Demos.\u003c/li\u003e\n\u003cli\u003eAccess to patron-only development updates, pics and content road map.\u003c/li\u003e\n\u003cli\u003eBecome part of our \u003cstrong\u003eDiscord community\u003c/strong\u003e to chat with us live.\u00a0\u003c/li\u003e\n\u003cli\u003ePatron-only polls.\u003c/li\u003e\n\u003cli\u003eOur thanks and a virtual hug!\u003c/li\u003e\n\u003cli\u003eYour name in the credits.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "434013988750229504"
+     ],
+     "edited_at": "2018-04-13T20:06:18.682153+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-04-13T20:06:18.672106+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "The Path Edition",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681842\u0026rid=2522853",
+     "user_limit": null
+    },
+    "id": "2522853",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-04-12T16:54:59.615711+00:00",
+     "description": "\u003cem\u003e\"One day my log will have something to say about this.\" -The Log Lady\u003c/em\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eWe heard you talking about Laura Palmer and would love to invite you to join us for an exclusive one hour video conference call. You will have the opportunity to ask us anything you want and get all the insider information behind The Archivist:VR.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0\u003cem\u003e*If we reach PSVR goal you will also have access to the closed weekly PSVR Beta Releases and Tech Demo. \u003c/em\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAn exclusive monthly one hour conference call with the development team behind The Archivist:VR.\u003c/li\u003e\n\u003cli\u003eAccess to exclusive Development and Tutorial Videos every month.\u003c/li\u003e\n\u003cli\u003eAccess to the closed weekly PC Beta Releases.\u003c/li\u003e\n\u003cli\u003eThe official Archivist:VR Coffee Mug.\u003c/li\u003e\n\u003cli\u003eAccess to the monthly PC Tech Demos.\u003c/li\u003e\n\u003cli\u003eAccess to patron-only development updates, pics and content road map.\u003c/li\u003e\n\u003cli\u003eBecome part of our \u003cstrong\u003eDiscord community\u003c/strong\u003e to chat with us live.\u00a0\u003c/li\u003e\n\u003cli\u003ePatron-only polls.\u003c/li\u003e\n\u003cli\u003eOur thanks and a virtual hug!\u003c/li\u003e\n\u003cli\u003eYour name in the credits.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "434013988750229504"
+     ],
+     "edited_at": "2018-04-13T20:06:29.542615+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-13T20:06:29.534969+00:00",
+     "remaining": 9,
+     "requires_shipping": true,
+     "title": "The Log Speaks Edition",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681842\u0026rid=2522856",
+     "user_limit": 10
+    },
+    "id": "2522856",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-04-12T17:10:03.427505+00:00",
+     "description": "\u00a0\u003cem\u003e\"Cooper... an observation. I don\u0027t know where this is headed, but the only one of us with the coordinates for this destination in his hardware is you. Go on whatever vision quest you require. Stand on the rim of the volcano, stand alone and do your dance. Just find this beast before he takes another bite.\" \u00a0-\u003c/em\u003eAlbert Rosenfield\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eSecure your exclusive early access today and be among the first to play the full game!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eGet your official head start of 23 days to the full release of The Archivist:VR. If you feel your Special Agent duty is to discover every secret of The Archivist:VR before the rest of the world begins to realize what\u0027s going on, this is your opportunity!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eEarly Access to the Digital Edition of The Archivist:VR for PC\u00a0\u003c/li\u003e\n\u003cli\u003eAccess to exclusive Development and Tutorial Videos every month.\u00a0\u003c/li\u003e\n\u003cli\u003eAccess to the closed weekly PC Beta Releases.\u003c/li\u003e\n\u003cli\u003eThe official Archivist:VR Coffee Mug.\u003c/li\u003e\n\u003cli\u003eAccess to the monthly PC Tech Demos.\u003c/li\u003e\n\u003cli\u003eAccess to patron-only development updates, pics and content road map.\u003c/li\u003e\n\u003cli\u003eBecome part of our \u003cstrong\u003eDiscord community\u003c/strong\u003e to chat with us live.\u00a0\u003c/li\u003e\n\u003cli\u003ePatron-only polls.\u003c/li\u003e\n\u003cli\u003eOur thanks and a virtual hug!\u003c/li\u003e\n\u003cli\u003eYour name in the credits.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "434013988750229504"
+     ],
+     "edited_at": "2018-04-12T18:21:07.914798+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T18:21:07.904591+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Vision Quest Edition",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681842\u0026rid=2522883",
+     "user_limit": null
+    },
+    "id": "2522883",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-04-12T17:48:53.926137+00:00",
+     "description": "\u003cem\u003e\"You see that box he\u0027s holding? That was in my dream. Listen to me, listen to me! There\u0027s something in that box and if that something is what I saw in my dream we cant kill him. I\u0027m not kidding Rodney.\" -Bradley Mitchum\u003c/em\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eWho doesn\u0027t dream of Cherry Pie? This is a do or die reward for the hardcore fans of The Archivist:VR\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will get a Special Boxed Edition of The Archivist:VR PC delivered straight to your house. Just like the old days when video games came in boxes. Included in this box is a special code that unlocks an exclusive DLC which will remain a mystery until you open the box!! (Only available with the boxed edition of The Archivist:VR)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e*If we reach PSVR goal you will also have access to the closed weekly PSVR Beta Releases, Tech Demo and Mystery DLC . \u003c/em\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eSpecial Edition Cherry Pie Boxed copy of The Archivist:VR PC with An Exclusive Mystery DLC.\u003c/li\u003e\n\u003cli\u003eEarly Access to the Digital Edition of The Archivist:VR for PC\u00a0\u003c/li\u003e\n\u003cli\u003eAccess to exclusive Development and Tutorial Videos every month.\u00a0\u003c/li\u003e\n\u003cli\u003eAccess to the closed weekly PC Beta Releases.\u003c/li\u003e\n\u003cli\u003eThe official Archivist:VR Coffee Mug.\u003c/li\u003e\n\u003cli\u003eAccess to the monthly PC Tech Demos.\u003c/li\u003e\n\u003cli\u003eAccess to patron-only development updates, pics and content road map.\u003c/li\u003e\n\u003cli\u003eBecome part of our \u003cstrong\u003eDiscord community\u003c/strong\u003e to chat with us live.\u00a0\u003c/li\u003e\n\u003cli\u003ePatron-only polls.\u003c/li\u003e\n\u003cli\u003eOur thanks and a virtual hug!\u003c/li\u003e\n\u003cli\u003eYour name in the credits.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "434013988750229504"
+     ],
+     "edited_at": "2018-04-14T11:34:33.380110+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-14T11:34:33.373290+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Cherry Pie Edition",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681842\u0026rid=2522978",
+     "user_limit": null
+    },
+    "id": "2522978",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2018-04-12T18:25:17.755924+00:00",
+     "description": "\u003cem\u003e\u00a0\"The dying woman was not natural. Conjured. What\u0027s the word? A tulpa.\" -Tammy Preston\u003c/em\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eWe all have our favorite characters from Twin Peaks. Whats yours? And more importantly would you like to see their Tulpa in glorious VR? Of course you do!! Hurry up this is a limited offer only available to five lucky backers.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e*If we reach PSVR goal you will also have access to the closed weekly PSVR Beta Releases and Tech Demo. \u003c/em\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eWe will create any character of your choosing from the Twin Peaks Universe that will be featured in the game.\u003c/li\u003e\n\u003cli\u003eSpecial Edition Cherry Pie Boxed copy of The Archivist:VR PC with An Exclusive Mystery DLC.\u003c/li\u003e\n\u003cli\u003eEarly Access to the Digital Edition of The Archivist:VR for PC\u00a0\u003c/li\u003e\n\u003cli\u003eAccess to exclusive Development and Tutorial Videos\u003c/li\u003e\n\u003cli\u003eAccess to the closed weekly PC Beta Releases.\u003c/li\u003e\n\u003cli\u003eThe official Archivist:VR Coffee Mug.\u003c/li\u003e\n\u003cli\u003eAccess to the monthly PC Tech Demos.\u003c/li\u003e\n\u003cli\u003eAccess to patron-only development updates, pics and content road map.\u003c/li\u003e\n\u003cli\u003eBecome part of our \u003cstrong\u003eDiscord community\u003c/strong\u003e to chat with us live.\u00a0\u003c/li\u003e\n\u003cli\u003ePatron-only polls.\u003c/li\u003e\n\u003cli\u003eOur thanks and a virtual hug!\u003c/li\u003e\n\u003cli\u003eYour name in the credits.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "434013988750229504"
+     ],
+     "edited_at": "2018-04-14T11:34:22.016941+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-14T11:34:22.009566+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Tulpa Limited Edition",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681842\u0026rid=2523075",
+     "user_limit": 5
+    },
+    "id": "2523075",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-04-13T20:11:50.875637+00:00",
+     "description": "\"Oh Dougie, it\u0027s like all our dreams are coming true.\" -Janey-E\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will receive all three models of Agent Cooper from Season 3 of Twin Peaks The Return. You will have access to Dougie, Mr.C and Agent Dale Cooper. This special digital package will give you all the models, animations and textures we used to create the characters in The Archivist:VR\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eDougie, Mr.C and Agent Dale Cooper Digital Edition 3D Models\u003c/li\u003e\n\u003cli\u003eSpecial Edition Cherry Pie Boxed copy of The Archivist:VR PC with An Exclusive Mystery DLC.\u003c/li\u003e\n\u003cli\u003eEarly Access to the Digital Edition of The Archivist:VR for PC\u00a0\u003c/li\u003e\n\u003cli\u003eAccess to exclusive Development and Tutorial Videos\u003c/li\u003e\n\u003cli\u003eAccess to the closed weekly PC Beta Releases.\u003c/li\u003e\n\u003cli\u003eThe official Archivist:VR Coffee Mug.\u003c/li\u003e\n\u003cli\u003eAccess to the monthly PC Tech Demos.\u003c/li\u003e\n\u003cli\u003eAccess to patron-only development updates, pics and content road map.\u003c/li\u003e\n\u003cli\u003eBecome part of our \u003cstrong\u003eDiscord community\u003c/strong\u003e to chat with us live.\u00a0\u003c/li\u003e\n\u003cli\u003ePatron-only polls.\u003c/li\u003e\n\u003cli\u003eOur thanks and a virtual hug!\u003c/li\u003e\n\u003cli\u003eYour name in the credits.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "434013988750229504"
+     ],
+     "edited_at": "2018-04-14T11:34:09.014424+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-14T11:34:09.004638+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "The Holy Trinity Edition",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681842\u0026rid=2525903",
+     "user_limit": null
+    },
+    "id": "2525903",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2018-04-13T20:23:39.869340+00:00",
+     "description": "\u003cem\u003e\"My family, my friends, I have criss-crossed this great land of ours countless times. I hold a map of it here, in my heart next to the joyful memories of the carefree days I spent as a young boy here in your beautiful town of Twin Peaks.\" -Wally Brando\u003c/em\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eWe all have our favorite scenes from Twin Peaks. Maybe for you its seeing Julee Cruise singing at The Roadhouse or perhaps its slipping into One Eyed Jacks to find Audrey. Now imagine being able to see that scene come to life in The Archivist:VR. With this reward you will get the opportunity to tell us your favorite scene and we will meticulously create just for you in glorious virtual reality!!\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eHurry up this is a dream come true offer for only 3 lucky Patrons!!\u00a0\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eChoose you favorite scene from Twin Peaks and we will meticulously create it just for you.\u00a0\u003c/li\u003e\n\u003cli\u003eSpecial Edition Cherry Pie Boxed copy of The Archivist:VR PC with An Exclusive Mystery DLC.\u003c/li\u003e\n\u003cli\u003eEarly Access to the Digital Edition of The Archivist:VR for PC\u00a0\u003c/li\u003e\n\u003cli\u003eAccess to exclusive Development and Tutorial Videos\u003c/li\u003e\n\u003cli\u003eAccess to the closed weekly PC Beta Releases.\u003c/li\u003e\n\u003cli\u003eThe official Archivist:VR Coffee Mug.\u003c/li\u003e\n\u003cli\u003eAccess to the monthly PC Tech Demos.\u003c/li\u003e\n\u003cli\u003eAccess to patron-only development updates, pics and content road map.\u003c/li\u003e\n\u003cli\u003eBecome part of our \u003cstrong\u003eDiscord community\u003c/strong\u003e to chat with us live.\u00a0\u003c/li\u003e\n\u003cli\u003ePatron-only polls.\u003c/li\u003e\n\u003cli\u003eOur thanks and a virtual hug!\u003c/li\u003e\n\u003cli\u003eYour name in the credits.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "434013988750229504"
+     ],
+     "edited_at": "2018-04-14T11:33:55.545991+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-14T11:33:55.538769+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "This Beautiful Town Edition",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681842\u0026rid=2525931",
+     "user_limit": 3
+    },
+    "id": "2525931",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2018-04-13T20:45:53.676108+00:00",
+     "description": "\u003cem\u003e\"We are like the dreamer who dreams, and then lives inside the dream.\" -Monica Bellucci\u003c/em\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eWe have dreamed up 3 spectacular DLC\u0027s just for this reward. If you want to continue your journey through the Archivist:VR this is the reward for you!! Visit Alice Tremonds House and walkthrough every room just as you remember it from the show. Relive the Silver Mustang Casino through the eyes of Dougie in a brand new mini game involving interactive Jackpots and last but not least a special mini-game involving \u00a0Freddie Sykes a Green Glove and lots of Bob Orbs to punch!!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e*If we reach our PSVR Goal these Exclusive DLC\u0027s will also be available for PSVR\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e3 Exclusive DLC\u0027s not available anywhere else.\u00a0\u003c/li\u003e\n\u003cli\u003eSpecial Edition Cherry Pie Boxed copy of The Archivist:VR PC with An Exclusive Mystery DLC.\u003c/li\u003e\n\u003cli\u003eEarly Access to the Digital Edition of The Archivist:VR for PC\u00a0\u003c/li\u003e\n\u003cli\u003eAccess to exclusive Development and Tutorial Videos\u003c/li\u003e\n\u003cli\u003eAccess to the closed weekly PC Beta Releases.\u003c/li\u003e\n\u003cli\u003eThe official Archivist:VR Coffee Mug.\u003c/li\u003e\n\u003cli\u003eAccess to the monthly PC Tech Demos.\u003c/li\u003e\n\u003cli\u003eAccess to patron-only development updates, pics and content road map.\u003c/li\u003e\n\u003cli\u003eBecome part of our \u003cstrong\u003eDiscord community\u003c/strong\u003e to chat with us live.\u00a0\u003c/li\u003e\n\u003cli\u003ePatron-only polls.\u003c/li\u003e\n\u003cli\u003eOur thanks and a virtual hug!\u003c/li\u003e\n\u003cli\u003eYour name in the credits.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "434013988750229504"
+     ],
+     "edited_at": "2018-04-14T11:33:37.653347+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-14T11:33:37.626247+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Exclusive DLC Edition",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681842\u0026rid=2525979",
+     "user_limit": null
+    },
+    "id": "2525979",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 81,
+     "created_at": "2018-04-13T18:57:30+00:00",
+     "description": "\u003cstrong\u003eMotion Capture Goal\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eThis goal will allow us to purchase The iClone Kinect Motion Capture Suite. With the Kinect motion capturing tool, we can use our own body to control virtual actors, in real-time, with motion smoothing optimizations. Giving us the ability to quickly create authentic motions without having to rent an entire mocap studio or even wear a markered jump suit! Watch this video for more information:\u00a0\u003ca href=\"https://youtu.be/wqQehmeY4ys\"\u003eiClone Motion Capture\u003c/a\u003e",
+     "reached_at": "2018-04-16T21:18:03+00:00",
+     "title": ""
+    },
+    "id": "1171411",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 40,
+     "created_at": "2018-04-13T18:57:30+00:00",
+     "description": "\u003cstrong\u003ePlaystation VR Goal\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eThis goal will enable us to move forward with the Playstation VR Edition of the The Archivist. This is all we need to finalize the purchase and receive the Development Kit from Sony in 3-4 days express shipping. Which means you can realistically expect a PSVR version as soon as late May or early June 2018!!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1171412",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 20,
+     "created_at": "2018-04-13T18:57:30+00:00",
+     "description": "\u003cstrong\u003eFacial Capture Goal\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eWith this goal we will be able to purchase the iClone\u00a0Faceware Realtime Facial Mocap System. This a professional quality, real-time facial tracking software designed to give iClone users a simple, cost-effective, and powerful tool for animating character\u2019s faces. Watch this video for more information:\u00a0\u003ca href=\"https://youtu.be/fawYXH32iQo\"\u003eiClone Facial Motion Capture\u003c/a\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1171413",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 13,
+     "created_at": "2018-04-13T18:57:30+00:00",
+     "description": "\u003cstrong\u003eFaster and More Efficient Development Goal\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eWith this goal you will be helping us buy a brand new computer enabling us to work faster and more efficiently. One of the biggest hindrances we have is loosing productive work time to rendering and processing many of our scenes. This can take up to 4-5 hours every day sometimes. Having another computer for our main artist and developer will not only speed up the process but it will allow us to focus on creating more quality content at a much faster rate.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1171415",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 8,
+     "created_at": "2018-04-13T18:57:30+00:00",
+     "description": "\u003cstrong\u003eBring us the Town Goal\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eOne of our most sought after goals for the Archivist is to create the WHOLE town of Twin Peaks. How awesome would that be?\u00a0 Imagine being able to walk around in virtual reality to some of your favorite locations in the show? Unfortunately we don\u0027t have the man power to achieve this goal in a realistic time frame. But with your financial help we can hire a full time artist to spend all their time working on this goal. Help us reach this $2,500 mark and we promise you\u0027ll be walking through the whole town of Twin Peaks come November 2018!!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1171416",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1681842"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "4b052eee-6695-487f-ba08-9c7faf1c33be",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Nothing Like You Productions is creating The Archivist:VR"
+});
+    </script>
