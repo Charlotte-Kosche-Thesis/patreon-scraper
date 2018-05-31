@@ -1,0 +1,581 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "6bn6t-wj2xTn7JuxjtuKn71tn7uEa-FO5Tdb0y8V5dA";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "209450",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/209450"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-08-18T17:33:02+00:00",
+    "creation_name": "educational and witty architectural criticism.",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/471144/86e89456db7c4e4dbbfc2eae30c2979f?token-time=2145916800\u0026token-hash=lIz9bTrnVt2BAi_vDqPKf8gwuTKwZ_3PmRWU2_VI6g4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/471144/86e89456db7c4e4dbbfc2eae30c2979f?token-time=2145916800\u0026token-hash=P9pSESJQZqiYCPBy6U_qO6zVYbKKKJnyxEvL41PgHSE%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 2201,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=471144",
+    "published_at": "2016-08-18T19:48:19+00:00",
+    "summary": "\u003ca href=\"http://mcmansionhell.tumblr.com\" rel=\"nofollow\"\u003eMcMansionHell\u003c/a\u003e aims to educate the masses about architectural concepts, urban planning, environmentalism and history by making examples out of the places we love to hate the most: the suburbs. \u003cbr\u003e\u003cbr\u003eBy alternating comedy-oriented takedowns of individual houses with weekly informative essays about urbanism, architecture, sociology, and interior design, McMansionHell hopes to open readers\u0027 eyes to the world around them, and inspire them to make it a better one.\u00a0"
+   },
+   "id": "471144",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3844491",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3844491"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "515434",
+       "type": "goal"
+      },
+      {
+       "id": "515435",
+       "type": "goal"
+      },
+      {
+       "id": "515803",
+       "type": "goal"
+      },
+      {
+       "id": "518234",
+       "type": "goal"
+      },
+      {
+       "id": "523872",
+       "type": "goal"
+      },
+      {
+       "id": "543562",
+       "type": "goal"
+      },
+      {
+       "id": "590149",
+       "type": "goal"
+      },
+      {
+       "id": "625927",
+       "type": "goal"
+      },
+      {
+       "id": "685994",
+       "type": "goal"
+      },
+      {
+       "id": "883045",
+       "type": "goal"
+      },
+      {
+       "id": "1216997",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-471144",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-471144"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "685065",
+       "type": "reward"
+      },
+      {
+       "id": "685066",
+       "type": "reward"
+      },
+      {
+       "id": "685067",
+       "type": "reward"
+      },
+      {
+       "id": "685068",
+       "type": "reward"
+      },
+      {
+       "id": "685069",
+       "type": "reward"
+      },
+      {
+       "id": "1468390",
+       "type": "reward"
+      },
+      {
+       "id": "685070",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-08-18T17:33:00+00:00",
+     "facebook": "https://www.facebook.com/mcmansionhell",
+     "first_name": "McMansionHell",
+     "full_name": "McMansionHell",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3844491/87d38c7b3f494bceb79b07f54b6c7022?token-time=2145916800\u0026token-hash=eZ80DzrwGrhcikNFXo1knTJ9jOIRhij8Uazx9zUNNBQ%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3844491/87d38c7b3f494bceb79b07f54b6c7022?token-time=2145916800\u0026token-hash=JqnlJrZ9FbTMZ6k-vpa-QKqqirjnXx6gkUzF7D9XVr4%3D",
+     "twitch": null,
+     "twitter": "mcmansionhell",
+     "url": "https://www.patreon.com/mcmansionhell",
+     "vanity": "mcmansionhell",
+     "youtube": null
+    },
+    "id": "3844491",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "471144",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/471144"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 72,
+     "upgrade_url": "/bePatron?c=471144\u0026rid=685065"
+    },
+    "id": "post-aggregation-for-0-471144",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-23T20:53:19+00:00",
+     "description": "Did you just join my team of patrons?! Yes, yes you did. THANK YOU! As an official patron, you\u0027ll have access to my patron-only feed with project updates and content creation tips once every month, as well as access to the \"Good House of the Week!\"\u003cbr\u003e\n\u003cbr\u003e\nYou\u0027ll also receive a special slideshow featuring a curated collection of abandoned McMansions!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-28T17:23:12.477487+00:00",
+     "image_url": null,
+     "post_count": 12,
+     "published": true,
+     "published_at": "2016-10-23T20:53:19+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "League of Architectural Wokeness",
+     "unpublished_at": null,
+     "url": "/bePatron?c=471144\u0026rid=685065"
+    },
+    "id": "685065",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-10-23T20:53:19+00:00",
+     "description": "Access to monthly essays explaining topics from architectural history and theory.\u00a0Plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-30T23:24:18.769992+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-30T23:24:18.759847+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "League of Architectural Sassiness",
+     "unpublished_at": null,
+     "url": "/bePatron?c=471144\u0026rid=685066"
+    },
+    "id": "685066",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-23T20:53:19+00:00",
+     "description": "Access to a monthly live house roasting session and Q\u0026amp;A on Crowdcast! Plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-30T23:24:08.810771+00:00",
+     "image_url": null,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2018-05-30T23:24:08.801348+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "League of Architectural Savviness ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=471144\u0026rid=685067"
+    },
+    "id": "685067",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-23T20:53:20+00:00",
+     "description": "Wow! This is awesome! You\u0027ll get access to a monthly bonus (non-McMansion) roast where I take on today\u0027s giants of architecture. Plus all previous rewards.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-30T23:26:01.048146+00:00",
+     "image_url": null,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2018-05-30T23:26:01.038427+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "League of Architectural Solidarity",
+     "unpublished_at": null,
+     "url": "/bePatron?c=471144\u0026rid=685068"
+    },
+    "id": "685068",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-10-23T20:53:20+00:00",
+     "description": "Wow, you just got access to the archives: Where I share pictures and personal writings on historical design: curated selections from Sears Catalogs to HGTV. Plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-30T23:32:44.928591+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-30T23:32:44.919406+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Guardians of Architecture",
+     "unpublished_at": null,
+     "url": "/bePatron?c=471144\u0026rid=685069"
+    },
+    "id": "685069",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-03-05T19:40:37.219112+00:00",
+     "description": "Even though a book is just entering the conceptual stage, I promise that if such a thing comes to fruition you will received a free copy, plus all previous rewards.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-28T17:35:58.983910+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-05T19:40:37.219112+00:00",
+     "remaining": 7,
+     "requires_shipping": true,
+     "title": "League of Suburban Warriors",
+     "unpublished_at": null,
+     "url": "/bePatron?c=471144\u0026rid=1468390"
+    },
+    "id": "1468390",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-23T20:53:20+00:00",
+     "description": "I\u0027m all ears, man. McMansion Hell will roast a building of your choice. Plus all previous rewards.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-30T23:27:47.539585+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-30T23:27:47.532427+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "League of Certified Dank",
+     "unpublished_at": null,
+     "url": "/bePatron?c=471144\u0026rid=685070"
+    },
+    "id": "685070",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-08-18T19:33:51+00:00",
+     "description": "Purchasing copies of old interior design magazines, books, and other materials for the\u00a0\u003cem\u003eA Field Guide to the Dated\u003c/em\u003e\u00a0Series, which documents residential design in the suburbs from 1980 to the present.\u00a0",
+     "reached_at": "2016-08-19T10:38:12+00:00",
+     "title": ""
+    },
+    "id": "515434",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-08-18T19:33:51+00:00",
+     "description": "Complete the accumulation of sources for the \u003cem\u003eField Guide to the Dated \u003c/em\u003eseries for the following decades: 80s and 90s, and begin seeking out materials for the 2000s and 2010s.\u00a0\u003cbr\u003e\u003cbr\u003ePurchase the latest edition of \u003cem\u003eA Field Guide to American Houses \u003c/em\u003eby Virginia McAlester, because the public library probably wants theirs back by now.",
+     "reached_at": "2016-08-20T02:20:04+00:00",
+     "title": ""
+    },
+    "id": "515435",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-08-19T04:08:32+00:00",
+     "description": "Finish purchasing materials\u00a0\u003cem\u003eA Field Guide to the Dated\u003c/em\u003e\u00a0for 1990-2016 and begin writing and releasing informative, Patreon-exclusive guides to other periods and styles of architecture.\u00a0\u003cbr\u003e\u003cbr\u003eProvide a fund for MMH to use for paying for photo licenses to bring higher quality content to the blog.\u00a0\u003cbr\u003e",
+     "reached_at": "2016-08-23T01:54:54+00:00",
+     "title": ""
+    },
+    "id": "515803",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-08-21T20:38:28+00:00",
+     "description": "Establish a fund devoted to commissioning talented Real Estate and architectural photographers in order to get the best possible quality photos for MMH and expose talented artists to a wider audience.\u00a0",
+     "reached_at": "2016-08-27T08:48:37+00:00",
+     "title": ""
+    },
+    "id": "518234",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-08-27T14:20:25+00:00",
+     "description": "Continue commissioning talented real estate and architectural photographers for use in a possible book. \u003cbr\u003e\u003cbr\u003eEstablish funds for potential travel as McMansionHell gets more and more popular, and the possibility of a book becomes clearer and clearer!\u00a0\u00a0",
+     "reached_at": "2016-09-06T20:56:10+00:00",
+     "title": ""
+    },
+    "id": "523872",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-09-13T14:53:28+00:00",
+     "description": "Towards a book:\u00a0\u003cbr\u003e\u003cul\u003e\u003cli\u003eFund the purchase of a flatbed scanner, enabling further archiving of print materials from different decades.\u003c/li\u003e\u003cli\u003eFund travel to different cities and neighborhoods for the purpose of interviewing journalists, homeowners, architects, urban planners, and interior designers.\u00a0\u003c/li\u003e\u003cli\u003eFund the purchases of more period material.\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": "2016-10-10T12:28:54+00:00",
+     "title": ""
+    },
+    "id": "543562",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-10-23T20:53:19+00:00",
+     "description": "Continuing: \u003cbr\u003eTowards a book: \u003cbr\u003e\u003cul\u003e\u003cli\u003eFund the purchase of a flatbed scanner, enabling further archiving of print materials from different decades.\u003c/li\u003e\u003cli\u003eFund the purchase of a Wacom tablet!!\u003c/li\u003e\u003cli\u003eProvide funds for licensing photographs\u003c/li\u003e\u003cli\u003eFund travel to different cities and neighborhoods for the purpose of interviewing journalists, homeowners, architects, urban planners, and interior designers.\u003c/li\u003e\u003cli\u003eFund the purchases of more period material.\u003c/li\u003e\u003c/ul\u003eIf the $1,000 goal is reached, a McMansion Travel Fun Pack will be released including a Field Guide to the McMansion, and six unique McMansion Bingo cards!",
+     "reached_at": "2016-11-21T05:53:14+00:00",
+     "title": ""
+    },
+    "id": "590149",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-11-29T22:02:59+00:00",
+     "description": "Establish a McMansionHell Store!\u00a0\u003cbr\u003eTowards a book: \u003cbr\u003e\u003cul\u003e\u003cli\u003eFund the purchase of a flatbed scanner, enabling further archiving of print materials from different decades.\u003c/li\u003e\u003cli\u003eProvide funds for licensing photographs\u003c/li\u003e\u003cli\u003eFund travel to different cities and neighborhoods for the purpose of interviewing journalists, homeowners, architects, urban planners, and interior designers.\u003c/li\u003e\u003cli\u003eFund the purchases of more period material.\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": "2017-01-15T22:00:54+00:00",
+     "title": ""
+    },
+    "id": "625927",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2017-01-19T20:18:40+00:00",
+     "description": "\u003cdiv\u003e\u003cbr\u003eTowards a Book:\u003c/div\u003e\u003cul\u003e\u003cli\u003eProvide funds for licensing photographs\u003c/li\u003e\u003cli\u003eFund travel to different cities and neighborhoods for the purpose of interviewing journalists, homeowners, architects, urban planners, and interior designers.\u003c/li\u003e\u003cli\u003eFund the purchases of more period material\u003c/li\u003e\u003c/ul\u003eAn important bit that is going on behind the scenes is the transition and archiving of McMansion Hell away from Tumblr and onto its own website. Content will be reproduced on Tumblr as it is now, but I would like to use a platform that allows for larger photos and interactive elements such as maps or fun bits like \"drag and drop\" McMansion sticker books, etc. \u003cbr\u003e\u003cbr\u003eThis is a long-term goal, which would involve hiring a web-designer and commission work from content creators for a more interesting format going into the 2nd year of this project. \u00a0\u003cbr\u003e",
+     "reached_at": "2017-05-22T21:42:59+00:00",
+     "title": ""
+    },
+    "id": "685994",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2017-06-28T17:37:55+00:00",
+     "description": "Towards a Book:\u003cbr\u003e\u003cul\u003e\u003cli\u003eProvide funds for licensing photographs\u003c/li\u003e\u003cli\u003eFund travel to different cities and neighborhoods for the purpose of interviewing journalists, homeowners, architects, urban planners, and interior designers.\u003c/li\u003e\u003cli\u003eFund the purchases of more period material\u003c/li\u003e\u003c/ul\u003eAn important bit that is going on behind the scenes is the transition and archiving of McMansion Hell away from Tumblr and onto its own website. Content will be reproduced on Tumblr as it is now, but I would like to use a platform that allows for larger photos and interactive elements such as maps or fun bits like \"drag and drop\" McMansion sticker books, etc. \u003cbr\u003e\u003cbr\u003eThis is a long-term goal, which would involve hiring a web-designer and commission work from content creators for a more interesting format going into the 2nd year of this project.",
+     "reached_at": "2017-07-15T02:29:07+00:00",
+     "title": ""
+    },
+    "id": "883045",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 74,
+     "created_at": "2018-05-30T23:32:52+00:00",
+     "description": "As the blog enters its third year, it\u0027s time for some freshening up, and branching out. Your contributions will help fund:\u003cbr\u003e\u003cul\u003e\u003cli\u003ea fresh look for the website (new logo and banners for social media)\u003c/li\u003e\u003cli\u003ea design writing competition for high-school aged writers\u00a0\u003c/li\u003e\u003cli\u003enew software and better web design\u003c/li\u003e\u003cli\u003eresearch and procurement of archival materail\u003c/li\u003e\u003cli\u003ecommissioning writers for guest posts and/or curated selections of McMansions.\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1216997",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/471144"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "3f71c108-5f60-4a57-a27f-e531527cb2f8",
+ "is_impersonating": false,
+ "js_git_sha": "3631080342b1a3f490afb9b051a5e57b89b416a8",
+ "page_title": "McMansionHell is creating educational and witty architectural criticism."
+});
+    </script>

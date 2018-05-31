@@ -2,7 +2,7 @@
 iterates through graphtreon file to find URLs
 
 downloads and extracts relevant <script> content
-and saves to datadump/patreon/overviews
+and saves to datadump/patreon/overviews/[first_letter_of_slug]/slug.html
 
 skips existing files; should only have to run once
 """
@@ -35,7 +35,8 @@ def main():
     for i, row in enumerate(records):
         g = row['Graphtreon']
         slug = g.split('/')[-1]
-        dest_name = DATA_DIR.joinpath(slug + '.html')
+        dest_name = DATA_DIR.joinpath(slug[0].lower(), slug + '.html')
+        dest_name.parent.mkdir(exist_ok=True)
         if not dest_name.exists():
             url = "https://www.patreon.com/{}/overview".format(slug)
             print("{} out of {}:".format(i, len(records)), "Downloading", url)

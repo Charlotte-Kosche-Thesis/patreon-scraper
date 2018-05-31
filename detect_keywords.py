@@ -1,16 +1,16 @@
 """
-Reads all files in datadump/patreon/overviews
+Reads all files in datadump/patreon/overviews/**/*.html
 
 Assumes overviews/somefilename.html only contains <script> tags with
  relevant data
 
-Creates a CSV in results/with_foundwords.csv
+Creates a CSV in results/with_keywords.csv
 """
 
 from pathlib import Path
 import csv
 DATASTASH = Path('datadump', 'patreon', 'overviews')
-SRC_FILES = list(DATASTASH.glob('*.html'))
+SRC_FILES = list(DATASTASH.glob('**/*.html'))
 DEST_PATH = Path('results', 'with_keywords.csv')
 DEST_PATH.parent.mkdir(parents=True, exist_ok=True)
 
