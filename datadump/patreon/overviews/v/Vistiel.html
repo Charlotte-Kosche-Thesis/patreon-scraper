@@ -1,0 +1,671 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "nHeBqD-7vi6rflgGFkUJmprwiTE0vmFT2PpPNdorD80";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "701918",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/701918"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-01-08T08:12:44+00:00",
+    "creation_name": "Books",
+    "display_patron_goals": true,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 178,
+    "pay_per_name": "month",
+    "pledge_sum": 131673,
+    "pledge_url": "/bePatron?c=1448971",
+    "published_at": "2018-01-08T08:15:40+00:00",
+    "summary": "Hey guys, my name is Jordan! I\u0027m a Wildland Helicopter Firefighter from California and finally exploring writing in my off time. Currently, I\u0027m writing the story \"A Gentlemen\u0027s Curse\". The only \u0027donation rewards\u0027 I\u0027ll have will be access to chapters before they go up on RR. My story is just getting off the ground but I\u0027ll do my best to not slow down releases! Keep in mind though that my summer job will impact my writing time. Any single time donations or committed monthly donations will go towards helping me write without having to worry about money. Thank you for reading(this extremely long \u0027about\u0027) and I hope you enjoy the voices in my head!\u003cbr\u003e\u003cbr\u003eMy goals for this feel unrealistic right now, but I would love to become a full-time writer and be able to quit my job. I\u0027ve found this is an extremely enjoyable way to spend my time and any of you that help me toward actually becoming a professional writer are greatly appreciated! I\u0027m still working on deciding on specific rewards for the tiers but that can come later. All I know is that in some way shape or form they will be name based, whether its a character I kill off or one that stays for a few chapters.\u003cbr\u003e\u003cbr\u003eName choices for rewards may be refused based on viability in the story.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eCurrent number of banked chapters for Patrons only: 5\u003c/strong\u003e\u003cbr\u003e"
+   },
+   "id": "1448971",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7815074",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7815074"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "63325",
+       "type": "patron_goal"
+      },
+      {
+       "id": "74804",
+       "type": "patron_goal"
+      },
+      {
+       "id": "63326",
+       "type": "patron_goal"
+      },
+      {
+       "id": "74805",
+       "type": "patron_goal"
+      },
+      {
+       "id": "74806",
+       "type": "patron_goal"
+      },
+      {
+       "id": "81143",
+       "type": "patron_goal"
+      },
+      {
+       "id": "74672",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1448971",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1448971"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2284643",
+       "type": "reward"
+      },
+      {
+       "id": "2332411",
+       "type": "reward"
+      },
+      {
+       "id": "2284651",
+       "type": "reward"
+      },
+      {
+       "id": "2284674",
+       "type": "reward"
+      },
+      {
+       "id": "2284684",
+       "type": "reward"
+      },
+      {
+       "id": "2284693",
+       "type": "reward"
+      },
+      {
+       "id": "2289906",
+       "type": "reward"
+      },
+      {
+       "id": "2284696",
+       "type": "reward"
+      },
+      {
+       "id": "2284699",
+       "type": "reward"
+      },
+      {
+       "id": "2284767",
+       "type": "reward"
+      },
+      {
+       "id": "2284776",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-09-24T15:15:55+00:00",
+     "facebook": null,
+     "first_name": "Jordan",
+     "full_name": "Jordan",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMyIsInciOjIwMH0%3D/patreon-media/user/7815074/d8d61113e9ae432ab04f11e446f4e297?token-time=2145916800\u0026token-hash=OWNkxPlq3UEGTm3QvHyEE-gIRuBSM2BBc343LhtoVxo%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIzIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7815074/d8d61113e9ae432ab04f11e446f4e297?token-time=2145916800\u0026token-hash=86l-wqRm9Nt2ImkBFkXAxSV1s7WVOBj6zhT_EGudlz8%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/Vistiel",
+     "vanity": "Vistiel",
+     "youtube": null
+    },
+    "id": "7815074",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1448971",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1448971"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 50,
+     "upgrade_url": "/bePatron?c=1448971\u0026rid=2332411"
+    },
+    "id": "post-aggregation-for-0-1448971",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-01-14T22:46:00.604518+00:00",
+     "description": "Grants title \u0027Friend of the author\u0027 Effects: My eternal thanks for your support.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-14T22:59:34.898393+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-14T22:59:34.869255+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Human Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1448971\u0026rid=2284643",
+     "user_limit": null
+    },
+    "id": "2284643",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-01-31T05:22:25.661023+00:00",
+     "description": "Grants title \u0027Super friend of the author\u0027 Effects: My doubly eternal thanks and one Patron only chapter",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-21T08:48:57.200187+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 31,
+     "published": true,
+     "published_at": "2018-02-21T08:48:57.192932+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Super-Human supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1448971\u0026rid=2332411",
+     "user_limit": null
+    },
+    "id": "2332411",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-01-14T22:49:52.815917+00:00",
+     "description": "Grants title \u0027Friend of the Dwarves\u0027 Effects: Access to 4 chapters before they\u0027re posted and increased resistance to alcohol. Results may vary.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll titles below your tier granted.\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-21T10:08:46.385683+00:00",
+     "image_url": null,
+     "patron_count": 77,
+     "post_count": 14,
+     "published": true,
+     "published_at": "2018-02-21T10:08:46.378417+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Dwarven Smith",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1448971\u0026rid=2284651",
+     "user_limit": null
+    },
+    "id": "2284651",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-14T22:58:34.154178+00:00",
+     "description": "Grants title \u0027Friend of the Demi-Humans\u0027 Effects: Access to all chapters ahead of regular releases and bonus short stories before they\u0027re released for this book series. Access to discord when it gets set up for book discussions.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll titles below your tier granted.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-27T04:13:30.372832+00:00",
+     "image_url": null,
+     "patron_count": 95,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-27T04:13:30.365899+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Demi-Human Loyalist",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1448971\u0026rid=2284674",
+     "user_limit": null
+    },
+    "id": "2284674",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-01-14T23:04:50.734056+00:00",
+     "description": "Grants title \u0027Combatant\u0027 Effects: Increases constitution and control of self modifying abilities. Results may vary.\n\u003cp\u003e\u00a0\u00a0\u003c/p\u003e\n\u003cp\u003eAll titles below your tier granted.\u00a0First contributor of this specific tier will have their name input to the book(if your name isn\u0027t viable, let me know what you\u0027d like it to be)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-21T09:26:55.496693+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-21T09:26:55.489196+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Combatant",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1448971\u0026rid=2284684",
+     "user_limit": null
+    },
+    "id": "2284684",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-01-14T23:07:01.691429+00:00",
+     "description": "Grants title \u0027Mage\u0027 Effects: Increases control and capacity of mana manipulation. Results may vary.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll titles below your tier granted.\u00a0 First contributor of this specific tier will have their name input to the book(if your name isn\u0027t viable, let me know what you\u0027d like it to be)\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-21T09:27:00.975174+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-21T09:27:00.968442+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mage",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1448971\u0026rid=2284693",
+     "user_limit": null
+    },
+    "id": "2284693",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-01-16T20:04:14.200883+00:00",
+     "description": "Grants title \u0027Villain\u0027 Most people\u0027s shenanigans are cheeky and fun, yours are cruel and tragic. Effects: Less likely to be targeted by villainous folk. More likely to be harassed by the Guard.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0All titles below your tier granted.\u00a0\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-21T09:27:32.939554+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-21T09:27:32.932992+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Villain",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1448971\u0026rid=2289906",
+     "user_limit": null
+    },
+    "id": "2289906",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-01-14T23:10:13.706651+00:00",
+     "description": "Grants title \u0027Friend of the Fae\u0027 Effects: Less likely to have negative experience when tricked by the Fae. Results may greatly vary.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAnyone donating this tier or above when I finally get an editor to go over my first two books will get a free Paperback copy of it signed by the Author.\u00a0\u003c/p\u003e\n\u003cp\u003e\u00a0\u00a0\u003c/p\u003e\n\u003cp\u003eAll titles below your tier granted.\u00a0\u003c/p\u003e\n\u003cp\u003e-Error encountered; Titles Mage, Combatant, Villain mutually exclusive\u003c/p\u003e\n\u003cp\u003e-Exception made\u003c/p\u003e\n\u003cp\u003e-Choose Title; [Mage] [Combatant] [Villain]\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-06T19:35:12.899142+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-06T19:35:12.889432+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Friend of the Fae",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1448971\u0026rid=2284696",
+     "user_limit": null
+    },
+    "id": "2284696",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-01-14T23:12:06.857678+00:00",
+     "description": "Grants title \u0027Friend of the Celestials\u0027 Effects: Enables one to touch Celestial wings without evoking disgust. Grants wings in dreams. Results may vary.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll titles below your tier granted.\u00a0 First contributor of this specific tier will have their name input to the book while describing how they\u0027d like them to behave.\u003c/p\u003e\n\u003cp\u003e(if your name isn\u0027t viable, let me know what you\u0027d like it to be)\u00a0\u003c/p\u003e\n\u003cp\u003e-Error encountered; Titles Mage, Combatant, Villain mutually exclusive\u003c/p\u003e\n\u003cp\u003e-Exception made\u003c/p\u003e\n\u003cp\u003e-Choose Title; [Mage] [Combatant] [Villain]\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-25T14:58:58.450811+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T14:58:58.440554+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Celestial Loyalist",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1448971\u0026rid=2284699",
+     "user_limit": null
+    },
+    "id": "2284699",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-01-14T23:46:36.048914+00:00",
+     "description": "Grants title \u0027Acknowledged of the Elementals\u0027 Effects: Chance of communion with one Element greatly enhanced.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll titles below your tier granted.\u00a0 First contributor of this specific tier will have their name input to the book while describing how they\u0027d like them to behave.\u003c/p\u003e\n\u003cp\u003e(if your name isn\u0027t viable, let me know what you\u0027d like it to be)\u00a0\u003c/p\u003e\n\u003cp\u003e-Error encountered; Titles Mage, Combatant, Villain mutually exclusive\u003c/p\u003e\n\u003cp\u003e-Exception made\u003c/p\u003e\n\u003cp\u003e-Choose Title; [Mage] [Combatant] [Villain]\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-25T14:59:18.743392+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T14:59:18.736595+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Elemental",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1448971\u0026rid=2284767",
+     "user_limit": null
+    },
+    "id": "2284767",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-01-14T23:50:23.192749+00:00",
+     "description": "Grants title \u0027Hero\u0027 Effects: Authors bottled tears of joy(literally). Will input name into story as one of the main protagonists in next book of first three Patrons. \u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0All titles below your tier granted.\u00a0\u003c/p\u003e\n\u003cp\u003e-Error encountered; Titles Mage, Combatant, Villain mutually exclusive\u003c/p\u003e\n\u003cp\u003e-Exception made\u003c/p\u003e\n\u003cp\u003e-Choose Title; [Mage] [Combatant] [Villain]\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-21T09:28:15.803108+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-21T09:28:15.795842+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Hero",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1448971\u0026rid=2284776",
+     "user_limit": null
+    },
+    "id": "2284776",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-01-08T08:33:16+00:00",
+     "deleted_at": null,
+     "description": "At twenty-five Patrons I will release a video of me baking a cake in an apron. Not from scratch, I\u0027ll use betty crocker or something. Amazing how delicious those can be. Also, I\u0027ll drop a bonus chapter to RR",
+     "goal_text": "At twenty-five Patrons I will release a video of me baking a cake in an apron. Not from scratch, I\u0027ll use betty crocker or something. Amazing how delicious those can be. Also, I\u0027ll drop a bonus chapter to RR",
+     "number_patrons": 25,
+     "reached_at": null
+    },
+    "id": "63325",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-02-14T21:45:16+00:00",
+     "deleted_at": null,
+     "description": "Will draw a map of the world and keep it updated and labeled based on Damien\u0027s experiences! I\u0027m no artist but I\u0027ll do my best. If anyone wants to improve on it be my guest :D\u003cbr\u003e",
+     "goal_text": "Will draw a map of the world and keep it updated and labeled based on Damien\u0027s experiences! I\u0027m no artist but I\u0027ll do my best. If anyone wants to improve on it be my guest :D\u003cbr\u003e",
+     "number_patrons": 50,
+     "reached_at": null
+    },
+    "id": "74804",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-01-08T08:33:16+00:00",
+     "deleted_at": null,
+     "description": "At one hundred Patrons I will start up a Discord channel for Q\u0026amp;A sessions weekly.\u00a0\u003cbr\u003eAnd a bonus chapter for both RR and my patrons.",
+     "goal_text": "At one hundred Patrons I will start up a Discord channel for Q\u0026amp;A sessions weekly.\u00a0\u003cbr\u003eAnd a bonus chapter for both RR and my patrons.",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "63326",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-02-14T21:45:16+00:00",
+     "deleted_at": null,
+     "description": "Will create general discord channel for book discussions among all Patrons. I will not hold weekly Q\u0026amp;A sessions here, it will be a place for you all to talk with one another about the book, post theories, and share similar books you all love with one another.",
+     "goal_text": "Will create general discord channel for book discussions among all Patrons. I will not hold weekly Q\u0026amp;A sessions here, it will be a place for you all to talk with one another about the book, post theories, and share similar books you all love with one another.",
+     "number_patrons": 150,
+     "reached_at": null
+    },
+    "id": "74805",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-02-14T21:45:16+00:00",
+     "deleted_at": null,
+     "description": "Bonus chapter to RR and Patrons!",
+     "goal_text": "Bonus chapter to RR and Patrons!",
+     "number_patrons": 200,
+     "reached_at": null
+    },
+    "id": "74806",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-03-09T03:42:16+00:00",
+     "deleted_at": null,
+     "description": "Bonus chapter to RR and Patrons!",
+     "goal_text": "Bonus chapter to RR and Patrons!",
+     "number_patrons": 300,
+     "reached_at": null
+    },
+    "id": "81143",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-02-14T10:47:58+00:00",
+     "deleted_at": null,
+     "description": "At five hundred Patrons I should be able to stop working completely and focus on writing for all of you, speeding up my release times. I should also be able to hire an editor to go through my novel and fix mistakes none of us notice!\u003cbr\u003eAll patron tiers will get +1 chapter added.",
+     "goal_text": "At five hundred Patrons I should be able to stop working completely and focus on writing for all of you, speeding up my release times. I should also be able to hire an editor to go through my novel and fix mistakes none of us notice!\u003cbr\u003eAll patron tiers will get +1 chapter added.",
+     "number_patrons": 500,
+     "reached_at": null
+    },
+    "id": "74672",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1448971"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e8dfbbb8-79d6-4319-8ff4-97b485ea1445",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Jordan is creating Books"
+});
+    </script>

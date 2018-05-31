@@ -1,0 +1,568 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "4Z4e91zzobakTfGaumCenq1PeG9p-_HvSTizfYEeVrE";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "306210",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/306210"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-11-24T17:08:24+00:00",
+    "creation_name": "Painted Miniatures and Articles",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/623442/cbffb9bbbedd424d8892aed1a8b65f47?token-time=2145916800\u0026token-hash=PjJNF7OwkdPF7u7n7wc6ed5cgfCB_X-2B9A2Okc4kqw%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/623442/cbffb9bbbedd424d8892aed1a8b65f47?token-time=2145916800\u0026token-hash=iQKAy9W4TGHJi6UNMdodxxDTsVs-Zl9171T05i0mdu4%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 265,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=623442",
+    "published_at": "2016-11-24T17:41:35+00:00",
+    "summary": "Hello there! My name is Fen and I\u0027ve been painting miniatures on and off since 2008. \u00a0In recent years I\u0027ve spent additional time concentrating on techniques to develop my ability further and improve the quality of my work more and more. \u00a0I\u0027m keen on being able to do this at least part time and also pass on what I have learnt for others to use and refine further.\u003cbr\u003e\u003cbr\u003eIn addition I put out 1 or 2 weekly articles on Kingdom Death, covering various strategies, discussion of parts of the game and similar thoughts.\u003cbr\u003e\u003cbr\u003eDiscord Community is over at:\u00a0\u003ca href=\"https://discord.gg/rVtu8Bg\"\u003ehttps://discord.gg/rVtu8Bg\u003c/a\u003e\u003cbr\u003e"
+   },
+   "id": "623442",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4487427",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4487427"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "620713",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "15963",
+       "type": "patron_goal"
+      },
+      {
+       "id": "35980",
+       "type": "patron_goal"
+      },
+      {
+       "id": "49576",
+       "type": "patron_goal"
+      },
+      {
+       "id": "49577",
+       "type": "patron_goal"
+      },
+      {
+       "id": "82666",
+       "type": "patron_goal"
+      },
+      {
+       "id": "82667",
+       "type": "patron_goal"
+      },
+      {
+       "id": "82668",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-623442",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-623442"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1436956",
+       "type": "reward"
+      },
+      {
+       "id": "1084960",
+       "type": "reward"
+      },
+      {
+       "id": "1436959",
+       "type": "reward"
+      },
+      {
+       "id": "1436965",
+       "type": "reward"
+      },
+      {
+       "id": "2338888",
+       "type": "reward"
+      },
+      {
+       "id": "2338891",
+       "type": "reward"
+      },
+      {
+       "id": "1436973",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-11-24T17:08:12+00:00",
+     "facebook": "",
+     "first_name": "Fen",
+     "full_name": "Fen",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4487427/e904c23612cd449fa930cc61cc55b4ee?token-time=2145916800\u0026token-hash=43AkytjaZw_fUx9eoYxv8uSXTU1iJettRbduKGnS7YU%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4487427/e904c23612cd449fa930cc61cc55b4ee?token-time=2145916800\u0026token-hash=23QzrrnYRclkteTiQpmfu7Hf-k4xi5aWb5OOdXkSdic%3D",
+     "twitch": "https://www.twitch.tv/fenpaints",
+     "twitter": "fenPaints",
+     "url": "https://www.patreon.com/FenPaints",
+     "vanity": "FenPaints",
+     "youtube": null
+    },
+    "id": "4487427",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "623442",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/623442"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 125,
+     "upgrade_url": "/bePatron?c=623442\u0026rid=1436956"
+    },
+    "id": "post-aggregation-for-0-623442",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-02-24T10:07:49.362855+00:00",
+     "description": "For those who want to peak behind the curtain\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "308624221439787009",
+      "379205834334273547"
+     ],
+     "edited_at": "2017-12-21T09:40:23.540552+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1436956/20cb02df508048599bae93445ae2087a?token-time=2145916800\u0026token-hash=yo2KJkzwWGaG7FZD8L0eYees6YeKOon0MnFUCTgbWco%3D",
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-12-21T09:40:23.523029+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Voyeur",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623442\u0026rid=1436956"
+    },
+    "id": "1436956",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-24T17:11:31+00:00",
+     "description": "You\u0027ll receive access to all previous rewards and gain access to WIPs as well as the discussion on finished pieces.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eEarly access to the larger articles and videos\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "308624221439787009",
+      "379205834334273547"
+     ],
+     "edited_at": "2017-12-21T09:40:14.114988+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1084960/f674ab6fc4ce4e599cb54d69e61c3157?token-time=2145916800\u0026token-hash=jlLLrxkYrT9UMiA5QLDX5OcROflMId763-qQlox2seE%3D",
+     "post_count": 15,
+     "published": true,
+     "published_at": "2017-12-21T09:40:14.087925+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Paintreon",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623442\u0026rid=1084960"
+    },
+    "id": "1084960",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-02-24T10:13:10.191871+00:00",
+     "description": "Access to everything in the previous tiers plus:\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eSuggestions for the content of the monthly guides, discussions and other articles.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e10% off any commissions (to a maximum of \u00a350 per commission)\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "308624221439787009",
+      "379205834334273547"
+     ],
+     "edited_at": "2017-12-21T09:37:17.009303+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1436959/30574df001cd4dbd961b66e7c9ca89e9?token-time=2145916800\u0026token-hash=D2CeJ57jYWjCthaEh250aO55OcMMZSdUfluZWoUoQbg%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-21T09:37:16.986422+00:00",
+     "remaining": 19,
+     "requires_shipping": false,
+     "title": "Monster Paintreon",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623442\u0026rid=1436959"
+    },
+    "id": "1436959",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-02-24T10:19:43.784803+00:00",
+     "description": "Access to all lower tier rewards\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eSuggestions as to what to paint will be pulled from this tier\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eup to 20% off commissions (not cumulative - maximum of \u00a3100 per commission)\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "308624221439787009",
+      "379205834334273547"
+     ],
+     "edited_at": "2017-12-21T09:37:39.899792+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1436965/77f8911e58db4d2ea402de88b12180d1?token-time=2145916800\u0026token-hash=FgvdWZkE8YZhgv9OflfC-tR2twFCUwBIQa8wSo1pPaU%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-21T09:37:39.876119+00:00",
+     "remaining": 7,
+     "requires_shipping": false,
+     "title": "Regal Paintreon",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623442\u0026rid=1436965"
+    },
+    "id": "1436965",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-02-02T09:53:49.196337+00:00",
+     "description": "Access to all content and your pledge each month will be recorded as credit towards purchasing commissions!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou also get a unique discord role.\u003c/p\u003e",
+     "discord_role_ids": [
+      "408922243377135626",
+      "308624221439787009",
+      "379205834334273547"
+     ],
+     "edited_at": "2018-02-02T09:56:18.860414+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2338888/8b994d655a654da9989e7953dbf0496b?token-time=2145916800\u0026token-hash=rils7AuuaPFmr4Aa06TxlZLPR5hGakuPztYbaz-8muM%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-02T09:56:18.853452+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Watcher",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623442\u0026rid=2338888"
+    },
+    "id": "2338888",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-02-02T09:54:24.647426+00:00",
+     "description": "Access to all content and your pledge each month will be recorded as credit towards purchasing commissions!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou also get a unique discord role.\u003c/p\u003e",
+     "discord_role_ids": [
+      "408922253795786752",
+      "308624221439787009",
+      "379205834334273547"
+     ],
+     "edited_at": "2018-02-02T09:57:09.510548+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2338891/d755679d4b0f4e7a927457a054932f73?token-time=2145916800\u0026token-hash=qE3s0v4hWS5iFV0Eu96lFFuDQmfcbuUyM10ilUswcoo%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-02T09:57:09.501415+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gold Smoke Knight",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623442\u0026rid=2338891"
+    },
+    "id": "2338891",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300000,
+     "amount_cents": 300000,
+     "created_at": "2017-02-24T10:26:58.455271+00:00",
+     "description": "The tier for The Dragon Tyrant\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eRewards include as many commissions as I can manage per month and the joy of knowing that you are a both a true patreon and my painting Tyrant.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003cli\u003eSpecial Role on the Discord\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "308624221439787009",
+      "379205834334273547",
+      "393336495009955851"
+     ],
+     "edited_at": "2017-12-21T09:41:38.972879+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1436973/820c4e23d13242459990dd2f4b21e961?token-time=2145916800\u0026token-hash=s58tSoCRS0tyZig0omqsUP59LudwpOmRuez5VpuG7-4%3D",
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-12-21T09:41:38.947652+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "The Tyrant",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623442\u0026rid=1436973"
+    },
+    "id": "1436973",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-11-24T17:15:50+00:00",
+     "description": "When I hit this goal for 2 consecutive months I will hold a raffle open to all patreons at $25 and above range. \u00a0The winner will get 4 of their Survivors assembled and painted by me.",
+     "reached_at": "2017-12-20T07:13:02+00:00",
+     "title": ""
+    },
+    "id": "620713",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-06-18T14:35:08+00:00",
+     "deleted_at": null,
+     "description": "When I hit this goal for 2 consecutive months I will hold a raffle open to all patreons at $15 and above range. \u00a0The winner will get 4 of their Survivors assembled and painted by me.",
+     "goal_text": "When I hit this goal for 2 consecutive months I will hold a raffle open to all patreons at $15 and above range. \u00a0The winner will get 4 of their Survivors assembled and painted by me.",
+     "number_patrons": 25,
+     "reached_at": null
+    },
+    "id": "15963",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-09-12T16:43:50+00:00",
+     "deleted_at": null,
+     "description": "Raffle give away of Painted Manhunter expansion (Box not included, but rulebook and all cards are)!",
+     "goal_text": "Raffle give away of Painted Manhunter expansion (Box not included, but rulebook and all cards are)!",
+     "number_patrons": 45,
+     "reached_at": null
+    },
+    "id": "35980",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-11-12T10:10:02+00:00",
+     "deleted_at": null,
+     "description": "Raffle for a Free Commission for a single monster (50mm base size), such as the White Lion, Screaming Antelope, Butcher, King\u0027s Man . Painted to my High Gaming Standard.\u00a0 Raffle entry available to all $5 and higher patrons!\u003cbr\u003e",
+     "goal_text": "Raffle for a Free Commission for a single monster (50mm base size), such as the White Lion, Screaming Antelope, Butcher, King\u0027s Man . Painted to my High Gaming Standard.\u00a0 Raffle entry available to all $5 and higher patrons!\u003cbr\u003e",
+     "number_patrons": 75,
+     "reached_at": null
+    },
+    "id": "49576",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-11-12T10:10:02+00:00",
+     "deleted_at": null,
+     "description": "I will make the contents of the Black Lion available to all rather than for those of you with a $5 or higher Patronage!",
+     "goal_text": "I will make the contents of the Black Lion available to all rather than for those of you with a $5 or higher Patronage!",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "49577",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-03-14T09:29:01+00:00",
+     "deleted_at": null,
+     "description": "I\u0027ll get on with publishing the Mumbling Goat!",
+     "goal_text": "I\u0027ll get on with publishing the Mumbling Goat!",
+     "number_patrons": 175,
+     "reached_at": null
+    },
+    "id": "82666",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-03-14T09:29:02+00:00",
+     "deleted_at": null,
+     "description": "Painted expansion give away!\u00a0 Details to come.",
+     "goal_text": "Painted expansion give away!\u00a0 Details to come.",
+     "number_patrons": 250,
+     "reached_at": null
+    },
+    "id": "82667",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-03-14T09:29:02+00:00",
+     "deleted_at": null,
+     "description": "Custom Campaigns will become a core part of my focus and I will complete the three that I already have started working on.",
+     "goal_text": "Custom Campaigns will become a core part of my focus and I will complete the three that I already have started working on.",
+     "number_patrons": 350,
+     "reached_at": null
+    },
+    "id": "82668",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/623442"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ddfc616d-2c66-43c8-b7ef-9168f2c848fd",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Fen is creating Painted Miniatures and Articles"
+});
+    </script>

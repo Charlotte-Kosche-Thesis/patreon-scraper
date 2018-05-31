@@ -1,0 +1,463 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "VFh_bbJORAaMCK00d29aLHP4txwn7zkkO93W1PmecBA";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "24395",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/24395"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-10-30T22:54:42+00:00",
+    "creation_name": "Art Tutorials \u0026 Illustrations",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/121292/3a7955b1536a4b55857332898fcb28e1?token-time=2145916800\u0026token-hash=NtMZzPiTkTYA-fdCS_sq0Y99Ybl77Npa6Peo-YskAYA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/121292/3a7955b1536a4b55857332898fcb28e1?token-time=2145916800\u0026token-hash=TITzmuOrdWSE72FYupqzXD2RujfrfdaSOepXc-_Xgy8%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/O0ibgDHFgkg\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://www.youtube.com/watch?v=O0ibgDHFgkg",
+    "one_liner": "Artist Gamer Worker Bee and Enthusiast of All Things Creative!",
+    "patron_count": 226,
+    "pay_per_name": "month",
+    "pledge_sum": 181835,
+    "pledge_url": "/bePatron?c=121292",
+    "published_at": "2014-10-30T22:54:42+00:00",
+    "summary": "I\u0027m an office worker by day, and artist by night - I want everyone to have the ability to draw if that\u0027s something they want to pursue, because it\u0027s a hobby close to my heart, so I make free Drawing Tutorials on Youtube, as well as illustrations and gaming videos! Getting support from you guys helps me to continue to do so and possibly one day go full time! As well as this, by being a Patron,\n you are basically awesome and will be recieving some monthly rewards as a thank you, some of \nwhich may be slightly NSFW, all of which will be erratic as and when I manage to fit them in!\u003cbr\u003e"
+   },
+   "id": "121292",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "364196",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/364196"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "86655",
+       "type": "goal"
+      },
+      {
+       "id": "1085285",
+       "type": "goal"
+      },
+      {
+       "id": "1085286",
+       "type": "goal"
+      },
+      {
+       "id": "1085287",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-121292",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-121292"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "115824",
+       "type": "reward"
+      },
+      {
+       "id": "237971",
+       "type": "reward"
+      },
+      {
+       "id": "237972",
+       "type": "reward"
+      },
+      {
+       "id": "237973",
+       "type": "reward"
+      },
+      {
+       "id": "237974",
+       "type": "reward"
+      },
+      {
+       "id": "237975",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2014-10-30T22:54:42+00:00",
+     "facebook": "https://www.facebook.com/mikeymegamega",
+     "first_name": "MIKEYMEGAMEGA",
+     "full_name": "MIKEYMEGAMEGA",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/364196/06c5109c62f24e3898e33c2dd0e541b4?token-time=2145916800\u0026token-hash=F4pdkv71lv00nsFPhK78rI6FkP27CW46zE4aaNu9Ljw%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/364196/06c5109c62f24e3898e33c2dd0e541b4?token-time=2145916800\u0026token-hash=42w65J4wajWcRixsX50ukwhFj0GN6E8qwzc0zCYBxaE%3D",
+     "twitch": "https://www.twitch.tv/mikeymegamega",
+     "twitter": "mikeymegamega",
+     "url": "https://www.patreon.com/mikeymegamega",
+     "vanity": "mikeymegamega",
+     "youtube": "https://www.youtube.com/user/mikeymegamega"
+    },
+    "id": "364196",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "121292",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/121292"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 300,
+     "upgrade_url": "/bePatron?c=121292\u0026rid=115824"
+    },
+    "id": "post-aggregation-for-0-121292",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-19T00:06:26+00:00",
+     "description": "\u003cstrong\u003eYou will be helping me to continue making free Artwork, Tutorials and Video Game Videos On Youtube, you lovely thing you!\u003c/strong\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-19T00:06:26+00:00",
+     "image_url": null,
+     "patron_count": 26,
+     "post_count": 12,
+     "published": true,
+     "published_at": "2016-11-19T00:06:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=121292\u0026rid=115824",
+     "user_limit": null
+    },
+    "id": "115824",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-11-19T00:06:26+00:00",
+     "description": "You will be helping me to continue making free Artwork, Tutorials and Video Game Videos On Youtube, you lovely thing you!\u003cbr\u003e\n\u003cstrong\u003eGet a HQ Fanart image JPEG\u003cbr\u003e\nGet work in progress images from the Fanart series\u003cbr\u003e\n\u003c/strong\u003e\u003cimg src=\"http://i.imgur.com/NlaNQjz.jpg?1\"\u003e\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-24T10:12:09.779530+00:00",
+     "image_url": null,
+     "patron_count": 68,
+     "post_count": 123,
+     "published": true,
+     "published_at": "2016-11-19T00:06:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=121292\u0026rid=237971",
+     "user_limit": null
+    },
+    "id": "237971",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 600,
+     "amount_cents": 600,
+     "created_at": "2016-11-19T00:06:26+00:00",
+     "description": "You will be helping me to continue making free Artwork, Tutorials and Video Game Videos On Youtube, you lovely thing you!\u003cbr\u003e\nGet a HQ Fanart image JPEG\u003cbr\u003e\nGet work in progress images from the Fanart series\u003cbr\u003e\n\u003cstrong\u003eNSFW Pinup line art!\u003cbr\u003e\n\u003c/strong\u003e\u003cimg src=\"http://i.imgur.com/b88CZTF.jpg?1\"\u003e\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-24T10:13:09.058489+00:00",
+     "image_url": null,
+     "patron_count": 41,
+     "post_count": 39,
+     "published": true,
+     "published_at": "2016-11-19T00:06:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=121292\u0026rid=237972",
+     "user_limit": null
+    },
+    "id": "237972",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-19T00:06:26+00:00",
+     "description": "You will be helping me to continue making free Artwork, Tutorials and Video Game Videos On Youtube, you lovely thing you!\u00a0\n\u003cp\u003eGet a HQ Fanart image JPEG\u00a0\u003c/p\u003e\n\u003cp\u003eGet work in progress images from the Fanart series\u003cbr\u003e\nNSFW Pinup line art!\u003cbr\u003e\n+ \u003cstrong\u003eFull PSD file with all the layers etc (Great For analyzing)\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e+ Your name (surnames removed) included in the thankyou credits to most of the art videos\u003cbr\u003e\n\u003c/strong\u003e\u003cimg src=\"http://i.imgur.com/DHBnQow.jpg?1\"\u003e\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-24T10:16:40.094555+00:00",
+     "image_url": null,
+     "patron_count": 25,
+     "post_count": 37,
+     "published": true,
+     "published_at": "2016-11-19T00:06:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=121292\u0026rid=237973",
+     "user_limit": null
+    },
+    "id": "237973",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-11-19T00:06:26+00:00",
+     "description": "You will be helping me to continue making free Artwork, Tutorials and Video Game Videos On Youtube, you lovely thing you!\u00a0\n\u003cp\u003eGet a HQ Fanart image JPEG\u00a0\u003c/p\u003e\n\u003cp\u003eGet work in progress images from the Fanart series NSFW Pinup line art!\u00a0\u003c/p\u003e\n\u003cp\u003eFull PSD file with all the layers etc (Great For analyzing)\u003c/p\u003e\n\u003cp\u003eYour name (surnames removed) included in the thankyou credits to most of the art videos\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e+ NSFW Alternate Fanart image!\u003cbr\u003e\n\u003c/strong\u003e\u003cimg src=\"http://i.imgur.com/DjjLv3l.jpg\"\u003e\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-24T10:17:34.613812+00:00",
+     "image_url": null,
+     "patron_count": 49,
+     "post_count": 41,
+     "published": true,
+     "published_at": "2016-11-19T00:06:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=121292\u0026rid=237974",
+     "user_limit": null
+    },
+    "id": "237974",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-11-19T00:06:26+00:00",
+     "description": "You will be helping me to continue making free Artwork, Tutorials and Video Game Videos On Youtube, you lovely thing you!\u00a0\n\u003cp\u003eGet a HQ Fanart image JPEG\u00a0\u003c/p\u003e\n\u003cp\u003eGet work in progress images from the Fanart series NSFW Pinup line art!\u00a0\u003c/p\u003e\n\u003cp\u003eFull PSD file with all the layers etc (Great For analyzing)\u003c/p\u003e\n\u003cp\u003eYour name (surnames removed) included in the thankyou credits to most of the art videos\u003c/p\u003e\n\u003cp\u003eNSFW Alternate Fanart image!\u003cbr\u003e\n+ \u003cstrong\u003eUnique link to a Mikey commentary version of the Fanart video discussing the painting process (sometimes!)\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e+ Your name (surnames removed unless you want them in!) read out as a thankyou at the end of most of the art videos!\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e+ Patron only access to all of the real-time footage from any of my live drawings online!\u003cbr\u003e\n\u003c/strong\u003e\u003cimg src=\"http://i.imgur.com/3bvUIZi.jpg\"\u003e\u003cstrong\u003e\u003cbr\u003e\n\u003c/strong\u003e\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-21T02:29:55.942336+00:00",
+     "image_url": null,
+     "patron_count": 49,
+     "post_count": 28,
+     "published": true,
+     "published_at": "2018-01-21T02:29:55.920606+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Champions!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=121292\u0026rid=237975",
+     "user_limit": null
+    },
+    "id": "237975",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 100,
+     "created_at": "2014-11-23T13:23:45+00:00",
+     "description": "I work on a bashed and tiny old 6\" wacom bamboo tablet, not that I\u0027m complaining - I\u0027m lucky to live in part of the world that allows me to spend my free time drawing. However I do hope to pick up a mid range touch screen tablet and really step up my digital art game! \u003cstrong\u003eUPDATE- WHOOOP! THANKS FOR THE SUPPORT! - NOW USING A TABLET SCREEN!\u003c/strong\u003e\u003cbr\u003e",
+     "reached_at": "2016-05-25T13:51:47+00:00",
+     "title": ""
+    },
+    "id": "86655",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 100,
+     "created_at": "2018-01-21T02:35:42+00:00",
+     "description": "Purchase a webcam and microphone instead of recording videos on my phone! \u003cstrong\u003eUPDATE - THANK YOU SO MUCH FOR THE SUPPORT! NOW MAKING HIGHER QUALITY TUTORIAL VIDEOS!\u003c/strong\u003e",
+     "reached_at": "2018-01-21T06:55:02+00:00",
+     "title": ""
+    },
+    "id": "1085285",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 100,
+     "created_at": "2018-01-21T02:35:42+00:00",
+     "description": "Live stream some of the artwork on Twitch (+ some gaming) and archive the real time footage for some of you Patrons each week (unless I\u0027m on holiday or something!)",
+     "reached_at": "2018-01-22T17:13:05+00:00",
+     "title": ""
+    },
+    "id": "1085286",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 90,
+     "created_at": "2018-01-21T02:35:42+00:00",
+     "description": "Support some other people on Patreon! sounds like a small thing, but there are a few other artists or creators who\u0027s content is great and I would pay a little over to!",
+     "reached_at": "2018-04-27T19:37:20+00:00",
+     "title": ""
+    },
+    "id": "1085287",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/121292"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "d4d7dc31-0314-41f5-b3aa-610c37cf7e84",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "MIKEYMEGAMEGA is creating Art Tutorials \u0026 Illustrations"
+});
+    </script>

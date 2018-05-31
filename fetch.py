@@ -85,7 +85,7 @@ async def batch_fetch(batch):
     [(slug, patreonurl, local_filename), (slug, patreon_url, local_filename)]
 
     """
-    executor = concurrent.futures.ThreadPoolExecutor(max_workers=20)
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=40)
     loop = asyncio.get_event_loop()
     futures = [
         loop.run_in_executor(
@@ -118,7 +118,7 @@ def main():
     paths = [(s, url, dest) for s, url, dest in all_paths if not dest.exists()]
     print("remaining paths:", len(paths))
     print("-------------------------\n\n")
-    batches = list(make_batches(paths, BATCH_SIZE))
+    batches = list(make_batches(paths, BATCH_SIZE))[0:100]
 
 
     for i, batch in enumerate(batches):

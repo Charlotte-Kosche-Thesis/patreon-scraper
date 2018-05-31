@@ -1,0 +1,305 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "CSMowj0b2ffqe7n6o0VqBo0sQ_Ir1a4aZK7CCS8OynQ";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "182372",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/182372"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-06-29T01:54:16+00:00",
+    "creation_name": "bcachefs - a next generation Linux filesystem",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/408332/9776c38cc70245d590a0cd385bda6fa0?token-time=2145916800\u0026token-hash=MxeXhQb9_WyJlNiiT-7W3NTRrHtHmKDBW-gu6HL7qEA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/408332/9776c38cc70245d590a0cd385bda6fa0?token-time=2145916800\u0026token-hash=NmKQhaCDBdewj4m2KI5eJVpC427Cw-N4bA9v62w87H8%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 220,
+    "pay_per_name": "month",
+    "pledge_sum": 179924,
+    "pledge_url": "/bePatron?c=408332",
+    "published_at": "2016-06-29T03:58:34+00:00",
+    "summary": "\u003ch1\u003eI\u0027m working on\u00a0\u003ca href=\"http://bcachefs.org/\" rel=\"nofollow\"\u003ebcachefs\u003c/a\u003e, a next generation Linux filesystem descended from the bcache codebase with a long list of features:\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eCopy on write (COW) - like zfs or btrfs\u003c/li\u003e\n\u003cli\u003eGood performance - significantly better than existing copy on write filesystems, comparable to ext4/xfs\u003c/li\u003e\n\u003cli\u003eMetadata and data checksumming\u003c/li\u003e\n\u003cli\u003eMultiple devices, including replication and other types of RAID\u003c/li\u003e\n\u003cli\u003eCaching\u003c/li\u003e\n\u003cli\u003eCompression\u003c/li\u003e\n\u003cli\u003eEncryption\u003c/li\u003e\n\u003cli\u003eSnapshots\u003c/li\u003e\u003cli\u003eScalable - has been tested to 50+ TB, will eventually scale far higher\u003c/li\u003e\n\u003cli\u003eAlready working and stable, with a small community of users\u003c/li\u003e\n\u003c/ul\u003e\nBit of background first though - why do we need a new filesystem?\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ch1\u003eThe Linux filesystem situation is in a bit of a bad place these days:\u003c/h1\u003e\nCurrently, we have:\n\u003cul\u003e\n\u003cli\u003eext4, which works - mostly - but is showing its age. The codebase terrifies most filesystem developers who have had to work on it, and heavy users still run into terrifying performance and data corruption bugs with frightening regularity. The general opinion of filesystem developers is that it\u0027s a miracle it works as well as it does, and ext4\u0027s best feature is its fsck (which does indeed work miracles).\u003c/li\u003e\n\u003cli\u003exfs, which is reliable and robust but still fundamentally a classical design - it\u0027s designed around update in place, not copy on write (COW).\u00a0As someone who\u0027s both read and written quite a bit of filesystem code, the xfs developers (and Dave Chinner in particular) routinely impress me with just how rigorous their code is - the quality of the xfs code is genuinely head and shoulders above any other upstream filesystem. Unfortunately, there is a long list of very desirable features that are not really possible in a non COW filesystem, and it is generally recognized that xfs will not be the vehicle for those features.\u003c/li\u003e\n\u003cli\u003ebtrfs, which was supposed to be Linux\u0027s next generation COW filesystem - Linux\u0027s answer to zfs. Unfortunately, too much code was written too quickly without focusing on getting the core design correct first, and now it has too many design mistakes baked into the on disk format and an enormous, messy codebase - bigger that xfs. It\u0027s taken far too long to stabilize as well - poisoning the well for future filesystems because too many people were burned on btrfs, repeatedly (e.g. Fedora\u0027s tried to switch to btrfs multiple times and had to switch at the last minute, and server vendors who years ago hoped to one day roll out btrfs are now quietly migrating to xfs instead).\u003c/li\u003e\n\u003cli\u003ezfs, to which we all owe a debt for showing us what could be done in a COW filesystem, but is never going to be a first class citizen on Linux. Also, they made certain design compromises that I can\u0027t fault them for - but it\u0027s possible to better. (Primarily, zfs is block based, not extent based, whereas all other modern filesystems have been extent based for years: the reason they did this is that extents plus snapshots are \u003cstrong\u003ereally hard\u003c/strong\u003e).\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch1\u003eSo, many people would agree that there\u0027s room for something new - but why bcachefs?\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eIt\u0027s stable:\u003cbr\u003e\n\tOne of the biggest difficulties with creating any new filesystem today is that a POSIX filesytem is a huge amount of functionality - and until you have nearly all of it implemented, you don\u0027t have anything for people to test. They don\u0027t lend themselves to incremental, bottom up development - instead, there\u0027s a huge amount of pressure to do everything at once which many decades of experience has taught us is not the ideal way to develop software. This is primarily what went wrong with btrfs.\n\t\u003cbr\u003e\n\u003cbr\u003e\n\tbcachefs\u0027s huge advantage is that bcache already was the bottom half of a filesystem - and it was fast, stable, and had a userbase large enough to prove that and a test suite that could exercise any changes to the existing functionality that were made for fileystem support.\n\u003cbr\u003e\u003cbr\u003e\n\tAs a result, so far only a few mostly trivial bugs have been found since I and others started using it in anger. I, the author, have been using it for my root filesystem on the laptop I use for bcachefs development for several months now and it\u0027s been surprisingly uneventful. It\u0027s been solid.\n\t\u003c/li\u003e\n\u003cli\u003eIt\u0027s fast: see\u00a0\u003ca href=\"https://evilpiepirate.org/~kent/benchmark-full-results-2016-04-19/terse\" rel=\"nofollow\"\u003ethese benchmarks\u003c/a\u003e. Those are a bit old, even since then there\u0027s been some significant improvement on a few of those.\u00a0\u003cbr\u003e\n\u003cbr\u003e\n\tAlso, what those benchmarks don\u0027t show is that bcachefs is very much designed with tail latency in mind. Tail latency has been the bane of ext4 users for many years - dependencies in the journalling code and elsewhere can lead to 30+ second latencies on simple operations (e.g. unlinks) on multithreaded workloads. No one seems to know how to fix them.\n\t\u003cbr\u003e\n\u003cbr\u003e\n\tIn bcachefs, the only reason a thread blocks on IO is because it explicitly asked to (an uncached read or an fsync operation), or resource exhaustion - full stop. Locks that would block foreground operations are never held while doing IO. While bcachefs isn\u0027t a realtime filesystem today (it lacks e.g. realtime scheduling for IO), it very conceivably could be one day.\n\t\u003c/li\u003e\n\u003cli\u003eIt has a small, clean codebase:\u003cbr\u003e\n\tbcachefs has a codebase smaller than ext4 while delivering most of the features of btrfs. Refactorings to make the codebase cleaner and easier to understand are done aggressively. I want bcachefs to outlast me - by making it the easiest filesystem for other developers to understand and work on.\n\t\u003c/li\u003e\n\u003cli\u003eIt has, either finished or in progress, features we all need:\u003cbr\u003e\n\tThe zfs folks have made the argument for data checksumming better than I can - that alone would be a sufficient reason for a good COW filesystem.\n\t\u003cbr\u003e\n\u003cbr\u003e\n\tBeyond that though, if you can think of a reasonable feature for a filesystem to have - e.g. encryption, compression, snapshots, send/receive - most likely bcachefs either has plans and provisions for it or it\u0027s already been added. The original bcache design has turned out to be wonderfully flexible, and we haven\u0027t yet run into a feature where we\u0027ve had to say \"no, that\u0027d be to ugly to add\".\n\t\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch1\u003eStatus:\u003c/h1\u003e\nRight now, all the core POSIX filesystem functionality is done and working, and there aren\u0027t any known outstanding bugs in that core area (it\u0027s been passing xfstests for many months, and I and others have been successfully using it): you should be able to use it for your root filesystem, on a single device, without issues.\n\u003cbr\u003e\n\u003cbr\u003e\nOther features:\n\u003cbr\u003e\n\u003cul\u003e\n\u003cli\u003eChecksumming, data and metadata: done (by default, crc32c is enabled for both data and metadata - keep this in mind if you\u0027re running benchmarks).\u003c/li\u003e\n\u003cli\u003eCompression (lz4, gzip): working and stable - unfortunately, disk space accounting for compressed data isn\u0027t finished yet so enabling compression doesn\u0027t yet allow you to fit more data in a filesystem. There\u0027s also some performance improvements I still want to do.\u003c/li\u003e\n\u003cli\u003eMultiple devices, including tiering (caching): working, but not currently well tested so you may run into bugs - I wouldn\u0027t recommend using it with data you care about.\u003c/li\u003e\n\u003cli\u003eReplication - 80% completed, but failure paths (rereading from a different replica, rereplicating data on drive failure) aren\u0027t completed so it\u0027s not terribly useful yet.\u003c/li\u003e\n\u003cli\u003eErasure encoding (Reed-Solomon, i.e. RAID5/6): Not yet started\u003c/li\u003e\n\u003cli\u003eEncryption: Not yet started\u003c/li\u003e\n\u003cli\u003eSend/receive: On disk format work is done - we have a version number field for everything we index so send/receive itself should be straightforward, but send/receive itself is not yet started.\u003c/li\u003e\n\u003cli\u003eSnapshots: In progress. bcachefs\u0027s snapshot implementation is going to be significantly more capable than any competing implementations. When it\u0027s done, you should be able to take snapshots via a cron job every 5 minutes if you so desire - without it adversely affecting performance, and with good space efficiency.\u003c/li\u003e\u003cli\u003eSMR (shingled) drive support - SMR drives achieve higher storage density at the cost of disallowing random writes - which means the drives themselves have to implement copying garbage collection to be used with existing filesystems. Doing the GC in the filesystem would give better performance, as the filesystem is aware of things like files and what data is live or not. bcachefs already has the copy GC algorithms implemented, so native SMR support is mostly a matter of hooking the shim layer to teach bcachefs about the drive layout.\u003c/li\u003e\u003cli\u003eRaw flash support: Like SMR, raw flash chips don\u0027t allow random writes, thus all SSDs have a flash translation layer (FTL) that implements a logical to physical mapping as well as allocation and garbage collection - functionality that bcachefs already has.\u003cbr\u003e\u003cbr\u003eThe appeal of this is that existing FTLs are large, complicated black boxes that are in the performance fast path (since they implement copying garbage collection, they affect latency in unpredictable ways) and they\u0027re impossible for customers to debug or even generally understand the behavior of. This has already been sufficient motivation for projects to work on open source, host side FTLs that target raw flash via a standard interface, so there\u0027s already some precedent for what we\u0027d like to do in bcachefs.\u003c/li\u003e\u003cli\u003ePMEM (persistent memory) support: bcachefs will definitely get basic PMEM support (DAX, in Linux kernel terminology), equivalent to what other filesystems have done.\u00a0We\u0027ll also be adding full data journalling for super fast syncs when only the journal is on PMEM.\u003cbr\u003e\u003cbr\u003eFurther off, we intend to add support for accessing the btree on PMEM directly, instead of reading it into DRAM first - this will significantly benefit very large filesystems (perhaps with a fast PMEM tier and a slower, but much larger tier of flash or SMR devices) where filesystem metadata no longer fits in DRAM.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch1\u003eWhy do I need your money?\u003c/h1\u003e\nI\u0027ve been working on bcachefs out of pocket, living off my savings for the past year and a half - getting it to the point where I had something to show off and people could play with it. It\u0027s working now - if you\u0027re brave you can run it yourself - but, I need funding if I\u0027m to continue working on it full time. I\u0027d like that to come from the community rather than have to find a new employer (who would have their own priorities, which inevitably won\u0027t line up with the community\u0027s) - and, I know there\u0027s a community of happy bcache users that ought to be able to chip in :)"
+   },
+   "id": "408332",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3576814",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3576814"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "468073",
+       "type": "goal"
+      },
+      {
+       "id": "468074",
+       "type": "goal"
+      },
+      {
+       "id": "468075",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1499394",
+       "type": "reward"
+      },
+      {
+       "id": "596975",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-06-29T01:51:26+00:00",
+     "facebook": "",
+     "first_name": "Kent",
+     "full_name": "Kent Overstreet",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3576814/ca310d5f94ce44fca0070888e3d4883c?token-time=2145916800\u0026token-hash=tQibFvLT6TCvrLBDSIgfTnr7El761DDb1RPj48aMlkQ%3D",
+     "last_name": "Overstreet",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3576814/ca310d5f94ce44fca0070888e3d4883c?token-time=2145916800\u0026token-hash=oNuYlYWwhw6oWLTRaDA6o7ThR5cJfEgNi3b4x23GIos%3D",
+     "twitch": "",
+     "twitter": "",
+     "url": "https://www.patreon.com/bcachefs",
+     "vanity": "bcachefs",
+     "youtube": ""
+    },
+    "id": "3576814",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "408332",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/408332"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-03-15T23:41:34.698476+00:00",
+     "description": "I\u0027m just a humble kernel programmer writing kernel code, so I don\u0027t have all these rewards and these are all entirely arbitrary - you can actually donate any amount you want per month.\u003cbr\u003e\n\u003cbr\u003e\nBut if you pick this tier you get warm fuzzies from being a bcachefs supporter.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-15T23:41:34.698476+00:00",
+     "image_url": null,
+     "patron_count": 28,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-15T23:41:34.698476+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Be a bcachefs supporter!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=408332\u0026rid=1499394",
+     "user_limit": null
+    },
+    "id": "1499394",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-08-13T15:23:22+00:00",
+     "description": "Perhaps your company sees the value in something like bcachefs?\u003cbr\u003e\n\u003cbr\u003e\nIf you chip in more, I\u0027ll try and make more time for your pet features/bugs.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-15T23:44:41.008424+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-13T15:23:22+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Be a bigger bcachefs supporter:",
+     "unpublished_at": null,
+     "url": "/bePatron?c=408332\u0026rid=596975",
+     "user_limit": null
+    },
+    "id": "596975",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 35,
+     "created_at": "2016-06-29T03:40:50+00:00",
+     "description": "Enough financial stability that I\u0027ll be able to spend on some new test hardware and visit some conferences.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "468073",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 59,
+     "created_at": "2016-06-29T03:40:50+00:00",
+     "description": "\u003cdiv style=\"margin-left: 20px;\"\u003eReinflate my savings account after my recent run in with a moose\u003cbr\u003e\u003c/div\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "468074",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1200000,
+     "completed_percentage": 14,
+     "created_at": "2016-06-29T03:40:50+00:00",
+     "description": "Yearly funding amount that it\u0027d take for me to keep doing this full time indefinitely - and maybe one day start my restaurant without going back to the Bay area tech scene to come up with the money.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "468075",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/408332"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e6e9639a-0b74-4f46-a8bc-41f19c6c63d5",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Kent Overstreet is creating bcachefs - a next generation Linux filesystem"
+});
+    </script>
