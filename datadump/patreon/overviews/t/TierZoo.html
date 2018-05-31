@@ -1,0 +1,394 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "negt42w4oue8F6P6Bp9nBi9QeJsOTNn8p4pZDU1cBSw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "496835",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/496835"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-07-02T01:05:42+00:00",
+    "creation_name": "Educational wildlife videos, gaming videos",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1033598/c563922fbac9490fad9116c96fd608f0?token-time=2145916800\u0026token-hash=-8el_HNZgez8dN90TGWGYCzQuo8mRx9T5vvHy7V698Y%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1033598/c563922fbac9490fad9116c96fd608f0?token-time=2145916800\u0026token-hash=O8SRLlNFJ5SAcsitJQlE4CKhd8Drjia3qomV1HdjjsM%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/H39SFzjsCUQ\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://youtu.be/H39SFzjsCUQ",
+    "one_liner": null,
+    "patron_count": 591,
+    "pay_per_name": "month",
+    "pledge_sum": 224400,
+    "pledge_url": "/bePatron?c=1033598",
+    "published_at": "2017-07-02T01:28:19+00:00",
+    "summary": "Hi Outside players, I run the channel TierZoo, which seeks to analyze the meta to determine the best current builds. I talk about the special abilities and build strats of various prominent animal classes and show people things they may have overlooked when specing their character.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003eOkay but actually my goal is to get gamers interested in zoology, since there\u0027s a ton of amazing aspects of life on Earth that go underappreciated. Evolution has produced some bizarre traits, strategies, and life cycles that I feel need to be given the spotlight once in a while. \u00a0I don\u0027t shy away from keeping the brutal with the beautiful, so if you\u0027re new to my content, be warned. Expect one video every two weeks. The good thing about my topic is that there\u0027s potentially limitless content and I\u0027m more than willing to provide it. My only worry is burning people out by releasing too many videos too quickly."
+   },
+   "id": "1033598",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "6731814",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/6731814"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "886840",
+       "type": "goal"
+      },
+      {
+       "id": "886841",
+       "type": "goal"
+      },
+      {
+       "id": "934449",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1033598",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1033598"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1809806",
+       "type": "reward"
+      },
+      {
+       "id": "1809805",
+       "type": "reward"
+      },
+      {
+       "id": "1946383",
+       "type": "reward"
+      },
+      {
+       "id": "1809804",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-07-02T01:05:06+00:00",
+     "facebook": null,
+     "first_name": "TierZoo",
+     "full_name": "TierZoo",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/6731814/02aa7c6b0e2f46bbb2f892d6505251d2?token-time=2145916800\u0026token-hash=pHTYkEkRB12Bk0NURWPDTcTK29TjK3nlTBa_qM20ZzY%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/6731814/02aa7c6b0e2f46bbb2f892d6505251d2?token-time=2145916800\u0026token-hash=TMF54hj2AniSgdIbv0daTZcn4s_9w7EME3fkkLZlTEU%3D",
+     "twitch": null,
+     "twitter": "TheTierZoo",
+     "url": "https://www.patreon.com/TierZoo",
+     "vanity": "TierZoo",
+     "youtube": "https://www.youtube.com/channel/UCHsRtomD4twRf5WVHHk-cMw"
+    },
+    "id": "6731814",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1033598",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1033598"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 13,
+     "upgrade_url": "/bePatron?c=1033598\u0026rid=1809805"
+    },
+    "id": "post-aggregation-for-0-1033598",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-07-02T01:26:41.960752+00:00",
+     "description": "You\u0027ll have access to my discord server!",
+     "discord_role_ids": [
+      "358372900404985856"
+     ],
+     "edited_at": "2017-12-04T14:02:32.575479+00:00",
+     "image_url": null,
+     "patron_count": 328,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-04T14:02:32.549441+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "F-tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1033598\u0026rid=1809806",
+     "user_limit": null
+    },
+    "id": "1809806",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-07-02T01:26:41.953124+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eYou will be able to view videos before the general public!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "354406305680719884",
+      "358372900404985856"
+     ],
+     "edited_at": "2017-12-04T14:02:54.991658+00:00",
+     "image_url": null,
+     "patron_count": 174,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2017-12-04T14:02:54.964618+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "C-tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1033598\u0026rid=1809805",
+     "user_limit": null
+    },
+    "id": "1809805",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-08-22T22:24:18.911863+00:00",
+     "description": "Like videogames? In this tier, I will hold monthly gaming sessions with you guys. These will not be streamed or anything, they\u0027re private hangout time, just you guys and me.\u003cbr\u003e",
+     "discord_role_ids": [
+      "354406305680719884",
+      "358373588471906315"
+     ],
+     "edited_at": "2017-08-22T22:24:18.911863+00:00",
+     "image_url": null,
+     "patron_count": 10,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-08-22T22:24:18.911863+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "A-Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1033598\u0026rid=1946383",
+     "user_limit": null
+    },
+    "id": "1946383",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-07-02T01:26:41.951435+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eYour name will be in the outro of every new video.\u003c/li\u003e\n\u003cli\u003eYou will have a direct line of communication with me which you may use at any time to discuss my content with me and give your input, which I will take very seriously. At this tier, we\u0027re basically working together to grow this project. You aren\u0027t a patron, you\u0027re a partner.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "354406305680719884",
+      "358373897290252308"
+     ],
+     "edited_at": "2018-05-10T21:41:14.683121+00:00",
+     "image_url": null,
+     "patron_count": 58,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-05-10T21:41:14.672166+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "S-tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1033598\u0026rid=1809804",
+     "user_limit": null
+    },
+    "id": "1809804",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 74,
+     "created_at": "2017-07-02T01:20:32+00:00",
+     "description": "If I can make $3000 a month, I would be able to become a full time zoology educator on youtube as well as any other platforms I see as viable in the current content creator meta.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "886840",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1500,
+     "completed_percentage": 100,
+     "created_at": "2017-07-02T01:20:32+00:00",
+     "description": "You guys will have officially bought me dinner at a mid tier restaurant.\u003cbr\u003e\u003cbr\u003eThis doesn\u0027t really mean much for you guys, but it would really feel nice for me.",
+     "reached_at": "2017-07-05T23:31:59+00:00",
+     "title": ""
+    },
+    "id": "886841",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 100,
+     "created_at": "2017-08-15T01:02:49+00:00",
+     "description": "My current computer cannot support higher quality video rendering, and also can\u0027t play PUBG (so really whats the point of all this anyway?). I need a new desktop. Help me get there!\u003cbr\u003e",
+     "reached_at": "2017-09-15T11:17:12+00:00",
+     "title": ""
+    },
+    "id": "934449",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1033598"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "690b058c-a4f0-4c73-b3b5-e30e640e4d46",
+ "is_impersonating": false,
+ "js_git_sha": "3631080342b1a3f490afb9b051a5e57b89b416a8",
+ "page_title": "TierZoo is creating Educational wildlife videos, gaming videos"
+});
+    </script>

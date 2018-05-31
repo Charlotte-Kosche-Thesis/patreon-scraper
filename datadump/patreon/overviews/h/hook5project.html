@@ -1,0 +1,447 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "JaPV0lYig979hvep-3YP-_v15VmdFTUF_ILb4n8CilU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "95730",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/95730"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-08-26T06:37:24+00:00",
+    "creation_name": "graphic enhancment plugin",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/206655/c4bbebed28364d1aaa421443798fe621?token-time=2145916800\u0026token-hash=CUfIV64iIu3j4WMTfsnE7Zzl0Quwu1-LKooOTXqn7Ic%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/206655/c4bbebed28364d1aaa421443798fe621?token-time=2145916800\u0026token-hash=11ZVcXjCkNgPgFBQXUbLXsAKaGYSCV585d63vTo6-v8%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "hook, hook2, hook3, hook4...time to go next",
+    "patron_count": 871,
+    "pay_per_name": "month",
+    "pledge_sum": 232576,
+    "pledge_url": "/bePatron?c=206655",
+    "published_at": "2018-02-06T20:19:53+00:00",
+    "summary": "3DSexVilla2 is old 3d sex simulator, which allow to you select up to three characters, select some scene for action and create some static or animated pose. The game has great character customization functionality and very simple pose creation interface, but it has very poor graphic, because it was development under directx8.\u003cbr\u003eTheKlub17 is the same 3DSV game, but hardly moded by internet community, it has wider customization functionality, a lot of additional mods like new cloth, rooms, toys and so on, but still the same graphic.\u00a0\u003cbr\u003eI have some experience with graphic programming and I decided try to change 3d graphic of this game. It was a long way, I developed hook, hook2, hook3, hook4 and every new one was better and complicated then previous one. Now I want to try implement hook5 with using directx11 and some great stuff that provided by directx11. What is hook5 - is a graphical enhancement mod, which allow me change shading style of various objects in game, insert some new object into game scene, apply some 3d graphic effect to whole image, now hook5 already support physx ragdoll hair. Hook5 under development right now, but already....:\u003cbr\u003e\u003ca href=\"https://postimg.org/image/76k9xt8at/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cbr\u003e\u003c/a\u003e\u003ca href=\"http://pichost.org/images/2018/01/24/screenshot_17_11_1920_53_00.jpg\"\u003e\u003c/a\u003e\u003cimg src=\"http://pichost.org/images/2018/01/24/screenshot_17_11_1920_53_00.jpg\"\u003e\u003cbr\u003e\u003ca href=\"https://postimg.org/image/mwgwlctjx/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cbr\u003e\u003c/a\u003e\u003cimg src=\"http://pichost.org/images/2018/01/24/fogexp1.jpg\"\u003e\u003cbr\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(31, 73, 125);\"\u003e\u003cspan style=\"color: rgb(79, 129, 189);\"\u003e\u003cspan style=\"color: rgb(0, 0, 0);\"\u003eIf you are newbe with this game or hook using then it\u0027s better for you try hook4 on MG or free version of hook5 before become patreon of this project, if you already know what you doing then WELCOME!\u003cbr\u003e\u003c/span\u003e\u003cbr\u003eBase Ideas\u003cbr\u003e\u003c/span\u003e\u003c/span\u003e\u003c/strong\u003eThe things that already done: \u003cbr\u003e\u003cstrong\u003ePhysicaly Based Rendering (PBR)\u003c/strong\u003e, \u003cstrong\u003eImage Based Lighting (IBL),\u003c/strong\u003e\u00a0\u003cstrong\u003eHigh Dynamic Range (HDR)\u003c/strong\u003e\u00a0- Allow perform shading of objects in modern style (UnrealEngine, Frostbite, CryEngine)\u003cbr\u003e\u003cstrong\u003eAutomatic reloading\u003c/strong\u003e for hook settings, level_definitions and textures - this features let to us more comfortable way to adjust scene in game by our wish, \u003cstrong\u003eproper cull system\u003c/strong\u003e for scene objects that will preserve performance due to avoid rendering of invisible objects.\u003cbr\u003e\u003cstrong\u003eLights without shadows\u003c/strong\u003e which can be used like a secondary light sources and will be rendered much faster than lights with shadows. \u003cbr\u003e\u003cstrong\u003eBumpOffset\u003c/strong\u003e and \u003cstrong\u003eParallax Occlusion Mapping - \u003c/strong\u003eallow improve objects surface detalization\u003cbr\u003e\u003cstrong\u003eHook objects\u003c/strong\u003e -\u00a0Opportunity to insert static objects into game scene via level_definitions,\u00a0 transformations and parameters control in runtime.\u003cbr\u003e\u003cstrong\u003eTessellation - \u003c/strong\u003eruntime tessellation with Directx11 allow dynamicall increase amount of polygons at shading stage, so characters surface looks more smoother. In plans implement \u003cstrong\u003edisplacement - \u003c/strong\u003ewhich will allow allow us to create more detailed and realistic skins for game characters.\u003cbr\u003e\u003cstrong\u003eS\u003c/strong\u003e\u003cstrong\u003ecreen Space Subsurface Scattering\u003c/strong\u003e effect wich make skin lighting more smooth.\u003cbr\u003e\u003cstrong\u003eHBAO\u003c/strong\u003e and \u003cstrong\u003eScreen Space Reflections\u003c/strong\u003e, that make scene more detailed in ligthing and reflectiions terms.\u003cbr\u003e\u003cstrong\u003eCompute shaders\u003c/strong\u003e and \u003cstrong\u003eMultiThreaded\u003c/strong\u003e rendering can increase performance of game rendering.\u003cbr\u003e\u003cstrong\u003ePhysX\u003c/strong\u003e objects that can be used as hair, earrings and so on.\u003cbr\u003e\u003cstrong\u003eOculusHome\u003c/strong\u003e support, \u003cstrong\u003eAnaglyph \u003c/strong\u003eand \u003cstrong\u003eSideBySide \u003c/strong\u003eseparation. (in plans ViveVR)\u003cbr\u003e\u003cstrong\u003eRuntime hook menu\u003c/strong\u003e with lot of options and parameters for everything - lighting, posteffect, objects transformation and parameters and so on.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003eSome of this ideas already implemented and result very impressive. Some of them require additional work.\u00a0Some only on the way. Some require additional reading/learning/experimenting. \u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(31, 73, 125);\"\u003e\u003cspan style=\"color: rgb(79, 129, 189);\"\u003eExclusive Ideas:\u003c/span\u003e\u003c/span\u003e\u003c/strong\u003eAlso there is ideas that will not be included in base version of hook and will be implemented (if not fail) only in exclusive version of hook:\u00a0RealtimeGI - scene global illumination, which can greatly inrease scene ligthing quality and realism, I\u0027m very interesed in such a thing, but not sure that it can be implemented in game, but, at least I will try untill any chance for this. And two ideas\u00a0Dynamic Clothing and SoftBody for characters body model - I almost sure that this ideas can not be implemented in such game via API interception or will be bugged, but again a will give it a try and if I will have success, it will be included in exclusive version. The same will be with all new ideas that will require additional learning and experimenting.\u003cbr\u003e\u003cbr\u003e\u003cem\u003e\u003cstrong\u003eAlso you can find more info about hook5, latest hook guide and additional content for hook on modsgarden.cc\u003c/strong\u003e\u003c/em\u003e\u003cbr\u003e\u003cdiv style=\"margin-left: 20px;\"\u003e\u003cbr\u003eThe top supporters will get exclusive version of hook(with exclusive ideas) and exclusive rewards\u003c/div\u003e"
+   },
+   "id": "206655",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2281493",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2281493"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "229904",
+       "type": "goal"
+      },
+      {
+       "id": "229944",
+       "type": "goal"
+      },
+      {
+       "id": "229959",
+       "type": "goal"
+      },
+      {
+       "id": "229960",
+       "type": "goal"
+      },
+      {
+       "id": "229961",
+       "type": "goal"
+      },
+      {
+       "id": "229968",
+       "type": "goal"
+      },
+      {
+       "id": "229969",
+       "type": "goal"
+      },
+      {
+       "id": "229970",
+       "type": "goal"
+      },
+      {
+       "id": "229971",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-206655",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-206655"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "494385",
+       "type": "reward"
+      },
+      {
+       "id": "679129",
+       "type": "reward"
+      },
+      {
+       "id": "679168",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-08-26T06:36:04+00:00",
+     "facebook": null,
+     "first_name": "hook5project",
+     "full_name": "hook5project",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c8.patreon.com/2/400/2281493",
+     "last_name": "",
+     "thumb_url": "https://c8.patreon.com/2/100/2281493",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/hook5project",
+     "vanity": "hook5project",
+     "youtube": null
+    },
+    "id": "2281493",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "206655",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/206655"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 27,
+     "upgrade_url": "/bePatron?c=206655\u0026rid=494385"
+    },
+    "id": "post-aggregation-for-0-206655",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-30T07:01:12+00:00",
+     "description": "If you pledge 1$ you can download a several models that can be used with hook5.\u003cbr\u003eRight now you can download 5 hair replacers with physx support\u003cbr\u003e\u003cimg src=\"https://s17.postimg.org/3qtebgj5r/reward_1.png\"\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 748,
+     "post_count": 7,
+     "published": true,
+     "published_at": "2016-10-30T07:01:12+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=206655\u0026rid=494385",
+     "user_limit": null
+    },
+    "id": "494385",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-30T07:01:12+00:00",
+     "description": "If you pledge 5$ you can download all 1$rewards and plus some additional content that will be posted.\u003cbr\u003eRight now you can get +4 models of hair with physic support\u003cbr\u003e\u003cimg src=\"https://s21.postimg.org/8mcb1wolj/reward_5.png\"\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 114,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2016-10-30T07:01:12+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=206655\u0026rid=679129",
+     "user_limit": null
+    },
+    "id": "679129",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-30T07:01:12+00:00",
+     "description": "if you pledge 10$+ then you will get lower pledge rewards and also additional content.\u003cbr\u003e\u003cbr\u003eRight now you can get another +4 hair models that support physic\u003cbr\u003e\u003cimg src=\"https://s11.postimg.org/y2nzjrrv7/reward_10.png\"\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 161,
+     "post_count": 5,
+     "published": true,
+     "published_at": "2016-10-30T07:01:12+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=206655\u0026rid=679168",
+     "user_limit": null
+    },
+    "id": "679168",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 100,
+     "created_at": "2015-08-26T06:39:02+00:00",
+     "description": "Visual Studio give me compatibility with directx libraries, so I can remove a lot of cod related to access to directx functionality. Directx 11 help me with compatibility problems, as microsoft says - if your videocard marked as supported directx11, it\u0027s mean that all directx11 features are supported, so theoretically we can avoid a lot of problems that we had with hook4. Also Directx 11 give me opportunity to release new features, which I failed made on directx9.",
+     "reached_at": "2016-02-20T04:54:20+00:00",
+     "title": ""
+    },
+    "id": "229904",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 75000,
+     "completed_percentage": 100,
+     "created_at": "2015-08-26T08:36:32+00:00",
+     "description": "This options will be very helpful for content creators - for now when you create a new texture to create a new item, you have to reload textures by hitting alt+r combination. With this features, hook will try track file changing and will try to reload it automatically. Theoretically...The same for level_definition file I want to make automatic reloading definition file that was changed.",
+     "reached_at": "2016-05-12T18:20:14+00:00",
+     "title": ""
+    },
+    "id": "229944",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 100,
+     "created_at": "2015-08-26T09:06:23+00:00",
+     "description": "\u003cstrong\u003eEnhanced cull system\u003c/strong\u003e - for now hook successfully cull objects outside of camera frustum, but only static objects, for skinned objects hook has no data to proper culling, so skinned objects always are rendered. This lead to performance losing. I want to try develop some algorithm to make possible skin-objects culling.\u003cbr\u003e\u003cstrong\u003eEnhanced light system\u003c/strong\u003e - with proper culling system will be a possible create objects/lights selection algorithm, which will increase performance by reduce amount of shader calculation and data transfer.\u003cbr\u003e\u003cstrong\u003eNew types of lights\u003c/strong\u003e - basically I want implement spot and omni lights without shadows, with this light types we can create more complicated scenes/rooms without significant fps drop.\u003cbr\u003e",
+     "reached_at": "2016-08-17T06:11:44+00:00",
+     "title": ""
+    },
+    "id": "229959",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 125000,
+     "completed_percentage": 100,
+     "created_at": "2015-08-26T09:06:23+00:00",
+     "description": "Just as in caption - I want to try enhance hook objects, to they can support full normal mapping - it will improve quality of rendering objects that we can insert into scene via hook. Also I want to implement control of transformation in game runtime.",
+     "reached_at": "2016-09-23T19:14:35+00:00",
+     "title": ""
+    },
+    "id": "229960",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 100,
+     "created_at": "2015-08-26T09:06:23+00:00",
+     "description": "\u003cstrong\u003eTessellation with displacement\u003c/strong\u003e - such technique will significantly improve model quality by creating more polygons in body model on the fly without increasing CPU usage. So no more visible polygon edges on body, nose, chin and so on. Also displacement will allow to change curvature of body shape. Possible problem - conflict with clothing, when huge displacement are used.\u003cbr\u003eNext three techniques I tried implement on directx 9 extended hook version for my patrons, but only \u003cstrong\u003eScreen Space Subsurface Scattering\u003c/strong\u003e was finished, other was removed due to low quality and performance, with directx11 I can implement it properly. \u003cstrong\u003eHBAO\u003c/strong\u003e - enhanced version of Ambient Occlusion, in comparison with SSAO it has better quality and has no artifacts such as false occlusion. \u003cstrong\u003eScreenSpaceLocalReflections\u003c/strong\u003e - this technique create a dynamic reflections in the scene, of course with some limitations.\u003cbr\u003e",
+     "reached_at": "2016-11-19T05:23:17+00:00",
+     "title": ""
+    },
+    "id": "229961",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 175000,
+     "completed_percentage": 100,
+     "created_at": "2015-08-26T09:51:07+00:00",
+     "description": "\u003cstrong\u003eMultithreaded rendering\u003c/strong\u003e - one of features of Directx11, allow to use several threads to create a DrawCommandList to perform it later with higher performance.\u003cbr\u003e\u003cstrong\u003eCompute Shaders\u003c/strong\u003e - another feature, which allow to perform shading on GPU without actual rendering. All this features can significantly improve performance of rendering. \u003cbr\u003e\u003cstrong\u003eWarning\u003c/strong\u003e: multithreaded rendering can decrease performance on low-end PC.\u003cbr\u003e",
+     "reached_at": "2016-12-24T10:28:20+00:00",
+     "title": ""
+    },
+    "id": "229968",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 100,
+     "created_at": "2015-08-26T09:51:07+00:00",
+     "description": "Create a hair models with physics simulation. I know - we all want this. :)",
+     "reached_at": "2017-03-25T10:50:05+00:00",
+     "title": ""
+    },
+    "id": "229969",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 93,
+     "created_at": "2015-08-26T09:51:07+00:00",
+     "description": "This feature allow to us create many many crazy things like - animated lights sources, dynamically movable objects, some interaction with hook objects for example. Actually I don\u0027t sure that we need this XD.",
+     "reached_at": "2018-01-01T14:30:19+00:00",
+     "title": ""
+    },
+    "id": "229970",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 77,
+     "created_at": "2015-08-26T09:51:07+00:00",
+     "description": "Why this things planned so far away:\u003cbr\u003e1. SMAA for me gives acceptable result and it will be from beginning.\u003cbr\u003e2. Hardware antialiasing have a difficulties in realisation rendering with deferred shading.\u003cbr\u003e3. I never worked with stereo rendering, so it will require learn some new stuff and I\u0027m not sure that all will be fine with that. \u003cbr\u003eSo I have a bit of hope, that we never come at this miles mark. XD\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "229971",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/206655"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "58280697-6361-49ee-aaeb-dc6fc5df54e1",
+ "is_impersonating": false,
+ "js_git_sha": "3631080342b1a3f490afb9b051a5e57b89b416a8",
+ "page_title": "hook5project are creating graphic enhancment plugin"
+});
+    </script>

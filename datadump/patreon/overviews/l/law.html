@@ -1,0 +1,536 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "65DFRH4qU_x5572XIP8_udl59JPMFm9wtmVdq9XeUMs";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "207334",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/207334"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-08-04T01:44:10+00:00",
+    "creation_name": "the legal podcast that helps you make sense of the news.",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/453450/6500a758a9334daea2d4bdd9dbdf1031?token-time=2145916800\u0026token-hash=8qwzLCqXVK6GoPS1L2LuDcAL5t3scMKGiCivuDM6PP4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/453450/6500a758a9334daea2d4bdd9dbdf1031?token-time=2145916800\u0026token-hash=h6Bx3DXZuWvYne9v8EX-VSRsqrrAJisQCL2g_umq1eg%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1358,
+    "pay_per_name": "episode",
+    "pledge_url": "/bePatron?c=453450",
+    "published_at": "2016-08-15T01:57:44+00:00",
+    "summary": "Opening Arguments is the show that pairs a real-life, Harvard-educated lawyer (Andrew) with an inquisitive host (Thomas). \u00a0Every episode, Thomas and Andrew take on a popular legal topic and give you all the tools you need to understand the issue and win every argument you have on Facebook, with your Uncle Frank, or wherever someone is wrong on the Internet.\u003cbr\u003e\u003cbr\u003eThomas and Andrew have tackled Hillary Clinton\u0027s emails, Jill Stein\u0027s recounts, the Emoluments clause, overtime regulations, Roe v. Wade, the wacky \"sovereign citizen\" movement, and much, much more!\u003cbr\u003e\u003cbr\u003eIt\u0027s law. \u00a0It\u0027s politics. \u00a0It\u0027s fun. \u00a0We don\u0027t tell you what to think, we just set up the Opening Arguments."
+   },
+   "id": "453450",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3621950",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3621950"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "502119",
+       "type": "goal"
+      },
+      {
+       "id": "502120",
+       "type": "goal"
+      },
+      {
+       "id": "502121",
+       "type": "goal"
+      },
+      {
+       "id": "502122",
+       "type": "goal"
+      },
+      {
+       "id": "502123",
+       "type": "goal"
+      },
+      {
+       "id": "566556",
+       "type": "goal"
+      },
+      {
+       "id": "566557",
+       "type": "goal"
+      },
+      {
+       "id": "626912",
+       "type": "goal"
+      },
+      {
+       "id": "711970",
+       "type": "goal"
+      },
+      {
+       "id": "899148",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-453450",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-453450"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "648377",
+       "type": "reward"
+      },
+      {
+       "id": "648378",
+       "type": "reward"
+      },
+      {
+       "id": "648379",
+       "type": "reward"
+      },
+      {
+       "id": "648380",
+       "type": "reward"
+      },
+      {
+       "id": "648381",
+       "type": "reward"
+      },
+      {
+       "id": "648382",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Opening Arguments is the legal podcast that helps you make sense of the news, featuring Thomas Smith and Andrew Torrez",
+     "created": "2016-07-06T23:55:57+00:00",
+     "facebook": "https://www.facebook.com/opening.arguments",
+     "first_name": "Opening",
+     "full_name": "Opening Arguments",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3621950/068631690fe1466db93ba1b68149d460?token-time=2145916800\u0026token-hash=QJCpnlPHZQJZhro6N0UsPpepNm-OlaAtoR_P3BjC0r8%3D",
+     "last_name": "Arguments",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3621950/068631690fe1466db93ba1b68149d460?token-time=2145916800\u0026token-hash=avZzJRe6hJcPuwlz9bTgZoBxizMjGchmvZs60NCsLnI%3D",
+     "twitch": "",
+     "twitter": "openargs",
+     "url": "https://www.patreon.com/law",
+     "vanity": "law",
+     "youtube": null
+    },
+    "id": "3621950",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "453450",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/453450"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 265,
+     "upgrade_url": "/bePatron?c=453450\u0026rid=648377"
+    },
+    "id": "post-aggregation-for-0-453450",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-09-30T17:14:01+00:00",
+     "description": "Thanks for supporting the show! \u00a0At $1 per episode, you\u0027ll get access to our Patreon page, which gives you the following benefits:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eAccess to certain all-patron-only posts and episodes.\u003c/li\u003e\u003cli\u003eAccess to the \u003cstrong\u003ecommercial-free\u003c/strong\u003e\u00a0feed of the show.\u003c/li\u003e\u003cli\u003eThe ability to comment, post, and interact on our Patreon page, which means you can correspond with other Opening Arguments fans as well as leave comments for Thomas and Andrew. \u00a0We promise to read every comment, and will almost certainly respond as well.\u003c/li\u003e\u003cli\u003eYou will get early answers to Thomas Takes the Bar Exam!\u003c/li\u003e\u003cli\u003eYou will get a one-time, sincere thank you on the next episode of Opening Arguments.\u003c/li\u003e\u003cli\u003eYou can bask in that proud, warm feeling knowing you helped make Opening Arguments a reality.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T22:04:47.020503+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-09-30T17:14:01+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Supporting Member",
+     "unpublished_at": null,
+     "url": "/bePatron?c=453450\u0026rid=648377"
+    },
+    "id": "648377",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-09-30T17:14:01+00:00",
+     "description": "At the \u003cstrong\u003esustaining\u003c/strong\u003e\u00a0member level, you will receive all of the above benefits, plus:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eAccess to \u003cem\u003eall\u003c/em\u003e bonus content and special episodes, including Law\u0027d Awful Movies, the definitely-hilarious but please-don\u0027t-call-it-Mystery-Science-Theater viewings of terrible legal movies and shows by Thomas, Andrew, and our special guest comedians.\u003c/li\u003e\u003cli\u003eAccess to full multi-part episodes early (when available), and access to full-length interviews (when available)\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T22:04:47.069282+00:00",
+     "image_url": null,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2016-09-30T17:14:01+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sustaining Member",
+     "unpublished_at": null,
+     "url": "/bePatron?c=453450\u0026rid=648378"
+    },
+    "id": "648378",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-09-30T17:14:01+00:00",
+     "description": "At our \u003cstrong\u003epremium\u003c/strong\u003e\u00a0member level, you get all of the above benefits, plus:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eWe will answer any one question you have, on any topic, on the air!\u003c/li\u003e\u003cli\u003eOpening Arguments will follow you on Twitter\u003c/li\u003e\u003cli\u003eWhen available, you will receive the Opening Arguments newsletter, which contains notes for upcoming epsiodes and all other sorts of insidery stuff.\u003c/li\u003e\u003cli\u003eYou will receive a 10% discount on everything we sell for the lifetime of your patronage at this level or above\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T22:04:47.111932+00:00",
+     "image_url": null,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-09-30T17:14:01+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Premium Member",
+     "unpublished_at": null,
+     "url": "/bePatron?c=453450\u0026rid=648379"
+    },
+    "id": "648379",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-09-30T17:14:01+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAt this level, you have become a full-time \u003cstrong\u003esponsor\u003c/strong\u003e\u00a0of the show, and you will receive all of the above benefits, plus:\u003cbr\u003e\n\u003cbr\u003e\nA recurring, weekly shout-out or one-line ad placement for you or your business\u003c/li\u003e\n\u003cli\u003eYou or your business will be listed as a show sponsor on our website\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eTo prevent gaming the system, in order to receive a shout out your monthly limit cannot be less than $40.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-21T01:33:31.450617+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-21T01:33:31.442886+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=453450\u0026rid=648380"
+    },
+    "id": "648380",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-09-30T17:14:01+00:00",
+     "description": "At this level, you have become an official \u003cstrong\u003efriend\u003c/strong\u003e\u00a0of the show, and we\u0027ll treat you accordingly. \u00a0That means you will get all of the above benefits, plus:\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eThomas and Andrew will personally friend you on Facebook\u003c/li\u003e\n\u003cli\u003eWe\u0027ll listen and respond to your ideas about show topics, guests, etc. \u00a0Hey, we\u0027re your friends, right? \u00a0Friends listen to each other!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-21T01:34:12.166447+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-21T01:34:12.159747+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Friend",
+     "unpublished_at": null,
+     "url": "/bePatron?c=453450\u0026rid=648381"
+    },
+    "id": "648381",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-09-30T17:14:01+00:00",
+     "description": "At this level, you have become an official \u003cstrong\u003ebest friend\u003c/strong\u003e\u00a0of the show. \u00a0That means you will receive all of the above benefits, plus:\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eYou can be a one-time guest on the show on a topic of your choosing (within reason!). \u00a0If you\u0027d rather not be on the show, we will devote an episode to plugging your website, business, or discussing the topic of your choice.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-21T01:35:16.242567+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-21T01:35:16.235801+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Best Friend",
+     "unpublished_at": null,
+     "url": "/bePatron?c=453450\u0026rid=648382"
+    },
+    "id": "648382",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-08-04T01:59:37+00:00",
+     "description": "Opening Arguments will be fully funded, and we will release a 30-minute episode every other Wednesday!",
+     "reached_at": "2016-08-16T02:06:58+00:00",
+     "title": ""
+    },
+    "id": "502119",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-08-04T01:59:37+00:00",
+     "description": "At this level, we will double our output and release a 30-minute episode of Opening Arguments every week!",
+     "reached_at": "2016-08-18T17:03:58+00:00",
+     "title": ""
+    },
+    "id": "502120",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-08-04T01:59:37+00:00",
+     "description": "When we reach this level, Opening Arguments will answer at least one listener question per episode for as long you keep submitting those questions!",
+     "reached_at": "2016-09-06T19:52:36+00:00",
+     "title": ""
+    },
+    "id": "502121",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-08-04T01:59:37+00:00",
+     "description": "At this level, we will once again double our output, putting out a \u003cstrong\u003efull one-hour episode\u003c/strong\u003e\u00a0of Opening Arguments every Wednesday!",
+     "reached_at": "2016-09-20T19:04:36+00:00",
+     "title": ""
+    },
+    "id": "502122",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-08-04T01:59:37+00:00",
+     "description": "Thomas and Andrew will record regular bonus episodes for patrons. \u00a0This will be a fun little treat in which the guys blatantly rip off God Awful Movies and Mystery Science Theater by watching a popular movie or TV show. \u00a0Andrew will poke holes in the terrible legal misconceptions, while Thomas cracks jokes along the way!\u003cbr\u003e",
+     "reached_at": "2016-10-12T11:28:16+00:00",
+     "title": ""
+    },
+    "id": "502123",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-09-30T17:10:23+00:00",
+     "description": "Are you a huge fan of the show? \u00a0Would you like to show your love for Opening Arguments at the beach, in the grocery store, at the gym, and anywhere else you might wear a T-shirt? \u00a0Or are you the kind of person who just wants everyone to know that they should NOT TAKE LEGAL ADVICE FROM A PODCAST??\u003cbr\u003e\u003cbr\u003eAt this level, Thomas and Andrew will make up and give away high-quality T-shirts for their top patrons -- none of that cheap zazzle stuff! -- for FREE!\u003cbr\u003e",
+     "reached_at": "2016-11-30T15:24:27+00:00",
+     "title": ""
+    },
+    "id": "566556",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-09-30T17:10:23+00:00",
+     "description": "At this level, Andrew and Thomas will commit to doing Opening Arguments TWICE per week, with (usually) one episode focusing on the legal implications of current events stories that are in the news, and one episode that\u0027s the more traditional \"deep dive\" into a long, historical topic that you have come to know and love.\u003cbr\u003e",
+     "reached_at": "2016-12-13T00:55:58+00:00",
+     "title": ""
+    },
+    "id": "566557",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-11-30T21:09:03+00:00",
+     "description": "At this level -- and in the fine tradition of drawing inspiration from our favorite podcasts -- we will take Opening Arguments on the road! \u00a0Yes, that\u0027s right, we\u0027ll do \u003cstrong\u003elive\u003c/strong\u003e\u00a0shows where we field audience questions and basically let you do everything except take legal advice from a podcast. \u00a0We\u0027ll put out a call among patrons for cities to visit, and Thomas and Andrew will come to \u003cem\u003eyou\u003c/em\u003e\u00a0with a sure-to-be exciting live get-together.",
+     "reached_at": "2017-08-25T17:57:55+00:00",
+     "title": ""
+    },
+    "id": "626912",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2017-02-09T22:04:47+00:00",
+     "description": "At this level, we will add at least one more patron-only show per month in which Andrew will answer additional listener questions. \u00a0We have a huge backlog of questions and can only get to so many on the air, so this will help get those questions asked and answered!",
+     "reached_at": "2017-05-27T00:13:56+00:00",
+     "title": ""
+    },
+    "id": "711970",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2017-07-12T18:29:58+00:00",
+     "description": "Patrons recently nearly killed us AND might have actually killed a guest host, Ishmael Brown (RIP), by subjecting us to the humiliating and brutal punishment of watching the Pauly Shore movie \"Jury Duty.\" Since we detect a rather sadistic trend in our patrons and we\u0027re always willing to debase ourselves for more Patreon support, Andrew and I have decided -- against the advice of our friends, family, and medical teams -- that if we reach the above goal, we will fly out to a \u003cstrong\u003ePauly Shore stand-up show\u003c/strong\u003e... and watch it.... SOBER.*\u00a0\u003cbr\u003e\u003cu\u003ePossible add-ons\u003c/u\u003e:\u00a0\u003cbr\u003e\u003cul\u003e\u003cli\u003eWe will sincerely laugh at at least 1 joke.\u003c/li\u003e\u003cli\u003eWe will take selfies with Pauly Shore, if possible.\u003c/li\u003e\u003cli\u003eWe will try to book him as a guest on LAM\u003c/li\u003e\u003cli\u003eWe will livestream the aftermath of said \"comedy show.\"\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e*\"sober\" is herein defined as no more than 5 drinks for Andrew and 4.3 drinks for Thomas.",
+     "reached_at": "2017-12-12T07:40:04+00:00",
+     "title": ""
+    },
+    "id": "899148",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/453450"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "713b0394-7d64-4b5c-b226-0b799f9fd8a6",
+ "is_impersonating": false,
+ "js_git_sha": "3631080342b1a3f490afb9b051a5e57b89b416a8",
+ "page_title": "Opening Arguments is creating the legal podcast that helps you make sense of the news."
+});
+    </script>
