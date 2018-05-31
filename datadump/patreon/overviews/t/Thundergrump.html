@@ -1,0 +1,561 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "E9Mtdrin_x2jwsi5MwHjc8IWC29bIhGe01H1SIsCQ4I";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "561897",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/561897"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-08-22T20:23:30+00:00",
+    "creation_name": "Films, Videos and Documentaries",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1180501/b1feb6a4aefa4b01be6f8429aee2897e?token-time=2145916800\u0026token-hash=rk9sSExeytt_2BOeBNAZgABTruSkMLjunTAhAImw-po%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1180501/b1feb6a4aefa4b01be6f8429aee2897e?token-time=2145916800\u0026token-hash=H4RNe08YtMb2B--oknlfcSnBqxnD_mfGcCWdcTU1pZ0%3D",
+    "is_monthly": false,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/vCTzb_X5Jn4\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/vCTzb_X5Jn4",
+    "one_liner": null,
+    "patron_count": 21,
+    "pay_per_name": null,
+    "pledge_sum": 90338,
+    "pledge_url": "/bePatron?c=1180501",
+    "published_at": "2017-08-30T22:24:35+00:00",
+    "summary": "Shane Koyczan and Stuart Gillies have been collaborators on a number of projects over the years. Thundergrump is the partnership through which we (Stuart and I) would like to start making feature projects. Check out some our past projects to see if this might be the kind of work you\u0027d like to support. Our first project under the banner of Thundergrump will be an 8 episode web series called \"Literally\". We\u0027re also open to outside projects which we will take on as a way to further bankroll our goal of helming a feature length film which is currently being developed, so if you have a video or a campaign that needs some editing, filming, writing and so forth just reach out and we\u0027ll see what we can make happen."
+   },
+   "id": "1180501",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7410068",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7410068"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "943979",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1946751",
+       "type": "reward"
+      },
+      {
+       "id": "1947002",
+       "type": "reward"
+      },
+      {
+       "id": "1946999",
+       "type": "reward"
+      },
+      {
+       "id": "1946996",
+       "type": "reward"
+      },
+      {
+       "id": "1947000",
+       "type": "reward"
+      },
+      {
+       "id": "1946995",
+       "type": "reward"
+      },
+      {
+       "id": "1946994",
+       "type": "reward"
+      },
+      {
+       "id": "1947001",
+       "type": "reward"
+      },
+      {
+       "id": "1946998",
+       "type": "reward"
+      },
+      {
+       "id": "1946993",
+       "type": "reward"
+      },
+      {
+       "id": "1946997",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-08-22T20:23:01+00:00",
+     "facebook": "https://www.facebook.com/Thundergrump-Films-268756196961112/",
+     "first_name": "Thundergrump",
+     "full_name": "Thundergrump Films",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7410068/6f54f1f297e34d5f8b9b83671e7dd020?token-time=2145916800\u0026token-hash=zwDJzi9Gs1Xa-C9TQSkUCjGKIQ7LYZK7vQxS9g6b304%3D",
+     "last_name": "Films",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7410068/6f54f1f297e34d5f8b9b83671e7dd020?token-time=2145916800\u0026token-hash=LMWln_tFyxUfvAPVKAl1N-Ch_sNCQU4acKc4Hfaeq3g%3D",
+     "twitch": null,
+     "twitter": "THUND3RGRUMP",
+     "url": "https://www.patreon.com/Thundergrump",
+     "vanity": "Thundergrump",
+     "youtube": "https://www.youtube.com/channel/UCYJWZYVs0gQVr7E_R_Ec-0A"
+    },
+    "id": "7410068",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1180501",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1180501"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-08-23T00:44:41.942593+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eJust because you love us.\u003c/li\u003e\u003cli\u003eJust because you love film.\u003c/li\u003e\u003cli\u003eJust because you\u0027re sitting on a pile of money that you need to get rid of.\u003c/li\u003e\u003cli\u003eJust because.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T00:44:41.942593+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T00:44:41.942593+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Just because",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1180501\u0026rid=1946751",
+     "user_limit": null
+    },
+    "id": "1946751",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-23T02:57:29.550891+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYup. You\u0027ll get your name in the credits as one of our supporters. Think of all the street cred you\u0027ll have walking around knowing that you\u0027re the reason this thing even got made!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T02:57:29.550891+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T02:57:29.550891+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Name in the credits.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1180501\u0026rid=1947002",
+     "user_limit": null
+    },
+    "id": "1947002",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-08-23T02:57:29.335098+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYou\u0027re special and deserve to have others know as we shout it from the mountain tops. (Okay... technically everyone is special, but we really do appreciate you digging a little deeper during these economically tough times). Bees have knees and you are them (the knees I mean).\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T02:57:29.335098+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T02:57:29.335098+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Special Thanks to",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1180501\u0026rid=1946999",
+     "user_limit": null
+    },
+    "id": "1946999",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-08-23T02:57:29.167478+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eWe will film and edit together a special video of thanks for all of your support. Sit back and let us shower you praise... let us moisturize the dry and flaking part of your soul with our non greasy formula of adoration.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T02:57:29.167478+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T02:57:29.167478+00:00",
+     "remaining": 29,
+     "requires_shipping": false,
+     "title": "Special video thank you.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1180501\u0026rid=1946996",
+     "user_limit": 30
+    },
+    "id": "1946996",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-23T02:57:29.368663+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eEver wanted to own a little piece of the show you helped bring to life? Now\u0027s your chance. We\u0027ll mail you a signed copy of the script used during the actual production. Think of how handy this little item will be after the collapse of civilization. Especially useful on those cold nights when the chill snaps at your heels. Just crumple up a page from this bad boy, toss on some kindling, strike a match and break out the wieners!\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T02:57:29.368663+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T02:57:29.368663+00:00",
+     "remaining": 29,
+     "requires_shipping": true,
+     "title": "Signed Script",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1180501\u0026rid=1947000",
+     "user_limit": 30
+    },
+    "id": "1947000",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-08-23T02:57:29.166982+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eWhen the show airs write down your favourite quote, send us your shirt size and colour preference and we\u0027ll send you back a one of a kind personalized T-Shirt. Just think how sharp you\u0027ll look walking around the hood rocking a shirt with a quote that no one but you understands. Glorious. \u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T02:57:29.166982+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T02:57:29.166982+00:00",
+     "remaining": 49,
+     "requires_shipping": true,
+     "title": "Personalized T-Shirt",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1180501\u0026rid=1946995",
+     "user_limit": 50
+    },
+    "id": "1946995",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-23T02:57:29.086437+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYou likely aren\u0027t dead, but wouldn\u0027t it be cool to have an episode of our show dedicated to the memory of you? Watch it with your friends and family and watch them lower their heads in guilt as your photo pops up on the screen and you are celebrated by complete strangers for your undying commitment to the arts.\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T02:57:29.086437+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T02:57:29.086437+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Episode Dedication",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1180501\u0026rid=1946994",
+     "user_limit": null
+    },
+    "id": "1946994",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2017-08-23T02:57:29.426752+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYou betcha. We\u0027ll need extras and others reacting to the madness happening on film. Come on down and let us boss you around the set. We won\u0027t be able to cover your transportation or accommodations, but we\u0027ll go for dinner and squeeze in some hang time :)\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T02:57:29.426752+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T02:57:29.426752+00:00",
+     "remaining": 16,
+     "requires_shipping": false,
+     "title": "Be on the show!!!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1180501\u0026rid=1947001",
+     "user_limit": 16
+    },
+    "id": "1947001",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2017-08-23T02:57:29.239640+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eLet us arm you with some fancy dialogue that you\u0027ll then be able to bring to sparkling life on camera :) Again we won\u0027t be able to cover your accoms or travel expenses, but we\u0027d love for you to come and help us shape a memorable scene for your contribution.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T02:57:29.239640+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T02:57:29.239640+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "Speaking role",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1180501\u0026rid=1946998",
+     "user_limit": 5
+    },
+    "id": "1946998",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2017-08-23T02:57:29.048055+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eWow. You\u0027re really going elbows deep and plunging into the muck with us on this one. \u00a0Pick your episode and we\u0027ll let everyone know that we literally couldn\u0027t have done it without you. Join us on set any time and I\u0027ll be the one running to get your coffee just the way you like it.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T02:57:29.048055+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T02:57:29.048055+00:00",
+     "remaining": 8,
+     "requires_shipping": false,
+     "title": "Executive Producer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1180501\u0026rid=1946993",
+     "user_limit": 8
+    },
+    "id": "1946993",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500000,
+     "amount_cents": 500000,
+     "created_at": "2017-08-23T02:57:29.041513+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eWe have no idea how to launder money, but we\u0027ll happily take your money and put it to good legal use. Yay for film making and skirting the law!!!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T02:57:29.041513+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T02:57:29.041513+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "You obviously have money and need some to launder it.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1180501\u0026rid=1946997",
+     "user_limit": null
+    },
+    "id": "1946997",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 60,
+     "created_at": "2017-08-23T19:58:38+00:00",
+     "description": "Cast and Crew Lip Sync video. We\u0027ll pick a song and make one of those fancy lip sync videos. It\u0027ll be ridiculous and fun. Hit us up with suggestions for what song you\u0027d like to have us cover.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "943979",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1180501"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "61598414-cf9e-44f2-8db5-093df6112003",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Thundergrump Films is creating Films, Videos and Documentaries"
+});
+    </script>

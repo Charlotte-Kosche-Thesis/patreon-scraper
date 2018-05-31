@@ -1,0 +1,527 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "j1fkAPgG7EbrsGx8g9N6mal0Zmo0wGI-Z_ic9oiYENU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "362010",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/362010"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-09-23T14:51:59+00:00",
+    "creation_name": "Digital Paintings",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/532429/553bbafa9b43467d80fdc2ca8f8311ff?token-time=2145916800\u0026token-hash=zshuoZKnyRyvHCglZ6dJJQ5_ypiCwgJ9W2UjeBFCZwc%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/532429/553bbafa9b43467d80fdc2ca8f8311ff?token-time=2145916800\u0026token-hash=6498I63QfIMRTVVC4F3X2WhuNyvL3q8aqbbsry0II4A%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 25,
+    "pay_per_name": "month",
+    "pledge_sum": 12485,
+    "pledge_url": "/bePatron?c=532429",
+    "published_at": "2017-02-12T20:26:44+00:00",
+    "summary": "I\u0027d like to start by saying \"Thank You!\" and that\u0027s the first of many you\u0027ll get out of me. You might not think you\u0027ve done anything to earn it yet, but you\u0027re here and you\u0027re reading this. That\u0027s more than enough for me to express gratitude.\u003cbr\u003e\u003cbr\u003eI decided to make this patreon to supplement my income through my creative works with the help of people who enjoy their creation.\u00a0If something I paint, say, or do resonates with you enough to move you, I\u0027d appreciate it (more than I can say through text on a page) if you\u0027d support my future work by becoming a patron."
+   },
+   "id": "532429",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4096553",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4096553"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "565126",
+       "type": "goal"
+      },
+      {
+       "id": "565127",
+       "type": "goal"
+      },
+      {
+       "id": "724531",
+       "type": "goal"
+      },
+      {
+       "id": "724532",
+       "type": "goal"
+      },
+      {
+       "id": "726962",
+       "type": "goal"
+      },
+      {
+       "id": "726963",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-532429",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-532429"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1395822",
+       "type": "reward"
+      },
+      {
+       "id": "1395897",
+       "type": "reward"
+      },
+      {
+       "id": "2430615",
+       "type": "reward"
+      },
+      {
+       "id": "1395906",
+       "type": "reward"
+      },
+      {
+       "id": "1395931",
+       "type": "reward"
+      },
+      {
+       "id": "1454612",
+       "type": "reward"
+      },
+      {
+       "id": "1454627",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I create digital paintings, shirt designs, music, and tutorials. I\u0027m just all over the place really.",
+     "created": "2016-09-23T14:51:25+00:00",
+     "facebook": "https://www.facebook.com/gammatrap",
+     "first_name": "Gammatrap",
+     "full_name": "Gammatrap",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4096553/62ecc370f3d04aeb8768da4aea6808eb?token-time=2145916800\u0026token-hash=lez5S2OZ0_JCN1kdix0ss4x9MVQCYa9UgjF1V4T45HU%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4096553/62ecc370f3d04aeb8768da4aea6808eb?token-time=2145916800\u0026token-hash=zIfw0DQuDAJZPwfNtVUhmrMtmO1gfZnRaWGGKQLXrD0%3D",
+     "twitch": "https://www.twitch.tv/gammatrap",
+     "twitter": "TheGammatrap",
+     "url": "https://www.patreon.com/gammatrap",
+     "vanity": "gammatrap",
+     "youtube": "https://www.youtube.com/gammatrap"
+    },
+    "id": "4096553",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "532429",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/532429"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 65,
+     "upgrade_url": "/bePatron?c=532429\u0026rid=1395822"
+    },
+    "id": "post-aggregation-for-0-532429",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-02-11T22:50:15.482716+00:00",
+     "description": "Let me into your life and I\u0027ll treat you right! With this basic tier you get a few cool things:\n\u003cul\u003e\n\u003cli\u003eAccess to a feed of patron-only content\u003c/li\u003e\n\u003cli\u003eConnect with other patrons\u003c/li\u003e\n\u003cli\u003ePatron-Only Polls\u003c/li\u003e\n\u003cli\u003eKnow right when somethings done\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-08T02:37:10.707265+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1395822/79a3603e956e491da134059858adc72c?token-time=2145916800\u0026token-hash=xPwpGrjorLKNO8Q_Fba1fAPsvCR3NbMuHdRVUx37N_Y%3D",
+     "patron_count": 23,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-03-08T02:37:10.697097+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Citizen",
+     "unpublished_at": null,
+     "url": "/bePatron?c=532429\u0026rid=1395822",
+     "user_limit": null
+    },
+    "id": "1395822",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-02-11T23:14:51.639666+00:00",
+     "description": "Get the highest-quality versions of my work.\n\u003cul\u003e\n\u003cli\u003eHigh-quality downloads of my art\u003c/li\u003e\n\u003cli\u003eBehind the Scenes Art \u0026amp; Video\u003c/li\u003e\n\u003cli\u003eNew desktop wallpapers each month\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-05T12:31:19.238085+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1395897/d3660d9e86e840cdbc116fb65461daa6?token-time=2145916800\u0026token-hash=sPxGyyiQGQLMSrtgh5MIuVtJFY_sCa4kBrEcbhouweQ%3D",
+     "patron_count": 13,
+     "post_count": 22,
+     "published": true,
+     "published_at": "2017-02-11T23:14:51.639666+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Knight",
+     "unpublished_at": null,
+     "url": "/bePatron?c=532429\u0026rid=1395897",
+     "user_limit": null
+    },
+    "id": "1395897",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2018-03-08T02:40:46.976891+00:00",
+     "description": "The \"above and beyond\" kind of knights.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAccess to NSFW posts\u003c/li\u003e\n\u003cli\u003eAll previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-08T02:40:46.976891+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-03-08T02:40:46.976891+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Dark Knight",
+     "unpublished_at": null,
+     "url": "/bePatron?c=532429\u0026rid=2430615",
+     "user_limit": null
+    },
+    "id": "2430615",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-02-11T23:18:31.505937+00:00",
+     "description": "As a patron, you\u0027ll be recognized for making my work possible.\n\u003cul\u003e\n\u003cli\u003eSigned Digital poster\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-02T20:50:36.146793+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1395906/cf5d24809a3442cabe09cf195daf83e5?token-time=2145916800\u0026token-hash=da9Pku_lIYfC_yCkChSP0oL2Bj49et_w9iZSOUzpZ3Y%3D",
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-02T20:50:36.114885+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Viscount",
+     "unpublished_at": null,
+     "url": "/bePatron?c=532429\u0026rid=1395906",
+     "user_limit": null
+    },
+    "id": "1395906",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-02-11T23:24:18.405533+00:00",
+     "description": "This is it folks, the special stuff, the secret sauce! I\u0027ve let you peek through the keyhole and yell through the windows, but this option here gives you the key.\n\u003cul\u003e\n\u003cli\u003eSee how I make my pieces\u003c/li\u003e\n\u003cli\u003eProcess \u0026amp; Tutorial Videos\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-02T20:31:33.245202+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1395931/de1ef78be06145bdaa8009a3ac536fc0?token-time=2145916800\u0026token-hash=RG4sksaK4UBUVIxStqnXhnf_OCwz2_yk_tVh05XmAU4%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-11T23:24:18.405533+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Duke",
+     "unpublished_at": null,
+     "url": "/bePatron?c=532429\u0026rid=1395931",
+     "user_limit": null
+    },
+    "id": "1395931",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-03-01T16:22:26.590051+00:00",
+     "description": "You\u0027re a founder of everything I do here! You hold the power and authority to weigh in on big decisions! You\u0027ll immediately have access to all of the doors below you and after your first month (and every follwing month) I will present you with a personal painting that I make for you with love and reverence!\n\u003cul\u003e\n\u003cli\u003ePersonalized painting\u003c/li\u003e\n\u003cli\u003eMy full attention\u003c/li\u003e\n\u003cli\u003eWill be reffered to as \"You\u0027re holiness\"\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-04T04:37:37.373590+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1454612/54902eadbf7f4f5dab5aef199a5aca0d?token-time=2145916800\u0026token-hash=txc01uiu06bkTC0YqiaNfj1XAZtggaexyuSRx9PlsG0%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-04T04:37:37.364045+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Archbishop",
+     "unpublished_at": null,
+     "url": "/bePatron?c=532429\u0026rid=1454612",
+     "user_limit": null
+    },
+    "id": "1454612",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-03-01T16:29:41.495019+00:00",
+     "description": "Speak thy name and be feared! Call when you need of me. Ask what you will of me. As best to my power I shall see it done!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eWill be referred to as \"Your grace\"\u003c/li\u003e\n\u003cli\u003eFollow all of your social media\u003c/li\u003e\n\u003cli\u003eAble to make requests\u003c/li\u003e\n\u003cli\u003eAutomatically win any dispute\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-04T04:37:51.668972+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1454627/6233605ccbcb4bbfa186354ecf1e051f?token-time=2145916800\u0026token-hash=YEssrAQrmrLRyY9L-9WOZqYMFdLVUZKBSa14RKA5FHw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-04T04:37:51.660618+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Sovereign ruler",
+     "unpublished_at": null,
+     "url": "/bePatron?c=532429\u0026rid=1454627",
+     "user_limit": null
+    },
+    "id": "1454627",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 24,
+     "created_at": "2016-09-29T12:17:35+00:00",
+     "description": "With that chunk of change I can finally get a decent computer and stop painting on my Surface Pro! Oh a boy can dream!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "565126",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 6,
+     "created_at": "2016-09-29T12:17:35+00:00",
+     "description": "Who walks around with this kind of scratch?! If I did, I could get a Wacom Cintiq pen display. With one of those bad boys my work could be far more detailed and it would be easier to paint large and elaborate work.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "565127",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 120000,
+     "completed_percentage": 10,
+     "created_at": "2017-02-21T18:30:43+00:00",
+     "description": "Want to know something cool? This is all I need a month to be able to paint full-time, just this. I\u0027ll lay it on the table for all the world to see. If we hit this I\u0027m gonna break down into some grown-man tears! I\u0027m talking full on ugly crying all over the place.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "724531",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 2,
+     "created_at": "2017-02-21T18:30:43+00:00",
+     "description": "Why? WHY!? Because we all need something to shoot for. If I EVER hit this mark I\u0027ll go to major events and personally cry on each of your shoulders. I\u0027m a bit of a recluse so you don\u0027t even understand how HUGE that is for me!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "724532",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 24000,
+     "completed_percentage": 52,
+     "created_at": "2017-02-23T17:34:24+00:00",
+     "description": "My\u003cem\u003e average\u003c/em\u003e painting takes about three hours to actually \u003cstrong\u003edo\u003c/strong\u003e. My going rate is $20 per hour for payed clients. So my free paintings that I do for entertainment \u003cem\u003ewould\u003c/em\u003e average out at $60 each. I make one a week, so if I got payed for those I\u0027d make about $240 a month.\u003cbr\u003eI\u0027m not taking into account the several hours I do to set-up and research each piece. That\u0027s in another goal. But this is a great start!",
+     "reached_at": "2017-04-14T21:25:19+00:00",
+     "title": ""
+    },
+    "id": "726962",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 72000,
+     "completed_percentage": 17,
+     "created_at": "2017-02-23T17:34:24+00:00",
+     "description": "Going back to my average painting. The ACT of painting the piece takes only about 3 hours on average. But all the work that goes into each piece equals into about 9 hours on average. This includes:\u003cbr\u003e\u003cul\u003e\u003cli\u003eResearch to make sure things are accurate\u003c/li\u003e\u003cli\u003eFinding references\u003c/li\u003e\u003cli\u003eBuilding a cheat-sheet\u003c/li\u003e\u003cli\u003eRecording\u003c/li\u003e\u003cli\u003eAnd editing each video\u003c/li\u003e\u003c/ul\u003eIf my going rate is $20/hr, then this is the \u003cstrong\u003etrue\u003c/strong\u003e cost of a months worth of my weekly paintings and videos.\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "726963",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/532429"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "67d1db8f-b578-4c7c-966b-a3379cbb747c",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Gammatrap is creating Digital Paintings"
+});
+    </script>

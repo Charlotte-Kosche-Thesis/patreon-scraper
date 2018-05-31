@@ -1,0 +1,527 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "6yBVnEfQzhXNy-Nnnsyto5YBJ_52icvtGnZjPkutr1k";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "473768",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/473768"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-12-21T09:22:02+00:00",
+    "creation_name": " an email client / PIM suite for Ubuntu devices",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/661240/f9a2994cca274e2f91d3e6ef373ba1ec?token-time=2145916800\u0026token-hash=tNVzwW_IfdtJIdbZZJWiXYNhWC2nPjMOTXhNaNPMoMo%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/661240/f9a2994cca274e2f91d3e6ef373ba1ec?token-time=2145916800\u0026token-hash=DZpMH1QAnWmBiqRSHkAac47J2hYBX0xSk7J8Qwg6ba8%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 21,
+    "pay_per_name": "month",
+    "pledge_sum": 10923,
+    "pledge_url": "/bePatron?c=661240",
+    "published_at": "2017-06-10T12:17:42+00:00",
+    "summary": "A community developed email client / PIM suite for Ubuntu powered devices.\u003cbr\u003e\u003cbr\u003eThis funding campaign has three main objectives: \u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eFund the the Dekko Project\u0027s hosting and bandwidth costs. This include domain name registrations, server hosting and bandwidth costs.\u003c/li\u003e\u003cli\u003eFund the full time development of the Dekko Projects PIM suite and also be able to offer financial rewards to contributors of the project. Help subsidise the travel expenses of team members to represent the Dekko Project at\u00a0FLOSS conferences.\u003c/li\u003e\u003cli\u003eSupport other Open Source projects that the Dekko Project depends upon. \u003c/li\u003e\u003c/ul\u003e\u003cbr\u003ePatrons will be rewarded with exclusive project news, updates and invited to talk with the developers directly.\u003cbr\u003e\u003cbr\u003eGo on, be brilliant, help grow our community."
+   },
+   "id": "661240",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4669575",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4669575"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "863280",
+       "type": "goal"
+      },
+      {
+       "id": "863281",
+       "type": "goal"
+      },
+      {
+       "id": "863282",
+       "type": "goal"
+      },
+      {
+       "id": "863283",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-661240",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-661240"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1755822",
+       "type": "reward"
+      },
+      {
+       "id": "1755823",
+       "type": "reward"
+      },
+      {
+       "id": "1755833",
+       "type": "reward"
+      },
+      {
+       "id": "1755825",
+       "type": "reward"
+      },
+      {
+       "id": "1755841",
+       "type": "reward"
+      },
+      {
+       "id": "1755843",
+       "type": "reward"
+      },
+      {
+       "id": "1755851",
+       "type": "reward"
+      },
+      {
+       "id": "1755854",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-12-21T09:16:50+00:00",
+     "facebook": null,
+     "first_name": "Dekko",
+     "full_name": "Dekko Project",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4669575/f0892b4fcd1445638fca681baccc77f4?token-time=2145916800\u0026token-hash=kH3bOW9xDo69eWDvfsMo012t_6_Wz0i9UO0QnizBQRQ%3D",
+     "last_name": "Project",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4669575/f0892b4fcd1445638fca681baccc77f4?token-time=2145916800\u0026token-hash=1Y0L9l5jQ27jC5Dbi-RBvllmRghfmLDUanSfBwARhSw%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/dekkoproject",
+     "vanity": "dekkoproject",
+     "youtube": null
+    },
+    "id": "4669575",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "661240",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/661240"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 3,
+     "upgrade_url": "/bePatron?c=661240\u0026rid=1755823"
+    },
+    "id": "post-aggregation-for-0-661240",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 250,
+     "amount_cents": 250,
+     "created_at": "2017-06-10T11:30:31.998729+00:00",
+     "description": "Thanks for the support\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eSend exclusive project news and updates\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-10T11:30:31.998729+00:00",
+     "image_url": null,
+     "patron_count": 8,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-10T11:30:31.998729+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Dekko Buddy",
+     "unpublished_at": null,
+     "url": "/bePatron?c=661240\u0026rid=1755822",
+     "user_limit": null
+    },
+    "id": "1755822",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-06-10T11:31:37.343628+00:00",
+     "description": "Thanks for your generous support\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eSend exclusive project news and updates\u003c/li\u003e\u003cli\u003eInvite to join an exclusive Telegram group and have direct acces\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-10T11:31:37.343628+00:00",
+     "image_url": null,
+     "patron_count": 7,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-06-10T11:31:37.343628+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "You Rock!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=661240\u0026rid=1755823",
+     "user_limit": null
+    },
+    "id": "1755823",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-06-10T11:36:39.510064+00:00",
+     "description": "\u00a0\n\u003cp\u003eThanks for your generous support\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eSend exclusive project news and updates\u003c/li\u003e\u003cli\u003eInvite to join an exclusive Telegram group and have direct acces\u003c/li\u003e\u003cli\u003eList you in the \"Super Supporters\" section of the in-app sponsor\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-10T11:36:39.510064+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-10T11:36:39.510064+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Super Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=661240\u0026rid=1755833",
+     "user_limit": null
+    },
+    "id": "1755833",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1300,
+     "amount_cents": 1300,
+     "created_at": "2017-06-10T11:32:57.266241+00:00",
+     "description": "You are the official \"Unlucky Patron\"\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eSend exclusive project news and updates\u003c/li\u003e\u003cli\u003eInvite to join an exclusive Telegram group and have direct acces\u003c/li\u003e\u003cli\u003eList you in the dedicated \"Unlucky Patron\" section of the in-app\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-10T11:35:26.005873+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-10T11:32:57.266241+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Unlucky Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=661240\u0026rid=1755825",
+     "user_limit": 1
+    },
+    "id": "1755825",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-06-10T11:43:25.568477+00:00",
+     "description": "Thanks for your generous supports\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eSend exclusive project news and updates\u003c/li\u003e\u003cli\u003eInvite to join an exclusive Telegram group and have direct acces\u003c/li\u003e\u003cli\u003eList you in the \"Pillars of the community\" section of the sponso\u003c/li\u003e\u003cli\u003eMonthly Q\u0026amp;A\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003cli\u003eSneak peeks\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-10T11:43:25.568477+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-10T11:43:25.568477+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pillar of the community",
+     "unpublished_at": null,
+     "url": "/bePatron?c=661240\u0026rid=1755841",
+     "user_limit": null
+    },
+    "id": "1755841",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-06-10T11:46:31.937605+00:00",
+     "description": "Thanks for your incredible support!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eSend exclusive project news and updates\u003c/li\u003e\u003cli\u003eInvite to join an exclusive Telegram group and have direct acces\u003c/li\u003e\u003cli\u003eMonthly Q\u0026amp;A\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003cli\u003eSneak peeks\u003c/li\u003e\u003cli\u003eList you in the \"Funding Gods!\" section of sponsors page\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-10T11:51:09.093803+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-10T11:46:31.937605+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Funding God!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=661240\u0026rid=1755843",
+     "user_limit": null
+    },
+    "id": "1755843",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-06-10T11:49:18.378539+00:00",
+     "description": "Commercial sponsor\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eSend exclusive project news and updates\u003c/li\u003e\u003cli\u003eInvite to join an exclusive Telegram group and have direct acces\u003c/li\u003e\u003cli\u003eMonthly Q\u0026amp;A\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003cli\u003eSneak peeks\u003c/li\u003e\u003cli\u003eList company logo and link in \"Commercial sponsors\" section\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-10T11:49:18.378539+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-10T11:49:18.378539+00:00",
+     "remaining": 20,
+     "requires_shipping": false,
+     "title": "Business Buddy",
+     "unpublished_at": null,
+     "url": "/bePatron?c=661240\u0026rid=1755851",
+     "user_limit": 20
+    },
+    "id": "1755851",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2017-06-10T11:50:38.779224+00:00",
+     "description": "\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eSend exclusive project news and updates\u003c/li\u003e\u003cli\u003eMonthly Q\u0026amp;A\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003cli\u003eSneak peeks\u003c/li\u003e\u003cli\u003eList company logo and link in \"Commercial sponsors\" section\u003c/li\u003e\u003cli\u003eList company logo and link on the dekkoproject.org homepage\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-10T11:50:38.779224+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-10T11:50:38.779224+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Executive Club",
+     "unpublished_at": null,
+     "url": "/bePatron?c=661240\u0026rid=1755854",
+     "user_limit": 10
+    },
+    "id": "1755854",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1500,
+     "completed_percentage": 100,
+     "created_at": "2017-06-10T11:55:52+00:00",
+     "description": "This will cover the cost of website \u0026amp; domain hosting",
+     "reached_at": "2017-06-13T01:25:20+00:00",
+     "title": ""
+    },
+    "id": "863280",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2017-06-10T11:55:52+00:00",
+     "description": "Will cover all project server fees",
+     "reached_at": "2017-06-13T01:35:36+00:00",
+     "title": ""
+    },
+    "id": "863281",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 10,
+     "created_at": "2017-06-10T11:55:52+00:00",
+     "description": "Will fund a part-time developer (20 hours per week)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "863282",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 5,
+     "created_at": "2017-06-10T11:55:52+00:00",
+     "description": "Will fund a full-time developer",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "863283",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/661240"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "f19b6869-4b3d-46a0-b62e-7f25f4ce253e",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Dekko Project is creating  an email client / PIM suite for Ubuntu devices"
+});
+    </script>

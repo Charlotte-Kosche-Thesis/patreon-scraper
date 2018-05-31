@@ -1,0 +1,607 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "DYfDlbP-dba5NCb2mmaapdQN3fmTsu8wKweizm9Kx3k";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "389994",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/389994"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-03-19T19:39:17+00:00",
+    "creation_name": "Comics \u0026 illustrations",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/804092/fc0c1cf52ea74630b94c17dd23ba5e6f?token-time=2145916800\u0026token-hash=G8sW6TiCexOPqX1wxbcM_q155J32IQSzc-3nzJfSANA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/804092/fc0c1cf52ea74630b94c17dd23ba5e6f?token-time=2145916800\u0026token-hash=5iGoetXaIBcFTDtkxEtV_Zjf4sdFN_kRxgtRJjIpulE%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 23,
+    "pay_per_name": "month",
+    "pledge_sum": 16729,
+    "pledge_url": "/bePatron?c=804092",
+    "published_at": "2017-03-20T00:29:20+00:00",
+    "summary": "Hello! My name is Marek. I make comics and a youtube show called Arts \u0026amp; Farts. I get by being a freelance illustrator but making comics are my passion. Help support me with even a small amount and you can get digital versions of all my comics.\u00a0Every little bit helps, and as I gain more support I can spend more time making comics instead of freelance stuff. Love ya!"
+   },
+   "id": "804092",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5385800",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5385800"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "755498",
+       "type": "goal"
+      },
+      {
+       "id": "755499",
+       "type": "goal"
+      },
+      {
+       "id": "755501",
+       "type": "goal"
+      },
+      {
+       "id": "756417",
+       "type": "goal"
+      },
+      {
+       "id": "772381",
+       "type": "goal"
+      },
+      {
+       "id": "772382",
+       "type": "goal"
+      },
+      {
+       "id": "945758",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-804092",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-804092"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1510378",
+       "type": "reward"
+      },
+      {
+       "id": "1510385",
+       "type": "reward"
+      },
+      {
+       "id": "1510410",
+       "type": "reward"
+      },
+      {
+       "id": "2549652",
+       "type": "reward"
+      },
+      {
+       "id": "1510421",
+       "type": "reward"
+      },
+      {
+       "id": "2549658",
+       "type": "reward"
+      },
+      {
+       "id": "1510436",
+       "type": "reward"
+      },
+      {
+       "id": "1510439",
+       "type": "reward"
+      },
+      {
+       "id": "1510448",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Arts and farts",
+     "created": "2017-03-19T19:36:42+00:00",
+     "facebook": null,
+     "first_name": "Marek",
+     "full_name": "Marek Jarocki",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5385800/c39739c88f08487482d499ad63a1fa32?token-time=2145916800\u0026token-hash=Jp6bYIP0p3-zHvEXH7QDia95nofFOH2lbBxI18Ng6qc%3D",
+     "last_name": "Jarocki",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5385800/c39739c88f08487482d499ad63a1fa32?token-time=2145916800\u0026token-hash=QC0LRP2iSQ3QRynvOM-aoPyJvqnMukzQTsoIJIAYsq8%3D",
+     "twitch": null,
+     "twitter": "mjarocki_art",
+     "url": "https://www.patreon.com/marekjarocki",
+     "vanity": "marekjarocki",
+     "youtube": "https://www.youtube.com/marekjarocki"
+    },
+    "id": "5385800",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "804092",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/804092"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 80,
+     "upgrade_url": "/bePatron?c=804092\u0026rid=1510385"
+    },
+    "id": "post-aggregation-for-0-804092",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-03-19T19:52:01.765285+00:00",
+     "description": "\u00a0Exclusive posts and polls + free digital comics\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eFree digital comics\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003cli\u003ePatron-only posts\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-25T15:56:56.549184+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-19T19:52:01.765285+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Dude",
+     "unpublished_at": null,
+     "url": "/bePatron?c=804092\u0026rid=1510378",
+     "user_limit": null
+    },
+    "id": "1510378",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-03-19T19:53:51.446756+00:00",
+     "description": "Acess to all of my digital sketchbooks (there\u0027s a lot)\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eFree digital comics\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003cli\u003ePatron-only posts\u003c/li\u003e\u003cli\u003eDigital sketchbook access\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-19T20:41:30.722697+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1510385/64026294cfd14c378996a46b3375d833?token-time=2145916800\u0026token-hash=OtykYk72OrpjlQVT2v-4ycveANvckIkJa5xDq8AtAiM%3D",
+     "patron_count": 11,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2017-03-19T19:53:51.446756+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "My dude",
+     "unpublished_at": null,
+     "url": "/bePatron?c=804092\u0026rid=1510385",
+     "user_limit": null
+    },
+    "id": "1510385",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-03-19T20:07:20.380092+00:00",
+     "description": "FREE THING each month. Like a sticker or postcard print.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eFree digital comics\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003cli\u003ePatron-only posts\u003c/li\u003e\u003cli\u003eDigital sketchbook access\u003c/li\u003e\u003cli\u003eSticker or postcard print each month\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-25T16:00:33.548791+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-19T20:07:20.380092+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Snazzy dude",
+     "unpublished_at": null,
+     "url": "/bePatron?c=804092\u0026rid=1510410",
+     "user_limit": null
+    },
+    "id": "1510410",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-04-22T21:46:58.682847+00:00",
+     "description": "2 vinyl stickers in the mail each month\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eFree digital comics\u003c/li\u003e\n\u003cli\u003ePatron-only polls\u003c/li\u003e\n\u003cli\u003ePatron-only posts\u003c/li\u003e\n\u003cli\u003e2 stickers\u003c/li\u003e\n\u003cli\u003eDigital sketchbook access\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-22T21:46:58.682847+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2549652/5d9492bd49d74d0bb7f926bbd55f7f27?token-time=2145916800\u0026token-hash=-ayqQ6h0zzTVUk-O7bD1ZjsOJWuRaw35kzotz6yBoBo%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-22T21:46:58.682847+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Sticker Dude",
+     "unpublished_at": null,
+     "url": "/bePatron?c=804092\u0026rid=2549652",
+     "user_limit": null
+    },
+    "id": "2549652",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-03-19T20:07:52.662953+00:00",
+     "description": "You get a cool hand-drawn postcard in the mail each month!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eFree digital comics\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003cli\u003ePatron-only posts\u003c/li\u003e\u003cli\u003eDigital sketchbook access\u003c/li\u003e\u003cli\u003eSticker or postcard print each month\u003c/li\u003e\u003cli\u003eBlack \u0026amp; white postcard in the mail\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-19T20:16:08.754989+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1510421/03c073976f43455b80aa2b5a440d97bc?token-time=2145916800\u0026token-hash=19Z0NZSbZiBJ4TBmm6iYyEp6NvC-q8P58kMTVaSQTXg%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-19T20:16:04.292764+00:00",
+     "remaining": 20,
+     "requires_shipping": true,
+     "title": "Good lookin dude",
+     "unpublished_at": null,
+     "url": "/bePatron?c=804092\u0026rid=1510421",
+     "user_limit": 20
+    },
+    "id": "1510421",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-04-22T21:48:58.194377+00:00",
+     "description": "5 vinyl stickers in the mail each month\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eFree digital comics\u003c/li\u003e\n\u003cli\u003ePatron-only polls\u003c/li\u003e\n\u003cli\u003ePatron-only posts\u003c/li\u003e\n\u003cli\u003e5 stickers\u003c/li\u003e\n\u003cli\u003eDigital sketchbook access\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-22T21:48:58.194377+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2549658/468562a72aa845ac857129a941a7ab93?token-time=2145916800\u0026token-hash=AZke9Kthyw-lUynDC5ipHjQ7N4lJn45gJkR-e-H7g30%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-22T21:48:58.194377+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Stickiest Dude",
+     "unpublished_at": null,
+     "url": "/bePatron?c=804092\u0026rid=2549658",
+     "user_limit": null
+    },
+    "id": "2549658",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-03-19T20:19:53.613829+00:00",
+     "description": "Sweet color postcard in the mail each month\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eFree digital comics\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003cli\u003ePatron-only posts\u003c/li\u003e\u003cli\u003eDigital sketchbook access\u003c/li\u003e\u003cli\u003eSticker or postcard print each month\u003c/li\u003e\u003cli\u003eColor postcard in the mail\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-19T20:19:57.056671+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1510436/a61f4848e63c4c23981dedb02985a008?token-time=2145916800\u0026token-hash=6gFZjMcrcirC3O4x0pVz2hEpiFf-kUUUpX-19gSb95w%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-19T20:19:53.613829+00:00",
+     "remaining": 20,
+     "requires_shipping": true,
+     "title": "Very good lookin dude",
+     "unpublished_at": null,
+     "url": "/bePatron?c=804092\u0026rid=1510436",
+     "user_limit": 20
+    },
+    "id": "1510436",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-03-19T20:21:41.594853+00:00",
+     "description": "Color 8x10 drawing in the mail each month as well as a black \u0026amp; white postcard\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eFree digital comics\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003cli\u003ePatron-only posts\u003c/li\u003e\u003cli\u003eDigital sketchbook access\u003c/li\u003e\u003cli\u003eSticker or postcard print each month\u003c/li\u003e\u003cli\u003eBlack \u0026amp; white postcard in the mail\u003c/li\u003e\u003cli\u003eColor 8x10 in the mail\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-19T21:09:25.732703+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1510439/2187b57901e24d9fbe55dd8df507f6eb?token-time=2145916800\u0026token-hash=awNWb4nYGzfrgDNeUqI84YvCcHHrWnBcLKyZKr3F6W8%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-19T20:21:41.594853+00:00",
+     "remaining": 19,
+     "requires_shipping": true,
+     "title": "Dank dude",
+     "unpublished_at": null,
+     "url": "/bePatron?c=804092\u0026rid=1510439",
+     "user_limit": 20
+    },
+    "id": "1510439",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 66600,
+     "amount_cents": 66600,
+     "created_at": "2017-03-19T20:23:03.326264+00:00",
+     "description": "I\u0027ll tattoo your name on my body\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eFree digital comics\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003cli\u003ePatron-only posts\u003c/li\u003e\u003cli\u003eDigital sketchbook access\u003c/li\u003e\u003cli\u003eSticker or postcard print each month\u003c/li\u003e\u003cli\u003eBlack \u0026amp; white postcard in the mail\u003c/li\u003e\u003cli\u003eColor postcard in the mail\u003c/li\u003e\u003cli\u003eColor 8x10 in the mail\u003c/li\u003e\u003cli\u003eName tattooed on my body\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-19T20:23:03.326264+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-19T20:23:03.326264+00:00",
+     "remaining": 666,
+     "requires_shipping": true,
+     "title": "THE dude",
+     "unpublished_at": null,
+     "url": "/bePatron?c=804092\u0026rid=1510448",
+     "user_limit": 666
+    },
+    "id": "1510448",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2017-03-19T19:45:43+00:00",
+     "description": "Let\u0027s get this thing started! I\u0027ll do a small \u003cstrong\u003epostcard giveaway\u003c/strong\u003e. I\u0027ll also be posting a lot of updates all at once to get the ball rolling.",
+     "reached_at": "2017-06-15T07:20:43+00:00",
+     "title": ""
+    },
+    "id": "755498",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 100,
+     "created_at": "2017-03-19T19:45:43+00:00",
+     "description": "\u003cstrong\u003eShirt giveaway!\u003c/strong\u003e I\u0027ll give away 3 shirt designs of your choice. Time to get into a strict release schedule. I\u0027ll be talking with my patrons about what you would like to see each month. Something like X comic pages or videos per month.",
+     "reached_at": "2017-06-20T06:33:56+00:00",
+     "title": ""
+    },
+    "id": "755499",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 66,
+     "created_at": "2017-03-19T19:48:05+00:00",
+     "description": "\u003cstrong\u003eHoodie giveaway! \u003c/strong\u003eI\u0027ll give away 2 hoodies of your choice to 2 lucky winners.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "755501",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 83,
+     "created_at": "2017-03-20T16:04:09+00:00",
+     "description": "\u003cstrong\u003ePRINTS FOR EVERYONE! \u003c/strong\u003eI\u0027m going to make a bunch of postcard-sized prints and everybody gets one! Once this goal is met I will make a reward tier that includes a postcard print in the mail each month.\u003cbr\u003e",
+     "reached_at": "2018-01-04T22:11:12+00:00",
+     "title": ""
+    },
+    "id": "756417",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 55,
+     "created_at": "2017-04-01T21:16:01+00:00",
+     "description": "\u003cstrong\u003eSTICKERS FOR EVERYONE! \u003c/strong\u003eEveryone gets stickers! I will also create a reward tier that includes a sticker in the mail each month.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "772381",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 8,
+     "created_at": "2017-04-01T21:16:01+00:00",
+     "description": "FULL TIME BABEE!\u003cbr\u003eI\u0027m gonna devote at least 40 hours a week to creating sweet comic and video content for my dudes.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "772382",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 16,
+     "created_at": "2017-08-25T15:52:40+00:00",
+     "description": "\u003cstrong\u003ePART TIME COMICS \u0026amp; GIVEAWAY!\u003cbr\u003e\u003c/strong\u003eI\u0027ll devote exactly half of my time to making comics. The more support you give the more comics I can produce! I\u0027ll give away a bunch of comics too!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "945758",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/804092"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "6651f73a-609e-46c5-b6cc-4cb9c6552a48",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Marek Jarocki is creating Comics \u0026 illustrations"
+});
+    </script>

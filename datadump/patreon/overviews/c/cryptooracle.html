@@ -1,0 +1,482 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "3ygN8n_93gPHVAF4MzrT87jXKjF6R1fP57Mu_3Wq4dE";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "511787",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/511787"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-07-15T04:33:45+00:00",
+    "creation_name": "Cryptocurrency Trading and Advice Videos",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1076831/f97dbf0374e947cfab6a26a8535ba799?token-time=2145916800\u0026token-hash=e5kHsO23vCJ6Q_Hru5X_f1GmAbe82tOZyEmU9w2ZVL4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1076831/f97dbf0374e947cfab6a26a8535ba799?token-time=2145916800\u0026token-hash=yT3p-cIWM4Y-pNvfBaTSM8nSaYC2rCHbJGOAzG8Ywn8%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 23,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1076831",
+    "published_at": "2017-07-15T04:47:38+00:00",
+    "summary": "\u003cstrong\u003eHello ladies and gentlemen this is the Crypto Oracle. I make Youtube videos and Tweets about cryptocurrency trading, investing picks and advice. I make guides on trading as well as weekly coin picks so that we can all make as much profit as possible in the crypto market.\u003cbr\u003e\u003c/strong\u003e\u003cbr\u003eIf you are joining the Inner-Circle Slack group, make sure to message me your email address via Patreon private message once you have subscribed.\u003cbr\u003e\u003cbr\u003eDisclaimer and membership details:\u003cbr\u003eI am not responsible for any trades made by members of the group. You are trading at your own risk. I am not your wealth manager, nor your banker, nor your broker. I am simply the group owner.\u00a0\u003cbr\u003eIn order to sustain your membership in the private group you must maintain your Patronage. If you leave the Patreon at any time you will be immediately removed from the Slack. If you have certain circumstances in terms of payment or membership, contact me directly within the Slack."
+   },
+   "id": "1076831",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "6910354",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/6910354"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "22109",
+       "type": "patron_goal"
+      },
+      {
+       "id": "22110",
+       "type": "patron_goal"
+      },
+      {
+       "id": "23247",
+       "type": "patron_goal"
+      },
+      {
+       "id": "28768",
+       "type": "patron_goal"
+      },
+      {
+       "id": "32210",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1844736",
+       "type": "reward"
+      },
+      {
+       "id": "1858068",
+       "type": "reward"
+      },
+      {
+       "id": "1898787",
+       "type": "reward"
+      },
+      {
+       "id": "1909951",
+       "type": "reward"
+      },
+      {
+       "id": "1920084",
+       "type": "reward"
+      },
+      {
+       "id": "1925976",
+       "type": "reward"
+      },
+      {
+       "id": "1949556",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-07-15T04:33:32+00:00",
+     "facebook": null,
+     "first_name": "CryptoOracle",
+     "full_name": "CryptoOracle",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/6910354/a2a513d284ef47a8b6dc68832cdb6f3a?token-time=2145916800\u0026token-hash=eAz9gOERX7o4mrr-qDCY8atTd7iuHBDMonhYddK_o7o%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/6910354/a2a513d284ef47a8b6dc68832cdb6f3a?token-time=2145916800\u0026token-hash=rwmnEf_81VfTZQ7yJ-Ti2wSK9MM5dwy9wV-YljadhMU%3D",
+     "twitch": null,
+     "twitter": "OracleOfCrypto",
+     "url": "https://www.patreon.com/cryptooracle",
+     "vanity": "cryptooracle",
+     "youtube": "https://www.youtube.com/channel/UCEBRZGYDGPDUUDOJ9pX3tPg"
+    },
+    "id": "6910354",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1076831",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1076831"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-07-15T04:41:02.365001+00:00",
+     "description": "\u003cdiv\u003eSOLD OUT\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-10T23:14:00.086802+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-10T23:14:00.059553+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Oracle Inner Circle - Round 1",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1076831\u0026rid=1844736"
+    },
+    "id": "1844736",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2900,
+     "amount_cents": 2900,
+     "created_at": "2017-07-20T03:08:50.546279+00:00",
+     "description": "\u003cdiv\u003eSOLD OUT\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-10T23:14:05.988257+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-10T23:14:05.968054+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Oracle Inner Circle - Round 2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1076831\u0026rid=1858068"
+    },
+    "id": "1858068",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3300,
+     "amount_cents": 3300,
+     "created_at": "2017-08-04T05:21:33.462804+00:00",
+     "description": "\u003cdiv\u003eSOLD OUT\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-10T23:14:11.043255+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-10T23:14:11.016674+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Oracle Inner Circle - Round 3",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1076831\u0026rid=1898787"
+    },
+    "id": "1898787",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3800,
+     "amount_cents": 3800,
+     "created_at": "2017-08-08T15:34:07.003234+00:00",
+     "description": "\u003cdiv\u003eSOLD OUT\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-10T23:14:16.320442+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-10T23:14:16.295771+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Oracle Inner Circle - Round 4",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1076831\u0026rid=1909951"
+    },
+    "id": "1909951",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4200,
+     "amount_cents": 4200,
+     "created_at": "2017-08-12T16:21:12.594762+00:00",
+     "description": "\u003cdiv\u003eSOLD OUT\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-10T23:14:21.869888+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-10T23:14:21.838528+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Oracle Inner Circle - Round 5",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1076831\u0026rid=1920084"
+    },
+    "id": "1920084",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4900,
+     "amount_cents": 4900,
+     "created_at": "2017-08-14T23:37:07.510601+00:00",
+     "description": "SOLD OUT",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-10T23:14:26.158930+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-10T23:14:26.139278+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Oracle Inner Circle - Round 6",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1076831\u0026rid=1925976"
+    },
+    "id": "1925976",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7900,
+     "amount_cents": 7900,
+     "created_at": "2017-08-24T04:10:23.823448+00:00",
+     "description": "SOLD OUT\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-10T23:14:30.375196+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-10T23:14:30.349242+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Oracle Inner Circle - Round 7",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1076831\u0026rid=1949556"
+    },
+    "id": "1949556",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-07-15T04:46:18+00:00",
+     "deleted_at": null,
+     "description": "When I reach 25 Patrons I will allow 1 randomly picked Patron access to the Private Inner Circle Slack for free for 1 month.",
+     "goal_text": "When I reach 25 Patrons I will allow 1 randomly picked Patron access to the Private Inner Circle Slack for free for 1 month.",
+     "number_patrons": 25,
+     "reached_at": null
+    },
+    "id": "22109",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-07-15T04:46:18+00:00",
+     "deleted_at": null,
+     "description": "When I reach 50 Patrons I will allow 2 more randomly picked Patrons access to the Private Inner Circle Slack for free for 1 month.",
+     "goal_text": "When I reach 50 Patrons I will allow 2 more randomly picked Patrons access to the Private Inner Circle Slack for free for 1 month.",
+     "number_patrons": 50,
+     "reached_at": null
+    },
+    "id": "22110",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-07-20T04:11:38+00:00",
+     "deleted_at": null,
+     "description": "When I reach 100 Patrons I will do a 12 hour day-trading livestream on Youtube.\u003cbr\u003eAdditionally I will allow 3 randomly picked Patrons access to the Private Inner Circle Slack for free for 1 month.",
+     "goal_text": "When I reach 100 Patrons I will do a 12 hour day-trading livestream on Youtube.\u003cbr\u003eAdditionally I will allow 3 randomly picked Patrons access to the Private Inner Circle Slack for free for 1 month.",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "23247",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-08-12T17:18:28+00:00",
+     "deleted_at": null,
+     "description": "Under Consideration. Probably another trading stream.",
+     "goal_text": "Under Consideration. Probably another trading stream.",
+     "number_patrons": 150,
+     "reached_at": null
+    },
+    "id": "28768",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-08-27T17:46:07+00:00",
+     "deleted_at": null,
+     "description": "Another day-trading stream.",
+     "goal_text": "Another day-trading stream.",
+     "number_patrons": 200,
+     "reached_at": null
+    },
+    "id": "32210",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1076831"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": null,
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "8f38a6e8-833b-447b-8e30-a879826adf74",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "CryptoOracle is creating Cryptocurrency Trading and Advice Videos"
+});
+    </script>

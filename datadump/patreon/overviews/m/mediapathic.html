@@ -1,0 +1,447 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "pfsk3NiNehzzcIFZiGQ27MBMnNmxzXn-EdX60ww3ao4";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "79323",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/79323"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-03-07T04:47:43+00:00",
+    "creation_name": "Tenuous Notions",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/153395/28deb043ca0a489fa7ba58824b44292a?token-time=2145916800\u0026token-hash=v9ayMvTiJGe7LKO3fYgM8taaZemSIqrdlJ98kkqROiM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/153395/28deb043ca0a489fa7ba58824b44292a?token-time=2145916800\u0026token-hash=XvgyiTzqWl5DZLfBuW6bncd97uSttpblAGzg8pMkXJY%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Shown Not To Scale. Bonds Skin Instantly.",
+    "patron_count": 29,
+    "pay_per_name": "month",
+    "pledge_sum": 42271,
+    "pledge_url": "/bePatron?c=153395",
+    "published_at": "2015-05-16T01:09:34+00:00",
+    "summary": "\u003cdiv class=\"markdown-here-wrapper\"\u003eHello, and thank you for checking out my Patreon.\u003cbr\u003e\u003cbr\u003eThe modern world is strange. This is so obvious as to have become a truism. But it\u2019s important, I think, to explore that strangeness. And, I propose to do that on at least a few levels.\u003cbr\u003e\u003cbr\u003eFirst, I\u2019m a writer of mostly science fiction. SciFi, and speculative fiction in general, is an essential tool for understanding the world we live it. It\u2019s not prediction, no one remotely sane wants to be in that business. But it is a mirror, and as clouded and dark as that mirror is, it still offers glimpses of truth that straight reportage cannot.\u003cbr\u003e\u003cbr\u003eI\u2019ve had one short story published in \u003ca href=\"http://www.sockdolager.net/puzzle-box/\" rel=\"nofollow\"\u003eThe Puzzlebox Collection by Sockdolager\u003c/a\u003e, about a D-List Batman villain re-imagined as an Elizabethan serial killer. I have a few short stories currently looking for a home to be published, cautionary tales about Google Glass and tattoos vis-a-vis time travel. I have other \u003ca href=\"http://mediapathic.tumblr.com/post/33828459055/the-bombs\" rel=\"nofollow\"\u003efragments\u003c/a\u003e and \u003ca href=\"https://medium.com/@mediapathic/thank-you-for-your-patience-a80f56e4a02f\" rel=\"nofollow\"\u003escreeds\u003c/a\u003e scattered about the networks. I have a \u003ca href=\"http://tinyletter.com/mediapathic\" rel=\"nofollow\"\u003eNewsletter\u003c/a\u003e (which I encourage you to subscribe to, regardless of whether you back me here). My biggest project right now is a novel, about a courier being chased across a Europe where the weapons used in World War Three tore open holes in time, and World War Two has been leaking into the present day. If this is the sort of thing that appeals to you, you should probably reconsider your context within modern society, but, more importantly, you should also consider supporting my Patreon.\u003cbr\u003e\u003cbr\u003eBecause one of the strangest things in the modern world is the relationship between commerce and art. Our culture persistently devalues creative endeavors because they fall outside the narrow parameters of profit, but there are demonstrably many people who want the option to support the arts, in whatever form. Patreon, and systems like it, are a fascinating way to experiment with ways by which value can be given to the liminal ideas that fall out of the easy definitions of capital, yet which, I would argue, are essential to our survival as a species.\u003cbr\u003e\u003cbr\u003eSo, shall we explore the future together?\u003cbr\u003e\u003cdiv style=\"height: 0; width: 0; margin: 0;\" title=\"MDH:SGVsbG8sIGFuZCB0aGFuayB5b3UgZm9yIGNoZWNraW5nIG91dCBteSBQYXRyZW9uLjxicj7igIs8 YnI+VGhlIG1vZGVybiB3b3JsZCBpcyBzdHJhbmdlLiBUaGlzIGlzIHNvIG9idmlvdXMgYXMgdG8g aGF2ZSBiZWNvbWUgYSB0cnVpc20uIEJ1dCBpdCdzIGltcG9ydGFudCwgSSB0aGluaywgdG8gZXhw bG9yZSB0aGF0IHN0cmFuZ2VuZXNzLiBBbmQsIEkgcHJvcG9zZSB0byBkbyB0aGF0IG9uIGF0IGxl YXN0IGEgZmV3IGxldmVscy48YnI+4oCLPGJyPkZpcnN0LCBJJ20gYSB3cml0ZXIgb2YgbW9zdGx5 IHNjaWVuY2UgZmljdGlvbi4gU2NpRmksIGFuZCBzcGVjdWxhdGl2ZSBmaWN0aW9uIGluIGdlbmVy YWwsIGlzIGFuIGVzc2VudGlhbCB0b29sIGZvciB1bmRlcnN0YW5kaW5nIHRoZSB3b3JsZCB3ZSBs aXZlIGl0LiBJdCdzIG5vdCBwcmVkaWN0aW9uLCBubyBvbmUgd2FudHMgdG8gYmUgaW4gdGhhdCBi dXNpbmVzcy4gQnV0IGl0IGlzIGEgbWlycm9yLCBhbmQgYXMgY2xvdWRlZCBhbmQgZGFyayBhcyB0 aGF0IG1pcnJvciBpcywgaXQgc3RpbGwgb2ZmZXJzIGdsaW1wc2VzIG9mIHRydXRoIHRoYXQgc3Ry YWlnaHQgcmVwb3J0YWdlIGNhbm5vdC4gPGJyPuKAizxicj5JJ3ZlIGhhZCBvbmUgc2hvcnQgc3Rv cnkgcHVibGlzaGVkIGluIFtUaGUgUHV6emxlYm94IENvbGxlY3Rpb24gYnkgU29ja2RvbGFnZXJd KGh0dHA6Ly93d3cuc29ja2RvbGFnZXIubmV0L3B1enpsZS1ib3gvKSwgYWJvdXQgYSBELUxpc3Qg QmF0bWFuIHZpbGxhaW4gcmUtaW1hZ2luZWQgYXMgYW4gRWxpemFiZXRoYW4gc2VyaWFsIGtpbGxl ci4gSSBoYXZlIGEgZmV3IHNob3J0IHN0b3JpZXMgY3VycmVudGx5IGxvb2tpbmcgZm9yIGEgaG9t ZSB0byBiZSBwdWJsaXNoZWQsIGNhdXRpb25hcnkgdGFsZXMgYWJvdXQgR29vZ2xlIEdsYXNzIGFu ZCB0YXR0b29zIHZpcy1hLXZpcyB0aW1lIHRyYXZlbC4gSSBoYXZlIG90aGVyIFtmcmFnbWVudHNd KGh0dHA6Ly9tZWRpYXBhdGhpYy50dW1ibHIuY29tL3Bvc3QvMzM4Mjg0NTkwNTUvdGhlLWJvbWJz KSBhbmQgW3NjcmVlZHNdKGh0dHBzOi8vbWVkaXVtLmNvbS9AbWVkaWFwYXRoaWMvdGhhbmsteW91 LWZvci15b3VyLXBhdGllbmNlLWE4MGY1NmU0YTAyZikgc2NhdHRlcmVkIGFib3V0IHRoZSBuZXR3 b3Jrcy4gSSBoYXZlIGEgW05ld3NsZXR0ZXJdKGh0dHA6Ly90aW55bGV0dGVyLmNvbS9tZWRpYXBh dGhpYykgKHdoaWNoIEkgZW5jb3VyYWdlIHlvdSB0byBzdWJzY3JpYmUgdG8sIHJlZ2FyZGxlc3Mg b2Ygd2hldGhlciB5b3UgYmFjayBtZSBoZXJlKS4gTXkgYmlnZ2VzdCBwcm9qZWN0IHJpZ2h0IG5v dyBpcyBhIG5vdmVsLCBhYm91dCBhIGNvdXJpZXIgYmVpbmcgY2hhc2VkIGFjcm9zcyBhIEV1cm9w ZSB3aGVyZSB0aGUgd2VhcG9ucyB1c2VkIGluIFdvcmxkIFdhciBUaHJlZSB0b3JlIG9wZW4gaG9s ZXMgaW4gdGltZSwgYW5kIFdvcmxkIFdhciBUd28gaGFzIGJlZW4gbGVha2luZyBpbnRvIHRoZSBw cmVzZW50IGRheS4gSWYgdGhpcyBpcyB0aGUgc29ydCBvZiB0aGluZyB0aGF0IGFwcGVhbHMgdG8g bWUsIHlvdSBzaG91bGQgcHJvYmFibHkgcmVjb25zaWRlciB5b3VyIGNvbnRleHQgd2l0aGluIG1v ZGVybiBzb2NpZXR5LCBidXQsIG1vcmUgaW1wb3J0YW50bHksIHlvdSBzaG91bGQgYWxzbyBjb25z aWRlciBzdXBwb3J0aW5nIG15IFBhdHJlb24uPGJyPuKAizxicj5CZWNhdXNlIG9uZSBvZiB0aGUg c3RyYW5nZXN0IHRoaW5ncyBpbiB0aGUgbW9kZXJuIHdvcmxkIGlzIHRoZSByZWxhdGlvbnNoaXAg YmV0d2VlbiBjb21tZXJjZSBhbmQgYXJ0LiBPdXIgY3VsdHVyZSBwZXJzaXN0ZW50bHkgZGV2YWx1 ZXMgY3JlYXRpdmUgZW5kZWF2b3JzIGJlY2F1c2UgdGhleSBmYWxsIG91dHNpZGUgdGhlIG5hcnJv dyBwYXJhbWV0ZXJzIG9mIHByb2ZpdCwgYnV0IHRoZXJlIGFyZSBkZW1vbnN0cmFibHkgbWFueSBw ZW9wbGUgd2hvIHdhbnQgdGhlIG9wdGlvbiB0byBzdXBwb3J0IHRoZSBhcnRzLCBpbiB3aGF0ZXZl ciBmb3JtLiBQYXRyZW9uLCBhbmQgc3lzdGVtcyBsaWtlIGl0LCBhcmUgYSBmYXNjaW5hdGluZyB3 YXkgdG8gZXhwZXJpbWVudCB3aXRoIHdheXMgYnkgd2hpY2ggdmFsdWUgY2FuIGJlIGdpdmVuIHRv IHRoZSBsaW1pbmFsIGlkZWFzIHRoYXQgZmFsbCBvdXQgb2YgdGhlIGVhc3kgZGVmaW5pdGlvbnMg b2YgY2FwaXRhbCwgeWV0IHdoaWNoLCBJIHdvdWxkIGFyZ3VlLCBhcmUgZXNzZW50aWFsIHRvIG91 ciBzdXJ2aXZhbCBhcyBhIHNwZWNpZXMuPGJyPuKAizxicj5Tbywgc2hhbGwgd2UgZXhwbG9yZSB0 aGUgZnV0dXJlIHRvZ2V0aGVyPzxicj4=\"\u003e\u003c/div\u003e\u003c/div\u003e"
+   },
+   "id": "153395",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "607707",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/607707"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "326201",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-153395",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-153395"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "220787",
+       "type": "reward"
+      },
+      {
+       "id": "410369",
+       "type": "reward"
+      },
+      {
+       "id": "220788",
+       "type": "reward"
+      },
+      {
+       "id": "220789",
+       "type": "reward"
+      },
+      {
+       "id": "220792",
+       "type": "reward"
+      },
+      {
+       "id": "220790",
+       "type": "reward"
+      },
+      {
+       "id": "220791",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m a writer of fiction, essays, newsletters, novels, really anything other than a Bio. Don\u0027t ask me to write a bio.",
+     "created": "2015-03-07T04:41:49+00:00",
+     "facebook": null,
+     "first_name": "Steen",
+     "full_name": "Steen Comer",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/607707/7a82ab4cc44c4ba78ed48d61728beee5?token-time=2145916800\u0026token-hash=jI39jtqOnwEtgz0y6Uo920Gi3t9mkSTwGLOxWCgk6uc%3D",
+     "last_name": "Comer",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/607707/7a82ab4cc44c4ba78ed48d61728beee5?token-time=2145916800\u0026token-hash=28Qj5aw8YyHKP9DBnQgUIRhvLQodRFgpZJgs81zsWAY%3D",
+     "twitch": null,
+     "twitter": "mediapathic",
+     "url": "https://www.patreon.com/mediapathic",
+     "vanity": "mediapathic",
+     "youtube": null
+    },
+    "id": "607707",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "153395",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/153395"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 21,
+     "upgrade_url": "/bePatron?c=153395\u0026rid=220787"
+    },
+    "id": "post-aggregation-for-0-153395",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-01-16T02:05:34+00:00",
+     "description": "If you support me at any level, starting at $1/ month, you get access to BACKCHANNEL, a blog dedicated to my writing process, here on Patreon. This will be distinct from my already extant FRACTAL INTERPOLATION newsletter, which has been repurposed away from anything about writing, and which has no guaranteed schedule of delivery. You\u0027ll get details about what I\u0027m doing in my fiction and nonfiction writing, including glimpses into things that may or may not make the final edit as I figure out maps through these territories. I\u0027d say \"exclusive content\" but some of these things may well be \"exclusive\" only in the sense that you get to shuffle through the piles on the cutting room floor with me, so, if that\u0027s your bag, hop on!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-05T01:52:00.139238+00:00",
+     "image_url": null,
+     "patron_count": 15,
+     "post_count": 9,
+     "published": true,
+     "published_at": "2016-01-16T02:05:34+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "BACKCHANNEL",
+     "unpublished_at": null,
+     "url": "/bePatron?c=153395\u0026rid=220787",
+     "user_limit": null
+    },
+    "id": "220787",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-01-16T02:05:34+00:00",
+     "description": "If you sign up for $3/month, you get EARLY ACCESS to my newsletter, FRACTAL INTERPOLATION. You\u0027ll get it about a week before the general public, and I may make edits based on feedback, because I really will take any opportunity to tweak things far longer than I need to. So, not only do you get to see what\u0027s coming sooner than others, you also get to have a hand in the shape of the final product. You also, of course, get access to BACKCHANNEL.\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-05T01:52:42.418446+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2016-01-16T02:05:34+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "EARLY ACCESS",
+     "unpublished_at": null,
+     "url": "/bePatron?c=153395\u0026rid=410369",
+     "user_limit": null
+    },
+    "id": "410369",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-01-16T02:05:34+00:00",
+     "description": "(EDITED 2017-03-04, see [here](\u003ca href=\"https://www.patreon.com/posts/january-and-with-7900103)\"\u003ehttps://www.patreon.com/posts/january-and-with-7900103)\u003c/a\u003e for details)\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAt $5 a month, you get access to FRAGMENTS. Often when I\u0027m writing I will produce things that are of some quality but don\u0027t really have anywhere to go. Character sketches, scenes from stories I\u0027m never going to write, scenes that I may at some point decide I need to write a story around. Depending on how things go, this is either early access to later masterworks, or things I will later vehemently deny having written. Either way we all win!\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-05T01:50:53.049121+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-01-16T02:05:34+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "FRAGMENTS",
+     "unpublished_at": null,
+     "url": "/bePatron?c=153395\u0026rid=220788",
+     "user_limit": null
+    },
+    "id": "220788",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-01-16T02:05:34+00:00",
+     "description": "At $10/month and higher, you get THE MYSTERY BAG. This will be a link to a public Dropbox folder. I will put things in it. They may be text, or images, or maybe music I\u2019m listening to, or CAD files of dream cities, or fan art (if anyone ever makes any), or whatever. I honestly don\u2019t know where this one\u2019s going, it just strikes me as a fun possibility. I\u2019ll try to make it worth your while, and I\u2019m willing to take suggestions. You also get access to\u00a0INTERROGATION, EARLY ACCESS and BACKCHANNEL.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-05T01:52:58.101118+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-16T02:05:34+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "THE MYSTERY BAG",
+     "unpublished_at": null,
+     "url": "/bePatron?c=153395\u0026rid=220789",
+     "user_limit": null
+    },
+    "id": "220789",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-01-16T02:05:34+00:00",
+     "description": "At $25/month, it\u0027s Postcards from The Zone. I will find a postcard, wherever I am, and write a short missive from a character who found the postcard, inspired by whatever image is on it. I will then mail you the postcard. Imagine the look on the face of your significant other, parent, or flatmate when you start getting postcards from Strange Lands saying things like \"The Creatures here are quite vicious, and I fear Higgs may have been lost in the mire.\" Your reputation for mystery will increase at least tenfold, and you may find Enigmatic Figures nodding to you on the streets of your very city. Also, I have been told that my handwriting is quite nice.\u003cbr\u003e\n\u003cbr\u003e\nOf course, at this level you also have access to everything below this level, including MYSTERY BAG, EARLY ACCESS, INTERROGATION, and BACKCHANNEL.\u003cbr\u003e\n\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-05T01:53:32.523102+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-16T02:05:34+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "POSTCARDS FROM THE ZONE",
+     "unpublished_at": null,
+     "url": "/bePatron?c=153395\u0026rid=220792",
+     "user_limit": null
+    },
+    "id": "220792",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-01-16T02:05:34+00:00",
+     "description": "At $100/month you can get, should you wish, an hour-long face-to-face video and (assuming my mic is working) audio chat with me (or someone claiming to be me). We can talk about writing, or what we\u2019re reading, or those strange shapes you\u2019ve been seeing out of the corner of your eye, or puppies, or whatever. Caveat: I have more opinions about the strange shapes at the edges of your perception than I do about puppies.\u003cbr\u003e\n\u003cbr\u003e\nThis is limited to 4 backers per month, because, really, I can only be so interesting for so long. However, you also get access to all lower level awards.\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-05T01:53:53.233276+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-16T02:05:34+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "MY SWEET SWEET FACE",
+     "unpublished_at": null,
+     "url": "/bePatron?c=153395\u0026rid=220790",
+     "user_limit": 4
+    },
+    "id": "220790",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2016-01-16T02:05:34+00:00",
+     "description": "And because the cake of late capitalism is best served with a frosting of ludicrousness, I offer the following: If anyone is so psychotically rich and indulgent to invest $1000/ month on me, it\u2019s TYPEWRITER ROULETTE!\u003cbr\u003e\n\n\u003cp\u003eI lock myself in a room with a typewriter for 24 hours. I give the backer the results. Like the Martian said, \"no sponsors, no laws, and no guarantees, kids, these are the rules.\" I have no idea what will happen. No, I do not yet own a (working) typewriter. If you give me $1000 I\u0027ll go buy a damn typewriter. I will do this once per backer, not monthly. There are limits. AND TOGETHER WE WILL FIND THEM AND DESTROY THEM.\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-05T01:55:46.177796+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-16T02:05:34+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "TYPEWRITER ROULETTE ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=153395\u0026rid=220791",
+     "user_limit": null
+    },
+    "id": "220791",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 70,
+     "created_at": "2016-01-16T02:18:50+00:00",
+     "description": "My \"day job\" currently is working as a production tech in a nightclub. This means that the amount of work I have is fluid, based on the season, the tone of the industry as a whole, and other complexities. The bad side of this is that money is really uncertain, but the good side is that I can, to some degree, choose what work I take there. If I am getting $600/month from Patreon, that will allow me to cut back my time there to a minimal amount so that I can dedicate far more of it to writing. I\u0027ve been sort of forced into an experiment of this recently due to aforementioned complexities, and, while starving is not fun, I\u0027ve realized that it significantly allows me the time to do the things you support me for. If I can do that without starving, that\u0027d be even better.\u00a0",
+     "reached_at": null,
+     "title": "I can significantly cut back on my day job."
+    },
+    "id": "326201",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/153395"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "bc662b82-6468-4727-aabf-7a43dc0084fa",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Steen Comer is creating Tenuous Notions"
+});
+    </script>

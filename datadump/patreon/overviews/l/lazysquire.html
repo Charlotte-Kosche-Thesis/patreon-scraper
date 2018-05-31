@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "1npgpBoO66uCB67EHVwPfm86pmL1OE9f4OYD7UgOU94";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "347083",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/347083"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-11-03T23:53:06+00:00",
+    "creation_name": "Comics",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/594870/f66f82685517421e9f6b4345bdb801a9?token-time=2145916800\u0026token-hash=6jSepoKcrF8Yi9URgdbRjN_0XBaRNV_BsO9KahCuBhQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/594870/f66f82685517421e9f6b4345bdb801a9?token-time=2145916800\u0026token-hash=5lYm-pQJQYORBnr1q0AVkUR8CVAMAkSAuk_5zixRVnQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 28,
+    "pay_per_name": "month",
+    "pledge_sum": 25470,
+    "pledge_url": "/bePatron?c=594870",
+    "published_at": "2017-01-23T22:27:37+00:00",
+    "summary": "Racia and Antau are on an absurdly experimental adventure, chugging along through an existential \u003cstrong\u003ecomic essay \u003c/strong\u003eof cosmic proportions. It looks like you\u0027re here to join them (and us). Congratsl\u003cbr\u003e\u003cbr\u003eYou\u0027ve managed not only to find your way to \u003ca href=\"http://raciantau.com\" target=\"_blank\"\u003eour website\u003c/a\u003e, but also to the site where you are destined to become a full-fledged fan, an indispensable supporter, a true hero, a \u003cem\u003epatron\u003c/em\u003e. The comic is free for all to read, so every dollar counts towards the project. Your patronage helps us write more, draw more, and create more. We wish we could thank you enough. \u003cbr\u003e\u003cbr\u003eMaking RACIANTAU is comically entertaining, ever challenging, emotionally comforting, and philosophically rewarding \u2014 we wish nothing more than reading it to be all those things, too.\u003cbr\u003e \u003cbr\u003eYours, \u003cbr\u003eLazy Squire \u003cstrong\u003e\u003c/strong\u003e"
+   },
+   "id": "594870",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4361032",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4361032"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "691283",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-594870",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-594870"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1002025",
+       "type": "reward"
+      },
+      {
+       "id": "1002026",
+       "type": "reward"
+      },
+      {
+       "id": "1002027",
+       "type": "reward"
+      },
+      {
+       "id": "1002028",
+       "type": "reward"
+      },
+      {
+       "id": "1450801",
+       "type": "reward"
+      },
+      {
+       "id": "1002030",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-11-03T23:36:23+00:00",
+     "facebook": null,
+     "first_name": "Lazy",
+     "full_name": "Lazy Squire",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4361032/8c60b9b348e7451c92a0cad6e87a8a20?token-time=2145916800\u0026token-hash=Sn7YU34HDNnvAlm2mlGBaaY2HJUzxh8QQteQzv0Bkwc%3D",
+     "last_name": "Squire",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4361032/8c60b9b348e7451c92a0cad6e87a8a20?token-time=2145916800\u0026token-hash=7DePC5JbiTDwElwtyOaJlgOBebTYwR5dMkLZ5dyR7gs%3D",
+     "twitch": null,
+     "twitter": "Racia_Antau",
+     "url": "https://www.patreon.com/lazysquire",
+     "vanity": "lazysquire",
+     "youtube": null
+    },
+    "id": "4361032",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "594870",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/594870"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 113,
+     "upgrade_url": "/bePatron?c=594870\u0026rid=1002025"
+    },
+    "id": "post-aggregation-for-0-594870",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-03T23:57:26+00:00",
+     "description": "You get access to our Patreon activity stream, where we\u0027ll post \u003cstrong\u003etwo\u00a0discussion posts per week\u003c/strong\u003e in which we talk ideas, themes, and analysis of past and future \u003cem\u003eRACIANTAU \u003c/em\u003estories and their setting.",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-17T17:05:51.701867+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": 11,
+     "published": true,
+     "published_at": "2016-11-03T23:57:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fan",
+     "unpublished_at": null,
+     "url": "/bePatron?c=594870\u0026rid=1002025",
+     "user_limit": null
+    },
+    "id": "1002025",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-03T23:57:26+00:00",
+     "description": "Get the next \u003cem\u003e\u003cstrong\u003eRACIANTAU \u003c/strong\u003e\u003c/em\u003eupdate one update day early! You\u0027ll also get access to my Patreon activity stream, where you\u0027ll get the first look at our upcoming work.",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-12T22:49:09.868759+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 46,
+     "published": true,
+     "published_at": "2016-11-03T23:57:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "First Look",
+     "unpublished_at": null,
+     "url": "/bePatron?c=594870\u0026rid=1002026",
+     "user_limit": null
+    },
+    "id": "1002026",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-03T23:57:26+00:00",
+     "description": "You\u0027ll have access to our WIP art feed and to\u003cstrong\u003e behind-the-scenes weekly video recordings of art production\u003c/strong\u003e.\u00a0Plus all previous rewards.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-04T01:04:16.629122+00:00",
+     "image_url": null,
+     "patron_count": 11,
+     "post_count": 14,
+     "published": true,
+     "published_at": "2016-11-03T23:57:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Behind the Scenes",
+     "unpublished_at": null,
+     "url": "/bePatron?c=594870\u0026rid=1002027",
+     "user_limit": null
+    },
+    "id": "1002027",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-03T23:57:26+00:00",
+     "description": "You\u0027ll get access to \u003cstrong\u003emonthly recordings of the editorial team\u0027s meetings\u003c/strong\u003e in which we brainstorm and storyboard future pages, entire stories, and other \u003cstrong\u003ebackstage\u003c/strong\u003e content like character arcs. These \u003cstrong\u003emay contain light spoilers.\u003c/strong\u003e\u00a0Plus all previous rewards.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-17T17:01:45.256602+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": 7,
+     "published": true,
+     "published_at": "2016-11-03T23:57:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Backstage",
+     "unpublished_at": null,
+     "url": "/bePatron?c=594870\u0026rid=1002028",
+     "user_limit": null
+    },
+    "id": "1002028",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-02-28T14:49:14.911908+00:00",
+     "description": "\u00a0Give us your shipping address, and every month we\u0027ll send you high-quality \u003cstrong\u003efirst-class\u003c/strong\u003e \u003cstrong\u003esticker\u003c/strong\u003e \u003cstrong\u003esheets\u003c/strong\u003e. These sheets will be exclusively made for patrons of this tier! \u00a0Plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-17T17:01:33.460194+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-28T14:49:14.911908+00:00",
+     "remaining": 196,
+     "requires_shipping": true,
+     "title": "First Class",
+     "unpublished_at": null,
+     "url": "/bePatron?c=594870\u0026rid=1450801",
+     "user_limit": 200
+    },
+    "id": "1450801",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-11-03T23:57:26+00:00",
+     "description": "Every month you will receive a \u003cstrong\u003elimited-edition 8\"x10\" print\u003c/strong\u003e of exclusive RACIANTAU artwork. PLUS the stickers and all content from the other tiers!",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-17T17:04:53.202521+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T23:57:26+00:00",
+     "remaining": 9,
+     "requires_shipping": true,
+     "title": "VIP",
+     "unpublished_at": null,
+     "url": "/bePatron?c=594870\u0026rid=1002030",
+     "user_limit": 10
+    },
+    "id": "1002030",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 100,
+     "created_at": "2017-01-23T22:27:34+00:00",
+     "description": "When we hit our $250 goal, all patrons will receive a free high-quality e-book of the then-completed RACIANTAU phases (with others to come once they\u0027re completed)!",
+     "reached_at": "2018-01-08T17:47:17+00:00",
+     "title": ""
+    },
+    "id": "691283",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/594870"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "3860bc8a-0adc-41cf-80e4-19336b62673b",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Lazy Squire is creating Comics"
+});
+    </script>

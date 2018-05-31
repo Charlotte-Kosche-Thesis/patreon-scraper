@@ -1,0 +1,542 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "vdtH3H7lbahBYVViqPTNjD4NyCo9J7OpPuIuCelQZa0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "826235",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/826235"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-04-04T16:33:07+00:00",
+    "creation_name": "Eberron Renewed, The Geek Pantheon Podcast, The Knowledge Check,",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIzIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/832657/27af10cdca134e68a7aaa64a769f26a5?token-time=2145916800\u0026token-hash=awaN1Mk7MT9nIeaPZLl-1hvlHy7-KcHVID9vbDlrQIA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMyJ9/patreon-media/campaign/832657/27af10cdca134e68a7aaa64a769f26a5?token-time=2145916800\u0026token-hash=29d_J9CWQfZhakqJyBA-qqGhv2K9DOXquQpUItio2v8%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/Quel6-MBIH8\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://youtu.be/Quel6-MBIH8",
+    "one_liner": null,
+    "patron_count": 29,
+    "pay_per_name": "month",
+    "pledge_sum": 32789,
+    "pledge_url": "/bePatron?c=832657",
+    "published_at": "2018-03-02T22:44:05+00:00",
+    "summary": "The Geek Pantheon is creating content for geeks all over the world!\u00a0 If you love D\u0026amp;D, comic books, video games, or anything else geeky; then The Geek Pantheon has you covered.\u00a0 We are here on Patreon because The Geek Pantheon is expanding and we want to keep the lights on.\u00a0 None of this money is \"for-profit\", it is all a reinvestment into creating great content for you.\u00a0 So come check out our shows, enjoy some exclusive content, and grow with us."
+   },
+   "id": "832657",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3047746",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3047746"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "777743",
+       "type": "goal"
+      },
+      {
+       "id": "777783",
+       "type": "goal"
+      },
+      {
+       "id": "777784",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-832657",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-832657"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1565050",
+       "type": "reward"
+      },
+      {
+       "id": "2389929",
+       "type": "reward"
+      },
+      {
+       "id": "1565136",
+       "type": "reward"
+      },
+      {
+       "id": "1565035",
+       "type": "reward"
+      },
+      {
+       "id": "2384249",
+       "type": "reward"
+      },
+      {
+       "id": "1565096",
+       "type": "reward"
+      },
+      {
+       "id": "1565124",
+       "type": "reward"
+      },
+      {
+       "id": "1565147",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-03-21T17:31:45+00:00",
+     "facebook": "https://www.facebook.com/groups/thegeekpantheon/",
+     "first_name": "The",
+     "full_name": "The Geek Pantheon Network",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3047746/0d42fe8c39cc41db8656505b7a52503f?token-time=2145916800\u0026token-hash=mP5_gbZUxFXs_rdbPQd_FlTGLB6vD281R-sxy6e0YzQ%3D",
+     "last_name": "Geek Pantheon Network",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3047746/0d42fe8c39cc41db8656505b7a52503f?token-time=2145916800\u0026token-hash=mdrmGUSohWPqEkopMrVKks8olploIoAwqDKu1memG3Q%3D",
+     "twitch": null,
+     "twitter": "thegeekpantheon",
+     "url": "https://www.patreon.com/TheGeekPantheon",
+     "vanity": "TheGeekPantheon",
+     "youtube": null
+    },
+    "id": "3047746",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "832657",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/832657"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 21,
+     "upgrade_url": "/bePatron?c=832657\u0026rid=1565096"
+    },
+    "id": "post-aggregation-for-0-832657",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-04-05T18:28:52.904007+00:00",
+     "description": "Get exclusive content only available to backers of the show, including:\n\u003cul\u003e\n\u003cli\u003eExclusive Post Show Discussions\u003c/li\u003e\n\u003cli\u003eBonus \"Backer-Only\" Episodes\u003c/li\u003e\n\u003cli\u003eAccess to The Geek Pantheon Discord channel with the creators from the channel\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "419598769038819339"
+     ],
+     "edited_at": "2018-05-03T17:14:35.310222+00:00",
+     "image_url": null,
+     "patron_count": 7,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-03T17:14:35.303277+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Exclusive Content",
+     "unpublished_at": null,
+     "url": "/bePatron?c=832657\u0026rid=1565050",
+     "user_limit": null
+    },
+    "id": "1565050",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-02-21T03:20:38.932204+00:00",
+     "description": "This level gets you access to The DM\u0027s Spellbook, created and curated by the hosts of The Knowledge Check Podcast: \u00a0Eric and Philip! \u00a0This will include encounters, NPCs, Villians, and so much more from the minds behind The Knowledge Check (and some potential guests)!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus all previous rewards!\u003c/p\u003e",
+     "discord_role_ids": [
+      "419598769038819339"
+     ],
+     "edited_at": "2018-05-03T17:14:28.090958+00:00",
+     "image_url": null,
+     "patron_count": 7,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-03T17:14:28.083300+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "The Living Document Club",
+     "unpublished_at": null,
+     "url": "/bePatron?c=832657\u0026rid=2389929",
+     "user_limit": null
+    },
+    "id": "2389929",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-04-05T18:49:51.105671+00:00",
+     "description": "Do you have a question that you absolutely need an answer for? \u00a0What class should I make my awesome character concept? \u00a0What should the villain of my campaign do when the party catches up to them? \u00a0Well at this tier you get to fire away! \u00a0Each month you can fire a question our way and we will give you a prompt and thorough answer. \u00a0We may even feature your question on The Knowledge Check!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus all previous rewards\u003c/p\u003e",
+     "discord_role_ids": [
+      "419598769038819339",
+      "419598451781664773"
+     ],
+     "edited_at": "2018-05-03T17:14:21.356930+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-03T17:14:21.326871+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Q\u0026A Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=832657\u0026rid=1565136",
+     "user_limit": null
+    },
+    "id": "1565136",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-04-05T18:26:45.912620+00:00",
+     "description": "You are an official \"Sponsor of the Show\" which means:\n\u003cul\u003e\n\u003cli\u003eYour name listed as the reason we get to make all of this awesome content for you!\u003c/li\u003e\n\u003cli\u003eSpecial \"Sponsor Only\" Group where you get to talk directly to the hosts, make show topic suggestions, and have all your questions answered on the air!\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "419598769038819339",
+      "419598451781664773",
+      "419597964168658945"
+     ],
+     "edited_at": "2018-05-03T17:16:24.700664+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-03T17:16:24.693572+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Show Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=832657\u0026rid=1565035",
+     "user_limit": null
+    },
+    "id": "1565035",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-02-19T03:59:04.758958+00:00",
+     "description": "Once per month you get to send the hosts a request for consultation on creating a character, writing a campaign, designing an encounter, crafting the perfect villain, or any other number of topics for your game! \u00a0Unlike the previous tiers, this isn\u0027t just a Q\u0026amp;A, this is a conversation between you and the hosts to come up with the perfect solution to your need! \u00a0And you get all of the previous tiers too!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "419598769038819339",
+      "419598451781664773",
+      "419597964168658945"
+     ],
+     "edited_at": "2018-05-03T17:16:18.323031+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-03T17:16:18.310813+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Personal Consultants",
+     "unpublished_at": null,
+     "url": "/bePatron?c=832657\u0026rid=2384249",
+     "user_limit": null
+    },
+    "id": "2384249",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-04-05T18:38:42.099768+00:00",
+     "description": "You get to join a monthly Google Hangout session and:\n\u003cul\u003e\n\u003cli\u003eHang out with the some of the hosts.\u00a0\u003c/li\u003e\n\u003cli\u003eAsk questions about the show\u003c/li\u003e\n\u003cli\u003eDiscuss previous episodes\u003c/li\u003e\n\u003cli\u003eWhatever else comes up, its up to you!\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "419598769038819339",
+      "419598451781664773",
+      "419597964168658945",
+      "435796047915253760"
+     ],
+     "edited_at": "2018-05-03T17:16:13.417233+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-05-03T17:16:13.408508+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Special Hangout with the Hosts",
+     "unpublished_at": null,
+     "url": "/bePatron?c=832657\u0026rid=1565096",
+     "user_limit": null
+    },
+    "id": "1565096",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-04-05T18:46:54.666716+00:00",
+     "description": "Once per month, a host will run a game for all backers at this level!\n\u003cul\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "419598769038819339",
+      "419598451781664773",
+      "419597964168658945",
+      "435796047915253760",
+      "422913731308027904"
+     ],
+     "edited_at": "2018-05-03T17:15:41.524194+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-03T17:15:41.500331+00:00",
+     "remaining": 0,
+     "requires_shipping": true,
+     "title": "Would You Like To Play A Game?",
+     "unpublished_at": null,
+     "url": "/bePatron?c=832657\u0026rid=1565124",
+     "user_limit": 6
+    },
+    "id": "1565124",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2017-04-05T18:52:50.081931+00:00",
+     "description": "This is the big time!\u00a0 Once per month you will receive:\n\u003cul\u003e\n\u003cli\u003eSome form of media from a host of the show sent directly to you\u003c/li\u003e\n\u003cli\u003eMovies, Books, Music, Games!\u003c/li\u003e\n\u003cli\u003eAnything we think you should check out!\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards (not including \"Would You Like To Play A Game?\")\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "419598769038819339",
+      "419598451781664773",
+      "419597964168658945",
+      "435796047915253760"
+     ],
+     "edited_at": "2018-05-03T17:16:06.282583+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-03T17:16:06.262723+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Tastemaker Club",
+     "unpublished_at": null,
+     "url": "/bePatron?c=832657\u0026rid=1565147",
+     "user_limit": null
+    },
+    "id": "1565147",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2017-04-05T18:56:36+00:00",
+     "description": "We will overhaul our audio set-up.\u00a0 This means better mics, better mixer, and an overall better experience for all of you!",
+     "reached_at": "2018-03-03T04:12:35+00:00",
+     "title": ""
+    },
+    "id": "777743",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2017-04-05T19:30:41+00:00",
+     "description": "More Exclusive Backer Content!\u00a0 At this level we will start releasing more content for just you!\u00a0 Maybe it will be movie reviews, an inside look at Eric\u0027s prep for Eberron Renewed, behind the scene videos of the podcasts being made!\u00a0 At this level the sky is the limit!",
+     "reached_at": "2018-03-03T07:05:05+00:00",
+     "title": ""
+    },
+    "id": "777783",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 100,
+     "created_at": "2017-04-05T19:30:41+00:00",
+     "description": "LIVESTREAMING!\u00a0 At this level we will be able to begin setting up to do proper livestreaming of our shows.\u00a0 This will mean you get to interact with us as we are creating the shows you enjoy so much!\u00a0 Sponsors of the show will get to ask us questions on the fly while we are making the show and we will do our best to address them as they come in.",
+     "reached_at": "2018-04-17T00:51:03+00:00",
+     "title": ""
+    },
+    "id": "777784",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/832657"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "68f13727-3166-4702-8035-fe7df2b6e287",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "The Geek Pantheon Network is creating Eberron Renewed, The Geek Pantheon Podcast, The Knowledge Check,"
+});
+    </script>

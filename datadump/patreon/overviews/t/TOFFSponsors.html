@@ -1,0 +1,625 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "SeVRIqd4gUciP4lYfj2pbAqKRs1hig58ezmIkMVuEps";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "620756",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/620756"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-11-01T18:37:13+00:00",
+    "creation_name": "sponsorships for rescue animals",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1307937/7982c9599bed43b5854076dca5d1a652?token-time=2145916800\u0026token-hash=nQ343VSTAws4D6KEsBayCVEJEGK77EV2NqWoGn5UrKM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1307937/7982c9599bed43b5854076dca5d1a652?token-time=2145916800\u0026token-hash=uzQJdezqEoYZM3GiFEo4ZQU15cIVrX3pquDV7zbN5RA%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 28,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1307937",
+    "published_at": "2017-11-01T19:09:07+00:00",
+    "summary": "This Patreon is set up specifically for our sponsorship program!\u00a0\u003cbr\u003eDo you have a favorite animal here or maybe you have a special connection with one of our residents? You can now sponsor an individual animal every month! Your monthly donation will go specifically towards that animals food and vet care. The amounts vary and are specific to each animals needs. Sponsors must commit to 1 year of sponsorship and we will only allow 1 sponsor per animal, unless a joint sponsorship is requested. By sponsoring one of our residents, you will receive a certificate of sponsorship, a print of the animal with a little bio and their rescue story along with monthly email updates."
+   },
+   "id": "1307937",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8292341",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8292341"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1307937",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1307937"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2119207",
+       "type": "reward"
+      },
+      {
+       "id": "2119218",
+       "type": "reward"
+      },
+      {
+       "id": "2470287",
+       "type": "reward"
+      },
+      {
+       "id": "2119180",
+       "type": "reward"
+      },
+      {
+       "id": "2119196",
+       "type": "reward"
+      },
+      {
+       "id": "2119212",
+       "type": "reward"
+      },
+      {
+       "id": "2119205",
+       "type": "reward"
+      },
+      {
+       "id": "2119172",
+       "type": "reward"
+      },
+      {
+       "id": "2119202",
+       "type": "reward"
+      },
+      {
+       "id": "2119210",
+       "type": "reward"
+      },
+      {
+       "id": "2119173",
+       "type": "reward"
+      },
+      {
+       "id": "2125551",
+       "type": "reward"
+      },
+      {
+       "id": "2119166",
+       "type": "reward"
+      },
+      {
+       "id": "2512627",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-11-01T18:36:33+00:00",
+     "facebook": null,
+     "first_name": "Sponsorships",
+     "full_name": "Sponsorships for Twist of Fate Farm \u0026 Sanctuary",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/8292341/476a6539b701475394159f788c48e0e4?token-time=2145916800\u0026token-hash=Oe0zPaGUc97w_mGby-uIPRHwfJCItR7XkOtor-jFxDI%3D",
+     "last_name": "for Twist of Fate Farm \u0026 Sanctuary",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/8292341/476a6539b701475394159f788c48e0e4?token-time=2145916800\u0026token-hash=ZuJjVY617sry1v091vGsvWhNTzgbu_EXbhCNy-Ghux8%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/TOFFSponsors",
+     "vanity": "TOFFSponsors",
+     "youtube": null
+    },
+    "id": "8292341",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1307937",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1307937"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 15,
+     "upgrade_url": "/bePatron?c=1307937\u0026rid=2119207"
+    },
+    "id": "post-aggregation-for-0-1307937",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-01T18:53:59.265194+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-01T18:53:59.265194+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2119207/0cf6382559544390a7d85b0d24ee579a?token-time=2145916800\u0026token-hash=9ujl3rM3aYlOK79y2EuPZeqggxcFO5UY8YA0r5JUbMY%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-01T18:53:59.265194+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Chicken Sponsors!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2119207"
+    },
+    "id": "2119207",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-11-01T18:57:40.564970+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-01T18:58:32.418516+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2119218/2247b408d2bb487e8a76fa3b1ad6b968?token-time=2145916800\u0026token-hash=DQ_ZTsNyIVisJjSXvbtBakepg3jHEkFe-u3YS3kd0Jo%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-01T18:58:32.396732+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Cat Sponsors!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2119218"
+    },
+    "id": "2119218",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3750,
+     "amount_cents": 3750,
+     "created_at": "2018-03-23T23:31:14.494502+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-23T23:31:14.494502+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2470287/fc849a55def94a60a6e776b78facb1a9?token-time=2145916800\u0026token-hash=-oL3NR7jPBp1vA7CX9LRvqIqPxRqx-nJNccJFTrFNm4%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-23T23:31:14.494502+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Co Sponsorship for Elliot",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2470287"
+    },
+    "id": "2470287",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2017-11-01T18:46:51.551534+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-01T18:46:51.551534+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2119180/2f4ad70346b9443d8ad2308b7e689207?token-time=2145916800\u0026token-hash=7_o9_mM09lAXFaqpYNC9jEFmLF8McbmIs45rMCXZ4A0%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-01T18:46:51.551534+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Goat sponsors!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2119180"
+    },
+    "id": "2119180",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4500,
+     "amount_cents": 4500,
+     "created_at": "2017-11-01T18:50:28.863145+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-01T18:50:28.863145+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2119196/c6cd2404b9304197972c58389c26dcdd?token-time=2145916800\u0026token-hash=P5glYL2kJ1kDGx_4DEMPNozdw4L5Cj0wGnbZbn0CDLg%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-01T18:50:28.863145+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Sheep Sponsors!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2119196"
+    },
+    "id": "2119196",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4500,
+     "amount_cents": 4500,
+     "created_at": "2017-11-01T18:56:11.062016+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-01T18:56:11.062016+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2119212/ed3606d3c932496e806765db7758e760?token-time=2145916800\u0026token-hash=aZtFuAVHvi5Lmdo9WAHT8daprKDlZumacCk26qRD7v8%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-01T18:56:11.062016+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Alpaca Sponsors!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2119212"
+    },
+    "id": "2119212",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-11-01T18:53:22.410584+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-01T18:53:22.410584+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2119205/ab207445526f46db9923e305f14bf0dd?token-time=2145916800\u0026token-hash=idPKmGijvxjz6LeYY5D93mLmMhZ0r5YVpempDEMLBZE%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-01T18:53:22.410584+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Pot Bellied Pig Sponsors!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2119205"
+    },
+    "id": "2119205",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-11-01T18:44:36.721395+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-01T18:44:36.721395+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2119172/d146c5ce87fd4088bbf8da940dc70551?token-time=2145916800\u0026token-hash=ZdYCBEaaHOw68XRW5klUb66-OvpaSQ_zpj7l40peusk%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-01T18:44:36.721395+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Donkey Sponsors!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2119172"
+    },
+    "id": "2119172",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-11-01T18:52:29.192129+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-01T18:52:29.192129+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2119202/3081ffca489d487ea4aaf1a8af5fdc2e?token-time=2145916800\u0026token-hash=QRCqnXm4OkiRSLshWrlDX9vPxUiXUuGBJMITHNp5GJM%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-01T18:52:29.192129+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Large Pig Sponsors!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2119202"
+    },
+    "id": "2119202",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-11-01T18:55:22.518413+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-01T18:55:22.518413+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2119210/2b7269f665d9454d8b968853866dbfdf?token-time=2145916800\u0026token-hash=pxoOdG6e-LGaJfI-uIhH1kNBViWGrTHXnmsv6CEp5cg%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-01T18:55:22.518413+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Small Pony Sponsors!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2119210"
+    },
+    "id": "2119210",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-11-01T18:45:26.858331+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-01T18:45:26.858331+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2119173/db16dc286b4b41c5ab5348acb02c9d7e?token-time=2145916800\u0026token-hash=yP-98g4TUmqBN1apT7hmzPh1lOzZ1ao7yxjSJtoCchc%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-01T18:45:26.858331+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Cow sponsors!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2119173"
+    },
+    "id": "2119173",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-11-04T16:12:52.093374+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-04T16:17:10.037198+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2125551/94c2aafb443f4c6fa0e7b084a2b4ec82?token-time=2145916800\u0026token-hash=0YTa5kefPc-SC94U-Dlx_kmsv6u2EiUsNR4wMaGa5Jg%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-04T16:17:10.014101+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Joey \u0026 Chandler Dual Sponsorship",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2125551"
+    },
+    "id": "2125551",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2017-11-01T18:42:25.433774+00:00",
+     "description": "\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-01T18:43:08.986788+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2119166/73ddb86eddb54ef5b4872e08ef350720?token-time=2145916800\u0026token-hash=JqxbJ75xMibImJmR5RWHwyNIBee8_6fEGUQqETmt6hk%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-01T18:43:08.958039+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Horse Sponsors!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2119166"
+    },
+    "id": "2119166",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 22500,
+     "amount_cents": 22500,
+     "created_at": "2018-04-09T00:32:34.363749+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-09T00:32:34.363749+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2512627/efeb3fbe495f4a3c8dc844d17b5c047e?token-time=2145916800\u0026token-hash=14bhYeVXl6Du12dgFXlItlpYdPv7LekCWyrwQdKrtrc%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-09T00:32:34.363749+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Trio Donkey sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1307937\u0026rid=2512627"
+    },
+    "id": "2512627",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1307937"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "3f5f6471-feb0-4cc7-8ee2-e884a5dbe72a",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Sponsorships for Twist of Fate Farm \u0026 Sanctuary is creating sponsorships for rescue animals"
+});
+    </script>

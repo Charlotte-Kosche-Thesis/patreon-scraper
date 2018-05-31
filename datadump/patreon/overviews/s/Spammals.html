@@ -1,0 +1,508 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "u6ht_mH_QG8MydgnKjrgsD-q6N5J2-jBezX4nA9Xtoo";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "336505",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/336505"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-09-13T16:02:53+00:00",
+    "creation_name": "YouTube Video Content",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI1IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/510884/494b7cbbd3c74d08bdc64ccd51ac766e?token-time=2145916800\u0026token-hash=VuD7EPgnbeGbJsCeuRdPCpFKj3-0fj-mg4FqBzFh_2k%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNSJ9/patreon-media/campaign/510884/494b7cbbd3c74d08bdc64ccd51ac766e?token-time=2145916800\u0026token-hash=nje8_RfaZGuXoGTe3TiRq35TD5ltfnowPwvCn__-7oI%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 31,
+    "pay_per_name": "month",
+    "pledge_sum": 20683,
+    "pledge_url": "/bePatron?c=510884",
+    "published_at": "2017-01-10T03:26:12+00:00",
+    "summary": "Hi everybody, my names Spammals and I\u0027m a content creator on YouTube and Twitch! I create Let\u0027s Plays where together we can laugh away at silly games, get scared together in horror games, or loose our minds in Virtual Reality (Or just make fun of me for banging into everything). \u003cbr\u003e\n\u003cbr\u003e\nWelcome to my Patreon! A place where you can help support what I\u0027m doing on\n an ongoing basis. Your pledge helps to make sure I can continue to make regular, high quality content for you to enjoy, and to help expand the channel to larger audiences.\u003cbr\u003e\n\u003cbr\u003e\nIn return for your support, I offer some cool rewards, like:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYour name in the video description!\u003c/li\u003e\u003cli\u003eGaming together.\u003c/li\u003e\u003cli\u003eShout outs.\u003c/li\u003e\u003cli\u003eSponsorship.\u003c/li\u003e\u003cli\u003eSteam Friendlist!\u003c/li\u003e\u003c/ul\u003e\n\u003cbr\u003e\n\u003cstrong\u003eHOW IT WORKS\u003c/strong\u003e\u003cbr\u003e\n\u003cbr\u003e\nWhen you sign up, just enter how much you want to pledge per month, and \nan accompanying reward tier. That\u2019s it! You can edit or cancel your \npledge anytime you want - seriously, I appreciate whatever support you \nwant to give, even if it\u2019s just watching and sharing my videos.\u003cbr\u003e\n\u003cbr\u003e\nI look forward to the adventure ahead where together we can have some epic moments! \u003cbr\u003e\u003cbr\u003eSo on that bombshell, without anymore stalling \u003cem\u003e\u003cstrong\u003eLETS BEGIN!\u003cbr\u003e\u003cbr\u003e\u003c/strong\u003e\u003c/em\u003e\u003cdiv style=\"text-align: center;\"\u003e\u003cem\u003e\u003cstrong\u003e\u003ca href=\"https://www.youtube.com/user/Spammals\"\u003e\u003cimg src=\"https://lh3.googleusercontent.com/gjw9laak7GQ16jjXA62SD3A0sAZOhenZE8imTPzTyIKB8tJqLyw3dv4yV6tmQbf3yGOVUOCYJFVtLxQjsPxoOMz4zExSjzSifX8NtG_F4pTafuyQhjD-4-EKgLE6ab8Rd1_FyMlbCHfa-jxwP6VHA3l4LKChdzzXslkgDvv09my9LlchkNvW9WxwRxUNmB0WUZda_HEixW9zjUYPrRK945NspoiSyFq7SsNb4lRi5nKyjSWQGiNU6bfEE453JS_qQnIe5P8CuTEoRi_1ctQH7sfs5n91we5RtxhjSGKGHP3mSt1M4Xi5zUJUWMm0k2jjr_q4Tg6qSUzxGJYNbje8SZPGtJh1sFLLTPPWLHMXRrsIG5iuEp_L5jBRmBfeYk5ANpLwbHLLkE9taGKc7dG9Ch0rruINjwrxx3STFTkX2gnudrjBjBxLFW3UhHhM6hYNV8MYMkSBH2FXhBP9LpyMnJhWxuS2svCmvRaQs82LCujznjzb7USSyHNuyW2608ANiS3jNmbImEDxjt0aMC4DDb0F4g-kIKvFUSh0wccoOaCYkpTO9B0J0CbeFe3QUSoNbqN3Jlc-47soFcZdrXCj7vq18Fppy3-_LHG2_6aTgIwMmaJXgmTR=w225-h92-no\"\u003e\u003c/a\u003e\u003ca href=\"https://www.facebook.com/Spammals\"\u003e\u003c/a\u003e\u003ca href=\"https://twitter.com/Spammals\"\u003e\u003cimg src=\"https://lh3.googleusercontent.com/93Iyj6kvTiTL3D0woDBgjIOBz87h3jUcm7y9E2E2FlzADbQuY-eJhswSBj_mfNT9tJy7rPpvp5d6sWwj7tLigwoCoeX_YE20P6qcrRZqRH191zMn8R1PBdPnVVDoJbjpbKqdMl2d4L97upem_rSfcPELi9oax_2FRZYobjmb-OpSxjH5_hQ90bi-hEjrvxUadDYbDAPHmyTsnKC-KRI3mVk44_j34qd0KOnOtjGQwDb1g9pFoHFYUwKXsRb_OrtmFhI_0Ex1NCE6gOy5hoy6i0Sv9lkdxhy9NauNs4T-phjkuJNlXcfHxS53QNqG-J1VBFzsvr0UNVd_NZg8jYiOv9Dk1bcrykcL0_5bNORIjdUTq9Lnn_-jPRH2g6zb5ZPv6AC9JSDZ7CrNwIErppgd2if8gDHFeBfVCB8XxEk0Nk2y0eQZKnRMTiIOxh5laJ_-LCHBAWCr_YSx3H4suGFh72XkTcPlAvYNKi1mcmGZjRHwKwJbzhZsy06Pl_H8nXWOuF2dqMCuP-h9cfC0GyXZuDNwX2c6yL6C7XU0mdyoSBhzyt41-X4gmAsEn3eVlVJAq2vpzsi6H4AbOSDKPHwuIwbsRQudKk_ulvpNN-oTKLAcqLWb1TxK=w225-h92-no\"\u003e\u003c/a\u003e\u003c/strong\u003e\u003c/em\u003e\u003cbr\u003e\u003cem\u003e\u003cstrong\u003e\u003c/strong\u003e\u003c/em\u003e\u003c/div\u003e\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/qeMV5y9HaMU\" width=\"560\"\u003e\u003c/iframe\u003e\u003cbr\u003e"
+   },
+   "id": "510884",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4018446",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4018446"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "543725",
+       "type": "goal"
+      },
+      {
+       "id": "543726",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-510884",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-510884"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "770511",
+       "type": "reward"
+      },
+      {
+       "id": "2413838",
+       "type": "reward"
+      },
+      {
+       "id": "770518",
+       "type": "reward"
+      },
+      {
+       "id": "1266003",
+       "type": "reward"
+      },
+      {
+       "id": "770513",
+       "type": "reward"
+      },
+      {
+       "id": "770514",
+       "type": "reward"
+      },
+      {
+       "id": "770515",
+       "type": "reward"
+      },
+      {
+       "id": "770517",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Hey everybody, my name\u0027s Spammals and I\u0027m an aspiring YouTuber. I record let\u0027s plays on a wide range of games. I dont have an agenda really, I just go where my heart takes me and I share the experiance with you all.\u00a0\u003cbr\u003e\u003cbr\u003eI upload EVERY SINGLE DAY and have yet to miss a single upload. I work very hard on my videos whilst juggling a day job and a social life. I\u0027d like nothing better than to make YouTube a full time job so I can dedicate more time to producing higher quality content and at some point moving up to 2 uploads a day.\u003cbr\u003e",
+     "created": "2016-09-13T15:41:18+00:00",
+     "facebook": "https://www.facebook.com/Spammals/",
+     "first_name": "Spammals",
+     "full_name": "Spammals",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4018446/c113fcd8cf90497fb16324e562c4368a?token-time=2145916800\u0026token-hash=rnY9I9ss0qNoxVbfevQn9czJi6kzxaPLdWGJsP1seF4%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4018446/c113fcd8cf90497fb16324e562c4368a?token-time=2145916800\u0026token-hash=GAonxifakPXb2_tUY7RBYC3lZsUtYBwsu0w__sGCeFE%3D",
+     "twitch": "https://www.twitch.tv/Spammals",
+     "twitter": "Spammals",
+     "url": "https://www.patreon.com/Spammals",
+     "vanity": "Spammals",
+     "youtube": "https://www.youtube.com/Spammals"
+    },
+    "id": "4018446",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "510884",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/510884"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 71,
+     "upgrade_url": "/bePatron?c=510884\u0026rid=770511"
+    },
+    "id": "post-aggregation-for-0-510884",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-09-13T16:21:24+00:00",
+     "description": "\u2022 Show your support for the channel and unlock access to the exclusive Patreon Only feed including ahead of the curve channel related info, sneak peaks at games and exclusive videos just for you!",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-12T20:10:41.012462+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/770511/c12e5b977eb14ad6ba8a1c54bd0b3b9c?token-time=2145916800\u0026token-hash=7vbPh1o0ZlUXIcC_bO6ZYQ1dS8t1rzC7UPN6lmYTIxA%3D",
+     "patron_count": 17,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-12T20:10:41.002487+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "JOIN THE SPAMILY",
+     "unpublished_at": null,
+     "url": "/bePatron?c=510884\u0026rid=770511",
+     "user_limit": null
+    },
+    "id": "770511",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-03-01T21:27:24.826542+00:00",
+     "description": "\"Join The Spamily XL\" Is exactly the same as the \"Join The Spamily\" perk but for people who would like to pledge that little bit more. \u003cbr\u003e\n\u003cbr\u003e\nYour support goes a long way to helping keep the lights on so thank you very much.",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-12T20:10:56.381391+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2413838/24154fd9043a4587afcd25322132b3db?token-time=2145916800\u0026token-hash=sUt2T9go7EBHXKgrrmCHOikEhE3TlxNLJ8uTpEDjqqk%3D",
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-12T20:10:56.374611+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "JOIN THE SPAMILY (XL)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=510884\u0026rid=2413838",
+     "user_limit": null
+    },
+    "id": "2413838",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-09-13T16:21:24+00:00",
+     "description": "\u2022 \"Discord Perks\" gives you Patreon rank on Discord granting access to the exclusive Patreon only rooms with Patreon exclusive Voice and text channels.\u003cbr\u003e\n\u003cbr\u003e\n\u2022 Plus all previous rewards.",
+     "discord_role_ids": [
+      "280546888673918976"
+     ],
+     "edited_at": "2018-05-12T20:11:16.946263+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/770518/278f8b35ba444a17af9fae53c98b7676?token-time=2145916800\u0026token-hash=IvGnKGDAnN5JVzVuaQxlz2ejf7YW8Qepp2JxovAOufA%3D",
+     "patron_count": 5,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-12T20:11:16.936709+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "DISCORD PERKS!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=510884\u0026rid=770518",
+     "user_limit": null
+    },
+    "id": "770518",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-01-10T01:54:31.781689+00:00",
+     "description": "\u2022 \"VIP Discord Perks\" gives you VIP Patreon rank on Discord granting access to both Patreon and VIP Patreon only rooms with Patreon exclusive Voice and text channels.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u2022 Plus all previous rewards.\u003c/p\u003e",
+     "discord_role_ids": [
+      "418873321845686292",
+      "280546888673918976"
+     ],
+     "edited_at": "2018-05-12T20:11:31.791740+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1266003/7f17005f1a464b2f9fbc165636225d50?token-time=2145916800\u0026token-hash=lrMnSyh7LzTvU3x5J-KoY8-n6gMd5ccd7TMCu0BAIj4%3D",
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-12T20:11:31.784885+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "VIP DISCORD PERKS!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=510884\u0026rid=1266003",
+     "user_limit": null
+    },
+    "id": "1266003",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-09-13T16:21:24+00:00",
+     "description": "\u2022 You\u0027re awesome! For this perk your name will appear under each upload in the video description as an official Spammals Supporter. Thank you so very much!\u003cbr\u003e\n\u003cbr\u003e\n\u003cp\u003e\u2022 Plus all previous rewards.\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "280546888673918976"
+     ],
+     "edited_at": "2018-05-12T20:13:20.667733+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/770513/e08e1e5c135e4f0a94a681690c3d79b2?token-time=2145916800\u0026token-hash=IiLBi42biFMmNNDGFdv6XfjCz6VmToZbmCtaK5rRxyg%3D",
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-12T20:13:20.657784+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "YOU\u0027RE AWESOME!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=510884\u0026rid=770513",
+     "user_limit": null
+    },
+    "id": "770513",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-09-13T16:21:24+00:00",
+     "description": "\u2022 \u00a0As an extra \"Special Thanks\" I\u0027ll shout out your name during the Friday\u0027s With Spammals Live Stream on YouTube! \u00a0\u003cbr\u003e\n\u003cbr\u003e\n\u2022 Plus all previous rewards.\u00a0",
+     "discord_role_ids": [
+      "280546888673918976"
+     ],
+     "edited_at": "2018-05-12T20:13:31.162527+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/770514/a3af1e5572c946de829e00734c99f469?token-time=2145916800\u0026token-hash=PTVX98L4hCn19s85czwDPCTfOmx9jY67oZVyYKzmuAo%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-12T20:13:31.155036+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "SPECIAL THANKS!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=510884\u0026rid=770514",
+     "user_limit": null
+    },
+    "id": "770514",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-09-13T16:21:24+00:00",
+     "description": "\u2022 I\u0027d love to support the community that supports me; let me know If there\u0027s something you\u0027d like me to promote and we\u0027ll work It into one video per month.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u2022 Plus all previous rewards.\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "280546888673918976"
+     ],
+     "edited_at": "2018-05-12T20:13:42.269412+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/770515/bc43460fa8b546b480aad0afe124fad1?token-time=2145916800\u0026token-hash=edNNRwNjuLfsKvQCpvZfwAlspDsMHlN9hLddSNGjieQ%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-12T20:13:42.259698+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "BE A SPONSOR",
+     "unpublished_at": null,
+     "url": "/bePatron?c=510884\u0026rid=770515",
+     "user_limit": 5
+    },
+    "id": "770515",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-09-13T16:21:24+00:00",
+     "description": "\u2022 You\u0027re crazy! Seriously, you\u0027re freaking crazy!\u003cbr\u003e\n\u003cbr\u003e\nFor this perk I\u0027ll add you to my private Steam friends list which is extremely exclusive. You\u0027ll get access to my Steam Profile including gamer activity, games library, screenshots, comments, wish list, achievements ect.\u003cbr\u003e\n\u003cbr\u003e\n\u2022 Plus all previous rewards\u00a0",
+     "discord_role_ids": [
+      "280546888673918976"
+     ],
+     "edited_at": "2018-05-12T20:13:54.605720+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/770517/4514bbb2bff049a8a1ee727fb84cf4f8?token-time=2145916800\u0026token-hash=Pv8vs9KXjUEkBHaxNTC8mjD1qx1GUBKl09lrHp6FrIQ%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-12T20:13:54.595978+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "LEGENDARY!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=510884\u0026rid=770517",
+     "user_limit": null
+    },
+    "id": "770517",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 80000,
+     "completed_percentage": 25,
+     "created_at": "2016-09-13T16:16:14+00:00",
+     "description": "$800 a month will go a very long way to help secure the future of the channel.\u00a0\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "543725",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 13,
+     "created_at": "2016-09-13T16:16:14+00:00",
+     "description": "Reaching 1,500 a month would mean no matter how hard YouTube break their platform the channel will have security to continue creating content.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "543726",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/510884"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "d849844a-ea92-48db-9a0e-39152e434edb",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Spammals is creating YouTube Video Content"
+});
+    </script>

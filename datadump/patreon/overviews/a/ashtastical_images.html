@@ -1,0 +1,815 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "7Zn7MrVS9zKO8nIdGgzGSMx26knNYDLwbcO0GVoLVtI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "118760",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/118760"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-12-15T03:48:52+00:00",
+    "creation_name": "Photography \u0026 Writings",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/251210/bddc326dd3fa4a838f967017472befc9?token-time=2145916800\u0026token-hash=RP8_Nw_ZeYRD9dexLTTC0GNrAeiHHM_iCqLzf0575lA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/251210/bddc326dd3fa4a838f967017472befc9?token-time=2145916800\u0026token-hash=DfPE23QBoHHMSjy2xZyV-W-KlzJYoedxGC8j17ck9IU%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 20,
+    "pay_per_name": "month",
+    "pledge_sum": 6728,
+    "pledge_url": "/bePatron?c=251210",
+    "published_at": "2015-12-15T04:21:23+00:00",
+    "summary": "I am an artistic photographer in Dallas, Texas. I started\ntaking photos at 4 years old and often got in trouble for using all the film in\nmy grandparent\u2019s camera. I use photography to paint the world the way I see it,\nand I love sharing my view point with others. I also started recycling my old\nor damaged photos by shredding them, and reimagining them in to new things. I\ndo local art shows and markets throughout the year, and one big solo show every\nMay for my birthday. I have also published 4 photobooks, one of which was of\npoetry with corresponding photographs.  I\nam beginning work on more books including another poetry book. I will be sharing\nthe behind the scenes of my process, first looks of my art, and pieces of the\nbooks including some poems. I hope you enjoy seeing these snippets of my soul.\u003cbr\u003e"
+   },
+   "id": "251210",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "599029",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/599029"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "415358",
+       "type": "goal"
+      },
+      {
+       "id": "415359",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-251210",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-251210"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "411711",
+       "type": "reward"
+      },
+      {
+       "id": "383045",
+       "type": "reward"
+      },
+      {
+       "id": "394521",
+       "type": "reward"
+      },
+      {
+       "id": "1774657",
+       "type": "reward"
+      },
+      {
+       "id": "1209238",
+       "type": "reward"
+      },
+      {
+       "id": "1774662",
+       "type": "reward"
+      },
+      {
+       "id": "1774660",
+       "type": "reward"
+      },
+      {
+       "id": "383046",
+       "type": "reward"
+      },
+      {
+       "id": "1209240",
+       "type": "reward"
+      },
+      {
+       "id": "1774663",
+       "type": "reward"
+      },
+      {
+       "id": "394522",
+       "type": "reward"
+      },
+      {
+       "id": "383047",
+       "type": "reward"
+      },
+      {
+       "id": "394523",
+       "type": "reward"
+      },
+      {
+       "id": "383048",
+       "type": "reward"
+      },
+      {
+       "id": "394524",
+       "type": "reward"
+      },
+      {
+       "id": "383049",
+       "type": "reward"
+      },
+      {
+       "id": "394525",
+       "type": "reward"
+      },
+      {
+       "id": "383050",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-03-03T20:58:29+00:00",
+     "facebook": null,
+     "first_name": "Ash",
+     "full_name": "Ash",
+     "gender": 2,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/599029/342fd2c5afa74e9dabe02167e728470c?token-time=2145916800\u0026token-hash=udrk5L8bC-fxak-C1ccmKMa4i7o0f0xAcwOdEaUdaaE%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/599029/342fd2c5afa74e9dabe02167e728470c?token-time=2145916800\u0026token-hash=aLxNGdjBTrq4mOZafvOeMb9chEbWTPLRxFSGiAc_eGw%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/ashtastical_images",
+     "vanity": "ashtastical_images",
+     "youtube": null
+    },
+    "id": "599029",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "251210",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/251210"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 139,
+     "upgrade_url": "/bePatron?c=251210\u0026rid=411711"
+    },
+    "id": "post-aggregation-for-0-251210",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-06T22:37:17+00:00",
+     "description": "Every dollar counts and with a one dollar subscription you will get to see all locked patron only content",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-17T21:59:24.988809+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-10-06T22:37:17+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Unlocked \u0026 Loaded",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=411711",
+     "user_limit": null
+    },
+    "id": "411711",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 150,
+     "amount_cents": 150,
+     "created_at": "2016-10-06T22:37:17+00:00",
+     "description": "I will send you a postcard with one photo I released that month",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-28T02:07:22.772892+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-10-06T22:37:17+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Postcard",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=383045",
+     "user_limit": null
+    },
+    "id": "383045",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-10-06T22:37:17+00:00",
+     "description": "OUTSIDE USA I will send you a postcard with one photo I released that month",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-17T22:05:24.575433+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-06T22:37:17+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "(not in USA) Postcard ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=394521",
+     "user_limit": null
+    },
+    "id": "394521",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-06-17T22:01:58.279995+00:00",
+     "description": "I will send you a 2.5x3.5 magnet with an image from the month",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-17T22:01:58.279995+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-17T22:01:58.279995+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Magnet Wallet size",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=1774657",
+     "user_limit": null
+    },
+    "id": "1774657",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2016-12-26T13:29:34.369270+00:00",
+     "description": "5x7 one sided photo card from one of the photos I released that month comes in separate enevelope, so you can send to someone else if you like!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-27T15:41:51.311426+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-27T15:41:51.304548+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "5x7 Photo card",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=1209238",
+     "user_limit": null
+    },
+    "id": "1209238",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-06-17T22:03:45.135186+00:00",
+     "description": "\u00a0I will send you a 3.5x5 magnet with an image from the month\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-17T22:03:45.135186+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-17T22:03:45.135186+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Magnet 3.5x5",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=1774662",
+     "user_limit": null
+    },
+    "id": "1774662",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 600,
+     "amount_cents": 600,
+     "created_at": "2017-06-17T22:02:53.422509+00:00",
+     "description": "\u00a0I will send you a 2.5x3.5 magnet with an image from the month\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-17T22:02:53.422509+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-06-17T22:02:53.422509+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "(not in USA) Magnet Wallet Size",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=1774660",
+     "user_limit": null
+    },
+    "id": "1774660",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 600,
+     "amount_cents": 600,
+     "created_at": "2016-10-06T22:37:17+00:00",
+     "description": "I will send you a 4x6 mounted or matted to fit a 5x7 frame version of one photo I released that month",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-28T02:08:16.236496+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-10-06T22:37:17+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Mounted 4x6 photo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=383046",
+     "user_limit": null
+    },
+    "id": "383046",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 800,
+     "amount_cents": 800,
+     "created_at": "2016-12-26T13:32:28.921082+00:00",
+     "description": "outside usa: 5x7 one sided photo card from one of the photos I released that month, with a small piece of paper so you can write a message if you choose to send it on . comes in separate enevelope, so you can send to someone else if you like!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-17T22:04:59.196967+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-26T13:32:28.921082+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "(not in usa) 5x7 Photo Card ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=1209240",
+     "user_limit": null
+    },
+    "id": "1209240",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-06-17T22:04:28.766788+00:00",
+     "description": "\u00a0\u00a0I will send you a 3.5x5 magnet with an image from the month \u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-17T22:04:28.766788+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-17T22:04:28.766788+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "(Not in USA) Magnet 3.5x5",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=1774663",
+     "user_limit": null
+    },
+    "id": "1774663",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1100,
+     "amount_cents": 1100,
+     "created_at": "2016-10-06T22:37:17+00:00",
+     "description": "OUTSIDE USA I will send you a 4x6 mounted or matted to fit a 5x7 frame version of the one photo I released that month",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-17T22:06:23.705914+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-06T22:37:17+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "(not in USA) mounted 4x6 ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=394522",
+     "user_limit": null
+    },
+    "id": "394522",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1200,
+     "amount_cents": 1200,
+     "created_at": "2016-10-06T22:37:17+00:00",
+     "description": "I will send you a 5x7 mounted or matted to fit a 8x10 frame version of one photo I released that month",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-17T22:00:37.682848+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-06T22:37:17+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Mounted 5x7",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=383047",
+     "user_limit": null
+    },
+    "id": "383047",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1700,
+     "amount_cents": 1700,
+     "created_at": "2016-10-06T22:37:17+00:00",
+     "description": "OUTSIDE USA I will send you a 5x7 mounted or matted to fit a 8x10 frame version of one photo I released that month",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-17T22:06:52.913506+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-06T22:37:17+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "(Not in USA) Mounted 5x7 ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=394523",
+     "user_limit": null
+    },
+    "id": "394523",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-10-06T22:37:17+00:00",
+     "description": "I will send you a 8x10 mounted or matted to fit a 11x14 frame version of\u00a0one photo I released that month",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-28T02:09:47.836749+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-06T22:37:17+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Mounted 8x10 photo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=383048",
+     "user_limit": null
+    },
+    "id": "383048",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2016-10-06T22:37:18+00:00",
+     "description": "OUTSIDE USA I will send you a 8x10 mounted or matted to fit a 11x14 frame version of one photo I released that month",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-17T22:06:08.740235+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-06T22:37:18+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "(not in Usa) Mounted 8x10 ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=394524",
+     "user_limit": null
+    },
+    "id": "394524",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2016-10-06T22:37:18+00:00",
+     "description": "I will send you a 13x19 version of one photo I released that month (not mounted or matted)",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-28T02:11:44.568833+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-06T22:37:18+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "13X19 Photo Print",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=383049",
+     "user_limit": null
+    },
+    "id": "383049",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5500,
+     "amount_cents": 5500,
+     "created_at": "2016-10-06T22:37:18+00:00",
+     "description": "OUTSIDE USA I will send you a 13x19 version of one photo I released that month (not mounted or matted)",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-17T22:05:54.701781+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-06T22:37:18+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "(outside USA) 13x19 Photo Print ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=394525",
+     "user_limit": null
+    },
+    "id": "394525",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7000,
+     "amount_cents": 7000,
+     "created_at": "2016-10-06T22:37:18+00:00",
+     "description": "I will send you 1 of 5 limited edition 11x17 printed on linen version of one photo I released that month",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-28T02:13:34.239625+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-06T22:37:18+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Limited Editon 11x17 Print on Linen",
+     "unpublished_at": null,
+     "url": "/bePatron?c=251210\u0026rid=383050",
+     "user_limit": null
+    },
+    "id": "383050",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 6000,
+     "completed_percentage": 100,
+     "created_at": "2016-05-02T03:32:14+00:00",
+     "description": "$60 a month pays for my internet bill which I need to share my work and download filters",
+     "reached_at": "2016-11-05T19:36:19+00:00",
+     "title": ""
+    },
+    "id": "415358",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 67,
+     "created_at": "2016-05-02T03:32:14+00:00",
+     "description": "$100 a month helps me buy ink and paper to keep printing my pieces",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "415359",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/251210"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "c3eb4883-242a-450b-8cdf-4e59d71bbd87",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Ash is creating Photography \u0026 Writings"
+});
+    </script>

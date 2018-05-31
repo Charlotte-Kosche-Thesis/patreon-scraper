@@ -1,0 +1,479 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "35kw9GpLRTI4LuNSu4VtI01_chSearJiLVXUGsxXfn0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "178780",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/178780"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-06-21T12:22:34+00:00",
+    "creation_name": "Fan Fiction and Original Science Fiction",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/400274/c2776c699ede45c8a26bc37d1d95e16f?token-time=2145916800\u0026token-hash=_JATKSL07W2PCQkvxhEulGjfxSZOiy7sDKNEuza3XO0%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/400274/c2776c699ede45c8a26bc37d1d95e16f?token-time=2145916800\u0026token-hash=ABmZLlvMomFS1mvdrL2RSxyK5p0isSb6jh_pEV1D5Ww%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 22,
+    "pay_per_name": "month",
+    "pledge_sum": 15649,
+    "pledge_url": "/bePatron?c=400274",
+    "published_at": "2016-06-21T13:58:16+00:00",
+    "summary": "I am currently writing an alternative universe \u0027re-write\u0027 of the Mass Effect series by Bioware. As part of this process, I\u0027ve planned to expand the media used in the recreation of the story, in both visual media (art, possibly animation) and in writing. \u003cbr\u003e\u003cbr\u003eThe purpose of the Patreon is to defray the costs of obtaining artwork from artists (mostly on DeviantArt) and to pay for the supporting websites. Additional funds would be used to purchase better editing software, research materials and possibly commissioning of custom music.\u003cbr\u003e\u003cbr\u003eI do not intend to make any profit from this. I have already expended roughly $3,000 in the pursuit of this project, and the only goals I have are to bring enjoyment to those who like my work. At a later date, I do plan to add original fiction to what I provide, and eventually the purpose of this Patreon will change to support that. \u003cbr\u003e"
+   },
+   "id": "400274",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3532974",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3532974"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "460825",
+       "type": "goal"
+      },
+      {
+       "id": "460857",
+       "type": "goal"
+      },
+      {
+       "id": "460858",
+       "type": "goal"
+      },
+      {
+       "id": "460859",
+       "type": "goal"
+      },
+      {
+       "id": "460878",
+       "type": "goal"
+      },
+      {
+       "id": "460906",
+       "type": "goal"
+      },
+      {
+       "id": "461433",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-400274",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-400274"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "587154",
+       "type": "reward"
+      },
+      {
+       "id": "587172",
+       "type": "reward"
+      },
+      {
+       "id": "587173",
+       "type": "reward"
+      },
+      {
+       "id": "587174",
+       "type": "reward"
+      },
+      {
+       "id": "587175",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Just a person trying to write some stuff for people to enjoy.",
+     "created": "2016-06-21T12:22:06+00:00",
+     "facebook": "https://www.facebook.com/henry.viley",
+     "first_name": "Henry",
+     "full_name": "Henry (LogicalPremise)",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3532974/da0c5970786a42b2bac6544295183981?token-time=2145916800\u0026token-hash=v9nhg4mmnMWIt0c4gOKkQdAV0EjqcbwJox_bACMJzSo%3D",
+     "last_name": "(LogicalPremise)",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3532974/da0c5970786a42b2bac6544295183981?token-time=2145916800\u0026token-hash=zQah0Dm_EC9yl2krZxpNo00RmTUHdn0Qq1iuVr8UHKI%3D",
+     "twitch": "",
+     "twitter": "",
+     "url": "https://www.patreon.com/LogicalPremise",
+     "vanity": "LogicalPremise",
+     "youtube": ""
+    },
+    "id": "3532974",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "400274",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/400274"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 16,
+     "upgrade_url": "/bePatron?c=400274\u0026rid=587154"
+    },
+    "id": "post-aggregation-for-0-400274",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-06-22T00:11:39+00:00",
+     "description": "\u003cstrong\u003eDonator Level:\u003cbr\u003e\u003cbr\u003e\u003c/strong\u003eAll donations are appreciated. At the most basic level, you will gain:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eAccess to the Patreon Feed and RSS\u003c/li\u003e\u003cli\u003eAccess to the \"Members Only\" Section of the Forums at LogicalPremise.org\u003c/li\u003e\u003cli\u003eCommission of a snippet (1000 words or less) on any aspect of the PremiseVerse you like. \u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 10,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-06-22T00:11:39+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=400274\u0026rid=587154",
+     "user_limit": null
+    },
+    "id": "587154",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-06-22T00:11:39+00:00",
+     "description": "\u003cstrong\u003ePatron Level:\u003cbr\u003e\u003cbr\u003e\u003c/strong\u003eAt this level of donation, you get all previous rewards plus:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eCommissioning of a short story (less than 10000 words) on any aspect of the PremiseVerse you are interested in. (One time only).\u003c/li\u003e\u003cli\u003eAccess to the \"Scrap Pit\", a section of the website where I will post bits of the Premiseverse that never make it into the stories or their own fictions.\u00a0\u003c/li\u003e\u003cli\u003eDetermination of what artwork / music to commission and how much to spend on it (hey, it\u0027s your money).\u00a0\u003c/li\u003e\u003cli\u003eMy assistance in helping refine or tune your own works, in fan fiction or original fiction. \u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 7,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-06-22T00:11:39+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=400274\u0026rid=587172",
+     "user_limit": null
+    },
+    "id": "587172",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-06-22T00:11:39+00:00",
+     "description": "\u003cstrong\u003eValued Fan Level: \u003cbr\u003e\u003cbr\u003e\u003c/strong\u003eAt this level, you will get a sincere \"OMG\", along with all previous rewards and:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eAccess to chapter outlines before I start writing them (one week prior). You can make suggestions and changes before I even start the chapter.\u003c/li\u003e\u003cli\u003eAccess to draft sketches from commissioned artists. Usually there will be two or three of these that never see the light of day before I pick one to go forward with.\u003c/li\u003e\u003cli\u003eCommissioning of an STG Report on any character or faction in the game, with your name in the credits. \u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2016-06-22T00:11:39+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=400274\u0026rid=587173",
+     "user_limit": null
+    },
+    "id": "587173",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-06-22T00:11:39+00:00",
+     "description": "\u003cstrong\u003eInvestor Level: \u003cbr\u003e\u003cbr\u003e\u003c/strong\u003eAt this level of investment, which is $600 a year, you are considered more than a mere \u0027contributor\u0027. As such you get all previous rewards, plus:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eComplete and direct access to chapters of the fan fic as they are being written, on Google Docs. This is prior to hand off to the Editing Gang or anything else -- you have direct access to make suggestions and changes as I write.\u003c/li\u003e\u003cli\u003eThe creation, design, goals, and motivations of a faction in the ME4 piece, which is set several decades after the end of ME3. The faction created would play a key role in aspects of the fiction.\u00a0\u003c/li\u003e\u003cli\u003eCommissioning on demand of short snippets or stories related to the PremiseVerse based on ideas you have. No matter how outlandish. Could include \u0027what if\u0027 scenarios.\u003c/li\u003e\u003cli\u003eFREE copy of the Complete Premiseverse once I put it into bound form: this would include a hardcopy book of all three main fics, a hardcopy of the entire Cerberus Files complete with the references used for study and extra material not included in the main online versions, and a catalog of all artwork produced for the game, in high quality poster format.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-22T00:11:39+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=400274\u0026rid=587174",
+     "user_limit": 10
+    },
+    "id": "587174",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-06-22T00:11:39+00:00",
+     "description": "\u003cstrong\u003eDirector Level : \u003cbr\u003e\u003cbr\u003e\u003c/strong\u003eAt this level of access, you would be (I hope) more interested in the original fiction I plan on producing than the fan fiction. You would get all previous rewards, and also:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eAccess to drafts and notes on the original fiction\u003c/li\u003e\u003cli\u003eAccess to design outlines and the ability to make suggestions on the original fiction\u003c/li\u003e\u003cli\u003eCreation of a character in the original fiction, one of the Five Travellers.\u00a0\u003c/li\u003e\u003cli\u003eFull permission to use any aspect of the Premiseverse in your own fan fictions\u003c/li\u003e\u003cli\u003eComplete assistance in writing fan fiction of your own, or original fiction for that matter. This includes my ability to research and come up with documentation, library research on cultures or technical ideas, and direct feedback and/or editing.\u003c/li\u003e\u003cli\u003eFinal edit oversight on the fanfiction\u003c/li\u003e\u003cli\u003eName in credits of the original work as contributor.\u003c/li\u003e\u003cli\u003eAnything else you can think of. \u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-22T00:11:39+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=400274\u0026rid=587175",
+     "user_limit": 5
+    },
+    "id": "587175",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 52,
+     "created_at": "2016-06-21T12:31:29+00:00",
+     "description": "Estimated cost of obtaining profile portraits of all OC\u0027s and characters in the Premiseverse.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "460825",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2016-06-21T13:16:37+00:00",
+     "description": "Estimated cost of maintaining the website and forums for one year. \u003cbr\u003e",
+     "reached_at": "2016-06-21T19:22:54+00:00",
+     "title": ""
+    },
+    "id": "460857",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 100,
+     "created_at": "2016-06-21T13:16:37+00:00",
+     "description": "Estimated cost of commissioning the \u0027defining\u0027 moments in the series:\u003cbr\u003e\u003cul\u003e\u003cli\u003e Shepard vs. the Geth Prime\u003c/li\u003e\u003cli\u003eSaren\u0027s Fall\u003c/li\u003e\u003cli\u003eAethyta vs. Benezia\u003c/li\u003e\u003cli\u003eThe knighting of Shepard\u003c/li\u003e\u003cli\u003eThe Wedding of Sara and Liara\u003c/li\u003e\u003cli\u003eThe Normandy\u0027s Fall\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": "2016-08-16T20:52:31+00:00",
+     "title": ""
+    },
+    "id": "460858",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 15,
+     "created_at": "2016-06-21T13:16:37+00:00",
+     "description": "Rough costs to obtain high quality artwork and mastering for the entire series, including visual novel style rendering, multiple full page artworks, professional editing, and binding.\u003cbr\u003e\u003cbr\u003eWould also help ensure that potential health issues of mine would not slow or stop production. \u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "460859",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 7,
+     "created_at": "2016-06-21T13:35:24+00:00",
+     "description": "Rough estimated costs to begin work on fully animating the series. \u003cbr\u003e\u003cbr\u003eAlso would allow me to focus more on writing and teaching others how to write. This is the baseline amount I would want before starting to write my original fiction, as well. \u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "460878",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 3,
+     "created_at": "2016-06-21T14:05:42+00:00",
+     "description": "Amount required for me to quit my job and write full time. (This is not a serious goal. Unless you are rich. In which case, feel free, and I will immortalize you in fiction.)\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "460906",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 31,
+     "created_at": "2016-06-22T00:11:39+00:00",
+     "description": "Estimated cost of obtaining full color artwork for major events in the Premiseverse (most of the major fights and things like Sara meeting the Illusive Man after being brought back to life.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "461433",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/400274"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "23bbadb8-fee9-4d65-a3ba-b56b41ee5602",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Henry (LogicalPremise) is creating Fan Fiction and Original Science Fiction"
+});
+    </script>

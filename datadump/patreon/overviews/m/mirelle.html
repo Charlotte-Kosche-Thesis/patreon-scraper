@@ -1,0 +1,623 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "ZSkfcHF7KTBtj4rCtng9E_3AcKhmpKL8xt6Sqq2DloY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "89476",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/89476"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-07-22T07:05:12+00:00",
+    "creation_name": "Drawings, Paintings, Sequential Images, Comics, \u0026 Stories",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/194575/cb0c01e28b7b41b4b80a892eb0e181b8?token-time=2145916800\u0026token-hash=4e5JmiLeZvIC2IJNDTORKuM9jl5c6az79rgBJiHySyI%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/194575/cb0c01e28b7b41b4b80a892eb0e181b8?token-time=2145916800\u0026token-hash=PHmxyWPkR5J18qs3iu5wRE8BehRGCk0def12rf48qIs%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Burning up my digital tablet, one drawing at a time.",
+    "patron_count": 25,
+    "pay_per_name": "month",
+    "pledge_sum": 10963,
+    "pledge_url": "/bePatron?c=194575",
+    "published_at": "2015-07-22T07:41:57+00:00",
+    "summary": "I\u0027ll be paying bills, bills, bills - keeping my lights on, car on the road, rent paid! I know it\u0027s not exciting, but for me having the security of paid rent and utilities, food, etc is a very nice pipedream at the moment.\u00a0\u003cbr\u003e\u003cbr\u003eI\u0027ll be able to draw more of what you want, more of what I want, and struggle less in my daily life. I\u0027m finishing my senior year of art school without worrying so much about whether I can afford paint or food. The more patrons I have, the more security I have, the more art I can create without feeling I have to hustle and bustle to survive...!\u00a0\u003cbr\u003e\u003cbr\u003eI\u0027m looking to resume normal drawing activities, which means that I\u0027ll be bringing my \"Secret Art Stash\" paysite content to Patreon, versus the conventional paysite. So patrons can expect I\u0027ll be giving them exclusive raunchy art, stories, comics, and more! Any people who don\u0027t want to be a patron can buy most of my content via my online download shop."
+   },
+   "id": "194575",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "932929",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/932929"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "207888",
+       "type": "goal"
+      },
+      {
+       "id": "207889",
+       "type": "goal"
+      },
+      {
+       "id": "207890",
+       "type": "goal"
+      },
+      {
+       "id": "207896",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-194575",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-194575"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "270248",
+       "type": "reward"
+      },
+      {
+       "id": "270255",
+       "type": "reward"
+      },
+      {
+       "id": "270300",
+       "type": "reward"
+      },
+      {
+       "id": "270238",
+       "type": "reward"
+      },
+      {
+       "id": "270239",
+       "type": "reward"
+      },
+      {
+       "id": "270240",
+       "type": "reward"
+      },
+      {
+       "id": "270352",
+       "type": "reward"
+      },
+      {
+       "id": "270260",
+       "type": "reward"
+      },
+      {
+       "id": "270271",
+       "type": "reward"
+      },
+      {
+       "id": "270272",
+       "type": "reward"
+      },
+      {
+       "id": "270273",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m a 31-year old illustrator, painter, digital artist, graphic designer, web designer, photographer, and rat lover. I\u0027m finishing up my art degree (senior year) at a local state university. I work full time from home as an art instructor. Most days I go to school from 9-3pm, drive home, change and load my van for work, and work from 5-11pm. Then I eat something, go to bed, and repeat the next day. \u003cbr\u003e\u003cbr\u003eI\u0027m hoping having a patreon account will relieve some of the burden to work so much and keep me from burning out on \u0027just work\u0027 artwork. I don\u0027t even know what downtime is..!\u003cbr\u003e\u003cbr\u003eI currently house my smutty art on my website: \u003ca href=\"http://www.smokingpen.com\"\u003ehttp://www.smokingpen.com\u003c/a\u003e \u00a0\u003cbr\u003e\u003cbr\u003eI won\u0027t be affliating this with my professional work - because duh. Thanks for looking at my work!",
+     "created": "2015-07-22T06:59:50+00:00",
+     "facebook": null,
+     "first_name": "Mirelle",
+     "full_name": "Mirelle",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/932929/190763cb9d07455ba63a76b49332e075?token-time=2145916800\u0026token-hash=EX_xPkxAFEAjr9EvUJujsCkq05eA-Jxa1QZLGW5-VqE%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/932929/190763cb9d07455ba63a76b49332e075?token-time=2145916800\u0026token-hash=7eUsyIgm7HZXX7G8Sm_j276WDetQezWJiS9x_YipJnI%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/mirelle",
+     "vanity": "mirelle",
+     "youtube": null
+    },
+    "id": "932929",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "194575",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/194575"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 18,
+     "upgrade_url": "/bePatron?c=194575\u0026rid=270248"
+    },
+    "id": "post-aggregation-for-0-194575",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-11-24T04:14:11+00:00",
+     "description": "Access to all posted patron only drawings, sequences, and comics.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 23,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-11-24T04:14:11+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=194575\u0026rid=270248",
+     "user_limit": null
+    },
+    "id": "270248",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-11-24T04:14:11+00:00",
+     "description": "Access to all posted patron only drawings, sequences, and comics. You can also suggest ideas, characters, scenarios, and vote in polls.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-11-24T04:14:11+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=194575\u0026rid=270255",
+     "user_limit": null
+    },
+    "id": "270255",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2015-11-24T04:14:11+00:00",
+     "description": "Sponsor A Rat! - Pick one of my deliciously adorable rats to sponsor and you get a photo taken of your chosen rat! You have lots of rats to pick from! \u00a0\u003cbr\u003e\u003cbr\u003eMales: Porkchop, Meatball, Bagel \u0026amp; Taco, Sausage \u0026amp; Gravy.\u00a0\u003cbr\u003eFemales: Peppermint (elderly), Peeps, Bailey, Pebbles, Cocoa, Honey Nut, Cheerio, Donut, Cupcake, Biscuit, Pudding \u0026amp; Honey Dew, Milk \u0026amp; Moo, Sugar \u0026amp; Spice.\u003cbr\u003e\u003cbr\u003ePlus: Access to all posted patron only drawings, sequences, and comics. You can also suggest ideas, characters, scenarios, and vote in polls.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-11-24T04:14:11+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=194575\u0026rid=270300",
+     "user_limit": null
+    },
+    "id": "270300",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2015-11-24T04:14:11+00:00",
+     "description": "SKETCH: You choose a character (fanart, OC, or one of mine) for me to draw as a sketch! Rated G - X! \u003cbr\u003e\u003cbr\u003ePlus:\u00a0Access to all posted patron only drawings, sequences, and comics. You can also suggest ideas, characters, scenarios, and vote in polls.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-11-24T04:14:11+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=194575\u0026rid=270238",
+     "user_limit": 5
+    },
+    "id": "270238",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2015-11-24T04:14:11+00:00",
+     "description": "INK:\u00a0You choose a character (fanart, OC, or one of mine) for me to draw as inks! Rated G - X!\u003cbr\u003e\u003cbr\u003ePlus: Access to all posted patron only drawings, sequences, and comics. You can also suggest ideas, characters, scenarios, and vote in polls.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-11-24T04:14:11+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=194575\u0026rid=270239",
+     "user_limit": 4
+    },
+    "id": "270239",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2015-11-24T04:14:11+00:00",
+     "description": "COLOR: You choose a character (fanart, OC, or one of mine) for me to draw and finish as a color picture! Rated G - X! Includes hi-res JPG file.\u003cbr\u003e\u003cbr\u003ePlus: Access to all posted patron only drawings, sequences, and comics. You can also suggest ideas, characters, scenarios, and vote in polls.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-11-24T04:14:11+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=194575\u0026rid=270240",
+     "user_limit": 3
+    },
+    "id": "270240",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2015-11-24T04:14:11+00:00",
+     "description": "Hostage Negotiations - Pick one of my deliciously adorable rats to hold HOSTAGE WITH A BANANA and you get a photo taken of your chosen rat! You have lots of rats to pick from!  \u003cbr\u003e\u003cbr\u003eMales: Porkchop, Meatball, Bagel \u0026amp; Taco, Sausage \u0026amp; Gravy. \u003cbr\u003eFemales: Peppermint (elderly), Peeps, Bailey, Pebbles, Cocoa, Honey Nut, Cheerio, Donut, Cupcake, Biscuit, Pudding \u0026amp; Honey Dew, Milk \u0026amp; Moo, Sugar \u0026amp; Spice.\u003cbr\u003eAlso includes: \u003cbr\u003e\u003cbr\u003eCOLOR: You choose a character (fanart, OC, or one of mine) for me to draw and finish as a color picture! Rated G - X! Includes hi-res JPG file.\u003cbr\u003e\u003cbr\u003ePlus: Access to all posted patron only drawings, sequences, and comics. You can also suggest ideas, characters, scenarios, and vote in polls.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-11-24T04:14:11+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=194575\u0026rid=270352",
+     "user_limit": 3
+    },
+    "id": "270352",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2015-11-24T04:14:11+00:00",
+     "description": "COLOR: You choose 2 characters (fanart, OC, and/or my own) for me to draw and finish as a color picture! Rated G - X! Includes hi-res JPG file.\u003cbr\u003e\u003cbr\u003ePlus: Access to all posted patron only drawings, sequences, and comics. You can also suggest ideas, characters, scenarios, and vote in polls.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-11-24T04:14:11+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=194575\u0026rid=270260",
+     "user_limit": 2
+    },
+    "id": "270260",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2015-11-24T04:14:11+00:00",
+     "description": "\"Paint Me Like One Of Your French Girls\" FINE ART - Get a small original painting, 8x10\", 9x12, or \"11x17\" (watercolor, gouache, or acrylic) of varying subject matter, such as a spooky monsters, landscapes, animal portraits and wildlife, fantasy art, and others. Style and subject matter vary and are determined by me. Artwork is shipped to your home - so prepare your walls for glory!!!\u003cbr\u003e\u003cbr\u003ePlus: Access to all posted patron only drawings, sequences, and comics. You can also suggest ideas, characters, scenarios, and vote in polls.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-11-24T04:14:11+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=194575\u0026rid=270271",
+     "user_limit": 1
+    },
+    "id": "270271",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 40000,
+     "amount_cents": 40000,
+     "created_at": "2015-11-24T04:14:11+00:00",
+     "description": "\"Ooh La La!\" FINE ART- Get a medium original painting, 16x20\" (watercolor, gouache, or acrylic) of varying subject matter, such as a spooky monsters, landscapes, animal portraits and wildlife, fantasy art, and others. Style and subject matter vary and are determined by me. Artwork is shipped to your home - so prepare your walls for glory!!!\u003cbr\u003e\u003cbr\u003ePlus: Access to all posted patron only drawings, sequences, and comics. You can also suggest ideas, characters, scenarios, and vote in polls.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-11-24T04:14:11+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=194575\u0026rid=270272",
+     "user_limit": 1
+    },
+    "id": "270272",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 65000,
+     "amount_cents": 65000,
+     "created_at": "2015-11-24T04:14:11+00:00",
+     "description": "\"OH YEAH!\" FINE ART- Get a large original painting, 18x24\" (watercolor, gouache, or acrylic) of varying subject matter, such as a spooky monsters, landscapes, animal portraits and wildlife, fantasy art, and others. Style and subject matter vary and are determined by me. Artwork is shipped to your home - so prepare your walls for glory!!!\u003cbr\u003e\u003cbr\u003ePlus: Access to all posted patron only drawings, sequences, and comics. You can also suggest ideas, characters, scenarios, and vote in polls.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-11-24T04:14:11+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=194575\u0026rid=270273",
+     "user_limit": 1
+    },
+    "id": "270273",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 36,
+     "created_at": "2015-07-22T07:14:20+00:00",
+     "description": "Multiple page transformation sequence. This item will be available for patrons.\u00a0Patrons suggest the character and TF.",
+     "reached_at": "2016-05-12T14:21:30+00:00",
+     "title": "New Inked Transformation Sequence"
+    },
+    "id": "207888",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 17500,
+     "completed_percentage": 62,
+     "created_at": "2015-07-22T07:14:21+00:00",
+     "description": "Digital or physical colored drawing/painting of one character.\u00a0Patrons suggest the character.",
+     "reached_at": "2015-08-08T17:59:28+00:00",
+     "title": "Colored Drawing (PG13 - X)"
+    },
+    "id": "207889",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3000,
+     "completed_percentage": 100,
+     "created_at": "2015-07-22T07:14:21+00:00",
+     "description": "A single page drawing of a character, sketched. Patrons suggest the character.",
+     "reached_at": "2015-07-27T02:47:06+00:00",
+     "title": "Sketch of Single Character (PG13 - X)"
+    },
+    "id": "207890",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 75000,
+     "completed_percentage": 14,
+     "created_at": "2015-07-22T07:40:51+00:00",
+     "description": "A new, short length comic of approximately 5 - 10 pages, inked. For Patrons.\u00a0Patrons suggest the character, scenario, and TF.",
+     "reached_at": null,
+     "title": "New Inked Comic"
+    },
+    "id": "207896",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/194575"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "020217cb-f089-4d45-bfbf-12c00a45fd57",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Mirelle is creating Drawings, Paintings, Sequential Images, Comics, \u0026 Stories"
+});
+    </script>

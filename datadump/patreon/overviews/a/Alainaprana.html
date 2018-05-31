@@ -1,0 +1,543 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "QQU15sxW7fKy0hXOzZHjThWxeogWMgZxT3sHHeV0ods";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "207638",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/207638"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-08-07T17:46:02+00:00",
+    "creation_name": "Art and Plushies",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/457728/59f40d3082fe41af86e62f7f9275f870?token-time=2145916800\u0026token-hash=pJUqjcGIAG69LFerZ6hGXijmavT-TzW7SjSFMRLbIy8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/457728/59f40d3082fe41af86e62f7f9275f870?token-time=2145916800\u0026token-hash=M1Adnpn_nRO4B5Qbf7u8zy4f9eqYukW9ghrXHYSPjWg%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 30,
+    "pay_per_name": "month",
+    "pledge_sum": 51908,
+    "pledge_url": "/bePatron?c=457728",
+    "published_at": "2016-08-15T16:50:02+00:00",
+    "summary": "Hello! I\u0027m Alaina! Self-made artist and craftsman. I\u0027ve been running the convention circuit heavily for the past five years, selling my handmade goods and art as my sole job. The problem is, after all that time, I\u0027ve started to wear down a little. I would like to do more at-home work, rather than all the travelling all the time all year. It\u0027s been GREAT, but exhausting. I also started a webcomic, MommaCQ, and have plans to revive some of my older webcomics works for all you lovely people! It all depends on how things go, but I\u0027d like to thank everyone for their support in achieving my goals of living as a full time artist. Thank you!\u00a0\u003cbr\u003e"
+   },
+   "id": "457728",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2500744",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2500744"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "505444",
+       "type": "goal"
+      },
+      {
+       "id": "505472",
+       "type": "goal"
+      },
+      {
+       "id": "1183128",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-457728",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-457728"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "656038",
+       "type": "reward"
+      },
+      {
+       "id": "656064",
+       "type": "reward"
+      },
+      {
+       "id": "656065",
+       "type": "reward"
+      },
+      {
+       "id": "1284744",
+       "type": "reward"
+      },
+      {
+       "id": "656091",
+       "type": "reward"
+      },
+      {
+       "id": "656105",
+       "type": "reward"
+      },
+      {
+       "id": "656111",
+       "type": "reward"
+      },
+      {
+       "id": "656122",
+       "type": "reward"
+      },
+      {
+       "id": "1957533",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-11-06T20:52:15+00:00",
+     "facebook": "https://www.facebook.com/Loading-Crew-Crafts-124245364416171/",
+     "first_name": "Alaina",
+     "full_name": "Alaina Prana",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2500744/361d9e1c16ed4126b86fed86ecebb4ed?token-time=2145916800\u0026token-hash=0vjwQb7Gqc5VP9QSxQG8IUFcYKZ8k30yAVpKUNZtgkE%3D",
+     "last_name": "Prana",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2500744/361d9e1c16ed4126b86fed86ecebb4ed?token-time=2145916800\u0026token-hash=B_5T-i5xHEE7e9iu3qyqqRno3KaW-icQmXWa7W3p7-Q%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/Alainaprana",
+     "vanity": "Alainaprana",
+     "youtube": "https://www.youtube.com/channel/UCBG35VJkHkZlkdRwgmrT8yw"
+    },
+    "id": "2500744",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "457728",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/457728"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 323,
+     "upgrade_url": "/bePatron?c=457728\u0026rid=656038"
+    },
+    "id": "post-aggregation-for-0-457728",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-08-15T16:48:43+00:00",
+     "description": "Thank you!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eUnique Patreon Title and Exclusive Chat\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eMy deepest gratitude and thanks! Every little bit helps. Every single patron gets a special title and access to exclusive chat on our discord server!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-27T15:27:05.450224+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/656038/9759c6255f6e45c7a3a4a543706e7f3a?token-time=2145916800\u0026token-hash=5bsrB9LkvZUzf7qHZM-x8aALsMOb6GTN60u74fGjGiE%3D",
+     "patron_count": 12,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-08-15T16:48:43+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Thank You!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=457728\u0026rid=656038",
+     "user_limit": null
+    },
+    "id": "656038",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-08-15T16:48:43+00:00",
+     "description": "Totes RaD!!!\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eEarly viewing of finished comic pages!\u003c/li\u003e\n\u003cli\u003eMonthly Wallpapers!\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eRight now this will only consist of MommaCQ pages, but depending how things go I have plans and ideas for some other additional comics. Early pages will be posted the day before regular updates and will most likely be the rough draft sketches.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eI\u0027ve decided to add monthly wallpapers to this tier - most of these will consist of high quality uploads of most of my landscape prints but depending on how they go we may put the subject of the wallpaper to a vote. :D\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e~Includes all previous digital rewards~\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-30T18:11:06.017588+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/656064/39ff1a36f83049e48c71dd49af25eea9?token-time=2145916800\u0026token-hash=Xug3PEEWxbJxu5Vn4Li_JeOKk-SNV1gALRle4Lu6wBo%3D",
+     "patron_count": 5,
+     "post_count": 279,
+     "published": true,
+     "published_at": "2017-11-30T18:11:05.989853+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Early Viewings of Comics!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=457728\u0026rid=656064",
+     "user_limit": null
+    },
+    "id": "656064",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-08-15T16:48:43+00:00",
+     "description": "You\u0027re an edgy one, aren\u0027t ya?\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003e\u00a0-BETA READER - Access to ALL unedited/conceptual MommaCQ pages and any other future works.\u00a0\u00a0\u003c/li\u003e\n\u003cli\u003eSpecial thank you page\u00a0\u003cbr\u003e\n\u003c/li\u003e\n\u003cli\u003ePatreon only Live Stream\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e- BETA READER - access to all sketches, concepts, role plays, or potential scripts on all future projects\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eSpecial thank you credits page on Tumblr and DeviantArt\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eLivestream access to Patreon-only livestreams if/when we reach that goal.\u00a0\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0~Includes all previous digital rewards~\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-27T15:59:39.317606+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/656065/39c3c82c535946ee8fdbc4a82826cac7?token-time=2145916800\u0026token-hash=OhhMSno3QaPrPHejHrXT6jHjomc-zOSD-G5wB07xy4w%3D",
+     "patron_count": 6,
+     "post_count": 18,
+     "published": true,
+     "published_at": "2016-08-15T16:48:43+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "BETA Reader and LIVESTREAMS (when unlocked)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=457728\u0026rid=656065",
+     "user_limit": null
+    },
+    "id": "656065",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-01-15T02:06:10.293375+00:00",
+     "description": "Consultant time!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eWriting/Art/Sewing Consultant!\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eSo many people ask \"Can you look at my Story?\" or \"Can you critique my AU?\"\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eI would love to answer them all but unfortunately I cannot. This tier guarantees that you can get 1 hour of my time per month and we can hash out whatever it is you wanna work out in your story, comic, or whatever!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eConsulting available: Writing, convention, merchandise, business, and character info (I AM WIGGIDY FRESH EXPERT YO!)\u003cbr\u003e\n\u003c/p\u003e\n\u003cp\u003e\u00a0\u00a0~Includes all previous digital rewards~\u00a0\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-27T16:20:03.074174+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1284744/c4ba5ca2dba04ebd892524f1c5913b92?token-time=2145916800\u0026token-hash=WC_FfnJ22CYkdDAmRvmcdSqUs1VbZ4uOHaVQhvZBbEM%3D",
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-15T02:06:10.293375+00:00",
+     "remaining": 12,
+     "requires_shipping": false,
+     "title": "Consultant ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=457728\u0026rid=1284744",
+     "user_limit": 15
+    },
+    "id": "1284744",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-08-15T16:48:43+00:00",
+     "description": "Stream with me!!\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eScheduled Joint Streams on Picarto\u003c/li\u003e\n\u003cli\u003e15% Store/Commission discount!\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAt least once per month, I will schedule a large Picarto stream where we can all joint stream our artwork/gaming/whatever. We can also all get into a discord call and make it a giant party.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e15% exclusive discount to our website and all commissions.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e~Includes all previous (non-limited) digital rewards~\u00a0\u00a0\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-27T16:16:14.885688+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/656091/eb75ed0f912e45f995ba8b16a9fa04ef?token-time=2145916800\u0026token-hash=BOdWA166pVOzQWkjtAUEAx_GSvb7p1aMY7HWF2Ir9Q0%3D",
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-08-15T16:48:43+00:00",
+     "remaining": 9,
+     "requires_shipping": false,
+     "title": "Stream with me!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=457728\u0026rid=656091",
+     "user_limit": 10
+    },
+    "id": "656091",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2016-08-15T16:48:43+00:00",
+     "description": "Private Lessons!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e1 on 1 private art/sewing lessons\u003c/li\u003e\n\u003cli\u003e15% Store/Commission discount!\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eWanna learn to sew or draw? At this tier I will construct a 1 hour lesson plan just for you and do my best to teach you from scratch how to draw, make comics, or sew.\u003cbr\u003e\n\u003c/p\u003e\n\u003cp\u003e~Includes all previous (non-limited) digital rewards~\u00a0\u00a0\u00a0\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-27T16:21:37.974025+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/656105/34b45310eda042038a104c77c57b96c2?token-time=2145916800\u0026token-hash=isubqi4PKm-vGKpYeWe4EKnjf7S2kponrGNkEpeZqIg%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-15T16:48:43+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Private Lessons and Tutorials",
+     "unpublished_at": null,
+     "url": "/bePatron?c=457728\u0026rid=656105",
+     "user_limit": 5
+    },
+    "id": "656105",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-08-15T16:48:43+00:00",
+     "description": "Monthly Care Package!\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003e1 merch package sent to your house every month!\u003c/li\u003e\n\u003cli\u003e20% Store/Commission discount!\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eEvery month we will create a care package \u00a0full of art, merch, or toys to your door! (Additional charges for international or out of region orders)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eStore/Commission discount increased to 20%\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e~Includes all previous (non-limited) digital rewards~\u00a0\u00a0\u00a0\u00a0\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-27T16:31:17.438102+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/656111/c88b9da189e348c6be7062be9a03b475?token-time=2145916800\u0026token-hash=pdAcTpL3tZvErJz_wx-SGQ_X7lvzaJlHFeDA4LlKWoc%3D",
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-08-15T16:48:43+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Monthly Care Package!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=457728\u0026rid=656111",
+     "user_limit": null
+    },
+    "id": "656111",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2016-08-15T16:48:43+00:00",
+     "description": "Priority Commission Slot\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eRapid Commission Order\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eDo you need that commission from me RIGHT NOW?! Our commission window is very limited and it fills up fast.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAt this tier you can guarantee that I will make your commission item my top priority and I will work on it immediately regardless of the time of year. I will summon all of my dark edgy powers to conjure your masterpiece from my very blood if need be.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e(Commission turnaround time still varies. \u00a0it simply guarantees that you become top priority over creating comics or convention merch)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e(Thumbnail Artwork provided by breathingcolors)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\n~Includes all previous (non-limited) digital rewards~\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-27T16:49:59.897797+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/656122/a3a182a028b24ef5a463d307c2ca8941?token-time=2145916800\u0026token-hash=aupzZ6xjs-DvyABZQSl62D8qjWZvZg8UGei8vZ3mX38%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-15T16:48:43+00:00",
+     "remaining": 4,
+     "requires_shipping": true,
+     "title": "Priority Commissions Slots",
+     "unpublished_at": null,
+     "url": "/bePatron?c=457728\u0026rid=656122",
+     "user_limit": 5
+    },
+    "id": "656122",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-27T16:40:54.147705+00:00",
+     "description": "Your own Background Character!\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eYour OC becomes a background character!\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eDo you want your character in \u003cem\u003eMomma CQ\u003c/em\u003e, \u003cem\u003eJelly Realms\u003c/em\u003e, or in our upcoming \u003cem\u003eWorld View\u003c/em\u003e comic? Now you can!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eCharacter must be at least PG-13 appropriate (No NSFW designs) and they will be in the background of upcoming comic chapters!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlease provide a detailed image or description of your character so that we can be as accurate as possible.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0~Includes all previous (non-limited) digital rewards~\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-27T16:48:25.823562+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1957533/965d07bd90b644558e172260c52d1402?token-time=2145916800\u0026token-hash=HR2DvKaZRpG9AHwfdBQ6fO42kze0oGRls3OYW-qln-M%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-27T16:40:54.147705+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Background Character!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=457728\u0026rid=1957533",
+     "user_limit": 3
+    },
+    "id": "1957533",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 100,
+     "created_at": "2016-08-07T18:07:34+00:00",
+     "description": "If we reach this goal I will add scheduled Patreon-only live streams for $10 and up backers.\u00a0\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": "2018-04-23T17:09:31+00:00",
+     "title": ""
+    },
+    "id": "505444",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 100,
+     "created_at": "2016-08-07T19:10:52+00:00",
+     "description": "If we reach $500 a month, I\u0027ll be able to cut back from conventions a little more and focus on making more online content. This will most likely be wecomics, but I have a few other ideas I can expand on as well.\u00a0",
+     "reached_at": "2018-05-05T22:47:29+00:00",
+     "title": ""
+    },
+    "id": "505472",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 51,
+     "created_at": "2018-04-24T21:36:56+00:00",
+     "description": "Holy wow, if we reach this goal I will be infinitely more stable to be able to work at home, keeping conventions to a few \u0027must do\u0027 shows and maybe we can even come up with something special to do just for you guys?? At this goal I\u0027ll easy be able to keep up extra equipment and upkeep costs, and stave off any \u0027hiccups\u0027 that happen - unless its something disastrous. But lets not jinx it.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1183128",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/457728"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "a143d77f-66d2-4514-aaa7-f3c32284c79b",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Alaina Prana is creating Art and Plushies"
+});
+    </script>

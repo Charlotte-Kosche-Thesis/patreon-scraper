@@ -1,0 +1,479 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "b6ZBM1EYGmMsP9FRcpe6K3ev62S2vUkNaBouVCcyfmQ";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "111792",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/111792"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-07-13T03:57:53+00:00",
+    "creation_name": "Comics and Illustrations",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/191715/23dd49dccd8242b1b1aa7f34b7688272?token-time=2145916800\u0026token-hash=XKfiR4GtB4b8NcJR2Yj0ZA6HGfJNgCmQ9MWGNOiXeQg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/191715/23dd49dccd8242b1b1aa7f34b7688272?token-time=2145916800\u0026token-hash=lLXfTX_I2PurRgJMxtuG25Sv74VHn80onpe3o4ZX6e4%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "changing the world one panel at a time.",
+    "patron_count": 25,
+    "pay_per_name": "month",
+    "pledge_sum": 33575,
+    "pledge_url": "/bePatron?c=191715",
+    "published_at": "2015-11-13T11:47:41+00:00",
+    "summary": "\u003cimg src=\"http://marginalizedpublications.com/img/patreon%20intro.jpg\"\u003eHey Droogies! Check out the short comic above to learn a bit about me and my work. By now you probably know that Patreon is a way for you to show your support for my creating comics. It is not payment for, but to show appreciation... the majority of my work will be posted free online at\u00a0\u003ca href=\"http://dogspunk.com/marginalizedpublications/index.html\" rel=\"nofollow\" target=\"_blank\"\u003emarginalized publications\u003c/a\u003e. If you like my work (and you probably do if you are here and reading this) please follow and if you can afford to, become a patron, even at the minimum. This page helps me make ends meet and keeps me making comics. Check it out!"
+   },
+   "id": "191715",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "901952",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/901952"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "282153",
+       "type": "goal"
+      },
+      {
+       "id": "282154",
+       "type": "goal"
+      },
+      {
+       "id": "282155",
+       "type": "goal"
+      },
+      {
+       "id": "282156",
+       "type": "goal"
+      },
+      {
+       "id": "282157",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-191715",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-191715"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1062976",
+       "type": "reward"
+      },
+      {
+       "id": "357808",
+       "type": "reward"
+      },
+      {
+       "id": "357809",
+       "type": "reward"
+      },
+      {
+       "id": "357810",
+       "type": "reward"
+      },
+      {
+       "id": "357812",
+       "type": "reward"
+      },
+      {
+       "id": "357813",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Hey Doogies! My name is Dave, I go by \"dogspunk\" and \"ddog\" and \"that asshole\". I am an artist, but you know that. I\u0027ve been an animator, illustrator, comicbook creator, and tattoo artist in my time. My passion is telling stories visually. My focus is to make comics everyday, and some animation as well, whether motion comics from my existing comics, or original short films.",
+     "created": "2015-07-09T20:47:10+00:00",
+     "facebook": "",
+     "first_name": "Dave",
+     "full_name": "Dave Davenport (dogspunk)(marginalized publications)",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/901952/4fd0ec8f924f4847bf4e413beb1323f1?token-time=2145916800\u0026token-hash=MFck_urytmg6j_7bkkW8DsgmwJ20J0aGIZCbZUlekdY%3D",
+     "last_name": "Davenport (dogspunk)(marginalized publications)",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/901952/4fd0ec8f924f4847bf4e413beb1323f1?token-time=2145916800\u0026token-hash=XjEMOQxFjYejO1c27mp88Tn3o1nlz4AorqHrh_kiv0U%3D",
+     "twitch": null,
+     "twitter": "dogspunk4reals",
+     "url": "https://www.patreon.com/dogspunk",
+     "vanity": "dogspunk",
+     "youtube": "https://www.youtube.com/user/dogspunk"
+    },
+    "id": "901952",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "191715",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/191715"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 131,
+     "upgrade_url": "/bePatron?c=191715\u0026rid=1062976"
+    },
+    "id": "post-aggregation-for-0-191715",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-21T02:45:56+00:00",
+     "description": "Thanks!\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eI will list you in the credits of my books (unless you want to remain anonymous).\u003c/li\u003e\n\u003cli\u003eall patrons have access to new pages up to a week earlier than the public!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-12T04:59:40.833469+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1062976/521c4bbebece476ea0cf8cc18641953e?token-time=2145916800\u0026token-hash=nX_-xDJA3eO3FHo5UbhP7pUc0VpyVrgyem72MHxTbhE%3D",
+     "patron_count": 2,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-12-12T04:59:40.809851+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "stray bullet",
+     "unpublished_at": null,
+     "url": "/bePatron?c=191715\u0026rid=1062976",
+     "user_limit": null
+    },
+    "id": "1062976",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-21T02:45:56+00:00",
+     "description": "Thanks!\u00a0\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eNew patrons will receive a one-time only welcome sketch of a character of their choice!\u003c/li\u003e\n\u003cli\u003eYou have access to my patrons only feed!\u00a0\u003c/li\u003e\n\u003cli\u003e\u00a0I will list you in the credits of my books (unless you want to remain anonymous).\u003c/li\u003e\n\u003cli\u003eall patrons have access to new pages up to a week earlier than the public!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-12T04:59:14.514987+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/357808/48a3841e458a4e29bd9b35997ea14f85?token-time=2145916800\u0026token-hash=wbStO35viLAXz2qyjki-BSbRiE4xvlXtKYLPmOlHXIA%3D",
+     "patron_count": 1,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2017-12-12T04:59:14.494935+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "pup",
+     "unpublished_at": null,
+     "url": "/bePatron?c=191715\u0026rid=357808",
+     "user_limit": null
+    },
+    "id": "357808",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-21T02:45:56+00:00",
+     "description": "Many thanks!\u00a0\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eYou can suggest what I draw as a warm-up sketch; I will rotate among the suggestions.\u003c/li\u003e\n\u003cli\u003eYou may vote in patron polls! From time to time, I use my patron hive-mind to decide between options for subject matter, whether for a pin-up, shirt, painting!\u003c/li\u003e\n\u003cli\u003ePlus all of the rewards from lower tiers!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-09T11:37:30.184414+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/357809/3f094103aebc40038843d7393a524b75?token-time=2145916800\u0026token-hash=Sta1xw6kw6VW9J-_cimtk42FRytOZYrZL8Wntdxu-ZI%3D",
+     "patron_count": 4,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-12-09T11:37:30.163945+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "wolf-boy",
+     "unpublished_at": null,
+     "url": "/bePatron?c=191715\u0026rid=357809",
+     "user_limit": null
+    },
+    "id": "357809",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-21T02:45:56+00:00",
+     "description": "Many many thanks!\u00a0\u003cbr\u003e\n\u003cul\u003e\n\u003cli\u003eI am going to draw you into a story!\u00a0\u003c/li\u003e\n\u003cli\u003eYou can suggest what I draw as a warm-up sketch; I will rotate among the suggestions.\u003c/li\u003e\n\u003cli\u003eYou may vote in patron polls! From time to time, I use my patron hive-mind to decide between options for subject matter, whether for a pin-up, shirt, painting!\u003c/li\u003e\n\u003cli\u003ePlus all of the rewards from lower tiers!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-10T01:54:54.790756+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/357810/d63345f883a44b558117b910848173dc?token-time=2145916800\u0026token-hash=1SFopAId8alKYXUMcFWmTIXw8WkDUz5sNG0F1pzlkZk%3D",
+     "patron_count": 12,
+     "post_count": 14,
+     "published": true,
+     "published_at": "2017-12-10T01:54:54.766988+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "blood brother",
+     "unpublished_at": null,
+     "url": "/bePatron?c=191715\u0026rid=357810",
+     "user_limit": null
+    },
+    "id": "357810",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-11-21T02:45:56+00:00",
+     "description": "So much thank yous!\u00a0\n\u003cul\u003e\n\u003cli\u003eI am going to draw you into a story and draw you as a character pin-up to go along with your appearance!\u003c/li\u003e\n\u003cli\u003ePlus all of the rewards from lower tiers!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-09T22:28:14.513017+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/357812/a1eabd4380e644468f571097a02a3a23?token-time=2145916800\u0026token-hash=kM4izfs94tU_FibbPX7b1Bbu7Ja20Hijbh4nKT2Jvt0%3D",
+     "patron_count": 4,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-12-09T22:28:14.480611+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "skin walker",
+     "unpublished_at": null,
+     "url": "/bePatron?c=191715\u0026rid=357812",
+     "user_limit": null
+    },
+    "id": "357812",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-11-21T02:45:56+00:00",
+     "description": "Did I thank you already?\n\u003cul\u003e\n\u003cli\u003eat least once a year, I will do an item of shwag, be it shirt, a sticker, a poster, that you can chose the subject matter of!\u003c/li\u003e\n\u003cli\u003eI am going to do a digital painting/portrait of you (or anyone of your choice).\u003c/li\u003e\n\u003cli\u003ePlus all of the rewards from lower tiers!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-12T05:03:49.231165+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/357813/3a35c65383d848bb959f9be093af1d4e?token-time=2145916800\u0026token-hash=ypWBDdu2NecATeGSDK-VqwzJrUZiC0LXbDEZgvK9aDc%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-12T05:03:49.209936+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "kwewu",
+     "unpublished_at": null,
+     "url": "/bePatron?c=191715\u0026rid=357813",
+     "user_limit": null
+    },
+    "id": "357813",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2015-11-13T10:07:33+00:00",
+     "description": "This will help pay for art supplies and website upkeep each month. Also, Hooray!\u00a0\u003cbr\u003eLong past this goal, and the celebratory rewards is\u00a0\u003cbr\u003e\u003ca href=\"http://marginalizedpublications.com/wallpaper.html\" target=\"_blank\"\u003eHERE\u003c/a\u003e. Feral and the Ghost Skater wallpapers for all sorts of devices!\u003cbr\u003e",
+     "reached_at": "2015-11-13T13:23:32+00:00",
+     "title": ""
+    },
+    "id": "282153",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 100,
+     "created_at": "2015-11-13T10:07:33+00:00",
+     "description": "Two fifty maighty nifty.\u00a0\u003ca href=\"http://marginalizedpublications.com/pin-ups.html\" target=\"_blank\"\u003eLet\u0027s do a pin-ups to celebrates!\u003c/a\u003e Right click and save on the image once you have it open. To chose which one to print out, find out if your printer is RGB or CMYK. Most are CMYK, but you never know. For best results, take the file to kinkos and have them print it out with one of their fancy machines... home printers often can\u0027t do the colors justice.",
+     "reached_at": "2015-11-14T13:56:46+00:00",
+     "title": ""
+    },
+    "id": "282154",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 67,
+     "created_at": "2015-11-13T10:07:33+00:00",
+     "description": "\u003cimg src=\"http://marginalizedpublications.com/patreon/sketchbook.jpg\"\u003eThis will really be helping my ends meet, and I can start thinking about buying new underwear again. To celebrate making this goal, how about a sketchbook? I\u0027ve gotten quite a number of pin-ups and such done as rewards for kickstarter campaigns that would make a lovely art book!\u003cbr\u003e\u003cimg src=\"http://marginalizedpublications.com/patreon/sketchbook2.jpg\"\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "282155",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 33,
+     "created_at": "2015-11-13T10:07:33+00:00",
+     "description": "This would mean so much, it would mean that I am actually making the majority of what I need to get by each month with what takes up the majority of my time.\u00a0Also, how about a new tee-shirt design? I will take a very democratic poll on what people want and then do whatever I want! Just kidding. Feedback on shirts is very important. Otherwise they sit in boxes and you can\u0027t give them away!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "282156",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 16,
+     "created_at": "2015-11-13T10:07:33+00:00",
+     "description": "I can legitimately spend more time making more content. How should we celebrate? I know, I\u0027ll have one of the talented tattooist in my shop ink one of my characters on me! Ouch!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "282157",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/191715"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "827a0715-7de4-4a74-a1a0-4aafe9fea133",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Dave Davenport (dogspunk)(marginalized publications) is creating Comics and Illustrations"
+});
+    </script>

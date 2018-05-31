@@ -11,14 +11,15 @@ from bs4 import BeautifulSoup
 import csv
 import requests
 from pathlib import Path
+from time import sleep
 
 # http://skipperkongen.dk/2016/09/09/easy-parallel-http-requests-with-python-and-asyncio/
 import asyncio
 from concurrent.futures import ThreadPoolExecutor
 
 
-BATCH_SIZE = 100
-WORKER_COUNT = 20
+BATCH_SIZE = 50
+WORKER_COUNT = 15
 SRCPATH = Path('datadump', 'graphtreon', '2018-04.csv')
 DATA_DIR = Path('datadump', 'patreon', 'overviews')
 DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -114,7 +115,7 @@ def main():
     paths = [(s, url, dest) for s, url, dest in all_paths if not dest.exists()]
     print("remaining paths:", len(paths))
     print("-------------------------\n\n")
-    batches = list(make_batches(paths, BATCH_SIZE))[0:100]
+    batches = list(make_batches(paths, BATCH_SIZE))
 
 
     for i, batch in enumerate(batches):
@@ -123,6 +124,7 @@ def main():
         print("---------------")
         loop = asyncio.get_event_loop()
         loop.run_until_complete(batch_fetch(batch))
+        sleep(1)
 
 
 

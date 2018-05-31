@@ -1,0 +1,476 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "UVU4PJIxjlwgMdjTUTX_UGYy---8dSskap4a_9UkRxU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "313575",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/313575"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-12-06T17:35:00+00:00",
+    "creation_name": "Podcasts on Science and the Paranormal",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/640368/c41f779e9e9b4bb0a68aadcec0e33a57?token-time=2145916800\u0026token-hash=3LCifI5DO40_KqAdjqe8c2QkyX2CDyzyslQQ2ouWZcs%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/640368/c41f779e9e9b4bb0a68aadcec0e33a57?token-time=2145916800\u0026token-hash=5JFcOiu6sbmx1xd4zRTRw5hclIidf00Bw7JpoF-VXCI%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/Sz9cXtyVPXY\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/Sz9cXtyVPXY",
+    "one_liner": null,
+    "patron_count": 23,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=640368",
+    "published_at": "2016-12-06T17:59:17+00:00",
+    "summary": "Hello listeners of the Mad Scientist Podcast! Thank you so much for even checking out the Patreon page, and of course thanks for listening to the show. The hope is to one day be able to commit 100% of my time to creating this show as well as a slew of extra content including videos, at home lab kits, longer episodes with more in depth content, and supporting other growing science podcasters. If you like the show, and would like a lot more of it, then consider supporting us!"
+   },
+   "id": "640368",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4565538",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4565538"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "867570",
+       "type": "goal"
+      },
+      {
+       "id": "867571",
+       "type": "goal"
+      },
+      {
+       "id": "867572",
+       "type": "goal"
+      },
+      {
+       "id": "867573",
+       "type": "goal"
+      },
+      {
+       "id": "1154029",
+       "type": "goal"
+      },
+      {
+       "id": "1154030",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-640368",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-640368"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1133004",
+       "type": "reward"
+      },
+      {
+       "id": "2480592",
+       "type": "reward"
+      },
+      {
+       "id": "2480606",
+       "type": "reward"
+      },
+      {
+       "id": "2480906",
+       "type": "reward"
+      },
+      {
+       "id": "2480970",
+       "type": "reward"
+      },
+      {
+       "id": "2480921",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m the host of the Mad Scientist Podcast, a show about the weird and spooky sides of science! Every week I publish a new episode on psuedoscience, myths, and hard scientific facts as a podcast!",
+     "created": "2016-12-06T17:34:43+00:00",
+     "facebook": "https://www.facebook.com/themadscientistpodcast/",
+     "first_name": "The",
+     "full_name": "The Mad Scientist Podcast",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4565538/6791a0ced1fd4709bc29b7bbf6e9201e?token-time=2145916800\u0026token-hash=lI7qfddTDa1h1GT5Mf_e6xmE46DWy8Bd8iSuBg6kYv4%3D",
+     "last_name": "Mad Scientist Podcast",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4565538/6791a0ced1fd4709bc29b7bbf6e9201e?token-time=2145916800\u0026token-hash=tFiKxI5TsWEFJ5VBG-sJ0SJAssd8DCUTfx6t_PPOViM%3D",
+     "twitch": null,
+     "twitter": "MadScientistPod",
+     "url": "https://www.patreon.com/TheMadScientistPodcast",
+     "vanity": "TheMadScientistPodcast",
+     "youtube": null
+    },
+    "id": "4565538",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "640368",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/640368"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 16,
+     "upgrade_url": "/bePatron?c=640368\u0026rid=1133004"
+    },
+    "id": "post-aggregation-for-0-640368",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-12-06T17:36:43+00:00",
+     "description": "THANK YOU FOR SUPPORTING THE SHOW! You aren\u0027t just a listener, your a close, personal friend of the Mad Scientist Podcast. Hey by the way, new friend, we\u0027re moving next weekend. Can we use your truck?\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIf you join this Patreon page for $1 a month\u00a0you get access to:\u003c/p\u003e\n\u003cp\u003e- Bonus Videos featuring show recaps\u003c/p\u003e\n\u003cp\u003e- A hand drawn thank you doodle\u003c/p\u003e\n\u003cp\u003e- A sticker of the main show logo\u003c/p\u003e\n\u003cp\u003e- Voting for bonus episode and deep dive content\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-27T23:37:11.920783+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1133004/1522d3be584f4c14b47dd408acb9ebf1?token-time=2145916800\u0026token-hash=zxXORh8H2GpF1fynnxhmQmqtt2_ugLcOiUQwcgbatM8%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-27T23:37:11.911402+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Friends of the Mad Scientist",
+     "unpublished_at": null,
+     "url": "/bePatron?c=640368\u0026rid=1133004"
+    },
+    "id": "1133004",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-03-27T23:51:26.489858+00:00",
+     "description": "You don\u0027t just think that the Earth is flat, you KNOW it. And no amount of factual evidence, photographic proof, or even a trip to outer space to see for yourself would make you think otherwise. Stupid science nerds.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIf you join this Patreon page for $5 a month\u00a0you get:\u003c/p\u003e\n\u003cp\u003e- All $1 rewards\u003c/p\u003e\n\u003cp\u003e- A 5 sticker super pack\u003c/p\u003e\n\u003cp\u003e- A show button\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-27T23:51:26.489858+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2480592/5b2336c6b4124760bd00d17fbcebc598?token-time=2145916800\u0026token-hash=U8BX7GZ9eVEjN53_aT_mmQ-uVpxJMB7QBJoyW5aeCGc%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-27T23:51:26.489858+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Flat Earther",
+     "unpublished_at": null,
+     "url": "/bePatron?c=640368\u0026rid=2480592"
+    },
+    "id": "2480592",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-03-27T23:57:05.444376+00:00",
+     "description": "You look to the skies for the secret poison being spread to our communities, and make longwinded Youtube videos discussing the trails you\u0027ve seen that day. Science be damned, their turning the Frogs gay!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIf you join this Patreon page for $10 a month\u00a0you get:\u003c/p\u003e\n\u003cp\u003e- All Previous rewards\u003c/p\u003e\n\u003cp\u003e- A mug with the show logo\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-27T23:57:05.444376+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2480606/de08047e9e0c403b94b6a9a943134a9c?token-time=2145916800\u0026token-hash=zGlJoXQUDi4n0pUoIkwgSkM_g5OkMQ9d-n0R4t-y630%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-27T23:57:05.444376+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Chemtrail Enthusiast",
+     "unpublished_at": null,
+     "url": "/bePatron?c=640368\u0026rid=2480606"
+    },
+    "id": "2480606",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-03-28T01:49:56.141825+00:00",
+     "description": "You\u0027ve transcended past all the paranoia, the misinformation, and the bad photoshop jobs. You\u0027re the lone voice of reason online, fighting back conspiracy with facts and figures. You know, a government shill!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIf you join this Patreon page for $25 a month\u00a0you get:\u003c/p\u003e\n\u003cp\u003e- All Previous rewards\u003c/p\u003e\n\u003cp\u003e- An exclusive artifact from the Mad Science Lab\u003c/p\u003e\n\u003cp\u003e- An official Mad Science Shill card!\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-28T02:21:38.159789+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2480906/c897692bfcd04a5e9403ce1eea10ca4a?token-time=2145916800\u0026token-hash=H5VcHXzevW4CXDCYbnCm4oseQ-QkliBXv_K7Pnx0wAk%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-28T02:21:38.153023+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Government Shill",
+     "unpublished_at": null,
+     "url": "/bePatron?c=640368\u0026rid=2480906"
+    },
+    "id": "2480906",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-03-28T02:24:46.005483+00:00",
+     "description": "You love the ocean, you love podcasts, and you love having gross tentacle sucker things. You\u0027re a squid with a plan. Not sure how you\u0027ll get the T-shirt on. But that\u0027s none of my business, I guess.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIf you join this Patreon page for $50 a month\u00a0you get:\u003c/p\u003e\n\u003cp\u003e- All Previous rewards\u003c/p\u003e\n\u003cp\u003e- A show T-Shirt\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-28T02:31:54.682614+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2480970/bfadbfd898f140d4b4b79f93e7115086?token-time=2145916800\u0026token-hash=otVRZgE-pO9ZuqcBIIMkrfNCKhfZF_CrjRCyVZTPbuQ%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-28T02:31:54.673635+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Marie\u0027s Squid Pod",
+     "unpublished_at": null,
+     "url": "/bePatron?c=640368\u0026rid=2480970"
+    },
+    "id": "2480970",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-03-28T01:57:28.544155+00:00",
+     "description": "You aren\u0027t just a fan of the Mad Sciences, you\u0027re a full on Mad Scientist yourself. Your dedication to zombies, ghosts, Bigfeet and ghouls is admirable and, frankly, a little scary.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIf you join this Patreon page for $100 a month\u00a0you get:\u003c/p\u003e\n\u003cp\u003e- All Previous rewards\u003c/p\u003e\n\u003cp\u003e- A painting of a spooky creature or scene of your choice!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-28T02:22:43.013323+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2480921/303bdee5425c4de0ae910cfbf0ce4186?token-time=2145916800\u0026token-hash=7n-xqoKoSIRN3Jw8dOe5w-VZA4-xu0nTl1OJIeHnEKk%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-28T02:22:43.004151+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mad Scientist",
+     "unpublished_at": null,
+     "url": "/bePatron?c=640368\u0026rid=2480921"
+    },
+    "id": "2480921",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2017-06-14T14:54:50+00:00",
+     "description": "If we hit $50 per month we will be able to upgrade to better microphones, making the show sound better and improving quality for you listeners!",
+     "reached_at": "2017-09-28T01:35:06+00:00",
+     "title": ""
+    },
+    "id": "867570",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 66,
+     "created_at": "2017-06-14T14:54:50+00:00",
+     "description": "If we hit $100 per month we can start making bonus video content longer and more detailed for Patrons!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "867571",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 26,
+     "created_at": "2017-06-14T14:54:50+00:00",
+     "description": "At this point we can spend more time on episodes, and start creating more content for everyone! Videos, bonus episodes, and whatever else you Patrons think might be fun! This will allow us to buy books and materials for more in depth episodes!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "867572",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2017-06-14T14:54:50+00:00",
+     "description": "If we ever hit $5000 a month this show will become a full time job, allowing us to focus on the creation of content for you and the search for the existence of all the weird stuff on our show.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "867573",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 13,
+     "created_at": "2018-03-28T02:12:57+00:00",
+     "description": "$500 a month will allow us to start buying paranormal testing equipment, and begin testing them via videos on the Youtube Channel! Ever wanted to see what a ghost hunting device would do if you shoot it full of X-rays? ME TOO!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1154029",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 6,
+     "created_at": "2018-03-28T02:12:57+00:00",
+     "description": "Hitting this goal would mean we could start to get better equipment to make the show sound better for all of you! Better mics, soundproofing, better wines for Marie to drink while recording, and better computers!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1154030",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/640368"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "9857745c-aa41-461f-849c-710e7a7387ff",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "The Mad Scientist Podcast is creating Podcasts on Science and the Paranormal"
+});
+    </script>

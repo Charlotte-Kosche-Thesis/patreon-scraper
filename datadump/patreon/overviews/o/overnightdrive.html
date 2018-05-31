@@ -1,0 +1,461 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Zudfg2wY7IIszkEs8_tEczhuTkszkwt_O-HFr-7Gpgw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "395275",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/395275"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-06-08T19:53:21+00:00",
+    "creation_name": "Podcasts",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/387552/2725e2637d224ee9ac7ebf28e1e5554e?token-time=2145916800\u0026token-hash=u_leSmBO0HuUANXYzjMsHR2VBWQCNJd_CLC6v7Cs9Hg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/387552/2725e2637d224ee9ac7ebf28e1e5554e?token-time=2145916800\u0026token-hash=RVRcf1ZeF08zRSMxRVFj9E_66_9EdLrqMtOB98ppNg8%3D",
+    "is_monthly": false,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 34,
+    "pay_per_name": "episode",
+    "pledge_url": "/bePatron?c=387552",
+    "published_at": "2017-03-26T14:40:47+00:00",
+    "summary": "I always find it so off putting when you listen to a podcast that is in it\u0027s third episode and the host is going on and on about how \"the show has to sustain itself\", in some kind of passive aggressive veiled threat. Go to hell, dickhead. Enjoy doing what you do or go find something else.\u003cbr\u003e\u003cbr\u003eA podcast is not expensive to run. That\u0027s why literally everybody has one. The barrier to entry is insanely low. We are on year four of Overnight Drive and I sincerely doubt that either of us are in this over $1000. It\u0027s effort heavy and cash cheap.\u003cbr\u003e\u003cbr\u003eBut what we\u0027re both starting to learn is that running a podcast and growing a podcast are not the same thing. We get offers to do live shows somewhat often, have some interesting pitches that come through, and larger ideas that we\u0027d like to make real. But more often than not I wind up passing on them just due to the fact that our system is a bit of a mess. People extending us these offers are forced to take on the bulk of the risk and that\u0027s hard to justify when your entire playbook is \"let\u0027s go up and wing it.\" We appreciate the hell out of everything that is extended to us, but it never feels like we can add the value that we want. \u003cbr\u003e\u003cbr\u003eThe traditional antidote to this is to sell advertising. I see the benefit on paper. More stakeholders means more accountability and greater means to grow. But the problem here is basic. Advertising sucks. It sucks to do, it sucks to listen to people do it. Nearly everything moving backwards on the web can be traced back to advertising. The people who create it and perpetuate it suck. It\u0027s manipulative and ruins art and confuses creators as to where their time is best spent. Is there any part of you that honestly thinks that I would ever have a stake in what kind of online shop platform you use? Would that ever be a genuine moment of insight in our podcast?\u00a0\u003cbr\u003e\u003cbr\u003eIt\u0027s naive of me to say that I will never be in a position where I have to use a traditional advertising model. Life is long and I\u0027ve got a lot of things I want to do. But it\u0027s easy for me to say that we will not be taking ad money on Overnight Drive. It\u0027s just not going to be a thing.\u003cbr\u003e\u003cbr\u003eSo as our options are narrowed considerably by having adult brains and consciences, we were left with crowdfunding. Again, good on paper but the model largely didn\u0027t fit our output.\u00a0As I started to explore the idea of user support, I came to three non-negotiables for any platform I would feel comfortable using.\u003cbr\u003e\u003col\u003e\u003cli\u003eBe unintrusive - Reading on-air ads seems to be the most undignified act in podcasting today and creates a shitty experience for the listener. The appropriate platform would have no editorial impact.\u003c/li\u003e\u003cli\u003eBe reasonable - Other platforms would either require listeners to pay $10 or $20 a month, or offer a tiered model, which is some draconian shit. We don\u0027t podcast to hedge fund managers and it\u0027s hostile to pretend that $10 to me means the same thing to you.\u003c/li\u003e\u003cli\u003eBe accountable - While it would ideally improve our workflow, it couldn\u0027t jeopardize our content by imposing a strict timeline or punish supporters by inducing a variable into the support value. In plain English: we don\u0027t want bosses but we don\u0027t want to fuck you out of money if we miss a week from time to time.\u003c/li\u003e\u003c/ol\u003eNo crowdfunding platforms managed to meet all three of these requirements until Patreon allowed for a per-episode subscription as opposed to a per-month. I don\u0027t know if this is a new thing, or if they have always offered it and I\u0027m just dumb as shit and can\u0027t read. In any event, it meets our list of demands. So our ideal model is very simple: a suggested patronage of $1 per episode. Ideally four episodes per month (never more than five). You can give more than that if you like, you can give nothing at all. Entirely up to you.\u003cbr\u003e\u003cbr\u003eAs the podcast becomes self sufficient and hopefully beyond, we can start to work towards some of the loftier goals that have been outside our reach\u003cbr\u003e\u003cul\u003e\u003cli\u003eImproving our equipment \u0026amp; upgrading our bandwidth for Skype interviews, group episodes, etc.\u003c/li\u003e\u003cli\u003eCreating a more centralized site for people to go for our latest episodes \u0026amp; other news rather than always trying to keep five different social media accounts up to date\u003c/li\u003e\u003cli\u003eMaintaining a full archive and other weird projects like \"The Thing\"\u003c/li\u003e\u003cli\u003eMore live shows and the possibility of touring\u003c/li\u003e\u003cli\u003eQuicker turnaround on merchandise fulfillment\u003c/li\u003e\u003cli\u003eFinally get that weird intern we\u0027ve been searching for\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003eSo here\u0027s the bottom line. We aren\u0027t going to stop Overnight Drive. It keeps us happy and sane. We aren\u0027t going to hold our listeners hostage and waste your time pretending that we prefer one web hosting platform or underwear company over another. We aren\u0027t going to upsell you on some pay-only episode bullshit. That\u0027s all very gauche and outdated. This podcast will continue on for free regardless of support, perhaps until one of our deaths. Time will tell on that. If the projects above are something you want to see happen, jumping into the donation pool would be a very cool move and we would super appreciate it. Over the next few days and weeks we\u0027ll have some bonuses to offer and some non-episode content for our backers coming down the pipeline as a thank you, so check back often and thanks for your support.\u003cbr\u003e\u003cbr\u003eTell your weird friend.\u003cbr\u003e\u003cbr\u003e-Andrew, 3/24/17\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "387552",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3457917",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3457917"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "449569",
+       "type": "goal"
+      },
+      {
+       "id": "449570",
+       "type": "goal"
+      },
+      {
+       "id": "449571",
+       "type": "goal"
+      },
+      {
+       "id": "449572",
+       "type": "goal"
+      },
+      {
+       "id": "449573",
+       "type": "goal"
+      },
+      {
+       "id": "762992",
+       "type": "goal"
+      },
+      {
+       "id": "762993",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-387552",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-387552"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1528642",
+       "type": "reward"
+      },
+      {
+       "id": "1528645",
+       "type": "reward"
+      },
+      {
+       "id": "1528648",
+       "type": "reward"
+      },
+      {
+       "id": "1528666",
+       "type": "reward"
+      },
+      {
+       "id": "1941163",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Two men screaming down the interstate on the overnight drive of existence.\u00a0",
+     "created": "2016-06-08T19:53:09+00:00",
+     "facebook": "https://www.facebook.com/Overnightdrive",
+     "first_name": "Overnight",
+     "full_name": "Overnight Drive",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3457917/7149636c6c364f15aa8bc6d2b3df188b?token-time=2145916800\u0026token-hash=kqzS9wpS24n-DFBsohJIhX5AZcK-IrdbP-3hLpTVs8I%3D",
+     "last_name": "Drive",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3457917/7149636c6c364f15aa8bc6d2b3df188b?token-time=2145916800\u0026token-hash=hXB4nRHnQSNmrBZclyA42MDg5j8F6plw79VGk2LWzY4%3D",
+     "twitch": "",
+     "twitter": "overnight_drive",
+     "url": "https://www.patreon.com/overnightdrive",
+     "vanity": "overnightdrive",
+     "youtube": "https://www.youtube.com/OvernightDrive"
+    },
+    "id": "3457917",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "387552",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/387552"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 21,
+     "upgrade_url": "/bePatron?c=387552\u0026rid=1528642"
+    },
+    "id": "post-aggregation-for-0-387552",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-03-25T18:55:47.413315+00:00",
+     "description": "You are very cool, handsome/beautiful and we appreciate you. A dollar\u0027s worth of appreciation is enough. Emotions fail us. Drink more water. Sorry. Thank you.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-20T23:08:31.063806+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-25T18:55:47.413315+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Become A Weird Friend",
+     "unpublished_at": null,
+     "url": "/bePatron?c=387552\u0026rid=1528642"
+    },
+    "id": "1528642",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-03-25T18:56:39.152339+00:00",
+     "description": "We know once they leave you you\u0027ll switch back to $1 or cancel but we appreciate displays of bravado. We hope you get some leg and ETPTYB.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-20T23:08:31.086768+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-25T18:56:39.152339+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Impress the Woman You Are With, Intimidate the Man You Are With",
+     "unpublished_at": null,
+     "url": "/bePatron?c=387552\u0026rid=1528645"
+    },
+    "id": "1528645",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-03-25T18:58:07.375769+00:00",
+     "description": "One of our projects it to compile an archive. That way if our hosting tanks once podcasts go off trend, or they stop retaining the older episodes, \u00a0everything will be safe, centralized and accessible. We\u0027ll also add music projects, videos, intro/outro songs, Girlfriend\u0027s Kid calls etc.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-26T14:01:54.677605+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-25T18:58:07.375769+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Early Archive Access",
+     "unpublished_at": null,
+     "url": "/bePatron?c=387552\u0026rid=1528648"
+    },
+    "id": "1528648",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-03-25T19:01:44.304350+00:00",
+     "description": "Want us to Girlfriends Kid your boss at the pizza spot? Call your coop and ask for juice? Everyone in here gets a prank call request.\u003cbr\u003e\u003cbr\u003eAlso, because Andrew will never go for this, I (Hans) am offering a once-a-month AMA. Get your questions in in person. Give me Girlfriend\u0027s Kid prank ideas. Call me a dick. It\u0027s your 10 bucks. Your own personal give and take for as long as I can stand it. Lousy idea? Give in anyway.",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-20T23:08:30.818782+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-25T19:01:44.304350+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Hire A Girlfriend\u0027s Kid and Skype AMA with Hans",
+     "unpublished_at": null,
+     "url": "/bePatron?c=387552\u0026rid=1528666"
+    },
+    "id": "1528666",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-08-20T23:08:31.055465+00:00",
+     "description": "All previous rewards, plus your very own place in OND history with an opportunity to pose a topic, subject, or shitty band you want to plug and WE HAVE TO DO IT. We have close to 1M downloads and lots of people listen. It could be fun to have us mention your really lousy band on air and watch the 10 second plays on bandcamp\u00a0pile up! We will also mail you some garbage from OND history. You won\u0027t know what you\u0027ll be getting; we guarantee it\u0027ll be awesome. You may even end up with the 2007\u00a0Acer.\u00a0\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-20T23:08:31.055465+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-20T23:08:31.055465+00:00",
+     "remaining": 25,
+     "requires_shipping": true,
+     "title": "GOLDEN RING CIRCLE LEVEL",
+     "unpublished_at": null,
+     "url": "/bePatron?c=387552\u0026rid=1941163"
+    },
+    "id": "1941163",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-06-08T20:02:55+00:00",
+     "description": "The will be self sustaining! Episodes will turn around faster and sound better.",
+     "reached_at": "2017-03-28T20:25:41+00:00",
+     "title": ""
+    },
+    "id": "449569",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 35,
+     "created_at": "2016-06-08T20:02:55+00:00",
+     "description": "We will be able to maintain our own archive and fund occasional weird projects. Merch orders will be handled by somebody infinitely more capable than us.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "449570",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 17,
+     "created_at": "2016-06-08T20:02:55+00:00",
+     "description": "We will be able to summon a powerful nerd to create and maintain overnightdrive.com and keep all of our content here as opposed to half a dozen awful social networks.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "449571",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 8,
+     "created_at": "2016-06-08T20:02:55+00:00",
+     "description": "I\u0027ve got nothing for this. Jesus I\u0027m dumb as fuck.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "449572",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 3,
+     "created_at": "2016-06-08T20:02:55+00:00",
+     "description": "Every episode is in the same room. I hope we never get here because I have no fucking idea how we would make this happen.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "449573",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 2,
+     "created_at": "2017-03-25T18:53:31+00:00",
+     "description": "Nothing left to do now but do an Overnight Drive world tour. Looking at you, Liberia.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "762992",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2017-03-25T18:53:31+00:00",
+     "description": "Hans dies. He\u0027s able to quit his job but manically funnels all of his Patreon cash into a world of Tanks gambling addiction and is murdered behind the Schenectady Greyhound station.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "762993",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/387552"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "cbbbce4d-eda0-42b8-b56a-11c2852d715c",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Overnight Drive are creating Podcasts"
+});
+    </script>

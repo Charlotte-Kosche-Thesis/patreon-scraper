@@ -1,0 +1,637 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "sIvYEa_7XlxfWpX92V8qN1pqvwf1Z2QINoZiwJjcFDU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "3080",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/3080"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2013-11-13T07:43:13+00:00",
+    "creation_name": "Pixel Art, Games and Doodles",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/75131/aeef6fdf8594439da1b2692fb7772c31?token-time=2145916800\u0026token-hash=WbKrRGqFcNukjScAJcGZny7rZ3P0gVBK5uCTbqKOcyg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/75131/aeef6fdf8594439da1b2692fb7772c31?token-time=2145916800\u0026token-hash=179FqUhM-RHu8CZu1sb-AQ8SYwbQJFF0tHlO22x3sw4%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"402\" src=\"//www.youtube.com/embed/JM2YvVbaiSY?autoplay=1\u0026amp;feature=oembed\" width=\"714\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "http://www.youtube.com/watch?v=JM2YvVbaiSY",
+    "one_liner": "Pixels are my Passion:: Experienced Game Artist",
+    "patron_count": 22,
+    "pay_per_name": "Sprite Pack",
+    "pledge_sum": 10529,
+    "pledge_url": "/bePatron?c=75131",
+    "published_at": "2013-11-13T07:43:13+00:00",
+    "summary": "I am a Game Designer and Pixel Artist who has been making sprites for video games professionally for more than 10 years.\u00a0\u003cbr\u003e\u003cbr\u003eOne of the most difficult things to do when putting a game together is good quality\u00a0source art work, and in particular sprites complete with animations. Most designers/programmers/beginners just need something that works, and this is my bid to provide a growing archive of useful sprites you can drop into any game.\u00a0\u003cbr\u003e\u003cbr\u003eI want to make sprite sheets that are easy to adapt for use in any project, by providing black and white templates with multiple shading styles. Not only are these easy to use, but you can swap them out for your own colors and style!\u00a0\u003cbr\u003e\u003cbr\u003eMany artists offer sprite sheets for commission, but I want to offer ones you can build on and will actually want to use in your own projects. By gaining your support through Patreon, I will be able to do this on a regular basis.\u003cbr\u003e\u003cbr\u003eLet\u0027s make games together!\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eGraphic License information: \u003cbr\u003e\u003cbr\u003e\u003c/strong\u003eAll of the sprites you pledge for you can use for your own personal use.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e If you would like to use them commercially, all I ask is that you at some point make a 25$ pledge (one time) and you get full commercial usage for any and all sprites you get from me past and future!\u003c/strong\u003e\u00a0\u00a0\u003cbr\u003e\u003cbr\u003eIf money is tight don\u0027t worry, \u00a0you can pay it when you\u0027ve released /are ready to release your game! I understand what it\u0027s like to be a small/first time game developer which is why I wanted to create an affordable, expandable asset library.\u00a0\u003cbr\u003e\u003cbr\u003eAny derivative works you make from the graphics you pledged for are yours also. They are meant to be added on to! :)\u00a0\u003cbr\u003e\u003cbr\u003eHere are some samples from previous games I have worked on:\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"http://i.imgur.com/Z9J0WqP.png\"\u003e\u00a0\u003cbr\u003e\u003cimg src=\"http://i.imgur.com/egT443s.png\"\u003e\u003cbr\u003e\u003cbr\u003eAnd some samples from the previous Spritesheet packs for Patreon:\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"http://i.imgur.com/VjtJFXx.png\"\u003e\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "75131",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "51557",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/51557"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1747",
+       "type": "goal"
+      },
+      {
+       "id": "1841",
+       "type": "goal"
+      },
+      {
+       "id": "1842",
+       "type": "goal"
+      },
+      {
+       "id": "4907",
+       "type": "goal"
+      },
+      {
+       "id": "6308",
+       "type": "goal"
+      },
+      {
+       "id": "376584",
+       "type": "goal"
+      },
+      {
+       "id": "792349",
+       "type": "goal"
+      },
+      {
+       "id": "1154685",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-75131",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-75131"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "154881",
+       "type": "reward"
+      },
+      {
+       "id": "7905",
+       "type": "reward"
+      },
+      {
+       "id": "2311499",
+       "type": "reward"
+      },
+      {
+       "id": "7749",
+       "type": "reward"
+      },
+      {
+       "id": "320545",
+       "type": "reward"
+      },
+      {
+       "id": "12698",
+       "type": "reward"
+      },
+      {
+       "id": "320547",
+       "type": "reward"
+      },
+      {
+       "id": "2476981",
+       "type": "reward"
+      },
+      {
+       "id": "2477285",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027ve been designing characters, tiles, and items for video games for over 10 years. I also enjoy programming as a hobby and hope to become a full fledged programmer alongside my art",
+     "created": "2013-11-13T07:43:13+00:00",
+     "facebook": "https://www.facebook.com/jenniferdaww/",
+     "first_name": "Jennifer",
+     "full_name": "Jennifer D\u0027aww",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/51557/8f3542be67e54bf78ed7a16e38f28a1c?token-time=2145916800\u0026token-hash=MRn9f6ey9Ecf-aiQNgGAfMIoQs-vfdeV2ZZlA_x8ec8%3D",
+     "last_name": "D\u0027aww",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/51557/8f3542be67e54bf78ed7a16e38f28a1c?token-time=2145916800\u0026token-hash=fY1tT6v7_toXuN0HdfuChnAuJa0jD7uIfFUMg0FGffc%3D",
+     "twitch": "https://www.twitch.tv/jenniferdaww",
+     "twitter": "gmshivers",
+     "url": "https://www.patreon.com/shivers",
+     "vanity": "shivers",
+     "youtube": null
+    },
+    "id": "51557",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "75131",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/75131"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 62,
+     "upgrade_url": "/bePatron?c=75131\u0026rid=154881"
+    },
+    "id": "post-aggregation-for-0-75131",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-08-22T01:54:13+00:00",
+     "description": "Our Thanks for Becoming a Patron!\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003cli\u003eMake suggestions for doodles!\u00a0\u003c/li\u003e\n\u003cli\u003eAccess to Patron Only Discord Channel\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "427915334675333120"
+     ],
+     "edited_at": "2018-03-26T20:01:22.886330+00:00",
+     "image_url": null,
+     "patron_count": 17,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-26T20:01:22.876933+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=75131\u0026rid=154881",
+     "user_limit": null
+    },
+    "id": "154881",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-08-22T01:54:13+00:00",
+     "description": "You will be able to submit suggestions and vote on what my next spritesheet will be !\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003cli\u003eMake Suggestions On The Next Pack!\u003c/li\u003e\n\u003cli\u003e1 Personalized Doodle (Black and White) at your request\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "427915334675333120"
+     ],
+     "edited_at": "2018-03-26T21:42:04.771312+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-26T21:42:04.761693+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Ideas Man/Woman",
+     "unpublished_at": null,
+     "url": "/bePatron?c=75131\u0026rid=7905",
+     "user_limit": null
+    },
+    "id": "7905",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-01-23T19:19:38.725475+00:00",
+     "description": "A colorized doodle especially for you every month!\u00a0\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003cli\u003eMake Suggestions On The Next Pack!\u003c/li\u003e\n\u003cli\u003e1 Personalized Doodle (Color) at your request\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "427915334675333120"
+     ],
+     "edited_at": "2018-03-26T21:42:41.241023+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-26T21:42:41.227810+00:00",
+     "remaining": 9,
+     "requires_shipping": false,
+     "title": "Personalized Color Doodle",
+     "unpublished_at": null,
+     "url": "/bePatron?c=75131\u0026rid=2311499",
+     "user_limit": 10
+    },
+    "id": "2311499",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-08-22T01:54:13+00:00",
+     "description": "Patrons Commercial License.\u00a0\u003cbr\u003e\u003cbr\u003eYou can use any of the sprite sheets you\u0027ve gained from being a patron for commercial projects.\u003cstrong\u003e You only need to pledge this one time to have commercial access to all of the sheets you\u0027ve gained via being a patron and you can upgrade to this at any time.\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eCommercial License\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "427915334675333120"
+     ],
+     "edited_at": "2018-03-26T20:02:14.880055+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-26T20:02:14.850180+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Commercial License",
+     "unpublished_at": null,
+     "url": "/bePatron?c=75131\u0026rid=7749",
+     "user_limit": null
+    },
+    "id": "7749",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-08-22T01:54:13+00:00",
+     "description": "I will give you pointers on up to 2 art pieces a month.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "427915334675333120"
+     ],
+     "edited_at": "2018-03-26T20:02:21.373267+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-26T20:02:21.347139+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Help Needed",
+     "unpublished_at": null,
+     "url": "/bePatron?c=75131\u0026rid=320545",
+     "user_limit": 10
+    },
+    "id": "320545",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-08-22T01:54:13+00:00",
+     "description": "Get a 4 frame sprite prototype every month at this tier. You can add on to your prototype each successive month (4 frames each month) or get a new one! I will also be willing to animate it all in one go for an extra fee.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003e32x 32 personalized Monster Prototype\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-15T20:02:59.397817+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-22T01:54:13+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Put me to Work",
+     "unpublished_at": null,
+     "url": "/bePatron?c=75131\u0026rid=12698",
+     "user_limit": 5
+    },
+    "id": "12698",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2016-08-22T01:54:13+00:00",
+     "description": "I will design a \u00a0simple character for \u00a0you to use as your brand for your game, company, store, etc.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "427915334675333120"
+     ],
+     "edited_at": "2018-03-26T20:05:58.547571+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-26T20:05:58.521694+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Mascot Pack",
+     "unpublished_at": null,
+     "url": "/bePatron?c=75131\u0026rid=320547",
+     "user_limit": 1
+    },
+    "id": "320547",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2018-03-26T20:03:50.149483+00:00",
+     "description": "I will design a 2D Facerig avatar especially for your own personal use.\u00a0I currently have the free version of Live2D so keep in mind it will have to be simple.\u003cbr\u003e\n\u003cbr\u003e\n \u00a0\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003cli\u003e2D Facerig avatar\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "427915334675333120"
+     ],
+     "edited_at": "2018-03-26T20:05:50.019516+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-26T20:05:50.012105+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Face Rig Live2D Avatar",
+     "unpublished_at": null,
+     "url": "/bePatron?c=75131\u0026rid=2476981",
+     "user_limit": 1
+    },
+    "id": "2476981",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 75000,
+     "amount_cents": 75000,
+     "created_at": "2018-03-26T21:55:35.256093+00:00",
+     "description": "\u00a0\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003cli\u003eDeluxe 2D Facerig avatar\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-26T21:55:35.256093+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-26T21:55:35.256093+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Deluxe FaceRig Live2D Avatar",
+     "unpublished_at": null,
+     "url": "/bePatron?c=75131\u0026rid=2477285",
+     "user_limit": 1
+    },
+    "id": "2477285",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 21,
+     "created_at": "2013-11-27T12:23:23+00:00",
+     "description": "\u003cstrong\u003eIncludes:\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eSprite Pack with at least 200 frames\u003c/li\u003e\u003cli\u003eI can start working on physical art rewards as well, my first goal being an inktank printer and do my own prints + plastic pins and charms.\u00a0\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e",
+     "reached_at": "2013-11-27T12:23:23+00:00",
+     "title": ""
+    },
+    "id": "1747",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 100,
+     "created_at": "2013-12-01T11:36:27+00:00",
+     "description": "\u003cdiv\u003e\u003cspan style=\"line-height: 18px;\"\u003e\u003cspan style=\"color: #000000;\"\u003e\u003cstrong\u003eIncludes:\u003c/strong\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eSprite Pack with at least 40 frames\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e",
+     "reached_at": "2013-12-01T11:36:27+00:00",
+     "title": ""
+    },
+    "id": "1841",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 4,
+     "created_at": "2013-12-01T11:36:27+00:00",
+     "description": "\u003cdiv\u003e\u003cdiv\u003e\u003cstrong\u003eFull Time Patreon!\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003eI can work on my own games full time and share them with Patrons, thanks! I will dedicate a full 40 hrs a week to patreon and upload weekly. Will also work on physical products with first dibs to patrons!\u00a0\u003cbr\u003e\u003cbr\u003e\u003c/div\u003e\n\u003c/div\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1842",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 70,
+     "created_at": "2014-01-20T17:35:04+00:00",
+     "description": "\u003cstrong\u003eIncludes:\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eSprite Pack with at least 60 frames\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": "2014-01-20T17:35:04+00:00",
+     "title": ""
+    },
+    "id": "4907",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 10,
+     "created_at": "2014-01-31T18:56:37+00:00",
+     "description": "\u003cdiv\u003e\u003cstrong\u003eIncludes:\u003c/strong\u003e\u003cbr\u003e\u003c/div\u003e\u003cul\u003e\u003cli\u003eSprite Pack with at least 200 frames\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003e1 Face Rig avatar a month for free download\u003c/li\u003e\u003cli\u003eUI elements Packs\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "6308",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 42,
+     "created_at": "2016-03-15T07:36:49+00:00",
+     "description": "\u003cstrong\u003eIncludes:\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eSprite Pack with at least 120 frames\u003c/li\u003e\u003cli\u003eRetro Critique Streams\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "376584",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 2,
+     "created_at": "2017-04-15T19:52:26+00:00",
+     "description": "I will work on creating a character license library for games, to help new creators benefit from the strength of a character brand without having to develop marketable characters.\u003cbr\u003e\u003cbr\u003eI will also be able to stock and maintain a store which I would very much like to do.\u00a0\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "792349",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2018-03-28T19:26:14+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eSprite Pack With 40 frames\u003c/li\u003e\u003cli\u003eWeekly Pixel Art Streams\u003c/li\u003e\u003cli\u003eAll pixel art files from streams will be uploaded for patrons only\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": "2018-04-04T15:01:30+00:00",
+     "title": ""
+    },
+    "id": "1154685",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/75131"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "644eb368-1451-432b-acae-1516362dd4fd",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Jennifer D\u0027aww is creating Pixel Art, Games and Doodles"
+});
+    </script>

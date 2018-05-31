@@ -1,0 +1,511 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "hZ1MCkWaKj3pnufh56q-MjPVzh9CSwRYNrObMoDTDC0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "597966",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/597966"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-06-23T18:44:14+00:00",
+    "creation_name": "Parinfer for Lisp",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1016243/17e646e361a84d80a861df83d4164683?token-time=2145916800\u0026token-hash=MNbVucwSScEZ_GGBJMJ6L1AaBnrV7wc4HJPPegEH4IQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1016243/17e646e361a84d80a861df83d4164683?token-time=2145916800\u0026token-hash=iGdspo-rpMUhAvEOhtObGlQVEO8Icvrdlv3Lk2dUPOU%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 26,
+    "pay_per_name": "month",
+    "pledge_sum": 12599,
+    "pledge_url": "/bePatron?c=1016243",
+    "published_at": "2017-10-09T20:30:42+00:00",
+    "summary": "\u003cem\u003eThanks to\u00a0\u003ca href=\"https://www.binaryage.com/\"\u003eBinaryAge Limited\u003c/a\u003e for $1000/mo (external to Patreon), allowing me to spend 1 full day per week on Parinfer.\u003c/em\u003e\u003cbr\u003e\u003cbr\u003eMy talk at Clojure Conj 2017, summarizing my research of Lisp editors and work on Parinfer:\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://youtu.be/K0Tsa3smr1w\" target=\"_blank\"\u003e\u003cimg src=\"http://i.imgur.com/KZvZVyu.png\"\u003e\u003cbr\u003e\u003cbr\u003e\u003c/a\u003e\u003ca href=\"http://shaunlebron.github.io/parinfer/\" target=\"_blank\"\u003e\u003cstrong\u003eParinfer\u003c/strong\u003e\u003c/a\u003e is my attempt to make the Lisp programming language easier to write than any other language\u2014especially for newcomers. \u00a0It uses practical methods that you can use today on existing code in your favorite editor.\u003cbr\u003e\u003cbr\u003eMy focus is not on technology, but rather on the design of the experience.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eThose scary parentheses\u003c/strong\u003e actually enable smart algorithms to automate a large part of how we format and structure our code\u2014in ways that are surprisingly simple (i.e. no hotkeys). This goes counter to the popular perception that Lisp is hard to write. And since these methods \u003cem\u003edon\u0027t seem possible in other languages,\u003c/em\u003e I intend to fully explore and develop this idea to see if we can make Lisp\u0027s user experience as good as its power and flexibility.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eAvailable for different editors \u003c/strong\u003e(thanks to contributors)\u003ci style=\"font-weight: bold;\"\u003e\u003cbr\u003e\u003c/i\u003e\n\u003cimg src=\"https://user-images.githubusercontent.com/116838/29083498-8db3d4a6-7c2e-11e7-83ff-df51007157b8.png\" width=\"536\"\u003e\u003cbr\u003e\n\u003cem\u003e (top: atom, vscode, neovim, vim, emacs, spacemacs. bottom: nightcode, sublime, codemirror, lighttable, cursive)\u003c/em\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eCompatible with different Lisp languages\u003c/strong\u003e\u00a0(update: needs work for allowing block-comments)\u003cbr\u003e\n\u003cimg src=\"https://user-images.githubusercontent.com/116838/29090215-6e3c4368-7c44-11e7-873f-2a50f15d4dac.png\" width=\"475\"\u003e\n\u003cbr\u003e\n\u003cem\u003e(clojure, racket, guile, hy, lisp flavored erlang, common lisp)\u003c/em\u003e\u003cbr\u003e\u003cbr\u003e\n\u003cstrong\u003eFor research, I compiled\u003c/strong\u003e\u003cstrong\u003e\u00a0a\u00a0\u003ca href=\"https://github.com/shaunlebron/history-of-lisp-editing\" target=\"_blank\"\u003eHistory of Lisp Editing\u003c/a\u003e.\u003c/strong\u003e\u00a0I learned that Lisp is largely seen as a structural language trapped in the unflattering medium of \u003cem\u003etext. \u00a0\u003c/em\u003eMy hope is that Parinfer will provide a practical text experience for Lisp, just simple enough to make\u00a0its \u003cem\u003eartifacts \u003c/em\u003e(parentheses) less distracting to newcomers\u2014at least until structure-editors are more widely explored and accepted.\u00a0 Until then, my research is focused on what is available and comfortable to users today\u2014the text editor.\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eUser feedback has been crucial in making it feel right.\u003c/strong\u003e\u00a0There are many different scenarios of user operations and intentions to account for.\u00a0Balancing a strong mathematical foundation with our own fuzzy expectations of behavior is an ongoing effort.\u00a0 But user feedback will continue to be necessary for discovering what Parinfer can and should be.\u00a0 Case in point\u2014Smart Mode was made possible by user ideas.\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eAtom is being used to vet new ideas with real world usage\u003c/strong\u003e. \u00a0I added a solid\u00a0experience in the Atom plugin to prove out the latest ideas of Parinfer. \u00a0After waiting for feedback and fixing any reported issues, this new experience should be stable enough to begin porting to other editors.\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eThere are a lot more things to take care of\u003c/strong\u003e. \u00a0The research requires a lot of time and focus to analyze solutions and tradeoffs.\u00a0 I would like to continue having the time to focus on supporting the core algorithms based on feedback and issues, documenting how it all works, marketing new features in engaging ways, and helping to support editor plugins in all their intricacies.\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003eCurated newsletter for patrons: \u003c/strong\u003eI already communicate a lot by default: be it decision descriptions in issues, documentation on internals, streaming on twitch, visual and interactive examples of new features, and narrated videos thereof. \u00a0I will certainly compile/filter these into a curated newsletter for my patrons.\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eParinfer is free and open-source\u003c/strong\u003e, so thank you for supporting its development!\u003cbr\u003e\n\u003cbr\u003e"
+   },
+   "id": "1016243",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2330579",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2330579"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "882416",
+       "type": "goal"
+      },
+      {
+       "id": "989455",
+       "type": "goal"
+      },
+      {
+       "id": "989456",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1016243",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1016243"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2062534",
+       "type": "reward"
+      },
+      {
+       "id": "2062521",
+       "type": "reward"
+      },
+      {
+       "id": "2062526",
+       "type": "reward"
+      },
+      {
+       "id": "2062566",
+       "type": "reward"
+      },
+      {
+       "id": "2062574",
+       "type": "reward"
+      },
+      {
+       "id": "2149119",
+       "type": "reward"
+      },
+      {
+       "id": "2149103",
+       "type": "reward"
+      },
+      {
+       "id": "2149130",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-09-10T19:37:49+00:00",
+     "facebook": null,
+     "first_name": "Shaun",
+     "full_name": "Shaun Lebron",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2330579/b12bfb00e46c4b0ca726360acf624e6b?token-time=2145916800\u0026token-hash=70z-zF7JoHlKk57CXP5KvIrLqfZyeLZ7FzjyNx1HZaU%3D",
+     "last_name": "Lebron",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2330579/b12bfb00e46c4b0ca726360acf624e6b?token-time=2145916800\u0026token-hash=dpeZokD0BD4102UkL68Ty6ZXVi6k7KkvzkB7Tk4NY7c%3D",
+     "twitch": null,
+     "twitter": "shaunlebron",
+     "url": "https://www.patreon.com/shaunlebron",
+     "vanity": "shaunlebron",
+     "youtube": null
+    },
+    "id": "2330579",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1016243",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1016243"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 4,
+     "upgrade_url": "/bePatron?c=1016243\u0026rid=2062534"
+    },
+    "id": "post-aggregation-for-0-1016243",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-10-09T20:10:47.655693+00:00",
+     "description": "the enriching",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-09T20:10:47.655693+00:00",
+     "image_url": null,
+     "patron_count": 12,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-09T20:10:47.655693+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Par-snips",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1016243\u0026rid=2062534",
+     "user_limit": null
+    },
+    "id": "2062534",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 800,
+     "amount_cents": 800,
+     "created_at": "2017-10-09T20:07:54.130206+00:00",
+     "description": "the steady",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-09T20:10:57.439854+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-09T20:10:57.419709+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Par-nacles",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1016243\u0026rid=2062521",
+     "user_limit": null
+    },
+    "id": "2062521",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1200,
+     "amount_cents": 1200,
+     "created_at": "2017-10-09T20:09:14.029157+00:00",
+     "description": "the voracious",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-09T20:09:14.029157+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-09T20:09:14.029157+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Par-nivores",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1016243\u0026rid=2062526",
+     "user_limit": null
+    },
+    "id": "2062526",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2400,
+     "amount_cents": 2400,
+     "created_at": "2017-10-09T20:20:23.423214+00:00",
+     "description": "the ultimate",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-09T20:20:23.423214+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-09T20:20:23.423214+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Par-barians",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1016243\u0026rid=2062566",
+     "user_limit": null
+    },
+    "id": "2062566",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4800,
+     "amount_cents": 4800,
+     "created_at": "2017-10-09T20:26:10.385041+00:00",
+     "description": "the learned\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e(1hr video call for learning/chatting)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-09T20:26:10.385041+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-09T20:26:10.385041+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Par-cheologists",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1016243\u0026rid=2062574",
+     "user_limit": null
+    },
+    "id": "2062574",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 12500,
+     "amount_cents": 12500,
+     "created_at": "2017-11-14T23:17:46.427719+00:00",
+     "description": "the wise\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e(4hrs video calls for learning/chatting)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-14T23:17:46.427719+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-14T23:17:46.427719+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Par-chitects",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1016243\u0026rid=2149119",
+     "user_limit": null
+    },
+    "id": "2149119",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2017-11-14T23:11:44.414290+00:00",
+     "description": "the all-wonderful\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e(you will be as close to the development process as you want)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-14T23:11:44.414290+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-14T23:11:44.414290+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Par-thenons",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1016243\u0026rid=2149103",
+     "user_limit": null
+    },
+    "id": "2149103",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 140000,
+     "amount_cents": 140000,
+     "created_at": "2017-11-14T23:22:12.395940+00:00",
+     "description": "corporate training\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e(I will train your team of beginners to fearlessly maneuver Lisp)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-14T23:22:12.395940+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-14T23:22:12.395940+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Par-kour",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1016243\u0026rid=2149130",
+     "user_limit": null
+    },
+    "id": "2149130",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 12,
+     "created_at": "2017-06-28T02:48:33+00:00",
+     "description": "two days per week",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "882416",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 6,
+     "created_at": "2017-10-09T19:18:06+00:00",
+     "description": "three days per week",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "989455",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 400000,
+     "completed_percentage": 3,
+     "created_at": "2017-10-09T19:18:06+00:00",
+     "description": "full-time",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "989456",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1016243"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "aee926b9-8b96-49b1-b2ba-6a66faf708c9",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Shaun Lebron is creating Parinfer for Lisp"
+});
+    </script>
