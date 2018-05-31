@@ -1,0 +1,591 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "jiUgI_rwiHLCViLf8nHbAbaj0fMYVqKpZr7de1f5NW0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "284915",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/284915"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-10-20T00:38:36+00:00",
+    "creation_name": "an NBA Podcast",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"1080\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F188205630\u0026amp;url=https%3A%2F%2Fvimeo.com%2F188205630\u0026amp;image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F598200010_1280.jpg\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;type=text%2Fhtml\u0026amp;schema=vimeo\" width=\"1920\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://vimeo.com/188205630",
+    "one_liner": null,
+    "patron_count": 68,
+    "pay_per_name": "month",
+    "pledge_sum": 29926,
+    "pledge_url": "/bePatron?c=573979",
+    "published_at": "2016-10-20T21:23:49+00:00",
+    "summary": "\u003cimg src=\"http://imglogo.podbean.com/image-logo/715299/img_6694.jpg\"\u003e\u003cbr\u003e\"A podcast for serious NBA fans that is incredibly not serious.\" - a wise man, describing \u003cem\u003eFastbreak Breakfast\u003c/em\u003e,\u00a0the\u00a0award-winning weekly NBA podcast from a pre-Lebron Miami Heat fan and two Memphis Grizzlies fans (one of whom may be a degenerate gambler).\u00a0\u003cbr\u003e\u003cbr\u003eAhoy there, listener! After two years, two kids, and countless breakfast delicacies, it\u0027s time for your humble podcasters to pass around the hat. With your help, we believe the podcast can reach even loftier heights. Keith, Chuck, \u0026amp; Jon find a way to convene at least once a week in hopes of providing the funniest, most irreverent, yet knowledgeable podcast around, but it can be so much more. We\u0027ve been shocked, awed, and humbled by the response and audience growth, and we are ready to take this lil\u0027 endeavor to the next level, and YOU can help us do just that! We are wanting to bring you not just more and better content, but create a more interactive community for us to all share in our hot takes and hot cakes! Take a gander at our Goals \u0026amp; Rewards on the respective left and right of your screen, watch our video, and please consider helping us make your podcast experience even more delicious. And remember: Breakfast is the most important thing!"
+   },
+   "id": "573979",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2535737",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2535737"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "586935",
+       "type": "goal"
+      },
+      {
+       "id": "586947",
+       "type": "goal"
+      },
+      {
+       "id": "586952",
+       "type": "goal"
+      },
+      {
+       "id": "586953",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-573979",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-573979"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "942059",
+       "type": "reward"
+      },
+      {
+       "id": "942789",
+       "type": "reward"
+      },
+      {
+       "id": "942804",
+       "type": "reward"
+      },
+      {
+       "id": "942061",
+       "type": "reward"
+      },
+      {
+       "id": "942803",
+       "type": "reward"
+      },
+      {
+       "id": "942062",
+       "type": "reward"
+      },
+      {
+       "id": "942802",
+       "type": "reward"
+      },
+      {
+       "id": "942063",
+       "type": "reward"
+      },
+      {
+       "id": "942064",
+       "type": "reward"
+      },
+      {
+       "id": "942801",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "A podcast for serious NBA fans that is incredibly not serious.",
+     "created": "2015-11-18T10:11:57+00:00",
+     "facebook": "https://www.facebook.com/fastbreakpodcast/",
+     "first_name": "Fastbreak",
+     "full_name": "Fastbreak Breakfast",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2535737/0b2f2adc924b447c8892dab3daa091e6?token-time=2145916800\u0026token-hash=moE78VKYiOo37E-trPIwn1MCIBWSNa303hSYI-gOBjM%3D",
+     "last_name": "Breakfast",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2535737/0b2f2adc924b447c8892dab3daa091e6?token-time=2145916800\u0026token-hash=wellbDgdnQtRE_JriSUrnr69sktPYNK1nEs9kMZtnhg%3D",
+     "twitch": null,
+     "twitter": "fastbreakbreak",
+     "url": "https://www.patreon.com/fastbreakbreakfast",
+     "vanity": "fastbreakbreakfast",
+     "youtube": null
+    },
+    "id": "2535737",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "573979",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/573979"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 80,
+     "upgrade_url": "/bePatron?c=573979\u0026rid=942803"
+    },
+    "id": "post-aggregation-for-0-573979",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-27T21:22:47+00:00",
+     "description": "MESS WITH THE BULL; YOU GET THE HORNS\u003cbr\u003e\u003cbr\u003eOfficial patron status and member of the Fastbreak Breakfast Club. This means you\u0027ll get access to our patron-only feed AND our endless appreciation for joining the team.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 10,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-27T21:22:47+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=573979\u0026rid=942059",
+     "user_limit": null
+    },
+    "id": "942059",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-10-27T21:22:47+00:00",
+     "description": "THE PICKLE PICK \u0027EM CHALLENGE\u003cbr\u003e\u003cbr\u003e\u003cdiv style=\"margin-left: 20px;\"\u003eIn addition to the previous reward, you\u0027ll get to join our exclusive Pick \u0027Em Contest, where we all compete against each other to see who\u0027s the best at picking winners. There will be a monthly winner, with prizes, as well as access to a private Facebook group for talking smack and making friends. Limited quantity!\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-27T21:22:47+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=573979\u0026rid=942789",
+     "user_limit": null
+    },
+    "id": "942789",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-10-27T21:22:47+00:00",
+     "description": "POTLUCK PALAVER\u003cbr\u003e\u003cbr\u003eIn addition to all previous rewards, you\u0027ll be added to a group Slack chat, where all those who buy this reward will be in constant communication for some good ol\u0027 fashioned NBA gossip!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 12,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-27T21:22:47+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=573979\u0026rid=942804",
+     "user_limit": null
+    },
+    "id": "942804",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2016-10-27T21:22:47+00:00",
+     "description": "THE MARIAH CAREY IN A WIZARDS JERSEY DRESS FANTASY BASKETBALL LEAGUE\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"http://photosblog.top-news.fr/mariah-carey-sexy-robe-nba-1-3.jpg\"\u003e\u003cbr\u003eOh, yes. In addition to all previous reards, you\u0027ll be in a fantasy league with Keith, Chuck, and Jon. Hope you\u0027re ready to receive Jon\u0027s drunken 4 am trade offers. If you purchase any reward above this and want to be in the league, please contact us and we will put you in!",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-01T18:29:55.719859+00:00",
+     "image_url": null,
+     "patron_count": 21,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-27T21:22:47+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=573979\u0026rid=942061",
+     "user_limit": null
+    },
+    "id": "942061",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-27T21:22:47+00:00",
+     "description": "SECOND HELPIN\u0027\u003cbr\u003e\u003cbr\u003eBonus audio! In addition to previous rewards, we\u0027ll send you special bonus material that we choose to send to patrons! Maybe we\u0027ll record a conversation not included on the show, or maybe Keith will make a special minisode out of something he has to cut!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 14,
+     "post_count": 10,
+     "published": true,
+     "published_at": "2016-10-27T21:22:47+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=573979\u0026rid=942803",
+     "user_limit": null
+    },
+    "id": "942803",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 800,
+     "amount_cents": 800,
+     "created_at": "2016-10-27T21:22:47+00:00",
+     "description": "PRODUCERS PRODUCE\u003cbr\u003e\u003cbr\u003eYou get the cred. Seriously, your name will get in the credits as a huge thank you being on our team as well as a monthly shoutout, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-27T21:22:47+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=573979\u0026rid=942062",
+     "user_limit": null
+    },
+    "id": "942062",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-27T21:22:47+00:00",
+     "description": "ONE OF THE GANG\u003cbr\u003e\u003cbr\u003eIn addition to all previous rewards, you\u0027ll get to sit in on a monthly google hangout, as the FBBF crew watch a game together. And you haven\u0027t watched an NBA game until you\u0027ve watched one with Chuck!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-27T21:22:47+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=573979\u0026rid=942802",
+     "user_limit": null
+    },
+    "id": "942802",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-10-27T21:22:47+00:00",
+     "description": "PUT A JERSEY ON\u003cbr\u003e\u003cbr\u003eSwag is on the way! At this level, you\u0027ll get aT-shirt exclusive to Patreon supporters (one time only), plus all previous rewards.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-27T21:22:47+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=573979\u0026rid=942063",
+     "user_limit": null
+    },
+    "id": "942063",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2016-10-27T21:22:47+00:00",
+     "description": "BE THE CHANGE YOU WANT TO SEE\u003cbr\u003e\u003cbr\u003eThis episode, you\u0027re the star. You\u0027ll be the official guest on the podcast (one time only), plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-27T21:22:47+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=573979\u0026rid=942064",
+     "user_limit": null
+    },
+    "id": "942064",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-27T21:22:47+00:00",
+     "description": "ADS ON JERSEYS?!\u003cbr\u003e\u003cbr\u003eIn addition to all previous rewards, we will run a 30 second advertisement for your business, podcast, or whatever it is you\u0027re into FOR THE ENTIRE SEASON. Yes, sir or madame, you get your very own ad on the show for a whole season of basketball! 2 ads a month until May 2017!\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-27T21:22:47+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=573979\u0026rid=942801",
+     "user_limit": null
+    },
+    "id": "942801",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 100,
+     "created_at": "2016-10-20T04:46:06+00:00",
+     "description": "If we reach this goal, we\u0027ll do a biweekly listener questions segment on FBBF, which you can ask either via Twitter or by joining our Patreon-exclusive Slack Chat! I KNOW, RIGHT?!\u003cbr\u003e",
+     "reached_at": "2017-05-22T14:05:54+00:00",
+     "title": ""
+    },
+    "id": "586935",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 59,
+     "created_at": "2016-10-20T05:00:40+00:00",
+     "description": "OVERTIME! \u003cbr\u003e\u003cbr\u003eIf we reach this goal, we add an extra 20 minute Patreon-only podcast per month to your already overflowing plate. That\u0027s right, you\u0027ll get another heaping helping of Fastbreak Breakfast every month! That\u0027s FIVE podcasts a month! This could be a Keith Parish Prospectus Special or maybe just Jon \u0026amp; Chuck discussing their latest bad decisions. Whatever it is: YOU ARE INVITED!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "586947",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 75000,
+     "completed_percentage": 39,
+     "created_at": "2016-10-20T05:10:03+00:00",
+     "description": "DOUBLE OVERTIME! FULL SQUAD!\u003cbr\u003e\u003cbr\u003eIf we reach this goal, we will add an extra FULL SQUAD Patreon-exclusive episode! We guarantee, in addition to all previous awards, that Keith, Chuck, \u0026amp; Jon will get together and give you a FULL SQUAD EXTRA EDITION of the podcast. That\u0027s FIVE fully-rostered episodes of FBBF a month! Clear Eyes, Full Squad, Can\u0027t Lose.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "586952",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 29,
+     "created_at": "2016-10-20T05:10:03+00:00",
+     "description": "\"Kid, you\u0027ve got a face for the radio.\"\u003cbr\u003e\u003cbr\u003eIf we hit this lofty goal, we will make one of the monthly podcasts a VIDEO PODCAST. That\u0027s right, you\u0027ll get to see the stern, knowing glances we shoot at each other and watch in horror as Chuck yawns directly into the microphone multiple times an episode. This will be a fully produced and edited show and will probably cause Jon\u0027s hair to fall out immediately, as he will be the fellow handling all of this!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "586953",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/573979"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "bbba2d50-5b91-4e4c-bc13-52fc3bb58267",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Fastbreak Breakfast is creating an NBA Podcast"
+});
+    </script>

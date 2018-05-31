@@ -1,0 +1,591 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "2TaQL9eund8pkSd67v0xJlei4nG9DUJJLi1efWto0I0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "37608",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/37608"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-07-20T13:47:17+00:00",
+    "creation_name": "Original Fiction: Rhiyen\u0027s Deal",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/103787/ede6b4b775b546c7b5dcceabbd891927?token-time=2145916800\u0026token-hash=icbHrdOJU2KqYz5eCacrLmxjOv0RWrFNN8rRp9mKq2Y%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/103787/ede6b4b775b546c7b5dcceabbd891927?token-time=2145916800\u0026token-hash=y_WQiEsHSRy8xu7d_bmhIOBFird7DZOnps4N_gBYv94%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "Wouldn\u0027t it be cool if...",
+    "patron_count": 71,
+    "pay_per_name": "Chapter",
+    "pledge_sum": 40639,
+    "pledge_url": "/bePatron?c=103787",
+    "published_at": "2015-03-10T01:59:51+00:00",
+    "summary": "I\u0027m a writer, book reader, and roleplaying game player who lives in the Southeastern United States. I write original fiction, Harry Potter fanfiction, and Naruto fanfiction, which will be posted here. The fanfiction will always be freely available on fanfiction sites even if you choose not to be a patron! \u003cbr\u003e\u003cbr\u003e\nOn Fanfiction.net, I write under the nickname S\u0027TarKan. On FanFicAuthors, PhoenixSong, and Sink Into Your Eyes, I write under the nickname Viridian. I was dubbed the \"Evil AuthorLord\" by readers who enjoyed my fanfiction stories. \n\u003cbr\u003e\u003cbr\u003e\nOne of my short stories was published in Jim Bernheimer\u0027s Horror, Humor, and Heroes, Volume Two: New Faces of Fantasy. Progress on current chapters can be seen at my blog here: \n\u003ca href=\"http://www.viridiandreams.net\" rel=\"nofollow\" target=\"_blank\"\u003eViridian Dreams Blog\u003c/a\u003e"
+   },
+   "id": "103787",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "237508",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/237508"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "134455",
+       "type": "goal"
+      },
+      {
+       "id": "135085",
+       "type": "goal"
+      },
+      {
+       "id": "150737",
+       "type": "goal"
+      },
+      {
+       "id": "150738",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-103787",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-103787"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "150693",
+       "type": "reward"
+      },
+      {
+       "id": "150683",
+       "type": "reward"
+      },
+      {
+       "id": "150684",
+       "type": "reward"
+      },
+      {
+       "id": "150685",
+       "type": "reward"
+      },
+      {
+       "id": "150686",
+       "type": "reward"
+      },
+      {
+       "id": "150687",
+       "type": "reward"
+      },
+      {
+       "id": "150688",
+       "type": "reward"
+      },
+      {
+       "id": "150689",
+       "type": "reward"
+      },
+      {
+       "id": "150690",
+       "type": "reward"
+      },
+      {
+       "id": "150691",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m a book and RPG junkie who\u0027s in his 40s and lives in the Southeastern United States. I started with basic D\u0026amp;D in 1978, so yes, that means I have characters old enough to legally drink. =) While I still hold a warm place in my heart for Gary Gygax\u0027s creation, I think Shadowrun offered me the most flexibility as far as game mechanics goes. R.I.P. Mr. Gygax...\u003cbr\u003e\n\nStarted reading Harry Potter around the time the Prisoner of Azkaban came out, and my wife and I have been hooked ever since. Other favorites include David \u0026amp; Leigh Eddings, Christopher Stasheff, and Robert Heinlein. I\u0027ve written a few original novels that I\u0027m trying to get a publisher or agent interested in... right now I\u0027m working on my collection of rejection letters.\u003cbr\u003e\n\nOne of the reasons my fanfiction writing slowed down is that one of my stories was published in Jim Bernheimer\u0027s \u003cem\u003eHorror, Humor, and Heroes, Volume Two: New Faces of Fantasy.\u003cbr\u003e\u003c/em\u003eYou can find it here: \u003ca href=\"http://astore.amazon.com/viridiandreams-20\"\u003ehttp://astore.amazon.com/viridiandreams-20\u003c/a\u003e\u003cbr\u003e",
+     "created": "2014-07-20T13:47:17+00:00",
+     "facebook": "https://www.facebook.com/groups/viridiandreams/",
+     "first_name": "Matthew",
+     "full_name": "Matthew Schocke",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/237508/2e93f7c65f43420180e4ef79949b160e?token-time=2145916800\u0026token-hash=1UYCUmBPlN3SoDqAc0pUzdVKtATyrjtMm-vV-MuE9sg%3D",
+     "last_name": "Schocke",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/237508/2e93f7c65f43420180e4ef79949b160e?token-time=2145916800\u0026token-hash=RNz_jVohEF8QFj1Z050_8e3ZGN8zQICrGTtXjG8zV54%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/viridiandreams",
+     "vanity": "viridiandreams",
+     "youtube": null
+    },
+    "id": "237508",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "103787",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/103787"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 51,
+     "upgrade_url": "/bePatron?c=103787\u0026rid=150683"
+    },
+    "id": "post-aggregation-for-0-103787",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-04-30T07:23:22+00:00",
+     "description": "Access to the AuthorLord\u0027s Patreon activity feed, where you can send the AuthorLord questions, comments, and petitions and he will respond with pithy statements.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-03T23:17:05.404764+00:00",
+     "image_url": null,
+     "patron_count": 62,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-30T07:23:22+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103787\u0026rid=150693",
+     "user_limit": null
+    },
+    "id": "150693",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-04-30T07:23:22+00:00",
+     "description": "Ringtone / Voicemail Message of the AuthorLord\u0027s voice. You will receive a ringtone or voicemail message of the AuthorLord\u0027s voice saying the phrase of your choice. 10 patrons per chapter posted.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-03T23:17:05.435088+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-04-30T07:23:22+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103787\u0026rid=150683",
+     "user_limit": 10
+    },
+    "id": "150683",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-04-30T07:23:22+00:00",
+     "description": "Audience with the AuthorLord: You will get an audience with the AuthorLord. He will chat with you on Skype for 30 minutes each month in a group Question and Answer session. 10 patrons per chapter posted.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-03T23:17:05.462652+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-30T07:23:22+00:00",
+     "remaining": 9,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103787\u0026rid=150684",
+     "user_limit": 10
+    },
+    "id": "150684",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-04-30T07:23:22+00:00",
+     "description": "Sneak Preview: You will receive a sneak preview of the next chapter of the fanfiction I\u0027m writing a week before it is posted on FanFiction.net.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-03T23:17:05.497898+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2016-04-30T07:23:22+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103787\u0026rid=150685",
+     "user_limit": null
+    },
+    "id": "150685",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-04-30T07:23:22+00:00",
+     "description": "Your Cameo: You or a character of your choice will appear in the next chapter of the fanfiction I\u0027m writing. Sanity check required.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-03T23:17:05.525901+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-30T07:23:22+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103787\u0026rid=150686",
+     "user_limit": null
+    },
+    "id": "150686",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-04-30T07:23:22+00:00",
+     "description": "Reading from the AuthorLord: You will receive a personal recording of the AuthorLord reading a text of your choice. Word count limit of 1000 words apply.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-03T23:17:05.555304+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-30T07:23:22+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103787\u0026rid=150687",
+     "user_limit": null
+    },
+    "id": "150687",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-04-30T07:23:22+00:00",
+     "description": "Critique Your Writing: The AuthorLord and his wife Runsamok will read and critique your writing. 10,000 word count limit.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-03T23:17:05.593660+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-30T07:23:22+00:00",
+     "remaining": 99,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103787\u0026rid=150688",
+     "user_limit": 100
+    },
+    "id": "150688",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2016-04-30T07:23:22+00:00",
+     "description": "Bedtime Story: The AuthorLord will read a bedtime story over Skype to you and your children complete with funny voices. Limit of 10 patrons per chapter posted.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-03T23:17:05.626424+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-30T07:23:22+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103787\u0026rid=150689",
+     "user_limit": 10
+    },
+    "id": "150689",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-04-30T07:23:22+00:00",
+     "description": "Brainstorming Session on Skype: The AuthorLord will be your personal advice consultant on a topic of your choice for 1 hour on Skype. Limited to 10 patrons per chapter posted.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-03T23:17:05.663946+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-30T07:23:22+00:00",
+     "remaining": 9,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103787\u0026rid=150690",
+     "user_limit": 10
+    },
+    "id": "150690",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2016-04-30T07:23:22+00:00",
+     "description": "Game Session on Skype: The AuthorLord will be your personal game master for a 4 hour tabletop role playing game session over Skype. Maptools will be used for rolling dice. Warning: The AuthorLord is a deadly and devious game master. Your characters will be tested to the limit! Limited to 6 patrons per chapter posted.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-03T23:17:05.703780+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-30T07:23:22+00:00",
+     "remaining": 6,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103787\u0026rid=150691",
+     "user_limit": 6
+    },
+    "id": "150691",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 75000,
+     "completed_percentage": 54,
+     "created_at": "2015-03-08T22:12:49+00:00",
+     "description": "My wife and I have been working hard to pay off our mortgage early. Meet this goal and I will record a dramatic reading of the short story.",
+     "reached_at": "2015-03-31T08:59:48+00:00",
+     "title": ""
+    },
+    "id": "134455",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 81,
+     "created_at": "2015-03-10T01:05:38+00:00",
+     "description": "My wife and I are working hard to be debt free. We are on track to pay off the credit cards soon so that we can be free to support other great creators here on Patreon. Reaching this goal, I will record and post a dramatic reading of a children\u0027s book.\u00a0",
+     "reached_at": "2015-05-01T00:37:00+00:00",
+     "title": ""
+    },
+    "id": "135085",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 67,
+     "created_at": "2015-04-09T01:32:09+00:00",
+     "description": "Currently the Viridian Dreams blog and forum have banner ads that help pay for the hosting. Hitting this milestone will allow me to remove those ads permanently and also pay the awesome forum mods who currently volunteer their services.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "150737",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 27,
+     "created_at": "2015-04-09T01:32:09+00:00",
+     "description": "Reaching this milestone would be greatly humbling and so very appreciated. This milestone would literally bring me to my knees in gratitude. For this reward, my wife and I will record a selected reading from one of my original fiction novels.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "150738",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/103787"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "c6f132a9-1510-4e09-a975-0de399763086",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Matthew Schocke is creating Original Fiction: Rhiyen\u0027s Deal"
+});
+    </script>

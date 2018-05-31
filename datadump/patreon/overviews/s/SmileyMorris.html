@@ -1,0 +1,418 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "D2pTBcfUWfOpU4Oj6UdEKu_4qKuRQFHSk6HirBJvykE";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": "2018-05-21T03:48:40.012134+00:00"
+   },
+   "id": "528364",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/528364"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-10-31T02:39:24+00:00",
+    "creation_name": "Photography",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 32,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=589419",
+    "published_at": "2017-07-29T23:56:39+00:00",
+    "summary": "I decided to use Patreon so I can show case my work the way I want and also do something special for those that support me. im very creative and trust me you would not regret being a patron to Me :)"
+   },
+   "id": "589419",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4335967",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4335967"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "917963",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "25523",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-589419",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-589419"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1412488",
+       "type": "reward"
+      },
+      {
+       "id": "1412501",
+       "type": "reward"
+      },
+      {
+       "id": "1884316",
+       "type": "reward"
+      },
+      {
+       "id": "2473968",
+       "type": "reward"
+      },
+      {
+       "id": "2029198",
+       "type": "reward"
+      },
+      {
+       "id": "1884232",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-10-31T02:38:56+00:00",
+     "facebook": "https://www.facebook.com/SmileyMorrisPhotography/",
+     "first_name": "Smiley",
+     "full_name": "Smiley Morris",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4335967/68983cf5985e459e980c3f2463c259ea?token-time=2145916800\u0026token-hash=ENvJ9xXCYZmSSTI3ez-d2aXP8tJJrRRq2g4tKUSg11E%3D",
+     "last_name": "Morris",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4335967/68983cf5985e459e980c3f2463c259ea?token-time=2145916800\u0026token-hash=wPBbmWeAJObqJq0iGjygef9qL9bafQTy7XQAUCC_V0s%3D",
+     "twitch": "",
+     "twitter": null,
+     "url": "https://www.patreon.com/SmileyMorris",
+     "vanity": "SmileyMorris",
+     "youtube": "https://www.youtube.com/Youtube.com/theSmileyMorrisNetwork"
+    },
+    "id": "4335967",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "589419",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/589419"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 214,
+     "upgrade_url": "/bePatron?c=589419\u0026rid=1412488"
+    },
+    "id": "post-aggregation-for-0-589419",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-02-17T02:15:34.453254+00:00",
+     "description": "As a supporter youll see previews and teasers of future photoshoots \u00a0and updates on future projects also access to work that does not include nudity.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-25T16:38:48.418713+00:00",
+     "image_url": null,
+     "post_count": 5,
+     "published": true,
+     "published_at": "2018-03-25T16:38:48.408800+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=589419\u0026rid=1412488"
+    },
+    "id": "1412488",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-02-17T02:22:44.397649+00:00",
+     "description": "Gains access to the full sets and original non social media censored work \u00a0(min. of 2 sets per week)",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-25T16:40:44.532660+00:00",
+     "image_url": null,
+     "post_count": 80,
+     "published": true,
+     "published_at": "2018-03-25T16:40:44.523526+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fanatic",
+     "unpublished_at": null,
+     "url": "/bePatron?c=589419\u0026rid=1412501"
+    },
+    "id": "1412501",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-07-30T00:07:31.235939+00:00",
+     "description": "You Get Access to everything below and including and Access to my Uncensored Short Films before they are released on Instagram and Facebook . (NEW) you gain \u00a0access to request sets.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-25T16:42:27.238616+00:00",
+     "image_url": null,
+     "post_count": 23,
+     "published": true,
+     "published_at": "2018-03-25T16:42:27.231596+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Netflix and Chill",
+     "unpublished_at": null,
+     "url": "/bePatron?c=589419\u0026rid=1884316"
+    },
+    "id": "1884316",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-03-25T16:45:13.986357+00:00",
+     "description": "in this NEW tier you will gain access to all the below rewards and also Premium Post which include extra photos from sets that didnt make the final cut\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-25T16:45:13.986357+00:00",
+     "image_url": null,
+     "post_count": 18,
+     "published": true,
+     "published_at": "2018-03-25T16:45:13.986357+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Feed Me More!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=589419\u0026rid=2473968"
+    },
+    "id": "2473968",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-09-26T00:50:23.327777+00:00",
+     "description": "With the Smiley Box Tier youll recieve personalized polariods from shoots featured that month and other suprises theme for that month :) and also access to the other tiers below",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-25T16:43:13.201450+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2029198/4a79a68739eb4afca61875d154d10dd8?token-time=2145916800\u0026token-hash=4LsiP4E_-JUsgabNvLxynB1XC6Jxx4DDO31C0Hu5s8U%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-25T16:43:13.194661+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Smiley Box",
+     "unpublished_at": null,
+     "url": "/bePatron?c=589419\u0026rid=2029198"
+    },
+    "id": "2029198",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2017-07-29T23:38:34.741623+00:00",
+     "description": "Includes All Photo and Video Post and a monthly Premium Smiley Box filled with bunch of random goodness (T shirt, poloraids, random kit nats, custom videos and more.) \u00a0PLEASE LET ME KNOW WHAT SIZE SHIRT TO SEND",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-25T16:45:44.652153+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-25T16:45:44.643050+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Smiley Box Pro!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=589419\u0026rid=1884232"
+    },
+    "id": "1884232",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 59,
+     "created_at": "2017-07-29T23:33:25+00:00",
+     "description": "Just a goal to know im heading in the right place and ill do a special giveaway (more details soon)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "917963",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-07-29T23:53:54+00:00",
+     "deleted_at": null,
+     "description": "Soon I hit 100 Subs ill release a 100 subscribers celebration video and a special Giveway",
+     "goal_text": "Soon I hit 100 Subs ill release a 100 subscribers celebration video and a special Giveway",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "25523",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/589419"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "646e7260-a08f-4778-99ba-48aa3db00fe4",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Smiley Morris is creating Photography"
+});
+    </script>

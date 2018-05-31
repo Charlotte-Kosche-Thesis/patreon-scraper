@@ -1,0 +1,579 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "dmE7Z0Xrf-OoRnpUt_zAsDyPW1_eB85I1QXtReHN3lI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "40215",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/40215"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-03-28T07:45:00+00:00",
+    "creation_name": "RTS Shoutcasts and Content",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/159612/e1d28cb36a3b485b9a84521372f10987?token-time=2145916800\u0026token-hash=t-oKv--yFOqTPz5ynWxuC6JGb_7y0WXLdXO_NXAg_CY%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/159612/e1d28cb36a3b485b9a84521372f10987?token-time=2145916800\u0026token-hash=aANgWZCXu0cAUNzU0pmFzCGSHzVoP1f28vMeqpQWPfI%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "The best Zero Hour and Company of Heroes 2 commentary.",
+    "patron_count": 42,
+    "pay_per_name": "month",
+    "pledge_sum": 34299,
+    "pledge_url": "/bePatron?c=159612",
+    "published_at": "2015-03-28T08:48:50+00:00",
+    "summary": "Blake has now taken over the video editing for the channel! Callum is very busy with his new job as the new Lead Designer for Ashes of The Singularity:Escalation. Our current schedule has been increased to five videos per week. These will consist of; 1-2 Zero Hour, 1-2 CoH2, and 1-2 Misc(DoW, RoN, Energy Drink etc). This new schedule will only be possible with the help of our viewers, currently it\u0027s not financial viable to continue this long term unless we can get more backing.\u00a0\u003cbr\u003e\u003cbr\u003eIf you\u0027d like to thank us for our content, and motivate us to continue our current schedule, do consider a backing. Thanks!\u00a0"
+   },
+   "id": "159612",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "662252",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/662252"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "404375",
+       "type": "goal"
+      },
+      {
+       "id": "1057197",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-159612",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-159612"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2390919",
+       "type": "reward"
+      },
+      {
+       "id": "187300",
+       "type": "reward"
+      },
+      {
+       "id": "187297",
+       "type": "reward"
+      },
+      {
+       "id": "187298",
+       "type": "reward"
+      },
+      {
+       "id": "187299",
+       "type": "reward"
+      },
+      {
+       "id": "187311",
+       "type": "reward"
+      },
+      {
+       "id": "187318",
+       "type": "reward"
+      },
+      {
+       "id": "274574",
+       "type": "reward"
+      },
+      {
+       "id": "276317",
+       "type": "reward"
+      },
+      {
+       "id": "2392866",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "We are the Generals Gentlemen and we do YouTube content of shoutcasts focusing on; Command and Conquer Zero Hour, Company of Heroes 2, Dawn of War, Rise of Nations, Ashes of the Singularity, as well as many other RTS titles . Providing commentary and analysis through hype, excitement, critique and insight.",
+     "created": "2015-03-28T07:39:40+00:00",
+     "facebook": "https://www.facebook.com/GeneralsGentlemen",
+     "first_name": "Generals",
+     "full_name": "Generals Gentlemen",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/662252/d6d7d6fc055848bfacf98b5149917a39?token-time=2145916800\u0026token-hash=6cXg7Baas1BV6HrnB2nuPOLv3mtY6pTgn88GR940fKI%3D",
+     "last_name": "Gentlemen",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/662252/d6d7d6fc055848bfacf98b5149917a39?token-time=2145916800\u0026token-hash=4pfD5vBvGAbOMBtxiKXZs1ysHIq0tNQHEFTnBJRv2PI%3D",
+     "twitch": "https://www.twitch.tv/generalsgentlemen",
+     "twitter": "ggthemachine",
+     "url": "https://www.patreon.com/generalsgentlemen",
+     "vanity": "generalsgentlemen",
+     "youtube": "https://www.youtube.com/generalsgentlemen"
+    },
+    "id": "662252",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "159612",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/159612"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 3,
+     "upgrade_url": "/bePatron?c=159612\u0026rid=2390919"
+    },
+    "id": "post-aggregation-for-0-159612",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-02-21T14:50:41.699381+00:00",
+     "description": "You\u0027re awesome! Thanks for becoming a Patron. Anyone who pledges at least $2 a month will be helping us to follow our dream career of producing YouTube content full time. You will now have the \"Patreons\" role on Discord.",
+     "discord_role_ids": [
+      "415875730388287491"
+     ],
+     "edited_at": "2018-02-21T14:50:41.699381+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-21T14:50:41.699381+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Discord Role",
+     "unpublished_at": null,
+     "url": "/bePatron?c=159612\u0026rid=2390919",
+     "user_limit": null
+    },
+    "id": "2390919",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-05-27T12:24:31+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAll of the above\u003c/li\u003e\n\u003cli\u003eYou will get invited to join the Patreon exclusive group chat on Facebook where we talk about video games, share dank memes and arrange friendly games with our backers.\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "415875730388287491"
+     ],
+     "edited_at": "2018-02-21T14:53:18.419378+00:00",
+     "image_url": null,
+     "patron_count": 23,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-21T14:53:18.409811+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Facebook Group Chat",
+     "unpublished_at": null,
+     "url": "/bePatron?c=159612\u0026rid=187300",
+     "user_limit": null
+    },
+    "id": "187300",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-05-27T12:24:31+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAll of the above\u003c/li\u003e\n\u003cli\u003eGet your replay casted; we\u0027ll do a video of whatever replay you send in. Whether it be a proper shoutcast or an advice/critique video.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "415875730388287491"
+     ],
+     "edited_at": "2018-02-21T14:46:26.951249+00:00",
+     "image_url": null,
+     "patron_count": 13,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-21T14:46:26.938597+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Replay Casted",
+     "unpublished_at": null,
+     "url": "/bePatron?c=159612\u0026rid=187297",
+     "user_limit": null
+    },
+    "id": "187297",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-05-27T12:24:31+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAll of the above \u00a0\u003c/li\u003e\n\u003cli\u003ePlay some RTS games with us on Discord.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "415875730388287491"
+     ],
+     "edited_at": "2018-02-21T14:46:19.456752+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-21T14:46:19.449686+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Play Games With Us",
+     "unpublished_at": null,
+     "url": "/bePatron?c=159612\u0026rid=187298",
+     "user_limit": null
+    },
+    "id": "187298",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-05-27T12:24:31+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAll of the above\u003c/li\u003e\n\u003cli\u003eReceive a personalised hand written letter signed by both of us and posted out to you.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "415875730388287491"
+     ],
+     "edited_at": "2018-02-21T14:46:11.299866+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-21T14:46:11.289927+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Handwritten Letter ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=159612\u0026rid=187299",
+     "user_limit": null
+    },
+    "id": "187299",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-05-27T12:24:31+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAll of the above\u003c/li\u003e\n\u003cli\u003eReceive a Generals Gentlemen shirt posted out to you.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "415875730388287491"
+     ],
+     "edited_at": "2018-02-21T14:46:04.091774+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-21T14:46:04.082060+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "GG Shirt",
+     "unpublished_at": null,
+     "url": "/bePatron?c=159612\u0026rid=187311",
+     "user_limit": null
+    },
+    "id": "187311",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-05-27T12:24:31+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAll of the above\u003c/li\u003e\n\u003cli\u003eRecieve a Generals Gentlemen shirt posted out to you with your custom name on the back (Instead of the plain one at $25.00).\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "415875730388287491"
+     ],
+     "edited_at": "2018-02-21T14:45:36.618235+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-21T14:45:36.611449+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Personalised GG Shirt",
+     "unpublished_at": null,
+     "url": "/bePatron?c=159612\u0026rid=187318",
+     "user_limit": null
+    },
+    "id": "187318",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2016-05-27T12:24:31+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAll of the above\u003c/li\u003e\n\u003cli\u003eReceive coaching, we\u0027ll give you feedback and advice on how to improve your game by looking at replays.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "415875730388287491"
+     ],
+     "edited_at": "2018-02-21T14:45:11.342400+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-21T14:45:11.333559+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Game Coaching",
+     "unpublished_at": null,
+     "url": "/bePatron?c=159612\u0026rid=274574",
+     "user_limit": null
+    },
+    "id": "274574",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-05-27T12:24:31+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAll of the above\u003c/li\u003e\n\u003cli\u003eReceive a Generals Gentleman hoody posted out to you in the mail. Hoody will be posted after second month of funds.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "415875730388287491"
+     ],
+     "edited_at": "2018-02-22T04:55:03.293630+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-22T04:55:03.283430+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "GG Hoody",
+     "unpublished_at": null,
+     "url": "/bePatron?c=159612\u0026rid=276317",
+     "user_limit": null
+    },
+    "id": "276317",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-02-22T04:54:49.555581+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAll of the above\u003c/li\u003e\n\u003cli\u003eChoose one video per month for the Generals Gentlemen to create; shoutcast, impressions video, let\u0027s play etc (within reason).\u003c/li\u003e\n\u003cli\u003eReceive a Generals Gentlemen mug and bag posted out to you.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "415875730388287491"
+     ],
+     "edited_at": "2018-02-22T05:01:39.478048+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-22T05:01:39.454876+00:00",
+     "remaining": 9,
+     "requires_shipping": true,
+     "title": "Pick A Video",
+     "unpublished_at": null,
+     "url": "/bePatron?c=159612\u0026rid=2392866",
+     "user_limit": 10
+    },
+    "id": "2392866",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 68,
+     "created_at": "2016-04-19T15:47:50+00:00",
+     "description": "At this point it will be financially possible to continue our current schedule.\u00a0\u003cbr\u003e\u003cbr\u003eTo celebrate Blake will Sing and Dance to the 80\u0027s pop hit, \"I Think We\u0027re Alone Now\" by Teenage Superstar, Tiffany.\u00a0\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=w6Q3mHyzn78\"\u003ehttps://www.youtube.com/watch?v=w6Q3mHyzn78\u003c/a\u003e",
+     "reached_at": "2016-08-20T04:08:03+00:00",
+     "title": ""
+    },
+    "id": "404375",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 34,
+     "created_at": "2017-12-24T11:24:43+00:00",
+     "description": "If we manage to get this far a huge thanks to all our fantastic backers.\u003cbr\u003e\u003cbr\u003eWe will add an additional Zero Hour and CoH2 video every week. Which means a Generals Gentlemen video every day of the year!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1057197",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/159612"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "da414c61-d140-4555-80f5-f6414d584d89",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Generals Gentlemen are creating RTS Shoutcasts and Content"
+});
+    </script>

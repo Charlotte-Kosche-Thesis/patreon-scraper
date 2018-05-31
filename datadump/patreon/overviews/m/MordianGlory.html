@@ -1,0 +1,801 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "qj6IMDMaf56s1leF7cGJnYsYyLLrCBsLE7pH6J6P1pA";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "570773",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/570773"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-09-08T07:54:50+00:00",
+    "creation_name": "Warhammer 40k Youtube Videos",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1214685/ac50d943d1cd410eba75c131665dffb7?token-time=2145916800\u0026token-hash=veXGCnDbJdBV3QTr4HQnw_YqYamn0wFb3xW7dxkw6Nk%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1214685/ac50d943d1cd410eba75c131665dffb7?token-time=2145916800\u0026token-hash=dA3GBr9bYfdtiZ1W-QagCN8e3kJ9eOPxCmAmD80vK28%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 50,
+    "pay_per_name": "month",
+    "pledge_sum": 21127,
+    "pledge_url": "/bePatron?c=1214685",
+    "published_at": "2017-09-08T08:29:22+00:00",
+    "summary": "This is the patreon page for my Mordian Glory Youtube channel, which is dedicated to creating Warhammer 40k Imperial Guard Tactics films.\u00a0\u003cbr\u003e\u003cbr\u003eAnything you can give will be greatly appreciated and I just want to say a huge thank you to all my supporters, without you my channel would be nothing!\u003cbr\u003e\u003cbr\u003e\"Call yourself a guardsmen you \u2018orrid little specimen. Ha! Newly recruited and still wet behind the ears and you think you know it all already. Well let me tell you recruit you don\u2019t know nothing. Not yet anyway. Watch these training videos and you will learn the basics. The rest can only be learnt the hard way \u2013 in the glory of battle. So, eyes front, shoulder back, stomach in. stand tall recruit, show some pride, \u2018cause you\u2019re in the Imperial Guard now!\" - 3rd Edition Guard Codex Intro\u003cbr\u003e"
+   },
+   "id": "1214685",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7618638",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7618638"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "960178",
+       "type": "goal"
+      },
+      {
+       "id": "1018329",
+       "type": "goal"
+      },
+      {
+       "id": "1106568",
+       "type": "goal"
+      },
+      {
+       "id": "1196965",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2139019",
+       "type": "reward"
+      },
+      {
+       "id": "2139020",
+       "type": "reward"
+      },
+      {
+       "id": "2139043",
+       "type": "reward"
+      },
+      {
+       "id": "2139037",
+       "type": "reward"
+      },
+      {
+       "id": "2139039",
+       "type": "reward"
+      },
+      {
+       "id": "2139021",
+       "type": "reward"
+      },
+      {
+       "id": "2139024",
+       "type": "reward"
+      },
+      {
+       "id": "2139025",
+       "type": "reward"
+      },
+      {
+       "id": "2139034",
+       "type": "reward"
+      },
+      {
+       "id": "2139046",
+       "type": "reward"
+      },
+      {
+       "id": "2139047",
+       "type": "reward"
+      },
+      {
+       "id": "2139050",
+       "type": "reward"
+      },
+      {
+       "id": "2139028",
+       "type": "reward"
+      },
+      {
+       "id": "2139053",
+       "type": "reward"
+      },
+      {
+       "id": "2139027",
+       "type": "reward"
+      },
+      {
+       "id": "2139029",
+       "type": "reward"
+      },
+      {
+       "id": "2139030",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-09-08T07:52:01+00:00",
+     "facebook": null,
+     "first_name": "Mordian",
+     "full_name": "Mordian Glory",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/7618638/9c18bc4cd9ad4d4e8ba1ad063a4d40a0?token-time=2145916800\u0026token-hash=9NYTqt-zQZnOObEcKUIm5KnLrHgG11R0dh1FHFsk-7g%3D",
+     "last_name": "Glory",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7618638/9c18bc4cd9ad4d4e8ba1ad063a4d40a0?token-time=2145916800\u0026token-hash=yyz_kQ3Eqp4jbnSbvP6i1sPuNCjl4hUk0_n-E1Zrw0o%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/MordianGlory",
+     "vanity": "MordianGlory",
+     "youtube": "https://www.youtube.com/channel/UCItUjGqA1uKs0l80L-VaAjQ/featured?view_as=subscriber"
+    },
+    "id": "7618638",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1214685",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1214685"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-11-10T11:11:03.094404+00:00",
+     "description": "Thank you for doing you part to protect the Imperium!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:29:19.796605+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:29:19.770475+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Conscript!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139019",
+     "user_limit": null
+    },
+    "id": "2139019",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-11-10T11:12:02.505302+00:00",
+     "description": "You survived your 15 hours!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:21:44.208796+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:21:44.188476+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Guardsmen",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139020",
+     "user_limit": null
+    },
+    "id": "2139020",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-11-10T11:23:55.781264+00:00",
+     "description": "Message Received\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:24:15.397325+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:24:15.376408+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Vox Operator",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139043",
+     "user_limit": null
+    },
+    "id": "2139043",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2017-11-10T11:22:11.568180+00:00",
+     "description": "Burn \u0027em out!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:24:32.141779+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:24:32.118330+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Special Weapon Gunner",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139037",
+     "user_limit": null
+    },
+    "id": "2139037",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-11-10T11:22:34.742930+00:00",
+     "description": "Shoot the big ones!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:23:11.262759+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:23:11.241970+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Heavy Weapons Gunner",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139039",
+     "user_limit": null
+    },
+    "id": "2139039",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 600,
+     "amount_cents": 600,
+     "created_at": "2017-11-10T11:12:44.019801+00:00",
+     "description": "Listen up maggots!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:23:21.137966+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:23:21.116270+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sarge",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139021",
+     "user_limit": null
+    },
+    "id": "2139021",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2017-11-10T11:14:07.003169+00:00",
+     "description": "You see these scars kid?",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:14:07.003169+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:14:07.003169+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Veteran",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139024",
+     "user_limit": null
+    },
+    "id": "2139024",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-10T11:15:35.568542+00:00",
+     "description": "Follow me to Glory!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:15:35.568542+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:15:35.568542+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Platoon Officer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139025",
+     "user_limit": null
+    },
+    "id": "2139025",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1200,
+     "amount_cents": 1200,
+     "created_at": "2017-11-10T11:21:33.911516+00:00",
+     "description": "Beep Boop",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:21:33.911516+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:21:33.911516+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tech Priest Enginseer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139034",
+     "user_limit": null
+    },
+    "id": "2139034",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1400,
+     "amount_cents": 1400,
+     "created_at": "2017-11-10T11:25:23.416877+00:00",
+     "description": "We rule the skies",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:26:59.342551+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:26:59.320830+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Master of the Fleet",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139046",
+     "user_limit": null
+    },
+    "id": "2139046",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1600,
+     "amount_cents": 1600,
+     "created_at": "2017-11-10T11:25:51.634126+00:00",
+     "description": "Boom!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:25:51.634126+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:25:51.634126+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Master or Ordnance ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139047",
+     "user_limit": null
+    },
+    "id": "2139047",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1800,
+     "amount_cents": 1800,
+     "created_at": "2017-11-10T11:27:27.423022+00:00",
+     "description": "Our fate has been foretold",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:27:27.423022+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:27:27.423022+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Astropath",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139050",
+     "user_limit": null
+    },
+    "id": "2139050",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-11-10T11:17:40.156724+00:00",
+     "description": "Fear me, but follow!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:19:47.932376+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:19:47.907613+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Commissar",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139028",
+     "user_limit": null
+    },
+    "id": "2139028",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-11-10T11:28:45.501235+00:00",
+     "description": "On open mind is like a fortress with its gates unbarred",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:28:45.501235+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:28:45.501235+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Primaris Psyker",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139053",
+     "user_limit": null
+    },
+    "id": "2139053",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-11-10T11:16:59.159684+00:00",
+     "description": "Lead in order to serve",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:27:45.998914+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:27:45.980251+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Company Commander",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139027",
+     "user_limit": null
+    },
+    "id": "2139027",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2017-11-10T11:18:07.246969+00:00",
+     "description": "If you will not serve me you will serve on the firing line!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:27:53.547446+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:27:53.525235+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Lord Commissar",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139029",
+     "user_limit": null
+    },
+    "id": "2139029",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2017-11-10T11:19:05.076915+00:00",
+     "description": "In all things tactics are key",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T11:28:01.929259+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T11:28:01.887547+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Lord General",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214685\u0026rid=2139030",
+     "user_limit": null
+    },
+    "id": "2139030",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2017-09-08T08:13:41+00:00",
+     "description": "When I reach my first $100 I will use the money to invest in high quality terrain and battle mats to increase the variety of scenery in my battle reports.",
+     "reached_at": "2017-11-17T08:01:48+00:00",
+     "title": ""
+    },
+    "id": "960178",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-10T11:29:51+00:00",
+     "description": "We have the terrain, now it is time for a decent video recorder/camera! :D\u003cbr\u003e",
+     "reached_at": "2018-02-17T04:15:09+00:00",
+     "title": ""
+    },
+    "id": "1018329",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 100,
+     "created_at": "2018-02-09T11:48:24+00:00",
+     "description": "Another big terrain set to add vareity to the battle report!",
+     "reached_at": "2018-05-01T17:08:09+00:00",
+     "title": ""
+    },
+    "id": "1106568",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 84,
+     "created_at": "2018-05-09T12:56:18+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1196965",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1214685"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "f5e5777a-9f19-4f97-9af8-618a9aeedf7c",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Mordian Glory is creating Warhammer 40k Youtube Videos"
+});
+    </script>

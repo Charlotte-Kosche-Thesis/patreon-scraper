@@ -1,0 +1,671 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "urd2agF8TFhQFxbnlTgCtvCUfrP5Kh4W0YVe0r3Iy4I";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "639228",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/639228"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-11-15T21:12:06+00:00",
+    "creation_name": "Podcasts, Tabletop RPGs, and Fiction",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1337121/47813c5b36e54b8da1f408d126f60085?token-time=2145916800\u0026token-hash=QeZZz0f65vsJTnqa793NGtRy07cvSV3Rh29Q1uNlR20%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1337121/47813c5b36e54b8da1f408d126f60085?token-time=2145916800\u0026token-hash=PgNH-xWzeGFOAEdMx8uPaDIxp7LFwZfzRaP6vTUYMkY%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 92,
+    "pay_per_name": "month",
+    "pledge_sum": 134325,
+    "pledge_url": "/bePatron?c=1337121",
+    "published_at": "2017-11-19T22:59:12+00:00",
+    "summary": "The ORPHEUS Protocol is a weekly actual play podcast, featuring intense horror and espionage drama, high production values, and a deep, sprawling narrative. The current campaign is the official beta test of The ORPHEUS Protocol game, a tabletop RPG in development by Varcolac Press.\u003cbr\u003e\u003cbr\u003eFollow the adventures of operatives of the enigmatic ORPHEUS Corporation as they seek to locate, contain, and harness occult phenomena around the world. We aim to bring you the highest quality long-form horror Actual Play possible, with a focus on the personal stories of those people caught in the center of a global web of occult conspiracy."
+   },
+   "id": "1337121",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "389533",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/389533"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1023314",
+       "type": "goal"
+      },
+      {
+       "id": "1023315",
+       "type": "goal"
+      },
+      {
+       "id": "1023316",
+       "type": "goal"
+      },
+      {
+       "id": "1023317",
+       "type": "goal"
+      },
+      {
+       "id": "1023318",
+       "type": "goal"
+      },
+      {
+       "id": "1023319",
+       "type": "goal"
+      },
+      {
+       "id": "1023320",
+       "type": "goal"
+      },
+      {
+       "id": "1023321",
+       "type": "goal"
+      },
+      {
+       "id": "1023322",
+       "type": "goal"
+      },
+      {
+       "id": "1035195",
+       "type": "goal"
+      },
+      {
+       "id": "1082706",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1337121",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1337121"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2151218",
+       "type": "reward"
+      },
+      {
+       "id": "2151230",
+       "type": "reward"
+      },
+      {
+       "id": "2151241",
+       "type": "reward"
+      },
+      {
+       "id": "2151250",
+       "type": "reward"
+      },
+      {
+       "id": "2151268",
+       "type": "reward"
+      },
+      {
+       "id": "2151271",
+       "type": "reward"
+      },
+      {
+       "id": "2151286",
+       "type": "reward"
+      },
+      {
+       "id": "2151292",
+       "type": "reward"
+      },
+      {
+       "id": "2151303",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2014-11-17T09:57:21+00:00",
+     "facebook": "https://www.facebook.com/orpheusprotocol/",
+     "first_name": "The",
+     "full_name": "The ORPHEUS Protocol",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/389533/6e5585f2dbee4d2599e1a4f2d8bbb17b?token-time=2145916800\u0026token-hash=ZK-ptkWv9nlB1Snf1nSUe7YTexVz2RA5sYpgs9-wlFs%3D",
+     "last_name": "ORPHEUS Protocol",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/389533/6e5585f2dbee4d2599e1a4f2d8bbb17b?token-time=2145916800\u0026token-hash=jrxdx2xWOl_1pGvGROORQagmw5v_pdui3-dUcngY9j8%3D",
+     "twitch": null,
+     "twitter": "ORPHEUSprotocol",
+     "url": "https://www.patreon.com/orpheusprotocol",
+     "vanity": "orpheusprotocol",
+     "youtube": null
+    },
+    "id": "389533",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1337121",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1337121"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 51,
+     "upgrade_url": "/bePatron?c=1337121\u0026rid=2151218"
+    },
+    "id": "post-aggregation-for-0-1337121",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-11-15T21:58:06.053341+00:00",
+     "description": "Every bit of help counts. At this level, you\u0027ll be thanked on the air, by either one of the cast, or perhaps by an NPC...",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T22:13:24.912838+00:00",
+     "image_url": null,
+     "patron_count": 9,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-15T22:13:24.891675+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "On-Air Thank You",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1337121\u0026rid=2151218",
+     "user_limit": null
+    },
+    "id": "2151218",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-11-15T22:00:30.990288+00:00",
+     "description": "At this level, backers will receive access to a feed of BONUS CONTENT. This content will include bloopers, bonus episodes (both ORPHEUS and non-ORPHEUS games), Audio episodes of Varcolac Press, and occasional other suprises.\u003cbr\u003e\n\u003cbr\u003e\nWe intend on adding to the ORPHEUS archive a bare minimum of 2 times per month, so that\u0027s hours upon hours of content you can\u0027t get anywhere else!\u003cbr\u003e\n\u003cbr\u003e\nAlso included at this level:\u003cbr\u003e\n- On-Air Thank You",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T22:05:03.241814+00:00",
+     "image_url": null,
+     "patron_count": 29,
+     "post_count": 22,
+     "published": true,
+     "published_at": "2017-11-15T22:05:03.216104+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "ORPHEUS Archive",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1337121\u0026rid=2151230",
+     "user_limit": null
+    },
+    "id": "2151230",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-15T22:04:55.844730+00:00",
+     "description": "At this level, backers will be invited to private hangouts (via Crowdcast, youtube, google, whatever platform ends up working best) where Rob, along with members of the cast when available, will discuss various topics and take questions live from the streaming audience.\u003cbr\u003e\n\u003cbr\u003e\nAdditionally, backers at this level will have access to ORPHEUS RESTRICTED FILES. These are short sagas of bonus episodes that are fully canonical to the ORPHEUS story (though not required for main plot comprehension) and fully produced with soundtrack and voice effects just as the weekly episodes.\u003cbr\u003e\n\u003cbr\u003e\nAlso included at this level:\u003cbr\u003e\n- On-Air Thank You\u003cbr\u003e\n- ORPHEUS Archive",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T22:04:55.844730+00:00",
+     "image_url": null,
+     "patron_count": 24,
+     "post_count": 9,
+     "published": true,
+     "published_at": "2017-11-15T22:04:55.844730+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Varcolac Press",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1337121\u0026rid=2151241",
+     "user_limit": null
+    },
+    "id": "2151241",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-11-15T22:09:42.649797+00:00",
+     "description": "Fudge dice are cool and all, but wouldn\u0027t it be better to have badass ORPHEUS dice? At this tier, once per year, a set of custom ORPHEUS dice will be sent to your door, to give you the tools you need for your own spooky ORPHEUS fun.\u003cbr\u003e\n\u003cbr\u003e\nIn addition, backers at this level will be invited to join the ORPHEUS GAME CLUB. Rob and other cast members will set up some casual, fun video gaming sessions online with these fine folks, aiming for at least 2 times per month. We\u0027ll be doing a rotation of both PC and console games, and club members can help decide what games. If you want the opportunity to hang out with some ORPHEUS peeps in a laid-back setting, this tier is for you.\u003cbr\u003e\n\u003cbr\u003e\nNOTE: Due to dice manufacture and shipping costs, when the run of dice for the year is made, patrons who have given at this level or above for 8 months or more will receive dice. Without this restriction, I would actually lose money on your pledge.\u003cbr\u003e\n\u003cbr\u003e\nAlso included at this level:\u003cbr\u003e\n- On-Air Thank You\u003cbr\u003e\n- ORPHEUS Archive\u003cbr\u003e\n- Varcolac Press",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-06T07:42:04.031868+00:00",
+     "image_url": null,
+     "patron_count": 11,
+     "post_count": 13,
+     "published": true,
+     "published_at": "2018-01-06T07:42:03.999881+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "The Skull and Lyre",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1337121\u0026rid=2151250",
+     "user_limit": null
+    },
+    "id": "2151250",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-11-15T22:18:09.581611+00:00",
+     "description": "We know you want ORPHEUS T-Shirts. Backers at this tier will be sent a high-quality ORPHEUS T-Shirt in the size of their choice at least once per year. New designs will be added periodically, so that nobody will ever lack for an awesome new ORPHEUS shirt.\u003cbr\u003e\n\u003cbr\u003e\nAdditionally, at this level, backers will be automatically entered into a GAME LOTTERY, whereby the lucky winners of a seat at the virtual table for one of our quarterly backer games will be drawn. These quarterly games will be hosted by Rob, Dan, Jhan, or who knows who else, and promise to be a blast.\u003cbr\u003e\n\u003cbr\u003e\nIf that\u0027s not enough, patrons of this tier will also be given the opportunity to vote in polls for what bonus content is to come to the ORPHEUS Archive next. This includes what ORPHEUS side stories are made next as well as the opportunity to force--er--allow us to sample different RPG systems on occasion.\u003cbr\u003e\n\u003cbr\u003e\nNOTE: \u00a0Due to T-Shirt manufacture and shipping costs, when the run of T-Shirts for the year is made, patrons who have given at this level or above for 6 months or more will receive dice. Without this restriction, I would actually lose money on your pledge.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAlso included at this level:\u003cbr\u003e\n- On-Air Thank You\u003cbr\u003e\n- ORPHEUS Archive\u003cbr\u003e\n- Varcolac Press\u003cbr\u003e\n- The Skull and Lyre\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-22T17:54:25.692534+00:00",
+     "image_url": null,
+     "patron_count": 7,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-22T17:54:25.684692+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "T-Shirts and More",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1337121\u0026rid=2151268",
+     "user_limit": null
+    },
+    "id": "2151268",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2017-11-15T22:20:02.209066+00:00",
+     "description": "It\u0027s getting pretty real, at this point. On this tier, backers will be entrusted with occasional leaks of sensitive documents from within ORPHEUS. These documents will include short fiction, micro episodes, dossiers on prominent characters and threats, occasional arty things, and more.\u003cbr\u003e\n\u003cbr\u003e\nAlso at this level, backers will be able to contribute to the dreaded NIGHTMARE VAULT, a fan-made menagerie of monsters, eldritch artifacts, vile cults, and sinister conspiracies. Backers can submit as many entries to the Vault as they wish, and these entries will be given priority consideration in the planning of new games and plot lines. Want to see a monster you made eat someone\u0027s face in an ORPHEUS Archive game? Maybe have an ORPHEUS operative mistakenly pick up a very, very cursed object in the main campaign? Your dreams come true as our nightmares at this tier.\u003cbr\u003e\n\u003cbr\u003e\n\n\u003cp\u003eAlso included at this level:\u003cbr\u003e\n- On-Air Thank You\u003cbr\u003e\n- ORPHEUS Archive\u003cbr\u003e\n- Varcolac Press\u003cbr\u003e\n- The Skull and Lyre\u00a0\u003cbr\u003e\n- T-Shirts and More\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-19T22:44:29.829702+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-19T22:44:29.809300+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "ORPHEUS Document Leaks",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1337121\u0026rid=2151271",
+     "user_limit": null
+    },
+    "id": "2151271",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-11-15T22:31:17.559402+00:00",
+     "description": "At this level, backers will dispense with the random drawing for spaces in our quarterly games, and be guaranteed a seat at at least one game per year.\u003cbr\u003e\n\u003cbr\u003e\nAlso, backers of this level will be given a twice-yearly gaming consultation by Rob (and possibly others), where your campaign will be given the full workshop treatment. We\u0027ll help you design NPC\u0027s and plots, dungeons, boss battles, intrigues; anything and everything you need to give your home game that unspeakable ORPHEUS touch.\u003cbr\u003e\n\u00a0\n\u003cp\u003eAlso included at this level:\u003cbr\u003e\n- On-Air Thank You\u003cbr\u003e\n- ORPHEUS Archive\u003cbr\u003e\n- Varcolac Press\u003cbr\u003e\n- The Skull and Lyre\u00a0\u003cbr\u003e\n- T-Shirts and More\u003c/p\u003e\n\u003cp\u003e- ORPHEUS Document Leaks\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-19T22:44:51.278829+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-19T22:44:51.254028+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "Guaranteed Game",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1337121\u0026rid=2151286",
+     "user_limit": 4
+    },
+    "id": "2151286",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-11-15T22:34:32.788507+00:00",
+     "description": "At this level, you are a member of the ORPHEUS organization. Once a month, you will be invited to a private video chat with Rob and other members of the cast and crew to discuss the show, pop culture, or whatever else is on your mind. Maybe there will be drinking. Who am I to say?\u003cbr\u003e\n\u003cbr\u003e\nFurthermore, backers at this level who have acceptable audio recording equipment will be given priority consideration for inclusion in ORPHEUS Archive bonus games, roles as NPCs in the main story, and other active participation in the unfolding world of ORPHEUS. A this tier, you\u0027re part of the family.\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cp\u003eAlso included at this level:\u003cbr\u003e\n- On-Air Thank You\u003cbr\u003e\n- ORPHEUS Archive\u003cbr\u003e\n- Varcolac Press\u003cbr\u003e\n- The Skull and Lyre\u00a0\u003cbr\u003e\n- T-Shirts and More\u003c/p\u003e\n\u003cp\u003e- ORPHEUS Document Leaks\u003cbr\u003e\n- Guaranteed Game\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T22:43:34.829466+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-11-15T22:43:34.800671+00:00",
+     "remaining": 2,
+     "requires_shipping": true,
+     "title": "Senior Field Operative",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1337121\u0026rid=2151292",
+     "user_limit": 4
+    },
+    "id": "2151292",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-11-15T22:41:30.492821+00:00",
+     "description": "The ultimate ORPHEUS Protocol experience. The astonishingly generous (and brave) backers at this tier will receive all previous level\u0027s rewards, except for the game lottery or guaranteed game. Why aren\u0027t you getting these rewards, you ask? You\u0027re not getting those rewards, I answer with an evil smile, because you\u0027ll be playing in an ongoing game, at least once per month, for as long as you back at this tier.\u003cbr\u003e\n\u003cbr\u003e\nThat\u0027s right, an ongoing ORPHEUS campaign GM\u0027d by Rob, exclusively for backers at this level. Who knows, if we have good sounding equipment and develop a great rapport, we might even record our sessions and post them to the archive, if all backers want that.\u003cbr\u003e\n\u003cbr\u003e\nIf there\u0027s ever just one backer at this level (not enough for a game), I\u0027ll run one-shot games for you and include you in bonus content until we get another victim--er--backer at this level.\u003cbr\u003e\n\u003cbr\u003e\nIn addition, backers at this level will have 3 consultations per year (as per the \"Guaranteed Game\" tier), and the consultation can extend beyond gaming to any other area of our expertise. In other words, I can talk to you about writing, Jhan and I can talk to you about screenwriting, and Dan can talk to you about LARP and game design\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cp\u003eAlso included at this level:\u003cbr\u003e\n- On-Air Thank You\u003cbr\u003e\n- ORPHEUS Archive\u003cbr\u003e\n- Varcolac Press\u003cbr\u003e\n- The Skull and Lyre\u00a0\u003cbr\u003e\n- T-Shirts and More\u003c/p\u003e\n\u003cp\u003e- ORPHEUS Document Leaks\u003cbr\u003e\n- Senior Field Operative\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-19T22:45:38.140701+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-19T22:45:38.119522+00:00",
+     "remaining": 0,
+     "requires_shipping": true,
+     "title": "The Inner Orphic Mysteries",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1337121\u0026rid=2151303",
+     "user_limit": 4
+    },
+    "id": "2151303",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 100,
+     "created_at": "2017-11-15T23:19:45+00:00",
+     "description": "ORPHEUS is now financially solvent! (Sort of)\u003cbr\u003e\u003cbr\u003eWhen we reach this goal, our hosting fees, occasional equipment replacements, and the ever-growing need for data storage can be kept at bay.\u003cbr\u003e\u003cbr\u003eThis still doesn\u0027t account for the thousands of hours it takes to do this, but at least the feed won\u0027t die!",
+     "reached_at": "2017-11-19T23:03:54+00:00",
+     "title": ""
+    },
+    "id": "1023314",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-15T23:19:45+00:00",
+     "description": "Varcolac Press-ing Our Luck with this title...\u003cbr\u003e\u003cbr\u003eWhen we reach this goal, we\u0027ll be able to set the time aside to assure at least 2 Varcolac Press hangouts per month, rather than 1 guaranteed originally. This translates into another piece of content PER MONTH into the ORPHEUS Archive, so this goal increases the value of every $5+ pledge!",
+     "reached_at": "2017-11-19T23:05:04+00:00",
+     "title": ""
+    },
+    "id": "1023315",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 35000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-15T23:19:45+00:00",
+     "description": "The Campfire\u003cbr\u003e\u003cbr\u003eWhen we reach this goal, Rob and Quinn (Granville Moore, and host of Swallows of the South) will unleash their long-percolating brainchild, The Campfire.\u003cbr\u003e\u003cbr\u003eThe Campfire will be an anthology-format podcast dedicated to the art and craft of Storytelling in RPGs. We\u0027ll cover campaign design, GMing theory, keeping a long story healthy, supporting your players, ludonarrative harmony, and many other very nerdy topics for the tabletop RPG connoisseur.\u003cbr\u003e\u003cbr\u003eThe show would be released to the Varcolac Press backer level initially as the episodes are made, and later on, given to all patrons regardless of level, sometime after each anthology volume is finished.",
+     "reached_at": "2017-11-19T23:21:40+00:00",
+     "title": ""
+    },
+    "id": "1023316",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-15T23:19:45+00:00",
+     "description": "A Wild Dan Appears!\u003cbr\u003e\u003cbr\u003eWhen we reach this goal, a mighty Ginger Sasquatch that haunts the Pacific Northwest, known in some circles as \"Dan,\" will occasionally crash out of the underbrush and pop a squat at Quinn and Rob\u0027s Campfire.\u003cbr\u003e\u003cbr\u003eThis means bonus episodes of The Campfire that don\u0027t fit with the current anthology theme, or are perhaps too silly. Expect LARP talk.",
+     "reached_at": "2017-11-20T00:08:02+00:00",
+     "title": ""
+    },
+    "id": "1023317",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-15T23:19:45+00:00",
+     "description": "ORPHEUS ILLUSTRATED\u003cbr\u003e\u003cbr\u003eWhen we reach this goal, I\u0027ll be able to commission art from some of the ORPHEUS fan community\u0027s incredibly talented artists, releasing the pieces in high-quality downloads to all backers.\u003cbr\u003e\u003cbr\u003eThe current plan is to commission \"Movie Poster\" style art pieces for each arc of the main story, adding to the podcast\u0027s cinematic feel. As we come up with more fun stuff to have made, you better believe we\u0027ll be releasing it over time.",
+     "reached_at": "2017-11-20T02:43:09+00:00",
+     "title": ""
+    },
+    "id": "1023318",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-15T23:19:45+00:00",
+     "description": "Expanded ORPHEUS Archive\u003cbr\u003e\u003cbr\u003eWhen we reach this goal, I\u0027ll be able to guarantee at least one additional release of content into the ORPHEUS Archive per month. That means more bloopers and more bonus episodes, and a greater value to every pledge of $5+.",
+     "reached_at": "2017-11-20T18:27:41+00:00",
+     "title": ""
+    },
+    "id": "1023319",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 80000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-15T23:19:45+00:00",
+     "description": "Jhan and Rob\u0027s As-Of-Yet-Untitled TV and Movies Podcast!!!\u003cbr\u003e\u003cbr\u003eWhen we reach this goal, Jhan and Rob (screenwriting partners of nearly a decade) will start a bonus podcast that takes various movies and TV shows and dissects them in a deep-dive discussion on both a literary and industry level. We\u0027ll take well-loved (and rightfully-panned) stories and really get under the hood to look at what makes them tick.\u003cbr\u003e\u003cbr\u003eSimilarly to \"The Campfire,\" these episodes will release to ORPHEUS Archive backers first, before going out to everyone at a later time, boosting the value of $5+ pledges.\u003cbr\u003e",
+     "reached_at": "2017-11-21T10:19:19+00:00",
+     "title": ""
+    },
+    "id": "1023320",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 90000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-15T23:19:45+00:00",
+     "description": "Expanded Game Lottery\u003cbr\u003e\u003cbr\u003eWhen we reach this goal, we\u0027ll add an additional yearly drawing to the quarterly games, making them... \"Fifthly Games?\" In any case, more backers will get to game with us, and that oughta be neat.",
+     "reached_at": "2017-11-22T04:24:41+00:00",
+     "title": ""
+    },
+    "id": "1023321",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-15T23:19:45+00:00",
+     "description": "ORPHEUS Short Fiction Anthology\u003cbr\u003e\u003cbr\u003eWhen we reach this goal, ORPHEUS is pretty much my full time job. Not a living wage, perhaps, but my life-long dream of surviving on my art will be close to being achieved.\u003cbr\u003e\u003cbr\u003eTo celebrate this, I\u0027ll begin writing an anthology of short fiction set in the ORPHEUS world, and ALL BACKERS will receive the stories and/or chapters as they are completed.\u003cbr\u003e\u003cbr\u003e\"The Many Adventures of Jack,\" perhaps..?\u003cbr\u003e",
+     "reached_at": "2017-12-01T14:34:07+00:00",
+     "title": ""
+    },
+    "id": "1023322",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 130000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-29T08:15:11+00:00",
+     "description": "Soundtracks all the way down\u003cbr\u003e\u003cbr\u003eAt this, level, I\u0027ll be able to guarantee soundtracking and background music in the bonus episodes coming to the ORPHEUS Archive.\u003cbr\u003e\u003cbr\u003eThis pretty much means the bonus episodes will be at the same level of quality as the normal releases, indefinitely!\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": "2018-04-16T00:20:56+00:00",
+     "title": ""
+    },
+    "id": "1035195",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 89,
+     "created_at": "2018-01-18T21:48:02+00:00",
+     "description": "ORPHEUS Archive Achieves its Final Form\u003cbr\u003e\u003cbr\u003eAt this level, I\u0027ll be able to reach out for occasional assistance in the frankly absurd amount of editing that comes along with putting out both ORPHEUS and all the side content.\u003cbr\u003e\u003cbr\u003eWith this little bit of respite, I\u0027ll be able to guarantee YET ANOTHER bonus content release per month.\u003cbr\u003e\u003cbr\u003eThat means each month\u0027s bare minimum is 4 pieces of bonus content (bloopers, Varcolac Press, Bonus Episodes, The Video Evidence, The Campfire, and any other nonsense I decide to saddle myself with in future).\u003cbr\u003e\u003cbr\u003eThat\u0027s HOURS of content per month for every patron at $5 or more!\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1082706",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1337121"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "1b84b17a-405f-40c3-b119-61fec066e028",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "The ORPHEUS Protocol is creating Podcasts, Tabletop RPGs, and Fiction"
+});
+    </script>

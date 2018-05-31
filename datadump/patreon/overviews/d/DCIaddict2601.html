@@ -1,0 +1,417 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "biMYHJPYqlnLhFym9qdp5z0UxEiwQ5236KDWGAD-4gU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "619725",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/619725"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-09-06T22:27:18+00:00",
+    "creation_name": "Trumpet Arrangements",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI0IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1212677/94220ea402854581b8c18c3cc37913cd?token-time=2145916800\u0026token-hash=ACWflOaA25KD_0rrYl8PNtkyHMdjStclv9gHsg_oPpg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNCJ9/patreon-media/campaign/1212677/94220ea402854581b8c18c3cc37913cd?token-time=2145916800\u0026token-hash=tVrYnOndJue1TQlzTapQu6HJ49ItE7vdQEKq8Li3Qx0%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/ueeHZMFVzl0\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://www.youtube.com/watch?v=ueeHZMFVzl0",
+    "one_liner": null,
+    "patron_count": 32,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1212677",
+    "published_at": "2017-10-31T18:09:47+00:00",
+    "summary": "Hi guys \u0026amp; girls,\u003cbr\u003e\u003cbr\u003eI am \u00a0really excited to be launching our Patreon campaign. I\u0027d like to massively increase the amount of high quality multitrack and cover content that I created in 2017 - and I feel that Patreon is the ideal platform from which we can connect to our supporters and hopefully achieve my goals.\u003cbr\u003e\u003cbr\u003eHopefully, with your support, I can create more great videos for everyone to enjoy.\u003cbr\u003e\u003cbr\u003eIf you enjoy the videos that I create, I\u0027d would be really grateful for any support that you feel like you can give. You\u0027ll even get some cool rewards as well!\u003cbr\u003e\u003cbr\u003eThanks so much,\u003cbr\u003e\u003cbr\u003eAntonio Cabrera"
+   },
+   "id": "1212677",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4654727",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4654727"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1009303",
+       "type": "goal"
+      },
+      {
+       "id": "1120737",
+       "type": "goal"
+      },
+      {
+       "id": "1121081",
+       "type": "goal"
+      },
+      {
+       "id": "1121082",
+       "type": "goal"
+      },
+      {
+       "id": "1127271",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2116548",
+       "type": "reward"
+      },
+      {
+       "id": "2116551",
+       "type": "reward"
+      },
+      {
+       "id": "2116558",
+       "type": "reward"
+      },
+      {
+       "id": "2324938",
+       "type": "reward"
+      },
+      {
+       "id": "2331445",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-12-19T04:33:05+00:00",
+     "facebook": "https://www.facebook.com/DCIaddict1152/",
+     "first_name": "Antonio",
+     "full_name": "Antonio Cabrera",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/4654727/f923f3d0594a46f0ade94376991089e1?token-time=2145916800\u0026token-hash=Hg1VJhUJvBww4FbQrMOIbXHhdVsFkl9icR1_sIp4qd4%3D",
+     "last_name": "Cabrera",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4654727/f923f3d0594a46f0ade94376991089e1?token-time=2145916800\u0026token-hash=UHdAtiPYp9QgdYdGjWUGIg5FIe2PwClOpsdq5yPsT78%3D",
+     "twitch": null,
+     "twitter": "DCIaddict2601",
+     "url": "https://www.patreon.com/DCIaddict2601",
+     "vanity": "DCIaddict2601",
+     "youtube": "https://www.youtube.com/dciaddict2601"
+    },
+    "id": "4654727",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1212677",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1212677"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-10-31T16:54:26.051610+00:00",
+     "description": "No reward, I just want to support Antonio Cabrera",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-28T19:55:18.164835+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-28T19:55:18.156128+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Bronze",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1212677\u0026rid=2116548"
+    },
+    "id": "2116548",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-10-31T16:55:37.866652+00:00",
+     "description": "Transcription Videos on Youtube",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-28T19:55:31.558291+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-28T19:55:31.549317+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Silver ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1212677\u0026rid=2116551"
+    },
+    "id": "2116551",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-10-31T16:57:07.723282+00:00",
+     "description": "\u00a0HQ audio recording Downloads (as well as the above)",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-28T19:54:27.486484+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-28T19:54:27.477532+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Platinum",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1212677\u0026rid=2116558"
+    },
+    "id": "2116558",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-01-28T19:53:46.278107+00:00",
+     "description": "\u003cstrong\u003eEducational Copies of Sheet Music (as well as the rewards above)\u003c/strong\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-30T23:03:50.468087+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-30T23:03:50.461076+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Platinum +",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1212677\u0026rid=2324938"
+    },
+    "id": "2324938",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-01-30T23:04:31.222378+00:00",
+     "description": "Backing Tracks (as well as the rewards above)",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-30T23:04:31.222378+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-30T23:04:31.222378+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Biggest Fan ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1212677\u0026rid=2331445"
+    },
+    "id": "2331445",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 33,
+     "created_at": "2017-10-31T18:05:47+00:00",
+     "description": "Lighting equipment, microphones, computers, audio interfaces... the list of gear that I could buy to make these videos as good as they can be is endless. Again - when I hit this goal, I will be able to start buying some better things - and the quality should immediately increase as a result.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1009303",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2018-02-22T21:57:27+00:00",
+     "description": "When I reach this goal, I will be able to make 1 high quality music video a month plus 1 tutorial/Q\u0026amp;A",
+     "reached_at": "2018-02-23T04:25:55+00:00",
+     "title": ""
+    },
+    "id": "1120737",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 44,
+     "created_at": "2018-02-23T04:59:15+00:00",
+     "description": "Once I reach this goal I will be able to make two high quality videos a month including two tutorials/Q\u0026amp;A for the month\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1121081",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 19,
+     "created_at": "2018-02-23T05:07:13+00:00",
+     "description": "Once we reach this goal, will be raffle out the Ribbon Mic, Studio Monitors, Trumpet Case, and Pocket Trumpet. *This includes people who already donated to my GoFundMe*",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1121082",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 66,
+     "created_at": "2018-03-01T02:18:06+00:00",
+     "description": "When we reach this goal I will design my first shirt!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1127271",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1212677"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "7d3459ea-7a1c-452d-898b-6f6b7ea2be16",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Antonio Cabrera is creating Trumpet Arrangements"
+});
+    </script>

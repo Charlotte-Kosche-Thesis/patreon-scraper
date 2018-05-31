@@ -1,0 +1,657 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "5FPNKAY990Jd6utJ2jfsYqBql5HB9etZdjOEzj1AsiY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "650940",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/650940"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-11-29T23:21:44+00:00",
+    "creation_name": "Translations for The World Online",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1364798/aa5f0a955b3d4df5a08e4a666af0696b?token-time=2145916800\u0026token-hash=8yqxcKMl5VvgudTnFsgo61pWTQDvi6jA_YcedtXzWJc%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1364798/aa5f0a955b3d4df5a08e4a666af0696b?token-time=2145916800\u0026token-hash=bO3f02wg7f6unLxnAyYMdto2B4voPYlFZUCEN71vzRI%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 94,
+    "pay_per_name": "month",
+    "pledge_sum": 416289,
+    "pledge_url": "/bePatron?c=1364798",
+    "published_at": "2017-12-01T14:34:00+00:00",
+    "summary": "\u003cdiv style=\"text-align: justify;\"\u003e\u003cstrong\u003eYou can view early release chapters here:\u003cbr\u003e\u003c/strong\u003e\u003ca href=\"https://two.gravitytales.com/\"\u003ehttps://two.gravitytales.com/\u003cbr\u003e\u003c/a\u003e\u003cbr\u003e\u003cstrong\u003eWhat\u0027s with this odd name \u003cem\u003eTeamTWO\u003c/em\u003e?\u003cbr\u003e\u003c/strong\u003e Hey guys, we are TeamTWO here. We are a team and the novel we translate is called- The World Online. Our team was made up of Ryan and Risingdawn. It\u0027s just Ryan now :( and I\u0027ll bring you translations for The World Online.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWhy support me?\u003cbr\u003e\u003c/strong\u003eWith your support, I can do more! Such as:\u003cbr\u003e1. Quicker translations and more posts!\u003cbr\u003e2. Patrons(You!) will get extra chapters ahead of the translations.\u003cbr\u003e3. Increase in weekly regular chapters releasing rate.\u003cbr\u003e3. More chapters and quicker updates!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIssues that we are facing at the moment\u003cbr\u003e\u003c/strong\u003e\u003cstrong\u003e\u003c/strong\u003eWe, the translators and editors, all have full-time jobs and duties of our own. (eg. I\u0027m studying.) The translation procedure is very time-consuming, a single chapter alone can take up to two to three hours and we need to do our research so that we can present you with an authentic translated version of TWO at\u00a0the highest quality.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eOur current goals:\u003c/strong\u003e\u003cbr\u003e\u003cul style=\"\"\u003e\u003cli\u003e\u003cdel\u003e\u003cstrong style=\"font-weight: bold; background-color: initial;\"\u003e\u003c/strong\u003e\u003cstrong style=\"font-weight: bold; background-color: initial;\"\u003eTier 1 ($250):\u003c/strong\u003e\u003cstrong\u003e\u00a0\u003c/strong\u003e8 weekly chapters\u003c/del\u003e\u003c/li\u003e\u003cli\u003e\u003cdel\u003e\u003cstrong style=\"font-weight: bold; background-color: initial;\"\u003eTier 2 ($500):\u003c/strong\u003e\u003cstrong\u003e\u00a0\u003c/strong\u003e8 weekly chapters + 2 bonus chapters a month\u003c/del\u003e\u003c/li\u003e\u003cli\u003e\u003cdel\u003e\u003cstrong style=\"font-weight: bold; background-color: initial;\"\u003eTier 3 ($1000):\u003c/strong\u003e\u00a09 weekly chapters\u003c/del\u003e\u003c/li\u003e\u003cli\u003e\u003cdel\u003e\u003cstrong style=\"font-weight: bold; background-color: initial;\"\u003eTier 4 ($1500): \u003c/strong\u003e10 weekly chapters\u003c/del\u003e\u003c/li\u003e\u003cli\u003e\u003cdel\u003e\u003cstrong style=\"font-weight: bold; background-color: initial;\"\u003eTier 5 ($2000):\u003c/strong\u003e 11 weekly chapters\u003c/del\u003e\u003c/li\u003e\u003cli\u003e\u003cdel\u003e\u003cstrong style=\"font-weight: bold; background-color: initial;\"\u003eTier 6 ($2500):\u003c/strong\u003e 12 weekly chapters\u003c/del\u003e\u003c/li\u003e\u003cli\u003e\u003cdel\u003e\u003cstrong style=\"font-weight: bold; background-color: initial;\"\u003eTier 7 ($3000):\u003c/strong\u003e 13 weekly chapters\u003c/del\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong style=\"font-weight: bold; background-color: initial;\"\u003eTier 8 ($4000):\u003c/strong\u003e 14 weekly chapters\u003c/li\u003e\u003cli\u003e\u003cstrong style=\"font-weight: bold; background-color: initial;\"\u003eTier 9 ($5000): \u003c/strong\u003e14 weekly chapters + 4 extra chapters a month\u003c/li\u003e\u003c/ul\u003eWe\u0027re currently at 13 chapters per week! (This would update once a month after the payments come in)\u003cbr\u003e\u003cstrong\u003e\u003cbr\u003e\u003c/strong\u003e\u003cstrong\u003e \tWhat is Patreon?\u003cbr\u003e\t\u003c/strong\u003e\u003cem\u003ePatreon is a site which lets users make a monthly subscription to a specific product. In our case, it would be privileged rights to early releases of the chapters, exclusive content for Patrons, and other rewards like creating your own ability, character, etc within the story.\u003cbr\u003e \u003c/em\u003e\u003cbr\u003e\u003cstrong\u003eDo I need to pledge to read The World Online?\u003cbr\u003e\u003c/strong\u003e\u003cem\u003eNo. It is completely optional, and only meant as a way to show your support to us and the story. The chapters of The World Online will always be free and open for all to read. The pledges are just a way to offer continued support if you are able to do so.\u003cbr\u003e \u003c/em\u003e\u003cbr\u003e\u003cstrong\u003eCan I change my pledge amount?\u003cbr\u003e\u003c/strong\u003e\u003cem\u003eYes, you can. Just go to the top right of the page and once you hover near your profile picture, you will see a list of options. Just click on \u201cYour Pledges\u201d and you should be able to see all your active pledges and make changes/edits to it.\u003cbr\u003e \u003c/em\u003e\u003cbr\u003e\u003cstrong\u003eHow does Patron charge me?\u003cbr\u003e\u003c/strong\u003e\u003cem\u003ePatreon accepts two forms of payment: PayPal and credit card. You can add your paypal account to Patreon, or if you don\u2019t have one, then simply add your credit card. Please make sure that your given payment account has the funds, not expired, etc, otherwise the pledge will be automatically declined by Patreon.\u003cbr\u003e\u003c/em\u003e\u003cbr\u003ePatrons, please be aware; pledges begin processing on the 1st of every month, regardless of when you pledged. If you pledge on the 31st, for example, you will be charged the following day. We will not issue refunds as all of the chapters are available to you as soon as you pledge. The pledge is locked at 00:00 on the 1st of each month, PST, and Patreon will charge the amount pledged at that time regardless of changes made to the pledge on that day. Please keep this in mind. Thank you for all of your support!\u003cbr\u003e\u003c/div\u003e\n\n\n\n\u003cdiv style=\"text-align: center;\"\u003e\n\u003c/div\u003e\n\n\n\n\n\u003cstrong\u003e\u003c/strong\u003e"
+   },
+   "id": "1364798",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8646714",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8646714"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1035940",
+       "type": "goal"
+      },
+      {
+       "id": "1035941",
+       "type": "goal"
+      },
+      {
+       "id": "1035942",
+       "type": "goal"
+      },
+      {
+       "id": "1036025",
+       "type": "goal"
+      },
+      {
+       "id": "1036026",
+       "type": "goal"
+      },
+      {
+       "id": "1036027",
+       "type": "goal"
+      },
+      {
+       "id": "1036209",
+       "type": "goal"
+      },
+      {
+       "id": "1036210",
+       "type": "goal"
+      },
+      {
+       "id": "1036211",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1364798",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1364798"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2491474",
+       "type": "reward"
+      },
+      {
+       "id": "2180983",
+       "type": "reward"
+      },
+      {
+       "id": "2180984",
+       "type": "reward"
+      },
+      {
+       "id": "2180985",
+       "type": "reward"
+      },
+      {
+       "id": "2180989",
+       "type": "reward"
+      },
+      {
+       "id": "2180990",
+       "type": "reward"
+      },
+      {
+       "id": "2180992",
+       "type": "reward"
+      },
+      {
+       "id": "2180995",
+       "type": "reward"
+      },
+      {
+       "id": "2181689",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-11-29T23:02:14+00:00",
+     "facebook": null,
+     "first_name": "Team",
+     "full_name": "Team TWO",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/8646714/c5455a695cf44f2a8d0ac5f7334729a2?token-time=2145916800\u0026token-hash=X6u8xNHM8tD_kr0s_DJgOfZVaX3sVfe1uJVH9vR0MWc%3D",
+     "last_name": "TWO",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/8646714/c5455a695cf44f2a8d0ac5f7334729a2?token-time=2145916800\u0026token-hash=AsQ3HjyG1iOZVxiUSXPtVwH0khS6NyPhnqWh3sKnVrY%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/TeamTwo2",
+     "vanity": "TeamTwo2",
+     "youtube": null
+    },
+    "id": "8646714",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1364798",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1364798"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 4,
+     "upgrade_url": "/bePatron?c=1364798\u0026rid=2491474"
+    },
+    "id": "post-aggregation-for-0-1364798",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-04-01T11:16:14.634881+00:00",
+     "description": "\u00a0You are a wanderer who has stumbled across Earth Online!\u003cbr\u003e\n\u00a0\n\u003cp\u003e\u003cem\u003eYou will get the basic starter pack- access to 1 early release chapter.\u003c/em\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "402352171959713793"
+     ],
+     "edited_at": "2018-04-01T11:16:14.634881+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T11:16:14.634881+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Wanderer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1364798\u0026rid=2491474",
+     "user_limit": null
+    },
+    "id": "2491474",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-11-29T23:23:14.658963+00:00",
+     "description": "You have begun your journey in Earth Online!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eYou will get the basic welfare of a villager - access to 2 early release chapter.\u003c/em\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "411125506537291776"
+     ],
+     "edited_at": "2018-04-01T11:17:03.966187+00:00",
+     "image_url": null,
+     "patron_count": 13,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T11:17:03.955716+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Villager",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1364798\u0026rid=2180983",
+     "user_limit": null
+    },
+    "id": "2180983",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-29T23:23:31.951756+00:00",
+     "description": "You are doing well! You are now strong and tough, keep up the good work!!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eYour salary will be - access to 3 early release chapters.\u003c/em\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "411125507925475328"
+     ],
+     "edited_at": "2018-04-01T11:17:21.646505+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T11:17:21.636837+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Soldier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1364798\u0026rid=2180984",
+     "user_limit": null
+    },
+    "id": "2180984",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-11-29T23:23:48.692856+00:00",
+     "description": "Wow! You have a squadron of men under you!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eAs a squadron sergeant, you pay will be higher - access to 5 early release chapters.\u003c/em\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "411125508894359554"
+     ],
+     "edited_at": "2018-04-01T11:17:53.276723+00:00",
+     "image_url": null,
+     "patron_count": 7,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T11:17:53.269940+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sergeant",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1364798\u0026rid=2180985",
+     "user_limit": null
+    },
+    "id": "2180985",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-11-29T23:24:07.030623+00:00",
+     "description": "Wow you are really a big shot now! \u00a0With 500 men under your charge, your elite unit will strike fear into anyone!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eYour contribution to the territory shall be rewarded, you will get access to 7 early release chapters!\u003c/em\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "411125511301890048"
+     ],
+     "edited_at": "2018-04-01T11:18:10.852562+00:00",
+     "image_url": null,
+     "patron_count": 10,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T11:18:10.845236+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Major",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1364798\u0026rid=2180989",
+     "user_limit": null
+    },
+    "id": "2180989",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-11-29T23:24:39.090036+00:00",
+     "description": "Colonel! The lord entrusts these 2500 good men in your hands, we have faith in you!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eYou are the young and bright star in the military, you now have access to 9 early release chapters.\u003c/em\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "411125512790999042"
+     ],
+     "edited_at": "2018-04-01T11:18:29.519939+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T11:18:29.507604+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Colonel",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1364798\u0026rid=2180990",
+     "user_limit": null
+    },
+    "id": "2180990",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2017-11-29T23:24:54.342893+00:00",
+     "description": "You are near the peak of the military chain! The lord really trusts you a lot! Keep up the good work, you will be the next Marshal!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eAs the next in line to the Marshal, you will gain access to 11 early release chapters.\u003c/em\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "411125929537175562"
+     ],
+     "edited_at": "2018-04-01T11:18:40.608772+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T11:18:40.599325+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "General",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1364798\u0026rid=2180992",
+     "user_limit": null
+    },
+    "id": "2180992",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2017-11-29T23:25:05.988769+00:00",
+     "description": "Congratulations! You are the ultimate leader in the army! Everyone is under you and you have absolute power, well, other than the lord himself!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eYou are now the Marshal, for future strategic planning purposes, you will have access to 20 early release chapters.\u003c/em\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "411125940186513408"
+     ],
+     "edited_at": "2018-04-01T11:18:56.182530+00:00",
+     "image_url": null,
+     "patron_count": 10,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T11:18:56.173085+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Marshal",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1364798\u0026rid=2180995",
+     "user_limit": null
+    },
+    "id": "2180995",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-11-30T06:00:04.235200+00:00",
+     "description": "There is nothing else the lord can reward you for your contribution other than the title of Baron/Baroness.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eYou have claimed the title of Baron/Baroness, you will have access to 34 early release chapters.\u003c/em\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "411125943046766593"
+     ],
+     "edited_at": "2018-04-01T11:19:13.435936+00:00",
+     "image_url": null,
+     "patron_count": 33,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T11:19:13.426465+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Baron/Baroness",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1364798\u0026rid=2181689",
+     "user_limit": null
+    },
+    "id": "2181689",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-29T23:26:06+00:00",
+     "description": "\u003cem\u003eWe will release 8 chapters a week!\u00a0\u003c/em\u003e",
+     "reached_at": "2017-12-02T03:46:26+00:00",
+     "title": ""
+    },
+    "id": "1035940",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-29T23:26:06+00:00",
+     "description": "\u003cem\u003eWe will release \u003cem\u003e8 chapters a week plus\u00a0\u003c/em\u003e2 additional bonus chapters a month!\u003c/em\u003e",
+     "reached_at": "2017-12-02T06:13:40+00:00",
+     "title": ""
+    },
+    "id": "1035941",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-29T23:26:06+00:00",
+     "description": "\u003cem\u003eWe will release 9 chapters a week!\u003c/em\u003e",
+     "reached_at": "2017-12-05T07:04:28+00:00",
+     "title": ""
+    },
+    "id": "1035942",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-30T01:06:19+00:00",
+     "description": "\u003cem\u003eWe will release 10 chapters a week!\u003c/em\u003e",
+     "reached_at": "2017-12-10T06:18:50+00:00",
+     "title": ""
+    },
+    "id": "1036025",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-30T01:06:19+00:00",
+     "description": "\u003cem\u003eWe will release 11 chapters a week!\u003c/em\u003e",
+     "reached_at": "2017-12-28T09:05:24+00:00",
+     "title": ""
+    },
+    "id": "1036026",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-30T01:06:19+00:00",
+     "description": "\u003cem\u003eWe will release 12 chapters a week!\u003c/em\u003e",
+     "reached_at": "2018-01-09T18:21:40+00:00",
+     "title": ""
+    },
+    "id": "1036027",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-30T05:04:08+00:00",
+     "description": "\u003cem\u003eWe will release 13 chapters a week!\u003c/em\u003e",
+     "reached_at": "2018-01-18T10:22:31+00:00",
+     "title": ""
+    },
+    "id": "1036209",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 400000,
+     "completed_percentage": 100,
+     "created_at": "2017-11-30T05:04:08+00:00",
+     "description": "\u003cem\u003e\u003cem\u003eWe will release 14 chapters a week!\u003c/em\u003e\u003c/em\u003e",
+     "reached_at": "2018-03-07T22:02:29+00:00",
+     "title": ""
+    },
+    "id": "1036210",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 83,
+     "created_at": "2017-11-30T05:04:08+00:00",
+     "description": "\u003cem\u003eWe will release 14 chapters a week\u003cem\u003e\u003cem\u003e plus \u003c/em\u003e4 additional bonus chapters a month!\u003c/em\u003e!\u003c/em\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1036211",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1364798"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "5c293998-2cef-4937-a1b4-275bc96c7d31",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Team TWO is creating Translations for The World Online"
+});
+    </script>

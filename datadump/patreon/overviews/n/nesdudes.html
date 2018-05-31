@@ -1,0 +1,752 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "kP7rG5jVDnaAKneU70CVv42aL8Rx7CnCQ734IRyuN48";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "33600",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/33600"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-10-27T05:28:52+00:00",
+    "creation_name": "the best Nintendo NES retrogaming podcast",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/120670/e05b3e2b427744ea9d22762fa6f69b02?token-time=2145916800\u0026token-hash=Lvv6yf6y-GrdNOoe4JVLHGXCjmYA-GgoD_bpK6Dvwtg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/120670/e05b3e2b427744ea9d22762fa6f69b02?token-time=2145916800\u0026token-hash=91zNbo2LfzNtsQkIAOtgTli2-rtRLCrbwaxNtaY4VOI%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Can\u0027t beat that retro gaming goodness!",
+    "patron_count": 31,
+    "pay_per_name": "month",
+    "pledge_sum": 11569,
+    "pledge_url": "/bePatron?c=120670",
+    "published_at": "2015-02-06T22:57:19+00:00",
+    "summary": "We are 2 Dudes and a NES. A bi-weekly podcast dedicated to the greatest retro gaming console ever created... the Nintendo Entertainment System. Each show covers one game with little bits of tangents in between. \u003cbr\u003e\u003cbr\u003eWe do these podcasts for the love of it... for the love of community we\u0027ve created. \u003cbr\u003e\u003cbr\u003eThe show will continue on as is... for free... same quantity and quality. However, if you want bonus content in addition to the main show, throw us some bones (in the form of money please, not actual bones).\u003cbr\u003e\u003cbr\u003e#dpadders4lyf\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "120670",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "359205",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/359205"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "119812",
+       "type": "goal"
+      },
+      {
+       "id": "119815",
+       "type": "goal"
+      },
+      {
+       "id": "136648",
+       "type": "goal"
+      },
+      {
+       "id": "136652",
+       "type": "goal"
+      },
+      {
+       "id": "185253",
+       "type": "goal"
+      },
+      {
+       "id": "216416",
+       "type": "goal"
+      },
+      {
+       "id": "683588",
+       "type": "goal"
+      },
+      {
+       "id": "684472",
+       "type": "goal"
+      },
+      {
+       "id": "684503",
+       "type": "goal"
+      },
+      {
+       "id": "687301",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "44788",
+       "type": "patron_goal"
+      },
+      {
+       "id": "44791",
+       "type": "patron_goal"
+      },
+      {
+       "id": "44789",
+       "type": "patron_goal"
+      },
+      {
+       "id": "44797",
+       "type": "patron_goal"
+      },
+      {
+       "id": "44796",
+       "type": "patron_goal"
+      },
+      {
+       "id": "44790",
+       "type": "patron_goal"
+      },
+      {
+       "id": "44792",
+       "type": "patron_goal"
+      },
+      {
+       "id": "44793",
+       "type": "patron_goal"
+      },
+      {
+       "id": "44794",
+       "type": "patron_goal"
+      },
+      {
+       "id": "44795",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-120670",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-120670"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "155967",
+       "type": "reward"
+      },
+      {
+       "id": "1447579",
+       "type": "reward"
+      },
+      {
+       "id": "1299565",
+       "type": "reward"
+      },
+      {
+       "id": "155969",
+       "type": "reward"
+      },
+      {
+       "id": "155971",
+       "type": "reward"
+      },
+      {
+       "id": "1299628",
+       "type": "reward"
+      },
+      {
+       "id": "1299588",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "We\u0027re 2 dudes and a NES. We record game by game podcasts about the Nintendo Entertainment System.",
+     "created": "2014-10-27T05:28:52+00:00",
+     "facebook": "https://www.facebook.com/pages/Two-Dudes-and-a-NES/6043561896141",
+     "first_name": "2",
+     "full_name": "2 Dudes and a NES",
+     "gender": 1,
+     "hide_pledges": null,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/359205/8934503d35f44280898567fa5abac8d9?token-time=2145916800\u0026token-hash=iHlYcFL4OMO_3EAHpZRKK4WduZDHuKM_uyT6D-B5c5Y%3D",
+     "last_name": "Dudes and a NES",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/359205/8934503d35f44280898567fa5abac8d9?token-time=2145916800\u0026token-hash=S6zuhEOyJt4cuSyex7Cq_YC5OfPKM-dZ3HKNyyoRcqM%3D",
+     "twitch": "https://www.twitch.tv/nes_dudes",
+     "twitter": "NES_Dudes",
+     "url": "https://www.patreon.com/nesdudes",
+     "vanity": "nesdudes",
+     "youtube": "https://www.youtube.com/user/NESDudes"
+    },
+    "id": "359205",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "120670",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/120670"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 42,
+     "upgrade_url": "/bePatron?c=120670\u0026rid=155967"
+    },
+    "id": "post-aggregation-for-0-120670",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-09-15T18:13:06+00:00",
+     "description": "The everyman reward tier:\n\u003cul\u003e\n\u003cli\u003eYou get all of the Patreon episodes! Past, present, and future (so long as you contine to dontate).\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-20T20:44:28.919277+00:00",
+     "image_url": null,
+     "patron_count": 13,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-09-15T18:13:06+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patreon Episodes!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=120670\u0026rid=155967",
+     "user_limit": null
+    },
+    "id": "155967",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2017-02-27T16:31:30.131906+00:00",
+     "description": "\u00a0\u00a0The reward tier for junk:\n\u003cul\u003e\n\u003cli\u003eYou get to participate in the annual (sometime semi-annual) junk box!\u003c/li\u003e\n\u003cli\u003e\u00a0All previous rewards!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-03T15:44:14.129140+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-27T16:31:30.131906+00:00",
+     "remaining": 6,
+     "requires_shipping": true,
+     "title": "Junky Junkerface!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=120670\u0026rid=1447579",
+     "user_limit": 8
+    },
+    "id": "1447579",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-01-18T18:43:28.776833+00:00",
+     "description": "\u00a0\u00a0The reward tier for control freaks:\n\u003cul\u003e\n\u003cli\u003eYou get to select the game that we cover on the next available episode!\u003c/li\u003e\n\u003cli\u003e\u00a0All previous rewards!\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T22:13:08.192528+00:00",
+     "image_url": null,
+     "patron_count": 7,
+     "post_count": 13,
+     "published": true,
+     "published_at": "2018-01-12T22:13:08.169986+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Game Pick!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=120670\u0026rid=1299565",
+     "user_limit": null
+    },
+    "id": "1299565",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-09-15T18:13:06+00:00",
+     "description": "\u00a0\u00a0 The reward tier for those who want instant Honorary Dude status:\n\u003cul\u003e\n\u003cli\u003eYou get instant Honorary Dude status and join us on the show for an episode (game of your choice)!\u00a0\u003c/li\u003e\n\u003cli\u003e\u00a0All previous rewards!\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-27T16:31:45.367372+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-15T18:13:06+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "Instant Honorary Dude Status!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=120670\u0026rid=155969",
+     "user_limit": 5
+    },
+    "id": "155969",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-09-15T18:13:06+00:00",
+     "description": "The reward tier for Wayne Gretzkey:\n\u003cul\u003e\n\u003cli\u003eYou join us on the show for THREE episodes (games of your choice)!\u003c/li\u003e\n\u003cli\u003eAll previous rewards!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-27T16:31:54.380713+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-15T18:13:06+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Show Hat Trick!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=120670\u0026rid=155971",
+     "user_limit": 2
+    },
+    "id": "155971",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-01-18T19:10:11.976479+00:00",
+     "description": "\u00a0The reward tier for those who love \"stuff\":\n\u003cul\u003e\n\u003cli\u003eYou get something every month! Sometimes it will be a game, sometimes a shirt, sometimes a mug or coozie, but always something (and sometimes the swag will be signed).\u003c/li\u003e\n\u003cli\u003eAll previous rewards!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-27T16:29:22.152262+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-18T19:10:11.976479+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Swag Fest!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=120670\u0026rid=1299628",
+     "user_limit": 1
+    },
+    "id": "1299628",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-01-18T18:55:31.938876+00:00",
+     "description": "\u00a0The reward tier for the ultimate Dude:\n\u003cul\u003e\n\u003cli\u003eJoin us for every episode! As well as other exclusive producer rights!\u003c/li\u003e\n\u003cli\u003eAll previous rewards!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T22:01:13.634557+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T22:01:13.616036+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Exclusive Patreon Producer!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=120670\u0026rid=1299588",
+     "user_limit": 1
+    },
+    "id": "1299588",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3000,
+     "completed_percentage": 100,
+     "created_at": "2015-02-06T22:44:15+00:00",
+     "description": "At $30 a month, all bandwidth and website costs will be covered! Thank you!",
+     "reached_at": "2015-02-09T20:28:01+00:00",
+     "title": ""
+    },
+    "id": "119812",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2015-02-06T22:44:15+00:00",
+     "description": "We would love to start giving a copy of some games we cover away on the show. Michael has a lot that he can start giving away now, but he would also like to keep them (they are his personal games after all).\u003cbr\u003e\u003cbr\u003eSo we\u0027ll turn your hard earned $$$ back on you and start giving games away for various shows (unless the game is just super rare and worth too much money) until the money runs out.\u003cbr\u003e\u003cbr\u003eWe will also give away random 2 Dudes swag so keep your ears peeled!\u003cbr\u003e\u003cbr\u003eTo incentivise Patreon support, we will add those Patrons to the hat 3 times vs. 1 time for all other \"feedback givers\".",
+     "reached_at": "2015-05-29T21:34:57+00:00",
+     "title": ""
+    },
+    "id": "119815",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 23,
+     "created_at": "2015-03-13T04:46:58+00:00",
+     "description": "We\u0027ll start doing our own videos. Gameplay and commentary. We\u0027ll start with at least one a month and move to attempting one per game if we get good at it.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "136648",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2015-03-13T05:01:12+00:00",
+     "description": "At $50 a month, we will use all extra money to fill up a yearly \"NES/Nintendo Centric\" Retro Junk Box that will be sent around to the D-Padders.\u003cbr\u003e\u003cbr\u003eThe way the Retro Junk Box works is that there will be a signup list for all D-Padders. The box will be filled by us Dudes and then sent out to the first person on the list. That person takes out whatever they want, fills it back up with Nintendo goodies, and sends it on to the next person.\u003cbr\u003e\u003cbr\u003e2017 junk box details incoming...",
+     "reached_at": "2015-04-06T16:40:14+00:00",
+     "title": ""
+    },
+    "id": "136652",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 28,
+     "created_at": "2015-06-11T21:07:48+00:00",
+     "description": "Once a month, we will host a \"Skype hangout\" and send out invites to the Patreon supporters. If you support us on Patreon, you can be a part of the hangout. That hangout might just turn into a bonus episode...",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "185253",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 75000,
+     "completed_percentage": 15,
+     "created_at": "2015-08-04T20:56:40+00:00",
+     "description": "Let\u0027s face it. A lot of promotional opportunities cost money. So at this goal, we can start putting some of your Patreon money to good use and advertise our show where it costs real dollars.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "216416",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 11,
+     "created_at": "2017-01-18T01:26:36+00:00",
+     "description": "Meet the Dudes... IRL! We\u0027ll figure out a way to meet as many people as possible. Most likely at some sort of convention or something in a booth paid for by the Patreon donors!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "683588",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 5,
+     "created_at": "2017-01-18T18:38:38+00:00",
+     "description": "Every. Single. Game. Giveaway.\u003cbr\u003e\u003cbr\u003eThat\u0027s right! If we reach $3000 a month, we\u0027ll give away a copy of every single game we have covered or will cover (some may need to be reproduction carts due to rarity).\u00a0\u003cbr\u003e\u003cbr\u003eWe\u0027ll hit the back catalog as well as give away all future games as we cover them.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "684472",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 38,
+     "created_at": "2017-01-18T19:03:56+00:00",
+     "description": "Michael will Twitch? Yep. He may not know how to do it, but he\u0027ll figure it out for $300 and then Twitch at least once a month or maybe more if he gets good at it.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "684503",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 46,
+     "created_at": "2017-01-20T20:44:29+00:00",
+     "description": "The Dudes go back to weekly podcasting!\u003cbr\u003e\u003cbr\u003eRemember the days of weekly 2 Dudes and a NES episodes? Ahh...\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "687301",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-10-23T04:39:33+00:00",
+     "deleted_at": null,
+     "description": "All bandwidth and website costs should be covered! Thank you!",
+     "goal_text": "All bandwidth and website costs should be covered! Thank you!",
+     "number_patrons": 10,
+     "reached_at": null
+    },
+    "id": "44788",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-10-23T04:39:33+00:00",
+     "deleted_at": null,
+     "description": "At $50 a month, we will use all extra money to fill up a yearly \"NES/Nintendo Centric\" Retro Junk Box that will be sent around to the D-Padders.\u003cbr\u003e\u003cbr\u003eThe way the Retro Junk Box works is that there will be a signup list for all D-Padders. The box will be filled by us Dudes and then sent out to the first person on the list. That person takes out whatever they want, fills it back up with Nintendo goodies, and sends it on to the next person.\u003cbr\u003e\u003cbr\u003e2017 junk box details incoming...",
+     "goal_text": "At $50 a month, we will use all extra money to fill up a yearly \"NES/Nintendo Centric\" Retro Junk Box that will be sent around to the D-Padders.\u003cbr\u003e\u003cbr\u003eThe way the Retro Junk Box works is that there will be a signup list for all D-Padders. The box will be filled by us Dudes and then sent out to the first person on the list. That person takes out whatever they want, fills it back up with Nintendo goodies, and sends it on to the next person.\u003cbr\u003e\u003cbr\u003e2017 junk box details incoming...",
+     "number_patrons": 13,
+     "reached_at": null
+    },
+    "id": "44791",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-10-23T04:39:33+00:00",
+     "deleted_at": null,
+     "description": "We would love to start giving a copy of some games we cover away on the show. Michael has a lot that he can start giving away now, but he would also like to keep them (they are his personal games after all).\u003cbr\u003e\u003cbr\u003eSo we\u0027ll turn your hard earned $$$ back on you and start giving games away for various shows (unless the game is just super rare and worth too much money) until the money runs out.\u003cbr\u003e\u003cbr\u003eWe will also give away random 2 Dudes swag so keep your ears peeled!\u003cbr\u003e\u003cbr\u003eTo incentivise Patreon support, we will add those Patrons to the hat 3 times vs. 1 time for all other \"feedback givers\".",
+     "goal_text": "We would love to start giving a copy of some games we cover away on the show. Michael has a lot that he can start giving away now, but he would also like to keep them (they are his personal games after all).\u003cbr\u003e\u003cbr\u003eSo we\u0027ll turn your hard earned $$$ back on you and start giving games away for various shows (unless the game is just super rare and worth too much money) until the money runs out.\u003cbr\u003e\u003cbr\u003eWe will also give away random 2 Dudes swag so keep your ears peeled!\u003cbr\u003e\u003cbr\u003eTo incentivise Patreon support, we will add those Patrons to the hat 3 times vs. 1 time for all other \"feedback givers\".",
+     "number_patrons": 30,
+     "reached_at": null
+    },
+    "id": "44789",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-10-23T04:39:33+00:00",
+     "deleted_at": null,
+     "description": "The Dudes go back to weekly podcasting!\u003cbr\u003e\u003cbr\u003eRemember the days of weekly 2 Dudes and a NES episodes? Ahh...\u003cbr\u003e",
+     "goal_text": "The Dudes go back to weekly podcasting!\u003cbr\u003e\u003cbr\u003eRemember the days of weekly 2 Dudes and a NES episodes? Ahh...\u003cbr\u003e",
+     "number_patrons": 67,
+     "reached_at": null
+    },
+    "id": "44797",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-10-23T04:39:33+00:00",
+     "deleted_at": null,
+     "description": "Michael will Twitch? Yep. He may not know how to do it, but he\u0027ll figure it out for $300 and then Twitch at least once a month or maybe more if he gets good at it.",
+     "goal_text": "Michael will Twitch? Yep. He may not know how to do it, but he\u0027ll figure it out for $300 and then Twitch at least once a month or maybe more if he gets good at it.",
+     "number_patrons": 80,
+     "reached_at": null
+    },
+    "id": "44796",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-10-23T04:39:33+00:00",
+     "deleted_at": null,
+     "description": "We\u0027ll start doing our own videos. Gameplay and commentary. We\u0027ll start with at least one a month and move to attempting one per game if we get good at it.",
+     "goal_text": "We\u0027ll start doing our own videos. Gameplay and commentary. We\u0027ll start with at least one a month and move to attempting one per game if we get good at it.",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "44790",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-10-23T04:39:33+00:00",
+     "deleted_at": null,
+     "description": "Once a month, we will host a \"Skype hangout\" and send out invites to the Patreon supporters. If you support us on Patreon, you can be a part of the hangout. That hangout might just turn into a bonus episode...",
+     "goal_text": "Once a month, we will host a \"Skype hangout\" and send out invites to the Patreon supporters. If you support us on Patreon, you can be a part of the hangout. That hangout might just turn into a bonus episode...",
+     "number_patrons": 107,
+     "reached_at": null
+    },
+    "id": "44792",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-10-23T04:39:33+00:00",
+     "deleted_at": null,
+     "description": "Let\u0027s face it. A lot of promotional opportunities cost money. So at this goal, we can start putting some of your Patreon money to good use and advertise our show where it costs real dollars.",
+     "goal_text": "Let\u0027s face it. A lot of promotional opportunities cost money. So at this goal, we can start putting some of your Patreon money to good use and advertise our show where it costs real dollars.",
+     "number_patrons": 200,
+     "reached_at": null
+    },
+    "id": "44793",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-10-23T04:39:33+00:00",
+     "deleted_at": null,
+     "description": "Meet the Dudes... IRL! We\u0027ll figure out a way to meet as many people as possible. Most likely at some sort of convention or something in a booth paid for by the Patreon donors!",
+     "goal_text": "Meet the Dudes... IRL! We\u0027ll figure out a way to meet as many people as possible. Most likely at some sort of convention or something in a booth paid for by the Patreon donors!",
+     "number_patrons": 267,
+     "reached_at": null
+    },
+    "id": "44794",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-10-23T04:39:33+00:00",
+     "deleted_at": null,
+     "description": "Every. Single. Game. Giveaway.\u003cbr\u003e\u003cbr\u003eThat\u0027s right! If we reach $3000 a month, we\u0027ll give away a copy of every single game we have covered or will cover (some may need to be reproduction carts due to rarity).\u00a0\u003cbr\u003e\u003cbr\u003eWe\u0027ll hit the back catalog as well as give away all future games as we cover them.",
+     "goal_text": "Every. Single. Game. Giveaway.\u003cbr\u003e\u003cbr\u003eThat\u0027s right! If we reach $3000 a month, we\u0027ll give away a copy of every single game we have covered or will cover (some may need to be reproduction carts due to rarity).\u00a0\u003cbr\u003e\u003cbr\u003eWe\u0027ll hit the back catalog as well as give away all future games as we cover them.",
+     "number_patrons": 533,
+     "reached_at": null
+    },
+    "id": "44795",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/120670"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "5834e858-6cb6-4a83-9bd4-834cc346f2dd",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "2 Dudes and a NES are creating the best Nintendo NES retrogaming podcast"
+});
+    </script>

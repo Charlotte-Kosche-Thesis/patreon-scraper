@@ -1,0 +1,492 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "5bPCOjY1X5-eFTXTd9jRts5LdBkybRKSbd5JEaVjm3k";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "709017",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/709017"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-12-20T03:18:02+00:00",
+    "creation_name": "music videos and songs!",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxMyIsInciOjY0MH0%3D/patreon-media/campaign/1407891/b9d406746cdf440ea7f87da922f3efb7?token-time=2145916800\u0026token-hash=IFBr0FLOnJcNtp7hyvhYBhr7BqA1C_gi79guiVyi6Gs%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMTMifQ%3D%3D/patreon-media/campaign/1407891/b9d406746cdf440ea7f87da922f3efb7?token-time=2145916800\u0026token-hash=C_mGql10nS8eg4xAnUG2H683HGIKjcVu-3OeFsA6wI0%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/l-R-AdeYIZk\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://youtu.be/l-R-AdeYIZk",
+    "one_liner": null,
+    "patron_count": 34,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1407891",
+    "published_at": "2018-01-14T02:48:09+00:00",
+    "summary": "We are a world traveling musical duo originally from Arkansas, but with roots all over the country! We couldn\u0027t do what we do without YOU!\u00a0\u003cbr\u003eTHANK YOU FOR YOUR SUPPORT AND LOVE, IT KEEPS US GOING AND PUTTING OUT NEW MUSIC EVERY WEEK!\u003cbr\u003e\u003cbr\u003ePatreon is a sweet platform--basically, it\u0027s our very own video blog and space to share new songs with our fans. We often do not post videos of original music on Facebook or Youtube until we have the album version ready, but this exclusive stream will give you a sneak peak to all the stuff we are working on ;)\u00a0\u003cbr\u003e\u003cbr\u003eYOU, as a patron, select how much you would like to donate to our monthly blog, and in return you get access to this exclusive stream of MUSIC and VIDEOS and who even knows what else!!!! It\u0027s the gift that keeps giving and giving and giving and giving and giving!!!"
+   },
+   "id": "1407891",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8912844",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8912844"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "64907",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1407891",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1407891"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2279274",
+       "type": "reward"
+      },
+      {
+       "id": "2279289",
+       "type": "reward"
+      },
+      {
+       "id": "2279302",
+       "type": "reward"
+      },
+      {
+       "id": "2279305",
+       "type": "reward"
+      },
+      {
+       "id": "2279341",
+       "type": "reward"
+      },
+      {
+       "id": "2279445",
+       "type": "reward"
+      },
+      {
+       "id": "2279449",
+       "type": "reward"
+      },
+      {
+       "id": "2279467",
+       "type": "reward"
+      },
+      {
+       "id": "2279496",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-12-20T03:17:57+00:00",
+     "facebook": "https://www.facebook.com/handmademomentsmusic",
+     "first_name": "Handmade",
+     "full_name": "Handmade Moments",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiNiIsInciOjIwMH0%3D/patreon-media/user/8912844/27ea82f2b14a4e06bdd5bdf83133e778?token-time=2145916800\u0026token-hash=FRZ6ANToAd0olZtFSMsCnxFTHGYqI4fz08NTUD0KYgk%3D",
+     "last_name": "Moments",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiI2IiwidyI6MTAwfQ%3D%3D/patreon-media/user/8912844/27ea82f2b14a4e06bdd5bdf83133e778?token-time=2145916800\u0026token-hash=luG2jKIVUFOZkanpjg0d_BnP8i8ECVzNY2QGtlEsivo%3D",
+     "twitch": null,
+     "twitter": "handmademoments",
+     "url": "https://www.patreon.com/handmademoments",
+     "vanity": "handmademoments",
+     "youtube": "https://www.youtube.com/user/HandmadeMoments"
+    },
+    "id": "8912844",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1407891",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1407891"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 2,
+     "upgrade_url": "/bePatron?c=1407891\u0026rid=2279274"
+    },
+    "id": "post-aggregation-for-0-1407891",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-01-12T18:27:50.880330+00:00",
+     "description": "You guys are giving us the extra push into the Land of our Dreams! What would we do without you?!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will get:\u003c/p\u003e\n\u003cp\u003e-Access to Patreon-only songs and videos!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-14T00:45:34.827164+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-14T00:45:34.800986+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mover \u0026 Shaker",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1407891\u0026rid=2279274"
+    },
+    "id": "2279274",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-01-12T18:33:22.481524+00:00",
+     "description": "The fact that you rhyme is a bonus! You guys keep us going when the times get tough!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will get:\u003c/p\u003e\n\u003cp\u003e-Access to Patreon-only songs and videos!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T18:33:22.481524+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T18:33:22.481524+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Five-Dollar Hollers",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1407891\u0026rid=2279289"
+    },
+    "id": "2279289",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-12T18:36:33.680016+00:00",
+     "description": "Extra VIP! You are the cherry on top of our cake!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will get:\u003c/p\u003e\n\u003cp\u003e-Access to Patreon-only songs and videos!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-14T00:47:01.402992+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-14T00:47:01.376158+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mogul",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1407891\u0026rid=2279302"
+    },
+    "id": "2279302",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-01-12T18:38:12.950539+00:00",
+     "description": "It\u0027s sweet, it\u0027s perfect, and it\u0027s earthy....oh wait, IT\u0027S YOU!! Did we mention that we love you?\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will get:\u003c/p\u003e\n\u003cp\u003e-Access to Patreon-only songs and videos!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T18:38:12.950539+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T18:38:12.950539+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Organic Maple Syrups",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1407891\u0026rid=2279305"
+    },
+    "id": "2279305",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-01-12T18:49:42.963222+00:00",
+     "description": "You guys got it going on, and you know it!\u00a0When everyone else at the party is looking around all nervously, you have a calm, cool demeanor that is naturally attractive. You go, girl! (or boy, or non-binary individual--we love it all)\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will get:\u003c/p\u003e\n\u003cp\u003e-Access to Patreon-only songs and videos!\u003c/p\u003e\n\u003cp\u003e-Handmade Moments t-shirt! + stickers!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-14T00:48:24.395258+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-14T00:48:24.375517+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Maestros",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1407891\u0026rid=2279341"
+    },
+    "id": "2279341",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2018-01-12T19:39:16.289772+00:00",
+     "description": "You guys are really helping us bake this batch of musical muffins. There is nothing we can\u0027t accomplish together!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will get:\u003c/p\u003e\n\u003cp\u003e-Access to Patreon-only songs and videos!\u003c/p\u003e\n\u003cp\u003e-Handmade Moments t-shirt + stickers!\u003c/p\u003e\n\u003cp\u003e-You will receive 2 guest-list spots at any show of your choice! (Festivals may be hard to swing)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-14T00:49:03.425297+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-14T00:49:03.405610+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Cosmic Forces!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1407891\u0026rid=2279445"
+    },
+    "id": "2279445",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-01-12T19:42:16.642286+00:00",
+     "description": "You walk by, and we blush. Utterly starstruck by your vibes. Stop being so cool!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will get:\u003c/p\u003e\n\u003cp\u003e-Access to Patreon-only songs and videos!\u003c/p\u003e\n\u003cp\u003e-Handmade Moments t-shirt + stickers!\u003c/p\u003e\n\u003cp\u003e-You will receive 2 guest-list spots at any show of your choice! (Festivals may be hard to swing)\u003c/p\u003e\n\u003cp\u003e-We will cover any song of your request once a year!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-14T00:48:52.765148+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-14T00:48:52.709391+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Movie STARS",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1407891\u0026rid=2279449"
+    },
+    "id": "2279449",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2018-01-12T19:50:06.063658+00:00",
+     "description": "OMG YOU ARE THE MILKY WAY!! Creamy and perfect---the most beautiful. I can\u0027t even believe that you\u0027re here with us!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will get:\u003c/p\u003e\n\u003cp\u003e-Access to Patreon-only songs and videos!\u003c/p\u003e\n\u003cp\u003e-Handmade Moments t-shirt! + stickers!\u003c/p\u003e\n\u003cp\u003e-You will receive 2 guest-list spots at any show of your choice! (Festivals may be hard to swing)\u003c/p\u003e\n\u003cp\u003e-We will cover any song of your request once a year!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-14T00:50:03.465637+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-14T00:50:03.436935+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "SUPER STAR",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1407891\u0026rid=2279467"
+    },
+    "id": "2279467",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2018-01-12T19:56:32.432936+00:00",
+     "description": "You are what we all strive our entire lives to have...thank you for being the most epic. Clearing our vibes, making life easy and comfortable. Our worldly desires vanish into a golden mandala of honey. Mmmmm, honey....\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will get:\u003c/p\u003e\n\u003cp\u003e-Access to Patreon-only songs and videos!\u003c/p\u003e\n\u003cp\u003e-Handmade Moments t-shirt! + stickers!\u003c/p\u003e\n\u003cp\u003e-You will receive 2 guest-list spots at any show of your choice! (Festivals may be hard to swing)\u003c/p\u003e\n\u003cp\u003e-We will cover any song of your request once a year!\u003c/p\u003e\n\u003cp\u003e-We will come to your town and play a show at your house or venue of your choice!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-14T00:50:32.793169+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-14T00:50:32.752606+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Inner-Peace",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1407891\u0026rid=2279496"
+    },
+    "id": "2279496",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-01-14T00:53:03+00:00",
+     "deleted_at": null,
+     "description": "When we reach 500 patrons, we will hire a videographer to make us some really nice videos to share with y\u0027all ;)",
+     "goal_text": "When we reach 500 patrons, we will hire a videographer to make us some really nice videos to share with y\u0027all ;)",
+     "number_patrons": 500,
+     "reached_at": null
+    },
+    "id": "64907",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1407891"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "0bb65ef8-25cf-432f-8a23-088974e904a0",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Handmade Moments is creating music videos and songs!"
+});
+    </script>

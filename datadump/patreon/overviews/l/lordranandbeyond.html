@@ -1,0 +1,671 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "CRu7eIQTAf6kG35e1pdJH0-ruOemFlpecIvw4WdMdtc";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "13698",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/13698"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-06-04T19:00:02+00:00",
+    "creation_name": "On-going Dark Souls Comics",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/95773/c10bef83cc654bf0b6b6538860c1d4cc?token-time=2145916800\u0026token-hash=fPUOVcvwmwBZgmou42vZdeSMkiDAd0uOyC48J_NBMM0%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/95773/c10bef83cc654bf0b6b6538860c1d4cc?token-time=2145916800\u0026token-hash=w-Iy-SVEQZrYsp1EwS5N_9KNRxsn7YrFBBQCTg8eUwI%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "Crafting comics with amazing artists for the dedicated Souls fanbase.",
+    "patron_count": 91,
+    "pay_per_name": "month",
+    "pledge_sum": 60081,
+    "pledge_url": "/bePatron?c=95773",
+    "published_at": "2014-06-04T19:00:02+00:00",
+    "summary": "\u003ca href=\"http://www.lordranandbeyond.com/\" rel=\"nofollow\" target=\"_blank\"\u003eLordran and Beyond is an ongoing web comic series\u003c/a\u003e set within the famously fascinating and infamously deadly worlds of Dark Souls, Demon\u0027s Souls, and Bloodborne. The goal is to deliver consistent,\u00a0\u003cstrong\u003ehigh quality\u003c/strong\u003e fan-created stories for the community to be proud of.\u003cbr\u003e\u003cstrong\u003e\u003cbr\u003e\u003cimg src=\"http://www.lordranandbeyond.com/wp-content/uploads/2016/06/galvan_02hires-horz.png\" style=\"width: 738px;\"\u003e\u003cbr\u003e\u003cbr\u003e\u003c/strong\u003eThe comics follow iconic characters from the games and are themed inside the captivating settings of Boletaria, Lordran, Drangleic, and Yharnam. Though I write the panels and oversee the project\u0027s many moving parts, the real magic behind bringing these comics to life is in the hands of the highly skilled artists. Patreon funds will be used to pay the artists and help secure a reliable schedule of updates along with newly added pledge rewards.\u00a0\u003cstrong\u003e\u003cem\u003eThis project isn\u0027t possible without you!\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"http://www.lordranandbeyond.com/wp-content/uploads/2016/06/GraveArtoriasFinal-horz.png\" style=\"width: 738px;\"\u003e\u003cbr\u003e\u003cbr\u003e\u003c/em\u003e\u003c/strong\u003eIf you\u0027re a fan of From Software\u0027s amazing action RPG franchise, stunningly drawn comics and artwork, or both, please consider becoming a Patron for \u003cem\u003eLordran and Beyond!\u003c/em\u003e The continued production of these comics is only possible with you, and there\u0027s several pledge tiers to reward gracious patrons! \u003cstrong\u003e\u003cem\u003eAll\u003c/em\u003e pledge funds go directly to the artists!\u00a0\u003c/strong\u003eYou can also\u003cstrong\u003e\u00a0\u003c/strong\u003eshare this project on\u003cstrong\u003e\u00a0\u003c/strong\u003e\u003ca href=\"http://lordranandbeyond.tumblr.com/\" rel=\"nofollow\"\u003eTumblr\u003c/a\u003e\u003cstrong\u003e\u00a0to help get the word out!\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"http://www.lordranandbeyond.com/wp-content/uploads/2016/06/crowdoc-horz.png\" style=\"width: 742px;\"\u003e\u003cbr\u003e\u003c/strong\u003e\u003cstrong\u003e\u003cbr\u003e\u003c/strong\u003e\u003cul\u003e\u003cli\u003e\u003ca href=\"http://www.lordranandbeyond.com/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cstrong\u003eRead the comic!\u003c/strong\u003e\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"http://lordranandbeyond.tumblr.com/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cstrong\u003eFollow on Tumblr!\u003c/strong\u003e\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.facebook.com/lordranandbeyond\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cstrong\u003eShare on Facebook!\u003c/strong\u003e\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e"
+   },
+   "id": "95773",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "186350",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/186350"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "40356",
+       "type": "goal"
+      },
+      {
+       "id": "40842",
+       "type": "goal"
+      },
+      {
+       "id": "66221",
+       "type": "goal"
+      },
+      {
+       "id": "66222",
+       "type": "goal"
+      },
+      {
+       "id": "254028",
+       "type": "goal"
+      },
+      {
+       "id": "254265",
+       "type": "goal"
+      },
+      {
+       "id": "262864",
+       "type": "goal"
+      },
+      {
+       "id": "656593",
+       "type": "goal"
+      },
+      {
+       "id": "656594",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-95773",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-95773"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "45976",
+       "type": "reward"
+      },
+      {
+       "id": "45977",
+       "type": "reward"
+      },
+      {
+       "id": "45978",
+       "type": "reward"
+      },
+      {
+       "id": "45979",
+       "type": "reward"
+      },
+      {
+       "id": "45980",
+       "type": "reward"
+      },
+      {
+       "id": "45981",
+       "type": "reward"
+      },
+      {
+       "id": "71590",
+       "type": "reward"
+      },
+      {
+       "id": "71591",
+       "type": "reward"
+      },
+      {
+       "id": "253150",
+       "type": "reward"
+      },
+      {
+       "id": "1240522",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m here to expand my skills as a writer, give back to the Souls community, and work together with some incredible artists.",
+     "created": "2014-06-04T19:00:02+00:00",
+     "facebook": "https://www.facebook.com/lordranandbeyond",
+     "first_name": "Lordran",
+     "full_name": "Lordran and Beyond",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/186350/c10a6ea9d4ff45848abebbb9103940ce?token-time=2145916800\u0026token-hash=U15reXeHPcn9ssFGTX0g490sAAdhsXJfNFB6Cztte0Y%3D",
+     "last_name": "and Beyond",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/186350/c10a6ea9d4ff45848abebbb9103940ce?token-time=2145916800\u0026token-hash=3XLkJjeSLEACTa68uybMOeoosdLuuiIjkSR7br0V8fc%3D",
+     "twitch": null,
+     "twitter": "cursedsirkai",
+     "url": "https://www.patreon.com/lordranandbeyond",
+     "vanity": "lordranandbeyond",
+     "youtube": null
+    },
+    "id": "186350",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "95773",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/95773"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 357,
+     "upgrade_url": "/bePatron?c=95773\u0026rid=45976"
+    },
+    "id": "post-aggregation-for-0-95773",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-09-25T04:58:41+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e\u003cstrong style=\"color: rgb(51,51,51);\"\u003eAccess to the Patreon stream\u003c/strong\u003e for status updates and communication!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-29T08:44:14.570055+00:00",
+     "image_url": null,
+     "patron_count": 23,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2016-09-25T04:58:41+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=95773\u0026rid=45976",
+     "user_limit": null
+    },
+    "id": "45976",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-09-25T04:58:41+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to the Patreon news stream\u003c/li\u003e\u003cli\u003e\u003cstrong style=\"color: rgb(51,51,51);\"\u003eFull page previews\u003c/strong\u003e of upcoming comics before their debut!\u003cimg src=\"https://40.media.tumblr.com/4ed54386a031474ade73d262c5fe0b82/tumblr_nk5twzKmjs1qdrfdro4_r1_250.png\" style=\"width: 96px;\"\u003e\u003cimg src=\"https://40.media.tumblr.com/a35062a33532c252423bd3166cfe04f9/tumblr_nmrbvvPkjp1qdrfdro3_r1_1280.png\" style=\"width: 538px;\"\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-29T08:44:14.607637+00:00",
+     "image_url": null,
+     "patron_count": 19,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2016-09-25T04:58:41+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=95773\u0026rid=45977",
+     "user_limit": null
+    },
+    "id": "45977",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-09-25T04:58:41+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to the Patreon news stream\u003c/li\u003e\u003cli\u003eFull page previews\u003c/li\u003e\u003cli\u003e\u003cstrong style=\"color: rgb(51,51,51);\"\u003eHigh resolution versions of preview pages for download\u003c/strong\u003e, with and without words! \u003cimg src=\"https://40.media.tumblr.com/4ed54386a031474ade73d262c5fe0b82/tumblr_nk5twzKmjs1qdrfdro4_r1_250.png\" style=\"width: 191px;\"\u003e\u003cimg src=\"https://40.media.tumblr.com/c658ee736a5d2c5c73fc2b46673c25ad/tumblr_nk5twzKmjs1qdrfdro5_r1_1280.png\" style=\"width: 516px;\"\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-29T08:44:14.640381+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2016-09-25T04:58:41+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=95773\u0026rid=45978",
+     "user_limit": null
+    },
+    "id": "45978",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2016-09-25T04:58:41+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to the Patreon news stream\u003c/li\u003e\u003cli\u003eFull page previews\u003c/li\u003e\u003cli\u003eHigh resolution preview downloads\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eW\u003c/strong\u003e\u003cstrong style=\"color: rgb(51,51,51);\"\u003eallpapers from the most recent comic! \u003c/strong\u003ePerfect for your computer or mobile device!\u00a0\u003cimg src=\"http://www.lordranandbeyond.com/wp-content/uploads/2015/10/tumblr_n7tgybZfEx1rn9ge0o1_r2_1280-2.png\"\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-29T08:44:14.672806+00:00",
+     "image_url": null,
+     "patron_count": 9,
+     "post_count": 22,
+     "published": true,
+     "published_at": "2016-09-25T04:58:41+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=95773\u0026rid=45979",
+     "user_limit": null
+    },
+    "id": "45979",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-09-25T04:58:41+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAccess to the Patreon news stream\u003c/li\u003e\n\u003cli\u003eFull page previews\u003c/li\u003e\n\u003cli\u003eHigh resolution preview downloads\u003c/li\u003e\n\u003cli\u003eWallpaper downloads\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eHigh resolution versions of ALL the comics for download\u003c/strong\u003e, in their entirety, with and without words!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-29T08:44:14.706273+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/45980/1a50d25c69f742b9af17302c0dc0bb74?token-time=2145916800\u0026token-hash=T6bBmL9fx7TeVr1AwcWHhoXSuCDeIUgyoDa2a2y2wyQ%3D",
+     "patron_count": 24,
+     "post_count": 74,
+     "published": true,
+     "published_at": "2016-09-25T04:58:41+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "High Resolution Comic Downloads!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=95773\u0026rid=45980",
+     "user_limit": null
+    },
+    "id": "45980",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-09-25T04:58:41+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to the Patreon news stream\u003c/li\u003e\u003cli\u003eFull page previews\u003c/li\u003e\u003cli\u003eHigh resolution preview downloads\u003c/li\u003e\u003cli\u003eWallpaper downloads\u003c/li\u003e\u003cli\u003eFull high resolution comic download\u003c/li\u003e\u003cli\u003e\u003cstrong style=\"color: rgb(51,51,51);\"\u003eExclusive wallpapers for download by\u00a0Veitstanz,\u00a0Baru,\u00a0Artsywindow,\u00a0Deersu, and more! \u003c/strong\u003eGreat for decorating your home computer or mobile device!\u003cimg src=\"https://40.media.tumblr.com/4ed54386a031474ade73d262c5fe0b82/tumblr_nk5twzKmjs1qdrfdro4_r1_250.png\" style=\"width: 167px;\"\u003e\u003cimg src=\"https://41.media.tumblr.com/f93a2342c1dfeae3a63d7cff6d34c58a/tumblr_ndpyj9LQjh1qdrfdro1_1280.png\"\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-29T08:44:14.741586+00:00",
+     "image_url": null,
+     "patron_count": 20,
+     "post_count": 60,
+     "published": true,
+     "published_at": "2016-09-25T04:58:41+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=95773\u0026rid=45981",
+     "user_limit": null
+    },
+    "id": "45981",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-09-25T04:58:41+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAccess to the Patreon news stream\u003c/li\u003e\n\u003cli\u003eFull page previews\u003c/li\u003e\n\u003cli\u003eHigh resolution preview downloads\u003c/li\u003e\n\u003cli\u003eComic wallpaper downloads\u003c/li\u003e\n\u003cli\u003eFull high resolution comic downloads\u003c/li\u003e\n\u003cli\u003eExclusive wallpapers by a variety of wonderful artists!\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eCustom artwork! Get a head sketch of your favorite character or player loadout by\u00a0Ragtiming,\u00a0Artsywindow, Veitstanz, or others! \u003c/strong\u003ePerfect for a unique icon or spiffy phone background!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-29T08:44:14.774723+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/71590/59e4aa3793104b618933e9d7a6bd83cf?token-time=2145916800\u0026token-hash=WD6turgaNU-IXmbo43gLmk90zMwjBMcvCV36XwwmQVE%3D",
+     "patron_count": 0,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-09-25T04:58:41+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Character Bust Sketches!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=95773\u0026rid=71590",
+     "user_limit": 1
+    },
+    "id": "71590",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-09-25T04:58:41+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAccess to the Patreon news stream\u003c/li\u003e\n\u003cli\u003eFull page previews\u003c/li\u003e\n\u003cli\u003eHigh resolution preview downloads\u003c/li\u003e\n\u003cli\u003eComic wallpaper downloads\u003c/li\u003e\n\u003cli\u003eFull high resolution comic downloads\u003c/li\u003e\n\u003cli\u003eExclusive wallpapers by a variety of wonderful artists!\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eCustom artwork! Choose a full body pose for a stylish shot of your favorite character or player loadout drawn by Veitstanz, WitnessTheAbsurd, or\u00a0Higgsbison!\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-29T08:44:14.812180+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/71591/7acd68c2d17d4ab29731d7ddc17f89de?token-time=2145916800\u0026token-hash=CahhvGiNR-y3gY7cihfbQ25DAbJoSR5Cogm-UnPiiK0%3D",
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-25T04:58:41+00:00",
+     "remaining": 8,
+     "requires_shipping": false,
+     "title": "Full Body Character Sketches!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=95773\u0026rid=71591",
+     "user_limit": 12
+    },
+    "id": "71591",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3800,
+     "amount_cents": 3800,
+     "created_at": "2016-09-25T04:58:41+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to the Patreon news stream\u003c/li\u003e\u003cli\u003eFull page previews\u003c/li\u003e\u003cli\u003eHigh resolution preview downloads\u003c/li\u003e\u003cli\u003eComic wallpaper downloads\u003c/li\u003e\u003cli\u003eFull high resolution comic downloads\u003c/li\u003e\u003cli\u003eExclusive wallpapers by a variety of wonderful artists!\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eCustom prints and posters delivered to you every month! Choose your favorite wallpapers, covers, or pages to decorate your home, and even custom artwork is available too!\u003c/strong\u003e\u00a0Please feel free to\u00a0send a message with any questions! \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u003cimg src=\"http://www.lordranandbeyond.com/wp-content/uploads/2015/07/tumblr_inline_nqm7stdUNz1qcjcvp_540.jpg\"\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-29T08:44:14.846996+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-25T04:58:41+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=95773\u0026rid=253150",
+     "user_limit": 8
+    },
+    "id": "253150",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 9000,
+     "amount_cents": 9000,
+     "created_at": "2017-01-03T21:27:05.279405+00:00",
+     "description": "\u00a0\n\u003cul\u003e\n\u003cli\u003eAccess to the Patreon news stream\u003c/li\u003e\n\u003cli\u003eFull page previews\u003c/li\u003e\n\u003cli\u003eHigh resolution preview downloads\u003c/li\u003e\n\u003cli\u003eComic wallpaper downloads\u003c/li\u003e\n\u003cli\u003eFull high resolution comic downloads\u003c/li\u003e\n\u003cli\u003eExclusive wallpapers by a variety of wonderful artists!\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eHost a featured link on the front page of Lordran and Beyond! You can submit an image of your choosing that links back to your own website, YouTube channel, Twitter, blog, or other creative outlets!\u003c/strong\u003e (please feel free to inquire about appropriate material for sponsor as well as L\u0026amp;B website traffic)\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-03T21:28:51.560339+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1240522/aad13feba20d477e9213d1cf84b6c55b?token-time=2145916800\u0026token-hash=hp9wSIVSAdjIKC1ziZrh_yckQjE5c0T58qiH0_7R3ag%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-03T21:27:05.279405+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": "Sponsored Website Link on the L\u0026B Website!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=95773\u0026rid=1240522",
+     "user_limit": 2
+    },
+    "id": "1240522",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 32000,
+     "completed_percentage": 100,
+     "created_at": "2014-07-03T21:31:27+00:00",
+     "description": "\u003cem\u003eAll\u003c/em\u003e Patrons will have a chance to win piece of\u003cstrong\u003e Dark Souls DLC of their choosing\u003c/strong\u003e for their preferred platform; Artorias of the Abyss from the first game, or any of the Crown DLCs from the second game!",
+     "reached_at": "2015-08-25T07:57:41+00:00",
+     "title": ""
+    },
+    "id": "40356",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 45000,
+     "completed_percentage": 100,
+     "created_at": "2014-07-05T22:26:42+00:00",
+     "description": "With this funding goal met, there will be \u003cstrong\u003e4-5\u00a0pages\u003c/strong\u003e released each month!",
+     "reached_at": "2015-10-01T06:27:38+00:00",
+     "title": ""
+    },
+    "id": "40842",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 68000,
+     "completed_percentage": 88,
+     "created_at": "2014-09-20T20:25:42+00:00",
+     "description": "With this funding obtained, there will be \u003cstrong\u003eat least 6-8\u003c/strong\u003e\u00a0comic pages released each month!",
+     "reached_at": "2015-10-05T07:09:47+00:00",
+     "title": ""
+    },
+    "id": "66221",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 74000,
+     "completed_percentage": 81,
+     "created_at": "2014-09-20T20:25:42+00:00",
+     "description": "This goal guarantees a new cover drawn up each month for the updates, and will also be made available as a wallpaper for \u003cstrong\u003eall\u003c/strong\u003e patrons!",
+     "reached_at": "2015-10-14T02:08:22+00:00",
+     "title": ""
+    },
+    "id": "66222",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 90000,
+     "completed_percentage": 66,
+     "created_at": "2015-10-01T07:58:27+00:00",
+     "description": "At this threshold, there will be at least \u003cstrong\u003e9 pages of new comic material\u003c/strong\u003e released each month!",
+     "reached_at": "2015-10-25T03:02:10+00:00",
+     "title": ""
+    },
+    "id": "254028",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 110000,
+     "completed_percentage": 54,
+     "created_at": "2015-10-01T15:54:31+00:00",
+     "description": "Once this goal is reached, there will be over \u003cstrong\u003e10 pages of comic material\u003c/strong\u003e added each month!",
+     "reached_at": "2016-12-29T04:34:29+00:00",
+     "title": ""
+    },
+    "id": "254265",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 124000,
+     "completed_percentage": 48,
+     "created_at": "2015-10-14T07:01:32+00:00",
+     "description": "Once this monthly funding goal is achieved, there will be an \u003cstrong\u003eextra wallpaper\u003c/strong\u003e available each month for \u003cstrong\u003eall\u003c/strong\u003e patrons!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "262864",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 145000,
+     "completed_percentage": 41,
+     "created_at": "2016-12-29T08:44:14+00:00",
+     "description": "With this goal met, there will be \u003cstrong\u003eat least 12 pages of comic material\u003c/strong\u003e available to read each month!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "656593",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 190000,
+     "completed_percentage": 31,
+     "created_at": "2016-12-29T08:44:14+00:00",
+     "description": "At $1,900, the L\u0026amp;B will be able to deliver \u003cstrong\u003e15+ pages of material every month!\u003c/strong\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "656594",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/95773"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "7441dc5a-74fe-449c-80e5-d55a33983c11",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Lordran and Beyond is creating On-going Dark Souls Comics"
+});
+    </script>

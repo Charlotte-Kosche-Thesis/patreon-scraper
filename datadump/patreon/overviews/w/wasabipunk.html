@@ -1,0 +1,596 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "G3RU2m4Lpg3Tf9aqfavBdLMALMN5w4siAyC0ILEA5GI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "353628",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/353628"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-01-14T00:10:21+00:00",
+    "creation_name": "comics, illustrations, \u0026 music",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIzIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/699144/3f5ebe25b2e14dac9ba474f12f2504e7?token-time=2145916800\u0026token-hash=XMpiqkZpbYppMf2RXs9m9n8UaWoFgxBRg57WkT5FWDM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMyJ9/patreon-media/campaign/699144/3f5ebe25b2e14dac9ba474f12f2504e7?token-time=2145916800\u0026token-hash=LbmakdiftNWecbcutalXbs_jc27g995rsaYuezajl0A%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 40,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=699144",
+    "published_at": "2017-02-01T13:56:36+00:00",
+    "summary": "What\u0027s up world?! (is anybody out there?) My name is\u00a0\u003ca href=\"http://www.wasabipunk.com/\"\u003eMJ Steele\u003c/a\u003e and I am a comic book and graphic artist. I also fancy recording music, playing guitar, and doing martial arts. All of which I have done professionally to some degree. I\u0027m based in NYC, Brooklyn. I graduated from the School of Visual Arts in 2015, and have since been doing freelance, and self-publishing my own works. Some (if any) of you may know me as Klaus Janson\u0027s assistant, and some may know me as the comic book whiz at Strand Books.\u00a0\u003cbr\u003e\u003cbr\u003eI\u0027m here on Patreon to venture deeper into the realm of self publishing in the form of a mail order subscription service. If you subscribe, I\u0027ve got loads of content ready in all forms to fit your content consuming needs. Please help me make this subscription a reality by becoming a subscriber. I promise you won\u0027t regret it!\u003cbr\u003e\u003cbr\u003eThank you, thank you, thank you for your time and consideration!"
+   },
+   "id": "699144",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "514477",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/514477"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "702563",
+       "type": "goal"
+      },
+      {
+       "id": "951784",
+       "type": "goal"
+      },
+      {
+       "id": "969824",
+       "type": "goal"
+      },
+      {
+       "id": "984774",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-699144",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-699144"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2021044",
+       "type": "reward"
+      },
+      {
+       "id": "1280841",
+       "type": "reward"
+      },
+      {
+       "id": "2021047",
+       "type": "reward"
+      },
+      {
+       "id": "1280842",
+       "type": "reward"
+      },
+      {
+       "id": "1361772",
+       "type": "reward"
+      },
+      {
+       "id": "1361771",
+       "type": "reward"
+      },
+      {
+       "id": "1280840",
+       "type": "reward"
+      },
+      {
+       "id": "2011761",
+       "type": "reward"
+      },
+      {
+       "id": "1967199",
+       "type": "reward"
+      },
+      {
+       "id": "1967369",
+       "type": "reward"
+      },
+      {
+       "id": "1967382",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Comic book and graphic artist based in Brooklyn, NYC.",
+     "created": "2015-01-28T14:12:14+00:00",
+     "facebook": "",
+     "first_name": "MJ",
+     "full_name": "MJ Steele",
+     "gender": 1,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/514477/22435e1ce4d0498da5ecb06cb687cfce?token-time=2145916800\u0026token-hash=jWmNRnriby9o2dl2Ry-h_RCFC8TWt4h2ONpIIsKUvCs%3D",
+     "last_name": "Steele",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/514477/22435e1ce4d0498da5ecb06cb687cfce?token-time=2145916800\u0026token-hash=NVJuYWkwWv7jXu369ebiOZQ5MkvWVbsOD7_t51B6n7A%3D",
+     "twitch": null,
+     "twitter": "wasabipunk",
+     "url": "https://www.patreon.com/wasabipunk",
+     "vanity": "wasabipunk",
+     "youtube": ""
+    },
+    "id": "514477",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "699144",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/699144"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 45,
+     "upgrade_url": "/bePatron?c=699144\u0026rid=2021047"
+    },
+    "id": "post-aggregation-for-0-699144",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-09-22T11:13:31.913062+00:00",
+     "description": "Get access to my patreon feed which includes downloadable content like pictures, pdfs, and audio.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-22T11:13:31.913062+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-22T11:13:31.913062+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Exclusive Access ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=699144\u0026rid=2021044"
+    },
+    "id": "2021044",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-01-14T00:13:27.084012+00:00",
+     "description": "Each month I produce a mini-comic or zine. This tier gets you said item delivered right to your mailbox. There may be times in which I decide to create a pack of prints, buttons, or other design novelties as the reward.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eMini Comic\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-22T11:14:30.967992+00:00",
+     "image_url": null,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2017-01-14T00:13:27.084012+00:00",
+     "remaining": 0,
+     "requires_shipping": true,
+     "title": "\"Early Bird\" Swag Tier!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=699144\u0026rid=1280841"
+    },
+    "id": "1280841",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2017-09-22T11:15:12.845573+00:00",
+     "description": "Each month I produce a mini-comic or zine. This tier gets you said item delivered right to your mailbox. There may be times in which I decide to create a pack of prints, buttons, or other design novelties as the reward.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eMini Comic\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-22T11:15:12.845573+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-22T11:15:12.845573+00:00",
+     "remaining": 7,
+     "requires_shipping": true,
+     "title": "Swag Tier!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=699144\u0026rid=2021047"
+    },
+    "id": "2021047",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 600,
+     "amount_cents": 600,
+     "created_at": "2017-01-14T00:13:27.095764+00:00",
+     "description": "This gets you the same swag as the previous tier but with the addition of the digital subscription to the Wasabi Punk monthly showcase book. Also includes access to the monthly music downloads and interview audio.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eMini Comic\u003c/li\u003e\u003cli\u003eDigital PDF\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-05T22:44:35.134246+00:00",
+     "image_url": null,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2017-01-14T00:13:27.095764+00:00",
+     "remaining": 6,
+     "requires_shipping": true,
+     "title": "Swag + Digital ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=699144\u0026rid=1280842"
+    },
+    "id": "1280842",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-02-01T13:42:42.097215+00:00",
+     "description": "This gets you the full on subscription service. You get zines, access to all digital content (beats, interviews, and PDFs), as well as the Wasabi Punk showcase book. Each showcase is roughly 40-50 pages in length and includes comics, mini-comics, illustrations, drawings, transcribed interviews, and self-portraits.\u00a0\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003cli\u003eMini Comic\u003c/li\u003e\n\u003cli\u003eDigital PDF\u003c/li\u003e\n\u003cli\u003eSubscription Book\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-31T20:46:48.083601+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-31T20:46:48.075796+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "Wasabi Punk Subscription",
+     "unpublished_at": null,
+     "url": "/bePatron?c=699144\u0026rid=1361772"
+    },
+    "id": "1361772",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-02-01T13:42:42.010488+00:00",
+     "description": "This gets you the full on Wasabi Punk subscription service, plus one original sumi-ink drawing. Content of your choice. For now, limited to only 4 drawings each month.\u00a0\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eMini Comic\u003c/li\u003e\u003cli\u003eDigital PDF\u003c/li\u003e\u003cli\u003eSubscription Book\u003c/li\u003e\u003cli\u003eSumi Ink Drawing\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T22:29:47.524031+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-28T22:29:47.514410+00:00",
+     "remaining": 4,
+     "requires_shipping": true,
+     "title": "Subscription + Sumi Drawing",
+     "unpublished_at": null,
+     "url": "/bePatron?c=699144\u0026rid=1361771"
+    },
+    "id": "1361771",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-01-14T00:13:27.067050+00:00",
+     "description": "Are you working on a personal art, writing, or other creative project and looking for someone to bounce ideas off of? Need an editor, proof reader, or collaborator? Then this special $50 tier is for you.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eI\u0027ll spend up to 2 hours a month with you via facetime, skype, or in person (if in the NYC area) and provide any illustration needs you may have. Let me help you take your idea to the next level. Includes access to digital content and printed material.\u00a0\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eMini Comic\u003c/li\u003e\u003cli\u003eDigital PDF\u003c/li\u003e\u003cli\u003eSubscription Book\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-18T17:28:44.146722+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-14T00:13:27.067050+00:00",
+     "remaining": 0,
+     "requires_shipping": true,
+     "title": "Consultation",
+     "unpublished_at": null,
+     "url": "/bePatron?c=699144\u0026rid=1280840"
+    },
+    "id": "1280840",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2017-09-18T17:36:04.737974+00:00",
+     "description": "This is a special one of a kind reward. Over the course of several months I will fill up a sketchbook of approx. 100 pages. Once the book is filled, or you decide to end your pledge - the original sketchbook will be mailed to you to keep. My sketches usually include rough studies, comic page breakdowns, and finished drawings. This tier requires you to commit to a full year if you wish to receive a completed sketchbook. All previous print rewards are also included.\u00a0\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eMini Comic\u003c/li\u003e\n\u003cli\u003eDigital PDF\u003c/li\u003e\n\u003cli\u003eSubscription Book\u003c/li\u003e\n\u003cli\u003eSumi Ink Drawing\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-02T21:45:08.431216+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-02T21:45:08.423929+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Physical Sketchbook Commission ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=699144\u0026rid=2011761"
+    },
+    "id": "2011761",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-08-31T02:05:17.129237+00:00",
+     "description": "Do you have an idea for a zine or mini-comic? Well let\u0027s jam! I will draw for you 2 pages a month until the completion of your comic (approx. 1-4 panels/ page for minis). I\u0027ll even help you print it out!\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eMini Comic\u003c/li\u003e\u003cli\u003eDigital PDF\u003c/li\u003e\u003cli\u003eSubscription Book\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-18T17:29:37.663048+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-31T02:05:17.129237+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Let\u0027s make a Mini-Comic!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=699144\u0026rid=1967199"
+    },
+    "id": "1967199",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-31T03:24:44.671336+00:00",
+     "description": "Interested in learning Art from yours truly? I\u0027d be delighted to work with you! This tier gets you 3 hours, each month, of personal lessons via skype, facetime, or in person (if in the NYC area). I will also consult with you via phone, text, and email as much as possible. I will share my tools, teachings, and help guide you to furthering your own Art career and pursuits.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eMini Comic\u003c/li\u003e\u003cli\u003eDigital PDF\u003c/li\u003e\u003cli\u003eSubscription Book\u003c/li\u003e\u003cli\u003eSumi Ink Drawing\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-31T03:24:44.671336+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-31T03:24:44.671336+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Apprenticeship ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=699144\u0026rid=1967369"
+    },
+    "id": "1967369",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2017-08-31T03:27:12.510575+00:00",
+     "description": "For this ultimate tier, I will draw 2 pages of month of your creator owned comic-book. In the span of 12 months that makes a full single issue! Great for developing pitch packages, or simply creating your dream comic book character. Let\u0027s do it together! I\u0027ll even share my other works with you.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eMini Comic\u003c/li\u003e\u003cli\u003eDigital PDF\u003c/li\u003e\u003cli\u003eSubscription Book\u003c/li\u003e\u003cli\u003eSumi Ink Drawing\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-04T12:38:33.166881+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-31T03:27:12.510575+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Let\u0027s make a comic!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=699144\u0026rid=1967382"
+    },
+    "id": "1967382",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2017-02-01T13:26:01+00:00",
+     "description": "The first step is to build a foundation! I\u0027m looking for a handful of dedicated readers to purchase my zines and books each month. This goal also helps me produce and maintain a platform to create and distribute art to my peers.\u00a0",
+     "reached_at": "2017-08-29T14:43:20+00:00",
+     "title": ""
+    },
+    "id": "702563",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 54,
+     "created_at": "2017-08-31T03:31:30+00:00",
+     "description": "Once my foundation is set, it\u0027s time to get efficient and increase productivity! Thus far my print runs have been around 25-50 copies. By reaching $500 I will be able to increase print runs of 50-150 copies. I would also like to acquire eco-friendly recycled shipping materials and pre-paid shipping methods to save time and energy. The additional funds will also help me produce more elaborate books and rewards.",
+     "reached_at": "2017-09-30T21:14:26+00:00",
+     "title": ""
+    },
+    "id": "951784",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 13,
+     "created_at": "2017-09-18T17:25:37+00:00",
+     "description": "Once this goal is reached, I can begin functioning like a small publisher; increasing print runs to 100-250 copies for single issue comics and trade sized paperbacks. This also helps me widen my distribution base allowing me to reach out to stores outside the NYC/ Seattle area. I can also publish a wider variety of content under my own art direction.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "969824",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 27,
+     "created_at": "2017-10-04T12:35:07+00:00",
+     "description": "With this amount of support I can take the show on the road! Planning a convention circuit would go a long way to get Wasabi Punk in front of more people; as well as being a great opportunity to meet patrons in person! With that said, this would help me produce the standard convention fair: books, comics, large format prints, and novelties.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "984774",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/699144"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "1a95147f-4c8c-4fd8-9fe0-dafc221d753b",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "MJ Steele is creating comics, illustrations, \u0026 music"
+});
+    </script>

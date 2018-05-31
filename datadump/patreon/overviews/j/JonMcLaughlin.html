@@ -1,0 +1,559 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "4rOHNbjSoIdmCDV39kWfrknUtRhyVaEPtgcHtsJdSOc";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "862675",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/862675"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-03-19T19:04:47+00:00",
+    "creation_name": "Dueling Pianos Videos",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI0IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1622983/c9d5cdcf28a84718bcc20808dd066643?token-time=2145916800\u0026token-hash=y7Adj_6Xbc_u1xzGwBsWwq3-1YIA1L4ecRtpXj8L2bM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNCJ9/patreon-media/campaign/1622983/c9d5cdcf28a84718bcc20808dd066643?token-time=2145916800\u0026token-hash=zJEw7_BQ_hxEBfWooBuIzim9p7YUPsujZgwDowVgGl0%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/yLQpa6lD4Yk\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://youtu.be/yLQpa6lD4Yk",
+    "one_liner": null,
+    "patron_count": 139,
+    "pay_per_name": "creation",
+    "pledge_sum": 94900,
+    "pledge_url": "/bePatron?c=1622983",
+    "published_at": "2018-04-02T13:51:28+00:00",
+    "summary": "Hi everyone! I\u0027m teaming up with Patreon for my new video series called Dueling Pianos! I\u0027ll be releasing videos where I collaborate with my talented friends and the first place to access them will be right here on Patreon. I\u0027ve also planned other great exclusives only available to Patrons. Thank you for supporting me and being a part of my Dueling Pianos series!"
+   },
+   "id": "1622983",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "10312795",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/10312795"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1153860",
+       "type": "goal"
+      },
+      {
+       "id": "1184892",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1622983",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1622983"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2470233",
+       "type": "reward"
+      },
+      {
+       "id": "2470235",
+       "type": "reward"
+      },
+      {
+       "id": "2470238",
+       "type": "reward"
+      },
+      {
+       "id": "2472846",
+       "type": "reward"
+      },
+      {
+       "id": "2472847",
+       "type": "reward"
+      },
+      {
+       "id": "2472849",
+       "type": "reward"
+      },
+      {
+       "id": "2472850",
+       "type": "reward"
+      },
+      {
+       "id": "2472851",
+       "type": "reward"
+      },
+      {
+       "id": "2472853",
+       "type": "reward"
+      },
+      {
+       "id": "2472855",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-03-19T19:04:03+00:00",
+     "facebook": "https://www.facebook.com/jonmclaughlin",
+     "first_name": "Jon",
+     "full_name": "Jon McLaughlin",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/10312795/336e4728d4eb40a2a1037b4b1f107bf0?token-time=2145916800\u0026token-hash=kfn8LOded-egLNxkFmVLPZA9u5oXhfw98xPylBkLmFM%3D",
+     "last_name": "McLaughlin",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/10312795/336e4728d4eb40a2a1037b4b1f107bf0?token-time=2145916800\u0026token-hash=1N48k7sNHcZvSLbvC8tXfxXnwIQQnxUlOxqjfHMqBV8%3D",
+     "twitch": null,
+     "twitter": "JonMcLaughlin",
+     "url": "https://www.patreon.com/JonMcLaughlin",
+     "vanity": "JonMcLaughlin",
+     "youtube": "https://www.youtube.com/jonmclaughlin"
+    },
+    "id": "10312795",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1622983",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1622983"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 24,
+     "upgrade_url": "/bePatron?c=1622983\u0026rid=2470235"
+    },
+    "id": "post-aggregation-for-0-1622983",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-03-23T23:06:03.384761+00:00",
+     "description": "- Early Access to Videos before they go public\n\u003cp\u003e- Exclusive Patreon concert ticket presales\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-16T20:24:24.394028+00:00",
+     "image_url": null,
+     "patron_count": 56,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-16T20:24:24.383597+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "$1",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1622983\u0026rid=2470233",
+     "user_limit": null
+    },
+    "id": "2470233",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-03-23T23:07:30.633361+00:00",
+     "description": "- Early Access to Videos before they go public\n\u003cp\u003e- Exclusive Patreon concert ticket presales\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- Access to exclusive behind-the-scenes videos\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-16T20:24:36.447291+00:00",
+     "image_url": null,
+     "patron_count": 48,
+     "post_count": 12,
+     "published": true,
+     "published_at": "2018-04-16T20:24:36.437444+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "$5",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1622983\u0026rid=2470235",
+     "user_limit": null
+    },
+    "id": "2470235",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-03-23T23:08:07.391408+00:00",
+     "description": "- Early Access to Videos before they go public\n\u003cp\u003e- Exclusive Patreon concert ticket presales\u003c/p\u003e\n\u003cp\u003e- Access to exclusive behind-the-scenes videos\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- Name in the thank you credits of the video\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- Periodic discounts on Jon merchandise\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-16T20:24:52.139802+00:00",
+     "image_url": null,
+     "patron_count": 15,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-04-16T20:24:52.127542+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "$10",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1622983\u0026rid=2470238",
+     "user_limit": null
+    },
+    "id": "2470238",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-03-25T02:38:18.741804+00:00",
+     "description": "- Early Access to Videos before they go public\n\u003cp\u003e- Exclusive Patreon concert ticket presales\u003c/p\u003e\n\u003cp\u003e- Access to exclusive behind-the-scenes videos\u003c/p\u003e\n\u003cp\u003e- Name in the thank you credits of the video\u003c/p\u003e\n\u003cp\u003e- Periodic discounts on Jon merchandise\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- Monthly live stream with Jon exclusively for folks at this level or higher\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-21T02:49:05.617012+00:00",
+     "image_url": null,
+     "patron_count": 9,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-04-21T02:49:05.607342+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "$15",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1622983\u0026rid=2472846",
+     "user_limit": null
+    },
+    "id": "2472846",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-03-25T02:38:48.413663+00:00",
+     "description": "- Early Access to Videos before they go public\n\u003cp\u003e- Exclusive Patreon concert ticket presales\u003c/p\u003e\n\u003cp\u003e- Access to exclusive behind-the-scenes videos\u003c/p\u003e\n\u003cp\u003e- Name in the thank you credits of the video\u003c/p\u003e\n\u003cp\u003e- Periodic discounts on Jon merchandise\u003c/p\u003e\n\u003cp\u003e- Monthly live stream with Jon exclusively for folks at this level or higher\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- Personalized audio/video recording saying anything you want; surprise shout out for a friend, birthday message etc. Up to 45 seconds long. (Once Per Month)\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T00:10:48.771379+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T00:10:48.761852+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "$30",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1622983\u0026rid=2472847",
+     "user_limit": null
+    },
+    "id": "2472847",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-03-25T02:39:25.723405+00:00",
+     "description": "- Early Access to Videos before they go public\n\u003cp\u003e- Exclusive Patreon concert ticket presales\u003c/p\u003e\n\u003cp\u003e- Access to exclusive behind-the-scenes videos\u003c/p\u003e\n\u003cp\u003e- Name in the thank you credits of the video\u003c/p\u003e\n\u003cp\u003e- Periodic discounts on Jon merchandise\u003c/p\u003e\n\u003cp\u003e- Monthly live stream with Jon exclusively for folks at this level or higher\u003c/p\u003e\n\u003cp\u003e- Personalized audio/video recording saying anything you want; surprise shoutout for a friend, birthday message etc. Up to 45 seconds long. (Once Per Month)\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- Handwritten lyrics (must be patron for 3 consecutive videos, then once every six months)\u003c/strong\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T00:10:58.843157+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T00:10:58.835018+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "$50",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1622983\u0026rid=2472849",
+     "user_limit": null
+    },
+    "id": "2472849",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-03-25T02:39:45.992631+00:00",
+     "description": "- Early Access to Videos before they go public\n\u003cp\u003e- Exclusive Patreon concert ticket presales\u003c/p\u003e\n\u003cp\u003e- Access to exclusive behind-the-scenes videos\u003c/p\u003e\n\u003cp\u003e- Name in the thank you credits of the video\u003c/p\u003e\n\u003cp\u003e- Periodic discounts on Jon merchandise\u003c/p\u003e\n\u003cp\u003e- Monthly live stream with Jon exclusively for folks at this level or higher\u003c/p\u003e\n\u003cp\u003e- Personalized audio/video recording saying anything you want; surprise shoutout for a friend, birthday message etc. Up to 45 seconds long. (Once Per Month)\u003c/p\u003e\n\u003cp\u003e- Handwritten lyrics (must be patron for 3 consecutive videos, then once every six months)\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- Private one-on-one Skype with Jon (must be patron for 3 consecutive videos, then once per year)\u003c/strong\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T00:11:05.563519+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T00:11:05.554085+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "$100",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1622983\u0026rid=2472850",
+     "user_limit": null
+    },
+    "id": "2472850",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 35000,
+     "amount_cents": 35000,
+     "created_at": "2018-03-25T02:40:12.725759+00:00",
+     "description": "- Early Access to Videos before they go public\n\u003cp\u003e- Exclusive Patreon concert ticket presales\u003c/p\u003e\n\u003cp\u003e- Access to exclusive behind-the-scenes videos\u003c/p\u003e\n\u003cp\u003e- Name in the thank you credits of the video\u003c/p\u003e\n\u003cp\u003e- Periodic discounts on Jon merchandise\u003c/p\u003e\n\u003cp\u003e- Monthly live stream with Jon exclusively for folks at this level or higher\u003c/p\u003e\n\u003cp\u003e- Personalized audio/video recording saying anything you want; surprise shoutout for a friend, birthday message etc. Up to 45 seconds long. (Once Per Month)\u003c/p\u003e\n\u003cp\u003e- Handwritten lyrics (must be patron for 3 consecutive videos, then once every six months)\u003c/p\u003e\n\u003cp\u003e- Private one-on-one Skype with Jon (must be patron for 3 consecutive videos, then once per year)\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- Two VIP guest list spots on any live shows you want (where available)\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- Jon will record a cover song of your choice (must be a patron for 6 consecutive videos, then once per year)\u003c/strong\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T00:11:22.848635+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T00:11:22.839490+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "$350",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1622983\u0026rid=2472851",
+     "user_limit": 10
+    },
+    "id": "2472851",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 75000,
+     "amount_cents": 75000,
+     "created_at": "2018-03-25T02:41:07.109925+00:00",
+     "description": "- Early Access to Videos before they go public\n\u003cp\u003e- Exclusive Patreon concert ticket presales\u003c/p\u003e\n\u003cp\u003e- Access to exclusive behind-the-scenes videos\u003c/p\u003e\n\u003cp\u003e- Name in the thank you credits of the video\u003c/p\u003e\n\u003cp\u003e- Periodic discounts on Jon merchandise\u003c/p\u003e\n\u003cp\u003e- Monthly live stream with Jon exclusively for folks at this level or higher\u003c/p\u003e\n\u003cp\u003e- Personalized audio/video recording saying anything you want; surprise shoutout for a friend, birthday message etc. Up to 45 seconds long. (Once Per Month)\u003c/p\u003e\n\u003cp\u003e- Handwritten lyrics (must be patron for 3 consecutive videos, then once every six months)\u003c/p\u003e\n\u003cp\u003e- Private one-on-one Skype with Jon (must be patron for 3 consecutive videos, then once per year)\u003c/p\u003e\n\u003cp\u003e- Two VIP guest list spots on any live shows you want (where available)\u003c/p\u003e\n\u003cp\u003e- Jon will record a cover song of your choice (must be a patron for 6 consecutive videos, then once per year)\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- House Show (must be patron for 6 consecutive videos, then once per year)\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T00:11:32.594081+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T00:11:32.586927+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "$750",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1622983\u0026rid=2472853",
+     "user_limit": 3
+    },
+    "id": "2472853",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2018-03-25T02:41:25.838443+00:00",
+     "description": "- Early Access to Videos before they go public\n\u003cp\u003e- Exclusive Patreon concert ticket presales\u003c/p\u003e\n\u003cp\u003e- Access to exclusive behind-the-scenes videos\u003c/p\u003e\n\u003cp\u003e- Name in the thank you credits of the video\u003c/p\u003e\n\u003cp\u003e- Periodic discounts on Jon merchandise\u003c/p\u003e\n\u003cp\u003e- Monthly live stream with Jon exclusively for folks at this level or higher\u003c/p\u003e\n\u003cp\u003e- Personalized audio/video recording saying anything you want; surprise shoutout for a friend, birthday message etc. Up to 45 seconds long. (Once Per Month)\u003c/p\u003e\n\u003cp\u003e- Handwritten lyrics (must be patron for 3 consecutive videos, then once every six months)\u003c/p\u003e\n\u003cp\u003e- Private one-on-one Skype with Jon (must be patron for 3 consecutive videos, then once per year)\u003c/p\u003e\n\u003cp\u003e- Two VIP guest list spots on any live shows you want (where available)\u003c/p\u003e\n\u003cp\u003e- Jon will record a cover song of your choice (must be a patron for 6 consecutive videos, then once per year)\u003c/p\u003e\n\u003cp\u003e- House Show (must be patron for 6 consecutive videos, then once per year)\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- Custom song (must be patron for 6 consecutive videos, then once per year)\u003c/strong\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T00:11:43.678509+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T00:11:43.666789+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "$1000",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1622983\u0026rid=2472855",
+     "user_limit": 3
+    },
+    "id": "2472855",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 75000,
+     "completed_percentage": 100,
+     "created_at": "2018-03-27T23:38:33+00:00",
+     "description": "When I hit $750 per video, I\u0027ll record an exclusive thank you video and all current patrons at the time of the milestone will receive signed, exclusive posters.\u003cbr\u003e",
+     "reached_at": "2018-04-25T18:21:02+00:00",
+     "title": ""
+    },
+    "id": "1153860",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 31,
+     "created_at": "2018-04-26T18:41:10+00:00",
+     "description": "When I reach $3000 per video I\u0027ll do a Patron only live stream performance. All current patrons at the time of the milestone will have access to the live stream.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1184892",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1622983"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "dc86bf05-e846-40a5-9b78-d0df8e23c0f6",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Jon McLaughlin is creating Dueling Pianos Videos"
+});
+    </script>

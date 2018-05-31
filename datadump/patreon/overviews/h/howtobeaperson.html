@@ -1,0 +1,463 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "FIo6yRKCLR69QffxiKcsmvfO3B78XrlLu_x7Vt18fl4";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "155910",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/155910"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-04-18T19:14:38+00:00",
+    "creation_name": "\"How To Be a Person\" Podcast with Mike Drucker \u0026 Jess Dweck",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/347499/a9d6865d61bc4b9ba7da26e087292090?token-time=2145916800\u0026token-hash=jZ8huA3_ThhiKBQwiyeWLLcosCdYfl4XTYgVkqCC9b4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/347499/a9d6865d61bc4b9ba7da26e087292090?token-time=2145916800\u0026token-hash=J0w8KhaOWHwNJcKDFqPfKi2-RZP-Ah8TBQYACRUrWVQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 40,
+    "pay_per_name": "month",
+    "pledge_sum": 13204,
+    "pledge_url": "/bePatron?c=347499",
+    "published_at": "2016-04-19T15:24:01+00:00",
+    "summary": "Hello, \"How To Be a Person\" listeners! And hello people who got here by accident! Why not.\u003cbr\u003e\u003cbr\u003eIf you\u0027re not familiar, \"How To Be a Person\" is a podcast run by two comedy writers, Mike Drucker (The Tonight Show, Nintendo, Marvel) and Jess Dweck (The Tonight Show, Late Night, Netflix). As socially broken humans who don\u0027t know how to live their lives, they ask their friends to tell them how to be people.\u003cbr\u003e\u003cbr\u003eSince Jess Dweck has moved to Los Angeles (surprise!) we\u0027re looking to both upgrade our equipment and hire an editor so we can keep bringing the podcast to our tens of dozens of listeners. And the more you pledge, the more we can achieve. Live shows, specialized episodes, and even extra content.\u00a0\u003cbr\u003e\u003cbr\u003eIt could all happen. Or it could die a thousand deaths in the flames of the Internet. That dramatic pressure is now on you.\u003cbr\u003e"
+   },
+   "id": "347499",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "467801",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/467801"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "403631",
+       "type": "goal"
+      },
+      {
+       "id": "403632",
+       "type": "goal"
+      },
+      {
+       "id": "403633",
+       "type": "goal"
+      },
+      {
+       "id": "403634",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-347499",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-347499"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "511240",
+       "type": "reward"
+      },
+      {
+       "id": "520041",
+       "type": "reward"
+      },
+      {
+       "id": "511241",
+       "type": "reward"
+      },
+      {
+       "id": "511242",
+       "type": "reward"
+      },
+      {
+       "id": "511243",
+       "type": "reward"
+      },
+      {
+       "id": "511244",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "A podcast hosted by comedy writers Jess Dweck (Netflix, The Tonight Show) and Mike Drucker (The Tonight Show, Nintendo, Marvel) about how to become normal people.",
+     "created": "2015-01-05T17:19:05+00:00",
+     "facebook": null,
+     "first_name": "How",
+     "full_name": "How To Be a Person",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/467801/219c68a14b5741bf8fc30b1632550cf1?token-time=2145916800\u0026token-hash=s2EmGap_i3n2KtqlA3Se6jV8bG1KfS8vVG_1HjNCYp8%3D",
+     "last_name": "To Be a Person",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/467801/219c68a14b5741bf8fc30b1632550cf1?token-time=2145916800\u0026token-hash=oGJf7YkUVkpgKp-5PgWkEOnGidbuW195bUz5UooPLxU%3D",
+     "twitch": null,
+     "twitter": "mikedrucker",
+     "url": "https://www.patreon.com/howtobeaperson",
+     "vanity": "howtobeaperson",
+     "youtube": null
+    },
+    "id": "467801",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "347499",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/347499"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 1,
+     "upgrade_url": "/bePatron?c=347499\u0026rid=511240"
+    },
+    "id": "post-aggregation-for-0-347499",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-04-28T15:40:33+00:00",
+     "description": "You\u0027ve helped us out! Thanks for helping our podcast happen!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 29,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-28T15:40:33+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=347499\u0026rid=511240",
+     "user_limit": null
+    },
+    "id": "511240",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-04-28T15:40:33+00:00",
+     "description": "This is also a huge help! Pledge at this level and Dweck and Drucker will think about you and wonder what once was, but now can never be. Okay, so this is basically the $1 reward, but nicer.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 11,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-28T15:40:33+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=347499\u0026rid=520041",
+     "user_limit": null
+    },
+    "id": "520041",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-04-28T15:40:33+00:00",
+     "description": "On a special Patreon episode, we\u0027ll read the name of every backer on this tier and above. Hear your name read back to you and know true immortality.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-28T15:40:33+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=347499\u0026rid=511241",
+     "user_limit": null
+    },
+    "id": "511241",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-04-28T15:40:33+00:00",
+     "description": "Have an instant message conversation with Drucker and/or Dweck! Maybe you\u0027ve got suggestions. Maybe you want to tell Drucker to shut up and stop being so sad. Maybe you could talk to Dweck about New Jersey! This is your opportunity to shine!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-28T15:40:33+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=347499\u0026rid=511242",
+     "user_limit": null
+    },
+    "id": "511242",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-04-28T15:40:33+00:00",
+     "description": "Suggest topics for episodes! While we may not be able to cover every subject, we\u0027ll take your topics to heart and try to not let you down. As with the $20, you can also talk to us and really berate us for not getting to your episode yet.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-28T15:40:33+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=347499\u0026rid=511243",
+     "user_limit": null
+    },
+    "id": "511243",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-04-28T15:40:33+00:00",
+     "description": "Get interviewed on \"How To Be a Person!\" This could either be a public episode or a Patreon-exclusive episode. Your call! And you pick the topic! All Patreon guest episodes are posted pending review by the hosts because if you got real racist or something, we\u0027re not down. But barring that, you\u0027ll be on the podcast!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-28T15:40:33+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=347499\u0026rid=511244",
+     "user_limit": null
+    },
+    "id": "511244",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 4000,
+     "completed_percentage": 100,
+     "created_at": "2016-04-18T19:24:45+00:00",
+     "description": "That\u0027s right, with just $40 a month, we can keep hosting our podcast online. We\u0027ve been doing it on our own dime so far, so this would be nice. This is the tier where we stop losing money!\u003cbr\u003e",
+     "reached_at": "2016-04-21T16:35:33+00:00",
+     "title": "We can cover the hosting of our podcast!"
+    },
+    "id": "403631",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 33,
+     "created_at": "2016-04-18T19:24:45+00:00",
+     "description": "With Dweck in Los Angeles and Drucker in New York, the editing process is now annoying and weird. If we met this goal, we could hire someone to do that for us. The less time we personally edit, the more we can make new content for you.",
+     "reached_at": null,
+     "title": "We can hire an editor!"
+    },
+    "id": "403632",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 13,
+     "created_at": "2016-04-18T19:24:45+00:00",
+     "description": "Special Patreon-exclusive episodes! We\u0027ll start doing special, new episodes for and suggested by Patreon backers. Obviously, we can\u0027t hit every target or interview every person, but we\u0027ll try to make nice things for you and those suckers on the outside won\u0027t know what they\u0027re missing.",
+     "reached_at": null,
+     "title": "Patreon-exclusive episodes!"
+    },
+    "id": "403633",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 6,
+     "created_at": "2016-04-18T19:24:45+00:00",
+     "description": "Dweck and Drucker can start affording to travel for the show. Interviews at comedy festivals, live shows, and other special events could happen if we meet this goal. Keep the dream alive!",
+     "reached_at": null,
+     "title": "Traveling episodes!"
+    },
+    "id": "403634",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/347499"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "74cbd9ad-86b4-4340-848b-76247d798907",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "How To Be a Person is creating \"How To Be a Person\" Podcast with Mike Drucker \u0026 Jess Dweck"
+});
+    </script>

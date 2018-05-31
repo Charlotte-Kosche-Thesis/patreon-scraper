@@ -1,0 +1,501 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "L-pUGGQ3HifZ81WzdmXTMYcmUrTiDXIfBxF4W2tyarU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "391442",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/391442"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-03-17T09:37:06+00:00",
+    "creation_name": "h-game yuri action , Kinetic Chronicle",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/800224/9836dd83c0d7444e9d854e09c8385cce?token-time=2145916800\u0026token-hash=q6dHDGuACZJbxPYtIswjFaRY52Wtkaqz2DgUV16tazg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/800224/9836dd83c0d7444e9d854e09c8385cce?token-time=2145916800\u0026token-hash=lzJosvjzmLUv33AizZOz_JE7u2cC_dEv1r26CgJp4Cw%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/FRWRDA-a2M0\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/FRWRDA-a2M0",
+    "one_liner": null,
+    "patron_count": 87,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=800224",
+    "published_at": "2017-03-21T17:36:33+00:00",
+    "summary": "\u003cstrong\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003c/strong\u003e\u003cdiv\u003e\u003cdiv\u003e\u003cstrong\u003eHello, everyone\u003c/strong\u003e.\u003cbr\u003e\u003cdiv\u003eWe update to the new version again according to the feedbacks we got from the both version of demo we just release.\u003cbr\u003e\u003cdiv\u003eThe public version download link is here.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(192, 80, 77);\"\u003eversion 0.13b \u003ca href=\"https://drive.google.com/open?id=0Bza1xaJLP-LfNVB3SDVZSGMyeDg\"\u003eKinetic Chronicle 0.13b\u003c/a\u003e\u003c/span\u003e\u003c/strong\u003e\u003cbr\u003e\u003cdiv\u003eAlso if you happen to pass by, don\u0027t forget to visit our \u003cstrong\u003e\u003ca href=\"https://discord.gg/Xav4U7d\"\u003eDiscord Channel\u003cbr\u003e\u003cspan style=\"background-color: rgb(255, 255, 255);\"\u003e\u003cspan style=\"color: rgb(192, 145, 0);\"\u003e\u003cbr\u003e\u003c/span\u003e\u003c/span\u003e\u003c/a\u003e\u003c/strong\u003e\u003cstrong\u003e\u003cspan style=\"background-color: rgb(255, 255, 255);\"\u003e\u003cspan style=\"color: rgb(192, 80, 77);\"\u003eFor the latest demo the current version is at 0.35\u003c/span\u003e\u003c/span\u003e\u003c/strong\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(192, 80, 77);\"\u003e\u003cbr\u003eThe next version release date would be at 05/07/2018\u003cbr\u003e\u003c/span\u003e\u003cbr\u003eFor anyone struck at first boss, Teria. Check this video.\u003cbr\u003e\u003c/strong\u003e\u003ca href=\"https://www.youtube.com/watch?v=QNeuRJNKz60\"\u003ehttps://www.youtube.com/watch?v=QNeuRJNKz60\u003c/a\u003e\u003cstrong\u003e\u003cbr\u003e\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cdiv\u003e\u003cstrong\u003eChange log.\u003c/strong\u003e\u003cbr\u003e- Fix the bug that makes character float when fall from the ledge.\u003cbr\u003e- Add kick combo to Feley.\u003cbr\u003e- Make the boss kickable.\u003cbr\u003e- Teria damage nerf.\u003cbr\u003e- Teria stun lock fix.\u003cbr\u003e- Teria rollin stone hitbox reduce.\u003cbr\u003e- Remove pre-run and slide animation from Feley, now she will reach her max speed faster.\u003cbr\u003e- Stage 1 bgm change.\u003cbr\u003e- The bgm bar in option now effect the playing bgm instantly.\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003cstrong\u003e\u003cbr\u003e\u003c/strong\u003e\u003cstrong\u003eHello, everyone.\u003c/strong\u003e\u003cbr\u003eThank you for coming to see our page.\u003cbr\u003eWe\u0027re milkysofts, a duo of game-dev we experience working on kid game on our local, but we\u0027re really dreaming of being able to work in more adult game, for more opportunity of story telling, and of cause we\u0027re into hentai ourself as well.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIn 2014 we created tendril chronicle \u003c/strong\u003e\u003cbr\u003e\u003ca href=\"http://www.dlsite.com/ecchi-eng/work/=/product_id/RE127840.html\"\u003ehttp://www.dlsite.com/ecchi-eng/work/=/product_id/...\u003cbr\u003e\u003c/a\u003eAfter that we\u0027re keeping busy with some kind of commission, which seem \nto never end. It\u0027s our fault too that didn\u0027t read the contract well\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eAnyways, now we\u0027re back to catch our dream again...\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eSo our goal is to create some nice hentai game, or h-game. So simply? On our main focus is to give character live. Each character should have a little of their own story, and have their own trait.\u003cbr\u003eWe love our character in our way. And want to develop them over and over. In this game and next game we will make.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003eOur current project is \u003cstrong\u003eKinetic Chronicle \u003cbr\u003e\u003cimg src=\"http://i.imgur.com/7YdmfIk.jpg\"\u003e\u003cbr\u003e\u003c/strong\u003ean action platform game combines with some puzzle element, where the main character uses\n her telekinetic power to progress through the stage. We do our best to \nmake the movement and the boss fight fluid. Actually we\u0027re trying to make the game enjoyable even without the H-scene. But don\u0027t worry, we focus on making the H-scene fluid too.\u003cbr\u003e\u003cimg src=\"http://i.imgur.com/P9MhWd1.jpg\"\u003e\u003cbr\u003e\u003cem\u003eFeley use her telekinetic power to build her path.\u003c/em\u003e\u003cbr\u003e\u003cbr\u003eThe genre of the game should be \u003cstrong\u003eYuri, Tentacle. \u003c/strong\u003eYears ago our leader, Mao play Raidy and says \"Hell, ya we should do things like this.\" so now we will do it that ways. After the girl boss fight the loser would receive \u003cstrong\u003esome punishment.\u003c/strong\u003e \u0026gt;/////\u003cstrong\u003e\u003cbr\u003e\u003cimg src=\"http://i.imgur.com/sepShhX.jpg\"\u003e\u003cbr\u003e\u003c/strong\u003e\u003cem\u003eTeria and Feley\u003cbr\u003e\u003cbr\u003e\u003c/em\u003eAnd also we got some h-sprite for monsters.\u003cstrong\u003e\u003cbr\u003e\u003cimg src=\"http://i.imgur.com/2Zwgqkb.jpg\"\u003e\u003cbr\u003e\u003c/strong\u003e\u003cem\u003eFeley gets grasp by plant monster\u003c/em\u003e\u003cstrong\u003e\u003cbr\u003e\u003c/strong\u003e\u003cbr\u003eBy the way, since we think that \u003cstrong\u003egirls are cute in costume\u003c/strong\u003e so we decide to do not do cloth breaking system.\u003cstrong\u003e\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"http://i.imgur.com/hDG0gGH.png\"\u003e\u003cbr\u003e\u003c/strong\u003eThe story begin that one day a mysterious phenomena called \u003cstrong\u003e\"white wave\"\u003c/strong\u003e happen all over the world, causing random destruction and make dragons appear raiding the city.\u003cbr\u003e\u003cbr\u003eFelesia Fatalis or Feley for short, the a 19 years old girl become a treasure hunter after her hometown was destroyed, searching for a legendary treasure which her missing father believe that contains a power to change the world. With a hope to stop the disaster and restore her hometown.\u003cbr\u003e\u003cbr\u003eBut would that kind of treasure really exist... or the treasure itself that causes the disaster... you will find out in her journey. \u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003e"
+   },
+   "id": "800224",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5364481",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5364481"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "757775",
+       "type": "goal"
+      },
+      {
+       "id": "757776",
+       "type": "goal"
+      },
+      {
+       "id": "757777",
+       "type": "goal"
+      },
+      {
+       "id": "757790",
+       "type": "goal"
+      },
+      {
+       "id": "757791",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-800224",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-800224"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1515829",
+       "type": "reward"
+      },
+      {
+       "id": "1516049",
+       "type": "reward"
+      },
+      {
+       "id": "1516048",
+       "type": "reward"
+      },
+      {
+       "id": "1516047",
+       "type": "reward"
+      },
+      {
+       "id": "1516045",
+       "type": "reward"
+      },
+      {
+       "id": "1516046",
+       "type": "reward"
+      },
+      {
+       "id": "1516187",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "H-game developer, we\u0027re milkysofts\u003cbr\u003e",
+     "created": "2017-03-17T08:14:55+00:00",
+     "facebook": "https://www.facebook.com/profile.php?id=100015771137428",
+     "first_name": "milkysofts",
+     "full_name": "milkysofts",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5364481/0a35b71c32774c07802d509beecf3aea?token-time=2145916800\u0026token-hash=FgZl4txGalWMvGvLs0C81hDmKIxAB4c778xbRnaMryE%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5364481/0a35b71c32774c07802d509beecf3aea?token-time=2145916800\u0026token-hash=GhGz3I_bWJxU_8sL7GIc0LOWLLvEIqCEi3Y6InorYns%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/KineticChronicle",
+     "vanity": "KineticChronicle",
+     "youtube": null
+    },
+    "id": "5364481",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "800224",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/800224"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 21,
+     "upgrade_url": "/bePatron?c=800224\u0026rid=1515829"
+    },
+    "id": "post-aggregation-for-0-800224",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-03-21T13:59:37.787886+00:00",
+     "description": "\u003cem\u003eTake a tour of our stuff....\u003cbr\u003e\u003c/em\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-27T08:24:08.513151+00:00",
+     "image_url": null,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2017-03-21T13:59:37.787886+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tourist",
+     "unpublished_at": null,
+     "url": "/bePatron?c=800224\u0026rid=1515829"
+    },
+    "id": "1515829",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-03-21T15:40:21.262795+00:00",
+     "description": "\u003cem\u003e\u00a0 \u00a0 We would feel less lonely\u003cbr\u003e\n\u003c/em\u003e\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eAccess the game earliest demo.\u00a0\u003c/li\u003e\n\u003cli\u003eYour name will appear in the credit.\u003c/li\u003e\n\u003cli\u003eAccess to patron-only content\u003c/li\u003e\n\u003cli\u003ePatron-only polls\u003cem\u003e\u003cbr\u003e\n\u003c/em\u003e\u003cem\u003e\u003cstrong\u003eThe reward would be sent after your pledge is cleared.\u003c/strong\u003e\u003c/em\u003e\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "314928307122733056"
+     ],
+     "edited_at": "2017-05-19T00:56:30.089545+00:00",
+     "image_url": null,
+     "post_count": 10,
+     "published": true,
+     "published_at": "2017-03-21T15:40:21.262795+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Let be Friend",
+     "unpublished_at": null,
+     "url": "/bePatron?c=800224\u0026rid=1516049"
+    },
+    "id": "1516049",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2017-03-21T15:40:20.789074+00:00",
+     "description": "\u003cem\u003e\u00a0\u00a0\u00a0 We would glad having you around.\u003cbr\u003e\u003c/em\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eGet a free copy of the game when finish.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eGet a free copy of our recent game Tendril Chronicle.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eAccess the game  earliest demo. (Will be avalible by the end of April)\u003c/li\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003eYour name will appear in the credit.\u003c/li\u003e\u003cli\u003ePatron-only polls\u003cem\u003e\u003cstrong\u003e\u003cbr\u003eThe reward would be sent after your pledge is cleared.\u003c/strong\u003e\u003c/em\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "314928309479800845"
+     ],
+     "edited_at": "2017-03-29T10:49:31.818234+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-21T15:40:20.789074+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "   Our Partner",
+     "unpublished_at": null,
+     "url": "/bePatron?c=800224\u0026rid=1516048"
+    },
+    "id": "1516048",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-03-21T15:40:20.623020+00:00",
+     "description": "\u003cem\u003e\u00a0\u00a0\u00a0 You\u0027re welcome to our tentacle kingdom\u003cbr\u003e\u003c/em\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cstrong\u003eGet exclusive uncensor version of the game when finish.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eGet a free copy of our recent game Tendril Chronicle.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eGet a free copy of the game when finish.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eAccess the game  earliest demo. (Will be avalible by the end of April)\u003c/li\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003eYour name will appear in the credit.\u003c/li\u003e\u003cli\u003ePatron-only polls\u003cem\u003e\u003cstrong\u003e\u003cbr\u003eThe reward would be sent after your pledge is cleared\u003c/strong\u003e\u003c/em\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "314928712258813952"
+     ],
+     "edited_at": "2017-03-29T10:49:31.604844+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-03-21T15:40:20.623020+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "   Tentacle Monsutar ^^",
+     "unpublished_at": null,
+     "url": "/bePatron?c=800224\u0026rid=1516047"
+    },
+    "id": "1516047",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-03-21T15:40:19.908432+00:00",
+     "description": "\u003cem\u003e\u00a0\u00a0 Lord of tentacle kingdom, XP anyways the title didn\u0027t do anything.\u003cbr\u003e\u003c/em\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eAcess the rough sketch version of in game cg, and unuse graphic.(The packet will sent after the game finish.)\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eGet exclusive uncensor version of the game when finish.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eGet a free copy of the game when finish.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eAccess the game  earliest demo. (Will be avalible by the end of April)\u003c/li\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003eYour name will appear in the credit.\u003cem\u003e\u003cstrong\u003e\u003cbr\u003eThe reward would be sent after your pledge is cleared.\u003c/strong\u003e\u003c/em\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "322622952925560834"
+     ],
+     "edited_at": "2017-03-29T10:49:31.433487+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-21T15:40:19.908432+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Lord of Tendoryu",
+     "unpublished_at": null,
+     "url": "/bePatron?c=800224\u0026rid=1516045"
+    },
+    "id": "1516045",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-03-21T15:40:19.953266+00:00",
+     "description": "\u003cem\u003eWhy can\u0027t the tentacle kingdom have a hero.\u003c/em\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYour name will appear on the monument tablet of the tentacle kingdom.\u003c/li\u003e\u003cli\u003eAcess the rough sketch version of in game cg, and unuse graphic.(The packet will sent after the game finish.)\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eGet exclusive uncensor version of the game when finish.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eGet a free copy of the game when finish.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eAccess the game  earliest demo. \u003c/li\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003eYour name will appear in the credit.\u003cbr\u003e\u003cem\u003e\u003cstrong\u003eThe reward would be sent after your pledge is cleared.\u003c/strong\u003e\u003c/em\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-28T07:17:39.108573+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-21T15:40:19.953266+00:00",
+     "remaining": 50,
+     "requires_shipping": false,
+     "title": "Legendary Hero of Tendoryu",
+     "unpublished_at": null,
+     "url": "/bePatron?c=800224\u0026rid=1516046"
+    },
+    "id": "1516046",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-03-21T16:38:36.417584+00:00",
+     "description": "\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou or you OC will appear in the tentacle kingdom stage, fight or hiding(your choice) from the invading dragon.\u003c/li\u003e\u003cli\u003eAcess the rough sketch version of in game cg, and unuse graphic.(The packet will sent after the game finish.)\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eGet exclusive uncensor version of the game when finish.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eGet a free copy of the game when finish.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eAccess the game  earliest demo.\u003c/li\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003eYour name will appear in the credit.\u003cem\u003e\u003cstrong\u003e\u003cbr\u003eThe reward would be sent after your pledge is cleared.\u003c/strong\u003e\u003c/em\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "316395589992710156"
+     ],
+     "edited_at": "2017-03-28T07:17:40.008411+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-21T16:38:36.417584+00:00",
+     "remaining": 9,
+     "requires_shipping": false,
+     "title": "Citizen of Tendoryu",
+     "unpublished_at": null,
+     "url": "/bePatron?c=800224\u0026rid=1516187"
+    },
+    "id": "1516187",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2017-03-21T15:53:39+00:00",
+     "description": "\u003cstrong\u003eIncrease the length of each stage of the game.\u003c/strong\u003e Currently we\u0027re running short on budget, make the stage of the game a little shorter than it should be. With this budget, we think we could double the length of each stage.\u003cbr\u003e",
+     "reached_at": "2017-08-30T11:37:35+00:00",
+     "title": ""
+    },
+    "id": "757775",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 87,
+     "created_at": "2017-03-21T15:53:39+00:00",
+     "description": "\u003cstrong\u003eWe will work on the game more\u003c/strong\u003e, currently since we need money for living we have to accept some side-job. which take away our time. If we reach this goal, we will able to accept lesser work and focus on the game.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "757776",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 43,
+     "created_at": "2017-03-21T15:53:39+00:00",
+     "description": "By minimize the cost of our living, \u003cstrong\u003ewe think we could manage to work fulltime on the game\u003c/strong\u003e if we reach this goal. \u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "757777",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 29,
+     "created_at": "2017-03-21T16:14:25+00:00",
+     "description": "Thank you so much our supporter. At this rate we will live better... \u003cstrong\u003eWe will do 2 more stage for the game\u003c/strong\u003e, currently there\u0027re 2 parts of the game that not really have a stage on it just a boss fight and story progress, we will create the stage for those parts of the game.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "757790",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 21,
+     "created_at": "2017-03-21T16:14:25+00:00",
+     "description": "If we reach this goal we will able to \u003cstrong\u003ehire the real voice actor\u003c/strong\u003e for the game. We dream of make our game full voice too. ^_^\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "757791",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/800224"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "8c30ebe1-0f88-4d3a-a108-4118d13ce157",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "milkysofts is creating h-game yuri action , Kinetic Chronicle"
+});
+    </script>

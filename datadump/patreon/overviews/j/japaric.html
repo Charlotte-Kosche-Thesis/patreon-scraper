@@ -1,0 +1,398 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "cQwYE8iQdIlQBFopWYxmztskhVWQpYyL_W-pDT0MRmM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "429247",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/429247"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-12-09T15:09:15+00:00",
+    "creation_name": "words, crates and robots",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/644678/b0dbc7abe2084800b71a3fa871ff47e0?token-time=2145916800\u0026token-hash=UhmcmUCskDZ2AENcj5C_SINXafw6AAGif51GH9rYX-Q%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/644678/b0dbc7abe2084800b71a3fa871ff47e0?token-time=2145916800\u0026token-hash=jCRvpH1t6W3eVbk5jdGvgGivIvZQqGUqGFU-X41BOus%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 76,
+    "pay_per_name": "month",
+    "pledge_sum": 41532,
+    "pledge_url": "/bePatron?c=644678",
+    "published_at": "2017-04-29T03:13:36+00:00",
+    "summary": "Hey there. I\u0027m \u003ca href=\"https://github.com/japaric\"\u003ejaparic\u003c/a\u003e.\u003cbr\u003e\u003cbr\u003eI have been contributing to \u003ca href=\"https://www.rust-lang.org/en-US/\"\u003ethe Rust project\u003c/a\u003e since Rust 0.9 (That was back in 2014Q1 - wow, it\u0027s been so long) and I want Rust to succeed as much as you do. In particular, I want Rust to become a major player in the field of embedded systems as I believe it holds so much potential to improve the status quo. To that effect, I have been doing a bunch of groundwork in this area. Here\u0027s some of my recent work:\u003cbr\u003e\u003cbr\u003e- \u003ca href=\"https://github.com/japaric/xargo\"\u003eXargo\u003c/a\u003e, a Cargo wrapper for `no-std` development.\u003cbr\u003e- \u003ca href=\"https://docs.rs/svd2rust\"\u003e`svd2rust`\u003c/a\u003e, a Rust code generator that produces an API to access a device\u0027s peripherals from SVD files.\u003cbr\u003e- A bunch of crates: \u003ca href=\"https://docs.rs/cortex-m\"\u003e`cortex-m`\u003c/a\u003e for access to common Cortex-M functionality, device crates like the \u003ca href=\"https://docs.rs/stm32f30x\"\u003e`stm32f30x`\u003c/a\u003e, Board Support Package (BSP) crates like the \u003ca href=\"https://docs.rs/f3\"\u003e`f3`\u003c/a\u003e and miscellaneous `no-std` crates like \u003ca href=\"https://docs.rs/fpa\"\u003e`fpa`\u003c/a\u003e for fast Fixed Point Arithmetic.\u003cbr\u003e- Compiler hacking: \u003ca href=\"https://github.com/rust-lang/rust/pull/40018\"\u003e`-Z linker-flavor`\u003c/a\u003e, \u003ca href=\"https://github.com/rust-lang/rust/pull/39987\"\u003e`#[used]`\u003c/a\u003e, \u003ca href=\"https://github.com/rust-lang/rust/pull/37672\"\u003eMSP430 support\u003c/a\u003e, etc.\u003cbr\u003e- \u003ca href=\"https://japaric.github.io/discovery/\"\u003eThe Discovery book\u003c/a\u003e, a beginner friendly text about programming microcontrollers in Rust. And,\u003cbr\u003e- \u003ca href=\"https://docs.rs/cortex-m-rtfm/\"\u003eThe Real Time for The Masses framework\u003c/a\u003e for embedded concurrent programming.\u003cbr\u003e\u003cbr\u003eBut there\u0027s still lots of ecosystem and tooling work to do, and I believe that the best way to advance the ecosystem is to build cool applications and document the development process. Building applications will result in reusable components, crates and tools, as by-products. Documenting the process will spread the knowledge and increase the \u003ca href=\"https://en.wikipedia.org/wiki/Bus_factor\"\u003ebus factor\u003c/a\u003e of the ecosystem. And the cool factor is a pitch on its own that will hopefully bring more people aboard.\u003cbr\u003e\u003cbr\u003eAnd what\u0027s cooler than robots and control systems in general? So I have started the \u003ca href=\"http://blog.japaric.io\"\u003eEmbedded in Rust\u003c/a\u003e blog to drive this crazy idea of mine forward. In this blog, I\u0027ll be first covering general embedded development for ARM Cortex-M microcontrollers and then dive into robotics and control stuff.\u003cbr\u003e\u003cbr\u003eIf you want to support me in this journey, consider becoming my patron. The more you pledge, the better the reward you get. You can see the rewards on the right sidebar and the goals on the left sidebar.\u003cbr\u003e\u003cbr\u003eThanks!\u003cbr\u003e\u003cbr\u003eP.S. Want to chat? You can find me on the #rust-embedded IRC channel (irc.mozilla.net)"
+   },
+   "id": "644678",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4586950",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4586950"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-644678",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-644678"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1637097",
+       "type": "reward"
+      },
+      {
+       "id": "1637596",
+       "type": "reward"
+      },
+      {
+       "id": "1637608",
+       "type": "reward"
+      },
+      {
+       "id": "1637760",
+       "type": "reward"
+      },
+      {
+       "id": "1637747",
+       "type": "reward"
+      },
+      {
+       "id": "1637762",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-12-09T15:08:55+00:00",
+     "facebook": null,
+     "first_name": "Jorge",
+     "full_name": "Jorge Aparicio",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4586950/e9b4f1843d0549a6b7504652976fddfb?token-time=2145916800\u0026token-hash=W09tcsCC-iHTjlL1Z6myby98hPj2rArJSoXh2AEzwng%3D",
+     "last_name": "Aparicio",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4586950/e9b4f1843d0549a6b7504652976fddfb?token-time=2145916800\u0026token-hash=3Nrg2p5bmKLrF44Z24LpgFzoRZfh6MFCCPcY8DSBFd0%3D",
+     "twitch": null,
+     "twitter": "japaricious",
+     "url": "https://www.patreon.com/japaric",
+     "vanity": "japaric",
+     "youtube": null
+    },
+    "id": "4586950",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "644678",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/644678"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 5,
+     "upgrade_url": "/bePatron?c=644678\u0026rid=1637097"
+    },
+    "id": "post-aggregation-for-0-644678",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-04-26T06:35:21.528794+00:00",
+     "description": "I\u0027ll let you know what\u0027s coming next in Embedded in Rust and you\u0027ll be able to voice your opinion about the direction and other aspects of the blog through polls and comments.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-27T00:06:14.772198+00:00",
+     "image_url": null,
+     "patron_count": 36,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2017-04-26T06:35:21.528794+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Behind the scenes",
+     "unpublished_at": null,
+     "url": "/bePatron?c=644678\u0026rid=1637097",
+     "user_limit": null
+    },
+    "id": "1637097",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2017-04-26T12:36:00.369228+00:00",
+     "description": "You get access to drafts of my blog posts before they are published. Plus all the previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-26T12:44:29.807827+00:00",
+     "image_url": null,
+     "patron_count": 20,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-04-26T12:36:00.369228+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Early access",
+     "unpublished_at": null,
+     "url": "/bePatron?c=644678\u0026rid=1637596",
+     "user_limit": null
+    },
+    "id": "1637596",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 800,
+     "amount_cents": 800,
+     "created_at": "2017-04-26T12:51:03.492507+00:00",
+     "description": "Your name and/or GitHub / Twitter handle plus a link to your website or GitHub / Twitter profile will appear at the end of each new blog post (oldest patron first). Plus all the previous rewards.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eNOTE This reward is only for individuals, not for organizations.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-26T14:32:00.979248+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-26T12:51:03.492507+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Your name in the credits (early bird)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=644678\u0026rid=1637608",
+     "user_limit": 5
+    },
+    "id": "1637608",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1600,
+     "amount_cents": 1600,
+     "created_at": "2017-04-26T14:21:54.758323+00:00",
+     "description": "Same rewards as the previous ($8) tier.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eNOTE This reward is only for individuals, not for organizations.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-26T14:25:58.098776+00:00",
+     "image_url": null,
+     "patron_count": 10,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-26T14:21:54.758323+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Your name in the credits",
+     "unpublished_at": null,
+     "url": "/bePatron?c=644678\u0026rid=1637760",
+     "user_limit": null
+    },
+    "id": "1637760",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6400,
+     "amount_cents": 6400,
+     "created_at": "2017-04-26T14:15:43.248715+00:00",
+     "description": "Your company / organization logo plus a link to your website will appear at the end of each new blog post. Plus all the previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-26T14:31:33.772138+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-26T14:15:43.248715+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Your logo in the credits (early bird)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=644678\u0026rid=1637747",
+     "user_limit": 1
+    },
+    "id": "1637747",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 12800,
+     "amount_cents": 12800,
+     "created_at": "2017-04-26T14:22:55.587764+00:00",
+     "description": "Same rewards as the previous ($64) tier.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-26T14:22:55.587764+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-26T14:22:55.587764+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Your logo in the credits",
+     "unpublished_at": null,
+     "url": "/bePatron?c=644678\u0026rid=1637762",
+     "user_limit": null
+    },
+    "id": "1637762",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/644678"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "a74ed2c5-81f5-4539-bea6-f1aa0e50d0c5",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Jorge Aparicio is creating words, crates and robots"
+});
+    </script>

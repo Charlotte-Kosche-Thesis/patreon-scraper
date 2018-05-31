@@ -1,0 +1,545 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "8q_lUawiV9ecBUzpQDYRWqBHqA2CqejQ9jis678roi0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "5810",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/5810"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-02-18T21:14:39+00:00",
+    "creation_name": "OpenGameArt.org",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/80931/e08ca2ff26f54969bfd846f1d876ff6c?token-time=2145916800\u0026token-hash=c4WwWeINJGkpDwW9t4WpYkI_L5BwWdtkCYjwyEvvVkw%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/80931/e08ca2ff26f54969bfd846f1d876ff6c?token-time=2145916800\u0026token-hash=M1cEh9WPuixyrWAvY-KwGRSAgovagC_7vFLLQJw_oBs%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Helping programmers and artists work together to make great games.",
+    "patron_count": 120,
+    "pay_per_name": "month",
+    "pledge_sum": 33763,
+    "pledge_url": "/bePatron?c=80931",
+    "published_at": "2014-02-18T21:14:39+00:00",
+    "summary": "\u003ca href=\"http://opengameart.org\" rel=\"nofollow\" target=\"_blank\"\u003eOpenGameArt.org\u003c/a\u003e is a site that helps programmers and artists collaborate to make video games, by providing a platform where artists can share and archive their art and programmers can reach them easily.\u00a0 \u003cbr\u003e\u003cbr\u003eFunding OpenGameArt will allow me to devote time to addressing the backlog of bug reports and feature requests and help me keep the site running well for everyone.\u00a0 Once the outstanding issues are fixed, I\u0027ll be able to move on to working on better organization (including finer-grained art categories), and greater community participation (such as managing larger contests like another Liberated Pixel Cup or similar).\u003cbr\u003e\u003cbr\u003eFor those of you who are interested in the numbers: this fund drive isn\u0027t set up in such a way that it\u0027ll make me any more money than I\u0027m already making right now.\u00a0 Instead, what it will allow me to do is spend hours working on OGA that I would otherwise have spent on my regular contract work.\u00a0 Each $100 pledged works out to roughly an hour of work per week (or 4.5 hours per month), so if we reach the $2000 goal, I\u0027ll be able to split my time 50/50 between OGA and my contract work and make about the same amount of money that I do right now. \u003cbr\u003e\u003cbr\u003eThank you for your consideration and support!\u003cbr\u003e"
+   },
+   "id": "80931",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "88537",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/88537"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "9455",
+       "type": "goal"
+      },
+      {
+       "id": "9456",
+       "type": "goal"
+      },
+      {
+       "id": "9457",
+       "type": "goal"
+      },
+      {
+       "id": "9458",
+       "type": "goal"
+      },
+      {
+       "id": "9459",
+       "type": "goal"
+      },
+      {
+       "id": "9460",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "16821",
+       "type": "reward"
+      },
+      {
+       "id": "16822",
+       "type": "reward"
+      },
+      {
+       "id": "16757",
+       "type": "reward"
+      },
+      {
+       "id": "16889",
+       "type": "reward"
+      },
+      {
+       "id": "16885",
+       "type": "reward"
+      },
+      {
+       "id": "16890",
+       "type": "reward"
+      },
+      {
+       "id": "17121",
+       "type": "reward"
+      },
+      {
+       "id": "16758",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m Bart Kelsey, the creator and maintainer of OpenGameArt.org, a site that archives art for use in free software / open source and commercial games.  I\u0027ve been interested in art and creating video games ever since I first saw a computer back in the early 80s, and I\u0027d like to make it easier for artists and programmers to come together and find inspiration to make great games.\u003cbr\u003e",
+     "created": "2014-02-18T21:14:39+00:00",
+     "facebook": null,
+     "first_name": "Bart",
+     "full_name": "Bart Kelsey",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/88537/5fd0e536b31848a5870bbe246f0c9745?token-time=2145916800\u0026token-hash=KXeZh6nswvya33bnaWa8jm5hJRpX1fChCmVjbp52B4o%3D",
+     "last_name": "Kelsey",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/88537/5fd0e536b31848a5870bbe246f0c9745?token-time=2145916800\u0026token-hash=HXZv4wz-86fUhrhfcFfDWACEh6WF-kHm7Kk2AuGemH4%3D",
+     "twitch": null,
+     "twitter": "opengameart",
+     "url": "https://www.patreon.com/opengameart",
+     "vanity": "opengameart",
+     "youtube": null
+    },
+    "id": "88537",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "80931",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/80931"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2014-02-20T05:45:12+00:00",
+     "description": "High five!\u00a0 If we ever meet in person, I\u0027ll high five you for being awesome.\u00a0 \u003cem\u003eNote that this is not a guarantee that we will meet in person.\u003c/em\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 56,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-20T05:45:12+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=80931\u0026rid=16821",
+     "user_limit": null
+    },
+    "id": "16821",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2014-02-20T05:45:12+00:00",
+     "description": "Double high five!\u00a0 If we ever meet in person, I\u0027ll give you \u003cem\u003etwo\u003c/em\u003e high fives for being extra awesome.\u00a0 You may, at your option, collect these simultaneously or in series.\u00a0 \u003cem\u003eNote that this is not a guarantee that we will meet in person.\u003c/em\u003e\u00a0 \u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cstrong\u003e\u003cbr\u003eAll higher reward tiers include this reward.\u003c/strong\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 37,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-20T05:45:12+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=80931\u0026rid=16822",
+     "user_limit": null
+    },
+    "id": "16822",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2014-02-19T23:27:31+00:00",
+     "description": "People who pledge $10/month or more will receive a supporter account for as long as their pledge lasts, with a supporter medal, and possibly beta testing access to certain new features.\u003cbr\u003e\u003cstrong\u003e\u003cbr\u003eAll higher reward tiers include this reward.\u003c/strong\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 22,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-19T23:27:31+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=80931\u0026rid=16757",
+     "user_limit": null
+    },
+    "id": "16757",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2014-02-20T17:09:34+00:00",
+     "description": "If you claim this reward, you\u0027ll receive a custom sound effect or musical jingle (maximum of 10 seconds) by yours truly.\u00a0 Here are a few samples of my music and sound effects:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003ca href=\"http://opengameart.org/content/mysterious-calm\" rel=\"nofollow noopener\" target=\"_blank\"\u003eMysterious Calm\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"http://opengameart.org/content/adventure-begins\" rel=\"nofollow noopener\" target=\"_blank\"\u003eThe Adventure Begins\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"http://opengameart.org/content/warp-engine-engage-sound\" rel=\"nofollow noopener\" target=\"_blank\"\u003eWarp Engine Engage\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"http://opengameart.org/content/steam-whistle\" rel=\"nofollow noopener\" target=\"_blank\"\u003eSteam Whistle\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003eYou may keep ownership of it for yourself (and use it as you wish, commercially or otherwise), or release it under the license(s) of your choice.\u00a0 It\u0027s totally up to you. :)\u003cbr\u003e\u003cbr\u003eDepending on the volume of responses, this reward may take up to a month to deliver.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-20T17:09:34+00:00",
+     "remaining": 15,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=80931\u0026rid=16889",
+     "user_limit": 15
+    },
+    "id": "16889",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2014-02-20T16:38:59+00:00",
+     "description": "If you claim this reward, you\u0027ll receive a personal, custom avatar by Sharm, like this one here:\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"http://i.imgur.com/SbPtQhx.png\"\u003e\u003cbr\u003e\u003cbr\u003e\u003cem\u003eNote that this may take up to one month to deliver, particularly if there are a lot of responses.\u003c/em\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-20T16:38:59+00:00",
+     "remaining": 18,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=80931\u0026rid=16885",
+     "user_limit": 18
+    },
+    "id": "16885",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2014-02-20T17:09:34+00:00",
+     "description": "If you claim this reward, you\u0027ll receive a custom, looping chiptune by yours truly.\u00a0 Here are some examples of my chiptunes:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003ca href=\"http://opengameart.org/content/jump-and-run-8-bit\" rel=\"nofollow noopener\" target=\"_blank\"\u003eJump and Run\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"http://opengameart.org/content/through-pixelated-clouds-8-bit-airship-remix\" rel=\"nofollow noopener\" target=\"_blank\"\u003eThrough Pixelated Clouds\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"http://opengameart.org/content/hold-line-lospec-mix\" rel=\"nofollow noopener\" target=\"_blank\"\u003eHold the Line\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"http://opengameart.org/content/the-adventure-begins-8-bit-remix\" rel=\"nofollow noopener\" target=\"_blank\"\u003eThe Adventure Begins (8-bit Remix)\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003eYou may keep ownership of it for yourself (and use it as you wish, \ncommercially or otherwise), or release it under the license(s) of your \nchoice.  It\u0027s totally up to you. :)\u003cbr\u003e\u003cbr\u003eDepending on the volume of responses, this reward may take up to a month to deliver.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-20T17:09:34+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=80931\u0026rid=16890",
+     "user_limit": 5
+    },
+    "id": "16890",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2014-02-21T16:43:41+00:00",
+     "description": "Anyone who pledges $75 or more will receive a one-of-a-kind OGA Supporter medal that is unique to their OGA account (designed by myself or one of OGA\u0027s talented artists), for as long as their pledge remains in effect.\u00a0 The theme of the design is up to you.\u00a0 \u003cem\u003eOGA reserves the right to reject themes that are pornographic, hateful, or offensive in nature, at our discretion.\u003c/em\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eAll higher reward tiers include this reward.\u003c/strong\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-21T16:43:41+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=80931\u0026rid=17121",
+     "user_limit": null
+    },
+    "id": "17121",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2014-02-19T23:27:31+00:00",
+     "description": "People who receive this reward will be able to submit an art challenge idea once every 8 weeks, in addition to getting a monthly supporter account. \u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-19T23:27:31+00:00",
+     "remaining": 8,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=80931\u0026rid=16758",
+     "user_limit": 8
+    },
+    "id": "16758",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 100,
+     "created_at": "2014-02-19T23:08:08+00:00",
+     "description": "Dull as it sounds, the first thing I need to address is basic ongoing maintenance of the site to ensure that performance is up to par.\u0026nbsp; My inability to keep up with this is actually what spurred me to create this campaign; OGA is now large enough that I can no longer keep the site running as it is in my free time (to the point that a recent performance crisis forced me to take two days off of work to get things back in working order again).\u003cbr\u003e",
+     "reached_at": "2014-02-19T23:08:08+00:00",
+     "title": "Basic site maintenence"
+    },
+    "id": "9455",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 67,
+     "created_at": "2014-02-19T23:08:08+00:00",
+     "description": "I don\u0027t like running ads; right now, they barely cover server costs (if at all), and I don\u0027t ever want to be in a position where I have to run external advertisements that I\u0027m unable to screen in advance for things like sounds, animation, and inappropriate content.\u0026nbsp; Reaching this goal will allow me to cover server costs and take the ads down completely.\u003cstrong\u003e\u0026nbsp; \u003c/strong\u003e\u003cem\u003e(Note that this will remain in effect as long as this funding goal remains met.\u0026nbsp; Also, we reserve the right to set up a separate page to acknowledge patrons.)\u003c/em\u003e\u003cbr\u003e",
+     "reached_at": "2014-02-19T23:08:08+00:00",
+     "title": "Removal of advertisements"
+    },
+    "id": "9456",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 33,
+     "created_at": "2014-02-19T23:08:08+00:00",
+     "description": "One of the most frequent complaints we get is the fact that the current art categories are too broad, making art searches difficult.\u0026nbsp; What a lot of people don\u0027t know is that back when the site was originally created, the categories were a lot more narrow, but people were allowed to select their own, and things were frequently miscategorized, which made the archive a huge mess.\u0026nbsp; With this much monthly funding, I\u0027ll be able to devote time every week to making sure that art is categorized correctly, making art searches easier.\u0026nbsp; I\u0027ll also be able to clean up and categorize new submissions to the texture archive.\u003cbr\u003e\u003cbr\u003eRead more about this and see a mockup \u003ca target=\"_blank\" href=\"http://opengameart.org/content/improvements-to-content-curation\"\u003ehere\u003c/a\u003e.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Better content curation"
+    },
+    "id": "9457",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 16,
+     "created_at": "2014-02-19T23:08:08+00:00",
+     "description": "If I reach this goal, I\u0027ll be able to continuously work on high-effort features and bugfixes that have been back-burnered (some for several years), such as a set of tools that make it easier for artists to collaborate and remix each others\u0027 work (like allowing people to draw, paint, and compose simple music in comments) while doing the legwork of keeping track of licensing and attribution information automatically.\u0026nbsp; I\u0027d also like to set up spaces where game developers can set up art archives specific to their game to make content creation easier.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Major features and bugfixes"
+    },
+    "id": "9458",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 22,
+     "created_at": "2014-02-19T23:08:08+00:00",
+     "description": "Open sourcing a site like OpenGameArt.org isn\u0027t as simple as you might think.\u0026nbsp; OGA runs on top of Drupal, which stores a lot of information necessary for the site to function in the site database, which means that in order for someone to download a copy of OGA that works well enough that development can be done, the database needs to be included.\u0026nbsp; Unfortunately, the database is a) way too big to allow people to download without bringing the server to its knees, and b) contains personal information such as email addresses and hashed passwords, which can\u0027t be released to the public.\u0026nbsp; What this means is that I\u0027ll have to write and maintain a program that sanitizes and shrinks the OGA database so that it will be easy to download and not compromise anyone\u0027s personal information.\u0026nbsp; As new features are added to the site (along with necessary database schema changes), this program will need to be kept up to date so that the database remains properly sanitized, which means that not only is open sourcing OGA a large initial effort, it will require that I devote some amount of time to it continuously just to make sure people can always get the latest working version.\u0026nbsp; In the event that we receive code contributions (and open sourcing your code is not in any way a guarantee of that), I\u0027ll need to spend time coordinating developing, cleaning up code, coaching potential developers (Drupal has a hefty learning curve), and providing support to people wanting to get a working copy of the site running on their own machine.\u0026nbsp; Ultimately, this may result in a lot of new features, but going open source is a time investment; you can only get back what you put in.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Open source OpenGameArt.org"
+    },
+    "id": "9459",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 6,
+     "created_at": "2014-02-19T23:08:08+00:00",
+     "description": "I\u0027m currently doing contract work with very flexible hours, such that I\u0027m able to work up to half time on OGA (although since I\u0027m paid by the hour, any time I spend working on OGA at the moment instead of my contract work is unpaid).\u0026nbsp; When my current contract is over, $5,000 per month would allow me to work on OGA full time for the foreseeable future and pay the bills. In addition to coding at a much faster pace, I\u0027d be able to do things like running large contests (such as another Liberated Pixel Cup), and also contribute a large amount of art myself (I\u0027m a pretty solid composer and a decent pixel artist).\u0026nbsp; If we reach this goal before my current work contract ends, I\u0027ll put everything beyond $2,500 per month into frequent, CC-BY licensed paid commissions that can be used in any type of commercial or open source game project.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Full-time work on OGA (in the future)"
+    },
+    "id": "9460",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/80931"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "53295ee4-1178-4847-ad9f-42054f1c0160",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Bart Kelsey is creating OpenGameArt.org"
+});
+    </script>

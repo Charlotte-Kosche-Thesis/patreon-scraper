@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "2HTldTdZMycNxBVFoH0-xNqbr2sRr-DE5k0BC-vJc8o";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "569628",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/569628"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-03-27T20:29:52+00:00",
+    "creation_name": "Art",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 53,
+    "pay_per_name": "month",
+    "pledge_sum": 183240,
+    "pledge_url": "/bePatron?c=817801",
+    "published_at": "2017-09-06T23:24:17+00:00",
+    "summary": "I\u0027m Brit, also known as Akita or Akitamonster around the web. I\u0027m an artist, dedicated to it since I could hold a pencil, trying to make it as a freelance illustrator.\u003cbr\u003e\u003cbr\u003eCommission work is my sole income at the moment, and this Patreon is meant to be supplementary to my current commission earnings. I\u0027ll still be taking commissions as I always have, but this will be a way for people to see all of my work in high res, which I usually only post a fraction of online!\u003cbr\u003e\u003cbr\u003eI\u0027m passionate about advancing my skill level as an artist, and I would love to share the things I\u0027ve learned and am still learning with other people. I hope that any tutorials and things related to my process that I post here can help others learn and be inspired.\u003cbr\u003e\u003cbr\u003eI have no lofty goals with this Patreon beyond supplementary earnings, but if nothing else, I would love to be able to commit more to original works without sacrificing an income to do so.\u003cbr\u003e\u003cbr\u003eAny support genuinely means the world to me, I can\u0027t explain how grateful I am to the communities I\u0027ve taken part in that have supported me this far! I wouldn\u0027t be able to live my dream as an artist without you!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eHow will this work?\u003cbr\u003e\u003cbr\u003e\u003c/strong\u003eOne to three times a week I\u0027ll post the full res and PSD files for all the work I did from the past few days. I typically work a little bit every day, so I\u0027ll nearly always have things to post, but I\u0027ll make a note of periods where I wasn\u0027t able to get any work done.\u003cbr\u003e\u003cbr\u003eFor commission subscription tiers, I\u0027ll make a post with a call for references after payments are collected each month, and work will be completed gradually over the month.\u003cbr\u003e"
+   },
+   "id": "817801",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "509804",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/509804"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "820465",
+       "type": "goal"
+      },
+      {
+       "id": "820466",
+       "type": "goal"
+      },
+      {
+       "id": "958879",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-817801",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-817801"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1984906",
+       "type": "reward"
+      },
+      {
+       "id": "1984932",
+       "type": "reward"
+      },
+      {
+       "id": "1984938",
+       "type": "reward"
+      },
+      {
+       "id": "1984956",
+       "type": "reward"
+      },
+      {
+       "id": "1984957",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-01-26T06:29:23+00:00",
+     "facebook": null,
+     "first_name": "Akitamonster",
+     "full_name": "Akitamonster",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/509804/8541e6cdded2457cb24e2dc08c1aae73?token-time=2145916800\u0026token-hash=8tM6PviUQ0TBs5V8SR-4pFfJVTuqUNSGlV7oU3o-WJ0%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/509804/8541e6cdded2457cb24e2dc08c1aae73?token-time=2145916800\u0026token-hash=CjilryYzsFUmn7EnbJGdGWvhgcN5g3hqdri5h2bXjEo%3D",
+     "twitch": null,
+     "twitter": "akitamonster",
+     "url": "https://www.patreon.com/akitamonster",
+     "vanity": "akitamonster",
+     "youtube": null
+    },
+    "id": "509804",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "817801",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/817801"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 32,
+     "upgrade_url": "/bePatron?c=817801\u0026rid=1984906"
+    },
+    "id": "post-aggregation-for-0-817801",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-09-06T22:15:06.230059+00:00",
+     "description": "+Access to my full res images\n\u003cp\u003e+Access to any private streams\u003c/p\u003e\n\u003cp\u003e+First dibs on any special offers (design sales, YCH, specific commission offers)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T22:15:30.498164+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 5,
+     "published": true,
+     "published_at": "2017-09-06T22:15:08.050786+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=817801\u0026rid=1984906",
+     "user_limit": null
+    },
+    "id": "1984906",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-09-06T22:24:31.906843+00:00",
+     "description": "+Access to PSD files\n\u003cp\u003e+Access to tutorials and process videos\u003c/p\u003e\n\u003cp\u003e+First dibs on commission openings\u003c/p\u003e\n\u003cp\u003e+All previous rewards\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T22:24:31.906843+00:00",
+     "image_url": null,
+     "patron_count": 12,
+     "post_count": 10,
+     "published": true,
+     "published_at": "2017-09-06T22:24:31.906843+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=817801\u0026rid=1984932",
+     "user_limit": null
+    },
+    "id": "1984932",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-09-06T22:27:17.690513+00:00",
+     "description": "+One sketch request every month\n\u003cp\u003e+All previous rewards\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-10T15:49:46.996261+00:00",
+     "image_url": null,
+     "patron_count": 10,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-04-10T15:49:46.988861+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Sketch Subscription Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=817801\u0026rid=1984938",
+     "user_limit": 10
+    },
+    "id": "1984938",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4500,
+     "amount_cents": 4500,
+     "created_at": "2017-09-06T22:39:04.786507+00:00",
+     "description": "+One hour drawing every month\n\u003cp\u003e+All previous rewards (sans sketch tier)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-30T00:20:13.941438+00:00",
+     "image_url": null,
+     "patron_count": 16,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-30T00:20:13.930075+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "One Hour Subscription Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=817801\u0026rid=1984956",
+     "user_limit": 16
+    },
+    "id": "1984956",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 8000,
+     "amount_cents": 8000,
+     "created_at": "2017-09-06T22:39:52.677946+00:00",
+     "description": "+Two hour drawing every month\n\u003cp\u003e+All previous rewards (sans sketch and one hour tier)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-30T18:15:59.630920+00:00",
+     "image_url": null,
+     "patron_count": 11,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-30T18:15:59.620057+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Two Hour Subscription Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=817801\u0026rid=1984957",
+     "user_limit": 11
+    },
+    "id": "1984957",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2017-05-04T15:36:14+00:00",
+     "description": "I will begin making at least one tutorial or process video each month!",
+     "reached_at": "2017-09-16T17:42:47+00:00",
+     "title": ""
+    },
+    "id": "820465",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 100,
+     "created_at": "2017-05-04T15:36:14+00:00",
+     "description": "I will do one extra process video or tutorial a month!",
+     "reached_at": "2017-09-16T17:48:00+00:00",
+     "title": ""
+    },
+    "id": "820466",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 100,
+     "created_at": "2017-09-06T22:43:19+00:00",
+     "description": "At this amount I\u0027ll be able to focus more time on personal work to share with everyone, including the creation of new things such as prints!",
+     "reached_at": "2017-09-16T19:31:54+00:00",
+     "title": ""
+    },
+    "id": "958879",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/817801"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "83a38f33-e50d-4959-aa1e-54719c3d107b",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Akitamonster is creating Art"
+});
+    </script>

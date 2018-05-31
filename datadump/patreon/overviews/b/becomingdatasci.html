@@ -1,0 +1,751 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "U828Ww8ODlxMHTNFX7U5iXCH-go8bzhW36evx2TDGSs";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "313958",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/313958"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-06-01T21:52:56+00:00",
+    "creation_name": "Becoming a Data Scientist Podcast \u0026 Websites Like DataSciGuide",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/380839/9b911b9b15594ecd9aeb615e51756012?token-time=2145916800\u0026token-hash=NzUDpUmqdMyPQoPmO3aRfZ_GijFmOHWi5iEqXeQBny8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/380839/9b911b9b15594ecd9aeb615e51756012?token-time=2145916800\u0026token-hash=aklsajJUuy_s_dMJ6c-EpOD6R5FGAwBzfCKM7NVNlDQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 29,
+    "pay_per_name": "month",
+    "pledge_sum": 7466,
+    "pledge_url": "/bePatron?c=380839",
+    "published_at": "2016-12-07T06:44:41+00:00",
+    "summary": "Hello! Renee Teate (\"\u003ca href=\"http://twitter.com/becomingdatasci\" rel=\"nofollow\" target=\"_blank\"\u003eData Science Renee\u003c/a\u003e\") from\u00a0\u003ca href=\"http://www.becomingadatascientist.com/\" rel=\"nofollow\" target=\"_blank\"\u003eBecoming a Data Scientist\u003c/a\u003e blog and Podcast here!\u003cbr\u003e\n\u003cbr\u003e\nMy main goal for the Becoming a Data Scientist websites is to bring others along on my data science learning journey in order to help them succeed in becoming a data scientist, too!\u003cbr\u003e\u003cbr\u003ePeople come to data science from a variety of backgrounds. The term \"data science\" itself is not clearly defined and covers a wide variety of related topics, so as you probably know, it is quite overwhelming to figure out where to start and which resources to use to move into the field.\u00a0\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eWith your help, I hope to continue to provide guidance and encouragement to learners, help connect them to one another, bring a diverse variety of people into the data science field, find and share great data science resources, and provide tools to help everyone optimize their individual learning experiences.\u003c/strong\u003e\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eWhat I plan to do with this campaign is raise support to be able to pay people to assist me to keep the sites going, in order to enable me to spend my time where my contributions would be most valuable.\u003c/strong\u003e For example, I could record more podcast episodes if it didn\u0027t take so long for me to edit the audio and video for each episode myself.\u003cbr\u003e\u003cbr\u003eWatch this video for a summary of what you are supporting:\u003cbr\u003e\n\u003cbr\u003e\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/8IiG7kJw97w?rel=0\u0026amp;showinfo=0\" width=\"560\"\u003e\u003c/iframe\u003e\u003cbr\u003e\u003cbr\u003e\nI have a full-time job, and I\u0027m not starting this campaign to add additional income in my own bank account, but there are things I would like to do with my sites that I think would help everyone, and I am asking supporters to chip in, because I don\u0027t have the extra resources to pay for additional assistance out of my own pocket, and I refuse to \"hire\" unpaid interns.\u00a0\n\u003cstrong\u003eI plan for all of the Patreon campaign money to go towards services and hiring assistants, and not to myself.\u003c/strong\u003e\u003cbr\u003e\n\u003cbr\u003e\nFirst of all, when I say \"Becoming a Data Scientist sites\", I mean:\n\u003cbr\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"http://www.becomingadatascientist.com/\" rel=\"nofollow\" target=\"_blank\"\u003eBecomingADataScientist.com blog\u003c/a\u003e (and\u00a0\u003ca href=\"https://twitter.com/BecomingDataSci\" rel=\"nofollow\" target=\"_blank\"\u003etwitter account\u003c/a\u003e with over 10,000 followers)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"http://www.becomingadatascientist.com/category/podcast/\" rel=\"nofollow\" target=\"_blank\"\u003eBecoming a Data Scientist podcast\u003c/a\u003e (\u003ca href=\"http://www.becomingadatascientist.com/feed/podcast\" rel=\"nofollow\" target=\"_blank\"\u003eaudio\u003c/a\u003e,\u00a0\u003ca href=\"https://www.youtube.com/playlist?list=PLTnOXzOljuWZJo1IlaBcGM74P9vE0Uauc\" rel=\"nofollow\"\u003evideo\u003c/a\u003e)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"http://www.becomingadatascientist.com/learningclub/\" rel=\"nofollow\"\u003eBecoming a Data Scientist Data Science Learning Club\u003c/a\u003e (and\u00a0\u003ca href=\"https://twitter.com/DataSciLearning\" rel=\"nofollow\" target=\"_blank\"\u003etwitter accoun\u003c/a\u003et)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"http://www.datasciguide.com/\" rel=\"nofollow\" target=\"_blank\"\u003eDataSciGuide.com\u003c/a\u003e (and\u00a0\u003ca href=\"https://twitter.com/datasciguide\" rel=\"nofollow\" target=\"_blank\"\u003etwitter account\u003c/a\u003e)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"http://www.jobsfornewdatascientists.com/\" rel=\"nofollow\" target=\"_blank\"\u003eJobsForNewDataScientists.com\u003c/a\u003e (and\u00a0\u003ca href=\"https://twitter.com/NewDataSciJobs\" rel=\"nofollow\" target=\"_blank\"\u003etwitter account\u003c/a\u003e)\u003c/li\u003e\u003cli\u003eTheDataScienceFair.com (not yet developed)\u003c/li\u003e\n\u003c/ul\u003e\nThese are all of the sites under the \"umbrella\" of the \"Becoming a Data Scientist brand\" - most which I have started since Fall 2015 - which each have their own focus and sub-audience. \u003cbr\u003e\u003cbr\u003eHere are the 4 types of assistants I would love to be able to hire (more details below if you\u0027re interested):\u003cbr\u003e\u003col\u003e\u003cli\u003e\u003cem\u003eContent Curation and Data Entry Assistant\u003c/em\u003e\u003c/li\u003e\u003cli\u003e\u003cem\u003eSocial Media Marketing and Promotion Assistant\u003c/em\u003e\u003c/li\u003e\u003cli\u003e\u003cem\u003eWeb Analytics and Advertising Assistant\u003c/em\u003e\u003c/li\u003e\u003cli\u003e\u003cem\u003eTechnical and User Support Assistant\u003c/em\u003e\u003c/li\u003e\u003c/ol\u003e\n\u003cbr\u003e\n\u003cstrong\u003eI hope you can tell by what I have built in less than a year with my evenings and weekends, that I know how to do a lot with minimal resources, so I\u0027ll make the most of the assistance you can provide.\u003c/strong\u003e \u003cbr\u003e\u003cbr\u003e\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003e\u003cspan style=\"background-color: rgb(255, 255, 0);\"\u003eTHANK YOU IN ADVANCE FOR YOUR SUPPORT!\u003c/span\u003e\u003c/strong\u003e\u003c/div\u003e\u003cbr\u003e\u003cbr\u003e\u003cdiv style=\"text-align: center;\"\u003e-------------------------------------------------------------------------------\u003c/div\u003e\u003cbr\u003e\u003cbr\u003e\u003cem\u003e\u003cstrong\u003eMore details for those that really want more to read :)\u003c/strong\u003e\u003c/em\u003e\u003cbr\u003e\n\u003cbr\u003e\nHere are descriptions of how financial support could help me keep each of these sites going, and growing...\u003cem\u003e(estimated costs are in italics)\u003c/em\u003e\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eBecoming a Data Scientist Blog and Twitter account\u003cbr\u003e\n\u003c/strong\u003eThis is the central website and blog that links to everything else. By hiring others to help as outlined below, I would be able to free up more of my own time to write more blog posts like \"\u003ca href=\"http://www.becomingadatascientist.com/2015/11/22/a-challenge-to-data-scientists/\" rel=\"nofollow\" target=\"_blank\"\u003eA Challenge to Data Scientists\u003c/a\u003e\" and \"\u003ca href=\"http://www.becomingadatascientist.com/2016/08/06/boosting-in-machine-learning-as-a-metaphor-for-diverse-teams/\" rel=\"nofollow\" target=\"_blank\"\u003eBoosting as a Metaphor for Diverse Teams\u003c/a\u003e\" as well as providing descriptions of my learning experiences like when I posted about\u00a0\u003ca href=\"http://www.becomingadatascientist.com/2015/06/07/ipython-requests-lxml-and-the-npr-api/\" rel=\"nofollow\" target=\"_blank\"\u003elearning how to use APIs in python\u003c/a\u003e. The site also needs some technical and design updates, which aren\u0027t top priority, but I haven\u0027t even come near that part of my to-do list without help. I would still maintain the central twitter account myself, as this is the main source of information for all of my sites, as well as a place to share other resources and articles I come across online that I find valuable (which also get posted to my\u00a0\u003ca href=\"http://www.becomingadatascientist.com/category/flipboard/\" rel=\"nofollow\" target=\"_blank\"\u003eFlipboard magazines\u003c/a\u003e).\u003cbr\u003e\n\u003cbr\u003e\u003ca href=\"http://www.becomingadatascientist.com\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://drive.google.com/uc?export=view\u0026amp;id=0ByfX5w2t_RE_eW4xbTVVY055UEE\" width=\"500\"\u003e\u003c/a\u003e\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ca href=\"https://twitter.com/BecomingDataSci\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://drive.google.com/uc?export=view\u0026amp;id=0ByfX5w2t_RE_N21qcWd5Q2ZOYjA\" width=\"500\"\u003e\u003c/a\u003e\u003cbr\u003e\n\u003cbr\u003e\u003cstrong\u003e\u003cbr\u003eBecoming a Data Scientist Podcast\u003cbr\u003e\n\u003c/strong\u003eThe podcast (links to audio and video in the list above) has gained an audience quickly, and receives over 2,000 listeners per episode within the first few weeks each is posted (The top audio episode has been accessed more than 9,000 times total, and the YouTube channel has 720 subscribers!), and has a\u00a0\u003ca href=\"https://itunes.apple.com/us/podcast/becoming-data-scientist-podcast/id1076448558?mt=2\" rel=\"nofollow\" target=\"_blank\"\u003e4.5/5-star rating on iTunes\u003c/a\u003e. It highlights data scientists (or those learning data science) that come from different backgrounds, so learners can find people they relate to and get valuable learning advice that is relevant to them.\u003cbr\u003e\nI record and edit each episode myself, but I paid someone to help edit and compile\u00a0\n\u003ca href=\"http://www.becomingadatascientist.com/2016/07/14/becoming-a-data-scientist-podcast-episode-13-debbie-berebichez/\" rel=\"nofollow\" target=\"_blank\"\u003ethe most recent episode with Debbie Berebichez\u003c/a\u003e out of my own pocket. This probably saved me at least 4 hours of time (and frustration) that would have been spent cropping, audio balancing, and recombining the various sections of the audio and video. I would rather focus on the scheduling, interviewing, and recording, and then hand the files off to someone else more experienced to prep for publication. \u003cem\u003eThis will cost approximately $100 per episode.\u003c/em\u003e\u003cbr\u003e\n\u003cbr\u003e\u003ca href=\"https://www.youtube.com/playlist?list=PLTnOXzOljuWZJo1IlaBcGM74P9vE0Uauc\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://drive.google.com/uc?export=view\u0026amp;id=0ByfX5w2t_RE_azQ0VU9yNmQ4VEE\" width=\"500\"\u003e\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\n\u003cstrong\u003eBecoming a Data Scientist Data Science Learning Club\u003c/strong\u003e\u003cbr\u003e\nI create a learning activity and compile resources with help from volunteers to go along with each episode of the podcast (and recently had some guest-hosted activities). The Data Science Learning Club has over 600 members - about 90 of whom have posted threads in the forums. I would love to pay someone to be available to help with this on a consistent basis so the forum doesn\u0027t have to be completely volunteer-supported. Also, it would be great to have some technical help from someone that could help behind the scenes with myBB forums (or even upgrade to another system) so I could focus on the content and communication and not the technical upkeep. (\u003cem\u003esee \u003cstrong\u003eAssistants\u003c/strong\u003e section\u003c/em\u003e)\u003cbr\u003e\u003ca href=\"http://www.becomingadatascientist.com/learningclub/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://drive.google.com/uc?export=view\u0026amp;id=0ByfX5w2t_RE_eDFYcS1oNS0wVXc\" width=\"500\"\u003e\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\n\u003cstrong\u003eDataSciGuide\u003c/strong\u003e\u003cbr\u003e\nDataSciGuide.com is a learning directory website I designed to help people find high quality data science learning resources like\u00a0\n\u003ca href=\"http://www.datasciguide.com/content/\" rel=\"nofollow\"\u003ebooks, websites, online courses, podcasts, etc\u003c/a\u003e that match their current learning level.\u00a0\u003ca href=\"http://www.datasciguide.com/hello-world-2/\" rel=\"nofollow\"\u003eYou can see my vision for the site here\u003c/a\u003e, and\u00a0\u003ca href=\"http://www.datasciguide.com/next-steps-for-site/\" rel=\"nofollow\" target=\"_blank\"\u003einfo from the last time I did technical updates on it a year ago\u003c/a\u003e. I got the website set up, installed and customized several Wordpress plugins to allow detailed ratings and custom post types, and generated the initial set of content myself. Some friends have helped me add more content, but I would love to pay someone to help add content on an ongoing basis, and keep the site fresh and exciting so people continue to use it and add helpful ratings and information about the content items for other learners. I could also use help with the affiliate advertising and technical aspects of this site that take time to set up and maintain. Not only would the site be more active and fun, but I would also have more time to write\u00a0\u003ca href=\"http://www.datasciguide.com/updates/\" rel=\"nofollow\" target=\"_blank\"\u003eblog posts\u003c/a\u003e about the resources. (\u003cem\u003esee \u003cstrong\u003eAssistants \u003c/strong\u003esection\u003c/em\u003e)\u003cbr\u003e\u003ca href=\"http://www.datasciguide.com/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://drive.google.com/uc?export=view\u0026amp;id=0ByfX5w2t_RE_QXNEUFlmbzdzVWM\" width=\"500\"\u003e\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\n\u003cstrong\u003eJobs For\u00a0New Data Scientists\u003c/strong\u003e\u003cbr\u003e\n\u003ca href=\"http://www.jobsfornewdatascientists.com/\" rel=\"nofollow\"\u003eJobsForNewDataScientists.com\u003c/a\u003e is designed to help people with less than 3 years of experience in data science find appropriate jobs to match their skill level, and to help companies find great candidates for their job openings. I set up and configured this site in a weekend, but need to spend time (and get help) marketing it so it will have enough users to be worth companies paying to post ads, and enough companies posting ads to be worth users\u0027 time to check in. I would also like to set up a system to send matching listings to people who sign up to receive notifications. Having assistance maintaining and marketing this website to companies and job seekers would help me get it off the ground. (\u003cem\u003esee \u003cstrong\u003eAssistants \u003c/strong\u003esection\u003c/em\u003e)\u003cbr\u003e\u003ca href=\"http://www.jobsfornewdatascientists.com/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://drive.google.com/uc?export=view\u0026amp;id=0ByfX5w2t_RE_ZlU5MXlnUnBod2M\" width=\"500\"\u003e\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\n\u003cstrong\u003eAssistants\u003c/strong\u003e\u003cbr\u003e\nHere are the details about the 4 types of assistants I would like to hire to help with the Becoming a Data Scientist sites:\n\u003cbr\u003e\n\u003col\u003e\n\u003cli\u003e\u003cstrong\u003e\u003cem\u003eContent Curation and Data Entry Assistant\u003c/em\u003e\u003c/strong\u003e - would help find and post content primarily on DataSciGuide.com, but also identify content worth sharing with the Data Science Learning Club and on the various twitter accounts. The main focus would be keeping everything fresh and updated and \"alive\" (not stagnant like it has become).\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003cem\u003eSocial Media Marketing and Promotion Assistant\u003c/em\u003e\u003c/strong\u003e - would help share content from all sites on the twitter accounts, grow and track followership, and help determine what content was receiving the best response. Would also help recruit companies to advertise on JobsForNewDataScientists.com, promote giveaway contests, and encourage people to rate content on DataSciGuide. The main focus would be keeping social media channels active and encouraging engagement.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003cem\u003eWeb Analytics and Advertising Assistant\u003c/em\u003e \u003c/strong\u003e- would help monitor analytics/stats for all sites, generate affiliate links and ensure existing links still worked, manage sidebar ads and possibly featured content on DataSciGuide, and report on growth related to the activities of myself and the other assistants to make data-driven decisions about where to focus our efforts. The main focus would be monitoring and optimizing site and affiliate account activity.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003cem\u003eTechnical and User Support Assistant\u003c/em\u003e\u003c/strong\u003e - would help me troubleshoot technical problems and maintain the technical side of the websites: Wordpress plugins, forum features, team tools for assistants, documentation, etc. The main focus would be taking care of the technical details I can hand off, and helping users make the most of site features.\u003c/li\u003e\n\u003c/ol\u003e\nThe good thing is that I know how to do each of these things myself, so I wouldn\u0027t be just hoping the people I find could do the job - I know what it takes and could even train people as necessary. And though I have listed it as four separate roles, it would most likely be anywhere from 1 to 4 people helping me at any given time depending on demand and budget availability. The roles would definitely overlap heavily.\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cem\u003eI would pay these assistants at least $15/hr (no unpaid interns here) with the potential for higher pay or other perks once the sites start generating steady income. \u003c/em\u003eI could also lend my expertise and experience to help them develop as a sort of \"Apprentices\" - they would get to see how I have built the Becoming a Data Scientist websites and audiences so far, and they could contribute new ideas and help me grow them even more! \u003cbr\u003e\n\u003cbr\u003e\n\u003cem\u003e\nAt a minimum, I need 1 person that can help for 5 hours per week, which would come out to 5 hours x $15/hr x 4 wks/month = $300/month.\u003c/em\u003e\u003cbr\u003e\n\u003cbr\u003e\nTo get the most help I imagine needing at this point, and build a full team, I could use up to 4 people x 10 hrs/week each x $15/hr x 4 wks/month = $2,400/month.\u00a0\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cem\u003e\nThen, as the websites grow and start to generate income, I would need less support from Patreon and could eventually end this campaign, as I wouldn\u0027t need the continued outside support.\u003c/em\u003e\u003cbr\u003e\n\u003cbr\u003e\nSee the Patreon \"goals\" for how I plan to use the money at each level!\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIn Summary\u003c/strong\u003e\u003cbr\u003e\nThe main goal of this Patreon Campaign is to make sure I get enough help that the sites I\u0027ve built don\u0027t stagnate, and that I can eventually grow the Becoming a Data Scientist sites to the point where they\u0027re self-sustaining financially, fun and active, and benefiting a wide variety of users long-term. \u00a0At the point when there is enough traffic that the ad and affiliate income can support the paid assistance, I would end the Patreon support for these activities. \n\u003cbr\u003e\nI need your help to get up and running, but I\u0027m not focused on getting rich from these websites, just on bringing them up to a point where they\u0027re being updated consistently, and are most helpful to you without costing me additional money out of pocket; freeing me up to do more valuable activities on the sites myself, like reviewing learning resources and\u00a0generating original content.\n\u003cbr\u003e\n\u003cbr\u003e\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eThanks in advance for participating and helping me help you (and others) learn data science!!\u003cbr\u003e\n\u003c/strong\u003e\u003cstrong\u003e\u003cbr\u003e\u003c/strong\u003e\u003cstrong\u003e\n(Even if you can\u0027t contribute financially, help spread the word!)\n\u003c/strong\u003e\u003c/div\u003e\n\u003cbr\u003e\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e"
+   },
+   "id": "380839",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3219406",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3219406"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "553102",
+       "type": "goal"
+      },
+      {
+       "id": "553103",
+       "type": "goal"
+      },
+      {
+       "id": "553104",
+       "type": "goal"
+      },
+      {
+       "id": "553105",
+       "type": "goal"
+      },
+      {
+       "id": "553106",
+       "type": "goal"
+      },
+      {
+       "id": "553107",
+       "type": "goal"
+      },
+      {
+       "id": "553108",
+       "type": "goal"
+      },
+      {
+       "id": "553109",
+       "type": "goal"
+      },
+      {
+       "id": "553110",
+       "type": "goal"
+      },
+      {
+       "id": "553111",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-380839",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-380839"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "802038",
+       "type": "reward"
+      },
+      {
+       "id": "802020",
+       "type": "reward"
+      },
+      {
+       "id": "802096",
+       "type": "reward"
+      },
+      {
+       "id": "1163212",
+       "type": "reward"
+      },
+      {
+       "id": "802095",
+       "type": "reward"
+      },
+      {
+       "id": "802094",
+       "type": "reward"
+      },
+      {
+       "id": "1126803",
+       "type": "reward"
+      },
+      {
+       "id": "1163247",
+       "type": "reward"
+      },
+      {
+       "id": "802092",
+       "type": "reward"
+      },
+      {
+       "id": "1163290",
+       "type": "reward"
+      },
+      {
+       "id": "802116",
+       "type": "reward"
+      },
+      {
+       "id": "802136",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-04-26T05:03:20+00:00",
+     "facebook": "",
+     "first_name": "Renee",
+     "full_name": "Renee Teate",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3219406/30989c8893b44d998d0da92960782a21?token-time=2145916800\u0026token-hash=a94rAduv7sYZLYSN0VgWGLq8cH1kJ4ADyzGwy8185Pg%3D",
+     "last_name": "Teate",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3219406/30989c8893b44d998d0da92960782a21?token-time=2145916800\u0026token-hash=31gyHty9mi16uI7-Es3BSlZkRxFdGjDzs0pc4LiAd6Q%3D",
+     "twitch": "",
+     "twitter": "becomingdatasci",
+     "url": "https://www.patreon.com/becomingdatasci",
+     "vanity": "becomingdatasci",
+     "youtube": "https://www.youtube.com/channel/UCfxnrdBM1YRV9j2MB8aiy4Q"
+    },
+    "id": "3219406",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "380839",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/380839"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 13,
+     "upgrade_url": "/bePatron?c=380839\u0026rid=802020"
+    },
+    "id": "post-aggregation-for-0-380839",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-09-19T04:21:24+00:00",
+     "description": "A thank-you from me, plus the option to subscribe to a new Becoming a Data Scientist Email Newsletter with the top content that has been shared on the websites and twitter accounts (including important announcements you may have missed), and updates about what activities the Patreon funds have supported.",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-13T22:35:53.702555+00:00",
+     "image_url": null,
+     "patron_count": 21,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-13T22:35:53.311561+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Newsletter and Thank-You Level",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380839\u0026rid=802038",
+     "user_limit": null
+    },
+    "id": "802038",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-09-19T04:21:24+00:00",
+     "description": "Thanks and Newsletter option from $1 reward, plus an individual twitter shout-out thanking you and a mention on a \"supporters\" page on BecomingADataScientist.com (with your permission).",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-13T22:36:13.981805+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-12-13T22:36:13.869233+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "TWITTER SHOUT-OUT LEVEL",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380839\u0026rid=802020",
+     "user_limit": null
+    },
+    "id": "802020",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-09-19T04:21:24+00:00",
+     "description": "Everything from the $1 and $5 rewards, plus on the \"Supporters\" page, I\u0027ll include a link to a site of your choice (like your blog or podcast), and I\u0027ll tweet that link along with your thank you shout-out.",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-13T22:36:24.813055+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-12-13T22:36:24.796666+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "SUPPORTERS PAGE LINK LEVEL",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380839\u0026rid=802096",
+     "user_limit": null
+    },
+    "id": "802096",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-12-13T22:35:02.608287+00:00",
+     "description": "Rewards the same as $10 tier, but now you\u0027re supporting 1 hour of paid assistant time per month!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-13T22:35:02.608287+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-13T22:35:02.608287+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Support 1 Hour of Assistance",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380839\u0026rid=1163212",
+     "user_limit": null
+    },
+    "id": "1163212",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-09-19T04:21:24+00:00",
+     "description": "Everything from the $1-$10 rewards, plus after 2 months of support at this level I will mention you in a supporters thank you shout-out on the podcast, and include your chosen link in the email newsletter.",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-13T22:36:34.395239+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-13T22:36:34.374154+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "NEWSLETTER LINK AND PODCAST SHOUT-OUT LEVEL",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380839\u0026rid=802095",
+     "user_limit": null
+    },
+    "id": "802095",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-09-19T04:21:24+00:00",
+     "description": "One-on-one skype/hangout/phone mentorship call (up to 30 mins) where we can chat about your career plans or data science learning questions and I\u0027ll do my best to answer!\u003cbr\u003e\nAlso includes everything at the levels below.\u003cbr\u003e\nNote: the personal call is one-time reward, but payment renews monthly, so you\u0027ll have to change your support level after the call if you don\u0027t want to continue supporting at this level long-term.",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-13T22:37:03.697663+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-13T22:37:03.598037+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Personal chat with Renee",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380839\u0026rid=802094",
+     "user_limit": 5
+    },
+    "id": "802094",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-12-05T02:47:11+00:00",
+     "description": "Your data science content (book, blog, etc.) will be featured in the sidebar of DataSciGuide.com for at least 1 week, will be tweeted to followers on @DataSciGuide at least twice during that week, and will be included in an aggregate blog post of new content received by DataSciGuide subscribers. Your content will remain in the searchable directory permanently (even if your support ends here) to be viewed and rated by readers. Specific date range of feature can be requested, based on availability.\u003cbr\u003e\n(content must be approved by Renee)",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-13T22:37:26.346550+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-13T22:37:26.306209+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "DATASCIGUIDE.COM FEATURED CONTENT for at least 1 week",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380839\u0026rid=1126803",
+     "user_limit": 10
+    },
+    "id": "1126803",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2016-12-13T22:43:20.300057+00:00",
+     "description": "Rewards the same as either $50 tier (you pick), but now you\u0027re supporting 5 hours of paid assistant time per month!\u00a0 That\u0027s a week\u0027s worth of help for a 20 hr/month assistant!",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-13T22:51:07.559027+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-13T22:51:07.521874+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Support 5 Hours of Assistance",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380839\u0026rid=1163247",
+     "user_limit": 10
+    },
+    "id": "1163247",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2016-09-19T04:21:24+00:00",
+     "description": "Everything from the $1-$25 rewards, plus I will record a custom \"supporter advertisement\" for you that will be played at the end of an audio podcast episode at least once per month of support at this level. (Ad content has to be approved by Renee. Offer good through the end of \"season 2\", approximately the next 12 episodes starting ~Jan 2017)",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-27T22:20:52.506974+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-13T22:37:53.794806+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": "PODCAST AD LEVEL",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380839\u0026rid=802092",
+     "user_limit": 2
+    },
+    "id": "802092",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 30000,
+     "amount_cents": 30000,
+     "created_at": "2016-12-13T22:55:20.898580+00:00",
+     "description": "We\u0027ll work out some custom reward combination between the $100 level and $500 level (shout-outs or ads on the websites and/or podcast, multiple chats with Renee, or something custom) because now you\u0027re sponsoring a full month of time for a 20 hr/month assistant! You\u0027re helping someone get a data-science-related part-time job while helping me make my dreams for the website happen!",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-13T22:55:20.898580+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-13T22:55:20.898580+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "SPONSOR AN ASSISTANT LEVEL",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380839\u0026rid=1163290",
+     "user_limit": 4
+    },
+    "id": "1163290",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-09-19T04:21:24+00:00",
+     "description": "Everything from the $1-$25 rewards, plus I will record a custom \"supporter advertisement\" for you that will be played during a podcast episode at least once per month of support at this level, and you will be mentioned by name (or company) in a \"Patrons of the Podcast\" special top supporter list after the interview section of every episode (middle of audio or end of video), and we will discuss other ways which you can advertise on one of the website properties or the newsletter for the duration of support at this level or above.\u003cbr\u003e\n(Ad content has to be approved by Renee. Offer good through the end of \"season 2\", approximately the next 12 episodes starting ~Jan 2017)",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-27T22:21:10.705229+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-13T22:38:02.971757+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": "PATRON OF THE PODCAST + WEBSITE AD LEVEL",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380839\u0026rid=802116",
+     "user_limit": 2
+    },
+    "id": "802116",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2016-09-19T04:21:24+00:00",
+     "description": "Please contact me before supporting at this level or above. We can discuss how you would like to be recognized at this level, including advertising on twitter, websites, podcast episodes, naming an \"assistant scholarship\" after you, etc.",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-13T22:38:12.368133+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-13T22:38:12.231527+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": "CUSTOM RECOGNITION",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380839\u0026rid=802136",
+     "user_limit": 2
+    },
+    "id": "802136",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 74,
+     "created_at": "2016-09-19T03:04:33+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePaid audio \u0026amp; video editing assistance for \u003cstrong\u003eone podcast episode per month\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": "2016-12-13T21:35:18+00:00",
+     "title": ""
+    },
+    "id": "553102",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 18,
+     "created_at": "2016-09-19T03:04:33+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePaid audio \u0026amp; video editing assistance for one podcast episode per month\u003c/li\u003e\u003cli\u003e1 Assistant for \u003cstrong\u003eup to 20 hours of paid assistance\u003c/strong\u003e per month\u00a0(see assistant descriptions)\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "553103",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 14,
+     "created_at": "2016-09-19T03:04:33+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePaid audio \u0026amp; video editing assistance for \u003cdel\u003eone\u003c/del\u003e\u00a0\u003cstrong\u003etwo podcast episodes per month\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e1 Assistant for up to 20 hours of paid assistance per month\u00a0(see assistant descriptions)\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "553104",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 80000,
+     "completed_percentage": 9,
+     "created_at": "2016-09-19T03:04:33+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePaid audio \u0026amp; video editing assistance for two podcast episodes per month\u003c/li\u003e\u003cli\u003e1-2 Assistants for \u003cstrong\u003eup to \u003cdel\u003e20\u003c/del\u003e\u00a0\u003cem\u003e40\u003c/em\u003e hours of paid assistance\u003c/strong\u003e per month\u00a0(see assistant descriptions)\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "553105",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 110000,
+     "completed_percentage": 6,
+     "created_at": "2016-09-19T03:04:33+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePaid audio \u0026amp; video editing assistance for two podcast episodes per month\u003c/li\u003e\u003cli\u003e1-2 Assistants for\u00a0\u003cstrong\u003eup to \u003cdel\u003e40\u003c/del\u003e\u00a0\u003cem\u003e60\u003c/em\u003e hours of paid assistance\u003c/strong\u003e per month\u00a0(see assistant descriptions)\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "553106",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 140000,
+     "completed_percentage": 5,
+     "created_at": "2016-09-19T03:04:33+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePaid audio \u0026amp; video editing assistance for two podcast episodes per month\u003c/li\u003e\u003cli\u003e1-3 Assistants for\u00a0\u003cstrong\u003eup to \u003cdel\u003e60\u003c/del\u003e\u00a0\u003cem\u003e80\u003c/em\u003e hours of paid assistance\u003c/strong\u003e per month\u00a0(see assistant descriptions)\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "553107",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 170000,
+     "completed_percentage": 4,
+     "created_at": "2016-09-19T03:04:33+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePaid audio \u0026amp; video editing assistance for two podcast episodes per month\u003c/li\u003e\u003cli\u003e2-4 Assistants for\u00a0\u003cstrong\u003eup to \u003cdel\u003e80\u003c/del\u003e\u00a0\u003cem\u003e100\u003c/em\u003e hours of paid assistance\u003c/strong\u003e per month\u00a0(see assistant descriptions)\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "553108",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 3,
+     "created_at": "2016-09-19T03:04:33+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePaid audio \u0026amp; video editing assistance for two podcast episodes per month\u003c/li\u003e\u003cli\u003e3-4 Assistants for \u003cstrong\u003eup to \u003cdel\u003e100\u003c/del\u003e\u00a0\u003cem\u003e120\u003c/em\u003e hours of paid assistance per month\u003c/strong\u003e (see assistant descriptions)\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "553109",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 230000,
+     "completed_percentage": 3,
+     "created_at": "2016-09-19T03:04:33+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePaid audio \u0026amp; video editing assistance for two podcast episodes per month\u003c/li\u003e\u003cli\u003e3-4 Assistants for \u003cstrong\u003eup to \u003cdel\u003e120\u003c/del\u003e \u003cem\u003e140\u003c/em\u003e hours of paid assistance per month\u003c/strong\u003e (see assistant descriptions)\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "553110",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 260000,
+     "completed_percentage": 2,
+     "created_at": "2016-09-19T03:04:33+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePaid audio \u0026amp; video editing assistance for two podcast episodes per month\u003c/li\u003e\u003cli\u003eUp to 4 Assistants for up to \u003cdel\u003e140\u003c/del\u003e \u003cem\u003e160\u003c/em\u003e hours of paid assistance per month (see assistant descriptions) - Note: equivalent to 1 full-time staff member!\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "553111",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/380839"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "eac424e3-2f57-4fc6-8547-f89eda68b207",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Renee Teate is creating Becoming a Data Scientist Podcast \u0026 Websites Like DataSciGuide"
+});
+    </script>

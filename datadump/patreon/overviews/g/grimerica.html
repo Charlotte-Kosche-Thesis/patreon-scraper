@@ -1,0 +1,669 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "_uScfAkq-9YOZARgkGcBRE9x_36yc_iR3kL3IoZLdiM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "520670",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/520670"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-05-21T21:16:14+00:00",
+    "creation_name": "value, for value",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIzIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/93476/5fb98ea126a44833ad4c4463d0e0f046?token-time=2145916800\u0026token-hash=AlfyQU3-gxQ-KHc3wVQtifZsK1Efkt0iS00eX5BGC5w%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMyJ9/patreon-media/campaign/93476/5fb98ea126a44833ad4c4463d0e0f046?token-time=2145916800\u0026token-hash=jBf-S73YiWDbruSWpTz7AQ89rgtbNHxXx-b19HAWTmQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Often on the Fringe...",
+    "patron_count": 47,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=93476",
+    "published_at": "2017-07-22T18:42:39+00:00",
+    "summary": "\u003col\u003e\u003cli\u003e\u00a0\u201cDIG THE SHOW?  WANT TO BE A GRIMERICAN (WHO DOESN\u2019T?)?  WANT ACCESS TO OUR SUPER SECRET BLACK BUDGET FEED?\u003c/li\u003e\u003cli\u003eCLINK ONE OF THE LINKS BELOW TO SUPPORT THE SHOW.  ANY DONATION OR SUBSCRIPTION IS APPRECIATED, BUT DONATIONS OF \u003cem style=\"background-color: initial;\"\u003eA SACRED $432 \u003c/em\u003e(TOTAL OVER TIME) WILL GET YOU A SPOT ON THE PODCAST WITH THE GUEST OF YOUR CHOICE.\u003c/li\u003e\u003cli\u003eGRIMERICA IS 100% LISTENER SUPPORTED.  THAT MEANS WE DON\u2019T HAVE CORPORATE OVERLORD SPONSORS OR ANNOYING ADVERTISEMENTS FOR PRODUCTS WE PRETEND TO LIKE BECAUSE WE GET PAID FOR IT.\u003c/li\u003e\u003cli\u003eWE LOVE YOU. LEVEL UP AND BOOST YOUR KARMA NOW.\u003c/li\u003e\u003c/ol\u003e"
+   },
+   "id": "93476",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "169879",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/169879"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "28308",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-93476",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-93476"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2343607",
+       "type": "reward"
+      },
+      {
+       "id": "2343610",
+       "type": "reward"
+      },
+      {
+       "id": "2343611",
+       "type": "reward"
+      },
+      {
+       "id": "2343612",
+       "type": "reward"
+      },
+      {
+       "id": "2343613",
+       "type": "reward"
+      },
+      {
+       "id": "2343614",
+       "type": "reward"
+      },
+      {
+       "id": "2343615",
+       "type": "reward"
+      },
+      {
+       "id": "2343616",
+       "type": "reward"
+      },
+      {
+       "id": "2343617",
+       "type": "reward"
+      },
+      {
+       "id": "2343619",
+       "type": "reward"
+      },
+      {
+       "id": "2343623",
+       "type": "reward"
+      },
+      {
+       "id": "2343625",
+       "type": "reward"
+      },
+      {
+       "id": "2343626",
+       "type": "reward"
+      },
+      {
+       "id": "2343627",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "A loose cannon podcast featuring casual conversations with whomever we deem interesting, often on the fringe, Always looking for bloggers \u003cbr\u003ealberta  \u003ca href=\"http://t.co/SZn3JDb6ET\"\u003egrimerica.ca\u003c/a\u003e\u003cbr\u003e",
+     "created": "2014-05-21T21:16:14+00:00",
+     "facebook": "https://www.facebook.com/profile.php?id=388390021247168",
+     "first_name": "The",
+     "full_name": "The Grimerica Show",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/169879/246d7f3d25cc4b00b14beb4b3aba0f8e?token-time=2145916800\u0026token-hash=_fsa8lgyevq7YgjWB1Rh2fKI_MtisEpqPg4__VFu6Tc%3D",
+     "last_name": "Grimerica Show",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/169879/246d7f3d25cc4b00b14beb4b3aba0f8e?token-time=2145916800\u0026token-hash=GRlDFyScw0SmrMEe8B5OpwunxfThpRbBdPTmIG5rq4I%3D",
+     "twitch": null,
+     "twitter": "grimerica",
+     "url": "https://www.patreon.com/grimerica",
+     "vanity": "grimerica",
+     "youtube": "https://www.youtube.com/user/GrimericaShow"
+    },
+    "id": "169879",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "93476",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/93476"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 30,
+     "upgrade_url": "/bePatron?c=93476\u0026rid=2343607"
+    },
+    "id": "post-aggregation-for-0-93476",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 111,
+     "amount_cents": 111,
+     "created_at": "2018-02-04T03:29:56.553472+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:30:29.694943+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:30:29.688873+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "1",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343607"
+    },
+    "id": "2343607",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 222,
+     "amount_cents": 222,
+     "created_at": "2018-02-04T03:30:40.012560+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:30:51.641702+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:30:51.583081+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343610"
+    },
+    "id": "2343610",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 333,
+     "amount_cents": 333,
+     "created_at": "2018-02-04T03:31:00.495404+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:31:17.086289+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:31:17.060008+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "3",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343611"
+    },
+    "id": "2343611",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 555,
+     "amount_cents": 555,
+     "created_at": "2018-02-04T03:31:33.700608+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:31:33.700608+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:31:33.700608+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "5",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343612"
+    },
+    "id": "2343612",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 777,
+     "amount_cents": 777,
+     "created_at": "2018-02-04T03:31:54.604358+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:31:54.604358+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:31:54.604358+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "7",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343613"
+    },
+    "id": "2343613",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 999,
+     "amount_cents": 999,
+     "created_at": "2018-02-04T03:32:10.376389+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:32:10.376389+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:32:10.376389+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "9",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343614"
+    },
+    "id": "2343614",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1111,
+     "amount_cents": 1111,
+     "created_at": "2018-02-04T03:32:29.598553+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:32:29.598553+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:32:29.598553+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "10",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343615"
+    },
+    "id": "2343615",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1551,
+     "amount_cents": 1551,
+     "created_at": "2018-02-04T03:32:56.841584+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:32:56.841584+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:32:56.841584+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "11",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343616"
+    },
+    "id": "2343616",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2222,
+     "amount_cents": 2222,
+     "created_at": "2018-02-04T03:33:12.206043+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:33:12.206043+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:33:12.206043+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "12",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343617"
+    },
+    "id": "2343617",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3333,
+     "amount_cents": 3333,
+     "created_at": "2018-02-04T03:33:33.471701+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:33:33.471701+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:33:33.471701+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "13",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343619"
+    },
+    "id": "2343619",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5555,
+     "amount_cents": 5555,
+     "created_at": "2018-02-04T03:33:54.488184+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:33:54.488184+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:33:54.488184+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "14",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343623"
+    },
+    "id": "2343623",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6666,
+     "amount_cents": 6666,
+     "created_at": "2018-02-04T03:34:24.942552+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:34:24.942552+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:34:24.942552+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "15",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343625"
+    },
+    "id": "2343625",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7777,
+     "amount_cents": 7777,
+     "created_at": "2018-02-04T03:34:58.848373+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:34:58.848373+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:34:58.848373+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "16",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343626"
+    },
+    "id": "2343626",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 9999,
+     "amount_cents": 9999,
+     "created_at": "2018-02-04T03:35:18.286502+00:00",
+     "description": "",
+     "discord_role_ids": [
+      "366990861789036555"
+     ],
+     "edited_at": "2018-02-04T03:35:18.286502+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T03:35:18.286502+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "17",
+     "unpublished_at": null,
+     "url": "/bePatron?c=93476\u0026rid=2343627"
+    },
+    "id": "2343627",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 25,
+     "created_at": "2014-05-21T21:21:34+00:00",
+     "description": "Help us pay the bills and recieve even more value in return",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "28308",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/93476"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "0f47926d-4ef7-4680-b0ba-47d9ab79451f",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "The Grimerica Show is creating value, for value"
+});
+    </script>

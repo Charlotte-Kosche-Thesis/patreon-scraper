@@ -1,0 +1,495 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "ycRo_mZtkOvLi1JrIKBDO1nXDnb8bovasAq_AvlLwzY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "293416",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/293416"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-11-03T16:22:21+00:00",
+    "creation_name": "The Crunch",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/594337/4fb0f90996b54ce8a9e1a3cf717767cd?token-time=2145916800\u0026token-hash=YnHlwsYVY4hm9YYWw4mtD8a0JgP0hpwBLoD-Mo0Pa48%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/594337/4fb0f90996b54ce8a9e1a3cf717767cd?token-time=2145916800\u0026token-hash=DdqDeGTO4l9qCvkaMofVaXrxMr2Ut_Eb3rDKPF6FjGM%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 39,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=594337",
+    "published_at": "2016-11-03T18:14:01+00:00",
+    "summary": "Hello, Crunchers!\u003cbr\u003e\u003cbr\u003eEthan and I have been recording The Crunch for over a year now and it has been a blast. We especially love the community that has built around the show.\u003cbr\u003eOur Patreon Page is here to help us build that community a little better. We\u0027ll use this to keep everyone updated on the show, whether that be guests we\u0027re having on, events we\u0027ll be at, etc.\u003cbr\u003e\u003cbr\u003eAs most of you know, college keeps a person busy, so if you feel you aren\u0027t getting the most out of the Patreon page, please contact us [patreon@thecrunchcast.com] and let us know how we can make this page better!\u003cbr\u003e"
+   },
+   "id": "594337",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4358771",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4358771"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "601088",
+       "type": "goal"
+      },
+      {
+       "id": "774916",
+       "type": "goal"
+      },
+      {
+       "id": "774917",
+       "type": "goal"
+      },
+      {
+       "id": "774918",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "52180",
+       "type": "patron_goal"
+      },
+      {
+       "id": "52181",
+       "type": "patron_goal"
+      },
+      {
+       "id": "52182",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-594337",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-594337"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2166731",
+       "type": "reward"
+      },
+      {
+       "id": "1005038",
+       "type": "reward"
+      },
+      {
+       "id": "1000476",
+       "type": "reward"
+      },
+      {
+       "id": "1000477",
+       "type": "reward"
+      },
+      {
+       "id": "1000478",
+       "type": "reward"
+      },
+      {
+       "id": "1000784",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-11-03T16:21:53+00:00",
+     "facebook": "https://www.facebook.com/thecrunchcast",
+     "first_name": "Ethan",
+     "full_name": "Ethan and Patrick",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4358771/ef23865424754bef8b8dd02a64fbea2b?token-time=2145916800\u0026token-hash=mwje1uA8O46jr_F-Dx04B38-UlV80JSUZGAS9modb9w%3D",
+     "last_name": "and Patrick",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4358771/ef23865424754bef8b8dd02a64fbea2b?token-time=2145916800\u0026token-hash=hbH_8v6-tI7LBVHBcfgQsgggZDY_mPyGrJDU2uVeol0%3D",
+     "twitch": null,
+     "twitter": "CatholicPat",
+     "url": "https://www.patreon.com/thecrunch",
+     "vanity": "thecrunch",
+     "youtube": null
+    },
+    "id": "4358771",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "594337",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/594337"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 20,
+     "upgrade_url": "/bePatron?c=594337\u0026rid=2166731"
+    },
+    "id": "post-aggregation-for-0-594337",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-11-23T05:53:53.486348+00:00",
+     "description": "\u00a0Cream and sugar is to your left. (Free refills.)\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eIncludes:\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only feed\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-23T05:56:56.074291+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2166731/6d8fa13b33ab4248a57c090d74d919f2?token-time=2145916800\u0026token-hash=MVZMXKI1c12qFQ8VP3-f0UAe5i_g6Mr3ofR-Ia9Yby4%3D",
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-11-23T05:56:56.050047+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Small Coffee",
+     "unpublished_at": null,
+     "url": "/bePatron?c=594337\u0026rid=2166731"
+    },
+    "id": "2166731",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-04T19:49:19+00:00",
+     "description": "Two Eggs, Bacon, Orange Juice, and a side of Toast.\u003cbr\u003e\n\u00a0\n\u003cp\u003e\u003cstrong\u003eIncludes:\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eWelcome Package w/ Crunch Goodies\u003c/li\u003e\n\u003cli\u003eAccess to special projects\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-23T06:16:54.331176+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1005038/be280c62b6a84fe8915f0fa62b34145d?token-time=2145916800\u0026token-hash=tWsZwM3QddBi2KcRUFXKjj85IVoXoYwLGiGuqeaI2hk%3D",
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-23T06:16:54.306537+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Value Meal",
+     "unpublished_at": null,
+     "url": "/bePatron?c=594337\u0026rid=1005038"
+    },
+    "id": "1005038",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-04T19:49:19+00:00",
+     "description": "Two Eggs, Pancakes, Bacon, and Hash Browns.\u003cbr\u003e\n\n\u003cp\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eDiscount on merchandise\u003c/li\u003e\n\u003cli\u003ePatron Shoutout the month you join\u003c/li\u003e\n\u003cli\u003eAll previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-23T06:17:22.224924+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1000476/53088a259242460c9cee534a028fd188?token-time=2145916800\u0026token-hash=zFTSZWJopUAVB4sPamvA6oZumW019wUkOwc5dJfacws%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-23T06:17:22.198907+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Complete Breakfast",
+     "unpublished_at": null,
+     "url": "/bePatron?c=594337\u0026rid=1000476"
+    },
+    "id": "1000476",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-11-04T19:49:19+00:00",
+     "description": "Flaky biscuits and thick southern-style gravy come with bottomless coffee and your choice of breakfast meat.\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eFree T-Shirt\u003c/li\u003e\n\u003cli\u003eAll previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-23T05:22:32.382863+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1000477/c66ed12d788540d1b728d8ed9c48e558?token-time=2145916800\u0026token-hash=cnnyY0_e9JK0bZ9iaTGiCr3VQztnboZeVz-wM8MV9A4%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-23T05:22:32.363379+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Specialty Biscuits and Gravy",
+     "unpublished_at": null,
+     "url": "/bePatron?c=594337\u0026rid=1000477"
+    },
+    "id": "1000477",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-11-04T19:49:19+00:00",
+     "description": "Two Pancakes, Two Eggs, Three Meats, Hash Browns, Side of Toast. Pretty much every breakfast item in existence. (Note: Do not have to be a boy.)\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eIncludes:\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eTwo t-shirts\u003c/li\u003e\n\u003cli\u003eAll previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-23T05:26:48.377787+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1000478/016c6d6736f4479d9db26a7b3c9037ba?token-time=2145916800\u0026token-hash=WQe8GNiPgbYvNRzebyWf3dXlOPNN1XSMeSM-LDElAE4%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-23T05:26:48.358234+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Hungry Boy Special",
+     "unpublished_at": null,
+     "url": "/bePatron?c=594337\u0026rid=1000478"
+    },
+    "id": "1000478",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-11-04T19:49:19+00:00",
+     "description": "You know what you\u0027re about. You\u0027ll get all the eggs we have.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eBe an official sponsor of The Crunch\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-23T05:27:51.139892+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1000784/9c64f43d06164cc488aadb45a42b7183?token-time=2145916800\u0026token-hash=ZBkR2_5F4KKkU2hGveLPtNsc2zWcmGBbLyi0RUPQAfY%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-23T05:27:51.121726+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Ron Swanson",
+     "unpublished_at": null,
+     "url": "/bePatron?c=594337\u0026rid=1000784"
+    },
+    "id": "1000784",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 65,
+     "created_at": "2016-11-03T17:59:58+00:00",
+     "description": "If we start earning $300 a month, we will begin a bi-weekly Google Hangout for our Patrons!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "601088",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 39,
+     "created_at": "2017-04-03T18:10:51+00:00",
+     "description": "If we make $600 per month, we will start a Crunch YouTube channel.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "774916",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 97,
+     "created_at": "2017-04-03T18:10:51+00:00",
+     "description": "If we raise $200 per month, we will release a BONUS podcast (about 15 minutes) only to our Patrons!",
+     "reached_at": "2017-06-18T22:24:37+00:00",
+     "title": ""
+    },
+    "id": "774917",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 16,
+     "created_at": "2017-04-03T18:10:51+00:00",
+     "description": "We will have a monthly live show (Ethan will have to fly...I haven\u0027t told him yet.) Where we will take calls from our listeners.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "774918",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-11-23T05:49:27+00:00",
+     "deleted_at": null,
+     "description": "We will start producing short audio summaries/reflections about books we reference on the show (i.e. True Devotion to Mary, Abandonment to Divine Providence, Introduction to the Devout Life, etc.)",
+     "goal_text": "We will start producing short audio summaries/reflections about books we reference on the show (i.e. True Devotion to Mary, Abandonment to Divine Providence, Introduction to the Devout Life, etc.)",
+     "number_patrons": 60,
+     "reached_at": null
+    },
+    "id": "52180",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-11-23T05:49:27+00:00",
+     "deleted_at": null,
+     "description": "Patrick will release an e-book! [This is the only\u00a0way I can motivate myself...]",
+     "goal_text": "Patrick will release an e-book! [This is the only\u00a0way I can motivate myself...]",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "52181",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-11-23T05:49:27+00:00",
+     "deleted_at": null,
+     "description": "We will do a monthly live-stream with our patrons!",
+     "goal_text": "We will do a monthly live-stream with our patrons!",
+     "number_patrons": 200,
+     "reached_at": null
+    },
+    "id": "52182",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/594337"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "58e2ac71-c22d-4386-9b27-da85783669d6",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Ethan and Patrick are creating The Crunch"
+});
+    </script>

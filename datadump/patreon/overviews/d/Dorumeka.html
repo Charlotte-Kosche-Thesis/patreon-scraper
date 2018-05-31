@@ -1,0 +1,611 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "itxKcpvLLm38VbMW7Vk_f_VgwsBzT-bL1mc1TfWxLsM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "204107",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/204107"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-08-08T21:56:49+00:00",
+    "creation_name": "Ryona Assassins game",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/459278/eeb852758bde488696886e2081050482?token-time=2145916800\u0026token-hash=3ZWQgPYXisQUDH8WOqKKQFtWmMPmNprO-CCjzQGLz1I%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/459278/eeb852758bde488696886e2081050482?token-time=2145916800\u0026token-hash=Z2VRjdKmaBQijW9iqcDv4txAfiVGoPHhHtex8z-s4bc%3D",
+    "is_monthly": false,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/nyyDExwveiI\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://youtu.be/nyyDExwveiI",
+    "one_liner": null,
+    "patron_count": 32,
+    "pay_per_name": "Monthly release",
+    "pledge_sum": 20359,
+    "pledge_url": "/bePatron?c=459278",
+    "published_at": "2016-08-08T23:05:21+00:00",
+    "summary": "\u003ch3 style=\"text-align: center;\"\u003e\u003cspan style=\"color: rgb(128, 100, 162);\"\u003e~About Ryona Assassins~\u003c/span\u003e\u003c/h3\u003e\nR.A. will be a First Person Shooter dedicated to fulfill the\u00a0\u003ca href=\"http://allthetropes.wikia.com/wiki/Ryona\" target=\"_blank\"\u003eryona\u00a0\u003c/a\u003eniche with\u00a0\u003ca href=\"http://evilbabes.wikia.com/wiki/Category:Zako\" target=\"_blank\"\u003ezako\u00a0\u003c/a\u003eelements. All in a non-serious environment populated by playfully sexy \n\u003cem\u003edorus\u003c/em\u003e. I\u0027m taking reference from games like:\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003e\u003cstrong\u003eOldschool Doom\u003c/strong\u003e for the level layouts and pacing.\u003c/li\u003e\n\t\u003cli\u003e\u003cstrong\u003eHalf-Life\u003c/strong\u003e for the narrative elements and gunplay\u003c/li\u003e\n\t\u003cli\u003e\u003cstrong\u003ePrototype \u003c/strong\u003eseries for the gibbing/gore\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\nI am also heavily inspired by:\n\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003e\u003cstrong\u003eAika\u003c/strong\u003e\u003c/li\u003e\n\t\u003cli\u003e\u003cstrong\u003eNajica Dengeki Sakusen\u003c/strong\u003e\u003c/li\u003e\n\t\u003cli\u003e\u003cstrong\u003eKisirian\u003c/strong\u003e\u0027s work\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch3 style=\"text-align: center;\"\u003e\u003cspan style=\"color: rgb(128, 100, 162);\"\u003e~Roadmap~\u003c/span\u003e\u003c/h3\u003e\nThe game is in its very early stages, and thus I don\u0027t have a definitive list of features that will be in the final release. Having said that, these are the things that I want to do:\n\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003eLots of different ways to kill the \u003cem\u003edorus\u003c/em\u003e\u003c/li\u003e\n\t\u003cli\u003eMultiple conventional\u00a0and crazy weapons\u003c/li\u003e\n\t\u003cli\u003eA full campaign with an interesting story but with non-intrusive narrative\u003c/li\u003e\n\t\u003cli\u003eA procedural rogue-like game mode\u003c/li\u003e\n\t\u003cli\u003eA sandbox-ish mode\u003c/li\u003e\n\t\u003cli\u003eA level editor\u003c/li\u003e\n\t\u003cli\u003eVery-very \u003cstrong\u003ebasic \u003c/strong\u003emodding capabilities (not confirmed)\u003c/li\u003e\n\u003c/ul\u003e\n\u003cspan style=\"color: rgb(128, 100, 162);\"\u003e\u003cbr\u003e\n\u003c/span\u003e\n\u003ch3 style=\"text-align: center;\"\u003e\u003cspan style=\"color: rgb(128, 100, 162);\"\u003e~My community proposal~\u003c/span\u003e\u003c/h3\u003e\nI want to do something with this game that I haven\u0027t seen anywhere else. I want you to decide what will be added to the game after release. When I finish developing Ryona Assassins, I will open polls for you to propose and vote what content you want me to add to the game. Here are some examples:\n\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003eA new type of enemy\u003c/li\u003e\n\t\u003cli\u003eA new game mechanic\u003c/li\u003e\n\t\u003cli\u003eA new weapon\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\nMy dream for this project is to have a base version that would be free. All of the content that I add through Patreon polls would be free for patrons, but have a cost for everyone else. If I don\u0027t reach the goal I\u0027ve stablished, then the game will have a cost. If I don\u0027t have an insane amount of patrons, then it is most likely that early supporters will get the final release of the game for free. If the numbers get too high, then I\u0027ll have to figure some way of distributing.\n\u003cbr\u003e\u003cbr\u003eI will add more interesting tiers and rewards as the development of the game advances. Thanks to anyone who chooses to support me at this stage!\u003cbr\u003e\u003ch3 style=\"text-align: center;\"\u003e\u003cspan style=\"color: rgb(128, 100, 162);\"\u003e~Any questions?~\u003c/span\u003e\u003c/h3\u003e\nDo you have a question or suggestion you want to make? Or maybe you just want know that I haven\u0027t gone silent. Perhaps just hangout. You can join my Discord server for those or for any other reason. Feel free to interact with me or with the community in general. Links are below!\u003cbr\u003e\n\u003ca href=\"https://trello.com/b/GYZdwoFR/ryona-assassins\" target=\"_blank\"\u003e\u003cbr\u003e\u003c/a\u003e\u003ca href=\"http://dorumeka.tumblr.com/discord\" target=\"_blank\"\u003eDiscord server\u003c/a\u003e\u003cbr\u003e\n\u003ca href=\"https://dorumeka.itch.io/\" target=\"_blank\"\u003eItch.io store\u003cbr\u003e\n\u003c/a\u003e\u003ca href=\"https://www.youtube.com/channel/UCXDgX9WirqiuCVPCEcfBbTg\" target=\"_blank\"\u003eYoutube channel\u003c/a\u003e\u003cbr\u003e\n\u003ca href=\"https://www.twitch.tv/dorumeka\" target=\"_blank\"\u003eTwitch\u003cbr\u003e\n\u003c/a\u003e\u003ca href=\"https://trello.com/b/GYZdwoFR/ryona-assassins\" target=\"_blank\"\u003eTrello board\u003c/a\u003e\u003cbr\u003e\n\u003ca href=\"http://dorumeka.tumblr.com\" target=\"_blank\"\u003eTumblr\u003cbr\u003e\n\u003cbr\u003e\n\u003c/a\u003e\u003cbr\u003e"
+   },
+   "id": "459278",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3792815",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3792815"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "506560",
+       "type": "goal"
+      },
+      {
+       "id": "979781",
+       "type": "goal"
+      },
+      {
+       "id": "979782",
+       "type": "goal"
+      },
+      {
+       "id": "979783",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-459278",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-459278"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2030456",
+       "type": "reward"
+      },
+      {
+       "id": "1940646",
+       "type": "reward"
+      },
+      {
+       "id": "2050844",
+       "type": "reward"
+      },
+      {
+       "id": "2050862",
+       "type": "reward"
+      },
+      {
+       "id": "2050840",
+       "type": "reward"
+      },
+      {
+       "id": "2050848",
+       "type": "reward"
+      },
+      {
+       "id": "2050884",
+       "type": "reward"
+      },
+      {
+       "id": "2050869",
+       "type": "reward"
+      },
+      {
+       "id": "2050853",
+       "type": "reward"
+      },
+      {
+       "id": "2052734",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-08-08T21:56:20+00:00",
+     "facebook": "https://www.facebook.com/Dorumeka-1949654661962538/",
+     "first_name": "Dorumeka",
+     "full_name": "Dorumeka",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3792815/a40082097dc047e09f619b8fd5b392ff?token-time=2145916800\u0026token-hash=Hq2BuvQhTaxDZX_7gzgojkxxm21rbMNreNmOxpLLobo%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3792815/a40082097dc047e09f619b8fd5b392ff?token-time=2145916800\u0026token-hash=p6buvoHuYjYienCgrFrMPCzSAyEBCY_4Gn0CgrSH4zo%3D",
+     "twitch": "https://www.twitch.tv/dorumeka",
+     "twitter": "dorumeka",
+     "url": "https://www.patreon.com/Dorumeka",
+     "vanity": "Dorumeka",
+     "youtube": "https://www.youtube.com/channel/UCXDgX9WirqiuCVPCEcfBbTg"
+    },
+    "id": "3792815",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "459278",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/459278"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 17,
+     "upgrade_url": "/bePatron?c=459278\u0026rid=2030456"
+    },
+    "id": "post-aggregation-for-0-459278",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-09-26T16:37:57.306541+00:00",
+     "description": "\ud83d\udd2b Access to a monthly testing build of the game in its current state.",
+     "discord_role_ids": [
+      "362284180689649665"
+     ],
+     "edited_at": "2017-10-06T02:54:30.985927+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2030456/8038f8e153214eb7a2c078a65e012a8d?token-time=2145916800\u0026token-hash=V-kEEu9bDPxbLGg83YFh40X-9hLP46ZPY5Cqh-kXKe4%3D",
+     "patron_count": 10,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2017-10-06T02:54:30.960929+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 1 - Makarov",
+     "unpublished_at": null,
+     "url": "/bePatron?c=459278\u0026rid=2030456",
+     "user_limit": null
+    },
+    "id": "2030456",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-20T19:53:03.386714+00:00",
+     "description": "\ud83d\udd2b All previous rewards\n\u003cp\u003e\ud83d\udd2b Constant access to early testing builds\u003c/p\u003e",
+     "discord_role_ids": [
+      "365699439203188736"
+     ],
+     "edited_at": "2017-10-06T03:20:46.300855+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1940646/705948eba093470089a07d5f12863579?token-time=2145916800\u0026token-hash=Gt-SmDhQQ98eLac0Zk9KTJH620t2gJWOp1guLpm23yI%3D",
+     "patron_count": 19,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2017-10-06T03:20:46.276086+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 2 - MP5K",
+     "unpublished_at": null,
+     "url": "/bePatron?c=459278\u0026rid=1940646",
+     "user_limit": null
+    },
+    "id": "1940646",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-10-05T10:01:59.683946+00:00",
+     "description": "\ud83d\udd2b All previous rewards\n\u003cp\u003e\ud83d\udd2b You can submit a SFW custom simple image decal that the dorus will wear on their uniforms in the next monthly build. If more than one person buys in, then the decal will be randomized at the beginning of the game every time.\u003c/p\u003e\n\u003cp\u003e\ud83d\udd2b Your name (or alias) will be in the credits of the next monthly release\u003c/p\u003e",
+     "discord_role_ids": [
+      "365695501884063753"
+     ],
+     "edited_at": "2017-10-06T03:28:30.531350+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-06T03:28:30.508316+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 3 - KSG",
+     "unpublished_at": null,
+     "url": "/bePatron?c=459278\u0026rid=2050844",
+     "user_limit": null
+    },
+    "id": "2050844",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-10-05T10:16:22.030427+00:00",
+     "description": "\ud83d\udca3 All previous rewards\n\u003cp\u003e\ud83d\udca3 You may request a set of very high resolution images of a doru doing a single custom pose of your liking. The images will be published for all similar or higher tier patrons. Example: imgur.com/a/4YfvJ.\u003c/p\u003e",
+     "discord_role_ids": [
+      "365696579627122689"
+     ],
+     "edited_at": "2017-10-06T03:35:54.845085+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-06T03:35:54.821516+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 4 - Plasma rifle",
+     "unpublished_at": null,
+     "url": "/bePatron?c=459278\u0026rid=2050862",
+     "user_limit": null
+    },
+    "id": "2050862",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-10-05T09:59:05.712790+00:00",
+     "description": "\ud83d\udca3 All previous rewards\n\u003cp\u003e\ud83d\udca3 You can submit message in the form of text to be placed on the map at random on the next monthly release.\u003c/p\u003e\n\u003cp\u003e\ud83d\udca3 Access to a VR version of this month\u0027s release (you need to let me know if you have a VR headset!).\u003c/p\u003e",
+     "discord_role_ids": [
+      "365696036158701568"
+     ],
+     "edited_at": "2018-01-12T17:56:43.907505+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T17:56:43.737057+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 5 - Impaler",
+     "unpublished_at": null,
+     "url": "/bePatron?c=459278\u0026rid=2050840",
+     "user_limit": null
+    },
+    "id": "2050840",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-10-05T10:05:10.059492+00:00",
+     "description": "\ud83d\udca3 All previous rewards\n\u003cp\u003e\ud83d\udca3 You can submit an image, containing whatever you want, to be randomly placed in the environment.\u003c/p\u003e",
+     "discord_role_ids": [
+      "365697080167235584"
+     ],
+     "edited_at": "2017-10-06T03:25:20.593950+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-06T03:25:20.571442+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 6 - Congealator",
+     "unpublished_at": null,
+     "url": "/bePatron?c=459278\u0026rid=2050848",
+     "user_limit": null
+    },
+    "id": "2050848",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-10-05T10:31:11.292357+00:00",
+     "description": "\ud83d\udca5 All previous rewards\n\u003cp\u003e\ud83d\udca5 Your name (or alias) plus a custom salute will be showed at random on the main menu (similar to minecraft) on the next monthly release.\u003c/p\u003e",
+     "discord_role_ids": [
+      "365697276695543818"
+     ],
+     "edited_at": "2017-10-06T03:24:01.960909+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-06T03:24:01.937738+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 7 - Burning sword",
+     "unpublished_at": null,
+     "url": "/bePatron?c=459278\u0026rid=2050884",
+     "user_limit": null
+    },
+    "id": "2050884",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2017-10-05T10:20:24.103885+00:00",
+     "description": "\ud83d\udca5 All previous rewards\n\u003cp\u003e\ud83d\udca5 You can request a very high resolution image of a scene that includes any number of this game\u0027s assets and any number of dorus with any pose. You describe a situation, and I\u0027ll make it happen. The images will be published for all similar or higher tier patrons.\u003c/p\u003e",
+     "discord_role_ids": [
+      "365697526973726736"
+     ],
+     "edited_at": "2017-10-06T03:35:48.906805+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-06T03:35:48.885354+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "Tier 8 - Disembodificator",
+     "unpublished_at": null,
+     "url": "/bePatron?c=459278\u0026rid=2050869",
+     "user_limit": 3
+    },
+    "id": "2050869",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-10-05T10:08:35.317433+00:00",
+     "description": "\ud83d\udca5 All previous rewards\n\u003cp\u003e\ud83d\udca5 You\u0027ll get access to the 3Ds Max files, PSDs and whatever other formats I use during the current and previous months. You will not get access to the source code or Unity project.\u003c/p\u003e",
+     "discord_role_ids": [
+      "365697611493277701"
+     ],
+     "edited_at": "2017-10-06T03:24:11.330829+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-10-06T03:24:11.263201+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 9 - Consciousness eater",
+     "unpublished_at": null,
+     "url": "/bePatron?c=459278\u0026rid=2050853",
+     "user_limit": null
+    },
+    "id": "2050853",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-10-06T03:00:27.570877+00:00",
+     "description": "\u00a0\ud83d\udc41 You truly are a God among dorus \ud83d\udc41\n\u003cp\u003e\u2b50\ufe0f All previous rewards \u2b50\ufe0f\u003c/p\u003e\n\u003cp\u003e\u2b50\ufe0f Design a doru and I\u0027ll put it in the game \u2b50\ufe0f\u003c/p\u003e",
+     "discord_role_ids": [
+      "365697704434597889"
+     ],
+     "edited_at": "2017-10-06T03:24:17.063985+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-06T03:24:17.047262+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "\u26a1\ufe0f\ud83c\udf1f DORU GOD \ud83c\udf1f\u26a1\ufe0f",
+     "unpublished_at": null,
+     "url": "/bePatron?c=459278\u0026rid=2052734",
+     "user_limit": 1
+    },
+    "id": "2052734",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 40,
+     "created_at": "2016-08-08T22:08:11+00:00",
+     "description": "This is the bare minimum I\u0027m willing to earn to not have to work at something other than this project for a good amount of time.\u003cbr\u003e\u003cbr\u003eThis point will confirm that I will work on adding new content to the game post release, at least once a month, with polls for patrons only in which you\u0027ll propose and decide what that new content is.\u003cbr\u003e\u003cbr\u003eI need to earn this amount monthly in order for me to work on the extra content.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "506560",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2017-09-29T04:46:07+00:00",
+     "description": "You\u0027d be helping me acquire some necessary assets/software needed to advance the project faster.",
+     "reached_at": "2017-10-12T08:56:12+00:00",
+     "title": ""
+    },
+    "id": "979781",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 20,
+     "created_at": "2017-09-29T04:46:07+00:00",
+     "description": "This is what makes a happy dev. And happy devs make better games, don\u0027t they?\u003cbr\u003e\u003cbr\u003eHonestly, this is would be ideal and I would definitely know that I\u0027m on the right business.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "979782",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 13,
+     "created_at": "2017-09-29T04:46:07+00:00",
+     "description": "As of this point, I will donate 10% of all Patreon income to a women\u0027s rights charity (not yet chosen).\u003cbr\u003e\u003cbr\u003eAlso, the base game is free for all non-patrons.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "979783",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/459278"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "702423b8-692d-45bf-aa91-2c31e9056a98",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Dorumeka is creating Ryona Assassins game"
+});
+    </script>

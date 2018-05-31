@@ -1,0 +1,417 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "9yYdQ1YH5qQPNPxQVkBzZmicPPs2NxSPt_Fds5VqqI8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "488160",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/488160"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-06-22T02:30:20+00:00",
+    "creation_name": "Videos about Rock Climbing",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/401053/8706adfdf47045f68c5ee0949b5c6066?token-time=2145916800\u0026token-hash=aMgJR2RHOOJfLEGyRDmDf-K3jBPjQno-2X4eG9i66TM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/401053/8706adfdf47045f68c5ee0949b5c6066?token-time=2145916800\u0026token-hash=iriY0fb3sRC6ArEhIh_bUv6pB0kXB3wC46kIsZ7lHd4%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/kUozx794xvE\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/kUozx794xvE",
+    "one_liner": null,
+    "patron_count": 73,
+    "pay_per_name": "month",
+    "pledge_sum": 36113,
+    "pledge_url": "/bePatron?c=401053",
+    "published_at": "2017-06-23T12:55:54+00:00",
+    "summary": "\u003cimg src=\"https://lh3.googleusercontent.com/oymX6ZfCzndMMmNyUIx8y2yyP0ycMJoLIpQiXr0ZQYlFv9lxnNguFjUCmGaKRoTQfBnydIB8ngRuMhGwp4CRwSA0m-vKg_dLTgoWOnpf7uthPlQXgOVNlrVJERo_zH4I8k3Crgtq0oLrwR5kNkeOiiAaKSi0q1KE5ihK_aqmSZ_ufIZTwE4FT2Lb1yx96WrOrmkFnF3AgLEeLKLSPC-P_dSqa0vwmYvLwT98owg2nvQis3yuX3hugNvM6e0YRjPN5UxCvj-CBUpA3uVCAzd0O0i7Byy8DYdnCWU9aAtQDCMD4z9MaD-1YymMlRRGDP0tu_6u-383eoI1jex3zt4nGpm7JvG-qsNLfxzSqiOfm16AzZAJhJFy-6HWYUPB3iilY-QdpDykNI9zoSoM8X2vNnbWbi109cYerDof1kjnTCwfoJz7Unvb4ena1ehkiRcOK4v6LnfnJ8Qy150MS7pg-VFWW_wgfTGohy1fmMo-HC4ov8TpRbiycMlxMqJkHF6anj2wkx2QndC3XzjLAgSTW3c1GP3Kjoy9e_WNq5FFXPlxGcosu0wI_WPlpxOTsArBXSqGSmpbDUGditUiAFrAFxu0fqWGF4ToDH9F1dLzUDUcDUql=w1088-h238-no\"\u003e\u003cbr\u003eMy name is Mani, and I am a YouTube content creator (that\u0027s how they call it these days). In January 2016 I posted my first videos, ascents of some sport climbs which I recorded during a just finished trip to Spain.\u003cbr\u003e\nOne day I decided to create instructional videos about more sophisticated stuff like climbing technique and training methods, and suddenly the audience grew quite substantially.\u003cbr\u003e\nFast forward: My goal with this channel is to attract, motivate and instruct openminded people who are driven by self-improvement, aiming to become the best version of themselves, just like I do.\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/Yv4csd7rAX0x-VMYkO0YH_BXlE5yl5L521bVNGJ2kD-BU_HjMZyrRqlB57oTHPyBHf8LFaj8CFqjKmjZGhGivicQ4lX3EQ0oO5h__jA83dXcAc7dE3pYk_GjyAuDWymaQK8d1_8lh7Po2RzfU70Y5y6V5BHYIAnsc9FFmCUbl7nRqq1bhqu4BVnVUZPITiwal515uZX7eNgfsS4V4o68YCfN6QDtrzZUCSMdVUskrFYUZ-C7s9Lv8iGHbwqX74wzk2XdKvS3ZWPrSsY3EJIolQr9kavZ6AEraoBsZNb3QeHwGQBKO1g7v_h6sL8h1L8x8ZMNp3_MG5CGC8yVumfoDeaeS7HukyrybrcSlhcM1pqrM5oGKAajy4vmvzUz8jKwxjL5pxpNHu_kj6sFG_oRVl3jxWpUFzVBAA2TPvfmjn13pcCqd0PEs0iIUt0bC4Wfq7eow_6ysweslGqYxMlFvGjFlMjCnxqEWYK87tbGWJ83fJYPZWDM6t_lyN7FLdTW_LgEEmL73exLbxWdg-2NYPiJojWWH-XWePQFEGk9JNCFNwYhi00uyqhwsUMhByoHiuuiwnVcYQdDWxbvefaI5ndXDLEVDSSxAzwgpl8vZH86Q_Y0=w1088-h272-no\"\u003eLet me be honest about it,\u00a0I\u0027ve created this page to give my audience an opportunity to support my work financially. \u003cbr\u003eGood content takes quite some time and effort to create, but I know about its positive impact thanks to feedback and messages I get from people sharing their success stories, therefore it\u0027s definitely worth it.\u003cbr\u003eHowever, after running this channel for almost 2 years and reaching out to over 30000 subscribers I feel the need to generate some kind of financial compensation from this work independently from ad-revenue, which is still quite insignificant, unreliable and a concept I always disliked anyway (who knows what kind of BS is advertised on my channel?).\u003cbr\u003e\nSupported by the viewers, this project takes a step towards self-sustainability, and more importantly, it will allow me to stay 100% authentic, honest, and uncensored in my views, qualities which unfortunately have become rare in today\u0027s society and are now under heavy attack also on the internet.\u003cbr\u003e\nHere I want to make clear that despite the monetary hustle I\u0027ve never been happier, I love creating content and contributing to this community by doing so. Thus I have no intentions to create any \"Patreon-Only\" videos: My work was and always will be accessible for free, for everyone.\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/rxgpBgRTnM1wR13nTqu6pFrlnKR3cehYC7VcrppijNgF0SIMqVMqhnRSIDtme-HOQfIrsRwezYOfRiceuS1H_EYFMX8oFBNqyBJuw_Y3SSfvqHf5mrTm97kOhhX7zIeGmXeu-MNrM013R1ejoPhfYp0bAyziUDWkXfdyRq1P93_xXT5T79fIKOulkgsoCznDAmhIZca0PT-Son0A63s5Z3w1kJ6UbUmLVVc5xHZU2HO_pvsE7CGqNS60HsL4PFVI2KHotXniLH-pcyUJhAIT6Lm8ZuUtH0AvnHzu1-1Vsv6BTHSM3guGMsHqoG0w3_F6Ik5MzB7bQz-Tan5SWKnDjrOW6ePMqlVabCW4zPouBa4i7f9BG74T8FV7g04ouN-DQfxwRW9OvL4AYYkwAX3_sHWSIBPXiHoVgIUG8_ZgX9_x7BiLiqlAQBSuQVMfP5xArwTNaRtnBXbWNeKRcLlL1la7iUe8YMkWsfIIMtf2pnycZ1OiNWht_eTFnoBxu98T3uJzqtCngLnALeyau6GbB-Hq_KsMnCjg3brh0GCVjlsS2kM4JeFng-Tx8203mL8cp_mXpOmiyLdLADbCOtA_Af75bfZUG5EU_t5snUZqDH6QaWJj=w1088-h272-no\"\u003e\u003cbr\u003e\nAt the moment I am working at the low end when it comes to filmmaking gear like camera and so on (a first upgrade was purchased recently :D). I\u0027m a fan of learning with simple things until their limits are discovered, before stepping up the game with some more advanced (and more expensive) devices.\u003cbr\u003eThere\u0027s still potential regarding production value, and I am willing to discover the more sophisticated stuff as well (proper second camera/lens/action cam/drone would have an impact I think, to give concrete examples).\u003cbr\u003e\nApart from that, let\u0027s face it, I need money to survive in this strange modern world, thus\u00a0some of the funds might help me to pay for a pair of climbing shoes, or the ridiculous amounts of food I\u0027m smashing in as a training fanatic.\u003cbr\u003e\n\nI think that\u0027s pretty much it. Got some questions? Feel free to leave some in the comments below, and I will try to answer them directly or in an upcoming Q\u0026amp;A.\u003cbr\u003eOn a final note, please don\u0027t feel pressured or anything, I\u0027m a modest dude, my number one source of motivation is and always will be the vast interest across the whole content, feedback and interactions, which are more substantial than I ever imagined.\u003cbr\u003e\nThat being said: Big Thanks for all the support, your contribution helps putting my work on a sustainable basis and I highly appreciate that.\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/twBzdcSQOVGKHdbleBaDbOOx8PtgIpfDLkpNi8B3uuwNs4_U_y4jIsB116yAy7PML31y8C_BXgsJ0gLGQnuYJc8G7cIYW3LF7jnoZUTdWzs2lJ4bTr1P4bqAtKcUT5l4y4n2wTKJSAPjCucUFlhgS5q2wSsflEZk75SGgSxDaEafCkT-yKwxHDjK3ev6FXI4I9zCHQZKYzQQ0WR5Rcx5PhVgUNBLBBAVpTQl0TXQMasZQ-jwTXxXLMvl3ryZnonfPMD-L0L0NPFvwcRPtVKZBhD65xdBA5AJdlV52OhBdhyUjZ8pRo7Ib8m66N4EYlj3yt3KA76oreDeCOseAHBPD56B1h41oh5ibTOIPq7dHsFqZMooOtHFvvI03JgvFI9w8Z5tmp_fA9B4kMR859GBfMGsBwUw5Siso4RVSYLc74f4OBIrLiQs0HEvI-FiwkmIChnLFZXly-wIOtj27geCE6HUB5q3mPy9KxZpHdTQGKc6TOBTV39WMOAGv8Ige7OXt7nutHRxP5SRbdRF4vJhMkIyhlm_LoYmKAbKkXZsz2w3DkQMV2gBDcmBM4OmsWi4Di1a423eDqtsfY_yOcpK5cfX105lIoha7I9NjAhi2UpUIPXe=w1088-h238-no\"\u003e\u003cbr\u003e"
+   },
+   "id": "401053",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3536769",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3536769"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "639136",
+       "type": "goal"
+      },
+      {
+       "id": "854196",
+       "type": "goal"
+      },
+      {
+       "id": "854197",
+       "type": "goal"
+      },
+      {
+       "id": "854198",
+       "type": "goal"
+      },
+      {
+       "id": "854199",
+       "type": "goal"
+      },
+      {
+       "id": "1157122",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1157407",
+       "type": "reward"
+      },
+      {
+       "id": "1157473",
+       "type": "reward"
+      },
+      {
+       "id": "1157472",
+       "type": "reward"
+      },
+      {
+       "id": "1157471",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-06-22T02:29:51+00:00",
+     "facebook": null,
+     "first_name": "Mani",
+     "full_name": "Mani the Monkey",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3536769/9dff1d904af44c44be738d20a1098294?token-time=2145916800\u0026token-hash=aMdFXGlf-beSowwEpUzdiVcziWjqVYh6YFpNdbJRn0w%3D",
+     "last_name": "the Monkey",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3536769/9dff1d904af44c44be738d20a1098294?token-time=2145916800\u0026token-hash=5P3uCLgE5NXbdFjWTctZPGGNM1zqJ2jxco6NFzw2D7A%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/manithemonkey",
+     "vanity": "manithemonkey",
+     "youtube": "https://www.youtube.com/channel/UCvkGOw5JmJ3TPdXNiEFwq6Q"
+    },
+    "id": "3536769",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "401053",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/401053"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-12-12T16:04:02.589135+00:00",
+     "description": "You\u0027ll have access to the Patreon page, enabling you to post super very important questions and and engage the discussion.\u003cbr\u003e\nThanks for joining!",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-20T07:24:46.225572+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1157407/159674d3edd64dec9509108108eced0e?token-time=2145916800\u0026token-hash=Sb3rW7itd_wp_WoTCl7C7fAA86tvTC_mu6tYdMHlZYg%3D",
+     "patron_count": 19,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-12T16:04:02.589135+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Welcome to the Tribe!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=401053\u0026rid=1157407",
+     "user_limit": null
+    },
+    "id": "1157407",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-12-12T16:28:05.519176+00:00",
+     "description": "That\u0027s already a big deal,\n\u003cp\u003eI will credit you in upcoming videos to show my appreciation for your support.\u003c/p\u003e\n\u003cp\u003eUnless you want to stay anonymous of course.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-26T06:15:08.257884+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1157473/d80421f831114ac3bfebb49868a32f98?token-time=2145916800\u0026token-hash=x4u6jFRcEIQKzVvuKztat1ep3roa49_ll8l4oNZ-rRg%3D",
+     "patron_count": 38,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-26T06:15:08.250160+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Higher Primate",
+     "unpublished_at": null,
+     "url": "/bePatron?c=401053\u0026rid=1157473",
+     "user_limit": null
+    },
+    "id": "1157473",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-12-12T16:28:05.490289+00:00",
+     "description": "Such profound contribution ensures that even more videos will be produced in the future, thank you for that!\n\u003cp\u003eYou will be rewarded with all of the above,\u00a0\u003c/p\u003e\n\u003cp\u003e+\u003c/p\u003e\n\u003cp\u003eAfter 3 months as an Elder Baboon I\u0027ll send you a copy of my E-book for free.\u003c/p\u003e\n\u003cp\u003eSimply get in touch as soon as you are eligible.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-20T07:33:55.659987+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1157472/cb977a7b084a4aa19fd2bd1d5647f250?token-time=2145916800\u0026token-hash=Cm-CZs6SslzB6ivj03hM7PUHXsGNajGLa5VggdyPKv0%3D",
+     "patron_count": 12,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-12T16:28:05.490289+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Elder Baboon",
+     "unpublished_at": null,
+     "url": "/bePatron?c=401053\u0026rid=1157472",
+     "user_limit": null
+    },
+    "id": "1157472",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-12-12T16:28:05.459270+00:00",
+     "description": "Holy Hanuman did I spare you some dodgy climbing course or a walk to the physiotherapist or something or am I guilty of pushing your max grade!?\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will be rewarded with all of the above,\u00a0\u003c/p\u003e\n\u003cp\u003e+\u003c/p\u003e\n\u003cp\u003eAfter 3 months as a Silverback you get to choose the topic of a whole episode, which will end up on the channel.\u003c/p\u003e\n\u003cp\u003e(as long as it roughly fits the general matter and we do not have to leave legal grounds of course)\u003c/p\u003e\n\u003cp\u003e+\u003c/p\u003e\n\u003cp\u003eAfter 6 months as a Silverback I will design a customized training regimen covering 12 weeks of training time for you, free of charge. Every next 6 months this reward will be refreshed, granting you another 12 weeks of customized training.\u003c/p\u003e\n\u003cp\u003eGet in touch as soon as you are eligible for these rewards, big thanks, and hopefully we can climb together one day!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-26T06:18:25.251087+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1157471/b902f259754c4a259620cfc170c17d78?token-time=2145916800\u0026token-hash=zfaRtqW-aqJLxQw_sJsddfJ9ATPBi3tQ16L5xQIW3CE%3D",
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-26T06:18:25.243868+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Silverback",
+     "unpublished_at": null,
+     "url": "/bePatron?c=401053\u0026rid=1157471",
+     "user_limit": null
+    },
+    "id": "1157471",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2016-12-12T15:54:23+00:00",
+     "description": "\u003ca href=\"https://photos.google.com/photo/AF1QipN45o7ooIXnenyPC16-7rSD0DeHzXbbwHk0C4wV\"\u003e\u003cimg src=\"https://lh3.googleusercontent.com/MAbmXY9WwmCXWUc9fYTmh8pmE5PZyV8HWveChVgq5otWDDSPIcA-qH4ZyS4ehthHOXmwZQoaKzOBA5lb5Y7_nXiU90288eXaz9g0xuKR5p-01jCVKxHGZOr6OmyIQk4PP-m-WYsP8JJSxMW1aYWzR_og-qM6ggyY9JbXcuxW_eSMBbprVfIltl3Tlg69GuShUNN5gpEj1eStgmxF5cWxN27v6JuC_F0PgferlTifFKeuwoyeZ_f9dyVTd-oGN5wH_UkXmLzh1Tx93PkP6qqn33Zb_SDITWDhyWHhJshBpl6NbZYat3SUhI4q5j8pNcgI3FVMBzPLPPsVCY3P-xYGf3wfpTkuMYyHvd9S11OSshHQFmSTQTKIUtXXBx0MWbe4Osxbuz9fu5mjys4CDOih_g3XwlhW9Vf8slM8B_KuUtrM1OSNDP5r0uePTrfqfhZ3CcP1rDtunxZavsFw6P4WypRA_wQUnkq8WD6ZrTn9TJUiYESFIEJD31gRCGyq5thUxwxO57UVp_kXRgdY52cVXsStFgc9JmyCtjgiF6TfqfbzXYIAGSUQp3JLvvO8KZAR2fznPlCIiw9_NPH3cvLLdoQtviYc54OKaTRUIgmIiVwlPLd-=w367-h220-no\"\u003e\u003c/a\u003eThe\u00a0revenue will help me to create even more and better videos.\u003cbr\u003e\u003cbr\u003eMy first bigger goal is to save up a bit until some filmmaking gear becomes affordable. \u003cbr\u003eNext on the list would be an action cam/decent second camera. I think this has the potential to add a useful element/perspective to videos regarding technique analysis and comparison of attempts.",
+     "reached_at": "2017-09-27T20:53:39+00:00",
+     "title": ""
+    },
+    "id": "639136",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2017-06-01T19:34:47+00:00",
+     "description": "\u003ca href=\"https://photos.google.com/photo/AF1QipN45o7ooIXnenyPC16-7rSD0DeHzXbbwHk0C4wV\"\u003e\u003cimg src=\"https://lh3.googleusercontent.com/MAbmXY9WwmCXWUc9fYTmh8pmE5PZyV8HWveChVgq5otWDDSPIcA-qH4ZyS4ehthHOXmwZQoaKzOBA5lb5Y7_nXiU90288eXaz9g0xuKR5p-01jCVKxHGZOr6OmyIQk4PP-m-WYsP8JJSxMW1aYWzR_og-qM6ggyY9JbXcuxW_eSMBbprVfIltl3Tlg69GuShUNN5gpEj1eStgmxF5cWxN27v6JuC_F0PgferlTifFKeuwoyeZ_f9dyVTd-oGN5wH_UkXmLzh1Tx93PkP6qqn33Zb_SDITWDhyWHhJshBpl6NbZYat3SUhI4q5j8pNcgI3FVMBzPLPPsVCY3P-xYGf3wfpTkuMYyHvd9S11OSshHQFmSTQTKIUtXXBx0MWbe4Osxbuz9fu5mjys4CDOih_g3XwlhW9Vf8slM8B_KuUtrM1OSNDP5r0uePTrfqfhZ3CcP1rDtunxZavsFw6P4WypRA_wQUnkq8WD6ZrTn9TJUiYESFIEJD31gRCGyq5thUxwxO57UVp_kXRgdY52cVXsStFgc9JmyCtjgiF6TfqfbzXYIAGSUQp3JLvvO8KZAR2fznPlCIiw9_NPH3cvLLdoQtviYc54OKaTRUIgmIiVwlPLd-=w367-h220-no\"\u003e\u003c/a\u003eAny revenue will help me to create even more and better videos.\u003cbr\u003e\u003cbr\u003eMy first bigger goal is to save up a bit until some filmmaking gear becomes affordable. \u003cbr\u003eNext on the list would be an action cam/decent second camera. I think this has the potential to add a useful element/perspective to videos regarding technique analysis and comparison of attempts.\u003cbr\u003e",
+     "reached_at": "2017-09-28T19:02:50+00:00",
+     "title": ""
+    },
+    "id": "854196",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 100,
+     "created_at": "2017-06-01T19:34:48+00:00",
+     "description": "\u003ca href=\"https://photos.google.com/photo/AF1QipN45o7ooIXnenyPC16-7rSD0DeHzXbbwHk0C4wV\"\u003e\u003cimg src=\"https://lh3.googleusercontent.com/MAbmXY9WwmCXWUc9fYTmh8pmE5PZyV8HWveChVgq5otWDDSPIcA-qH4ZyS4ehthHOXmwZQoaKzOBA5lb5Y7_nXiU90288eXaz9g0xuKR5p-01jCVKxHGZOr6OmyIQk4PP-m-WYsP8JJSxMW1aYWzR_og-qM6ggyY9JbXcuxW_eSMBbprVfIltl3Tlg69GuShUNN5gpEj1eStgmxF5cWxN27v6JuC_F0PgferlTifFKeuwoyeZ_f9dyVTd-oGN5wH_UkXmLzh1Tx93PkP6qqn33Zb_SDITWDhyWHhJshBpl6NbZYat3SUhI4q5j8pNcgI3FVMBzPLPPsVCY3P-xYGf3wfpTkuMYyHvd9S11OSshHQFmSTQTKIUtXXBx0MWbe4Osxbuz9fu5mjys4CDOih_g3XwlhW9Vf8slM8B_KuUtrM1OSNDP5r0uePTrfqfhZ3CcP1rDtunxZavsFw6P4WypRA_wQUnkq8WD6ZrTn9TJUiYESFIEJD31gRCGyq5thUxwxO57UVp_kXRgdY52cVXsStFgc9JmyCtjgiF6TfqfbzXYIAGSUQp3JLvvO8KZAR2fznPlCIiw9_NPH3cvLLdoQtviYc54OKaTRUIgmIiVwlPLd-=w367-h220-no\"\u003e\u003c/a\u003e150 bucks, that\u0027s a pair of climbing shoes! I mean certain models are out of this range, kinda crazy what the climbing shoe industry has developed into, I still remember what the \"new models\" cost 9 years ago.. but yeah it is what it is, thank you for this huge support!\u003cbr\u003e\u003cbr\u003eMy first bigger goal is to save up a bit until some filmmaking gear becomes affordable. \u003cbr\u003eNext on the list would be an action cam/decent second camera. I think this has the potential to add a useful element/perspective to videos regarding technique analysis and comparison of attempts.",
+     "reached_at": "2017-09-29T12:33:06+00:00",
+     "title": ""
+    },
+    "id": "854197",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 100,
+     "created_at": "2017-06-01T19:34:48+00:00",
+     "description": "\u003ca href=\"https://photos.google.com/photo/AF1QipN45o7ooIXnenyPC16-7rSD0DeHzXbbwHk0C4wV\"\u003e\u003cimg src=\"https://lh3.googleusercontent.com/MAbmXY9WwmCXWUc9fYTmh8pmE5PZyV8HWveChVgq5otWDDSPIcA-qH4ZyS4ehthHOXmwZQoaKzOBA5lb5Y7_nXiU90288eXaz9g0xuKR5p-01jCVKxHGZOr6OmyIQk4PP-m-WYsP8JJSxMW1aYWzR_og-qM6ggyY9JbXcuxW_eSMBbprVfIltl3Tlg69GuShUNN5gpEj1eStgmxF5cWxN27v6JuC_F0PgferlTifFKeuwoyeZ_f9dyVTd-oGN5wH_UkXmLzh1Tx93PkP6qqn33Zb_SDITWDhyWHhJshBpl6NbZYat3SUhI4q5j8pNcgI3FVMBzPLPPsVCY3P-xYGf3wfpTkuMYyHvd9S11OSshHQFmSTQTKIUtXXBx0MWbe4Osxbuz9fu5mjys4CDOih_g3XwlhW9Vf8slM8B_KuUtrM1OSNDP5r0uePTrfqfhZ3CcP1rDtunxZavsFw6P4WypRA_wQUnkq8WD6ZrTn9TJUiYESFIEJD31gRCGyq5thUxwxO57UVp_kXRgdY52cVXsStFgc9JmyCtjgiF6TfqfbzXYIAGSUQp3JLvvO8KZAR2fznPlCIiw9_NPH3cvLLdoQtviYc54OKaTRUIgmIiVwlPLd-=w367-h220-no\"\u003e\u003c/a\u003e200 bucks, that\u0027s quite a big deal for me, I view this as food for a whole month, or a new rope, a whole set of new quickdraws, or even a brand new high quality microphone, lots of stuff can be done with this!\u003cbr\u003e\u003cbr\u003eMy first bigger goal is to save up a bit until some filmmaking gear becomes affordable. \u003cbr\u003eNext on the list would be an action cam/decent second camera. I think this has the potential to add a useful element/perspective to videos regarding technique analysis and comparison of attempts.",
+     "reached_at": "2017-09-30T06:56:37+00:00",
+     "title": ""
+    },
+    "id": "854198",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 100,
+     "created_at": "2017-06-01T19:34:48+00:00",
+     "description": "\u003ca href=\"https://photos.google.com/photo/AF1QipN45o7ooIXnenyPC16-7rSD0DeHzXbbwHk0C4wV\"\u003e\u003cimg src=\"https://lh3.googleusercontent.com/MAbmXY9WwmCXWUc9fYTmh8pmE5PZyV8HWveChVgq5otWDDSPIcA-qH4ZyS4ehthHOXmwZQoaKzOBA5lb5Y7_nXiU90288eXaz9g0xuKR5p-01jCVKxHGZOr6OmyIQk4PP-m-WYsP8JJSxMW1aYWzR_og-qM6ggyY9JbXcuxW_eSMBbprVfIltl3Tlg69GuShUNN5gpEj1eStgmxF5cWxN27v6JuC_F0PgferlTifFKeuwoyeZ_f9dyVTd-oGN5wH_UkXmLzh1Tx93PkP6qqn33Zb_SDITWDhyWHhJshBpl6NbZYat3SUhI4q5j8pNcgI3FVMBzPLPPsVCY3P-xYGf3wfpTkuMYyHvd9S11OSshHQFmSTQTKIUtXXBx0MWbe4Osxbuz9fu5mjys4CDOih_g3XwlhW9Vf8slM8B_KuUtrM1OSNDP5r0uePTrfqfhZ3CcP1rDtunxZavsFw6P4WypRA_wQUnkq8WD6ZrTn9TJUiYESFIEJD31gRCGyq5thUxwxO57UVp_kXRgdY52cVXsStFgc9JmyCtjgiF6TfqfbzXYIAGSUQp3JLvvO8KZAR2fznPlCIiw9_NPH3cvLLdoQtviYc54OKaTRUIgmIiVwlPLd-=w367-h220-no\"\u003e\u003c/a\u003eThis will greatly help me to cover regular expenses like rent, electricity, internet connection and more, awesome.\u003cbr\u003e\u003cbr\u003eMy first bigger goal is to save up a bit until some filmmaking gear becomes affordable. \u003cbr\u003eNext on the list would be an action cam/decent second camera. I think this has the potential to add a useful element/perspective to videos regarding technique analysis and comparison of attempts.",
+     "reached_at": "2017-12-14T07:11:00+00:00",
+     "title": ""
+    },
+    "id": "854199",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 90,
+     "created_at": "2018-03-31T06:23:56+00:00",
+     "description": "\u003ca href=\"https://photos.google.com/photo/AF1QipN45o7ooIXnenyPC16-7rSD0DeHzXbbwHk0C4wV\"\u003e\u003cimg src=\"https://lh3.googleusercontent.com/MAbmXY9WwmCXWUc9fYTmh8pmE5PZyV8HWveChVgq5otWDDSPIcA-qH4ZyS4ehthHOXmwZQoaKzOBA5lb5Y7_nXiU90288eXaz9g0xuKR5p-01jCVKxHGZOr6OmyIQk4PP-m-WYsP8JJSxMW1aYWzR_og-qM6ggyY9JbXcuxW_eSMBbprVfIltl3Tlg69GuShUNN5gpEj1eStgmxF5cWxN27v6JuC_F0PgferlTifFKeuwoyeZ_f9dyVTd-oGN5wH_UkXmLzh1Tx93PkP6qqn33Zb_SDITWDhyWHhJshBpl6NbZYat3SUhI4q5j8pNcgI3FVMBzPLPPsVCY3P-xYGf3wfpTkuMYyHvd9S11OSshHQFmSTQTKIUtXXBx0MWbe4Osxbuz9fu5mjys4CDOih_g3XwlhW9Vf8slM8B_KuUtrM1OSNDP5r0uePTrfqfhZ3CcP1rDtunxZavsFw6P4WypRA_wQUnkq8WD6ZrTn9TJUiYESFIEJD31gRCGyq5thUxwxO57UVp_kXRgdY52cVXsStFgc9JmyCtjgiF6TfqfbzXYIAGSUQp3JLvvO8KZAR2fznPlCIiw9_NPH3cvLLdoQtviYc54OKaTRUIgmIiVwlPLd-=w367-h220-no\"\u003e\u003c/a\u003eThis will greatly help me to cover regular expenses like rent, electricity, internet connection and more, which is still by far the biggest devourer of the earnings of the channel.\u003cbr\u003e\u003cbr\u003eAnother goal is still to save up until some filmmaking gear becomes affordable. \u003cbr\u003eNext on the list would be an action cam/drone/lens/proper second camera. As you know, the possibilities to invest in the filmmaking sector are endless so I don\u0027t plan to go overboard with that, but I think some of these gadgets could still add a useful element/perspective to videos regarding technique analysis and comparison of attempts, and ultimately have a positive impact on production value.\u003cbr\u003e",
+     "reached_at": "2018-05-02T02:38:39+00:00",
+     "title": ""
+    },
+    "id": "1157122",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/401053"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "92665a4b-3cfd-4bb3-ae01-7e7bc5e7ab8c",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Mani the Monkey is creating Videos about Rock Climbing"
+});
+    </script>

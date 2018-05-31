@@ -1,0 +1,784 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "UWVvqIhSlFcUP81OoTEg6WU_GoT7zb4mlnZZA9ZHfs0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "5971",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/5971"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-02-21T18:06:37+00:00",
+    "creation_name": "Short Stories",
+    "display_patron_goals": true,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIzIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/81289/3c9b41dba15e4d66bf9bdacdee31b82c?token-time=2145916800\u0026token-hash=j7CmkTFaQKhYnqOkfZrRjfR04vcyL-vK7MoMEjenXqU%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMyJ9/patreon-media/campaign/81289/3c9b41dba15e4d66bf9bdacdee31b82c?token-time=2145916800\u0026token-hash=3nNQWIbXta5QQ1W-psYcd3gQ2sp7NZeW4F30Hkj47aE%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Your preferred arch-nemesis DOES NOT want you to read these!",
+    "patron_count": 36,
+    "pay_per_name": "Issue",
+    "pledge_sum": 13969,
+    "pledge_url": "/bePatron?c=81289",
+    "published_at": "2014-02-21T18:06:37+00:00",
+    "summary": "\u003cstrong\u003eIDENTIFY YOURSELF.\u003c/strong\u003e\u003cbr\u003eJon Hakes here.\u00a0 I\u0027m a fiction writer.\u00a0 Much of my work could be considered speculative fiction (sci-fi, fantasy, horror, etc., etc.), but I also write satire, literary fiction, fake non-fiction, and whatever else seems interesting at any given point in time.\u003cbr\u003e\u003cbr\u003eMy work has appeared in a variety of traditional markets including Analog Science Fiction \u0026amp; Fact, Wisconsin People \u0026amp; Ideas, strippedlit500, Defenestration, and Brain Harvest. \u00a0For links to some of my freely-available publications, see the following post on my Writer page on Facebook:\u00a0\u003ca href=\"https://www.facebook.com/JonHakestheWriter/posts/1063428680407747\" rel=\"nofollow\"\u003ehttps://www.facebook.com/JonHakestheWriter/posts/1063428680407747\u003c/a\u003e\u00a0\u003cstrong\u003e\u003cbr\u003e\u003cbr\u003eWHAT IS THIS PLACE?\u00a0 IS IT THUNDERDOME?\u003c/strong\u003e\u003cbr\u003eThis is Patreon.\u00a0 It\u0027s a crowdfunding site.\u00a0 Patrons sponsor creators for small-scale projects, hopefully on a continuing basis.\u00a0 It is not, to my knowledge, Thunderdome.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWHAT DO YOU PROPOSE TO DO HERE AT PATREON?\u003c/strong\u003e\u003cbr\u003e\n\nI will produce a digital digest of my work every month, which will remain a patron exclusive for a period of one month.\u00a0 The primary work in each issue of the digest will be a featured short story of at least 2000 words.\u00a0 As we reach certain funding milestones, I will add additional content to each issue, including eventual increases to the minimum word count of the featured short story, and a second featured short story.\u00a0 \u003cbr\u003e\u003cbr\u003eAfter the exclusive period ends, I may try to publish some of the work in traditional markets, I may put it up for free on my website, or I may come up with something wholly different to do with it that none of us can now foresee.\u00a0 \u003cbr\u003e\u003cbr\u003eFor more general information about how Patreon works, see the \u003ca href=\"http://www.patreon.com/faq\"\u003eFAQ\u003c/a\u003e.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eHAVE YOU LOST FAITH IN TRADITIONAL SHORT STORY PUBLISHING?\u00a0 ARE YOU SOME KIND OF ANARCHIST?\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cstrong\u003e\u003c/strong\u003eNo and no.\u00a0 I still think there is a lot of value in traditional short fiction publishing, i.e. the kind where you submit your story to a market and an editorial staff says yea or nay, and possibly also decides to pay you.\u00a0 I see the crowdfunding model as something that can augment my pursuits on the traditional side, and vice versa. \u00a0 \u003cbr\u003e"
+   },
+   "id": "81289",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "90896",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/90896"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "9796",
+       "type": "goal"
+      },
+      {
+       "id": "9797",
+       "type": "goal"
+      },
+      {
+       "id": "9798",
+       "type": "goal"
+      },
+      {
+       "id": "9799",
+       "type": "goal"
+      },
+      {
+       "id": "9800",
+       "type": "goal"
+      },
+      {
+       "id": "9801",
+       "type": "goal"
+      },
+      {
+       "id": "9802",
+       "type": "goal"
+      },
+      {
+       "id": "9803",
+       "type": "goal"
+      },
+      {
+       "id": "9804",
+       "type": "goal"
+      },
+      {
+       "id": "10230",
+       "type": "goal"
+      },
+      {
+       "id": "10232",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "100958",
+       "type": "patron_goal"
+      },
+      {
+       "id": "100959",
+       "type": "patron_goal"
+      },
+      {
+       "id": "100960",
+       "type": "patron_goal"
+      },
+      {
+       "id": "100961",
+       "type": "patron_goal"
+      },
+      {
+       "id": "100967",
+       "type": "patron_goal"
+      },
+      {
+       "id": "100962",
+       "type": "patron_goal"
+      },
+      {
+       "id": "100965",
+       "type": "patron_goal"
+      },
+      {
+       "id": "100963",
+       "type": "patron_goal"
+      },
+      {
+       "id": "100964",
+       "type": "patron_goal"
+      },
+      {
+       "id": "100968",
+       "type": "patron_goal"
+      },
+      {
+       "id": "100966",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-81289",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-81289"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "17147",
+       "type": "reward"
+      },
+      {
+       "id": "17148",
+       "type": "reward"
+      },
+      {
+       "id": "17149",
+       "type": "reward"
+      },
+      {
+       "id": "17150",
+       "type": "reward"
+      },
+      {
+       "id": "192265",
+       "type": "reward"
+      },
+      {
+       "id": "17668",
+       "type": "reward"
+      },
+      {
+       "id": "17669",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2014-02-21T18:06:37+00:00",
+     "facebook": "https://www.facebook.com/JonHakestheWriter",
+     "first_name": "Jon",
+     "full_name": "Jon Hakes",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/90896/4c23705377f84025a6d6d122abedef2d?token-time=2145916800\u0026token-hash=dh2ScWi51nj7I4uqnDh6ao9RUv0KGBl-OfVg8epw2ZM%3D",
+     "last_name": "Hakes",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/90896/4c23705377f84025a6d6d122abedef2d?token-time=2145916800\u0026token-hash=ElJjpasrG5CaRLkKU7gFm4cDvsefSOB18M-z9dgioO0%3D",
+     "twitch": null,
+     "twitter": "HakesJon",
+     "url": "https://www.patreon.com/JonHakes",
+     "vanity": "JonHakes",
+     "youtube": null
+    },
+    "id": "90896",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "81289",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/81289"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 111,
+     "upgrade_url": "/bePatron?c=81289\u0026rid=17148"
+    },
+    "id": "post-aggregation-for-0-81289",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2014-02-21T20:11:52+00:00",
+     "description": "\u003cstrong\u003ePlatinum Club (The minimum pledge is the Platinum level because it\u0027s the most important; the minimum level is the most sustainable for patrons, and creates a solid foundation on which to build.)\u003cbr\u003e\u003c/strong\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eAccess to the creative content of each month\u0027s issue for a patron-exclusive window of one month\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-20T04:22:11.554532+00:00",
+     "image_url": null,
+     "patron_count": 14,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-21T20:11:52+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=81289\u0026rid=17147",
+     "user_limit": null
+    },
+    "id": "17147",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2014-02-21T20:11:52+00:00",
+     "description": "\u003cstrong\u003eGold Club (Did you notice that these club names are heading in the opposite of the intuitive direction?)\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e\u003cstrong\u003eYou are eligible to receive, with your monthly issue, my Interesting Picture of the Month (\"Interesting\" shall be limited by the range of interesting things I have a chance to photograph); I will use either my phone or a camera; Quality is not assured\u003cbr\u003e\u003c/strong\u003e\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eAccess to the creative content of each month\u0027s issue for a patron-exclusive window of one month\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-20T04:22:11.578853+00:00",
+     "image_url": null,
+     "patron_count": 10,
+     "post_count": 46,
+     "published": true,
+     "published_at": "2014-02-21T20:11:52+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=81289\u0026rid=17148",
+     "user_limit": null
+    },
+    "id": "17148",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2014-02-21T20:11:52+00:00",
+     "description": "\u003cstrong\u003eSilver Club (Thought about a Half-Silver/Half-Gold Club at $4, but that seemed like a recipe for trouble.)\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e\u003cstrong\u003eYou will be eligible to participate in a quarterly chat (platform TBD) with me about my work and/or the work of other writers\u003c/strong\u003e\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eYou are eligible to receive, with your monthly issue, my Interesting Picture of the Month (\"Interesting\" shall be limited by the range of interesting things I have a chance to photograph); I will use either my phone or a camera; Quality is not assured\u003c/li\u003e\u003cli\u003eAccess to the creative content of each month\u0027s issue for a patron-exclusive window of one month\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-20T04:22:11.599339+00:00",
+     "image_url": null,
+     "patron_count": 8,
+     "post_count": 10,
+     "published": true,
+     "published_at": "2014-02-21T20:11:52+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=81289\u0026rid=17149",
+     "user_limit": null
+    },
+    "id": "17149",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2014-02-21T20:11:52+00:00",
+     "description": "\u003cstrong\u003eBronze Club (Your status is falling, but your rewards are rising, which sometimes happens.)\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e\u003cstrong\u003eIn each issue you support, I will bestow upon you an arbitrary and completely-made-up job title, to be included in the credits for that issue\u003c/strong\u003e\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eYou will be eligible to participate in a quarterly chat (platform TBD) with me about my work and/or the work of other writers\u003c/li\u003e\u003cli\u003eYou are eligible to receive, with your monthly issue, my Interesting\n Picture of the Month (\"Interesting\" shall be limited by the range of \ninteresting things I have a chance to photograph); I will use either my \nphone or a camera; Quality is not assured\u003c/li\u003e\u003cli\u003eAccess to the creative content of each month\u0027s issue for a patron-exclusive window of one month\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-20T04:22:11.624372+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-21T20:11:52+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=81289\u0026rid=17150",
+     "user_limit": null
+    },
+    "id": "17150",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2015-04-04T21:16:45+00:00",
+     "description": "\u003cdiv\u003e\u003cstrong\u003e\u003cstrong\u003eAdditional Layer Club (Upon further reflection, 10 to 50 is a pretty big leap.) \u00a0\u003c/strong\u003e\u003cbr\u003e\u003c/strong\u003e\u003c/div\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eYou tell me when your birthday is; once a year, on a date I pick, I send you a personalized, electronic un-birthday message; I will try not to send it on your actual birthday\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eYou will receive a quarterly supplement to the Digest with a bonus microfiction.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eIn each issue you support, I will bestow upon you an arbitrary and completely-made-up job title, to be included in the credits for that issue\u003c/li\u003e\u003cli\u003eYou will be eligible to participate in a quarterly chat (platform TBD) with me about my work and/or the work of other writers\u003c/li\u003e\u003cli\u003eYou are eligible to receive, with your monthly issue, my Interesting Picture of the Month (\"Interesting\" shall be limited by the range of interesting things I have a chance to photograph); I will use either my phone or a camera; Quality is not assured\u003c/li\u003e\u003cli\u003eAccess to the creative content of each month\u0027s issue for a patron-exclusive window of one month\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-20T04:22:11.642104+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2015-04-04T21:16:45+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=81289\u0026rid=192265",
+     "user_limit": null
+    },
+    "id": "192265",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2014-02-24T04:56:01+00:00",
+     "description": "\u003cstrong\u003eSharpened Stick Club (Use your sharpened stick to defend your treasure horde.)\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eYour name will appear on the Dedication Page for each issue, in the Sharpened Stick Club Circle of Secondary Honor\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eYour quarterly supplement will include a bonus flash fiction.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eYou will receive a quarterly supplement to the Digest with a bonus microfiction.\u003c/li\u003e\u003cli\u003eYou tell me when your birthday is; once a year, on a date I pick, I \nsend you a personalized, electronic un-birthday message; I will try not \nto send it on your actual birthday\u003c/li\u003e\u003cli\u003eIn each issue you support, I will bestow upon you an arbitrary and completely-made-up job title, to be included in the credits for that issue\u003c/li\u003e\u003cli\u003eYou will be eligible to participate in a quarterly chat (platform TBD) with me about my work and/or the work of other writers\u003c/li\u003e\u003cli\u003eYou are eligible to receive, with your monthly issue, my Interesting\n Picture of the Month (\"Interesting\" shall be limited by the range of \ninteresting things I have a chance to photograph); I will use either my \nphone or a camera; Quality is not assured\u003c/li\u003e\u003cli\u003eAccess to the creative content of each month\u0027s issue for a patron-exclusive window of one month\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-20T04:22:11.659545+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-24T04:56:01+00:00",
+     "remaining": 9,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=81289\u0026rid=17668",
+     "user_limit": 10
+    },
+    "id": "17668",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2014-02-24T04:56:01+00:00",
+     "description": "\u003cstrong\u003eLarge Stone Club (Use your large stone to block the entrance to your cave so you can keep out the villagers and their pitchforks, and get some reading done.)\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eYour name will appear on the Dedication Page for each issue, in the Large Stone Club Circle of Honor\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e\u003cstrong\u003eYour quarterly supplement will include an extra short story; that\u0027s four extra short stories per year; exclusive to this level; for at least a month, and probably more\u003cbr\u003e\u003c/strong\u003e\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eYour quarterly supplement will include a bonus flash fiction.\u003c/li\u003e\u003cli\u003eYou will receive a quarterly supplement to the Digest with a bonus microfiction.\u003c/li\u003e\u003cli\u003eYou tell me when your birthday is; once a year, on a date I pick, I send you a personalized, electronic un-birthday message; I will try not to send it on your actual birthday\u003c/li\u003e\u003cli\u003eIn each issue you support, I will bestow upon you an arbitrary and completely-made-up job title, to be included in the credits for that issue\u003c/li\u003e\u003cli\u003eYou will be eligible to participate in a quarterly chat (platform TBD) with me about my work and/or the work of other writers\u003c/li\u003e\u003cli\u003eYou are eligible to receive, with your monthly issue, my Interesting\n Picture of the Month (\"Interesting\" shall be limited by the range of \ninteresting things I have a chance to photograph); I will use either my \nphone or a camera; Quality is not assured\u003c/li\u003e\u003cli\u003eAccess to the creative content of each month\u0027s issue for a patron-exclusive window of one month\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-20T04:22:11.678172+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-24T04:56:01+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=81289\u0026rid=17669",
+     "user_limit": 5
+    },
+    "id": "17669",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 100,
+     "created_at": "2014-02-21T19:24:20+00:00",
+     "description": "The new make-up of each issue will be one nano-fiction piece (10 words or less) and one\n featured short story at the at-least-2000-words level.\u003cbr\u003e",
+     "reached_at": "2014-02-21T19:24:20+00:00",
+     "title": ""
+    },
+    "id": "9796",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2014-02-21T19:24:20+00:00",
+     "description": "Until we reach this level, the cover of each issue will be hand-drawn and scanned.\u00a0 At this level, I use a computer to make the cover text look more professional.\u003cbr\u003e",
+     "reached_at": "2015-03-06T23:42:14+00:00",
+     "title": ""
+    },
+    "id": "9797",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2014-02-21T19:24:20+00:00",
+     "description": "I will write an opinion piece, hopefully about something real.\u00a0 The new make-up of each issue will be one nano-fiction piece (10 words or less), one editorial, and one\n featured short story at the at-least-2000-words level.\u003cbr\u003e",
+     "reached_at": "2017-05-16T02:26:46+00:00",
+     "title": ""
+    },
+    "id": "9798",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 55,
+     "created_at": "2014-02-21T19:24:20+00:00",
+     "description": "Up to this point, all cover work will still be black and white. \u00a0At this point, we will open up the spectrum. \u00a0To the best of my abilities.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "9799",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 27,
+     "created_at": "2014-02-21T19:37:22+00:00",
+     "description": "The new minimum length for the featured story in each issue will be 3000 words.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "9800",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 75000,
+     "completed_percentage": 18,
+     "created_at": "2014-02-21T19:37:22+00:00",
+     "description": "The new make-up of each issue will be one nano-fiction piece (10 words or less), one editorial, one micro-fiction piece (100 words or less), one flash fiction piece (1000 words or less), and one featured short story at the at-least-3000-words level.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "9801",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 13,
+     "created_at": "2014-02-21T19:37:22+00:00",
+     "description": "The new minimum length for the featured story in each issue will be 4000 words.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "9802",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 23,
+     "created_at": "2014-02-21T19:37:22+00:00",
+     "description": "CHAOS!!! = I hold a monthly vote for patrons on the issue of the issue\u0027s cover.\u00a0 We decide something significant (TBD) about the cover.\u00a0 I promise to try to be benevolent about the parameters.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "9803",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 6,
+     "created_at": "2014-02-21T19:37:22+00:00",
+     "description": "The new make-up of each issue will be one nano-fiction piece (10 words \nor less), one editorial, one micro-fiction piece (100 words or \nless), one flash fiction piece (1000 words or less), one featured \nshort story at the at-least-2000-words level, and one featured \nshort story at the at-least-5000-words level.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "9804",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 34,
+     "created_at": "2014-02-24T04:37:01+00:00",
+     "description": "The new make-up of each issue will be one nano-fiction piece (10 words or less), one editorial, one micro-fiction piece (100 words or less), and one\n featured short story at the at-least-2000-words level.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "10230",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 9,
+     "created_at": "2014-02-24T05:26:34+00:00",
+     "description": "The new minimum length for the featured story in each issue will be 5000 words.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "10232",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-16T19:29:50+00:00",
+     "deleted_at": null,
+     "description": "The new make-up of each issue will be one nano-fiction piece (10 words or less) and one\n featured short story at the at-least-2000-words level.\u003cbr\u003e",
+     "goal_text": "The new make-up of each issue will be one nano-fiction piece (10 words or less) and one\n featured short story at the at-least-2000-words level.\u003cbr\u003e",
+     "number_patrons": 6,
+     "reached_at": null
+    },
+    "id": "100958",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-16T19:29:50+00:00",
+     "deleted_at": null,
+     "description": "Until we reach this level, the cover of each issue will be hand-drawn and scanned.\u00a0 At this level, I use a computer to make the cover text look more professional.\u003cbr\u003e",
+     "goal_text": "Until we reach this level, the cover of each issue will be hand-drawn and scanned.\u00a0 At this level, I use a computer to make the cover text look more professional.\u003cbr\u003e",
+     "number_patrons": 13,
+     "reached_at": null
+    },
+    "id": "100959",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-16T19:29:50+00:00",
+     "deleted_at": null,
+     "description": "I will write an opinion piece, hopefully about something real.\u00a0 The new make-up of each issue will be one nano-fiction piece (10 words or less), one editorial, and one\n featured short story at the at-least-2000-words level.\u003cbr\u003e",
+     "goal_text": "I will write an opinion piece, hopefully about something real.\u00a0 The new make-up of each issue will be one nano-fiction piece (10 words or less), one editorial, and one\n featured short story at the at-least-2000-words level.\u003cbr\u003e",
+     "number_patrons": 26,
+     "reached_at": null
+    },
+    "id": "100960",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-16T19:29:50+00:00",
+     "deleted_at": null,
+     "description": "Up to this point, all cover work will still be black and white. \u00a0At this point, we will open up the spectrum. \u00a0To the best of my abilities.\u003cbr\u003e",
+     "goal_text": "Up to this point, all cover work will still be black and white. \u00a0At this point, we will open up the spectrum. \u00a0To the best of my abilities.\u003cbr\u003e",
+     "number_patrons": 64,
+     "reached_at": null
+    },
+    "id": "100961",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-16T19:29:50+00:00",
+     "deleted_at": null,
+     "description": "The new make-up of each issue will be one nano-fiction piece (10 words or less), one editorial, one micro-fiction piece (100 words or less), and one\n featured short story at the at-least-2000-words level.",
+     "goal_text": "The new make-up of each issue will be one nano-fiction piece (10 words or less), one editorial, one micro-fiction piece (100 words or less), and one\n featured short story at the at-least-2000-words level.",
+     "number_patrons": 103,
+     "reached_at": null
+    },
+    "id": "100967",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-16T19:29:50+00:00",
+     "deleted_at": null,
+     "description": "The new minimum length for the featured story in each issue will be 3000 words.\u003cbr\u003e",
+     "goal_text": "The new minimum length for the featured story in each issue will be 3000 words.\u003cbr\u003e",
+     "number_patrons": 129,
+     "reached_at": null
+    },
+    "id": "100962",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-16T19:29:50+00:00",
+     "deleted_at": null,
+     "description": "CHAOS!!! = I hold a monthly vote for patrons on the issue of the issue\u0027s cover.\u00a0 We decide something significant (TBD) about the cover.\u00a0 I promise to try to be benevolent about the parameters.\u003cbr\u003e",
+     "goal_text": "CHAOS!!! = I hold a monthly vote for patrons on the issue of the issue\u0027s cover.\u00a0 We decide something significant (TBD) about the cover.\u00a0 I promise to try to be benevolent about the parameters.\u003cbr\u003e",
+     "number_patrons": 155,
+     "reached_at": null
+    },
+    "id": "100965",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-16T19:29:50+00:00",
+     "deleted_at": null,
+     "description": "The new make-up of each issue will be one nano-fiction piece (10 words or less), one editorial, one micro-fiction piece (100 words or less), one flash fiction piece (1000 words or less), and one featured short story at the at-least-3000-words level.\u003cbr\u003e",
+     "goal_text": "The new make-up of each issue will be one nano-fiction piece (10 words or less), one editorial, one micro-fiction piece (100 words or less), one flash fiction piece (1000 words or less), and one featured short story at the at-least-3000-words level.\u003cbr\u003e",
+     "number_patrons": 193,
+     "reached_at": null
+    },
+    "id": "100963",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-16T19:29:50+00:00",
+     "deleted_at": null,
+     "description": "The new minimum length for the featured story in each issue will be 4000 words.\u003cbr\u003e",
+     "goal_text": "The new minimum length for the featured story in each issue will be 4000 words.\u003cbr\u003e",
+     "number_patrons": 258,
+     "reached_at": null
+    },
+    "id": "100964",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-16T19:29:50+00:00",
+     "deleted_at": null,
+     "description": "The new minimum length for the featured story in each issue will be 5000 words.",
+     "goal_text": "The new minimum length for the featured story in each issue will be 5000 words.",
+     "number_patrons": 387,
+     "reached_at": null
+    },
+    "id": "100968",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-16T19:29:50+00:00",
+     "deleted_at": null,
+     "description": "The new make-up of each issue will be one nano-fiction piece (10 words \nor less), one editorial, one micro-fiction piece (100 words or \nless), one flash fiction piece (1000 words or less), one featured \nshort story at the at-least-2000-words level, and one featured \nshort story at the at-least-5000-words level.\u003cbr\u003e",
+     "goal_text": "The new make-up of each issue will be one nano-fiction piece (10 words \nor less), one editorial, one micro-fiction piece (100 words or \nless), one flash fiction piece (1000 words or less), one featured \nshort story at the at-least-2000-words level, and one featured \nshort story at the at-least-5000-words level.\u003cbr\u003e",
+     "number_patrons": 515,
+     "reached_at": null
+    },
+    "id": "100966",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/81289"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "772b2685-8e09-4339-87cc-a755826e003a",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Jon Hakes is creating Short Stories"
+});
+    </script>

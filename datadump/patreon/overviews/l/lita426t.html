@@ -1,0 +1,605 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "QSaGiogaKreGhKbxrjplNqNsbAl-hSdUZ9Fqq5opILU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": "2018-05-30T10:42:51.157065+00:00"
+   },
+   "id": "101959",
+   "relationships": {
+    "story": {
+     "data": [
+      {
+       "id": "128153",
+       "type": "monocle-clip"
+      },
+      {
+       "id": "128174",
+       "type": "monocle-clip"
+      }
+     ]
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "included": [
+   {
+    "attributes": {
+     "blurred_thumbnail_url": "https://c10.patreonusercontent.com/3/eyJiIjo3MH0%3D/patreon-media/monocle-clip/128153/6e20b43e959745deab49c14b589a1800?token-time=2145916800\u0026token-hash=-l6oTDsBaZr1QkzT0ktGwTVs84B5y1HvgpT60IZUQKk%3D",
+     "clip_type": "image",
+     "comment_count": 0,
+     "created_at": "2018-05-30T09:31:47.168334+00:00",
+     "is_private": true,
+     "media_skip_transcode": true,
+     "published": true,
+     "published_at": "2018-05-30T09:31:49.622775+00:00",
+     "unread_comment_count": 0
+    },
+    "id": "128153",
+    "relationships": {
+     "reply_to": {
+      "data": null
+     },
+     "viewed_by": {
+      "data": []
+     }
+    },
+    "type": "monocle-clip"
+   },
+   {
+    "attributes": {
+     "blurred_thumbnail_url": "https://c10.patreonusercontent.com/3/eyJiIjo3MH0%3D/patreon-media/monocle-clip/128174/7f705a5243d7469da034bd3dec3d924a?token-time=2145916800\u0026token-hash=jSJmN7wjznvWUK-Gb-tvxz-QM47hP8-id9azncrf3LQ%3D",
+     "clip_type": "image",
+     "comment_count": 0,
+     "created_at": "2018-05-30T10:42:49.190234+00:00",
+     "is_private": true,
+     "media_skip_transcode": true,
+     "published": true,
+     "published_at": "2018-05-30T10:42:51.157065+00:00",
+     "unread_comment_count": 0
+    },
+    "id": "128174",
+    "relationships": {
+     "reply_to": {
+      "data": null
+     },
+     "viewed_by": {
+      "data": []
+     }
+    },
+    "type": "monocle-clip"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/101959"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-11-30T13:18:04+00:00",
+    "creation_name": "Manga and Illustrations",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/126802/5fc3059a181c4d8586e7b91672f30a3a?token-time=2145916800\u0026token-hash=tvtxhdio-pJZgOWKLUmWhBAYd0fp7dyh5VjEVYH_oFw%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/126802/5fc3059a181c4d8586e7b91672f30a3a?token-time=2145916800\u0026token-hash=GQcs__Sjb7ekldL04fHl4l5_Ald1D9u1dBADo9rZDTE%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "No Manga, No Life!",
+    "patron_count": 46,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=126802",
+    "published_at": "2015-09-26T13:45:46+00:00",
+    "summary": "\u003ch3\u003e\u003cimg src=\"https://lh3.googleusercontent.com/IhNuAs_tSZa0YBQBN4DGSOwX7Bx81SvUKY2PldaTI1KBQT-GMnPq1q7MUJVi_JxEkuIs6v0L3BShRCe-CV2GMHlg2YhkpVxGNcYWOKfXISWXkvBbTuvCZpzrHK74sFMyy5Vuk2xdjrKd3ZGIyS9cCLnsqZ6NNwnZbM1TXcN2tVmmykhIOQk4KnE6KeYX_Ml9jjdQez_0l9wd3hcW9euu1WOgTo9GhxRCWTO2JL7uWCfVUM7MqXESXNjmLOjwTG3xTAT767mykleJBJIUDhrdxY7dhZmK159joBYyIijsCXMxu3Q6J46U-PqybLvjtfnwtw6yJk_BjzAXPVo4Vca7nWRsxl8W6nMTeP9BAUmSTxEA4apz3YABM3NPnn6zkQHL-TojfbH7_elNKfRQ_MfmY0QurvvqzVHupPlsWEl_t_hC7mj7QqdrJhU31OIW0JDqOMPgiZr0A02om44h7z4toA7IuZRs_7RQpHAoZ-vWCyjs0mW7YnQddayG7DqXyTRtJumRUbY_avtjdSoS2yqetq-GZ_CpnKvJETqnoi9NM-XkAovHLUopBl727SI-LDosLL8gW-1TsFha1k19c5I6h6T6H9fPQt3REtLQGZO4dNUTl7Jd4-WUq6vXnQ9KX4ZGQW_-EjiasZztpgBBE06CQFs23WjFHjXPiKJt=w500-h250-no\"\u003e\u003c/h3\u003e\n\u003ch3\u003eHi! I\u0027m Lita (\u309d\u03c9\u30fb)\uff89\u2764\u003c/h3\u003e\nI\u0027m Japanese professional manga artist living in Tokyo Japan. I create manga with genres such as shojo, shonen, fantasy, romance and school life. I also draw 4-frame comics. I want it to be read by many people all over the world! So I started Patreon. You can see my art works on some SNS :\u00a0\n\u003ca href=\"https://twitter.com/lita426t\" target=\"_blank\"\u003eTwitter\u003c/a\u003e /\u00a0\u003ca href=\"https://www.instagram.com/lita426t/\" target=\"_blank\"\u003eInstagram\u003c/a\u003e / \n\u003ca href=\"http://lita426t.tumblr.com/\" target=\"_blank\"\u003eTumblr\u003c/a\u003e / \u003ca href=\"http://lita426t.deviantart.com/gallery/\" target=\"_blank\"\u003edeviantART\u003c/a\u003e / \u003ca href=\"https://pixiv.me/lita426t\" target=\"_blank\"\u003epixiv\u003c/a\u003e / \u003ca href=\"http://lita426t.blogspot.com/\" target=\"_blank\"\u003eblog\u003c/a\u003e and here. I\u0027m posting all my stuff on here first in the world and almost every day! \u003cbr\u003e\n\u003cul\u003e\n\u003c/ul\u003e\n\n\u003cbr\u003e\n\u003ch1\u003eMANGA\u003c/h1\u003e\n\u003cstrong\u003e\nOngoing Projects\n\u003c/strong\u003e\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003e\u003cimg\u003eTranslation into English : Short Story Comic \"Little Luu\"\u00a0\u003c/li\u003e\n\t\u003cli\u003eTranslation into English :Short Story Comic \"Dear My Master\"\u00a0\u003c/li\u003e\n\t\u003cli\u003eDrawing and Translation into English :Web Comic \u0027Under 5 Pages\u0027\u003cbr\u003e\n\t-\u00a0\n\t\u003ca href=\"https://www.patreon.com/posts/neko-mamma-mia-3913266\"\u003e\"Neko Mamma-mia!\" Ep.01 Reading books (5 pages / Dec. 12 2015)\u003c/a\u003e\u003cbr\u003e\n\t- \"Little Luu\" Ep.01 Sleepless night (3 pages)\n\t\u003cbr\u003e\n\t- \"You are my devil\" Ep.01\n\t\u003c/li\u003e\n\t\u003cli\u003eUploading Comics (Finished \u0026amp; written in Japanese)  : 4frame comic \"Life with Ojiipon\" 26 episodes finished\n\t\u003c/li\u003e\u003cli\u003eSilent romance comic 2-5 pages : \"30dotpc - Houkago X Game\"\u00a0\u003c/li\u003e\n\u003c/ul\u003e\n\u003ca href=\"http://lita426t.blogspot.jp/2015/12/neko-mamma-mia-ep01-reading-books.html\"\u003e\u003c/a\u003e\n\u003cbr\u003e\n\u003cstrong\u003eCompleted Published Projects\u003c/strong\u003e\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003eShort Story Comic \"Shut Up My Master\" English edition :\u00a0\n\t\u003ca href=\"http://lita426t.blogspot.jp/2015/11/introduction-of-manga-shut-up-my-master.html\"\u003eIntroduction page\u003c/a\u003e / Read \u003ca href=\"https://www.patreon.com/posts/manga-shut-up-my-5151906\"\u003eJPG\u003c/a\u003e \u003ca href=\"https://www.patreon.com/posts/manga-shut-up-my-5156759\"\u003ePDF\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch1\u003eREWARDS\n\u003c/h1\u003e\n\u003cstrong\u003e\nMonthly Rewards\n\u003c/strong\u003e\u003cbr\u003e\nPlease check \"REWARDS\" section of my Patreon page, thank you!\n\u003cbr\u003e\n\u003cstrong\u003e\nRequests\n\u003c/strong\u003e\u00a0: I\u0027m taking \n\u003ca href=\"https://www.patreon.com/lita426t/posts?tag=request\"\u003ethe requests\u003c/a\u003e from only my patrons.\u003cbr\u003e\n\u003cstrong\u003e\nQ\u0026amp;A\u003c/strong\u003e\u00a0: Please check \n\u003ca href=\"https://www.patreon.com/posts/q-patrons-only-8412936\"\u003eQ\u0026amp;A page\u003c/a\u003e before ask me.\u003cbr\u003e\u003cbr\u003e\n\u003cstrong\u003e\nExtra Rewards\n\u003c/strong\u003e\u003cbr\u003e\nMy patrons will get the EXTRA REWARDS outside of the monthly rewards!\n\u003cbr\u003e\nWhen I get ...\n\u003cbr\u003e\n\u003col\u003e\n\t\u003cli\u003e50 patrons = Postcard\u003c/li\u003e\u003cli\u003e100 patrons = 3 postcards\u003c/li\u003e\u003cli\u003e250? patrons = A5 art prints\u003c/li\u003e\u003cli\u003e500? patrons = Special art book\u003c/li\u003e\u003cli\u003e1,000? patrons = Special comic book\u003c/li\u003e\n\u003c/ol\u003e\nWhen I reach to ...\n\u003cbr\u003e\n\u003col\u003e\n\t\u003cli\u003eGoal 1 = A6 original drawing\u003c/li\u003e\n\t\u003cli\u003eGoal 2 = A5 original drawing\u003c/li\u003e\n\t\u003cli\u003eGoal 4 = B5 original drawing\u003c/li\u003e\n\u003c/ol\u003e\nI will send the extra rewards to my patrons ( be my patron at that moment ) on the following month of reaching the number first time.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eBeing my patron for 1 year\u003c/strong\u003e\u003cbr\u003e- Postcards twice a year ( Every Summer and New Year)\u003cbr\u003e\u003cbr\u003eI\u0027ll sent to you!!!* These needs your physical address. Don\u0027t worry, I don\u0027t intend to force you to add your physical address. I\u0027ll send original digital data to you when I send them!\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ch3\u003e\u003cstrong\u003eWith your support what I can\u003c/strong\u003e\u003c/h3\u003e\n\u003cul\u003e\n\t\u003cli\u003eBecome a full-time manga artist\u003c/li\u003e\n\t\u003cli\u003ePublish new manga : monthly manga (24-32 pages) in JPN and ENG on the web\u003c/li\u003e\n\t\u003cli\u003eLeave translation my manga into English / Proofread English of my manga to a professional translator faster than now\u003c/li\u003e\n\t\u003cli\u003ePublish my manga physical book in JPN and ENG\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003cbr\u003e\nIf you want to read my manga with correct English and get it faster than now, you want more my stuff, please support me!\n\u003cbr\u003e\n\u003cbr\u003e\nThank you very much!\n\u003cbr\u003e\n\u6a58\u308a\u305f Tachibana Lita\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003e\nAbout me\u003c/strong\u003e\u003cbr\u003e\n\u6a58\u308a\u305f in Japanese. \"Tachibana\" is my last name, first name is \"Lita\". \"Tachibana Lita\" is Japanese style. Please call me Lita! I\u0027m fighting against ADD(ADHD)/ASD, side-effects by medicines and my depression every day (9\uff40\uff65\u03c9\uff65)9!\n\u003cbr\u003e\n\u003ca href=\"http://lix.nobody.jp/\"\u003eOfficial  Website\u003c/a\u003e* \u003ca href=\"https://twitter.com/lita426t\"\u003eTwitter\u003c/a\u003e* \u003ca href=\"https://www.facebook.com/lita426t/\"\u003eFacebook\u003c/a\u003e* \u003ca href=\"https://www.instagram.com/lita426t/\"\u003eInstagram\u003c/a\u003e* \u003ca href=\"http://lita426t.blogspot.jp/p/web-shop.html\"\u003eWeb shop\n\u003c/a\u003e\u003cbr\u003e\n\u003cbr\u003e\nThank you very much for proofreading, \u003ca href=\"http://ayaishida.tumblr.com/\"\u003eAya-san\u003c/a\u003e!\u003cbr\u003e"
+   },
+   "id": "126802",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "409182",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/409182"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "88838",
+       "type": "goal"
+      },
+      {
+       "id": "250262",
+       "type": "goal"
+      },
+      {
+       "id": "250373",
+       "type": "goal"
+      },
+      {
+       "id": "250385",
+       "type": "goal"
+      },
+      {
+       "id": "1070160",
+       "type": "goal"
+      },
+      {
+       "id": "1070164",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-126802",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-126802"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1094754",
+       "type": "reward"
+      },
+      {
+       "id": "118644",
+       "type": "reward"
+      },
+      {
+       "id": "1094967",
+       "type": "reward"
+      },
+      {
+       "id": "326161",
+       "type": "reward"
+      },
+      {
+       "id": "2332436",
+       "type": "reward"
+      },
+      {
+       "id": "2332441",
+       "type": "reward"
+      },
+      {
+       "id": "2332443",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Japanese manga artist living in Tokyo Japan\u003cbr\u003e",
+     "created": "2014-11-30T13:18:04+00:00",
+     "facebook": "https://www.facebook.com/lita426t",
+     "first_name": "Tachibana",
+     "full_name": "Tachibana Lita",
+     "gender": 2,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMyIsInciOjIwMH0%3D/patreon-media/user/409182/8709aee8815a47fa945a24c45d569f17?token-time=2145916800\u0026token-hash=i3WzAHJ3jGC8fH5CaxKe6-2jr0EaS8xiTWXoZy0a0oA%3D",
+     "last_name": "Lita",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIzIiwidyI6MTAwfQ%3D%3D/patreon-media/user/409182/8709aee8815a47fa945a24c45d569f17?token-time=2145916800\u0026token-hash=t8vcLbARCW60Bi0MmY0jZOd9Lvovix4w8WYsgY8lXEA%3D",
+     "twitch": null,
+     "twitter": "lita426t",
+     "url": "https://www.patreon.com/lita426t",
+     "vanity": "lita426t",
+     "youtube": "https://www.youtube.com/c/LitaTachibana"
+    },
+    "id": "409182",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "126802",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/126802"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 495,
+     "upgrade_url": "/bePatron?c=126802\u0026rid=1094754"
+    },
+    "id": "post-aggregation-for-0-126802",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-27T08:47:18+00:00",
+     "description": "Thank you for the support!\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-31T10:49:02.589508+00:00",
+     "image_url": null,
+     "post_count": 35,
+     "published": true,
+     "published_at": "2018-01-31T10:49:02.580338+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Bronze Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=126802\u0026rid=1094754"
+    },
+    "id": "1094754",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-11-12T12:26:27+00:00",
+     "description": "- Without watermark, high-res, whole image, full size and more of manga pages/illustrations\n\u003cp\u003e- You can request me\u003c/p\u003e\n\u003cp\u003e- You can ask me anything from Q\u0026amp;A post\u003cbr\u003e\n- Access\u00a0notes about my creating / personal life\u003c/p\u003e\n\u003cp\u003e- Access live streaming\u003c/p\u003e\n\u003cp\u003e- Get my web store (tictail) discount code\u003c/p\u003e\n\u003cp\u003e- Early access to new web comics first in the world!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-25T07:22:44.508680+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjQwMH0%3D/patreon-media/reward/118644/d99c453c49ae4574ab8bce0466f5be4b?token-time=2145916800\u0026token-hash=rQ1HtYnsqEsupKdDYaqBxmiw8ahQGfx2iieNvyQv6Ig%3D",
+     "post_count": 118,
+     "published": true,
+     "published_at": "2018-05-25T07:22:44.498443+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Silver Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=126802\u0026rid=118644"
+    },
+    "id": "118644",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-27T10:38:26+00:00",
+     "description": "-\u00a0All sketches : digital and from my sketchbook!\n\u003cp\u003e- Wips, process pics\u00a0\u003c/p\u003e\n\u003cp\u003e- Drafts, studies and also silly doodles!\u003c/p\u003e\n\u003cp\u003e- Access \"LENS\" posts (Like Instagram Story)\u003c/p\u003e\n\u003cp\u003e- Included [R-18] mature contents\u003cbr\u003e\n+Plus all previous rewards!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-25T07:23:47.638182+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjQwMH0%3D/patreon-media/reward/1094967/c9706779a0114734af773ef884eb4c81?token-time=2145916800\u0026token-hash=Iay_2STNXCUL8Yg9faAinl2OHquRho8cZawry2lwySM%3D",
+     "post_count": 96,
+     "published": true,
+     "published_at": "2018-05-25T07:23:47.629018+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gold Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=126802\u0026rid=1094967"
+    },
+    "id": "1094967",
+    "relationships": {
+     "items": {
+      "data": [
+       {
+        "id": "111030",
+        "type": "reward-item"
+       }
+      ]
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-12T12:26:27+00:00",
+     "description": "-\u00a0Layered original PSD\n\u003cp\u003e- Scan data\u003c/p\u003e\n\u003cp\u003e- Completed manga PDF\u003c/p\u003e\n\u003cp\u003e- All full drawing videos\u003c/p\u003e\n\u003cp\u003e- Access all live drawing streaming archives\u003c/p\u003e\n\u003cp\u003e- [R-18] Mature contents (sexual theme/nudity) Full colored pic, PSD and scan datas.\u003cbr\u003e\n+ Plus all previous rewards!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-27T08:28:01.928248+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/326161/d1189afd31064aa88ee6c1fb82234888?token-time=2145916800\u0026token-hash=2IZEVWDiGv6aB1GLOV0z8GHFwyd6gjPlV3L_o3kTAKQ%3D",
+     "post_count": 122,
+     "published": true,
+     "published_at": "2018-02-27T08:28:01.918422+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Platinum Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=126802\u0026rid=326161"
+    },
+    "id": "326161",
+    "relationships": {
+     "items": {
+      "data": [
+       {
+        "id": "111030",
+        "type": "reward-item"
+       }
+      ]
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2018-01-31T05:32:31.981067+00:00",
+     "description": "- Monthly patrons only physical special art book\n\u003cp\u003e+ Plus all previous rewards\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-09T09:50:15.498984+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2332436/fb5042ee4e7a4f64999acb808d5142f7?token-time=2145916800\u0026token-hash=IQPShaJHkrN3ltBg8bze6eocLGoYwRA2S8qvjWYanpg%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-09T09:50:15.488281+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Diamond Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=126802\u0026rid=2332436"
+    },
+    "id": "2332436",
+    "relationships": {
+     "items": {
+      "data": [
+       {
+        "id": "111030",
+        "type": "reward-item"
+       }
+      ]
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-01-31T05:34:43.130541+00:00",
+     "description": "- 1 original art work drawn with traditional tools\n\u003cp\u003e\u00a0\u00a0\u00a0* I choice which work will you get.\u003c/p\u003e\n\u003cp\u003e+ Plus all pre-Diamond rewards\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-09T09:50:31.273235+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2332441/d77a7f7537fc4685a77fe6d6c3686b0f?token-time=2145916800\u0026token-hash=8JC0tZ1iy-HJTjcGzXHWO_pN5yjjQOmAdhBUdkzMVvc%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-09T09:50:31.263555+00:00",
+     "remaining": 2,
+     "requires_shipping": true,
+     "title": "Red-Diamond Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=126802\u0026rid=2332441"
+    },
+    "id": "2332441",
+    "relationships": {
+     "items": {
+      "data": [
+       {
+        "id": "111030",
+        "type": "reward-item"
+       }
+      ]
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2018-01-31T05:35:25.139012+00:00",
+     "description": "- 1 original art work drawn with traditional tools\n\u003cp\u003e\u00a0\u00a0\u00a0* You can request me what do you want!\u003c/p\u003e\n\u003cp\u003e+ Plus all pre-Diamond rewards\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-09T09:50:40.970124+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2332443/38fec81670ea4b12a686c0e93e4d8aa6?token-time=2145916800\u0026token-hash=ho_IjLaothe7s51d2TxWNUZIsG03QrFag6C9O0KJZ_U%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-09T09:50:40.960390+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Blue-Diamond Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=126802\u0026rid=2332443"
+    },
+    "id": "2332443",
+    "relationships": {
+     "items": {
+      "data": [
+       {
+        "id": "111030",
+        "type": "reward-item"
+       }
+      ]
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 11,
+     "created_at": "2014-11-30T13:41:44+00:00",
+     "description": "\u003ch2\u003eGoal 1\u003c/h2\u003e\nFull-time manga artist! I can spend all my time for creating manga!\u00a0\u003cstrong\u003eYou can read 24-32 pages new manga every month on the web!\u003cbr\u003e\n\u003cbr\u003e\n\u003c/strong\u003e\n\u003ch4\u003e\u003cstrong\u003eEXTRA REWARD!\u003c/strong\u003e\u003c/h4\u003e\n\u003cstrong\u003eMy patrons get A6 original speed drawing \u0026amp; message from me! *Need your physical address.\u003c/strong\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "88838",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 5,
+     "created_at": "2015-09-26T08:44:58+00:00",
+     "description": "\u003ch2\u003eGoal 2\u003c/h2\u003e\nI can publish my monthly manga in English translated by a professional translator! \u003cstrong\u003eYou can read 16-32 pages new manga in English every month on the web!\u003cbr\u003e\n\u003cbr\u003e\n\u003c/strong\u003e\n\u003ch4\u003e\u003cstrong\u003eEXTRA REWARD!\u003c/strong\u003e\u003c/h4\u003e\n\u003cstrong\u003eMy patrons get A5 original speed drawing \u0026amp; message from me! *Need your physical address.\u003c/strong\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "250262",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 2,
+     "created_at": "2015-09-26T13:29:35+00:00",
+     "description": "\u003ch2\u003eGoal 4\u003c/h2\u003e\nI\u0027ll go to comic conventions outside of Japan (example:Comic-con International) and I\u0027ll sell my manga books and pictures! \u003cstrong\u003eSay hello!\u003cbr\u003e\n\u003cbr\u003e\n\u003c/strong\u003e\n\u003ch4\u003e\u003cstrong\u003eEXTRA REWARD!\u003c/strong\u003e\u003c/h4\u003e\n\u003cstrong\u003eMy patrons get B5 original speed drawing \u0026amp; message from me! *Need your physical address.\u003c/strong\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "250373",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 4,
+     "created_at": "2015-09-26T13:41:54+00:00",
+     "description": "\u003ch2\u003eGoal 3\u003c/h2\u003eI can publish a physical comic book per 4~6 month. I will add books to the rewards. \u003cstrong\u003eYou can get\u00a0physical comic books in English!\u003c/strong\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "250385",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2018-01-07T09:40:47+00:00",
+     "description": "\u003ch2\u003eBasic 1st step!\u003c/h2\u003e\u003cstrong\u003eYou can access\u00a0almost daily illustrations!\u003c/strong\u003e",
+     "reached_at": "2018-01-07T15:34:22+00:00",
+     "title": ""
+    },
+    "id": "1070160",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 43,
+     "created_at": "2018-01-07T09:51:44+00:00",
+     "description": "\u003ch2\u003eBasic 2nd step\u003c/h2\u003e\u003cstrong\u003eYou can get stable daily post of manga \u0026amp; illustrations!\u003c/strong\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1070164",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-22T11:11:52+00:00",
+     "deliverables_due_today_count": 0,
+     "delivered_deliverables_count": 0,
+     "description": "Ongoing access to exclusive Lens content",
+     "is_deleted": false,
+     "item_type": "private_lens_access",
+     "next_deliverable_due_date": null,
+     "not_delivered_deliverables_count": 0,
+     "rewards_count": 5,
+     "rule_type": "ongoing",
+     "title": "Exclusive Lens Access"
+    },
+    "id": "111030",
+    "type": "reward-item"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/126802"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "4921dcb1-5d9a-48a6-8125-e35517f13a1a",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Tachibana Lita is creating Manga and Illustrations"
+});
+    </script>

@@ -1,0 +1,671 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "1vdN3UxEydcLbYQoXdh5DUz8aea4ymzJxqaFzPlJ9IU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "221637",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/221637"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-09-07T19:01:40+00:00",
+    "creation_name": "MADDEN TUTORIALS",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/497659/06728790bdc949299b57224d6dda4d20?token-time=2145916800\u0026token-hash=qkoqb2vrh7sY0zWjwsf0iSKKsGvnUE6gRpp4t0QgM9E%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/497659/06728790bdc949299b57224d6dda4d20?token-time=2145916800\u0026token-hash=cTu9pTePKd-zc3MFQ4m7dYICz5kbXfYKZRkDKM5efl8%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 58,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=497659",
+    "published_at": "2016-09-07T19:29:25+00:00",
+    "summary": "Join my Patreon to get the best excusive Madden related content on the planet to take your game to a new level. I would like to be able to create the best content on the web full time for you guys as well as do more live game play on twitter which i currently don\u0027t have time.\u00a0 also this would give the opportunity to interact with you guys more in hopes to help you guys become better players.\u00a0\u003cbr\u003e"
+   },
+   "id": "497659",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3967524",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3967524"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "535483",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-497659",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-497659"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "742557",
+       "type": "reward"
+      },
+      {
+       "id": "742558",
+       "type": "reward"
+      },
+      {
+       "id": "742559",
+       "type": "reward"
+      },
+      {
+       "id": "1915058",
+       "type": "reward"
+      },
+      {
+       "id": "742560",
+       "type": "reward"
+      },
+      {
+       "id": "1846441",
+       "type": "reward"
+      },
+      {
+       "id": "742561",
+       "type": "reward"
+      },
+      {
+       "id": "1915052",
+       "type": "reward"
+      },
+      {
+       "id": "1922904",
+       "type": "reward"
+      },
+      {
+       "id": "1915106",
+       "type": "reward"
+      },
+      {
+       "id": "978533",
+       "type": "reward"
+      },
+      {
+       "id": "1632983",
+       "type": "reward"
+      },
+      {
+       "id": "1846477",
+       "type": "reward"
+      },
+      {
+       "id": "1633013",
+       "type": "reward"
+      },
+      {
+       "id": "1632993",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "i make madden videos that will give you the advantage you need to either beat your friends, win your favorite online franchise or even compete competitively in the world of john madden football! These include tip videos, money play and schemes as well as ebooks and more!\u003cbr\u003e",
+     "created": "2016-09-07T19:00:00+00:00",
+     "facebook": "https://www.facebook.com/groups/1767655943468839/",
+     "first_name": "MADDEN",
+     "full_name": "MADDEN MONEY SHOT",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3967524/3896256ca73f49e7aef2970dafc36c35?token-time=2145916800\u0026token-hash=8H_eacTAcF0YBJZcn92C6t4socAcTAthBP9aIVVNBAk%3D",
+     "last_name": "MONEY SHOT",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3967524/3896256ca73f49e7aef2970dafc36c35?token-time=2145916800\u0026token-hash=ue1P9f-fHRF4_nEMVKgDDCi9JGLiBkvHDxO-mz2vSmw%3D",
+     "twitch": "https://www.twitch.tv/maddenmoneyshot",
+     "twitter": "maddenmoneyshot",
+     "url": "https://www.patreon.com/maddenmoneyshot",
+     "vanity": "maddenmoneyshot",
+     "youtube": "https://www.youtube.com/channel/UCSwb2YFxbyP0QgJrko37NVQ"
+    },
+    "id": "3967524",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "497659",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/497659"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 178,
+     "upgrade_url": "/bePatron?c=497659\u0026rid=742557"
+    },
+    "id": "post-aggregation-for-0-497659",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-14T18:20:41+00:00",
+     "description": "Official patron status and my endless appreciation for joining my team.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0Personal contact with me at any time. Access through my private line\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-16T00:40:53.326447+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/742557/5f3959070d9446cf9bd9f75623902a81?token-time=2145916800\u0026token-hash=jEK8Yqq8QHgEh5OKuIMRXdRRW5D6X6jw9MJU-eRnlN0%3D",
+     "post_count": 5,
+     "published": true,
+     "published_at": "2016-10-29T03:53:15+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "THANKS BRO",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=742557"
+    },
+    "id": "742557",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-14T18:20:41+00:00",
+     "description": "\u00a0\n\u003cp\u003eOfficial patron status and my endless appreciation for joining my team.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-16T00:41:45.953519+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/742558/0f456ad114234031826620c184ecefe7?token-time=2145916800\u0026token-hash=wqa3BkqG26H2buJ_N980v9DClmfS7BamC6zGxk-cWPw%3D",
+     "post_count": 162,
+     "published": true,
+     "published_at": "2016-10-29T03:53:15+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "RED CARPET TREATMENT",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=742558"
+    },
+    "id": "742558",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-14T18:20:41+00:00",
+     "description": "\u00a0\u00a0Official patron status and my endless appreciation for joining my team.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eUNLIMITED FULL PLAYBOOK BREAKDOWN VIDS\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll get access to all my patron only content including early and exclusive videos, plus all previous rewards.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eI take care of my patreons\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line for any help you\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-03T00:36:19.217810+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/742559/384e8e7a67e445a79275e252bec8076e?token-time=2145916800\u0026token-hash=9dwe-rHn1dKr21WKZN2pZxpuPcky394PtTlY_jUq2pw%3D",
+     "post_count": 5,
+     "published": true,
+     "published_at": "2016-10-29T03:53:15+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "VIP ACCESS",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=742559"
+    },
+    "id": "742559",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-10T14:45:17.195972+00:00",
+     "description": "Share with me your gameplay footage and i will give you personal tips on how to improve!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0Official patron status and my endless appreciation for joining my team.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-10T14:46:23.213512+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1915058/096a7a18f54a4aee8da963d9c6d39e33?token-time=2145916800\u0026token-hash=_8WDZPIEksO-F_R0vacMFHwHfbl500dbbjtwIOTzvmw%3D",
+     "post_count": 5,
+     "published": true,
+     "published_at": "2017-08-10T14:45:17.195972+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "STRATEGY GUIDE",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=1915058"
+    },
+    "id": "1915058",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-14T18:20:41+00:00",
+     "description": "You get to pick the topic for one of my videos. \u00a0once a month I tackle a subject of your choosing. \u00a0Plus all previous rewards.\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e\u00a0Official patron status and my endless appreciation for joining my team.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-16T00:45:04.194247+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/742560/ad15857e077146febc775a451c5d74ed?token-time=2145916800\u0026token-hash=RNfcd60MdYmkZkoMdUbTYJUE2-4HwzpOqpbb21k7_e0%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-29T03:53:15+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "YOU\u0027RE THE BOSS",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=742560"
+    },
+    "id": "742560",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-07-16T00:39:16.966802+00:00",
+     "description": "Access to all my ebook releases offense and defense! As well as full video breakdowns of playbooks! MULTIPLE PER MONTH\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0Official patron status and my endless appreciation for joining my team.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-16T01:20:50.866508+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1846441/ea14fdd097f24ad8b969a9e0dc94511d?token-time=2145916800\u0026token-hash=EbmVxvdgVA4lI1VJxuS55WRoFYup2wT4AmeRDiU-xNo%3D",
+     "post_count": 5,
+     "published": true,
+     "published_at": "2017-07-16T00:39:16.966802+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "UNLIMITED EBOOKS ACCESS",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=1846441"
+    },
+    "id": "1846441",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-11-14T18:20:41+00:00",
+     "description": "I make a mini scheme out of any playbook you choose totaling 7 plays run and pass.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eUNLIMITED EBOOK ACCESS\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus exclusive and early content\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eOfficial patron status and my endless appreciation for joining my team.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-13T20:41:20.414076+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/742561/73b18788df7c442187b4ecd27474e032?token-time=2145916800\u0026token-hash=w87K-Z_Y7lJOlOVD4NSULzySaRnQHFKKh7MUrA9AO9U%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-29T03:53:15+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "PICK A BOOK",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=742561"
+    },
+    "id": "742561",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-08-10T14:40:29.250367+00:00",
+     "description": "Once a month we get together for a one hour session and work on what ever you need help in!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0Access to all my EBOOK releases offense and defense! As well as full video breakdowns of playbooks! MULTIPLE PER MONTH\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0Official patron status and my endless appreciation for joining my team.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T02:15:53.923026+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1915052/39522dc4486e48e9b4a3796558a567fc?token-time=2145916800\u0026token-hash=o-ob0Gvtnt6v-r3Iwn4ghc6ubePX5Bw7APBqrVZEbMc%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-10T14:40:29.250367+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "COACH MONEY SHOT",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=1915052"
+    },
+    "id": "1915052",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-08-13T20:30:43.847445+00:00",
+     "description": "AUTHENTIC MADDEN MONEY SHOT T-SHIRT\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAccess to all my ebook releases offense and defense! As well as full video breakdowns of playbooks! MULTIPLE PER MONTH\u003c/p\u003e\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cp\u003eOfficial patron status and my endless appreciation for joining my team.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-13T20:30:44.976112+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1922904/0c2677eca8a44ab7808da3661f8dc672?token-time=2145916800\u0026token-hash=j4T6hCtoQ1pJWOFP-WbDzx-WdxFNEDysE37c8FE1l0I%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-13T20:30:43.847445+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "OFFICIAL APPAREL ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=1922904"
+    },
+    "id": "1922904",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-08-10T15:16:03.647102+00:00",
+     "description": "Access to all my ebook releases offense and defense! As well as full video breakdowns of playbooks! MULTIPLE PER MONTH\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e100 K IN MUT COINS A MONTH\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eOfficial patron status and my endless appreciation for joining my team.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-10T15:19:09.184647+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1915106/dadf7cbdd09e4abfb465d0977c9f0cf3?token-time=2145916800\u0026token-hash=hvkgU-ifdDF3Pea96k-jOglNqgAHZpZxUwWIGAaOoQw%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-10T15:16:03.647102+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "EBOOKS AND COINS",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=1915106"
+    },
+    "id": "1915106",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-11-14T18:20:41+00:00",
+     "description": "Game On!!! Literally, we play a game together or lab and share tips. \u00a0Plus exclusive and early content\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eUnlimited ebook access!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eOfficial patron status and my endless appreciation for joining my team.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-13T20:39:53.205768+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/978533/f00b08a6a3184fcd937861d0cb6f45c5?token-time=2145916800\u0026token-hash=9n01D1JZQOclzOxiiPxl-r3eom3padnpgnwuCz-vhT8%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-29T03:53:15+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "GAME ON",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=978533"
+    },
+    "id": "978533",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2017-04-25T01:53:56.545975+00:00",
+     "description": "Ask me any advice on how to start or build your youtube channel\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAlso i will add you to my featured channels section and give your channel monthly shout outs in my videos\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eGame On!!! Literally, we play a game together or lab and share tips. \u00a0Plus exclusive and early content\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eOfficial patron status and my endless appreciation for joining my team.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-16T01:20:27.536738+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1632983/65832733e419463fb1d9fa47ae78174d?token-time=2145916800\u0026token-hash=GX1DsbIwb0pycUCa-uUSqZta9cl_lacHV8-Ig3oGXWw%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-25T01:53:56.545975+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "WANT TO BE A YOUTUBER? ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=1632983"
+    },
+    "id": "1632983",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-07-16T01:13:22.703185+00:00",
+     "description": "100K IN MUT COINS EVERY MONTH\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eONE HANDS ON COACHING SESSION A MONTH\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAccess to all my EBOOKS! Offense and defense! Multiple released per month\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus access to full playbook breakdown videos\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eGame On!!! Literally, we play a game together or lab and share tips. \u00a0Plus exclusive and early content\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eOfficial patron status and my endless appreciation for joining my team.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T02:16:45.834357+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1846477/0d22af746c734a75858cc06d27bb2f96?token-time=2145916800\u0026token-hash=9ZTA25CD8FMO6Q8codGLmqQHVwOiZ-7WH0po24eARjk%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-16T01:13:22.703185+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "ALL PRO PACKAGE",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=1846477"
+    },
+    "id": "1846477",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-04-25T02:03:33.697222+00:00",
+     "description": "3 sessions 1 hr a month where we can work on any area of your game that needs improvement\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eUNLIMITED EBOOK ACCESS\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAsk me any advice on how to start or build your youtube channel\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eGame On!!! Literally, we play a game together or lab and share tips. \u00a0Plus exclusive and early content\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eOfficial patron status and my endless appreciation for joining my team.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T02:16:23.081601+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1633013/3e07bb3a06a34a7fa5987ec9efbb74cb?token-time=2145916800\u0026token-hash=hjfLN5tXQt50AWDa5JczonplbnVnfoMzarIw6a-I0ww%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-25T02:03:33.697222+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "HANDS ON PERSONAL COACHING",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=1633013"
+    },
+    "id": "1633013",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2017-04-25T01:57:20.500711+00:00",
+     "description": "Let\u0027s work together on an upcoming video.\n\u003cul\u003e\n\u003cli\u003eCollaborate on an upcoming video\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAsk me any advice on how to start or build your youtube channel\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAlso i will add you to my featured channels section and give your channel \u00a0monthly shout outs in my videos\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eOfficial patron status and my endless appreciation for joining my team.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePersonal contact with me at any time. Access through my private line\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-16T01:05:11.318932+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1632993/d92a402123e34eb79f6a84786549ebe7?token-time=2145916800\u0026token-hash=dbJhJWuFaPHtIg_8NuvKobU2T92CB9bjqtqpwUUURYE%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-25T01:57:20.500711+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Join The Team",
+     "unpublished_at": null,
+     "url": "/bePatron?c=497659\u0026rid=1632993"
+    },
+    "id": "1632993",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 71,
+     "created_at": "2016-09-07T19:22:02+00:00",
+     "description": "reach any money really\u003cbr\u003e",
+     "reached_at": "2017-09-05T16:58:06+00:00",
+     "title": ""
+    },
+    "id": "535483",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/497659"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "c9111ab9-a675-49ac-b0d7-351bf8b351ad",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "MADDEN MONEY SHOT is creating MADDEN TUTORIALS"
+});
+    </script>

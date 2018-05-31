@@ -1,0 +1,476 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "KbUfpXL4TLj_EW8llkOF8eWhTO2pYKQKrY-uXg0uPRQ";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "21922",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/21922"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-09-25T17:00:21+00:00",
+    "creation_name": "Movie Feuds, Movie Reviews \u0026 Skits",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/115517/4b7d3cf3e9c34e5098f75f2d54a99fc7?token-time=2145916800\u0026token-hash=2DMGDSs1Z-CVFKmYq75lLEFCvj_k6IxHv80-1lHxG08%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/115517/4b7d3cf3e9c34e5098f75f2d54a99fc7?token-time=2145916800\u0026token-hash=zXVyw0QbFBFf5sacYD5Rug1Tyu0IHgL3o3fPPK17dIg%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/kzAe_hoaD8s\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://www.youtube.com/watch?v=kzAe_hoaD8s",
+    "one_liner": "Giving you something to fight about! Feud On.",
+    "patron_count": 46,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=115517",
+    "published_at": "2014-09-25T17:00:21+00:00",
+    "summary": "I\u0027m going to make this quick. THANK YOU if you are watching and supporting my channel adamdoesmovies! My goal has always been to talk about film in an entertaining and hopefully humorous way.\u003cbr\u003eThe reason I continue creating content is because of people like you.\u003cbr\u003e\u003cbr\u003e- Adam\u003cbr\u003e"
+   },
+   "id": "115517",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "320745",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/320745"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "67680",
+       "type": "goal"
+      },
+      {
+       "id": "67681",
+       "type": "goal"
+      },
+      {
+       "id": "71161",
+       "type": "goal"
+      },
+      {
+       "id": "141987",
+       "type": "goal"
+      },
+      {
+       "id": "141988",
+       "type": "goal"
+      },
+      {
+       "id": "195657",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-115517",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-115517"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "91100",
+       "type": "reward"
+      },
+      {
+       "id": "91101",
+       "type": "reward"
+      },
+      {
+       "id": "91102",
+       "type": "reward"
+      },
+      {
+       "id": "91103",
+       "type": "reward"
+      },
+      {
+       "id": "91104",
+       "type": "reward"
+      },
+      {
+       "id": "91106",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Adam Does Movies is a 1-man YouTube channel by me, Adam Olinger. My #1 goal is to make videos that not only spark conversation but also make you laugh a little.",
+     "created": "2014-09-25T17:00:21+00:00",
+     "facebook": "https://www.facebook.com/feudnation",
+     "first_name": "Adam",
+     "full_name": "Adam Olinger",
+     "gender": 1,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/320745/0b95a3ad47984a2bae493e47739f2d27?token-time=2145916800\u0026token-hash=3epspYUpqknyM6ZJn5x84BbIMvgwT-5ZKRlK-YkCDnM%3D",
+     "last_name": "Olinger",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/320745/0b95a3ad47984a2bae493e47739f2d27?token-time=2145916800\u0026token-hash=0OQz2-7nZpiT7jiEfSnqfqW1WJ58yowVF_-wkJyPLjU%3D",
+     "twitch": null,
+     "twitter": "AdamDoesMovies_",
+     "url": "https://www.patreon.com/adamdoesmovies",
+     "vanity": "adamdoesmovies",
+     "youtube": "https://www.youtube.com/adamdoesmovies"
+    },
+    "id": "320745",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "115517",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/115517"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 33,
+     "upgrade_url": "/bePatron?c=115517\u0026rid=91100"
+    },
+    "id": "post-aggregation-for-0-115517",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-01-13T21:31:35+00:00",
+     "description": "You just get it. You know this channel takes a lot of work to keep up with and you are willing to help me stay driven by showing support.\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003cli\u003eExclusive Carside Reviews show\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-26T00:04:54.470144+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/91100/298c19a9dd954197887f718af186a943?token-time=2145916800\u0026token-hash=OyC1vMA5CjphB3G0D-o7nDh-5C-SLwISkwjogdVgQtk%3D",
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-04-26T00:04:54.462397+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Baby Driver",
+     "unpublished_at": null,
+     "url": "/bePatron?c=115517\u0026rid=91100"
+    },
+    "id": "91100",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-01-13T21:31:35+00:00",
+     "description": "You don\u0027t need to break your arm like Henry Rowengartner did in the hit 90\u0027s family feel-good film to win my admiration. You already have it.\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003cli\u003eExclusive Carside Reviews show + Spoiler Section\u003c/li\u003e\n\u003cli\u003eEarly access to my work\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-26T00:05:55.779236+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/91101/7199b57314974738a38f5591e4604546?token-time=2145916800\u0026token-hash=8eN9qfnCgd7bLATtJTDgFKR3rR48zYdvuGOYBuw018s%3D",
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-04-26T00:05:55.769420+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Rookie of the Year",
+     "unpublished_at": null,
+     "url": "/bePatron?c=115517\u0026rid=91101"
+    },
+    "id": "91101",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-01-13T21:31:35+00:00",
+     "description": "You are not screwing around at this level; nor am I. Expect access to some behind-the-scenes videos along with the previous rewards.\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003cli\u003eExclusive Carside Reviews show + Spoiler Section\u003c/li\u003e\n\u003cli\u003eEarly access to my work\u003c/li\u003e\n\u003cli\u003eBehind-the-scenes pics \u0026amp; videos\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-26T00:06:16.540022+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/91102/3ce3023f68424446a0521608f6ebd034?token-time=2145916800\u0026token-hash=6e99gkbx4R8NpdA1XSGS0fXDj2s8qraEFXCgpB389xs%3D",
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-04-26T00:06:16.532558+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Lethal Weapon",
+     "unpublished_at": null,
+     "url": "/bePatron?c=115517\u0026rid=91102"
+    },
+    "id": "91102",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-01-13T21:31:35+00:00",
+     "description": "You are a person of passion and integrity and have my utmost respect. You also have access to all the previous rewards and get to pick a show idea.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eTrailer Trash Episodes\u003c/li\u003e\u003cli\u003eEarly access to my work\u003c/li\u003e\u003cli\u003eBehind-the-scenes pics \u0026amp; videos\u003c/li\u003e\u003cli\u003ePick a Movie Feud or other show idea for me to do\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-29T00:38:41.465824+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/91103/332679c2cc0e4d3eb408185f98e2f44b?token-time=2145916800\u0026token-hash=tYYU61QJlb6RZctp2rvsRtjyTUwzXgC3DYJu5KeJtPk%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-13T21:31:35+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Half-Blood Prince",
+     "unpublished_at": null,
+     "url": "/bePatron?c=115517\u0026rid=91103"
+    },
+    "id": "91103",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-01-13T21:31:35+00:00",
+     "description": "Welcome to the party pal! You get all previous rewards + I\u0027ll follow you on your social media platforms.\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003cli\u003eExclusive Carside Reviews show + Spoiler Section\u003c/li\u003e\n\u003cli\u003eEarly access to my work\u003c/li\u003e\n\u003cli\u003eBehind-the-scenes pics \u0026amp; videos\u003c/li\u003e\n\u003cli\u003ePick a Movie Feud or other show idea for me to do\u003c/li\u003e\n\u003cli\u003eFollow you on social media\u003c/li\u003e\n\u003cli\u003eEarly access to Working Title episodes\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-26T00:06:30.902608+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/91104/ae5867c5d2514bcaa4e1e58d23d4de20?token-time=2145916800\u0026token-hash=bcdHkTqmK1G2uvDIroc-zdi_zTGS-pYBIj7vnIXuPwo%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-26T00:06:30.895408+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Die-Hard",
+     "unpublished_at": null,
+     "url": "/bePatron?c=115517\u0026rid=91104"
+    },
+    "id": "91104",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-01-13T21:31:35+00:00",
+     "description": "You are going way above and beyond at this level. A real standup dude. You have access to all previous rewards +\u00a0\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003ePatron-only content feed\u003c/li\u003e\n\u003cli\u003eExclusive Carside Reviews show + Spoiler Section\u003c/li\u003e\n\u003cli\u003eEarly access to my work\u003c/li\u003e\n\u003cli\u003eBehind-the-scenes pics \u0026amp; videos\u003c/li\u003e\n\u003cli\u003ePick a Movie Feud or other show idea for me to do\u003c/li\u003e\n\u003cli\u003eFollow you on social media\u003c/li\u003e\n\u003cli\u003eEarly access to Working Title episodes\u003c/li\u003e\n\u003cli\u003eMerch discount\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-26T00:06:45.736043+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/91106/3ab500cc558a4d728cfda93573635a32?token-time=2145916800\u0026token-hash=LQB6Q3E6CyqX_Q5kHWc9AmUrW3KfcqYkKZHUdYucL5I%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-26T00:06:45.726313+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Big Lebowski",
+     "unpublished_at": null,
+     "url": "/bePatron?c=115517\u0026rid=91106"
+    },
+    "id": "91106",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 78,
+     "created_at": "2014-09-25T18:00:02+00:00",
+     "description": "At this level I will produce at least 2 episodes of a show a week.",
+     "reached_at": "2018-01-04T01:10:16+00:00",
+     "title": ""
+    },
+    "id": "67680",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 31,
+     "created_at": "2014-09-25T18:00:02+00:00",
+     "description": "If I some how magically hit this number I will invest in a new camera and audio.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "67681",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2014-10-06T22:51:15+00:00",
+     "description": "I will work harder to get you at least 1 episodes of Movie Feuds out each and every month!",
+     "reached_at": "2015-03-26T19:15:32+00:00",
+     "title": ""
+    },
+    "id": "71161",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2015-03-23T17:24:56+00:00",
+     "description": "At this level I will produce 1 new \"Adam Rants Movie\" every month!\u003cbr\u003e",
+     "reached_at": "2016-01-23T01:21:07+00:00",
+     "title": ""
+    },
+    "id": "141987",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2015-03-23T17:26:14+00:00",
+     "description": "Every month I will produce 2 or more episodes of Movie Feuds.",
+     "reached_at": "2016-02-23T16:16:43+00:00",
+     "title": ""
+    },
+    "id": "141988",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2015-07-01T13:50:50+00:00",
+     "description": "I will publish at least 2 new Adam Rants Movies videos.",
+     "reached_at": "2016-03-22T21:58:17+00:00",
+     "title": ""
+    },
+    "id": "195657",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/115517"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e75f195a-904d-4457-b4b9-39d9b83965cf",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Adam Olinger is creating Movie Feuds, Movie Reviews \u0026 Skits"
+});
+    </script>

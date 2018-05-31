@@ -18,6 +18,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 
 BATCH_SIZE = 100
+WORKER_COUNT = 20
 SRCPATH = Path('datadump', 'graphtreon', '2018-04.csv')
 DATA_DIR = Path('datadump', 'patreon', 'overviews')
 DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -87,7 +88,7 @@ async def batch_fetch(batch):
     [(slug, patreonurl, local_filename), (slug, patreon_url, local_filename)]
 
     """
-    with ThreadPoolExecutor(max_workers=40) as executor:
+    with ThreadPoolExecutor(max_workers=WORKER_COUNT) as executor:
         loop = asyncio.get_event_loop()
         futures = [
             loop.run_in_executor(
@@ -104,8 +105,8 @@ async def batch_fetch(batch):
                 print("Downloaded:", d['url'])
                 print("\tWrote:", len(d['content']), 'to:', d['dest_name'])
             else:
-                print('Error:', d['content'])
-
+                print("Error with:", d['url'])
+                print("\t", d['content'])
 
 def main():
     all_paths = gather_paths()

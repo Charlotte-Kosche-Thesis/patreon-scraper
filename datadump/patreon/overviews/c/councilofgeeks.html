@@ -1,0 +1,655 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "gvHV5VLzMJrS-GwjnEDXfz05dwL5tQFHhUi1hV6HZPs";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "703622",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/703622"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-07-05T20:20:49+00:00",
+    "creation_name": "Geeky Video and Podcasting Content",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIzIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1046673/956ac4ff7f1c4c97ba007d4949ba6831?token-time=2145916800\u0026token-hash=-J2tusfwPvGLKtdeLT8QPcdQX_95mpEbjC8AjhzPlvI%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMyJ9/patreon-media/campaign/1046673/956ac4ff7f1c4c97ba007d4949ba6831?token-time=2145916800\u0026token-hash=W2aTt2mVQzP9F26MW5JqdnWbzm4GeZ1Z1RX0IfW2cD0%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/Vbkhv70Ns0o\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://youtu.be/Vbkhv70Ns0o",
+    "one_liner": null,
+    "patron_count": 48,
+    "pay_per_name": "month",
+    "pledge_sum": 24482,
+    "pledge_url": "/bePatron?c=1046673",
+    "published_at": "2018-01-09T17:24:33+00:00",
+    "summary": "Welcome! You\u0027ve stumbled across the Patreon for Council of Geeks. Council of Geeks (despite the name) is largely one guy ranting at a camera on YouTube. But it\u0027s also more than that! It\u0027s ranting in podcasts! It\u0027s... sometimes ranting with somebody else on camera too... Ok, yeah so it\u0027s mostly just this one guy ranting at a camera. But folks seem to like it all the same."
+   },
+   "id": "1046673",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "6782323",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/6782323"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1066288",
+       "type": "goal"
+      },
+      {
+       "id": "1066289",
+       "type": "goal"
+      },
+      {
+       "id": "1066294",
+       "type": "goal"
+      },
+      {
+       "id": "1066295",
+       "type": "goal"
+      },
+      {
+       "id": "1070569",
+       "type": "goal"
+      },
+      {
+       "id": "1080848",
+       "type": "goal"
+      },
+      {
+       "id": "1099444",
+       "type": "goal"
+      },
+      {
+       "id": "1109894",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1046673",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1046673"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2255624",
+       "type": "reward"
+      },
+      {
+       "id": "2277852",
+       "type": "reward"
+      },
+      {
+       "id": "2269928",
+       "type": "reward"
+      },
+      {
+       "id": "2255627",
+       "type": "reward"
+      },
+      {
+       "id": "2319921",
+       "type": "reward"
+      },
+      {
+       "id": "2295703",
+       "type": "reward"
+      },
+      {
+       "id": "2382263",
+       "type": "reward"
+      },
+      {
+       "id": "2255636",
+       "type": "reward"
+      },
+      {
+       "id": "2269945",
+       "type": "reward"
+      },
+      {
+       "id": "2269940",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-07-05T20:20:30+00:00",
+     "facebook": "https://www.facebook.com/CouncilOfGeeks/",
+     "first_name": "Council",
+     "full_name": "Council of Geeks",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/6782323/74ae0c63e6ab4d37be5a73433f36e4b0?token-time=2145916800\u0026token-hash=U0Muqje3byUuupPZXLr4D-A7fYncVemHwey5OPvFcIQ%3D",
+     "last_name": "of Geeks",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/6782323/74ae0c63e6ab4d37be5a73433f36e4b0?token-time=2145916800\u0026token-hash=cCYjtxz9_Nca88tk600abCrpc7aBDITw3_lQ8icdtdk%3D",
+     "twitch": null,
+     "twitter": "councilofgeeks",
+     "url": "https://www.patreon.com/councilofgeeks",
+     "vanity": "councilofgeeks",
+     "youtube": "https://www.youtube.com/user/councilofgeeks"
+    },
+    "id": "6782323",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1046673",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1046673"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 39,
+     "upgrade_url": "/bePatron?c=1046673\u0026rid=2255624"
+    },
+    "id": "post-aggregation-for-0-1046673",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-01-03T19:57:10.228739+00:00",
+     "description": "Every bit helps! You\u0027ll get to participate in polls, give feedback about what topics I may tackle next and see the detailed docket for what I\u0027ve got planned .",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-15T13:52:24.388475+00:00",
+     "image_url": null,
+     "patron_count": 19,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-15T13:52:24.365313+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Cool Person",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1046673\u0026rid=2255624",
+     "user_limit": null
+    },
+    "id": "2255624",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-01-12T02:08:04.368401+00:00",
+     "description": "It\u0027s... well it\u0027s the same as the $1 tier, but you know... more expensive so it\u0027s more prestigious.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T02:08:04.368401+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T02:08:04.368401+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Neat Mortal",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1046673\u0026rid=2277852",
+     "user_limit": null
+    },
+    "id": "2277852",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-01-09T01:05:29.623101+00:00",
+     "description": "You are entitled to a personalized signed Council of Geeks business card featuring the channel logo and a teeny tiny little thank you note from a guy with atrocious handwriting. Truly destined to become a new treasured family heirloom.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T02:10:28.676988+00:00",
+     "image_url": null,
+     "patron_count": 13,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T02:10:28.649340+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Chill Humanoid",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1046673\u0026rid=2269928",
+     "user_limit": null
+    },
+    "id": "2269928",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-03T19:58:18.801598+00:00",
+     "description": "The business card thing from the previous tier, plus you\u0027ll get your\u00a0name in the credits at the end of the videos",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T02:10:39.899839+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T02:10:39.875087+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Nifty Individual",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1046673\u0026rid=2255627",
+     "user_limit": null
+    },
+    "id": "2255627",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1200,
+     "amount_cents": 1200,
+     "created_at": "2018-01-26T19:10:18.413653+00:00",
+     "description": "All previous tier rewards plus a single piece of merch of your choosing from the available options. You can choose between a button/badge, a fridge magnet, or akey chain.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-05T17:10:32.770409+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-05T17:10:32.760273+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Keen Vertibrate",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1046673\u0026rid=2319921",
+     "user_limit": null
+    },
+    "id": "2319921",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-01-18T14:02:54.400693+00:00",
+     "description": "All lower tier rewards plus a care package of Council of Geeks merch, featuring a button, magnet AND keychain. Why choose when you can have it all?",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-05T17:11:13.221597+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-05T17:11:13.213496+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Merch Loving Mammal",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1046673\u0026rid=2295703",
+     "user_limit": null
+    },
+    "id": "2295703",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2018-02-18T13:23:37.942898+00:00",
+     "description": "The aforementioned merch bundle and business card, PLUS a simple t-shirt with the Council of Geeks logo in the color and size of your choosing.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T13:23:37.942898+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T13:23:37.942898+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Dapper Bloke",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1046673\u0026rid=2382263",
+     "user_limit": null
+    },
+    "id": "2382263",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2018-01-03T20:03:14.132637+00:00",
+     "description": "Pick a film, comic book or TV show. I\u0027ll do a review of the film, the issue of your choosing of the comic or two episodes of your choosing of the show. Anything, even if it\u0027s not what I\u0027d normally tackle.",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-18T02:41:14.330211+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-18T02:41:14.319942+00:00",
+     "remaining": 4,
+     "requires_shipping": true,
+     "title": "Direct Influencer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1046673\u0026rid=2255636",
+     "user_limit": 5
+    },
+    "id": "2255636",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 30000,
+     "amount_cents": 30000,
+     "created_at": "2018-01-09T01:14:18.701957+00:00",
+     "description": "You strike a hard bargain. I\u0027ll do a review of up to 6 films in a film franchise, up to 12 episodes of a TV show, or up to 8issues of a comic book series of your choosing.",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-18T02:41:46.692493+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-18T02:41:46.685380+00:00",
+     "remaining": 2,
+     "requires_shipping": true,
+     "title": "Strong Armer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1046673\u0026rid=2269945",
+     "user_limit": 2
+    },
+    "id": "2269945",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 60000,
+     "amount_cents": 60000,
+     "created_at": "2018-01-09T01:11:19.119809+00:00",
+     "description": "You\u0027re insane, I hope you realize that. But you\u0027re also insane with disposable income, so here we go. Pick a film series, comic book series or TV show. I will review the entire film series (up to 18 films,) up to 24 episodes of the TV show or up to 20issues of the comic book.",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-18T02:42:59.008708+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-18T02:42:59.001941+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Mad Dictator",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1046673\u0026rid=2269940",
+     "user_limit": 1
+    },
+    "id": "2269940",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 81,
+     "created_at": "2018-01-03T19:51:55+00:00",
+     "description": "Expansion of Audio Equipment. I\u0027ll add lapel mics and remote recorders to my audio repertoire, which will allow me to have better sound quality when I have guests on.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1066288",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 400000,
+     "completed_percentage": 6,
+     "created_at": "2018-01-03T19:51:55+00:00",
+     "description": "Ok, pie in the sky pipe dream\u00a0time. This would be the minimum level to hit where I\u0027d be able to make video creation my primary source of income and possibly even full time job. This would mean new videos every day as a promise and not just a general goal. But it would also mean I\u0027d also be able to do more time intensive things than just hot takes. More video essays, more reaction videos (which are a pain to edit,) etc.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1066289",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 80000,
+     "completed_percentage": 30,
+     "created_at": "2018-01-03T19:53:14+00:00",
+     "description": "I\u0027ll start going to more than just my local Con (Vermont Comic Con for the record.) Maybe even going further than I\u0027d be able to do as a day trip. Will even look into getting a table at some depending how much merch I have to push at that point.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1066294",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2018-01-03T19:54:14+00:00",
+     "description": "Business cards! Something I can hand out at the couple of cons I go to in any given year (right now just VT Comic Con and sometimes Boston.) Which probably also means my sending out signed cards as part of the $5 tier reward so that it actually means something! So you\u0027ll be helping me make better rewards!",
+     "reached_at": "2018-01-12T03:08:10+00:00",
+     "title": ""
+    },
+    "id": "1066295",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2018-01-07T19:42:25+00:00",
+     "description": "I\u0027ll start getting some basic merch done up. Buttons, stickers, maybe some bookmarks. You know, the simple stuff. Once I have that stuff I\u0027ll be creating an alternate\u00a0$30 tier reward that\u0027ll include all lower tier rewards and a collection of merch for Council of Geeks, Punch Like a Girl and 90s Comics Retrial.",
+     "reached_at": "2018-01-18T11:14:18+00:00",
+     "title": ""
+    },
+    "id": "1070569",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 100,
+     "created_at": "2018-01-17T15:17:53+00:00",
+     "description": "T-shirts! I\u0027ll get some t-shirt merch, which will be available for purchase with a t-shirt with your choice of logo (Council of Geeks, Punch Like a Girl or 90s Comics Retrial) on it and make it another alternate $30 reward to the merch package as well as a $40 support tier that\u0027ll land supporters the shirt and the other merch.",
+     "reached_at": "2018-01-30T14:13:49+00:00",
+     "title": ""
+    },
+    "id": "1080848",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 120000,
+     "completed_percentage": 20,
+     "created_at": "2018-02-02T20:13:39+00:00",
+     "description": "New computer to do all this stuff from. Mine is no spring chicken and I\u2019m crossing my fingers it won\u2019t bite the big one before I can afford a decent replacement.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1099444",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 48,
+     "created_at": "2018-02-12T16:47:06+00:00",
+     "description": "Upgrade to the Camera. I\u0027ll get a better camera to ideally improve the quality of the videos as well as (depending on what I get,) make taking video in remote locations like comic cons more viable than it currently is.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1109894",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1046673"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ae49de10-cd77-4d73-a72d-e21deffe16d7",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Council of Geeks is creating Geeky Video and Podcasting Content"
+});
+    </script>

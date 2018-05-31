@@ -1,0 +1,497 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "0c6oDUaLNaJnVl0si6td7drLGL3gmFGoyIDgsTJEPCU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "102000",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/102000"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-09-24T10:41:55+00:00",
+    "creation_name": "short stories",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/217752/6c29dac652214a828b7f4cb09043d1a5?token-time=2145916800\u0026token-hash=ZWmIAYKBjoZhRf-mxryW1XBhryFZXCMwQxTs6LznjWE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/217752/6c29dac652214a828b7f4cb09043d1a5?token-time=2145916800\u0026token-hash=mQcapDdqPJX3DbDHZVe8dPuxEyhtRwE0DdyN3vGoOEc%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "\u05d0\u05dd \u05db\u05d5\u05ea\u05d1\u05d9\u05dd \u05de\u05d2\u05d9\u05e2\u05d9\u05dd \u05dc\u05de\u05e7\u05d5\u05de\u05d5\u05ea \u05de\u05d5\u05e4\u05dc\u05d0\u05d9\u05dd",
+    "patron_count": 80,
+    "pay_per_name": "story",
+    "pledge_sum": 55918,
+    "pledge_url": "/bePatron?c=217752",
+    "published_at": "2015-09-26T17:32:53+00:00",
+    "summary": "\u003cdiv style=\"text-align: right;\"\u003e\n\u003cstrong\u003e?\u05de\u05d9 \u05d0\u05e0\u05d9\u003c/strong\u003e\n\u003c/div\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\u003cdiv style=\"\"\u003e\n\u003cdiv style=\"\"\u003e\n\t\t\t\u05d0\u05e0\u05d9 \u05e8\u05d5\u05ea\u05dd \u05d1\u05e8\u05d5\u05db\u05d9\u05df. \u05ea\u05e1\u05e8\u05d9\u05d8\u05d0\u05d9\u05ea, \u05de\u05d7\u05d6\u05d0\u05d9\u05ea, \u05d5\u05e1\u05d5\u05e4\u05e8\u05ea \u05d6\u05d5\u05db\u05ea \u05e4\u05e8\u05e1 \u05d2\u05e4\u05df. \u05d0\u05e0\u05d9 \u05db\u05d5\u05ea\u05d1\u05ea \u05e1\u05d9\u05e4\u05d5\u05e8\u05d9 \u05de\u05d3\u05e2 \u05d1\u05d3\u05d9\u05d5\u05e0\u05d9 \u05d5\u05e4\u05e0\u05d8\u05e1\u05d9\u05d4 \u05db\u05d1\u05e8 \u05de\u05e2\u05dc \u05e2\u05e9\u05d5\u05e8. \u05d1\u05e9\u05e0\u05d9\u05dd \u05d4\u05d0\u05d7\u05e8\u05d5\u05e0\u05d5\u05ea \u05e4\u05e8\u05e1\u05de\u05ea\u05d9 \u05d0\u05ea \u05e1\u05d3\u05e8\u05ea \"\u05e9\u05d5\u05de\u05e8\u05d9 \u05d4\u05e2\u05e8\u05d9\u05dd\", \u05e9\u05e9\u05e0\u05d9 \u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05de\u05ea\u05d5\u05db\u05d4 \u05d6\u05db\u05d5 \u05d1\u05e4\u05e8\u05e1 \u05d2\u05e4\u05df \u05dc\u05de\u05d3\u05e2 \u05d1\u05d3\u05d9\u05d5\u05e0\u05d9 \u05d5\u05dc\u05e4\u05e0\u05d8\u05e1\u05d9\u05d4. \u05d0\u05ea\u05dd \u05de\u05d5\u05d6\u05de\u05e0\u05d9\u05dd \u05dc\u05e7\u05e8\u05d5\u05d0 \u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05e9\u05db\u05ea\u05d1\u05ea\u05d9 \u05d1\u05d1\u05dc\u05d5\u05d2 \u05e9\u05dc\u05d9, \"\u003ca href=\"http://rotemwrites.com/\" rel=\"nofollow\" target=\"_blank\"\u003e\u05e4\u05ea\u05e7\u05d9\u05d5\u05ea \u05dc\u05d9\u05d3 \u05d4\u05de\u05d9\u05d8\u05d4\u003c/a\u003e\".\u00a0\n\t\t\u003c/div\u003e\n\u003cbr\u003e\n\u003c/div\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\u003cstrong style=\"background-color: initial;\"\u003e\u05dc\u05de\u05d4 \u05d0\u05e0\u05d9 \u05e6\u05e8\u05d9\u05db\u05d4 \u05e4\u05d8\u05e8\u05d9\u05d0\u05d5\u05df?\u003c/strong\u003e\n\u003c/div\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\t\t\u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05db\u05ea\u05d5\u05d1 \u05d5\u05dc\u05e4\u05e8\u05e1\u05dd \u05d9\u05d5\u05ea\u05e8 \u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd, \u05d0\u05d1\u05dc \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc\u05d4 \u05dc\u05d4\u05e9\u05e7\u05d9\u05e2 \u05d4\u05e8\u05d1\u05d4 \u05d6\u05de\u05df \u05d1\u05db\u05ea\u05d9\u05d1\u05d4 \u05e9\u05dc\u05d9. \u05e4\u05d8\u05e8\u05d9\u05d0\u05d5\u05df \u05d9\u05d0\u05e4\u05e9\u05e8 \u05dc\u05db\u05dd \u05dc\u05ea\u05de\u05d5\u05da \u05d1\u05d9, \u05db\u05d3\u05d9 \u05e9\u05d0\u05d5\u05db\u05dc \u05dc\u05e4\u05e0\u05d5\u05ea \u05d6\u05de\u05df \u05dc\u05db\u05ea\u05d9\u05d1\u05d4.\n\t\t\t\u003c/div\u003e\n\u003cbr\u003e\n\u003c/div\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\u003cstrong\u003e\u05de\u05d4 \u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05db\u05ea\u05d5\u05d1?\u003c/strong\u003e\n\u003c/div\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\u003cdiv style=\"\"\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\t\t\u05d4\u05de\u05d5\u05df \u05d3\u05d1\u05e8\u05d9\u05dd. \u05e8\u05e2\u05d9\u05d5\u05e0\u05d5\u05ea \u05d9\u05e9\u05e0\u05d9\u05dd. \u05e8\u05e2\u05d9\u05d5\u05e0\u05d5\u05ea \u05d7\u05d3\u05e9\u05d9\u05dd. \u05d4\u05de\u05e9\u05db\u05d9\u05dd \u05dc\u05e1\u05d3\u05e8\u05d5\u05ea \u05e7\u05d9\u05d9\u05de\u05d5\u05ea. \u05e8\u05e2\u05d9\u05d5\u05e0\u05d5\u05ea \u05e9\u05d0\u05ea\u05dd \u05ea\u05e6\u05d9\u05e2\u05d5. \u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05d1\u05d4\u05de\u05e9\u05db\u05d9\u05dd \u05e9\u05e4\u05e8\u05e7\u05d9\u05dd \u05de\u05ea\u05d5\u05db\u05dd \u05d9\u05ea\u05e4\u05e8\u05e1\u05de\u05d5 \u05de\u05d3\u05d9 \u05d7\u05d5\u05d3\u05e9. \u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05e9\u05d1\u05db\u05dc\u05dc \u05dc\u05d0 \u05d7\u05e9\u05d1\u05ea\u05d9 \u05e2\u05dc\u05d9\u05d4\u05dd \u05e2\u05d3\u05d9\u05d9\u05df. \u05e8\u05d5\u05e6\u05d9\u05dd \u05dc\u05e2\u05d6\u05d5\u05e8 \u05dc\u05d9?\n\t\t\t\t\u003c/div\u003e\n\u003cbr\u003e\n\u003c/div\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\u003cstrong\u003e?\u05d0\u05d9\u05da \u05d6\u05d4 \u05e2\u05d5\u05d1\u05d3\u003c/strong\u003e\n\u003c/div\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\t\u05d1\u05de\u05e1\u05d2\u05e8\u05ea \u05e4\u05d8\u05e8\u05d9\u05d0\u05d5\u05df \u05d0\u05e0\u05d9 \u05de\u05ea\u05db\u05e0\u05e0\u05ea \u05dc\u05db\u05ea\u05d5\u05d1 \u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05d1\u05d0\u05d5\u05e8\u05da \u05e9\u05dc 1,500 \u05de\u05d9\u05dc\u05d9\u05dd \u05dc\u05e4\u05d7\u05d5\u05ea (\u05d5\u05d0\u05d5\u05dc\u05d9 \u05d9\u05d5\u05ea\u05e8, \u05ea\u05dc\u05d5\u05d9 \u05d1\u05e1\u05d9\u05e4\u05d5\u05e8). \u05d0\u05ea \u05d4\u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05e9\u05d0\u05db\u05ea\u05d5\u05d1 \u05d0\u05e4\u05e8\u05e1\u05dd \u05ea\u05de\u05d9\u05d3 \u05dc\u05e7\u05e8\u05d9\u05d0\u05d4 \u05d7\u05d5\u05e4\u05e9\u05d9\u05ea, \u05d1\u05de\u05d2\u05d6\u05d9\u05df \u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05d8\u05d9 \u05d7\u05d9\u05e0\u05de\u05d9 \u05d0\u05d5 \u05d1\u05d1\u05dc\u05d5\u05d2 \u05e9\u05dc\u05d9, \"\n\t\t\t\t\t\u003ca href=\"http://rotemwrites.com/\" rel=\"nofollow\" target=\"_blank\"\u003e\u05e4\u05ea\u05e7\u05d9\u05d5\u05ea \u05dc\u05d9\u05d3 \u05d4\u05de\u05d9\u05d8\u05d4\u003c/a\u003e\".\n\t\t\t\t\u003c/div\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\t\u05d0\u05e0\u05d9 \u05de\u05ea\u05db\u05d5\u05d5\u05e0\u05ea \u05dc\u05db\u05ea\u05d5\u05d1 \u05e1\u05d9\u05e4\u05d5\u05e8 \u05d1\u05db\u05dc \u05d7\u05d5\u05d3\u05e9, \u05d5\u05d0\u05dd \u05d0\u05d5\u05db\u05dc \u2013 \u05e9\u05e0\u05d9 \u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05d1\u05d7\u05d5\u05d3\u05e9. \u05d4\u05ea\u05de\u05d9\u05db\u05d4 \u05e9\u05dc\u05db\u05dd \u05d4\u05d9\u05d0 \u05dc\u05d0 \u05d7\u05d5\u05d3\u05e9\u05d9\u05ea, \u05d0\u05dc\u05d0 \u05dc\u05e4\u05d9 \u05e4\u05e8\u05e1\u05d5\u05dd \u05d4\u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd, \u05db\u05d0\u05e9\u05e8 \u05d4\u05e1\u05d9\u05e4\u05d5\u05e8 \u05de\u05ea\u05e4\u05e8\u05e1\u05dd. \u05d0\u05dd \u05ea\u05d7\u05dc\u05d9\u05d8\u05d5 \u05dc\u05ea\u05de\u05d5\u05da \u05d1\u05d9, \u05d0\u05de\u05e6\u05e2\u05d9 \u05d4\u05ea\u05e9\u05dc\u05d5\u05dd \u05e9\u05dc\u05db\u05dd \u05d9\u05d7\u05d5\u05d9\u05d1 \u05d1\u05db\u05dc \u05e4\u05e2\u05dd \u05e9\u05d0\u05e4\u05e8\u05e1\u05dd \u05e1\u05d9\u05e4\u05d5\u05e8 \u05d7\u05d3\u05e9. \u05d0\u05dd \u05dc\u05d0 \u05e4\u05e8\u05e1\u05de\u05ea\u05d9 \u05e1\u05d9\u05e4\u05d5\u05e8, \u05dc\u05d0 \u05ea\u05d7\u05d5\u05d9\u05d1\u05d5. \u05d3\u05e8\u05da \u05e4\u05d8\u05e8\u05d9\u05d0\u05d5\u05df \u05d0\u05ea\u05dd \u05d9\u05db\u05d5\u05dc\u05d9\u05dd \u05d2\u05dd \u05dc\u05d4\u05d2\u05d1\u05d9\u05dc \u05d0\u05ea \u05e1\u05db\u05d5\u05dd \u05d4\u05ea\u05de\u05d9\u05db\u05d4 \u05d4\u05de\u05e7\u05e1\u05d9\u05de\u05dc\u05d9 \u05e9\u05dc\u05db\u05dd \u05dc\u05d7\u05d5\u05d3\u05e9 (\u05db\u05da \u05e9\u05ea\u05e9\u05dc\u05de\u05d5 \u05e8\u05e7 \u05e2\u05d3 \u05d4\u05e1\u05db\u05d5\u05dd \u05e9\u05d4\u05d2\u05d3\u05e8\u05ea\u05dd, \u05dc\u05d0 \u05de\u05e9\u05e0\u05d4 \u05db\u05de\u05d4 \u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05d0\u05e4\u05e8\u05e1\u05dd).\n\t\t\t\t\t\u003c/div\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\u003cdiv style=\"\"\u003e\n\t\t\u05d0\u05ea\u05dd \u05de\u05d5\u05d6\u05de\u05e0\u05d9\u05dd, \u05db\u05de\u05d5\u05d1\u05df, \u05dc\u05ea\u05de\u05d5\u05da \u05d1\u05e1\u05db\u05d5\u05dd \u05d2\u05d1\u05d5\u05d4 \u05d9\u05d5\u05ea\u05e8 \u05de\u05d4\u05e1\u05db\u05d5\u05dd \u05d4\u05de\u05d5\u05e6\u05e2 \u05d1\u05de\u05d3\u05e8\u05d2\u05d4 \u05e9\u05d1\u05d7\u05e8\u05ea\u05dd. \u05db\u05dc \u05e1\u05db\u05d5\u05dd \u05d9\u05e2\u05d6\u05d5\u05e8 \u05dc\u05d9 \u05dc\u05db\u05ea\u05d5\u05d1 \u05d9\u05d5\u05ea\u05e8.\n\t\t\t\t\t\t\u003c/div\u003e\n\u003cbr\u003e\n\u003c/div\u003e\n\u003cdiv style=\"text-align: right;\"\u003e\n\u003cstrong\u003e\u05e9\u05d0\u05dc\u05d5\u05ea? \u05d4\u05e6\u05e2\u05d5\u05ea?\u003c/strong\u003e\n\u003c/div\u003e\n\u003cdiv style=\"text-align: right;\"\u003e(\u05d4\u05e1\u05d9\u05e8\u05d5 \u05d0\u05ea \u05d4\u05e8\u05d5\u05d5\u05d7\u05d9\u05dd) rotem.baruchin @ gmail.com\u003cbr\u003e\n\t\t\t\t\t\t\u05d0\u05d5\u00a0\n\t\t\t\t\t\t\u003ca href=\"https://www.facebook.com/RotemWrites/\" rel=\"nofollow\" target=\"_blank\"\u003e\u05d1\u05e4\u05d9\u05d9\u05e1\u05d1\u05d5\u05e7\u003c/a\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e"
+   },
+   "id": "217752",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "258076",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/258076"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "248877",
+       "type": "goal"
+      },
+      {
+       "id": "248878",
+       "type": "goal"
+      },
+      {
+       "id": "248879",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "319365",
+       "type": "reward"
+      },
+      {
+       "id": "319366",
+       "type": "reward"
+      },
+      {
+       "id": "319367",
+       "type": "reward"
+      },
+      {
+       "id": "319368",
+       "type": "reward"
+      },
+      {
+       "id": "319369",
+       "type": "reward"
+      },
+      {
+       "id": "319370",
+       "type": "reward"
+      },
+      {
+       "id": "319371",
+       "type": "reward"
+      },
+      {
+       "id": "319372",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2014-08-07T10:20:46+00:00",
+     "facebook": null,
+     "first_name": "Rotem",
+     "full_name": "Rotem Baruchin",
+     "gender": 2,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/258076/cfabf4c211c349949836cc0e71a87141?token-time=2145916800\u0026token-hash=2X76q3lTVLt91Oe015wZ0MgSXEgmd0bZ6WBXvnetZxU%3D",
+     "last_name": "Baruchin",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/258076/cfabf4c211c349949836cc0e71a87141?token-time=2145916800\u0026token-hash=LHbZJedaI8Bfx1ISdGGVWELB8aYXHmEzj5JQ9OupNVo%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/rotemwrites",
+     "vanity": "rotemwrites",
+     "youtube": null
+    },
+    "id": "258076",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "217752",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/217752"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-01-28T08:17:10+00:00",
+     "description": "\u003cdiv style=\"text-align: right;\"\u003e\u003cstrong\u003e\u05ea\u05d5\u05d3\u05d4 \u05e8\u05d1\u05d4! \u003c/strong\u003e\u05db\u05dc \u05e1\u05db\u05d5\u05dd \u05e2\u05d5\u05d6\u05e8 \u05dc\u05d9 \u05dc\u05db\u05ea\u05d5\u05d1 \u05d9\u05d5\u05ea\u05e8. \u05ea\u05e7\u05d1\u05dc\u05d5 \u05e2\u05d3\u05db\u05d5\u05df \u05d1\u05db\u05dc \u05e4\u05e2\u05dd \u05e9\u05d0\u05e4\u05e8\u05e1\u05dd \u05e1\u05d9\u05e4\u05d5\u05e8 \u05d7\u05d3\u05e9.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 9,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-28T08:17:10+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=217752\u0026rid=319365",
+     "user_limit": null
+    },
+    "id": "319365",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-01-28T08:17:10+00:00",
+     "description": "\u003cdiv style=\"text-align: right;\"\u003e\u003cstrong\u003e\u05e1\u05d9\u05e4\u05d5\u05e8\u05d5\u05df \u05d0\u05d9\u05e9\u05d9: \u003c/strong\u003e\u05d1\u05db\u05dc \u05e4\u05e2\u05dd \u05e9\u05d0\u05e4\u05e8\u05e1\u05dd \u05e1\u05d9\u05e4\u05d5\u05e8 \u05d7\u05d3\u05e9, \u05ea\u05e7\u05d1\u05dc\u05d5 \u05d0\u05d5\u05ea\u05d5 \u05dc\u05de\u05d9\u05d9\u05dc \u05e9\u05dc\u05db\u05dd. \u05db\u05dc \u05e4\u05d8\u05e8\u05d5\u05df \u05d0\u05d5 \u05e4\u05d8\u05e8\u05d5\u05e0\u05d9\u05ea \u05d7\u05d3\u05e9\u05d9\u05dd \u05e9\u05d4\u05e6\u05d8\u05e8\u05e4\u05d5 \u05d1\u05de\u05d3\u05e8\u05d2\u05ea \u05ea\u05de\u05d9\u05db\u05d4 \u05d6\u05d5 \u05d9\u05e7\u05d1\u05dc\u05d5 \u05e1\u05d9\u05e4\u05d5\u05e8\u05d5\u05df \u05d7\u05d3-\u05e4\u05e2\u05de\u05d9 \u05d1\u05d0\u05d5\u05e8\u05da \u05e4\u05e1\u05e7\u05d4 \u05d0\u05d5 \u05e9\u05ea\u05d9\u05d9\u05dd, \u05e2\u05dc \u05e4\u05d9 \u05e0\u05d5\u05e9\u05d0 \u05d0\u05d5 \u05de\u05d9\u05dc\u05d4 \u05e9\u05d9\u05d1\u05e7\u05e9\u05d5 (\u05d1\u05d4\u05ea\u05d9\u05d9\u05e2\u05e6\u05d5\u05ea \u05de\u05e8\u05d0\u05e9 \u05d0\u05d9\u05ea\u05d9 \u05d5\u05d1\u05ea\u05e0\u05d0\u05d9 \u05e9\u05dc\u05d0 \u05d9\u05d4\u05d9\u05d4 \u05e4\u05d5\u05d2\u05e2\u05e0\u05d9. \u05de\u05d5\u05e2\u05d3 \u05d4\u05de\u05e1\u05d9\u05e8\u05d4: \u05d1\u05de\u05d4\u05dc\u05da \u05d4\u05d7\u05d5\u05d3\u05e9 \u05d1\u05d5 \u05e0\u05e8\u05e9\u05de\u05ea\u05dd \u05db\u05e4\u05d8\u05e8\u05d5\u05e0\u05d9\u05dd)\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 14,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-28T08:17:10+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=217752\u0026rid=319366",
+     "user_limit": null
+    },
+    "id": "319366",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-01-28T08:17:10+00:00",
+     "description": "\u003cdiv style=\"text-align: right;\"\u003e\u003cstrong\u003e\u05de\u05d0\u05d7\u05d5\u05e8\u05d9 \u05d4\u05e7\u05dc\u05e2\u05d9\u05dd \u05d5\u05d4\u05e6\u05e6\u05d4 \u05de\u05d5\u05e7\u05d3\u05de\u05ea: \u003c/strong\u003e\u05ea\u05e7\u05d1\u05dc\u05d5 \u05d0\u05ea \u05db\u05dc \u05d4\u05ea\u05de\u05d5\u05e8\u05d5\u05ea \u05d4\u05e7\u05d5\u05d3\u05de\u05d5\u05ea, \u05d5\u05d1\u05e0\u05d5\u05e1\u05e3 \u05ea\u05e7\u05d1\u05dc\u05d5 \u05d0\u05ea \u05d4\u05e1\u05d9\u05e4\u05d5\u05e8 \u05d4\u05d7\u05d3\u05e9 \u05d1\u05de\u05d9\u05d9\u05dc \u05db\u05de\u05d4 \u05d9\u05de\u05d9\u05dd \u05dc\u05e4\u05e0\u05d9 \u05db\u05d5\u05dc\u05dd. \u05db\u05de\u05d5 \u05db\u05df \u05ea\u05e7\u05d1\u05dc\u05d5 \u05e2\u05d3\u05db\u05d5\u05e0\u05d9\u05dd \u05e9\u05d5\u05d8\u05e4\u05d9\u05dd \u05e2\u05dc \u05d4\u05e4\u05e8\u05d5\u05d9\u05d9\u05e7\u05d8\u05d9\u05dd \u05e9\u05dc\u05d9, \u05de\u05d4 \u05d0\u05e0\u05d9 \u05e2\u05d5\u05e9\u05d4 \u05e2\u05db\u05e9\u05d9\u05d5 \u05d5\u05de\u05d4 \u05d0\u05e0\u05d9 \u05de\u05ea\u05db\u05e0\u05e0\u05ea \u05dc\u05e2\u05e9\u05d5\u05ea \u05d1\u05d6\u05de\u05df \u05d4\u05e7\u05e8\u05d5\u05d1.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 17,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-28T08:17:10+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=217752\u0026rid=319367",
+     "user_limit": null
+    },
+    "id": "319367",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2016-01-28T08:17:10+00:00",
+     "description": "\u003cdiv style=\"text-align: right;\"\u003e\u003cstrong\u003e\u05e7\u05d1\u05d5\u05e6\u05ea \u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05e1\u05d5\u05d3\u05d9\u05ea: \u003c/strong\u003e\u05ea\u05e7\u05d1\u05dc\u05d5 \u05d0\u05ea \u05db\u05dc \u05d4\u05ea\u05de\u05d5\u05e8\u05d5\u05ea \u05d4\u05e7\u05d5\u05d3\u05de\u05d5\u05ea, \u05d5\u05d1\u05e0\u05d5\u05e1\u05e3 \u05ea\u05e6\u05d5\u05e8\u05e4\u05d5 \u05dc\u05e7\u05d1\u05d5\u05e6\u05d4 \u05e1\u05d5\u05d3\u05d9\u05ea \u05d1\u05e4\u05d9\u05d9\u05e1\u05d1\u05d5\u05e7, \u05d1\u05de\u05e1\u05d2\u05e8\u05ea\u05d4 \u05ea\u05d5\u05db\u05dc\u05d5 \u05dc\u05e2\u05d6\u05d5\u05e8 \u05dc\u05d9 \u05dc\u05d1\u05d7\u05d5\u05e8 \u05de\u05d4 \u05d9\u05d4\u05d9\u05d5 \u05d4\u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05d4\u05d1\u05d0\u05d9\u05dd \u05e9\u05d0\u05e4\u05e8\u05e1\u05dd, \u05dc\u05e9\u05de\u05d5\u05e2 \u05d4\u05ea\u05dc\u05d1\u05d8\u05d5\u05d9\u05d5\u05ea, \u05dc\u05d9\u05d9\u05e2\u05e5, \u05dc\u05e9\u05d0\u05d5\u05dc \u05e9\u05d0\u05dc\u05d5\u05ea, \u05dc\u05d4\u05d1\u05d9\u05e2 \u05d3\u05e2\u05d5\u05ea \u05d5\u05dc\u05d4\u05e6\u05d9\u05e2 \u05e8\u05e2\u05d9\u05d5\u05e0\u05d5\u05ea \u05dc\u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd (\u05d0\u05e0\u05d9 \u05dc\u05d0 \u05de\u05ea\u05d7\u05d9\u05d9\u05d1\u05ea \u05dc\u05e7\u05d1\u05dc \u05d0\u05ea \u05db\u05dc \u05d4\u05e8\u05e2\u05d9\u05d5\u05e0\u05d5\u05ea, \u05d0\u05d1\u05dc \u05d1\u05d4\u05d7\u05dc\u05d8 \u05d0\u05d0\u05de\u05e5 \u05dc\u05e4\u05d7\u05d5\u05ea \u05d7\u05dc\u05e7 \u05de\u05d4\u05dd).\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 22,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-28T08:17:10+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=217752\u0026rid=319368",
+     "user_limit": null
+    },
+    "id": "319368",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-01-28T08:17:10+00:00",
+     "description": "\u003cdiv style=\"text-align: right;\"\u003e\u003cstrong\u003e\u05d4\u05d5\u05e4\u05e2\u05ea \u05d0\u05d5\u05e8\u05d7 \u05d1\u05e1\u05d9\u05e4\u05d5\u05e8:\u00a0\u003c/strong\u003e\u05ea\u05e7\u05d1\u05dc\u05d5 \u05d0\u05ea \u05db\u05dc \u05d4\u05ea\u05de\u05d5\u05e8\u05d5\u05ea \u05d4\u05e7\u05d5\u05d3\u05de\u05d5\u05ea, \u05d5\u05d1\u05e0\u05d5\u05e1\u05e3 \u05ea\u05d5\u05db\u05dc\u05d5 \u05dc\u05d4\u05db\u05e0\u05d9\u05e1 \u05e9\u05dd \u05dc\u05de\u05d0\u05d2\u05e8 \u05e9\u05dc \u05e9\u05de\u05d5\u05ea \u05d3\u05de\u05d5\u05d9\u05d5\u05ea (\u05d0\u05ea \u05e9\u05de\u05db\u05dd \u05e9\u05dc\u05db\u05dd \u05d0\u05d5 \u05db\u05dc \u05e9\u05dd \u05d0\u05d7\u05e8 \u05e9\u05ea\u05d1\u05d7\u05e8\u05d5). \u05db\u05dc \u05d4\u05e9\u05de\u05d5\u05ea \u05d1\u05de\u05d0\u05d2\u05e8 \u05d9\u05d4\u05e4\u05db\u05d5 \u05dc\u05d3\u05de\u05d5\u05d9\u05d5\u05ea \u05d1\u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05e9\u05dc\u05d9 \u05e9\u05d9\u05db\u05ea\u05d1\u05d5 \u05d1\u05e9\u05e0\u05d4 \u05d4\u05e7\u05e8\u05d5\u05d1\u05d4.\u00a0\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 11,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-28T08:17:10+00:00",
+     "remaining": 9,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=217752\u0026rid=319369",
+     "user_limit": 20
+    },
+    "id": "319369",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-01-28T08:17:10+00:00",
+     "description": "\u003cdiv style=\"text-align: right;\"\u003e\u003cstrong\u003e\u05e1\u05d9\u05e4\u05d5\u05e8\u05d5\u05df \u05d0\u05d9\u05e9\u05d9 \u05e7\u05d1\u05d5\u05e2: \u003c/strong\u003e\u05ea\u05e7\u05d1\u05dc\u05d5 \u05d0\u05ea \u05db\u05dc \u05d4\u05ea\u05de\u05d5\u05e8\u05d5\u05ea \u05d1\u05de\u05d3\u05e8\u05d2\u05d5\u05ea 1 \u2013  7 \u05d3\u05d5\u05dc\u05e8, \u05d5\u05d1\u05e0\u05d5\u05e1\u05e3 \u05d1\u05db\u05dc \u05e4\u05e2\u05dd \u05e9\u05d0\u05e4\u05e8\u05e1\u05dd \u05e1\u05d9\u05e4\u05d5\u05e8, \u05d0\u05db\u05ea\u05d5\u05d1 \u05dc\u05db\u05dd \u05e1\u05d9\u05e4\u05d5\u05e8\u05d5\u05df \u05d0\u05d9\u05e9\u05d9 \u05e9\u05dc \u05e4\u05e1\u05e7\u05d4 \u05d0\u05d5 \u05e9\u05ea\u05d9\u05d9\u05dd, \u05e2\u05dc \u05e4\u05d9 \u05e0\u05d5\u05e9\u05d0 \u05d0\u05d5 \u05de\u05d9\u05dc\u05d4 \u05e9\u05ea\u05d1\u05e7\u05e9\u05d5 (\u05d1\u05d4\u05ea\u05d9\u05d9\u05e2\u05e6\u05d5\u05ea \u05de\u05e8\u05d0\u05e9 \u05d0\u05d9\u05ea\u05d9 \u05d5\u05d1\u05ea\u05e0\u05d0\u05d9 \u05e9\u05dc\u05d0 \u05d9\u05d4\u05d9\u05d4 \u05e4\u05d5\u05d2\u05e2\u05e0\u05d9).\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-28T08:17:10+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=217752\u0026rid=319370",
+     "user_limit": 5
+    },
+    "id": "319370",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2016-01-28T08:17:10+00:00",
+     "description": "\u003cdiv style=\"text-align: right;\"\u003e\u003cstrong\u003e\u05e7\u05e8\u05d9\u05d0\u05ea \u05d1\u05d8\u05d0 \u05d0\u05d5 \u05e2\u05e8\u05d9\u05db\u05d4 \u05e7\u05d1\u05d5\u05e2\u05d4: \u003c/strong\u003e\u05ea\u05e7\u05d1\u05dc\u05d5 \u05d0\u05ea \u05db\u05dc \u05d4\u05ea\u05de\u05d5\u05e8\u05d5\u05ea \u05d1\u05de\u05d3\u05e8\u05d2\u05d5\u05ea 1 \u2013 7 \u05d3\u05d5\u05dc\u05e8, \u05d5\u05d1\u05e0\u05d5\u05e1\u05e3 \u05d1\u05db\u05dc \u05e4\u05e2\u05dd \u05e9\u05d0\u05e4\u05e8\u05e1\u05dd \u05e1\u05d9\u05e4\u05d5\u05e8, \u05ea\u05e7\u05d1\u05dc\u05d5 \u05d0\u05ea \u05e9\u05d9\u05e8\u05d5\u05ea\u05d9\u05d9 \u05d1\u05ea\u05d5\u05e8 \u05e7\u05d5\u05e8\u05d0\u05ea \u05d1\u05d8\u05d0 \u05d0\u05d5 \u05e2\u05d5\u05e8\u05db\u05ea, \u05dc\u05d8\u05e7\u05e1\u05d8 \u05e9\u05d0\u05d5\u05e8\u05db\u05d5 \u05e2\u05d3 1,500 \u05de\u05d9\u05dc\u05d9\u05dd. \u05ea\u05d5\u05db\u05dc\u05d5 \u05dc\u05e9\u05dc\u05d5\u05d7 \u05dc\u05d9 \u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd, \u05ea\u05e1\u05e8\u05d9\u05d8\u05d9\u05dd, \u05de\u05d7\u05d6\u05d5\u05ea, \u05d0\u05e4\u05d9\u05dc\u05d5 \u05e8\u05e2\u05d9\u05d5\u05e0\u05d5\u05ea \u05e9\u05d0\u05ea\u05dd \u05ea\u05e7\u05d5\u05e2\u05d9\u05dd \u05d0\u05d9\u05ea\u05dd, \u05d5\u05d0\u05e0\u05d9 \u05d0\u05e2\u05d6\u05d5\u05e8 \u05dc\u05db\u05dd \u05dc\u05e9\u05e4\u05e8 \u05d0\u05d5\u05ea\u05dd.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-28T08:17:10+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=217752\u0026rid=319371",
+     "user_limit": 5
+    },
+    "id": "319371",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-01-28T08:17:10+00:00",
+     "description": "\u003cdiv style=\"text-align: right;\"\u003e\u003cstrong\u003e\u05e1\u05d3\u05e0\u05ea \u05db\u05ea\u05d9\u05d1\u05d4 \u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05d8\u05d9\u05ea: \u003c/strong\u003e\u05ea\u05e7\u05d1\u05dc\u05d5 \u05d0\u05ea \u05db\u05dc \u05d4\u05ea\u05de\u05d5\u05e8\u05d5\u05ea \u05d1\u05de\u05d3\u05e8\u05d2\u05d5\u05ea 1 \u2013 7 \u05d3\u05d5\u05dc\u05e8, \u05d5\u05d1\u05e0\u05d5\u05e1\u05e3 \u05d1\u05db\u05dc \u05e4\u05e2\u05dd \u05e9\u05d0\u05e4\u05e8\u05e1\u05dd \u05e1\u05d9\u05e4\u05d5\u05e8 \u05ea\u05e7\u05d1\u05dc\u05d5 \u05e1\u05d3\u05e0\u05ea \u05db\u05ea\u05d9\u05d1\u05d4 \u05e7\u05d1\u05d5\u05e6\u05ea\u05d9\u05ea \u05d1\u05d2\u05d5\u05d2\u05dc \u05d4\u05e0\u05d2\u05d0\u05d0\u05d5\u05d8\u05e1 (\u05db\u05de\u05d5 \u05e1\u05e7\u05d9\u05d9\u05e4, \u05dc\u05de\u05d9 \u05e9\u05dc\u05d0 \u05de\u05db\u05d9\u05e8 \u2013 \u05db\u05dc \u05de\u05d4 \u05e9\u05e6\u05e8\u05d9\u05da \u05d6\u05d4 \u05de\u05e6\u05dc\u05de\u05d4, \u05d0\u05d5\u05d6\u05e0\u05d9\u05d5\u05ea \u05d5\u05de\u05d9\u05e7\u05e8\u05d5\u05e4\u05d5\u05df). \u05d0\u05dc\u05de\u05d3 \u05d0\u05ea\u05db\u05dd \u05d8\u05db\u05e0\u05d9\u05e7\u05d5\u05ea \u05db\u05ea\u05d9\u05d1\u05d4, \u05d0\u05d7\u05dc\u05d5\u05e7 \u05d0\u05ea\u05db\u05dd \u05de\u05d4\u05e0\u05d9\u05e1\u05d9\u05d5\u05df \u05e9\u05dc\u05d9 \u05d5\u05de\u05d4\u05db\u05dc\u05d9\u05dd \u05e9\u05dc\u05d9, \u05d0\u05e7\u05e8\u05d0 \u05d0\u05ea \u05d4\u05d8\u05e7\u05e1\u05d8\u05d9\u05dd \u05e9\u05dc\u05db\u05dd \u05d5\u05d0\u05e2\u05d6\u05d5\u05e8 \u05dc\u05db\u05dd \u05dc\u05d4\u05e9\u05ea\u05e4\u05e8 \u05db\u05db\u05d5\u05ea\u05d1\u05d9\u05dd, \u05e0\u05d9\u05e6\u05d5\u05e8 \u05e2\u05d5\u05dc\u05de\u05d5\u05ea \u05de\u05d2\u05e0\u05d9\u05d1\u05d9\u05dd \u05e9\u05db\u05dc \u05de\u05e9\u05ea\u05ea\u05e4\u05d9 \u05d4\u05e1\u05d3\u05e0\u05d4 \u05d9\u05ea\u05e8\u05de\u05d5 \u05dc\u05d4\u05dd \u05d5\u05e0\u05db\u05ea\u05d5\u05d1 \u05d1\u05d4\u05dd \u05e1\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd  - \u05d5\u05db\u05dc \u05d6\u05d4 \u05de\u05d4\u05d1\u05d9\u05ea, \u05d3\u05e8\u05da \u05d4\u05de\u05e6\u05dc\u05de\u05d4. \u05de\u05d5\u05ea\u05e8 \u05dc\u05dc\u05d1\u05d5\u05e9 \u05e4\u05d9\u05d2\u0027\u05de\u05d5\u05ea. (\u05de\u05d9 \u05e9\u05d9\u05e2\u05d3\u05d9\u05e3 \u05d9\u05d5\u05db\u05dc \u05dc\u05e7\u05d1\u05dc \u05d0\u05ea \u05e1\u05d3\u05e0\u05ea \u05d4\u05db\u05ea\u05d9\u05d1\u05d4 \u05d1\u05d4\u05ea\u05db\u05ea\u05d1\u05d5\u05ea \u05d1\u05de\u05e7\u05d5\u05dd \u05d1\u05d5\u05d5\u05d9\u05d3\u05d0\u05d5). \u05d1\u05e0\u05d5\u05e1\u05e3, \u05db\u05dc \u05ea\u05d5\u05de\u05da \u05d7\u05d3\u05e9 \u05d9\u05e7\u05d1\u05dc \u05de\u05de\u05e0\u05d9 \u05e7\u05d5\u05e4\u05e1\u05d4 \u05e9\u05dc \u05e2\u05d5\u05d2\u05d9\u05d5\u05ea (\u05e9\u05d0\u05e0\u05d9 \u05d4\u05db\u05e0\u05ea\u05d9!) \u05d1\u05ea\u05d5\u05e8 \u05ea\u05d5\u05d3\u05d4 \u05e2\u05dc \u05ea\u05de\u05d9\u05db\u05d4 \u05d1\u05de\u05d3\u05e8\u05d2\u05d4 \u05d4\u05de\u05d2\u05e0\u05d9\u05d1\u05d4 \u05d4\u05d6\u05d5.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-28T08:17:10+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=217752\u0026rid=319372",
+     "user_limit": 5
+    },
+    "id": "319372",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2015-09-24T11:21:56+00:00",
+     "description": "\u003cdiv style=\"text-align: right;\"\u003e\u05db\u05e9\u05d0\u05d2\u05d9\u05e2 \u05dc\u05e1\u05db\u05d5\u05dd \u05d4\u05d6\u05d4 \u05d0\u05e4\u05e8\u05e1\u05dd \u05e1\u05d9\u05e4\u05d5\u05e8 \u05d0\u05d9\u05e0\u05d8\u05e8\u05d0\u05e7\u05d8\u05d9\u05d1\u05d9 \u05d1\u05d4\u05de\u05e9\u05db\u05d9\u05dd \u05d1\u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05d8, \u05d5\u05d0\u05ea\u05dd \u05ea\u05d5\u05db\u05dc\u05d5 \u05dc\u05d4\u05e6\u05d1\u05d9\u05e2 \u05d5\u05dc\u05d1\u05d7\u05d5\u05e8 \u05de\u05d4 \u05d9\u05e7\u05e8\u05d4 \u05d1\u05db\u05dc \u05e9\u05dc\u05d1 \u05d1\u05e1\u05d9\u05e4\u05d5\u05e8! \u05d4\u05e1\u05d9\u05e4\u05d5\u05e8 \u05d9\u05de\u05e9\u05da \u05db-15 \u05e4\u05e8\u05e7\u05d9\u05dd.\u003c/div\u003e",
+     "reached_at": "2015-09-26T21:17:30+00:00",
+     "title": "\u05e1\u05d9\u05e4\u05d5\u05e8 \u05d0\u05d9\u05e0\u05d8\u05e8\u05d0\u05e7\u05d8\u05d9\u05d1\u05d9 \u05d1\u05d4\u05de\u05e9\u05db\u05d9\u05dd"
+    },
+    "id": "248877",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 100,
+     "created_at": "2015-09-24T11:23:07+00:00",
+     "description": "\u003cdiv style=\"text-align: right;\"\u003e\u05db\u05e9\u05d0\u05d2\u05d9\u05e2 \u05dc\u05e1\u05db\u05d5\u05dd \u05d4\u05d6\u05d4 \u05d0\u05d2\u05e8\u05d9\u05dc \u05d1\u05d9\u05df \u05db\u05dc \u05d4\u05e4\u05d8\u05e8\u05d5\u05e0\u05d9\u05dd \u05db\u05de\u05d4 \u05e4\u05e8\u05e1\u05d9\u05dd, \u05db\u05e9\u05d1\u05de\u05e7\u05d5\u05de\u05d5\u05ea \u05d4\u05e8\u05d0\u05e9\u05d5\u05e0\u05d9\u05dd \u05e1\u05d9\u05e4\u05d5\u05e8 \u05e7\u05e6\u05e8 \u05dc\u05d1\u05e7\u05e9\u05ea\u05db\u05dd (\u05db-1,500 \u05de\u05d9\u05dc\u05d4) \u05d5\u05e2\u05d5\u05d2\u05d4 \u05de\u05e2\u05d5\u05e6\u05d1\u05ea \u05de\u05d2\u05e0\u05d9\u05d1\u05d4 \u05e9\u05d0\u05e0\u05d9 \u05d4\u05db\u05e0\u05ea\u05d9 (\u05e2\u05d9\u05e6\u05d5\u05d1 \u05d4\u05e2\u05d5\u05d2\u05d4 \u05d1\u05ea\u05d9\u05d0\u05d5\u05dd \u05d0\u05d9\u05ea\u05d9; \u05d0\u05d9\u05e1\u05d5\u05e3 \u05e2\u05e6\u05de\u05d9).\u003c/div\u003e",
+     "reached_at": "2015-09-28T14:34:33+00:00",
+     "title": "\u05d4\u05d2\u05e8\u05dc\u05d5\u05ea \u05d5\u05e4\u05e8\u05e1\u05d9\u05dd \u05dc\u05db\u05d5\u05dc\u05dd"
+    },
+    "id": "248878",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 100,
+     "created_at": "2015-09-24T11:23:07+00:00",
+     "description": "\u003cdiv style=\"text-align: right;\"\u003e\u05db\u05e9\u05d0\u05d2\u05d9\u05e2 \u05dc\u05e1\u05db\u05d5\u05dd \u05d4\u05d6\u05d4 \u05d0\u05e7\u05dc\u05d9\u05d8 \u05e1\u05d9\u05e4\u05d5\u05e8 \u05e7\u05e6\u05e8, \u05e2\u05d3 5,000 \u05de\u05d9\u05dc\u05d4 \u05d1\u05e2\u05d6\u05e8\u05ea \u05e9\u05d7\u05e7\u05df/\u05d9\u05ea \u05d0\u05d5 \u05e6\u05d5\u05d5\u05ea \u05e9\u05d7\u05e7\u05e0\u05d9\u05dd. \u05d4\u05e1\u05d9\u05e4\u05d5\u05e8 \u05d9\u05e2\u05dc\u05d4 \u05dc\u05d4\u05d0\u05d6\u05e0\u05d4 \u05d5\u05dc\u05d4\u05d5\u05e8\u05d3\u05d4 \u05d1\u05d0\u05d5\u05e4\u05df \u05d7\u05d5\u05e4\u05e9\u05d9 \u05d1\u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05d8. \u05d0\u05ea \u05d4\u05e1\u05d9\u05e4\u05d5\u05e8 \u05ea\u05d1\u05d7\u05e8\u05d5 \u05d0\u05ea\u05dd, \u05d1\u05d4\u05e6\u05d1\u05e2\u05d4 \u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05d8\u05d9\u05ea.\u003c/div\u003e",
+     "reached_at": "2016-07-18T07:54:04+00:00",
+     "title": "\u05e1\u05d9\u05e4\u05d5\u05e8\u05d9 \u05d0\u05d5\u05d3\u05d9\u05d5 \u05dc\u05d4\u05de\u05d5\u05e0\u05d9\u05dd"
+    },
+    "id": "248879",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/217752"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "bea8473d-77e8-4d77-99f3-b9df7b7e94f7",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Rotem Baruchin is creating short stories"
+});
+    </script>

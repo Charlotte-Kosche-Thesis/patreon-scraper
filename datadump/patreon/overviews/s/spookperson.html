@@ -1,0 +1,402 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "--pd6X7dvlXiFKBeedpXObl2da-bZZ5zdenFfdFQILc";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "592606",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/592606"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-10-04T04:40:35+00:00",
+    "creation_name": "short stories, long threads, and bad thoughts from my brain.",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1252096/854909296c794096a5a1a85fcf424050?token-time=2145916800\u0026token-hash=BLofcHSp78MA-0pYx8emamvvydJAKNTiH3HEv5s8kbs%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1252096/854909296c794096a5a1a85fcf424050?token-time=2145916800\u0026token-hash=3ftTIFoHkit7NUkBX5VDc6dcFmEfU933plHpKzz3Ki8%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 64,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1252096",
+    "published_at": "2017-10-04T05:18:54+00:00",
+    "summary": "My name is Christian Fox, though you probably know me as\u00a0\u003ca href=\"http://www.twitter.com/spookperson/\"\u003eGoth Ms. Frizzle\u003c/a\u003e. Yeah, the same one that did that Roger Stone thing. I promise I do a lot more than just drag badly dressed presidential advisers. When I\u0027m not dumping my brains out on twitter I\u0027m a freelance writer and visual artist, and I dabble in taxidermy and specimen mounting in my free time and curate visuals that interest me\u00a0\u003ca href=\"http://grimmlyfiendish.tumblr.com/ \"\u003ehere\u003c/a\u003e.\u00a0\u00a0\u003cbr\u003e\u003cbr\u003eWhy Patreon? It\u0027s something that\u0027s been on the edge of my vision for a long time, and through the encouragement of others it\u0027s something that\u0027s finally come together. This Patreon is an experiment, it\u0027s a chance to try and reconcile valuing my work with the anxiety of not allowing myself just that. It\u0027s going to be a repository for my writing, my artwork, and hopefully, eventually, a community of people who like what I do.\u00a0 Hey, maybe we\u0027ll all stream a movie together sometime."
+   },
+   "id": "1252096",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7937383",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7937383"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "40687",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1252096",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1252096"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2082109",
+       "type": "reward"
+      },
+      {
+       "id": "2047988",
+       "type": "reward"
+      },
+      {
+       "id": "2047984",
+       "type": "reward"
+      },
+      {
+       "id": "2047985",
+       "type": "reward"
+      },
+      {
+       "id": "2047987",
+       "type": "reward"
+      },
+      {
+       "id": "2047986",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Quoted as being neither clever or funny by Roger Stone.\u00a0",
+     "created": "2017-10-04T04:35:11+00:00",
+     "facebook": null,
+     "first_name": "Spookperson",
+     "full_name": "Spookperson",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7937383/d82f7a8a64874850924ebe92a9a7e07e?token-time=2145916800\u0026token-hash=sKY5C9zTqmeAMbitcmmXV_Sd8c9aBZEFCrm32bod304%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7937383/d82f7a8a64874850924ebe92a9a7e07e?token-time=2145916800\u0026token-hash=p5Bgu0wD78s_jVBrqzQ1H8VvauXDhETFM-qfgFG3lJc%3D",
+     "twitch": null,
+     "twitter": "spookperson",
+     "url": "https://www.patreon.com/spookperson",
+     "vanity": "spookperson",
+     "youtube": null
+    },
+    "id": "7937383",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1252096",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1252096"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 2,
+     "upgrade_url": "/bePatron?c=1252096\u0026rid=2082109"
+    },
+    "id": "post-aggregation-for-0-1252096",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-10-17T19:38:46.976356+00:00",
+     "description": "Access to all my short story work, writing, pictures, and patron only content.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eTwitter followback.\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-18T18:26:01.896011+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-18T18:26:01.872752+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Blessed Follower",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1252096\u0026rid=2082109"
+    },
+    "id": "2082109",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-10-04T05:12:39.719054+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAccess to patron-only content\u003c/li\u003e\n\u003cli\u003eSneak peek photos of upcoming work\u003c/li\u003e\n\u003cli\u003ePatron-only polls\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-18T18:25:44.543793+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-18T18:25:44.519219+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Skilled Apprentice ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1252096\u0026rid=2047988"
+    },
+    "id": "2047988",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-10-04T05:12:39.706116+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eMonthly patron-only livestream, join me for games, movies, and talking to all you lovelies about whatever we feel like\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-04T05:12:39.706116+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-04T05:12:39.706116+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Masterful Acolyte ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1252096\u0026rid=2047984"
+    },
+    "id": "2047984",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-10-04T05:12:39.707655+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003ePatron only steam group invite\u00a0\u003c/li\u003e\n\u003cli\u003eChoice of movies for streams (raffle based)\u00a0\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-17T19:39:48.573944+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-17T19:39:48.551974+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Adept Sage ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1252096\u0026rid=2047985"
+    },
+    "id": "2047985",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-10-04T05:12:39.719397+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eSigned certificate\u00a0mailed to you signifying you as a high herald of spook \u003c/li\u003e\u003cli\u003eOne free writing commission per month\u00a0\u00a0\u003c/li\u003e\u003cli\u003eInvitation to private steam group for games/movies\u003c/li\u003e\u003cli\u003ePromotion of your work on twitter\u00a0\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-04T20:00:05.283505+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-04T05:12:39.719397+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Perfected Master ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1252096\u0026rid=2047987"
+    },
+    "id": "2047987",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-10-04T05:12:39.705322+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eI\u0027ll make a video of all my skulls singing to you on your birthday\u003c/li\u003e\u003cli\u003eCustomized story and tabletop campaign to your specifications\u00a0\u003c/li\u003e\u003cli\u003eOn call for roast threads\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-04T20:00:05.243704+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-04T05:12:39.705322+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Right Hand Of Dread ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1252096\u0026rid=2047986"
+    },
+    "id": "2047986",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-10-04T05:00:10+00:00",
+     "deleted_at": null,
+     "description": "When I get to 50 folks on here I\u0027ll plan a Halloween stream of my favorite horror movies for all patrons, regardless of level.",
+     "goal_text": "When I get to 50 folks on here I\u0027ll plan a Halloween stream of my favorite horror movies for all patrons, regardless of level.",
+     "number_patrons": 50,
+     "reached_at": null
+    },
+    "id": "40687",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1252096"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "d1665085-7d1e-4ff7-a2a9-c1d98968d683",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Spookperson is creating short stories, long threads, and bad thoughts from my brain."
+});
+    </script>

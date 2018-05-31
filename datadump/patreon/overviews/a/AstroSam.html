@@ -1,0 +1,703 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "91ew7h3YFevVM30yyqq3TTVrU5LGQ6brIElyVdh5c2w";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "460229",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/460229"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-05-27T14:57:18+00:00",
+    "creation_name": "Videos f\u00fcr die deutsche Star Citizen Community",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/954628/4ea8f061e56f437a87d8e62167fefaf4?token-time=2145916800\u0026token-hash=lEKqscxuxyhdY4KBhdOJ3rHo63lBx_DGLQmvrH2RBvs%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/954628/4ea8f061e56f437a87d8e62167fefaf4?token-time=2145916800\u0026token-hash=T1VgFxjsOs_MQtm9vMEjQNnaNR23IRxjr2CImXlefuE%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 78,
+    "pay_per_name": "month",
+    "pledge_sum": 23171,
+    "pledge_url": "/bePatron?c=954628",
+    "published_at": "2017-05-27T15:12:22+00:00",
+    "summary": null
+   },
+   "id": "954628",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "6303510",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/6303510"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "848969",
+       "type": "goal"
+      },
+      {
+       "id": "891891",
+       "type": "goal"
+      },
+      {
+       "id": "891892",
+       "type": "goal"
+      },
+      {
+       "id": "891893",
+       "type": "goal"
+      },
+      {
+       "id": "891894",
+       "type": "goal"
+      },
+      {
+       "id": "891895",
+       "type": "goal"
+      },
+      {
+       "id": "891896",
+       "type": "goal"
+      },
+      {
+       "id": "891897",
+       "type": "goal"
+      },
+      {
+       "id": "891898",
+       "type": "goal"
+      },
+      {
+       "id": "891900",
+       "type": "goal"
+      },
+      {
+       "id": "898833",
+       "type": "goal"
+      },
+      {
+       "id": "1103310",
+       "type": "goal"
+      },
+      {
+       "id": "1103311",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-954628",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-954628"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1721476",
+       "type": "reward"
+      },
+      {
+       "id": "2429599",
+       "type": "reward"
+      },
+      {
+       "id": "2429601",
+       "type": "reward"
+      },
+      {
+       "id": "2429605",
+       "type": "reward"
+      },
+      {
+       "id": "1721477",
+       "type": "reward"
+      },
+      {
+       "id": "2080859",
+       "type": "reward"
+      },
+      {
+       "id": "1721475",
+       "type": "reward"
+      },
+      {
+       "id": "2081332",
+       "type": "reward"
+      },
+      {
+       "id": "2081343",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-05-27T14:55:54+00:00",
+     "facebook": "https://www.facebook.com/kai.bach.7",
+     "first_name": "AstroSam",
+     "full_name": "AstroSam",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/6303510/368c773787fc405a91cdc48eb581625f?token-time=2145916800\u0026token-hash=DtZRAvdz9sNtTgsWsXJo3zWXkNxcVApbuko9_p0CkKY%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/6303510/368c773787fc405a91cdc48eb581625f?token-time=2145916800\u0026token-hash=V4C9bgLPNMFiIGwVLyq1P2oc87Cr_qoWr9HO5eK8rOU%3D",
+     "twitch": null,
+     "twitter": "kai_bach",
+     "url": "https://www.patreon.com/AstroSam",
+     "vanity": "AstroSam",
+     "youtube": "https://www.youtube.com/channel/UCvWy7j9fYXpAbf_TSFpImHA"
+    },
+    "id": "6303510",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "954628",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/954628"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 257,
+     "upgrade_url": "/bePatron?c=954628\u0026rid=1721476"
+    },
+    "id": "post-aggregation-for-0-954628",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-05-27T18:26:38.665580+00:00",
+     "description": "Jeder Euro hilft! Ich freue mich \u00fcber jede \"M\u00fcnze\" - und als Dankesch\u00f6n f\u00fchre ich euren Namen im Abspann meiner Vids auf.\u00a0\n\u003cp\u003e\u003cstrong\u003eAuf jeden Fall schon mal vielen, vielen Dank im Voraus f\u00fcr eure gro\u00dfartige Unterst\u00fctzung!\u003cbr\u003e\nCheers!\u003cbr\u003e\nAstro\u003cbr\u003e\n\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-17T13:08:22.446914+00:00",
+     "image_url": null,
+     "patron_count": 48,
+     "post_count": 210,
+     "published": true,
+     "published_at": "2017-10-17T13:08:22.426950+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Dein Name in den End Credits",
+     "unpublished_at": null,
+     "url": "/bePatron?c=954628\u0026rid=1721476",
+     "user_limit": null
+    },
+    "id": "1721476",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-03-07T19:17:33.920861+00:00",
+     "description": "F\u00fcr nur einen Dollar mehr...",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-07T19:17:33.920861+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-07T19:17:33.920861+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Dein Name in den End Credits",
+     "unpublished_at": null,
+     "url": "/bePatron?c=954628\u0026rid=2429599",
+     "user_limit": null
+    },
+    "id": "2429599",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-03-07T19:18:43.067031+00:00",
+     "description": "F\u00fcr ein paar Dollar mehr...",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-07T19:18:43.067031+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-07T19:18:43.067031+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Dein Name in den End Credits",
+     "unpublished_at": null,
+     "url": "/bePatron?c=954628\u0026rid=2429601",
+     "user_limit": null
+    },
+    "id": "2429601",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-03-07T19:19:51.180105+00:00",
+     "description": "F\u00fcr eine Handvoll Dollar...\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e(...entschuldigt die Kalauer. Einfach wer mehr als einen Dollar geben m\u00f6chte - freue ich mich =D )\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-07T19:19:51.180105+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-07T19:19:51.180105+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Dein Name in den Endcredits",
+     "unpublished_at": null,
+     "url": "/bePatron?c=954628\u0026rid=2429605",
+     "user_limit": null
+    },
+    "id": "2429605",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-05-27T18:26:39.170374+00:00",
+     "description": "Echt jetzt? 10 Dollar!? Wow, das ist unfassbar viel Geld, ich wei\u00df gar nicht, wie ich daf\u00fcr danken soll! Doch, eines geht: ich erw\u00e4hne deinen Namen einfach zu Beginn meines n\u00e4chsten Star-Citizen-[\u00dcbersetzt]-Videos - w\u00e4re das ein Deal??\n\u003cp\u003e\u003cstrong\u003e\u003cbr\u003e\nUnd auf jeden Fall riesen-gro\u00dfes-mega-multi-jumbo-fettes DANKESCH\u00d6N!!\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-17T13:08:15.028872+00:00",
+     "image_url": null,
+     "patron_count": 10,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-17T13:08:15.003625+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Dein Name vorweg!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=954628\u0026rid=1721477",
+     "user_limit": null
+    },
+    "id": "1721477",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-10-17T05:51:38.686641+00:00",
+     "description": "\u003cstrong\u003eWir zoggen zwei Stunden Star Citizen. Was das sein kann, \u00fcberlasse ich dir: Star Marine, Arena Commander oder im Verse rumschippern. Du kannst dir in der Zeit jedes meiner Schiffe ausleihen und fliegen. Wenn du neu dabei bist, gebe ich dir gerne eine Einf\u00fchrung in das \u0027verse =)\u003c/strong\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eKleingedrucktes: Das gilt nat\u00fcrlich je Zahlung und nicht nur einmalig. Die 25-Dollar-pledges sind auf 8 je Monat limitiert. Die Spendenh\u00f6he kann selbstverst\u00e4ndlich auch monatlich ver\u00e4ndert werden =)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-17T13:47:03.822579+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-17T13:47:03.699541+00:00",
+     "remaining": 6,
+     "requires_shipping": false,
+     "title": "Dein Name vorweg - und gemeinsam SC zoggen!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=954628\u0026rid=2080859",
+     "user_limit": 8
+    },
+    "id": "2080859",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-05-27T18:26:38.573671+00:00",
+     "description": "\u003cstrong\u003eF\u00fcr 50 Dollar bekommst du die Leistungen des 25-Dollar-Pledges - plus ein AstroSam-Shirt, wahlweise lang oder kurz\u00e4rmlig, dazu!\u00a0\u003c/strong\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eKleingedrucktes: Das gilt nat\u00fcrlich je Zahlung und nicht nur einmalig, aber begrenzt auf eine \"50-Dollar-Leistung\" je Monat. Die 50-Dollar-pledges sind auf 6 je Monat limitiert. Die Spendenh\u00f6he kann selbstverst\u00e4ndlich auch monatlich ver\u00e4ndert werden =)\u00a0\u003c/p\u003e\n\u003cp\u003eDa ich die Workwear perfect pro Shirts produzieren lasse, sind R\u00fcckgabe und R\u00fccktritt ausgeschlossen. Es gelten die Gesch\u00e4ftsbedingungen von shirtlabor.de. Der Auftrag erfolgt nach Zahlungseingang zu Beginn eines Monats. Bitte teilt mir eure Lieferadresse, Shirtgr\u00f6\u00dfe und ggf. Wunschfarbe mit! Beispiel: \u003ca href=\"http://up.picr.de/30671397uw.png\" rel=\"nofollow noopener\" target=\"_blank\"\u003ehttp://up.picr.de/30671397uw.png\u003c/a\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-17T13:53:01.983561+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-17T13:53:01.964875+00:00",
+     "remaining": 6,
+     "requires_shipping": true,
+     "title": "Gemeinsam zoggen - und ein AstroSam-Shirt =]",
+     "unpublished_at": null,
+     "url": "/bePatron?c=954628\u0026rid=1721475",
+     "user_limit": 6
+    },
+    "id": "1721475",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-10-17T13:04:39.815449+00:00",
+     "description": "\u003cstrong\u003eDu m\u00f6chtest deine Bandbreite erh\u00f6hen, dich bekannt machen bei meinen Abonnenten? Kein Problem: sende mir deinen Clip (max. 10 Sekunden) und ich baue den im n\u00e4chsten [\u00dcbersetzt]-Video mit ein! Der Clip l\u00e4uft dann wahlweise vor oder nach meinem Logo-Intro, Details w\u00fcrden wir vorab im Discord oder Teamspeak besprechen =)\u003c/strong\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eKleingedrucktes: Das gilt nat\u00fcrlich je Zahlung und nicht nur einmalig, aber begrenzt auf eine \"75-Dollar-Leistung\" je Monat. Die 75-Dollar-pledges sind auf 4 je Monat limitiert. Die Leistungen des 50-Dollar-pledges sind nicht enthalten. Die Spendenh\u00f6he kann selbstverst\u00e4ndlich auch monatlich ver\u00e4ndert werden =)\u00a0 \u00a0\u003c/p\u003e\n\u003cp\u003eDie Umsetzung der Leistung kann verweigert werden, wenn es sich um anz\u00fcgliches Material, Verhetzung, Diffamierung oder \u00e4hnlich aus meinen Augen untragbaren Inhalt handelt. Selbstverst\u00e4ndlich w\u00fcrde in dem Fall der gezahlte Betrag erstattet werden.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-17T13:07:05.299512+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-17T13:07:05.277338+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "Werbung f\u00fcr dich oder deinen Kanal",
+     "unpublished_at": null,
+     "url": "/bePatron?c=954628\u0026rid=2081332",
+     "user_limit": 4
+    },
+    "id": "2081332",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-10-17T13:17:46.969603+00:00",
+     "description": "\u003cstrong\u003eDu darfst dir einmal im Quartal ein Thema w\u00fcnschen - Audio, Video, Stream - welches ich dann versuche umzusetzen. Alles nat\u00fcrlich im Rahmen des Machbaren und mit gemeinsamer Besprechung via Teamspeak oder Discord.\u003c/strong\u003e\u00a0\n\u003cp\u003eKleingedrucktes: Das gilt nat\u00fcrlich je Zahlung und nicht nur einmalig, aber begrenzt auf eine \"100-Dollar-Leistung\" je Quartal (mehr kann ich nicht leisten). Die 100-Dollar-pledges sind auf 3 je Monat limitiert. \u00a0Die Leistungen der unteren (25-75) Dollar-pledges sind nicht enthalten. Die Spendenh\u00f6he kann selbstverst\u00e4ndlich auch monatlich ver\u00e4ndert werden =)\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-17T13:17:46.969603+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-17T13:17:46.969603+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "Dein Wunsch-Thema!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=954628\u0026rid=2081343",
+     "user_limit": 3
+    },
+    "id": "2081343",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 100,
+     "created_at": "2017-05-28T05:56:18+00:00",
+     "description": "Wenn ihr 75 Dollar im Monat erreicht, schalte ich als fettes DANKESCH\u00d6N die Werbung auf Youtube f\u00fcr einen Monat ab! =:-))",
+     "reached_at": "2017-07-09T09:49:16+00:00",
+     "title": ""
+    },
+    "id": "848969",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2017-07-06T12:57:03+00:00",
+     "description": "Ich spreche die Folgen 1 bis 4 der \"Verlorenen Generation\" ein (https://robertsspaceindustries.com/comm-link/spectrum-dispatch/12857-The-Lost-Generation-Issue-1) als H\u00f6rbuch auf Basis der \u00dcbersetzung von Tom (http://www.star-citizen-news-radio.de/2013/02/the-lost-generation-episode-1/ ggf. mit eigenen Anpassungen/Umformulierungen).\u003cbr\u003e",
+     "reached_at": "2017-08-13T11:04:25+00:00",
+     "title": ""
+    },
+    "id": "891891",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 100,
+     "created_at": "2017-07-06T12:57:03+00:00",
+     "description": "Ich spreche die Folgen 5 bis 9 der \"Verlorenen Generation\" ein (https://robertsspaceindustries.com/comm-link/spectrum-dispatch/12857-The-Lost-Generation-Issue-1) als H\u00f6rbuch auf Basis der \u00dcbersetzung von Tom (http://www.star-citizen-news-radio.de/2013/02/the-lost-generation-episode-1/ ggf. mit eigenen Anpassungen/Umformulierungen).",
+     "reached_at": "2017-10-25T10:40:32+00:00",
+     "title": ""
+    },
+    "id": "891892",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 100,
+     "created_at": "2017-07-06T12:57:03+00:00",
+     "description": "Ich spreche den \"unbeantworteten Schrei\" ein, https://robertsspaceindustries.com/comm-link/spectrum-dispatch/15977-Untold-Tales-The-Unanswered-Cry ggf. mit eigenen Anpassungen/Formulierungen\u003cbr\u003e",
+     "reached_at": "2017-12-01T20:17:21+00:00",
+     "title": ""
+    },
+    "id": "891893",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 92,
+     "created_at": "2017-07-06T12:57:03+00:00",
+     "description": "Ich spreche \"Eine menschliche Perspektive\" ein (https://robertsspaceindustries.com/comm-link/spectrum-dispatch/13074-A-Human-Perspective-Episode-1) mit eigenen \u00c4nderungen und Erweiterungen.\u003cbr\u003e",
+     "reached_at": "2018-02-05T20:45:12+00:00",
+     "title": ""
+    },
+    "id": "891894",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 77,
+     "created_at": "2017-07-06T12:57:03+00:00",
+     "description": "Ich spreche \"Der erste Lauf\" ein \n(https://robertsspaceindustries.com/comm-link/spectrum-dispatch/13820-The-First-Run-Episode-One)\nmit eigenen \u00c4nderungen und Erweiterungen.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "891895",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 35000,
+     "completed_percentage": 66,
+     "created_at": "2017-07-06T12:57:03+00:00",
+     "description": "Ich spreche \"Cassandras Tr\u00e4nen\" ein (https://robertsspaceindustries.com/comm-link/spectrum-dispatch/12739-Cassandras-Tears-Issue-1) mit eigenen \u00c4nderungen und Erweiterungen. \u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "891896",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 57,
+     "created_at": "2017-07-06T12:57:03+00:00",
+     "description": "Ich spreche \"Collision Course - \"Kollisionskurs ein (https://robertsspaceindustries.com/comm-link/spectrum-dispatch/12739-Cassandras-Tears-Issue-1) mit eigenen \u00c4nderungen und Erweiterungen.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "891897",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 32500,
+     "completed_percentage": 71,
+     "created_at": "2017-07-06T12:57:03+00:00",
+     "description": "Ein [\u00dcbersetzt]-Making of Video =D",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "891898",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2017-07-06T12:57:03+00:00",
+     "description": "Ich starte mit der Reihe \"Clean Shot\" (https://robertsspaceindustries.com/comm-link/spectrum-dispatch/15920-Clean-Shot-The-Baker-Backup), um H\u00e4ndlern die besten Handelsrouten aufzuzeigen, \u00fcber Wirtschaft und Credits zu sprechen sowie dar\u00fcber, welche Fracht sich lohnt oder eher Schrottwert besitzt\u003cbr\u003e",
+     "reached_at": "2017-07-10T16:22:55+00:00",
+     "title": ""
+    },
+    "id": "891900",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 75000,
+     "completed_percentage": 30,
+     "created_at": "2017-07-12T12:29:40+00:00",
+     "description": "Neben der ATV-\u00dcbersetzung werde ich eine weitere, regelm\u00e4\u00dfig produzierte \u00dcbersetzung des angebotenen SC-Materials ver\u00f6ffentlichen (z.B. Reverse the Verse oder vergleichbar).\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "898833",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 45000,
+     "completed_percentage": 51,
+     "created_at": "2018-02-06T11:58:42+00:00",
+     "description": "Ich werde mir 5 \"Galactic Guides\" vornehmen und diese als \u00fcbersetztes Video aufarbeiten und ver\u00f6ffentlichen.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1103310",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 46,
+     "created_at": "2018-02-06T11:58:42+00:00",
+     "description": "Ich werde mir 5 \"Galactic Guides\" vornehmen und diese als \u00fcbersetztes Video aufarbeiten und ver\u00f6ffentlichen.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1103311",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/954628"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "2478d926-5d77-4c1b-a973-cb5882186bc0",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "AstroSam is creating Videos f\u00fcr die deutsche Star Citizen Community"
+});
+    </script>

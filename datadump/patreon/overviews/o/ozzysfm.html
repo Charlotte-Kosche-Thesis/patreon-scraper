@@ -1,0 +1,521 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "j-PD4TEnzGyBN_0ztqRKhYU8ZefhZykG6Km68eOoitA";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "97841",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/97841"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-09-05T06:00:39+00:00",
+    "creation_name": "SFM / Daz stuff",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/210664/cc86998e7e864fbdbe36b09520e9a286?token-time=2145916800\u0026token-hash=bOtcSLh7RBCWqslcaJnZa4CaAcRgiv2ToAbO3WGJ6A8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/210664/cc86998e7e864fbdbe36b09520e9a286?token-time=2145916800\u0026token-hash=bdGyULhv2WFPuXwurKcRBzF9IaDZLwF7XsKo5AQyEN8%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "The only one in the country that\u0027s doing this",
+    "patron_count": 68,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=210664",
+    "published_at": "2015-09-05T10:07:14+00:00",
+    "summary": "I\u0027ve been doing animations and pics since 2014. Life has kept me busy but no matter what I still love doing this.\u00a0\u003cbr\u003e\u003cbr\u003eMy work is available at Tumblr under OzzySFM.\u003cbr\u003e"
+   },
+   "id": "210664",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "683556",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/683556"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "292913",
+       "type": "goal"
+      },
+      {
+       "id": "308004",
+       "type": "goal"
+      },
+      {
+       "id": "308007",
+       "type": "goal"
+      },
+      {
+       "id": "322517",
+       "type": "goal"
+      },
+      {
+       "id": "452689",
+       "type": "goal"
+      },
+      {
+       "id": "455022",
+       "type": "goal"
+      },
+      {
+       "id": "455043",
+       "type": "goal"
+      },
+      {
+       "id": "725601",
+       "type": "goal"
+      },
+      {
+       "id": "725603",
+       "type": "goal"
+      },
+      {
+       "id": "729586",
+       "type": "goal"
+      },
+      {
+       "id": "729593",
+       "type": "goal"
+      },
+      {
+       "id": "729667",
+       "type": "goal"
+      },
+      {
+       "id": "729775",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-210664",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-210664"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "302133",
+       "type": "reward"
+      },
+      {
+       "id": "804716",
+       "type": "reward"
+      },
+      {
+       "id": "302134",
+       "type": "reward"
+      },
+      {
+       "id": "302135",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-04-07T01:11:21+00:00",
+     "facebook": null,
+     "first_name": "Ozzy",
+     "full_name": "Ozzy",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/683556/94b7cf237f76424db66ea7d1c4ba28c6?token-time=2145916800\u0026token-hash=sZjgE9TwBLh6prbPBrme9fIIjiaY0PFygL3OVownlUM%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/683556/94b7cf237f76424db66ea7d1c4ba28c6?token-time=2145916800\u0026token-hash=FAVa9OidswRpC7whwcwhR8Ql8HZt48vLcwNQUz6CpH8%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/ozzysfm",
+     "vanity": "ozzysfm",
+     "youtube": null
+    },
+    "id": "683556",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "210664",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/210664"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 4,
+     "upgrade_url": "/bePatron?c=210664\u0026rid=302133"
+    },
+    "id": "post-aggregation-for-0-210664",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-11-07T17:25:16+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003e\u003cu\u003e\u003cstrong\u003eThis tier will NOT give you Daz or early accesses\u003c/strong\u003e\u003c/u\u003e\u003c/li\u003e\n\u003cli\u003eAccess to ResilioSync or Mega.co links (all of my permitted SFM pics and anims, including non-watermark)\u003c/li\u003e\n\u003cli\u003eAccess to creator posts of misc things (wips, sessions, ideas, etc.)\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-23T19:01:54.241402+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/302133/a44311d983fb4e4f963e01a85ff55430?token-time=2145916800\u0026token-hash=iwkWp6r4XBTeGVLyP7AUuclCwQjSyE5sgn173Rz3ZMI%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-23T19:01:54.234846+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Bronze Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=210664\u0026rid=302133"
+    },
+    "id": "302133",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-07T17:25:16+00:00",
+     "description": "\u003cimg src=\"http://www.profitconfidential.com/wp-content/uploads/2016/03/Key-Ratio-Says-Silver-Prices-Could-Soar.jpg\"\u003e\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003e\u003cu\u003e\u003cstrong\u003eThis tier will NOT give you early access\u003c/strong\u003e\u003c/u\u003e\u003c/li\u003e\n\u003cli\u003eAccess to ResilioSync or Mega.co links (all of my permitted pics and anims, including non-watermark)\u003c/li\u003e\n\u003cli\u003eAccess to creator posts of misc things (wips, sessions, ideas, etc.)\u003c/li\u003e\n\u003cli\u003e\u003cu\u003e\u003cstrong\u003eAccess to DAZ content\u003c/strong\u003e\u003c/u\u003e\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-23T19:01:41.989277+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-23T19:01:41.981582+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Silver Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=210664\u0026rid=804716"
+    },
+    "id": "804716",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 600,
+     "amount_cents": 600,
+     "created_at": "2016-11-07T17:25:16+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eAccess to DAZ content\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eEarly access to animations and pictures.\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003eAccess to ResilioSync and Mega.co links\u003c/li\u003e\n\u003cli\u003eAccess to creator posts of misc things (wips, sessions, ideas, etc.)\u003c/li\u003e\n\u003cli\u003eNon-watermark works via BitSync\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-23T19:01:27.729159+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/302134/8f558d172ff346fe83e222f49f2a64a8?token-time=2145916800\u0026token-hash=QaAZqwrfXSpQH9Zjsws-gvZ7mwnvsLn56htTO0HCM2U%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-23T19:01:27.722043+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gold Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=210664\u0026rid=302134"
+    },
+    "id": "302134",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1100,
+     "amount_cents": 1100,
+     "created_at": "2016-11-07T17:25:16+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eNo longer applies\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-23T19:02:45.725398+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-23T19:02:45.716132+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Platinum Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=210664\u0026rid=302135"
+    },
+    "id": "302135",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 60,
+     "created_at": "2015-11-30T10:01:25+00:00",
+     "description": "\u003cimg src=\"http://i.kinja-img.com/gawker-media/image/upload/s--5JaRWyVh--/c_fit,fl_progressive,q_80,w_636/1272721219428282951.png\"\u003e\u003cbr\u003eUnlocks pics and anims.",
+     "reached_at": "2016-05-09T17:48:14+00:00",
+     "title": ""
+    },
+    "id": "292913",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 48,
+     "created_at": "2015-12-22T08:06:24+00:00",
+     "description": "\u003cimg src=\"http://images.nvidia.com/pascal/img/gtx1080/GeForce_GTX_1080_3qtr_Front_Left.png\"\u003e\u003cbr\u003eThis much a month will allow me to upgrade my system. I\u0027m working off of a rig that doesn\u0027t compete with today\u0027s standards. Performance helps with rendering and what I have isn\u0027t good enough. Reaching this goal will allow me to get out faster renders and allow the proper use of other software.",
+     "reached_at": "2016-07-18T06:44:53+00:00",
+     "title": ""
+    },
+    "id": "308004",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2015-12-22T08:15:31+00:00",
+     "description": "\u003cimg src=\"http://www.freepreview.tv/wp-content/uploads/2014/09/xfinity-logo.gif\"\u003e\u003cbr\u003eIf I can\u0027t pay for internet, I can\u0027t upload.",
+     "reached_at": "2015-12-23T06:24:00+00:00",
+     "title": ""
+    },
+    "id": "308007",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 14,
+     "created_at": "2016-01-11T14:24:17+00:00",
+     "description": "\u003cimg src=\"http://www.hacktrix.com/wp-content/uploads/2011/12/video-removed-because-it-is-too-long.png\"\u003e\u003cbr\u003eWith this goal reached, I\u0027d confidently be able to work on longer projects. I wouldn\u0027t feel the need to work a fulltime job, freeing up time for me to spend on crafting animations beyond the simple 1-2 camera loop.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "322517",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 15,
+     "created_at": "2016-06-12T08:10:00+00:00",
+     "description": "\u003cimg src=\"http://i.imgur.com/UHnk9SC.jpg\"\u003e\u003cbr\u003e\u003cstrong\u003eAnother computer\u003c/strong\u003e. Working with one good computer is enough most people want. When you do rendering, having another computer to hang with, if only as a backup, is cool. This much money would allow that to happen.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "452689",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 9,
+     "created_at": "2016-06-14T23:19:53+00:00",
+     "description": "\u003cimg src=\"http://www.minimalisti.com/wp-content/uploads/2015/08/modern-studio-apartment-ideas-bedroom-home-office.jpg\"\u003e\u003cbr\u003eLiving to pose / animate. This would be great. I wouldn\u0027t have to worry about a full time job anymore.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "455022",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 13,
+     "created_at": "2016-06-14T23:56:46+00:00",
+     "description": "\u003cimg src=\"https://download.blender.org/institute/logos/blender-plain.png\"\u003e\u003cbr\u003eI\u0027ve wanted to be able to get into the modeling aspect of this hobby. At this level I think I could start to really get into it. Having actual knowledge of what I\u0027m doing can pay off instead of winging it every session. That, and Blender is hands down better than SFM in almost every way.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "455043",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 16,
+     "created_at": "2017-02-22T15:54:21+00:00",
+     "description": "\u003cimg src=\"http://www.freshwater-plumbing.com/images/www.commonground.org/images/uploads/lenniger-studio-cropped-for-web.jpg\"\u003e\u003cbr\u003eThe bare minimum I need to get my own apartment. My city isn\u0027t cheap, so having this much would be what I need to live in my own place. I\u0027d have to pair it with at least a part-time job to make ends meet. This\u0027ll do wonders for output with no family distractions.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "725601",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 12,
+     "created_at": "2017-02-22T15:57:46+00:00",
+     "description": "\u003cimg src=\"https://thenypost.files.wordpress.com/2017/02/shutterstock_407036356.jpg?quality=90\u0026amp;strip=all\u0026amp;w=664\u0026amp;h=441\u0026amp;crop=1\"\u003e\u003cbr\u003eMid-level \"fun\" money. Gotta have someone with a personality and some ounce of class to make indulging worth it.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "725603",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 20,
+     "created_at": "2017-02-26T00:41:14+00:00",
+     "description": "\u003cimg src=\"https://s2.postimg.org/72zjry3jt/Audio.jpg\"\u003e\u003cbr\u003eI\u0027m quite averse to audio in loops. I find that it\u0027s not worth it and it ends up sounding awkward. With this goal reached, I\u0027ll play around more with audio in my stuff. This doesn\u0027t mean it\u0027ll be in everything I do.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "729586",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 8,
+     "created_at": "2017-02-26T00:51:52+00:00",
+     "description": "\u003cimg src=\"http://www.ceritakorea.com/wp-content/uploads/2015/11/ImaginaryCat-2.jpg\"\u003e\u003cbr\u003eI would really love to have a cat. Since I can\u0027t offer much else this far ahead in goals I\u0027m putting this one up top.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "729593",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 12,
+     "created_at": "2017-02-26T02:05:05+00:00",
+     "description": "\u003cimg src=\"http://financecityarea.info/wp-content/uploads/2016/03/31-insurance.jpg\"\u003e\u003cbr\u003eI\u0027ve been living without stable insurances for a long time. Hell, I haven\u0027t even been to the dentist in forever. Living independently means having all bases covered. With this goal reached it\u0027d be less worrisome for a lot of shit.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "729667",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 24,
+     "created_at": "2017-02-26T04:21:49+00:00",
+     "description": "\u003cimg src=\"https://s8.postimg.org/grzp6t2k5/site_197_Korean_463048.jpg\"\u003e\u003cbr\u003eLow-level \"fun\" money. A man of my ilk must indulge in evil every once in a while. It helps puts things back in focus.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "729775",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/210664"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "342b887c-3a4e-4deb-9f59-3a8d06e5651e",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Ozzy is creating SFM / Daz stuff"
+});
+    </script>
