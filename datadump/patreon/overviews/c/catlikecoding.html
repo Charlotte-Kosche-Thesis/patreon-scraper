@@ -1,0 +1,511 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "cRgnd9aPXJJnay_FL-q3sBhNSVvMsf0ezOnqMG3oVcc";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "8424",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/8424"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-03-12T15:09:07+00:00",
+    "creation_name": "Unity C# and Shader Tutorials",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/83418/0ded23c8910a440fa0caed36dea7086c?token-time=2145916800\u0026token-hash=y5VYCxomxq12UHKhzQRyfj3gy7iVCGg89QdcecihGVc%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/83418/0ded23c8910a440fa0caed36dea7086c?token-time=2145916800\u0026token-hash=HJsZlgPWM19_bqFWqDWHfXM7sNvo6eTJYVy44T9a2YM%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "Creating good text tutorials is an art.",
+    "patron_count": 327,
+    "pay_per_name": "tutorial",
+    "pledge_sum": 100282,
+    "pledge_url": "/bePatron?c=83418",
+    "published_at": "2014-03-12T15:09:07+00:00",
+    "summary": "\u003ch1\u003eWriting the Best Unity Tutorials\u003c/h1\u003e\nHello! I am Jasper Flick from \n\u003ca href=\"https://catlikecoding.com/\" rel=\"nofollow\" target=\"_blank\"\u003eCatlike Coding\u003c/a\u003e.\u003cbr\u003e\n\u003cbr\u003e\nI make high-quality \n\u003ca href=\"https://catlikecoding.com/unity/tutorials/\" rel=\"nofollow\" target=\"_blank\"\u003etutorials\u003c/a\u003e that teach you all about C# and shader programming with Unity. My tutorials are written, because I believe that text is the best medium for this subject matter. They also contain short animations, when I think they add value.\u003cbr\u003e\n\u003cbr\u003e\nI\u0027ve been on Patreon since May 2014 and am currently releasing two tutorials per month. Right now I\u0027m working on two series, Hex Map and Rendering.\n\u003cbr\u003e\n\u003cbr\u003e\nCreating these tutorials takes a lot of time.\u00a0Time I mostly have to spend on not starving and such. Your support will mean I can spend more time on tutorials, which improves both their quality and quantity.\n\u003cbr\u003e\n\u003cbr\u003e\nYou use Patreon to pledge an amount of money you\u0027d like to give me, as thanks for each new tutorial. No new tutorial, no donation. It\u0027s like pay-what-you-want, while also telling me ahead of time what you\u0027re going to give me. You can choose one of the pre-made pledge amounts, or set your own. Don\u0027t worry, you can change your mind at any moment and can also set a monthly maximum.\n\u003cbr\u003e\n\u003cbr\u003e\nDon\u0027t want to join Patreon? You can also make a one-time \n\u003ca href=\"https://catlikecoding.com/unity/tutorials/donating.html\" rel=\"nofollow\"\u003edonation\u003c/a\u003e.\u003cbr\u003e\n\u003cbr\u003e\n\u003ch3\u003eLatest Releases and Upgrades\u003c/h3\u003e\n\u003cbr\u003e\n\u003cdiv style=\"text-align: center;\"\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/flow/texture-distortion/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/flow/texture-distortion/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/object-management/object-variety/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/object-management/object-variety/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/triplanar-mapping/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/triplanar-mapping/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/object-management/persisting-objects/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/object-management/persisting-objects/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/fxaa/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/fxaa/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/hex-map/part-27/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/hex-map/part-27/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/depth-of-field/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/depth-of-field/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/hex-map/part-26/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/hex-map/part-26/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/bloom/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/bloom/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/hex-map/part-25/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/hex-map/part-25/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/basics/mathematical-surfaces/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/basics/mathematical-surfaces/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/surface-displacement/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/surface-displacement/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/hex-map/part-24/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/hex-map/part-24/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/tessellation/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/tessellation/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/hex-map/part-23/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/hex-map/part-23/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/basics/building-a-graph/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/basics/building-a-graph/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/flat-and-wireframe-shading/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/advanced-rendering/flat-and-wireframe-shading/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/hex-map/part-22/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/hex-map/part-22/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/rendering/part-20/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/rendering/part-20/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/hex-map/part-21/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/hex-map/part-21/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/basics/game-objects-and-scripts/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/basics/game-objects-and-scripts/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/rendering/part-19/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/rendering/part-19/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/hex-map/part-20/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/hex-map/part-20/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/rendering/part-18/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/rendering/part-18/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/hex-map/part-19/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/hex-map/part-19/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/rendering/part-17/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/rendering/part-17/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/hex-map/part-18/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/hex-map/part-18/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/rendering/part-16/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/rendering/part-16/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/hex-map/part-17/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/hex-map/part-17/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\t\u003ca href=\"https://catlikecoding.com/unity/tutorials/rendering/part-15/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"https://catlikecoding.com/unity/tutorials/rendering/part-15/tutorial-banner-small.jpg\" style=\"width: 128px;\"\u003e\u003c/a\u003e\n\u003c/div\u003e"
+   },
+   "id": "83418",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "103542",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/103542"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "13184",
+       "type": "goal"
+      },
+      {
+       "id": "963044",
+       "type": "goal"
+      },
+      {
+       "id": "963045",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-83418",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-83418"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "21513",
+       "type": "reward"
+      },
+      {
+       "id": "21514",
+       "type": "reward"
+      },
+      {
+       "id": "84288",
+       "type": "reward"
+      },
+      {
+       "id": "167692",
+       "type": "reward"
+      },
+      {
+       "id": "40263",
+       "type": "reward"
+      },
+      {
+       "id": "121227",
+       "type": "reward"
+      },
+      {
+       "id": "40264",
+       "type": "reward"
+      },
+      {
+       "id": "84287",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m an independent software developer and Unity expert.",
+     "created": "2014-03-12T15:09:07+00:00",
+     "facebook": "https://www.facebook.com/catlikecoding",
+     "first_name": "Catlike",
+     "full_name": "Catlike Coding",
+     "gender": 1,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/103542/d015ba1ab7284dd29669832af063ab12?token-time=2145916800\u0026token-hash=a587mmZUkRJKlsnUCtWrMqNLGRHz_J_nHGoX_Pj34AE%3D",
+     "last_name": "Coding",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/103542/d015ba1ab7284dd29669832af063ab12?token-time=2145916800\u0026token-hash=LZahr5ku7iJGiFNpaDjg3ByKEB7F7W6AyWAGfusoemY%3D",
+     "twitch": null,
+     "twitter": "catlikecoding",
+     "url": "https://www.patreon.com/catlikecoding",
+     "vanity": "catlikecoding",
+     "youtube": ""
+    },
+    "id": "103542",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "83418",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/83418"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 28,
+     "upgrade_url": "/bePatron?c=83418\u0026rid=21513"
+    },
+    "id": "post-aggregation-for-0-83418",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-20T19:53:24+00:00",
+     "description": "You got my thanks! Hidden previews will be visible to you.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-28T19:45:24.667182+00:00",
+     "image_url": null,
+     "patron_count": 165,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-11-20T19:53:24+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=83418\u0026rid=21513",
+     "user_limit": null
+    },
+    "id": "21513",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-20T19:53:24+00:00",
+     "description": "Thank you! Do join the Patreon discussion!",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-28T19:44:47.588550+00:00",
+     "image_url": null,
+     "patron_count": 87,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T19:53:24+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Solid Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=83418\u0026rid=21514",
+     "user_limit": null
+    },
+    "id": "21514",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 314,
+     "amount_cents": 314,
+     "created_at": "2016-11-20T19:53:24+00:00",
+     "description": "You sure like \u03c0!",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-28T19:42:42.302634+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T19:53:24+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Lover of \u03c0",
+     "unpublished_at": null,
+     "url": "/bePatron?c=83418\u0026rid=84288",
+     "user_limit": 1
+    },
+    "id": "84288",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-20T19:53:24+00:00",
+     "description": "Not sure how much to pledge? Five is just above the average.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-28T19:44:41.725504+00:00",
+     "image_url": null,
+     "patron_count": 76,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T19:53:24+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Great Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=83418\u0026rid=167692",
+     "user_limit": null
+    },
+    "id": "167692",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-20T19:53:24+00:00",
+     "description": "You\u0027re really helping me write more tutorials, so you are awesome!",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-28T19:41:22.535781+00:00",
+     "image_url": null,
+     "patron_count": 27,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T19:53:24+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Awesome Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=83418\u0026rid=40263",
+     "user_limit": null
+    },
+    "id": "40263",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1234,
+     "amount_cents": 1234,
+     "created_at": "2016-11-20T19:53:24+00:00",
+     "description": "Besides being awesome, you have style!",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-28T19:40:11.784707+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T19:53:24+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Stylish Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=83418\u0026rid=121227",
+     "user_limit": 1
+    },
+    "id": "121227",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-11-20T19:53:24+00:00",
+     "description": "Thank you very much, really! Creating these tutorials is hard work, and you make it possible!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-20T18:11:09.264346+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-20T18:11:09.257313+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Super Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=83418\u0026rid=40264",
+     "user_limit": null
+    },
+    "id": "40264",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4200,
+     "amount_cents": 4200,
+     "created_at": "2016-11-20T19:53:24+00:00",
+     "description": "I bow to you. You got this special number!",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-28T19:39:45.645714+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T19:53:24+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Mega Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=83418\u0026rid=84287",
+     "user_limit": 1
+    },
+    "id": "84287",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 100,
+     "created_at": "2014-03-12T15:31:55+00:00",
+     "description": "Older tutorials will be converted to the current layout and get upgraded to Unity 2017.",
+     "reached_at": "2014-03-12T15:31:55+00:00",
+     "title": ""
+    },
+    "id": "13184",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 80000,
+     "completed_percentage": 100,
+     "created_at": "2017-09-11T10:39:39+00:00",
+     "description": "When I upgrade\u00a0\u003ca href=\"http://catlikecoding.com/unity/tutorials/curves-and-splines/\"\u003eCurves and Splines\u003c/a\u003e, I\u0027ll add movement with constant velocity.",
+     "reached_at": "2017-09-14T19:39:32+00:00",
+     "title": ""
+    },
+    "id": "963044",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 100,
+     "created_at": "2017-09-11T10:39:39+00:00",
+     "description": "When I upgrade the\u00a0\u003ca href=\"http://catlikecoding.com/unity/tutorials/noise/\"\u003eNoise\u003c/a\u003e series, I\u0027ll add a hash function and seed.",
+     "reached_at": "2018-01-20T03:50:55+00:00",
+     "title": ""
+    },
+    "id": "963045",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/83418"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "32526f7f-413e-4826-a575-3025f0e7b739",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Catlike Coding is creating Unity C# and Shader Tutorials"
+});
+    </script>

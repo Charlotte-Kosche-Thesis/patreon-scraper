@@ -11,11 +11,15 @@ from bs4 import BeautifulSoup
 import csv
 import requests
 from pathlib import Path
-import asyncio
+from time import sleep
 # http://skipperkongen.dk/2016/09/09/easy-parallel-http-requests-with-python-and-asyncio/
 
+import asyncio
+import concurrent.futures
 
 
+
+BATCH_SIZE = 50
 SRCPATH = Path('datadump', 'graphtreon', '2018-04.csv')
 DATA_DIR = Path('datadump', 'patreon', 'overviews')
 DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -63,13 +67,25 @@ def fetch_and_extract(url, dest_name):
         return {'success': False, 'content': msg, 'url': url, 'dest_name': dest_name}
 
 
-async def batch_fetch(paths):
+def make_batches(mylist, num):
+    """easy chunking
+    https://chrisalbon.com/python/data_wrangling/break_list_into_chunks_of_equal_size/
+
+    Generates list of lists, with each list having num elements
     """
-    paths is a list of tuples:
+    for i in range(0, len(mylist), num):
+        # Create an index range for l of n items:
+        yield mylist[i:i+num]
+
+
+
+async def batch_fetch(batch):
+    """
+    batch is a list of tuples:
     [(slug, patreonurl, local_filename), (slug, patreon_url, local_filename)]
 
     """
-    executor = concurrent.futures.ThreadPoolExecutor(max_workers=10)
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=20)
     loop = asyncio.get_event_loop()
     futures = [
         loop.run_in_executor(
@@ -78,8 +94,9 @@ async def batch_fetch(paths):
             url,
             dest_name,
         )
-        for slug, url, dest_name in paths
+        for slug, url, dest_name in batch
     ]
+
     for d in await asyncio.gather(*futures):
         if d['success']:
             print("Downloaded:", d['url'])
@@ -101,10 +118,15 @@ def main():
     paths = [(s, url, dest) for s, url, dest in all_paths if not dest.exists()]
     print("remaining paths:", len(paths))
     print("-------------------------\n\n")
+    batches = list(make_batches(paths, BATCH_SIZE))
 
-    batch = paths[0:20]
-    batch_fetch(batch)
 
+    for i, batch in enumerate(batches):
+        print("\n\n")
+        print("Batch {} of {}".format(i, len(batches)))
+        print("---------------")
+        loop = asyncio.get_event_loop()
+        loop.run_until_complete(batch_fetch(batch))
 
 if __name__ == '__main__':
     main()
