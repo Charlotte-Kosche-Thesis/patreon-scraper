@@ -11,14 +11,13 @@ from bs4 import BeautifulSoup
 import csv
 import requests
 from pathlib import Path
-from time import sleep
+
 # http://skipperkongen.dk/2016/09/09/easy-parallel-http-requests-with-python-and-asyncio/
-
 import asyncio
-import concurrent.futures
+from concurrent.futures import ThreadPoolExecutor
 
 
-BATCH_SIZE = 50
+BATCH_SIZE = 100
 SRCPATH = Path('datadump', 'graphtreon', '2018-04.csv')
 DATA_DIR = Path('datadump', 'patreon', 'overviews')
 DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -81,35 +80,31 @@ def make_batches(mylist, num):
 
 async def batch_fetch(batch):
     """
+    From:
+    http://skipperkongen.dk/2016/09/09/easy-parallel-http-requests-with-python-and-asyncio/
+
     batch is a list of tuples:
     [(slug, patreonurl, local_filename), (slug, patreon_url, local_filename)]
 
     """
-    executor = concurrent.futures.ThreadPoolExecutor(max_workers=40)
-    loop = asyncio.get_event_loop()
-    futures = [
-        loop.run_in_executor(
-            executor,
-            fetch_and_extract,
-            url,
-            dest_name,
-        )
-        for slug, url, dest_name in batch
-    ]
+    with ThreadPoolExecutor(max_workers=40) as executor:
+        loop = asyncio.get_event_loop()
+        futures = [
+            loop.run_in_executor(
+                executor,
+                fetch_and_extract,
+                url,
+                dest_name,
+            )
+            for slug, url, dest_name in batch
+        ]
 
-    for d in await asyncio.gather(*futures):
-        if d['success']:
-            print("Downloaded:", d['url'])
-            print("\tWrote:", len(d['content']), 'to:', d['dest_name'])
-        else:
-            print('Error:', d['content'])
-
-
-
-#     loop = asyncio.get_event_loop
-#
-#    futures = [loop.run_in_executor(None, fetch_and_extract, slug)
-#                for slug in gather_slugs]
+        for d in await asyncio.gather(*futures):
+            if d['success']:
+                print("Downloaded:", d['url'])
+                print("\tWrote:", len(d['content']), 'to:', d['dest_name'])
+            else:
+                print('Error:', d['content'])
 
 
 def main():
@@ -127,6 +122,8 @@ def main():
         print("---------------")
         loop = asyncio.get_event_loop()
         loop.run_until_complete(batch_fetch(batch))
+
+
 
 if __name__ == '__main__':
     main()

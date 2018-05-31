@@ -1,0 +1,592 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "5Y97oKzuZM2PtWL5q47O7yiZPGObyeEs-i5tDN1s3D0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "142",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/142"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-05-29T17:27:45+00:00",
+    "creation_name": "Music videos",
+    "display_patron_goals": true,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/377332/da7c9f752f5643769dc5d06be5b56a84?token-time=2145916800\u0026token-hash=lTGX61KpgKkTJykPXRojO5qDE0_1xMVBUPsk3w7LjW0%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/377332/da7c9f752f5643769dc5d06be5b56a84?token-time=2145916800\u0026token-hash=brjcVXPvSQ0Nk6qTv4uO855cBioRJkzkxNRhtjolxkE%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 180,
+    "pay_per_name": "Each music video",
+    "pledge_sum": 64218,
+    "pledge_url": "/bePatron?c=377332",
+    "published_at": "2016-05-31T13:41:37+00:00",
+    "summary": "From the mind of Chris Rupp, founder of Home Free and the Chris Rupp Project, comes a brand new vocal quartet that is ready to forge a new identity in the music world. \u00a0Combining elements of pop, swing, rockabilly, country, and much more 7th Ave is aiming to reinvent and uproot the standard definitions of all of those genres through our innovative arrangements and fun music videos. \u00a0This is where YOU come in! If you\u0027d like to see all of the awesome behind the scenes and bonus content of everything 7th Ave does, then sign up to support us on Patreon now and we\u0027ll be your best friend for life! (*best friends not garaunteed)"
+   },
+   "id": "377332",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3379999",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3379999"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "440061",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "14542",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-377332",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-377332"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "559376",
+       "type": "reward"
+      },
+      {
+       "id": "559377",
+       "type": "reward"
+      },
+      {
+       "id": "559378",
+       "type": "reward"
+      },
+      {
+       "id": "559379",
+       "type": "reward"
+      },
+      {
+       "id": "559380",
+       "type": "reward"
+      },
+      {
+       "id": "559381",
+       "type": "reward"
+      },
+      {
+       "id": "559382",
+       "type": "reward"
+      },
+      {
+       "id": "559383",
+       "type": "reward"
+      },
+      {
+       "id": "559384",
+       "type": "reward"
+      },
+      {
+       "id": "559385",
+       "type": "reward"
+      },
+      {
+       "id": "559386",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-05-29T17:25:04+00:00",
+     "facebook": "https://www.facebook.com/7thaveband/",
+     "first_name": "7th",
+     "full_name": "7th Ave",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3379999/3e1c0b1cae5a4ec6838629eec27283ba?token-time=2145916800\u0026token-hash=AIggTx1xA_DLo-UEj8iNW6W7hkP8MTg0Lj3Awr9KRhQ%3D",
+     "last_name": "Ave",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3379999/3e1c0b1cae5a4ec6838629eec27283ba?token-time=2145916800\u0026token-hash=cbGE65koc9h8o4LEzCWbdW75tVPbJZitvNC_3wHq1Vw%3D",
+     "twitch": "",
+     "twitter": "the7thaveband",
+     "url": "https://www.patreon.com/7thave",
+     "vanity": "7thave",
+     "youtube": "https://www.youtube.com/channel/UCdaBAP9_lMbXpLGj8tRRQkg"
+    },
+    "id": "3379999",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "377332",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/377332"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 168,
+     "upgrade_url": "/bePatron?c=377332\u0026rid=559377"
+    },
+    "id": "post-aggregation-for-0-377332",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-09-11T15:53:18+00:00",
+     "description": "For $1 you\u0027ll have access to our videos \u003cem\u003efirst\u00a0\u003c/em\u003evia our Patreon stream, and first access to concert tickets.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 81,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-11T15:53:18+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=377332\u0026rid=559376",
+     "user_limit": null
+    },
+    "id": "559376",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-09-11T15:53:18+00:00",
+     "description": "For $3 you\u0027ll get everything from $1, plus the MP3 track of each new video we release.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 74,
+     "post_count": 45,
+     "published": true,
+     "published_at": "2016-09-11T15:53:18+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=377332\u0026rid=559377",
+     "user_limit": null
+    },
+    "id": "559377",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-09-11T15:53:19+00:00",
+     "description": "For $5 you\u0027ll get everything from the previous levels, plus a karaoke track of each video we release! Bonus points if you upload a video of you jamming out solo style to us.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 19,
+     "post_count": 33,
+     "published": true,
+     "published_at": "2016-09-11T15:53:19+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=377332\u0026rid=559378",
+     "user_limit": null
+    },
+    "id": "559378",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-09-11T15:53:19+00:00",
+     "description": "For $10, you\u0027ll get everything from the previous levels, AND a live Q\u0026amp;A video stream every couple of months! We\u0027ll ask for questions a day or two beforehand and then send out a private YouTube link for the live stream. \u00a0\u00a0Plus, we\u0027ll follow you on Twitter!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-09-11T15:53:19+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=377332\u0026rid=559379",
+     "user_limit": null
+    },
+    "id": "559379",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-09-11T15:53:19+00:00",
+     "description": "For $15 you\u0027ll get everything from the previous levels, plus get exclusive access to our bonus content videos, which could include full take choreography shots, behind the scenes, live performances, who knows!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 7,
+     "post_count": 23,
+     "published": true,
+     "published_at": "2016-09-11T15:53:19+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=377332\u0026rid=559380",
+     "user_limit": null
+    },
+    "id": "559380",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-09-11T15:53:19+00:00",
+     "description": "For $30, you\u2019ll get everything from the previous levels, plus we\u2019ll send you an exclusive commemorative postcard for each video release you support! We\u0027ll be taking either a screenshot from the video or a behind the scenes pic and mail you the postcards in an envelope on a quarterly basis. You can then either mail them out yourself, or keep them as a momento!\u003cbr\u003e\u003cbr\u003eHow cool is that? (hint, the answer was SUPER COOL!)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-11T15:53:19+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=377332\u0026rid=559381",
+     "user_limit": null
+    },
+    "id": "559381",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-09-11T15:53:19+00:00",
+     "description": "For $50 you\u0027ll get everything from the previous levels plus you\u0027ll get a thank you in the credits of each video. AND we\u0027ll send out exclusive behind the scenes pics from all the videos we do!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2016-09-11T15:53:19+00:00",
+     "remaining": 47,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=377332\u0026rid=559382",
+     "user_limit": 50
+    },
+    "id": "559382",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2016-09-11T15:53:19+00:00",
+     "description": "For $75 you\u0027ll get everything from the previous levels, plus we\u00a0will let you listen to all of the demo versions of the songs.  You\u0027ll be able to follow the development of the song from a raw scratch file to the actual finished product and hear as it comes together with additional instrumentation, lyric/melody changes, the mixing process, etc., until we get to the final version! How cool is THAT?!?!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 9,
+     "published": true,
+     "published_at": "2016-09-11T15:53:19+00:00",
+     "remaining": 50,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=377332\u0026rid=559383",
+     "user_limit": 50
+    },
+    "id": "559383",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-09-11T15:53:19+00:00",
+     "description": "For $100 you\u0027ll get everything from the previous levels, plus one personalized message from the band every year you are a Patron (happy birthday, anniversary, whatever you want!) (min 3 months)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-11T15:53:19+00:00",
+     "remaining": 50,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=377332\u0026rid=559384",
+     "user_limit": 50
+    },
+    "id": "559384",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2016-09-11T15:53:19+00:00",
+     "description": "\u00a0For $150 you\u0027ll get everything from the previous levels,\u00a0\u00a0PLUS a 1 on 1 skype session with a member of the band once a year!  All the yes! (min 3 months)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-11T15:53:19+00:00",
+     "remaining": 25,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=377332\u0026rid=559385",
+     "user_limit": 25
+    },
+    "id": "559385",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2016-09-11T15:53:19+00:00",
+     "description": "For 250 you\u0027ll get everything from the previous levels, PLUS we\u0027ll give you sneak previews of all of our material! As soon as we get a video draft or first mix back of a song, we\u0027ll share it with you so you can enjoy WAY before everyone else and even offer feedback! Occasionally we may not be able to release that stuff earlier, but every time we can, we will!  You\u0027ll be the coolest kid in school with this perk! (min 3 months)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-11T15:53:19+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=377332\u0026rid=559386",
+     "user_limit": 10
+    },
+    "id": "559386",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000000,
+     "completed_percentage": 6,
+     "created_at": "2016-05-29T17:53:40+00:00",
+     "description": "Patreon doesnt allow a patron number goal, so we made it ourselves. \u00a0As soon as we hit 200 Patrons, everyone will receive a commemorative postcard from No, the first and only 7th Ave video we wont be doing a postcard for. \u00a0Here\u0027s your chance to start your collection right at the beginning! AND, we\u0027ll sign it!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "440061",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-06-11T21:43:37+00:00",
+     "deleted_at": null,
+     "description": "\u00a0As soon as we hit 200 Patrons, everyone will receive a commemorative postcard from No, the first and only 7th Ave video we wont be doing a postcard for. \u00a0Here\u0027s your chance to start your collection right at the beginning! AND, we\u0027ll sign it!",
+     "goal_text": "\u00a0As soon as we hit 200 Patrons, everyone will receive a commemorative postcard from No, the first and only 7th Ave video we wont be doing a postcard for. \u00a0Here\u0027s your chance to start your collection right at the beginning! AND, we\u0027ll sign it!",
+     "number_patrons": 200,
+     "reached_at": null
+    },
+    "id": "14542",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/377332"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "4cfee411-7838-49d0-ad44-6212971ed330",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "7th Ave is creating Music videos"
+});
+    </script>

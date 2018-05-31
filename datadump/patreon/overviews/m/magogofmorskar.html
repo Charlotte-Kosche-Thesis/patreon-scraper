@@ -1,0 +1,639 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "C3hkBp11cDtIPNCiBiHj1oaiUUti6J2stEJqebW5W2c";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "383197",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/383197"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-03-11T19:21:25+00:00",
+    "creation_name": "Comedic Videos",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/790760/98e210f8a6d24f008bf095ab93735605?token-time=2145916800\u0026token-hash=PpJ5VNwn31NqnCLjTzUMY08Npsjxm5541hWryXypmSY%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/790760/98e210f8a6d24f008bf095ab93735605?token-time=2145916800\u0026token-hash=a8xQm_ehvJEWloEC1_9PZ2tWds0JJ8L52mAz8Hmdtxw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/HbCmFKmN_cg\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://www.youtube.com/watch?v=HbCmFKmN_cg",
+    "one_liner": null,
+    "patron_count": 212,
+    "pay_per_name": "month",
+    "pledge_sum": 152147,
+    "pledge_url": "/bePatron?c=790760",
+    "published_at": "2017-03-11T19:35:48+00:00",
+    "summary": "Magog of Morskar is a wizard and necromancer who has opened a magical window into our world and is seeing it for the first time. Hilarity ensues as a result. If you enjoy his channel and wish to see even more videos in the future, more videos a week, and a growth of the channel to include more characters, settings, and comedy, please donate and help make Magog\u0027s world grow."
+   },
+   "id": "790760",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5312593",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5312593"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "745936",
+       "type": "goal"
+      },
+      {
+       "id": "786581",
+       "type": "goal"
+      },
+      {
+       "id": "837996",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-790760",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-790760"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1724871",
+       "type": "reward"
+      },
+      {
+       "id": "1724581",
+       "type": "reward"
+      },
+      {
+       "id": "1724872",
+       "type": "reward"
+      },
+      {
+       "id": "1724588",
+       "type": "reward"
+      },
+      {
+       "id": "1724592",
+       "type": "reward"
+      },
+      {
+       "id": "1770974",
+       "type": "reward"
+      },
+      {
+       "id": "1724597",
+       "type": "reward"
+      },
+      {
+       "id": "1724600",
+       "type": "reward"
+      },
+      {
+       "id": "1724604",
+       "type": "reward"
+      },
+      {
+       "id": "1724608",
+       "type": "reward"
+      },
+      {
+       "id": "1724610",
+       "type": "reward"
+      },
+      {
+       "id": "1724620",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-03-11T19:21:15+00:00",
+     "facebook": "https://www.facebook.com/MagogofMorskar/?view_public_for=681507568693550",
+     "first_name": "Magog",
+     "full_name": "Magog of Morskar",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5312593/46c96ce4947c4f1c91f18321a6e0a493?token-time=2145916800\u0026token-hash=jsvwkFnd2jlK0PfPpMjzsyqmd6sIEij36Po84GmSvig%3D",
+     "last_name": "of Morskar",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5312593/46c96ce4947c4f1c91f18321a6e0a493?token-time=2145916800\u0026token-hash=hAljCCFTrrmc2iLT_NjwgLsWkxrW2TnqyrSuchvFCw4%3D",
+     "twitch": null,
+     "twitter": "magog_morskar",
+     "url": "https://www.patreon.com/magogofmorskar",
+     "vanity": "magogofmorskar",
+     "youtube": "https://www.youtube.com/c/MagogofMorskar"
+    },
+    "id": "5312593",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "790760",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/790760"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 17,
+     "upgrade_url": "/bePatron?c=790760\u0026rid=1724871"
+    },
+    "id": "post-aggregation-for-0-790760",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-05-29T04:45:00.398451+00:00",
+     "description": "- Shoutout in Credits\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-29T04:45:02.131901+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1724871/9b2be22793364f9d95d09bd7ed48b81d?token-time=2145916800\u0026token-hash=YXjYaGIQ6bZ2vCqHjtNHo4Os9esldjKWZsgMITeuhIM%3D",
+     "patron_count": 39,
+     "post_count": 13,
+     "published": true,
+     "published_at": "2017-05-29T04:45:00.398451+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Third Magogonite",
+     "unpublished_at": null,
+     "url": "/bePatron?c=790760\u0026rid=1724871",
+     "user_limit": null
+    },
+    "id": "1724871",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-05-29T02:12:35.229986+00:00",
+     "description": "- Shoutout in Credits",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-29T02:13:05.533420+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1724581/17ea5e91246249c18361335bc87dbcb5?token-time=2145916800\u0026token-hash=reLHZCf_BoFs56T8nL-7-C_s2O1CrGbS_troXVtlL8E%3D",
+     "patron_count": 8,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-29T02:12:35.229986+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Second Magogonite",
+     "unpublished_at": null,
+     "url": "/bePatron?c=790760\u0026rid=1724581",
+     "user_limit": null
+    },
+    "id": "1724581",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-05-29T04:47:09.477127+00:00",
+     "description": "- Shoutout in Credits\n\u003cp\u003e- Happy Birthday Message (Contact Me 2 Weeks Prior)\u00a0\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-29T04:48:27.450440+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1724872/553464586c7140528c2179751e63db19?token-time=2145916800\u0026token-hash=bn1cDi-knDi1Sdnp2rgRHQHCI8aNGPSLQZdXmMRUm0A%3D",
+     "patron_count": 27,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-29T04:47:09.477127+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "First Magogonite",
+     "unpublished_at": null,
+     "url": "/bePatron?c=790760\u0026rid=1724872",
+     "user_limit": null
+    },
+    "id": "1724872",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-05-29T02:16:07.243141+00:00",
+     "description": "- Shoutout in Credits\n\u003cp\u003e- Happy Birthday Message (Contact Me 2 Weeks Prior)\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e---More Coming Soon---\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-29T04:49:01.104692+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1724588/94180e3ca48d49b385296d4f21950267?token-time=2145916800\u0026token-hash=2Z0rVqy1_VASMAUz-kin-vMGruHKaPaylMG0EhmawDI%3D",
+     "patron_count": 46,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-05-29T02:16:07.243141+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Magogonite Archer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=790760\u0026rid=1724588",
+     "user_limit": null
+    },
+    "id": "1724588",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-05-29T02:17:31.180434+00:00",
+     "description": "- Shoutout in Credits\n\u003cp\u003e- Happy Birthday Message (Contact Me 2 Weeks Prior)\u003c/p\u003e\n\u003cp\u003e- Autographed Photo (Please Provide Address in personal message)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e---More Coming Soon---\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-21T20:59:33.333077+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1724592/aedf4f708a9447d68ef978b8129e45a3?token-time=2145916800\u0026token-hash=V_zzZOVI7do-FtwoofBSxuYAufl8MPMd5Z0lSD4xB6o%3D",
+     "patron_count": 25,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-29T02:17:31.180434+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Knight",
+     "unpublished_at": null,
+     "url": "/bePatron?c=790760\u0026rid=1724592",
+     "user_limit": null
+    },
+    "id": "1724592",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-06-16T10:32:46.345566+00:00",
+     "description": "- Shoutout in Credits\n\u003cp\u003e- Happy Birthday Message (Contact Me 2 Weeks Prior)\u003c/p\u003e\n\u003cp\u003e- Autographed Photo (Please Provide Address in personal message)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e---More Coming Soon---\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-21T20:59:25.585477+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1770974/0533f2cbc1aa4b41b10e0adf1cbedb45?token-time=2145916800\u0026token-hash=v-Xjy7Yn4GsGWD2vGGOb7W6RaRhhnYo1eYykd0bVP1c%3D",
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-16T10:32:46.345566+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Magogonite Cavalry",
+     "unpublished_at": null,
+     "url": "/bePatron?c=790760\u0026rid=1770974",
+     "user_limit": null
+    },
+    "id": "1770974",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-05-29T02:20:16.234547+00:00",
+     "description": "- Shoutout in Credits\n\u003cp\u003e- Happy Birthday Message (Contact Me 2 Weeks Prior)\u003c/p\u003e\n\u003cp\u003e- Autographed Photo (Please Provide Address in personal message)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e---More Coming Soon---\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-21T20:58:00.720789+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1724597/cbef2bafadc24cd09e93ebf3783839ce?token-time=2145916800\u0026token-hash=PckVDrPz6Po7pXewuR8YQEUO0BIQWAJNz0MSxPQqySs%3D",
+     "patron_count": 10,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-29T02:20:16.234547+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Magogonite Commander",
+     "unpublished_at": null,
+     "url": "/bePatron?c=790760\u0026rid=1724597",
+     "user_limit": null
+    },
+    "id": "1724597",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-05-29T02:20:50.745859+00:00",
+     "description": "- Shoutout in Credits\n\u003cp\u003e- Happy Birthday Message (Contact Me 2 Weeks Prior)\u003c/p\u003e\n\u003cp\u003e- Autographed Photo (Please Provide Address in personal message)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e---More Coming Soon---\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-21T20:59:12.981060+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1724600/4028f09424894c9bb361d820166890eb?token-time=2145916800\u0026token-hash=m_q02cZLpUiYxvhhZ1r3O2LPgtE-AvXrI_BgSwaCFxA%3D",
+     "patron_count": 7,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-29T02:20:50.745859+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Knight Commander",
+     "unpublished_at": null,
+     "url": "/bePatron?c=790760\u0026rid=1724600",
+     "user_limit": null
+    },
+    "id": "1724600",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-05-29T02:21:24.801254+00:00",
+     "description": "- Shoutout in Credits\n\u003cp\u003e- Happy Birthday Message (Contact Me 2 Weeks Prior)\u003c/p\u003e\n\u003cp\u003e- Autographed Photo (Please Provide Address in personal message)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e---More Coming Soon---\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-21T20:59:00.561634+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1724604/54b67a7974d044df85d85fd3846742fb?token-time=2145916800\u0026token-hash=aR_pdsheXDk084Ig9yZEkDVWYizaqAVI6KQ3KyVy9LU%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-29T02:21:24.801254+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Mage Commander",
+     "unpublished_at": null,
+     "url": "/bePatron?c=790760\u0026rid=1724604",
+     "user_limit": null
+    },
+    "id": "1724604",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2017-05-29T02:22:11.743259+00:00",
+     "description": "- Shoutout in Credits\n\u003cp\u003e- Happy Birthday Message (Contact Me 2 Weeks Prior)\u003c/p\u003e\n\u003cp\u003e- Autographed Photo (Please Provide Address in personal message)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e---More Coming Soon---\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-21T20:58:49.900743+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1724608/4c957d1ff0e34a47b4494a08cbb59ba5?token-time=2145916800\u0026token-hash=G3gygQKG-T3BzgqQ8vs6XiAkKdeUKvdSrBcWZc27y-A%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-29T02:22:11.743259+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Magogonite General",
+     "unpublished_at": null,
+     "url": "/bePatron?c=790760\u0026rid=1724608",
+     "user_limit": null
+    },
+    "id": "1724608",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-05-29T02:22:43.573037+00:00",
+     "description": "- Shoutout in Credits\n\u003cp\u003e- Happy Birthday Message (Contact Me 2 Weeks Prior)\u003c/p\u003e\n\u003cp\u003e- Autographed Photo (Please Provide Address in personal message)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e---More Coming Soon---\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-21T20:58:37.690335+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1724610/b718e91231f145b489a35ff8317fe6b5?token-time=2145916800\u0026token-hash=hk2cT9K9gwi-xY-LIGhiw8KjE5VV3zrPJmBQdbXsUiA%3D",
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-29T02:22:43.573037+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Mage General",
+     "unpublished_at": null,
+     "url": "/bePatron?c=790760\u0026rid=1724610",
+     "user_limit": null
+    },
+    "id": "1724610",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-05-29T02:25:16.687522+00:00",
+     "description": "- Shoutout in Credits\n\u003cp\u003e- Happy Birthday Message (Contact Me 2 Weeks Prior)\u003c/p\u003e\n\u003cp\u003e- Autographed Photo (Please Provide Address in personal message)\u003c/p\u003e\n\u003cp\u003e- Live Stream Opportunities\u003c/p\u003e\n\u003cp\u003e- SELECT MAGOG GEAR (Message me shirt and hoodie sizes and address)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e---More Coming Soon---\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-21T20:58:22.233163+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1724620/60ceb0b3fb7c403c9ab22324b59bd885?token-time=2145916800\u0026token-hash=E5oc1Lo10Z9m7yHN7K1uCrASfBYzuYNfk7kbHuPNZxM%3D",
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-29T02:25:16.687522+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Grand Mage General",
+     "unpublished_at": null,
+     "url": "/bePatron?c=790760\u0026rid=1724620",
+     "user_limit": null
+    },
+    "id": "1724620",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 100,
+     "created_at": "2017-03-11T19:39:31+00:00",
+     "description": "I would like to make this much so that I can afford to quit one of my three part-time jobs and get my evenings back. This would give me time to do more videos and produce more content for your viewing pleasure!",
+     "reached_at": "2017-04-11T23:12:40+00:00",
+     "title": ""
+    },
+    "id": "745936",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 100,
+     "created_at": "2017-04-11T20:45:59+00:00",
+     "description": "If I reach 500 a month, I can not only quit a second contract and have even more time to dedicate to Magog and building the world, but I can have more time and money for bigger effects and new locations, characters, and longer scripts! This could be fun!",
+     "reached_at": "2017-05-05T13:41:14+00:00",
+     "title": ""
+    },
+    "id": "786581",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 76,
+     "created_at": "2017-05-18T00:14:32+00:00",
+     "description": "With this amount, I will be a full time YouTuber! No more jobs! I\u0027ll be able to shoot a few short films, gather actors and props to expand the world of Morskar, and start live streams and have more episodes a month! This would mean, for sure, that there would be no stopping Magog from appearing more and the production budget would increase!\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "837996",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/790760"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "0a77c52c-a42e-4de4-812a-6847e0bce1db",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Magog of Morskar is creating Comedic Videos"
+});
+    </script>

@@ -1,0 +1,556 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "xrZ_N4GqAr3AKZUFVyImNn36hmFBFnT-X5M4b6J_Elo";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "36499",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/36499"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-03-02T01:25:54+00:00",
+    "creation_name": "Nerdy Media for Role-Playing \u0026 Tabletop Games",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/151762/1254d69ed6894a29b68eaee3d642129f?token-time=2145916800\u0026token-hash=glIuqZaEw3r0nGvFwDBRcqG-RIXvOzrrnfh2AwpKabs%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/151762/1254d69ed6894a29b68eaee3d642129f?token-time=2145916800\u0026token-hash=oMgfxpa4sHuogCLw81CZuOwAj4fXtMtIirc3ual2qaw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "For Nerds. By Nerds.",
+    "patron_count": 198,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=151762",
+    "published_at": "2015-03-02T01:54:14+00:00",
+    "summary": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/89H_JiqYwcE\" width=\"560\"\u003e\u003c/iframe\u003e\n\u003cbr\u003e\nWe\u0027re a group of gaming enthusiasts sharing our \nlove of role-playing games, indie games, and other aspects of the hobby \nwith others.\n\u003cbr\u003e\n\u003cbr\u003e\nWith your generous support we\u0027ll continue to create quality content between our YouTube channel and blog, invest in equipment to increase recording quality, and eventually create original publications and products to enhance your tabletop role-playing and gaming experience.\u003cbr\u003e\n\u003cbr\u003e\nThank you for your consideration and as always, until next time- stay nerdy!\u003cbr\u003e"
+   },
+   "id": "151762",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "314277",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/314277"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "477103",
+       "type": "goal"
+      },
+      {
+       "id": "477105",
+       "type": "goal"
+      },
+      {
+       "id": "477108",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "81081",
+       "type": "patron_goal"
+      },
+      {
+       "id": "81079",
+       "type": "patron_goal"
+      },
+      {
+       "id": "81080",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-151762",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-151762"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "169698",
+       "type": "reward"
+      },
+      {
+       "id": "530200",
+       "type": "reward"
+      },
+      {
+       "id": "530201",
+       "type": "reward"
+      },
+      {
+       "id": "530202",
+       "type": "reward"
+      },
+      {
+       "id": "198031",
+       "type": "reward"
+      },
+      {
+       "id": "530203",
+       "type": "reward"
+      },
+      {
+       "id": "530204",
+       "type": "reward"
+      },
+      {
+       "id": "530205",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "For nerds, by nerds. We\u0027re a group of gaming enthusiasts sharing our love of role-playing games, indie games, and other aspects of the hobby with others.",
+     "created": "2014-09-20T05:48:34+00:00",
+     "facebook": "https://www.facebook.com/Nerdarchy",
+     "first_name": "Nerdarchy",
+     "full_name": "Nerdarchy",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/314277/40dc1aa7067e4573bd1595a935ee7c9a?token-time=2145916800\u0026token-hash=ZdTrxHZCii34XTBc1WibaTDDS2xJI8FJV_v-vivQIbo%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/314277/40dc1aa7067e4573bd1595a935ee7c9a?token-time=2145916800\u0026token-hash=EAOQ-P2lL3dDYaNQRcfCPmRzRjkIVAL2IcCsCR4uWBo%3D",
+     "twitch": "https://www.twitch.tv/nerdarchy",
+     "twitter": "nerdarchy",
+     "url": "https://www.patreon.com/nerdarchy",
+     "vanity": "nerdarchy",
+     "youtube": "https://www.youtube.com/user/Nerdarchy"
+    },
+    "id": "314277",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "151762",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/151762"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 105,
+     "upgrade_url": "/bePatron?c=151762\u0026rid=169698"
+    },
+    "id": "post-aggregation-for-0-151762",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-01T16:48:17+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003eWith your generous support we will continue to produce the quality content that we already provide on our YouTube channel, blog, and you also get an additional chance to game with Nerdarchy as a part of our random drawing for The Company of the Nag One Shot Games. You will receive our gratitude and in case we meet you in person, your choice of a handshake, high-five, or hug!\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": [
+      "397165889537048576"
+     ],
+     "edited_at": "2018-01-17T20:06:04.232629+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-17T20:06:04.202319+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "ENLISTED IN THE NAG",
+     "unpublished_at": null,
+     "url": "/bePatron?c=151762\u0026rid=169698"
+    },
+    "id": "169698",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-10-01T16:48:17+00:00",
+     "description": "\u003cdiv\u003eAt this level our mage-wrights are hard at work at their arcane forges crafting items of an arcane or mundane nature to use in your D\u0026amp;D game every month.\u00a0With your generous support we will continue to produce the quality content that we already provide on our YouTube channel, blog, and you also get an additional chance to game with Nerdarchy as a part of our random drawing for The Company of the Nag One Shot Games. You will receive our gratitude and in case we meet you in person, your choice of a handshake, high-five, or hug!\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": [
+      "397165889537048576"
+     ],
+     "edited_at": "2018-01-17T20:06:38.012264+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-17T20:06:37.988774+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "MAGE FORGE: MAGIC \u0026 SPECIAL ITEMS FOR YOUR D\u0026D GAME",
+     "unpublished_at": null,
+     "url": "/bePatron?c=151762\u0026rid=530200"
+    },
+    "id": "530200",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-10-01T16:48:17+00:00",
+     "description": "\u003cdiv\u003eAt this level you receive content from the prior level and you get to see the strange and fantastic creatures we\u0027ve gathered for you (at no small amount of peril) to use in your game every month. With your generous support we will continue to produce the quality content that we already provide on our YouTube channel, blog, and you also get an additional chance to game with Nerdarchy as a part of our random drawing for The Company of the Nag One Shot Games. You will receive our gratitude and in case we meet you in person, your choice of a handshake, high-five, or hug!\u003c/div\u003e",
+     "discord_role_ids": [
+      "397165889537048576"
+     ],
+     "edited_at": "2018-01-17T20:07:03.601694+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-17T20:07:03.571900+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "MONSTER MENAGERIE: CREATURES FOR YOUR D\u0026D GAME",
+     "unpublished_at": null,
+     "url": "/bePatron?c=151762\u0026rid=530201"
+    },
+    "id": "530201",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-01T16:48:17+00:00",
+     "description": "At this level you receive all content from the prior levels and we\u0027ll introduce you to a new NPC to use in your game every month. With your generous support we will continue to produce the quality content that we already provide on our YouTube channel, blog, and you also get an additional chance to game with Nerdarchy as a part of our random drawing for The Company of the Nag One Shot Games. You will receive our gratitude and in case we meet you in person, your choice of a handshake, high-five, or hug!",
+     "discord_role_ids": [
+      "397165889537048576"
+     ],
+     "edited_at": "2018-01-17T20:07:20.473356+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-17T20:07:20.350601+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "FRIEND OR FOE: ALLIES \u0026 ENEMIES FOR YOUR D\u0026D GAME",
+     "unpublished_at": null,
+     "url": "/bePatron?c=151762\u0026rid=530202"
+    },
+    "id": "530202",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-01T16:48:17+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003e[Closed to new supporters at this level, but if you\u0027re already signed-up at this level, you will get the $5 \u0026amp; below rewards! :)]\u003c/strong\u003e\u003c/div\u003eSame as above aaaand.... with this level of support, we will put your name on scrolling credits at the end of all of our videos crediting you as a Patreon Producer.\u00a0 We decided to have a specific reward level for this due to some folks wanting to maintain a level of anonymity and wanted to respect that.\u00a0 I hope this goes without saying that we reserve the right to censor things such as hate speech.\u003cbr\u003e",
+     "discord_role_ids": [
+      "397165889537048576"
+     ],
+     "edited_at": "2018-05-07T02:43:36.697626+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-07T02:43:36.687189+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "PRODUCER END CREDIT",
+     "unpublished_at": null,
+     "url": "/bePatron?c=151762\u0026rid=198031"
+    },
+    "id": "198031",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2016-10-01T16:48:17+00:00",
+     "description": "At this level you receive all content from the prior levels and you\u0027ll get an encounter (Sometimes includes Map) ready to use in your game every month. With your generous support we will continue to produce the quality content that we already provide on our YouTube channel, blog, and you also get an additional chance to game with Nerdarchy as a part of our random drawing for The Company of the Nag One Shot Games. You will receive our gratitude and in case we meet you in person, your choice of a handshake, high-five, or hug!",
+     "discord_role_ids": [
+      "397165889537048576"
+     ],
+     "edited_at": "2018-04-14T17:13:25.160580+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-14T17:13:25.150725+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "TERRIBLE TERRAIN: BATTLEGROUNDS \u0026 ENCOUNTERS FOR YOUR D\u0026D GAME",
+     "unpublished_at": null,
+     "url": "/bePatron?c=151762\u0026rid=530203"
+    },
+    "id": "530203",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-01T16:48:17+00:00",
+     "description": "At this level you receive all content from the prior levels and we\u0027ll create content to enhance your game world and player\u0027s experience such as traps, hazards, organizations, backgrounds, and class options to use in your game every month. With your generous support we will continue to produce the quality content that we already provide on our YouTube channel, blog, and you also get an additional chance to game with Nerdarchy as a part of our random drawing for The Company of the Nag One Shot Games. You will receive our gratitude and in case we meet you in person, your choice of a handshake, high-five, or hug!",
+     "discord_role_ids": [
+      "397165889537048576"
+     ],
+     "edited_at": "2018-01-17T20:09:26.834456+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-17T20:09:26.803582+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "LOST LORE: GAMEMASTER \u0026 PLAYER OPTIONS FOR YOUR D\u0026D GAME",
+     "unpublished_at": null,
+     "url": "/bePatron?c=151762\u0026rid=530204"
+    },
+    "id": "530204",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-10-01T16:48:17+00:00",
+     "description": "At this limited level you receive all content from the prior levels and your name will be featured at the end credits (credited as whatever you would like excluding profanity and hate speech) of Nerdarchy videos as a producer. With your generous support we will continue to produce the quality content that we already provide on our YouTube channel, blog, and you also get an additional chance to game with Nerdarchy as a part of our random drawing for The Company of the Nag One Shot Games. You will receive our gratitude and in case we meet you in person, your choice of a handshake, high-five, or hug!",
+     "discord_role_ids": [
+      "397165889537048576"
+     ],
+     "edited_at": "2018-01-17T20:09:00.175252+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-17T20:09:00.140754+00:00",
+     "remaining": 87,
+     "requires_shipping": false,
+     "title": "PATREON PACT: PRODUCER END CREDIT",
+     "unpublished_at": null,
+     "url": "/bePatron?c=151762\u0026rid=530205"
+    },
+    "id": "530205",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 51,
+     "created_at": "2016-07-08T12:04:26+00:00",
+     "description": "\u003cstrong\u003ePaid Writers\u003c/strong\u003e\u003cbr\u003eNerdarchy gets help from a lot of awesome writers over on \u003ca href=\"https://nerdarchy.com/\"\u003enerdarchy.com\u003c/a\u003e. With your generous support and help we\u0027d like to start paying them for their articles. When this goal is unlocked every article on \u003ca href=\"https://nerdarchy.com/\"\u003enerdarchy.com\u003c/a\u003e will be a paid for by you the fans article.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "477103",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 29,
+     "created_at": "2016-07-08T12:04:26+00:00",
+     "description": "\u003cstrong\u003eGive Our Writers A Raise\u003cbr\u003e\u003c/strong\u003eOur writers work hard so not only do want to pay them, we want to pay them more. Through your gererous support and help we can give these hard working gentlemen and ladies the raise they deserve.\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "477105",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-07-08T12:09:03+00:00",
+     "description": "\u003cstrong\u003eNerdarchy Lair\u003cbr\u003e\u003c/strong\u003eOnce we level up this goal Nerdarchy will put together a set for recording and making the show better. Don\u0027t worry we\u0027ll still be in Nerdarchist Ted\u0027s basement, but we\u0027ll be carving off a little section of it and claiming it in the name of Nerdarchy. We actually want to infuse a bit more of a gaming motiff into the set while giving it that talk show feel.\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003e",
+     "reached_at": "2016-09-09T20:45:23+00:00",
+     "title": ""
+    },
+    "id": "477108",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-03-08T21:22:01+00:00",
+     "deleted_at": null,
+     "description": "\u003cstrong\u003eNerdarchy Lair\u003cbr\u003e\u003c/strong\u003eOnce we level up this goal Nerdarchy will put together a set for recording and making the show better. Don\u0027t worry we\u0027ll still be in Nerdarchist Ted\u0027s basement, but we\u0027ll be carving off a little section of it and claiming it in the name of Nerdarchy. We actually want to infuse a bit more of a gaming motiff into the set while giving it that talk show feel.\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003e",
+     "goal_text": "\u003cstrong\u003eNerdarchy Lair\u003cbr\u003e\u003c/strong\u003eOnce we level up this goal Nerdarchy will put together a set for recording and making the show better. Don\u0027t worry we\u0027ll still be in Nerdarchist Ted\u0027s basement, but we\u0027ll be carving off a little section of it and claiming it in the name of Nerdarchy. We actually want to infuse a bit more of a gaming motiff into the set while giving it that talk show feel.\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003e",
+     "number_patrons": 133,
+     "reached_at": null
+    },
+    "id": "81081",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-03-08T21:22:01+00:00",
+     "deleted_at": null,
+     "description": "\u003cstrong\u003ePaid Writers\u003c/strong\u003e\u003cbr\u003eNerdarchy gets help from a lot of awesome writers over on \u003ca href=\"https://nerdarchy.com/\"\u003enerdarchy.com\u003c/a\u003e. With your generous support and help we\u0027d like to start paying them for their articles. When this goal is unlocked every article on \u003ca href=\"https://nerdarchy.com/\"\u003enerdarchy.com\u003c/a\u003e will be a paid for by you the fans article.\u003cbr\u003e",
+     "goal_text": "\u003cstrong\u003ePaid Writers\u003c/strong\u003e\u003cbr\u003eNerdarchy gets help from a lot of awesome writers over on \u003ca href=\"https://nerdarchy.com/\"\u003enerdarchy.com\u003c/a\u003e. With your generous support and help we\u0027d like to start paying them for their articles. When this goal is unlocked every article on \u003ca href=\"https://nerdarchy.com/\"\u003enerdarchy.com\u003c/a\u003e will be a paid for by you the fans article.\u003cbr\u003e",
+     "number_patrons": 355,
+     "reached_at": null
+    },
+    "id": "81079",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-03-08T21:22:01+00:00",
+     "deleted_at": null,
+     "description": "\u003cstrong\u003eGive Our Writers A Raise\u003cbr\u003e\u003c/strong\u003eOur writers work hard so not only do want to pay them, we want to pay them more. Through your gererous support and help we can give these hard working gentlemen and ladies the raise they deserve.\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003e",
+     "goal_text": "\u003cstrong\u003eGive Our Writers A Raise\u003cbr\u003e\u003c/strong\u003eOur writers work hard so not only do want to pay them, we want to pay them more. Through your gererous support and help we can give these hard working gentlemen and ladies the raise they deserve.\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003e",
+     "number_patrons": 622,
+     "reached_at": null
+    },
+    "id": "81080",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/151762"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "0c914a60-928d-4b84-8fb7-19be2bcbdf42",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Nerdarchy is creating Nerdy Media for Role-Playing \u0026 Tabletop Games"
+});
+    </script>

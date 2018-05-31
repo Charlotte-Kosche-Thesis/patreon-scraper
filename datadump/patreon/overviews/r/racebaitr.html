@@ -1,0 +1,617 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "YjIGaqGVISPEIU-ctXCzptvSsJ12E-aEghF6htJC4Iw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "303489",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/303489"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-11-20T02:44:43+00:00",
+    "creation_name": "freer Black futures",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/617136/c6ab993989d7489cafa05d2fc9f0e19a?token-time=2145916800\u0026token-hash=lAX9Kqz8U9oahJxWLPTNGEqxy5qiI5bTZUjz3JiZeQk%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/617136/c6ab993989d7489cafa05d2fc9f0e19a?token-time=2145916800\u0026token-hash=Gmq4I3jCO00JBdCTDB1dNpRgc-mGYGt1DMT1gt-nBjM%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 147,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=617136",
+    "published_at": "2016-11-20T02:52:09+00:00",
+    "summary": "RaceBaitR is a platform created to explore the various ways race is \nexpressed and defined with the goal of creating a world without all of \nits intersecting oppressions.\u003cbr\u003e \u003cbr\u003e \u003cstrong\u003eSome might call this race baiting. Okay.\u003c/strong\u003e\u003cbr\u003e \u003cbr\u003e\n This space is dedicated to imagining and working toward a world outside\n of the white supremacist cisheteropatriarchal capitalistic gaze with a \nparticular attention to the function of anti-Blackness. Those who insist on wielding that gaze can call us what you like. We aren\u0027t talking to you.\u003cbr\u003e\u003cstrong\u003e\u003cbr\u003eAt RaceBaitR, we pay all our writers, which is impossible without donors like you!\u003c/strong\u003e"
+   },
+   "id": "617136",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4459305",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4459305"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "616399",
+       "type": "goal"
+      },
+      {
+       "id": "616400",
+       "type": "goal"
+      },
+      {
+       "id": "836756",
+       "type": "goal"
+      },
+      {
+       "id": "1076786",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "97389",
+       "type": "patron_goal"
+      },
+      {
+       "id": "97390",
+       "type": "patron_goal"
+      },
+      {
+       "id": "97392",
+       "type": "patron_goal"
+      },
+      {
+       "id": "97391",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1067096",
+       "type": "reward"
+      },
+      {
+       "id": "1067097",
+       "type": "reward"
+      },
+      {
+       "id": "1067098",
+       "type": "reward"
+      },
+      {
+       "id": "1879192",
+       "type": "reward"
+      },
+      {
+       "id": "1067099",
+       "type": "reward"
+      },
+      {
+       "id": "1879197",
+       "type": "reward"
+      },
+      {
+       "id": "1067100",
+       "type": "reward"
+      },
+      {
+       "id": "1879220",
+       "type": "reward"
+      },
+      {
+       "id": "1879224",
+       "type": "reward"
+      },
+      {
+       "id": "1067101",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-11-20T02:44:31+00:00",
+     "facebook": "https://www.facebook.com/RaceBaitR/",
+     "first_name": "RaceBaitR",
+     "full_name": "RaceBaitR",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4459305/179a39f8d0d64ed8836e26351f035323?token-time=2145916800\u0026token-hash=l2cBeajY1xhL3xlxUeC35i9udurtSicFQcEgvAZG4uQ%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4459305/179a39f8d0d64ed8836e26351f035323?token-time=2145916800\u0026token-hash=Kgn24PE4V2tFcEIKD2U5IotYd2_i07yG6aqs-PjolIg%3D",
+     "twitch": null,
+     "twitter": "racebaitr",
+     "url": "https://www.patreon.com/racebaitr",
+     "vanity": "racebaitr",
+     "youtube": ""
+    },
+    "id": "4459305",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "617136",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/617136"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-20T02:53:25+00:00",
+     "description": "\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-27T20:52:05.848987+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T02:53:25+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Thank You",
+     "unpublished_at": null,
+     "url": "/bePatron?c=617136\u0026rid=1067096"
+    },
+    "id": "1067096",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-20T02:53:25+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eKnow that your contribution is recognized and appreciated\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-27T20:55:06.841702+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T02:53:25+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "We See You",
+     "unpublished_at": null,
+     "url": "/bePatron?c=617136\u0026rid=1067097"
+    },
+    "id": "1067097",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-20T02:53:25+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003ePersonal email thanking you for your contribution\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-27T20:54:50.146654+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T02:53:25+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Much Love",
+     "unpublished_at": null,
+     "url": "/bePatron?c=617136\u0026rid=1067098"
+    },
+    "id": "1067098",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 800,
+     "amount_cents": 800,
+     "created_at": "2017-07-27T20:56:47.682539+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAccess to our Patreon-only monthly newsletter\u003c/li\u003e\n\u003cli\u003ePersonal email thanking you for your contribution\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-27T20:56:47.682539+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-27T20:56:47.682539+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Personal Recognition ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=617136\u0026rid=1879192"
+    },
+    "id": "1879192",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-20T02:53:25+00:00",
+     "description": "\u003cem\u003eYour donation will allow us to maintain our website, boost content for more visibility, and moderate our social media pages more effectively.\u003c/em\u003e\n\u003cul\u003e\n\u003cli\u003ePersonal email thanking you for your contribution\u003c/li\u003e\n\u003cli\u003eAccess to our Patreon only monthly newsletter\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-27T20:58:41.303684+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T02:53:25+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Website and Social Media Maintenance",
+     "unpublished_at": null,
+     "url": "/bePatron?c=617136\u0026rid=1067099"
+    },
+    "id": "1067099",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-07-27T21:00:12.195634+00:00",
+     "description": "\u003cem\u003eNot only will your donation allow us to maintain our website and social media pages, you will also allow us to support other Black content creators\u003c/em\u003e\n\u003cul\u003e\n\u003cli\u003eHelp us maintain our website, boost content for more visibility, and moderate our social media pages\u003c/li\u003e\n\u003cli\u003eAccess to our Patreon-only monthly newsletter\u003c/li\u003e\n\u003cli\u003ePersonal email thanking you for your contribution\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-27T21:00:12.195634+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-27T21:00:12.195634+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pay It Forward",
+     "unpublished_at": null,
+     "url": "/bePatron?c=617136\u0026rid=1879197"
+    },
+    "id": "1879197",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-11-20T02:53:25+00:00",
+     "description": "\u003cem\u003eAt this level, you\u2019ll support us in paying our editorial staff a small monthly stipend\u003c/em\u003e\n\u003cul\u003e\n\u003cli\u003eHelp us support other Black content creators\u003c/li\u003e\n\u003cli\u003eHelp us maintain our website, boost content for more visibility, and moderate our social media pages\u003c/li\u003e\n\u003cli\u003eAccess to our Patreon only monthly newsletter\u003c/li\u003e\n\u003cli\u003eWe\u2019ll send you a personal email thanking you for your contribution\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-09T22:47:23.218383+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-09T22:47:23.195343+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": " Pay an Editor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=617136\u0026rid=1067100"
+    },
+    "id": "1067100",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-07-27T21:11:04.572821+00:00",
+     "description": "\u003cem\u003eAt this level, you\u2019ll support us in paying our writers $75 for every published piece\u003c/em\u003e\n\u003cul\u003e\n\u003cli\u003ePay an editor\u003c/li\u003e\n\u003cli\u003eHelp us support other Black content creators\u003c/li\u003e\n\u003cli\u003eMaintain our website, boost content for more visibility, and moderate our social media pages\u003c/li\u003e\n\u003cli\u003eAccess to our Patreon only monthly newsletter\u003c/li\u003e\n\u003cli\u003eWe\u2019ll send you a personal email thanking you for your contribution\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-09T22:47:01.367429+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-09T22:47:01.343404+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pay a Writer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=617136\u0026rid=1879220"
+    },
+    "id": "1879220",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-07-27T21:13:20.409358+00:00",
+     "description": "\u003cem\u003eAt this level, you will support our continued development as an independent media platform. We have ambitions of hiring more staff by the end of the year.\u003c/em\u003e\n\u003cul\u003e\n\u003cli\u003eA typed thank you letter to be delivered at no cost to you\u003c/li\u003e\n\u003cli\u003ePay an editor and writer, and help us support other Black content creators\u003c/li\u003e\n\u003cli\u003eMaintain our website, boost content for more visibility, and moderate our social media pages\u003c/li\u003e\n\u003cli\u003eAccess to our Patreon only monthly newsletter\u003c/li\u003e\n\u003cli\u003ePersonal email thanking you for your contribution\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-28T00:29:10.007737+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-27T21:13:20.409358+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Help Us Grow",
+     "unpublished_at": null,
+     "url": "/bePatron?c=617136\u0026rid=1879224"
+    },
+    "id": "1879224",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-11-20T02:53:25+00:00",
+     "description": "\u003cem\u003eWe have a lot of ideas that we want to see come to fruition, we just need the money to do so. At this level, you will allow us the time and resources to think and ideate creatively\u003c/em\u003e\n\u003cul\u003e\n\u003cli\u003eA handwritten thank you letter to be delivered at no cost to you\u003c/li\u003e\n\u003cli\u003ePay an editor and writer, and help us support other Black content creators\u003c/li\u003e\n\u003cli\u003eMaintain our website, boost content for more visibility, and moderate our social media pages\u003c/li\u003e\n\u003cli\u003eAccess to our Patreon only monthly newsletter\u003c/li\u003e\n\u003cli\u003ePersonal email thanking you for your contribution\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-28T00:29:00.661853+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T02:53:25+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Help Us Dream",
+     "unpublished_at": null,
+     "url": "/bePatron?c=617136\u0026rid=1067101"
+    },
+    "id": "1067101",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-11-20T02:51:04+00:00",
+     "description": "When I hit $500 per month, we will increase payment for writers from $20 to $40\u003cbr\u003e",
+     "reached_at": "2017-05-16T11:22:39+00:00",
+     "title": ""
+    },
+    "id": "616399",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-11-20T02:51:04+00:00",
+     "description": "When we hit $1000, we will increase payment for writers from $40 to $60\u003cbr\u003e",
+     "reached_at": "2017-09-29T17:21:16+00:00",
+     "title": ""
+    },
+    "id": "616400",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 78,
+     "created_at": "2017-05-17T01:53:05+00:00",
+     "description": "When we hit $2000, we will increase pay for writers from $75 to $100",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "836756",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2018-01-13T21:08:14+00:00",
+     "description": "We\u0027ll increase pay to writers from $60 to $75",
+     "reached_at": "2018-01-17T00:08:11+00:00",
+     "title": ""
+    },
+    "id": "1076786",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-03T18:46:28+00:00",
+     "deleted_at": null,
+     "description": "Writers pay raised from $20 to $40.\u00a0\u003cbr\u003e",
+     "goal_text": "Writers pay raised from $20 to $40.\u00a0\u003cbr\u003e",
+     "number_patrons": 47,
+     "reached_at": null
+    },
+    "id": "97389",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-03T18:46:28+00:00",
+     "deleted_at": null,
+     "description": "Writers pay raised from $40 to $60.\u00a0\u003cbr\u003e",
+     "goal_text": "Writers pay raised from $40 to $60.\u00a0\u003cbr\u003e",
+     "number_patrons": 95,
+     "reached_at": null
+    },
+    "id": "97390",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-03T18:46:28+00:00",
+     "deleted_at": null,
+     "description": "Writers pay raised from $60 to $75.",
+     "goal_text": "Writers pay raised from $60 to $75.",
+     "number_patrons": 142,
+     "reached_at": null
+    },
+    "id": "97392",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-03T18:46:28+00:00",
+     "deleted_at": null,
+     "description": "Writers pay raised from $75 to $100.",
+     "goal_text": "Writers pay raised from $75 to $100.",
+     "number_patrons": 190,
+     "reached_at": null
+    },
+    "id": "97391",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/617136"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "a722e8bb-c096-4dfc-82d6-e43f82bf8249",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "RaceBaitR is creating freer Black futures"
+});
+    </script>
