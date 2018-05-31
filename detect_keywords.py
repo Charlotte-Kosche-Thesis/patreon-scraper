@@ -39,6 +39,7 @@ def main():
     cv = csv.DictWriter(f, fieldnames=HEADERS)
     cv.writeheader()
 
+    reckeycount = 0
     for i, fname in enumerate(SRC_FILES):
         rawhtml = fname.read_text()
         try:
@@ -56,8 +57,12 @@ def main():
 
             cv.writerow(d)
             if foundwords:
+                reckeycount += 1
                 print("{}/{}".format(i, len(SRC_FILES)),'\t', fname, "\tfound:", foundwords)
     f.close()
+    print("Found", reckeycount, "records with relevant keywords")
+    print("Out of a total of", len(SRC_FILES), "files")
+    print("Wrote all records to:", DEST_PATH)
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,694 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "hyRaWH3HNxHq7mWoI5sx45hwsHpKxcbnjxig3Eu3z00";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "498295",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/498295"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-07-03T07:41:52+00:00",
+    "creation_name": "V\u00eddeos did\u00e1cticos",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1037115/41a24556dd1c43fd9a8ab10eaa5620d3?token-time=2145916800\u0026token-hash=DCjmjAriHDnxwccg7eb4IFNAv0UDcXOv4sx5Em9ocnU%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1037115/41a24556dd1c43fd9a8ab10eaa5620d3?token-time=2145916800\u0026token-hash=vK6FBKWgOhqGBYiPPSF-QWi-lD8kS_LLuM1VS3YpHRQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/uRvues4LVdM\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/uRvues4LVdM",
+    "one_liner": null,
+    "patron_count": 281,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1037115",
+    "published_at": "2017-07-03T09:06:28+00:00",
+    "summary": "\u00a1Ay\u00fadanos a hacer de Academia Play algo grande!\u003cbr\u003e\u003cbr\u003eHace poco empezamos esta aventura llamada Academia Play. No nos imagin\u00e1bamos el \u00e9xito y la cantidad de seguidores que \u00edbamos a tener. Much\u00edsimos maestros utilizan nuestros v\u00eddeos en sus clases y esa es la mayor motivaci\u00f3n que hemos tenido para seguir con este proyecto. Ya estamos empezando a obtener nuestros frutos y la comunidad no deja de crecer d\u00eda tras d\u00eda. Vivir de Youtube es muy complicado a no ser que tengas varios millones de seguidores. En nuestro caso todav\u00eda es m\u00e1s complicado ya que nuestros v\u00eddeos requieren una inversi\u00f3n de tiempo y dinero muy elevada. Nos gustar\u00eda poder sacar m\u00e1s de 1 v\u00eddeo a la semana y estamos convencidos de que con vuestra ayuda podremos adem\u00e1s sacar v\u00eddeos m\u00e1s extensos y con mejores recursos gr\u00e1ficos. Queremos crear experiencias de aprendizaje \u00e9picas porque sabemos hacerlo y podemos hacerlo. \u003cbr\u003e\u003cbr\u003eQueremos que Academia Play sea una herramienta imprescindible para millones de alumnos y profesores de todas las partes de este planeta.\u003cbr\u003e\u003cbr\u003eGracias de antemano por vuestra ayuda. Continuemos juntos este sue\u00f1o.\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "1037115",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "6747444",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/6747444"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "888105",
+       "type": "goal"
+      },
+      {
+       "id": "888106",
+       "type": "goal"
+      },
+      {
+       "id": "888107",
+       "type": "goal"
+      },
+      {
+       "id": "888108",
+       "type": "goal"
+      },
+      {
+       "id": "888109",
+       "type": "goal"
+      },
+      {
+       "id": "888110",
+       "type": "goal"
+      },
+      {
+       "id": "888111",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "70252",
+       "type": "patron_goal"
+      },
+      {
+       "id": "70253",
+       "type": "patron_goal"
+      },
+      {
+       "id": "70254",
+       "type": "patron_goal"
+      },
+      {
+       "id": "70255",
+       "type": "patron_goal"
+      },
+      {
+       "id": "70256",
+       "type": "patron_goal"
+      },
+      {
+       "id": "70257",
+       "type": "patron_goal"
+      },
+      {
+       "id": "70258",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1037115",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1037115"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1813470",
+       "type": "reward"
+      },
+      {
+       "id": "1812774",
+       "type": "reward"
+      },
+      {
+       "id": "1812770",
+       "type": "reward"
+      },
+      {
+       "id": "1812775",
+       "type": "reward"
+      },
+      {
+       "id": "1812771",
+       "type": "reward"
+      },
+      {
+       "id": "1812772",
+       "type": "reward"
+      },
+      {
+       "id": "1812773",
+       "type": "reward"
+      },
+      {
+       "id": "1812777",
+       "type": "reward"
+      },
+      {
+       "id": "1812776",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Academia Play es una plataforma educativa que genera contenido did\u00e1ctico.\u003cbr\u003e",
+     "created": "2017-07-03T07:36:46+00:00",
+     "facebook": "https://www.facebook.com/academiaplay",
+     "first_name": "Academia",
+     "full_name": "Academia Play",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/6747444/8a74854c58b442b2a3823c611af9609e?token-time=2145916800\u0026token-hash=6v70SIUcNqZ4G13ZCfwQ-Ovs0taE3zQZNnlgPKkmiUo%3D",
+     "last_name": "Play",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/6747444/8a74854c58b442b2a3823c611af9609e?token-time=2145916800\u0026token-hash=c805Oha8IKBiWNfv0jsj3LR-4oRNhn43uaDvy2_uSIs%3D",
+     "twitch": null,
+     "twitter": "twitter.com/academiaplay",
+     "url": "https://www.patreon.com/academiaplay",
+     "vanity": "academiaplay",
+     "youtube": "https://www.youtube.com/academiaplay"
+    },
+    "id": "6747444",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1037115",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1037115"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 11,
+     "upgrade_url": "/bePatron?c=1037115\u0026rid=1813470"
+    },
+    "id": "post-aggregation-for-0-1037115",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-07-03T16:16:13.648879+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eNuestra gratitud de por vida que ver\u00e1s reflejada en un email.\u003c/li\u003e\n\u003cli\u003eSuscripci\u00f3n autom\u00e1tica a nuestra newsletter con todas las novedades.\u003c/li\u003e\n\u003cli\u003eDisfrutar\u00e1s de algunos contenidos antes que nadie.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-01T09:02:32.456356+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-01T09:02:32.446800+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "DONACI\u00d3N B\u00c1SICA (1$ al mes)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1037115\u0026rid=1813470"
+    },
+    "id": "1813470",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-07-03T08:53:30.454850+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eTe regalaremos una imagen de \"Dragones de la mitolog\u00eda universal en HD\" para que puedas imprimir tama\u00f1o poster.\u003c/li\u003e\n\u003cli\u003eNuestra gratitud de por vida que ver\u00e1s reflejada en un email.\u003c/li\u003e\n\u003cli\u003eSuscripci\u00f3n autom\u00e1tica a nuestra newsletter con todas las novedades.\u003c/li\u003e\n\u003cli\u003eDisfrutar\u00e1s de algunos contenidos antes que nadie.\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-01T09:02:57.274017+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-01T09:02:57.267236+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "NIVEL COLABORADOR (Dona 2$ al mes) ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1037115\u0026rid=1812774"
+    },
+    "id": "1812774",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-07-03T08:53:29.919631+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003ePodr\u00e1s participar en una encuesta para votar que v\u00eddeos quieres que lancemos.\u003c/li\u003e\n\u003cli\u003eParticipar\u00e1s en un sorteo mensual en el que regalaremos una taza de nuestra tienda de Academia Play.\u003c/li\u003e\n\u003cli\u003eTe regalaremos una imagen de \"Dragones de la mitolog\u00eda universal en HD\" para que puedas imprimir tama\u00f1o poster.\u003c/li\u003e\n\u003cli\u003eNuestra gratitud de por vida que ver\u00e1s reflejada en un email.\u003c/li\u003e\n\u003cli\u003eSuscripci\u00f3n autom\u00e1tica a nuestra newsletter con todas las novedades.\u003c/li\u003e\n\u003cli\u003e\u00a0Disfrutar\u00e1s de algunos contenidos antes que nadie.\u00a0\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-01T09:58:08.781586+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-01T09:58:08.747228+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "NIVEL MECENAS (Dona 5$ al mes) ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1037115\u0026rid=1812770"
+    },
+    "id": "1812770",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-07-03T08:53:30.453550+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003ePodr\u00e1s solicitar una camiseta de nuestra tienda cuando lleves un a\u00f1o de suscripci\u00f3n.\u003c/li\u003e\n\u003cli\u003ePodr\u00e1s participar en una encuesta para votar que v\u00eddeos quieres que lancemos.\u003c/li\u003e\n\u003cli\u003eParticipar\u00e1s en un sorteo mensual en el que regalaremos una taza de nuestra tienda de Academia Play.\u003c/li\u003e\n\u003cli\u003eTe regalaremos una imagen de \"Dragones de la mitolog\u00eda universal en HD\" para que puedas imprimir tama\u00f1o poster.\u003c/li\u003e\n\u003cli\u003eNuestra gratitud de por vida que ver\u00e1s reflejada en un email.\u003c/li\u003e\n\u003cli\u003eSuscripci\u00f3n autom\u00e1tica a nuestra newsletter con todas las novedades.\u003c/li\u003e\n\u003cli\u003e\u00a0Disfrutar\u00e1s de algunos contenidos antes que nadie.\u00a0\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-01T09:58:23.840715+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-01T09:58:23.831325+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "NIVEL GRAN MECENAS (Dona 10$ al mes) ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1037115\u0026rid=1812775"
+    },
+    "id": "1812775",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-07-03T08:53:29.939235+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003ePodr\u00e1s solicitar una taza de nuestra tienda cuando lleves 9 meses de suscripci\u00f3n.\u003c/li\u003e\n\u003cli\u003ePodr\u00e1s pedirnos 1 v\u00eddeo mensual de nuestro canal y te lo mandaremos en formato mp4 en HD.\u003c/li\u003e\n\u003cli\u003ePodr\u00e1s sugerirnos directamente que v\u00eddeos te gustar\u00eda ver en nuestro canal. Estas peticiones tienen prioridad sobre las encuestas.\u003c/li\u003e\n\u003cli\u003eIncluiremos tu nombre en la lista de benefactores en las descripciones de nuestro canal y podr\u00e1s solicitar la estrellita de benefactor dentro de tu perfil en nuestra plataforma \u003ca href=\"http://www.academiaplay.es\" rel=\"nofollow noopener\" target=\"_blank\"\u003ewww.academiaplay.es\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eParticiparas en el sorteo mensual de tazas.\u003c/li\u003e\n\u003cli\u003eTe regalaremos una imagen de \"Dragones de la mitolog\u00eda universal en HD\" para que puedas imprimir tama\u00f1o poster.\u003c/li\u003e\n\u003cli\u003eNuestra gratitud de por vida que ver\u00e1s reflejada en un email.\u003c/li\u003e\n\u003cli\u003eSuscripci\u00f3n autom\u00e1tica a nuestra newsletter con todas las novedades.\u003c/li\u003e\n\u003cli\u003eDisfrutar\u00e1s de algunos contenidos antes que nadie.\u00a0\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-01T09:58:41.389546+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-01T09:58:41.368393+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "NIVEL BENEFACTOR (Dona 25$ al mes) ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1037115\u0026rid=1812771"
+    },
+    "id": "1812771",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-07-03T08:53:30.410919+00:00",
+     "description": "\u003cdiv\u003e\u003cul\u003e\u003cli\u003eTe mandaremos un mensaje de v\u00eddeo \u00fanico y personalizado los miembros del equipo de Academia Play.\u00a0\u003c/li\u003e\u003cli\u003ePodr\u00e1s solicitar una taza de nuestra tienda cuando lleves 6 meses de suscripci\u00f3n.\u003c/li\u003e\u003cli\u003ePodr\u00e1s pedirnos 2 v\u00eddeos mensuales de nuestro canal y te lo mandaremos en formato mp4 en HD.\u003c/li\u003e\u003cli\u003eIncluiremos tu nombre en la lista de benefactores en nuestro canal de YT y podr\u00e1s solicitar la estrellita de benefactor dentro de tu perfil en nuestra plataforma www.academiaplay.es\u003c/li\u003e\u003cli\u003ePodr\u00e1s participar en la encuesta de benefactores para votar que v\u00eddeos quieres que lancemos. Esta encuesta tiene prioridad sobre la otra encuesta y los benefactores pueden proponer tem\u00e1ticas que encajen dentro de nuestras categor\u00edas.\u003c/li\u003e\u003cli\u003eParticipar\u00e1s en el sorteo mensual en el que regalaremos una taza de nuestra tienda de Academia Play.\u003c/li\u003e\u003cli\u003eTe regalaremos una imagen de \"Dragones de la mitolog\u00eda universal en HD\" para que puedas imprimir tama\u00f1o poster.\u003c/li\u003e\u003cli\u003eNuestra gratitud de por vida que ver\u00e1s reflejada en un email.\u003c/li\u003e\u003cli\u003eSuscripci\u00f3n autom\u00e1tica a nuestra newsletter con todas las novedades.\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-22T09:18:21.246727+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-03T08:53:30.410919+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "NIVEL GRAN BENEFACTOR (Dona 50$ al mes) ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1037115\u0026rid=1812772"
+    },
+    "id": "1812772",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 13500,
+     "amount_cents": 13500,
+     "created_at": "2017-07-03T08:53:30.430529+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003ePodr\u00e1s patrocinar una p\u00edldora did\u00e1ctica cada 3 meses (v\u00eddeo de entre 1-3 minutos) con un tema de tu elecci\u00f3n. (dentro de las categor\u00eda y tem\u00e1tica de nuestro v\u00eddeos). Tu nombre saldr\u00e1 en los cr\u00e9ditos del v\u00eddeo. El v\u00eddeo se publicar\u00e1 en nuestras RRSS.\u003c/li\u003e\n\u003cli\u003eTe mandaremos un mensaje de v\u00eddeo \u00fanico y personalizado los miembros del equipo de Academia Play.\u003c/li\u003e\n\u003cli\u003ePodr\u00e1s solicitar una camiseta de nuestra tienda cuando lleves 6 meses de suscripci\u00f3n.\u003c/li\u003e\n\u003cli\u003ePodr\u00e1s pedirnos 3 v\u00eddeos mensuales de nuestro canal y te lo mandaremos en formato mp4 en HD.\u003c/li\u003e\n\u003cli\u003eTe exculparemos de por vida si usas ADBLOCK en youtube. :)\u003c/li\u003e\n\u003cli\u003eIncluiremos tu nombre en la lista de benefactores en los cr\u00e9ditos de un v\u00eddeo y obtendr\u00e1s la estrellita de benefactor dentro de tu perfil en nuestra plataforma \u003ca href=\"http://www.academiaplay.es\" rel=\"nofollow noopener\" target=\"_blank\"\u003ewww.academiaplay.es\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eParticipar\u00e1s en un sorteo mensual en el que regalaremos una camiseta de nuestra tienda de Academia Play.\u003c/li\u003e\n\u003cli\u003eTe regalaremos una imagen de \"Dioses de la mitolog\u00eda griega y romana\" para que puedas imprimir tama\u00f1o poster.\u003c/li\u003e\n\u003cli\u003eNuestra gratitud de por vida que ver\u00e1s reflejada en un email.\u003c/li\u003e\n\u003cli\u003eSuscripci\u00f3n autom\u00e1tica a nuestra newsletter con todas las novedades.\u003c/li\u003e\n\u003cli\u003eDisfrutar\u00e1s de algunos contenidos antes que nadie.\u00a0\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-01T09:58:54.194594+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-01T09:58:54.183108+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "PATROCINADOR (Dona 135$ al mes) ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1037115\u0026rid=1812773"
+    },
+    "id": "1812773",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 170000,
+     "amount_cents": 170000,
+     "created_at": "2017-07-03T08:53:30.469063+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003ePodr\u00e1s patrocinar un v\u00eddeo did\u00e1ctico (v\u00eddeo de unos 5 minutos) con un tema de tu elecci\u00f3n. (dentro de las categor\u00eda y tem\u00e1tica de nuestro v\u00eddeos). \u00a0El v\u00eddeo ser\u00e1 con locuci\u00f3n espa\u00f1ola. Tu nombre o logo de tu empresa saldr\u00e1 en los cr\u00e9ditos iniciales del v\u00eddeo. El v\u00eddeo se publicar\u00e1 en nuestras RRSS. (Antes consultar)\u003c/li\u003e\n\u003cli\u003eTe mandaremos un mensaje de v\u00eddeo \u00fanico y personalizado los miembros del equipo de Academia Play.\u003c/li\u003e\n\u003cli\u003ePodr\u00e1s solicitar una lona-did\u00e1ctica de nuestra tienda cuando lleves 6 meses de suscripci\u00f3n.\u003c/li\u003e\n\u003cli\u003ePodr\u00e1s pedirnos 3 v\u00eddeos mensuales de nuestro canal y te lo mandaremos en formato mp4 en HD.\u003c/li\u003e\n\u003cli\u003eIncluiremos tu nombre en la lista de benefactores y tendr\u00e1s la estrellita de benefactor dentro de tu perfil en nuestra plataforma \u003ca href=\"http://www.academiaplay.es/\" rel=\"nofollow noopener\" target=\"_blank\"\u003ewww.academiaplay.es\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eParticipar\u00e1s en un sorteo mensual en el que regalaremos una camiseta de nuestra tienda de Academia Play.\u003c/li\u003e\n\u003cli\u003eTe regalaremos una imagen de \"Dragones de la mitolog\u00eda universal en HD\" para que puedas imprimir tama\u00f1o poster.\u003c/li\u003e\n\u003cli\u003eNuestra gratitud de por vida que ver\u00e1s reflejada en un email.\u003c/li\u003e\n\u003cli\u003eSuscripci\u00f3n autom\u00e1tica a nuestra newsletter con todas las novedades.\u003c/li\u003e\n\u003cli\u003eDisfrutar\u00e1s de algunos contenidos antes que nadie.\u00a0\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-01T09:59:06.540174+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-01T09:59:06.530807+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "PATROCINADOR ORO (Dona 1700$ al mes) ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1037115\u0026rid=1812777"
+    },
+    "id": "1812777",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 360000,
+     "amount_cents": 360000,
+     "created_at": "2017-07-03T08:53:30.472158+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003ePodr\u00e1s patrocinar un v\u00eddeo did\u00e1ctico (v\u00eddeo de unos 10 minutos) con un tema de tu elecci\u00f3n. (dentro de las categor\u00eda y tem\u00e1tica de nuestro v\u00eddeos). El v\u00eddeo ser\u00e1 con locuci\u00f3n espa\u00f1ola. Tu nombre o logo de tu empresa saldr\u00e1 en los cr\u00e9ditos iniciales del v\u00eddeo. El v\u00eddeo se publicar\u00e1 en nuestras RRSS. (Antes consultar)\u003c/li\u003e\n\u003cli\u003eTe mandaremos un mensaje de v\u00eddeo \u00fanico y personalizado los miembros del equipo de Academia Play.\u003c/li\u003e\n\u003cli\u003ePodr\u00e1s solicitar 2 lonas-did\u00e1cticas de nuestra tienda cuando lleves 6 meses de suscripci\u00f3n.\u003c/li\u003e\n\u003cli\u003ePodr\u00e1s pedirnos 3 v\u00eddeos mensuales de nuestro canal y te lo mandaremos en formato mp4 en HD.\u003c/li\u003e\n\u003cli\u003eIncluiremos tu nombre en la lista de benefactores y tendr\u00e1s la estrellita de benefactor dentro de tu perfil en nuestra plataforma \u003ca href=\"http://www.academiaplay.es/\" rel=\"nofollow noopener\" target=\"_blank\"\u003ewww.academiaplay.es\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eParticipar\u00e1s en un sorteo mensual en el que regalaremos una camiseta de nuestra tienda de Academia Play.\u003c/li\u003e\n\u003cli\u003eTe regalaremos una imagen de \"Dragones de la mitolog\u00eda universal en HD\" para que puedas imprimir tama\u00f1o poster.\u003c/li\u003e\n\u003cli\u003eNuestra gratitud de por vida que ver\u00e1s reflejada en un email.\u003c/li\u003e\n\u003cli\u003eSuscripci\u00f3n autom\u00e1tica a nuestra newsletter con todas las novedades.\u003c/li\u003e\n\u003cli\u003eDisfrutar\u00e1s de algunos contenidos antes que nadie.\u00a0\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-01T09:59:19.217898+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-01T09:59:19.210507+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "PATROCINADOR PLATINO (Dona 3600$ al mes) ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1037115\u0026rid=1812776"
+    },
+    "id": "1812776",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2017-07-03T09:04:45+00:00",
+     "description": "Esta meta nos permitir\u00e1 contratar a un becario (siempre con contrato y pagado) que nos echar\u00e1 una mano y nos liberar\u00e1 de ingerir grandes dosis de caf\u00e9. Empezaremos a sentir las mejoras en la calidad y duraci\u00f3n de los v\u00eddeos.",
+     "reached_at": "2017-07-17T14:02:02+00:00",
+     "title": ""
+    },
+    "id": "888105",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2017-07-03T09:04:45+00:00",
+     "description": "Esta meta nos permitir\u00e1 hacer m\u00e1s infograf\u00edas molonas como las de curiosidades hist\u00f3ricas que colgaremos en facebook, twitter, Instagram y en nuestra web.\u00a0M\u00e1s la meta anterior.",
+     "reached_at": "2017-09-25T17:10:03+00:00",
+     "title": ""
+    },
+    "id": "888106",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2017-07-03T09:04:45+00:00",
+     "description": "Nos permitir\u00e1 interactuar m\u00e1s con nuestra comunidad de youtube y tendremos m\u00e1s tiempo para investigar, leer, y contratar locuciones con actores de doblaje profesional. \u00bfY por qu\u00e9 no Ram\u00f3n Langa?\u00a0M\u00e1s las metas anteriores (mejorar la longitud, calidad, efectos, postear con m\u00e1s asiduidad, poder atender m\u00e1s peticiones de v\u00eddeo)",
+     "reached_at": "2018-02-01T11:24:20+00:00",
+     "title": ""
+    },
+    "id": "888107",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 65,
+     "created_at": "2017-07-03T09:04:45+00:00",
+     "description": "Podremos mejorar notablemente la extensi\u00f3n y calidad de nuestros v\u00eddeos\u00a0m\u00e1s todas las metas anteriores.\u00a0(mejorar la longitud, calidad, efectos, postear con m\u00e1s asiduidad, poder atender m\u00e1s peticiones de v\u00eddeo)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "888108",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 32,
+     "created_at": "2017-07-03T09:04:45+00:00",
+     "description": "Podremos sacar al menos dos v\u00eddeos a la semana m\u00e1s todas las metas anteriores.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "888109",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 11,
+     "created_at": "2017-07-03T09:04:45+00:00",
+     "description": "Podremos sacar 10 v\u00eddeos al mes y todas las metas anteriores.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "888110",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 5,
+     "created_at": "2017-07-03T09:04:45+00:00",
+     "description": "Podremos vivir de lo que nos apasiona y so\u00f1ar con ser una empresa estable en el futuro. \u00a1Larga vida a Academia Play!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "888111",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-01-31T07:27:29+00:00",
+     "deleted_at": null,
+     "description": "Esta meta nos permitir\u00e1 contratar a un becario (siempre con contrato y pagado) que nos echar\u00e1 una mano y nos liberar\u00e1 de ingerir grandes dosis de caf\u00e9. Empezaremos a sentir las mejoras en la calidad y duraci\u00f3n de los v\u00eddeos.",
+     "goal_text": "Esta meta nos permitir\u00e1 contratar a un becario (siempre con contrato y pagado) que nos echar\u00e1 una mano y nos liberar\u00e1 de ingerir grandes dosis de caf\u00e9. Empezaremos a sentir las mejoras en la calidad y duraci\u00f3n de los v\u00eddeos.",
+     "number_patrons": 50,
+     "reached_at": null
+    },
+    "id": "70252",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-01-31T07:27:29+00:00",
+     "deleted_at": null,
+     "description": "Esta meta nos permitir\u00e1 hacer m\u00e1s infograf\u00edas molonas como las de curiosidades hist\u00f3ricas que colgaremos en facebook, twitter, Instagram y en nuestra web.\u00a0M\u00e1s la meta anterior.",
+     "goal_text": "Esta meta nos permitir\u00e1 hacer m\u00e1s infograf\u00edas molonas como las de curiosidades hist\u00f3ricas que colgaremos en facebook, twitter, Instagram y en nuestra web.\u00a0M\u00e1s la meta anterior.",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "70253",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-01-31T07:27:29+00:00",
+     "deleted_at": null,
+     "description": "Nos permitir\u00e1 interactuar m\u00e1s con nuestra comunidad de youtube y tendremos m\u00e1s tiempo para investigar, leer, y contratar locuciones con actores de doblaje profesional. \u00bfY por qu\u00e9 no Ram\u00f3n Langa?\u00a0M\u00e1s las metas anteriores (mejorar la longitud, calidad, efectos, postear con m\u00e1s asiduidad, poder atender m\u00e1s peticiones de v\u00eddeo)",
+     "goal_text": "Nos permitir\u00e1 interactuar m\u00e1s con nuestra comunidad de youtube y tendremos m\u00e1s tiempo para investigar, leer, y contratar locuciones con actores de doblaje profesional. \u00bfY por qu\u00e9 no Ram\u00f3n Langa?\u00a0M\u00e1s las metas anteriores (mejorar la longitud, calidad, efectos, postear con m\u00e1s asiduidad, poder atender m\u00e1s peticiones de v\u00eddeo)",
+     "number_patrons": 180,
+     "reached_at": null
+    },
+    "id": "70254",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-01-31T07:27:29+00:00",
+     "deleted_at": null,
+     "description": "Podremos mejorar notablemente la extensi\u00f3n y calidad de nuestros v\u00eddeos\u00a0m\u00e1s todas las metas anteriores.\u00a0(mejorar la longitud, calidad, efectos, postear con m\u00e1s asiduidad, poder atender m\u00e1s peticiones de v\u00eddeo)",
+     "goal_text": "Podremos mejorar notablemente la extensi\u00f3n y calidad de nuestros v\u00eddeos\u00a0m\u00e1s todas las metas anteriores.\u00a0(mejorar la longitud, calidad, efectos, postear con m\u00e1s asiduidad, poder atender m\u00e1s peticiones de v\u00eddeo)",
+     "number_patrons": 300,
+     "reached_at": null
+    },
+    "id": "70255",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-01-31T07:27:29+00:00",
+     "deleted_at": null,
+     "description": "Podremos sacar al menos dos v\u00eddeos a la semana m\u00e1s todas las metas anteriores.",
+     "goal_text": "Podremos sacar al menos dos v\u00eddeos a la semana m\u00e1s todas las metas anteriores.",
+     "number_patrons": 630,
+     "reached_at": null
+    },
+    "id": "70256",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-01-31T07:27:29+00:00",
+     "deleted_at": null,
+     "description": "Podremos sacar 10 v\u00eddeos al mes y todas las metas anteriores.",
+     "goal_text": "Podremos sacar 10 v\u00eddeos al mes y todas las metas anteriores.",
+     "number_patrons": 1600,
+     "reached_at": null
+    },
+    "id": "70257",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-01-31T07:27:29+00:00",
+     "deleted_at": null,
+     "description": "Podremos vivir de lo que nos apasiona y so\u00f1ar con ser una empresa estable en el futuro. \u00a1Larga vida a Academia Play!",
+     "goal_text": "Podremos vivir de lo que nos apasiona y so\u00f1ar con ser una empresa estable en el futuro. \u00a1Larga vida a Academia Play!",
+     "number_patrons": 3500,
+     "reached_at": null
+    },
+    "id": "70258",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1037115"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "dd65b9da-7408-4107-aabd-37a40aa07f8c",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Academia Play is creating V\u00eddeos did\u00e1cticos"
+});
+    </script>

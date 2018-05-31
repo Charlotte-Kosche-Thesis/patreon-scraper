@@ -18,7 +18,6 @@ import asyncio
 import concurrent.futures
 
 
-
 BATCH_SIZE = 50
 SRCPATH = Path('datadump', 'graphtreon', '2018-04.csv')
 DATA_DIR = Path('datadump', 'patreon', 'overviews')
@@ -58,6 +57,7 @@ def extract(rawhtml):
 def fetch_and_extract(url, dest_name):
     resp = requests.get(url, allow_redirects=False)
     if resp.status_code == 200:
+        dest_name.parent.mkdir(exist_ok=True)
         with open(dest_name, 'w') as w:
             scripttext = extract(resp.text)
             w.write(scripttext)

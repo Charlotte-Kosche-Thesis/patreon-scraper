@@ -1,0 +1,805 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "rn7K2QSeY2hG4PZGBiPUZ4qbUiwwfT4awwr_uorI7jY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "298538",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/298538"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-11-12T06:25:06+00:00",
+    "creation_name": "Shura\u0027s Wrath Web Novel Translations",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/605811/d5ec5f47e32c41e9a80653925ba73ac3?token-time=2145916800\u0026token-hash=0_vU9wsG0_aQdYmRgZK2mOOnz8rcaSMJfs1gpDyMSlk%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/605811/d5ec5f47e32c41e9a80653925ba73ac3?token-time=2145916800\u0026token-hash=qzg9op9Ckn6jtihEzqlDTvl3FwPO2Ni8ygyhSn1wuZY%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 287,
+    "pay_per_name": "month",
+    "pledge_sum": 507950,
+    "pledge_url": "/bePatron?c=605811",
+    "published_at": "2016-11-12T07:01:23+00:00",
+    "summary": "Hello! I love translating web novels, and have been translating Shura\u0027s Wrath (\u003ca href=\"http://gravitytales.com/novel/shuras-wrath\"\u003ehttp://gravitytales.com/novel/shuras-wrath\u003c/a\u003e) for 2.5 years and The Lord\u0027s Empire (\u003ca href=\"http://gravitytales.com/novel/the-lords-empire\"\u003ehttp://gravitytales.com/novel/the-lords-empire\u003c/a\u003e) for a few months. To help me push out more chapters (and for you to gain access to advance chapters), please support me on Patreon! If you have any questions about anything, feel free to email me at halcyontranslations@gmail.com or message me at our discord (\u003ca href=\"https://discord.gg/Pfa5S7s\"\u003ehttps://discord.gg/Pfa5S7s\u003c/a\u003e).\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(49, 133, 155);\"\u003eQ: Where can I find the advance chapters?\u003c/span\u003e\u003cbr\u003eA: SW: \u003ca href=\"https://sw.gravitytales.com/\"\u003ehttps://sw.gravitytales.com/\u003c/a\u003e\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003eA: TLE: \u003ca href=\"http://tle.gravitytales.com/\"\u003ehttp://tle.gravitytales.com/\u003c/a\u003e\u003cbr\u003e\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(118, 146, 60);\"\u003eEvery 10% earned will go to charity and support the original author! Full details here:\u003c/span\u003e\u003c/strong\u003e \u003cspan style=\"color: rgb(79, 129, 189);\"\u003e\u003c/span\u003e\u003ca href=\"https://www.patreon.com/posts/giving-10-to-8086408\"\u003ehttps://www.patreon.com/posts/giving-10-to-8086408\u003cbr\u003e\u003c/a\u003e\u003cstrong\u003e\u003cstrong\u003eWe raised $567.14 for Doctors Without Borders in September! Read more here: \u003c/strong\u003e\u003c/strong\u003e\u003cspan style=\"color: rgb(155, 187, 89);\"\u003e\u003ca href=\"https://www.patreon.com/posts/september-14673602\"\u003ehttps://www.patreon.com/posts/september-14673602\u003c/a\u003e\u003c/span\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(128, 100, 162);\"\u003e\u003cspan style=\"color: rgb(192, 80, 77);\"\u003e\u003cspan style=\"color: rgb(227, 108, 9);\"\u003e\u003cspan style=\"color: rgb(75, 172, 198);\"\u003e\u003cbr\u003eWe raised $511.49 for the Salvation Army in August! Read more here: \u003c/span\u003e\u003ca href=\"https://www.patreon.com/posts/august-charity-14198146\"\u003e\u003c/a\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/strong\u003e\u003cspan style=\"color: rgb(128, 100, 162);\"\u003e\u003cspan style=\"color: rgb(192, 80, 77);\"\u003e\u003cspan style=\"color: rgb(227, 108, 9);\"\u003e\u003ca href=\"https://www.patreon.com/posts/august-charity-14198146\"\u003ehttps://www.patreon.com/posts/august-charity-14198146\u003c/a\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(128, 100, 162);\"\u003e\u003cspan style=\"color: rgb(192, 80, 77);\"\u003e\u003cspan style=\"color: rgb(227, 108, 9);\"\u003e\u003cbr\u003eWe raised 488.34 for the Mansfield State High School Chaplaincy in July! Read more here:\u003c/span\u003e \u003c/span\u003e\u003c/span\u003e\u003c/strong\u003e\u003cspan style=\"color: rgb(128, 100, 162);\"\u003e\u003cspan style=\"color: rgb(192, 80, 77);\"\u003e\u003ca href=\"https://www.patreon.com/posts/july-charity-13620498\"\u003ehttps://www.patreon.com/posts/july-charity-1362049...\u003c/a\u003e\u003c/span\u003e\u003c/span\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(128, 100, 162);\"\u003e\u003cspan style=\"color: rgb(192, 80, 77);\"\u003e\u003cbr\u003eWe raised $457.32 for UNICEF in June! Read more here: \u003c/span\u003e\u003c/span\u003e\u003c/strong\u003e\u003ca href=\"https://www.patreon.com/posts/june-charity-12415403\"\u003e\u003cspan style=\"color: rgb(79, 129, 189);\"\u003ehttps://www.patreon.com/posts/june-charity-12415403\u003c/span\u003e\u003c/a\u003e\u003cstrong\u003e\u003cbr\u003eWe raised $385 for World Wildlife Fund in May! Read more here:\u003cspan style=\"color: rgb(128, 100, 162);\"\u003e\u003c/span\u003e\u003cspan style=\"color: rgb(128, 100, 162);\"\u003e\u003c/span\u003e \u003c/strong\u003e\u003ca href=\"https://www.patreon.com/posts/may-charity-11551382\"\u003e\u003cspan style=\"color: rgb(79, 129, 189);\"\u003ehttps://www.patreon.com/posts/may-charity-11551382\u003c/span\u003e\u003c/a\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cstrong\u003e\u003cbr\u003e\u003cbr\u003e\u003c/strong\u003e\u003cstrong\u003eWhat are advance chapters?\u003cbr\u003e\u003c/strong\u003eAdvance chapters mean that you\u0027ll be a certain number of chapters ahead of public chapters. This does not mean that you will have a new release rate. For example, 14 advance chapters per week means you will stay 14 chapters ahead of public readers on the Gravity Tales website.\u003cbr\u003e"
+   },
+   "id": "605811",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4409606",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4409606"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "658724",
+       "type": "goal"
+      },
+      {
+       "id": "658725",
+       "type": "goal"
+      },
+      {
+       "id": "686877",
+       "type": "goal"
+      },
+      {
+       "id": "707592",
+       "type": "goal"
+      },
+      {
+       "id": "712960",
+       "type": "goal"
+      },
+      {
+       "id": "715278",
+       "type": "goal"
+      },
+      {
+       "id": "717659",
+       "type": "goal"
+      },
+      {
+       "id": "766090",
+       "type": "goal"
+      },
+      {
+       "id": "793876",
+       "type": "goal"
+      },
+      {
+       "id": "835836",
+       "type": "goal"
+      },
+      {
+       "id": "866107",
+       "type": "goal"
+      },
+      {
+       "id": "967502",
+       "type": "goal"
+      },
+      {
+       "id": "997988",
+       "type": "goal"
+      },
+      {
+       "id": "1088696",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-605811",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-605811"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1033886",
+       "type": "reward"
+      },
+      {
+       "id": "1033887",
+       "type": "reward"
+      },
+      {
+       "id": "1033888",
+       "type": "reward"
+      },
+      {
+       "id": "1540173",
+       "type": "reward"
+      },
+      {
+       "id": "1033889",
+       "type": "reward"
+      },
+      {
+       "id": "1033922",
+       "type": "reward"
+      },
+      {
+       "id": "1624096",
+       "type": "reward"
+      },
+      {
+       "id": "1485338",
+       "type": "reward"
+      },
+      {
+       "id": "2086042",
+       "type": "reward"
+      },
+      {
+       "id": "2172474",
+       "type": "reward"
+      },
+      {
+       "id": "2577550",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Hello! I love translating, and have been translating Shura\u0027s Wrath for \nabout a year now. To help me push out more chapters, please support me \non Patreon!",
+     "created": "2016-11-12T06:24:58+00:00",
+     "facebook": "https://www.facebook.com/halcyontranslations",
+     "first_name": "Mr",
+     "full_name": "Mr Voltaire",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/4409606/f3d9f50757bd4da0bf6b0aabd681b061?token-time=2145916800\u0026token-hash=YFzP4TcfQzOSPznGqrOE68dzImztQ4gUsXzcBrlxNew%3D",
+     "last_name": "Voltaire",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4409606/f3d9f50757bd4da0bf6b0aabd681b061?token-time=2145916800\u0026token-hash=Hec1DfTKIpT81IS0j1W3oUMKpRkbawS2Oer3MuGZeQY%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/mrvoltaire",
+     "vanity": "mrvoltaire",
+     "youtube": null
+    },
+    "id": "4409606",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "605811",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/605811"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 149,
+     "upgrade_url": "/bePatron?c=605811\u0026rid=1033887"
+    },
+    "id": "post-aggregation-for-0-605811",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-20T22:41:33+00:00",
+     "description": "[Xiao Qi Tier]: Type: Patreon Supporter, Level: LV1\u003cbr\u003e\n\n\u003cp\u003e- Read \u003cstrong\u003eall chapters for the week \u003c/strong\u003eimmediately\u003c/p\u003e\n\u003cp\u003e- \u003cstrong\u003eAccess to 2 advance chapters per week for SW.\u003cbr\u003e\n\u003cbr\u003e\nAND\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- Access to 1 advance chapter for TLE (updated daily)\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "256184918684598272"
+     ],
+     "edited_at": "2018-05-19T12:03:55.217742+00:00",
+     "image_url": null,
+     "patron_count": 56,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-19T12:03:55.211208+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "[Xiao Qi Tier]",
+     "unpublished_at": null,
+     "url": "/bePatron?c=605811\u0026rid=1033886",
+     "user_limit": null
+    },
+    "id": "1033886",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-20T22:41:33+00:00",
+     "description": "[Su\u0027Er Tier]: Type: Patreon Supporter, Level: LV5\u003cbr\u003e\n\u003cbr\u003e\n- All of the rewards of the previous tier\n\u003cp\u003e- Name published on each chapter released publicly \u003cstrong\u003eand\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- Access to 7 advance chapters per week\u003c/strong\u003e \u003cstrong\u003efor SW. \u00a0\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eAND\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e- Access to 3 advance chapters for TLE (updated daily)\u003c/strong\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "256184918684598272"
+     ],
+     "edited_at": "2018-05-19T12:03:45.066939+00:00",
+     "image_url": null,
+     "patron_count": 70,
+     "post_count": 7,
+     "published": true,
+     "published_at": "2018-05-19T12:03:45.057038+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "[Su\u0027Er Tier]",
+     "unpublished_at": null,
+     "url": "/bePatron?c=605811\u0026rid=1033887",
+     "user_limit": null
+    },
+    "id": "1033887",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-20T22:41:33+00:00",
+     "description": "[Yun Meng Xin Tier]: Type: Patreon Supporter, Level: LV10\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e- All of the rewards of the previous tiers\u003c/p\u003e\n\u003cp\u003e- Access to \u003cstrong\u003e11 advance chapters per week\u003c/strong\u003e \u003cstrong\u003efor\u003c/strong\u003e \u003cstrong\u003eSW.\u003c/strong\u003e \u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eAND\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e-\u003c/strong\u003e \u003cstrong\u003eAccess\u003c/strong\u003e \u003cstrong\u003eto 5\u003c/strong\u003e \u003cstrong\u003eadvance\u003c/strong\u003e \u003cstrong\u003echapters for TLE\u003c/strong\u003e \u003cstrong\u003e(updated\u003c/strong\u003e \u003cstrong\u003edaily)\u003c/strong\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "256184918684598272"
+     ],
+     "edited_at": "2018-05-19T12:04:50.832186+00:00",
+     "image_url": null,
+     "patron_count": 71,
+     "post_count": 106,
+     "published": true,
+     "published_at": "2018-05-19T12:04:50.822373+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "[Yun Meng Xin Tier]",
+     "unpublished_at": null,
+     "url": "/bePatron?c=605811\u0026rid=1033888",
+     "user_limit": null
+    },
+    "id": "1033888",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-03-29T08:29:01.775333+00:00",
+     "description": "[Xiao Hui Tier]: Type: Patreon Supporter, Level: LV15 \u00a0\u00a0\n\u003cp\u003e\u003cbr\u003e\n- All of the rewards of the previous tiers\u003cbr\u003e\n- Access to \u003cstrong\u003e13 advance chapters per week\u003c/strong\u003e \u003cstrong\u003efor\u003c/strong\u003e \u003cstrong\u003eSW.\u003c/strong\u003e \u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eAND\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e-\u003c/strong\u003e \u003cstrong\u003eAccess\u003c/strong\u003e \u003cstrong\u003eto\u003c/strong\u003e \u003cstrong\u003e7\u003c/strong\u003e \u003cstrong\u003eadvance\u003c/strong\u003e \u003cstrong\u003echapters for TLE\u003c/strong\u003e \u003cstrong\u003e(updated\u003c/strong\u003e \u003cstrong\u003edaily)\u003c/strong\u003e \u003cstrong\u003e\u00a0\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "256184918684598272"
+     ],
+     "edited_at": "2018-05-19T12:05:45.418894+00:00",
+     "image_url": null,
+     "patron_count": 28,
+     "post_count": 7,
+     "published": true,
+     "published_at": "2018-05-19T12:05:45.411876+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "[Xiao Hui Tier]",
+     "unpublished_at": null,
+     "url": "/bePatron?c=605811\u0026rid=1540173",
+     "user_limit": null
+    },
+    "id": "1540173",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-11-20T22:41:33+00:00",
+     "description": "[Xi Ling Tier]: Type: Patreon Supporter, Level: LV25\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e- All of the rewards of the previous tiers\u00a0\u003c/p\u003e\n\u003cp\u003e- Access to \u003cstrong\u003e17 advance chapters per week\u003c/strong\u003e \u003cstrong\u003efor\u003c/strong\u003e \u003cstrong\u003eSW.\u003c/strong\u003e \u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eAND\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e-\u003c/strong\u003e \u003cstrong\u003eAccess\u003c/strong\u003e \u003cstrong\u003eto 10\u003c/strong\u003e \u003cstrong\u003eadvance\u003c/strong\u003e \u003cstrong\u003echapters for TLE\u003c/strong\u003e \u003cstrong\u003e(updated\u003c/strong\u003e \u003cstrong\u003edaily)\u003c/strong\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "296563088155475969"
+     ],
+     "edited_at": "2018-05-19T12:06:11.409498+00:00",
+     "image_url": null,
+     "patron_count": 54,
+     "post_count": 14,
+     "published": true,
+     "published_at": "2018-05-19T12:06:11.398513+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "[Xi Ling Tier]",
+     "unpublished_at": null,
+     "url": "/bePatron?c=605811\u0026rid=1033889",
+     "user_limit": null
+    },
+    "id": "1033889",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-11-20T22:41:33+00:00",
+     "description": "[Tian Tian Tier]: Type: Patreon Supporter, Level: LV50\u003cbr\u003e\n\n\u003cp\u003e- All of the rewards of the previous tiers\u00a0\u003c/p\u003e\n\u003cp\u003e- Access to \u003cstrong\u003e22 advance chapters per week for\u003c/strong\u003e \u003cstrong\u003eSW.\u003c/strong\u003e \u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eAND\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e-\u003c/strong\u003e \u003cstrong\u003eAccess\u003c/strong\u003e \u003cstrong\u003eto 22\u003c/strong\u003e \u003cstrong\u003eadvance\u003c/strong\u003e \u003cstrong\u003echapters for TLE\u003c/strong\u003e \u003cstrong\u003e(updated\u003c/strong\u003e \u003cstrong\u003edaily)\u003c/strong\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "296563088155475969"
+     ],
+     "edited_at": "2018-05-19T12:06:36.172944+00:00",
+     "image_url": null,
+     "patron_count": 9,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2018-05-19T12:06:36.165904+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "[Tian Tian Tier]",
+     "unpublished_at": null,
+     "url": "/bePatron?c=605811\u0026rid=1033922",
+     "user_limit": null
+    },
+    "id": "1033922",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 8000,
+     "amount_cents": 8000,
+     "created_at": "2017-04-21T23:09:40.886767+00:00",
+     "description": "\u00a0[Shui Ruo Tier]: Type: Patreon Supporter, Level: LV80\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e- All of the rewards of the previous tiers\u00a0\u003c/p\u003e\n\u003cp\u003e- Access to \u003cstrong\u003e28 advance chapters per week for\u003c/strong\u003e \u003cstrong\u003eSW.\u003c/strong\u003e \u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eAND\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e-\u003c/strong\u003e \u003cstrong\u003eAccess\u003c/strong\u003e \u003cstrong\u003eto 30 advance\u003c/strong\u003e \u003cstrong\u003echapters for TLE\u003c/strong\u003e \u003cstrong\u003e(updated\u003c/strong\u003e \u003cstrong\u003edaily)\u003c/strong\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "296563088155475969"
+     ],
+     "edited_at": "2018-05-19T12:07:23.089998+00:00",
+     "image_url": null,
+     "patron_count": 7,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2018-05-19T12:07:23.080127+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "[Shui Ruo Tier]",
+     "unpublished_at": null,
+     "url": "/bePatron?c=605811\u0026rid=1624096",
+     "user_limit": null
+    },
+    "id": "1624096",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-03-11T02:54:10.289744+00:00",
+     "description": "[Shadissika Tier]: Type: Patreon Supporter, Level: LV100\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e- All of the rewards of the previous tiers\u00a0\u003c/p\u003e\n\u003cp\u003e- Access to \u003cstrong\u003e32 advance chapters per week.\u00a0\u003c/strong\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "296563088155475969"
+     ],
+     "edited_at": "2018-01-24T00:38:36.313663+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-24T00:38:36.288459+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "[Shadissika Tier]",
+     "unpublished_at": null,
+     "url": "/bePatron?c=605811\u0026rid=1485338",
+     "user_limit": null
+    },
+    "id": "1485338",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 12000,
+     "amount_cents": 12000,
+     "created_at": "2017-10-19T06:17:06.412454+00:00",
+     "description": "[Ling Tian Tier]: Type: Patreon Supporter, Level: LV120\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e- All of the rewards of the previous tiers\u00a0\u003c/p\u003e\n\u003cp\u003e- Access to \u003cstrong\u003e36 advance chapters per week.\u00a0\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "296563088155475969"
+     ],
+     "edited_at": "2018-01-24T00:38:45.319768+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-24T00:38:45.291338+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "[Ling Tian Tier]",
+     "unpublished_at": null,
+     "url": "/bePatron?c=605811\u0026rid=2086042",
+     "user_limit": null
+    },
+    "id": "2086042",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2017-11-26T11:34:12.082316+00:00",
+     "description": "[War God Tier]: Type: Patreon Supporter, Level: LV150\u00a0\u00a0\n\u003cp\u003e- All of the rewards of the previous tiers\u00a0\u003c/p\u003e\n\u003cp\u003e- Access to \u003cstrong\u003e41 advance chapters per week.\u00a0\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "296563088155475969"
+     ],
+     "edited_at": "2018-01-24T00:38:52.218250+00:00",
+     "image_url": null,
+     "patron_count": 12,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-24T00:38:52.139023+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "[War God Tier]",
+     "unpublished_at": null,
+     "url": "/bePatron?c=605811\u0026rid=2172474",
+     "user_limit": null
+    },
+    "id": "2172474",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 60000,
+     "amount_cents": 60000,
+     "created_at": "2018-05-03T22:34:48.451277+00:00",
+     "description": "[Shura Tier]: The Ultimate Existence\n\u003cp\u003e- Read to the end of SW!!! (\u003cstrong\u003eChapter 850\u003c/strong\u003e)\u003c/p\u003e\n\u003cp\u003e- Special Discord Role (Shura Tier: The Enlightened)\u003c/p\u003e\n\u003cp\u003e- My undying gratitude :\u0027)\u003c/p\u003e",
+     "discord_role_ids": [
+      "441725913588039690"
+     ],
+     "edited_at": "2018-05-03T22:34:48.451277+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-03T22:34:48.451277+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "[Shura Tier]",
+     "unpublished_at": null,
+     "url": "/bePatron?c=605811\u0026rid=2577550",
+     "user_limit": null
+    },
+    "id": "2577550",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2016-12-30T23:24:57+00:00",
+     "description": "[Yun Meng Xin Tier] Unlocked! \u003cbr\u003ePatrons can now pledge $10 to access 2 bonus chapters per month!\u003cbr\u003e",
+     "reached_at": "2016-12-31T00:43:07+00:00",
+     "title": ""
+    },
+    "id": "658724",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 100,
+     "created_at": "2016-12-30T23:24:57+00:00",
+     "description": "[Shui Ruo Tier] and [Ling Tian Tier] Unlocked!\u003cbr\u003ePatrons can now pledge $25 or $50 to access the dropbox, with even more chapters!\u003cbr\u003e",
+     "reached_at": "2017-01-01T07:30:48+00:00",
+     "title": ""
+    },
+    "id": "658725",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 100,
+     "created_at": "2017-01-20T12:35:59+00:00",
+     "description": "+1 to bonus chapters! That means 3 bonus chapters per week for $10 Patrons, and +1 for $25+ Patrons!\u003cbr\u003e",
+     "reached_at": "2017-02-05T23:27:22+00:00",
+     "title": ""
+    },
+    "id": "686877",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 80000,
+     "completed_percentage": 100,
+     "created_at": "2017-02-05T23:36:03+00:00",
+     "description": "+2 to bonus chapters! That means 4 bonus chapters per week for $10 Patrons, and +2 for $25+ Patrons!",
+     "reached_at": "2017-02-10T22:31:21+00:00",
+     "title": ""
+    },
+    "id": "707592",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 100,
+     "created_at": "2017-02-10T21:16:05+00:00",
+     "description": "+1 to public chapters! That means 5 guaranteed public chapters per week (up to 9 chapters per week for $10 Patrons and at least 13 chapters per week for $25+ Patrons!)\u003cbr\u003e",
+     "reached_at": "2017-02-13T03:05:12+00:00",
+     "title": ""
+    },
+    "id": "712960",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 130000,
+     "completed_percentage": 100,
+     "created_at": "2017-02-13T03:13:27+00:00",
+     "description": "+3 to bonus chapters! That means 5 bonus chapters per week for $10 Patrons, and +3 for $25+ Patrons! (up to 10 chapters per week for $10 Patrons and at least 15 chapters per week for $25+ Patrons!)\u003cbr\u003e\u003cbr\u003ePlus giveaways!\u003cbr\u003e",
+     "reached_at": "2017-02-15T08:01:17+00:00",
+     "title": ""
+    },
+    "id": "715278",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 100,
+     "created_at": "2017-02-15T09:10:56+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e6 guaranteed public chapters per week [Up to 7 for the week Tian Tian Tier Supporter decides to use their bonus]\u003c/li\u003e\u003cli\u003eUp to 12 chapters for $10 Patrons (6 public + 6 bonus) per week [as above for Tian Tian Tier Supporter]\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eAt least\u003c/strong\u003e 18 chapters for $25+ Patrons (6 public + 6 on Patreon + \u003cstrong\u003eat least another\u003c/strong\u003e 6 on Dropbox) per week [as above for Tian Tian Tier Supporter]\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": "2017-03-15T23:16:35+00:00",
+     "title": ""
+    },
+    "id": "717659",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 100,
+     "created_at": "2017-03-28T03:28:50+00:00",
+     "description": "+1 to Advance Chapters for everyone! This means:\u003cbr\u003e\u003cul\u003e\u003cli\u003e3 Advance Chapters per week for $5 Patrons [as above for Tian Tian Tier Supporter]\u003c/li\u003e\u003cli\u003e7 Advance Chapters per week for $10 Patrons [as above for Tian Tian Tier Supporter]\u003c/li\u003e\u003cli\u003e9 Advance Chapters per week for $15 Patrons [as above for Tian Tian Tier Supporter]\u003c/li\u003e\u003cli\u003eAt least 13 Advance Chapters per week for $25+ Patrons (read as I translate) [as above for Tian Tian Tier Supporter]\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": "2017-04-19T22:08:42+00:00",
+     "title": ""
+    },
+    "id": "766090",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 100,
+     "created_at": "2017-04-17T00:35:37+00:00",
+     "description": "7 public chapters per week!\u003cbr\u003eThis means all readers (Public and all Patrons) will have their chapter count increased by 1!\u003cbr\u003e",
+     "reached_at": "2017-05-10T13:16:03+00:00",
+     "title": ""
+    },
+    "id": "793876",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 400000,
+     "completed_percentage": 100,
+     "created_at": "2017-05-16T11:56:41+00:00",
+     "description": "A bonus 7 chapters for the week this goal is hit (for both Patrons and public readers)!\u003cbr\u003e\u003cbr\u003e[one time only- reached on 13/06/17]\u003cbr\u003e",
+     "reached_at": "2017-06-13T01:11:15+00:00",
+     "title": ""
+    },
+    "id": "835836",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 100,
+     "created_at": "2017-06-13T04:47:37+00:00",
+     "description": "Another + 1 to all tiers! This means: \u003cbr\u003e\u003cul\u003e\u003cli\u003e4 Advance Chapters per week for $5 Patrons [as above for Ling Tian Tier Supporter]\u003c/li\u003e\u003cli\u003e8 Advance Chapters per week for $10 Patrons [as above for Ling Tian Tier Supporter]\u003c/li\u003e\u003cli\u003e10 Advance Chapters per week for $15 Patrons [as above for Ling Tian Tier Supporter]\u003c/li\u003e\u003cli\u003e14 Advance Chapters per week for $25 Patrons [as above for Ling Tian Tier Supporter]\u003c/li\u003e\u003cli\u003e19 Advance Chapters per week for $50 Patrons [as above for Ling Tian Tier Supporter]\u003c/li\u003e\u003cli\u003e25 Advance Chapters per week for $80 Patrons [as above for Ling Tian Tier Supporter]\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": "2017-09-16T01:53:43+00:00",
+     "title": ""
+    },
+    "id": "866107",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 600000,
+     "completed_percentage": 84,
+     "created_at": "2017-09-16T02:14:44+00:00",
+     "description": "Another + 2 to all tiers! This means: \u003cbr\u003e\u003cul\u003e\u003cli\u003e6 Advance Chapters per week for $5 Patrons [as above for Ling Tian Tier Supporter]\u003c/li\u003e\u003cli\u003e10 Advance Chapters per week for $10 Patrons [as above for Ling Tian Tier Supporter]\u003c/li\u003e\u003cli\u003e12 Advance Chapters per week for $15 Patrons [as above for Ling Tian Tier Supporter]\u003c/li\u003e\u003cli\u003e16 Advance Chapters per week for $25 Patrons [as above for Ling Tian Tier Supporter]\u003c/li\u003e\u003cli\u003e21 Advance Chapters per week for $50 Patrons [as above for Ling Tian Tier Supporter]\u003c/li\u003e\u003cli\u003e27 Advance Chapters per week for $80 Patrons [as above for Ling Tian Tier Supporter]\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": "2017-10-19T01:56:13+00:00",
+     "title": ""
+    },
+    "id": "967502",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 700000,
+     "completed_percentage": 72,
+     "created_at": "2017-10-19T01:59:41+00:00",
+     "description": "Another + 1 to all tiers! This means: \u003cbr\u003e\u003cul\u003e\u003cli\u003e2 Advance Chapters per week for $1 Patrons\u003c/li\u003e\u003cli\u003e7 Advance Chapters per week for $5 Patrons \u003c/li\u003e\u003cli\u003e11 Advance Chapters per week for $10 Patrons \u003c/li\u003e\u003cli\u003e13 Advance Chapters per week for $15 Patrons \u003c/li\u003e\u003cli\u003e17 Advance Chapters per week for $25 Patrons \u003c/li\u003e\u003cli\u003e22 Advance Chapters per week for $50 Patrons \u003c/li\u003e\u003cli\u003e28 Advance Chapters per week for $80 Patrons\u00a0\u003c/li\u003e\u003cli\u003e32 Advance Chapters per week for $100 Patrons\u003c/li\u003e\u003cli\u003e36 Advance Chapters per week for $120 Patrons\u003c/li\u003e\u003cli\u003e41 Advance Chapters per week for $150 Patrons\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": "2018-01-23T15:42:07+00:00",
+     "title": ""
+    },
+    "id": "997988",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 850000,
+     "completed_percentage": 59,
+     "created_at": "2018-01-24T00:35:01+00:00",
+     "description": "Another + 2 to all tiers! This means: \u003cbr\u003e\u003cul\u003e\u003cli\u003e4 Advance Chapters per week for $1 Patrons\u003c/li\u003e\u003cli\u003e9 Advance Chapters per week for $5 Patrons \u003c/li\u003e\u003cli\u003e13 Advance Chapters per week for $10 Patrons \u003c/li\u003e\u003cli\u003e15 Advance Chapters per week for $15 Patrons \u003c/li\u003e\u003cli\u003e19 Advance Chapters per week for $25 Patrons \u003c/li\u003e\u003cli\u003e24 Advance Chapters per week for $50 Patrons \u003c/li\u003e\u003cli\u003e30 Advance Chapters per week for $80 Patrons \u003c/li\u003e\u003cli\u003e34 Advance Chapters per week for $100 Patrons\u003c/li\u003e\u003cli\u003e38 Advance Chapters per week for $120 Patrons\u003c/li\u003e\u003cli\u003e43 Advance Chapters per week for $150 Patrons\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1088696",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/605811"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "2b0d0759-6a3b-4eff-b8ef-1eeebaad1ba0",
+ "is_impersonating": false,
+ "js_git_sha": "4472372632546e38d60c55dee0209d720019d134",
+ "page_title": "Mr Voltaire is creating Shura\u0027s Wrath Web Novel Translations"
+});
+    </script>
