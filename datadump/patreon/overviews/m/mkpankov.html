@@ -1,0 +1,495 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "0IaiYHQRjl63FY6klhg3wxIgErz8jpW_baJvFXb0CDk";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "361730",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/361730"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2013-05-07T21:30:14+00:00",
+    "creation_name": "\u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/69696/21fd883784a846b1b9b83a54a50a9db4?token-time=2145916800\u0026token-hash=yKGXSMqFHKw1NpAcda7ovaEYtH0Y58gRWisvxMF-nMw%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/69696/21fd883784a846b1b9b83a54a50a9db4?token-time=2145916800\u0026token-hash=FzR4f6u-0suQ6UiIP3VePijbv7C_PtoNqc7k7TsIQio%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FwC4GHhc6T6Y%3Ffeature%3Doembed\u0026amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwC4GHhc6T6Y\u0026amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FwC4GHhc6T6Y%2Fhqdefault.jpg\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;type=text%2Fhtml\u0026amp;schema=youtube\" width=\"854\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://youtu.be/wC4GHhc6T6Y",
+    "one_liner": null,
+    "patron_count": 15,
+    "pay_per_name": "month",
+    "pledge_sum": 8988,
+    "pledge_url": "/bePatron?c=69696",
+    "published_at": "2017-02-12T13:07:28+00:00",
+    "summary": "\u003ca href=\"https://rustycrate.ru/\" target=\"_blank\"\u003erustycrate.ru\u003c/a\u003e - \u043a\u0440\u0443\u043f\u043d\u0435\u0439\u0448\u0435\u0435 \u0440\u0443\u0441\u0441\u043a\u043e\u044f\u0437\u044b\u0447\u043d\u043e\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442\u043e\u0432 \u043d\u0430 Rust.\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ch4\u003e\u003cspan style=\"background-color: rgb(247, 150, 70);\"\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u041a\u0442\u043e \u043c\u044b\u003c/span\u003e\u003c/span\u003e\u003c/h4\u003e\n\u003cbr\u003e\n\u041d\u0430\u0434 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e\u043c \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0438\u043d\u0438\u0446\u0438\u0430\u0442\u0438\u0432\u043d\u044b\u0445 \u0447\u0435\u043b\u043e\u0432\u0435\u043a. \u0412\u043c\u0435\u0441\u0442\u0435 \u043c\u044b \u0441\u043e\u0437\u0434\u0430\u0451\u043c \u043b\u0443\u0447\u0448\u0435\u0435 \u043c\u0435\u0441\u0442\u043e \u0434\u043b\u044f \u043e\u0431\u0449\u0435\u043d\u0438\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442\u043e\u0432 \u043d\u0430 Rust.\n\u003cbr\u003e\n\u003cbr\u003e\n\u041d\u0430\u0448\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e - \u044d\u0442\u043e 350 \u0447\u0435\u043b\u043e\u0432\u0435\u043a \u0432 \u0447\u0430\u0442\u0435 \u0438 600 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u043e\u0432 \u0432 \u0441\u043e\u0446\u0441\u0435\u0442\u044f\u0445. \u041d\u0430 \u043d\u0430\u0448\u0438 \u043c\u0438\u0442\u0430\u043f\u044b \u043f\u0440\u0438\u0448\u043b\u0438 280 \u0447\u0435\u043b\u043e\u0432\u0435\u043a, \u0430 \u0441\u0430\u0439\u0442 \u0437\u0430 \u0433\u043e\u0434 \u043f\u043e\u0441\u0435\u0442\u0438\u043b\u0438 11000 \u0447\u0435\u043b\u043e\u0432\u0435\u043a.\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cimg src=\"https://pp.userapi.com/c637220/v637220810/27c2c/snlr8YkIGpw.jpg\"\u003e\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ch4\u003e\u003cspan style=\"background-color: rgb(247, 150, 70);\"\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u0427\u0442\u043e \u043c\u044b \u0434\u0435\u043b\u0430\u0435\u043c\u003c/span\u003e\u003c/span\u003e\u003c/h4\u003e\n\u003cspan style=\"background-color: rgb(255, 255, 255);\"\u003e\u003cbr\u003e\n\u003c/span\u003e\n\u003cul\u003e\n\t\u003cli\u003e\u041f\u0438\u0448\u0435\u043c \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u043e Rust \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c \u0432 \u0441\u043e\u0446\u0441\u0435\u0442\u044f\u0445\u003c/li\u003e\n\t\u003cli\u003e\u041f\u0435\u0440\u0435\u0432\u043e\u0434\u0438\u043c \u043a\u043d\u0438\u0433\u0438 \u0438 \u0441\u0442\u0430\u0442\u044c\u0438\u003c/li\u003e\n\t\u003cli\u003e\u041f\u0438\u0448\u0435\u043c \u0441\u0442\u0430\u0442\u044c\u0438 \u0441\u0430\u043c\u0438\u003c/li\u003e\n\t\u003cli\u003e\u0423\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0435\u043c \u043c\u0438\u0442\u0430\u043f\u044b\u003c/li\u003e\n\t\u003cli\u003e\u041f\u043e\u043c\u043e\u0433\u0430\u0435\u043c \u0441 \u043f\u043e\u0438\u0441\u043a\u043e\u043c \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u0432 \u0438 \u043f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u043e\u0439 \u043e\u043f\u043b\u0430\u0447\u0438\u0432\u0430\u0435\u043c\u043e\u0439 \u0440\u0430\u0431\u043e\u0442\u044b\u003c/li\u003e\n\t\u003cli\u003e\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u043c \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043a\u0430\u043d\u0430\u043b\u043e\u0432 \u0447\u0430\u0442\u0430\n\t\u003cul\u003e\n\t\t\u003cli\u003eRust\u003c/li\u003e\n\t\t\u003cli\u003e\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0438\u0433\u0440\u003c/li\u003e\n\t\t\u003cli\u003e\u0412\u0435\u0431-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430\u003c/li\u003e\n\t\t\u003cli\u003e\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c\u003c/li\u003e\n\t\t\u003cli\u003e\u0410\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b\u003c/li\u003e\n\t\t\u003cli\u003e\u041e\u0431\u0449\u0438\u0435 \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0442\u0435\u043c\u044b\u003c/li\u003e\n\t\u003c/ul\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003e\u0421\u043e\u0445\u0440\u0430\u043d\u044f\u0435\u043c \u0434\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u0443\u044e \u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0443 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u043e\u0431\u0449\u0435\u043d\u0438\u044f \u043d\u0430 \u0432\u0441\u0435\u0445 \u043d\u0430\u0448\u0438\u0445 \u0440\u0435\u0441\u0443\u0440\u0441\u0430\u0445\u003c/li\u003e\n\t\u003cli\u003e\u041f\u043e\u043e\u0449\u0440\u044f\u0435\u043c \u043f\u043e\u043c\u043e\u0449\u044c \u043d\u043e\u0432\u0438\u0447\u043a\u0430\u043c \u0438 \u043e\u0431\u043c\u0435\u043d \u043e\u043f\u044b\u0442\u043e\u043c\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u003c/span\u003e\n\u003cdiv style=\"text-align: justify;\"\u003e\n\t\u003cbr\u003e\n\u003c/div\u003e\n\u003ch4\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u003cspan style=\"background-color: rgb(247, 150, 70);\"\u003e\u041a\u0443\u0434\u0430 \u043f\u043e\u0439\u0434\u0443\u0442 \u0434\u0435\u043d\u044c\u0433\u0438\u003c/span\u003e\u003c/span\u003e\u003c/h4\u003e\n\u003cbr\u003e\n\u041d\u0430\n\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003e\u0425\u043e\u0441\u0442\u0438\u043d\u0433 \u0441\u0430\u0439\u0442\u0430\u003c/li\u003e\n\t\u003cli\u003e\u0425\u043e\u0441\u0442\u0438\u043d\u0433 \u0444\u043e\u0440\u0443\u043c\u0430\u003c/li\u003e\n\t\u003cli\u003e\u0414\u043e\u043c\u0435\u043d\u003c/li\u003e\n\t\u003cli\u003e\u041e\u043f\u043b\u0430\u0442\u0443 \u0440\u0430\u0431\u043e\u0442\u044b \u0430\u0432\u0442\u043e\u0440\u043e\u0432 \u0441\u0442\u0430\u0442\u0435\u0439\u003c/li\u003e\n\t\u003cli\u003e\u0421\u0443\u0432\u0435\u043d\u0438\u0440\u044b - \u043d\u0430\u043a\u043b\u0435\u0439\u043a\u0438, \u0431\u0440\u0430\u0441\u043b\u0435\u0442\u044b \u0438 \u0444\u0443\u0442\u0431\u043e\u043b\u043a\u0438\u003c/li\u003e\n\t\u003cli\u003e\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0443 \u043d\u043e\u0432\u043e\u0439 \u0432\u0435\u0440\u0441\u0438\u0438 \u0441\u0430\u0439\u0442\u0430\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ch4\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u003c/span\u003e\u003cspan style=\"background-color: rgb(247, 150, 70);\"\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u041a\u0430\u043a\u0438\u0435 \u0443 \u043d\u0430\u0441 \u0446\u0435\u043b\u0438\u003c/span\u003e\u003c/span\u003e\u003c/h4\u003e\n\u003cbr\u003e\n\u003ch4\u003e\u003cstrong\u003e30$/\u043c\u0435\u0441.\u003c/strong\u003e\u003c/h4\u003e\n\u042d\u0442\u0430 \u0446\u0435\u043b\u044c \u0441\u0434\u0435\u043b\u0430\u0435\u0442 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \u0431\u0435\u0437\u0443\u0431\u044b\u0442\u043e\u0447\u043d\u044b\u043c, \u0442.\u043a. \u043f\u043e\u043a\u0440\u043e\u0435\u0442 \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c \u0445\u043e\u0441\u0442\u0438\u043d\u0433\u0430, \u0434\u043e\u043c\u0435\u043d\u043d\u043e\u0433\u043e \u0438\u043c\u0435\u043d\u0438 \u0438 \u043f\u043b\u0430\u0442\u043d\u044b\u0445 \u0441\u0435\u0440\u0432\u0438\u0441\u043e\u0432.\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ch4\u003e\u003cstrong\u003e250$/\u043c\u0435\u0441.\u003c/strong\u003e\u003c/h4\u003e\n\u041c\u044b \u0441\u0442\u0430\u043d\u0435\u043c \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e \u043f\u043b\u0430\u0442\u0438\u0442\u044c \u0430\u0432\u0442\u043e\u0440\u0430\u043c, \u0447\u0442\u043e\u0431\u044b \u043e\u043d\u0438 \u043f\u0438\u0441\u0430\u043b\u0438 \u0445\u043e\u0440\u043e\u0448\u0438\u0435, \u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u043d\u044b\u0435 \u0441\u0442\u0430\u0442\u044c\u0438 \u0434\u043b\u044f \u043d\u0430\u0448\u0435\u0433\u043e \u0436\u0443\u0440\u043d\u0430\u043b\u0430. \u041e\u043d\u0438 \u0431\u0443\u0434\u0443\u0442 \u043f\u043e\u043d\u044f\u0442\u043d\u044b\u043c\u0438, \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u043c\u0438 \u0438 \u0431\u0435\u0437 \u0432\u043e\u0434\u044b, \u0441 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u043c\u0438 \u0438\u043b\u043b\u044e\u0441\u0442\u0440\u0430\u0446\u0438\u044f\u043c\u0438 \u0438 \u043f\u043e\u043d\u044f\u0442\u043d\u044b\u043c\u0438 \u0432\u044b\u0432\u043e\u0434\u0430\u043c\u0438.\n\u003cbr\u003e\n\u003cstrong\u003e\u003cbr\u003e\n\u003c/strong\u003e\n\u003ch4\u003e\u003cstrong\u003e600$/\u043c\u0435\u0441.\u003c/strong\u003e\u003c/h4\u003e\n\u041c\u044b \u0431\u0443\u0434\u0435\u043c \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0441\u0443\u0432\u0435\u043d\u0438\u0440\u044b \u0441 \u043d\u0430\u0448\u0435\u0439 \u0441\u0438\u043c\u0432\u043e\u043b\u0438\u043a\u043e\u0439 - \u043d\u0430\u043a\u043b\u0435\u0439\u043a\u0438, \u0431\u0440\u0430\u0441\u043b\u0435\u0442\u044b \u0438 \u0444\u0443\u0442\u0431\u043e\u043b\u043a\u0438. \u041e\u043d\u0438 \u0431\u0443\u0434\u0443\u0442 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0442\u044c\u0441\u044f \u043d\u0430 \u043d\u0430\u0448\u0438\u0445 \u043c\u0438\u0442\u0430\u043f\u0430\u0445.\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ch4\u003e\u003cstrong\u003e1000$/\u043c\u0435\u0441.\u003c/strong\u003e\u003c/h4\u003e\n\u041c\u044b \u043d\u0430\u0447\u043d\u0451\u043c \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0442\u044c \u043d\u043e\u0432\u044b\u0439 \u0441\u0430\u0439\u0442 \u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \u043a\u0430\u043a \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0443, \u0447\u0442\u043e\u0431\u044b \u0432 \u0438\u0442\u043e\u0433\u0435 \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0441\u0430\u0439\u0442 \u0440\u0435\u0441\u0443\u0440\u0441\u043e\u043c, \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u044f\u044e\u0449\u0438\u043c \u0440\u0430\u0437\u043d\u044b\u0435 \u0441\u043f\u043e\u0441\u043e\u0431\u044b \u043e\u0431\u0449\u0435\u043d\u0438\u044f \u043d\u0430 \u043b\u044e\u0431\u044b\u0435 \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0442\u0435\u043c\u044b.\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ch4\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u003cspan style=\"background-color: rgb(247, 150, 70);\"\u003e\u041a\u0430\u043a \u044d\u0442\u043e \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442\u003c/span\u003e\u003c/span\u003e\u003c/h4\u003e\n\u003cbr\u003e\n\u0412\u044b \u0432\u044b\u0431\u0438\u0440\u0430\u0435\u0442\u0435 \u043e\u0434\u043d\u0443 \u0438\u0437 \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0445 \u043f\u043e\u0437\u0438\u0446\u0438\u0439 \u0438\u043b\u0438 \u0432\u0440\u0443\u0447\u043d\u0443\u044e \u0432\u043d\u043e\u0441\u0438\u0442\u0435 \u0436\u0435\u043b\u0430\u0435\u043c\u0443\u044e \u0441\u0443\u043c\u043c\u0443 \u0434\u0435\u043d\u0435\u0433; \u043e\u0434\u043d\u0430\u043a\u043e \u0434\u0435\u043d\u044c\u0433\u0438 \u043d\u0435 \u0441\u043f\u0438\u0441\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u0441\u0440\u0430\u0437\u0443 \u2014 Patreon \u0441\u043f\u0438\u0448\u0435\u0442 \u0438\u0445 1 \u0447\u0438\u0441\u043b\u0430 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0433\u043e \u043c\u0435\u0441\u044f\u0446\u0430. \u0412\u043e \u0432\u0440\u0435\u043c\u044f \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u044f \u043f\u043b\u0430\u0442\u0435\u0436\u0430 \u0444\u043e\u0440\u043c\u0430 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0438\u0442 \u0432\u043d\u0435\u0441\u0442\u0438 \u0434\u0430\u043d\u043d\u044b\u0435 \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u043e\u0439/ \u0434\u0435\u0431\u0435\u0442\u043e\u0432\u043e\u0439 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438 \n\u003cem\u003e\u0438\u043b\u0438\u00a0\u003c/em\u003e\u003cem\u003e\u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u003c/em\u003e PayPal-\u0430\u043a\u043a\u0430\u0443\u043d\u0442.\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003e\n\u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435: \u0434\u0435\u043d\u044c\u0433\u0438 \u0441\u043f\u0438\u0441\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u0435\u0436\u0435\u043c\u0435\u0441\u044f\u0447\u043d\u043e.\u003c/strong\u003e\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ch4\u003e\u003cspan style=\"background-color: rgb(247, 150, 70);\"\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u041a\u0430\u043a \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0435\u0434\u0438\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439 \u0432\u0437\u043d\u043e\u0441?\u003c/span\u003e\u003c/span\u003e\u003c/h4\u003e\n\u003cbr\u003e\u041f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0438\u0442\u0435 \u0434\u0435\u043d\u044c\u0433\u0438 \u043d\u0430 \u043d\u0430\u0448 \u042f\u043d\u0434\u0435\u043a\u0441.\u041a\u043e\u0448\u0435\u043b\u0435\u043a. \u041d\u043e \u044d\u0442\u043e \u043d\u0435 \u0441\u0434\u0435\u043b\u0430\u0435\u0442 \u0432\u0430\u0441 \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u043c \u043d\u0430 Patreon (\u0438 \u043d\u0435 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u0438\u0442 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u044d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432\u043d\u044b\u043c \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u0430\u043c).\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ch4\u003e\u003ca href=\"http://money.yandex.ru/to/410014041394524\" target=\"_blank\"\u003e\u003cspan style=\"background-color: rgb(84, 141, 212);\"\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0435\u0434\u0438\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439 \u0432\u0437\u043d\u043e\u0441\u003c/span\u003e\u003c/span\u003e\u003c/a\u003e\u003c/h4\u003e\n\u003cstrong\u003e\u003cbr\u003e\n\u0417\u0430\u0434\u0430\u0432\u0430\u0439\u0442\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b \n\u003ca href=\"https://gitter.im/ruRust/general\" target=\"_blank\"\u003e\u003cspan style=\"background-color: rgb(84, 141, 212);\"\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u0432 \u043d\u0430\u0448\u0435\u043c\u00a0\n\u0447\u0430\u0442\u0435\n\u003c/span\u003e\u003c/span\u003e\u003c/a\u003e.\u003c/strong\u003e\u003cbr\u003e\n\u003cbr\u003e\n\u003ch4\u003e\u003cspan style=\"background-color: rgb(247, 150, 70);\"\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u003cspan style=\"background-color: rgb(84, 141, 212);\"\u003e\u003ca href=\"https://rustycrate.ru/patrons.html\" target=\"_blank\"\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u0414\u043e\u0441\u043a\u0430 \u043f\u043e\u0447\u0451\u0442\u0430 \u043f\u0430\u0442\u0440\u043e\u043d\u043e\u0432\u003c/span\u003e\u003c/a\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/h4\u003e"
+   },
+   "id": "69696",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "30685",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/30685"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "714532",
+       "type": "goal"
+      },
+      {
+       "id": "714534",
+       "type": "goal"
+      },
+      {
+       "id": "714535",
+       "type": "goal"
+      },
+      {
+       "id": "714544",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-69696",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-69696"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1397293",
+       "type": "reward"
+      },
+      {
+       "id": "1410747",
+       "type": "reward"
+      },
+      {
+       "id": "1397294",
+       "type": "reward"
+      },
+      {
+       "id": "1397301",
+       "type": "reward"
+      },
+      {
+       "id": "1397304",
+       "type": "reward"
+      },
+      {
+       "id": "1397305",
+       "type": "reward"
+      },
+      {
+       "id": "1488933",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "programmer, game developer",
+     "created": "2013-05-07T21:30:14+00:00",
+     "facebook": "https://www.facebook.com/rustycrate/",
+     "first_name": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430",
+     "full_name": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430 rustycrate.ru",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/30685/3acfcd831fa94c20a194aca2393cb199?token-time=2145916800\u0026token-hash=mbmihp9jURekZxhvFgySB6d-haboCie_EJ1U0CoHSnI%3D",
+     "last_name": "rustycrate.ru",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/30685/3acfcd831fa94c20a194aca2393cb199?token-time=2145916800\u0026token-hash=81Vcqobha-L7-52OxYQgD5MV7DQe90zWitznyddco0Y%3D",
+     "twitch": null,
+     "twitter": "rustycrate1",
+     "url": "https://www.patreon.com/mkpankov",
+     "vanity": "mkpankov",
+     "youtube": null
+    },
+    "id": "30685",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "69696",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/69696"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 9,
+     "upgrade_url": "/bePatron?c=69696\u0026rid=1397293"
+    },
+    "id": "post-aggregation-for-0-69696",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-02-12T12:09:36.625777+00:00",
+     "description": "\u0412\u044b \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u044f\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u043f\u0430\u0442\u0440\u043e\u043d\u043e\u0432 - \u0442\u0430\u043c \u044f \u043f\u0438\u0448\u0443 \u0441\u0432\u043e\u0438 \u043c\u044b\u0441\u043b\u0438, \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0438 \u0441\u0432\u0435\u0440\u0445\u0441\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0435 \u043f\u043b\u0430\u043d\u044b.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-12T13:46:13.491904+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1397293/a4e5e037947a46c78b4d5996d9104258?token-time=2145916800\u0026token-hash=FGkahbHwYRo0GigG2UdjglXZ3xLPKC91JA3rjlXTMOI%3D",
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-02-12T12:09:36.625777+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\u0421\u043e\u0447\u0443\u0432\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439",
+     "unpublished_at": null,
+     "url": "/bePatron?c=69696\u0026rid=1397293",
+     "user_limit": null
+    },
+    "id": "1397293",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-02-16T16:05:38.527210+00:00",
+     "description": "\u041c\u044b \u043f\u043e\u043c\u0435\u0441\u0442\u0438\u043c \u0432\u0430\u0448 \u003cstrong\u003e\u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439\u003c/strong\u003e \u003cstrong\u003e\u0430\u0432\u0430\u0442\u0430\u0440\u003c/strong\u003e \u043d\u0430 \u0434\u043e\u0441\u043a\u0443 \u043f\u043e\u0447\u0451\u0442\u0430 \u043f\u0430\u0442\u0440\u043e\u043d\u043e\u0432.\n\u003cp\u003e\u0412\u044b \u0442\u0430\u043a\u0436\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u044f\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u043f\u0430\u0442\u0440\u043e\u043d\u043e\u0432 \u0441 \u043f\u043b\u0430\u043d\u0430\u043c\u0438 \u0438 \u043c\u044b\u0441\u043b\u044f\u043c\u0438 \u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-12T13:46:13.520007+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1410747/4f54a11e27ef4ccf983dfd1d67b9d94e?token-time=2145916800\u0026token-hash=1qYDJ9r0EsaLZI-rmsYNtVIgRfkAGaQk6lMTmolsMDI%3D",
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-16T16:05:38.527210+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\u041e\u0434\u043e\u0431\u0440\u044f\u044e\u0449\u0438\u0439",
+     "unpublished_at": null,
+     "url": "/bePatron?c=69696\u0026rid=1410747",
+     "user_limit": null
+    },
+    "id": "1410747",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-02-12T12:11:16.638572+00:00",
+     "description": "\u041c\u044b \u003cstrong\u003e\u0443\u043f\u043e\u043c\u044f\u043d\u0435\u043c \u0432\u0430\u0441\u003c/strong\u003e \u0432 \u0447\u0430\u0442\u0430\u0445 \u0438 \u0441\u043e\u0446\u0441\u0435\u0442\u044f\u0445.\n\u003cp\u003e\u041c\u044b \u043f\u043e\u043c\u0435\u0441\u0442\u0438\u043c \u0432\u0430\u0448 \u003cstrong\u003e\u043d\u0435\u0431\u043e\u043b\u044c\u0448\u043e\u0439\u003c/strong\u003e \u003cstrong\u003e\u0430\u0432\u0430\u0442\u0430\u0440\u003c/strong\u003e \u043d\u0430 \u0434\u043e\u0441\u043a\u0443 \u043f\u043e\u0447\u0451\u0442\u0430 \u043f\u0430\u0442\u0440\u043e\u043d\u043e\u0432.\u003c/p\u003e\n\u003cp\u003e\u0412\u044b \u0442\u0430\u043a\u0436\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u044f\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u043f\u0430\u0442\u0440\u043e\u043d\u043e\u0432 \u0441 \u043f\u043b\u0430\u043d\u0430\u043c\u0438 \u0438 \u043c\u044b\u0441\u043b\u044f\u043c\u0438 \u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-20T17:03:56.178455+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1397294/9b8258995c144cb0a3bff176af71b9ed?token-time=2145916800\u0026token-hash=DfmpHhDspIBpCMANMtQFMclUJk-mLiYsBDiVNjzvIQE%3D",
+     "patron_count": 10,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-12T12:11:16.638572+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0449\u0438\u0439",
+     "unpublished_at": null,
+     "url": "/bePatron?c=69696\u0026rid=1397294",
+     "user_limit": null
+    },
+    "id": "1397294",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-02-12T12:14:32.254010+00:00",
+     "description": "\u0412\u044b \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u003cstrong\u003e\u043d\u0430\u0431\u043e\u0440 \u043d\u0430\u043a\u043b\u0435\u0435\u043a\u003c/strong\u003e, \u003cem\u003e\u043a\u0430\u043a \u0442\u043e\u043b\u044c\u043a\u043e \u043c\u044b \u0434\u043e\u0441\u0442\u0438\u0433\u043d\u0435\u043c \u0446\u0435\u043b\u0438, \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0449\u0435\u0439 \u043d\u0430\u0447\u0430\u0442\u044c \u0438\u0445 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e\u003c/em\u003e. \u0417\u0430\u0431\u0440\u0430\u0442\u044c \u0438\u0445 \u043c\u043e\u0436\u043d\u043e \u0431\u0443\u0434\u0435\u0442 \u043d\u0430 \u043c\u0438\u0442\u0430\u043f\u0435 \u0438\u043b\u0438 \u043f\u0440\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0435 \u0441\u043e \u043c\u043d\u043e\u0439 \u0432 \u041c\u043e\u0441\u043a\u0432\u0435.\n\u003cp\u003e\u041c\u044b \u003cstrong\u003e\u0443\u043f\u043e\u043c\u044f\u043d\u0435\u043c \u0432\u0430\u0441\u003c/strong\u003e \u0432 \u0447\u0430\u0442\u0430\u0445 \u0438 \u0441\u043e\u0446\u0441\u0435\u0442\u044f\u0445.\u003c/p\u003e\n\u003cp\u003e\u041c\u044b \u043f\u043e\u043c\u0435\u0441\u0442\u0438\u043c \u0432\u0430\u0448 \u003cstrong\u003e\u0441\u0440\u0435\u0434\u043d\u0438\u0439\u003c/strong\u003e \u003cstrong\u003e\u0430\u0432\u0430\u0442\u0430\u0440\u003c/strong\u003e \u043d\u0430 \u0434\u043e\u0441\u043a\u0443 \u043f\u043e\u0447\u0451\u0442\u0430 \u043f\u0430\u0442\u0440\u043e\u043d\u043e\u0432.\u003c/p\u003e\n\u003cp\u003e\u0412\u044b \u0442\u0430\u043a\u0436\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u044f\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u043f\u0430\u0442\u0440\u043e\u043d\u043e\u0432 \u0441 \u043f\u043b\u0430\u043d\u0430\u043c\u0438 \u0438 \u043c\u044b\u0441\u043b\u044f\u043c\u0438 \u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-20T17:04:16.780685+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1397301/404131e22ce34744b51c2db1744c7e08?token-time=2145916800\u0026token-hash=1q1mNve6f9p1s3WSk_nMWltP2WnLHxobPb_HP8TFAKw%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-12T12:14:32.254010+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\u0417\u0430\u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+     "unpublished_at": null,
+     "url": "/bePatron?c=69696\u0026rid=1397301",
+     "user_limit": null
+    },
+    "id": "1397301",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-02-12T12:19:35.191251+00:00",
+     "description": "\u0412\u044b - \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0439 Rustacean!\n\u003cp\u003e\u0412\u044b \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u003cstrong\u003e\u0431\u0440\u0430\u0441\u043b\u0435\u0442\u003c/strong\u003e \u0438 \u003cstrong\u003e\u043d\u0430\u0431\u043e\u0440 \u043d\u0430\u043a\u043b\u0435\u0435\u043a\u003c/strong\u003e, \u003cem\u003e\u043a\u0430\u043a \u0442\u043e\u043b\u044c\u043a\u043e \u043c\u044b \u0434\u043e\u0441\u0442\u0438\u0433\u043d\u0435\u043c \u0446\u0435\u043b\u0438, \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0449\u0435\u0439 \u043d\u0430\u0447\u0430\u0442\u044c \u0438\u0445 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e\u003c/em\u003e. \u0421 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u043e\u0439 \u043f\u043e \u0420\u043e\u0441\u0441\u0438\u0438!\u003c/p\u003e\n\u003cp\u003e\u041c\u044b \u003cstrong\u003e\u0443\u043f\u043e\u043c\u044f\u043d\u0435\u043c \u0432\u0430\u0441\u003c/strong\u003e \u0432 \u0447\u0430\u0442\u0430\u0445 \u0438 \u0441\u043e\u0446\u0441\u0435\u0442\u044f\u0445.\u003c/p\u003e\n\u003cp\u003e\u041c\u044b \u043f\u043e\u043c\u0435\u0441\u0442\u0438\u043c \u0432\u0430\u0448 \u003cstrong\u003e\u0431\u043e\u043b\u044c\u0448\u043e\u0439\u003c/strong\u003e \u003cstrong\u003e\u0430\u0432\u0430\u0442\u0430\u0440\u003c/strong\u003e \u043d\u0430 \u0434\u043e\u0441\u043a\u0443 \u043f\u043e\u0447\u0451\u0442\u0430 \u043f\u0430\u0442\u0440\u043e\u043d\u043e\u0432.\u003c/p\u003e\n\u003cp\u003e\u0412\u044b \u0442\u0430\u043a\u0436\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u044f\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u043f\u0430\u0442\u0440\u043e\u043d\u043e\u0432 \u0441 \u043f\u043b\u0430\u043d\u0430\u043c\u0438 \u0438 \u043c\u044b\u0441\u043b\u044f\u043c\u0438 \u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-20T17:04:36.377289+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1397304/63eaa90bc2a847e6a2bc394b175ceda3?token-time=2145916800\u0026token-hash=oxAy7-hdJzU8uZ8KvaaGoxeiBHtTGulVDWN1pjHDup4%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-12T12:19:35.191251+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "\u0420\u0430\u0441\u0442\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0439",
+     "unpublished_at": null,
+     "url": "/bePatron?c=69696\u0026rid=1397304",
+     "user_limit": null
+    },
+    "id": "1397304",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-02-12T12:21:17.649079+00:00",
+     "description": "\u0412\u044b - \u043d\u0430\u0448 \u0441\u0430\u043c\u044b\u0439 \u043b\u0443\u0447\u0448\u0438\u0439 \u043f\u0430\u0442\u0440\u043e\u043d!\n\u003cp\u003e\u0412\u044b \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u003cstrong\u003e\u0444\u0443\u0442\u0431\u043e\u043b\u043a\u0443\u003c/strong\u003e, \u003cstrong\u003e\u0431\u0440\u0430\u0441\u043b\u0435\u0442\u003c/strong\u003e \u0438 \u003cstrong\u003e\u043d\u0430\u0431\u043e\u0440 \u043d\u0430\u043a\u043b\u0435\u0435\u043a\u003c/strong\u003e, \u003cem\u003e\u043a\u0430\u043a \u0442\u043e\u043b\u044c\u043a\u043e \u043c\u044b \u0434\u043e\u0441\u0442\u0438\u0433\u043d\u0435\u043c \u0446\u0435\u043b\u0438, \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0449\u0435\u0439 \u043d\u0430\u0447\u0430\u0442\u044c \u0438\u0445 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e\u003c/em\u003e. \u0421 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u043e\u0439 \u043f\u043e \u0420\u043e\u0441\u0441\u0438\u0438!\u003c/p\u003e\n\u003cp\u003e\u041c\u044b \u003cstrong\u003e\u0443\u043f\u043e\u043c\u044f\u043d\u0435\u043c \u0432\u0430\u0441\u003c/strong\u003e \u0432 \u0447\u0430\u0442\u0430\u0445 \u0438 \u0441\u043e\u0446\u0441\u0435\u0442\u044f\u0445.\u003c/p\u003e\n\u003cp\u003e\u041c\u044b \u043f\u043e\u043c\u0435\u0441\u0442\u0438\u043c \u0432\u0430\u0448 \u003cstrong\u003e\u043e\u0433\u0440\u043e\u043c\u043d\u044b\u0439 \u0430\u0432\u0430\u0442\u0430\u0440\u003c/strong\u003e \u043d\u0430 \u0434\u043e\u0441\u043a\u0443 \u043f\u043e\u0447\u0451\u0442\u0430 \u043f\u0430\u0442\u0440\u043e\u043d\u043e\u0432.\u003c/p\u003e\n\u003cp\u003e\u0412\u044b \u0442\u0430\u043a\u0436\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u044f\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u043f\u0430\u0442\u0440\u043e\u043d\u043e\u0432 \u0441 \u043f\u043b\u0430\u043d\u0430\u043c\u0438 \u0438 \u043c\u044b\u0441\u043b\u044f\u043c\u0438 \u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-20T17:04:56.149562+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1397305/31307e6a47ba4f709c3f153bc747f0bc?token-time=2145916800\u0026token-hash=eiYGDcgi8dTTXSidWrRjK2hv3e-LKi15_OleoAYxSA8%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-12T12:21:17.649079+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u043a\u0440\u0430\u0431",
+     "unpublished_at": null,
+     "url": "/bePatron?c=69696\u0026rid=1397305",
+     "user_limit": null
+    },
+    "id": "1397305",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-03-12T14:17:43.573717+00:00",
+     "description": "\u041c\u044b \u043d\u0430\u043f\u0438\u0448\u0435\u043c \u043d\u0430 \u0441\u0430\u0439\u0442\u0435, \u0447\u0442\u043e \u0432\u0430\u0448\u0430 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e.\n\u003cp\u003e\u041c\u044b \u0442\u0430\u043a\u0436\u0435 \u0434\u043e\u0431\u0430\u0432\u0438\u043c \u0443\u043f\u043e\u043c\u0438\u043d\u0430\u043d\u0438\u0435 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0432 \u0448\u0430\u043f\u043a\u0443 \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0439.\u003c/p\u003e\n\u003cp\u003e\u041c\u044b \u0431\u0443\u0434\u0435\u043c \u043f\u0443\u0431\u043b\u0438\u043a\u043e\u0432\u0430\u0442\u044c \u0432\u0430\u0448\u0443 \u0441\u0441\u044b\u043b\u043a\u0443 \u0432 \u043d\u0430\u0448\u0438\u0445 \u0441\u043e\u0446\u0441\u0435\u0442\u044f\u0445 2 \u0440\u0430\u0437\u0430 \u0432 \u043c\u0435\u0441\u044f\u0446.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-12T14:17:44.959010+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1488933/f6514034a1764173b8cd4bd14d6c98fe?token-time=2145916800\u0026token-hash=h3xQwX9KNA9SguayENd2Bxtt9a5TzL-0XDRoTGD8x3w%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-12T14:17:43.573717+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "\u0421\u043f\u043e\u043d\u0441\u043e\u0440",
+     "unpublished_at": null,
+     "url": "/bePatron?c=69696\u0026rid=1488933",
+     "user_limit": 1
+    },
+    "id": "1488933",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3000,
+     "completed_percentage": 100,
+     "created_at": "2017-02-12T12:07:18+00:00",
+     "description": "",
+     "reached_at": "2017-02-13T13:21:28+00:00",
+     "title": ""
+    },
+    "id": "714532",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 35,
+     "created_at": "2017-02-12T12:07:18+00:00",
+     "description": "\u041c\u044b \u0441\u0442\u0430\u043d\u0435\u043c \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e \u043f\u043b\u0430\u0442\u0438\u0442\u044c \u0430\u0432\u0442\u043e\u0440\u0430\u043c, \u0447\u0442\u043e\u0431\u044b \u043e\u043d\u0438 \u043f\u0438\u0441\u0430\u043b\u0438 \u0445\u043e\u0440\u043e\u0448\u0438\u0435, \u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u043d\u044b\u0435 \u0441\u0442\u0430\u0442\u044c\u0438 \u0434\u043b\u044f \u043d\u0430\u0448\u0435\u0433\u043e \u0436\u0443\u0440\u043d\u0430\u043b\u0430. \u041e\u043d\u0438 \u0431\u0443\u0434\u0443\u0442 \u043f\u043e\u043d\u044f\u0442\u043d\u044b\u043c\u0438, \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u043c\u0438 \u0438 \u0431\u0435\u0437 \u0432\u043e\u0434\u044b, \u0441 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u043c\u0438 \u0438\u043b\u043b\u044e\u0441\u0442\u0440\u0430\u0446\u0438\u044f\u043c\u0438 \u0438 \u043f\u043e\u043d\u044f\u0442\u043d\u044b\u043c\u0438 \u0432\u044b\u0432\u043e\u0434\u0430\u043c\u0438.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "714534",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 14,
+     "created_at": "2017-02-12T12:07:18+00:00",
+     "description": "\u041c\u044b \u0431\u0443\u0434\u0435\u043c \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c\u00a0\u0441\u0443\u0432\u0435\u043d\u0438\u0440\u044b \u0441 \u043d\u0430\u0448\u0435\u0439 \u0441\u0438\u043c\u0432\u043e\u043b\u0438\u043a\u043e\u0439 - \u043d\u0430\u043a\u043b\u0435\u0439\u043a\u0438, \u0431\u0440\u0430\u0441\u043b\u0435\u0442\u044b \u0438 \u0444\u0443\u0442\u0431\u043e\u043b\u043a\u0438.\u00a0\u041e\u043d\u0438 \u0431\u0443\u0434\u0443\u0442 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0442\u044c\u0441\u044f \u043d\u0430 \u043d\u0430\u0448\u0438\u0445 \u043c\u0438\u0442\u0430\u043f\u0430\u0445.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "714535",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 8,
+     "created_at": "2017-02-12T12:24:33+00:00",
+     "description": "\u041c\u044b \u043d\u0430\u0447\u043d\u0451\u043c \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0442\u044c \u043d\u043e\u0432\u044b\u0439 \u0434\u0438\u0437\u0430\u0439\u043d \u0441\u0430\u0439\u0442\u0430 \u0438 \u043a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u044e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430 \u043a\u0430\u043a \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u044b, \u0447\u0442\u043e\u0431\u044b \u0432 \u0438\u0442\u043e\u0433\u0435 \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0441\u0430\u0439\u0442 \u0440\u0435\u0441\u0443\u0440\u0441\u043e\u043c, \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u044f\u044e\u0449\u0438\u043c \u0440\u0430\u0437\u043d\u044b\u0435 \u0441\u043f\u043e\u0441\u043e\u0431\u044b \u043e\u0431\u0449\u0435\u043d\u0438\u044f \u043d\u0430 \u043b\u044e\u0431\u044b\u0435 \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0442\u0435\u043c\u044b.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "714544",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/69696"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "3d06f6cf-eb95-436e-b4c5-f08f83004052",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430 rustycrate.ru are creating \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e"
+});
+    </script>

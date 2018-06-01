@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "WsEB14iZXVqXL7U_3mVmcHmkcynujBU1_UsOV7ZgcQU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "528164",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/528164"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-07-16T04:57:46+00:00",
+    "creation_name": "Comics",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1079911/d477d8171ce24814aebb3e84ed26bbff?token-time=2145916800\u0026token-hash=kBMlhuak3Omj4X1CnIaoVEtxvXCN2D4jV93nwv7bH6c%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1079911/d477d8171ce24814aebb3e84ed26bbff?token-time=2145916800\u0026token-hash=zHEAbEE-Z-xd9favlljfVAOwD40smKprT_-r0TfeyUc%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_sum": 917,
+    "pledge_url": "/bePatron?c=1079911",
+    "published_at": "2017-07-29T19:48:45+00:00",
+    "summary": "Hi! We have created a diverse, intense, smart retelling of the Peter Pan mythos called\u00a0\u003ca href=\"http://www.neverlanduntold.com/\"\u003eNeverland: The Untold\u003c/a\u003e. Here, we hope to give you a modern yet timeless imagining of an age old story unlike anything you\u0027ve ever read in the genre.\u00a0\u003cbr\u003e\u003cbr\u003eWhile we\u0027re very excited to be bringing you diverse content, it is labor intensive and there is a bit of overhead involved in maintaining quality work and cultivating (and rewarding) a savy audience. That\u0027s where you, the people, come in. Because sustainability through community is everything, we ask that if you like what you\u0027ve read of our comic and would like to help us continue evolving this book, that you throw a little something in the tip jar for the effort. Every little bit helps us keep the lights on. So what if you only throw in a dollar? If 50 people throw in a dollar this month, that\u0027s $50 a month. That goes a long way, y\u0027all. \u003cbr\u003e\u003cbr\u003eWe\u0027re asking you to invest in the kind of content you\u0027d like to see out in the world and that\u0027s really one of the greatest acts of artistic activism there is."
+   },
+   "id": "1079911",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3067605",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3067605"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "917809",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1079911",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1079911"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1883210",
+       "type": "reward"
+      },
+      {
+       "id": "1883380",
+       "type": "reward"
+      },
+      {
+       "id": "1883434",
+       "type": "reward"
+      },
+      {
+       "id": "1883514",
+       "type": "reward"
+      },
+      {
+       "id": "1883528",
+       "type": "reward"
+      },
+      {
+       "id": "1883555",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "An enigma wrapped in a riddle....covered in bacon. Samuel L. Jackson is my spirit animal.",
+     "created": "2016-03-26T03:09:57+00:00",
+     "facebook": "https://www.facebook.com/NeverlandUntold/",
+     "first_name": "Oz",
+     "full_name": "Oz Longworth Jr.",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3067605/2fad1e2da5864a5eb58280628b62e89e?token-time=2145916800\u0026token-hash=1msX_Z7ma9JxGU9XKpC4_M1s6Q7Orh9d5b7fuJDWFpU%3D",
+     "last_name": "Longworth Jr.",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3067605/2fad1e2da5864a5eb58280628b62e89e?token-time=2145916800\u0026token-hash=8CiL77erv6UnTlIsgJfsEKAvbD20r5VSHShdBpv-fbk%3D",
+     "twitch": null,
+     "twitter": "NeverlandComic",
+     "url": "https://www.patreon.com/NeverlandUntold",
+     "vanity": "NeverlandUntold",
+     "youtube": ""
+    },
+    "id": "3067605",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1079911",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1079911"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 3,
+     "upgrade_url": "/bePatron?c=1079911\u0026rid=1883380"
+    },
+    "id": "post-aggregation-for-0-1079911",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-07-29T13:48:03.192583+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eThrowing $1 in the tip jar makes you an official patron of the project.\u003c/li\u003e\n\u003cli\u003eYou\u0027d have our eternal love and gratitude. Oz would probably show you his boobs.\u003c/li\u003e\n\u003cli\u003eAcknowledgment of your patronage will be recognized in an upcoming page of the official website.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-07T01:29:18.741336+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-07T01:29:18.715048+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Official Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1079911\u0026rid=1883210",
+     "user_limit": null
+    },
+    "id": "1883210",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-07-29T15:28:33.962449+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eExclusive access to Oz\u0027s monthly Neverland blog\u003c/li\u003e\u003cli\u003ePatreon exclusive previews and sketches\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-29T15:28:33.962449+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2017-07-29T15:28:33.962449+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Savy Audience Member",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1079911\u0026rid=1883380",
+     "user_limit": null
+    },
+    "id": "1883380",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-07-29T16:08:05.030266+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eMonthly \"post-it\" doodles\u003c/li\u003e\n\u003cli\u003eafter two months at this tier, you\u0027re eligible for a free t-shirt before we make them available in our upcoming merch line\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-07T01:29:36.961845+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-07T01:29:36.942805+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Invested Fan",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1079911\u0026rid=1883434",
+     "user_limit": null
+    },
+    "id": "1883434",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-07-29T16:44:15.990567+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePersonalized exclusive monthly prints featuring some of our favorite scenes and/or characters.\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-29T16:57:46.665563+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-29T16:44:15.990567+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Highly Invested Fan",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1079911\u0026rid=1883514",
+     "user_limit": null
+    },
+    "id": "1883514",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-07-29T16:57:46.674436+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ea print copy of the book once we finally get those going\u003c/li\u003e\u003cli\u003eYou\u0027ll get drawn in as a background character of an upcoming page and we\u0027ll send you a nice print of your Neverland self\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-29T16:57:46.674436+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-29T16:57:46.674436+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Dedicated Connoisseur ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1079911\u0026rid=1883528",
+     "user_limit": null
+    },
+    "id": "1883528",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-07-29T17:17:44.306959+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYou\u0027ll be made a minor character with an actual speaking role in the comic. And of course we\u0027ll send you a gorgeous print of your Neverland self.\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-29T17:17:44.306959+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-29T17:17:44.306959+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "The Real MVP",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1079911\u0026rid=1883555",
+     "user_limit": null
+    },
+    "id": "1883555",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 9,
+     "created_at": "2017-07-29T19:31:10+00:00",
+     "description": "$100 gets us to a good starting point for paying my artist so we can keep delivering the very best content possible.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "917809",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1079911"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "1512cdd7-0393-4434-96aa-88cf38000f92",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Oz Longworth Jr. is creating Comics"
+});
+    </script>

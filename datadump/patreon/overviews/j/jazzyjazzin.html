@@ -1,0 +1,491 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "IJTsPHmrirw197zfXYiDweVn1eYA0AodNu7uBS3Ko2w";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "376196",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/376196"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-11-24T15:30:43+00:00",
+    "creation_name": "f/f fiction",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/623341/02f0c53681e34f80a2a6195cff42ca21?token-time=2145916800\u0026token-hash=cCcFekyQbNeyqR0NGqgXEI9YdLF9sg9G3KmfDYsIFhQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/623341/02f0c53681e34f80a2a6195cff42ca21?token-time=2145916800\u0026token-hash=gae0hQ50FSg9eL1Awb2tl0p4VlWupZthZXkhK3TDjeA%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 17,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=623341",
+    "published_at": "2017-03-02T22:16:41+00:00",
+    "summary": "\u003cdiv style=\"text-align: center;\"\u003eHey, hi, how you doing? My name\u0027s Jasmine, but jaz stuck so everyone calls me that. Anyways if your here you know I write, you know I\u0027m kind of okay at it, and you know I love it. But also you know how important it is that what I write is an accurate representation of what we deserve to see in Media today. \u003cbr\u003e\u003cbr\u003eWe\u0027re severely limited, and although I\u0027m still growing and learning as a writer, I know exactly what I want to see and I\u0027d like to help bring that about. This is a good way to start. I want to communicate with you and see what you want to read, what you want to be represented, and I want to write that for you. That\u0027s what this patreon is for.\u003cbr\u003e\u003cbr\u003eI want to represent my community and feed my family. So if you can help me with both those things, that\u0027s greatly appreciated.\u003c/div\u003e"
+   },
+   "id": "623341",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4486934",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4486934"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "625252",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-623341",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-623341"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2078361",
+       "type": "reward"
+      },
+      {
+       "id": "1084768",
+       "type": "reward"
+      },
+      {
+       "id": "1103231",
+       "type": "reward"
+      },
+      {
+       "id": "1463894",
+       "type": "reward"
+      },
+      {
+       "id": "1103230",
+       "type": "reward"
+      },
+      {
+       "id": "1103229",
+       "type": "reward"
+      },
+      {
+       "id": "1463900",
+       "type": "reward"
+      },
+      {
+       "id": "1661606",
+       "type": "reward"
+      },
+      {
+       "id": "1103228",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-11-24T15:30:06+00:00",
+     "facebook": "https://www.facebook.com/jasminejazzin/",
+     "first_name": "jaz",
+     "full_name": "jaz",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/4486934/f59ed815986f4a52a99cbf3eb993f27c?token-time=2145916800\u0026token-hash=Noj3y0rUTBpyh5H54ln2lNu8J-OA2Y3XL580c7eG38k%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4486934/f59ed815986f4a52a99cbf3eb993f27c?token-time=2145916800\u0026token-hash=TAega1gYcArDtRYrsZbrNYmjueuigyLVvmKQLEYB_Cc%3D",
+     "twitch": null,
+     "twitter": "miselizalycia",
+     "url": "https://www.patreon.com/jazzyjazzin",
+     "vanity": "jazzyjazzin",
+     "youtube": "https://www.youtube.com/channel/UCqGgR5u1W_N4863l-XltLKQ"
+    },
+    "id": "4486934",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "623341",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/623341"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 141,
+     "upgrade_url": "/bePatron?c=623341\u0026rid=2078361"
+    },
+    "id": "post-aggregation-for-0-623341",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-10-16T07:58:33.700600+00:00",
+     "description": "Access to my patron-only feed and get new chapters before they come out and new stories.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-16T16:41:09.786941+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-16T16:41:09.777654+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "early releases",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623341\u0026rid=2078361"
+    },
+    "id": "2078361",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-11-24T15:56:00+00:00",
+     "description": "Includes above rewards and \u003cstrong\u003eaccess to a poll\u003c/strong\u003e that I run after the finish of each stories (or most anyway) where you can \u003cstrong\u003evote \u003c/strong\u003ebetween 3 synopsis\u0027s for which story you\u0027d like me to write next and \u00a0\u003cstrong\u003eaccess to my notes\u003c/strong\u003e for each chapter currently being posted. These can also be requested if you\u0027re interested in that kind of thing.\u00a0\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-16T16:40:20.784010+00:00",
+     "image_url": null,
+     "post_count": 24,
+     "published": true,
+     "published_at": "2018-03-16T16:40:20.773733+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "polls \u0026 notes",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623341\u0026rid=1084768"
+    },
+    "id": "1084768",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-29T08:43:57+00:00",
+     "description": "All above rewards and access to \u003cstrong\u003eexclusive sneak peeks\u003c/strong\u003e to each new chapter (about 1.5k words) before rough drafts and early releases.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-21T10:42:55.588229+00:00",
+     "image_url": null,
+     "post_count": 39,
+     "published": true,
+     "published_at": "2018-02-21T10:42:55.577433+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "I\u0027ll let you peek",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623341\u0026rid=1103231"
+    },
+    "id": "1103231",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-03-04T14:37:45.170992+00:00",
+     "description": "all above rewards and \u003cstrong\u003eget a rough draft\u003c/strong\u003e of each chapter before early release.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-16T16:42:10.578100+00:00",
+     "image_url": null,
+     "post_count": 31,
+     "published": true,
+     "published_at": "2018-03-16T16:42:10.568154+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "a rough start",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623341\u0026rid=1463894"
+    },
+    "id": "1463894",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2016-11-29T08:43:57+00:00",
+     "description": "all above rewards plus \u003cstrong\u003esubmit prompts\u003c/strong\u003e for one-shots and short stories that will be\u003cstrong\u003e patreon exclusive.\u003c/strong\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-16T16:44:04.027778+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-16T16:44:04.017880+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "patreon exclusive prompt fills",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623341\u0026rid=1103230"
+    },
+    "id": "1103230",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-29T08:43:57+00:00",
+     "description": "This includes all the above rewards and \u003cstrong\u003escenes in different POVS\u003c/strong\u003e plus \u003cstrong\u003ealternate ending scenes\u003c/strong\u003e for the current chapter or work of fiction itself. These can also be requested for any of my works.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-21T10:43:53.013914+00:00",
+     "image_url": null,
+     "post_count": 14,
+     "published": true,
+     "published_at": "2018-02-21T10:43:53.007565+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Scenes that add to the story",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623341\u0026rid=1103229"
+    },
+    "id": "1103229",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1300,
+     "amount_cents": 1300,
+     "created_at": "2017-03-04T14:42:46.468509+00:00",
+     "description": "This is my lucky number so not only does this include all the rewards above but you also get \u003cstrong\u003edeleted scenes\u003c/strong\u003e because I have plenty of scenes that don\u0027t make it and plenty of scenes that i\u0027m sure you would like to read. You can also put in a request for a scene that you\u0027d like to see but haven\u0027t.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-21T10:41:44.295068+00:00",
+     "image_url": null,
+     "post_count": 13,
+     "published": true,
+     "published_at": "2018-02-21T10:41:44.288297+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "deleted scenes",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623341\u0026rid=1463900"
+    },
+    "id": "1463900",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1600,
+     "amount_cents": 1600,
+     "created_at": "2017-05-04T03:19:30.076832+00:00",
+     "description": "Send me a\u003cstrong\u003e long-chapter story prompt\u003c/strong\u003e and I will immediately start working on it. You get \u003cstrong\u003eaccess to helping create it\u003c/strong\u003e and shape it. Also you get to choose if this story is patreon exclusive or not.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-16T16:46:35.310601+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-16T16:46:35.303895+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "send me prompts for long-chapter stories",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623341\u0026rid=1661606"
+    },
+    "id": "1661606",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-11-29T08:43:57+00:00",
+     "description": "Most importantly, \u003cstrong\u003eask and you shall receive\u003c/strong\u003e. If you want a chapter earlier, you get a chapter earlier. If you want a say in what happens in the story, you get a say. Name a character, whatever you want my friend. I write the story, but I also write for you. \u003cstrong\u003eI am at your service\u003c/strong\u003e.\u003cbr\u003e\n\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-16T16:45:11.026102+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-16T16:45:11.016136+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "I\u0027m your servant",
+     "unpublished_at": null,
+     "url": "/bePatron?c=623341\u0026rid=1103228"
+    },
+    "id": "1103228",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 89,
+     "created_at": "2016-11-29T08:14:23+00:00",
+     "description": "My first goal is to just get started. Get to know you guys and what you want to read and create content worth not only what you pay me, but your attention and time.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "625252",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/623341"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "6229da5e-a370-4687-a1e9-e3d44b4924d6",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "jaz is creating f/f fiction"
+});
+    </script>

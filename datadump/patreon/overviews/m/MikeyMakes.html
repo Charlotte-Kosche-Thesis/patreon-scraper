@@ -1,0 +1,511 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "DK2cxqlzodTY8x4-RadZ_eYRVnUKYLvnYMWDLNTbbFI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "124689",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/124689"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-01-04T17:47:32+00:00",
+    "creation_name": "An Episodic Journey Through Makerdom",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/260589/6376fbea8b6340f79965fc358d5134a8?token-time=2145916800\u0026token-hash=LeFsKhzczu86KPPyNzQDFuJJbYUlJZ5MyY8j2Xw_Gbk%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/260589/6376fbea8b6340f79965fc358d5134a8?token-time=2145916800\u0026token-hash=XrH-B_6SboIuNa4ZgP9PBofb0j0gbeArfcJOk34HwHY%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxDak34vho_0%26feature%3Dyoutu.be\u0026amp;src=http%3A%2F%2Fwww.youtube.com%2Fembed%2FxDak34vho_0\u0026amp;type=text%2Fhtml\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;schema=youtube\" width=\"854\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://youtu.be/xDak34vho_0",
+    "one_liner": null,
+    "patron_count": 11,
+    "pay_per_name": "Video",
+    "pledge_sum": 4950,
+    "pledge_url": "/bePatron?c=260589",
+    "published_at": "2016-01-09T04:36:23+00:00",
+    "summary": "I\u0027m exploring the world by making things with cool people! Each episode will be centered around a new project and we\u0027ll visit someone with the skills to help make it happen. Think of it as a little \"How its Made\" mixed with \"Dirty Jobs\" and a bit of \"Mr. Roger\u0027s Neighborhood.\"\u003cbr\u003eI\u0027m excited to try all these things and I\u0027m pumped to have you along for the ride!"
+   },
+   "id": "260589",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2626713",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2626713"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "316844",
+       "type": "goal"
+      },
+      {
+       "id": "317551",
+       "type": "goal"
+      },
+      {
+       "id": "317552",
+       "type": "goal"
+      },
+      {
+       "id": "317561",
+       "type": "goal"
+      },
+      {
+       "id": "321362",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-260589",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-260589"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "398829",
+       "type": "reward"
+      },
+      {
+       "id": "398830",
+       "type": "reward"
+      },
+      {
+       "id": "398831",
+       "type": "reward"
+      },
+      {
+       "id": "398832",
+       "type": "reward"
+      },
+      {
+       "id": "399617",
+       "type": "reward"
+      },
+      {
+       "id": "399615",
+       "type": "reward"
+      },
+      {
+       "id": "399616",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "This project came out of a lot of conversations that were titled \"What Am I Supposed To Do?\" Having never found a solid answer I went down the road titled \"Everything.\" The few threads that connect these projects are that they have to be fun, I have to learn something new, and I have be with other people. \u00a0I\u0027m really excited to meet new creators and grow along the way. It sounds super corny but it\u0027s true.",
+     "created": "2015-12-16T20:10:52+00:00",
+     "facebook": null,
+     "first_name": "Michael",
+     "full_name": "Michael Runge",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2626713/e8a295ebebb9400fa9dfde393c061a86?token-time=2145916800\u0026token-hash=BtQXHANUOgWcgDa5aLGXs8fVijjvD_At1_2ebtljOhE%3D",
+     "last_name": "Runge",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2626713/e8a295ebebb9400fa9dfde393c061a86?token-time=2145916800\u0026token-hash=A43qbizYxmQqZZz0n0SSorw7--QqPDORNJ-Iz1jAJEo%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/MikeyMakes",
+     "vanity": "MikeyMakes",
+     "youtube": "https://www.youtube.com/channel/UCnad3jA29qD4uA7OPDOaXig"
+    },
+    "id": "2626713",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "260589",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/260589"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 3,
+     "upgrade_url": "/bePatron?c=260589\u0026rid=398831"
+    },
+    "id": "post-aggregation-for-0-260589",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-01-26T04:03:04+00:00",
+     "description": "$1 per video gets you access to Member only blog material. Including but not limited to: Process photos, extended cut videos, blog content.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-26T04:03:04+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=260589\u0026rid=398829",
+     "user_limit": null
+    },
+    "id": "398829",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-01-26T04:03:04+00:00",
+     "description": "$3 per video gets you access to plans, patterns, and recipes for all the projects done here. \u00a0Since the videos focus more on the creative community than the steps this level will give you all the info you need to do the project at home!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-26T04:03:04+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=260589\u0026rid=398830",
+     "user_limit": null
+    },
+    "id": "398830",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-01-26T04:03:04+00:00",
+     "description": "$5 per video gets you everything above including previewing videos and idea pitching! You will be able to see the videos before they are public and I\u0027ll take suggestions on future projects! Twice a year patrons at this level can suggest a project and I\u0027ll pick one to make for the next month. Cool!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-01-26T04:03:04+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=260589\u0026rid=398831",
+     "user_limit": null
+    },
+    "id": "398831",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-01-26T04:03:04+00:00",
+     "description": "$15 per video gets you everything above and first dibs on buying any of the creations. \u00a0The plan is to sell everything we make but since they are usually one off projects supply is limited. If you like what we made you get the first chance to snatch it up.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-01-26T04:03:04+00:00",
+     "remaining": 18,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=260589\u0026rid=398832",
+     "user_limit": 20
+    },
+    "id": "398832",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-01-26T04:03:04+00:00",
+     "description": "3rd tier sponsors will get a thank you at the end credits.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-26T04:03:04+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=260589\u0026rid=399617",
+     "user_limit": null
+    },
+    "id": "399617",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2016-01-26T04:03:04+00:00",
+     "description": "2nd tier sponsors will get a thank you and their logo at the end credits.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-26T04:03:04+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=260589\u0026rid=399615",
+     "user_limit": null
+    },
+    "id": "399615",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-01-26T04:03:04+00:00",
+     "description": "1st tier sponsors will have a \"Brought to you in part by (Your Logo)\" at the beginning of the video.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-26T04:03:04+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=260589\u0026rid=399616",
+     "user_limit": null
+    },
+    "id": "399616",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 120000,
+     "completed_percentage": 4,
+     "created_at": "2016-01-04T22:09:19+00:00",
+     "description": "I really want to bring together a team of people but I believe in paying artists what they are worth. I\u0027m ok volunteering my time for a while but I don\u0027t want to put that on anyone else. With $1,200 a video I will be able to pay both a videographer and an editor to work with me.",
+     "reached_at": null,
+     "title": "Videographer and Editor"
+    },
+    "id": "316844",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 49,
+     "created_at": "2016-01-05T15:56:43+00:00",
+     "description": "Right now I\u0027m borrowing friends songs but I would like to pay them for letting me use their tunes. I would like to feature different independent music during each of the videos. \u00a0This money will go toward the bands that make the sounds.",
+     "reached_at": "2016-03-10T15:59:15+00:00",
+     "title": "Indie Music Soundtrack"
+    },
+    "id": "317551",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 70000,
+     "completed_percentage": 7,
+     "created_at": "2016-01-05T15:56:43+00:00",
+     "description": "I\u0027m not the best designer. This money would help me freshen up my digital presence. I would hope to work with a friend on a logo and a few basic web things.",
+     "reached_at": null,
+     "title": "Logo and Webstuff"
+    },
+    "id": "317552",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 19,
+     "created_at": "2016-01-05T16:05:50+00:00",
+     "description": "I\u0027m pretty good at making the most of a little but this money would send me to get some used tools and equipment to help me take on bigger projects.",
+     "reached_at": null,
+     "title": "Tools and Equipment"
+    },
+    "id": "317561",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 220000,
+     "completed_percentage": 2,
+     "created_at": "2016-01-10T00:06:06+00:00",
+     "description": "I would like to build and pay a Mikey Makes crew of other animators, builders, and thinkers. Kind of like an A-Team of Makers.",
+     "reached_at": null,
+     "title": "Team Building"
+    },
+    "id": "321362",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/260589"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "9bafdad0-1c52-43f7-923b-c118ee7721b8",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Michael Runge is creating An Episodic Journey Through Makerdom"
+});
+    </script>

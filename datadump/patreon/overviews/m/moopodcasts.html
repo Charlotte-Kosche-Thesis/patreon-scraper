@@ -1,0 +1,407 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "4byyPBtpq7If0EfR0QluFu8B5JsFNWUtksvtQqaJRjY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": "2018-03-21T02:51:29.738422+00:00"
+   },
+   "id": "566425",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/566425"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-07-16T06:14:24+00:00",
+    "creation_name": "Podcasts",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1080033/029dead600fd476c9b368d4b91b5be27?token-time=2145916800\u0026token-hash=o3QzahtVCAEA39IXtC0Lau3b_iMX2x3t7nr4406qKjo%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1080033/029dead600fd476c9b368d4b91b5be27?token-time=2145916800\u0026token-hash=ZqykTN9Ri8oA_IBHI0hDRO-Af1sPNpP5mzAeTThUMq0%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/avTXW1QckRw\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/avTXW1QckRw",
+    "one_liner": null,
+    "patron_count": 13,
+    "pay_per_name": "month",
+    "pledge_sum": 6007,
+    "pledge_url": "/bePatron?c=1080033",
+    "published_at": "2017-09-04T01:35:46+00:00",
+    "summary": "Thank you so much for visiting our Patreon page. We are thrilled to be producing podcasts in our spare time, and we want to continue expanding what we do. We set up a Patreon to help defray costs associated with web domains, storage and equipment, and Brandon\u2019s ridiculous Alaskan Internet fees. \u003cbr\u003e\u003cbr\u003eBy supporting us on Patreon, you\u2019re not just helping with costs - you\u2019re increasing our ability to create additional content. We\u2019ll share some exclusive content with you, and you\u2019ll get a deeper look into our lives outside of hosting shows. \u003cbr\u003e\u003cbr\u003eThanks for checking out our page!\u003cbr\u003e"
+   },
+   "id": "1080033",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4527186",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4527186"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "909958",
+       "type": "goal"
+      },
+      {
+       "id": "909959",
+       "type": "goal"
+      },
+      {
+       "id": "909960",
+       "type": "goal"
+      },
+      {
+       "id": "909961",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1080033",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1080033"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1846986",
+       "type": "reward"
+      },
+      {
+       "id": "1864280",
+       "type": "reward"
+      },
+      {
+       "id": "1864278",
+       "type": "reward"
+      },
+      {
+       "id": "1864279",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-12-01T02:58:37+00:00",
+     "facebook": "https://www.facebook.com/MooPodcast/",
+     "first_name": "Moo",
+     "full_name": "Moo Podcasts",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4527186/829ecfe9a9c649c7829bf3764f320aad?token-time=2145916800\u0026token-hash=f86GsU8Hiqh0zP-drudhOBK8SchKuP33H3lXlRtiKEI%3D",
+     "last_name": "Podcasts",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4527186/829ecfe9a9c649c7829bf3764f320aad?token-time=2145916800\u0026token-hash=hZ5mYF0rYktQKK7ogaSe2bwEFEob_uW8_TK5GULUdPQ%3D",
+     "twitch": null,
+     "twitter": "moopodcast",
+     "url": "https://www.patreon.com/moopodcasts",
+     "vanity": "moopodcasts",
+     "youtube": null
+    },
+    "id": "4527186",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1080033",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1080033"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 8,
+     "upgrade_url": "/bePatron?c=1080033\u0026rid=1864278"
+    },
+    "id": "post-aggregation-for-0-1080033",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-07-16T06:36:52.230297+00:00",
+     "description": "Basic support gets you access to our exclusive podcast feed and a shout out on Twitter!",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-22T05:44:25.433732+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-16T06:36:52.230297+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "One Moo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1080033\u0026rid=1846986",
+     "user_limit": null
+    },
+    "id": "1846986",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-07-22T05:44:25.494636+00:00",
+     "description": "Our second tier of support offers access to our Discord server where you can talk with us and others about our content. We\u0027ll also thank you on our show notes! You also get all One Moo rewards. \u00a0\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": [
+      "343202188346261506"
+     ],
+     "edited_at": "2017-10-05T03:39:59.134967+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-22T05:44:25.494636+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Three Moos",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1080033\u0026rid=1864280",
+     "user_limit": null
+    },
+    "id": "1864280",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-07-22T05:44:25.415054+00:00",
+     "description": "Along with One and Three Moo rewards, you will get \u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003evoting rights for upcoming content and scheduled Discord voice chats.\u003c/li\u003e\n\u003cli\u003e(at least) quarterly outtakes from our podcasts\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "343202188346261506",
+      "342884098659844096"
+     ],
+     "edited_at": "2018-03-19T03:17:50.194502+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-19T03:17:50.169758+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Five Moos",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1080033\u0026rid=1864278",
+     "user_limit": null
+    },
+    "id": "1864278",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-07-22T05:44:25.425042+00:00",
+     "description": "You will receive all previous Moo rewards as well as\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003evoting rights for upcoming content and scheduled Discord voice chats.\u003c/li\u003e\n\u003cli\u003equarterly outtakes from our podcasts\u003c/li\u003e\n\u003cli\u003ea verbal thank you in one of our productions\u003c/li\u003e\n\u003cli\u003eaccess to \u00a0Brandon\u0027s scripts and notes for Moo Point, A Friends Podcast before each show releases.\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "343202188346261506",
+      "342884098659844096"
+     ],
+     "edited_at": "2018-03-19T03:17:16.774923+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-03-19T03:17:16.767441+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Ten Moos",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1080033\u0026rid=1864279",
+     "user_limit": null
+    },
+    "id": "1864279",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 80,
+     "created_at": "2017-07-22T06:20:52+00:00",
+     "description": "Jozi and Brandon will start Moo Counterpoint, quarterly recapping a movie that one likes, and the other dislikes or is terribly unfamiliar with. We\u0027ll rely on our top-tier patrons to vote on which one.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "909958",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 12500,
+     "completed_percentage": 48,
+     "created_at": "2017-07-22T06:20:52+00:00",
+     "description": "We will publish a second, weekly podcast, starting with Season 1 of My Dream Podcast, a podcast about crazy, livid dreams.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "909959",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 17500,
+     "completed_percentage": 34,
+     "created_at": "2017-07-22T06:20:52+00:00",
+     "description": "We will add a biweekly podcast to the rotation. Ideas are already rattling around in our heads.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "909960",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 30,
+     "created_at": "2017-07-22T06:20:52+00:00",
+     "description": "Brandon will begin a Twitch channel, broadcasting at least four hours a week.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "909961",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1080033"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "294cf57d-8dd7-4e00-80f0-68df05312e21",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Moo Podcasts is creating Podcasts"
+});
+    </script>

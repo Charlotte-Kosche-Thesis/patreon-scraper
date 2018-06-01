@@ -1,0 +1,511 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "6UEOTXLL9S12VpqjxgZPIkJNboJ-5EZFN_XFoxV3s_c";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "839643",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/839643"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-03-14T01:59:59+00:00",
+    "creation_name": "Fiction stories, poetry, and scripts",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_sum": 4094,
+    "pledge_url": "/bePatron?c=1609819",
+    "published_at": "2018-03-14T02:43:01+00:00",
+    "summary": "Hello, everyone. First I\u0027d like to say thanks for stopping by my page, and if you\u0027re a member thank you for being my patron! It means so much to me that people want to pay for my work, and enjoy the writing that I have to offer.\u00a0\u003cbr\u003e\u003cbr\u003eNow I\u0027ll be honest with you guys: I need money. That\u0027s probably why everyone is here, right? But I\u0027m trying to find new ways to support myself, my dad, and my dog while we look for a stable place to live. The backstory is long and winded, but suffice it to say we had to move out of the apartment we\u0027d lived in for 7 years and go somewhere else. But we couldn\u0027t exactly find anywhere else yet, so we\u0027re living in hotels. It\u0027s very expensive and hard to manage, but it\u0027s all we have, but even this might fall through in another week or so if something happens.\u00a0\u003cbr\u003eSo basically, I started this page to try and prevent myself from being homeless.\u00a0\u003cbr\u003eBut that\u0027s not the only reason I\u0027ve come to Patreon! I\u0027m also an aspiring writer who doesn\u0027t actually do much writing. I figured this would help give me the boost I need to stop procrastinating so much and actually get to work on all the projects I\u0027ve got going on (currently about 5 novels, 3 series, several poems, and one very important script that I should have been done with last August). If I know that I have people counting on me to put out work, and spending their hard earned money on it, I\u0027ll be less inclined to slack off.\u00a0\u003cbr\u003eSo join me, won\u0027t you, on this journey of fiction and wordplay and, hopefully, money making.\u00a0"
+   },
+   "id": "1609819",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "10227338",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/10227338"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1140576",
+       "type": "goal"
+      },
+      {
+       "id": "1140577",
+       "type": "goal"
+      },
+      {
+       "id": "1140578",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1609819",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1609819"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2445755",
+       "type": "reward"
+      },
+      {
+       "id": "2445760",
+       "type": "reward"
+      },
+      {
+       "id": "2445771",
+       "type": "reward"
+      },
+      {
+       "id": "2445777",
+       "type": "reward"
+      },
+      {
+       "id": "2445787",
+       "type": "reward"
+      },
+      {
+       "id": "2445792",
+       "type": "reward"
+      },
+      {
+       "id": "2445797",
+       "type": "reward"
+      },
+      {
+       "id": "2445806",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-03-14T01:59:39+00:00",
+     "facebook": null,
+     "first_name": "InsaneChayne",
+     "full_name": "InsaneChayne",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/10227338/bc9b7c98095d4547811a6e309b59a619?token-time=2145916800\u0026token-hash=JB-2aebT4oXdm0p9nb1nvwG9unHAhJle4ycPNSsMj-8%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/10227338/bc9b7c98095d4547811a6e309b59a619?token-time=2145916800\u0026token-hash=kdymVA45cZApVvbfH9qHsRlZAwc_Vrp3R-bCL1tUpDA%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/insanechayne",
+     "vanity": "insanechayne",
+     "youtube": null
+    },
+    "id": "10227338",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1609819",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1609819"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 11,
+     "upgrade_url": "/bePatron?c=1609819\u0026rid=2445755"
+    },
+    "id": "post-aggregation-for-0-1609819",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-03-14T02:15:41.253976+00:00",
+     "description": "With this pledge you\u0027ll receive:\n\u003cp\u003e- A bio for one of my original characters each month\u003c/p\u003e\n\u003cp\u003e- One story prompt featuring that character (story prompts have no set length and may be shorter than expected).\u00a0\u003c/p\u003e\n\u003cp\u003e- One very cute picture of my dog, Jessie.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-14T02:34:16.941489+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2018-03-14T02:34:16.932243+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Softcore Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1609819\u0026rid=2445755",
+     "user_limit": null
+    },
+    "id": "2445755",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-03-14T02:17:32.007905+00:00",
+     "description": "With this pledge you\u0027ll receive:\n\u003cp\u003e- A bio of one of my original characters\u003c/p\u003e\n\u003cp\u003e- Three story prompts featuring that character\u003c/p\u003e\n\u003cp\u003e-One very cute picture of my dog\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-14T02:17:32.007905+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-03-14T02:17:32.007905+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Benevolent Backer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1609819\u0026rid=2445760",
+     "user_limit": null
+    },
+    "id": "2445760",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-03-14T02:20:57.838279+00:00",
+     "description": "With this pledge you\u0027ll receive:\n\u003cp\u003e- A bio of one of my original characters\u003c/p\u003e\n\u003cp\u003e- Three story prompts featuring that character\u003c/p\u003e\n\u003cp\u003e- Two special poems\u003c/p\u003e\n\u003cp\u003e-One very cute picture of my dog\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-14T02:20:57.838279+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-03-14T02:20:57.838279+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Curious Connoisseur",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1609819\u0026rid=2445771",
+     "user_limit": null
+    },
+    "id": "2445771",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-03-14T02:22:32.055241+00:00",
+     "description": "With this pledge you\u0027ll receive:\n\u003cp\u003e- A bio of one of my original characters\u003c/p\u003e\n\u003cp\u003e- Three story prompts featuring that character\u003c/p\u003e\n\u003cp\u003e- Two special poems\u003c/p\u003e\n\u003cp\u003e- One excerpt from any of my novels/stories/series\u003c/p\u003e\n\u003cp\u003e-One very cute picture of my dog\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-14T02:22:32.055241+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-14T02:22:32.055241+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Amazing Anchor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1609819\u0026rid=2445777",
+     "user_limit": null
+    },
+    "id": "2445777",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-03-14T02:25:03.429445+00:00",
+     "description": "With this pledge you\u0027ll receive:\n\u003cp\u003e- A bio of one of my original characters\u003c/p\u003e\n\u003cp\u003e- Three story prompts featuring that character\u003c/p\u003e\n\u003cp\u003e- Two special poems\u003c/p\u003e\n\u003cp\u003e- One excerpt from any of my novels/stories/series\u003c/p\u003e\n\u003cp\u003e- One of my novels, one chapter at a time. Each month I\u0027ll send you a brand new chapter of one of the novel\u0027s I\u0027m currently working on, so you\u0027ll get to read it before it\u0027s even published! (Chapters guaranteed to be from the same novel each time until novel is completed or patronage ends)\u003c/p\u003e\n\u003cp\u003e-One very cute picture of my dog\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-14T02:25:03.429445+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-14T02:25:03.429445+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Perfect Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1609819\u0026rid=2445787",
+     "user_limit": null
+    },
+    "id": "2445787",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-03-14T02:26:46.629785+00:00",
+     "description": "With this pledge you\u0027ll receive:\n\u003cp\u003e- A bio of one of my original characters\u003c/p\u003e\n\u003cp\u003e- Three story prompts featuring that character\u003c/p\u003e\n\u003cp\u003e- Two special poems\u003c/p\u003e\n\u003cp\u003e- One excerpt from any of my novels/stories/series\u003c/p\u003e\n\u003cp\u003e- One of my novels, one chapter at a time. Each month I\u0027ll send you a brand new chapter of one of the novel\u0027s I\u0027m currently working on, so you\u0027ll get to read it before it\u0027s even published! (Chapters guaranteed to be from the same novel each time until novel is completed or patronage ends)\u003c/p\u003e\n\u003cp\u003e- Your full name and likeness in one of my projects. Character is guaranteed to be important to the story, even if only for a bit part. And if you don\u0027t want me using you literally, then you can submit a character of your own for me to include instead.\u003c/p\u003e\n\u003cp\u003e-One very cute picture of my dog\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-14T02:26:46.629785+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-14T02:26:46.629785+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fantastic Fanatic",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1609819\u0026rid=2445792",
+     "user_limit": null
+    },
+    "id": "2445792",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-03-14T02:29:16.016692+00:00",
+     "description": "With this pledge you\u0027ll receive:\n\u003cp\u003e- A bio of one of my original characters\u003c/p\u003e\n\u003cp\u003e- Three story prompts featuring that character\u003c/p\u003e\n\u003cp\u003e- Two special poems\u003c/p\u003e\n\u003cp\u003e- One excerpt from any of my novels/stories/series\u003c/p\u003e\n\u003cp\u003e- One of my novels, one chapter at a time. Each month I\u0027ll send you a brand new chapter of one of the novel\u0027s I\u0027m currently working on, so you\u0027ll get to read it before it\u0027s even published! (Chapters guaranteed to be from the same novel each time until novel is completed or patronage ends)\u003c/p\u003e\n\u003cp\u003e- Your full name and likeness in one of my projects. Character is guaranteed to be important to the story, even if only for a bit part. And if you don\u0027t want me using you literally, then you can submit a character of your own for me to include instead.\u003c/p\u003e\n\u003cp\u003e- One of my old fanfiction works for The Walking Dead or The Boondock Saints, sent chapter by chapter, if you\u0027re into that. Alternatively, a story created just for you, based off of any idea and characters you want.\u003c/p\u003e\n\u003cp\u003e-One very cute picture of my dog\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-14T02:29:16.016692+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-14T02:29:16.016692+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Divine Deity",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1609819\u0026rid=2445797",
+     "user_limit": null
+    },
+    "id": "2445797",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2018-03-14T02:33:09.046868+00:00",
+     "description": "With this pledge you\u0027ll receive:\n\u003cp\u003e- A bio of one of my original characters\u003c/p\u003e\n\u003cp\u003e- Three story prompts featuring that character\u003c/p\u003e\n\u003cp\u003e- Two special poems\u003c/p\u003e\n\u003cp\u003e- One excerpt from any of my novels/stories/series\u003c/p\u003e\n\u003cp\u003e- One of my novels, one chapter at a time. Each month I\u0027ll send you a brand new chapter of one of the novel\u0027s I\u0027m currently working on, so you\u0027ll get to read it before it\u0027s even published! (Chapters guaranteed to be from the same novel each time until novel is completed or patronage ends)\u003c/p\u003e\n\u003cp\u003e- Your full name and likeness in one of my projects. Character is guaranteed to be important to the story, even if only for a bit part. And if you don\u0027t want me using you literally, then you can submit a character of your own for me to include instead.\u003c/p\u003e\n\u003cp\u003e- One of my old fanfiction works for The Walking Dead or The Boondock Saints, sent chapter by chapter, if you\u0027re into that. Alternatively, a story created just for you, based off of any idea and characters you want.\u003c/p\u003e\n\u003cp\u003e- Exclusive content from my script, as well as a fully detailed description of this project\u0027s plot and characters. Content may include pieces of dialogue, descriptions of scenery, or full pages of script released directly to you (And if you\u0027re wondering why this one is so much more important, it\u0027s because I won a contest through ScareLA to work with IndieGoGo and DreadCentral to create an original horror movie. I haven\u0027t met with producers yet, which is why this project is so tightly under wraps).\u003c/p\u003e\n\u003cp\u003e-One very cute picture of my dog\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-04T20:48:06.594664+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-04T20:48:06.586981+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Word Warrior",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1609819\u0026rid=2445806",
+     "user_limit": null
+    },
+    "id": "2445806",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 0,
+     "created_at": "2018-03-14T02:38:36+00:00",
+     "description": "My first goal is to save enough money to move into a stable apartment, which will provide me a much more relaxed working space, and will greatly relieve the anxiety and stress I\u0027ve been dealing with during this time. That means more time to work on the content rewards for you, and better content to put out!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1140576",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000000,
+     "completed_percentage": 0,
+     "created_at": "2018-03-14T02:38:36+00:00",
+     "description": "With this goal I\u0027d move forward on a better writing set-up. A new laptop, comfier chair to work in, more tea to help relax me, and more music to let my creativity flow.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1140577",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1500000,
+     "completed_percentage": 0,
+     "created_at": "2018-03-14T02:38:36+00:00",
+     "description": "I don\u0027t know where to go with this one, but it\u0027d be great to make it all the same. I\u0027ll figure something out for it as we go along.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1140578",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1609819"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "0ba1c0f7-4dc1-4d5d-90af-346d9994be23",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "InsaneChayne is creating Fiction stories, poetry, and scripts"
+});
+    </script>

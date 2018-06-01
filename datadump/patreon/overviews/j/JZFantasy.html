@@ -1,0 +1,591 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "puxib_Ot1qYTMfeqRF9NIigTX8TrL0auYd8z3kiFSgA";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "40487",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/40487"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-03-30T01:11:58+00:00",
+    "creation_name": "Fantasy Art, World, and Webcomic",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/160075/0586c5aece624cc6b0dc953c6c806f9f?token-time=2145916800\u0026token-hash=DBOuH6jKvdpjsHVRcTYCTQdfRxpNO9FFEWmEq-6-0L4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/160075/0586c5aece624cc6b0dc953c6c806f9f?token-time=2145916800\u0026token-hash=7fTtkJvvMxhSlmVyUEf9DOTYdNO5s3W-B7_ZLoKQcV4%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "Fantasy and Sci-fi ",
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_sum": 1933,
+    "pledge_url": "/bePatron?c=160075",
+    "published_at": "2015-03-30T02:40:28+00:00",
+    "summary": "I am an artist inspired by fantasy, science fiction, and nature! My art focuses primarily upon realistic illustrations in digital and acrylic mediums. If you are a Dungeons and Dragons fan, then you might recognize where I get a lot of my art style and inspiration from!\u003cbr\u003e\u00a0\u00a0 Illustration is my passion and I would love to be able to make my art as full time, and put out things \nlike livestreams, video walkthroughs, tutorials, art giveaways, and even\n my own graphic novel and more information on the world I have \ncreated. \u003cbr\u003e\u00a0\u00a0 Patreon is a huge way to support my art and goals even if it is only $1, and you can end your patronage whenever you like, even after just one month.\u003cbr\u003e"
+   },
+   "id": "160075",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "659043",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/659043"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "145309",
+       "type": "goal"
+      },
+      {
+       "id": "145310",
+       "type": "goal"
+      },
+      {
+       "id": "145311",
+       "type": "goal"
+      },
+      {
+       "id": "145312",
+       "type": "goal"
+      },
+      {
+       "id": "145313",
+       "type": "goal"
+      },
+      {
+       "id": "145314",
+       "type": "goal"
+      },
+      {
+       "id": "145315",
+       "type": "goal"
+      },
+      {
+       "id": "1052346",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-160075",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-160075"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "188371",
+       "type": "reward"
+      },
+      {
+       "id": "188372",
+       "type": "reward"
+      },
+      {
+       "id": "188373",
+       "type": "reward"
+      },
+      {
+       "id": "188374",
+       "type": "reward"
+      },
+      {
+       "id": "188375",
+       "type": "reward"
+      },
+      {
+       "id": "188376",
+       "type": "reward"
+      },
+      {
+       "id": "188377",
+       "type": "reward"
+      },
+      {
+       "id": "944690",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-03-26T22:30:15+00:00",
+     "facebook": "https://www.facebook.com/jzfantasyart/",
+     "first_name": "Jasmine",
+     "full_name": "Jasmine Zellmer",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/659043/152ba9f7f6f5409386e62ac3fa418955?token-time=2145916800\u0026token-hash=DYIS8oxtvGSLi5gCrwoxZsLBJcR5nEvesfalSxRco00%3D",
+     "last_name": "Zellmer",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/659043/152ba9f7f6f5409386e62ac3fa418955?token-time=2145916800\u0026token-hash=sHAl8eLVvOJGgS9_0KHxHL6tqRf3hB2bEYmmSzy7S4k%3D",
+     "twitch": "",
+     "twitter": "JasmineZellmer",
+     "url": "https://www.patreon.com/JZFantasy",
+     "vanity": "JZFantasy",
+     "youtube": "https://www.youtube.com/user/Decay9"
+    },
+    "id": "659043",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "160075",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/160075"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 11,
+     "upgrade_url": "/bePatron?c=160075\u0026rid=188371"
+    },
+    "id": "post-aggregation-for-0-160075",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-20T18:11:18+00:00",
+     "description": "If you pledge this you will have the following benefits:\u003cbr\u003e\n\u003cstrong\u003e-Access\u003c/strong\u003e to my Patreon chat and be able to suggest tutorials and other artwork themes when I ask!\u003cbr\u003e\n\u003cstrong\u003e-Be entered\u003c/strong\u003e with the other $1-4 pledges into a raffle with a chance to win a free bust sketch each month!\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-18T03:53:14.275170+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-12-18T03:53:14.245910+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Onyx Aprentice",
+     "unpublished_at": null,
+     "url": "/bePatron?c=160075\u0026rid=188371",
+     "user_limit": null
+    },
+    "id": "188371",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-20T18:11:18+00:00",
+     "description": "If you pledge this you will have the following benefits:\u003cbr\u003e\n\u003cstrong\u003e-Be entered\u003c/strong\u003e with the $5-19 pledges into a raffle with a chance to win a free full body (Or bust if you wish) sketch each month!\u003cbr\u003e\n\u003cstrong\u003e-All previous tier rewards excluding raffles\u003c/strong\u003e\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-18T03:54:29.727991+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-18T03:54:29.703647+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Zircon Initiate",
+     "unpublished_at": null,
+     "url": "/bePatron?c=160075\u0026rid=188372",
+     "user_limit": null
+    },
+    "id": "188372",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-20T18:11:18+00:00",
+     "description": "If you pledge this you will have the following benefits:\u003cbr\u003e\n\u003cstrong\u003e-Be able\u003c/strong\u003e to tell me to do a specific type of tutorial (IE: clouds, skin, metal, forest, etc.) and I will! If there are enough suggestions, I will do them in chronological order from when they are suggested.\u003cbr\u003e\n\u003cstrong\u003e-A free 4x6 art print\u003c/strong\u003e sent to you each month! (The print will be a different one predetermined by me each month, usually of a newer piece, and the same for all pledges)\n\u003cp\u003e\u00a0\u003cstrong\u003e-Be entered\u003c/strong\u003e with the $5-19 pledges into a raffle with a chance to win a free full body (Or bust if you wish) sketch each month!\u003c/p\u003e\n\u003cp\u003e\u00a0\u003cstrong\u003e-All previous tier rewards excluding the $1-4 raffle.\u003c/strong\u003e\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-18T03:56:05.890142+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-18T03:56:05.865744+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Garnet Warrior",
+     "unpublished_at": null,
+     "url": "/bePatron?c=160075\u0026rid=188373",
+     "user_limit": null
+    },
+    "id": "188373",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-10-20T18:11:18+00:00",
+     "description": "If you pledge this you will have the following benefits:\u003cbr\u003e\n\u003cstrong\u003e-Be entered\u003c/strong\u003e with the $20-49 pledges into a raffle with a chance to win a free digital bust illustration with simple (or transparent) background each month!\u003cbr\u003e\n\u003cstrong\u003e-All previous tier rewards excluding raffles\u003c/strong\u003e\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-11T20:51:56.917829+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-11T20:51:56.886563+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Amethyst Commander",
+     "unpublished_at": null,
+     "url": "/bePatron?c=160075\u0026rid=188374",
+     "user_limit": null
+    },
+    "id": "188374",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-10-20T18:11:18+00:00",
+     "description": "If you pledge this you will have the following benefits:\u003cbr\u003e\n\u003cstrong\u003e-An original character (Or yourself) \u003c/strong\u003ecameo within my graphic novel when it is released, and you will be mentioned within description text. The character must not be a fan-character from a franchise. (This will be a background character such as in a tavern or crowded city. Depending upon the current story arc it may take a little while for this character to show up, and I will have them dressed in fantasy appropriate clothing/drawn in the comics style.)\u003cbr\u003e\n\u003cstrong\u003e-Be entered\u003c/strong\u003e with the $20-49 pledges into a raffle with a \u00a0chance to win a free digital bust illustration with simple (or \u00a0transparent) background each month!\u003cbr\u003e\n\u003cstrong\u003e-2 free 4x6 art prints\u003c/strong\u003e sent to you each month! (The prints will be different ones predetermined by me each month, usually of newer pieces, and the same for all pledges)\n\u003cp\u003e\u00a0\u003cstrong\u003e-All\u003c/strong\u003e \u003cstrong\u003eprevious\u003c/strong\u003e \u003cstrong\u003etier\u003c/strong\u003e \u003cstrong\u003erewards\u003c/strong\u003e \u003cstrong\u003eexcluding\u003c/strong\u003e \u003cstrong\u003eraffles\u003c/strong\u003e and art prizes (Those are replaced by the above art prizes!)\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-18T03:59:26.673889+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-18T03:59:26.656422+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Emerald General",
+     "unpublished_at": null,
+     "url": "/bePatron?c=160075\u0026rid=188375",
+     "user_limit": null
+    },
+    "id": "188375",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-10-20T18:11:18+00:00",
+     "description": "If you pledge this you will have the following benefits:\u003cbr\u003e\n\u003cstrong\u003e-A free \u003c/strong\u003e\u00a0digital bust illustration with simple (or \u00a0transparent) background each month! \u003cbr\u003e\n\u003cstrong\u003e-3 free 4x6 art prints\u003c/strong\u003e sent to you each month! (The prints will be different ones predetermined by me each month, usually of newer pieces, and the same for all pledges)\n\u003cp\u003e\u00a0\u003cstrong\u003e-All previous tier rewards excluding raffles\u003c/strong\u003e and art prizes (Those are replaced by the above art prizes!)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-18T04:15:59.601216+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-18T04:15:59.576869+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Sapphire Dragonkeeper",
+     "unpublished_at": null,
+     "url": "/bePatron?c=160075\u0026rid=188376",
+     "user_limit": 5
+    },
+    "id": "188376",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-20T18:11:18+00:00",
+     "description": "\u00a0If you pledge this you will have the following benefits:\u00a0\n\u003cp\u003e\u003cstrong\u003e-A free \u003c/strong\u003eFull body digital illustration with a simple background each month.\u003cbr\u003e\n\u003cstrong\u003e-3 free 4x6 art prints\u003c/strong\u003e sent to you each month! (The prints will be different ones predetermined by me each month, usually of newer pieces, and the same for all pledges)\u003cbr\u003e\n\u003cstrong\u003e-All\u003c/strong\u003e \u003cstrong\u003eprevious\u003c/strong\u003e \u003cstrong\u003etier\u003c/strong\u003e \u003cstrong\u003erewards\u003c/strong\u003e \u003cstrong\u003eexcluding\u003c/strong\u003e \u003cstrong\u003eraffles\u003c/strong\u003e and art prizes (Those are replaced by the above art prizes!)\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-18T04:00:50.145641+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-18T04:00:50.121200+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Ruby Warlord",
+     "unpublished_at": null,
+     "url": "/bePatron?c=160075\u0026rid=188377",
+     "user_limit": 5
+    },
+    "id": "188377",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2016-10-20T18:11:18+00:00",
+     "description": "If you pledge this you will have the following benefits:\u003cbr\u003e\n\u003cstrong\u003e-A free \u003c/strong\u003eFull body digital illustration with a detailed background each month, which may include up to 3 smaller characters (dogs, cats, etc.).\n\u003cp\u003e\u00a0\u003cstrong\u003e-All\u003c/strong\u003e \u003cstrong\u003eprevious\u003c/strong\u003e \u003cstrong\u003etier\u003c/strong\u003e \u003cstrong\u003erewards\u003c/strong\u003e \u003cstrong\u003eexcluding\u003c/strong\u003e \u003cstrong\u003eraffles\u003c/strong\u003e and art prizes (Those are replaced by the above art prizes!)\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-18T04:07:10.714028+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-18T04:07:10.688879+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Diamond Sovereign",
+     "unpublished_at": null,
+     "url": "/bePatron?c=160075\u0026rid=944690",
+     "user_limit": 5
+    },
+    "id": "944690",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 38,
+     "created_at": "2015-03-30T01:58:33+00:00",
+     "description": "If I reach this goal, I\u0027ll put out a new coloring page each month! This wont be patron exclusive either, so if you help me reach this goal, you\u0027ll be getting freebies for everyone!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "145309",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 19,
+     "created_at": "2015-03-30T01:58:33+00:00",
+     "description": "At this goal I\u0027ll be able to invest time into making art tutorials and videos!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "145310",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 9,
+     "created_at": "2015-03-30T01:58:33+00:00",
+     "description": "Once I make this much, I will start creating my graphic novel and put out 1 page per month.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "145311",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 6,
+     "created_at": "2015-03-30T01:58:33+00:00",
+     "description": "I will be able to put out walkthrough\u0027s and video processes guaranteed each month, and put out 2 free coloring pages instead of 1.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "145312",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 3,
+     "created_at": "2015-03-30T01:58:33+00:00",
+     "description": "If I get this much per month I will put out 2 graphic novel pages per month, instead of 1.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "145313",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 75000,
+     "completed_percentage": 2,
+     "created_at": "2015-03-30T01:58:33+00:00",
+     "description": "If I reach this goal I will be able to upgrade a lot of my drawing equipment, and also be able to do more traditional art such as canvas as well as wood paintings and feather paintings, a lot of which I will be selling!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "145314",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 1,
+     "created_at": "2015-03-30T01:58:33+00:00",
+     "description": "Wow if I reach this much I will not only be able to go to a lot more conventions such as Emerald City Comicon and have my artwork in the art show, but I will also be able to begin the process of self-publishing my graphic novel, as well as perhaps some art books, and fund other fun projects as well!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "145315",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 140000,
+     "completed_percentage": 1,
+     "created_at": "2017-12-18T04:27:01+00:00",
+     "description": "I would be able to make Art my full time job! If I could work 8 hours a day on only artwork instead of my current job, I could produce more videos, attend more events, take on more commissions and projects, and give out more freebies! I may even be able to produce a graphic novel page weekly.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1052346",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/160075"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "1f917106-4b38-475c-a2ec-89e56ac03569",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Jasmine Zellmer is creating Fantasy Art, World, and Webcomic"
+});
+    </script>

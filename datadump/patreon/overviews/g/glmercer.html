@@ -1,0 +1,433 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "5WVRo5ObKFuZAFAx9TPxeysXGpXifX-sRiNu87aJDWk";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "694535",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/694535"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-01-01T22:59:52+00:00",
+    "creation_name": "Endless Reams of Words",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1433086/bca9af02d3c141439b04bd9b74523088?token-time=2145916800\u0026token-hash=sRli5RYqkgtj2JczsGUay9o3jecMZOvKiwQrc4528IY%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1433086/bca9af02d3c141439b04bd9b74523088?token-time=2145916800\u0026token-hash=OBLV5Zj42ozepnAoAQ8B1u9Sw0jwe9o9z0I6mQhMaFw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/6n1eYVAEMec\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://youtu.be/6n1eYVAEMec",
+    "one_liner": null,
+    "patron_count": 5,
+    "pay_per_name": "month",
+    "pledge_sum": 2213,
+    "pledge_url": "/bePatron?c=1433086",
+    "published_at": "2018-01-02T17:41:36+00:00",
+    "summary": "hi! i\u0027m G. L. Mercer, a writer and developer based in the Piedmont Triad. it\u0027s very nice to meet you.\u003cbr\u003e\u003cbr\u003emy past work includes\u00a0\u003ca href=\"http://bracketpodcast.com\"\u003e[BRACKET!]\u003c/a\u003e,\u00a0\u003ca href=\"http://soundwavcast.com\"\u003eSound.wav\u003c/a\u003e,\u00a0\u003ca href=\"https://aceofwands.itch.io/witches-suite-vr\"\u003eWitches Suite VR\u003c/a\u003e and lots more! i have dabbled in pretty much every thing you can do online, and am beginning really cool projects just now.\u003cbr\u003e\u003cbr\u003ei\u0027m also broke as the dickens! but i\u0027m scrappy and creative and willing to make things in exchange for support! check out all the cool stuff I have going and see if you\u0027re interested!"
+   },
+   "id": "1433086",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9086670",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9086670"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1064281",
+       "type": "goal"
+      },
+      {
+       "id": "1064282",
+       "type": "goal"
+      },
+      {
+       "id": "1064283",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2250050",
+       "type": "reward"
+      },
+      {
+       "id": "2250203",
+       "type": "reward"
+      },
+      {
+       "id": "2250205",
+       "type": "reward"
+      },
+      {
+       "id": "2250218",
+       "type": "reward"
+      },
+      {
+       "id": "2250232",
+       "type": "reward"
+      },
+      {
+       "id": "2250261",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-01-01T22:58:48+00:00",
+     "facebook": null,
+     "first_name": "G.",
+     "full_name": "G. L. Mercer",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/9086670/011c5db2965b41ffa9ef812bf5ec7829?token-time=2145916800\u0026token-hash=FFyvB_CAqXtrMCA0EUY3PkQ0rMfOzeVMHi5zw2kpFFc%3D",
+     "last_name": "L. Mercer",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9086670/011c5db2965b41ffa9ef812bf5ec7829?token-time=2145916800\u0026token-hash=hfJhJ4XgIO5xc8ch8YbkrEJmMvEGjW1tZlnTNoaE8OQ%3D",
+     "twitch": null,
+     "twitter": "greglmercer",
+     "url": "https://www.patreon.com/glmercer",
+     "vanity": "glmercer",
+     "youtube": null
+    },
+    "id": "9086670",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1433086",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1433086"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-01-01T23:10:03.136631+00:00",
+     "description": "You\u0027re so lovely. Dollar patronage helps so much, and gets me further than you\u0027d think. If everyone who enjoyed my work pitched in a dollar per month, I\u0027d be able to support my work indefinitely. Thank you.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-02T00:25:33.035870+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-02T00:25:33.009716+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Friends of the Library",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1433086\u0026rid=2250050",
+     "user_limit": null
+    },
+    "id": "2250050",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-01-02T00:12:02.058733+00:00",
+     "description": "This is a monthly newsletter collecting my week\u0027s work, but also exclusive ruminations and curated collections of things you\u0027ll enjoy, if you enjoy my work.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-02T00:31:18.061554+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-02T00:31:18.032058+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Newsletter: OUR BROADCAST DAY",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1433086\u0026rid=2250203",
+     "user_limit": null
+    },
+    "id": "2250203",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-02T00:12:23.549656+00:00",
+     "description": "In addition to the newsletter OUR BROADCAST DAY, every month I will write you a one-page screenplay. You will be able to select the MPAA Rating (G through XXX) and character names, but the subject matter will be of my own choosing. (Repeat patrons will be able to select a sequel to the previous month\u0027s screenplay, or original material each month. I reserve the right to post any created works publicly, unless there\u0027s a good reason not to.)",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-02T00:31:02.797727+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-02T00:31:02.747690+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The G. L. Mercer Subscription Service",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1433086\u0026rid=2250205",
+     "user_limit": null
+    },
+    "id": "2250205",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-01-02T00:17:30.755211+00:00",
+     "description": "In addition to OUR BROADCAST DAY and a one-page screenplay each month, you will have the opportunity, once a month, to have me check out something you like. Transformers? Maker Culture? Civil War Documentaries? Wedding Planning? Pens? Shoes? Give me an introduction point and I\u0027ll check it out at some point during the month; at the end of the month we\u0027ll meet up and I\u0027ll tell you what is cool and what sucks about the thing you like.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-02T00:33:24.307344+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-02T00:33:24.277915+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "I Check Out That Thing You Like",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1433086\u0026rid=2250218",
+     "user_limit": null
+    },
+    "id": "2250218",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2018-01-02T00:22:39.601520+00:00",
+     "description": "For $250 a month I will write you 1000 words on any topic of your choice every month, or a twenty-five page screenplay on the topic of your choice every month.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-02T00:22:39.601520+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-02T00:22:39.601520+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Employer of Freelance Journalist/Writer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1433086\u0026rid=2250232",
+     "user_limit": 10
+    },
+    "id": "2250232",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 250000,
+     "amount_cents": 250000,
+     "created_at": "2018-01-02T00:35:34.852389+00:00",
+     "description": "If you are willing to pay $2500 per month I am your employee now and will work a regular eight-hour workweek at almost any task you set me at.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-02T00:35:34.852389+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-02T00:35:34.852389+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Producer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1433086\u0026rid=2250261",
+     "user_limit": 1
+    },
+    "id": "2250261",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 8,
+     "created_at": "2018-01-02T00:41:12+00:00",
+     "description": "I make more than the Bracket podcast and will rub it in their faces.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1064281",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 22,
+     "created_at": "2018-01-02T00:41:12+00:00",
+     "description": "I will, finally, release \"HOW TO MAKE A PODCAST FOR FREE OR CHEAP\" to patrons and publicly one week later.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1064282",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 7,
+     "created_at": "2018-01-02T00:41:12+00:00",
+     "description": "I will make a retrospective on my game/software WITCHES SUITE VR and give a basic rundown of how it was made, so you can make your own VR games.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1064283",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1433086"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ab6b5220-7ec0-418a-a762-e9a65a45bc4b",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "G. L. Mercer is creating Endless Reams of Words"
+});
+    </script>

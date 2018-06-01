@@ -1,0 +1,511 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Gziu3VlofyCnKeu-e-2ftih8rewuL7kFO0blhnJxt4k";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "524026",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/524026"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-07-25T15:17:27+00:00",
+    "creation_name": "an entertainment network of podcasts, written work, and video!",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1114087/e38915b16d6c4e1092816b9d77d70bce?token-time=2145916800\u0026token-hash=aHm93oLvVyLreBYBTtljicbAmKqa4GUGWv3OgPgOqE8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1114087/e38915b16d6c4e1092816b9d77d70bce?token-time=2145916800\u0026token-hash=mdGX3LqRTVhf85PwWs47E9oq8UjRSVJsZM92jhZaWzg%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": "https://1drv.ms/v/s!AlgxgGubR7w1gY406Ex9IZEO50T5fg",
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_sum": 4652,
+    "pledge_url": "/bePatron?c=1114087",
+    "published_at": "2017-07-25T18:16:40+00:00",
+    "summary": "It\u0027s All Been Done Presents launched in the summer of 2016 as an extension of our live show and podcast, It\u0027s All Been Done Radio Hour. Since then, we have added a number of additional podcasts, written work series, videos, and more for our fans!\u003cbr\u003e\u003cbr\u003eWe very much appreciate all of the support we\u0027ve gotten, and now we\u0027re trying to take things to the next level! Our initial goals will be to pay back debt, raise money for advertising, and to purchase new equipment for additional content! Down the line, we hope to pay people to create stuff, too.\u003cbr\u003e"
+   },
+   "id": "1114087",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "276406",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/276406"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "913537",
+       "type": "goal"
+      },
+      {
+       "id": "913538",
+       "type": "goal"
+      },
+      {
+       "id": "913539",
+       "type": "goal"
+      },
+      {
+       "id": "913540",
+       "type": "goal"
+      },
+      {
+       "id": "913541",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1114087",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1114087"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1872963",
+       "type": "reward"
+      },
+      {
+       "id": "1872966",
+       "type": "reward"
+      },
+      {
+       "id": "1872962",
+       "type": "reward"
+      },
+      {
+       "id": "1872961",
+       "type": "reward"
+      },
+      {
+       "id": "1872965",
+       "type": "reward"
+      },
+      {
+       "id": "1872964",
+       "type": "reward"
+      },
+      {
+       "id": "1872960",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2014-08-23T00:08:18+00:00",
+     "facebook": "https://www.facebook.com/iabdpresents",
+     "first_name": "It\u0027s",
+     "full_name": "It\u0027s All Been Done Presents",
+     "gender": 1,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/276406/5c114aa36b9f45c39db823f3fb7a588b?token-time=2145916800\u0026token-hash=-OqxnxKlHd4QnxAOgJJ9ZJGMgKQzGl9DZuSGNxUVwq8%3D",
+     "last_name": "All Been Done Presents",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/276406/5c114aa36b9f45c39db823f3fb7a588b?token-time=2145916800\u0026token-hash=5ciMtzwi7SRHJ7DKnSJrFBij8uQQX6HWwptaJ_-o-Pg%3D",
+     "twitch": null,
+     "twitter": "IABDPresents",
+     "url": "https://www.patreon.com/IABD",
+     "vanity": "IABD",
+     "youtube": "https://www.youtube.com/channel/UCcMUyCtMGEA8y0Gf5r9pt6Q"
+    },
+    "id": "276406",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1114087",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1114087"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 47,
+     "upgrade_url": "/bePatron?c=1114087\u0026rid=1872966"
+    },
+    "id": "post-aggregation-for-0-1114087",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-07-25T15:58:52.539102+00:00",
+     "description": "A very warm place in our hearts, and our never-ending gratitude.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-25T15:58:52.539102+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-25T15:58:52.539102+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Thank you!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1114087\u0026rid=1872963",
+     "user_limit": null
+    },
+    "id": "1872963",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-07-25T15:58:52.533254+00:00",
+     "description": "Your name will be listed on the \u0027thank you\u0027 page of our website. You will get the name and episode description of one of our It\u0027s All Been Done Radio Hour segments before the live show each month! You\u0027ll also have access to select paid content for free, as well as sneak peeks and donor exclusives! \u00a0\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-26T14:56:19.334439+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 18,
+     "published": true,
+     "published_at": "2018-05-26T14:56:19.326873+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patron Level",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1114087\u0026rid=1872966",
+     "user_limit": null
+    },
+    "id": "1872966",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-07-25T15:58:52.378377+00:00",
+     "description": "All of the above plus your name will be listed in the printed program for It\u0027s All Been Done Radio Hour. Most importantly, you\u0027ll be able to download raw audio from It\u0027s All Been Done Radio Hour within two weeks of any live show, long before it is edited and hits the podcast feed.",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-26T14:56:32.811507+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 25,
+     "published": true,
+     "published_at": "2018-05-26T14:56:32.802014+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Super Patron Level",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1114087\u0026rid=1872962",
+     "user_limit": null
+    },
+    "id": "1872962",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-07-25T15:58:52.382668+00:00",
+     "description": "All of the above plus:\u003cbr\u003e\n-A video thank you message from the cast of It\u0027s All Been Done Radio Hour OR a shout-out in an upcoming episode of Nikki Tells You How to Live Your Life (your choice)\u003cbr\u003e\n-An It\u0027s All Been Done Presents T-Shirt (after 6 months of donations)\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-16T18:03:51.743006+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-16T18:03:51.733224+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Super Duper Patron Level",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1114087\u0026rid=1872961",
+     "user_limit": null
+    },
+    "id": "1872961",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-07-25T15:58:52.552523+00:00",
+     "description": "All of the above EXCEPT the t-shirt is sent right away. Plus all of the segments being performed in It\u0027s All Been Done Radio Hour will be revealed to you prior to the show each month (but you have to promise not tell anyone) AND a personal voicemail from a Radio Hour character of your choice (limited only by cast availability) or Nikki Smith.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-16T18:06:42.147810+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-04-16T18:06:42.138101+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Blow Us Away Level",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1114087\u0026rid=1872965",
+     "user_limit": null
+    },
+    "id": "1872965",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-07-25T15:58:52.539745+00:00",
+     "description": "All of the above AND you get to name a Radio Hour character (no slurs or hate speech). You\u0027ll also get a public video message of thank you on our YouTube channel, including funny voices, and thanked publicly in any series you like on the network.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-16T18:07:52.243649+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-16T18:07:52.234051+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "OMG Level",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1114087\u0026rid=1872964",
+     "user_limit": null
+    },
+    "id": "1872964",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2017-07-25T15:58:52.376262+00:00",
+     "description": "All of the above AND after one year of pledges, we will fly you and a guest to Columbus for It\u0027s All Been Done Radio Hour show, flight, hotel, tickets, and transportation costs paid for by us.\u00a0 Some of us will also take you out to dinner.\u00a0 (This reward is for U.S. residents of the lower 48 only, must be at least 18 years old)\u003cbr\u003e\n-(If you already live in or near Columbus, you will be eligible for dinner and a hotel stay on us after 6 months instead of the reward above)\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-16T18:08:24.016684+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-16T18:08:24.006325+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Thank you, Mr. Gates",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1114087\u0026rid=1872960",
+     "user_limit": 5
+    },
+    "id": "1872960",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 9,
+     "created_at": "2017-07-25T16:15:45+00:00",
+     "description": "We\u0027ll be able to do some light advertising, and will pledge at least three exclusive videos per year for donors.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "913537",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 2,
+     "created_at": "2017-07-25T16:15:45+00:00",
+     "description": "We\u0027ll be able to work on a true marketing campaign, and will pledge at least five exclusive videos per year for donors.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "913538",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 0,
+     "created_at": "2017-07-25T16:15:45+00:00",
+     "description": "Our marketing reach will be greater than ever, we\u0027ll be able to quickly retire our debt, and we\u0027ll deliver at least eight exclusive videos per year, and an exclusive special episode of each of our podcasts.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "913539",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 900000,
+     "completed_percentage": 0,
+     "created_at": "2017-07-25T16:15:45+00:00",
+     "description": "Jerome will quit his job and work for the network full-time, providing more content, including at least one novel per year. We\u0027ll also produce a be able to pay others part-time. We\u0027ll produce at least eleven videos a year for donors only, and multiple exclusive special episodes of each of our podcasts and video series.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "913540",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2000000,
+     "completed_percentage": 0,
+     "created_at": "2017-07-25T16:15:45+00:00",
+     "description": "We will have at least 3 full-time staff members and so much great stuff, I can\u0027t even think this far ahead and imagine it all! If we hit this goal, I will work on a whole new set of perks and goals. Oh, and we\u0027ll also a create a donor-only login website with tons of our paid stuff offered FREE to subscribers.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "913541",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1114087"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ab839489-7c09-452a-930b-276cf40ec631",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "It\u0027s All Been Done Presents is creating an entertainment network of podcasts, written work, and video!"
+});
+    </script>

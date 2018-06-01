@@ -1,0 +1,975 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "tcjkTc_vPM4W0pj3lcErjHT69ujThdMSYfChuxb11S8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "293386",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/293386"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-10-26T22:24:05+00:00",
+    "creation_name": "webcomics, art, and education resources",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/583815/07a432cf895746718e3c2c7107ec9ce7?token-time=2145916800\u0026token-hash=sNuJIllFn1fUT6XT81ZZb7YZyBQnJzmn2pYGVKDCL4I%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/583815/07a432cf895746718e3c2c7107ec9ce7?token-time=2145916800\u0026token-hash=RfRGCLUVggWOifDGvaXq1aomUTzkhJhpd025AWevORQ%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "Plutonian Picture",
+    "pledge_sum": 3600,
+    "pledge_url": "/bePatron?c=583815",
+    "published_at": "2016-11-03T17:10:42+00:00",
+    "summary": "\u13a3\u13cf\u13f2\u13d3\u13c6\u13d9\u13a0\u13a0\u13b5\u13ae\u13b5\u13cd\u13d7\u003cbr\u003eOsiyo, daquadoa hia Alihelisdi.\u003cbr\u003eHello, my name is Alihelisdi. However, you can call me Uli! \u003cbr\u003e\u003cbr\u003eI am a chronically ill, pansexual,\u00a0 nonbinary person of color. To help raise funds for food, items to help with my dysphoria, medical expenses, and other basic necessities, I\u0027ve decided to open up this Patreon!\u003cbr\u003e\u003cbr\u003e Many of you may know me from my tumblr blog, mamapluto.tumblr.com. (Though I also have a redbubble account at: \u003ca href=\"https://www.redbubble.com/people/MamaPluto/shop)\" rel=\"nofollow\"\u003ehttps://www.redbubble.com/people/MamaPluto/shop)\u003c/a\u003e There I post my art, activism, and occasional writing. I seem to be best known for my intersectional feminism, especially as it relates to Native American/Indigenous/First Nations/Aboriginal issues and causes. However, I am also an artist! My current specialty is ink, whether it be pen, gel pen, brushed ink, or even using ink I\u0027ve made myself! However, I also am known for charcoal, pencil, watercolor, acrylic painting, and most recently, oil painting! Hopefully with the addition of Patreon I\u0027ll be able to branch out even more!\u003cbr\u003e\u003cbr\u003eIn addition to all patron reward tiers, all patrons will receive EXCLUSIVE early access to all of my high resolution art, EXCLUSIVE flash sales, STEEPLY discounted commissions, and first access to all divination slots!\u003cbr\u003e \u003cbr\u003eI am absolutely looking forward to working with all of you, and maybe even being able to commit to art full time! In fact, if even just a quarter of my current tumblr followers would pledge $1 (with me posting at least 3 times a month), I would be able to do just that!\u003cbr\u003e\u003cbr\u003eThank you so, SO much for looking, and I hope that this can be an overwhelmingly positive experience for all of us!\u003cbr\u003e\u003cbr\u003e\u13e9\u13d9\u003cbr\u003e\u003cbr\u003eWado!\u003cbr\u003e\u003cbr\u003e\u13a0\u13b5\u13ae\u13b5\u13cd\u13d7\u003cbr\u003eAlihelisdi\u003cbr\u003eemail: luckylokilight@gmail.com\u003cbr\u003etumblr: mamapluto.tumblr.com\u003cbr\u003eredbubble: \u003ca href=\"https://www.redbubble.com/people/MamaPluto/shop%29\" rel=\"nofollow\"\u003ehttps://www.redbubble.com/people/MamaPluto/shop\u003cbr\u003e\u003c/a\u003eNEW! Tapastic for webcomic viewing: https://tapas.io/MamaPluto\u003cbr\u003e"
+   },
+   "id": "583815",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4309757",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4309757"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "601012",
+       "type": "goal"
+      },
+      {
+       "id": "601015",
+       "type": "goal"
+      },
+      {
+       "id": "922607",
+       "type": "goal"
+      },
+      {
+       "id": "922608",
+       "type": "goal"
+      },
+      {
+       "id": "922616",
+       "type": "goal"
+      },
+      {
+       "id": "922617",
+       "type": "goal"
+      },
+      {
+       "id": "922618",
+       "type": "goal"
+      },
+      {
+       "id": "922619",
+       "type": "goal"
+      },
+      {
+       "id": "922620",
+       "type": "goal"
+      },
+      {
+       "id": "922621",
+       "type": "goal"
+      },
+      {
+       "id": "922622",
+       "type": "goal"
+      },
+      {
+       "id": "922623",
+       "type": "goal"
+      },
+      {
+       "id": "922624",
+       "type": "goal"
+      },
+      {
+       "id": "922625",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-583815",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-583815"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "969654",
+       "type": "reward"
+      },
+      {
+       "id": "969655",
+       "type": "reward"
+      },
+      {
+       "id": "969656",
+       "type": "reward"
+      },
+      {
+       "id": "1000579",
+       "type": "reward"
+      },
+      {
+       "id": "969657",
+       "type": "reward"
+      },
+      {
+       "id": "969659",
+       "type": "reward"
+      },
+      {
+       "id": "1000586",
+       "type": "reward"
+      },
+      {
+       "id": "1000585",
+       "type": "reward"
+      },
+      {
+       "id": "1000611",
+       "type": "reward"
+      },
+      {
+       "id": "969658",
+       "type": "reward"
+      },
+      {
+       "id": "1000584",
+       "type": "reward"
+      },
+      {
+       "id": "1000610",
+       "type": "reward"
+      },
+      {
+       "id": "1000583",
+       "type": "reward"
+      },
+      {
+       "id": "1000609",
+       "type": "reward"
+      },
+      {
+       "id": "1000613",
+       "type": "reward"
+      },
+      {
+       "id": "1000608",
+       "type": "reward"
+      },
+      {
+       "id": "1000607",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Uli is a chronically ill, pansexual, nonbinary person of color, and intersectional feminist (with a focus on Native American, Indigenous, First Nations, and Aboriginal rights). Currently homeless and in need of support!\u003cbr\u003e",
+     "created": "2016-10-26T22:22:12+00:00",
+     "facebook": null,
+     "first_name": "Uli",
+     "full_name": "Uli Kimball",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4309757/5d0d498d9e984bcba9731bb872dde0ca?token-time=2145916800\u0026token-hash=ckzwlv0gnmqEjPBeR3O0xO5viXuPOEWxGODw3NR0i5Q%3D",
+     "last_name": "Kimball",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4309757/5d0d498d9e984bcba9731bb872dde0ca?token-time=2145916800\u0026token-hash=xxiYm11qjdniXpHaxPO_3lUpl3HiOFacyk-JiKE_NIE%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/MamaPluto",
+     "vanity": "MamaPluto",
+     "youtube": null
+    },
+    "id": "4309757",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "583815",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/583815"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 72,
+     "upgrade_url": "/bePatron?c=583815\u0026rid=969656"
+    },
+    "id": "post-aggregation-for-0-583815",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "You\u0027re officially a patron and will receive one very thankful virtual hug. Also, you\u0027ll have access to my patron-only feed for blog posts and picture updates along the way. At this tier, you can see all non tier specific art.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:48.856292+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=969654",
+     "user_limit": null
+    },
+    "id": "969654",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "You\u0027ll see my work before anyone else with early access to content, plus all previous rewards.\u003cbr\u003eAt this tier, you can also request a 1 card tarot draw from any of my available decks once a month! \u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:48.878401+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=969655",
+     "user_limit": null
+    },
+    "id": "969655",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "You get the say! When I\u0027ve got a question, you\u0027ll be one of the few that can answer through polls, plus all previous rewards. Even better, you will have access to EXCLUSIVE coloring pages! (please provide me with your email so I can send them)\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:48.901601+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=969656",
+     "user_limit": null
+    },
+    "id": "969656",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "At this tier, you can suggest themes for art at least once a month, on top of all the other content you\u0027ll receive from lower tiers.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:48.922862+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=1000579",
+     "user_limit": null
+    },
+    "id": "1000579",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "You get the cred. Seriously, your name will get in the credits as a huge thank you being on my team, plus all previous rewards. Even better, you will have access to any NSFW art I create, if you are over the age of 18. Please send me your email address so I can send them.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:48.942374+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=969657",
+     "user_limit": null
+    },
+    "id": "969657",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "If you\u0027re under the age of 18 (or would just prefer this option instead), you can still pledge $10 and get a 3 card tarot spread once a month instead of NSFW content access, on top of all lower tier options.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:48.961785+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=969659",
+     "user_limit": null
+    },
+    "id": "969659",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "At this tier, you can get a basic ink commission (B\u0026amp;W or 1 color) at no additional cost to you, on top of all the other goodies you\u0027ll receive form lower tiers. You will receive a digital copy.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:48.981249+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": 6,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=1000586",
+     "user_limit": 7
+    },
+    "id": "1000586",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "At this tier, you can get a multicolor ink commission. You will receive a digital file. You also receive all lower tier rewards!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:49.002896+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=1000585",
+     "user_limit": null
+    },
+    "id": "1000585",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "At this tier, you can get a monthly four card tarot spread using any of my available tarot decks! You also receive all lower tier rewards. \u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:49.021893+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=1000611",
+     "user_limit": null
+    },
+    "id": "1000611",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "Send me anything (you\u0027ll cover shipping costs) and I\u0027ll sign it, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:49.040347+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=969658",
+     "user_limit": null
+    },
+    "id": "969658",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "At this tier, you can receive a five card tarot spread once a month using any of my available tarot decks, on top of everything else you\u0027re receiving!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:49.071465+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=1000584",
+     "user_limit": 5
+    },
+    "id": "1000584",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "Send me any (appropriate, legal) item, and I will sign it for you! Please message me to discuss this beforehand. You must pay all shipping costs.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:49.098189+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=1000610",
+     "user_limit": null
+    },
+    "id": "1000610",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "Physical post card OR mini-print once twice a year! Does not include shipping costs.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:49.117979+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=1000583",
+     "user_limit": null
+    },
+    "id": "1000583",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "Free full size (or best approximation, as I tend to use odd dimensions) print of your choice twice a year! You must pay shipping costs. You also will receive access to all lower tier art.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:49.136821+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=1000609",
+     "user_limit": 5
+    },
+    "id": "1000609",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "Free full-size (or best approximation) HOLOGRAPHIC art print of your choice once a year. Some prints print better than others. You must pay all shipping costs. You will also receive all lower tier specific art.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:49.155701+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=1000613",
+     "user_limit": 3
+    },
+    "id": "1000613",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "Free SIGNED full size (or best approximation) art print of your choice once a year. You must pay all shipping costs. You also receive access to all lower tier art at\u00a0 this level.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:49.177622+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=1000608",
+     "user_limit": 5
+    },
+    "id": "1000608",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-11-03T17:10:09+00:00",
+     "description": "Free limited edition full size (or best approximation), SIGNED AND NUMBERED art print of your choice with extra hand painted glitter/metallic/3D effects once a year. You must cover all shipping costs. You will also receive access to all lower tier art.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T22:36:49.198497+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T17:10:09+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=583815\u0026rid=1000607",
+     "user_limit": 5
+    },
+    "id": "1000607",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 72,
+     "created_at": "2016-11-03T16:27:21+00:00",
+     "description": "Uli can afford to go back and repaint a previous Ringaround page to be more detailed and high quality!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "601012",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 48,
+     "created_at": "2016-11-03T16:31:22+00:00",
+     "description": "Ringaround updates can take priority over one of my classes.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "601015",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 36,
+     "created_at": "2017-08-03T05:22:53+00:00",
+     "description": "Uli can afford to go back and repaint multiple Ringaround pages.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922607",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 24,
+     "created_at": "2017-08-03T05:22:53+00:00",
+     "description": "Uli can focus on Uninetsv, as well as Ringaround.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922608",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 27500,
+     "completed_percentage": 13,
+     "created_at": "2017-08-03T05:28:33+00:00",
+     "description": "Uli can afford groceries!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922616",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 35000,
+     "completed_percentage": 10,
+     "created_at": "2017-08-03T05:28:33+00:00",
+     "description": "Uli can afford groceries and a few medications!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922617",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 9,
+     "created_at": "2017-08-03T05:28:33+00:00",
+     "description": "Uli can afford groceries and most meds!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922618",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 47500,
+     "completed_percentage": 7,
+     "created_at": "2017-08-03T05:28:33+00:00",
+     "description": "ULI CRIES A LOT OVER Y\u0027ALL\u0027S SUPPORT AND CAN EAT",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922619",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 55000,
+     "completed_percentage": 6,
+     "created_at": "2017-08-03T05:28:33+00:00",
+     "description": "ULI CAN AFFORD TO DO ART FULL TIME",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922620",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 65000,
+     "completed_percentage": 5,
+     "created_at": "2017-08-03T05:28:33+00:00",
+     "description": "ULI CAN AFFORD TO DO ART FULL TIME AND EAT",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922621",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 85000,
+     "completed_percentage": 4,
+     "created_at": "2017-08-03T05:28:33+00:00",
+     "description": "Uli can afford to move out on their own!!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922622",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 90000,
+     "completed_percentage": 4,
+     "created_at": "2017-08-03T05:28:33+00:00",
+     "description": "Uli can afford their own place AND maybe food sometimes lmao",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922623",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 3,
+     "created_at": "2017-08-03T05:29:45+00:00",
+     "description": "Uli doesn\u0027t even know yet, omg",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922624",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 100,
+     "created_at": "2017-08-03T05:30:52+00:00",
+     "description": "Uli can continue to update Ringaround during the semester!",
+     "reached_at": "2017-11-29T21:27:02+00:00",
+     "title": ""
+    },
+    "id": "922625",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/583815"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "4033f72c-0315-4346-91b8-0922c70831a0",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Uli Kimball is creating webcomics, art, and education resources"
+});
+    </script>

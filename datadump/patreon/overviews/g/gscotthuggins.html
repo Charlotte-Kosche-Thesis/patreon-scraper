@@ -1,0 +1,558 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "P6CfIyJaHd2r6k59g0mSfJWK1AvTFOnbOqxf5B4JGMU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "829556",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/829556"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-02-27T20:37:26+00:00",
+    "creation_name": "Science-Fiction and Fantasy",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI2IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1573214/7cea81eefd9f41ae9857a261f1db71d4?token-time=2145916800\u0026token-hash=JQAqbvDpBoKlbUYTdJeuvmHdDioq7tkxAVY1KJlUehE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNiJ9/patreon-media/campaign/1573214/7cea81eefd9f41ae9857a261f1db71d4?token-time=2145916800\u0026token-hash=iKAj_Ixui-RwqbL4WeOYnqoLCG8u9ryZ8V7PCEN69tQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "month",
+    "pledge_sum": 4323,
+    "pledge_url": "/bePatron?c=1573214",
+    "published_at": "2018-03-05T16:16:21+00:00",
+    "summary": "I\u0027m G. Scott Huggins, Very-Nearly-Award-Winning Science-Fiction and Fantasy Author. I\u0027ve taught the world how to marry aliens, cook phoenix, and deliver pizza for Cthulhu.*\u003cbr\u003e\u003cbr\u003eI\u0027m very excited to welcome my patrons and fans to this new venture, which gives me the opportunity to say thank you in a slightly more tangible way than simply putting words on a screen. By joining the ranks of my supporters, you are participating in a tradition that goes all the way back to the days of Shakespeare, Michelangelo, and Cellini. So don\u0027t think of yourself as merely a \"supporter.\" Think of yourself as 1/10,000th of Pope Julius II. 1/5,000th of Queen Elizabeth I. And historical and philosophical insights like this one is just ONE way I will reward you for being my backer. There will also be early draft chapters, flash fiction, out-of-print works, and chances to win everything from public answers to Your Questions to full-blown story critiques!\u003cbr\u003e\u003cbr\u003e*All these are actual plots of G. Scott Huggins stories. Accept no substitutions."
+   },
+   "id": "1573214",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9988094",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9988094"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1573214",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1573214"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2408827",
+       "type": "reward"
+      },
+      {
+       "id": "2408837",
+       "type": "reward"
+      },
+      {
+       "id": "2408844",
+       "type": "reward"
+      },
+      {
+       "id": "2408846",
+       "type": "reward"
+      },
+      {
+       "id": "2409852",
+       "type": "reward"
+      },
+      {
+       "id": "2409861",
+       "type": "reward"
+      },
+      {
+       "id": "2409867",
+       "type": "reward"
+      },
+      {
+       "id": "2409878",
+       "type": "reward"
+      },
+      {
+       "id": "2409891",
+       "type": "reward"
+      },
+      {
+       "id": "2409899",
+       "type": "reward"
+      },
+      {
+       "id": "2409904",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-02-27T20:37:21+00:00",
+     "facebook": "https://www.facebook.com/scott.huggins.33",
+     "first_name": "G.",
+     "full_name": "G. Scott Huggins",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMyIsInciOjIwMH0%3D/patreon-media/user/9988094/fcc1dbd5d52b40b8884e2af8b7613a1d?token-time=2145916800\u0026token-hash=LeC8iG1AK5bhkGQ9nIlpBMK6it9rTmSYmyXB3fMK8R0%3D",
+     "last_name": "Scott Huggins",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIzIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9988094/fcc1dbd5d52b40b8884e2af8b7613a1d?token-time=2145916800\u0026token-hash=TaM9J7FDXYgLrtGaY-iGs_pksxCKbKt0smawqoLWv0o%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/gscotthuggins",
+     "vanity": "gscotthuggins",
+     "youtube": null
+    },
+    "id": "9988094",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1573214",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1573214"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 55,
+     "upgrade_url": "/bePatron?c=1573214\u0026rid=2408827"
+    },
+    "id": "post-aggregation-for-0-1573214",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-02-28T03:03:55.307615+00:00",
+     "description": "You get access to the Patrons-only posts, and I shall thank you publicly on this page, by name. Unless you tell me that would embarrass you, or you hide your name.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-05T12:56:13.164881+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 26,
+     "published": true,
+     "published_at": "2018-03-05T12:56:13.154910+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Monarch\u0027s Thanks",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1573214\u0026rid=2408827",
+     "user_limit": null
+    },
+    "id": "2408827",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-02-28T03:07:06.315125+00:00",
+     "description": "Have a question for me? About anything? Every month I will answer, on this page, ONE question from a Patron, chosen randomly.\u003cbr\u003e\n\u003cbr\u003e\nIncludes The Monarch\u0027s Thanks.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T03:07:06.315125+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-02-28T03:07:06.315125+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Quest!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1573214\u0026rid=2408837",
+     "user_limit": null
+    },
+    "id": "2408837",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-02-28T03:10:54.781401+00:00",
+     "description": "You get access to my Monthly Film Rant, where I slice up SF/Fantasy films into quivering jelly. You also get a (random) chance to select the next film I eviscerate.\u003cbr\u003e\n\u003cbr\u003e\nIncludes The Monarch\u0027s Thanks, and Quest!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T03:10:54.781401+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-02-28T03:10:54.781401+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "But WHY??",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1573214\u0026rid=2408844",
+     "user_limit": null
+    },
+    "id": "2408844",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-28T03:13:16.532261+00:00",
+     "description": "For all the people who\u0027ve said they wished they could have taken my history lessons: NOW YOU CAN! At this level you get access to strange stories about history you\u0027ve never heard of.*\u003cbr\u003e\n\u003cbr\u003e\nIncludes The Monarch\u0027s Thanks, Quest! and But WHY??\u003cbr\u003e\n\u003cbr\u003e\n*Sorry history buffs: no refunds if you\u0027ve actually heard of it.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T14:46:26.920349+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-02-28T14:46:26.908042+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Funthly Monthly History Lesson",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1573214\u0026rid=2408846",
+     "user_limit": null
+    },
+    "id": "2408846",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-28T14:45:51.641069+00:00",
+     "description": "More Fun Than It Sounds!\u003cbr\u003e\nYou will get to see draft chapters of my current novel-in-progress as they are finished!\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\nIncludes all lower tiers.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T14:45:51.641069+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-02-28T14:45:51.641069+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Drafted!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1573214\u0026rid=2409852",
+     "user_limit": null
+    },
+    "id": "2409852",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-02-28T14:51:11.564452+00:00",
+     "description": "You get access to the Super-Secret Flash Fiction Club. I will post monthly a piece of unpublished Flash Fiction.*\u003cbr\u003e\n\u003cbr\u003e\nIncludes all lower tiers.\u003cbr\u003e\n\u003cbr\u003e\n*People with low tolerance of really bad puns might want to skip this bit.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T14:51:11.564452+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-02-28T14:51:11.564452+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "FLASH! AH-aaaaaaaaaaah!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1573214\u0026rid=2409861",
+     "user_limit": null
+    },
+    "id": "2409861",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-02-28T14:52:49.603141+00:00",
+     "description": "Your support has reached nuclear levels, and so I will give a detailed critique of any fiction or poetry you choose to send me with an upper limit of 6000 words.\u003cbr\u003e\n\u003cbr\u003e\nIncludes all lower tiers.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T14:52:49.603141+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-02-28T14:52:49.603141+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Critical Mass",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1573214\u0026rid=2409867",
+     "user_limit": null
+    },
+    "id": "2409867",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-02-28T14:56:46.783666+00:00",
+     "description": "This is the great experiment. I\u0027m going to see whether it works here to give access to downloadable Kindle versions of previously-unpublished or out-of-print short stories.\u003cbr\u003e\n\u003cbr\u003e\nIncludes all lower tiers.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T14:56:46.783666+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-02-28T14:56:46.783666+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Secret Story Vault",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1573214\u0026rid=2409878",
+     "user_limit": null
+    },
+    "id": "2409878",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2018-02-28T14:59:23.119941+00:00",
+     "description": "It\u0027s the bomb.\u003cbr\u003e\n\u003cbr\u003e\nI will, once per quarter, critique a work of fiction or poetry of up to 10,000 words, and give marketing suggestions.\u003cbr\u003e\n\u003cbr\u003e\nIncludes all lower tiers.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T14:59:23.119941+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-28T14:59:23.119941+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Supercritical Mass",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1573214\u0026rid=2409891",
+     "user_limit": null
+    },
+    "id": "2409891",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-02-28T15:01:56.017027+00:00",
+     "description": "At this level of support, you earn a personal flash fiction story, from me, to share, or not, as you choose, on a theme of your choice. Story can be snail-mailed, Kindle, or any other reasonable format.\u003cbr\u003e\n\u003cbr\u003e\nIncludes all lower tiers.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T15:01:56.017027+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-28T15:01:56.017027+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Flashing From Heaven",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1573214\u0026rid=2409899",
+     "user_limit": null
+    },
+    "id": "2409899",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-02-28T15:03:31.791661+00:00",
+     "description": "At this level of support, you have significantly defrayed my travel expenses, and so I will take you to dinner at any convention of your choice that we are both going to.\u003cbr\u003e\n\u003cbr\u003e\nIncludes all lower tiers.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T15:03:31.791661+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-28T15:03:31.791661+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Grand Tour",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1573214\u0026rid=2409904",
+     "user_limit": null
+    },
+    "id": "2409904",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1573214"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "5e2c9163-bddf-4dbd-876d-16f767486c86",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "G. Scott Huggins is creating Science-Fiction and Fantasy"
+});
+    </script>

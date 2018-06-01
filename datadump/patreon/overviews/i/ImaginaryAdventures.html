@@ -1,0 +1,403 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "qSkSK7s9jnVglNVnLrK6hvPhgtLWokdKBb4Scdl5_-o";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "607016",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/607016"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-10-18T12:56:22+00:00",
+    "creation_name": "fiction, blogs, vlogs, reviews, and mayhem",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1279462/5b46290ad43c4e888f12309dc11b869a?token-time=2145916800\u0026token-hash=WnkkqNW0T4vXcjc9sFkkxNoJ5RLf3Rq9OOtAFufu89Q%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1279462/5b46290ad43c4e888f12309dc11b869a?token-time=2145916800\u0026token-hash=4Zlp4XQYpc2H_XL2Q_sVvXi_xImzmSQYSChphSoe0LA%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/qkFD9dSivpI\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/qkFD9dSivpI",
+    "one_liner": null,
+    "patron_count": 6,
+    "pay_per_name": "month",
+    "pledge_sum": 4506,
+    "pledge_url": "/bePatron?c=1279462",
+    "published_at": "2017-10-19T02:31:40+00:00",
+    "summary": "Hi, my name\u0027s Eliza, it\u0027s great to meet you! I am a fiction writer from the Pacific North West and an avid lover of words. My site, ImaginaryAdventures.me has been running since 2013 with book reviews, articles, guest spotlights, and more. Multiple times a week I publish stories on Channillo.com and weekly I am part of a trio for the podcast imPROMPTu. I\u0027ve written multiple novels, all in different stages of the publishing cycle, but sadly, writing is not (yet) my day job. In order to make that a reality, I need your help! With your support, I will be able to fund my website and continue to pay my business-related expenses. Don\u0027t think you get nothing out of it though. I\u0027m working on some really neat rewards for you, so pledge to help a writer, get some cool perks, and as always... happy reading!"
+   },
+   "id": "1279462",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8110382",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8110382"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "997821",
+       "type": "goal"
+      },
+      {
+       "id": "1015500",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1279462",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1279462"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2085020",
+       "type": "reward"
+      },
+      {
+       "id": "2097241",
+       "type": "reward"
+      },
+      {
+       "id": "2085032",
+       "type": "reward"
+      },
+      {
+       "id": "2085144",
+       "type": "reward"
+      },
+      {
+       "id": "2085160",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-10-18T12:52:47+00:00",
+     "facebook": "https://www.facebook.com/ElizasImaginaryAdventures/",
+     "first_name": "Eliza",
+     "full_name": "Eliza Leone",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/8110382/46f7618e05854970aff1220ae647996e?token-time=2145916800\u0026token-hash=GEM8mtDAWWS0zSyY5qqyV6qZDuLNGY_Be1mQ4BF-qdU%3D",
+     "last_name": "Leone",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/8110382/46f7618e05854970aff1220ae647996e?token-time=2145916800\u0026token-hash=jQTSUvxwcvGYXvkoJ5UL9CUdDOcMM5vZwNfHp5AQIck%3D",
+     "twitch": "https://www.twitch.tv/theladydevyn",
+     "twitter": "ElizaLeone3",
+     "url": "https://www.patreon.com/ImaginaryAdventures",
+     "vanity": "ImaginaryAdventures",
+     "youtube": "https://www.youtube.com/channel/UCNXpn3jz_HpfbqTA0Gd-T7Q"
+    },
+    "id": "8110382",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1279462",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1279462"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 22,
+     "upgrade_url": "/bePatron?c=1279462\u0026rid=2097241"
+    },
+    "id": "post-aggregation-for-0-1279462",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-10-18T22:46:40.057936+00:00",
+     "description": "You\u0027ll be the envy of the town with all the insider information for Eliza\u0027s Imaginary Adventures content!\u00a0\n\u003cul\u003e\n\u003cli\u003eAccess to my patron only feed\u003c/li\u003e\n\u003cli\u003eNews and updates first about upcoming events, merchandise, and content\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-18T22:46:40.057936+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-18T22:46:40.057936+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Knowledge Reward ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1279462\u0026rid=2085020",
+     "user_limit": null
+    },
+    "id": "2085020",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-10-23T21:54:47.694772+00:00",
+     "description": "You can\u0027t get enough of reading and you want more? I\u0027m happy to assist!\n\u003cul\u003e\n\u003cli\u003eAccess to short stories early and often\u003c/li\u003e\n\u003cli\u003eAccess to my patron only feed\u003c/li\u003e\n\u003cli\u003eNews and updates first about upcoming events, merchandise, and content\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-23T22:00:12.098231+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 11,
+     "published": true,
+     "published_at": "2017-10-23T22:00:12.070470+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Reader Reward",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1279462\u0026rid=2097241",
+     "user_limit": null
+    },
+    "id": "2097241",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-10-18T22:52:04.062793+00:00",
+     "description": "You\u0027re the kind of person who wants to be involved with EIA\u0027s crafting, this is the tier for you!\n\u003cul\u003e\n\u003cli\u003eHave a name of your choice included in one of my short stories\u003c/li\u003e\n\u003cli\u003eProvide prompt ideas for me to write short stories with\u003c/li\u003e\n\u003cli\u003eBe a part of my brainstorming process via Twitch.com and other social media sites\u003c/li\u003e\n\u003cli\u003eAccess to my patron only feed\u003c/li\u003e\n\u003cli\u003eNews and updates first about upcoming events, merchandise, and content\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-23T22:00:19.935385+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-23T22:00:19.910405+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Craft-person Reward",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1279462\u0026rid=2085032",
+     "user_limit": null
+    },
+    "id": "2085032",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-10-18T23:32:32.498359+00:00",
+     "description": "You want an even deeper look into my creative process? Sure, come ride along with me.\u00a0\n\u003cul\u003e\n\u003cli\u003eJoin me on discord and twitch for a Side-Car tier only writing session (monthly) and help me craft the best story possible\u003c/li\u003e\n\u003cli\u003eBe included in the thank you for the story we created\u003c/li\u003e\n\u003cli\u003eAccess to my patron only feed\u003c/li\u003e\n\u003cli\u003eNews and updates first about upcoming events, merchandise, and content\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "370207888133849088"
+     ],
+     "edited_at": "2017-10-18T23:32:32.498359+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-18T23:32:32.498359+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Side-Car Reward",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1279462\u0026rid=2085144",
+     "user_limit": null
+    },
+    "id": "2085144",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-10-18T23:40:56.391765+00:00",
+     "description": "You are truly the envy of all and your generosity knows no bounds!\u00a0\n\u003cul\u003e\n\u003cli\u003ePatron only t-shirt\u003c/li\u003e\n\u003cli\u003eeReader version of the patron only short story with added content\u003c/li\u003e\n\u003cli\u003eExclusive thank you in my novel publications\u003c/li\u003e\n\u003cli\u003eAccess to the EIA discord for monthly chats about books, writing, NaNoWriMo and anything you desire!\u00a0\u003c/li\u003e\n\u003cli\u003eAccess to my patron only feed\u003c/li\u003e\n\u003cli\u003eNews and updates first about upcoming events, merchandise, and content\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "370207888133849088"
+     ],
+     "edited_at": "2017-10-18T23:40:56.391765+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-18T23:40:56.391765+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "The Partner",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1279462\u0026rid=2085160",
+     "user_limit": null
+    },
+    "id": "2085160",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 90,
+     "created_at": "2017-10-18T22:25:18+00:00",
+     "description": "When I reach $50 a month I will release a 5,000 word, Patreon-only, short story and invite one patron to join me for a live twitch stream interview on whatever topics they\u0027d like. We can talk books, video games, gardening, world peace, or anything else that tickles your fancy.",
+     "reached_at": "2017-11-01T20:58:38+00:00",
+     "title": ""
+    },
+    "id": "997821",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 30,
+     "created_at": "2017-11-07T15:22:14+00:00",
+     "description": "When I reach $150 a month I will release a 10,000 word, Patreon-only, short story and invite three patrons to join me for a live twitch stream interview on whatever topics they\u0027d like. All my Patrons will receive\u00a0a bag of goodies delivered to their door as well.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1015500",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1279462"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "1ab91e24-46c6-4a78-adfd-f3ceba78bafe",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Eliza Leone is creating fiction, blogs, vlogs, reviews, and mayhem"
+});
+    </script>

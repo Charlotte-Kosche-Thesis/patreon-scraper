@@ -1,0 +1,527 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "r5DrTF-bDMNAW81_EAPxjiwDm_3sBDSjfpjLi9Ol73c";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "17100",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/17100"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-07-20T03:36:13+00:00",
+    "creation_name": "PC Game Reviews, Features \u0026 News",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/103729/4930e9687f9d43aa90085c89f2b23944?token-time=2145916800\u0026token-hash=scuYvW64iuOVKZ4xJXfWPA4uoxqwU9-xz-K1XhB1ERQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/103729/4930e9687f9d43aa90085c89f2b23944?token-time=2145916800\u0026token-hash=tdJaRKlvdMFoiRSXHecLkFELeulBTLZyXeI1-8EVleU%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "Straight and to the point games coverage",
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_sum": 766,
+    "pledge_url": "/bePatron?c=103729",
+    "published_at": "2014-07-20T03:36:13+00:00",
+    "summary": "Hello everyone! \u00a0We\u0027re the team at Highland Arrow, and we need your help!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eThe Goal\u003cbr\u003e\u003c/strong\u003eWe are a site that does reviews, news, and occasional features of video games with a focus on PC gaming. \u00a0We\u0027ve been looking at ways to pay our expenses and keep doing the things we love, and most of this falls into the category of advertising. \u00a0Advertising kind of sucks: no one really wants to have ads stuck all through a page they\u0027re trying to read. \u00a0So that\u0027s why we\u0027re reaching out to you - our readers and potential readers! \u00a0Through the wonderful means of things like Patreon, we can have our readers support us directly, rather than have to start leaning much heavier on things like advertising. \u00a0Instead of having to rely on those ads, we can be supported directly by our readership.\u003cbr\u003e\u003cbr\u003eThat\u0027s just the thing, isn\u0027t it? \u00a0Traditionally, comparable press outlet sites like the Escapist, IGN, Gamespot, and the like, are supported by a combination of advertisements, sponsored content, advetorials, and the like. \u00a0As people who write reviews, we really don\u0027t like the idea of having one hand in the pockets of the publishers\u0027 marketing budgets while at the same time trying to maintain integrity while we report to you on what games we think are and aren\u0027t worth playing. \u00a0You can do it, but it\u0027s a difficult tightrope to walk, and we\u0027d rather not have to do so at all.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWho are Highland Arrow?\u003c/strong\u003e\u003cbr\u003e\u003ca href=\"https://www.highlandarrow.com/en/about-menu.html\" rel=\"nofollow\" target=\"_blank\"\u003eHighland Arrow is a four-person team of gamers\u003c/a\u003e \u00a0- three writers, and a PR guy - who are passionate about games. \u00a0With all the furor over the integrity of video games journalism, of reviewers being on the take, and the like, we felt we would address the problem of such by creating, by filling that lack of responsible journalism by doing our best to cover games responsibly.\u003cbr\u003e\u003cbr\u003eYou can take a poke around our website at \u003ca href=\"http://www.highlandarrow.com\" rel=\"nofollow\"\u003ehttp://www.highlandarrow.com\u003c/a\u003e and here\u0027s a few samples of recent reviews as of the time of writing this summary:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003ca href=\"https://www.highlandarrow.com/en/reviews/pc-reviews/270-review-afterlife-empire.html\" rel=\"nofollow\" target=\"_blank\"\u003eAfterlife Empire\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.highlandarrow.com/en/reviews/pc-reviews/266-xenobloom.html\" rel=\"nofollow\" target=\"_blank\"\u003eXenobloom\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.highlandarrow.com/images/features/theconsumingshadow-feature.png\" rel=\"nofollow\" target=\"_blank\"\u003eThe Consuming Shadow\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.highlandarrow.com/images/features/d4-ep1-feature.png\" rel=\"nofollow\" target=\"_blank\"\u003eD4: Dark Dreams Don\u0027t Die (Episode 1)\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.highlandarrow.com/en/reviews/pc-reviews/243-her-story.html\" rel=\"nofollow\" target=\"_blank\"\u003eHer Story\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.highlandarrow.com/en/reviews/pc-reviews/242-wwe-2k15.html\" rel=\"nofollow\"\u003eWWE 2K15\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.highlandarrow.com/en/reviews/pc-reviews/219-chromasquad.html\" rel=\"nofollow\" target=\"_blank\"\u003eChroma Squad\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.highlandarrow.com/en/reviews/pc-reviews/234-gta5-online.html\" rel=\"nofollow\" target=\"_blank\"\u003eGrand Theft Auto V Online\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cstrong\u003eWhat is Patreon?\u003c/strong\u003e\u003cbr\u003ePatreon is a site that allows patrons of creative projects to directly support the works they want to see made. \u00a0You can commit to giving us a current amount by month or by creative work \u00a0- for us, by month! - as big or as small as you like, and that money helps fund those projects. \u00a0This money is either charged to your credit card or paid over PayPal, and you can cancel at any time.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWhy support Highland Arrow?\u003c/strong\u003e\u003cbr\u003eWell, we hope that the reason you support us is because we make content your find interesting, at the end of the day! \u00a0We hope to inject a little more integrity and responsibility into the games journalism world by creating honest and fair reviews. \u00a0We have specific benefits and commitments for different funding levels and reaching different funding levels, however! \u00a0Read on in the funding levels outlined below and our project goals to the side!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eHow Subscription Works\u003cbr\u003e\u003c/strong\u003eWhile we update and make content on a much more regular basis, the Patreon patronage works like a monthly subscription - you sign up for one month\u0027s worth of the rewards to support one month\u0027s worth of content. \u00a0You can do it for a month or until the end of time - cancelling any time you like. \u00a0It\u0027s paid out to us at the end of every month by Patreon, so your subscription begins the month following when you begin. \u00a0We have the option for prorated subscriptions starting immediately, and you can \u003ca\u003egive us a shout\u003c/a\u003e for details if that interests you.\u003cbr\u003e\u003cbr\u003eYou can read a little more about Subscriptions, including the nuts and bolts of how we came to the goals numbers, how the money is used, and so forth, on our\u00a0\u003ca href=\"https://www.highlandarrow.com/subscribe.html\" rel=\"nofollow\" target=\"_blank\"\u003eSubscription page\u003c/a\u003e on the website.\u003cbr\u003e"
+   },
+   "id": "103729",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "237182",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/237182"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "46113",
+       "type": "goal"
+      },
+      {
+       "id": "46114",
+       "type": "goal"
+      },
+      {
+       "id": "46115",
+       "type": "goal"
+      },
+      {
+       "id": "46116",
+       "type": "goal"
+      },
+      {
+       "id": "46117",
+       "type": "goal"
+      },
+      {
+       "id": "46118",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-103729",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-103729"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "63451",
+       "type": "reward"
+      },
+      {
+       "id": "63452",
+       "type": "reward"
+      },
+      {
+       "id": "63453",
+       "type": "reward"
+      },
+      {
+       "id": "63454",
+       "type": "reward"
+      },
+      {
+       "id": "63455",
+       "type": "reward"
+      },
+      {
+       "id": "63456",
+       "type": "reward"
+      },
+      {
+       "id": "63457",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "\u003cstrong\u003eHighland Arrow\u003c/strong\u003e is an independent Canadian games publication website, providing reviews, news, and features with an emphasis on PC gaming.\u003cbr\u003e\u003cbr\u003eWebsite:\u00a0\u003ca href=\"https://www.highlandarrow.com\"\u003ewww.highlandarrow.com\u003c/a\u003e",
+     "created": "2014-07-20T03:36:13+00:00",
+     "facebook": null,
+     "first_name": "Highland",
+     "full_name": "Highland Arrow",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/237182/ba7ea8b80d64469a8da939cd20f57e1e?token-time=2145916800\u0026token-hash=i2-iTaXOsfhRsNVgeciU8_YBgWdbbMX1WjerGre00YI%3D",
+     "last_name": "Arrow",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/237182/ba7ea8b80d64469a8da939cd20f57e1e?token-time=2145916800\u0026token-hash=bfK44doiNX70CnGxPiKE422w1uCFjbwMPLIem6ncBgg%3D",
+     "twitch": null,
+     "twitter": "HighlandArrow",
+     "url": "https://www.patreon.com/highlandarrow",
+     "vanity": "highlandarrow",
+     "youtube": null
+    },
+    "id": "237182",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "103729",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/103729"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 4,
+     "upgrade_url": "/bePatron?c=103729\u0026rid=63451"
+    },
+    "id": "post-aggregation-for-0-103729",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 250,
+     "amount_cents": 250,
+     "created_at": "2016-03-08T12:07:38+00:00",
+     "description": "\u003cstrong\u003eSubscriber\u003cbr\u003e\u003c/strong\u003e\u003cbr\u003eBenefits:\u003cbr\u003e\u003cstrong\u003eYou are eligible for Patron-only giveaways.\u003c/strong\u003e\u003cstrong\u003eYou will be mentioned on our about page as a Subscriber while your pledge is active!\u003c/strong\u003e \u00a0(If you like! \u00a0We will contact you about how you would like to be named on the page)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-03-08T12:07:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=103729\u0026rid=63451",
+     "user_limit": null
+    },
+    "id": "63451",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-03-08T12:07:38+00:00",
+     "description": "\u003cstrong\u003eBronze Patron\u003cbr\u003e\u003c/strong\u003e\u003cbr\u003eBenefits:\u003cbr\u003eBoth the benefits of a Subscription (though you will be called out as a Bronze Patron if you wish!)\u003cstrong\u003eYour about page call-out can be linked to an appropriate website, Steam profile, YouTube channel, Twitter page, Facebook page, etc\u003c/strong\u003e (subject to approval)\u003cstrong\u003eYou will get a membership to our Patrons-only forum.\u003c/strong\u003e\u003cstrong\u003eYou will be able to see reviews a day early prior to their public publishing.\u003c/strong\u003eYour login on the Patrons-only forum will identify you as a Bronze Patron while your pledge is active.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-08T12:07:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=103729\u0026rid=63452",
+     "user_limit": null
+    },
+    "id": "63452",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 750,
+     "amount_cents": 750,
+     "created_at": "2016-03-08T12:07:38+00:00",
+     "description": "\u003cstrong\u003eSilver Patron\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eBenefits:\u003cbr\u003eAll of the benefits of Bronze Patron membership, except the appropriate call outs will call you out as a Silver Patron.\u003cstrong\u003eYou will be eligible to submit games to voting for Patron-requested reviews.\u003c/strong\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-08T12:07:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=103729\u0026rid=63453",
+     "user_limit": null
+    },
+    "id": "63453",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-03-08T12:07:38+00:00",
+     "description": "\u003cstrong\u003eGold Patron\u003cbr\u003e\u003cbr\u003e\u003c/strong\u003eBenefits:\u003cbr\u003eAll of the benefits of Silver Patron membership, except the appropriate call outs will call you out as a Gold Patron.\u003cstrong\u003eYour call-out on the about page can include an appropriate logo or photograph (100 px square, SFW only please)\u003c/strong\u003e\u003cstrong\u003eYou will not lose access to the Patron-only forum if you end your pledge and you were a Gold Patron.\u003c/strong\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-08T12:07:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=103729\u0026rid=63454",
+     "user_limit": null
+    },
+    "id": "63454",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2016-03-08T12:07:38+00:00",
+     "description": "\u003cstrong\u003ePlatinum Patron\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eBenefits:\u003cbr\u003eAll of the benefits of Gold Patron membership, except the appropriate call outs will call you out as a Platinum Patron.\u003cstrong\u003eIf you choose to submit a logo or photo for the about page, it can be up to 150px for a Platinum Patron.\u003c/strong\u003e\u003cstrong\u003eYou will still be mentioned on our about page as a \"Former Platinum Patron\" when your pledge ends.\u003c/strong\u003e \u00a0(Unless you wish to be removed from the page, or asked to be unlisted).\u003cstrong\u003eYou will gain access to a special board within the Patron-only forum where you will be able to submit questions for us to ask developers. publishers, and the like,\u003c/strong\u003e when we do interviews or other features.\u003cstrong\u003eYou will gain access to a special board within the Patron-only forum with a selection of art assets, screenshots, fact sheets, and other information we receive about new and upcoming releases\u003c/strong\u003e from developers and publishers.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-08T12:07:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=103729\u0026rid=63455",
+     "user_limit": null
+    },
+    "id": "63455",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-03-08T12:07:38+00:00",
+     "description": "\u003cstrong\u003eDiamond Patron\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003eBenefits:\u003cbr\u003eAll the benefits of a Platinum Patron.You will be mentioned on our about page as a Diamond Patron while your pledge is active! \u00a0(If you like! \u00a0We will contact you about how you would like to be named on the page.)\u003cstrong\u003eIf you choose to submit a logo or photo for the about page, it can be up to 150px for a Diamond Patron.\u003c/strong\u003eYou will still be mentioned on our about page as a \"Former Diamond Patron\" when your pledge ends. (Unless you wish to be removed from the page, or asked to be unlisted)Your login to the Patron-only forum will identify you as a Diamond Patron.Your login to the Patron-only forum will identify you as a Former Diamond Patron if you end your pledge.\u003cstrong\u003eYou will gain access to a special board within the Patron-only forum with a selection of art assets, screenshots, fact sheets, and other information we receive about new and upcoming releases\u003c/strong\u003e from developers and publishers.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-08T12:07:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=103729\u0026rid=63456",
+     "user_limit": null
+    },
+    "id": "63456",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-03-08T12:07:38+00:00",
+     "description": "\u003cstrong\u003eThe Director\u0027s Chair! \u00a05-Star Patron\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003eBenefits:\u003cbr\u003eAll of the benefits of a Diamond Patron, except you will be called out as a 5-Star Patron if you wish.\u003cstrong\u003eOne review per week will be something that you, yourself, asked us to cover! \u003c/strong\u003e\u00a0(Subject to game availability. \u00a0Good rule of thumb: if it\u0027s on Steam, we can do it, otherwise, ask!)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-08T12:07:38+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=103729\u0026rid=63457",
+     "user_limit": 5
+    },
+    "id": "63457",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 11200,
+     "completed_percentage": 6,
+     "created_at": "2014-07-20T05:15:07+00:00",
+     "description": "All of our monthly costs are covered, so \u003cstrong\u003eat this level\u003c/strong\u003e\u003cstrong\u003e\u00a0we will also be able to commit to at least 6 reviews per month\u003c/strong\u003e. \u00a0(2/week) \u00a0\u003cstrong\u003eAt least one of these reviews will be chosen by our patrons.\u003c/strong\u003e",
+     "reached_at": "2015-06-27T12:06:37+00:00",
+     "title": "Expenses Met!"
+    },
+    "id": "46113",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 32200,
+     "completed_percentage": 2,
+     "created_at": "2014-07-20T05:15:07+00:00",
+     "description": "We have our monthly costs covered as well as plenty of money for marketing and sponsorship, so \u003cstrong\u003eat this level\u00a0we will\u00a0increase our review commitment to 9 reviews per month\u003c/strong\u003e. (3/week) \u00a0\u003cstrong\u003eAt least one of these reviews will be chosen by our patrons. \u00a0We will also run at least one free giveaway per month, exclusive to our patrons. \u00a0\u003c/strong\u003e\u003cem\u003eThe first month this goal is reached, we will use this funding to get the site professionally redesigned.\u003c/em\u003e",
+     "reached_at": null,
+     "title": "In the Clear!"
+    },
+    "id": "46114",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10500,
+     "completed_percentage": 7,
+     "created_at": "2014-07-20T05:15:07+00:00",
+     "description": "At this point we have the bare necessities covered (server, domain, press membership) and \u003cstrong\u003eat this level we will commit to 3 reviews/month\u003c/strong\u003e. (1/week)",
+     "reached_at": "2015-05-28T05:49:24+00:00",
+     "title": "The Bare Necessities"
+    },
+    "id": "46115",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 157400,
+     "completed_percentage": 0,
+     "created_at": "2014-07-20T05:15:07+00:00",
+     "description": "This is the point where we can afford to have a writer do this on a monthly basis, expenses paid, on a fair wage. \u00a0As such, that writer can work 5 days a week and we\u0027ll have a piece (review, soapboax, or feature) a weekday, at least three of which will be reviews. \u00a0So to be specific, \u003cstrong\u003eat this level we will commit to 15 pieces a month \u003c/strong\u003eof which there will be\u003cstrong\u003e at least 9 reviews\u003c/strong\u003e. \u00a0We will also run \u003cstrong\u003eat least two free game giveaways a month, one of which will be exclusive to our supporters. \u00a0At least one of the monthly reviews will be chosen by our patrons.\u003c/strong\u003e",
+     "reached_at": null,
+     "title": "Heroic Tier"
+    },
+    "id": "46116",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 208100,
+     "completed_percentage": 0,
+     "created_at": "2014-07-20T05:15:07+00:00",
+     "description": "A writer with a job and a marketing/game budget besides that. \u00a0This is the point where we can turn around and support the community. \u00a0We will sponsor an eSports tournament, but more importantly to our patrons: \u003cstrong\u003eat this level we will commit to 20 pieces a month \u003c/strong\u003eof which \u003cstrong\u003ethere will be at least 12 reviews\u003c/strong\u003e. \u00a0We will run \u003cstrong\u003eat least two weekly game giveaways - one specific to our patrons. \u00a0At least 3 of the monthly reviews will be chosen by our patrons.\u003c/strong\u003e",
+     "reached_at": null,
+     "title": "Legendary Tier"
+    },
+    "id": "46117",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 333300,
+     "completed_percentage": 0,
+     "created_at": "2014-07-20T05:15:07+00:00",
+     "description": "Two writers with a decent wage, a marketing budget, and 100% awesome. \u00a0This would be Highland Arrow at its happiest. \u00a0\u003cstrong\u003eAt this level we will commit to at least 45 pieces/mo\u003c/strong\u003e, of which \u003cstrong\u003eat least 15 of which will be reviews\u003c/strong\u003e. \u00a0\u003cstrong\u003eAt least 10 of those reviews will be chosen by our patrons.\u003c/strong\u003e \u00a0We will have \u003cstrong\u003eat least 3 video reviews per month \u003c/strong\u003e(we will be hiring a known video reviewer for these). We will run \u003cstrong\u003eat least 3 free giveaway promotions a week, 2 of which are exclusive to patrons.\u003c/strong\u003e",
+     "reached_at": null,
+     "title": "God Tier"
+    },
+    "id": "46118",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/103729"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "c8d71a55-5a13-4899-b890-2c6b241e7928",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Highland Arrow is creating PC Game Reviews, Features \u0026 News"
+});
+    </script>

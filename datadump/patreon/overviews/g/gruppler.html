@@ -1,0 +1,255 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "DfUJEoavVoZxDeLL43aT8-OZn5RMFUgXkwN-MGYm_Ys";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "475480",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/475480"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-06-12T01:42:26+00:00",
+    "creation_name": "PTN Ninja",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/986379/d4ef03a9faab4a00b0868c84e7b47177?token-time=2145916800\u0026token-hash=1QBv6OhsnY8fhWhci9Ml2SHQo6Fd5m3pq2p3LWMDS3c%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/986379/d4ef03a9faab4a00b0868c84e7b47177?token-time=2145916800\u0026token-hash=_g-c30V-mM911bInsh32sk9LUZcF80-ks98pDV6HxZs%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 6,
+    "pay_per_name": "major feature",
+    "pledge_sum": 6300,
+    "pledge_url": "/bePatron?c=986379",
+    "published_at": "2017-06-12T01:56:58+00:00",
+    "summary": "\u003ca href=\"http://ptn.ninja/\" target=\"_blank\"\u003e\u003cimg src=\"https://preview.ibb.co/mxzDAv/ptn_ninja.png\"\u003e\u003c/a\u003e\n\u003cbr\u003e\n\u003cbr\u003eI made \n\u003ca href=\"https://github.com/gruppler/PTN-Ninja/\" target=\"_blank\"\u003ePTN Ninja\u003c/a\u003e because I wanted it to exist, and for no other reason. That\u0027s why I never asked for anything in return. And that\u0027s why I never received anything in return.\u003cbr\u003e\n\u003cbr\u003e\nIt\u0027s been months since I touched the project, and it has lost its momentum. I still have big plans for it, but I\u0027m not sure how much the community would value my further investment of time and effort.\u003cbr\u003e\u003cbr\u003eAs of now, this project is a relatively low priority in my life, but I enjoyed working on it and would be happy to continue if it felt worthwhile.\u003cbr\u003e\u003cbr\u003eAnd if I knew which features would be most valuable to the community, I could prioritize them effectively.\n\u003cbr\u003e\n\u003cbr\u003e\nHere\u0027s an outline of what I have planned for PTN Ninja:\u003cbr\u003e\n\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003eMultiple lines of play (branching or \"undo\" recording)\u003c/li\u003e\n\t\u003cli\u003eImprove performance\n\t\u003cul\u003e\n\t\t\u003cli\u003eMake it work on iPhone\u003c/li\u003e\n\t\u003c/ul\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003eAutomatically insert analytical notation\n\t\u003cul\u003e\n\t\t\u003cli\u003eUse\u00a0\u003ca href=\"https://github.com/nqeron/TakAnalysis\"\u003eTakAnalysis by nqeron\u003c/a\u003e\u003c/li\u003e\n\t\u003c/ul\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003eAutomatic Formatting\n\t\u003cul\u003e\n\t\t\u003cli\u003eStyles:\n\t\t\u003cul\u003e\n\t\t\t\u003cli\u003eVerbose\n\t\t\t\u003cul\u003e\n\t\t\t\t\u003cli\u003eInsert all stone types (before place, after slide)\u003c/li\u003e\n\t\t\t\t\u003cli\u003eInsert all slide and drop counts\u003c/li\u003e\n\t\t\t\u003c/ul\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli\u003eMinimal\n\t\t\t\u003cul\u003e\n\t\t\t\t\u003cli\u003eOpposite of Verbose\u003c/li\u003e\n\t\t\t\u003c/ul\u003e\n\t\t\t\u003c/li\u003e\n\t\t\u003c/ul\u003e\n\t\t\u003c/li\u003e\n\t\t\u003cli\u003eBeautify\n\t\t\u003cul\u003e\n\t\t\t\u003cli\u003ePad line numbers\n\t\t\t\u003cul\u003e\n\t\t\t\t\u003cli\u003ePad between plies based on longest ply1\u003c/li\u003e\n\t\t\t\u003c/ul\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli\u003ePut comments on separate lines\u003c/li\u003e\n\t\t\u003c/ul\u003e\n\t\t\u003c/li\u003e\n\t\u003c/ul\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003eEmbed code generator\n\t\u003cul\u003e\n\t\t\u003cli\u003eOpen in new window\u003c/li\u003e\n\t\t\u003cli\u003eInput aspect ratio OR width and height\n\t\t\u003cul\u003e\n\t\t\t\u003cli\u003eInputs update on resize\u003c/li\u003e\n\t\t\u003c/ul\u003e\n\t\t\u003c/li\u003e\n\t\t\u003cli\u003eOption to include current ply ID in URL\u003c/li\u003e\n\t\t\u003cli\u003eAllow initial (edit/play) mode override\u003c/li\u003e\n\t\t\u003cli\u003eAllow preference override\n\t\t\u003cul\u003e\n\t\t\t\u003cli\u003ePresets:\n\t\t\t\u003cul\u003e\n\t\t\t\t\u003cli\u003eCurrent Board Only (Screenshot Mode)\n\t\t\t\t\u003cul\u003e\n\t\t\t\t\t\u003cli\u003eInclude only TPS in URL hash\u003c/li\u003e\n\t\t\t\t\u003c/ul\u003e\n\t\t\t\t\u003c/li\u003e\n\t\t\t\t\u003cli\u003eMinimal Play Mode\u003c/li\u003e\n\t\t\t\t\u003cli\u003eMaximal Play Mode\u003c/li\u003e\n\t\t\t\u003c/ul\u003e\n\t\t\t\u003c/li\u003e\n\t\t\u003c/ul\u003e\n\t\t\u003c/li\u003e\n\t\t\u003cli\u003eOption to autoplay when scrolled into view\n\t\t\u003cul\u003e\n\t\t\t\u003cli\u003eProvide JavaScript to detect when iframe is scrolled into view and send message to play.\u003c/li\u003e\n\t\t\t\u003cli\u003eOption to loop while in viewport\u003c/li\u003e\n\t\t\u003c/ul\u003e\n\t\t\u003c/li\u003e\n\t\u003c/ul\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003eAPI\n\t\u003cul\u003e\n\t\t\u003cli\u003eUse\u00a0\u003ca href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage\"\u003ewindow.postMessage\u003c/a\u003e\u003c/li\u003e\n\t\t\u003cli\u003eSend and/or receive in JSON:\n\t\t\u003cul\u003e\n\t\t\t\u003cli\u003eRaw PTN text\u003c/li\u003e\n\t\t\t\u003cli\u003eCompressed PTN\u003c/li\u003e\n\t\t\t\u003cli\u003eParsed PTN\u003c/li\u003e\n\t\t\t\u003cli\u003eCurrent board TPS\u003c/li\u003e\n\t\t\t\u003cli\u003ePTN changes\u003c/li\u003e\n\t\t\t\u003cli\u003eHighlight square(s)\n\t\t\t\u003cul\u003e\n\t\t\t\t\u003cli\u003eBy square\u003c/li\u003e\n\t\t\t\t\u003cli\u003eBy ply\u003c/li\u003e\n\t\t\t\u003c/ul\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli\u003eNavigation events:\n\t\t\t\u003cul\u003e\n\t\t\t\t\u003cli\u003ePrevious\u003c/li\u003e\n\t\t\t\t\u003cli\u003eNext\u003c/li\u003e\n\t\t\t\t\u003cli\u003ePly by ID\u003c/li\u003e\n\t\t\t\t\u003cli\u003eMove by ID\u003c/li\u003e\n\t\t\t\u003c/ul\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli\u003eSingle ply (to be) performed\n\t\t\t\u003cul\u003e\n\t\t\t\t\u003cli\u003eErrors from Board.do_ply()\u003c/li\u003e\n\t\t\t\u003c/ul\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli\u003eErrors from Game.parse()\u003c/li\u003e\n\t\t\t\u003cli\u003eMessage to be displayed\n\t\t\t\u003cul\u003e\n\t\t\t\t\u003cli\u003eTypes:\n\t\t\t\t\u003cul\u003e\n\t\t\t\t\t\u003cli\u003esuccess\u003c/li\u003e\n\t\t\t\t\t\u003cli\u003ewarning\u003c/li\u003e\n\t\t\t\t\t\u003cli\u003eerror\u003c/li\u003e\n\t\t\t\t\t\u003cli\u003ehelp\u003c/li\u003e\n\t\t\t\t\t\u003cli\u003einfo\u003c/li\u003e\n\t\t\t\t\t\u003cli\u003ecomment\u003c/li\u003e\n\t\t\t\t\t\u003cli\u003eplayer1\u003c/li\u003e\n\t\t\t\t\t\u003cli\u003eplayer2\u003c/li\u003e\n\t\t\t\t\u003c/ul\u003e\n\t\t\t\t\u003c/li\u003e\n\t\t\t\u003c/ul\u003e\n\t\t\t\u003c/li\u003e\n\t\t\u003c/ul\u003e\n\t\t\u003c/li\u003e\n\t\u003c/ul\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003eEdit Mode Improvements\n\t\u003cul\u003e\n\t\t\u003cli\u003eDelete preceding auto-matched brace/quote on Backspace\u003c/li\u003e\n\t\t\u003cli\u003eTPS parsing\n\t\t\u003cul\u003e\n\t\t\t\u003cli\u003eDon\u0027t rely on Size tag\u003c/li\u003e\n\t\t\t\u003cli\u003eWarn about \"Size\" and \"TPS\" conflict\u003c/li\u003e\n\t\t\u003c/ul\u003e\n\t\t\u003c/li\u003e\n\t\u003c/ul\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003eUI for adding comments and evaluation marks\u003c/li\u003e\n\t\u003cli\u003eUI for tags\n\t\u003cul\u003e\n\t\t\u003cli\u003eShow all possible tags\u003c/li\u003e\n\t\t\u003cli\u003eIndicate required tags\u003c/li\u003e\n\t\t\u003cli\u003eInputs provide options or format validation\u003c/li\u003e\n\t\u003c/ul\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003eConnect to \u003ca href=\"http://playtak.com/\"\u003ePlayTak.com\u003c/a\u003e server\u003c/li\u003e\n\u003c/ul\u003e"
+   },
+   "id": "986379",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "64263",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/64263"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "865008",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-986379",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-986379"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1759820",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2013-12-27T19:22:30+00:00",
+     "facebook": null,
+     "first_name": "gruppler",
+     "full_name": "gruppler",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/64263/7ca2cdad264346c18bceaa0cc1fdd70d?token-time=2145916800\u0026token-hash=tRvHI1OWf8D1brg2FkCpR7GyrIyB2leRY77fzYJeFng%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/64263/7ca2cdad264346c18bceaa0cc1fdd70d?token-time=2145916800\u0026token-hash=jsDeqCJk9Kb0KDEugivB6_64QbPFeTsYAXBKf-R_qhw%3D",
+     "twitch": null,
+     "twitter": "gruppler",
+     "url": "https://www.patreon.com/gruppler",
+     "vanity": "gruppler",
+     "youtube": null
+    },
+    "id": "64263",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "986379",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/986379"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 2,
+     "upgrade_url": "/bePatron?c=986379\u0026rid=1759820"
+    },
+    "id": "post-aggregation-for-0-986379",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-06-12T03:49:43.353110+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to the development version\u003c/li\u003e\u003cli\u003eVote for feature prioritization\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-12T03:49:43.353110+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-06-12T03:49:43.353110+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Voter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=986379\u0026rid=1759820",
+     "user_limit": null
+    },
+    "id": "1759820",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 63,
+     "created_at": "2017-06-12T03:42:43+00:00",
+     "description": "For $100 per major feature, I\u0027ll get the project rolling again, clean up the mess I left, and wrap up the first iteration of the \"branching\" feature. Each major feature will likely take a month or longer to build.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "865008",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/986379"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": null,
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "d85855e6-7c94-4c6d-8844-2165b789a03e",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "gruppler is creating PTN Ninja"
+});
+    </script>

@@ -1,0 +1,354 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "6ByrdCNl2uf3gzRtlo-oo9BiUslfm0_4gxBz-1dIcVI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "819448",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/819448"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-02-25T21:34:49+00:00",
+    "creation_name": "fun bits and pieces in Rust",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1568097/89d02c1951c0411a9c74c8d22a677b85?token-time=2145916800\u0026token-hash=34dWuf2D8sawFa50PaqfJ0vFmxGM2WQD6nkruee7oIE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1568097/89d02c1951c0411a9c74c8d22a677b85?token-time=2145916800\u0026token-hash=qJeAgysnpP_7-bV_Fpv1hHBzBKPGtNevm8reDnkpClA%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/jMJRTjnh_jo\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://www.youtube.com/watch?v=jMJRTjnh_jo",
+    "one_liner": null,
+    "patron_count": 12,
+    "pay_per_name": "month",
+    "pledge_sum": 2709,
+    "pledge_url": "/bePatron?c=1568097",
+    "published_at": "2018-02-25T21:50:37+00:00",
+    "summary": "Thanks for considering to support me!\u003cbr\u003eI will donate 50% of the money to the people behind Open Source.\u003cbr\u003eThe first batch will go to the family of the creator of the Nunito font. \u003ca href=\"http://sansoxygen.com/\"\u003eRead his tragic story here.\u003c/a\u003e\u003cbr\u003e\u003cbr\u003eThe other 50% will go to getting better video equipment. Right now I\u0027m saving for a bigger SSD for faster rendering (currently using an external hard-drive because of size limitations)\u003cbr\u003e"
+   },
+   "id": "1568097",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9954178",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9954178"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1187878",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "96351",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2567864",
+       "type": "reward"
+      },
+      {
+       "id": "2567869",
+       "type": "reward"
+      },
+      {
+       "id": "2567874",
+       "type": "reward"
+      },
+      {
+       "id": "2567882",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Howdy!\u003cbr\u003eYes, this is the show we\u0027ve all been waiting for.\u003cbr\u003eHello Rust! will pull us out of the morass of undefined behavior into the brave new world of safe systems programming.\u003cbr\u003eIt will be our lighthearted journey to become fearless, more effective programmers.\u003cbr\u003e",
+     "created": "2018-02-25T21:34:08+00:00",
+     "facebook": null,
+     "first_name": "Hello",
+     "full_name": "Hello Rust!",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/9954178/dc1a47922aaf42b68af55659b35e1a83?token-time=2145916800\u0026token-hash=1dd3W-qWy6aCGhNsSYE77wwpVt92p7HOmrfgJXskYw4%3D",
+     "last_name": "Rust!",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9954178/dc1a47922aaf42b68af55659b35e1a83?token-time=2145916800\u0026token-hash=dTWEi371XvUW4Qv_rhn6jtGK4se-JguGUx_6_K5yxw8%3D",
+     "twitch": null,
+     "twitter": "hellorustshow",
+     "url": "https://www.patreon.com/hellorust",
+     "vanity": "hellorust",
+     "youtube": "https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw"
+    },
+    "id": "9954178",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1568097",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1568097"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-04-30T08:50:36.484401+00:00",
+     "description": "With this, you just want to say THANK YOU for doing the show. As a reward, you push my motivation to the maximum to produce the very best content I can.",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-13T20:50:47.155524+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2567864/46cf9638e16c4d24adee1d48f9ded4b5?token-time=2145916800\u0026token-hash=paCDpvLPxu2vr6mlDT_SLRBqJsmM7SvU8M0X5yJ1bRE%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-13T20:50:47.145078+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fellow",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1568097\u0026rid=2567864",
+     "user_limit": null
+    },
+    "id": "2567864",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-04-30T08:55:45.498043+00:00",
+     "description": "You allow me to spend time on keeping the workflow of the show [1] and the lessons learned [2] up-to-date.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAs a reward, this will make it easier for others to start their own show and get even more content published.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e[1]: \u003ca href=\"https://github.com/hello-rust/show\" rel=\"nofollow noopener\" target=\"_blank\"\u003ehttps://github.com/hello-rust/show\u003c/a\u003e#faq\u003c/p\u003e\n\u003cp\u003e[2]: \u003ca href=\"https://github.com/hello-rust/show/blob/master/LESSONS_LEARNED.md)\" rel=\"nofollow noopener\" target=\"_blank\"\u003ehttps://github.com/hello-rust/show/blob/master/LESSONS_LEARNED.md)\u003c/a\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-13T20:53:45.442272+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2567869/e98dd444ebf6485b9859d45e7a60b0b8?token-time=2145916800\u0026token-hash=ZokOdXei2DcOTnsp_lOtLtPeXbRJIktGrcsci_ma5Mo%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-13T20:53:45.429017+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1568097\u0026rid=2567869",
+     "user_limit": null
+    },
+    "id": "2567869",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-04-30T08:59:41.021186+00:00",
+     "description": "With this, I can create more Open Source tools to run a YouTube channel. This includes a Rust tool to change metadata on YouTube, a tool to render show notes in different formats (PDF, Markdown for YT, Patreon, Twitter,...) and a tool which keeps Patreon and the website in sync.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAs a reward, you enable me to streamline the production process and focus on the content. Also, the tools will be completely Open Source and usable by everybody.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-13T20:57:18.419150+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2567874/0b0134a8a7884f7982be0160c5abff30?token-time=2145916800\u0026token-hash=9owSlRM1kjM2qHLG-dtQHiludY8jYRSX_ieY6NPAfdA%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-13T20:57:18.409842+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Enabler",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1568097\u0026rid=2567874",
+     "user_limit": null
+    },
+    "id": "2567874",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-04-30T09:05:45.247874+00:00",
+     "description": "Not only do you truly believe in an open culture, you want creators to THINK BIG.\u003cbr\u003e\nThis is an unreasonable amount to ask for, but it will allow me to quickly get a lot of additional equipment (like a bigger SSD for faster rendering or a better lighting set-up) to bring the show to the next level.\u003cbr\u003e\n\u003cp\u003eAs a reward, I will mention you (and your project, if it\u0027s related to Rust) at the end of an episode.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-13T21:04:01.250425+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2567882/7fc371d0e4954ab2a8973a25e471bb7c?token-time=2145916800\u0026token-hash=lbl1n21v-owfr5grgBGj9xtMmJv10Nmf436zDidk_Pc%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-13T21:04:01.240969+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1568097\u0026rid=2567882",
+     "user_limit": null
+    },
+    "id": "2567882",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 54,
+     "created_at": "2018-04-30T08:44:14+00:00",
+     "description": "Reaching this goal would mean that I can roughly cover the maintenance costs of the website and all other channels. I can also keep the show notes and FAQ section up-to-date.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1187878",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-04-30T08:46:39+00:00",
+     "deleted_at": null,
+     "description": "Reaching this goal would mean that I can roughly cover the maintenance costs of the website and all other channels. I can also keep the show notes and FAQ section up-to-date.\u003cbr\u003e",
+     "goal_text": "Reaching this goal would mean that I can roughly cover the maintenance costs of the website and all other channels. I can also keep the show notes and FAQ section up-to-date.\u003cbr\u003e",
+     "number_patrons": 21,
+     "reached_at": null
+    },
+    "id": "96351",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1568097"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "083be876-dd72-4de6-bc29-e393e06aa797",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Hello Rust! is creating fun bits and pieces in Rust"
+});
+    </script>

@@ -1,0 +1,492 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "t7OfOMebx7woqMzXMBY7vfkkb-6U_O1fba3cpfXYk6A";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "552888",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/552888"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-08-22T04:17:29+00:00",
+    "creation_name": "Discord Bots and Programs",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1179181/5989b8dd3b43444ca067ab78f815d32a?token-time=2145916800\u0026token-hash=XorkN3N5GVAOBfUl6DmNJf_OnOLnfTBthzwxuQWK5RA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1179181/5989b8dd3b43444ca067ab78f815d32a?token-time=2145916800\u0026token-hash=1oChq0QvRlD3tW61Vib9GZcKqQWclKSUtgaUIHDQm1Y%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 6,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1179181",
+    "published_at": "2017-08-22T05:55:51+00:00",
+    "summary": "I like to spend my time programming in Python, Elixir, and any other language I learn along the way. I spend most of my time working on my Discord Bots, and occasionally working on various little apps or libraries.\u003ca href=\"https://github.com/henry232323\"\u003e\u003cbr\u003eSee my work on GitHub\u003c/a\u003e.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cdel\u003eOne day far in the future, I give my thanks to my first Patrons.\u003c/del\u003e\u00a0The day has come! Thank you to everyone who supports me and everyone who uses my bots, I love making them and I hope you all love using them!"
+   },
+   "id": "1179181",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7402730",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7402730"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "942224",
+       "type": "goal"
+      },
+      {
+       "id": "1055443",
+       "type": "goal"
+      },
+      {
+       "id": "1149092",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "86562",
+       "type": "patron_goal"
+      },
+      {
+       "id": "86563",
+       "type": "patron_goal"
+      },
+      {
+       "id": "86564",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1179181",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1179181"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1944662",
+       "type": "reward"
+      },
+      {
+       "id": "1944664",
+       "type": "reward"
+      },
+      {
+       "id": "1944667",
+       "type": "reward"
+      },
+      {
+       "id": "2260232",
+       "type": "reward"
+      },
+      {
+       "id": "2232191",
+       "type": "reward"
+      },
+      {
+       "id": "2247465",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-08-22T04:17:20+00:00",
+     "facebook": null,
+     "first_name": "Henry",
+     "full_name": "Henry",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMyIsInciOjIwMH0%3D/patreon-media/user/7402730/9cf9a7c5a1d8450ea846577b2de5cf8a?token-time=2145916800\u0026token-hash=GZpX2ApBmVjhvQjg4tz1JxZ0js5GS8PVdmBQrZXvSQw%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIzIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7402730/9cf9a7c5a1d8450ea846577b2de5cf8a?token-time=2145916800\u0026token-hash=4ymOVXHsiAbmd_wu908LfAlNFIK1RnZm53y-9PqyhO4%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/henry232323",
+     "vanity": "henry232323",
+     "youtube": null
+    },
+    "id": "7402730",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1179181",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1179181"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 2,
+     "upgrade_url": "/bePatron?c=1179181\u0026rid=1944662"
+    },
+    "id": "post-aggregation-for-0-1179181",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-08-22T05:52:46.344100+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAccess to patron-only content\u003c/li\u003e\n\u003cli\u003ePatron-only polls\u003c/li\u003e\n\u003cli\u003eMake up to 5 Maps with RPGBot\u003c/li\u003e\n\u003cli\u003e256x256 maps\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "393463162445234186"
+     ],
+     "edited_at": "2018-01-07T08:21:50.528543+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-07T08:21:50.484808+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Good Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1179181\u0026rid=1944662"
+    },
+    "id": "1944662",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-22T05:54:57.713443+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eMaybe other things if you ask?\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003cli\u003eMake 10 Maps with RPGBot\u003c/li\u003e\n\u003cli\u003e512x512 maps\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "393463162445234186"
+     ],
+     "edited_at": "2018-01-07T08:21:58.485591+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-07T08:21:58.457978+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Whoah Too Much Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1179181\u0026rid=1944664"
+    },
+    "id": "1944664",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-08-22T05:58:22.704124+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eMaybe make a sensible request, maybe I\u0027ll add it\u003c/li\u003e\n\u003cli\u003eAll previous rewards\u003c/li\u003e\n\u003cli\u003eMake 1 infinite generating Map with RPGBot\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "393463162445234186"
+     ],
+     "edited_at": "2018-01-07T08:22:10.297278+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-07T08:22:10.215651+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Thanks So Much Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1179181\u0026rid=1944667"
+    },
+    "id": "1944667",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-01-05T09:09:21.287600+00:00",
+     "description": "\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eMake 2 infinite generating Maps with RPGBot\u003c/li\u003e\n\u003cli\u003eStuff from before too\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "393463162445234186"
+     ],
+     "edited_at": "2018-01-06T00:29:12.969686+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-06T00:29:12.948856+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Running out of Names Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1179181\u0026rid=2260232"
+    },
+    "id": "2260232",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-12-23T18:43:13.912130+00:00",
+     "description": "I\u0027m really not sure how much I can offer, but thanks a lot for all your donations!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll the stuff from earlier tiers of course.\u003c/p\u003e",
+     "discord_role_ids": [
+      "393463162445234186"
+     ],
+     "edited_at": "2018-01-05T09:09:44.936540+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-05T09:09:44.890966+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "You Pay the Bills Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1179181\u0026rid=2232191"
+    },
+    "id": "2232191",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2017-12-31T17:59:58.993777+00:00",
+     "description": "With this tier alone the bot\u0027s platform can be maximized.",
+     "discord_role_ids": [
+      "393463162445234186"
+     ],
+     "edited_at": "2018-01-05T09:09:58.445426+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-05T09:09:58.366175+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "How Did We Get Here?",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1179181\u0026rid=2247465"
+    },
+    "id": "2247465",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2017-08-22T05:56:56+00:00",
+     "description": "The minimum amount I need to keep the bots running properly, given the size of the bots.",
+     "reached_at": "2018-01-20T06:13:44+00:00",
+     "title": ""
+    },
+    "id": "942224",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 57,
+     "created_at": "2017-12-21T21:10:20+00:00",
+     "description": "What are the odds?? Maybe I can spend some more time working on bots.",
+     "reached_at": "2018-03-18T18:39:23+00:00",
+     "title": ""
+    },
+    "id": "1055443",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 28,
+     "created_at": "2018-03-23T03:02:19+00:00",
+     "description": "You guys keep me going! Thanks to the enthusiasm of the bot users, not to mention my amazing Patrons, I can find the energy to keep the bots moving. Thank you all!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1149092",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-03-28T04:22:17+00:00",
+     "deleted_at": null,
+     "description": "No matter how many Patrons I have, each one of you helps!",
+     "goal_text": "No matter how many Patrons I have, each one of you helps!",
+     "number_patrons": 1,
+     "reached_at": null
+    },
+    "id": "86562",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-03-28T04:22:17+00:00",
+     "deleted_at": null,
+     "description": "The more Patrons I have the better I can make the bot, you guys help me upgrade the platform and help me spend more time making the bots better. Thank you all!",
+     "goal_text": "The more Patrons I have the better I can make the bot, you guys help me upgrade the platform and help me spend more time making the bots better. Thank you all!",
+     "number_patrons": 4,
+     "reached_at": null
+    },
+    "id": "86563",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-03-28T04:22:17+00:00",
+     "deleted_at": null,
+     "description": "You guys keep me going! Thanks to the enthusiasm of the bot users, not to mention my amazing Patrons, I can find the energy to keep the bots moving. Thank you all!",
+     "goal_text": "You guys keep me going! Thanks to the enthusiasm of the bot users, not to mention my amazing Patrons, I can find the energy to keep the bots moving. Thank you all!",
+     "number_patrons": 10,
+     "reached_at": null
+    },
+    "id": "86564",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1179181"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "3ba6ca58-3d2e-44a9-8b57-18970639b13b",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Henry is creating Discord Bots and Programs"
+});
+    </script>

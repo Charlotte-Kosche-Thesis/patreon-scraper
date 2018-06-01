@@ -1,0 +1,288 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "0YbAVRXWFm25yiPI9a-_SfYe4vCXrSFVpwIPPbaoiLc";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "313799",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/313799"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-10-19T00:38:05+00:00",
+    "creation_name": "an open-source computer called the Kestrel-3.",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/572570/0c4edbf616b548d4a69444455a901b66?token-time=2145916800\u0026token-hash=8fEv0grtOqcvYgwzH4lMDXWtRgrKBEZRNQ0153dwZsM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/572570/0c4edbf616b548d4a69444455a901b66?token-time=2145916800\u0026token-hash=AC_7NkivaPUUAGaqV4gRczjeow2xGUnDGKVZmdcYrWE%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "release merged to master",
+    "pledge_sum": 2700,
+    "pledge_url": "/bePatron?c=572570",
+    "published_at": "2016-12-07T00:48:37+00:00",
+    "summary": "Hi!  Thanks for stopping by.  My name is Sam, and I\u0027m working to bring a life-long dream of mine to life.  I\u0027m trying to build a computer from scratch, built from completely open-source components, from the system software all the way down to the microprocessor, its surrounding peripherals and adapters, and of course all the documentation to support the computer.\u003cbr\u003e\u003cbr\u003eI started this Patreon page in the hopes that, one day, I can earn enough to work on the Kestrel Computer Project full-time.  I\u0027m hoping that fans of this project can contribute what they feel is worth it to them to help make that a reality.  But, why me?  What makes me so special?\u003cbr\u003e\u003cbr\u003eThe \u003ca href=\"https://kestrelcomputer.github.io/kestrel\" rel=\"nofollow\" target=\"_blank\"\u003eKestrel Computer Project\u003c/a\u003e would most likely appeal to three broad, and occasionally overlapping, groups of people:\u003cbr\u003e\u003col\u003e\u003cli\u003eIt appeals to those who desire a \u003cstrong\u003esecure computing platform\u003c/strong\u003e.  Many people simply don\u0027t trust closed-source computers today.  Even a computer like the Raspberry Pi has closed-source elements in it which impedes open learning and freely sharing knowledge and expertise.  Many have expressed an interest in the Kestrel, despite the existence of the RPi, as a future computer of great interest due to its policy of \u003cstrong\u003eTrust Through Transparency\u003c/strong\u003e.\u003c/li\u003e\u003cli\u003eIt appeals, I think, to the \u003cstrong\u003eretro-computing community\u003c/strong\u003e as well.  Current-day Kestrel technology runs very slowly compared to contemporary desktop machines, or even your mobile phones.  This greatly amplifies the effects of inefficient programming.  Many retro-computing enthusiasts take pride in writing software for platforms that are reliable, secure, but also efficient and fast while consuming minimum resources.  There\u0027s a nice bonus too: make your code fast on a 6MIPS machine, and it\u0027ll become speed-of-thought on just about anything faster.\u003c/li\u003e\u003cli\u003eIt appeals to \u003cstrong\u003emakers\u003c/strong\u003e, thanks to Kestrel computers exposing lots of I/O.  So you get the usability benefits of a desktop computer system, including the ability to develop and run software on the machine itself, while also reaping the benefits often found in micro-controllers or FPGA boards.  This is not an accident: I have plans of using a future version of the Kestrel for my own amateur radio activities later on.\u003c/li\u003e\u003c/ol\u003e\u003cbr\u003e\u003cstrong\u003eDevelopment Forecast\u003cbr\u003e\u003c/strong\u003e\u003cbr\u003eThe Kestrel will require years of development before it can compete with commercial, closed- or mixed-source offerings today.  That said, I\u0027m rather close to demonstrating \"first boot\" on a Digilent Nexys-2 FPGA board.\u003cbr\u003e\u003cbr\u003eTo help illustrate why I think you might find this a worth-while cause to contribute to, I disclose my overall development plan below.  Nothing is set in stone, of course, and feedback from users along the way will help shape the future of the project.  For now, though, I would like to take things slow, and incrementally improve the design as I gain experience at each stage.\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e\"Toy\" stage.\u003c/strong\u003e\u00a0 First, I plan on releasing a computer about on par with a retro-computing favorite, the Atari ST 520 or 1040, using off-the-shelf FPGA development boards as a delivery platform.  This incarnation of the Kestrel computer will not be an ultra-high performer at only 6 million instructions per second (MIPS).  However, it will serve to demonstrate the concept, and provide a platform for future development work.  It will be on this platform that the bulk of the computer\u0027s equipment will be developed, including video, basic audio facilities, keyboard, and mouse input using PS/2 ports.  Additionally, I also intend on using this version of the computer to develop most of its system software as well, including its initial operating system and some development tools.  I will use SD/MMC technology for mass storage due to their ubiquity and relative ease of use compared to other storage media.  Access to memory will be very basic, which is why there is a 6 MIPS performance bottleneck.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e\"Tool\" stage.\u003c/strong\u003e\u00a0 Once I get a basic computer constructed and debugged at least to my satisfaction, I plan on focusing most of my energy on resolving the RAM bottleneck.  This will involve a three-pronged learning effort on my part: first, I need to learn how cache controllers work, how SDRAM interfaces work, and then, I need to boost performance of the CPU\u0027s execution engine by nearly 100% to exploit this new memory architecture.  On a Digilent Nexys-2 and a Terasic DE-1 FPGA development board, resolving this problem can bring performance closer to 30 MIPS (if my math is right), which now puts the computer in the same ball park as an Atari Falcon or Commodore-Amiga 4000 with 50MHz CPUs.  At this performance level, a more sophisticated operating system like Linux or Plan 9 actually becomes usable, and so some effort at getting some manner of memory-protected OS running should happen about this time as well.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e\"Power Tool\" stage.\u003c/strong\u003e\u00a0 After demonstrating and supporting the faster Kestrel computer, it will be time to move on.  Video editing, composing music, 3D graphics, et. al. are possible at 15 MIPS (as accelerated Amigas proved years ago); but, even at 30 MIPS, it will lack the interactive feedback artists and makers have come to expect of contemporary computers.  Thus, the next iteration of the Kestrel design must focus on improving user responsiveness.  I expect, GPU notwithstanding, the FPGA peripherals will probably be about as done as they\u0027re going to be, so to get any better performance from the computer we\u0027ll need to look into commissioning open silicon (perhaps from a vendor like LowRISC or through a service bureau like SiFive).  This should bring our performance at least up to 800MHz, and more likely than not into the GHz territory.  At this point, performance competitive with some closed-source, off-the-shelf computers you can purchase today is achievable.  This will require fabrication of custom motherboards, and yet another memory architecture redesign to accomodate these higher speeds. This is the design most likely to be placed in a \"real\" desktop case.\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cstrong\u003eHow Funding Works\u003cbr\u003e\u003c/strong\u003e\u003cbr\u003eI\u0027ve decided to fund my project on a \"per release\" basis, for two reasons:\u003cbr\u003e\u003cbr\u003e\u003col\u003e\u003cli\u003eIf I go on a monthly basis, there\u0027s really no economic incentive for me to work consistently on the Kestrel.  I can just yak about it online as if I were working on it.  Blogging about how people \u003cem\u003eshould\u003c/em\u003e build a computer is a lot easier than actually building one yourself.  I\u0027m opinionated, and I\u0027ll probably still blog about such topics.  However, I don\u0027t believe in unjustified charity either; you\u0027re putting up funds you worked hard for to fund this project, and I personally want the satisfaction of knowing I\u0027m contributing to something other people besides me feel is important too.\u003c/li\u003e\u003cli\u003eI tend to be deliberate and slow.  I anticipate \u003cem\u003eat most\u003c/em\u003e two releases per month while unemployed, and maybe one release every two months while employed, during the best of times.  This means that the cost per release would fluctuate wildly, and this is assuming a consistent release rate!  I think it is more honorable if you donate only if I demonstrate tangible progress.  I think tieing a donation receipt to a github commit hash  is a wonderful thing, and is the only fair way to justify your contributions to my project.  Plus, if/when funding approaches the \"don\u0027t need to work for someone else\" level, it provides that much more motivation to release something significant on a more punctual basis.\u003c/li\u003e\u003c/ol\u003e\u003cbr\u003eAlso remember, you can cap how much you want to donate as well.  If I get a bit over-zealous and make four releases of new material in a month, but you don\u0027t feel it\u0027s worth donating more than twice, Patreon lets you enforce such a cap.  There\u0027s absolutely no fear of me breaking your bank because I happen to become hyper-productive.\u003cbr\u003e\u003cbr\u003eFor as long as this project remains underway, the funds donated will be used to cover costs such as medical, rent, food, and other things required for supporting married life in the San Francisco Bay Area.\u00a0 \u003cstrong\u003eIf, for some reason, I need additional funds, for instance to fabricate custom circuit boards or to make a one-off purchase that is Kestrel-related, I will run separate campaigns on an as-needed basis.\u00a0 \u003c/strong\u003eThrough this funding approach, you have greater freedom to control not just how much you fund, but also \u003cem\u003ewhat\u003c/em\u003e you fund.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eThanks!\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eI\u0027d like to take this opportunity to thank you for the level of interest you\u0027ve shown so far.\u00a0 You may elect not to become a patron, and that\u0027s perfectly OK.\u00a0 I\u0027ve been self-funding this project since 2011 on and off, so I\u0027m no stranger to letting my day-job fund its development.\u00a0 But, knowing that you care enough to consider donating and becoming a patron of the project is incredibly motivating and empowering.\u00a0 Regardless of your decision, I support you and thank you.\u003cbr\u003e"
+   },
+   "id": "572570",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4259465",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4259465"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1134240",
+       "type": "reward"
+      },
+      {
+       "id": "1134239",
+       "type": "reward"
+      },
+      {
+       "id": "1134238",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-10-19T00:37:43+00:00",
+     "facebook": null,
+     "first_name": "Samuel",
+     "full_name": "Samuel A. Falvo II",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4259465/b9d39577c35d4ac8b877db39b6c0889f?token-time=2145916800\u0026token-hash=ESIqleMl1ci8desYDLAaRehYnaD8-Y4pMfnuY3iPoQU%3D",
+     "last_name": "A. Falvo II",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4259465/b9d39577c35d4ac8b877db39b6c0889f?token-time=2145916800\u0026token-hash=Fa78l0_9e8aHDQNHSwYbiW6aFH73rfzeuulHWvX9tJs%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/kestrelcomputer",
+     "vanity": "kestrelcomputer",
+     "youtube": null
+    },
+    "id": "4259465",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "572570",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/572570"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-12-06T22:58:17.231008+00:00",
+     "description": "Thank you for your contribution!\u00a0 It\u0027s truly appreciated!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-07T00:21:34.320464+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-06T22:58:17.231008+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Thank You",
+     "unpublished_at": null,
+     "url": "/bePatron?c=572570\u0026rid=1134240",
+     "user_limit": null
+    },
+    "id": "1134240",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-12-06T22:58:17.203505+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eName listed in SUPPORTERS.md file in project\u0027s root directory.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-07T00:21:34.358107+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-06T22:58:17.203505+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=572570\u0026rid=1134239",
+     "user_limit": null
+    },
+    "id": "1134239",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-12-06T22:58:17.172811+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eName listed in credits in system firmware.\u003c/li\u003e\u003cli\u003eName listed in SUPPORTERS.md file.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-07T00:21:34.393411+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-06T22:58:17.172811+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Firmware Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=572570\u0026rid=1134238",
+     "user_limit": null
+    },
+    "id": "1134238",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/572570"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "118652c9-226c-457c-beb6-3a1b77fbaa2f",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Samuel A. Falvo II is creating an open-source computer called the Kestrel-3."
+});
+    </script>

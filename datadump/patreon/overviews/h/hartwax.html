@@ -1,0 +1,527 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "puiGIrtjyEG7d4ETAMpUNNBf57lAl2fHeSiZn-PWyvQ";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "385059",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/385059"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-03-14T01:26:01+00:00",
+    "creation_name": "Art \u0026 Comics",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/794578/ffb9d6a0049345689bb067135ef25fbc?token-time=2145916800\u0026token-hash=WX7phKzRlMuCthFX51X3J9osKk8HvFfMv3ySdpRF4n0%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/794578/ffb9d6a0049345689bb067135ef25fbc?token-time=2145916800\u0026token-hash=u7XYmhQXNKBcS9hU8D3Q7QZMiqLMw6M6KgiBrCnpgho%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_sum": 2893,
+    "pledge_url": "/bePatron?c=794578",
+    "published_at": "2017-03-14T02:36:58+00:00",
+    "summary": "Greetings! Name\u0027s Marsh! I am a struggling artist and comic maker from Denver, Colorado! I\u0027ve spent pretty much all of my free time throughout my life making art, one way or another - and now, I\u0027ve finally found the motivation to get my art out there!\u00a0\u003cbr\u003e\u003cbr\u003eCurrently I\u0027m working on a comic called \"Prophet, Incubating\". It\u0027s in its vERY early stages right now, but hopefully I\u0027ll be able to start posting the first few pages by the end of the year. Thank you for your patience !!"
+   },
+   "id": "794578",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5334165",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5334165"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "748654",
+       "type": "goal"
+      },
+      {
+       "id": "790899",
+       "type": "goal"
+      },
+      {
+       "id": "912859",
+       "type": "goal"
+      },
+      {
+       "id": "912860",
+       "type": "goal"
+      },
+      {
+       "id": "912861",
+       "type": "goal"
+      },
+      {
+       "id": "988196",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-794578",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-794578"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1680297",
+       "type": "reward"
+      },
+      {
+       "id": "1493731",
+       "type": "reward"
+      },
+      {
+       "id": "1493732",
+       "type": "reward"
+      },
+      {
+       "id": "1493801",
+       "type": "reward"
+      },
+      {
+       "id": "1493733",
+       "type": "reward"
+      },
+      {
+       "id": "1820801",
+       "type": "reward"
+      },
+      {
+       "id": "1820824",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-03-14T01:25:34+00:00",
+     "facebook": "https://www.facebook.com/hartwax",
+     "first_name": "Hartwax",
+     "full_name": "Hartwax",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5334165/75987b62be19429995922c449abb27b3?token-time=2145916800\u0026token-hash=bqgXJexsjr2FXE8STBwAXdQkJ6o8cmXHy0HoeWfwKvY%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5334165/75987b62be19429995922c449abb27b3?token-time=2145916800\u0026token-hash=keHPt4ZWeZytzY9vsaUpZv94qa7--z3qKGOl914ffUA%3D",
+     "twitch": "https://www.twitch.tv/hartwax",
+     "twitter": "freak0la",
+     "url": "https://www.patreon.com/hartwax",
+     "vanity": "hartwax",
+     "youtube": null
+    },
+    "id": "5334165",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "794578",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/794578"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 15,
+     "upgrade_url": "/bePatron?c=794578\u0026rid=1680297"
+    },
+    "id": "post-aggregation-for-0-794578",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-05-11T04:47:21.940534+00:00",
+     "description": "Greetings lovely moo! With this dollar, you can unlock exclusive content and join my community of patrons. Thank you so much! You can;\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAccess patron-only content\u003c/li\u003e\n\u003cli\u003eConnect with other patrons\u003c/li\u003e\n\u003cli\u003ehave my eternal love and loyalty\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-06T04:27:03.651455+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1680297/28ddd8cbbec240a092a4cad56a5416a6?token-time=2145916800\u0026token-hash=CdwKT-p-4zVK-NqrznHvKP5OOueP7Ayh_A8caOaqzB4%3D",
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-05-11T04:47:21.940534+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Moo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=794578\u0026rid=1680297",
+     "user_limit": null
+    },
+    "id": "1680297",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-03-14T01:28:13.598780+00:00",
+     "description": "Much love to you, lovely! Now you get to see my latest work before anyone else!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eEarly access to work (Sketches)\u003c/li\u003e\n\u003cli\u003eArt that I don\u0027t post anywhere else!\u003c/li\u003e\n\u003cli\u003eAccess to my Patron-only Tutorial blog!*\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*currently in progress\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-06T04:26:44.913296+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1493731/b1de518a9c8d498c86d7c8efc34d2be3?token-time=2145916800\u0026token-hash=35eZqVOO65sbih1oCPJndAW8ChTseNFbZvLdmfqAWTk%3D",
+     "patron_count": 1,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2017-03-14T01:28:13.598780+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Copper Moo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=794578\u0026rid=1493731",
+     "user_limit": null
+    },
+    "id": "1493731",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-03-14T01:28:13.700103+00:00",
+     "description": "Oh my gosh! 5 bucks??!! That means you get;\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eA Monthly Print! Each month has a different theme!\u003c/li\u003e\n\u003cli\u003eAny suggestions/requests you make via email or comment will be looked at first!\u003c/li\u003e\n\u003cli\u003eAny previous rewards!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-06T04:39:57.135877+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1493732/ceaa8ce6fa83464183d0e9098cc24099?token-time=2145916800\u0026token-hash=YKDL4fre_Ds7lxYi0goQQushI_O5AWmFPDVdiNd0b3k%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-14T01:28:13.700103+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Silver Moo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=794578\u0026rid=1493732",
+     "user_limit": null
+    },
+    "id": "1493732",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 800,
+     "amount_cents": 800,
+     "created_at": "2017-03-14T02:12:01.631543+00:00",
+     "description": "Join me for a monthly livestream !!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eMonthly patron-only livestream\u003c/li\u003e\n\u003cli\u003eProcess videos!\u003c/li\u003e\n\u003cli\u003eAny previous rewards!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-06T04:28:04.985992+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1493801/8cdde8ba2460473ba7352679918fc04f?token-time=2145916800\u0026token-hash=8rZGr-HTgABRbdMwYKY3WJQa1oP-TvQ-dZjpuzMrGkw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-14T02:12:01.631543+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Gold Moo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=794578\u0026rid=1493801",
+     "user_limit": null
+    },
+    "id": "1493801",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-03-14T01:28:13.832942+00:00",
+     "description": "As a patron, you\u0027ll be recognized for making my work possible !! \u0026lt;3\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eName will be on Dedication Page in next chapter of comic\u003c/li\u003e\n\u003cli\u003ePersonalized Thank you Letter + small gift !\u003c/li\u003e\n\u003cli\u003e\u00a0A Digital OR Traditional commission piece (EVERY MONTH) \u00a0(Up to 1000x1000 pixels for Digital OR up to 8 inches x 8 inches for Traditional)\u00a0\u003c/li\u003e\n\u003cli\u003e\u00a0Any previous rewards!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-06T04:28:22.002751+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1493733/4f80c1fec4a04ca093f3f8a83961ee3a?token-time=2145916800\u0026token-hash=mGjOaeL4RPSraLwKB0bTtrM3f8ZyAeC1Sb0hlZxyxJg%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-14T01:28:13.832942+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Diamond Moo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=794578\u0026rid=1493733",
+     "user_limit": null
+    },
+    "id": "1493733",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-07-06T03:36:13.132260+00:00",
+     "description": "OH BOY! 15 whole dollars??!! The offerings that will be left for you, dear, are the following;\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003ePersonalized Thank you Letter + TWO small gifts and t-shirt with a design of your choosing* !\u003c/li\u003e\n\u003cli\u003e\u00a0Two Digital OR Traditional commission piece (EVERY MONTH) \u00a0(Up to 1000x1000 pixels for Digital OR up to 8 inches x 8 inches for Traditional for each)\u00a0\u003c/li\u003e\n\u003cli\u003eGets to have a say on what the next month\u0027s Print Theme will be\u003c/li\u003e\n\u003cli\u003e\u00a0Any previous rewards!\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*Designs are pre-made\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-06T04:29:20.369292+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-06T03:36:13.132260+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Jade Moo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=794578\u0026rid=1820801",
+     "user_limit": null
+    },
+    "id": "1820801",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-07-06T03:40:35.515008+00:00",
+     "description": "Many thanks, my lovely. My offering for you for pledging such a large amount of wealth is now the following;\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ePersonalized Thank you Letter + several gifts and t-shirt with a design of your choosing* !\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u00a0Two Digital OR Traditional commission piece (EVERY MONTH) \u00a0(Up to 5000x5000 pixels for Digital OR up to 12 inches x \u00a0inches for 12 Traditional for each)\u00a0\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e3 Private One - on - one Tutorials via Discord/Skype OR 4 handdrawn post cards shipped with Monthly Print (EVERY MONTH)\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u00a0Any previous rewards!\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*Designs are pre-made\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-06T04:30:19.115700+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-06T03:52:52.182693+00:00",
+     "remaining": 14,
+     "requires_shipping": true,
+     "title": "Opal Moo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=794578\u0026rid=1820824",
+     "user_limit": 15
+    },
+    "id": "1820824",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2000,
+     "completed_percentage": 100,
+     "created_at": "2017-03-14T02:19:13+00:00",
+     "description": "\u003cstrong\u003eHelp me go Premium on Join.Me !!\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eOnce this goal is achieved, I will be able to release speed draws and start doing streams! Long term, I would like to do live streams for local charities but this will help me move in the right direction!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "748654",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 7,
+     "created_at": "2017-04-14T18:46:22+00:00",
+     "description": "\u003cstrong\u003eCloser to making this my job!\u003cbr\u003e\u003cbr\u003e\u003c/strong\u003eFor now this is my end long term goal! This amount is the minimum I need to be able to stay in my apartment! This helps me pay rent and other bills!!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "790899",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 8000,
+     "completed_percentage": 36,
+     "created_at": "2017-07-24T22:32:17+00:00",
+     "description": "\u003cstrong\u003eMore rewards for Patrons! Better Art!!\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003eNow I can afford better materials to make more traditional art and hopefully I\u0027ll be able to invest more into my online store and art I sell at venues!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "912859",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 6500,
+     "completed_percentage": 44,
+     "created_at": "2017-07-24T22:32:17+00:00",
+     "description": "\u003cstrong\u003eExhibiting artist at a local Art Venue!\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003eWith this 65 dollars a month, I\u0027ll be able to exhibit my art among other artists at the Denver Art Society with will help me get my art out there and in turn, I\u0027ll be able to focus on larger projects!!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "912860",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 12500,
+     "completed_percentage": 23,
+     "created_at": "2017-07-24T22:32:17+00:00",
+     "description": "\u003cstrong\u003eMy own art studio!\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003eHere at 125$ a month, I\u0027ll be able to rent out my own art studio at the Denver Art Society and have my own space to work and present/sell art!!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "912861",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500,
+     "completed_percentage": 100,
+     "created_at": "2017-10-08T07:47:42+00:00",
+     "description": "\u003cstrong\u003eCOUPON CODES ARE A THING NOW !!\u003cbr\u003e\u003cbr\u003e\u003c/strong\u003eThis 5$ a month supports my online shop in promoting and rewarding you all with SICK sales and offers on my website! Keep an eye out for Patreon-exclusive ones ;)",
+     "reached_at": "2017-10-30T18:45:21+00:00",
+     "title": ""
+    },
+    "id": "988196",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/794578"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "7dd388f5-47db-4d91-ac5a-e2d20614a1b8",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Hartwax is creating Art \u0026 Comics"
+});
+    </script>

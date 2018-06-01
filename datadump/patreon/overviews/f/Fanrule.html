@@ -1,0 +1,543 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "925MdR0obVVsqK1dC-XfF3KUZuw70NwMu5ewtlLjOys";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "110780",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/110780"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-11-08T01:48:19+00:00",
+    "creation_name": "Pinup Art, Comic Books, Photoshoots, Movies and Video Games",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/236473/aabce6b603f342168f67409313a2142a?token-time=2145916800\u0026token-hash=1qq3Y1LVkaCNIoV8pz2V0HhOgoDgoRVp-F2FzWaIjlg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/236473/aabce6b603f342168f67409313a2142a?token-time=2145916800\u0026token-hash=b3F_217_PUzZhTH9C_qbXtfsyGYULu-_jOLBNvkFKTo%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "Hi! :D My name is Philip Lawson and I created this page as way to pool resources for people who want to commission art, photos, videos and games..  ",
+    "patron_count": 14,
+    "pay_per_name": "month",
+    "pledge_sum": 3131,
+    "pledge_url": "/bePatron?c=236473",
+    "published_at": "2015-11-08T10:17:57+00:00",
+    "summary": "We all have GREAT ideas within us, but we don\u0027t always have the funds or\n support to bring them to reality. This page allows us to pool resources\n so we can commission art, photos, videos and even games that we\u0027ve \nalways wanted to see made. I\u0027m an editor that knows how to bring \ntalented people together to realize their creative goals.\u003cbr\u003e"
+   },
+   "id": "236473",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "806478",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/806478"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "278630",
+       "type": "goal"
+      },
+      {
+       "id": "278631",
+       "type": "goal"
+      },
+      {
+       "id": "278632",
+       "type": "goal"
+      },
+      {
+       "id": "278633",
+       "type": "goal"
+      },
+      {
+       "id": "278634",
+       "type": "goal"
+      },
+      {
+       "id": "278635",
+       "type": "goal"
+      },
+      {
+       "id": "278636",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-236473",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-236473"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "353747",
+       "type": "reward"
+      },
+      {
+       "id": "353749",
+       "type": "reward"
+      },
+      {
+       "id": "1191740",
+       "type": "reward"
+      },
+      {
+       "id": "353751",
+       "type": "reward"
+      },
+      {
+       "id": "353752",
+       "type": "reward"
+      },
+      {
+       "id": "1191821",
+       "type": "reward"
+      },
+      {
+       "id": "1191833",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-05-31T03:18:20+00:00",
+     "facebook": "https://www.facebook.com/Philip.Lawson.129",
+     "first_name": "Philip",
+     "full_name": "Philip Lawson",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/806478/a6e00cc67858474bb7049faa42ba7aac?token-time=2145916800\u0026token-hash=p-rOnWA2i_bMAe6B_fbC5ylG8Hkmfg3QwjIaoDiTZQM%3D",
+     "last_name": "Lawson",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/806478/a6e00cc67858474bb7049faa42ba7aac?token-time=2145916800\u0026token-hash=dWV2I-hil6TVx3KiGPAP9HCLlB51E8kfGVJQxGFPiYQ%3D",
+     "twitch": null,
+     "twitter": "fanrule1",
+     "url": "https://www.patreon.com/Fanrule",
+     "vanity": "Fanrule",
+     "youtube": "https://www.youtube.com/user/zenx007/videos"
+    },
+    "id": "806478",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "236473",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/236473"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 103,
+     "upgrade_url": "/bePatron?c=236473\u0026rid=353747"
+    },
+    "id": "post-aggregation-for-0-236473",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-08-23T18:35:43+00:00",
+     "description": "\u003cstrong\u003eThis gets you:\u003c/strong\u003e\n\u003cp\u003e\u003cstrong\u003e1. A THANK YOU. :)\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2. Access to all the NSFW + HIGH-RES art \u00a0and photos and comics produced by this page.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e3. A VOTE, once per week, on who one of the next models/characters drawn will be. I decide in the case of a tie. :)\u003c/strong\u003e\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-21T10:12:17.887809+00:00",
+     "image_url": null,
+     "patron_count": 14,
+     "post_count": 77,
+     "published": true,
+     "published_at": "2016-08-23T18:35:43+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Contributor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=236473\u0026rid=353747",
+     "user_limit": null
+    },
+    "id": "353747",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-08-23T18:35:43+00:00",
+     "description": "\u003cstrong\u003eThis gets you:\u003c/strong\u003e\n\u003cp\u003e\u003cstrong\u003e1. ALL the lower contribution rewards\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2. Downloads of all WEB GAMES and VIDEOS produced here.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e3. A FITSPIRATION collage of whichever model you choose, once per month.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-21T11:01:44.671161+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-08-23T18:35:43+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Participant",
+     "unpublished_at": null,
+     "url": "/bePatron?c=236473\u0026rid=353749",
+     "user_limit": null
+    },
+    "id": "353749",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-12-21T10:23:28.686828+00:00",
+     "description": "\u00a0\n\u003cp\u003e\u003cstrong\u003eThis gets you:\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e1. ALL the lower tiers rewards\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2. One (1) PAINTED PHOTO-MANIPULATION artwork of whatever model and/or character you choose.\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-21T10:39:38.727624+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-21T10:23:28.686828+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Decider",
+     "unpublished_at": null,
+     "url": "/bePatron?c=236473\u0026rid=1191740",
+     "user_limit": null
+    },
+    "id": "1191740",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-08-23T18:35:43+00:00",
+     "description": "\u00a0\n\u003cp\u003e\u003cstrong\u003eThis\u003c/strong\u003e \u003cstrong\u003egets\u003c/strong\u003e \u003cstrong\u003eyou:\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e1.\u003c/strong\u003e \u003cstrong\u003eALL the lower tiers rewards\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2.\u003c/strong\u003e \u003cstrong\u003eTwo (2) PAINTED PHOTO-MANIPULATION artworks of whatever models and/or characters you choose. They can be separate, or in the same picture.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0\u003cstrong\u003e3. A WEEKLY FITSPIRATION collage of whichever model you choose, once per week.\u003c/strong\u003e \u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-21T11:02:38.969240+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-23T18:35:43+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Double Up",
+     "unpublished_at": null,
+     "url": "/bePatron?c=236473\u0026rid=353751",
+     "user_limit": null
+    },
+    "id": "353751",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-08-23T18:35:43+00:00",
+     "description": "\u00a0\n\u003cp\u003e\u003cstrong\u003eThis\u003c/strong\u003e \u003cstrong\u003egets\u003c/strong\u003e \u003cstrong\u003eyou:\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e1.\u003c/strong\u003e \u003cstrong\u003eALL\u003c/strong\u003e \u003cstrong\u003ethe\u003c/strong\u003e \u003cstrong\u003elower\u003c/strong\u003e \u003cstrong\u003etiers\u003c/strong\u003e \u003cstrong\u003erewards\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2.\u003c/strong\u003e \u003cstrong\u003eThree (3) PAINTED\u003c/strong\u003e \u003cstrong\u003ePHOTO-MANIPULATION\u003c/strong\u003e \u003cstrong\u003eartworks\u003c/strong\u003e \u003cstrong\u003eof\u003c/strong\u003e \u003cstrong\u003ewhatever\u003c/strong\u003e \u003cstrong\u003emodels\u003c/strong\u003e \u003cstrong\u003eand/or\u003c/strong\u003e \u003cstrong\u003echaracters\u003c/strong\u003e \u003cstrong\u003eyou\u003c/strong\u003e \u003cstrong\u003echoose. They can be separate, or in the same picture.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eOR\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e3. One, drawn/painted artwork from myself, Maximilian Draco, Shukugumo or any other of the artists I feature on this page.\u003c/strong\u003e\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-21T10:37:28.640846+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-23T18:35:43+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Designer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=236473\u0026rid=353752",
+     "user_limit": null
+    },
+    "id": "353752",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-12-21T10:49:00.222192+00:00",
+     "description": "\u00a0\n\u003cp\u003e\u003cstrong\u003eThis\u003c/strong\u003e \u003cstrong\u003egets\u003c/strong\u003e \u003cstrong\u003eyou:\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e1.\u003c/strong\u003e \u003cstrong\u003eALL\u003c/strong\u003e \u003cstrong\u003ethe\u003c/strong\u003e \u003cstrong\u003elower\u003c/strong\u003e \u003cstrong\u003etiers\u003c/strong\u003e \u003cstrong\u003erewards\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2.\u003c/strong\u003e \u003cstrong\u003eThree (3)\u003c/strong\u003e \u003cstrong\u003ePAINTED\u003c/strong\u003e \u003cstrong\u003ePHOTO-MANIPULATION\u003c/strong\u003e \u003cstrong\u003eartworks\u003c/strong\u003e \u003cstrong\u003eof\u003c/strong\u003e \u003cstrong\u003ewhatever\u003c/strong\u003e \u003cstrong\u003emodels\u003c/strong\u003e \u003cstrong\u003eand/or\u003c/strong\u003e \u003cstrong\u003echaracters\u003c/strong\u003e \u003cstrong\u003eyou\u003c/strong\u003e \u003cstrong\u003echoose.\u003c/strong\u003e \u003cstrong\u003eThey\u003c/strong\u003e \u003cstrong\u003ecan\u003c/strong\u003e \u003cstrong\u003ebe\u003c/strong\u003e \u003cstrong\u003eseparate,\u003c/strong\u003e \u003cstrong\u003eor\u003c/strong\u003e \u003cstrong\u003ein\u003c/strong\u003e \u003cstrong\u003ethe\u003c/strong\u003e \u003cstrong\u003esame\u003c/strong\u003e \u003cstrong\u003epicture.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eAND\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eOne (1) drawn/painted artwork from myself, Maximilian Draco, Shukugumo or any other of the artists I feature on this page. ( you can also have two (2) drawn pictures or six (6) photmanipuations)\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eOR\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e3. One FULL DRAWN COMIC PAGE\u003c/strong\u003e \u003cstrong\u003eor Two (2) Painted PHOTOMANIPULATION Comic Pages\u003c/strong\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eYou\u003c/strong\u003e \u003cstrong\u003echoose the characters and\u003c/strong\u003e y\u003cstrong\u003eou\u003c/strong\u003e \u003cstrong\u003ecan\u003c/strong\u003e \u003cstrong\u003ewrite\u003c/strong\u003e \u003cstrong\u003ethe dialogue\u003c/strong\u003e \u003cstrong\u003efor\u003c/strong\u003e \u003cstrong\u003ethem,\u003c/strong\u003e \u003cstrong\u003eif you want\u003c/strong\u003e.\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-21T10:58:34.865699+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-21T10:49:00.222192+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Creator",
+     "unpublished_at": null,
+     "url": "/bePatron?c=236473\u0026rid=1191821",
+     "user_limit": null
+    },
+    "id": "1191821",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-12-21T10:57:13.136759+00:00",
+     "description": "\u00a0\n\u003cp\u003e\u003cstrong\u003eThis\u003c/strong\u003e \u003cstrong\u003egets\u003c/strong\u003e \u003cstrong\u003eyou:\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e1.\u003c/strong\u003e \u003cstrong\u003eALL\u003c/strong\u003e \u003cstrong\u003ethe\u003c/strong\u003e \u003cstrong\u003elower\u003c/strong\u003e \u003cstrong\u003etiers\u003c/strong\u003e \u003cstrong\u003erewards\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2.\u003c/strong\u003e \u003cstrong\u003eSix (6)\u003c/strong\u003e \u003cstrong\u003ePAINTED\u003c/strong\u003e \u003cstrong\u003ePHOTO-MANIPULATION\u003c/strong\u003e \u003cstrong\u003eartworks\u003c/strong\u003e \u003cstrong\u003eof\u003c/strong\u003e \u003cstrong\u003ewhatever\u003c/strong\u003e \u003cstrong\u003emodels\u003c/strong\u003e \u003cstrong\u003eand/or\u003c/strong\u003e \u003cstrong\u003echaracters\u003c/strong\u003e \u003cstrong\u003eyou\u003c/strong\u003e \u003cstrong\u003echoose.\u003c/strong\u003e \u003cstrong\u003eThey\u003c/strong\u003e \u003cstrong\u003ecan\u003c/strong\u003e \u003cstrong\u003ebe\u003c/strong\u003e \u003cstrong\u003eseparate,\u003c/strong\u003e \u003cstrong\u003eor\u003c/strong\u003e \u003cstrong\u003ein\u003c/strong\u003e \u003cstrong\u003ethe\u003c/strong\u003e \u003cstrong\u003esame\u003c/strong\u003e \u003cstrong\u003epicture.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eAND\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eTwo (2)\u003c/strong\u003e \u003cstrong\u003edrawn/painted\u003c/strong\u003e \u003cstrong\u003eartwork2\u003c/strong\u003e \u003cstrong\u003efrom\u003c/strong\u003e \u003cstrong\u003emyself,\u003c/strong\u003e \u003cstrong\u003eMaximilian\u003c/strong\u003e \u003cstrong\u003eDraco,\u003c/strong\u003e \u003cstrong\u003eShukugumo\u003c/strong\u003e \u003cstrong\u003eor\u003c/strong\u003e \u003cstrong\u003eany\u003c/strong\u003e \u003cstrong\u003eother\u003c/strong\u003e \u003cstrong\u003eof\u003c/strong\u003e \u003cstrong\u003ethe\u003c/strong\u003e \u003cstrong\u003eartists\u003c/strong\u003e \u003cstrong\u003eI\u003c/strong\u003e \u003cstrong\u003efeature\u003c/strong\u003e \u003cstrong\u003eon\u003c/strong\u003e \u003cstrong\u003ethis\u003c/strong\u003e \u003cstrong\u003epage. ( you can also have four (4) drawn pictures or twelve (12) photomanipuations)\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eOR\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e3. Two (2) FULL DRAWN COMIC PAGES or Four (4) Painted PHOTOMANIPULATION Comic Pages\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eYou\u003c/strong\u003e \u003cstrong\u003echoose the characters and\u003c/strong\u003e y\u003cstrong\u003eou\u003c/strong\u003e \u003cstrong\u003ecan\u003c/strong\u003e \u003cstrong\u003ewrite\u003c/strong\u003e \u003cstrong\u003ethe dialogue\u003c/strong\u003e \u003cstrong\u003efor\u003c/strong\u003e \u003cstrong\u003ethem,\u003c/strong\u003e \u003cstrong\u003eif you want.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eOR\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e4. You get to choose a model to get a photoshoot/photoset from. We\u0027ll contact the model and arrange the photography. No one crazy famous. :P\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e5. You can have a character of your choosing input into any VIDEO GAME we create on this page.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e.\u003c/p\u003e\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-21T10:57:13.136759+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-21T10:57:13.136759+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Big Time",
+     "unpublished_at": null,
+     "url": "/bePatron?c=236473\u0026rid=1191833",
+     "user_limit": null
+    },
+    "id": "1191833",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 100,
+     "created_at": "2015-11-08T03:01:31+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eIf I get at least this much, that means someone else has helped contribute to making a piece of art, at least as much as I have. Thank you. :)\u003c/strong\u003e\u003cbr\u003e\u003c/div\u003e",
+     "reached_at": "2016-07-05T10:47:20+00:00",
+     "title": ""
+    },
+    "id": "278630",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 12,
+     "created_at": "2015-11-08T03:01:31+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eWith crafty editing, I will make a 4 to 6 page comic scene with this much support. It will also give some work to a few great artists.\u003c/strong\u003e\u003cbr\u003e\u003c/div\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "278631",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 6,
+     "created_at": "2015-11-08T03:01:31+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eNot only will I commission art, but I will also commission a photoshoot or videoshoot from a model. The resulting material would then be used for future art references. This also helps pay for text books and rent for aspiring artists.\u003c/strong\u003e\u003cbr\u003e\u003c/div\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "278632",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 2,
+     "created_at": "2015-11-08T03:01:31+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eThis amount gives work to myself, at least 5 artists and a couple of up and coming models. People start living their dreams. :3\u003c/strong\u003e\u003cbr\u003e\u003c/div\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "278633",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 1,
+     "created_at": "2015-11-08T03:01:31+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eI will create a full 24 page issue of my comic NEXUS, featuring contributor chosen characters. We\u0027ll also commission 3 model photoshoots, and get them to create some short Youtube videos. This lets the artists and models create truly PROFESSIONAL portfolios. We will also start to have contributor characters fully rendered to be played in a game engine.\u003c/strong\u003e\u003cbr\u003e\u003c/div\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "278634",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000000,
+     "completed_percentage": 0,
+     "created_at": "2015-11-08T03:01:31+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eI will produce a QUARTERLY (every 3 months) issue of NEXUS as well as commission quarterly photoshoots/videoshoots of models that the contributors can vote on to choose. We will produce an entire video game level, using a ready made engine, featuring the characters the contributors pic, and update it quarterly with new characters. Every month there would be either an entirely new comic, a new photoshoot/videoshoot, or a new game update.\u003c/strong\u003e\u003c/div\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "278635",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500000,
+     "completed_percentage": 0,
+     "created_at": "2015-11-08T03:01:31+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eI will produce a BI-MONTHLY (every two months) issue of NEXUS. I will commission BI-MONTHLY \nphotoshoots/videoshoots of models that the contributors can vote on to \nchoose AND make a short, 30-MINUTE FILM featuring a story line that the contributors have helped to create. We will produce video game levels using and ADVANCED game engine, featuring the characters the \ncontributors pic, and update it quarterly with new characters.\u00a0\u003c/strong\u003e\u003cbr\u003e\u003c/div\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "278636",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/236473"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "4022a224-765f-4b04-bff1-e673309698e9",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Philip Lawson is creating Pinup Art, Comic Books, Photoshoots, Movies and Video Games"
+});
+    </script>

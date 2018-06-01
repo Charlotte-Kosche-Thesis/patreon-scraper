@@ -1,0 +1,401 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "aKBI9Oui7iElUGyuMlwliJFhwDZ0kDC5_Tn4SlQiz9U";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "336079",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/336079"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-05-23T17:25:17+00:00",
+    "creation_name": "A Fantastic Golf Podcast",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/372714/81179996f2a4450baaa92efb09959981?token-time=2145916800\u0026token-hash=e9iqai4TtHoO528s5IPZ_KiiIkhWGQ3oXebz_ptNDEY%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/372714/81179996f2a4450baaa92efb09959981?token-time=2145916800\u0026token-hash=BJ0y2LQNW_Go98sPYl6e-XmjDrhZqOlfT2N1k-ChDWw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": null,
+    "main_video_url": "http://thoseweekendgolfguys.com/video/1-17-promo.wmv",
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=372714",
+    "published_at": "2017-01-09T17:54:08+00:00",
+    "summary": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/e8r-CaMKbZU\" width=\"560\"\u003e\u003c/iframe\u003eThose Weekend Golf Guys Podcast will no longer accept golf product advertising!! Y\u0027all are too sophisticated not to realize if we are paid to extol the virtues of a particular product it doesn\u0027t necessarily mean we truly use and/or recommend the product. So we will no longer do that. Now, if you hear any of us tell you a particular product is the best thing since sliced bread, you can believe we \u003cem\u003ereally mean it\u003c/em\u003e!\u003cbr\u003e\u003cbr\u003eBut we need your help so we can better help you. Please consider becoming a Patron. Just $5 a month. It would be like buying us a beer! This way, we can afford to only endorse products we really use and really like and know will help you.\u003cbr\u003e\u003cbr\u003eAnd we have lots of ways to thank you for your support.\u003cbr\u003e"
+   },
+   "id": "372714",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3346531",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3346531"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "671954",
+       "type": "goal"
+      },
+      {
+       "id": "671955",
+       "type": "goal"
+      },
+      {
+       "id": "671956",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-372714",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-372714"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1263950",
+       "type": "reward"
+      },
+      {
+       "id": "1263964",
+       "type": "reward"
+      },
+      {
+       "id": "1263991",
+       "type": "reward"
+      },
+      {
+       "id": "2238888",
+       "type": "reward"
+      },
+      {
+       "id": "1263997",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-05-23T17:13:05+00:00",
+     "facebook": "https://www.facebook.com/golfguys",
+     "first_name": "Those",
+     "full_name": "Those Weekend Golf Guys",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3346531/63cc3fabfb5c4221bb37078209e60615?token-time=2145916800\u0026token-hash=qEywpGGRRBxsHAk5b0WSqmTWPEHPgpJWRFW_lKwYdGY%3D",
+     "last_name": "Weekend Golf Guys",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3346531/63cc3fabfb5c4221bb37078209e60615?token-time=2145916800\u0026token-hash=h2e0eB5nxEBM1FEIMrG6hu_jTHiblWSWiD7gk5mxOJE%3D",
+     "twitch": "",
+     "twitter": "wkndgolfguys",
+     "url": "https://www.patreon.com/golfguys",
+     "vanity": "golfguys",
+     "youtube": "https://www.youtube.com/channel/UCfeqeIt6lGh9DoKmVslkSFg"
+    },
+    "id": "3346531",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "372714",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/372714"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 11,
+     "upgrade_url": "/bePatron?c=372714\u0026rid=1263950"
+    },
+    "id": "post-aggregation-for-0-372714",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-01-09T17:34:09.156286+00:00",
+     "description": "Get a \"Shout Out\" and a sincere \"Thank you\" on our show once a month.\n\u003cp\u003eYour name permanently displayed on our \"Wall of Fame\".\u003c/p\u003e\n\u003cp\u003eInvitation to our private Facebook Group (where we have lots of undisclosed fun!)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-27T20:51:22.475337+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1263950/05b342585f354cd58c3601cf662746f3?token-time=2145916800\u0026token-hash=azKVqEOtoG3ptAEDplmkKq8oc9jZMRmzjpryw63tOds%3D",
+     "post_count": 10,
+     "published": true,
+     "published_at": "2017-12-27T20:51:22.442387+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Become A Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=372714\u0026rid=1263950"
+    },
+    "id": "1263950",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-01-09T17:39:11.713715+00:00",
+     "description": "Be included in our super private Facebook Community.\n\u003cul\u003e\n\u003cli\u003eFree access to Jeff Smith\u0027s Quick Fix Webinars\u003c/li\u003e\n\u003cli\u003eCommercial Free Podcast feed 2 days before anyone else\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-27T20:43:47.820278+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1263964/a32f03d29f304abf901e7dcddcd3fa4c?token-time=2145916800\u0026token-hash=yqchBnBEQndozpR-ymAvv-Tu8dYtMqSseemX2z21UpU%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-27T20:43:47.792396+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Friend of The Golf Guys",
+     "unpublished_at": null,
+     "url": "/bePatron?c=372714\u0026rid=1263964"
+    },
+    "id": "1263964",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-01-09T17:44:41.913734+00:00",
+     "description": "Hear audio out takes from podcast recording session (sometimes NSFW!)\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eGet \"Behind The Scenes\" video from Golf Guys recording sessions.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eBe a guest on the show! Talk about your game or ask Jeff some questions that can help lower your scores\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-27T20:46:32.441204+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1263991/41c711d4e5fd4198aae1af8c486541e2?token-time=2145916800\u0026token-hash=tWMenrXJJ2686Wbm_RCCI2Imp8x8PQ6cOU_nbIUig28%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-27T20:46:32.406828+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Golf Guys Insider",
+     "unpublished_at": null,
+     "url": "/bePatron?c=372714\u0026rid=1263991"
+    },
+    "id": "1263991",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-12-27T20:34:01.618897+00:00",
+     "description": "This is for you, the golfer who wants to get better. Not only will you enjoy the commercial free version of the Podcast and the video version too, but also this level includes a membership in the 5DollarGolfClub at no charge!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eEnjoy the entertainment and learn how to lose 6 to 8 strokes per round directly from Jeff Smith.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus everything else above.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-24T19:10:28.755532+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2238888/68b0a6bdf81140578a256547c588158f?token-time=2145916800\u0026token-hash=r6C-y4YtnLZJqx2XGg7ylHOMZgp0A-MLWdJBJBneSZw%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-24T19:10:28.729201+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Raving Fan",
+     "unpublished_at": null,
+     "url": "/bePatron?c=372714\u0026rid=2238888"
+    },
+    "id": "2238888",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-01-09T17:49:27.574908+00:00",
+     "description": "Get everything listed above plus a Weekend Golf Guys golf hat and shirt! You\u0027ve never looked so dapper!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-24T19:13:12.786289+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1263997/63664f55672d4cb3871aa651f1880ec8?token-time=2145916800\u0026token-hash=izj8hzbGbDJQipWv-VAdugmLObm7qFXg6Vuk94MWQ-4%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-24T19:13:12.760195+00:00",
+     "remaining": 20,
+     "requires_shipping": true,
+     "title": "Look your best on the course",
+     "unpublished_at": null,
+     "url": "/bePatron?c=372714\u0026rid=1263997"
+    },
+    "id": "1263997",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-01-09T17:31:26+00:00",
+     "description": "When we hit this goal, our studio can be rebuilt with 21st century electronics to make the listening experience so much better for all our listeners.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "671954",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-01-09T17:31:26+00:00",
+     "description": "At this point we can afford to feature Jeff\u0027s Quick Fix Webinars on a platform that has no participant ceiling so everyone who want to attend can attend.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "671955",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-01-09T17:31:26+00:00",
+     "description": "We can purchase and outfit a van to use as a portable studio and do our show live from golf courses and other venues around the country.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "671956",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/372714"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "80b1b044-c16e-4350-8112-f824f5d2b897",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Those Weekend Golf Guys are creating A Fantastic Golf Podcast"
+});
+    </script>

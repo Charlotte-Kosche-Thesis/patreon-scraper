@@ -1,0 +1,672 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "bFJjLiga7BTmMu33nhIhJnhDeh6JFKsMiQo5VI9BAK4";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "417465",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/417465"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-03-12T23:52:32+00:00",
+    "creation_name": "a DIY art and music space",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/792745/0a7bf8c190ff4fa3b8161fb7476fa1d1?token-time=2145916800\u0026token-hash=BwuY6bKidrZJ_NF4joRQnmYaLmhawqqqCpCaiw166NI%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/792745/0a7bf8c190ff4fa3b8161fb7476fa1d1?token-time=2145916800\u0026token-hash=QWUakPREDZCemS0V4OqSibQpQhbAgIhQyr3-xcjj9VE%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 5,
+    "pay_per_name": "month",
+    "pledge_sum": 5580,
+    "pledge_url": "/bePatron?c=792745",
+    "published_at": "2017-04-18T15:53:29+00:00",
+    "summary": "Hamilton Audio Visual Node (HAVN) began in May, 2011, by a group of musicians and artists coming out of McMaster University.\u00a0\u003cbr\u003e\u003cbr\u003eOriginally for the purposes of studios and rehearsal space, HAVN has grown over the years and has since hosted hundreds of exhibitions, music shows, and workshops. We have also developed a tape label,\u00a0\u003ca href=\"https://havnrecords.bandcamp.com/\"\u003eHAVNRecords\u003c/a\u003e.\u003cbr\u003e\u003cbr\u003eHAVN is both an artist collective and a DIY space, striving to create an inclusive atmosphere in which to present and celebrate music, art, and community. Experimentation and collaboration have always been at the heart of HAVN. We are located in downtown Hamilton just off the beaten path in an area that is rapidly gentrifying, we are seeking outside funding to keep our doors open so that we can continue to provide access and camaraderie."
+   },
+   "id": "792745",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4807264",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4807264"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1545321",
+       "type": "reward"
+      },
+      {
+       "id": "1545405",
+       "type": "reward"
+      },
+      {
+       "id": "1545407",
+       "type": "reward"
+      },
+      {
+       "id": "1545410",
+       "type": "reward"
+      },
+      {
+       "id": "1590371",
+       "type": "reward"
+      },
+      {
+       "id": "1547957",
+       "type": "reward"
+      },
+      {
+       "id": "1545262",
+       "type": "reward"
+      },
+      {
+       "id": "1545388",
+       "type": "reward"
+      },
+      {
+       "id": "1547489",
+       "type": "reward"
+      },
+      {
+       "id": "1545392",
+       "type": "reward"
+      },
+      {
+       "id": "1547971",
+       "type": "reward"
+      },
+      {
+       "id": "1545370",
+       "type": "reward"
+      },
+      {
+       "id": "1545209",
+       "type": "reward"
+      },
+      {
+       "id": "1545232",
+       "type": "reward"
+      },
+      {
+       "id": "1545366",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2017-01-08T22:51:15+00:00",
+     "facebook": "https://www.facebook.com/havnode/",
+     "first_name": "HAVN",
+     "full_name": "HAVN (Hamilton Audio Visual Node)",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4807264/bdcd661c79c9438bb2e78af15fe25752?token-time=2145916800\u0026token-hash=w5Dgg00C2pthlre1MvBE0JAwApM23fFm7LQ0NbfN8Zk%3D",
+     "last_name": "(Hamilton Audio Visual Node)",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4807264/bdcd661c79c9438bb2e78af15fe25752?token-time=2145916800\u0026token-hash=4Vp8LEoQbaXuWZKwVYXNECmr9RfBPZD6ueDc7_k-zOQ%3D",
+     "twitch": null,
+     "twitter": "havnode",
+     "url": "https://www.patreon.com/havnode",
+     "vanity": "havnode",
+     "youtube": "https://www.youtube.com/channel/UCdHuIGgPkPL2a6vGzuCHYtQ"
+    },
+    "id": "4807264",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "792745",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/792745"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-03-30T20:37:25.907881+00:00",
+     "description": "For $1 per month you get +100 good conscience points for helping to keep HAVN alive and supporting the arts! And a big warm thank you from all of us.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-30T20:42:39.187922+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1545321/c3d9afb47d9b42c09b171e3f34129fa8?token-time=2145916800\u0026token-hash=hMPTOUGusaUhihB0tCVeN8U0d0zbKFaGfGUh9wb6nXw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-30T20:40:06.049552+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Warm fuzzies",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1545321",
+     "user_limit": null
+    },
+    "id": "1545321",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-03-30T21:03:26.814131+00:00",
+     "description": "You will receive one of our classic HAVN buttons, and any new designs that are released!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0*We encourage Hamilton-based folks to pick up their rewards at HAVN!*\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-19T14:05:27.105701+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1545405/0aa024ea595043c6b07c2f1122e5ad91?token-time=2145916800\u0026token-hash=CSu4yk8xeCEeSDYNDlku9Kp7HNj5Q7N7MsYyfs18QpA%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-30T21:09:27.394315+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Cute as a button",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1545405",
+     "user_limit": null
+    },
+    "id": "1545405",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-03-30T21:04:39.370310+00:00",
+     "description": "You will receive a HAVNRecords tape of our choosing every 6 months!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0*We encourage Hamilton-based folks to pick up their rewards at HAVN!*\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-19T14:04:22.003547+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1545407/377e6a5ab0a64b6d8169906b23adae4b?token-time=2145916800\u0026token-hash=moq1cuC5fIYouIHAZG48S5Z5jEznbQi5fA6tMVa-iCE%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-30T21:04:39.370310+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "HAVNRecords tape",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1545407",
+     "user_limit": null
+    },
+    "id": "1545407",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-03-30T21:07:00.000705+00:00",
+     "description": "You will receive a t-shirt with a HAVN design of your choosing!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0*We encourage Hamilton-based folks to pick up their rewards at HAVN!*\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-19T14:05:13.605591+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1545410/4ebbd8cf56ca48639685d674b78be190?token-time=2145916800\u0026token-hash=za1SGef8R3Ju95FIgbVB7DnbhuA_4SlbpY7xVa38YVg%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-30T21:07:00.000705+00:00",
+     "remaining": 25,
+     "requires_shipping": true,
+     "title": "HAVN tee",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1545410",
+     "user_limit": 25
+    },
+    "id": "1545410",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1200,
+     "amount_cents": 1200,
+     "created_at": "2017-04-12T13:45:36.083221+00:00",
+     "description": "You will receive a unique HAVN button every month!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0*We encourage Hamilton-based folks to pick up their rewards at HAVN!*\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-19T14:04:33.542867+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1590371/c41f5e6abc9b4c80827241bba0db6460?token-time=2145916800\u0026token-hash=4NzeAyq_5BvWrQrIsAhnNsQaYhebCoFdnPnsnrkVAbU%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-12T13:45:36.083221+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "HAVN Button Subscription",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1590371",
+     "user_limit": null
+    },
+    "id": "1590371",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1700,
+     "amount_cents": 1700,
+     "created_at": "2017-03-31T18:13:02.614988+00:00",
+     "description": "You will receive an annual 8x10 (unframed) print by Petra Matar.\n\u003cp\u003e\u003ca href=\"https://www.instagram.com/bonpetra/\" rel=\"nofollow noopener\" target=\"_blank\"\u003ehttps://www.instagram.com/bonpetra/\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-18T15:41:19.177300+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1547957/46e2611fe2464131babae31454a4f89c?token-time=2145916800\u0026token-hash=6aAuHoVm_901GZAabcYf1Z97WJYgVW9eKn5ZJ05SXC4%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-31T18:13:02.614988+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "BonPetra Print! ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1547957",
+     "user_limit": null
+    },
+    "id": "1547957",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-03-30T20:23:11.742687+00:00",
+     "description": "You will receive one 5x7 (unframed) print every 6 months by Ariel Bader-Shamai.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-12T13:39:35.568204+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1545262/3ed57ae2a5e94a56a241d861b04dadac?token-time=2145916800\u0026token-hash=3Z5wBn7hyQmParbpKML_VPLQoefPn6BU69JncKkeGmI%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-30T20:24:21.642845+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Photography loverz",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1545262",
+     "user_limit": null
+    },
+    "id": "1545262",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-03-30T20:58:37.431213+00:00",
+     "description": "Your portrait shot on film by Ariel Bader-Shamai.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-18T16:01:08.700559+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1545388/d4bddd0a5aef4757b0457baccaeac216?token-time=2145916800\u0026token-hash=JEJn0IJ0uJa4A0s1VtSbGf8fE35nTI_N67P-H5b9c-M%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-30T20:58:37.431213+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Portraits",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1545388",
+     "user_limit": null
+    },
+    "id": "1545388",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-03-31T15:08:27.394077+00:00",
+     "description": "You will receive a HAVNRecords tape in a handmade zippered pouch every 6 months.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*We encourage Hamilton-based folks to pick up their rewards at HAVN!*\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-19T14:04:08.329045+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1547489/935af0bb76484517b1af8491082c552a?token-time=2145916800\u0026token-hash=DhFpdX5KfTvfUsYd3OZ9pQlm92lwZHOICwaFseUx6ak%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-31T15:08:27.394077+00:00",
+     "remaining": 25,
+     "requires_shipping": true,
+     "title": "HAVNRecords tape with handmade enclosure",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1547489",
+     "user_limit": 25
+    },
+    "id": "1547489",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-03-30T21:00:20.070836+00:00",
+     "description": "Haolin Munk will write and record a song, just for you!",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-31T03:10:01.871746+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1545392/70431d5c56184bfb90e4bba1af3c0771?token-time=2145916800\u0026token-hash=SExVpWV1Pd8aOqe9cGusO1GGC_Hnmmdp2-l9H7d1EiI%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-30T23:00:27.450658+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": "Haolin Munk original tune",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1545392",
+     "user_limit": 3
+    },
+    "id": "1545392",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2017-03-31T18:16:31.412024+00:00",
+     "description": "Petra Matar will draw a custom personal portrait (8x10) for you!",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-31T18:16:33.527507+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1547971/6b630421bc47477e8c6972147a5c77ff?token-time=2145916800\u0026token-hash=cQwo1Qgow03XkbDRFoIE4sTlgHrNRFE8G5FXQgyLi7Q%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-31T18:16:31.412024+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "BonPetra Portrait",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1547971",
+     "user_limit": 3
+    },
+    "id": "1547971",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-03-30T20:51:54.792839+00:00",
+     "description": "You can host a one-night annual private event in our exhibition space.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-12T13:33:41.681748+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1545370/cdbcf15240544b69a5af98013b09704a?token-time=2145916800\u0026token-hash=FNZe5LydQHD9I6LppULsIPe3i_a2uCjvkqhbXl9vAx0%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-30T20:56:34.339357+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "The host",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1545370",
+     "user_limit": 1
+    },
+    "id": "1545370",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-03-30T20:10:01.379419+00:00",
+     "description": "You will receive one copy of each forthcoming HAVNRecords tape release.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0*We encourage Hamilton-based folks to pick up their rewards at HAVN!*\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-19T14:05:03.135232+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1545209/1bc6f9e77b1e44d5b86aa9908217d1b5?token-time=2145916800\u0026token-hash=PTeGOX1aeQ4y2HItF-nuFhzwkYuYh3nNc9WGg1a2e5g%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-30T20:18:52.266168+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "HAVNRecords Tape Subscription",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1545209",
+     "user_limit": 10
+    },
+    "id": "1545209",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-03-30T20:14:06.527312+00:00",
+     "description": "You will receive an annual 20-tape bundle of HAVNRecords releases with a handmade enclosure.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0*We encourage Hamilton-based folks to pick up their rewards at HAVN!*\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-19T14:04:49.054947+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1545232/e8413ede65704bfaa689c047b8d3c2e9?token-time=2145916800\u0026token-hash=oKn5KD6q-Xi4T2t5W-EGsIltsCZRGGwwrmLA1Smd5vU%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-30T20:18:46.247806+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "HAVNRecords Tape Club",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1545232",
+     "user_limit": 5
+    },
+    "id": "1545232",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-03-30T20:50:47.314674+00:00",
+     "description": "You can host a one-night annual public event in our \u00a0exhibition space.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-12T13:42:41.949348+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1545366/5cf95044d8d74861b1224ad9113ba21e?token-time=2145916800\u0026token-hash=rvlDJpOJQk4Fw6aw1Ou132brnjUhVpVK-10-jCDBeJI%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-30T20:56:52.458703+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "The artiste",
+     "unpublished_at": null,
+     "url": "/bePatron?c=792745\u0026rid=1545366",
+     "user_limit": 1
+    },
+    "id": "1545366",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/792745"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "cec79713-4847-4102-a711-100e91d774b5",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "HAVN (Hamilton Audio Visual Node) is creating a DIY art and music space"
+});
+    </script>

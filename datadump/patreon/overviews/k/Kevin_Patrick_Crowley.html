@@ -1,0 +1,593 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "H6aJH6q7tHciq4oEYTOSTij9rEJ8rNGX0lVMYdQZwSU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "369988",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/369988"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-02-05T06:43:04+00:00",
+    "creation_name": "News Sharing and Commentary.  The Occasional Cute Animal.",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_sum": 584,
+    "pledge_url": "/bePatron?c=736180",
+    "published_at": "2017-02-23T03:22:51+00:00",
+    "summary": "I\u0027m a news, politics and economics junkie.\u00a0 In the past 3 years I have read at the very least 100,000 pages on those topics. This makes me widely read but not a scholar, a poor man\u0027s autodidact wannabe at best. I am Classic Liberal with a dis-enchantment with government.\u00a0 Until it gets small enough to be a good and obedient servant it is, for now, the opponent. Protect the individual.\u00a0 Protect the helpless.\u00a0 Never hurt a child or a dog where I can get my hands on you. I\u0027m a Geek.\u00a0 A Nerd. Someday, I\u0027ll be worth the effort.\u003cbr\u003e"
+   },
+   "id": "736180",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "297554",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/297554"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "726063",
+       "type": "goal"
+      },
+      {
+       "id": "726094",
+       "type": "goal"
+      },
+      {
+       "id": "726095",
+       "type": "goal"
+      },
+      {
+       "id": "726096",
+       "type": "goal"
+      },
+      {
+       "id": "726097",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1432191",
+       "type": "reward"
+      },
+      {
+       "id": "1432206",
+       "type": "reward"
+      },
+      {
+       "id": "1432224",
+       "type": "reward"
+      },
+      {
+       "id": "1448241",
+       "type": "reward"
+      },
+      {
+       "id": "1432238",
+       "type": "reward"
+      },
+      {
+       "id": "1432287",
+       "type": "reward"
+      },
+      {
+       "id": "1432298",
+       "type": "reward"
+      },
+      {
+       "id": "1432331",
+       "type": "reward"
+      },
+      {
+       "id": "1432340",
+       "type": "reward"
+      },
+      {
+       "id": "1444400",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2014-09-07T21:07:03+00:00",
+     "facebook": "https://www.facebook.com/Kevin.Patrick.Crowley",
+     "first_name": "Kevin",
+     "full_name": "Kevin Patrick Crowley",
+     "gender": 1,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/297554/28ec650bddf64802abb3a842990f9b91?token-time=2145916800\u0026token-hash=xX0erwVzcOis7DauA-C3jeGtbofr3T9Ki6MvOPIr5sI%3D",
+     "last_name": "Patrick Crowley",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/297554/28ec650bddf64802abb3a842990f9b91?token-time=2145916800\u0026token-hash=Sp0Z96pOKp4MZ7PXG2F6UXOf8bmDgwm5flsngNPdFCQ%3D",
+     "twitch": null,
+     "twitter": "caohaoim",
+     "url": "https://www.patreon.com/Kevin_Patrick_Crowley",
+     "vanity": "Kevin_Patrick_Crowley",
+     "youtube": null
+    },
+    "id": "297554",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "736180",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/736180"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-02-22T23:24:09.975835+00:00",
+     "description": "Thank You. \u00a0Every bit helps.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-27T12:23:55.611577+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-22T23:24:09.975835+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "It\u0027s a start!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=736180\u0026rid=1432191",
+     "user_limit": null
+    },
+    "id": "1432191",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-02-22T23:30:49.991406+00:00",
+     "description": "Thank you!! \u00a0Your name, if you wish, will be listed as a sponsor in the notes portion of my Facebook Profile.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-27T12:23:55.637402+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-22T23:30:49.991406+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Basic Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=736180\u0026rid=1432206",
+     "user_limit": null
+    },
+    "id": "1432206",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-02-22T23:36:15.042996+00:00",
+     "description": "Same as Basic Sponsor and you can have an optional post dedicated to you.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-27T12:23:55.669902+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-22T23:36:15.042996+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Advanced Sponsor ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=736180\u0026rid=1432224",
+     "user_limit": null
+    },
+    "id": "1432224",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1100,
+     "amount_cents": 1100,
+     "created_at": "2017-02-27T20:04:20.710240+00:00",
+     "description": "Same As Advanced Sponsor but so much sexier.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-27T20:04:20.710240+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-27T20:04:20.710240+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "A Whore\u0027s Death",
+     "unpublished_at": null,
+     "url": "/bePatron?c=736180\u0026rid=1448241",
+     "user_limit": null
+    },
+    "id": "1448241",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-02-22T23:38:39.244623+00:00",
+     "description": "Same as Advanced and Basic plus you can select a Theme for a Day!!",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-27T12:23:55.702011+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-22T23:38:39.244623+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=736180\u0026rid=1432238",
+     "user_limit": null
+    },
+    "id": "1432238",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-02-22T23:48:45.604497+00:00",
+     "description": "Same as Patron and you select the topic for a 2000 word essay.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-27T12:23:55.729308+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-22T23:48:45.604497+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Ultra-Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=736180\u0026rid=1432287",
+     "user_limit": null
+    },
+    "id": "1432287",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2017-02-22T23:53:05.184249+00:00",
+     "description": "Same as Ultra-Patron plus you get to select a Theme Month",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-27T12:23:55.756529+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-22T23:53:05.184249+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Deranged Sociopath",
+     "unpublished_at": null,
+     "url": "/bePatron?c=736180\u0026rid=1432298",
+     "user_limit": null
+    },
+    "id": "1432298",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000000,
+     "amount_cents": 1000000,
+     "created_at": "2017-02-22T23:57:53.849865+00:00",
+     "description": "Same as Deranged Sociopath plus you get a Theme Month every year.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-27T12:23:55.781414+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-22T23:57:53.849865+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "You Need to Seek Professional Help",
+     "unpublished_at": null,
+     "url": "/bePatron?c=736180\u0026rid=1432331",
+     "user_limit": 1
+    },
+    "id": "1432331",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000000,
+     "amount_cents": 10000000,
+     "created_at": "2017-02-22T23:59:39.463280+00:00",
+     "description": "Same as You Need to Seek Professional Help plus The majority of posts will be about Otters.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-27T12:23:55.805825+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-22T23:59:39.463280+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Otter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=736180\u0026rid=1432340",
+     "user_limit": null
+    },
+    "id": "1432340",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000000,
+     "amount_cents": 100000000,
+     "created_at": "2017-02-26T18:24:04.507579+00:00",
+     "description": "Same as Otter but with African Wild Dogs and I will travel to your location and prepare a 1/2lb Burger to your specifications using an exclusive Rex Mason Grill. \u00a0*You must sign a waiver to be present.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-27T12:23:55.828910+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-26T18:24:04.507579+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "African Wild Dogs",
+     "unpublished_at": null,
+     "url": "/bePatron?c=736180\u0026rid=1444400",
+     "user_limit": null
+    },
+    "id": "1444400",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2017-02-22T22:32:19+00:00",
+     "description": "I get a new computer, aka a good computer that does not require either a hamster or an abacus to operate, and quit a part-time job so I can spend more time on this. It also convinces my Bride that spending time on the computer is not a waste of my time.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "726063",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 0,
+     "created_at": "2017-02-22T23:08:50+00:00",
+     "description": "I quit the part-time job I enjoy and do this full time.\u00a0 Yeah!!!!!!!\u003cbr\u003e\u003cbr\u003eYou all will get a video of me thanking you!!!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "726094",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 0,
+     "created_at": "2017-02-22T23:08:50+00:00",
+     "description": "I buy My Own Health Insurance and then send out lots of thank you notes.\u00a0 Very sincere thank you notes.\u003cbr\u003e\u003cbr\u003eAnd a special video of me doing a happy dance!!!\u00a0 Comedy Gold.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "726095",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 0,
+     "created_at": "2017-02-22T23:08:50+00:00",
+     "description": "At this point I would be morally obligated to write something truly profound and worthy of that.\u00a0 Working title: Let People Be\u003cbr\u003e\u003cbr\u003eYes, everyone would get an Autographed Electronic copy. \u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "726096",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000000,
+     "completed_percentage": 0,
+     "created_at": "2017-02-22T23:08:50+00:00",
+     "description": "I announce my candidacy for President of the United States as part of my campaign for World Domination.\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "726097",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/736180"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "d2624642-5b5a-452e-bb55-e6b08e2e3f31",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Kevin Patrick Crowley is creating News Sharing and Commentary.  The Occasional Cute Animal."
+});
+    </script>

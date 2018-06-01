@@ -1,0 +1,479 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "U8jDbo4d1BzMeCLsyKKM8R0_sihR8RQeuHOTDifZYQA";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "341373",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/341373"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-01-16T15:37:42+00:00",
+    "creation_name": "the Iconoclast of Things Podcast",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/703390/808bf8f4fe0c40d4b331f5de201577cf?token-time=2145916800\u0026token-hash=XnjOI5on-t-NyNEfHOftGJbme8PRlVwfHM0gjViQYHo%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/703390/808bf8f4fe0c40d4b331f5de201577cf?token-time=2145916800\u0026token-hash=3q7EQlv64-An31OEtsN469a2XNRWyWa1lheWcWpzhhc%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 11,
+    "pay_per_name": "month",
+    "pledge_sum": 10833,
+    "pledge_url": "/bePatron?c=703390",
+    "published_at": "2017-01-16T16:26:34+00:00",
+    "summary": "\u003cimg src=\"https://static1.squarespace.com/static/58668ddeb8a79b11ffe5c5eb/t/587cf3812994ca2394a20540/1484583822382/Clr_JohnVelghe_Small+copy.jpg\"\u003eTo me the best part of creating podcasts is taking you with me into the story. Taking you into the back yard of a Syrian refugee family, into the place where guitars are carved and sanded, into the kennels with rescue puppies and kittens. I produce this podcast independently, without censorship or outside influence. I answer to the truth, and I\u0027m obligated to the stories themselves.\u00a0\u003cbr\u003eSince I started making podcasts the support people have shown for the stories has been humbling and inspiring.\u00a0\u003cbr\u003eI\u0027m energized every day by the possibility of taking you with me into more places farther and farther from here. I want to take you to a dreary rehearsal space in Washington DC, or a dusty barn in Utah, or a skate park in Venice. Your stories are out there. \u00a0\u003cbr\u003e\u003cbr\u003eThis gives you a chance to be even closer to the stories a they get farther and farther from your home. And I really appreciate you helping me get you there."
+   },
+   "id": "703390",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4866064",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4866064"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "681327",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-703390",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-703390"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1290516",
+       "type": "reward"
+      },
+      {
+       "id": "1290517",
+       "type": "reward"
+      },
+      {
+       "id": "1290518",
+       "type": "reward"
+      },
+      {
+       "id": "1290519",
+       "type": "reward"
+      },
+      {
+       "id": "1290520",
+       "type": "reward"
+      },
+      {
+       "id": "1825692",
+       "type": "reward"
+      },
+      {
+       "id": "1746575",
+       "type": "reward"
+      },
+      {
+       "id": "1290521",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m a guitar player and songwriter living in the Midwestern United States. To pay my bills every month over the last 20 years I\u0027ve worked at producing these little videos for companies who wanted to tell people what they are all about. In the course of doing that, I was asked to do some features on tax preparers who work in New York City. Doing those interviews I met some of the most amazing people; to the average person, they were just people who do your taxes, but to me they were Abouli, a father of two boys in the Bronx who immigrated from Sierra Leone, Pablo, a former airline executive, and Michael, who had once played bridge with Bill Gates, and - maybe most memorable - Bill. Bill was known around Chelsea as The Man with the Watermelon Shoes because on specific days throughout the year he wore a pair of Converse All Stars painted to look like watermelons around New York in an effort to strike up conversations.\u00a0\u003cbr\u003e\u003cbr\u003eWhen bill sat down to be interviewed for this corporate video, he didn\u0027t want to do it and neither did I, frankly. It was late in the evening, I\u0027d been recording these video interviews for about 10 hours by myself and I was getting tired. Bill had shown up early and while I was interviewing someone else he was off camera complaining about having to be interviewed. I got him to sit down mic\u0027d him up and turned on the camera for what I promised would be a 10-minute interview. Two hours later Bill and I wrapped up the interview and promised to meet for lunch the next day.\u00a0\u003cbr\u003e\u003cbr\u003eBill was a baseball genius, a man who knew his history, numbers, he grew up in a house that was later razed to build Lincoln Center, and lived in Chelsea his whole life. I learned more about Bill from that interview than I did most people I\u0027d known for years. It took me a few years to realize that I\u0027d learned a lot about telling peoples\u0027 stories from talking to Bill and his friends in New York.\u00a0\u003cbr\u003e\u003cbr\u003eUntil finally, one day, while talking to Juj - my better half - it occurred to me, I should just do it as a podcast. And a few months later, Iconoclast of Things was born.",
+     "created": "2017-01-16T15:37:06+00:00",
+     "facebook": "https://www.facebook.com/iotpod/",
+     "first_name": "John",
+     "full_name": "John Evans",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4866064/4802ee5a53144c788de742c2cecd1ced?token-time=2145916800\u0026token-hash=J6JmVZZ95mi6vCpslvzReg1sFWs73FJKeNHxuwrX_S0%3D",
+     "last_name": "Evans",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4866064/4802ee5a53144c788de742c2cecd1ced?token-time=2145916800\u0026token-hash=VtQ61MGxLRELnEmju7ef8_Kz-B1Yjlx2j7CDWizHr_8%3D",
+     "twitch": null,
+     "twitter": "http://twitter.com/iotpod",
+     "url": "https://www.patreon.com/iconoclastofthings",
+     "vanity": "iconoclastofthings",
+     "youtube": "https://www.youtube.com/channel/UCTH8bhz_tP-K0Od7zilXZkQ"
+    },
+    "id": "4866064",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "703390",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/703390"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 7,
+     "upgrade_url": "/bePatron?c=703390\u0026rid=1290517"
+    },
+    "id": "post-aggregation-for-0-703390",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-01-16T15:47:56.852273+00:00",
+     "description": "You\u0027re officially a patron and will receive one very thankful virtual hug. Also, you\u0027ll have access to my patron-only feed for blog posts and picture updates along the way.",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-19T15:40:47.012053+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-16T15:47:56.852273+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=703390\u0026rid=1290516",
+     "user_limit": null
+    },
+    "id": "1290516",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-01-16T15:47:56.934036+00:00",
+     "description": "You\u0027ll see my work before anyone else with early access to content, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-19T15:40:47.033191+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2017-01-16T15:47:56.934036+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=703390\u0026rid=1290517",
+     "user_limit": null
+    },
+    "id": "1290517",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-01-16T15:47:56.947145+00:00",
+     "description": "You get the say! When I\u0027ve got a question, you\u0027ll be one of the few that can answer through polls, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-19T15:40:47.049871+00:00",
+     "image_url": null,
+     "patron_count": 8,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-16T15:47:56.947145+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=703390\u0026rid=1290518",
+     "user_limit": null
+    },
+    "id": "1290518",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-01-16T15:47:56.960177+00:00",
+     "description": "You\u0027ll get a new desktop wallpaper every month, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-19T15:40:47.065306+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2017-01-16T15:47:56.960177+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=703390\u0026rid=1290519",
+     "user_limit": null
+    },
+    "id": "1290519",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-01-16T15:47:56.972588+00:00",
+     "description": "Send me anything (you\u0027ll cover shipping costs) and I\u0027ll sign it, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-19T15:40:47.081426+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-16T15:47:56.972588+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=703390\u0026rid=1290520",
+     "user_limit": null
+    },
+    "id": "1290520",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-07-07T21:42:43.234148+00:00",
+     "description": "You pick 5 photos from my episode photography and I\u0027ll send you professional hi-res prints on archival quality paper suitable for framing.",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-07T21:42:43.234148+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-07T21:42:43.234148+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "5 Hi-res Photo Prints",
+     "unpublished_at": null,
+     "url": "/bePatron?c=703390\u0026rid=1825692",
+     "user_limit": null
+    },
+    "id": "1825692",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2017-06-06T15:48:19.414967+00:00",
+     "description": "You pick 5 photos from my episodes and I\u0027ll send you professionally printed, hi-res on archival quality paper suitable for framing.",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-06T15:48:22.289618+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1746575/466b4004a3644cc4aad76450ab3d7c7e?token-time=2145916800\u0026token-hash=PY-Wml_GNAouFvtrgkHJzHDO0Wy59-485PtJyBj3RKQ%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-06T15:48:19.414967+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "5 Photo Prints",
+     "unpublished_at": null,
+     "url": "/bePatron?c=703390\u0026rid=1746575",
+     "user_limit": null
+    },
+    "id": "1746575",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-01-16T15:47:56.984765+00:00",
+     "description": "This episode, you\u0027re the star. You\u0027ll be the official guest on a podcast of your choice (one time only), plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-19T15:40:47.098039+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-16T15:47:56.984765+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=703390\u0026rid=1290521",
+     "user_limit": null
+    },
+    "id": "1290521",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 10,
+     "created_at": "2017-01-16T16:07:47+00:00",
+     "description": "When I hit $1,000 per month I will be able to take you to places we\u0027ve never been and capture peoples\u0027 stories when and where they are happening.\u003cbr\u003e\u003cbr\u003eI want to tell you the stories of a refugee musician living in Washington DC, a Native American sheriff living in New Mexico, a typewriter collector living in Utah.\u003cbr\u003e\u003cbr\u003eYour pledge of support will help me get to those stories.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "681327",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/703390"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "14cdfcf0-9c74-4686-83b0-7927978f4cb6",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "John Evans is creating the Iconoclast of Things Podcast"
+});
+    </script>

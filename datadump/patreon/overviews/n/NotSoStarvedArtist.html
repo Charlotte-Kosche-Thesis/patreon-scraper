@@ -1,0 +1,591 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "auYGgRNlFkUpSiFLpzJyRIFdHGGLZ-Jml1Wok_wtKHI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "32566",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/32566"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-01-30T07:09:36+00:00",
+    "creation_name": " Digital Art and Short Stories!",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/143432/e18d959ec8764266ba7d64f978694c38?token-time=2145916800\u0026token-hash=1k8ir3bGOCsqMcRaTcwRCYqRPnsWdSGxFc5y0oMgki8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/143432/e18d959ec8764266ba7d64f978694c38?token-time=2145916800\u0026token-hash=ocJx6E1_JLenyLc7spGo2wWjGHreoHG57zTzzV5YLP4%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FqSOiK8l47jU%3Ffeature%3Doembed\u0026amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqSOiK8l47jU\u0026amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FqSOiK8l47jU%2Fhqdefault.jpg\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;type=text%2Fhtml\u0026amp;schema=youtube\" width=\"854\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://youtu.be/qSOiK8l47jU",
+    "one_liner": "My story will be told through generations. Right now, i\u0027m editing.",
+    "patron_count": 12,
+    "pay_per_name": "month",
+    "pledge_sum": 6338,
+    "pledge_url": "/bePatron?c=143432",
+    "published_at": "2015-01-30T07:49:51+00:00",
+    "summary": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eHey there! I\u0027m Reginald Waller Jr! The creator behind \u003c/strong\u003e\u003ca href=\"http://www.notsostarvedartist.com/\" rel=\"nofollow\"\u003eNotSoStarvedArtist\u003c/a\u003e\u003cbr\u003e\u003cstrong\u003e\u003cbr\u003e\u003cimg src=\"http://i711.photobucket.com/albums/ww113/reggiexyasha/Intro.jpg\" style=\"width: 187px;\"\u003e\u003cbr\u003e\u003c/strong\u003e\u003cbr\u003eI am\u00a0an artist, in every sense of the word. I mess up, I erase, I try again. Life is art. The most beautiful medium of it. I express myself through a variety of forms. Art pieces, comics, clothing, and writings.\u003cbr\u003e\u003cbr\u003eYou should pledge me because, you\u0027re supporting another manifestation of yourself. I\u0027m you, and you\u0027re me. We\u0027re just clearing different paths; for those that come after us. Thank You, if not for pledging me, just for reading why you should.\u003cbr\u003e\u003cbr\u003e\u003ca href=\"http://www.notsostarvedartist.com/\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cimg src=\"http://i711.photobucket.com/albums/ww113/reggiexyasha/Card.jpeg\" style=\"width: 204px;\"\u003e\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\u003cspan style=\"background-color: rgb(146, 205, 220);\"\u003e\u003c/span\u003e\u003cstrong\u003e\u003cspan style=\"background-color: rgb(146, 205, 220);\"\u003eWhat Is Pateron?\u003cbr\u003e\u003c/span\u003e\u003c/strong\u003e\u003cspan style=\"background-color: rgb(255, 255, 255);\"\u003e\u003c/span\u003e\u003cspan style=\"background-color: rgb(255, 255, 255);\"\u003ePatreon is a neat way for you to support\u00a0creators and the\u00a0art that they develop. Through this channel you \"pledge\" a monthly amount which aids me in the creation of\u00a0my works. Of course your pledge doesn\u0027t go unnoticed. You will receive benefits for contributing to my journey of being an artist.\u003c/span\u003e\u003cstrong\u003e\u003cbr\u003e\u003cbr\u003e\u003c/strong\u003e\u003cspan style=\"background-color: rgb(146, 205, 220);\"\u003e\u003cstrong\u003e\u003c/strong\u003e\u003c/span\u003e\u003cspan style=\"background-color: rgb(146, 205, 220);\"\u003e\u003cstrong\u003eWhen Will I Be Charged?\u003cbr\u003e\u003cspan style=\"background-color: rgb(255, 255, 255);\"\u003e\u003c/span\u003e\u003c/strong\u003e\u003cspan style=\"background-color: rgb(255, 255, 255);\"\u003eYou will \u003c/span\u003e\u003c/span\u003eonly be charged\u00a0at the beginning of NEXT month. If you become my patron in the middle of the month, you\u0027ll be able to check my activity feed until the month is over. Once the first payment is received, you\u0027ll\u00a0be given access to that tier\u0027s rewards.\u003cbr\u003e\u00a0\u003cbr\u003e\u003cspan style=\"background-color: rgb(146, 205, 220);\"\u003e\u003c/span\u003e\u003cstrong\u003e\u003cspan style=\"background-color: rgb(146, 205, 220);\"\u003eMay I Cancel My Pledge?\u003c/span\u003e\u003c/strong\u003e\u003cbr\u003eIn the unfortunate event that you need to edit or even cancel your pledge, you may do so\u00a0at any time. Don\u0027t worry, we wont hold it against you!\u003c/div\u003e"
+   },
+   "id": "143432",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "518236",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/518236"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "986925",
+       "type": "goal"
+      },
+      {
+       "id": "986927",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-143432",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-143432"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1172041",
+       "type": "reward"
+      },
+      {
+       "id": "1776022",
+       "type": "reward"
+      },
+      {
+       "id": "1721403",
+       "type": "reward"
+      },
+      {
+       "id": "854483",
+       "type": "reward"
+      },
+      {
+       "id": "557004",
+       "type": "reward"
+      },
+      {
+       "id": "854513",
+       "type": "reward"
+      },
+      {
+       "id": "854480",
+       "type": "reward"
+      },
+      {
+       "id": "557005",
+       "type": "reward"
+      },
+      {
+       "id": "854495",
+       "type": "reward"
+      },
+      {
+       "id": "854538",
+       "type": "reward"
+      },
+      {
+       "id": "854617",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m Reginald Waller. I go by Reggie. I\u0027m an art student at Troy University. I love art, and writing stories; Fiction and Nonfiction. I\u0027m a creator who hasn\u0027t learned yet how to \u003cem\u003ecreate\u003c/em\u003e money. I\u0027ll be posting art and short stories when I can. Any patronage is awesome, but honestly, I just love what I do.",
+     "created": "2015-01-30T07:03:46+00:00",
+     "facebook": "https://www.facebook.com/ReggieArt",
+     "first_name": "Not",
+     "full_name": "Not So Starved Artist",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/518236/864281d52e664000ac811b6ba04b0de2?token-time=2145916800\u0026token-hash=YQmL93fPVbRPkLzVE_35t2TDiwtQ57ZGiFW18P4NzUs%3D",
+     "last_name": "So Starved Artist",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/518236/864281d52e664000ac811b6ba04b0de2?token-time=2145916800\u0026token-hash=_Y11MM67KNseDR-CPqPIKzPTKOhcRNL54ZLdW8ho69Y%3D",
+     "twitch": "https://www.twitch.tv/afroart1st",
+     "twitter": "ArtistNotSo",
+     "url": "https://www.patreon.com/NotSoStarvedArtist",
+     "vanity": "NotSoStarvedArtist",
+     "youtube": "https://www.youtube.com/channel/UCef90jgBxCxLSUvtVUEFu7A"
+    },
+    "id": "518236",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "143432",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/143432"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 89,
+     "upgrade_url": "/bePatron?c=143432\u0026rid=1172041"
+    },
+    "id": "post-aggregation-for-0-143432",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-12-16T03:46:08.183065+00:00",
+     "description": "Thank you for the support! You now have access to my Patron-Only feed featuring art pieces, new ideas I have about art pieces, my comic, my clothing line, and short stories!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-27T18:01:44.509015+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1172041/c5e8dc254afa4990a29e6400701a343a?token-time=2145916800\u0026token-hash=qrSLDeGavRIbzpFWuycv4yyFEEiRVYzmELvh8QW2u1Q%3D",
+     "patron_count": 6,
+     "post_count": 19,
+     "published": true,
+     "published_at": "2016-12-16T03:46:08.183065+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Welcome to the NotSo fam!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=143432\u0026rid=1172041",
+     "user_limit": null
+    },
+    "id": "1172041",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-06-18T14:34:52.586834+00:00",
+     "description": "You get to see art before I post it anywhere! You\u0027re basically VIP!\n\u003cp\u003eAlso incudes lower tiers.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-18T14:40:53.675835+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1776022/527d3c3cfabc4feb88ea61acf800a34b?token-time=2145916800\u0026token-hash=d1paA5Ip2ld5rn_SzlVfPr25voyOd63NnSo2nYhjePY%3D",
+     "patron_count": 0,
+     "post_count": 10,
+     "published": true,
+     "published_at": "2017-06-18T14:34:52.586834+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "You See it First!!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=143432\u0026rid=1776022",
+     "user_limit": null
+    },
+    "id": "1776022",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-05-27T17:56:30.105589+00:00",
+     "description": "Thanks!!! You now have access to my Lewd/Uncensored variations and pieces. You also get first look at new stories! \u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eAlso incudes lower tiers.\u003c/em\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-27T17:59:16.252062+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1721403/fc770691f2064745a01c3014f76a18cd?token-time=2145916800\u0026token-hash=Bk9j7qVCBkirjkPdOkzlfxG_WTuDn130ntoR4u0JI0Y%3D",
+     "patron_count": 3,
+     "post_count": 13,
+     "published": true,
+     "published_at": "2017-05-27T17:56:30.105589+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Uncensored Monthly Art",
+     "unpublished_at": null,
+     "url": "/bePatron?c=143432\u0026rid=1721403",
+     "user_limit": null
+    },
+    "id": "1721403",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2016-09-30T02:12:39+00:00",
+     "description": "Thanks!! You now have the ability to cast your vote on new characters for my comic,\u00a0concepts for art pieces, topics for short stories, and custom clothing ideas.\u003cbr\u003e\u003cbr\u003e\u003cem\u003eAlso incudes lower tiers.\u003c/em\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-27T18:04:29.031113+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/854483/c63c2b55524d4b9bb2960a209909d378?token-time=2145916800\u0026token-hash=L4MDIGMWPn7enWzZrCU1Xf0tjyUtlWxRi1FC8k94oMc%3D",
+     "patron_count": 2,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2016-09-30T02:12:39+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Make Your Mark!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=143432\u0026rid=854483",
+     "user_limit": null
+    },
+    "id": "854483",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-09-30T02:12:39+00:00",
+     "description": "Thank you for the support! You get access to an existing\u00a011x17\" art piece of your choice! Print it, gift it, hang it, or collect it!\u003cbr\u003e\u003cbr\u003e\u003cem\u003eAlso incudes lower tiers.\u003c/em\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-27T18:14:43.691417+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/557004/f877fdb0b807431183f6d14fa5e26e4e?token-time=2145916800\u0026token-hash=6E11AVRinSkkYP1_InlhvQxhD-Uovhk4arbZZjm__IU%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-30T02:12:39+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Print It, Gift It, Hang It, or Frame It!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=143432\u0026rid=557004",
+     "user_limit": null
+    },
+    "id": "557004",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1200,
+     "amount_cents": 1200,
+     "created_at": "2016-09-30T02:12:39+00:00",
+     "description": "Thanks so much!! You get a bracelet from my etsy shop! Take Notso wherever you go!\u003cbr\u003e\n\u003cem\u003eAlso incudes lower tiers.\u003c/em\u003e\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-22T02:04:24.370585+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/854513/064ce82ccdff4d519c92b5113f7638a6?token-time=2145916800\u0026token-hash=9MlhB9FPgEMBH95Pn-pDVulx7ExP5wqnEsmMaPvoSrw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-22T02:04:24.360936+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "On Your Wrist!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=143432\u0026rid=854513",
+     "user_limit": null
+    },
+    "id": "854513",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-09-30T02:12:39+00:00",
+     "description": "Thanks so much! You get a signed copy of my first compilation of short stories book, \"Enamored by Faith\"!\u003cbr\u003e\u003cbr\u003e\u003cem\u003eAlso incudes lower tiers.\u003c/em\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-27T18:15:42.323817+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/854480/e8369db5ba01409c8523510afd545425?token-time=2145916800\u0026token-hash=KJkOY26gd4UG6i5yzKOcbuP19bE7r3OKoeFx50tGUI8%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-30T02:12:39+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Enamored by Your Generosity!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=143432\u0026rid=854480",
+     "user_limit": null
+    },
+    "id": "854480",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-09-30T02:12:39+00:00",
+     "description": "Thanks!! You will be\u00a0automatically entered\u00a0into monthly giveaways. Nothing like surprises!\u003cbr\u003e\u003cbr\u003e\u003cem\u003eAlso incudes lower tiers.\u003c/em\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-27T18:17:05.237802+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/557005/09a616c3ed71415886c9514cf9eba501?token-time=2145916800\u0026token-hash=i6YR5HYjNj_dkSgQQUJ21c1pv6KtC4u62taIQo_w6Fw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-30T02:12:39+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Time for me to give back!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=143432\u0026rid=557005",
+     "user_limit": null
+    },
+    "id": "557005",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2016-09-30T02:12:39+00:00",
+     "description": "These are really getting up there! And my gratitude is right with it! You receive 25% off custom artwork to be redeemed twice in a 12 month period.\u003cbr\u003e\u003cbr\u003e\u003cem\u003eAlso incudes lower tiers.\u003c/em\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-22T02:04:42.087732+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/854495/f95b09fb93564152945e5261d5f307d3?token-time=2145916800\u0026token-hash=542FBGsqs3XpIToI5ZcLa50ilc8aYLXZEn6GZDCUePg%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-22T02:04:42.080716+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Semiannual Sale!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=143432\u0026rid=854495",
+     "user_limit": null
+    },
+    "id": "854495",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-09-30T02:12:39+00:00",
+     "description": "Oh my.. Thanks! You just earned yourself a shirt of your choosing from my NotsoEnso collection!\u003cbr\u003e\n\u003cem\u003eAlso incudes lower tiers.\u003c/em\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-22T02:06:06.789970+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/854538/5abb267600214ba1b8227505d95b41e7?token-time=2145916800\u0026token-hash=cIwdcjRm0w71CPLwslXUR_BLO2w7YfAFW1XMtDODpjY%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-22T02:06:06.779191+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Notso Possible Without You!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=143432\u0026rid=854538",
+     "user_limit": null
+    },
+    "id": "854538",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7000,
+     "amount_cents": 7000,
+     "created_at": "2016-09-30T02:12:39+00:00",
+     "description": "Jeez! You trying to make me cry!? Hahaa! Thanks so much!!You deserve your very own \u003cstrong\u003ecustom\u003c/strong\u003e shirt and my never-ending appreciation for the support!\u003cbr\u003e\u003cbr\u003e\u003cem\u003eAlso incudes lower tiers.\u003c/em\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-27T18:56:15.688963+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/854617/c3dc8e039b424bee917fc674cdf98ce4?token-time=2145916800\u0026token-hash=s9QybK3fGXScmkIyBJoa6lxDZXKRcC-KPQc8R4WaS-8%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-30T02:12:39+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Your Vision Is My Precision",
+     "unpublished_at": null,
+     "url": "/bePatron?c=143432\u0026rid=854617",
+     "user_limit": null
+    },
+    "id": "854617",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 21,
+     "created_at": "2017-10-06T20:34:17+00:00",
+     "description": "I\u0027m getting my comic Ramen Shaman, animated!!\u003cbr\u003eEvery dime I make from art and commissions, is going towards this project. I\u0027m so grateful for the support I have from you guys!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "986925",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 42,
+     "created_at": "2017-10-06T20:38:37+00:00",
+     "description": "I\u0027m sending out stickers and small prints to you guys! I want to show how thankful I am! I want to send bigger and more gifts at a time, so I\u0027m setting this patronage goal alongside my major one. Thanks so much guys. You\u0027re my inspiration!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "986927",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/143432"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "5a057150-3a4f-4aba-b165-6d98c5e9f37b",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Not So Starved Artist is creating  Digital Art and Short Stories!"
+});
+    </script>

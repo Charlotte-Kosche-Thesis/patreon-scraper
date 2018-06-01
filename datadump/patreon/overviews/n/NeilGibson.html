@@ -1,0 +1,495 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "PXcnmpogrBC5de5eXYYFIzwhSmNxASg9dBo0tlTWfYE";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": "2018-02-14T18:22:19.386679+00:00"
+   },
+   "id": "397817",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/397817"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-11-07T14:56:43+00:00",
+    "creation_name": "Comics",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/599703/85cd6626bde041b1b42ecaaa8b36a3b0?token-time=2145916800\u0026token-hash=CQXuoXXnYc1ufgaHhKQhC8YF-f9baUwU0KzrJK6BYzc%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/599703/85cd6626bde041b1b42ecaaa8b36a3b0?token-time=2145916800\u0026token-hash=a74BlytHV6-NBdEZNtdq0DK_UzW5_C4l06r3UKkDbto%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 10,
+    "pay_per_name": "month",
+    "pledge_sum": 1927,
+    "pledge_url": "/bePatron?c=599703",
+    "published_at": "2017-03-29T13:27:14+00:00",
+    "summary": "Hello, \u003cbr\u003eMy name is Neil and \u003cstrong\u003eI love comics\u003c/strong\u003e. I came to them quite late in life but got hooked on the medium. It is my mission to bring as many new readers to this medium as possible. \u003cbr\u003e\u003cbr\u003eIf you have any recommendations for great comics please get in contact. \u003cbr\u003e\u003cbr\u003eIf you\u2019d like to receive a bunch of free comics and recommendations of what I like to read, please click\u003cstrong\u003e\u00a0\u003c/strong\u003e\u003ca href=\"http://signup.tpub.co.uk/comic-book-newsletter-signup/?__c\"\u003ehere\u003c/a\u003e.\u00a0\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "599703",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "603279",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/603279"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "929167",
+       "type": "goal"
+      },
+      {
+       "id": "929168",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-599703",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-599703"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1016099",
+       "type": "reward"
+      },
+      {
+       "id": "1672898",
+       "type": "reward"
+      },
+      {
+       "id": "1672904",
+       "type": "reward"
+      },
+      {
+       "id": "1672911",
+       "type": "reward"
+      },
+      {
+       "id": "1672918",
+       "type": "reward"
+      },
+      {
+       "id": "1672926",
+       "type": "reward"
+      },
+      {
+       "id": "1771186",
+       "type": "reward"
+      },
+      {
+       "id": "1672927",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Comic book creator who just loves the medium.",
+     "created": "2015-03-05T08:38:20+00:00",
+     "facebook": "https://www.facebook.com/TwistedNeil",
+     "first_name": "Neil",
+     "full_name": "Neil Gibson",
+     "gender": 1,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/603279/8d1c7f8c32434876a4fcf8277b71b1fe?token-time=2145916800\u0026token-hash=MJ7kyV5Uat0VNomY_ClCCU0VS1t9k-QFr42uNv4Kc2E%3D",
+     "last_name": "Gibson",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/603279/8d1c7f8c32434876a4fcf8277b71b1fe?token-time=2145916800\u0026token-hash=pP7FK6XMkrGCd2NsG3Ej1WKIQtFw-xmx2qj7LJGFuGE%3D",
+     "twitch": null,
+     "twitter": "TwistedNeil",
+     "url": "https://www.patreon.com/NeilGibson",
+     "vanity": "NeilGibson",
+     "youtube": null
+    },
+    "id": "603279",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "599703",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/599703"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 17,
+     "upgrade_url": "/bePatron?c=599703\u0026rid=1016099"
+    },
+    "id": "post-aggregation-for-0-599703",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-07T16:10:55+00:00",
+     "description": "You are a lovely person and you get access to all current and future wallpapers! \u00a0\u00a0\u00a0\n\u003cp\u003eYou also get access to our Patreon-only feed!\u00a0\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eWallpapers!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-12T08:54:41.120210+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2016-11-07T16:10:55+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Hey, Have Some Wallpapers!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=599703\u0026rid=1016099",
+     "user_limit": 0
+    },
+    "id": "1016099",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 199,
+     "amount_cents": 199,
+     "created_at": "2017-05-08T17:02:28.682635+00:00",
+     "description": "You\u0027ll get access to the TPub community where I\u0027ll answer questions and share things like sketches, in-progress work, and process breakdowns. \u00a0\u00a0\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eWallpapers!\u003c/li\u003e\u003cli\u003eTPub Community Member!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-08T17:02:28.682635+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-05-08T17:02:28.682635+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "TPub Cool Kid",
+     "unpublished_at": null,
+     "url": "/bePatron?c=599703\u0026rid=1672898",
+     "user_limit": null
+    },
+    "id": "1672898",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 299,
+     "amount_cents": 299,
+     "created_at": "2017-05-08T17:04:35.890032+00:00",
+     "description": "See comic pages as soon as I finish them - without having to wait for them to be posted publicly. \u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eWallpapers!\u003c/li\u003e\u003cli\u003eTPub Community Member!\u003c/li\u003e\u003cli\u003eEarly Access To Comic Pages!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-08T17:07:41.284847+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-08T17:04:35.890032+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Connoisseur of Comics",
+     "unpublished_at": null,
+     "url": "/bePatron?c=599703\u0026rid=1672904",
+     "user_limit": null
+    },
+    "id": "1672904",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 499,
+     "amount_cents": 499,
+     "created_at": "2017-05-08T17:05:39.011690+00:00",
+     "description": "Be involved in the creative process - help decide which titles we make, what characters look like, etc. Once a month I will do my live 5 minute story challenge where I will write a twisted story in 5 minutes based on what you guys say on the call. \u00a0\u00a0\u00a0\u00a0\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eWallpapers!\u003c/li\u003e\u003cli\u003eTPub Community Member!\u003c/li\u003e\u003cli\u003eEarly Access To Comic Pages!\u003c/li\u003e\u003cli\u003eGet Involved With Creating!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-08T17:05:39.011690+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-05-08T17:05:39.011690+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Creative Process Champion",
+     "unpublished_at": null,
+     "url": "/bePatron?c=599703\u0026rid=1672911",
+     "user_limit": null
+    },
+    "id": "1672911",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 999,
+     "amount_cents": 999,
+     "created_at": "2017-05-08T17:06:59.975224+00:00",
+     "description": "I\u0027ll post you the hard copy of the 5 minute story we do (on a rotating basis), and you get unreleased scripts. You can help decide which scripts get rejected. You will also be able to select names, locations, object, phrases and occupations to be included in the story.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eWallpapers!\u003c/li\u003e\u003cli\u003eTPub Community Member!\u003c/li\u003e\u003cli\u003eEarly Access To Comic Pages!\u003c/li\u003e\u003cli\u003eGet Involved With Creating!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-09T17:34:35.831761+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-08T17:06:59.975224+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "5-Minute Story Overseer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=599703\u0026rid=1672918",
+     "user_limit": null
+    },
+    "id": "1672918",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-05-08T17:09:25.517781+00:00",
+     "description": "I\u0027ll critique your comic script for you (1 hour a month). I LOVE helping make comics!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAlso, you will get Behind-The-Scenes access to character concepts, unreleased scripts/stories and sneak peak previews on new projects!\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eWallpapers!\u003c/li\u003e\u003cli\u003eTPub Community Member!\u003c/li\u003e\u003cli\u003eEarly Access To Comic Pages!\u003c/li\u003e\u003cli\u003eGet Involved With Creating!\u003c/li\u003e\u003cli\u003eNeil Gibson Comic Critiques!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-16T13:11:34.140764+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-08T17:09:25.517781+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Best Kind of Criticism ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=599703\u0026rid=1672926",
+     "user_limit": null
+    },
+    "id": "1672926",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-06-16T13:16:26.483297+00:00",
+     "description": "Exclusive Live Q\u0026amp;A with Neil Gibson and other TPub Patrons! Also, you gain access to an exclusive chat where you can speak with Neil and the TPub Team outside of the Q\u0026amp;A.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eWallpapers!\u003c/li\u003e\u003cli\u003eTPub Community Member!\u003c/li\u003e\u003cli\u003eEarly Access To Comic Pages!\u003c/li\u003e\u003cli\u003eGet Involved With Creating!\u003c/li\u003e\u003cli\u003eNeil Gibson Comic Critiques!\u003c/li\u003e\u003cli\u003eExclusive Live Q\u0026amp;A With Neil Gibson!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-16T13:16:26.483297+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-16T13:16:26.483297+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "TPub Q\u0026A V.I.P.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=599703\u0026rid=1771186",
+     "user_limit": 10
+    },
+    "id": "1771186",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2017-05-08T17:10:29.946915+00:00",
+     "description": "Seriously? You are a MEGA fan. You get your own story featuring characters you pick. One illustrated page a month.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll have to let me know how long you want these stories to be! If you ask nicely we will also put your advert up on our website. \u00a0\u00a0\u00a0\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eWallpapers!\u003c/li\u003e\u003cli\u003eTPub Community Member!\u003c/li\u003e\u003cli\u003eEarly Access To Comic Pages!\u003c/li\u003e\u003cli\u003eGet Involved With Creating!\u003c/li\u003e\u003cli\u003eNeil Gibson Comic Critiques!\u003c/li\u003e\u003cli\u003eYOUR OWN STORY!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-16T13:17:14.373148+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-08T17:10:29.946915+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "TPub MEGA Fan",
+     "unpublished_at": null,
+     "url": "/bePatron?c=599703\u0026rid=1672927",
+     "user_limit": 5
+    },
+    "id": "1672927",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 19,
+     "created_at": "2017-08-09T16:52:57+00:00",
+     "description": "This is to pay Staci for her time in uploading all the comics I make digitally. I am not great at technology and she is saving me. Let\u0027s help pay her for her time!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "929167",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 3,
+     "created_at": "2017-08-09T16:52:57+00:00",
+     "description": "Comics are expensive to make. This simply means I can pay artists and get more stories made!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "929168",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/599703"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "177412fe-7061-49bf-8d91-3fbc9988f9fc",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Neil Gibson is creating Comics"
+});
+    </script>

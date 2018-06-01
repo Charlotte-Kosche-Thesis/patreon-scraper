@@ -1,0 +1,267 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "ZZof9F-0CORCcxU5x1Pa4JjuyX8w7MJhQ95EAlzaGgk";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "604809",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/604809"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-10-16T22:34:15+00:00",
+    "creation_name": "Hotstat.us",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI3IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1276498/39af99f59566453f9346fc04d88b4d86?token-time=2145916800\u0026token-hash=Vlv8Tr0r_EikGCdGl1OjSADIRcrx2W3sPyq5hSb2W34%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNyJ9/patreon-media/campaign/1276498/39af99f59566453f9346fc04d88b4d86?token-time=2145916800\u0026token-hash=oC19wtxQoUGiXlSQLOwzPeHuuYK2gk0gDN_5lTKdVwI%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1276498",
+    "published_at": "2017-10-16T22:42:24+00:00",
+    "summary": "I am a solo developer that has recently graduated from University with a bachelors in Computer Science. I am building Hotstat.us by myself, with the goal of it becoming a fast and visually pleasing offering in the Heroes of the Storm data visualization space.\u003cbr\u003e\u003cbr\u003eUnfortunately, production level web servers, databases, and worker instances cost money to maintain, which is why I need the community\u0027s help in ensuring that Hotstat.us can keep the lights on going into the future.\u003cbr\u003e\u003cbr\u003eThe technology that makes up Hotstat.us:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eWeb\napplication (Php/JavaScript \u2013 Symfony3) that aggregates data from Heroes of the\nStorm (video-game) matches. Provides users with detailed information about\ntheir performance as well as giving a view of overall game statistics.\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003eData Pipeline\n(Php/C#) catalogs user submitted replay files from a central repository, dynamically\nrequesting AWS spot instances to concurrently download and process Terabytes of replay files as needed.\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003eData\nPipeline is horizontally scalable: transactions, time-based soft-locking, as\nwell as a variety of database locks ensure that multiple processes can work\nacross the dataset, while being spun up/down at will with no ill-effects, allows\nfor 80% VM cost savings through use of interruptible AWS spot instances.\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003eAllows\nusers to query statistics through aesthetically pleasing filters, and\nvisualizes results through informative graphs and tables. Filtered data is\ndynamically loaded in-page. This data is presented to users at far superior\nspeeds to alternative graphical offerings through the use of an extensive cache\ngeneration system.\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003eDual\nlayer caching of filtered data aggregations through HTTP/Redis greatly reduces\nprimary database load, allows for 60% cost savings on database hardware while still\nachieving desired worker speeds.\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003eExtensive\nTool Backend (Php/C#/C) that extracts and converts meta-data and textures directly\nfrom game files, allowing for quick syncing of description/image changes after\npatch updates to the base game.\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003eCustom-built\nmonitoring and analytics for the auto-scaling worker instances that catalog and\nprocess matches as they\u0027re uploaded.\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003eResponsive\nmodular front-end built with jQuery/Bootstrap/Twig/JavaScript/HTML/CSS. Uses\ninternal lightweight component framework for building frontends, responsible for\nportions of the site acting as a single page application while maintaining\nrelevant routing. Ensures the application is easy to use on a variety of\ndevices, allowing for rapid prototyping of new user-facing features.\u003c/li\u003e\u003c/ul\u003e"
+   },
+   "id": "1276498",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8091546",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8091546"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1169571",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2079954",
+       "type": "reward"
+      },
+      {
+       "id": "2520922",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-10-16T22:33:53+00:00",
+     "facebook": null,
+     "first_name": "Maxim",
+     "full_name": "Maxim",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiNyIsInciOjIwMH0%3D/patreon-media/user/8091546/d901b4a5750d4fbfb5a94cdf050b4d38?token-time=2145916800\u0026token-hash=uPSIFDZwKEbdrwy70BiiZz6XY8IA1fwfZClRGQ15GT0%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiI3IiwidyI6MTAwfQ%3D%3D/patreon-media/user/8091546/d901b4a5750d4fbfb5a94cdf050b4d38?token-time=2145916800\u0026token-hash=tyBRJykHRCACjGI8XodF0ULppLaiaXUPXKlHLd_jfcE%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/hotstatus",
+     "vanity": "hotstatus",
+     "youtube": null
+    },
+    "id": "8091546",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1276498",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1276498"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-10-16T22:37:16.128215+00:00",
+     "description": "Helping pay for infrastructure and development costs, sincerely, any amount helps tremendously!",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-11T21:32:52.776294+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-11T21:32:52.764717+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1276498\u0026rid=2079954"
+    },
+    "id": "2079954",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-04-11T21:44:49.707185+00:00",
+     "description": "Substantially aid Hotstat.us in continuing into the future by making a monthly contribution! Patrons of this tier will be able to submit a custom 200x80 pixel image linking to any url of their choice that will be displayed on the \u0027News\u0027 page. Images and urls must contain content safe for a Blizzard audience.\u003cbr\u003e\n\u003cbr\u003e\nThis tier\u0027s benefits recur on a monthly payment basis. Cancel anytime.\u00a0\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T00:18:01.804427+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T00:18:01.794865+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Angel Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1276498\u0026rid=2520922"
+    },
+    "id": "2520922",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2018-04-11T22:21:02+00:00",
+     "description": "Cover all recurring infrastructure costs. This includes things like web servers, database, worker instances, data fees (transfer and storage), and many miscellaneous cloud fees that add up. \u003cbr\u003e\u003cbr\u003eCovering this base cost will allow for the complete disabling of all advertising, as well allowing for the implementation of features that are currently limited by their processing cost.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1169571",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1276498"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "4433babc-eb33-47ea-bb13-bffd1bf1356e",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Maxim is creating Hotstat.us"
+});
+    </script>

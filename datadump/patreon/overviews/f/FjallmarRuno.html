@@ -1,0 +1,543 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "N5Jc8SzO62z5rWjTJMAct_VGwD4oy69yuPiijKYkc4E";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "624915",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/624915"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-11-03T05:52:02+00:00",
+    "creation_name": "Fiction Writing",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1311503/c48dfa973b0946d1b98b685e6310de19?token-time=2145916800\u0026token-hash=_1UtkssOA1tBnGDJdo8LZRsGOh7A_IzAHRu_XvV38oE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1311503/c48dfa973b0946d1b98b685e6310de19?token-time=2145916800\u0026token-hash=Gt3sXU0i0eZE25uhtx_tPGkQLfFAxNIjtZe_kH3k6J4%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_sum": 2056,
+    "pledge_url": "/bePatron?c=1311503",
+    "published_at": "2017-11-05T17:47:57+00:00",
+    "summary": "So, my name is Fjallmar Runo. I am writing fantasy fiction that has a mixture of inspirations from my love for D\u0026amp;D and my passion for Norse history. I\u0027ve always been an imaginative dreamer, thinking of epic saga\u0027s and adventures my whole life. I blame Morrowind and D\u0026amp;D for this. Well finally with some encouragement from my dear family that has been so supportive of me working on my stories into a public forum and suggestions from friends to open a Patreon, here I am. My main goal is to get my Valdis Chronicles out and to you to enjoy so that is my MAIN and CHEAPEST tier. I have it set up so the first three tiers are \"Story Rewards\" and the next three are \"Extra Rewards\" and the last three are \"Interaction Rewards\" I am honored and so thankful for ANY reward you choose as everything is just a big show of support for me. So, Stay awhile, and listen to my story.\u003cbr\u003e\u003cbr\u003e\u003cdiv style=\"margin-left: 20px;\"\u003e~~Fjallmar\u003c/div\u003e"
+   },
+   "id": "1311503",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8315104",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8315104"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1013575",
+       "type": "goal"
+      },
+      {
+       "id": "1013576",
+       "type": "goal"
+      },
+      {
+       "id": "1039573",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1311503",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1311503"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2127547",
+       "type": "reward"
+      },
+      {
+       "id": "2127568",
+       "type": "reward"
+      },
+      {
+       "id": "2127570",
+       "type": "reward"
+      },
+      {
+       "id": "2127577",
+       "type": "reward"
+      },
+      {
+       "id": "2127581",
+       "type": "reward"
+      },
+      {
+       "id": "2127584",
+       "type": "reward"
+      },
+      {
+       "id": "2127594",
+       "type": "reward"
+      },
+      {
+       "id": "2127600",
+       "type": "reward"
+      },
+      {
+       "id": "2127618",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-11-03T05:51:14+00:00",
+     "facebook": null,
+     "first_name": "Fjallmar",
+     "full_name": "Fjallmar Runo",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/8315104/0ee0e21904c84b579d6402f86183b953?token-time=2145916800\u0026token-hash=lP6r4XupI7MgVifUDSj8RGrEvLx3_gqZNMoyi5p16xs%3D",
+     "last_name": "Runo",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/8315104/0ee0e21904c84b579d6402f86183b953?token-time=2145916800\u0026token-hash=MteXhK5U7kdou42RNoA_0HzM-yqotrqB858mnkM9Dco%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/FjallmarRuno",
+     "vanity": "FjallmarRuno",
+     "youtube": null
+    },
+    "id": "8315104",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1311503",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1311503"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 9,
+     "upgrade_url": "/bePatron?c=1311503\u0026rid=2127547"
+    },
+    "id": "post-aggregation-for-0-1311503",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-11-05T15:43:18.248539+00:00",
+     "description": "Thank you so much for you patronage! This is my MAIN reward which will be released between a 30-60 day timescale, The Valdis Chronicles is the backbone for everything Valdis Anthology, Everything after this is extra stories and lore but I believe in the main meat of the matter being Number 1#. Again, thank you so much!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-05T16:22:18.661679+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-05T16:22:18.642424+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Valdis Chronicler",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1311503\u0026rid=2127547",
+     "user_limit": null
+    },
+    "id": "2127547",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-11-05T15:52:53.122000+00:00",
+     "description": "Hail and Thanks! At this tier I aim to release short stories every two weeks to three week! These stories will involve sub characters from the Valdis Chronicles. Give some insight and background to the many people in the world and tell more stories. Also, get the main reward before this one :).",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-05T16:22:55.747628+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-11-05T16:22:55.728593+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tavern Tales",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1311503\u0026rid=2127568",
+     "user_limit": null
+    },
+    "id": "2127568",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-11-05T15:54:51.575478+00:00",
+     "description": "Skal! Join me around the campfire and let me tell you stories about people, places and things every week! I get so many stories and thoughts in my head that are sometimes unrelated to Valdis Chronicles but are still in it\u0027s world. Also, you get every reward below this one.",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-05T15:54:51.575478+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-05T15:54:51.575478+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Campfire Skald",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1311503\u0026rid=2127570",
+     "user_limit": null
+    },
+    "id": "2127570",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2017-11-05T15:58:53.814963+00:00",
+     "description": "Hail, this is definately an \"extra\" Tier, here I will be releasing lore blips all the time as I compile a PDF \"guidebook\" with all the lore in ONE SPOT. The gods, the towns, the people, the countries. Everything behind everything is here! +All below rewards",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-05T16:23:21.962859+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-05T16:23:21.942852+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Loremaster",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1311503\u0026rid=2127577",
+     "user_limit": null
+    },
+    "id": "2127577",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-05T16:01:00.012840+00:00",
+     "description": "Hey, lets do some work together! Let\u0027s meet up in Discord once a month for two hours or three hours and write and share stories together! Random topics and fun! +All below rewards",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-05T16:04:17.873443+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-05T16:04:17.848864+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Apprentice Skald",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1311503\u0026rid=2127581",
+     "user_limit": null
+    },
+    "id": "2127581",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-11-05T16:03:22.811978+00:00",
+     "description": "Come meet me once a month at lets talk about the Valdis Chronicles! Ask me any question you have about the series in an open forum where we can get some good quality time. (No spoilers you!) +All below rewards",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-05T16:04:12.613171+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-05T16:04:12.576529+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Skald Q\u0026A!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1311503\u0026rid=2127584",
+     "user_limit": null
+    },
+    "id": "2127584",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-11-05T16:08:28.503241+00:00",
+     "description": "Hail! Let\u0027s write a Campfire Skald story based on a character of your design! (Within reason and lore of the Chronicle) This story will be featured in the weekly campfire story with you being headlined in the title with praise and thanks! +All below rewards",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-05T16:24:58.848018+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-05T16:24:58.819002+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Skald co-op!!!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1311503\u0026rid=2127594",
+     "user_limit": null
+    },
+    "id": "2127594",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-11-05T16:14:27.726011+00:00",
+     "description": "Were off into the mysterium of the Valdis Chronicles at this point. Lets make a Tavern Tale! You and I will come together and weave a tale worthy of the Tavern with a minor character joining the Valdis Chronicle of your design (Within reason and lore) complete with a background for the Lorepedia and joining the series forever! +All below rewards (Minus Skald co-op)",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-05T16:14:27.726011+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-05T16:14:27.726011+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Skaldic Friendship!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1311503\u0026rid=2127600",
+     "user_limit": null
+    },
+    "id": "2127600",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-11-05T16:20:51.037363+00:00",
+     "description": "This is my ultimate \"Extra\" You can\u0027t get any higher than this. Here we will reach into the cosmos and pull back an entity into being and thrust them into the world of Valdis! They will join OR fight against Valdis in the MAIN Novel series! (spoiler hehe) Forever will your name be in the book as a special thanks and on top of this if (hopefully) the series ever goes into print you will recieve a signed hardcopy of every book that I ever make. (limiting to a max of 4 per novel) +All below rewards (Minus, Skaldic friendship and Co-op.)",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-05T16:25:33.440130+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-05T16:25:33.420085+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "Skaldic Lodge!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1311503\u0026rid=2127618",
+     "user_limit": 4
+    },
+    "id": "2127618",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 20,
+     "created_at": "2017-11-05T16:36:42+00:00",
+     "description": "This helps me pay the bills to keep the writing flowing with a little less over my head staring at me haha.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1013575",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 8,
+     "created_at": "2017-11-05T16:36:42+00:00",
+     "description": "Gonna take that $150 over the last goal and put it aside for paying any fee and cost it will take to get my Novel published and printed into hard copy, this means so much to me to have a hard cover (or paperback) in the world and this helps me so much with it!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1013576",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 41,
+     "created_at": "2017-12-03T22:56:27+00:00",
+     "description": "Pays for the various sub\u0027s that I have to help me write and keep on schedule, its not EXACTLY 50$ but rounded up... math right? Thanks for all your support through this and I hope you enjoy my stories as much as I enjoy writing them!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1039573",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1311503"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "59b80ccb-f859-4377-89a5-3b19bd81ee4d",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Fjallmar Runo is creating Fiction Writing"
+});
+    </script>

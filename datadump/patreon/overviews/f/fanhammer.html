@@ -1,0 +1,575 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "XDLziMYQePKhApgGRYvBf-qflc8CMfvfRfyLdTDsAMM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "37662",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/37662"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-03-10T13:21:57+00:00",
+    "creation_name": "FanHammer",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/154311/7c24cbfccda8428699e1b18aade84b8b?token-time=2145916800\u0026token-hash=yC8ufpYEF-TK7JRkwRux3KW4jm2QD3jQfuHpMIR7zo8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/154311/7c24cbfccda8428699e1b18aade84b8b?token-time=2145916800\u0026token-hash=dN6_EtjxIVpw6cog6Y4zsiVxJo04CD78gblv9UGAbW0%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Ayudanos a crecer y se nuestro Patron",
+    "patron_count": 13,
+    "pay_per_name": "month",
+    "pledge_sum": 3655,
+    "pledge_url": "/bePatron?c=154311",
+    "published_at": "2015-03-10T13:33:09+00:00",
+    "summary": "\u003cdiv style=\"text-align: justify;\"\u003eFanHammer es un blog y comunidad para todos y queremos que seais vosotros el mayor soporte del blog y que lo apoyeis si os gusta lo que os ofrecemos como noticias, material, ideas, informacion y en definitiva comunidad sobre wargames. Asi que vuestro dinero nos ayudara a mantener todos los gastos de esta gran iniciativa y nos permitira realizar eventos para todos vosotros, ampliar posibilidades, nuevos servicios como podcast, v\u00eddeos en mejores condiciones, mejores ofertas, mejores premios, mejoras en el blog a nivel de usuarios. Muchas posibilidades que solo se har\u00e1n gracias a vuestro apoyo y de las cuales vosotros ser\u00e9is los mayores beneficiarios.\u00a0\u003c/div\u003e"
+   },
+   "id": "154311",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "615039",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/615039"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "135287",
+       "type": "goal"
+      },
+      {
+       "id": "148356",
+       "type": "goal"
+      },
+      {
+       "id": "148357",
+       "type": "goal"
+      },
+      {
+       "id": "148358",
+       "type": "goal"
+      },
+      {
+       "id": "148359",
+       "type": "goal"
+      },
+      {
+       "id": "148360",
+       "type": "goal"
+      },
+      {
+       "id": "148361",
+       "type": "goal"
+      },
+      {
+       "id": "148362",
+       "type": "goal"
+      },
+      {
+       "id": "148363",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-154311",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-154311"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "192258",
+       "type": "reward"
+      },
+      {
+       "id": "192259",
+       "type": "reward"
+      },
+      {
+       "id": "192260",
+       "type": "reward"
+      },
+      {
+       "id": "192261",
+       "type": "reward"
+      },
+      {
+       "id": "192262",
+       "type": "reward"
+      },
+      {
+       "id": "192263",
+       "type": "reward"
+      },
+      {
+       "id": "192264",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-03-10T12:22:59+00:00",
+     "facebook": "https://www.facebook.com/pages/FanHammer/210908152277438",
+     "first_name": "Kokakoloct",
+     "full_name": "Kokakoloct",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/615039/2ad6c37ab12e493c9366ceb5d03eda57?token-time=2145916800\u0026token-hash=qS9Sv2BinkrOJZACE-0rzDdjSzWVmmowNAejA7p33jY%3D",
+     "last_name": null,
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/615039/2ad6c37ab12e493c9366ceb5d03eda57?token-time=2145916800\u0026token-hash=0vXgnYe1gxfFO3RlBQugGXD7S_jHncE1FlanppB12jA%3D",
+     "twitch": null,
+     "twitter": "fanhammer1",
+     "url": "https://www.patreon.com/fanhammer",
+     "vanity": "fanhammer",
+     "youtube": "https://www.youtube.com/channel/UC1a91ZB7mK1uou1m5mw9mng"
+    },
+    "id": "615039",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "154311",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/154311"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 1,
+     "upgrade_url": "/bePatron?c=154311\u0026rid=192258"
+    },
+    "id": "post-aggregation-for-0-154311",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-04-04T21:09:46+00:00",
+     "description": "Bienvenido a nuestro Patron. Cada mes a partir de mayo, haremos un sorteo especial solo para patrones. Tienes un numero para el sorteo. El producto a sortear sera variado, diferente cada mes y dependera de los patrones y la cantidad mensual alcanzada para dar mejores premios. Mientras m\u00e1s se\u00e1is, mejores premios a sortear.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-04-04T21:09:46+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=154311\u0026rid=192258",
+     "user_limit": null
+    },
+    "id": "192258",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2015-04-04T21:09:46+00:00",
+     "description": "Participaras en el sorteo, con dos posibilidades de ganar.\u00a0El producto a sortear sera variado, diferente cada mes y dependera de los patrones y la cantidad mensual alcanzada para dar mejores premios. Mientras m\u00e1s se\u00e1is, mejores premios a sortear.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 7,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-04-04T21:09:46+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=154311\u0026rid=192259",
+     "user_limit": null
+    },
+    "id": "192259",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2015-04-04T21:09:46+00:00",
+     "description": "Participaras en el sorteo especial para Patrones mensual con tres numeros para el sorteo.\u00a0El producto a sortear sera variado, diferente cada mes y dependera de los patrones y la cantidad mensual alcanzada para dar mejores premios. Mientras m\u00e1s se\u00e1is, mejores premios a sortear. Ademas, vosotros y los siguientes patrones en valor podr\u00e9is tomar decisiones en FanHammer (temas del mes, cosas a hacer, politicas e ideas).",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-04-04T21:09:46+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=154311\u0026rid=192260",
+     "user_limit": null
+    },
+    "id": "192260",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-04-04T21:09:46+00:00",
+     "description": "Ademas de entrar en los sorteos para Patrones, con 4 posibilidades de ganar, recibiras automaticamente los tres productos especiales de FanHammer que sacaremos al a\u00f1o. Estos productos ser\u00e1n variadas y siempre buscando aquello que sabemos que os puede gustar a la mayoria (camisetas, cosas para el hobby, frikadas).",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-04-04T21:09:46+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=154311\u0026rid=192261",
+     "user_limit": null
+    },
+    "id": "192261",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2015-04-04T21:09:46+00:00",
+     "description": "Recibe cada dos meses tu Goblin Panzudo en formato f\u00edsico en casa. Una revista especializada que hacemos diferentes blogs y que os presenta interesante material adicional, relatos, art\u00edculos del hobby, etc. Ademas tendras un numero en nuestros sorteos mensuales para patrones",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-04-04T21:09:46+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=154311\u0026rid=192262",
+     "user_limit": null
+    },
+    "id": "192262",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2015-04-04T21:09:46+00:00",
+     "description": "Eres uno de los grandres l\u00edderes de nuestro gran Se\u00f1or Pumuky. Fiel seguidor y un poderoso general de tropas. Por tu apoyo Pumuky te otorga 7 posibilidades en los sorteos exclusivos de nuestro Patreon.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-15T14:13:56.183517+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-15T14:13:56.174649+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Bibliotecario Arcano del Cubil",
+     "unpublished_at": null,
+     "url": "/bePatron?c=154311\u0026rid=192263",
+     "user_limit": null
+    },
+    "id": "192263",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2015-04-04T21:09:46+00:00",
+     "description": "Para empresas, daremos un apoyo importante durante un mes a su proyecto. Perfecto para Crowdfundings, empresas que comienzan, lanzamientos importantes o similares.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-04-04T21:09:46+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=154311\u0026rid=192264",
+     "user_limit": 2
+    },
+    "id": "192264",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 73,
+     "created_at": "2015-03-10T13:26:24+00:00",
+     "description": "\u003cdiv style=\"text-align:justify;\"\u003ePodremos lanzar a todos nuestros Patrones un newsletter semanal con todas las novedades en miniaturas en \u00e9l y con todas las descargas nuevas para que os perd\u00e1is nada. Ademas nos lanzamos a hacer rese\u00f1as de juegos de mesa, unboxing y presentaciones varias en formato video.\u003c/div\u003e",
+     "reached_at": "2015-05-06T21:12:59+00:00",
+     "title": "Informador"
+    },
+    "id": "135287",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 36,
+     "created_at": "2015-04-04T20:57:01+00:00",
+     "description": "Podremos aumentar los lugares de archivo para el Cubil de Pumuky, ya bastante completos al igual que a\u00f1adir mucho m\u00e1s material que no podemos a\u00f1adir para no llenar el espacio y reharemos Pumuky con una nueva formula mucho m\u00e1s visible, f\u00e1cil y r\u00e1pida de utilizar. Todo m\u00e1s sencillo para vuestro uso y para vuestra busqueda y con mucho mas material",
+     "reached_at": "2015-11-30T05:39:31+00:00",
+     "title": "Bibliotecario"
+    },
+    "id": "148356",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 24,
+     "created_at": "2015-04-04T20:57:01+00:00",
+     "description": "Inauguraremos un sistema de puntuaci\u00f3n por FanHammer para premiar a los que m\u00e1s lo utilic\u00e9is y los que m\u00e1s disfrut\u00e9is de la comunidad. Premiaremos cada mes a los que m\u00e1s se lo merezcan con magn\u00edficos regalos.",
+     "reached_at": null,
+     "title": "Condecoraci\u00f3n"
+    },
+    "id": "148357",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 18,
+     "created_at": "2015-04-04T20:57:01+00:00",
+     "description": "Con este logro, podremos hacernos con un buen equipo para poder ofreceros mucho m\u00e1s y mucha m\u00e1s calidad. Compraremos un equipo digno tanto para los eventos, para las fotos como para hacer entrevistas por v\u00eddeo.",
+     "reached_at": null,
+     "title": "T\u00e9cnico Mejorado"
+    },
+    "id": "148358",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 14,
+     "created_at": "2015-04-04T20:57:01+00:00",
+     "description": "Nos animaremos a preparar un podcast sobre el hobby, que hable de lo que os gusta ofreciendo un nuevo formato para FanHammer que todav\u00eda no os ofrecemos",
+     "reached_at": null,
+     "title": "Reportero"
+    },
+    "id": "148359",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 12,
+     "created_at": "2015-04-04T20:57:01+00:00",
+     "description": "Doblamos sorteos y ofertas por el blog, ofreciendo nuevas formulas para ello y ademas aseguramos muchos mejores premios y ofertas para nuestros patrones.",
+     "reached_at": null,
+     "title": "Bondadoso"
+    },
+    "id": "148360",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 9,
+     "created_at": "2015-04-04T20:57:01+00:00",
+     "description": "Intentaremos ofrecer nuestro ezine Goblin Panzudo en formato de papel de calidad correcta para que puedan disfrutar de nuestra edici\u00f3n en forma fisica a un precio asequible.",
+     "reached_at": null,
+     "title": "Editor"
+    },
+    "id": "148361",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 7,
+     "created_at": "2015-04-04T20:57:01+00:00",
+     "description": "Nos lanzamos a la aventura de publicar al menos un libro de relatos por a\u00f1o y a compartirlo con nuestros lectores y patrones al mejor precio.Ademas si la cosa marcha bien intentaremos tambien convertirnos en editorial para apoyar posibles proyectos futuros",
+     "reached_at": null,
+     "title": "Escriba"
+    },
+    "id": "148362",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 6,
+     "created_at": "2015-04-04T20:57:01+00:00",
+     "description": "Aqu\u00ed nos lanzaremos a organizar eventos por diferentes lugares de Espa\u00f1a, de todo tipo, junto a asociaciones. Ayudaremos a organizar, a publicitar, en materiales y esperamos crear un buen numero de eventos con el sello FanHammer como sello de calidad.",
+     "reached_at": null,
+     "title": "Competidor"
+    },
+    "id": "148363",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/154311"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ffc5dc9e-a0fa-413a-95c1-db656ab20d3a",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Kokakoloct is creating FanHammer"
+});
+    </script>

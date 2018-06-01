@@ -1,0 +1,551 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "qSZqLZreL2CFxgUoLffL8lz2d5FCXiJNcQT3-AWHkq8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "633195",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/633195"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-11-13T20:00:42+00:00",
+    "creation_name": "How-to\u0027s, exclusive evidence, video lessons, readings",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1332841/e1537e34957143efaa57b14a54a1b29c?token-time=2145916800\u0026token-hash=TpT_d7PMMLDAkmtzntCroJu9pd-RjyH0oY6WJPezQZI%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1332841/e1537e34957143efaa57b14a54a1b29c?token-time=2145916800\u0026token-hash=oATRwYWUzTS4spfzJGKYdKiqY1UlmrVjrPDwt6MP48M%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1332841",
+    "published_at": "2017-11-13T21:30:42+00:00",
+    "summary": "Torrey \u0026amp; Kat are the Happy Mediums - two best friends who happen to be psychic mediums and paranormal investigators. The happier we are, the better we get!\u003cbr\u003e\u003cbr\u003eWe will provide entertaining and educational videos, lessons, readings, exclusive evidence and interviews for all things relating to the metaphysical realm: Paranormal investigations, psychic/mediumship skills, spirit art, and much more.\u00a0\u003cbr\u003e"
+   },
+   "id": "1332841",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7609096",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7609096"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1021292",
+       "type": "goal"
+      },
+      {
+       "id": "1021293",
+       "type": "goal"
+      },
+      {
+       "id": "1021294",
+       "type": "goal"
+      },
+      {
+       "id": "1021295",
+       "type": "goal"
+      },
+      {
+       "id": "1021296",
+       "type": "goal"
+      },
+      {
+       "id": "1021297",
+       "type": "goal"
+      },
+      {
+       "id": "1021298",
+       "type": "goal"
+      },
+      {
+       "id": "1021299",
+       "type": "goal"
+      },
+      {
+       "id": "1021300",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1332841",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1332841"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2146396",
+       "type": "reward"
+      },
+      {
+       "id": "2146403",
+       "type": "reward"
+      },
+      {
+       "id": "2146409",
+       "type": "reward"
+      },
+      {
+       "id": "2146419",
+       "type": "reward"
+      },
+      {
+       "id": "2146433",
+       "type": "reward"
+      },
+      {
+       "id": "2146481",
+       "type": "reward"
+      },
+      {
+       "id": "2146469",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-09-07T14:27:53+00:00",
+     "facebook": "https://www.facebook.com/The-Happy-Mediums-333620047112825/",
+     "first_name": "The",
+     "full_name": "The Happy Mediums (with Torrey and Kat)",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7609096/4606e0d6b60b460cba2a867de3a69781?token-time=2145916800\u0026token-hash=AJb2Y-EbynaaAABwHc1Bp8zs8jXMeCK7L6C6E0_WmM4%3D",
+     "last_name": "Happy Mediums (with Torrey and Kat)",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7609096/4606e0d6b60b460cba2a867de3a69781?token-time=2145916800\u0026token-hash=v27ZLsZUgB3djS9mR4EQf3LOw7Hjr9TW39b824SBPH8%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/HappyMediums",
+     "vanity": "HappyMediums",
+     "youtube": null
+    },
+    "id": "7609096",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1332841",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1332841"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 10,
+     "upgrade_url": "/bePatron?c=1332841\u0026rid=2146403"
+    },
+    "id": "post-aggregation-for-0-1332841",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-11-13T20:40:34.064240+00:00",
+     "description": "Because you love us, even if you aren\u0027t so keen on the idea of talking to dead people, you still want access to our updates and posts...and just want to see us thrive in using our gifts. Thank you for your support!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-13T20:56:37.827438+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-13T20:56:37.807377+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Because you love us!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1332841\u0026rid=2146396"
+    },
+    "id": "2146396",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-11-13T20:43:22.598168+00:00",
+     "description": "Not only do you love us, but you want to learn from us. This tier will give you access to video lessons covering some basics, stories about our experiences, how we built our abilities, etc. This is a great tier for those who are just curious and intrigued!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-13T20:49:26.194067+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-13T20:49:26.173515+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Because you love us AND want to know more!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1332841\u0026rid=2146403"
+    },
+    "id": "2146403",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-13T20:45:08.896365+00:00",
+     "description": "Not only do you love us, and want to learn from us, but you want to be happy and laugh too! This tier will give you access to everything in the lower tiers AND access to exclusive blooper reel content (as it becomes available). This is a great tier for those who are not only curious and intrigued, but want to join our happiness!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-13T20:49:54.845881+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-13T20:49:54.825321+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Because you like to laugh with us and be happy too!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1332841\u0026rid=2146409"
+    },
+    "id": "2146409",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-11-13T20:48:15.868021+00:00",
+     "description": "So, yo... choosing this tier tells us a few things: You are not just intrigued but you are serious about learning more! This tier will give you access to everything in the lower tiers AND buy you a seat to more serious content. This tier covers entire series of lessons we have planned for you AND exclusive evidence from our paranormal investigations. This is a great tier for those who are not only curious and intrigued, but want exclusive content and access to methods of building your own gifts and abilities.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-13T21:14:43.271713+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-13T21:14:43.251302+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Love us, learn from us, be happy AND take your gifts to the next level!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1332841\u0026rid=2146419"
+    },
+    "id": "2146419",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-11-13T20:54:02.376428+00:00",
+     "description": "Holy smokes... now we are talking exclusive! This tier will give you access to everything in the lower tiers AND give you monthly access to Torrey and Kat via our monthly group Zoom calls. You can ask us anything, get demonstrations, the works! \u00a0This is a great tier for those who want more access to get your questions answered and spend some quality time each month with us. You know you want to (because we want you to, too!)",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-13T20:54:02.376428+00:00",
+     "image_url": null,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2017-11-13T20:54:02.376428+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Now we are heading into serious territory - EXCLUSIVE ACCESS to Torrey and Kat",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1332841\u0026rid=2146433"
+    },
+    "id": "2146433",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 11100,
+     "amount_cents": 11100,
+     "created_at": "2017-11-13T21:13:32.357364+00:00",
+     "description": "This tier gives you EVERYTHING we offer (but not quite VIP access) but you get it FIRST before anyone else. We will release the content to you at least three days before any other members can see it.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAdditionally, you will get first dibs on our invitations to upcoming paranormal investigations, which include working side by side with us and using our equipment on location.\u003cbr\u003e\n\u003cbr\u003e\n(Your travel and accommodations will be your responsibility, but you will find out about our investigations before anyone else AND get the invitation to join us!)\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-13T21:15:36.543594+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-13T21:15:36.517223+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "FIRST ACCESS - because you are special that way!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1332841\u0026rid=2146481"
+    },
+    "id": "2146481",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2017-11-13T21:08:35.250974+00:00",
+     "description": "That\u0027s the spirit! (We are so punny) You are a VIP member at this level! \u003cbr\u003e\n\u003cbr\u003e\nThis tier will give you access to everything in the lower tiers AND receive a mini reading from one of us (or from both of us at the same time) each month! We will do the reading LIVE during our a pre-scheduled group Zoom call (not accessible to anyone else except VIP members).\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will also get a 50% off discount on booking a full reading with either (or both) of us, if that\u0027s up your alley. No, seriously... this is the ONLY way you can get a tandem reading right now, so don\u0027t hover over the button. Just click it. :) (You can always downgrade later if you wish).\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*Coupon/discount is limited one discounted reading per person, per month.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-13T21:08:35.250974+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-13T21:08:35.250974+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "All that plus better than a ham sammich - the ULTIMATE VIP ACCESS package",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1332841\u0026rid=2146469"
+    },
+    "id": "2146469",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 15,
+     "created_at": "2017-11-13T21:24:56+00:00",
+     "description": "Our goal is to keep the lights on while we build our content and our channel. This keeps our costs from being out of pocket AND will help us develop even more content every month!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1021292",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 7,
+     "created_at": "2017-11-13T21:24:56+00:00",
+     "description": "When we reach this goal, this will help offset the costs associated with traveling to different locations in our state to conduct paranormal investigations. This would be a tremendous milestone for the patrons as well, as it builds more content. :)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1021293",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 5,
+     "created_at": "2017-11-13T21:24:56+00:00",
+     "description": "Now we can hire someone to help us with the back end of running the channel. This will bring on a virtual assistant and let us focus on what we do best, putting our focus on creating more content.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1021294",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 3,
+     "created_at": "2017-11-13T21:24:56+00:00",
+     "description": "This goal lets us travel out of state (from Colorado) and expand our reach to some of the most famous haunted locations in our region. We would love to go to all the places our fans are encouraging us to go to!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1021295",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 2,
+     "created_at": "2017-11-13T21:24:56+00:00",
+     "description": "Now we can travel to other regions, like closer to where you probably live. :) Let\u0027s meet up!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1021296",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2017-11-13T21:24:56+00:00",
+     "description": "Oh, snap. Not only are we traveling to any region in the US, but now we\u0027ve upgraded our equipment too!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1021297",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2017-11-13T21:24:56+00:00",
+     "description": "If we get to this tier, we\u0027re having a party. Like, seriously having a party. Now we can invest in hiring more people to support us (like, say, upgrading our videos and hiring researchers, to name a few).\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1021298",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2017-11-13T21:24:56+00:00",
+     "description": "Now it\u0027s not just a kegger party, but we are toasting champagne. You are helping us make a living here, because split two ways, now we can say we \"made it\" in affording to do everything we want to do. THANK YOU!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1021299",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-11-13T21:24:56+00:00",
+     "description": "Okay, really. This is proof that people have a desire to be a part of what we do. So much so that we aren\u0027t limited any more on the choices we make. That, my friends, is freedom and a whole lot of love. THANK YOU!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1021300",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1332841"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "f9247cc6-4f57-4823-9c23-bf28206ec93a",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "The Happy Mediums (with Torrey and Kat) are creating How-to\u0027s, exclusive evidence, video lessons, readings"
+});
+    </script>

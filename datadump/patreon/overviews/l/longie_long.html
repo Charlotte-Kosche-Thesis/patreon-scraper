@@ -1,0 +1,575 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "LHRWR2H7fwfPSzLolJn1-MD4sjWSBrrXpUUfpjnmo-0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "437578",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/437578"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-05-06T18:40:23+00:00",
+    "creation_name": "Indie games marketing campaigns, ebook, advice and coaching!",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/911514/cb6a1fbe6eda4239a6746391a839bd46?token-time=2145916800\u0026token-hash=qbstyOcx3Re-yOAaS2LWCaa3od7BgzKZSH0cEogEtWc%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/911514/cb6a1fbe6eda4239a6746391a839bd46?token-time=2145916800\u0026token-hash=HskWnuck2_fTP8dqgvuV4kQLkhLiXFEMufSUC_NckB8%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 10,
+    "pay_per_name": "month",
+    "pledge_sum": 31181,
+    "pledge_url": "/bePatron?c=911514",
+    "published_at": "2017-05-06T19:00:44+00:00",
+    "summary": "Developing an indie game is hard enough without the added stress of marketing and promoting the damn thing. Here I\u0027ve amassed some of my writing and information to assist devs in getting their game noticed without wasting money.\u003cbr\u003e\u003cbr\u003eAt higher levels, I\u0027ll make myself available for one-on-one coaching to help you get your marketing on track so your game can make the biggest possible market impact!\u003cbr\u003e"
+   },
+   "id": "911514",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "6054037",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/6054037"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "831939",
+       "type": "goal"
+      },
+      {
+       "id": "831940",
+       "type": "goal"
+      },
+      {
+       "id": "842082",
+       "type": "goal"
+      },
+      {
+       "id": "1063790",
+       "type": "goal"
+      },
+      {
+       "id": "1142562",
+       "type": "goal"
+      },
+      {
+       "id": "1186130",
+       "type": "goal"
+      },
+      {
+       "id": "1191622",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-911514",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-911514"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1685302",
+       "type": "reward"
+      },
+      {
+       "id": "1685300",
+       "type": "reward"
+      },
+      {
+       "id": "2505842",
+       "type": "reward"
+      },
+      {
+       "id": "1685299",
+       "type": "reward"
+      },
+      {
+       "id": "2505856",
+       "type": "reward"
+      },
+      {
+       "id": "2574423",
+       "type": "reward"
+      },
+      {
+       "id": "2574454",
+       "type": "reward"
+      },
+      {
+       "id": "2574467",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-05-06T18:40:04+00:00",
+     "facebook": null,
+     "first_name": "@Longie_long",
+     "full_name": "@Longie_long",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/6054037/8429d3583ba14b9d98080905b61006f8?token-time=2145916800\u0026token-hash=8Eckqpmop0LSH8D10uOImvqK-D6uywRso8AY4uqFKu8%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/6054037/8429d3583ba14b9d98080905b61006f8?token-time=2145916800\u0026token-hash=RaoZ7R7A83y8weiicbW-BHdyV95quMXExqAL7RBI2os%3D",
+     "twitch": null,
+     "twitter": "longie_long",
+     "url": "https://www.patreon.com/longie_long",
+     "vanity": "longie_long",
+     "youtube": "https://www.youtube.com/longie_long"
+    },
+    "id": "6054037",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "911514",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/911514"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 9,
+     "upgrade_url": "/bePatron?c=911514\u0026rid=2505842"
+    },
+    "id": "post-aggregation-for-0-911514",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-05-13T06:24:22.069643+00:00",
+     "description": "Any investment--even just one dollar--can create a massive shift in perspective. At this level, we\u0027ll both feel validated and invested in our projects. Also you get access to all my written articles.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-06T05:39:44.432883+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T05:39:44.420369+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Every little bit helps",
+     "unpublished_at": null,
+     "url": "/bePatron?c=911514\u0026rid=1685302",
+     "user_limit": null
+    },
+    "id": "1685302",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-05-13T06:24:21.875967+00:00",
+     "description": "At this level, you\u0027ll have access to all my written articles and a limited number of my marketing video tutorials when they\u0027re ready.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-06T05:39:01.403381+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T05:39:01.391061+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Now we\u0027re talkin\u0027",
+     "unpublished_at": null,
+     "url": "/bePatron?c=911514\u0026rid=1685300",
+     "user_limit": null
+    },
+    "id": "1685300",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-04-06T05:49:21.601987+00:00",
+     "description": "- Get a digital copy of my indie dev marketing ebook! Hooray!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e- Of course, you have access to all my marketing tutorial videos, as well as all my written articles.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e- Also you get my thanks, which is actually worth $11. So you\u0027re already profiting!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-04T00:09:15.515536+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-05-04T00:09:15.507950+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Video tutorials full access",
+     "unpublished_at": null,
+     "url": "/bePatron?c=911514\u0026rid=2505842",
+     "user_limit": null
+    },
+    "id": "2505842",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-05-13T06:24:21.824519+00:00",
+     "description": "This is a premium tier. At this level, it\u0027s clear you take your project very seriously. Consider me your marketing coach, available via any of my channels and ready to answer your questions, offer advice and support.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThis tier also includes access to all my written articles and all my marketing tutorial videos when they\u0027re ready.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-02T19:23:02.424213+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-02T19:23:02.413210+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": "Now you\u0027re invested! Let\u0027s grow together.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=911514\u0026rid=1685299",
+     "user_limit": 4
+    },
+    "id": "1685299",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 11000,
+     "amount_cents": 11000,
+     "created_at": "2018-04-06T05:58:18.156088+00:00",
+     "description": "Along with an in-depth analysis of your game, marketing coaching, availability for advice and questions, I\u0027ll include a Twitter marketing package that includes 35 tweets across about 80K targeted gaming followers for a week. That\u0027ll grab some attention.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eDepending on your analysis, I may recommend additional marketing outlets or campaigns. I may be able to include them, or may get services at a discount for you.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThis tier also includes access to all my written articles, marketing ebook, and all video marketing tutorials when they\u0027re ready.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-02T19:37:19.170054+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-02T19:37:19.159655+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Includes a 1-week social promotion package. Early bird pricing.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=911514\u0026rid=2505856",
+     "user_limit": 2
+    },
+    "id": "2505856",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 17500,
+     "amount_cents": 17500,
+     "created_at": "2018-05-02T19:25:10.058648+00:00",
+     "description": "This is the same as the $110 tier, except you missed the limited pricing. Sorry! This is still an amazing deal, though.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAlong with an in-depth analysis of your game, marketing coaching, availability for advice and questions, I\u0027ll include a Twitter marketing package that includes 35 tweets across about 80K targeted gaming followers for a week. That\u0027ll grab some attention.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eDepending on your analysis, I may recommend additional marketing outlets or campaigns. I may be able to include them, or may get services at a discount for you.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThis tier also includes access to all my written articles, marketing ebook, and all video marketing tutorials when they\u0027re ready.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-02T19:36:58.435017+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-02T19:36:58.427864+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "One-week social promotion package",
+     "unpublished_at": null,
+     "url": "/bePatron?c=911514\u0026rid=2574423",
+     "user_limit": null
+    },
+    "id": "2574423",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 35000,
+     "amount_cents": 35000,
+     "created_at": "2018-05-02T19:33:20.015946+00:00",
+     "description": "One slot only! Be the first to grab this amazing deal!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eTargeted promotion for your game for an entire month. This is the big-daddy package that includes:\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAlong with an in-depth analysis of your game, marketing coaching, availability for advice and questions, I\u0027ll include a Twitter marketing package that includes \u003cstrong\u003e140\u003c/strong\u003e tweets across about \u003cstrong\u003e80K targeted gaming followers\u003c/strong\u003e for the entire month!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eI\u0027ll create a comprehensive marketing campaign to get your game noticed, thank you very much!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThis tier also includes access to all my written articles, marketing ebook, and all video marketing tutorials when they\u0027re ready.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-02T19:36:37.659071+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-02T19:36:37.651930+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "One Massive Month marketing package! Early bird pricing.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=911514\u0026rid=2574454",
+     "user_limit": 1
+    },
+    "id": "2574454",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2018-05-02T19:36:28.949589+00:00",
+     "description": "Targeted promotion for your game for an entire month. This is the big-daddy package that includes:\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAlong with an in-depth analysis of your game, marketing coaching, availability for advice and questions, I\u0027ll include a Twitter marketing package that includes \u003cstrong\u003e140\u003c/strong\u003e tweets across about \u003cstrong\u003e80K targeted gaming followers\u003c/strong\u003e for the entire month!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eI\u0027ll create a comprehensive marketing campaign to get your game noticed, thank you very much!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThis tier also includes access to all my written articles, marketing ebook, and all video marketing tutorials when they\u0027re ready.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-02T19:36:28.949589+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-02T19:36:28.949589+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pro package - A month of madness.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=911514\u0026rid=2574467",
+     "user_limit": null
+    },
+    "id": "2574467",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100,
+     "completed_percentage": 100,
+     "created_at": "2017-05-13T06:25:15+00:00",
+     "description": "Earning a dollar seems like an easy first goal. \u003cbr\u003e\u003cbr\u003eLet\u0027s do that, then we\u0027ll think what\u0027s next...\u003cbr\u003e",
+     "reached_at": "2017-05-18T21:22:07+00:00",
+     "title": ""
+    },
+    "id": "831939",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500,
+     "completed_percentage": 100,
+     "created_at": "2017-05-13T06:25:15+00:00",
+     "description": "Baby steps, right?\u003cbr\u003e",
+     "reached_at": "2017-06-24T15:59:10+00:00",
+     "title": ""
+    },
+    "id": "831940",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 100,
+     "created_at": "2017-05-21T20:44:36+00:00",
+     "description": "At $75, I\u0027ll be able to improve my YouTube channel.\u003cbr\u003e",
+     "reached_at": "2017-07-08T09:38:59+00:00",
+     "title": ""
+    },
+    "id": "842082",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2018-01-01T15:42:34+00:00",
+     "description": "My patrons are seriously amazing.\u003cbr\u003e",
+     "reached_at": "2018-03-15T16:26:00+00:00",
+     "title": ""
+    },
+    "id": "1063790",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 100,
+     "created_at": "2018-03-16T03:28:13+00:00",
+     "description": "Let\u0027s keep growing!\u003cbr\u003e",
+     "reached_at": "2018-04-28T06:39:49+00:00",
+     "title": ""
+    },
+    "id": "1142562",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 62,
+     "created_at": "2018-04-28T04:39:39+00:00",
+     "description": "Ten-year-old Me would be proud!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1186130",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 31,
+     "created_at": "2018-05-04T00:14:09+00:00",
+     "description": "Together we\u0027ll rule the galaxy!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1191622",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/911514"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "69a66663-0473-4423-9f9e-e783a626f4ff",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "@Longie_long is creating Indie games marketing campaigns, ebook, advice and coaching!"
+});
+    </script>

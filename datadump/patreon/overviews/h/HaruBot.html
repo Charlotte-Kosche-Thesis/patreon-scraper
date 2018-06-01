@@ -1,0 +1,257 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "JOBo2Zx4BWJLuHspgA6uzUI7S9yLUFXHWA4kKuYAnZE";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "317352",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/317352"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-12-12T13:12:48+00:00",
+    "creation_name": "a Discord Bot",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "month",
+    "pledge_sum": 12983,
+    "pledge_url": "/bePatron?c=649000",
+    "published_at": "2016-12-12T13:35:35+00:00",
+    "summary": "This is (what I expect to be) a private Patreon to fund the hosting, upkeep and development of the bot currently known as HaruBot. If I don\u0027t know you, hi, glad to have you around. Contact details at the bottom if you\u0027re interested in the project.\u003cbr\u003eYou probably know who she is, as I suspect this will go nowhere except the small group of friends I\u0027m making it for, but for those who don\u0027t:\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eHaru\u0027s Barrier Maiden\u003c/strong\u003e (name subject to change) is a Discord bot primarily focused on tabletop game-related commands and functionality. The basic commands available to everyone, at the moment, are:\u003cbr\u003e\u003cbr\u003e\u003cdiv style=\"margin-left: 20px;\"\u003e\u003cstrong\u003e/roll XdY+-Z -flag #comment\u003c/strong\u003e\u003cbr\u003e\u003c/div\u003eStandard dicerolling function. Rolls X Y-sided die, and then adds or subtracts Z. Presently, the main flag is \u003cem\u003e-crit\u003c/em\u003e to allow crit explosions on d20 (reroll on a 20 or a 1, and add or subtract respectively), but if someone hosts, for instance, a L5R game with her, functionality can easily be added to support XkY notation, flags to handle specific types of crit explosions and handling, et cetera.\u003cbr\u003e\u003cbr\u003e\u003cdiv style=\"margin-left: 20px;\"\u003e\u003cstrong\u003e/stats -flag\u003c/strong\u003e\u003cbr\u003e\u003c/div\u003eAt the moment, the raw \u003cem\u003e/stats\u003c/em\u003e function returns an array of 4d6 best 3, perfect for generating a standard D\u0026amp;D player character (or npc). The \u003cem\u003e-full\u003c/em\u003e flag presently allows you to see each of the rolls made. If more functionality is desired for other systems with a random generation element, functionality can easily be added for those.\u003cbr\u003e\u003cbr\u003eAnd a few irrelevant minor commands.\u003cbr\u003e\u003cbr\u003eCommands that do not currently support use beyond developer use, but that could be turned into something with global use, include:\u003cbr\u003e\u003cbr\u003e\u003cdiv style=\"margin-left: 20px;\"\u003e\u003cstrong\u003e/log X\u003c/strong\u003e\u003cbr\u003e\u003c/div\u003eReturns a .txt with the last X lines spoken in the room of the command, formatted nicely. A \u003cem\u003e-timestamp\u003c/em\u003e flag would be an easy inclusion. Not currently supported outside developer use because it doesn\u0027t send the files, but this is a functionality that shouldn\u0027t be too hard to add in.\u003cbr\u003e\u003cbr\u003e\u003cdiv style=\"margin-left: 20px;\"\u003e\u003cstrong\u003eThe /combat suite\u003c/strong\u003e\u003cbr\u003e\u003c/div\u003eCurrently set up specifically for D\u0026amp;D 3.5, this command allows the user (with the command \u003cem\u003e/combat\u003c/em\u003e with the seed and then \u003cem\u003e/cstart\u003c/em\u003e in the room in question) to seed and populate a list of characters, ordered by their initiative rolls (which it automatically sorts). It then pings whoever\u0027s turn it is, until they (or the person who started the /combat) use the command \u003cem\u003e/done\u003c/em\u003e or \u003cem\u003e/pass\u003c/em\u003e. The operator can also \u003cem\u003e/kill\u003c/em\u003e, \u003cem\u003e/rout\u003c/em\u003e, or \u003cem\u003e/cadd\u003c/em\u003e players, NPCs and creatures as they come and go. Currently, this is hardcoded, but it wouldn\u0027t take too much of a restructuring to allow anyone to use it, anywhere.\u003cbr\u003e\u003cbr\u003eAnd then, the other feature of the bot, partially implemented:\u003cbr\u003e\u003cbr\u003e\u003cdiv style=\"margin-left: 20px;\"\u003e\u003cstrong\u003eHaruGame\u003c/strong\u003e\u003cbr\u003e\u003c/div\u003eA command available to everyone is \u003cem\u003e/makechar \u0026lt;name\u0026gt;\u003c/em\u003e. This generates a completely random character (by design) which is then assigned to your Discord account. The character\u0027s stats can then be displayed with the \u003cem\u003e/viewchar\u003c/em\u003e command. There are idle long-term plans to make something akin to a text adventure game with this, but I would rather not make claims that I may not get to back up or fulfill, and if I do end up making it, do not want to spoil any of the features; therefore, I will say no more about this.\u003cbr\u003e\u003cbr\u003eAs for the... donation rewards and stretch goals or whatever, well:\u003cbr\u003e\u003cbr\u003eNone.\u003cbr\u003e\u003cbr\u003eI don\u0027t really believe in donation rewards, or pushing for specific amounts of money. I\u0027d like people to donate what they feel is right and what they can afford-- the first 5-10 dollars (updated when I\u0027m certain on what service I will use) go to putting the bot onto a Virtual Private Server so that its uptime is not based on whether I remembered to switch it on for the night. After that, everything goes to supporting me spending less time on a job and more time on development of the bot. \u003cbr\u003e\u003cbr\u003eYou probably know where to find me, but if not, I\u0027m \u003cstrong\u003eHarudoku#4799\u003c/strong\u003e on Discord or \u003cstrong\u003eHarudoku\u003c/strong\u003e on Steam or \u003cstrong\u003eHarudoku\u003c/strong\u003e on Skype (for how rarely I check that anymore) and my E-Mail, surprisingly, is \u003cstrong\u003eHarudoku@gmail.com\u003c/strong\u003e. I\u0027m happy to talk to anyone with any interest in new features, interest in getting the bot onto their server, or interest in updating existing features about those things. Or just in general. No need to donate, or anything, that\u0027s not really what this is about.\u003cbr\u003e\u003cbr\u003eThanks for looking this over, and have a nice day."
+   },
+   "id": "649000",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4609523",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4609523"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "639036",
+       "type": "goal"
+      },
+      {
+       "id": "639108",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1156904",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m not especially interested in or especially good at selling myself. Bot/game developer, hobbyist composer (apparently), bit of a gamer (mostly for social reasons, these days). Generally try to be around and helpful and accommodating, but generally pretty low-energy. Still happy to try.\u003cbr\u003e",
+     "created": "2016-12-12T13:12:39+00:00",
+     "facebook": null,
+     "first_name": "Harudoku",
+     "full_name": "Harudoku Sanada",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4609523/b6ff4aff832c4cf7a55b88af27a66955?token-time=2145916800\u0026token-hash=GdN4kWjdn-0rXmrk1RuXShQjxNSVQV9KmVYXHwHqh74%3D",
+     "last_name": "Sanada",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4609523/b6ff4aff832c4cf7a55b88af27a66955?token-time=2145916800\u0026token-hash=sLZdfCaQmAuV8FWvXQPcXOhTHG1RIkXlp2c3NAKAPQk%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/HaruBot",
+     "vanity": "HaruBot",
+     "youtube": null
+    },
+    "id": "4609523",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "649000",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/649000"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-12-12T13:34:43.238686+00:00",
+     "description": "No matter what you donate, and even if you don\u0027t donate, I will be around on all of the aforementioned avenues of contact to discuss the direction of the bot with anyone interested. I\u0027m really, really not fussed about getting money. If you can afford to donate, give what you can, and if you give an exceptional amount for some reason, leave contact details somewhere and I\u0027ll contact you and see if I can do anything exceptional for you.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-12T15:23:32.849986+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-12T13:34:43.238686+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The \"I don\u0027t like financial incentives but want to make sure people see this\" Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=649000\u0026rid=1156904",
+     "user_limit": null
+    },
+    "id": "1156904",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500,
+     "completed_percentage": 100,
+     "created_at": "2016-12-12T13:23:25+00:00",
+     "description": "From here, I could host the bot on a basic Amazon LightSail Virtual Private Server. A Developer version of the bot would be available only on my server for testing, and the primary bot would be available to anyone else who was interested. I... don\u0027t really have any expectations for this, so I\u0027m extremely hesitant to set any other goal. I don\u0027t especially feel like I could support myself on this project. Anything beyond this, though, goes towards making it easier to dedicate time to the project.\u003cbr\u003e",
+     "reached_at": "2016-12-12T14:29:07+00:00",
+     "title": ""
+    },
+    "id": "639036",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2000,
+     "completed_percentage": 100,
+     "created_at": "2016-12-12T15:23:33+00:00",
+     "description": "I feel like I should probably fill the space a bit more and explain where the extra would go. Anything past 20/month and I\u0027d probably begin to feel comfortable dedicating more time to making the bot a better bot. 20/mo is below minimum wage at 3 hours/mo, and I generally put 40-80 hours in per month into this thing. On the lower end lately-- depression\u0027s a bitch-- but that\u0027s part of what this is for. Seeing some actual return on it may well be helpful.\u003cbr\u003e",
+     "reached_at": "2017-03-10T04:33:40+00:00",
+     "title": ""
+    },
+    "id": "639108",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/649000"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": null,
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "c1c3bef2-b95c-43fa-a004-7fd1490a101c",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Harudoku Sanada is creating a Discord Bot"
+});
+    </script>

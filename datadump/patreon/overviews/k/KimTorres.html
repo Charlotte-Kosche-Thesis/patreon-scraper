@@ -1,0 +1,559 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "UKTeh3wSQddbJtWzGsmTVhu5K8po4wyQt2eCCuNPMSU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "6300",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/6300"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-02-27T20:45:23+00:00",
+    "creation_name": "Digital Art",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/81974/2087fd2e5be142e09f33b9d15aff65fd?token-time=2145916800\u0026token-hash=tM5urK0Lqtppc1lz-WH0r01Krkd9xlgc9Wd26uSvzL4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/81974/2087fd2e5be142e09f33b9d15aff65fd?token-time=2145916800\u0026token-hash=HaATERejwRqxJql-BMLTZHzNcElVNAUUZSbegexb6iw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "I wonder what will happen if I do *this*?",
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_sum": 1809,
+    "pledge_url": "/bePatron?c=81974",
+    "published_at": "2014-02-27T20:45:23+00:00",
+    "summary": "I am endlessly curious and creative, constantly trying new things and only sticking with something until I have satisfied my own desire for mastery or until something else strikes my fancy.\u00a0 It\u0027s hard enough to earn money from selling art, but even much more so if you don\u0027t define yourself into a recognizable style or niche.\u00a0 I believe that I bring goodness into the world with both the images I create and with my open process which attempts to inspire others to creative play.\u00a0 One of my mantras is, \"It\u0027s never too late to have a happy childhood.\"\u00a0 If I could get paid to create-- essentially just to be myself--that would be like a dream.\u00a0 I\u0027m hoping that you are just as interested as I am in what result that might produce!\u00a0 My patrons will get an inside view to my creative process as well as exclusive, downloadable content.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "81974",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "94917",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/94917"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "10818",
+       "type": "goal"
+      },
+      {
+       "id": "10834",
+       "type": "goal"
+      },
+      {
+       "id": "10835",
+       "type": "goal"
+      },
+      {
+       "id": "10836",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-81974",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-81974"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "18481",
+       "type": "reward"
+      },
+      {
+       "id": "18482",
+       "type": "reward"
+      },
+      {
+       "id": "18483",
+       "type": "reward"
+      },
+      {
+       "id": "18484",
+       "type": "reward"
+      },
+      {
+       "id": "18469",
+       "type": "reward"
+      },
+      {
+       "id": "18485",
+       "type": "reward"
+      },
+      {
+       "id": "18486",
+       "type": "reward"
+      },
+      {
+       "id": "18494",
+       "type": "reward"
+      },
+      {
+       "id": "18489",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u2019m an east coast girl, who for the past several years has made my home in Louisville, where southern charm meets mid-western values. I am fortunate to have an amazing life partner, Sandie, who is my best critic and cheerleader.  My creative values are independence, authenticity, and simplicity. These values are a part of everything I do.  I believe that anything is possible and that each of us can truly live the life we want. \u003cbr\u003e\u003cbr\u003e\"The more I think about it, the more I realize there is nothing more artistic than to love others.\" - Vincent Van Gogh\u003cbr\u003e\u003cbr\u003eI\u0027m only newly calling myself \u0027artist\u0027.  Five years ago, I picked up a camera and have not stopped creating since.  From photos, I explored digital art in the form of photo mashups and other manipulations.  When I\u0027ve painted, I created re-envisioned digital images.  And most recently, I have been creating digital art from my \"doodles\"; what started out as something meditative, to help me with my winter blues has become its own form of art.",
+     "created": "2014-02-27T20:45:23+00:00",
+     "facebook": "https://www.facebook.com/kim.torres",
+     "first_name": "Kim",
+     "full_name": "Kim Torres",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/94917/4af730ff83cc4311a638d253492819ee?token-time=2145916800\u0026token-hash=vfzZJfMKZbOLEgo8CX-CQuw630UBAursqO-u5u61N6M%3D",
+     "last_name": "Torres",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/94917/4af730ff83cc4311a638d253492819ee?token-time=2145916800\u0026token-hash=6KPihfc5cvf-H7onfkFAYNCOzuo_manjn_SB-30P62c%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/KimTorres",
+     "vanity": "KimTorres",
+     "youtube": null
+    },
+    "id": "94917",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "81974",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/81974"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 3,
+     "upgrade_url": "/bePatron?c=81974\u0026rid=18481"
+    },
+    "id": "post-aggregation-for-0-81974",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2014-02-27T22:39:06+00:00",
+     "description": "An original, signed doodle\u00a0(which is my hand-drawn sharpie art).",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-27T22:39:06+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=81974\u0026rid=18481",
+     "user_limit": null
+    },
+    "id": "18481",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2014-02-27T22:39:06+00:00",
+     "description": "All of the above and\u00a0a digital file of a mandala image (which is created from my original photographs).(along with release to print files).",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-27T22:39:06+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=81974\u0026rid=18482",
+     "user_limit": null
+    },
+    "id": "18482",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2014-02-27T22:39:06+00:00",
+     "description": "All of the above and a digital file of a \"doodle\" image (which is my hand-drawn sharpie art).(along with release to print files).",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-27T22:39:06+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=81974\u0026rid=18483",
+     "user_limit": null
+    },
+    "id": "18483",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2014-02-27T22:39:06+00:00",
+     "description": "All of the above and a digital file of a photo composite or mash up (which is my original photography combined into new images).\u00a0(along with release to print files).",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-27T22:39:06+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=81974\u0026rid=18484",
+     "user_limit": null
+    },
+    "id": "18484",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2014-02-27T21:11:05+00:00",
+     "description": "All of the above and two additional digital files of a \"quotable\" and a \"doodle\"\u00a0(along with release to print files).",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-27T21:11:05+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=81974\u0026rid=18469",
+     "user_limit": null
+    },
+    "id": "18469",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2014-02-27T22:39:06+00:00",
+     "description": "All of the above and three digital files of a \"quotable\",\u00a0 a \"doodle\", and a \"mashup\" (along with release to print files).",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-27T22:39:06+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=81974\u0026rid=18485",
+     "user_limit": null
+    },
+    "id": "18485",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2014-02-27T22:39:06+00:00",
+     "description": "A print of either an original \"quotable\",  a \"doodle\", or \"mashup\" on 8.5x11\" fine arts matte paper\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-27T22:39:06+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=81974\u0026rid=18486",
+     "user_limit": null
+    },
+    "id": "18486",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2014-02-27T22:47:22+00:00",
+     "description": "All of the above as well as two different prints of either an original \"quotable\",  \"doodle\", and \"mashup\" on 8.5x11\" fine arts matte paper.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-27T22:47:22+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=81974\u0026rid=18494",
+     "user_limit": null
+    },
+    "id": "18494",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2014-02-27T22:39:06+00:00",
+     "description": "All of the above as well as a one of a kind, 12x12 painting or doodle of your favorite skyline, created exclusively for you.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-02-27T22:39:06+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=81974\u0026rid=18489",
+     "user_limit": null
+    },
+    "id": "18489",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 18,
+     "created_at": "2014-02-27T21:08:38+00:00",
+     "description": "My monthly allowance for art supplies!\u0026nbsp; This amount sounds decadent, but I know it could be much more!!\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Art Supplies"
+    },
+    "id": "10818",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 18,
+     "created_at": "2014-02-27T22:44:51+00:00",
+     "description": "Money to drive around Louisville and surrounding areas with my iPhone and DSLR taking photos.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Gas Money!"
+    },
+    "id": "10834",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 17500,
+     "completed_percentage": 10,
+     "created_at": "2014-02-27T22:44:51+00:00",
+     "description": "It happens to be the same as my home but I do need a place to live and work! :)\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Studio Space"
+    },
+    "id": "10835",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 18,
+     "created_at": "2014-02-27T22:44:51+00:00",
+     "description": "I\u0027m hoping to sell A WHOLE LOT of prints and that fine arts paper and ink for fancy printer is expensive.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Printer Supplies"
+    },
+    "id": "10836",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/81974"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "c7d2fe82-ece9-422d-b450-e192e24bf910",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Kim Torres is creating Digital Art"
+});
+    </script>

@@ -1,0 +1,575 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "zqkTtq2-Rl0xyNnh9_LCzACV_ZkKwHvM4Zvw3hsLTiQ";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "352268",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/352268"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-01-30T16:56:52+00:00",
+    "creation_name": "webcomics",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/727120/6b80757401834938a01a3b9b96a16aa3?token-time=2145916800\u0026token-hash=dkwrcLTrlMadruTRYB_heKabHQYOw8Ko-NHJnOknwwQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/727120/6b80757401834938a01a3b9b96a16aa3?token-time=2145916800\u0026token-hash=n7KqOQJzh30DeYuFGyjedSt8JSw5WaHucX8zSOS_eGM%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 11,
+    "pay_per_name": "month",
+    "pledge_sum": 6343,
+    "pledge_url": "/bePatron?c=727120",
+    "published_at": "2017-01-30T20:49:59+00:00",
+    "summary": "Hey everybody! Man what a world we live in! Where YOU can decide WHICH creators YOU want to support, and WHICH words GET capitalized randomly TO add unnecessary emphasis. Anyway, if you\u0027re here you must know about Ninja and Pirate! It\u0027s a goofy webcomic about a ninja named Ninja and a pirate named Pirate! It\u0027s an all ages comic and it\u0027s been going on for nearly 5 years! Ninja and Pirate is a labor of love and oh man what a labor it is! But I don\u0027t mind putting it out there for your enjoyment! And now you can show me just how much you enjoy Ninja and Pirate! Hopefully with your wallet! This way I might be able to recuperate some of the costs of running a website, as well as have the ability to make YOU more and better content! How cool is that? Anyway thanks for stopping by and I hope you decide to support the further adventures of these two pudgy, limbless anachronisms!"
+   },
+   "id": "727120",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4971309",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4971309"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "974203",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-727120",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-727120"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1352905",
+       "type": "reward"
+      },
+      {
+       "id": "1353992",
+       "type": "reward"
+      },
+      {
+       "id": "1353993",
+       "type": "reward"
+      },
+      {
+       "id": "1353991",
+       "type": "reward"
+      },
+      {
+       "id": "1353990",
+       "type": "reward"
+      },
+      {
+       "id": "1353989",
+       "type": "reward"
+      },
+      {
+       "id": "1353988",
+       "type": "reward"
+      },
+      {
+       "id": "1353984",
+       "type": "reward"
+      },
+      {
+       "id": "1353986",
+       "type": "reward"
+      },
+      {
+       "id": "1353985",
+       "type": "reward"
+      },
+      {
+       "id": "1353987",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-01-30T16:56:32+00:00",
+     "facebook": "https://www.facebook.com/Http%3A//www.facebook.com/NinjaAndPirateComics",
+     "first_name": "Joe",
+     "full_name": "Joe Flanders",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4971309/57202208e17b473296d158d62693f939?token-time=2145916800\u0026token-hash=c91Q311Ytba1puJxcVd5PPZEoIVRIrFdZmMPsXxbTQg%3D",
+     "last_name": "Flanders",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4971309/57202208e17b473296d158d62693f939?token-time=2145916800\u0026token-hash=Wvs0HRzIEmsWQgdviSUinXQShXNS_lOG7YQPjOVmr7o%3D",
+     "twitch": null,
+     "twitter": "ninjaandpirate",
+     "url": "https://www.patreon.com/ninjaandpirate",
+     "vanity": "ninjaandpirate",
+     "youtube": ""
+    },
+    "id": "4971309",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "727120",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/727120"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 139,
+     "upgrade_url": "/bePatron?c=727120\u0026rid=1352905"
+    },
+    "id": "post-aggregation-for-0-727120",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-01-30T17:04:34.584030+00:00",
+     "description": "You get my undying gratitude and access to the Patreon patron-only feed, which includes behind the scenes looks at how I make the magic that is Ninja and Pirate! Warning: There may be some sobbing and cranial slamming on desks. Huzzahs abound!",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-30T20:42:22.465478+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": 71,
+     "published": true,
+     "published_at": "2017-01-30T17:04:34.584030+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Whoo Loves You, Baby! And so do I!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=727120\u0026rid=1352905",
+     "user_limit": null
+    },
+    "id": "1352905",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-01-30T20:32:05.372715+00:00",
+     "description": "\u003cdiv\u003eTwice a month I will post a line drawing of something super cool just for you (and the reward tiers above you but shhh). It\u0027ll be something of my choosing which means it\u0027ll probably be a super-hero doing something stupid.\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-30T20:42:22.490306+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 15,
+     "published": true,
+     "published_at": "2017-01-30T20:32:05.372715+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "I\u0027m Thinkin\u0027 Lincoln",
+     "unpublished_at": null,
+     "url": "/bePatron?c=727120\u0026rid=1353992",
+     "user_limit": null
+    },
+    "id": "1353992",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-01-30T20:32:05.460970+00:00",
+     "description": "\u003cdiv\u003eNot only do you get access to the Patreon feed and my undying gratitude, but you get to see each comic EARLY! Does the next comic come out on Saturday? Not for you, chum! For you it comes out on Wednesday! Does the next comic come out on Wednesday? Maybe for plebeians! You get it on Saturday!\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-30T20:42:22.512908+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-30T20:32:05.460970+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tenner Tenner Chicken Denner",
+     "unpublished_at": null,
+     "url": "/bePatron?c=727120\u0026rid=1353993",
+     "user_limit": null
+    },
+    "id": "1353993",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-01-30T20:32:05.288662+00:00",
+     "description": "\u003cdiv\u003eYeah you get access to everything below you! Plus once a month I\u0027ll write a longish tirade reviewing a movie or game or comic. Also, you get access to an EXCLUSIVE one panel line drawing comic! Think Gary Larson but without the hunchbacks.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-30T20:42:22.535291+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-30T20:32:05.288662+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "That\u0027s a Whole Movie Ticket! Maybe...",
+     "unpublished_at": null,
+     "url": "/bePatron?c=727120\u0026rid=1353991",
+     "user_limit": null
+    },
+    "id": "1353991",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-01-30T20:32:05.206303+00:00",
+     "description": "You get everything below you, AND you get a full color drawing of something once a month! AND I will ink and color one of the black and white sketches from the previous tier! That\u0027s two color drawings! Holy cow!",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-30T20:42:22.557571+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-30T20:32:05.206303+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Hey Big Spender!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=727120\u0026rid=1353990",
+     "user_limit": null
+    },
+    "id": "1353990",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-01-30T20:32:05.120249+00:00",
+     "description": "\u003cdiv\u003eAt this tier level we\u0027re really getting exclusive because once a month you will get a whole Ninja and Pirate comic just for your level! PLUS everything below it!\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-30T20:42:22.579832+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-30T20:32:05.120249+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "That\u0027s a Quarter!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=727120\u0026rid=1353989",
+     "user_limit": null
+    },
+    "id": "1353989",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-01-30T20:32:05.032406+00:00",
+     "description": "\u003cdiv\u003eOh man what else can I possibly give you? Oh, I dunno. Maybe a DIGITAL DRAWING OF WHATEVER THE HECK YOU WANT?! That\u0027s right once every 3 months I will draw you anything you want! You will (hopefully, once I get this Patreon stuff figured out) get an email from me asking what you would like and before the three months is up- BAM! Your own personal digital artwork! Aw yeah! (Plus everything below this tier too.)\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-30T20:42:22.601969+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-30T20:32:05.032406+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Golden Ratio!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=727120\u0026rid=1353988",
+     "user_limit": null
+    },
+    "id": "1353988",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2017-01-30T20:32:04.519893+00:00",
+     "description": "\u003cdiv\u003eYou get ALL OF THIS AND a Ninja and Pirate comic of YOUR CHOICE printed out and sent to you. Not to mention I\u0027ll try to hold some sort of vote each month for another print of something I\u0027ve done in the past and send it to you so you can have it in real life. Not just fantasy. Oh yeah. That\u0027s happening.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-30T20:42:22.627095+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-30T20:32:04.519893+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Someday My Prints Will Come",
+     "unpublished_at": null,
+     "url": "/bePatron?c=727120\u0026rid=1353984",
+     "user_limit": null
+    },
+    "id": "1353984",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2017-01-30T20:32:04.868343+00:00",
+     "description": "\u003cdiv\u003eEvery month I will mail you an actual black and white line drawing! You can hold it in your hands! Plus you get everything else too!\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-30T20:42:22.650823+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-30T20:32:04.868343+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Oh God, It\u0027s Real!!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=727120\u0026rid=1353986",
+     "user_limit": null
+    },
+    "id": "1353986",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4500,
+     "amount_cents": 4500,
+     "created_at": "2017-01-30T20:32:04.783565+00:00",
+     "description": "\u003cdiv\u003eOh yeah, you get a COLORED drawing too. In real life. Mailed to you. To hold. Or do whatever you want with. Hey, I don\u0027t judge.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-30T20:42:22.673468+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-30T20:32:04.783565+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "In Living Color",
+     "unpublished_at": null,
+     "url": "/bePatron?c=727120\u0026rid=1353985",
+     "user_limit": null
+    },
+    "id": "1353985",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-01-30T20:32:04.948679+00:00",
+     "description": "\u003cdiv\u003eYou wanna be in a Ninja and Pirate comic? BAM! You got it! EVERY pledge member here will get to be drawn into a Ninja and Pirate comic at some point, as long as they email me a photo of themselves. You will be notified a few days before you get drawn into the strip. Plus you get everything below this level too.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-30T20:42:22.698229+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-30T20:32:04.948679+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Art Imitates Life!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=727120\u0026rid=1353987",
+     "user_limit": null
+    },
+    "id": "1353987",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 12,
+     "created_at": "2017-09-23T02:25:05+00:00",
+     "description": "If I reach $500 a month I will start to put out three comics a week! Holy cow! That\u0027ll be murder on my wrist, computer, family time, and brain! Let\u0027s see me flounder to survive all in exchange for that lovely currency!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "974203",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/727120"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "7633f892-b0db-4e78-96c9-bd833562307c",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Joe Flanders is creating webcomics"
+});
+    </script>

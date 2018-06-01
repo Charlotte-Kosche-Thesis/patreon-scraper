@@ -1,0 +1,431 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "EgqKks42ZEd8KfvE9uqzYhSmc0x8s9s3nzBCE0ytc0w";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "293105",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/293105"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-11-03T01:43:56+00:00",
+    "creation_name": "Indie Games",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_sum": 869,
+    "pledge_url": "/bePatron?c=593626",
+    "published_at": "2016-11-03T03:41:11+00:00",
+    "summary": "\u003ch1\u003eWho Is This Guy?\u003c/h1\u003e\u003cbr\u003eHey guys, I\u0027m Krassenstein (pronounced like Frankenstein). Thanks for checking out my Patreon page. I am currently making my very first game called Knightfall. It is being made with Unity and I am using the C# programming language. I currently do all of the code and art for the game.\u003cbr\u003e\u003cbr\u003eLet\u0027s face it. Game development isn\u0027t cheap. I work a full-time job and I am able to allocate 8 hours a week to the development of Knightfall. Being a husband and father, I have my hands pretty full but I still want to be able to chase my dream of making video games for you.\u00a0\u003cbr\u003e\u003cbr\u003eSupporting me through Patreon allows me to help pay the bills while pursue my game development dream.\u003cbr\u003e\u003cbr\u003e\u003ch1\u003eWhat\u0027s Knightfall?\u003c/h1\u003eI\u0027m happy you asked. Knightfall is the first ever game produced by Static City Games. I do all of the coding and art (with some help from my wife). The game is a 2D top-down RPG. Your hero can only see a short distance around him, due to there being no other light sources. You fight different types of enemies, collect loot, level up, and fight MEAN bosses, all while having a ton of fun.\u003cbr\u003e\u003cbr\u003eI firmly believe that if your main character is in a suit of armor, then there is no room for inventory. I\u0027ve established a \"no-pockets\" model that allows you to carry one weapon, wear one piece of armor, and hold one trinket. Picking up a new item of a certain type will destroy the current one you have, so you have to choose wisely.\u003cbr\u003e\u003cbr\u003eI hope you really enjoy the game just as much as I did developing it.\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "593626",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4355729",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4355729"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "600552",
+       "type": "goal"
+      },
+      {
+       "id": "600553",
+       "type": "goal"
+      },
+      {
+       "id": "600554",
+       "type": "goal"
+      },
+      {
+       "id": "600555",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-593626",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-593626"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "998372",
+       "type": "reward"
+      },
+      {
+       "id": "998373",
+       "type": "reward"
+      },
+      {
+       "id": "998374",
+       "type": "reward"
+      },
+      {
+       "id": "998375",
+       "type": "reward"
+      },
+      {
+       "id": "998376",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-11-03T01:43:35+00:00",
+     "facebook": null,
+     "first_name": "Krassenstein",
+     "full_name": "Krassenstein",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4355729/b712df7b1c91454eb224fbcb65f6d417?token-time=2145916800\u0026token-hash=GzgqGcoCypvO7JOPPTfKs5lH86VG_NX_gaEd6biQjkM%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4355729/b712df7b1c91454eb224fbcb65f6d417?token-time=2145916800\u0026token-hash=P2hmPNmr4EgO1DdQ5g8sj71TQ3EcQHM41IvIBSNCVPU%3D",
+     "twitch": "https://www.twitch.tv/krassenstein",
+     "twitter": "KrassensteinTV",
+     "url": "https://www.patreon.com/Krassenstein",
+     "vanity": "Krassenstein",
+     "youtube": "https://www.youtube.com/channel/UC9a-1hzDAHbyMV4k32LNh8Q"
+    },
+    "id": "4355729",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "593626",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/593626"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 4,
+     "upgrade_url": "/bePatron?c=593626\u0026rid=998372"
+    },
+    "id": "post-aggregation-for-0-593626",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-03T03:36:49+00:00",
+     "description": "Not only will you receive my eternal thanks and gratitude, you will also be listed in a special \"Bronze Patreon\" section of the credits for Knightfall. You will have access to the Patreon-Only feed!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T03:36:49+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=593626\u0026rid=998372",
+     "user_limit": null
+    },
+    "id": "998372",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-03T03:36:49+00:00",
+     "description": "You will receive a private link to the current Alpha build of the game and you will be listed in the end-game credits as a \"Silver Patreon\".",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T03:36:49+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=593626\u0026rid=998373",
+     "user_limit": null
+    },
+    "id": "998373",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-03T03:36:49+00:00",
+     "description": "Wow! You\u0027re awesome! You will receive a steam key of the game as a token of my gratitude for your never-ending support. You will also be listed in the end-game credits as a \"Gold Patreon\".",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T03:36:49+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=593626\u0026rid=998374",
+     "user_limit": null
+    },
+    "id": "998374",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-03T03:36:49+00:00",
+     "description": "Woah! You are really awesome! Not only will you be listed in the end-game credits as a \"Platinum Patreon\", you will also be featured in the opening credits! What a chance to be a star!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T03:36:49+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=593626\u0026rid=998375",
+     "user_limit": null
+    },
+    "id": "998375",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-11-03T03:36:49+00:00",
+     "description": "Not only will you receive the prior reward tiers (end-game credits, opening credits, steam key), you will get to help name a pivotal character in the game and have a say in the design.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-03T03:36:49+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=593626\u0026rid=998376",
+     "user_limit": null
+    },
+    "id": "998376",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 17,
+     "created_at": "2016-11-03T02:55:34+00:00",
+     "description": "When I hit $50 per month, I will add a permanent 4-Hour Saturday stream to my weekly schedule.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "600552",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 8,
+     "created_at": "2016-11-03T02:55:34+00:00",
+     "description": "When I hit $100 per month, I will do a monthly steam gift card giveaway (minimum $10 value) in addition to the 4-Hour Saturday stream!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "600553",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 3,
+     "created_at": "2016-11-03T02:55:34+00:00",
+     "description": "When I hit $250 per month, I will upgrade my microphone to a Blue Yeti. I will have two monthly steam card giveaways (minimum $25 total value) in addition to the 4-Hour Saturday stream.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "600554",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 1,
+     "created_at": "2016-11-03T02:55:34+00:00",
+     "description": "Stay tuned for updates!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "600555",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/593626"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "1c974d87-37e0-495a-9df2-1719ccfc39c7",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Krassenstein is creating Indie Games"
+});
+    </script>

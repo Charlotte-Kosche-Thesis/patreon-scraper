@@ -1,0 +1,383 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "lGPP7LbKlQquWhYgmO7IISdboUxi9puPxVuYOgXwifc";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "448051",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/448051"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-05-06T18:25:47+00:00",
+    "creation_name": "the Horror Shop Comic ",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/911477/3737016dc2144aae815a9155f04be3ed?token-time=2145916800\u0026token-hash=WAN5kNknqFQJOZjwyqEVPHW-Ok6gM3s0GoSl8leaIVs%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/911477/3737016dc2144aae815a9155f04be3ed?token-time=2145916800\u0026token-hash=ig0SmuvUY--P30vFvGM9iuhuT9_rRHttk_7Dte75w84%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 5,
+    "pay_per_name": "month",
+    "pledge_sum": 5500,
+    "pledge_url": "/bePatron?c=911477",
+    "published_at": "2017-05-15T03:51:13+00:00",
+    "summary": "Hey there, ghasts and ghouls! \u003cbr\u003e\u003cbr\u003eWe are Marie Beaudoin and BAJ Visser, the \u003cdel\u003emad geniuses\u003c/del\u003e\u00a0creative team behind the Horror Shop universe, a shared universe featuring comics, novels, short fiction, and other creative works tied together by shared theme of Halloween and the horror fiction of your youth. Our main project at the moment is the centrepiece of the universe,\u00a0\u003ca href=\"http://www.horrorshopcomic.com/\"\u003eHorror Shop: the Comic\u003c/a\u003e.\u00a0\u003cbr\u003e\u003cbr\u003eWe\u0027re both getting started as independent creators and appreciate the help and support of our fans in this endeavour. The more backing we get means the more time can work on creating new monstrosities for you all to enjoy. We\u0027ve already got plans for 100 scripts at this moment, featuring werewolves, mad scientists, mummies, zombies, and the true horror of university life: group projects. We just need your help to make our vision a reality. So if you enjoy our works, we want to thank you very much reading, and we hope to keep you coming back for more. And if at all possible, please consider chipping in so we can bring our horrific vision to life.\u00a0\u003cbr\u003e\u003cbr\u003eAnd remember: don\u0027t let the monsters bite."
+   },
+   "id": "911477",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "6053881",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/6053881"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "829272",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-911477",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-911477"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1680101",
+       "type": "reward"
+      },
+      {
+       "id": "1680100",
+       "type": "reward"
+      },
+      {
+       "id": "1680098",
+       "type": "reward"
+      },
+      {
+       "id": "1683655",
+       "type": "reward"
+      },
+      {
+       "id": "1680097",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-05-06T18:25:28+00:00",
+     "facebook": "https://www.facebook.com/horrorshopcomic/",
+     "first_name": "Nightmare",
+     "full_name": "Nightmare Court",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/6053881/ba9595f498124fe6a9ab4391abd319b1?token-time=2145916800\u0026token-hash=m0T7PUK_IQr2swjO7ulCC_548Fv6sNsiJpvYbUzLLoI%3D",
+     "last_name": "Court",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/6053881/ba9595f498124fe6a9ab4391abd319b1?token-time=2145916800\u0026token-hash=TRWd9OFzORDute9ufMA3brdp8TN2JcBt-PPZ6ugWFZU%3D",
+     "twitch": null,
+     "twitter": "HorrorShopComic",
+     "url": "https://www.patreon.com/horrorshopcomic",
+     "vanity": "horrorshopcomic",
+     "youtube": null
+    },
+    "id": "6053881",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "911477",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/911477"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 17,
+     "upgrade_url": "/bePatron?c=911477\u0026rid=1680101"
+    },
+    "id": "post-aggregation-for-0-911477",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-05-11T02:57:00.853351+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eyour name on our website (if you want! Contact us to be put up) as a patron and our thanks for your support in making this happen!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-01T18:00:46.151662+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2017-05-11T02:57:00.853351+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Waker",
+     "unpublished_at": null,
+     "url": "/bePatron?c=911477\u0026rid=1680101",
+     "user_limit": null
+    },
+    "id": "1680101",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-05-11T02:57:00.674006+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eSneak peak pictures of upcoming pages every week (members only patreon feed)\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-25T16:55:15.234787+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2017-05-11T02:57:00.674006+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Closet Monster",
+     "unpublished_at": null,
+     "url": "/bePatron?c=911477\u0026rid=1680100",
+     "user_limit": null
+    },
+    "id": "1680100",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-05-11T02:57:00.459712+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eSigned digital poster (high quality download)\u003c/li\u003e\u003cli\u003eAccess to high quality download of the comic in .jpg\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-12T16:09:06.214963+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-11T02:57:00.459712+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Horror",
+     "unpublished_at": null,
+     "url": "/bePatron?c=911477\u0026rid=1680098",
+     "user_limit": null
+    },
+    "id": "1680098",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-05-12T16:09:06.070394+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eSketch of one of the characters of your choice from Horror Shop comic available at print quality signed by the artist. No background. (you can ask for this at any point in the sponsorship once).\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-25T16:55:15.359393+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-12T16:09:06.070394+00:00",
+     "remaining": 9,
+     "requires_shipping": false,
+     "title": "Mage",
+     "unpublished_at": null,
+     "url": "/bePatron?c=911477\u0026rid=1683655",
+     "user_limit": 10
+    },
+    "id": "1683655",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-05-11T02:57:00.457320+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eBe a bg character in the comic (or your character, friend, pet, etc.) Please contact us about this when you sign up.\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-25T16:55:15.076916+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-11T02:57:00.457320+00:00",
+     "remaining": 9,
+     "requires_shipping": false,
+     "title": "Dragon",
+     "unpublished_at": null,
+     "url": "/bePatron?c=911477\u0026rid=1680097",
+     "user_limit": 10
+    },
+    "id": "1680097",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 18,
+     "created_at": "2017-05-11T03:07:26+00:00",
+     "description": "Release a tier level with monthly streaming of the comic pages being done. Talk to the artist! (1$ tier and up)\u003cbr\u003eMore con appearances!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "829272",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/911477"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "2fbdcb3f-7211-4b43-a4e6-ba7c342f7fd7",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Nightmare Court are creating the Horror Shop Comic "
+});
+    </script>

@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "AlByCtL-5LIohNYChOs3UxCmipdkD4rQ2yKd65RZ0Hs";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "395203",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/395203"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-03-25T02:50:09+00:00",
+    "creation_name": "Podcasts",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/813254/acb1834f6e4a4fcb8d7e9ff228203c94?token-time=2145916800\u0026token-hash=ROApwNkxSnVVidHl6CrgkZWruaz_fv7IqUvr-Jb5Ngo%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/813254/acb1834f6e4a4fcb8d7e9ff228203c94?token-time=2145916800\u0026token-hash=u2vILtvWaHQIPbFDS8sNnlAbZJmFAPboZDWZsRGwKbQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 6,
+    "pay_per_name": "month",
+    "pledge_sum": 2906,
+    "pledge_url": "/bePatron?c=813254",
+    "published_at": "2017-03-26T12:07:16+00:00",
+    "summary": "Herbarium Podcasts is a podcasting network created by Ollie Carter, an aspiring script writer. We intend to release many podcasts, varying from mystery to science fiction to fantasy.\u003cbr\u003ePodcasts will be hosted on youtube and podbean, as well as itunes.\u003cbr\u003eCome visit our various social media pages such as tumblr (\u003ca href=\"http://death-at-a-low-price.tumblr.com/\" target=\"_blank\"\u003eDaaLP\u003c/a\u003e,\u00a0\u003ca href=\"https://eyerispodcast.tumblr.com/\"\u003eEyeris\u003c/a\u003e, and\u00a0\u003ca href=\"https://herbariumpodcasts.tumblr.com/\" target=\"_blank\"\u003eHerbarium\u003c/a\u003e), and\u00a0\u003ca href=\"https://www.youtube.com/channel/UC7bjdE9DIQYEbXOAQG4S-nQ\" target=\"_blank\"\u003eyoutube\u003c/a\u003e!\u003cbr\u003e"
+   },
+   "id": "813254",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5199979",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5199979"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "763443",
+       "type": "goal"
+      },
+      {
+       "id": "763444",
+       "type": "goal"
+      },
+      {
+       "id": "763445",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-813254",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-813254"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1527134",
+       "type": "reward"
+      },
+      {
+       "id": "1527133",
+       "type": "reward"
+      },
+      {
+       "id": "1529799",
+       "type": "reward"
+      },
+      {
+       "id": "1529800",
+       "type": "reward"
+      },
+      {
+       "id": "2255985",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "\u003cbr\u003e\u003cbr\u003e",
+     "created": "2017-02-26T21:55:02+00:00",
+     "facebook": null,
+     "first_name": "The",
+     "full_name": "The Herbarium Podcasting Network",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMyIsInciOjIwMH0%3D/patreon-media/user/5199979/29b100d6495a466d9e0482670e01a822?token-time=2145916800\u0026token-hash=SDOk4Kdu0dL5BlOBhb5M4aXZ0udHZZBbV5BEa3HC7Zc%3D",
+     "last_name": "Herbarium Podcasting Network",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIzIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5199979/29b100d6495a466d9e0482670e01a822?token-time=2145916800\u0026token-hash=oF98LbZBZYXuAFMw2-FqBEG-P3EG_rY3Uv1wesWH4bQ%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/herbariumpodcasts",
+     "vanity": "herbariumpodcasts",
+     "youtube": "https://www.youtube.com/channel/UC7bjdE9DIQYEbXOAQG4S-nQ"
+    },
+    "id": "5199979",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "813254",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/813254"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 18,
+     "upgrade_url": "/bePatron?c=813254\u0026rid=1527133"
+    },
+    "id": "post-aggregation-for-0-813254",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-03-25T02:56:57.505533+00:00",
+     "description": "As a seedling, you get a shout-out in the credits of all our shows! We\u2019re grateful for all the support we\u2019re able to gain, to keep us up and running. Other than this, you will get to see the cover art for episodes of Death at a Low Price 1 week before release. If any shows come along that are choose-your-own-adventure style, you will also get access to voting. There are a few episodes of near-dead projects hanging around the depths of the patreon as well for you to enjoy.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-03T23:50:17.876366+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-03T23:50:17.851729+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Seedling",
+     "unpublished_at": null,
+     "url": "/bePatron?c=813254\u0026rid=1527134",
+     "user_limit": null
+    },
+    "id": "1527134",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-03-25T02:56:57.295240+00:00",
+     "description": "As a sapling, you get bonus content such as the old, pre-reboot Death at a Low Price scripts, unpublished scripts, and discarded characters and designs that we were originally going to use in our shows, but didn\u2019t. On this level, episodes for every podcast will be posted 2 days earlier for the supporters. You also get all the previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-03T23:50:38.700825+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 13,
+     "published": true,
+     "published_at": "2018-01-03T23:50:38.680049+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sapling",
+     "unpublished_at": null,
+     "url": "/bePatron?c=813254\u0026rid=1527133",
+     "user_limit": null
+    },
+    "id": "1527133",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-03-26T02:59:57.242895+00:00",
+     "description": "As a shrub, you get access to the music files from our shows, as well as a blooper reel every month/every other month following the release of episodes for each podcast. You also get to ask questions, exclusively, for monthly Death at a Low Price q\u0026amp;as, though this reward may be delayed a little so we can get enough donors to actually get questions. All previous rewards are included on this level.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-03T23:51:00.138239+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-01-03T23:51:00.112989+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Shrub",
+     "unpublished_at": null,
+     "url": "/bePatron?c=813254\u0026rid=1529799",
+     "user_limit": null
+    },
+    "id": "1529799",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-03-26T02:59:57.249639+00:00",
+     "description": "As a tree, when a season of a show is said and done, you will get access to the original, unedited outlines. You also have the option to have a minor, one-hit-wonder character named after you in a show of your choice. We will also allow each donor on this level 2 personalized messages from any character they like. All previous rewards are included on this level.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-03T23:51:25.743714+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-03T23:51:25.713589+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tree",
+     "unpublished_at": null,
+     "url": "/bePatron?c=813254\u0026rid=1529800",
+     "user_limit": null
+    },
+    "id": "1529800",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-01-03T22:10:57.255065+00:00",
+     "description": "As a miracle, we have no idea why you\u2019re paying us this much. Why are you paying us this much? This is crazy. But hey, thanks. On this level, you will get to vote each month on a prompt, and said prompt will be used to write a short script, and then made into a production that will be released at the end of said month. You also get all previous rewards.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-03T23:51:49.456128+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-03T23:51:49.427987+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "A Miracle",
+     "unpublished_at": null,
+     "url": "/bePatron?c=813254\u0026rid=2255985",
+     "user_limit": null
+    },
+    "id": "2255985",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3000,
+     "completed_percentage": 96,
+     "created_at": "2017-03-26T03:04:00+00:00",
+     "description": "At this goal, we can comfortably pay for podbean, as well as save up for a music program for our music crew. We will cry a lot.",
+     "reached_at": "2017-10-23T17:42:08+00:00",
+     "title": ""
+    },
+    "id": "763443",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 58,
+     "created_at": "2017-03-26T03:04:00+00:00",
+     "description": "If this is goal is reached, we will start production on a Death at a Low Price hour-long special, featuring Eugene\u0026amp;Kennedy and their wedding day.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "763444",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 29,
+     "created_at": "2017-03-26T03:04:00+00:00",
+     "description": "If this goal is reached, we will produce an hour-long Death at a Low Price special, which will feature the meat aisle incident and incidents leading up to it.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "763445",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/813254"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ebf61298-a90e-4549-b064-950d4a62daea",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "The Herbarium Podcasting Network is creating Podcasts"
+});
+    </script>

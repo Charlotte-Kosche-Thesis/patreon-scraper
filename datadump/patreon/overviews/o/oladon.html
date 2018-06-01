@@ -1,0 +1,385 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "OO4fgg5MC91rtb6QQXEjco1sZ2y6nxQFMmprs6iFlI0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "88049",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/88049"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-07-13T04:12:29+00:00",
+    "creation_name": "spiffy online tools and technology",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/191719/f0658f93d3b64191b8a5bb9095aeddf9?token-time=2145916800\u0026token-hash=r-D5Bjmd4SBOb5aAz0Y_6SXQ3zfXxgtXQsXWPmlQlqI%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/191719/f0658f93d3b64191b8a5bb9095aeddf9?token-time=2145916800\u0026token-hash=fjjuSIS4uzbhFgALTz3PYDoahw-JKZZYQrLYi-DsMYs%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Post faster, peon!",
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_sum": 525,
+    "pledge_url": "/bePatron?c=191719",
+    "published_at": "2015-07-13T05:08:37+00:00",
+    "summary": "I\u0027m the creator of the \u003ca href=\"https://chrome.google.com/webstore/detail/paizo-campaign-tools/ibfgfbafipmhmjohndaekilkkldeahgd/reviews?hl=en-US\" rel=\"nofollow\" target=\"_blank\"\u003ePaizo Campaign Tools\u003c/a\u003e browser extension for Chrome and Firefox, and I\u0027ve got quite a few other projects up my sleeve... I just need the time to work on them!\n\u003cbr\u003e\n\u003cbr\u003e\n\tFrom \n\u003cspan title=\"Resizable chat windows, chat log browsing, expanded profile options, expanded customization options, etc.\"\u003etons of new features\u003c/span\u003e that I\u0027d like to add to the extension, to a \u003cspan title=\"Already in progress!\"\u003efully-featured Pathfinder cRPG engine\u003c/span\u003e, to \u003cspan title=\"Like a browser game where you take on the role of a Bestiary monster and fight your way upward (already in pre-alpha), or a text-based RPG in an ever-changing, dynamic world, or a civilization-building game using the Pathfinder Ultimate Campaign rules...\"\u003emultiple games\u003c/span\u003e built on top of that engine, to \u003cspan title=\"Already in progress!\"\u003ea website that will help everyone in the Play-by-post community find games that match their PbP style\u003c/span\u003e... I\u0027m brimming with ideas. What would you like to see me produce?\n\u003cbr\u003e"
+   },
+   "id": "191719",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "909542",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/909542"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "202433",
+       "type": "goal"
+      },
+      {
+       "id": "202440",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "260406",
+       "type": "reward"
+      },
+      {
+       "id": "260404",
+       "type": "reward"
+      },
+      {
+       "id": "260407",
+       "type": "reward"
+      },
+      {
+       "id": "260424",
+       "type": "reward"
+      },
+      {
+       "id": "260405",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Hi! I\u0027m a gamer who also happens to be pretty passionate about coding neat tools, websites, games, and other stuff. Have you seen my \u003ca href=\"https://chrome.google.com/webstore/detail/paizo-campaign-tools/ibfgfbafipmhmjohndaekilkkldeahgd/reviews?hl=en-US\"\u003ePaizo Campaign Tools\u003c/a\u003e browser extension (or perhaps the \u003ca href=\"https://addons.mozilla.org/en-US/firefox/addon/paizo-campaign-tools/\"\u003eFirefox version\u003c/a\u003e)? What about my PF Arena browser game that hasn\u0027t been released yet?\u003cbr\u003e",
+     "created": "2015-07-13T04:02:12+00:00",
+     "facebook": null,
+     "first_name": "Oladon",
+     "full_name": "Oladon",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/909542/c5672a79b8f04e118b34f284c88f3595?token-time=2145916800\u0026token-hash=wCe449eWPmbd65XqfYsAOpWBLaGzI2G3cIRRP_zsGuk%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/909542/c5672a79b8f04e118b34f284c88f3595?token-time=2145916800\u0026token-hash=8zfpuA7IfMDY7qMoS4LXGenSGxPTuAbtLJIHHuyY6lA%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/oladon",
+     "vanity": "oladon",
+     "youtube": null
+    },
+    "id": "909542",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "191719",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/191719"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-07-13T06:21:24+00:00",
+     "description": "Thanks for your support! As your reward, you\u0027re now eligible to apply for any play-by-post for which I\u0027m also applying!*\u003cbr\u003e\u003cbr\u003e*Offer void where prohibited. No refunds of support.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-07-13T06:21:24+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=191719\u0026rid=260406",
+     "user_limit": null
+    },
+    "id": "260406",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2015-07-13T06:21:24+00:00",
+     "description": "For $10 a month, I\u0027ll add (and keep) your name in a thank-you comment somewhere in a piece of Paizo-related code I write and post publicly.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-07-13T06:21:24+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=191719\u0026rid=260404",
+     "user_limit": null
+    },
+    "id": "260404",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2015-07-13T06:21:24+00:00",
+     "description": "Give me a (reasonable) quirk you\u0027d like to see a role-playing character have, and as long as you\u0027re a supporter at this level I\u0027ll incorporate it into a character for a play-by-post campaign, and then send you a link to the campaign so you can follow along!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-07-13T06:21:24+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=191719\u0026rid=260407",
+     "user_limit": null
+    },
+    "id": "260407",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2015-07-13T06:21:24+00:00",
+     "description": "I\u0027ll name a monster after you in my PF Arena browser game!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-07-13T06:21:24+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=191719\u0026rid=260424",
+     "user_limit": null
+    },
+    "id": "260424",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2015-07-13T06:21:24+00:00",
+     "description": "I\u0027ll let you name an establishment or person in one of the Pathfinder RPG-related computer games I\u0027m working on!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-07-13T06:21:24+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=191719\u0026rid=260405",
+     "user_limit": null
+    },
+    "id": "260405",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 10,
+     "created_at": "2015-07-13T04:40:51+00:00",
+     "description": "I\u0027d like to add the ability to resize the chat window in the Paizo Campaign Tools browser extension, and possibly add a few other chat-related features!\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Chat Window Improvements"
+    },
+    "id": "202433",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 1,
+     "created_at": "2015-07-13T05:06:36+00:00",
+     "description": "\"PF Arena\" is an in-browser text-based combat sim I\u0027ve been working on which uses the Pathfinder RPG rules set. It\u0027s currently in a \"pre-Alpha\" state, which means it\u0027s not quite ready for public release... but I\u0027d like to get there so that everyone can play it!\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Initial Release of PF Arena"
+    },
+    "id": "202440",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/191719"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ab615ce6-5719-4174-9dcd-9b8cc337239e",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Oladon is creating spiffy online tools and technology"
+});
+    </script>

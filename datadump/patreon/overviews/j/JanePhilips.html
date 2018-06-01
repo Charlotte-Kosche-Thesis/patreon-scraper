@@ -1,0 +1,529 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "qzT8KTNjCBPObL1wvR2bVSf42K8_63k91c6eVyyC0kI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "98539",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/98539"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-08-10T05:58:49+00:00",
+    "creation_name": "Art",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/200916/bec4e91afc554fdb9f3ea493c94c44bd?token-time=2145916800\u0026token-hash=PYKNCVkGv5KSVnLOkJGentjUO55FPQIpDIkha9GxfYY%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/200916/bec4e91afc554fdb9f3ea493c94c44bd?token-time=2145916800\u0026token-hash=ZFK_mlklr8YgnYR2TSPiY6OR46QmbzBr2H9Vz5_5j9o%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "painting my way through the world ",
+    "patron_count": 6,
+    "pay_per_name": "month",
+    "pledge_sum": 51155,
+    "pledge_url": "/bePatron?c=200916",
+    "published_at": "2015-09-08T22:34:19+00:00",
+    "summary": "I\u0027m an artist trying to figure out how to support myself by doing what I love.\u00a0\u003cbr\u003e\u003cbr\u003eThe support I receive will help fund my studio practice. I work in a small studio in Huntsville, AL. Rental and materials are expensive and to continue making work I need your help. No matter what you pledge, from $1 on, will help me be able to afford being in the studio and to keep creating work that I love and love to share.\u003cbr\u003e\u003cbr\u003eYour pledge will also help fund admission fees for competitions, processing fees for applications, and shipping and transport for gallery shows.\u00a0\u003cbr\u003e\u003cbr\u003eI graduated from the Maryland Institute College of Art in 2014 and have been drawing an painting from childhood. I\u0027ve worked with nationally and internationally acclaimed art programs, such as the Arrowmont School of Arts and Crafts and The Marie Walsh Sharpe Art Foundation. Currently, I\u0027m working part time to cover bills and spending the rest of the time creating artwork in my studio and displaying my work in galleries across the U.S."
+   },
+   "id": "200916",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "984757",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/984757"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "238854",
+       "type": "goal"
+      },
+      {
+       "id": "772351",
+       "type": "goal"
+      },
+      {
+       "id": "772386",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "305125",
+       "type": "reward"
+      },
+      {
+       "id": "1551471",
+       "type": "reward"
+      },
+      {
+       "id": "1551542",
+       "type": "reward"
+      },
+      {
+       "id": "305096",
+       "type": "reward"
+      },
+      {
+       "id": "305097",
+       "type": "reward"
+      },
+      {
+       "id": "1551576",
+       "type": "reward"
+      },
+      {
+       "id": "305099",
+       "type": "reward"
+      },
+      {
+       "id": "305100",
+       "type": "reward"
+      },
+      {
+       "id": "305136",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I am a painter currently working in Huntsville, AL.\u00a0\u003cbr\u003e\u003cbr\u003eI create large, expressive mixed media paintings as well as photo realistic oil paintings.",
+     "created": "2015-08-09T23:14:42+00:00",
+     "facebook": "https://www.facebook.com/janephilipsstudio",
+     "first_name": "Jane",
+     "full_name": "Jane Philips",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/984757/88f15a0bbe5d404cb82adeb432e66fdc?token-time=2145916800\u0026token-hash=M0PvS7BKJbuuI-MZjb6kfqZdnNfeh25s-K1iGlGUIGE%3D",
+     "last_name": "Philips",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/984757/88f15a0bbe5d404cb82adeb432e66fdc?token-time=2145916800\u0026token-hash=1tR8YxSJJk4DgTDosR09o73Ql36YxN4DFOUj3Ry04s0%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/JanePhilips",
+     "vanity": "JanePhilips",
+     "youtube": null
+    },
+    "id": "984757",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "200916",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/200916"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-09-08T22:34:16+00:00",
+     "description": "You have earned my unending thanks! Thank you for supporting my artwork one dollar at a time!\n\u003cp\u003eI will also give you a forever discount of 20% at my print shop.\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003e20% Discount Code for my Print Shop\u003c/li\u003e\u003cli\u003eMy unending thanks!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T20:32:30.172045+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-08T22:34:16+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level: Awesome",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200916\u0026rid=305125",
+     "user_limit": null
+    },
+    "id": "305125",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-04-01T20:06:25.926497+00:00",
+     "description": "I will send you a personalized thank you card with a custom sketch!\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003e20% Discount Code for my Print Shop\u003c/li\u003e\u003cli\u003ePersonalized Sketch\u003c/li\u003e\u003cli\u003eThank You Card!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T20:33:27.646924+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-01T20:06:25.926497+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Level: Great",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200916\u0026rid=1551471",
+     "user_limit": null
+    },
+    "id": "1551471",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-04-01T20:29:18.306176+00:00",
+     "description": "For $10 a month I will send you:\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA tiny print (3.5\" x 5\" or 5\" x 5\") of one of my works EVERY MONTH! That\u0027s right! EVERY MONTH I will send you a new, high quality art print signed by me.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAlso, everything from the lower tiers!\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003e20% Discount Code for my Print Shop\u003c/li\u003e\u003cli\u003eMy unending thanks!\u003c/li\u003e\u003cli\u003ePersonalized Sketch\u003c/li\u003e\u003cli\u003eThank You Card!\u003c/li\u003e\u003cli\u003eA tiny print of one of my works EVERY MONTH\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T20:51:10.510289+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-01T20:29:18.306176+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Level: Tubular ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200916\u0026rid=1551542",
+     "user_limit": null
+    },
+    "id": "1551542",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2015-09-08T22:34:16+00:00",
+     "description": "For 20 dollars a month I will send you:\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA 11\" x 14\" print of one of my pieces!\u003cbr\u003e\n\u003cbr\u003e\nA personalized thank you letter!\u003cbr\u003e\n\u00a0\u003cbr\u003e\nA small ink sketch!\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePersonalized Sketch\u003c/li\u003e\u003cli\u003eThank You Card!\u003c/li\u003e\u003cli\u003eAn 11\" x 14\" Print of one of my paintings \u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T20:24:53.887795+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-08T22:34:16+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Level: Fantastic",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200916\u0026rid=305096",
+     "user_limit": null
+    },
+    "id": "305096",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2015-09-08T22:34:16+00:00",
+     "description": "For a $25 a month I will send you:\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA small print (8\"x8\" or 8\"10) of one of my works EVERY MONTH. That\u0027s right! I will send you a different print EVERY MONTH that you pledge.\u003cbr\u003e\n\u003cbr\u003e\nAn original 8.5\" x 11\" pencil or ink wash drawing!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA thank you card!\u003cbr\u003e\n\u003cimg src=\"https://scontent.fhsv1-1.fna.fbcdn.net/hphotos-xaf1/v/t1.0-9/1618639_234111033379198_265445739_n.jpg?oh=e2493fce20b1652f800ba258304e4308\u0026amp;oe=56AAAB65\"\u003e\u003cbr\u003e\n\u003cbr\u003e\n\u003cimg src=\"https://scontent.fhsv1-1.fna.fbcdn.net/hphotos-xft1/v/t1.0-9/10154007_241345322655769_1658582508_n.jpg?oh=fe8f95a7275875563249bdbcd1ffae7d\u0026amp;oe=5671C0DC\"\u003e\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003e20% Discount Code for my Print Shop\u003c/li\u003e\u003cli\u003eMy unending thanks!\u003c/li\u003e\u003cli\u003eThank You Card!\u003c/li\u003e\u003cli\u003eA small print of one of my works EVERY MONTH\u003c/li\u003e\u003cli\u003eAn original 8.5\" x 11\" inkwash of pencil drawing \u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T20:46:08.303984+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-08T22:34:16+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Level: Crazy Amazing ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200916\u0026rid=305097",
+     "user_limit": null
+    },
+    "id": "305097",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2017-04-01T20:42:21.411347+00:00",
+     "description": "For $35 a month:\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0I will send you an 11\" x 14\" fine art print EVERY MONTH! That\u0027s right! Each month I will send you a different, high quality print signed by me.\u00a0\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003e20% Discount Code for my Print Shop\u003c/li\u003e\u003cli\u003eMy unending thanks!\u003c/li\u003e\u003cli\u003ePersonalized Sketch\u003c/li\u003e\u003cli\u003eThank You Card!\u003c/li\u003e\u003cli\u003eAn 11\" x 14\" print of one of my works EVERY MONTH\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T20:46:33.404274+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-01T20:42:21.411347+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Level: WHOO!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200916\u0026rid=1551576",
+     "user_limit": null
+    },
+    "id": "1551576",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2015-09-08T22:34:16+00:00",
+     "description": "One original 18\" x 24\" abstract painting!\u003cbr\u003e\n\u003cbr\u003e\n I will send you an original, abstract painting! Let me know what colors you would like to feature. Materials include oil paint, acrylic, gold leaf, instant coffee, ink, charcoal, gesso, polyurethane and more\u00a0\u003cbr\u003e\n\u003cimg src=\"https://scontent.fhsv1-1.fna.fbcdn.net/hphotos-xap1/v/t1.0-9/10309656_247045635419071_6878301966116685728_n.jpg?oh=f5c29bfdc37591ccde23f6138a70b724\u0026amp;oe=5676DF38\"\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003e20% Discount Code for my Print Shop\u003c/li\u003e\u003cli\u003eMy unending thanks!\u003c/li\u003e\u003cli\u003ePersonalized Sketch\u003c/li\u003e\u003cli\u003eThank You Card!\u003c/li\u003e\u003cli\u003e18\"x 24\" Abstract Painting \u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T20:47:42.878864+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/305099/18c44cd7e2a54235ae665a6d1e315b17?token-time=2145916800\u0026token-hash=AZVvbtWfTQoqjJjP8DT2LIbxwracV6r8kUpz2946UEg%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-08T22:34:16+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "Level: Phenomenal",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200916\u0026rid=305099",
+     "user_limit": 10
+    },
+    "id": "305099",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2015-09-08T22:34:16+00:00",
+     "description": "\u003cbr\u003e\nAn original oil painting!\u00a0\u003cbr\u003e\n\u003cbr\u003e\nI will send you a small (sizes range from 12\" x 12\" - 18\" X 24\") oil painting or mixed media of a subject of your choosing as well as any preliminary sketches that I create for the work.\u00a0\n\u003cp\u003e\u003cbr\u003e\n\u003cimg src=\"https://scontent.fhsv1-1.fna.fbcdn.net/hphotos-xfa1/v/t1.0-9/1939459_235708723219429_2058091110_n.jpg?oh=c691664fc9286c4f63d09a092d7a5db1\u0026amp;oe=56762A36\"\u003e\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eMy unending thanks!\u003c/li\u003e\u003cli\u003ePersonalized Sketch\u003c/li\u003e\u003cli\u003eThank You Card!\u003c/li\u003e\u003cli\u003e18\"x 24\" Abstract Painting \u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T20:48:48.911152+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/305100/eaadc68359fd4f0abf089cf09a8c26fa?token-time=2145916800\u0026token-hash=oB5EGFXkSyQubzFi-9K35GGyXqyIFIGWOCjwEN4xRk0%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-08T22:34:16+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Level: Terrific",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200916\u0026rid=305100",
+     "user_limit": 5
+    },
+    "id": "305100",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2015-09-08T22:34:16+00:00",
+     "description": "\u003cbr\u003e\n\u003cbr\u003e\nI will send you an original painting (abstract, figurative, or both!) of any size!!\u00a0\u003cbr\u003e\n\u003cbr\u003e\nMany of my works are very large (5 ft x 5ft). With this reward, I will work with you to create an original painting of any size! We can discuss materials, size, imagery, color, etc.\u00a0\u003cimg src=\"https://scontent.fhsv1-1.fna.fbcdn.net/hphotos-xtf1/t31.0-8/s960x960/10259146_247045282085773_3490599614812337127_o.jpg\"\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T20:49:41.085776+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/305136/b52b2c1e98ca454c860feb7f3a742b78?token-time=2145916800\u0026token-hash=YWzEDrmhyYb69EB20t6ENnhnraIfoc8U4xYLQv07fb0%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-08T22:34:16+00:00",
+     "remaining": 0,
+     "requires_shipping": true,
+     "title": "Level: The Most Wonderful ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200916\u0026rid=305136",
+     "user_limit": 1
+    },
+    "id": "305136",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 100,
+     "created_at": "2015-09-08T21:18:25+00:00",
+     "description": "My first goal is to raise money to take professional, high-res photos of my paintings so that I can create prints to sell! My paintings are large, dark, and glossy so they are difficult to capture. I need help from someone who knows what they\u0027re doing!",
+     "reached_at": "2015-09-24T06:50:57+00:00",
+     "title": ""
+    },
+    "id": "238854",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 100,
+     "created_at": "2017-04-01T20:56:57+00:00",
+     "description": "My second goal is to be able to buy large, heavy duty stretcher bars and canvas for a new series. The first size is 8\u0027 x 5\u0027.\u003cbr\u003e",
+     "reached_at": "2017-08-02T18:12:19+00:00",
+     "title": ""
+    },
+    "id": "772351",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 120000,
+     "completed_percentage": 42,
+     "created_at": "2017-04-01T21:19:44+00:00",
+     "description": "If I reach $1,200.00 a month, I will be able to work in my studio FULL TIME. This would be a dream come true! And utlimately, it would mean more awesome rewards for you :)\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "772386",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/200916"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "726390e3-cb8c-4d0d-82fc-433e6bfda0c6",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Jane Philips is creating Art"
+});
+    </script>

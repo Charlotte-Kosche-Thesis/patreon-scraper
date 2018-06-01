@@ -1,0 +1,479 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "8QORJUVk3Wz1YFKE98a21jr3OSTFOGksuGMsxUVQpk0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "598132",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/598132"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-10-09T14:17:59+00:00",
+    "creation_name": "subtitles",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1262104/8939765d6dfa445794b67afd05daca6f?token-time=2145916800\u0026token-hash=o-jmCaYS6StsCovyfdroKPH3aDEmZqT4TDKfaVfSFIs%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1262104/8939765d6dfa445794b67afd05daca6f?token-time=2145916800\u0026token-hash=YsdfrDQ57p3q1aR28AXQyLQGbf8XOVVu3yvCceRDjTY%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_sum": 4072,
+    "pledge_url": "/bePatron?c=1262104",
+    "published_at": "2017-10-09T23:17:07+00:00",
+    "summary": "Jeste\u015bmy grup\u0105 t\u0142umaczy i korektor\u00f3w tworz\u0105cych napisy do anime. Stworzyli\u015bmy grup\u0119 i stron\u0119, poniewa\u017c my r\u00f3wnie\u017c nie lubimy, jak co klikni\u0119cie wywala nam pop-up\u0027y.\u003cbr\u003eZa\u0142o\u017ceniem naszej strony jest brak reklam stricte od nas, ale serwery same si\u0119 niestety nie utrzymaj\u0105. Naszym jedynym \u017ar\u00f3d\u0142em pokrycia koszt\u00f3w s\u0105 dochody z reklam z player\u00f3w.\u003cbr\u003eKontakt: okamisubs@gmail.com\u003cbr\u003e"
+   },
+   "id": "1262104",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7999473",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7999473"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "989253",
+       "type": "goal"
+      },
+      {
+       "id": "989254",
+       "type": "goal"
+      },
+      {
+       "id": "989267",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1262104",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1262104"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2061762",
+       "type": "reward"
+      },
+      {
+       "id": "2407750",
+       "type": "reward"
+      },
+      {
+       "id": "2062826",
+       "type": "reward"
+      },
+      {
+       "id": "2401905",
+       "type": "reward"
+      },
+      {
+       "id": "2062890",
+       "type": "reward"
+      },
+      {
+       "id": "2401911",
+       "type": "reward"
+      },
+      {
+       "id": "2062850",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-10-09T14:16:47+00:00",
+     "facebook": null,
+     "first_name": "\u014ckami-Subs",
+     "full_name": "\u014ckami-Subs",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7999473/20275a05f5e34f13b981268b60916ccd?token-time=2145916800\u0026token-hash=-mqkCeQVVoUWux8NbWPhJPnBe7e5x3AmaxoNMGfSiw0%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7999473/20275a05f5e34f13b981268b60916ccd?token-time=2145916800\u0026token-hash=cN1xihWPXx2dTp2MV8NURouoxHKpxcUVSgkUuBajpR8%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/okamisubs",
+     "vanity": "okamisubs",
+     "youtube": null
+    },
+    "id": "7999473",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1262104",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1262104"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 4,
+     "upgrade_url": "/bePatron?c=1262104\u0026rid=2061762"
+    },
+    "id": "post-aggregation-for-0-1262104",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-10-09T14:47:30.276836+00:00",
+     "description": "\u00a0Nagrody: \u00a0\n\u003cul\u003e\n\u003cli\u003eDodanie nicku na naszej stronie w zak\u0142adce \"Patroni\".\u003c/li\u003e\n\u003cli\u003ePrzywileje roli \"Patron\" na naszym discordzie.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-16T21:58:24.294705+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-16T21:58:24.286689+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Wsparcie",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1262104\u0026rid=2061762",
+     "user_limit": null
+    },
+    "id": "2061762",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-02-27T20:07:04.450386+00:00",
+     "description": "\u00a0Nagrody: \u00a0\n\u003cul\u003e\n\u003cli\u003eDodanie nicku i awataru na naszej stronie w zak\u0142adce \"Patroni\".\u003c/li\u003e\n\u003cli\u003ePrzywileje roli \"Patron\" na naszym discordzie.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-16T22:10:03.304383+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-16T22:10:03.289148+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fan",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1262104\u0026rid=2407750",
+     "user_limit": null
+    },
+    "id": "2407750",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-10-09T22:02:54.205169+00:00",
+     "description": "\u00a0\u00a0Nagrody: \u00a0\n\u003cul\u003e\n\u003cli\u003eDodanie awatara + nicku w zak\u0142adce na stronie grupy.\u003c/li\u003e\n\u003cli\u003ePo wp\u0142yni\u0119ciu p\u0142atno\u015bci 1 dnia ka\u017cdego miesi\u0105ca, a\u017c do jego ko\u0144ca uzyskuje si\u0119 dost\u0119p do wychodz\u0105cych w tym okresie plik\u00f3w napis\u00f3w.\u003c/li\u003e\n\u003cli\u003ePrzywileje roli \"Patron\" na naszym discordzie.\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-16T22:10:09.211256+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-16T22:10:09.204221+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Wilk",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1262104\u0026rid=2062826",
+     "user_limit": null
+    },
+    "id": "2062826",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2018-02-25T20:46:11.588209+00:00",
+     "description": "\u00a0\u00a0Nagrody:\u00a0\n\u003cul\u003e\n\u003cli\u003eDodanie awatara, nicku i komentarza na naszej stronie w zak\u0142adce \"Patroni\"\u003c/li\u003e\n\u003cli\u003ePo wp\u0142yni\u0119ciu p\u0142atno\u015bci 1 dnia ka\u017cdego miesi\u0105ca, a\u017c do jego ko\u0144ca \u00a0uzyskuje si\u0119 dost\u0119p do wychodz\u0105cych w tym okresie plik\u00f3w napis\u00f3w.\u003c/li\u003e\n\u003cli\u003ePodpisy ekipy obecnej na Pyrkonie na wydruku naszego t\u0142a.\u003c/li\u003e\n\u003cli\u003eWsp\u00f3lne piwko/soczek (pierwsze postawimy my) na jakim\u015b evencie. :v\u003c/li\u003e\n\u003cli\u003eOpcjonalne szwendanie si\u0119 z nami po terenie wydarzenia.\u003c/li\u003e\n\u003cli\u003ePrzywileje roli \"Patron\" na naszym discordzie. \u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-10T13:35:30.639044+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-10T13:35:30.626396+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Wilk Alfa",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1262104\u0026rid=2401905",
+     "user_limit": null
+    },
+    "id": "2401905",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 900,
+     "amount_cents": 900,
+     "created_at": "2017-10-09T22:33:53.799129+00:00",
+     "description": "\u00a0Nagrody:\u00a0 \u00a0\n\u003cul\u003e\n\u003cli\u003ePrzet\u0142umaczymy dowoln\u0105 13 odcinkow\u0105 seri\u0119/film pe\u0142nometra\u017cowy. (Raz na sezon)\u003cbr\u003e\n *Warunkiem t\u0142umaczenia s\u0105 dost\u0119pne angielskie napisy.*\u003c/li\u003e\n\u003cli\u003eDedykacja we wstawce openingowej/tytu\u0142owej (nie w sta\u0142ej grupowej; \u00a0\u00a0tyczy si\u0119 zleconej serii). Nick brany z nazwy patrona. (Akceptowany \u00a0\u00a0jedynie cenzuralny)\u00a0\u003c/li\u003e\n\u003cli\u003eDodanie awatara, nicku i komentarza na naszej stronie w zak\u0142adce \"Patroni\"\u003c/li\u003e\n\u003cli\u003ePo wp\u0142yni\u0119ciu p\u0142atno\u015bci 1 dnia ka\u017cdego miesi\u0105ca, a\u017c do jego ko\u0144ca \u00a0\u00a0uzyskuje si\u0119 dost\u0119p do wychodz\u0105cych w tym okresie plik\u00f3w napis\u00f3w.\u003c/li\u003e\n\u003cli\u003ePodpisy ekipy obecnej na Pyrkonie na wydruku naszego t\u0142a.\u003c/li\u003e\n\u003cli\u003eWsp\u00f3lne piwko/soczek (pierwsze postawimy my) na jakim\u015b evencie.\u003c/li\u003e\n\u003cli\u003eOpcjonalne szwendanie si\u0119 z nami po terenie wydarzenia.\u003c/li\u003e\n\u003cli\u003ePrzywileje roli \"Patron\" na naszym discordzie. \u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-16T22:14:28.648541+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-16T22:14:28.639100+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Wilk Alfa+",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1262104\u0026rid=2062890",
+     "user_limit": 1
+    },
+    "id": "2062890",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-02-25T20:48:57.735732+00:00",
+     "description": "\u00a0\u00a0Nagrody:\n\u003cul\u003e\n\u003cli\u003ePodpisy ekipy obecnej na Pyrkonie na wydruku naszego t\u0142a.\u003c/li\u003e\n\u003cli\u003eDodanie awatara, nicku, komentarza i t\u0142a swojej rubryki na naszej stronie w zak\u0142adce \"Patroni\"\u003c/li\u003e\n\u003cli\u003ePo wp\u0142yni\u0119ciu p\u0142atno\u015bci 1 dnia ka\u017cdego miesi\u0105ca, a\u017c do jego ko\u0144ca \u00a0\u00a0uzyskuje si\u0119 dost\u0119p do wychodz\u0105cych w tym okresie plik\u00f3w napis\u00f3w.\u003c/li\u003e\n\u003cli\u003eWsp\u00f3lne piwko/soczek (kilka postawimy my) na jakim\u015b evencie. :v\u00a0\u003c/li\u003e\n\u003cli\u003eOpcjonalne szwendanie si\u0119 z nami po terenie wydarzenia.\u003c/li\u003e\n\u003cli\u003e1 tom mangi dost\u0119pnej w Polsce z opcj\u0105 podpisania jej przez cz\u0142onk\u00f3w \u00a0ekipy b\u0119d\u0105cych na wydarzeniu. (na wsp\u00f3lnym evencie/przes\u0142an\u0105 kurierem - \u00a0w tej opcji bez podpis\u00f3w)\u003c/li\u003e\n\u003cli\u003ePrzywileje roli \"Patron\" na naszym discordzie. \u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-10T13:35:44.517557+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-10T13:35:44.504675+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Starszy Wilk",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1262104\u0026rid=2401911",
+     "user_limit": null
+    },
+    "id": "2401911",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-10-09T22:11:49.925108+00:00",
+     "description": "\u00a0Nagrody: \u00a0 \u00a0 \u00a0\n\u003cul\u003e\n\u003cli\u003ePrzet\u0142umaczymy 2 dowolne 13 odcinkowe serie/3 filmy pe\u0142nometra\u017cowe. (Raz na sezon)\u003cbr\u003e\n *Warunkiem t\u0142umaczenia s\u0105 dost\u0119pne angielskie napisy.*\u003c/li\u003e\n\u003cli\u003eDedykacja we wstawce openingowej/tytu\u0142owej (nie w sta\u0142ej grupowej; \u00a0\u00a0tyczy si\u0119 zleconej serii). Nick brany z nazwy patrona. (Akceptowany \u00a0\u00a0jedynie cenzuralny) \u00a0\u00a0\u003c/li\u003e\n\u003cli\u003eDodanie awatara, nicku, komentarza i t\u0142a swojej rubryki na naszej stronie w zak\u0142adce \"Patroni\"\u003c/li\u003e\n\u003cli\u003ePo wp\u0142yni\u0119ciu p\u0142atno\u015bci 1 dnia ka\u017cdego miesi\u0105ca, a\u017c do jego ko\u0144ca \u00a0\u00a0\u00a0\u00a0uzyskuje si\u0119 dost\u0119p do wychodz\u0105cych w tym okresie plik\u00f3w napis\u00f3w.\u003c/li\u003e\n\u003cli\u003ePodpisy ekipy obecnej na Pyrkonie na wydruku naszego t\u0142a.\u003c/li\u003e\n\u003cli\u003eWsp\u00f3lne piwko/soczek (kilka postawimy my) na jakim\u015b evencie. :v\u00a0\u003c/li\u003e\n\u003cli\u003eOpcjonalne szwendanie si\u0119 z nami po terenie wydarzenia.\u003c/li\u003e\n\u003cli\u003e1 tom mangi dost\u0119pnej w Polsce z opcj\u0105 podpisania jej przez cz\u0142onk\u00f3w \u00a0\u00a0ekipy b\u0119d\u0105cych na wydarzeniu. (na wsp\u00f3lnym evencie/przes\u0142an\u0105 kurierem - \u00a0\u00a0w tej opcji bez podpis\u00f3w)\u003c/li\u003e\n\u003cli\u003ePrzywileje roli \"Patron\" na naszym discordzie. \u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-16T22:03:04.342953+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-16T22:03:04.336248+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Starszy Wilk+",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1262104\u0026rid=2062850",
+     "user_limit": 1
+    },
+    "id": "2062850",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1500,
+     "completed_percentage": 100,
+     "created_at": "2017-10-09T15:15:42+00:00",
+     "description": "Op\u0142acenie wi\u0119kszo\u015bci koszt\u00f3w serwer\u00f3w.",
+     "reached_at": "2017-12-11T20:37:28+00:00",
+     "title": ""
+    },
+    "id": "989253",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2000,
+     "completed_percentage": 100,
+     "created_at": "2017-10-09T15:15:42+00:00",
+     "description": "Wy\u0142\u0105czenie(o ile, i na tyle ile to mo\u017cliwe) reklam na playerach.",
+     "reached_at": "2017-12-12T18:42:47+00:00",
+     "title": ""
+    },
+    "id": "989254",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 54,
+     "created_at": "2017-10-09T15:31:03+00:00",
+     "description": "Postawimy maszyn\u0119, kt\u00f3ra non-stop b\u0119dzie kodowa\u0142a i uploadowa\u0142a brakuj\u0105ce odcinki; kupimy skrypt kt\u00f3ry u\u0142atwi kodowanie i uploadowanie wychodz\u0105cych serii.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "989267",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1262104"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "fdb88a8d-12cd-441b-b3a9-98e8b5d9902e",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "\u014ckami-Subs are creating subtitles"
+});
+    </script>

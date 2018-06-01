@@ -1,0 +1,525 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "l9FGOBxL262CFtPWGQh_TXPE1z9mCWUL5cev1JLyx_M";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "872274",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/872274"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-03-04T00:20:58+00:00",
+    "creation_name": "Podcasts",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI2IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1585200/a9d2e71d09f74229bb2ae4f40bb1ee2e?token-time=2145916800\u0026token-hash=JsVwoG0HSKE2rKww1SG9NKoh7S60u7d4WuV9Z3BoRCg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNiJ9/patreon-media/campaign/1585200/a9d2e71d09f74229bb2ae4f40bb1ee2e?token-time=2145916800\u0026token-hash=cpvjtiFTBbQX3LeCotRVAdSOArl8p63PnmOrptkBlN0%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "month",
+    "pledge_sum": 21532,
+    "pledge_url": "/bePatron?c=1585200",
+    "published_at": "2018-04-09T22:14:55+00:00",
+    "summary": "Welcome to Fuzzy Logic, the podcast where we know \u003cem\u003every little\u00a0\u003c/em\u003eabout a whole lot, and that is supported by listeners like you! \u003cbr\u003e\u003cbr\u003eWe live for the pod and would theoretically die for the pod, but please don\u0027t make us test that second bit out. In fact, by pledging to support us each month, you\u0027re helping make sure we \u003cem\u003edon\u0027t\u003c/em\u003e die for the pod! \u003cbr\u003e\u003cbr\u003eThank you so much for your help, we\u0027ll make sure you get a nice front-row seat to our slow descent into utter chaos. Enjoy.\u003cbr\u003e-hnkH\u00a0"
+   },
+   "id": "1585200",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3019471",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3019471"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1130332",
+       "type": "goal"
+      },
+      {
+       "id": "1130333",
+       "type": "goal"
+      },
+      {
+       "id": "1130334",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1585200",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1585200"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2419516",
+       "type": "reward"
+      },
+      {
+       "id": "2419522",
+       "type": "reward"
+      },
+      {
+       "id": "2419527",
+       "type": "reward"
+      },
+      {
+       "id": "2419529",
+       "type": "reward"
+      },
+      {
+       "id": "2419533",
+       "type": "reward"
+      },
+      {
+       "id": "2419543",
+       "type": "reward"
+      },
+      {
+       "id": "2419536",
+       "type": "reward"
+      },
+      {
+       "id": "2419539",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "The podcast where we know very little about a whole lot, run by three idiot goofballs jut trying their best.",
+     "created": "2016-03-14T18:46:04+00:00",
+     "facebook": "https://www.facebook.com/fuzzylogicpod",
+     "first_name": "Fuzzy",
+     "full_name": "Fuzzy Logic",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiNCIsInciOjIwMH0%3D/patreon-media/user/3019471/922888d1d1474648877f86adc7f2105f?token-time=2145916800\u0026token-hash=eAjLlOzZiiXD7mydwf-AcAJ-TdR1WpBNE5TM5yJykjc%3D",
+     "last_name": "Logic",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiI0IiwidyI6MTAwfQ%3D%3D/patreon-media/user/3019471/922888d1d1474648877f86adc7f2105f?token-time=2145916800\u0026token-hash=T1XzYAyt3fsl5osB4mdHVl-v6P8TscnnSvJDvlhC8Fw%3D",
+     "twitch": null,
+     "twitter": "FuzzyLogicPod",
+     "url": "https://www.patreon.com/fuzzylogicpod",
+     "vanity": "fuzzylogicpod",
+     "youtube": null
+    },
+    "id": "3019471",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1585200",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1585200"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 11,
+     "upgrade_url": "/bePatron?c=1585200\u0026rid=2419527"
+    },
+    "id": "post-aggregation-for-0-1585200",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-03-04T00:29:49.758987+00:00",
+     "description": "Thanks for your support! We\u0027ll take a bit of you (your name) and immortalize it on a special page on our site.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-04T00:29:49.758987+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-04T00:29:49.758987+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Moyel Madness",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1585200\u0026rid=2419516",
+     "user_limit": null
+    },
+    "id": "2419516",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-03-04T00:30:52.735774+00:00",
+     "description": "You get a thank you on the website \u003cem\u003eand\u003c/em\u003e you get to join the discourse on the Discord.",
+     "discord_role_ids": [
+      "432563945069346846"
+     ],
+     "edited_at": "2018-04-08T15:43:40.498443+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-08T15:43:40.462468+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Torah Time",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1585200\u0026rid=2419522",
+     "user_limit": null
+    },
+    "id": "2419522",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2018-03-04T00:31:57.363061+00:00",
+     "description": "You get all of the above \u003cem\u003eand\u003c/em\u003e access to some patron-only bonus clips that had to be cut from the final episodes.",
+     "discord_role_ids": [
+      "432563945069346846"
+     ],
+     "edited_at": "2018-04-08T15:43:50.212048+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2018-04-08T15:43:50.182074+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sukkot Slumber Party",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1585200\u0026rid=2419527",
+     "user_limit": null
+    },
+    "id": "2419527",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1300,
+     "amount_cents": 1300,
+     "created_at": "2018-03-04T00:33:03.708265+00:00",
+     "description": "You get all of the above \u003cem\u003eand\u003c/em\u003e special extended cuts of our episodes that went \u003cstrong\u003eway\u003c/strong\u003e too long while recording.\u00a0",
+     "discord_role_ids": [
+      "432563945069346846"
+     ],
+     "edited_at": "2018-04-08T15:44:03.449445+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-04-08T15:44:03.426383+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Minyan Monstrosity",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1585200\u0026rid=2419529",
+     "user_limit": null
+    },
+    "id": "2419529",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2100,
+     "amount_cents": 2100,
+     "created_at": "2018-03-04T00:34:17.040512+00:00",
+     "description": "You get all of the above, a nickname in the discord chat, and \u003cem\u003ealso \u003c/em\u003ea bullshit food and drink pairing from Ben for each episode we release.",
+     "discord_role_ids": [
+      "432563945069346846"
+     ],
+     "edited_at": "2018-04-08T15:44:20.057356+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-04-08T15:44:20.028662+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Midnight Manischewitz ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1585200\u0026rid=2419533",
+     "user_limit": null
+    },
+    "id": "2419533",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3600,
+     "amount_cents": 3600,
+     "created_at": "2018-03-04T00:38:12.839796+00:00",
+     "description": "You get all of the above \u003cem\u003eand \u003c/em\u003eAndrew\u0027s Fun Corner (a random perk distributed once a month by Andrew.)",
+     "discord_role_ids": [
+      "432563945069346846"
+     ],
+     "edited_at": "2018-04-08T15:44:30.117353+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-04-08T15:44:30.073566+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Andrew\u0027s Fun Corner",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1585200\u0026rid=2419543",
+     "user_limit": null
+    },
+    "id": "2419543",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 18000,
+     "amount_cents": 18000,
+     "created_at": "2018-03-04T00:35:38.763343+00:00",
+     "description": "You get all of the above and we will skype you into the lunch we have before our recording sessions.",
+     "discord_role_ids": [
+      "432563945069346846"
+     ],
+     "edited_at": "2018-04-08T15:44:48.678497+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-08T15:44:48.646853+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Chai There, Nice to Meet You",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1585200\u0026rid=2419536",
+     "user_limit": null
+    },
+    "id": "2419536",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 61300,
+     "amount_cents": 61300,
+     "created_at": "2018-03-04T00:36:30.289584+00:00",
+     "description": "You get our thanks and God\u0027s love.\u00a0\n\u003cp\u003e(Also all of the above.)\u003c/p\u003e",
+     "discord_role_ids": [
+      "432563945069346846"
+     ],
+     "edited_at": "2018-04-08T15:45:00.218724+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-08T15:45:00.197323+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mitzvah Monarch",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1585200\u0026rid=2419539",
+     "user_limit": null
+    },
+    "id": "2419539",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2018-03-04T00:44:40+00:00",
+     "description": "We will be able to recoup the costs of recording and releasing two episodes of the podcast each month!",
+     "reached_at": "2018-04-23T20:17:19+00:00",
+     "title": ""
+    },
+    "id": "1130332",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2018-03-04T00:44:40+00:00",
+     "description": "We will be able to afford to have lunch before each of our recording sessions!",
+     "reached_at": "2018-05-26T17:21:33+00:00",
+     "title": ""
+    },
+    "id": "1130333",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 21,
+     "created_at": "2018-03-04T00:44:40+00:00",
+     "description": "We will be able to pay near-ish a living wage to hnkH for all the work that gets put into making this podcast each month!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1130334",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1585200"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "539b9faa-1a25-4833-b7a0-f6fbfa86875f",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Fuzzy Logic is creating Podcasts"
+});
+    </script>

@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "AQU_TIPCgwDQR2IOkC4ckcB0tmJV8s1U-Ysyr7JRbPU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "325134",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/325134"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-12-25T22:42:22+00:00",
+    "creation_name": "illustration, animation",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/666786/dd4787c217664a399ca2edcc54749fbb?token-time=2145916800\u0026token-hash=wsDimvJMk02AoKpq-IJo8g6I0H0bmVd5YpD-XcuODnY%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/666786/dd4787c217664a399ca2edcc54749fbb?token-time=2145916800\u0026token-hash=l-2Db9oTCghXRux12v-hbFLomnL2jxU6BATo4ATNmAE%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_sum": 682,
+    "pledge_url": "/bePatron?c=666786",
+    "published_at": "2016-12-25T23:17:49+00:00",
+    "summary": ""
+   },
+   "id": "666786",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4697772",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4697772"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "670222",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-666786",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-666786"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1207248",
+       "type": "reward"
+      },
+      {
+       "id": "1207258",
+       "type": "reward"
+      },
+      {
+       "id": "1207264",
+       "type": "reward"
+      },
+      {
+       "id": "1207267",
+       "type": "reward"
+      },
+      {
+       "id": "1207269",
+       "type": "reward"
+      },
+      {
+       "id": "1259252",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-12-25T22:42:08+00:00",
+     "facebook": null,
+     "first_name": "JUKEBOX",
+     "full_name": "JUKEBOX",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4697772/0a57aabac45e46a3bf14d89389309bcc?token-time=2145916800\u0026token-hash=DsN7puMdVeOyKyR6m6fAVK82OrzqMw72uoIFwLQCFbc%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4697772/0a57aabac45e46a3bf14d89389309bcc?token-time=2145916800\u0026token-hash=f5ORKvFR6noKIKKJATTXOGGfUD8Xc74LgKGgeQffjrc%3D",
+     "twitch": "https://www.twitch.tv/jukeboxanim",
+     "twitter": null,
+     "url": "https://www.patreon.com/jukeboxanimation",
+     "vanity": "jukeboxanimation",
+     "youtube": "https://www.youtube.com/channel/UCxcqi7DREcOiErcjAFol9ug"
+    },
+    "id": "4697772",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "666786",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/666786"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 15,
+     "upgrade_url": "/bePatron?c=666786\u0026rid=1207248"
+    },
+    "id": "post-aggregation-for-0-666786",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-12-25T22:56:26.796918+00:00",
+     "description": "Most of all .. you have my thanks. And the awesomeness to help me going on with my projects.\n\u003cp\u003eAlso, you have access to my private posts with Rough animations that shows the base work.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-08T12:43:32.406624+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1207248/709805c584194f7a9d343b90e447ce39?token-time=2145916800\u0026token-hash=UNkZq0nbjgxHLyjw0Noz-lotQ6gHNQXYQW-QfULQe1k%3D",
+     "patron_count": 3,
+     "post_count": 10,
+     "published": true,
+     "published_at": "2016-12-25T22:56:26.796918+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patronus Rabbit",
+     "unpublished_at": null,
+     "url": "/bePatron?c=666786\u0026rid=1207248",
+     "user_limit": null
+    },
+    "id": "1207248",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-12-25T22:59:29.847826+00:00",
+     "description": "\u00a0You have access to my Rough animations that shows the base work \u00a0+ Every month, suggest me an idea of project and I will consider those ideas for future works",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-08T12:43:32.448973+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1207258/3e6f6f2b1ff3433ba09d3b9613d9a92b?token-time=2145916800\u0026token-hash=z2brNkfSV_DFjewX8qtQ6s1G2kZW6lV04zS9Ets_yYk%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-25T22:59:29.847826+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patronus Owl",
+     "unpublished_at": null,
+     "url": "/bePatron?c=666786\u0026rid=1207258",
+     "user_limit": null
+    },
+    "id": "1207258",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-12-25T23:03:47.489129+00:00",
+     "description": "\u00a0You get : all of the lower patronus advantages + Every month, \u00a0get a tvpaint file with all the layers I worked on\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-08T12:43:32.475691+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1207264/48748929e95547898caad516ef27d2ba?token-time=2145916800\u0026token-hash=3wa2RAqcmqg77rkLjzrIt_eh2PdgkT1vV8HlbCRsj50%3D",
+     "patron_count": 0,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-12-25T23:03:47.489129+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patronus Wolf",
+     "unpublished_at": null,
+     "url": "/bePatron?c=666786\u0026rid=1207264",
+     "user_limit": null
+    },
+    "id": "1207264",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-12-25T23:06:19.527805+00:00",
+     "description": "You get : all of the lower patronus advantages + a personal hand drawn sketch commission",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-08T12:43:32.502107+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1207267/bb56b02db33a4fd7a82baf093ca233c2?token-time=2145916800\u0026token-hash=IURwE_NR2zSig7TbeJnfvQ08bOd5ABY6k5VNPW1VxZk%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-25T23:06:19.527805+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Patronus Steed",
+     "unpublished_at": null,
+     "url": "/bePatron?c=666786\u0026rid=1207267",
+     "user_limit": null
+    },
+    "id": "1207267",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-12-25T23:09:43.564637+00:00",
+     "description": "You get : all of the lower patronus advantages + a unique personalized animated gif !",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-08T12:43:32.529069+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1207269/fa34118fbbcf4ce49c585311f4c3d69d?token-time=2145916800\u0026token-hash=8M9jA9SZ5k1fPLKbTaKjoMzBGEY2PtmQMqWApnld0N0%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-25T23:09:43.564637+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Patronus Deer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=666786\u0026rid=1207269",
+     "user_limit": null
+    },
+    "id": "1207269",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-01-08T12:39:33.929782+00:00",
+     "description": "\u00a0You get : all of the lower patronus advantages + 2h private stream with advices for drawing and animating every month",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-26T10:30:49.218021+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1259252/f43a1913405b44bca7dec52ff760307a?token-time=2145916800\u0026token-hash=6eELIoyB56gLy7rIhi8YIrbI_bt6OB8L-1S2ejqXKlE%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-08T12:39:33.929782+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Patronus Pheonix",
+     "unpublished_at": null,
+     "url": "/bePatron?c=666786\u0026rid=1259252",
+     "user_limit": null
+    },
+    "id": "1259252",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 3,
+     "created_at": "2017-01-08T12:43:32+00:00",
+     "description": "With this goal achieved, I could get a few days of break every month to work more on personal projects !",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "670222",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/666786"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "20680e1c-16d2-4161-a1dd-fb8049a18596",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "JUKEBOX is creating illustration, animation"
+});
+    </script>

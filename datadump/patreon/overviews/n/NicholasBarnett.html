@@ -1,0 +1,884 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "c3vTEvwwqkXYRsMYRjx_P4qXCgH9oPdVLseiVdku6ZY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "205959",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/205959"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-08-12T08:18:45+00:00",
+    "creation_name": "vlogs while rebuilding his life from scratch.",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/463543/7b598c45187c42a48d08b2b5093bf250?token-time=2145916800\u0026token-hash=Q2Ch1OyO3RYXiixHQxxYi5xjYqo5tgzAsV3tatOsoNs%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/463543/7b598c45187c42a48d08b2b5093bf250?token-time=2145916800\u0026token-hash=pqzEU30aqx19fsDpuoC83iUj9QLHlEqr_k_72fBUIdg%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=463543",
+    "published_at": "2016-08-12T09:06:21+00:00",
+    "summary": "\u003cstrong\u003eWHO AM I\u003c/strong\u003e?\u003cbr\u003e\u003cdiv style=\"margin-left: 20px;\"\u003eMy name is Nicholas Barnett and this is my rising story. Near the end of college I started making Youtube videos. My first video for my channel was in January 2015. At the time I was homeless, desperate and so delusional that I couldn\u0027t face myself. Gradually I have made progress and by vlogging my adventures I hope to encourage and inspire people with my growth. These days I hear it alot, that \"people never change\" but there is no hope in that. So I\u0027m here to show you that I\u0027m changing.\u003c/div\u003e\u003cstrong\u003eHOW THIS WORKS\u003c/strong\u003e?\u003cbr\u003e\u003cdiv style=\"margin-left: 20px;\"\u003e\u003cstrong\u003e\u003c/strong\u003eYou become a patron by pledging whatever you can monthly give to help these adventures continue. Your generosity and support means the world to me. I can\u0027t thank you as much as I\u0027d like to, but I will share that beautiful world with you. Your donations aren\u0027t just fuel for my car they are fuel for my soul\u0027s desire to journey. Thank You -Nicholas Barnett\u003c/div\u003e"
+   },
+   "id": "463543",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3811142",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3811142"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "846897",
+       "type": "goal"
+      },
+      {
+       "id": "846916",
+       "type": "goal"
+      },
+      {
+       "id": "1116023",
+       "type": "goal"
+      },
+      {
+       "id": "1116024",
+       "type": "goal"
+      },
+      {
+       "id": "1116080",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "75877",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1713659",
+       "type": "reward"
+      },
+      {
+       "id": "1713732",
+       "type": "reward"
+      },
+      {
+       "id": "2382942",
+       "type": "reward"
+      },
+      {
+       "id": "2382899",
+       "type": "reward"
+      },
+      {
+       "id": "2382947",
+       "type": "reward"
+      },
+      {
+       "id": "2383060",
+       "type": "reward"
+      },
+      {
+       "id": "2383036",
+       "type": "reward"
+      },
+      {
+       "id": "2382920",
+       "type": "reward"
+      },
+      {
+       "id": "2382957",
+       "type": "reward"
+      },
+      {
+       "id": "2382924",
+       "type": "reward"
+      },
+      {
+       "id": "2383021",
+       "type": "reward"
+      },
+      {
+       "id": "2383002",
+       "type": "reward"
+      },
+      {
+       "id": "1713797",
+       "type": "reward"
+      },
+      {
+       "id": "2382933",
+       "type": "reward"
+      },
+      {
+       "id": "2382862",
+       "type": "reward"
+      },
+      {
+       "id": "2383030",
+       "type": "reward"
+      },
+      {
+       "id": "2382846",
+       "type": "reward"
+      },
+      {
+       "id": "2382800",
+       "type": "reward"
+      },
+      {
+       "id": "2382773",
+       "type": "reward"
+      },
+      {
+       "id": "2382741",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I want to promote family and adventure values. \u00a0People deserve to love the life they live. \u00a0My family is complicated and my adventures are simple but I love them both. \u00a0I only have my laptop camera so videos are somewhat limited but my heart is all in.",
+     "created": "2016-08-12T08:06:30+00:00",
+     "facebook": "https://www.facebook.com/nicholas.barnett.169",
+     "first_name": "Nicholas",
+     "full_name": "Nicholas Barnett",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3811142/95a678153943497d9c7a44c78f4b25d1?token-time=2145916800\u0026token-hash=DkZ8JFJEWc9G2DyBTrr7wMvlHN6P0QHb2zopbuU5aI8%3D",
+     "last_name": "Barnett",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3811142/95a678153943497d9c7a44c78f4b25d1?token-time=2145916800\u0026token-hash=rfyJ5WQ7iQSRN9XFnNY61Zj_3P18OquEybu1WgN06Q0%3D",
+     "twitch": null,
+     "twitter": "nicholasbrntt",
+     "url": "https://www.patreon.com/NicholasBarnett",
+     "vanity": "NicholasBarnett",
+     "youtube": "https://www.youtube.com/channel/UCo0XNSrnJpzMBrGgaLnEAqQ?view_as=public"
+    },
+    "id": "3811142",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "463543",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/463543"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-05-24T14:36:01.039058+00:00",
+     "description": "This is the most important tier in my heart. Thank you for making all this possible.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T17:12:17.799611+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T17:12:17.789259+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Welcome to the family",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=1713659"
+    },
+    "id": "1713659",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1200,
+     "amount_cents": 1200,
+     "created_at": "2017-05-24T15:22:03.311847+00:00",
+     "description": "That is about how much it costs to fill up my stomach when I go out to eat. Thank you.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T20:37:41.901847+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T20:37:41.892601+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Nutritionist",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=1713732"
+    },
+    "id": "1713732",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2400,
+     "amount_cents": 2400,
+     "created_at": "2018-02-18T18:55:35.790269+00:00",
+     "description": "The average amount of money I spend on a date.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T18:55:35.790269+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T18:55:35.790269+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Cupid",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2382942"
+    },
+    "id": "2382942",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-02-18T18:42:59.645410+00:00",
+     "description": "THANK YOU for getting me a tank of gas.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T20:36:31.445721+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T20:36:31.437441+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Stunt Coordinator",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2382899"
+    },
+    "id": "2382899",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4500,
+     "amount_cents": 4500,
+     "created_at": "2018-02-18T18:58:03.478061+00:00",
+     "description": "This keeps the heat or AC on.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T20:35:23.456635+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T20:35:23.447838+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Set Manager",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2382947"
+    },
+    "id": "2382947",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4500,
+     "amount_cents": 4500,
+     "created_at": "2018-02-18T19:33:37.256479+00:00",
+     "description": "Furniture. My apartment still looks empty.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T20:33:25.068035+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T20:33:25.060994+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Art Director",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2383060"
+    },
+    "id": "2383060",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-02-18T19:27:02.101256+00:00",
+     "description": "A slight upgrade to The Honda.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T20:32:26.682362+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T20:32:26.674946+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Assistant Production Designer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2383036"
+    },
+    "id": "2383036",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6600,
+     "amount_cents": 6600,
+     "created_at": "2018-02-18T18:47:02.690298+00:00",
+     "description": "THANK YOU for keeping the lights on.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T20:31:35.796741+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T20:31:35.789436+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Gaffer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2382920"
+    },
+    "id": "2382920",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2018-02-18T19:02:38.491664+00:00",
+     "description": "Parking at my apartment is the worst. This would pay for a garage. During the day I often have to park a block away and sometimes two.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T20:30:53.001107+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T20:30:52.994277+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Storage Manager",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2382957"
+    },
+    "id": "2382957",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 9100,
+     "amount_cents": 9100,
+     "created_at": "2018-02-18T18:48:47.556967+00:00",
+     "description": "THANK YOU for paying my car insurance.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T20:30:10.872192+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T20:30:10.865228+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Vehicle Production",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2382924"
+    },
+    "id": "2382924",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 9300,
+     "amount_cents": 9300,
+     "created_at": "2018-02-18T19:22:02.925591+00:00",
+     "description": "This is the typical price of maintaining my car.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T20:29:36.544365+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T20:29:36.534497+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Vehicle Developer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2383021"
+    },
+    "id": "2383021",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 9500,
+     "amount_cents": 9500,
+     "created_at": "2018-02-18T19:14:44.224847+00:00",
+     "description": "Thank You for a nice phone.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T20:27:13.417915+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T20:27:13.407907+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Connective Production",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2383002"
+    },
+    "id": "2383002",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-05-24T15:44:40.835669+00:00",
+     "description": "I will give you a firm handshake.\u00a0No really, a trip to wherever you want to meet up, within a year of signing up. Anyone who donates 100 or more is gonna get my respect.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T18:34:05.345008+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T18:34:05.337603+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Unit Manager",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=1713797"
+    },
+    "id": "1713797",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2018-02-18T18:51:30.119865+00:00",
+     "description": "THANK YOU for feeding me all month.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T20:23:33.456903+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T20:23:33.447903+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Chief Nutritionist",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2382933"
+    },
+    "id": "2382933",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 49500,
+     "amount_cents": 49500,
+     "created_at": "2018-02-18T18:29:36.455989+00:00",
+     "description": "THANK YOU for paying my rent.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T19:00:17.905811+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T19:00:17.898509+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Production Coordinator",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2382862"
+    },
+    "id": "2382862",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2018-02-18T19:24:29.656418+00:00",
+     "description": "A serious upgrade to The Honda.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T20:10:49.645500+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T20:10:49.636476+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Production Designer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2383030"
+    },
+    "id": "2383030",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2018-02-18T18:22:24.433496+00:00",
+     "description": "I am going to test and see how far of a road trip I can do with only 1,000 dollars and wouldn\u0027t it be cool if I could say that you paid for it. After the test roadtrip I will be able to plan them regularly.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T18:22:24.433496+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T18:22:24.433496+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Production Manager",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2382846"
+    },
+    "id": "2382846",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 150000,
+     "amount_cents": 150000,
+     "created_at": "2018-02-18T17:59:41.363551+00:00",
+     "description": "This level would cover all of my current monthly life expenses. At this level I would not need to do medical studies anymore.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T19:03:43.517998+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T19:03:43.508919+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Line Producer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2382800"
+    },
+    "id": "2382800",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400000,
+     "amount_cents": 400000,
+     "created_at": "2018-02-18T17:48:12.066948+00:00",
+     "description": "This is my dream salary. At this point my financial wants are entirely satisfied. Thank you for making my dreams come true.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T19:04:08.158185+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T19:04:08.148329+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Producer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2382773"
+    },
+    "id": "2382773",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000000,
+     "amount_cents": 1000000,
+     "created_at": "2018-02-18T17:32:40.591236+00:00",
+     "description": "I would attempt the most difficult thing for me to do. I would go back to school to become a pastor, and vlog college and career life.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T17:33:06.176213+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T17:33:06.169489+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Executive Producer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=463543\u0026rid=2382741"
+    },
+    "id": "2382741",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 3,
+     "created_at": "2017-05-26T00:16:00+00:00",
+     "description": "500 dollars a month is a third of my total monthly expenses and would free up a lot more time for the channel.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "846897",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2017-05-26T00:33:57+00:00",
+     "description": "At 1,500 dollars a month I will kiss you. Na that\u0027s a joke, but I will be sincerely very grateful because this will become my job. This much should cover all of my financial needs. Anything beyond this point goes straight back into the channel.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "846916",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2018-02-18T19:53:37+00:00",
+     "description": "4,000 a month is my dream salary. Anything beyond this point goes toward expanding the business with new employees, new channels and bigger opportunities.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1116023",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 16,
+     "created_at": "2018-02-18T19:53:37+00:00",
+     "description": "100 dollars a month! Wow we can really do this!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1116024",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 66,
+     "created_at": "2018-02-18T20:52:37+00:00",
+     "description": "With 24 dollars a month I will make a mock commercial for my Patreon page.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1116080",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-02-18T20:57:16+00:00",
+     "deleted_at": null,
+     "description": "My goal is to get 5 patrons. I am going to make a point to mention Patreon in every video until I do. I will celebrate by making a Thank You video for my patrons.",
+     "goal_text": "My goal is to get 5 patrons. I am going to make a point to mention Patreon in every video until I do. I will celebrate by making a Thank You video for my patrons.",
+     "number_patrons": 5,
+     "reached_at": null
+    },
+    "id": "75877",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/463543"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "b3222a63-2566-41d4-8012-70a5eab788db",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Nicholas Barnett is creating vlogs while rebuilding his life from scratch."
+});
+    </script>

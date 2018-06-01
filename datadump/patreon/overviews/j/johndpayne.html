@@ -1,0 +1,566 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "JO-Ez_ZzkoNsO40sOkBz3rGW9KAyY6vABRB5jbK4HlU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "419939",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/419939"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-04-20T19:52:26+00:00",
+    "creation_name": "super rad books and stories",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/869975/f400371c7c2743cb95c73a716531cf65?token-time=2145916800\u0026token-hash=QdGDKv1cmMIyj2ujBHvdYYmdoWaBnpwL7z8tzj6u9N4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/869975/f400371c7c2743cb95c73a716531cf65?token-time=2145916800\u0026token-hash=ByjPeB6PpnitV_k0V99Yc5YKmvTOwMJoN83CtxkbEyc%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 10,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=869975",
+    "published_at": "2017-04-20T20:02:26+00:00",
+    "summary": "I quit my job. \u00a0I was an assistant professor on the tenure track, teaching and learning about terrorism and other really interesting stuff. \u00a0I was making good money and working with great people. \u00a0I loved it! \u00a0\u003cbr\u003e\u003cbr\u003eI also love writing. \u00a0And I\u0027ve had some small success. \u00a0Before jumping on the tenure treadmill, I got my first novel published, which was an amazing experience. \u00a0Since then, though, I\u0027ve only been able to manage short stories. \u00a0Turns out a tenure-track job in security studies is not super compatible with making up stories about dragons and spaceships and whatnot. \u00a0\u003cbr\u003e\u003cbr\u003eThis is where Patreon comes in. \u00a0In previous centuries, writers, artists, and other creators sought out wealthy patrons to support their work. \u00a0Today, we can reach out and connect to a multitude of individual patrons. \u00a0And even if each of them only pledges a small amount, these little streams of support can flow together into mighty rivers. In other words,\u00a0Patreon helps writers like me build careers and cultivate our audiences-- on our own terms.\u003cbr\u003e\u003cbr\u003eThe flexibility this affords is extra important because quitting my academic job means taking on another demanding job: full-time dad to a preschooler, a toddler, and a newborn. \u00a0Happily, raising a bunch of awesome little humans is compatible with making up stories. \u00a0So that\u0027s what I\u0027m doing. \u003cbr\u003e\u003cbr\u003eFor now, I\u0027ll be releasing one story a month via Patreon. \u00a0(Plus some other fun stuff-- see the Monthly Schedule, below.) \u00a0But I have big plans for what we\u0027ll be doing here as more patrons sign up. \u00a0(See Goals, on the left-hand menu.) \u00a0\u003cbr\u003e\u003cbr\u003eSo check out the rewards on the right-hand side of the page. \u00a0If one of them looks like a good deal to you, click where it says Get Reward. \u00a0If you\u0027re not sure, try hitting the button on the top left of the page that says Follow. \u00a0It doesn\u0027t cost you a thing, and it gets you a free copy of my newsletter.\u00a0\u003cbr\u003e\u003cbr\u003eYour support (whether a pledge or a follow) helps me produce more stories about snarky superhero sidekicks, and extra-dimensional hipster unicorns, and lots of other fun, nerdy things. \u00a0So, thank you all.\u00a0\u003cbr\u003e\u003cbr\u003e^_^\u00a0\u003cbr\u003e\u003cbr\u003eJDP\u003cbr\u003e__________________________________________________________\u003cbr\u003e\u003cbr\u003eMONTHLY SCHEDULE\u003cbr\u003e\u003cul\u003e\u003cli\u003e1st Monday : Story of the month, for Readers and up\u003c/li\u003e\u003cli\u003e2nd Monday : Bonus content, for Amigos and up\u003c/li\u003e\u003cli\u003e3rd Monday : Poll, for Deciders and up\u003cul\u003e\u003cli\u003ePLUS Brain Trust video chat \u00a0(date \u0026amp; time set w/ BT+)\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003e4th Monday : \u00a0Newsletter \u0026amp; pix, for general public\u003c/li\u003e\u003cli\u003e5th Monday : PATRONPALOOZA (special features, usually for a limited time)\u003c/li\u003e\u003c/ul\u003e"
+   },
+   "id": "869975",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "241510",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/241510"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "801370",
+       "type": "goal"
+      },
+      {
+       "id": "801375",
+       "type": "goal"
+      },
+      {
+       "id": "801386",
+       "type": "goal"
+      },
+      {
+       "id": "801387",
+       "type": "goal"
+      },
+      {
+       "id": "801388",
+       "type": "goal"
+      },
+      {
+       "id": "801399",
+       "type": "goal"
+      },
+      {
+       "id": "801400",
+       "type": "goal"
+      },
+      {
+       "id": "817231",
+       "type": "goal"
+      },
+      {
+       "id": "817232",
+       "type": "goal"
+      },
+      {
+       "id": "817233",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-869975",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-869975"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1623794",
+       "type": "reward"
+      },
+      {
+       "id": "1653885",
+       "type": "reward"
+      },
+      {
+       "id": "1623852",
+       "type": "reward"
+      },
+      {
+       "id": "1623869",
+       "type": "reward"
+      },
+      {
+       "id": "1623881",
+       "type": "reward"
+      },
+      {
+       "id": "1623901",
+       "type": "reward"
+      },
+      {
+       "id": "1623831",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "John D. Payne is a writer of fantasy, sci-fi, and literary fiction based in southern New Mexico. His debut novel is \u003cem\u003eThe Crown and the Dragon\u003c/em\u003e, now a major motion picture from Arrowstorm Entertainment.",
+     "created": "2014-07-23T18:07:55+00:00",
+     "facebook": "https://www.facebook.com/jpayne1138",
+     "first_name": "John",
+     "full_name": "John D. Payne",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/241510/7ba242b5f09a4abb8b59569dae538a25?token-time=2145916800\u0026token-hash=UPNHMOE03IfjNjgMnZR7gq_sbXeKN3lItnZbIaZCulY%3D",
+     "last_name": "D. Payne",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/241510/7ba242b5f09a4abb8b59569dae538a25?token-time=2145916800\u0026token-hash=W8F-mH1YkIHyNa_wio9hZPmaz6DZD83_CNQhWpm1mI8%3D",
+     "twitch": null,
+     "twitter": "jdp_writes",
+     "url": "https://www.patreon.com/johndpayne",
+     "vanity": "johndpayne",
+     "youtube": null
+    },
+    "id": "241510",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "869975",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/869975"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 33,
+     "upgrade_url": "/bePatron?c=869975\u0026rid=1623794"
+    },
+    "id": "post-aggregation-for-0-869975",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-04-21T21:43:47.489928+00:00",
+     "description": "Support John\u0027s writing!\u003cbr\u003e+ monthly newsletter\u003cbr\u003e+ patron-only bonus content, such as: outlines, world-building notes, maps, character sketches.\u003cbr\u003e+ Surprises and extras every Patronapalooza\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-17T17:35:28.021156+00:00",
+     "image_url": null,
+     "post_count": 7,
+     "published": true,
+     "published_at": "2017-04-21T21:43:47.489928+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "AMIGO",
+     "unpublished_at": null,
+     "url": "/bePatron?c=869975\u0026rid=1623794"
+    },
+    "id": "1623794",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-05-01T19:45:51.414751+00:00",
+     "description": "A free story every month.\u003cbr\u003e+ unlimited access to the story archive\u003cbr\u003e+ all previous rewards\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-24T21:44:46.993444+00:00",
+     "image_url": null,
+     "post_count": 11,
+     "published": true,
+     "published_at": "2017-05-01T19:45:51.414751+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "READER",
+     "unpublished_at": null,
+     "url": "/bePatron?c=869975\u0026rid=1653885"
+    },
+    "id": "1653885",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-04-21T21:58:14.220951+00:00",
+     "description": "Vote in monthly polls on character names, setting details, plot points, upcoming projects, rewards, goals, author life decisions, etc.\u003cbr\u003e+ all previous rewards\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-24T21:44:46.924108+00:00",
+     "image_url": null,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-04-21T21:58:14.220951+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "DECIDER",
+     "unpublished_at": null,
+     "url": "/bePatron?c=869975\u0026rid=1623852"
+    },
+    "id": "1623852",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-04-21T22:03:26.250678+00:00",
+     "description": "A chance to have your name and/or description used in stories and books.\u003cbr\u003e+ your name in the acknowledgements of every book published while you are a patron at this level.\u003cbr\u003e+ all previous rewards",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-24T21:44:46.960078+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-21T22:03:26.250678+00:00",
+     "remaining": 9,
+     "requires_shipping": false,
+     "title": "TUCK EVERLASTING",
+     "unpublished_at": null,
+     "url": "/bePatron?c=869975\u0026rid=1623869"
+    },
+    "id": "1623869",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-04-21T22:08:00.906489+00:00",
+     "description": "Participate in live monthly video chat / Q\u0026amp;A. \u00a0\u003cbr\u003e+ your choice of ebook after your first month.\u003cbr\u003e+ one additional ebook of your choice per year.\u003cbr\u003e+\u00a0all previous rewards",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-02T20:09:14.746519+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-21T22:08:00.906489+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "BRAIN TRUST",
+     "unpublished_at": null,
+     "url": "/bePatron?c=869975\u0026rid=1623881"
+    },
+    "id": "1623881",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2017-04-21T22:11:41.729260+00:00",
+     "description": "Your choice of book (signed and personalized) after your first month. \u003cbr\u003e+ one additional (signed and personalized book) of your choice per year. \u003cbr\u003e+ all previous rewards",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-02T20:09:14.747722+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-21T22:11:41.729260+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "MEDICI",
+     "unpublished_at": null,
+     "url": "/bePatron?c=869975\u0026rid=1623901"
+    },
+    "id": "1623901",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 11100,
+     "amount_cents": 11100,
+     "created_at": "2017-04-21T21:52:51.992148+00:00",
+     "description": "You are the One. \u00a0As foretold by The Prophecy, you and only you can save us all. \u00a0While you are The One, I will send you a completely unique version of each new book I publish with your name substituted for the protagonist\u0027s name. \u00a0\u003cbr\u003e+ all previous rewards",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-02T20:09:14.759518+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-21T21:52:51.992148+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "NEO",
+     "unpublished_at": null,
+     "url": "/bePatron?c=869975\u0026rid=1623831"
+    },
+    "id": "1623831",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 57,
+     "created_at": "2017-04-21T23:30:27+00:00",
+     "description": "The monthly story for READER+ patrons will be a \u003cem\u003enew\u003c/em\u003e short story written specifically for Patreon supporters and with your input. No repeats, no reprints, no trunk stories.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "801370",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 28,
+     "created_at": "2017-04-21T23:31:58+00:00",
+     "description": "For each new monthly story, I will record an audio version for DECIDER+ patrons.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "801375",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 19,
+     "created_at": "2017-04-21T23:38:35+00:00",
+     "description": "In addition to a short story, READER+ patrons will get an unpublished chapter of a work in progress every month.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "801386",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 14,
+     "created_at": "2017-04-21T23:38:35+00:00",
+     "description": "For each new monthly work-in-progress chapter, I will record an audio version for DECIDER+ patrons.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "801387",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 9,
+     "created_at": "2017-04-21T23:38:35+00:00",
+     "description": "Audio of stories and work-in-progress chapters will be made available to all READER+ patrons.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "801388",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 8,
+     "created_at": "2017-04-21T23:52:17+00:00",
+     "description": "A yearly anthology available as an ebook and distributed for free to all DECIDERS+.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "801399",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 5,
+     "created_at": "2017-04-21T23:52:17+00:00",
+     "description": "The yearly anthology will include at least one story, poem, essay, or work of art submitted by a Patreon subscriber. \u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "801400",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 11,
+     "created_at": "2017-05-02T13:59:27+00:00",
+     "description": "A monthly serial for DECIDER+ patrons in choose-your-own adventure style, with decisions at the end of each chapter chosen by poll.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "817231",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 7,
+     "created_at": "2017-05-02T13:59:27+00:00",
+     "description": "Monthly stories will be available to all subscribers, period.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "817232",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 6,
+     "created_at": "2017-05-02T13:59:27+00:00",
+     "description": "READER+ patrons will receive a children\u0027s story (or two) each month.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "817233",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/869975"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "f647b9ec-6dc3-4301-8045-2c7ce6f4acc1",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "John D. Payne is creating super rad books and stories"
+});
+    </script>
