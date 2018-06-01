@@ -1,0 +1,831 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "EnTlK2as-JhLGsNtmanTmFQuP3VVw51N67ZLZ9RxFmE";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "40898",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/40898"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2013-10-24T20:46:38+00:00",
+    "creation_name": "videos that amaze our nation\u0027s finest cats",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/74534/06074ac71f9c41c885972af573c7daa7?token-time=2145916800\u0026token-hash=ik6Aduynqt03LVrJ8NBy6KLBL_XLp3VHcVLy6mYIbTw%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/74534/06074ac71f9c41c885972af573c7daa7?token-time=2145916800\u0026token-hash=1kjYzIQC8pRjFVt5mDL5UqRirpLmTsw2HUQNC757Hik%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "failed stick figure cartoonist",
+    "patron_count": 2,
+    "pay_per_name": "video that isn\u0027t quite there yet",
+    "pledge_sum": 256,
+    "pledge_url": "/bePatron?c=74534",
+    "published_at": "2015-04-01T18:20:24+00:00",
+    "summary": "patreon money will give me the kind of internet-player lifestyle where I wake up disappointed at 7 am instead of 3 am. this is key.  \u003cbr\u003e\u003cbr\u003ei sometimes dream of simple salads with baby carrots, onions, chickpeas,  and olive oil.\u003cbr\u003e\u003cbr\u003ei will  hold my head up high when i enter the supermarket and the security guard who doesn\u0027t like me stares at me. the more patrons i get, the longer i\u0027ll stare back. \u003cbr\u003e\u003cbr\u003ethanks.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003edisclosure: i will use my winnings to live on a houseboat"
+   },
+   "id": "74534",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "48784",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/48784"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "440369",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "617972",
+       "type": "reward"
+      },
+      {
+       "id": "605295",
+       "type": "reward"
+      },
+      {
+       "id": "617971",
+       "type": "reward"
+      },
+      {
+       "id": "617973",
+       "type": "reward"
+      },
+      {
+       "id": "212220",
+       "type": "reward"
+      },
+      {
+       "id": "312977",
+       "type": "reward"
+      },
+      {
+       "id": "212233",
+       "type": "reward"
+      },
+      {
+       "id": "212221",
+       "type": "reward"
+      },
+      {
+       "id": "313016",
+       "type": "reward"
+      },
+      {
+       "id": "313725",
+       "type": "reward"
+      },
+      {
+       "id": "346617",
+       "type": "reward"
+      },
+      {
+       "id": "347247",
+       "type": "reward"
+      },
+      {
+       "id": "212227",
+       "type": "reward"
+      },
+      {
+       "id": "685914",
+       "type": "reward"
+      },
+      {
+       "id": "212234",
+       "type": "reward"
+      },
+      {
+       "id": "1984719",
+       "type": "reward"
+      },
+      {
+       "id": "617957",
+       "type": "reward"
+      },
+      {
+       "id": "617958",
+       "type": "reward"
+      },
+      {
+       "id": "403426",
+       "type": "reward"
+      },
+      {
+       "id": "212258",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "\u003ca href=\"http://AbsurdBlog.com\"\u003eAbsurdBlog.com\u003c/a\u003e\u003cbr\u003e\n\u003ca href=\"http://BuyThisBookImmediately.com\"\u003eBuyThisBookImmediately.com\u003cbr\u003e\u003cbr\u003e\u003c/a\u003e",
+     "created": "2013-10-24T20:46:38+00:00",
+     "facebook": "https://www.facebook.com/AbsurdBlog",
+     "first_name": "S.J.",
+     "full_name": "S.J. Shamus",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/48784/8fef471b5c7a4c3f8d08612212e2b62d?token-time=2145916800\u0026token-hash=iDCHC4A4LUcd5hcpImqzwu_1Pr0y7dlNbDyCOYzuk2I%3D",
+     "last_name": "Shamus",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/48784/8fef471b5c7a4c3f8d08612212e2b62d?token-time=2145916800\u0026token-hash=hmcueGWLh-tJcZCuZ3q5YZ9JQ5kDaSdHHbPYr0K-CZA%3D",
+     "twitch": "",
+     "twitter": "AbsurdBlog",
+     "url": "https://www.patreon.com/AbsurdBlog",
+     "vanity": "AbsurdBlog",
+     "youtube": "https://www.youtube.com/AbsurdBlog"
+    },
+    "id": "48784",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "74534",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/74534"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": "2016-09-08T21:53:58+00:00",
+     "description": "1 cent\\video -- i will personally contact you telepathically when my ISP is down (this tier only).   i will also try to stop eating onions.\u00a0patrons at this level are in the vanguard of the social proof movement. \u00a0you are my favorite patrons when i drink wine\u00a0at religious events\u00a0",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:58+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=617972",
+     "user_limit": null
+    },
+    "id": "617972",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10,
+     "amount_cents": 10,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "10 cents\\video -- due to a screwdriver accident while installing his first graphics card,  s.j. shamus now depends on dimes for positive reinforcement\u003cbr\u003e\u003cbr\u003e\u003cem\u003ewe are asking you to hesitate before throwing away the dimes you find when you clean your robots\u003c/em\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003ehe will also eat fewer of the expensive chickpeas that cause gas\u003c/strong\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=605295",
+     "user_limit": null
+    },
+    "id": "605295",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25,
+     "amount_cents": 25,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "25 cents\\video -- no more apricots. this is a special promotional price for close shamus associates. \u003cem\u003ethis deal could disappear at any time\u003c/em\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=617971",
+     "user_limit": null
+    },
+    "id": "617971",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50,
+     "amount_cents": 50,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "50 cents\\video -- with a bigger number than the previous options, this appears to be a bargain because it\u0027s the last option below a dollar. scientists call this brain magic and you will pull the trigger.  no way you\u0027re a scientist. no disrespect but no way",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=617973",
+     "user_limit": null
+    },
+    "id": "617973",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "you will receive 1 video per month of my legs dancing. \u00a0only my lower legs will be visible. \u00a0partners may include: fascinating objects, dolls, a plastic tarantula whose alliance with the\u00a0cockroaches has disappointed me, the landlord\u0027s elderly pets, philosophy books stored in my car, and expired coupons that still motivate me.\u00a0\u003cstrong\u003eTHIS TIER WILL NOT BECOME A CIRCUS\u003c/strong\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T19:10:47.382293+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=212220",
+     "user_limit": null
+    },
+    "id": "212220",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 150,
+     "amount_cents": 150,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "I may do something here",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=312977",
+     "user_limit": null
+    },
+    "id": "312977",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 195,
+     "amount_cents": 195,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "special tier for shamus childhood friends who accidentally sat on the clay colonial pipe he bought on a field trip to williamsburg in 3rd grade\n\u003cp\u003e\u003cbr\u003e\n\u003c/p\u003e\n\u003cp\u003eif shamus were a sloppy thinker, he might think that this event foreshadowed future events, but he is not. such experiences may superficially resemble each other in tone, structure, cause or outcome but they are independent events\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T20:07:07.524987+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=212233",
+     "user_limit": null
+    },
+    "id": "212233",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "$2! \u00a0Are you a lion? \u00a0Because you are not tame",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T20:35:35.920440+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=212221",
+     "user_limit": null
+    },
+    "id": "212221",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 225,
+     "amount_cents": 225,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "placeholder tier for the intellectual\u00a0achievements\u00a0shamus made in his dreams which he forgot when he woke up, filled with a very strong sense of scientific accomplishment. they will\u00a0be mailed to you when he remembers them \u003cbr\u003e\n\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T20:27:06.719767+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=313016",
+     "user_limit": null
+    },
+    "id": "313016",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 250,
+     "amount_cents": 250,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "friendly heads up that shamus once went to a star trek convention by himself",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T19:41:17.673907+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=313725",
+     "user_limit": null
+    },
+    "id": "313725",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 275,
+     "amount_cents": 275,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "support shamus to spite a large variety of talented people. shamus himself donates at this level\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e\"We\u0027re\u00a0all ponies on a damaged farm. \u00a0Who denies it?.\"\u003c/em\u003e-Shamus confronting critics at a lacrosse pep rally\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T20:33:48.521050+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=346617",
+     "user_limit": null
+    },
+    "id": "346617",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 295,
+     "amount_cents": 295,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "\"\u003cem\u003eFor artists,\u00a0the things that are not said, say more than things that are said.\u003c/em\u003e\" \u00a0-Bernie Madoff",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=347247",
+     "user_limit": null
+    },
+    "id": "347247",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "\u003cstrong\u003eNSA EMPLOYEES AND CONTRACTORS\u003c/strong\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=212227",
+     "user_limit": null
+    },
+    "id": "212227",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "tier for bob",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-07T05:13:41.212737+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=685914",
+     "user_limit": null
+    },
+    "id": "685914",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "conceptual art piece about my coca-bean necklace\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-07T05:14:01.375252+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=212234",
+     "user_limit": null
+    },
+    "id": "212234",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 550,
+     "amount_cents": 550,
+     "created_at": "2017-09-06T20:52:52.394141+00:00",
+     "description": "maya i\u0027m not saying i know where your iphone is but why not subscribe",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T20:58:37.168830+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-06T20:52:52.394141+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=1984719",
+     "user_limit": null
+    },
+    "id": "1984719",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 600,
+     "amount_cents": 600,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "tier for billionaires who want to keep a low profile",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=617957",
+     "user_limit": null
+    },
+    "id": "617957",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 625,
+     "amount_cents": 625,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "this tier is for up-and-comers who want to mingle with billionaires",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T20:08:19.701642+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=617958",
+     "user_limit": null
+    },
+    "id": "617958",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 750,
+     "amount_cents": 750,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "shamus will switch off the script he wrote that makes robocalls to folks in retirement homes, asking for funds to prevent our grandchildren from dieing on mars",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T20:27:37.420620+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=403426",
+     "user_limit": null
+    },
+    "id": "403426",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-09-08T21:53:59+00:00",
+     "description": "members of congress \u0026amp; staff must choose this option\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T20:25:31.883033+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-08T21:53:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=74534\u0026rid=212258",
+     "user_limit": null
+    },
+    "id": "212258",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500,
+     "completed_percentage": 51,
+     "created_at": "2016-05-30T00:40:38+00:00",
+     "description": "i can eat better kippers. organic sweet onions are still out of reach",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "440369",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/74534"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e0bcbf2c-c40b-44fd-8ef0-6ef3f9298ff4",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "S.J. Shamus is creating videos that amaze our nation\u0027s finest cats"
+});
+    </script>

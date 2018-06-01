@@ -1,0 +1,767 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "rGIOAiFV_7BTMVCbV5uT6S1XePpwwRstIa_3HBTo9-M";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "138555",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/138555"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-12-31T04:45:21+00:00",
+    "creation_name": "Furry art",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/258191/75a8e152af8c4648a8a1adb44627c853?token-time=2145916800\u0026token-hash=WRO0tlLr6aW5AV7EI-yvhc_HTHTDw4qVymRYnlZ9TNE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/258191/75a8e152af8c4648a8a1adb44627c853?token-time=2145916800\u0026token-hash=D7H_sUxzEaswo6mNyQAeXeLIih-1xOTPC-VP4Nt1Spc%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 12,
+    "pay_per_name": "month",
+    "pledge_sum": 9128,
+    "pledge_url": "/bePatron?c=258191",
+    "published_at": "2016-02-21T12:05:58+00:00",
+    "summary": "Being an artist can be hard work, especially when it comes to all the things that doesn\u0027t include drawing the actual art. Eventually I\u0027d like to have a studio where nothing needs to be worried about besides making the art, and having something to show for it every day.\u003cbr\u003e\u003cbr\u003eMy ultimate goals:\u003cbr\u003e- A healthy, functioning business to provide furry art and products\u003cbr\u003e- To have a daily stream people can pop in and enjoy\u003cbr\u003e- Free streaming days just to have fun and take stream requests\u003cbr\u003e- Products created from the art you guys can love and cherish\u003cbr\u003e- A couple of staff members to ensure customer happiness and oversee the manufacturing of our products\u003cbr\u003e- Time to dedicate to charity work and help the world with furry art\u003cbr\u003e\u003cbr\u003eAlso to make things a little easier, here\u0027s are links to our past resource posts:\u003cbr\u003e\u003cstrong\u003eTemplates\u003c/strong\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/puppy-pack-8447201\"\u003ePuppy Expressions Pack 1-16\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/dragon-stickers-8447566\"\u003eDragon Stickers (Zero) 1-6\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/kitty-stickers-8390520\"\u003eKitty Stickers (Scuffle) 1-6\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/free-to-use-5484943\"\u003ePuppy Chibi\u003c/a\u003e\u003cstrong\u003e\u003cbr\u003e\u003c/strong\u003e\u003ca href=\"https://www.patreon.com/posts/8550162\"\u003eWerewolf Adopt/Design Template\u003c/a\u003e\u003cstrong\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/12615993\"\u003eKitty Adopt lineart\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/13101871\"\u003eHell Hound Adopts Lineart\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/13181171\"\u003eBig Cub Lineart/Mini Refsheet\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/13747124\"\u003eFeral wolf lineart/adopts\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/mad-dog-template-17934836\"\u003eMad Dog lineart/adopts\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/wolf-icon-14763202\"\u003eWolf Icon\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/roo-lineart-14752147\"\u003eRoo Lineart\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/dragon-template-14751617\"\u003eDragon Template\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/halloween-cat-14738880\"\u003eHalloween Cat\u003c/a\u003e\u003cbr\u003e\u003cbr\u003eWallpapers\u003cbr\u003e\u003c/strong\u003e\u003ca href=\"https://www.patreon.com/posts/new-wallpaper-7261486\"\u003eTiger\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/following-chibi-4481966\"\u003eAdorable Puppy\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/huskies-will-4500470\"\u003eWorld Domination Husky\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/throw-me-to-4511456\"\u003eThrow me to the Wolves\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/wallpaper-world-4851715\"\u003eAnother World\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/nostalgia-4526520\"\u003eNostalgia \u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/it-doesnt-get-17933726\"\u003eIt doesn\u0027t get better\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/rocky-wallpaper-17933671\"\u003eRocky Wallpaper\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/posts/wallpaper-dead-14749288\"\u003eDead or Alive\u003c/a\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e"
+   },
+   "id": "258191",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2676936",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2676936"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "357532",
+       "type": "goal"
+      },
+      {
+       "id": "607346",
+       "type": "goal"
+      },
+      {
+       "id": "607347",
+       "type": "goal"
+      },
+      {
+       "id": "607348",
+       "type": "goal"
+      },
+      {
+       "id": "607349",
+       "type": "goal"
+      },
+      {
+       "id": "607350",
+       "type": "goal"
+      },
+      {
+       "id": "607351",
+       "type": "goal"
+      },
+      {
+       "id": "607352",
+       "type": "goal"
+      },
+      {
+       "id": "607353",
+       "type": "goal"
+      },
+      {
+       "id": "607354",
+       "type": "goal"
+      },
+      {
+       "id": "607355",
+       "type": "goal"
+      },
+      {
+       "id": "607356",
+       "type": "goal"
+      },
+      {
+       "id": "607357",
+       "type": "goal"
+      },
+      {
+       "id": "607358",
+       "type": "goal"
+      },
+      {
+       "id": "607359",
+       "type": "goal"
+      },
+      {
+       "id": "1161324",
+       "type": "goal"
+      },
+      {
+       "id": "1161325",
+       "type": "goal"
+      },
+      {
+       "id": "1161326",
+       "type": "goal"
+      },
+      {
+       "id": "1161327",
+       "type": "goal"
+      },
+      {
+       "id": "1161328",
+       "type": "goal"
+      },
+      {
+       "id": "1161329",
+       "type": "goal"
+      },
+      {
+       "id": "1161330",
+       "type": "goal"
+      },
+      {
+       "id": "1161331",
+       "type": "goal"
+      },
+      {
+       "id": "1161332",
+       "type": "goal"
+      },
+      {
+       "id": "1161333",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-258191",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-258191"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "448943",
+       "type": "reward"
+      },
+      {
+       "id": "1028144",
+       "type": "reward"
+      },
+      {
+       "id": "1028148",
+       "type": "reward"
+      },
+      {
+       "id": "448968",
+       "type": "reward"
+      },
+      {
+       "id": "448967",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Just your garden variety starving artist hoping to leave a pawprint in the world of furry art one day!\u003cbr\u003e",
+     "created": "2015-12-31T04:44:05+00:00",
+     "facebook": null,
+     "first_name": "Electrocat",
+     "full_name": "Electrocat",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2676936/a72cebcc28894b6c9a09ce44b755bb61?token-time=2145916800\u0026token-hash=bFcVGi5nxD1_tdisAP68EIO8kpiCF92VSP2zRO1LiSg%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2676936/a72cebcc28894b6c9a09ce44b755bb61?token-time=2145916800\u0026token-hash=wapU8IMOGGFdHMd1NMbnBqcRpFHqXPdskEg0G4tMWXU%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/electrocat",
+     "vanity": "electrocat",
+     "youtube": null
+    },
+    "id": "2676936",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "258191",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/258191"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 34,
+     "upgrade_url": "/bePatron?c=258191\u0026rid=448943"
+    },
+    "id": "post-aggregation-for-0-258191",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-10T19:39:09+00:00",
+     "description": "Thank you for your support! Your awesomeness knows no bounds!\u003cbr\u003e\u003cbr\u003eYour donation of $1 and up will\u003cbr\u003e\u003cul\u003e\u003cli\u003e give you access to our exclusive Patron-only supporter wallpapers! \u003cbr\u003eStuff we don\u0027t end up using for print will be used in this way to say thanks to everyone!\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-15T11:56:47.965572+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": 14,
+     "published": true,
+     "published_at": "2016-11-10T19:39:09+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Support EPAW!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258191\u0026rid=448943",
+     "user_limit": null
+    },
+    "id": "448943",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-10T19:39:09+00:00",
+     "description": "At this tier you will have\u003cbr\u003e\u003cul\u003e\u003cli\u003eaccess to our exclusive Patron-only supporter wallpapers!\u00a0\u003c/li\u003e\u003cli\u003eaccess to monthly art tutorials\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-15T11:56:47.998124+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-11-10T19:39:09+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "EPAW Resources",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258191\u0026rid=1028144",
+     "user_limit": null
+    },
+    "id": "1028144",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-10T19:39:09+00:00",
+     "description": "At this tier you will have\u003cbr\u003e\u003cul\u003e\u003cli\u003eaccess to our exclusive Patron-only supporter wallpapers \u003c/li\u003e\u003cli\u003eaccess to monthly art tutorials\u003c/li\u003e\u003cli\u003emonthly free-to-use lineart for telegram stickers, adoptables and draft up reference sheets as well as fun coloring pages. Content will vary month to month.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-15T11:56:48.032600+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2016-11-10T19:39:09+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "EPAW Resources +",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258191\u0026rid=1028148",
+     "user_limit": null
+    },
+    "id": "1028148",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-11-10T19:39:09+00:00",
+     "description": "At this tier you will have\u003cbr\u003e\nmonthly free-to-use lineart for telegram stickers, adoptables and draft up reference sheets as well as fun coloring pages. Content will vary month to month.\u003cbr\u003e\nOur vinyl sticker of the month to slap on something you love (When available)\n\u003cul\u003e\n\u003cli\u003eaccess to our exclusive Patron-only supporter wallpapers\u003c/li\u003e\n\u003cli\u003eaccess to monthly art tutorials\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-04T08:00:56.401612+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-04T08:00:56.389968+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Vinyl of the month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258191\u0026rid=448968",
+     "user_limit": null
+    },
+    "id": "448968",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2016-11-10T19:39:09+00:00",
+     "description": "At this tier you will have\u003cbr\u003e\nmonthly free-to-use lineart for telegram stickers, adoptables and draft up reference sheets as well as fun coloring pages. Content will vary month to month.\u003cbr\u003e\n\u003cbr\u003e\nPhysical:\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eaccess to our exclusive Patron-only supporter wallpapers\u003c/li\u003e\n\u003cli\u003eaccess to monthly art tutorials\u003c/li\u003e\n\u003cli\u003eA pack of vinyl stickers including our prototypes we\u0027re working on. (When available)\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-04T08:01:14.536495+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-04T08:01:14.526542+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Vinyl pack of the month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258191\u0026rid=448967",
+     "user_limit": null
+    },
+    "id": "448967",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 91,
+     "created_at": "2016-02-21T11:52:45+00:00",
+     "description": "1 Wallpaper per Month\u003cbr\u003e1 Free-to-use template/lineart per month\u003cbr\u003e",
+     "reached_at": "2016-11-11T01:08:44+00:00",
+     "title": ""
+    },
+    "id": "357532",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 45,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "2 Wallpaper per Month\u003cbr\u003e1 Free-to-use template/lineart per month\u003cbr\u003e1 Notepad Design per month\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": "2016-11-19T19:07:01+00:00",
+     "title": ""
+    },
+    "id": "607346",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 30,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "2 Wallpaper per Month\u003cbr\u003e2 Free-to-use template/lineart per month\u003cbr\u003e1 Notepad Design per month\u003cbr\u003e1 Vinyl Sticker Design per month\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "607347",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 22,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "3 Wallpaper per Month\u003cbr\u003e3 Free-to-use template/lineart per month\u003cbr\u003e1 Notepad Design per month\u003cbr\u003e1 Vinyl Sticker Design per month\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "607348",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 18,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "3 Wallpaper per Month\u003cbr\u003e3 Free-to-use template/lineart per month\u003cbr\u003e2 Notepad Design per month\u003cbr\u003e2 Vinyl Sticker Design per month\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "607349",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 15,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "607350",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 70000,
+     "completed_percentage": 13,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e1 T-Shirt Design per month\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "607351",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 80000,
+     "completed_percentage": 11,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e1 T-Shirt Design per month\u003cbr\u003e1 Mug Design per month\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "607352",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 9,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e2 T-Shirt Design per month\u003cbr\u003e1 Mug Design per month\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "607353",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 110000,
+     "completed_percentage": 8,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e2 T-Shirt Design per month\u003cbr\u003e2 Mug Design per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e1 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "607354",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 120000,
+     "completed_percentage": 7,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e2 T-Shirt Design per month\u003cbr\u003e2 Mug Design per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e1 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e1 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "607355",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 130000,
+     "completed_percentage": 7,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e2 T-Shirt Design per month\u003cbr\u003e2 Mug Design per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e1 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e1 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e1 \"Free Art\" open streaming day for all furries\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "607356",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 140000,
+     "completed_percentage": 6,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e2 T-Shirt Design per month\u003cbr\u003e2 Mug Design per month\u003cbr\u003e1 Coloring Book page per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e1 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e1 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e1 \"Free Art\" open streaming day for all furries\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "607357",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 6,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e2 T-Shirt Design per month\u003cbr\u003e2 Mug Design per month\u003cbr\u003e2 Coloring Book page per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e2 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e1 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e1 \"Free Art\" open streaming day for all furries",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "607358",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 4,
+     "created_at": "2016-11-10T19:14:49+00:00",
+     "description": "2100",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "607359",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 160000,
+     "completed_percentage": 5,
+     "created_at": "2018-04-04T07:59:19+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e2 T-Shirt Design per month\u003cbr\u003e2 Mug Design per month\u003cbr\u003e2 Coloring Book page per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e2 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e2 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e1 \"Free Art\" open streaming day for all furries",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1161324",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 170000,
+     "completed_percentage": 5,
+     "created_at": "2018-04-04T07:59:19+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e4 T-Shirt Design per month\u003cbr\u003e2 Mug Design per month\u003cbr\u003e2 Coloring Book page per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e2 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e2 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e1 \"Free Art\" open streaming day for all furries",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1161325",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 180000,
+     "completed_percentage": 5,
+     "created_at": "2018-04-04T07:59:19+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e4 T-Shirt Design per month\u003cbr\u003e4 Mug Design per month\u003cbr\u003e2 Coloring Book page per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e2 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e2 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e1 \"Free Art\" open streaming day for all furries",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1161326",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 190000,
+     "completed_percentage": 4,
+     "created_at": "2018-04-04T07:59:19+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e4 T-Shirt Design per month\u003cbr\u003e4 Mug Design per month\u003cbr\u003e4 Coloring Book page per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e2 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e2 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e1 \"Free Art\" open streaming day for all furries",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1161327",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 210000,
+     "completed_percentage": 4,
+     "created_at": "2018-04-04T07:59:19+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e4 T-Shirt Design per month\u003cbr\u003e4 Mug Design per month\u003cbr\u003e4 Coloring Book page per month\u003cbr\u003e4 Embroidered Patch Design per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e2 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e2 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e1 \"Free Art\" open streaming day for all furries",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1161328",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 220000,
+     "completed_percentage": 4,
+     "created_at": "2018-04-04T07:59:19+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e4 T-Shirt Design per month\u003cbr\u003e4 Mug Design per month\u003cbr\u003e4 Coloring Book page per month\u003cbr\u003e4 Embroidered Patch Design per month\u003cbr\u003e4 Keyring Designs per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e2 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e2 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e1 \"Free Art\" open streaming day for all furries",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1161329",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 230000,
+     "completed_percentage": 3,
+     "created_at": "2018-04-04T07:59:19+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e4 T-Shirt Design per month\u003cbr\u003e4 Mug Design per month\u003cbr\u003e4 Coloring Book page per month\u003cbr\u003e4 Embroidered Patch Design per month\u003cbr\u003e4 Keyring Designs per month\u003cbr\u003e4 Magnet Designs per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e2 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e2 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e1 \"Free Art\" open streaming day for all furries",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1161330",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 240000,
+     "completed_percentage": 3,
+     "created_at": "2018-04-04T07:59:19+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e4 T-Shirt Design per month\u003cbr\u003e4 Mug Design per month\u003cbr\u003e4 Coloring Book page per month\u003cbr\u003e4 Embroidered Patch Design per month\u003cbr\u003e4 Keyring Designs per month\u003cbr\u003e4 Magnet Designs per month\u003cbr\u003e4 Public Domain designs per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e2 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e2 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e1 \"Free Art\" open streaming day for all furries\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1161331",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 3,
+     "created_at": "2018-04-04T07:59:19+00:00",
+     "description": "4 Wallpaper per Month\u003cbr\u003e4 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e4 Vinyl Sticker Design per month\u003cbr\u003e4 T-Shirt Design per month\u003cbr\u003e4 Mug Design per month\u003cbr\u003e4 Coloring Book page per month\u003cbr\u003e4 Embroidered Patch Design per month\u003cbr\u003e4 Keyring Designs per month\u003cbr\u003e4 Magnet Designs per month\u003cbr\u003e4 Public Domain designs per month\u003cbr\u003e4 Telegram Stickers to our packs per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e2 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e2 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e1 \"Free Art\" open streaming day for all furries",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1161332",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000000,
+     "completed_percentage": 0,
+     "created_at": "2018-04-04T07:59:19+00:00",
+     "description": "8 Wallpaper per Month\u003cbr\u003e8 Free-to-use template/lineart per month\u003cbr\u003e4 Notepad Design per month\u003cbr\u003e10 Vinyl Sticker Design per month\u003cbr\u003e4 T-Shirt Design per month\u003cbr\u003e10 Mug Design per month\u003cbr\u003e4 Coloring Book page per month\u003cbr\u003e4 Embroidered Patch Design per month\u003cbr\u003e4 Keyring Designs per month\u003cbr\u003e4 Magnet Designs per month\u003cbr\u003e8 Public Domain designs per month\u003cbr\u003e8 Telegram Stickers to our packs per month\u003cbr\u003e\u003cbr\u003eEvents:\u003cbr\u003e3 \"Floof Wars\" Trading Card Game Development day per month\u003cbr\u003e3 \"Free Art\" open streaming day for Patrons per month\u003cbr\u003e1 \"Free Art\" open streaming day for all furries",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1161333",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/258191"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "5da6a8b3-67b5-4434-a462-6f4f5e433e4d",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Electrocat is creating Furry art"
+});
+    </script>

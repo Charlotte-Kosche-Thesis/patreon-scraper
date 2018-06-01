@@ -1,0 +1,543 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "mecITrXBHBE9RPdclnIjq7xca2ruRHUlXmoTmCcM82I";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "272133",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/272133"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-09-21T17:52:08+00:00",
+    "creation_name": "Code and Commentary",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/529308/5b05012fde914346b490fa8d5ca8c9eb?token-time=2145916800\u0026token-hash=fUTjf9yhpU-nm4IQCXxfS-W_KO3XkoAtyUHMQmwhel8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/529308/5b05012fde914346b490fa8d5ca8c9eb?token-time=2145916800\u0026token-hash=gJJpU9rpsdYKA2VDRQHxySLjX0aDqjjnUtn4bYHES5c%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FKejqVqjqR-s%3Ffeature%3Doembed\u0026amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DKejqVqjqR-s\u0026amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FKejqVqjqR-s%2Fhqdefault.jpg\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;type=text%2Fhtml\u0026amp;schema=youtube\" width=\"854\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://www.youtube.com/watch?v=KejqVqjqR-s",
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "checkpoint",
+    "pledge_sum": 900,
+    "pledge_url": "/bePatron?c=529308",
+    "published_at": "2016-09-30T13:59:34+00:00",
+    "summary": "I\u0027m a writer. \u00a0Part of that is the impure art of fiction. \u00a0Part is the still-impure science of software. \u00a0But it\u0027s all writing, in one form or another.\u003cbr\u003e\u003cbr\u003eThis campaign is meant to help me realize both of these aspects of my writing in a way that doesn\u0027t leave me feeling guilty for taking the time to do it. \u00a0By pledging your support for my various projects, you can help me reach the various \u003cstrong\u003eprogress checkpoints\u003c/strong\u003e in each, by making my time worth money.\u003cbr\u003e\u003cbr\u003eThe nature of these projects makes it tricky to predict how often I\u0027ll reach each checkpoint. I\u0027ll be trying to break each project down into checkpoints that should take about a month to complete, but it may not always be exactly a month between them. In cases where I\u0027ll be wrapping up a checkpoint early, I\u0027ll probably just postpone marking it reached until the month is up. In cases where it\u0027ll be late, I\u0027ll post an update saying so, and explaining the delay. Either way, I\u0027ll be sure to keep everyone in the loop on my progress.\u003cbr\u003e\u003cbr\u003e\"Why not just set up your campaign to be per month, then?\" Well, that\u0027s actually pretty easy to answer. If I don\u0027t do any work that month, why would you want to pay me for doing nothing? Making pledges charged per checkpoint instead puts more accountability on me to actually follow through and make progress.\u003cbr\u003e\u003cbr\u003eSo. What projects am I working on? Well, quite a few, actually. I\u0027m going to summarize a few below, but check out the Goals section for more-up-to-date info, as well as more details.\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eTravel Tank\u003c/strong\u003e\u003cbr\u003eThere\u0027s a lot of information to be learned from pumping fuel. \u00a0How often do you do it? \u00a0Where do you typically go? \u00a0How much does it generally cost to fill your tank? \u00a0How far do you go between refuels? \u00a0Is one station\u0027s fuel better than another\u0027s? \u00a0What\u0027s your actual fuel efficiency right now? \u00a0How much further can you expect to go, or how long can you expect to wait, before you need another refuel? \u00a0And so on. \u00a0Travel Tank collects the basic data needed to determine answers to these questions - time and location of refuel, amount of fuel purchased and at what cost, and current odometer readings - and then does all the statistics magic behind the scenes to answer questions like these. \u00a0Data can be entered manually, or pulled in via GPS and camera.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eCalends in C++\u003c/strong\u003e\u003cbr\u003eThis project is taking an existing one (in PHP) and rewriting it in a different programming language (also called \"porting\" it, to C++ in this case). \u00a0Calends is a piece of code that supports handling dates in multiple calendar systems at once, and with a single, consistent interface. \u00a0This is surprisingly missing in a lot of places that could really use it - from genealogy to astronomy to simple dates on websites. \u00a0So I want to fix that, and do it better than my first attempt, so it can be used in more places.\u003c/li\u003e\u003cli\u003e\u003cem\u003e\u003cstrong\u003eCrystalline Skies\u003c/strong\u003e\u003c/em\u003e\u003cbr\u003eA series about a boy who gets involved in far more than anyone ever bargained for, as his world enters a new era, and he enters adult life. \u00a0The Goal for this one will list the current story\u0027s plot seed, and will be updated as each story in the series is completed.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eStory Lines\u003c/strong\u003e\u003cbr\u003eThis project takes Calends and uses it to link various story elements (people, places, groups, events, items) to points in time, across as many calendar systems as the author likes. \u00a0This lets the author focus less on who is where at what times, and more on writing things out, because they\u0027ll have a reference for their chronology. \u00a0Of course, this functionality would also be useful for tracking other things, even things so ambitious as world history.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eDeploy!\u003c/strong\u003e\u003cbr\u003eHere\u0027s one for the Internet software developers and system administrators out there. \u00a0Similar to Pagodabox, Heroku, and a handful of others, Deploy! will be a push-to-deploy hosting system. \u00a0This one, though, will run on Proxmox (KVM and LXC), and be fully open source. \u00a0That means anyone can use it, anywhere, for any reason. \u00a0Some really advanced stuff will be available for purchase, at some point, but only stuff that enterprise-level sysadmins would need and not want to build themselves. \u00a0Bonus - Deploy! will support more servers and more interpreters than existing platforms, and even entirely custom code that handles everything itself.\u003c/li\u003e\u003cli\u003e\u003cem\u003e\u003cstrong\u003eRemoving the Bit\u003c/strong\u003e\u003c/em\u003e\u003cbr\u003eSet in a world I created for roleplaying in, this story follows the events surrounding Brash the Unbridled\u0027s rise to power as the Pirate King of Denaria. \u00a0A novel, first in a series about notable figures in Denaria.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eMetachat (name subject to change)\u003c/strong\u003e\u003cbr\u003eI detail this one rather extensively\u00a0\u003ca href=\"https://danhunsaker.awswan.com/2016/09/10/hybrid-chat-monstrosity/\" rel=\"nofollow\" target=\"_blank\"\u003eon my blog\u003c/a\u003e, but it basically brings together several different chat protocols on a single server, so users can chat using their favorite client(s) without having to sacrifice functionality or the ability to talk to others in the same community. \u00a0Not much else to say, here, than I really want to make this one happen.\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003eYou can check out\u00a0\u003ca href=\"https://trello.com/b/n5W1azh5\" rel=\"nofollow\" target=\"_blank\"\u003emy Patreon Projects board on Trello\u003c/a\u003e for more info about specific checkpoints in each project.\u003cbr\u003e"
+   },
+   "id": "529308",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4084482",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4084482"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "556867",
+       "type": "goal"
+      },
+      {
+       "id": "556877",
+       "type": "goal"
+      },
+      {
+       "id": "556878",
+       "type": "goal"
+      },
+      {
+       "id": "556879",
+       "type": "goal"
+      },
+      {
+       "id": "557492",
+       "type": "goal"
+      },
+      {
+       "id": "557493",
+       "type": "goal"
+      },
+      {
+       "id": "652132",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-529308",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-529308"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "814561",
+       "type": "reward"
+      },
+      {
+       "id": "814560",
+       "type": "reward"
+      },
+      {
+       "id": "835926",
+       "type": "reward"
+      },
+      {
+       "id": "814559",
+       "type": "reward"
+      },
+      {
+       "id": "814558",
+       "type": "reward"
+      },
+      {
+       "id": "814652",
+       "type": "reward"
+      },
+      {
+       "id": "814651",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m a writer.  Part of that is the impure art of fiction.  Part is the still-impure science of software.  But it\u0027s all writing, in one form or another.\u003cbr\u003e\u003cbr\u003eI\u0027m also a father of two, who doesn\u0027t see them as much as I\u0027d like, being mid-divorce. \u00a0A firm believer in individual rights, including the right to be treated differently from others only based on one\u0027s actions, not factors outside their control such as skin tone, sexuality, gender (including identity), and many others. \u00a0And deeply deeply fascinated by how we encode information, be it language (programming or otherwise), time, signage, you name it. \u00a0The ways we record and think about ideas and concepts are filled with so much nuance and variation... \u00a0I love it all.\u003cbr\u003e\u003cbr\u003eMaybe that\u0027s why I want to bring all of these things together, to unify people by embracing their individual differences, allowing them to experience the world and collaboration their way, without limiting them through the technology that brings them together. \u00a0Being able to chat with others without regard to protocol. \u00a0Being able to refer to points in time using their own calendars and clocks, and have others see those same points just as easily using *their* own.",
+     "created": "2016-09-21T17:50:52+00:00",
+     "facebook": "https://www.facebook.com/sendoshin",
+     "first_name": "Dan",
+     "full_name": "Dan Hunsaker",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4084482/dd1d2434b7bb48dca34260a69bea16df?token-time=2145916800\u0026token-hash=xbB3dhCUczQ6rqsfS2-WhHEoEmS35fKFFOuXfdFqbSA%3D",
+     "last_name": "Hunsaker",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4084482/dd1d2434b7bb48dca34260a69bea16df?token-time=2145916800\u0026token-hash=cE5rPJT8d-5RqOQ4sJvxXbu0KtGPtQ4Zz_1yeRGp5ew%3D",
+     "twitch": null,
+     "twitter": "sendoshin",
+     "url": "https://www.patreon.com/DanHunsaker",
+     "vanity": "DanHunsaker",
+     "youtube": "https://www.youtube.com/user/DanielJHunsaker"
+    },
+    "id": "4084482",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "529308",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/529308"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 2,
+     "upgrade_url": "/bePatron?c=529308\u0026rid=814561"
+    },
+    "id": "post-aggregation-for-0-529308",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-03T00:08:44+00:00",
+     "description": "\u003cstrong\u003eProgress Details\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eDetailed progress updates\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003eAt this level, and every level above it, you\u0027ll get the inside peek at my \u003cem\u003edetailed\u003c/em\u003e progress updates. I\u0027ll post basic info about my progress\u00a0\u003ca href=\"https://trello.com/b/n5W1azh5/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eon Trello\u003c/a\u003e, but only patrons get to see what\u0027s actually happening at each step. Not worth it? Well, maybe you\u0027re in need of one of the larger rewards!",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-24T19:53:41.552210+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2016-10-03T00:08:44+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=529308\u0026rid=814561",
+     "user_limit": null
+    },
+    "id": "814561",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-03T00:08:44+00:00",
+     "description": "\u003cstrong\u003eDue Credit\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eDetailed progress updates\u003c/li\u003e\u003cli\u003eName in acknowledgments\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003eAll patrons at this level and higher will have their name listed in the acknowledgements of each checkpoint they help fund. Get your name immortalized alongside my work!",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-24T19:53:41.584629+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-03T00:08:44+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=529308\u0026rid=814560",
+     "user_limit": null
+    },
+    "id": "814560",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-03T00:08:44+00:00",
+     "description": "\u003cstrong\u003eFeature Focus\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eDetailed progress updates\u003c/li\u003e\u003cli\u003eName in acknowledgments\u003c/li\u003e\u003cli\u003ePreview snippets of actual content, with commentary\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003eSimilar to the \u003cstrong\u003eDraft Review\u003c/strong\u003e tier, but cheaper. At this level, you\u0027ll get access to snippets of in-progress versions, generally highlighting specific features or sections of the work. Accompanying each snippet will be commentary detailing what the snippet is or does, and why I\u0027m choosing to highlight it for that post. These snippets will be provided without much else in the way of context, but will still provide insight into the actual process involved, and some of my thought processes surrounding it.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-24T19:53:41.603417+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-03T00:08:44+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=529308\u0026rid=835926",
+     "user_limit": null
+    },
+    "id": "835926",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-10-03T00:08:44+00:00",
+     "description": "\u003cstrong\u003eDraft Review\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eDetailed progress updates\u003c/li\u003e\u003cli\u003eName in acknowledgments\u003c/li\u003e\u003cli\u003ePreview actual content\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003eAt this level, you get to see what my work actually looks like, as I work on it. I\u0027ll take periodic snapshots of each project, between checkpoints, and make those available where only backers can see them. Hopefully, you\u0027ll even decide to give feedback, which will be used to help direct the shape the final project (and current checkpoint) will take. \u00a0That\u0027s pretty cool, no?",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-24T19:53:41.621168+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-03T00:08:44+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=529308\u0026rid=814559",
+     "user_limit": null
+    },
+    "id": "814559",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-10-03T00:08:44+00:00",
+     "description": "\u003cstrong\u003eDedicated Follower\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eDetailed progress updates\u003c/li\u003e\u003cli\u003eName in acknowledgments\u003c/li\u003e\u003cli\u003ePreview actual content\u003c/li\u003e\u003cli\u003ePhysical copies of checkpoints\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003eThis much per checkpoint, from a single person, is pretty great. So, in addition to everything from the lower tiers, you\u0027ll also get physical copies of every checkpoint. If that\u0027s prose, it\u0027ll be a high quality print. Code will come on optical disk or USB stick. Some of your money will be used for the media itself, of course, but I still feel you\u0027ll have earned it.",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-24T19:53:41.640456+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-03T00:08:44+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=529308\u0026rid=814558",
+     "user_limit": null
+    },
+    "id": "814558",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-03T00:08:45+00:00",
+     "description": "\u003cstrong\u003eSuper Helper\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eDetailed progress updates\u003c/li\u003e\u003cli\u003eName in acknowledgments\u003c/li\u003e\u003cli\u003ePreview actual content\u003c/li\u003e\u003cli\u003ePhysical copies of checkpoints\u003c/li\u003e\u003cli\u003eLive Q\u0026amp;A sessions\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003eAside from everything at the lower tiers, I have to give you something worthwhile for spending this much on me, so I\u0027ll throw in live Q\u0026amp;A sessions, no time limit. Ask anything you like, related to my work or otherwise. I do have to reserve the right to not answer some, though. Hope you understand.",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-24T19:53:41.708329+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-03T00:08:45+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=529308\u0026rid=814652",
+     "user_limit": null
+    },
+    "id": "814652",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-10-03T00:08:45+00:00",
+     "description": "\u003cstrong\u003e..... \u00a0Speechless\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eDetailed progress updates\u003cul\u003e\u003cli\u003eBoth online and on physical copies\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eName in acknowledgments\u003cul\u003e\u003cli\u003eBoth for the current checkpoint, and for every checkpoint thereafter\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003ePreview actual content\u003cul\u003e\u003cli\u003eBoth online and on physical copies, and including snippet commentary\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003ePhysical copies of checkpoints\u003cul\u003e\u003cli\u003eIncluding all previous checkpoints\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eLive Q\u0026amp;A sessions\u003cul\u003e\u003cli\u003ePlus recordings of previous Q\u0026amp;As\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003eWow. Just wow. What to give you for pledging this much?\u003cbr\u003e\u003cbr\u003eAll the lower levels, of course. Retroactively. Meaning you get recordings of previous Q\u0026amp;A sessions, physical copies of previous checkpoints (and their draft histories), and so forth. I won\u0027t be able to add your name in the credits of everything retroactively, unfortunately, but I can certainly make sure you\u0027re credited in everything thereafter instead, even if you drop out of this tier in future checkpoints.\u003cbr\u003e\u003cbr\u003eSo, yeah. Quite a lot, depending on how long I\u0027ve been doing this. Meaning it\u0027ll actually become worth more as time goes on. Not sure if Patreon will let me raise prices on rewards already pledged for, but I may have to take advantage of it at some point - in the \u003cstrong\u003e\u003cem\u003efar\u003c/em\u003e\u003c/strong\u003e future. You\u0027ll get plenty of warning, though, if I decide that\u0027s necessary.",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-24T19:53:41.727323+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-03T00:08:45+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=529308\u0026rid=814651",
+     "user_limit": 10
+    },
+    "id": "814651",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 0,
+     "created_at": "2016-09-22T04:44:15+00:00",
+     "description": "\u003cstrong\u003eCalends in C++\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eI have a library, currently in PHP, which would be even more useful as an extension. If I port it to something compiled, though, I want it to be usable in as many places as possible. So the idea is to port the library to C++, distribute it as a shared library for any project that uses them (.so/.dll/etc), and build language bindings (extensions/plugins/what-have-you) for the rest. That way, the functionality is easily accessible in any place a developer might want access to it.\u003cbr\u003e\u003cbr\u003eThis goal is just for the library portion, not the language bindings. Those will be checkpoints of their own, and may not be part of any given project.\u003cbr\u003e\u003cbr\u003eFor those curious, Calends is a calendar abstraction library, which basically means programmers don\u0027t have to worry about how various calendar systems work, or how to convert dates and times between them. They simply plug a point in time into the library, tell it what calendar system to present it using, and hand the result off to be displayed. It can also do all the date math a programmer might need, freeing them from needing to know any of the relevant calculations or relationships.\u003cbr\u003e\u003cbr\u003eSome of this already exists, but it\u0027s generally just for the Gregorian calendar (the current \"global\" calendar), or just for converting between Gregorian dates and those in a very few others - generally just one. But if it already exists, even fragmented this way, why reinvent it? Well, this kind of functionality isn\u0027t just useful when showing dates to users who prefer other calendar systems. It also would help in cases such as fields of history (geneology, anthropology, archaeology, astronomy, etc) where dates are written in systems other than Gregorian, to help convert back and forth between systems and keep everything ordered correctly chronologically.\u003cbr\u003e\u003cbr\u003eAnyway, I could go on, but I\u0027ll spare you more for now.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "556867",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2016-09-22T05:10:18+00:00",
+     "description": "\u003cstrong\u003eStory Lines\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eThis project takes Calends (either PHP or C++ extension will work) and uses it to let authors track their stories, even switching between calendar systems within the same plot(s). It also tracks other story elements, and their relationships with each other, freeing the author\u0027s mind to focus on just what they need for the current scene. Also useful for anything from a GM\u0027s campaign plans to personal journals to really *anything* you can imagine that ties points in time to the people, events, places, groups, and items within them.\u003cbr\u003e\u003cbr\u003eA web-based project, this is actually partially functional already. There\u0027s quite a bit left to do, though, so any help I can get with it will be really helpful.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "556877",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 0,
+     "created_at": "2016-09-22T05:10:18+00:00",
+     "description": "\u003cstrong\u003eDeploy!\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eGeared more toward the tech literate, this project is mostly about taking a few existing projects, and automating their combined use. Services exist that already offer this functionality; the goal is to release one that is entirely open source (well, OK, some extra-advanced functions will be paid features, but only the extra-advanced that only large-scale players will really want anyway).\u003cbr\u003e\u003cbr\u003eTools merged:\u003cbr\u003e\u003cul\u003e\u003cli\u003eProxmox\u003c/li\u003e\u003cli\u003eGit / Mercurial (/ and similar)\u003c/li\u003e\u003cli\u003eSSH\u003c/li\u003e\u003cli\u003eWeb servers (Apache, Nginx, Lighttpd)\u003c/li\u003e\u003cli\u003eDB servers (MySQL/MariaDB, Postgres, etc)\u003c/li\u003e\u003cli\u003eWeb languages (PHP, JS, Ruby, Python, etc)\u003c/li\u003e\u003cli\u003eAutomated testing (various; mostly project specific)\u003c/li\u003e\u003cli\u003eRouting (pfSense, HAProxy, etc)\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003ePurpose? Automated deploys. New code is committed, pushed, tested, and automatically put in place on live systems. Using the open source Proxmox distribution as a base means the hardware and entire software suite are 100% in the control of the developer or company that owns them. This is a huge benefit for a wide number and range of industries, and also brings the full power of push-to-deploy platforms to individual developers, on hardware they may already own.\u003cbr\u003e\u003cbr\u003eIt\u0027s a pretty complex project, though, so it\u0027ll take quite a lot of work to get it functional.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "556878",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 0,
+     "created_at": "2016-09-22T05:10:18+00:00",
+     "description": "\u003cstrong\u003eMetachat (name subject to change)\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eI\u0027ve already described this one a bit\u00a0\u003ca href=\"https://danhunsaker.awswan.com/2016/09/10/hybrid-chat-monstrosity/\" target=\"_blank\"\u003eon my blog\u003c/a\u003e, but a recap here for those who missed that. Essentially, this is a single server that speaks IRC, XMPP/Jingle, and SIP/SIMPLE natively, along with (probably) several others. This allows users to connect using whichever client they are most familiar with, and use the network as they would any other - but all be on the same network as their friends who may not be using the same protocol. It\u0027s rather ambitious, but I\u0027m confident it can be done, and done well.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "556879",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 0,
+     "created_at": "2016-09-22T20:31:57+00:00",
+     "description": "\u003cstrong\u003eRemoving The Bit\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eThis is a story set in my world of Denaria. It follows the events surrounding Brash the Unbridled and his rise to become Pirate King of all Denaria. \u00a0I don\u0027t want to give away too much about the events, here, but it\u0027ll give readers a closer look at one of Denaria\u0027s most prominent figures, and explain how one man could not only unite most of the various pirate crews under a single banner, but also enforce a strict discipline on them that makes them better pirates, and better people.\u003cbr\u003e\u003cbr\u003eThis is intended to be the first in a series of stories about prominent Denarian figures. There\u0027s a very long history to pull from, here, but the focus will be on contemporary individuals, so that when the world sourcebook is released, players will already have a familiarity with the world and the main forces shaping it today.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "557492",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 125000,
+     "completed_percentage": 0,
+     "created_at": "2016-09-22T20:31:57+00:00",
+     "description": "\u003cstrong\u003eCrystalline Skies\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eA boy in his mid teens is chosen to join the ranks of the Crystal Protectors, an elite force trained to fight powerful beasts in defense of valuable crystals that power their entire civilization, while caring for those crystals until they can be harvested. He is the youngest ever to be selected, which draws the attention of the King himself; the monarch promises to keep an eye out for him in the years to come. He moves to the floating crystal farms high above the skies of his home kingdom, and starts to learn how to care for the valuable stones, as well as to fight off the various beasts that threaten them. It\u0027s not long, though, before everything starts to go horribly wrong, and he learns why being a Protector is a much harder job than he had ever realized.\u003cbr\u003e\u003cbr\u003eFirst in a series, this is actually a follow-on story to a piece of flash fiction I wrote in late 2015. (Since that piece was written for submission, I won\u0027t be releasing it online, at least not right away. Worst case, it\u0027ll be included with \u003cem\u003eCrystalline Skies\u003c/em\u003e\u00a0as bonus content.) \u00a0Further entries in this series will follow our hero across the world, as he seeks to solve problems far greater than anyone had ever imagined.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "557493",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 75000,
+     "completed_percentage": 1,
+     "created_at": "2016-12-24T19:46:06+00:00",
+     "description": "\u003cstrong\u003eTravel Tank\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eI\u0027ve spent the last year or so collecting receipts for my various visits to the gasoline pump, after adding my current mileage to each. \u00a0The idea was to transfer this information to something else, like a spreadsheet, which would then let me run a number of statistical analyses on the data. \u00a0As my collection grew, I started wondering what data I could get from the locations of each fuel stop. \u00a0Then I started thinking about how I could make this process of data collection easier, and maybe avoid data entry altogether. \u00a0Nearly all phones these days have GPS receivers, which could be more accurate than simply the station address. \u00a0The exact date and time are also something phones tend to have. \u00a0Built-in cameras allow for text recognition, to grab the various numbers from the pump and even the odometer. \u00a0Travel Tank is my attempt to bring all of these things together to allow drivers to track this information with minimum hassle. \u00a0And to finally let me get rid of all those receipts.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "652132",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/529308"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "59e78869-37ea-4950-9475-08d2c50a58c8",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Dan Hunsaker is creating Code and Commentary"
+});
+    </script>

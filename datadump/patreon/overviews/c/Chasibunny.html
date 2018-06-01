@@ -1,0 +1,524 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "G8dE8QWOb2wbt3tzzcL319N6HWgKIdze3ibi-ALxzm8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "299064",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/299064"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-11-11T07:38:32+00:00",
+    "creation_name": "Artistic Dumpings",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/604559/9580eda7f73b4622a029547fddb29725?token-time=2145916800\u0026token-hash=_DFr3549nZYJL-8nUgnrmcDZV9UEZFs3ahd2oqEVcJg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/604559/9580eda7f73b4622a029547fddb29725?token-time=2145916800\u0026token-hash=V_I8ZEYRFYE3Ywk9njDpJlHL96SJt6HkJBTNqnJPG6U%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=604559",
+    "published_at": "2016-11-13T02:09:37+00:00",
+    "summary": "\u003cdiv style=\"text-align: center;\"\u003e\u003cimg src=\"https://pbs.twimg.com/media/CqbgZmjUAAASXby.jpg\" style=\"width: 156px;\"\u003e\u003cbr\u003eHi I\u0027m Chasi ( ^-^)/\u00a0\u003cbr\u003eI\u0027m a 25 year old bunny lover over in California who enjoys the little things in life.\u00a0\u003cbr\u003eI created this space to feel more confident in my art/writing pieces and to have a spot to sort of truly be myself while trying to achieve a consistent rock to this world.\u00a0\u003cbr\u003eBeing able to be creative is my one true outlet to my inner darkness and I hope it\u0027ll help others too.\u003c/div\u003e"
+   },
+   "id": "604559",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3030130",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3030130"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "608624",
+       "type": "goal"
+      },
+      {
+       "id": "608644",
+       "type": "goal"
+      },
+      {
+       "id": "608670",
+       "type": "goal"
+      },
+      {
+       "id": "608671",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-604559",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-604559"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1030898",
+       "type": "reward"
+      },
+      {
+       "id": "1031050",
+       "type": "reward"
+      },
+      {
+       "id": "1031128",
+       "type": "reward"
+      },
+      {
+       "id": "1031259",
+       "type": "reward"
+      },
+      {
+       "id": "1031380",
+       "type": "reward"
+      },
+      {
+       "id": "1031389",
+       "type": "reward"
+      },
+      {
+       "id": "2225807",
+       "type": "reward"
+      },
+      {
+       "id": "1034179",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "My name is Chasi and I love Bunnies :D",
+     "created": "2016-03-17T09:22:26+00:00",
+     "facebook": null,
+     "first_name": "Chasibunny",
+     "full_name": "Chasibunny",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3030130/a18181d42f5c40ca861d96bf4ced2f3a?token-time=2145916800\u0026token-hash=7zuk3ji4-zbbn3Atcr3AB5lfHLnl9HG3-72SSHGxeHc%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3030130/a18181d42f5c40ca861d96bf4ced2f3a?token-time=2145916800\u0026token-hash=d_PwsZWGbhYMYB_ihsW2s5Fh6mq1O-qpRGi8xLYnmKQ%3D",
+     "twitch": "https://www.twitch.tv/chasibunny",
+     "twitter": "Chasibunny",
+     "url": "https://www.patreon.com/Chasibunny",
+     "vanity": "Chasibunny",
+     "youtube": null
+    },
+    "id": "3030130",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "604559",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/604559"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 408,
+     "upgrade_url": "/bePatron?c=604559\u0026rid=1030898"
+    },
+    "id": "post-aggregation-for-0-604559",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-23T06:08:24+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eThank you so much for your support~!\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eAccess to Patreon-only content\u003c/strong\u003e (WIPs/doodles)\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eAccess to Patron-Channel\u003c/strong\u003e in Discord.\u00a0\u00a0\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eSpecial Patreon role\u003c/strong\u003e on Discord.\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-09T18:10:26.251674+00:00",
+     "image_url": null,
+     "post_count": 231,
+     "published": true,
+     "published_at": "2018-04-09T18:10:26.241921+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "*\u30fb\u00b0\u2606 Carrot \u2606\u00b0\u30fb*",
+     "unpublished_at": null,
+     "url": "/bePatron?c=604559\u0026rid=1030898"
+    },
+    "id": "1030898",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-23T06:08:24+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eSame rewards as above.\u00a0\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eAccess to OCs\u003c/strong\u003e (Original Characters)\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eAccess to Patreon-only content\u003c/strong\u003e (Concepts)\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eSpecial Movie Nights + Game Nights\u003c/strong\u003e in Discord.\u00a0\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eSpecial Patreon\u003c/strong\u003e role on Discord.\u00a0\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "246636662367453184",
+      "246627722976034816"
+     ],
+     "edited_at": "2018-04-09T18:09:58.816943+00:00",
+     "image_url": null,
+     "post_count": 65,
+     "published": true,
+     "published_at": "2018-04-09T18:09:58.806196+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "*\u30fb\u00b0\u2606 BABY BUN\u2606\u00b0\u30fb*",
+     "unpublished_at": null,
+     "url": "/bePatron?c=604559\u0026rid=1031050"
+    },
+    "id": "1031050",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-23T06:08:24+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eSame Rewards as above.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eAccess to Traditional Art:\u003c/strong\u003e WIPs, sketches, doodles, and commissions.\u00a0\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eAccess to all\u003c/strong\u003e free use overlays, panels, emotes, and headers made.\u00a0\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eHigh-quality downloads. (.png)\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eVote on character/series polls.\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eAccess to raffles on Twitch Sub days \u003c/strong\u003e(must be present.)\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eSpecial Patreon \u003c/strong\u003erole on Discord.\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "246650906270105602",
+      "246627722976034816"
+     ],
+     "edited_at": "2017-12-20T10:51:26.857766+00:00",
+     "image_url": null,
+     "post_count": 12,
+     "published": true,
+     "published_at": "2017-12-20T10:51:26.839817+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "*\u30fb\u00b0\u2606 CINNABUNS \u2606\u00b0\u30fb*",
+     "unpublished_at": null,
+     "url": "/bePatron?c=604559\u0026rid=1031128"
+    },
+    "id": "1031128",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-23T06:08:24+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eSame Rewards as above.\u00a0\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e(1) B\u0026amp;W Character Sketch request submission. [Bust]\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eAccess to Typography posts.\u00a0\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eThank You: \u003c/strong\u003eEnd of the month TY digital card. (.png)\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eSpecial Patreon\u003c/strong\u003e role on Discord.\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "134827841199013890",
+      "246627722976034816"
+     ],
+     "edited_at": "2018-04-09T18:13:21.087170+00:00",
+     "image_url": null,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2018-04-09T18:13:21.078995+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "*\u30fb\u00b0\u2606 HONEY BUNNY\u2606\u00b0\u30fb*",
+     "unpublished_at": null,
+     "url": "/bePatron?c=604559\u0026rid=1031259"
+    },
+    "id": "1031259",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-11-23T06:08:24+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eSame Rewards as above.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eComic Book\u003c/strong\u003e: Access to all drawn comics\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eSecret Stream Mode:\u003c/strong\u003e I\u0027ll host private drawing streams that only your Tier+ can join.\u00a0\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eSpecial Patreon \u003c/strong\u003erole on Discord.\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "246862392657444891",
+      "246627722976034816"
+     ],
+     "edited_at": "2017-12-20T10:56:02.996851+00:00",
+     "image_url": null,
+     "post_count": 42,
+     "published": true,
+     "published_at": "2017-12-20T10:56:02.967839+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "*\u30fb\u00b0\u2606 SNUGGLE BUNNY\u2606\u00b0\u30fb*",
+     "unpublished_at": null,
+     "url": "/bePatron?c=604559\u0026rid=1031380"
+    },
+    "id": "1031380",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-11-23T06:08:24+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eSame Rewards as above.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eStory-Writer\u003c/strong\u003e: Access to all journal entries, positive reinforcement speeches, and sad real talk blues.\u00a0\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e(1) Colored Character Sketch \u003c/strong\u003erequest submission. [Bust]\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eMEGA Special\u003c/strong\u003e \u003cstrong\u003ePatreon\u003c/strong\u003e Discord role. [Choose your color]\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "246863227474935808",
+      "246627722976034816"
+     ],
+     "edited_at": "2017-12-20T10:58:08.190564+00:00",
+     "image_url": null,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2017-12-20T10:58:08.169894+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": "*\u30fb\u00b0\u2606 SUPER BUNNY \u2606\u00b0\u30fb*",
+     "unpublished_at": null,
+     "url": "/bePatron?c=604559\u0026rid=1031389"
+    },
+    "id": "1031389",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-12-20T11:00:28.243218+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eSame Rewards as above.\u00a0\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e(1) Colored Chibi icon \u003c/strong\u003e[Monthly]\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eSUPER MEGA Special \u003c/strong\u003ePatreon Discord role. \u003cbr\u003e\n[Choose your color]\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eYour own section on the Discord sidebar!\u00a0\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-20T11:00:40.618967+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-20T11:00:40.594790+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "*\u30fb\u00b0\u2606 SUGAR BUNNY \u2606\u00b0\u30fb*",
+     "unpublished_at": null,
+     "url": "/bePatron?c=604559\u0026rid=2225807"
+    },
+    "id": "2225807",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-11-23T06:08:25+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eSame Rewards as above \u2606\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eSmol care package\u003c/strong\u003e as thanks! \u003cstrong\u003e[U.S. ONLY]\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003eWill include \u003cstrong\u003eTraditional art :\u0026gt;\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eHuge Thank You \u003c/strong\u003e\u0026amp; love for you because of your support!\u003c/li\u003e\n\u003cli\u003eI\u0027ll probably cry ; W ;\u00a0\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eTHE BEST Special Patreon Discord role.\u003c/strong\u003e\u003cbr\u003e\n[Choose your color]\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eYour own section\u003c/strong\u003e on the Discord sidebar that will say \"The Best.\"\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u2606\u2606\u2606\u2606\u2606\u2606\u2606\u2606\u2606\u2606\u2606\u2606\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "246932045920468992",
+      "246627722976034816"
+     ],
+     "edited_at": "2018-03-30T14:33:47.648916+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-30T14:33:47.641072+00:00",
+     "remaining": 2,
+     "requires_shipping": true,
+     "title": "*\u30fb\u00b0\u2606 ROYAL BUNNY\u2606\u00b0\u30fb*",
+     "unpublished_at": null,
+     "url": "/bePatron?c=604559\u0026rid=1034179"
+    },
+    "id": "1034179",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-11-12T06:45:41+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e\u003cstrong\u003e\u2665 All Patreons:\u003cbr\u003e\u003c/strong\u003eWill upgrade (1) slot to \u003cstrong style=\"background-color: initial;\"\u003e(2) slots of B\u0026amp;W \u003c/strong\u003eCharacter sketch request submissions! These are awarded for 1 for Discord and 1 for Subs + Patrons.\u00a0\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e",
+     "reached_at": "2016-11-13T03:20:49+00:00",
+     "title": ""
+    },
+    "id": "608624",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 79,
+     "created_at": "2016-11-12T08:01:31+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e\u003cstrong\u003eThank You!\u00a0\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eGoals: \u003c/strong\u003eAccess to \u003cstrong\u003eWatercolor posts.\u003c/strong\u003e \u003cstrong\u003e[NEW!]\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eStream Celebration: \u003c/strong\u003eWe can do another celebration stream - maybe a couple hours and WITH A CAM? WHAAAA? Kappa Kappa\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": "2016-11-13T07:55:43+00:00",
+     "title": ""
+    },
+    "id": "608644",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 52,
+     "created_at": "2016-11-12T08:52:32+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e\u2665\u003cstrong\u003e All Patrons:\u003c/strong\u003e\u00a0\u003cbr\u003eWill get a huge thank you, those who are $5+ will get bust sketches - ALL OF EM!\u00a0\u003cstrong\u003e\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e8-hour LIVE stream! Spoopy scary game??? HM\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "608670",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 39,
+     "created_at": "2016-11-12T08:52:32+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e\u2665 \u003cstrong\u003eOh my gosh! Thank you so much \\( ^-^)/\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eI have no idea what I would do with this threshold surpassed but I\u0027m sure that by then I\u0027ll have a better suggestion of what to do \u003cbr\u003e; A ;\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e24-hour LIVE stream @u@ \u003cem\u003e\u003cdel\u003eat least I\u0027d fucking try it I GUESS\u003c/del\u003e\u003c/em\u003e\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "608671",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/604559"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "c697602a-01f9-4dcb-980a-b4137bc70975",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Chasibunny is creating Artistic Dumpings"
+});
+    </script>

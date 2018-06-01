@@ -1,0 +1,623 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "kUuFFX6qZ9dKCxEEMfcW4Wd_94YuRZLqtd9n3ZFAbAo";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "299761",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/299761"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-11-14T01:37:08+00:00",
+    "creation_name": "Characters, Comics, and Curios",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/608368/b17809b82c6d414d99fcff4e13ba7dcd?token-time=2145916800\u0026token-hash=9Zn4CAeuJG2qaH4BjxoizCq2weYY3_vC4ubpHQMxa70%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/608368/b17809b82c6d414d99fcff4e13ba7dcd?token-time=2145916800\u0026token-hash=XPcANLDo09bfuWRNZm886-_83pVE2KViVckQ6YpwzL0%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_sum": 2383,
+    "pledge_url": "/bePatron?c=608368",
+    "published_at": "2016-11-14T03:11:34+00:00",
+    "summary": "Simply an illustrator trying to get by in the world.\u003cbr\u003eGet access to my sketchbook, comic projects, livestreams, art requests, and discounted commissions!\u003cbr\u003eFind my public art pages at\u00a0\u003ca href=\"http://melancholy-mezzoid.tumblr.com\" rel=\"nofollow\" target=\"_blank\"\u003eMelancholy-Mezzoid\u003c/a\u003e and\u00a0\u003ca href=\"http://landofjunkandalternation.tumblr.com\" rel=\"nofollow\" target=\"_blank\"\u003eLand of Junk and Alternation\u003c/a\u003e on tumblr. You can also watch my art over on\u00a0\u003ca href=\"https://www.youtube.com/channel/UC-cFIMvLEd3mub7HiGidNoQ/live\" target=\"_blank\"\u003eYouTube\u003c/a\u003e!\u003cbr\u003eLike what you see, but can\u0027t sign up? Send me a\u00a0\u003ca href=\"http://ko-fi.com/ahvahtlom\" target=\"_blank\"\u003eko-fi\u003c/a\u003e instead! Every cup counts~"
+   },
+   "id": "608368",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3711448",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3711448"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "610274",
+       "type": "goal"
+      },
+      {
+       "id": "618232",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-608368",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-608368"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1807741",
+       "type": "reward"
+      },
+      {
+       "id": "2584455",
+       "type": "reward"
+      },
+      {
+       "id": "2249119",
+       "type": "reward"
+      },
+      {
+       "id": "1041202",
+       "type": "reward"
+      },
+      {
+       "id": "1041204",
+       "type": "reward"
+      },
+      {
+       "id": "1041206",
+       "type": "reward"
+      },
+      {
+       "id": "1041114",
+       "type": "reward"
+      },
+      {
+       "id": "1041115",
+       "type": "reward"
+      },
+      {
+       "id": "1041116",
+       "type": "reward"
+      },
+      {
+       "id": "1041117",
+       "type": "reward"
+      },
+      {
+       "id": "1041118",
+       "type": "reward"
+      },
+      {
+       "id": "1041119",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-07-24T23:54:53+00:00",
+     "facebook": "",
+     "first_name": "ahvahtlom",
+     "full_name": "ahvahtlom",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3711448/342b9680b9f6480892970baf3225d097?token-time=2145916800\u0026token-hash=KGkwpysYGmS8gOhJQCYZRmgZMZnRTd-U8tC7NsbJgv4%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3711448/342b9680b9f6480892970baf3225d097?token-time=2145916800\u0026token-hash=3IocfF7nXZIh63XDNCnwwyO2haSHoIZGEDU9vALouAI%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/ahvahtlom",
+     "vanity": "ahvahtlom",
+     "youtube": "https://www.youtube.com/channel/UC-cFIMvLEd3mub7HiGidNoQ/live"
+    },
+    "id": "3711448",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "608368",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/608368"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 77,
+     "upgrade_url": "/bePatron?c=608368\u0026rid=1807741"
+    },
+    "id": "post-aggregation-for-0-608368",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-07-01T04:14:33.578821+00:00",
+     "description": "Thank you! At the $1 you get access to my sketchbook, can vote in the monthly art poll, as well as watch the patron-only livestreams on Saturdays!",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-06T19:45:01.712782+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 13,
+     "published": true,
+     "published_at": "2018-05-06T19:45:01.704968+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sketchbook Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=608368\u0026rid=1807741",
+     "user_limit": null
+    },
+    "id": "1807741",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-05-06T19:48:12.965986+00:00",
+     "description": "Got ideas, but can\u0027t afford the higher tiers? This tier lets you submit your ideas for me to review and possibly make! *images will be made during the Saturday stream\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-06T19:48:12.965986+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-06T19:48:12.965986+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Prompt Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=608368\u0026rid=2584455",
+     "user_limit": null
+    },
+    "id": "2584455",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-01-01T16:32:11.328729+00:00",
+     "description": "Supporters of my comic, KAN, will get pages a week in advance of the tumblr mirror, and get lore/art related to the comic.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-01T16:32:11.328729+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 23,
+     "published": true,
+     "published_at": "2018-01-01T16:32:11.328729+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "KAN Comic Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=608368\u0026rid=2249119",
+     "user_limit": null
+    },
+    "id": "2249119",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2016-11-22T01:49:03+00:00",
+     "description": "Access to the Voltron Fan Story \u0027Letters Home\u0027. \u00a0A Project by Sonamae and myself, meant to bring you the maximum amount of feeling in the smallest package",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-02T02:13:54.569131+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2016-11-22T01:49:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Blue Lion Heart",
+     "unpublished_at": null,
+     "url": "/bePatron?c=608368\u0026rid=1041202",
+     "user_limit": null
+    },
+    "id": "1041202",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-22T01:49:04+00:00",
+     "description": "Patrons at this tier get to request personalized sketches during the Saturday livestream!",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-06T19:49:03.144217+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-06T19:49:03.135083+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sketch Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=608368\u0026rid=1041204",
+     "user_limit": null
+    },
+    "id": "1041204",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-22T01:49:04+00:00",
+     "description": "At this tier, patrons can get up to two linearts per month, drawn during the Saturday livestream!",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-06T19:49:31.866036+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-06T19:49:31.856444+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Lineart Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=608368\u0026rid=1041206",
+     "user_limit": null
+    },
+    "id": "1041206",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-11-22T01:49:04+00:00",
+     "description": "Every Patron at this level is guaranteed a full colored and shaded image once per month, drawn during the once-a-week livestream on Saturdays.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-08T00:18:23.172097+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-08T00:18:23.146234+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "Colored Image Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=608368\u0026rid=1041114",
+     "user_limit": 5
+    },
+    "id": "1041114",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-11-22T01:49:04+00:00",
+     "description": "Choice of (1) full colored image with background, OR (1) b+w comic page, per month",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-08T00:19:11.097437+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-08T00:19:11.069831+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "Choice Tier 1",
+     "unpublished_at": null,
+     "url": "/bePatron?c=608368\u0026rid=1041115",
+     "user_limit": 3
+    },
+    "id": "1041115",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2016-11-22T01:49:04+00:00",
+     "description": "Choice of full-colored image (up to two characters), OR two b+w comic pages.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-08T00:19:36.050744+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-08T00:19:36.031178+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "Choice Tier 2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=608368\u0026rid=1041116",
+     "user_limit": 3
+    },
+    "id": "1041116",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-11-22T01:49:04+00:00",
+     "description": "Choice of a full-color and shaded image with multiple characters, OR two colored comic pages, OR four b+w comic pages",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-02T02:21:29.517049+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-22T01:49:04+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "Choice Tier 3",
+     "unpublished_at": null,
+     "url": "/bePatron?c=608368\u0026rid=1041117",
+     "user_limit": 3
+    },
+    "id": "1041117",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-11-22T01:49:04+00:00",
+     "description": "Holy shit\u003cbr\u003eI\u0027ll draw whatever you want me to, just say the word.",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-02T02:22:13.461206+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-22T01:49:04+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Epic Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=608368\u0026rid=1041118",
+     "user_limit": null
+    },
+    "id": "1041118",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 800000,
+     "amount_cents": 800000,
+     "created_at": "2016-11-22T01:49:04+00:00",
+     "description": "Buy my silence.\u003cbr\u003eFor one month I will not speak, post, or draw anything, cuz I\u0027ll be too busy vacationing.\u003cbr\u003eYou will get a heartfelt thank-you posted on my main tumblr blog.",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-02T02:22:20.377021+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-22T01:49:04+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Silence Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=608368\u0026rid=1041119",
+     "user_limit": null
+    },
+    "id": "1041119",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3500,
+     "completed_percentage": 68,
+     "created_at": "2016-11-14T01:43:12+00:00",
+     "description": "This will pay for my internet for the month, keeping me linked to all of you, and helping to provide all your rewards on time!",
+     "reached_at": "2016-11-21T20:37:44+00:00",
+     "title": ""
+    },
+    "id": "610274",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7000,
+     "completed_percentage": 34,
+     "created_at": "2016-11-22T01:49:03+00:00",
+     "description": "Doubling the first goal will cover both my internet bill, and my monthly bus pass to my day job- freeing up funds for me to make more of my traditional works.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "618232",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/608368"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e377433f-7a3f-49bd-89c3-0a6936658bfd",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "ahvahtlom is creating Characters, Comics, and Curios"
+});
+    </script>

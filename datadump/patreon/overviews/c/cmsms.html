@@ -1,0 +1,462 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "DybeTzEBvH2_pHn5MpfDgk0MHMaS-jr7gGZKMzF_l2k";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "537464",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/537464"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-08-02T13:53:26+00:00",
+    "creation_name": "a PHP-based open source content management system (CMS)",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1137967/f027cce1e20c424fb08d832099c5ee2f?token-time=2145916800\u0026token-hash=Hbu58jj0LisxFqlFfOw22mfGjaUmKONFbVO_8dMhZzE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1137967/f027cce1e20c424fb08d832099c5ee2f?token-time=2145916800\u0026token-hash=vY3zaFhtNpIdC3NjHAFv_G3Sd297XpyRRefIMWFnnYg%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_sum": 3424,
+    "pledge_url": "/bePatron?c=1137967",
+    "published_at": "2017-08-07T17:00:06+00:00",
+    "summary": "CMS Made Simple is an Open Source Content Management System (CMS). It is built using PHP and the Smarty Template Engine, which keeps content, functionality, and templates separated. \u00a0It was launched in 2004 and has the flexibility to enable a web developer to integrate any web design.\u003cbr\u003e\u003cbr\u003eCMS Made Simple receives regular updates to the code (currently averaging one update every 2 months) and has an active community around it. \u00a0Not only is there a group of devoted developers in the Dev Team, there is also a thriving community based around the help forum. \u00a0And a worldwide group of keen users who create modules which can run blogs, photo galleries and calendars.\u003cbr\u003e\u003cbr\u003ePatreon is just one way to support us financially. \u00a0Your kind donation will go towards the considerable hosting costs for the project and enable access to a hidden monthly secret snippet of information from the Dev Team, published around the 10th of each month. \u00a0But most of all your donation will give you a warm feeling that you are contributing something back to a great content management system.\u003cbr\u003e\u003cbr\u003eCheck out the\u00a0\u003ca href=\"http://www.cmsmadesimple.org/\" target=\"_blank\"\u003eCMS Made Simple website\u003c/a\u003e for further information."
+   },
+   "id": "1137967",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7162765",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7162765"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1137967",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1137967"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1893877",
+       "type": "reward"
+      },
+      {
+       "id": "1893875",
+       "type": "reward"
+      },
+      {
+       "id": "1893878",
+       "type": "reward"
+      },
+      {
+       "id": "1893876",
+       "type": "reward"
+      },
+      {
+       "id": "1893874",
+       "type": "reward"
+      },
+      {
+       "id": "1893873",
+       "type": "reward"
+      },
+      {
+       "id": "1894046",
+       "type": "reward"
+      },
+      {
+       "id": "1894045",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-08-02T13:52:53+00:00",
+     "facebook": "https://www.facebook.com/cmsmadesimple/",
+     "first_name": "CMS",
+     "full_name": "CMS Made Simple",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7162765/c67d445560764fa39f7ee4140c76391e?token-time=2145916800\u0026token-hash=7O3RMuTJk_wl9bioQEpJRVQMLZnYV9IUIddIIAdCM08%3D",
+     "last_name": "Made Simple",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7162765/c67d445560764fa39f7ee4140c76391e?token-time=2145916800\u0026token-hash=_ZrtvwsoJ1S1GxIi5yFVaXKNachtuoLXlyqDKxa8vaw%3D",
+     "twitch": null,
+     "twitter": "cmsms",
+     "url": "https://www.patreon.com/cmsms",
+     "vanity": "cmsms",
+     "youtube": "https://www.youtube.com/user/cmsmsofficial"
+    },
+    "id": "7162765",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1137967",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1137967"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 7,
+     "upgrade_url": "/bePatron?c=1137967\u0026rid=1893877"
+    },
+    "id": "post-aggregation-for-0-1137967",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-08-02T15:17:28.280387+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only secret snippet content updated monthly by the CMS Made Simple Dev Team\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T15:17:28.280387+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T15:17:28.280387+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Alpha",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137967\u0026rid=1893877",
+     "user_limit": null
+    },
+    "id": "1893877",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-02T15:17:28.260370+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only secret snippet content updated monthly by the CMS Made Simple Dev Team\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T15:17:28.260370+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T15:17:28.260370+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Bravo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137967\u0026rid=1893875",
+     "user_limit": null
+    },
+    "id": "1893875",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-08-02T15:17:28.283496+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only secret snippet content updated monthly by the CMS Made Simple Dev Team\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T15:17:28.283496+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T15:17:28.283496+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Charlie",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137967\u0026rid=1893878",
+     "user_limit": null
+    },
+    "id": "1893878",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-08-02T15:17:28.262380+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only secret snippet content updated monthly by the CMS Made Simple Dev Team\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T16:41:17.898592+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T15:17:28.262380+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Delta",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137967\u0026rid=1893876",
+     "user_limit": null
+    },
+    "id": "1893876",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-08-02T15:17:27.810231+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only secret snippet content updated monthly by the CMS Made Simple Dev Team\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T16:41:17.911517+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T15:17:27.810231+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Echo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137967\u0026rid=1893874",
+     "user_limit": null
+    },
+    "id": "1893874",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-08-02T15:17:27.806627+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only secret snippet content updated monthly by the CMS Made Simple Dev Team\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T16:41:17.892523+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T15:17:27.806627+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Foxtrot",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137967\u0026rid=1893873",
+     "user_limit": null
+    },
+    "id": "1893873",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-02T16:41:17.880332+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only secret snippet content updated monthly by the CMS Made Simple Dev Team\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T16:41:17.880332+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T16:41:17.880332+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Golf",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137967\u0026rid=1894046",
+     "user_limit": null
+    },
+    "id": "1894046",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-02T16:41:17.851252+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only secret snippet content updated monthly by the CMS Made Simple Dev Team\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T16:41:17.851252+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T16:41:17.851252+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Hotel",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137967\u0026rid=1894045",
+     "user_limit": null
+    },
+    "id": "1894045",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1137967"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "61080575-33c0-42f2-873c-0b654774ea21",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "CMS Made Simple is creating a PHP-based open source content management system (CMS)"
+});
+    </script>

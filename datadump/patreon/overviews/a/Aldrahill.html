@@ -1,0 +1,481 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "U5eHtGlu-C5IZa6YjrffSU16SANL1qLUn4Z_O_SNsxo";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "290281",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/290281"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-10-15T12:28:50+00:00",
+    "creation_name": "Let\u0027s Plays \u0026 Strategy Videos",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/567408/218debca7da44c19bf405e468f85ee16?token-time=2145916800\u0026token-hash=S17K5SOatAWGDdDS6d5LEfWlvE8-UVcBI943avy36Wg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/567408/218debca7da44c19bf405e468f85ee16?token-time=2145916800\u0026token-hash=8woNTD1Ua8ITF61DiR--gQpoQBi9uNc4lV9qiU6fpxk%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/kEuyZlCzhy8\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://www.youtube.com/watch?v=kEuyZlCzhy8",
+    "one_liner": null,
+    "patron_count": 5,
+    "pay_per_name": "month",
+    "pledge_sum": 1975,
+    "pledge_url": "/bePatron?c=567408",
+    "published_at": "2016-10-29T19:19:58+00:00",
+    "summary": "Heeeeello there, I\u0027m Aldrahill and welcome to my Patreon!\u003cbr\u003e\u003cbr\u003eI make Let\u0027s Plays and strategy guides / tips videos on YouTube, as well as stream on Twitch! I have a beard, a very rich, chocolate-filled voice (or so I\u0027ve been told) and I like strategy games a whole bunch.\u003cbr\u003e\u003cbr\u003eBy supporting me on here, you\u0027re helping me create awesome content for you guys, as well as getting some pretty cool rewards for doing so!\u00a0\u003cbr\u003e\u003cbr\u003eI absolutely love making videos, streaming and talking with you guys as much as I can, so this Patreon helps justify to me (and my family!) all the time I spend working on the channel and not, you know, working at my job...\u003cbr\u003e"
+   },
+   "id": "567408",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3268947",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3268947"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "595975",
+       "type": "goal"
+      },
+      {
+       "id": "595976",
+       "type": "goal"
+      },
+      {
+       "id": "595977",
+       "type": "goal"
+      },
+      {
+       "id": "1015947",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "925079",
+       "type": "reward"
+      },
+      {
+       "id": "925128",
+       "type": "reward"
+      },
+      {
+       "id": "925127",
+       "type": "reward"
+      },
+      {
+       "id": "925126",
+       "type": "reward"
+      },
+      {
+       "id": "925125",
+       "type": "reward"
+      },
+      {
+       "id": "925124",
+       "type": "reward"
+      },
+      {
+       "id": "925123",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-05-07T19:13:13+00:00",
+     "facebook": null,
+     "first_name": "Aldrahill",
+     "full_name": "Aldrahill",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3268947/09d822faa6a24d3088ee164ad927ebdc?token-time=2145916800\u0026token-hash=TVgTmSeAQuKPozD5Yrn2yzN0hOfTVbuSV5aUmdJ6d44%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3268947/09d822faa6a24d3088ee164ad927ebdc?token-time=2145916800\u0026token-hash=feJ_nd7qhXFCUr1ziwRigV0Ut5FhDvLV7p0LlK9azQQ%3D",
+     "twitch": "https://www.twitch.tv/Aldrahill",
+     "twitter": "Aldrahill",
+     "url": "https://www.patreon.com/Aldrahill",
+     "vanity": "Aldrahill",
+     "youtube": "https://www.youtube.com/Aldrahill"
+    },
+    "id": "3268947",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "567408",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/567408"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-29T18:53:01+00:00",
+     "description": "Access to the private Patreon feed! I\u2019ll talk to you guys regularly on this, sharing cool things and overall communicating with you about the direction of the channel.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThis is a great way to not feel bad about using adblock when watching my channel!\u003cbr\u003e\n\u003cbr\u003e\nAlso, in my next stream, I will give you a shout-out both at the very beginning and the end. I\u0027ll read whatever crazy message you want me to read as well! Just nothing that will get me banned!\u003cbr\u003e\n\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eAdblock Absolution\u003c/li\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eShoutout\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-07T15:20:33.045686+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-29T18:53:01+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Adblock Absolution",
+     "unpublished_at": null,
+     "url": "/bePatron?c=567408\u0026rid=925079",
+     "user_limit": null
+    },
+    "id": "925079",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-29T18:53:01+00:00",
+     "description": "All of the above, plus\u00a0I\u2019ll add you to my list of names for characters in-game, both for Let\u2019s Plays and on stream. Fancy having a quadriplegic, neurotic nudist in Rimworld named after you? This is the tier for you!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAlso, I\u0027ll put your name on my new thank you end screen!\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eAdded to Character Namelist\u003c/li\u003e\u003cli\u003eAll Previous Tier Rewards\u003c/li\u003e\u003cli\u003eName on Thank You Endscreen\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-07T15:25:35.667731+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-29T18:53:01+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Character Names \u0026 Endscreen",
+     "unpublished_at": null,
+     "url": "/bePatron?c=567408\u0026rid=925128",
+     "user_limit": null
+    },
+    "id": "925128",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 800,
+     "amount_cents": 800,
+     "created_at": "2016-10-29T18:53:01+00:00",
+     "description": "This tier is basically a Netflix subscription, except I provide over 30 hours of entertainment a week! What value, eh?\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll of the above, plus you\u2019ll be added to my secret list of people eligible to play multiplayer games with me, both for recordings and for Streams.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eWant to beat me up in a game to show how much better at it you are than me?\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eAll Previous Tier Rewards\u003c/li\u003e\u003cli\u003eName on Thank You Endscreen\u003c/li\u003e\u003cli\u003eBasically a Netflix Subscription\u003c/li\u003e\u003cli\u003eMultiplayer Eligibility List\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-11T21:45:29.255753+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-29T18:53:01+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Netflix + Multiplayer Eligibility",
+     "unpublished_at": null,
+     "url": "/bePatron?c=567408\u0026rid=925127",
+     "user_limit": null
+    },
+    "id": "925127",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-10-29T18:53:01+00:00",
+     "description": "All of the above, plus Olivia (my ever-helpful girlfriend) will draw you a surprise picture \u2013 she does all the artwork for the channel, as well as featuring on it pretty frequently, so you know she\u0027s good!\u003cbr\u003e\n\u003cbr\u003e\nShe\u2019ll email you a scanned copy of the picture for you to keep The picture will be different for everyone, I can only guarantee it will be awesome!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eAll Previous Tier Rewards\u003c/li\u003e\u003cli\u003eSurprise Artwork\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-07T15:25:07.635626+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-29T18:53:01+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Surprise Art",
+     "unpublished_at": null,
+     "url": "/bePatron?c=567408\u0026rid=925126",
+     "user_limit": null
+    },
+    "id": "925126",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-10-29T18:53:01+00:00",
+     "description": "All of the above, but instead of a surprise picture, Olivia will draw whatever YOU want!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eNot only will she email it to you, but I will put it up on the wall behind me so that it can be seen in all of my videos and streams. Only Rule: Nothing that will get me banned!\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eAll Previous Tier Rewards\u003c/li\u003e\u003cli\u003eFeatured Art Always On Camera\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-07T15:27:41.482859+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-29T18:53:01+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Featured Art",
+     "unpublished_at": null,
+     "url": "/bePatron?c=567408\u0026rid=925125",
+     "user_limit": null
+    },
+    "id": "925125",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-10-29T18:53:01+00:00",
+     "description": "I\u2019ll record, edit and master an audio clip of whatever you want (as long as it isn\u2019t horrendously embarrassing for me / ban worthy) for whatever use you desire!\u00a0Once a month, a new audio clip!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eRing tone, voicemail, personalised message \u2013 think of all the possibilities!\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eWant to wake up to the rich, chocolatey sound of my voice in the morning? Then this is the tier for you!\u003cbr\u003e\n\u003cbr\u003e\n\"Your voice is an ocean of chocolate.\u00a0Did you swallow lots of marmalade as a child? it sounds like marmalade. Don\u0027t ask what that means, but it does.\" - Actual quote about my voice!\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eAll Previous Tier Rewards\u003c/li\u003e\u003cli\u003eAudio Recording\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-22T19:08:41.354769+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-29T18:53:01+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Audio Clip",
+     "unpublished_at": null,
+     "url": "/bePatron?c=567408\u0026rid=925124",
+     "user_limit": null
+    },
+    "id": "925124",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-29T18:53:01+00:00",
+     "description": "If anyone\u0027s mad enough, I will happily talk to you once a month privately, discussing ideas for the channel, games you want to see featured or just talk about my beard. It\u0027s up to you!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eAll Previous Tier Rewards\u003c/li\u003e\u003cli\u003eMonthly 1-on-1 Skype Convos\u003c/li\u003e\u003cli\u003eMy Undying Love\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-07T15:33:32.141850+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-29T18:53:01+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Monthly Skype Convos",
+     "unpublished_at": null,
+     "url": "/bePatron?c=567408\u0026rid=925123",
+     "user_limit": null
+    },
+    "id": "925123",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 1,
+     "created_at": "2016-10-29T18:53:00+00:00",
+     "description": "The dream!\u003cbr\u003eAt this amount, I\u0027ll be able to quit my day job and focus on making videos and streaming full-time. If I ever reach this point... Oh man...",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "595975",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 3,
+     "created_at": "2016-10-29T18:53:00+00:00",
+     "description": "At this amount, I\u0027d be able to transition to part-time with my job, freeing up extra days to stream and make even more videos!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "595976",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 19,
+     "created_at": "2016-10-29T18:53:00+00:00",
+     "description": "Monthly Multiplayer Viewer Games!\u003cbr\u003eAt this amount I will host monthly multiplayer sessions for just myself and viewers, playing whatever really interesting game has recently taken my fancy.\u00a0",
+     "reached_at": "2017-07-27T18:36:09+00:00",
+     "title": ""
+    },
+    "id": "595977",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 7,
+     "created_at": "2017-11-07T23:51:35+00:00",
+     "description": "Enough so that I can use all of this money to afford PDXCON in May, 2018!\u003cbr\u003e\u003cbr\u003eWe can play games! Drink Mead! Totes worth it.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1015947",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/567408"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "a045f4f4-c0ec-47f2-befa-756d453e7f03",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Aldrahill is creating Let\u0027s Plays \u0026 Strategy Videos"
+});
+    </script>

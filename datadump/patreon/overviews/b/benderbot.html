@@ -1,0 +1,310 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "-TyxMJGTczZ3vTHg8fJpHME56nnGEe1FsQqNhN6gmDQ";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "621164",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/621164"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-09-04T01:53:40+00:00",
+    "creation_name": "Bender",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1206222/cc353f48c7404aa5af5c5cc028cb3962?token-time=2145916800\u0026token-hash=aarNzb9fCNTSc7DD38FAx08aOcQ5C7zUKO_LsPhpdxM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1206222/cc353f48c7404aa5af5c5cc028cb3962?token-time=2145916800\u0026token-hash=TUIwEZ4JmXNnVfbKRYQ1ajslrZsB-iS4ru_c-NzK8Sk%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "month",
+    "pledge_sum": 1949,
+    "pledge_url": "/bePatron?c=1206222",
+    "published_at": "2017-11-02T02:07:00+00:00",
+    "summary": "\u003ca href=\"https://benderbot.co\" target=\"_blank\"\u003eBender\u003c/a\u003e is a bot designed to fit the needs of any Discord server. It is very customizable with commands for moderation, text tools, simple info commands, chat filters, and more. But most importantly, it\u0027s built to be as user-friendly and as useful as possible. It\u0027s come a long way but there is still a lot of development planned and many new features in the works! Don\u0027t hesitate to give suggestions as I\u0027m always open to input from you guys."
+   },
+   "id": "1206222",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7566224",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7566224"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "955924",
+       "type": "goal"
+      },
+      {
+       "id": "955925",
+       "type": "goal"
+      },
+      {
+       "id": "1089634",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1977362",
+       "type": "reward"
+      },
+      {
+       "id": "1977375",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-09-04T01:53:24+00:00",
+     "facebook": null,
+     "first_name": "Joe",
+     "full_name": "Joe",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7566224/65e778ef072d4803943608faeac5ee36?token-time=2145916800\u0026token-hash=YNsIY3LKormKMv-SalKzqmff5LxdSdw-63ZaU5oduog%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7566224/65e778ef072d4803943608faeac5ee36?token-time=2145916800\u0026token-hash=piQw1gmKvC1m8B-C7VI_m3UM4oeVmQBIFTAr7o3w-7w%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/benderbot",
+     "vanity": "benderbot",
+     "youtube": null
+    },
+    "id": "7566224",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1206222",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1206222"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-09-04T02:49:56.289255+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eThe Supporter role on Discord\u003c/li\u003e\n\u003cli\u003eAccess to a channel to chat with other Supporters and Sponsors\u003c/li\u003e\n\u003cli\u003eMuch love from me and everyone using Bender \u0026lt;3\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "354082456804130816"
+     ],
+     "edited_at": "2017-11-01T22:34:24.483798+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-01T22:34:24.453246+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1206222\u0026rid=1977362",
+     "user_limit": null
+    },
+    "id": "1977362",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-09-04T02:58:22.107651+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYour name on the website as a thank-you\u003c/li\u003e\u003cli\u003eAccess to a channel for special requests for the bot\u003c/li\u003e\u003cli\u003eA custom role on Discord as well as the Sponsor role\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "354082456804130816",
+      "354095042513731587"
+     ],
+     "edited_at": "2017-09-04T02:58:22.107651+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-04T02:58:22.107651+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1206222\u0026rid=1977375",
+     "user_limit": null
+    },
+    "id": "1977375",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000,
+     "completed_percentage": 100,
+     "created_at": "2017-09-04T03:12:51+00:00",
+     "description": "A brand-new server to host the bot on. This will make the bot faster and will be necessary to keep everything running smoothly as Bender\u0027s userbase expands.",
+     "reached_at": "2018-01-17T19:01:18+00:00",
+     "title": ""
+    },
+    "id": "955924",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2000,
+     "completed_percentage": 97,
+     "created_at": "2017-09-04T03:12:51+00:00",
+     "description": "A fresh website with a web dashboard, running on a new server. The dashboard will allow you to edit Bender\u0027s settings remotely. The \"commands\" part of the website will be redesigned to look great on every device and to be more helpful and informational.",
+     "reached_at": "2018-01-24T21:22:15+00:00",
+     "title": ""
+    },
+    "id": "955925",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3000,
+     "completed_percentage": 64,
+     "created_at": "2018-01-24T21:46:25+00:00",
+     "description": "Another upgrade to Bender\u0027s VPS, which will have double the RAM and CPU speed of the previous server. This will, again, keep Bender running smoothly as it grows. :)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1089634",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1206222"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "80e30e63-664c-4f07-b1f2-c5a0c25b8f9a",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Joe is creating Bender"
+});
+    </script>

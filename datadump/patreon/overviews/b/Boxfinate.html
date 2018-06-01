@@ -1,0 +1,473 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "VvMW8mQzYFV-RC8SyL1787M1Q3oYt-wsjTrlIHVyAgw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "810178",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/810178"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-01-22T14:19:42+00:00",
+    "creation_name": "Youtube Gaming Videos \u0026 Livestreams",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 14,
+    "pay_per_name": "month",
+    "pledge_sum": 18471,
+    "pledge_url": "/bePatron?c=1485260",
+    "published_at": "2018-02-18T15:04:00+00:00",
+    "summary": "Thanks for visiting my Patreon page!\u003cbr\u003e\u003cbr\u003eFirst of all, the amount of support I have received on Twitter and Youtube combined is unbelievable! You people are actually insane! I am going to offer my full time and dedication to this community if it keeps growing at this rate. Thank you all \u0026lt;3\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.youtube.com/c/Boxfinate\" target=\"_blank\"\u003eYoutube\u003c/a\u003e - Watch my videos and streams!\u003cbr\u003e\u003ca href=\"http://www.twitter.com/Boxfinate\" target=\"_blank\"\u003eTwitter\u003c/a\u003e - Keep up with me!\u003cbr\u003e\u003ca href=\"http://www.twitch.tv/Boxfinate\" target=\"_blank\"\u003eTwitch\u003c/a\u003e - Watch some potential future streams!\u003cbr\u003e\u003ca href=\"http://discord.gg/URWKARZ\" target=\"_blank\"\u003eDiscord\u003c/a\u003e - Interact with me and my community!\u003cbr\u003e\u003cbr\u003eI am a newcomer to Youtube, it has grown somewhat fast and am very excited for the future. As like everyone else, I would love for this to become my full time job someday. It being a full-time job probably won\u0027t happen for a while, but it doesn\u0027t hurt to start now.\u003cbr\u003e\u003cbr\u003eI will be making Virtual Reality videos and general gaming content. These will include funny moments and possibly tutorials in the near future.\u003cbr\u003e\u003cbr\u003eThank you all for the support you have given :) #BoxBestBox\u003cbr\u003e"
+   },
+   "id": "1485260",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9316962",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9316962"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1115743",
+       "type": "goal"
+      },
+      {
+       "id": "1115744",
+       "type": "goal"
+      },
+      {
+       "id": "1115745",
+       "type": "goal"
+      },
+      {
+       "id": "1115746",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1485260",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1485260"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2382395",
+       "type": "reward"
+      },
+      {
+       "id": "2382400",
+       "type": "reward"
+      },
+      {
+       "id": "2382409",
+       "type": "reward"
+      },
+      {
+       "id": "2382429",
+       "type": "reward"
+      },
+      {
+       "id": "2382430",
+       "type": "reward"
+      },
+      {
+       "id": "2382431",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2018-01-16T03:56:24+00:00",
+     "facebook": null,
+     "first_name": "Boxfinate",
+     "full_name": "Boxfinate",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/9316962/1d4bcc1f944a4e20b8bc696264a72f8c?token-time=2145916800\u0026token-hash=pN-KKNmv25m4DN9_kkeejGGEKf0iqCtgqYlC9sId_GY%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9316962/1d4bcc1f944a4e20b8bc696264a72f8c?token-time=2145916800\u0026token-hash=6dqepcpvpzX9NjuwSq5k44S3RJa-2RzrOVFOWbRyi_w%3D",
+     "twitch": "https://www.twitch.tv/boxfinate",
+     "twitter": "Boxfinate",
+     "url": "https://www.patreon.com/Boxfinate",
+     "vanity": "Boxfinate",
+     "youtube": "https://www.youtube.com/c/Boxfinate"
+    },
+    "id": "9316962",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1485260",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1485260"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 5,
+     "upgrade_url": "/bePatron?c=1485260\u0026rid=2382395"
+    },
+    "id": "post-aggregation-for-0-1485260",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-02-18T14:45:53.786884+00:00",
+     "description": "Thank you guys so much for being apart of this!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eGet access to Patron only feeds.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-18T14:45:53.786884+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-18T14:45:53.786884+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Paper",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1485260\u0026rid=2382395",
+     "user_limit": null
+    },
+    "id": "2382395",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-18T14:47:02.766087+00:00",
+     "description": "Thank you guys so much for being apart of this!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eGet access to Patron only feeds.\u003c/p\u003e\n\u003cp\u003eHave your name display at the end of my videos.\u003c/p\u003e\n\u003cp\u003eJoin Patron only events!\u003c/p\u003e\n\u003cp\u003eReceive the \"Cardboard\" role on my Discord!\u003c/p\u003e",
+     "discord_role_ids": [
+      "414794984697626637"
+     ],
+     "edited_at": "2018-02-20T03:52:08.723989+00:00",
+     "image_url": null,
+     "patron_count": 7,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-20T03:52:08.709950+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Cardboard",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1485260\u0026rid=2382400",
+     "user_limit": null
+    },
+    "id": "2382400",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-18T14:49:13.453733+00:00",
+     "description": "Thank you guys so much for being apart of this!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eGet access to Patron only feeds.\u003c/p\u003e\n\u003cp\u003eHave your name display at the end of my videos.\u00a0\u003c/p\u003e\n\u003cp\u003eJoin Patron only events!\u003c/p\u003e\n\u003cp\u003eReceive the \"Cardboard Box\" role on my Discord!\u003c/p\u003e",
+     "discord_role_ids": [
+      "414795855816687627"
+     ],
+     "edited_at": "2018-02-20T03:52:16.796040+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-20T03:52:16.788112+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Cardboard Box",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1485260\u0026rid=2382409",
+     "user_limit": null
+    },
+    "id": "2382409",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-02-18T14:55:02.902458+00:00",
+     "description": "Thank you guys so much for being apart of this!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eGet access to Patron only feeds.\u003c/p\u003e\n\u003cp\u003eHave your name display at the end of my videos.\u00a0\u003c/p\u003e\n\u003cp\u003eJoin Patron only events!\u003c/p\u003e\n\u003cp\u003eReceive the \"Crate\" role on my Discord!\u003c/p\u003e\n\u003cp\u003eTalk with me privately in a voice call on Discord at least once a month.\u003c/p\u003e",
+     "discord_role_ids": [
+      "414797411106553867"
+     ],
+     "edited_at": "2018-02-26T08:32:32.875979+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-26T08:32:32.866014+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Crate",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1485260\u0026rid=2382429",
+     "user_limit": null
+    },
+    "id": "2382429",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-02-18T14:55:51.147591+00:00",
+     "description": "Thank you guys so much for being apart of this!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAnyone who gives this much is just insane. I don\u0027t know how to thank you enough!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eGet access to Patron only feeds.\u003c/p\u003e\n\u003cp\u003eHave your name display at the end of my videos.\u00a0\u003c/p\u003e\n\u003cp\u003eJoin Patron only events!\u003c/p\u003e\n\u003cp\u003eReceive the \"OP Crate\" role on my Discord!\u003c/p\u003e\n\u003cp\u003eTalk with me privately in a voice call on Discord at least once a month.\u003c/p\u003e",
+     "discord_role_ids": [
+      "414797447521501195"
+     ],
+     "edited_at": "2018-02-26T08:32:39.271882+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-26T08:32:39.265024+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "OP Crate",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1485260\u0026rid=2382430",
+     "user_limit": null
+    },
+    "id": "2382430",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-02-18T14:56:34.164857+00:00",
+     "description": "Thank you guys so much for being apart of this!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAnyone who gives this much is just BOX. I don\u0027t know how to thank you enough!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eGet access to Patron only feeds.\u003c/p\u003e\n\u003cp\u003eHave your name display at the end of my videos.\u00a0\u003c/p\u003e\n\u003cp\u003eJoin Patron only events!\u003c/p\u003e\n\u003cp\u003eReceive the \"Legendary Box\" role on my Discord!\u003c/p\u003e\n\u003cp\u003eTalk with me privately in a voice call on Discord at least once a month.\u003c/p\u003e",
+     "discord_role_ids": [
+      "414797505038123028"
+     ],
+     "edited_at": "2018-02-26T08:32:45.794062+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-26T08:32:45.784793+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "LEGENDARY BOX",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1485260\u0026rid=2382431",
+     "user_limit": null
+    },
+    "id": "2382431",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 36,
+     "created_at": "2018-02-18T14:43:22+00:00",
+     "description": "Covers most expenses.\u003cbr\u003e\u003cbr\u003eCasually streaming/making videos.",
+     "reached_at": "2018-02-18T16:34:25+00:00",
+     "title": ""
+    },
+    "id": "1115743",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 18,
+     "created_at": "2018-02-18T14:43:22+00:00",
+     "description": "I can work on this part-time, I may have issues with the Australian Government trying to make me get another job however.\u003cbr\u003e",
+     "reached_at": "2018-02-23T21:06:39+00:00",
+     "title": ""
+    },
+    "id": "1115744",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 140000,
+     "completed_percentage": 13,
+     "created_at": "2018-02-18T14:43:22+00:00",
+     "description": "I can start thinking about moving out with a better internet connection with a friend.\u003cbr\u003e\u003cbr\u003eI may have issues with the Australian Government trying to make me get another job however.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1115745",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 9,
+     "created_at": "2018-02-18T14:43:22+00:00",
+     "description": "100% can work on this full-time.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1115746",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1485260"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "07505f0a-f0de-4e30-bea6-8a557899423d",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Boxfinate is creating Youtube Gaming Videos \u0026 Livestreams"
+});
+    </script>

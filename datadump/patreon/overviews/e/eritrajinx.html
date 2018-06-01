@@ -1,0 +1,613 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "LGOQqrJq61VzwUqOcJBTkPu-YTVaMC0E67r7ew6XDDY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "818376",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/818376"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-02-24T20:40:36+00:00",
+    "creation_name": "Cosplay",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1565646/9051874dbaae4e1bb792575f17b18875?token-time=2145916800\u0026token-hash=O8xt9PslQlcy0MAC9pzKIXz-xr6iexYgdodr2DF_IU4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1565646/9051874dbaae4e1bb792575f17b18875?token-time=2145916800\u0026token-hash=UwrVgZYkZNp6uw4p6kq1LQebaHtm1nvuGbIt0g5VNeo%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 5,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1565646",
+    "published_at": "2018-02-25T01:09:40+00:00",
+    "summary": "En este momento soy Twitch Partner, Streamer, Cosplayer y host. Jugadora super inexperta de videojuegos de PC y consolas, por gusto. \u003cbr\u003eNo llevo mucho tiempo en esto, sin embargo es algo que me gusta mucho a pesar de altas y bajas en el camino. Logr\u00e9 crear una comunidad c\u00e1lida, muy sana y hermosa, que funcione como una familia, los quiero a todos y cada uno, me hace muy feliz lo que aportan a mi d\u00eda y por lo que estoy muy agradecida. \u003cbr\u003ePara m\u00ed esto es en parte trabajo y en parte, Hobby, ya que adem\u00e1s trabajo y estudio, lo hago con todo mi empe\u00f1o y el intento es mejor que nunca.\u003cbr\u003e"
+   },
+   "id": "1565646",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9936769",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9936769"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1122562",
+       "type": "goal"
+      },
+      {
+       "id": "1122563",
+       "type": "goal"
+      },
+      {
+       "id": "1127468",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1565646",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1565646"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2399427",
+       "type": "reward"
+      },
+      {
+       "id": "2399430",
+       "type": "reward"
+      },
+      {
+       "id": "2399435",
+       "type": "reward"
+      },
+      {
+       "id": "2399439",
+       "type": "reward"
+      },
+      {
+       "id": "2399445",
+       "type": "reward"
+      },
+      {
+       "id": "2399456",
+       "type": "reward"
+      },
+      {
+       "id": "2399850",
+       "type": "reward"
+      },
+      {
+       "id": "2399465",
+       "type": "reward"
+      },
+      {
+       "id": "2412174",
+       "type": "reward"
+      },
+      {
+       "id": "2412176",
+       "type": "reward"
+      },
+      {
+       "id": "2412178",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-02-24T20:40:15+00:00",
+     "facebook": "https://www.facebook.com/EritraJinx/",
+     "first_name": "EritraJinx",
+     "full_name": "EritraJinx",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/9936769/dee835dda7494e299c2023499c10ab3e?token-time=2145916800\u0026token-hash=xuFipcSg3JpIKd2kpqoYankFvPDZfj_nq9dX-J7yhK4%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9936769/dee835dda7494e299c2023499c10ab3e?token-time=2145916800\u0026token-hash=A2yZj4HvHpnvHtt4nHo9rCT-20X2wp4LGxSiU9qO8YI%3D",
+     "twitch": "https://www.twitch.tv/eritrajinx/",
+     "twitter": "https://twitter.com/EritraJinx",
+     "url": "https://www.patreon.com/eritrajinx",
+     "vanity": "eritrajinx",
+     "youtube": "https://www.youtube.com/channel/UCOsDiIq5tA9snpwBaoBRhIg"
+    },
+    "id": "9936769",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1565646",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1565646"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 12,
+     "upgrade_url": "/bePatron?c=1565646\u0026rid=2399427"
+    },
+    "id": "post-aggregation-for-0-1565646",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-02-24T21:01:34.998120+00:00",
+     "description": "Primer nivel gatuno: \u00a0Sin recompensa, solamente quiero apoyar \u0026lt;3",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-24T22:56:41.151039+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2399427/f9d712292b5c49d19dec84487971d9db?token-time=2145916800\u0026token-hash=-yd69-9pEmvDxsa7mXYKDwhBC1VoTM3GgIvmBCA3Woo%3D",
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-24T22:56:41.144567+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": " Gatito Reci\u00e9n Nacido",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565646\u0026rid=2399427"
+    },
+    "id": "2399427",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-02-24T21:02:36.228955+00:00",
+     "description": "Segundo nivel gatuno:\u00a0\n\u003cp\u003e-Rango en Discord.\u003c/p\u003e",
+     "discord_role_ids": [
+      "417060599533666324"
+     ],
+     "edited_at": "2018-02-25T00:16:51.256194+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2399430/81e80376bd354eb98d6b31366ec7c2db?token-time=2145916800\u0026token-hash=7-JhaAcpeUXkJPoSddCFT-Li2MffkjNOSX3aJk2dVUw%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T00:16:51.233003+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gatito Beb\u00e9",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565646\u0026rid=2399430"
+    },
+    "id": "2399430",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-24T21:03:50.623280+00:00",
+     "description": "Tercer nivel gatuno: \u00a0\n\u003cp\u003e-Rango en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing con Snow.\u003c/p\u003e",
+     "discord_role_ids": [
+      "417060599533666324"
+     ],
+     "edited_at": "2018-02-25T00:17:03.349314+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2399435/eb8cb6b40abd4f3084f512a59aa31d85?token-time=2145916800\u0026token-hash=Gta9JW366X_3BO-bKWa3fWakDnaKl2kHsdVG9ZBF1VM%3D",
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-25T00:17:03.321510+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gatito ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565646\u0026rid=2399435"
+    },
+    "id": "2399435",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-24T21:04:47.612722+00:00",
+     "description": "Cuarto nivel gatuno, Recibe:\u00a0\n\u003cp\u003e-Video de agradecimiento\u00a0\u003c/p\u003e\n\u003cp\u003e-Rango VIP en Discord\u00a0\u00a0\u003c/p\u003e\n\u003cp\u003e-Rango en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing con Snow.\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "417060599533666324",
+      "388334948928454666"
+     ],
+     "edited_at": "2018-02-25T00:17:19.898157+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2399439/3810d07ad5c246228fd936816f403f9f?token-time=2145916800\u0026token-hash=9obDTMjXhrlrbtW-zGbFi_Ab5_iijmUdBWgeawekI1I%3D",
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-25T00:17:19.888147+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gato Cool",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565646\u0026rid=2399439"
+    },
+    "id": "2399439",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-02-24T21:08:23.719653+00:00",
+     "description": "Quinto nivel gatuno Recibe:\u00a0\n\u003cp\u003e-Primicias de Cosplay en Curso\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Fotos\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Eventos\u00a0\u003c/p\u003e\n\u003cp\u003e-Rango Especial en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Video de agradecimiento\u00a0\u003c/p\u003e\n\u003cp\u003e-Rango VIP en Discord\u00a0\u00a0\u003c/p\u003e\n\u003cp\u003e-Rango en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing con Snow\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "417060599533666324",
+      "388334948928454666",
+      "417110674427084800"
+     ],
+     "edited_at": "2018-02-25T00:17:36.163771+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2399445/e487e0c1300d44b380752d8261bd7047?token-time=2145916800\u0026token-hash=kTzBJDvu-4Tfy1sF-6dLopyAcBU2y5YkQKIG4OdaZ4g%3D",
+     "post_count": 6,
+     "published": true,
+     "published_at": "2018-02-25T00:17:36.153519+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gato Super Cool",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565646\u0026rid=2399445"
+    },
+    "id": "2399445",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-02-24T21:10:45.737062+00:00",
+     "description": "Sexto nivel gatuno Recibe:\u00a0\n\u003cp\u003e-Fotito exclusiva que no subir\u00e9 a ning\u00fan otro lado\u003c/p\u003e\n\u003cp\u003e-Rango Especial en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing normal\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Cosplay en Curso\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Fotos\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Eventos\u00a0\u003c/p\u003e\n\u003cp\u003e-Video de agradecimiento\u00a0\u003c/p\u003e\n\u003cp\u003e-Rango en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing con Snow\u003c/p\u003e",
+     "discord_role_ids": [
+      "417060599533666324",
+      "388334948928454666",
+      "417110410357899264"
+     ],
+     "edited_at": "2018-02-25T00:15:27.199343+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2399456/dc51fefef4f24871a2b75b7301df6796?token-time=2145916800\u0026token-hash=-1yoDrpqSe5rBUZt50K3gPEFlbx5kYezyQxHhgRuKWc%3D",
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-02-25T00:15:27.164616+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Miau Miau King",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565646\u0026rid=2399456"
+    },
+    "id": "2399456",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-02-25T00:24:07.727848+00:00",
+     "description": "\u00a0S\u00e9ptimo nivel gatuno Recibe:\n\u003cp\u003e-Decide qu\u00e9 juego jugar un d\u00eda en stream\u003c/p\u003e\n\u003cp\u003e-Fotito exclusiva que no subir\u00e9 a ning\u00fan otro lado\u003c/p\u003e\n\u003cp\u003e-Rango Especial en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing normal\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Cosplay en Curso\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Fotos\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Eventos\u00a0\u003c/p\u003e\n\u003cp\u003e-Video de agradecimiento\u00a0\u003c/p\u003e\n\u003cp\u003e-Rango en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing con Snow\u003c/p\u003e\n\u003cp\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "388334948928454666",
+      "417060599533666324",
+      "417114659452354561"
+     ],
+     "edited_at": "2018-02-25T00:27:15.323723+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2399850/6cf0460678ea4950bb44575d79517113?token-time=2145916800\u0026token-hash=TyGCyX3hJTzm-ZONzhoEW5ST-B3fXQl2Dkjl9K0ymhE%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T00:27:15.272963+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gato Magno",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565646\u0026rid=2399850"
+    },
+    "id": "2399850",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2018-02-24T21:13:02.189252+00:00",
+     "description": "Gran gato Recibe:\u00a0\n\u003cp\u003e-Te sigo en Twitter\u00a0\u003c/p\u003e\n\u003cp\u003e-Decide qu\u00e9 juego jugar un d\u00eda en stream\u00a0\u003c/p\u003e\n\u003cp\u003e-Fotito exclusiva que no subir\u00e9 a ning\u00fan otro lado\u003c/p\u003e\n\u003cp\u003e-Rango Especial en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing normal\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Cosplay en Curso\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Fotos\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Eventos\u00a0\u003c/p\u003e\n\u003cp\u003e-Video de agradecimiento\u00a0\u003c/p\u003e\n\u003cp\u003e-Rango en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing con Snow\u003c/p\u003e",
+     "discord_role_ids": [
+      "417060599533666324",
+      "388334948928454666",
+      "417109862330269696"
+     ],
+     "edited_at": "2018-02-25T00:27:03.907912+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2399465/4a8b7bda8563489192aa0eca67078472?token-time=2145916800\u0026token-hash=aWvGnM3EJ8nSBoPsPDLot95W6KQqCsCSoR7pvR8wbEA%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T00:27:03.899166+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gato Moncarca Universal",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565646\u0026rid=2399465"
+    },
+    "id": "2399465",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-03-01T06:00:16.502837+00:00",
+     "description": "Extra gato Recibe:\u00a0\n\u003cp\u003e-Video especial en tu cumplea\u00f1os\u003c/p\u003e\n\u003cp\u003e-Te sigo en Twitter\u00a0\u003c/p\u003e\n\u003cp\u003e-Decide qu\u00e9 juego jugar un d\u00eda en stream\u00a0\u003c/p\u003e\n\u003cp\u003e-Fotito exclusiva que no subir\u00e9 a ning\u00fan otro lado\u003c/p\u003e\n\u003cp\u003e-Rango Especial en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing normal\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Cosplay en Curso\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Fotos\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Eventos\u00a0\u003c/p\u003e\n\u003cp\u003e-Video de agradecimiento\u00a0\u003c/p\u003e\n\u003cp\u003e-Rango en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing con Snow\u003c/p\u003e",
+     "discord_role_ids": [
+      "388334948928454666",
+      "417060599533666324"
+     ],
+     "edited_at": "2018-03-01T06:00:16.502837+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2412174/f95657cfdcce4a99906a1e4716cd035c?token-time=2145916800\u0026token-hash=CIhRZqlEuJd-hGFRGjruuivC8DGtv7CXrzKzTyUqMi4%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-01T06:00:16.502837+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Extraordinario Gato",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565646\u0026rid=2412174"
+    },
+    "id": "2412174",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7000,
+     "amount_cents": 7000,
+     "created_at": "2018-03-01T06:02:10.329434+00:00",
+     "description": "Recibe:\u00a0\n\u003cp\u003e-Avances de los procesos del cosplay\u003c/p\u003e\n\u003cp\u003e-Video especial en tu cumplea\u00f1os\u003c/p\u003e\n\u003cp\u003e-Te sigo en Twitter\u00a0\u003c/p\u003e\n\u003cp\u003e-Decide qu\u00e9 juego jugar un d\u00eda en stream\u00a0\u003c/p\u003e\n\u003cp\u003e-Fotito exclusiva que no subir\u00e9 a ning\u00fan otro lado\u003c/p\u003e\n\u003cp\u003e-Rango Especial en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing normal\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Cosplay en Curso\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Fotos\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Eventos\u00a0\u003c/p\u003e\n\u003cp\u003e-Video de agradecimiento\u00a0\u003c/p\u003e\n\u003cp\u003e-Rango en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing con Snow\u003c/p\u003e",
+     "discord_role_ids": [
+      "388334948928454666",
+      "417060599533666324"
+     ],
+     "edited_at": "2018-03-01T06:02:10.329434+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2412176/da728a3de9c24804b11b1383c64a4448?token-time=2145916800\u0026token-hash=gv4iASL9Yszp1Ev7ZjM0tESlocl_2qe8K6-N748s2So%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-01T06:02:10.329434+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gato Dios",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565646\u0026rid=2412176"
+    },
+    "id": "2412176",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-03-01T06:03:40.325968+00:00",
+     "description": "Recibe:\u00a0\n\u003cp\u003e-Cajita de League Of Legends\u003c/p\u003e\n\u003cp\u003e-Avances de los procesos del cosplay\u003c/p\u003e\n\u003cp\u003e-Video especial en tu cumplea\u00f1os\u003c/p\u003e\n\u003cp\u003e-Te sigo en Twitter\u00a0\u003c/p\u003e\n\u003cp\u003e-Decide qu\u00e9 juego jugar un d\u00eda en stream\u00a0\u003c/p\u003e\n\u003cp\u003e-Fotito exclusiva que no subir\u00e9 a ning\u00fan otro lado\u003c/p\u003e\n\u003cp\u003e-Rango Especial en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing normal\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Cosplay en Curso\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Fotos\u00a0\u003c/p\u003e\n\u003cp\u003e-Primicias de Eventos\u00a0\u003c/p\u003e\n\u003cp\u003e-Video de agradecimiento\u00a0\u003c/p\u003e\n\u003cp\u003e-Rango en Discord\u00a0\u003c/p\u003e\n\u003cp\u003e-Zing con Snow\u003c/p\u003e",
+     "discord_role_ids": [
+      "388334948928454666",
+      "417060599533666324"
+     ],
+     "edited_at": "2018-03-01T06:03:40.325968+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2412178/0bfa9a99625b4e2cab99fdb7784cca6e?token-time=2145916800\u0026token-hash=FCkcAwM0TPP91a8qMruC_5yP3qr8yVlq1Ts2NoG8jn8%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-01T06:03:40.325968+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gato Omnipresente",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565646\u0026rid=2412178"
+    },
+    "id": "2412178",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2018-02-24T21:14:09+00:00",
+     "description": "\u003cfont style=\"\"\u003eC\u00e1mara nueva para hacer m\u00e1s videos y m\u00e1s contenido.\u003c/font\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1122562",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 4,
+     "created_at": "2018-02-24T21:14:09+00:00",
+     "description": "Viaje a Talent Guadalajara Jalisco.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1122563",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 33,
+     "created_at": "2018-03-01T06:29:23+00:00",
+     "description": "Cosplay para concurso de Riot.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1127468",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1565646"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "05b77e14-0e2d-4c88-9c21-1ef7c9694ff9",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "EritraJinx is creating Cosplay"
+});
+    </script>

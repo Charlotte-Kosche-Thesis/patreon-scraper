@@ -1,0 +1,479 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "F_92WtovVzYP3kTI_NmwdEzRpVT9VT_cOFt-52I8pAw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "553043",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/553043"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-08-22T10:04:55+00:00",
+    "creation_name": "Spreadsheets",
+    "display_patron_goals": true,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1179549/fc6beebf347745e8b766726a143436c1?token-time=2145916800\u0026token-hash=mUimc2PN9RDV6U6NYXjWPgkW5LUW3tUoJglRxP2etF8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1179549/fc6beebf347745e8b766726a143436c1?token-time=2145916800\u0026token-hash=YHSLOpWT286gLmErkmjlj6SIU3Qn4xQrP5akhY2JS1A%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 5,
+    "pay_per_name": "creation",
+    "pledge_sum": 1620,
+    "pledge_url": "/bePatron?c=1179549",
+    "published_at": "2017-08-22T11:08:17+00:00",
+    "summary": "Thank you for visiting my Patreon page. I was recently preparing for my fantasy football draft by making a spreadsheet to help my draft strategy and I thought that other people might find my spreadsheets useful. I will also make additional spreadsheets if I get enough requests for them. I am currently working on making spreadsheets to help with fantasy sports, specifically the ones I play. I will release them to you all as I complete them. I will also make spreadsheets for any cause you need if you request it. I became familiar with Excel during engineering school, where I found out how powerful of a tool Excel is. I have found that there is very little I cannot do with Excel. So if you have a need for a specifically formatted spreadsheet, I can make it for you. Whether you want to manage your finances, storage, or something to help you organize your everyday life, I\u0027ll do my best to help make your life easier."
+   },
+   "id": "1179549",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7404743",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7404743"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "31585",
+       "type": "patron_goal"
+      },
+      {
+       "id": "30949",
+       "type": "patron_goal"
+      },
+      {
+       "id": "31454",
+       "type": "patron_goal"
+      },
+      {
+       "id": "31327",
+       "type": "patron_goal"
+      },
+      {
+       "id": "31328",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1179549",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1179549"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1948931",
+       "type": "reward"
+      },
+      {
+       "id": "1945002",
+       "type": "reward"
+      },
+      {
+       "id": "1945015",
+       "type": "reward"
+      },
+      {
+       "id": "1948850",
+       "type": "reward"
+      },
+      {
+       "id": "1948849",
+       "type": "reward"
+      },
+      {
+       "id": "1948851",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-08-22T10:04:45+00:00",
+     "facebook": "https://www.facebook.com/ben.taliaferro.3",
+     "first_name": "Ben",
+     "full_name": "Ben Taliaferro",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7404743/63a42333e1d947678d1ebec9905759ec?token-time=2145916800\u0026token-hash=lup_ZdPj60jQR3fc4VmmaUTSAgKxAORFA-E5TNlPH80%3D",
+     "last_name": "Taliaferro",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7404743/63a42333e1d947678d1ebec9905759ec?token-time=2145916800\u0026token-hash=wCpuhJbNP4r8gE0yuScwBJDPuOwvvj9ppcyKzggPxb0%3D",
+     "twitch": null,
+     "twitter": "https://twitter.com/Pain_Train55",
+     "url": "https://www.patreon.com/BenTaliaferro",
+     "vanity": "BenTaliaferro",
+     "youtube": null
+    },
+    "id": "7404743",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1179549",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1179549"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 4,
+     "upgrade_url": "/bePatron?c=1179549\u0026rid=1948931"
+    },
+    "id": "post-aggregation-for-0-1179549",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-08-23T22:55:59.548704+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYou da real MVP! By supporting me you\u0027re allowing me to spend more time creating content for all of my patrons!\u00a0\u003c/li\u003e\u003cli\u003eAccess to my Weapon of Draft Construction\u003c/li\u003e\u003cli\u003eAccess to patron only content\u003c/li\u003e\u003cli\u003eAccess to patron only polls\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-25T22:09:11.558395+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-08-23T22:55:59.548704+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "MVP Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1179549\u0026rid=1948931",
+     "user_limit": 0
+    },
+    "id": "1948931",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-22T10:48:06.286001+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to my Premium Fantasy Draft Cheat Sheet!\u003c/li\u003e\u003cli\u003ePlus All Previous Content\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T22:55:59.791167+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-08-22T10:48:06.286001+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Deluxe Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1179549\u0026rid=1945002",
+     "user_limit": null
+    },
+    "id": "1945002",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-08-22T10:59:21.310686+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eI will make customized formatted spreadsheets if you have a less common league format\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T22:26:25.673555+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-22T10:59:21.310686+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Premium Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1179549\u0026rid=1945015",
+     "user_limit": 0
+    },
+    "id": "1945015",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-08-23T22:26:25.649060+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eI will make any intermediate level spreadsheet you would like me to!\u003c/li\u003e\u003cli\u003eI will give you my personal cell phone number so that I can best serve your needs\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T22:26:25.649060+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T22:26:25.649060+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Custom Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1179549\u0026rid=1948850",
+     "user_limit": null
+    },
+    "id": "1948850",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2017-08-23T22:26:25.645386+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eI will give you a two hour Skype session to help you out with an Excel problem you are having and teach you anything I can!\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T22:26:25.645386+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T22:26:25.645386+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Exclusive Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1179549\u0026rid=1948849",
+     "user_limit": null
+    },
+    "id": "1948849",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-23T22:26:25.662420+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAt this level I will make any very complex spreadsheet that you want!\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-23T22:26:25.662420+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-23T22:26:25.662420+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Diamond Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1179549\u0026rid=1948851",
+     "user_limit": null
+    },
+    "id": "1948851",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-08-24T22:42:55+00:00",
+     "deleted_at": null,
+     "description": "At 15 Patrons I will convert all of my Excel files to be perfectly compatible with Google Sheets so that way those of you without Excel will still be able to use it and you will have all of the benefits that Google Sheets can offer, such as cloud based storage!",
+     "goal_text": "At 15 Patrons I will convert all of my Excel files to be perfectly compatible with Google Sheets so that way those of you without Excel will still be able to use it and you will have all of the benefits that Google Sheets can offer, such as cloud based storage!",
+     "number_patrons": 15,
+     "reached_at": null
+    },
+    "id": "31585",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-08-22T10:54:45+00:00",
+     "deleted_at": null,
+     "description": "At 25 pledges I will release my personal draft grades and rankings complete with my notes and reasoning. This will reduce the amount of work you have to do and allow you to walk into your draft ready to go! This will be updated weekly and following any major breaking news such as player injuries and suspensions. This is so that I can provide you with the most up to date information possible.",
+     "goal_text": "At 25 pledges I will release my personal draft grades and rankings complete with my notes and reasoning. This will reduce the amount of work you have to do and allow you to walk into your draft ready to go! This will be updated weekly and following any major breaking news such as player injuries and suspensions. This is so that I can provide you with the most up to date information possible.",
+     "number_patrons": 25,
+     "reached_at": null
+    },
+    "id": "30949",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-08-24T14:24:02+00:00",
+     "deleted_at": null,
+     "description": "At 50 Patrons I will begin writing FREE weekly blog posts about all things fantasy football. I will be giving you the most important news relevant to your fantasy season. Everything from draft info to player updates I will begin providing this information so that you don\u0027t have to scour the web to find it yourself.",
+     "goal_text": "At 50 Patrons I will begin writing FREE weekly blog posts about all things fantasy football. I will be giving you the most important news relevant to your fantasy season. Everything from draft info to player updates I will begin providing this information so that you don\u0027t have to scour the web to find it yourself.",
+     "number_patrons": 50,
+     "reached_at": null
+    },
+    "id": "31454",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-08-23T22:29:58+00:00",
+     "deleted_at": null,
+     "description": "At 100 pledges I will start releasing premium patron only blog posts 3 times a week (M/W/F) in addition to the free weekly blog post!",
+     "goal_text": "At 100 pledges I will start releasing premium patron only blog posts 3 times a week (M/W/F) in addition to the free weekly blog post!",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "31327",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-08-23T22:29:58+00:00",
+     "deleted_at": null,
+     "description": "At 200 pledges I will make a spreadsheet that supports auction style drafts!",
+     "goal_text": "At 200 pledges I will make a spreadsheet that supports auction style drafts!",
+     "number_patrons": 200,
+     "reached_at": null
+    },
+    "id": "31328",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1179549"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "c8d93c99-1259-4677-b579-d5f960d54a19",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Ben Taliaferro is creating Spreadsheets"
+});
+    </script>

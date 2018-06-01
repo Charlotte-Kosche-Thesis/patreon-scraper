@@ -1,0 +1,431 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "dZsrlwI9DdK3udxGkxODaxFnALlhYGqTA-4LOFsqL6o";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "311914",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/311914"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-12-04T02:05:26+00:00",
+    "creation_name": " a Podcast focused on Movie/Video Game reviews \u0026 Interesting In",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/636509/f21bdc1c0e034147a686754705efa0d1?token-time=2145916800\u0026token-hash=IlzL8JINBaTZhQ-Gx0hGY8qpwJgUkjf7qLHGIS09xf0%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/636509/f21bdc1c0e034147a686754705efa0d1?token-time=2145916800\u0026token-hash=zP3PtOljRFIJAmnlf8vz9EzS1FC_DtKeRyWCNihXjbQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 15,
+    "pay_per_name": "month",
+    "pledge_sum": 5707,
+    "pledge_url": "/bePatron?c=636509",
+    "published_at": "2016-12-04T02:12:56+00:00",
+    "summary": "Thank you so much for stumbling onto our Patreon page, whether intentionally or by accident. It\u0027s okay, we won\u0027t judge either way, and welcome everyone who has a strong passion for their hobbies, games, movies, comics...anything! We welcome it all.\u003cbr\u003e\u003cbr\u003eIf you didn\u0027t already know, Kyle and Ryan are two nerdy dudes who love to ramble on about video games and movies. They do this through the Experience Grind podcast and their dedicated YouTube channel. Sometimes they stray off their nerdy-path and conduct interviews with interesting people to see what their experiences are all about. They just like to have a good time talking about the things they love.\u003cbr\u003e"
+   },
+   "id": "636509",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4546903",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4546903"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "630207",
+       "type": "goal"
+      },
+      {
+       "id": "989239",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-636509",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-636509"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1122251",
+       "type": "reward"
+      },
+      {
+       "id": "1122252",
+       "type": "reward"
+      },
+      {
+       "id": "1122253",
+       "type": "reward"
+      },
+      {
+       "id": "1122254",
+       "type": "reward"
+      },
+      {
+       "id": "1122255",
+       "type": "reward"
+      },
+      {
+       "id": "1122256",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-12-04T02:05:16+00:00",
+     "facebook": "https://www.facebook.com/experiencegrind/",
+     "first_name": "Experience",
+     "full_name": "Experience Grind Podcast",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4546903/24b70bbb576a4ca4a19bc9f7610a45a3?token-time=2145916800\u0026token-hash=DvVPau7kppfyzkKSlUpaqEFIJmT5dgfdMcdm6HDoX2o%3D",
+     "last_name": "Grind Podcast",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4546903/24b70bbb576a4ca4a19bc9f7610a45a3?token-time=2145916800\u0026token-hash=O3p6uCcyrCgOaIfwLismAShvRWuBnQ89u7VpVUaTNwo%3D",
+     "twitch": "https://www.twitch.tv/experiencegrind",
+     "twitter": "expgrindpodcast",
+     "url": "https://www.patreon.com/experiencegrind",
+     "vanity": "experiencegrind",
+     "youtube": "https://www.youtube.com/channel/UCdrXJmvpFgfn7E0oBIe1mfg"
+    },
+    "id": "4546903",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "636509",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/636509"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 6,
+     "upgrade_url": "/bePatron?c=636509\u0026rid=1122251"
+    },
+    "id": "post-aggregation-for-0-636509",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-12-04T02:09:45+00:00",
+     "description": "You\u0027re officially a patron (yay!) and will receive one very grateful virtual hug. In addition, you\u0027ll receive access to my Patron-only feed including blog posts, pictures and our general thoughts at the moment.",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-06T18:47:03+00:00",
+     "image_url": null,
+     "patron_count": 7,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-04T02:09:45+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Kudos!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=636509\u0026rid=1122251",
+     "user_limit": null
+    },
+    "id": "1122251",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-12-04T02:09:45+00:00",
+     "description": "You\u0027ll get access to a monthly Patron-only live chat with Kyle and Ryan, where the sky is the limit in terms of discussion.\u003cbr\u003e\u003cbr\u003eIn addition, Kyle and Ryan will thank you personally on the podcast and promote your Twitter, website...anything you want really!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes all previous reward tiers.\u003c/strong\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-06T18:47:03+00:00",
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-04T02:09:45+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Chat Buddies \u0026 On-Air Thanks!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=636509\u0026rid=1122252",
+     "user_limit": null
+    },
+    "id": "1122252",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-12-04T02:09:45+00:00",
+     "description": "Have a topic or question that you\u0027ve been wanting us to talk about? At this level you\u0027re guaranteed that Kyle and Ryan will use your question/topic for an intro of one of our main episodes. \u003cem\u003e(If you have more than one great suggestion, we may even use more!)\u003c/em\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes all previous reward tiers.\u003c/strong\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-19T18:23:45.768533+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1122253/ecf35983ce9b454f83760294a8edf5f8?token-time=2145916800\u0026token-hash=OBLSZkFo_-dF-ORXtHK58YHGlhYbaaFFr4TgmLaM2Xo%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-04T02:09:45+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Beer Koozy \u0026 You Pick the Topic and Questions for our Intros!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=636509\u0026rid=1122253",
+     "user_limit": null
+    },
+    "id": "1122253",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-12-04T02:09:45+00:00",
+     "description": "Send us anything you want, games, movies and Kyle and Ryan will sign and ship it back. We\u0027ll even sign a little doodle if you request it. \u003cem\u003e(You will be responsible for shipping item to us.)\u003c/em\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes all previous reward tiers.\u003c/strong\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-06T18:47:03+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-04T02:09:45+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Experience Grind Signatures!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=636509\u0026rid=1122254",
+     "user_limit": null
+    },
+    "id": "1122254",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-12-04T02:09:45+00:00",
+     "description": "Want a fresh desktop that will constantly remind you of the awesome podcast and community you\u0027re a part of? At this level Kyle and Ryan will draw/design a monthly wallpaper for your desktop or phone! \u003cem\u003e(And yes, we will take suggestions!)\u003c/em\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes all previous reward tiers.\u003c/strong\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-06T18:47:03+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-04T02:09:45+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Made-From-Scratch Desktop/Phone Wallpapers!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=636509\u0026rid=1122255",
+     "user_limit": null
+    },
+    "id": "1122255",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2016-12-04T02:09:45+00:00",
+     "description": "You\u0027re the star of an episode of the show and will select the movie or game you would like to cover.\u003cbr\u003e\u003cbr\u003eIn addition, everyone at this tier will be included in a monthly raffle for a physical copy of a movie/game of Kyle and Ryan\u0027s choice, signed by both of them!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes all previous reward tiers.\u003c/strong\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-06T18:47:03+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-04T02:09:45+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Guest Host and Prize Raffle!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=636509\u0026rid=1122256",
+     "user_limit": null
+    },
+    "id": "1122256",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3000,
+     "completed_percentage": 100,
+     "created_at": "2016-12-04T02:10:38+00:00",
+     "description": "Kyle and Ryan will do a live-stream commentary of the Halle Berry bomb \"Catwoman\" Rifftrax style which can be downloaded later\u003cbr\u003e",
+     "reached_at": "2017-05-18T00:24:51+00:00",
+     "title": ""
+    },
+    "id": "630207",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5300,
+     "completed_percentage": 100,
+     "created_at": "2017-10-09T14:43:46+00:00",
+     "description": "Kyle and Ryan will do a drunken\u00a0livestream Bob Ross paint off.\u003cbr\u003e\u003cbr\u003eThey will select a Bob Ross painting and do their best to match it while also being inebriated for your enjoyment, expect a lot of mess, some name calling and some terrible paintings.\u003cbr\u003e\u003cbr\u003e(Paintings will be gifted to two supporters or burned in a satanic ritual TBD)",
+     "reached_at": "2018-03-17T17:58:09+00:00",
+     "title": ""
+    },
+    "id": "989239",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/636509"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ca661217-b288-4fdd-a15a-f79c483232da",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Experience Grind Podcast is creating  a Podcast focused on Movie/Video Game reviews \u0026 Interesting In"
+});
+    </script>

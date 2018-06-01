@@ -1,0 +1,431 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "pP4Kmug6ICLfibWWckcC5wZmkngJ3CtDwG1Hps5eQdw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "236940",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/236940"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-09-21T14:55:59+00:00",
+    "creation_name": "Imaginative stories and art",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/529076/4b7081fa31884fbf9a1768fa9248bd53?token-time=2145916800\u0026token-hash=QyPBfPM-IQv5Pfk1bXPsgp9fIh1JiKCqwW7NRu2pwi0%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/529076/4b7081fa31884fbf9a1768fa9248bd53?token-time=2145916800\u0026token-hash=8akYpQFRaOglsfEonc3UWtsIGukm1VGeGP1_3jIXL3E%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_sum": 2788,
+    "pledge_url": "/bePatron?c=529076",
+    "published_at": "2016-09-21T16:12:48+00:00",
+    "summary": "An author fueled by feedback and caffeine.\u00a0\u003cbr\u003e\u003cbr\u003eAll my life, I have written stories. And I love nothing better than to share my stories with the world. From in depth fan work to my own completely original tales, there are so many stories I want to tell!\u003cbr\u003eUnfortunately, I often don\u0027t have the funds for it. This was something done in my spare time, and so became unpredictable.\u00a0\u003cbr\u003e\u003cbr\u003eBy pledging to support me, you allow me to make writing my full time job! The more people donate to me, the more time I can spend every day writing, posting stories faster than ever!\u00a0\u003cbr\u003eIf I could make enough money writing the stories I love and sharing them with the wonderfully kindhearted people who read them to fully support myself without a separate income source; that would be a long held dream come true.\u00a0\u003cbr\u003e\u003cbr\u003eAll of your pledges go towards keeping my time open without requiring a day job, allowing me to write more stories much faster than before!\u00a0\u003cbr\u003e"
+   },
+   "id": "529076",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4083526",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4083526"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "556182",
+       "type": "goal"
+      },
+      {
+       "id": "556185",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-529076",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-529076"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "812497",
+       "type": "reward"
+      },
+      {
+       "id": "812320",
+       "type": "reward"
+      },
+      {
+       "id": "812323",
+       "type": "reward"
+      },
+      {
+       "id": "812293",
+       "type": "reward"
+      },
+      {
+       "id": "812359",
+       "type": "reward"
+      },
+      {
+       "id": "812377",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "A creative author powered by feedback and caffeine",
+     "created": "2016-09-21T14:55:31+00:00",
+     "facebook": null,
+     "first_name": "Coffee",
+     "full_name": "Coffee Fueled Author",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4083526/8fd3ff7b8ecc42068a2c8b827275e69a?token-time=2145916800\u0026token-hash=V0dqKhnlJZLbQDGG0rYpZ5mYbskYLrzvJVAnWo9d5To%3D",
+     "last_name": "Fueled Author",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4083526/8fd3ff7b8ecc42068a2c8b827275e69a?token-time=2145916800\u0026token-hash=y3I74B20ghE1XZ2tiflaeksnTgu02IihMF3LqJHPuS4%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/coffeefueledauthor",
+     "vanity": "coffeefueledauthor",
+     "youtube": null
+    },
+    "id": "4083526",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "529076",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/529076"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 10,
+     "upgrade_url": "/bePatron?c=529076\u0026rid=812320"
+    },
+    "id": "post-aggregation-for-0-529076",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-09-21T16:14:56+00:00",
+     "description": "All patrons will receive a special place in the credits of the story they helped fund with their donation! Every little bit helps!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-21T16:14:56+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=529076\u0026rid=812497",
+     "user_limit": null
+    },
+    "id": "812497",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-09-21T16:14:56+00:00",
+     "description": "As a thanks for your support, you will be given access to special factoids about the stories. Want to know where certain plot elements came from? Want to know where I get my inspiration? Want to know some of my own writing tips? You\u0027ll be seeing all of these with a donation of 5 dollars or more!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2016-09-21T16:14:56+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=529076\u0026rid=812320",
+     "user_limit": null
+    },
+    "id": "812320",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-09-21T16:14:56+00:00",
+     "description": "With enough support, I will have extra time to write! This also means that my supporters will get early access to chapters before they are posted anywhere else!\u00a0\u003cbr\u003eWith donations of 10 or more, you will be allowed to read new chapters sooner than others!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-21T16:14:56+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=529076\u0026rid=812323",
+     "user_limit": null
+    },
+    "id": "812323",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-09-21T16:14:56+00:00",
+     "description": "With this amount donated, you will get early access to special early draft art and writing. This also includes deleted scenes and cut content from early versions of the story that wont be posted anywhere else! Learn about Out of Place back when it was The Missing Piece. Meet characters that didn\u0027t quite make the cut. See early illustrations depicting scenes both in and cut from the final tale!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-09-21T16:14:56+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=529076\u0026rid=812293",
+     "user_limit": null
+    },
+    "id": "812293",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-09-21T16:14:56+00:00",
+     "description": "Become a friend of the author! Join me in Coffee Sessions, where I will be live answering questions about stories, pitching new ideas, and just chatting with those who would like to say hi. I will also host \"How I Write\" streams and will even help out other authors who want my assistance with their own tales with one on one OR group jam sessions! Let\u0027s write together!\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-21T16:14:56+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=529076\u0026rid=812359",
+     "user_limit": null
+    },
+    "id": "812359",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-09-21T16:14:56+00:00",
+     "description": "I don\u0027t know how I could ever thank anyone willing to pledge so much to myself and my writing.\u00a0\u003cbr\u003eThe best I could offer are original sketches of both cut and canon story elements. You will also be placed in my Very Special Thanks credits in any and all stories published following your donation. I will also send you a handwritten thank you note for your generous gift and unending kindness, as well as an extra tiny gift from me. You will forever have my deepest thanks. Know that you were a huge part in pushing me to finish my stories.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-21T16:14:56+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=529076\u0026rid=812377",
+     "user_limit": null
+    },
+    "id": "812377",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 27,
+     "created_at": "2016-09-21T15:41:54+00:00",
+     "description": "Making money from my writing is a dream that I thought would never come true.\u00a0\u003cbr\u003eIf I can make 100 dollars from my tales alone, then it will be that last push I need to truly feel like a professional author!\u00a0\u003cbr\u003eIt doesn\u0027t matter how long it takes. Let\u0027s do this together!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "556182",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 9,
+     "created_at": "2016-09-21T15:46:19+00:00",
+     "description": "At this amount, I can officially live off of my writing alone. It may be the bare minimum, but it will be a huge milestone in my life to get to this point!\u00a0\u003cbr\u003eAnd it will all be thanks to my wonderful and amazing fans.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "556185",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/529076"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "595776b6-bd81-426b-9050-15decd175eb9",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Coffee Fueled Author is creating Imaginative stories and art"
+});
+    </script>

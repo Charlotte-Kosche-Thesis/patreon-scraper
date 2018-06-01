@@ -1,0 +1,641 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "I40oQ1R03xSa9VXGFKIp5i3HC1NGpqAVbj4ydIQ3N0Y";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "342742",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/342742"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-01-18T05:06:51+00:00",
+    "creation_name": "Youtube videos and Photography",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIzIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/706405/dc9dd0b33e7f4a6a87585e17c1f82a8e?token-time=2145916800\u0026token-hash=GX1VP2q5fg2tUD-oHV_tKUL1Vjq_-legGHAPkcg9mCw%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMyJ9/patreon-media/campaign/706405/dc9dd0b33e7f4a6a87585e17c1f82a8e?token-time=2145916800\u0026token-hash=0VaNSmQBmCNM-JQTxJMbXONOwgS8CqyuOlTcYvr__qc%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 15,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=706405",
+    "published_at": "2017-01-18T05:41:12+00:00",
+    "summary": "\u003cstrong\u003e\u003c/strong\u003e\u003cstrong\u003e\u003cimg src=\"https://photos.app.goo.gl/w46pP2R9VSXNZoUH2\"\u003eAbout Ascari Husky\u003c/strong\u003e\u003cbr\u003eHey everyone I am Ascari Husky. I\u0027m a furry YouTuber and photographer who likes to give great advice, make people laugh, do fursuit interviews/collabs, and also enjoys taking pictures! I love entertaining people and making them laugh! I also like meeting new people and telling them what I wish someone would had told me when I first joined the fandom! Below I explain the kinds of videos I do and the kinds of photography I do.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eMy Photography\u003cbr\u003e \u003c/strong\u003eNow if you follow me on Instagram or one of my 2 Twitter accounts you know that I am a little bit of a photographer. At the moment I have a Nikon D3400 with a f3.5/5.4 18 to 55mm kit lenses and a f1.8 35mm fixed lenses. I do photography of cars, fursuits, landscape, and a lot more! Camera equipment is not cheap and getting to certain locations is not cheap as well. By supporting my Patreon you are helping support my photography and my YouTube. I have done small photo shoots for several fursuiters and one well known fursuiter known as Sayber. So to see more photo shoots and more photos in general please support! Below are some examples of my photography. Most of these pictures were taken with the kit lenses. I make do with the little bit I have! By supporting you help make the quality much better!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cstrong\u003eFursuits\u003cbr\u003e\u003c/strong\u003e\u003c/strong\u003eMost of these pictures were taken at either a fur \nbowl or at Anthrocon 2017. Here are some examples of the fursuit photos I\n take.\u003cbr\u003e\u003cstrong\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/d7wPTVIQmyOUIbnNfpxlexM4KkXP2ndJjoshpmF41V3n0Kvr7YO47VWHZG4JCrME4Ho648QpQnqbeL93VQUPezn4Sc9iWN0sCsOv-Oz0tweT1DodOul_Ir7hYKZ0peXJDGPMh5f_2Yp0ichlRgxZUVJQukTOJOigqMFFiqU0yevXoXBBjHIcxzwLLBj1bQ29cJQHWBoVGRfEITbIsaee5jnsJkY21vTwt1Cz2bZGF2U6qra4XKdb97hMy-p6yH6JtcTA4zgcdd88z3WoJkuZi6RlKWOlQgs5CZ8CINaBq91H68lEiGMwUbM2jnOSTctsXaaJKvaxXVT7r-N7vfUDZUJBO4Yf620-qVo15KzPV6yFCvcRMXH7wE2Scn2zyWrEBgS0p9GNDhiYF0K6ZwoDALwj_CDUzF99B9NTc1H4puDv0EX03XA1LVazP_h9Qsyjl4A4khrjH0kdEY7H2ZZ8cp85c-qd80R9TD8x9zETr9FPFyNDmhfxBrbGwZ2B2TFrNlLL72Z9XqSc1s0ghFpihonF57ot-W0Qs7tJo9UoWp93wO2o8rBRxhOV-6BWLGPpL1jYMcjE1xe1wyF9lEmgoKTN_AQ-qblYdw5ehIMSLQvcHZAcQnwAfsfjCiWst82hqOIeTTyu1KCFZfHMD4Tjj5jkejXfdVrk_Nj5=w530-h794-no\" style=\"width: 319px; float: left; margin: 0px 10px 10px 0px;\"\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/zJeeTzxuEBTReSz19nZjK1miaf3bLt_Xc6Bf7CoR3oVq5IXg1jhQsbHfp67KTw5SQnCGo_bHaXa0C5Yxmtp2uqCNzBhVEj0xoSbBSnQYTe9y27RfByaD6HqGnxDzZUB66keciIsc0wTQxPf8ZjuV2GnZBarRR75AozvR6OAi09_P6VZfLXJ7dkPneoAFzOqYuVXPdwYx6hdngokxDDNF4NaXfjMxoqTBHd2zCkrvTbyVhIs0wYpJOGWj6Zr0H2AK0JjXV-41_CEOr9RQMYGHWvBpTHdCRbDtZ65WEEEEYy_DivL9OYdmHHIdy1Bof8KbrSr-M4BvH4Xn0_bg2nJuE0Afenm_K5L12aMmG2g2I_sWzd2Zvw900rImzyr7BB71GTX5osHPzEizsz5NEKTxLE6hvJ6sjuY7xbdbhJAFWyDIDuoLK5BjgaUj6kpOS11Kaao9B0y-eyM3sQ9hod5QR2d_AFf_-msitQlCE4pJS2RHULbfpDOSV_E5AqZVetzjkF7WN81CJzGZllKseaJ1GtSGNVEoNTnQeu8o2BCR5HO73ehen7muSzAnGDPWgo2lDvZ6W8wDkbrUdQBc-z9oBLLj-B4lKjbiohkJWEz6MUDpKKctHN8BDjQ3NJcSl6H1LfRJKFDxRUhS0CZ4fTvUyqptzrxXpI5Jm6T6=w1191-h794-no\"\u003e\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/EQMPlNZcf9Gm4Bj9cHM-P2Cx_2Ezq3IU3Ic9m3C7XbM5vf3ApjwrDcRmDe0EEnbfvh-N_BPBETXjwLPd_klai5VQcJKwvieCYkZ8tKrO3mrhbtoNbfaYzFtCLNt8tw29AYEXOkzfsc5_R3Kso5viulm8d44F3GlippJ1B5vfAzUC7bk0cyaPBkbQlo4pZRKBYmnSpe9FSpYZViLPLhl_Hu8e900T_p0JAHwwbquSd8X0cXtcFtNarzHrkmNZlYfe-VfxFz-KexlAlv2-9EUpGYg8HR3TGs-zv5G-U_SVA6VUk_9ubzwiq5eowm1x1oqgqzDa0wG38xnBfYHRW5Qt1I6Us6qSFC1msQLFPVzvJqzimJrd8rS1LxEWBFEdeZzvFwPyPYVU4PqAG19d-91cZcn1_QSD71omoD5BBRkuzhMslxMBihEnlgHz_4vMFOjVL56inkM4srwauk1XQJs7fNqxhf27efvuPoROJ7rrC3990J8NLhEhH5dQhYrC_6jHFz-VWqQtEOADkej274PFQIKjebILl1__kB9W-1P6QsL2KzUkDGERUSAS3JvxL0GeUl5qhdYxKg47N4HK8DC1vAWEbmujVzCExN5JyAxxUMs=w1191-h794-no\"\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003eLandscape\u003cbr\u003e\u003c/strong\u003eHere are some examples of the landscape photography I do!\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/8SdIpRbhcx-9yu0-naiSNwKCEJZ6PBzExLooYT8dfdR_8-YNejbItO4Gy8LLHa754rwmtMNw0cjHhz9AdkzUDQyJLzDEgxLdt1a1jG5t_fsWPAnQlsIfo7Pk10kPKkU2eXZnE9MzICdoT8ueo7YEvmT2L5MBl7bGClR92YtKeaSqconEZKlZSerF_d0WtUfNo77qDn4gtEMlbXql9k7tUH3yTwPhfoPgvBgle1WGYW5jtJk7IZ8kX7e1wcgCFhNAG3XSv06bL7E9FEHuD9DkwHBZ4J3HdjEop2RpkuLSCu_F5knZ8246vg4QXs62bJQETLLN0DZlJU9cC7xZidq7gUirgn9lC3EdGHIrQyDC9ot1Iax5Z1IC42FhLFwKRy2imi7oQUDWZ38ydkcIiDd69TzCzv0ujfV0ePkMNbLb5A0TB34YG6fNQfR0eVLd8qoGtRzK1nonod8XnTUK3ulGxq5Qv91BjDQ5bpEaETrl-IplUkRHbc39a_iDfTFR146cU8htpRMq6Dwbb9GWATXeRosmF6bz7F0856j_o1TT5rfgMKCpNR9AI5u6CeHvYtk9djmAoEFX9pP0w_yv-WndIBSDUUq8ZaBCztPFohKE-v4=w550-h310-no\" style=\"width: 648px;\"\u003e\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/-hRZH6496IlH5Ut21zlJ2qr5Wj3PM5ocPjvW5jzKnNy5Cy_-siEiEfHx5tXhhonZwHBgci2Cgwxt2PUc1Jn5bLQ0vQKwPSUhLiJLmcv6NFThVEqd4QhbSA2iPO3UF4RLGBSYGWf9ibaUMXI1I36dxOJlXKs5sJh4QtArgwBaPdf4G5u2MdiEPx9vsw1ZDl_KLWhzlEU_CPn1detzvulh1w9lZFcEYxlLp2JCyz61DoMCQoSgg-ivsb2qILV9Qgmv6RLSuzrYeJzmLx3zB2S7LkuRyeJ9txUgGuzdwlX6qKuq7CRJimT8v1HicOxEaRuvDWHQEZABbQGEnordAGutypOptuI8Pwgdpp4ILqjWGnlR85x-kfcbrq1RRdMKbssaLzd73bWez0a6W3qT8CGdiaDDdwCJtuJ--drfaYYlSmXkDW52320HMqivdCY1yXhqlN27K0fJYlN8mL1CfVtu2Cc7qK7P54_a5Y9hUfiDwHfSEYrjX2aqrGDe_38IOTBP3zPXvTd6nC9pNl0_w7QivqJ2yNH-e5y5bIRTLhw_4m7gRxxMsGSauB7Z_efCMzQsvkzEWDYx2fg7H431AVXdA1laISzKT5b9hScR3FIQJWE=w1191-h794-no\"\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/Yki0PRza11k8cNCaJdqBT9T9uShb_cVU673-KGjmIcq0lElbKXfaaGLKAjv8jv05h1VXb7M0ps9o7KfiUEnbEZl5YFFj6ItKSgEXH5xxEDdKAzWR3nhDp1jbCcB9PiZ07RGX5abZfBY-wBDGvbKNsOKprPUs3Op8_60QLQkLMQGnsGkEXUBTJrrjeUWz8DiSGvm5XFlSv9USKgkiatCEo7KNUVe9fZVoDzb5NTjbmwXg-5AOIHYL8wW_irQPsnPQkfKjHwF9a1cq1KaorAPIR7aOtMLCCMmWgr1K5mOHaO6nAI_Rr9W9xyLc2IxvE33Ok9_H6ObO-SLT6kaEOiV5_qXOKNdXwmExohJ17bYQ6--58A1Rsb0hW0z4wPhwzvykHtTG0cv2QqGWH9b05_m__raujoco8l3yXvsnAVl4L7y5HLlGhCUdNe3qOyvYc6AQT88uLW-EUnPmYq5yL84MKwisEpV48PxD9VYRB-UwxEaK0ChLZhOxYVzj-LPtA9iJUT7tpIopvdehnsfX3FTAdMUsAEi7DnDAgRQ00Mo7GIwbQh9yiuvquDcoVOIHv1jF2z0iQODiEI9rwn1p9o8qAU6IicballQOBgFU9AoRyFs=w1600-h771-no\"\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/c6iRHVPU8vMqkHPQEPCxCPYgRaR_NeLc6Mt-FplZMmWUUow26k608i_uludEqh3q2--KnzImKj-ZgKupAAe1qgqHugCIUbP0lzYtlYSn4tP-I1mN3uIIpbmiNUxw3FBIJQSpVKQFw9BfIFG9a6wxTXFQNcpI6EH9h7PKEHexVt8S1acbcsoiRVfHjodmvxX3DSZXEOFUfYyJVEv-uo6CfTmU50IH0akrA83-Dz3SBSR9jh0a-JwcFoXrrB4oCs3EitQTfa6N41EROdbXdimFaO12MSeeCVwZsRX1dXlaerIzSYCDkmbPdP9FriwCQ2Pn_xKyfmSBLPuSpXdYZmhKgQRC0J61C4VCZ2wBb1gisZ6YlSh2vzXeq-AyhlOlwu3Db5F_2eg0pFew0FMbnYkmzm0beNLHbcOvP7l8ewPtO3Z52lC9-SDuW0xtpiO_DbXcnjAGL0VvRLucB2wEmuzYyndBBa66HgwJUs-5A9VK1gScHMwuP83np4uC8F7cuv_B8Tqh9h57snscqDTC9AypoBl28HuFvHBUqv0hXdWxQ3--ZqUWfB5px1mYcWfLrtMdueVHvd0aitPSrfibmkCNnSAfYxtLUBw9s8_uImyLTSY=w1600-h767-no\"\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/xNYIeCW9h5XyjgJ3HEzwuOb28x9LF89G2kIqVpTtiWgYKZ-xfvMJ_LscPpLveZN8Cq3zlVLymhHUVRaz_Q2xSA-uvIFMnN4IBz0d-984Qph-kMa-PgXkxbHpz9CZ3m_90PqEEw9X5ZVf3oa9nVQdNxcKqgrZAAlQN0B59a1X3wgmCKFtH7FePNFTL95w02k5chL5ihlGsaVt7PFspb0zmvp-ZZhZ_aQacpBuqYuAZiILr3LfE8_G_U2pVWErlvqEczeRL3v4ZXZxE9be7a_9Irz18rV8VbsfOOJaXgShpf6upRXxGK0iQMiSRf3SnSiCeD1QGCIJDt_08obPUCOb6min_c1gqjHHCBjz7MlHEwDCsgyTbhkH9THUBi8cKapwMezSDYV_8PFdA0LXqP47gQm2Ngm1rh22iax-8btIu_3UsXq5PH5tY_diymD45lMZePTX3L8eV3lkuUZPtxU0HDTAEyPalnM8PW147wY9TSytfZuE4N06_d46tBeH4I-kMQWrUdDqai_DF2Sk5vK-JPUIIHRKYVLRHV0ubTrzSTn7YGIjS0DKvzVsCzNZ25F9sYbBhP_7FOH1nM-Xf0pOznkAKDeTftA2SbPCi99FLsg=w1059-h795-no\"\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eTHE VIDEOS I DO\u003cbr\u003e\u003cbr\u003e\u003c/strong\u003e\u003cstrong\u003eFursuit interviews?\u003c/strong\u003e\u003cbr\u003eAs most of you know I have a fursuit \ninterview series. Every interview I have done has cost me money in some \nform. My first interview i drive one hour one way to do and my second I \nhad to go to a convention. My two newest (at this point are not yet \npublic) I drove 180 miles total and 3 hours round trip to do. So as you \nwould imagine fursuit interviews cost money. Through gas, cons, cameras,\n etc. So by supporting the channel you may see more interviews. \u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eBad Ways Series\u003c/strong\u003e\u003cbr\u003eSo as most of you know I have a series where I go to social media and ask you guys to give me bad ways to do something. I enjoy doing these videos for two reasons. One being its interactive and I love doing stuff like that. Weather it be this, a qna, or dare videos. I love making videos where people have a say. And two because I am able to make people laugh with them!\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eStory Time!\u003cbr\u003e\u003c/strong\u003eI love doing these as well. I love telling stories and mine tend to be entertaining. From how i got hurt, to how I messed up, to how my parents found out I am a furry! I love telling stories because my misfortune may make someone laugh!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eConvention Videos\u003cbr\u003e\u003c/strong\u003eSo like most furrys I go to conventions. And at those conventions I like filming. At the moment all I do is a montage of videos I took at the convention. In the future I would like to do con videos with music and stuff. As most of you know cons are not cheap and neither is equipment. \u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003ePlease Support!\u003cbr\u003e\u003c/strong\u003e\u003cbr\u003e\n\u003cstrong\u003eWhy You Should Support The Channel\u003cbr\u003e\u003c/strong\u003eNow let me start by saying YOU DONT HAVE TO! That being said, if you would like to support my channel and my photography I would appreciate it so much. At the moment yes we have adds turned on for YouTube. However adds do not pay well. Also if we are able to hit certain numbers I will turn off adds! Also by supporting me you are helping the channel get significantly better and the quality of my photos get better. Also, once if I can hit a certain goal I will do youtube and photography full time. By doing youtube and photography full time I will be able to put out more regular content and will be able to do more crazy things for you guys, and be able to get mose awesome shots for you as well! So By supporting me you will help me get better things for the channel and photography. So if you would like, please support!\u003cbr\u003e\u003cbr\u003eThank you"
+   },
+   "id": "706405",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4872008",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4872008"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1162428",
+       "type": "goal"
+      },
+      {
+       "id": "1162429",
+       "type": "goal"
+      },
+      {
+       "id": "1162430",
+       "type": "goal"
+      },
+      {
+       "id": "1162431",
+       "type": "goal"
+      },
+      {
+       "id": "1162432",
+       "type": "goal"
+      },
+      {
+       "id": "1162433",
+       "type": "goal"
+      },
+      {
+       "id": "1162434",
+       "type": "goal"
+      },
+      {
+       "id": "1162435",
+       "type": "goal"
+      },
+      {
+       "id": "1162436",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-706405",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-706405"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1476983",
+       "type": "reward"
+      },
+      {
+       "id": "1476984",
+       "type": "reward"
+      },
+      {
+       "id": "1476986",
+       "type": "reward"
+      },
+      {
+       "id": "1476990",
+       "type": "reward"
+      },
+      {
+       "id": "2502961",
+       "type": "reward"
+      },
+      {
+       "id": "1477001",
+       "type": "reward"
+      },
+      {
+       "id": "2502971",
+       "type": "reward"
+      },
+      {
+       "id": "1477007",
+       "type": "reward"
+      },
+      {
+       "id": "2503069",
+       "type": "reward"
+      },
+      {
+       "id": "2503076",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-01-17T08:47:53+00:00",
+     "facebook": null,
+     "first_name": "Ascari",
+     "full_name": "Ascari Husky",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4872008/448033e7dd274dd38cd4ed6d17d2be56?token-time=2145916800\u0026token-hash=i8l-dfdSCCgTEfovMBEBKAmHZ0sWr2BDmk5gyoqndJM%3D",
+     "last_name": "Husky",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4872008/448033e7dd274dd38cd4ed6d17d2be56?token-time=2145916800\u0026token-hash=SgpSAwf8FczpGl6MHou5Pc4ZfwkWrXMvxFf44NBNrdU%3D",
+     "twitch": "https://www.twitch.tv/ascarihusky",
+     "twitter": "AscariHusky",
+     "url": "https://www.patreon.com/ascarihusky",
+     "vanity": "ascarihusky",
+     "youtube": "https://www.youtube.com/channel/UCdU8RSAdhr8sO7zwZqTFKbA"
+    },
+    "id": "4872008",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "706405",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/706405"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 13,
+     "upgrade_url": "/bePatron?c=706405\u0026rid=1476983"
+    },
+    "id": "post-aggregation-for-0-706405",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-03-08T07:22:13.452007+00:00",
+     "description": "Thank you for your support! You now get Access to the patreon post.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-05T05:49:45.452578+00:00",
+     "image_url": null,
+     "post_count": 5,
+     "published": true,
+     "published_at": "2018-04-05T05:49:45.444879+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Potato",
+     "unpublished_at": null,
+     "url": "/bePatron?c=706405\u0026rid=1476983"
+    },
+    "id": "1476983",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-03-08T07:23:50.057290+00:00",
+     "description": "You now get access to my Patreon post, private patreon telegram chat and private patreon Discord server!",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-05T05:53:24.113776+00:00",
+     "image_url": null,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2018-04-05T05:53:24.104340+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sweet Potato",
+     "unpublished_at": null,
+     "url": "/bePatron?c=706405\u0026rid=1476984"
+    },
+    "id": "1476984",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-03-08T07:26:49.904855+00:00",
+     "description": "Your name now gets added to description of all my videos and streams! Plus all previous tiers.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-05T05:55:26.812488+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-04-05T05:55:26.805261+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The 10 piece nugget",
+     "unpublished_at": null,
+     "url": "/bePatron?c=706405\u0026rid=1476986"
+    },
+    "id": "1476986",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-03-08T07:29:57.338577+00:00",
+     "description": "This level gets you all previous tiers and a small badge of your fursona.\u00a0 \u00a0(you will receive all rewards for this tier after 6 months of support you will also receive a single reward once every 6 months of support)\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-05T06:27:21.084847+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-05T06:27:21.074450+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "The 20 piece nugget",
+     "unpublished_at": null,
+     "url": "/bePatron?c=706405\u0026rid=1476990"
+    },
+    "id": "1476990",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-04-05T05:33:34.325276+00:00",
+     "description": "This tier gets you a small print of one of my photos (4x6) \u00a0You get to choose the print from my portfolio. plus all previous tiers\u00a0(you will receive all rewards for this tier after 6 months of support you will also receive a single reward once every 6 months of support)",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-05T06:27:15.457614+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-05T06:27:15.449717+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "The Chicago foot long",
+     "unpublished_at": null,
+     "url": "/bePatron?c=706405\u0026rid=2502961"
+    },
+    "id": "2502961",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-03-08T07:35:02.809711+00:00",
+     "description": "You now get a poster size print of one of my landscape photos of your choosing. \u00a0You get to choose the print\u0027s from my portfolio. Plus all previous tiers \u00a0(you will receive all rewards for this tier after 6 months of support you will also receive a single reward once every 6 months of support)\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-05T06:13:27.671544+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-05T06:13:27.664385+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "The Chicago deep dish",
+     "unpublished_at": null,
+     "url": "/bePatron?c=706405\u0026rid=1477001"
+    },
+    "id": "1477001",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-04-05T05:38:43.269376+00:00",
+     "description": "A poster size print of any of my landscape photos of your choosing, weather it be a photo of Chicago, the stars, or just a sunset. You get to choose the print\u0027s from my portfolio. Plus all previous tiers. \u00a0(you will receive all rewards for this tier after 6 months of support you will also receive a single reward once every 6 months of support)\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-05T06:27:04.075569+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-05T06:27:04.068944+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "The Chicago deep dish dulux ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=706405\u0026rid=2502971"
+    },
+    "id": "2502971",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2017-03-08T07:41:03.917997+00:00",
+     "description": "If you do this tier and you and I are in the same area, within 4 hours of me or even at the same con I will do a photo shoot for you weather it be of you, your fursuit, or even your car (keep it sfw) plus all previous tiers. (you will receive all rewards for this tier after 6 months of support you will also receive a single reward once every 6 months of support)\u00a0\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-05T06:26:50.665135+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-05T06:26:50.655719+00:00",
+     "remaining": 15,
+     "requires_shipping": true,
+     "title": "The Chicago dog bowl dinner ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=706405\u0026rid=1477007"
+    },
+    "id": "1477007",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2018-04-05T06:26:30.291561+00:00",
+     "description": "If you do this tier on top of everything else I will do a video on what ever you want, you get to chose the topic. Weather it be a story time, bad ways, interview or any kind of YouTube video you want (as long as its possible, sfw, AND LEGAL) I will do it, I will share with you my process and directly credit you with the video idea and include any of your suggestions within reason. \u00a0\n\u003cp\u003e(you will receive all rewards for this tier after 6 months of support you will also receive a single reward once every 6 months of support)\u00a0\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-05T06:32:04.209345+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-05T06:32:04.201767+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "The Fancy Steak Dinner",
+     "unpublished_at": null,
+     "url": "/bePatron?c=706405\u0026rid=2503069"
+    },
+    "id": "2503069",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 70000,
+     "amount_cents": 70000,
+     "created_at": "2018-04-05T06:29:18.888974+00:00",
+     "description": "We are going to a con (U.S. ONLY), you also get to see me do a photo shoot at said con. I will teach you of how I take both photo and video. You will learn my personal tips and tricks to make your own photos or video look as good as mine or even better. \u00a0All other previous tiers included\u00a0\n\u003cp\u003e\u00a0\u00a0\u003c/p\u003e\n\u003cp\u003e(you will receive all rewards for this tier after 6 months of support you will also receive a single reward once every 6 months of support)\u00a0\u00a0\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-05T06:40:11.993355+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-05T06:40:11.983729+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "The Works ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=706405\u0026rid=2503076"
+    },
+    "id": "2503076",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2018-04-05T07:07:30+00:00",
+     "description": "WOOOHOOO! WE DID A THING.",
+     "reached_at": "2018-04-14T01:52:49+00:00",
+     "title": ""
+    },
+    "id": "1162428",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2018-04-05T07:07:30+00:00",
+     "description": "Pays for video editing",
+     "reached_at": "2018-05-02T03:42:58+00:00",
+     "title": ""
+    },
+    "id": "1162429",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2018-04-05T07:07:30+00:00",
+     "description": "Pays for video editing and photo editing",
+     "reached_at": "2018-05-07T01:46:32+00:00",
+     "title": ""
+    },
+    "id": "1162430",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 69,
+     "created_at": "2018-04-05T07:07:30+00:00",
+     "description": "This will pay for all fees and payments I have for youtube and photography. At 250 dollars I will no longer be losing money because of YouTube and Photography.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1162431",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 52,
+     "created_at": "2018-04-05T07:07:30+00:00",
+     "description": "Once this goal is reached I will open a po box",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1162432",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 23,
+     "created_at": "2018-04-05T07:07:30+00:00",
+     "description": "I will be able to purchase better equipment and produce higher quality videos and take higher quality photos",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1162433",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 12,
+     "created_at": "2018-04-05T07:07:30+00:00",
+     "description": "I will start and host my own local fur meet in the Chicago area including a guest of honor and give away at the fur meet",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1162434",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 6,
+     "created_at": "2018-04-05T07:07:30+00:00",
+     "description": "I will go to not 1 but 2 international cons a year.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1162435",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2018-04-05T07:07:30+00:00",
+     "description": "I will start a con",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1162436",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/706405"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "483db294-8f6c-4f89-9416-dffec8316ebf",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Ascari Husky is creating Youtube videos and Photography"
+});
+    </script>

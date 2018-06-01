@@ -1,0 +1,319 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "8ui9A-i7VAu8M-P4Y4dddCR2ArF8UjToL0DotP9XI2Q";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "32453",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/32453"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-01-29T10:48:57+00:00",
+    "creation_name": "Automatic Post Tagger",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/143172/d2d6418d31ef4f609b0a9d044d15de07?token-time=2145916800\u0026token-hash=HVwL8Sl-LqkwLF1vLhtEhuOEcuUaofJ1vOYFt5yvVCc%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/143172/d2d6418d31ef4f609b0a9d044d15de07?token-time=2145916800\u0026token-hash=ZGd0o6ermr0Yh7MRwwD4IhxMFazHMQw2oeZVFcx-z2g%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "Trying to write a decent auto tagging software",
+    "patron_count": 8,
+    "pay_per_name": "version",
+    "pledge_sum": 14400,
+    "pledge_url": "/bePatron?c=143172",
+    "published_at": "2015-01-29T12:42:53+00:00",
+    "summary": "\n\u003cstrong\u003eUpdate 2017: Unfortunately I no longer have time for further develpment. Sorry :(\u003c/strong\u003e\u003cbr\u003e\n\u003cbr\u003e\n\u003cspan style=\"color: rgb(155,187,89);\"\u003e\u003cstrong\u003eIf you like\u00a0\u003cstrong\u003e\u003ca href=\"https://wordpress.org/plugins/automatic-post-tagger\" rel=\"nofollow\"\u003eAPT\u003c/a\u003e and want\u003c/strong\u003e to support its future development, feel free to become a patron.\u003c/strong\u003e\u003c/span\u003e\u003cbr\u003e\n\u003cbr\u003e\n\u003cspan style=\"color: rgb(127,127,127);\"\u003e\u003cstrong\u003eCurrent development stage of v1.9 (Nov 6th 2015):\u003c/strong\u003e Items listed in green and backward compatibility implemented\u003cbr\u003e\n\u003cspan style=\"color: rgb(127,127,127);\"\u003e\u003cstrong\u003eEstimated release date:\u003c/strong\u003e\u00a0\u003cspan style=\"background-color: rgb(255,255,0);\"\u003esummer 2016\u003c/span\u003e\u003c/span\u003e\u003cbr\u003e\n\u003cspan style=\"color: rgb(127,127,127);\"\u003e\u003c/span\u003e\u003cbr\u003e\n\u003cspan style=\"background-color: rgb(155,187,89);\"\u003e\u003cspan style=\"color: rgb(255,255,255);\"\u003e\n\u003cstrong\u003eFeatures planned for v1.9:\u003c/strong\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003e\u003cspan style=\"color: rgb(155,187,89);\"\u003e\u003cstrong\u003ePost fields + custom fields support\u003c/strong\u003e\u003c/span\u003e\u003c/li\u003e\n\t\u003cli\u003e\u003cspan style=\"color: rgb(155,187,89);\"\u003e\u003cstrong\u003eMore settings for configuration groups (group-specific analyzed content, post types, searched KW set items)\u003c/strong\u003e\u003c/span\u003e\u003c/li\u003e\n\t\u003cli\u003e\u003cspan style=\"color: rgb(155,187,89);\"\u003e\u003cstrong\u003eException list for old taxonomy terms that should never be removed\u003c/strong\u003e\u003c/span\u003e\u003c/li\u003e\n\t\u003cli\u003e\u003cspan style=\"color: rgb(155,187,89);\"\u003e\u003cstrong\u003eConditional tagging/Related groups support: \u003c/strong\u003e\u003c/span\u003e\u003cspan style=\"color: rgb(155,187,89);\"\u003eGroups\u0027 keyword sets can be added to posts if keyword sets from specified \"Related groups \"are found\u003c/span\u003e\u003c/li\u003e\n\t\u003cli\u003e\u003cspan style=\"color: rgb(192,80,77);\"\u003e\u003cstrong\u003eBetter backup manager with an automatic scheduler; backups will be stored in the database\u003c/strong\u003e\u003c/span\u003e\u003c/li\u003e\n\t\u003cli\u003e\u003cspan style=\"color: rgb(192,80,77);\"\u003e\u003c/span\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(192,80,77);\"\u003ePreferential tagging:\u003cspan style=\"color: rgb(192,80,77);\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/strong\u003e\u003cspan style=\"color: rgb(192,80,77);\"\u003e\u003cspan style=\"color: rgb(192,80,77);\"\u003e important terms can be assigned higher priority when tagging (keyword sets with most occurrences in posts) \u003c/span\u003e\u003cbr\u003e\n\t\u003c/span\u003e\u003c/li\u003e\n\t\u003cli\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(192,80,77);\"\u003eImproved bulk tagging scheduler\u003c/span\u003e\u003c/strong\u003e\u003c/li\u003e\n\t\u003cli\u003e\u003cspan style=\"color: rgb(192, 80, 77);\"\u003e\u003cstrong\u003eVarious backend-related changes\u003c/strong\u003e\u003c/span\u003e\u003c/li\u003e\n\t\u003cli\u003e\u003cspan style=\"color: rgb(192, 80, 77);\"\u003e\u003cstrong\u003eNew OOP design + unit tests =\u0026gt; fewer bugs\u003c/strong\u003e\u003c/span\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cspan style=\"color: rgb(127,127,127);\"\u003e\u003cspan style=\"background-color: rgb(242,242,242);\"\u003e\u003cstrong\u003eFeatures you can look forward to in future versions:\n\u003c/strong\u003e\u003c/span\u003e\u003c/span\u003e\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003e\u003cstrong\u003ePreferential tagging 2: \u003c/strong\u003ekeyword sets with a minimum number of occurrences in posts, keyword sets which are a part of certain post fields\u003c/li\u003e\n\t\u003cli\u003e\u003cstrong\u003ePost fields \u0026amp; custom fields support 2:\u003c/strong\u003e APT will be able to modify post fields and custom fields as well, not just taxonomies\u003c/li\u003e\n\t\u003cli\u003e\u003cstrong\u003eRegex support\u003c/strong\u003e\n\t\u003cul\u003e\n\t\t\u003cli\u003e\u003cstrong\u003eTerm exception list\u003c/strong\u003e\u003c/li\u003e\n\t\t\u003cli\u003e\u003cstrong\u003eRelated words\u003c/strong\u003e\u003c/li\u003e\n\t\t\u003cli\u003e\u003cstrong\u003eRegex patterns for keywords which should be added as terms but which aren\u0027t in the database (e.g. hashtags)\u003c/strong\u003e\u003c/li\u003e\n\t\u003c/ul\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003e\u003cstrong\u003e\u003cstrong\u003eLogs for debugging purposes\u003c/strong\u003e\u003c/strong\u003e\u003c/li\u003e\n\t\u003cli\u003e\u003cstrong\u003eConditional tagging:\u003c/strong\u003e logical operators for related keywords etc.)\u003c/li\u003e\n\t\u003cli\u003e\u003cstrong\u003eAnalyzable taxonomies\u003c/strong\u003e\u003c/li\u003e\n\t\u003cli\u003eGlobal tagging stats in the \"At a glance\" widget\u003c/li\u003e\n\t\u003cli\u003eCompatibility with currently incompatible post import tools \u003c/li\u003e\n\t\u003cli\u003e\u003cstrong\u003eMultisite, BuddyPress and bbPress support\u003c/strong\u003e\u003c/li\u003e\n\t\u003cli\u003eAdd-ons enhancing plugin functionality (custom modifications, debugging \u0026amp; testing purposes etc.)\u003c/li\u003e\n\t\u003cli\u003e\u003cstrong\u003eImproved efficiency: higher speed \u0026amp; lower memory usage\u003c/strong\u003e\u003c/li\u003e\n\t\u003cli\u003eOther\n improvements of current features, friendlier interface (e.g. new layout\n supporting right-to-left alphabets, column sorting), better \ndocumentation, and more!\n\t\u003c/li\u003e\n\u003c/ul\u003e\n\u003cstrong\u003eIf you decide to support APT, you will be charged only for versions with new features or substantial changes.\u003c/strong\u003e\u003cbr\u003e\n\u003cbr\u003e\nThanks!\n\u003cbr\u003e"
+   },
+   "id": "143172",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "516354",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/516354"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "145027",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-143172",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-143172"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "150067",
+       "type": "reward"
+      },
+      {
+       "id": "150081",
+       "type": "reward"
+      },
+      {
+       "id": "222321",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m the developer of the WordPress plugin \u003ca href=\"https://wordpress.org/plugins/automatic-post-tagger\"\u003eAutomatic Post Tagger\u003c/a\u003e. My blog: \u003ca href=\"http://devtard.com\"\u003ehttp://devtard.com\u003c/a\u003e",
+     "created": "2015-01-29T10:38:37+00:00",
+     "facebook": null,
+     "first_name": "Devtard",
+     "full_name": "Devtard",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/516354/1f8777166ed449b5a182b3aaed4d3696?token-time=2145916800\u0026token-hash=B6w1-jmRgYU3fWXhv_sbhnXHEjb2RuxiFP1IQgp0Xlk%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/516354/1f8777166ed449b5a182b3aaed4d3696?token-time=2145916800\u0026token-hash=JVPG6V794v-u2vyHwHefUgDbl_K2Gw8UwiHO0JqGyp0%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/devtard",
+     "vanity": "devtard",
+     "youtube": null
+    },
+    "id": "516354",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "143172",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/143172"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 1,
+     "upgrade_url": "/bePatron?c=143172\u0026rid=150067"
+    },
+    "id": "post-aggregation-for-0-143172",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-01-29T11:33:18+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e\u003cstrong\u003eYou will have my immense gratitude for supporting my work!\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003eYour support requests (either on the WordPress.org forums or privately submitted) will have a higher priority and will be resolved ASAP.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eYour name\u003c/strong\u003e (your first name and the first letter of your last name) or \u003cstrong\u003eusername\u003c/strong\u003e will be displayed in blog posts dedicated to plugin versions you supported; if you are one of the top 5 contributors, your name will also appear on the options page of the plugin.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-01-29T11:33:18+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=143172\u0026rid=150067",
+     "user_limit": null
+    },
+    "id": "150067",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2015-01-29T12:38:31+00:00",
+     "description": "All of the above, and:\u003cbr\u003e\u003cul\u003e\u003cli\u003eA \u003cstrong\u003elink to your website\u003c/strong\u003e will be displayed with your name as well. (If you choose this reward, please don\u0027t forget to send me the URL.)\u003c/li\u003e\n\u003cli\u003eI\u0027ll send you the \u003cstrong\u003ecurrent development version\u003c/strong\u003e if you\u0027d like access to already implemented features before the official release.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-01-29T12:38:31+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=143172\u0026rid=150081",
+     "user_limit": null
+    },
+    "id": "150081",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2015-05-18T13:00:30+00:00",
+     "description": "All of the above, and:\u003cbr\u003e\u003cul\u003e\u003cli\u003eI\u0027ll make a (simple) custom modification for you or speed up the development of a feature that\u0027s planned for the next release and send you the current development version.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-05-18T13:00:30+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=143172\u0026rid=222321",
+     "user_limit": null
+    },
+    "id": "222321",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2015-03-29T15:42:56+00:00",
+     "description": "Your support will allow me to spend more time developing the plugin; I\u0027ll try to release new versions more often than just once a year.\u003cbr\u003e",
+     "reached_at": "2015-06-10T23:18:41+00:00",
+     "title": ""
+    },
+    "id": "145027",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/143172"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "0f639b00-0994-4fd6-819a-020e63e1f4f3",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Devtard is creating Automatic Post Tagger"
+});
+    </script>

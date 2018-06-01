@@ -1,0 +1,522 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "N80rSwOZhwU1apRJHSkxlKfENKI5in0S7XvYLc6E5UE";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "315317",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/315317"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-12-09T04:31:01+00:00",
+    "creation_name": "Battle is Key! An Online Real-Time Tactics RPG ",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/644220/c6ead516664e44a9a5294a855b4300d2?token-time=2145916800\u0026token-hash=kn9KVt3QXR9fdRuUe8ZL95NL1k6Gy4mipI7oV91MbDE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/644220/c6ead516664e44a9a5294a855b4300d2?token-time=2145916800\u0026token-hash=Zbj3MpD6GNgEZDOJnUvZKlJt8JqfW1vS7RUJ8-9PTuw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FNS0PIfh0M6w%3Ffeature%3Doembed\u0026amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNS0PIfh0M6w\u0026amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FNS0PIfh0M6w%2Fhqdefault.jpg\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;type=text%2Fhtml\u0026amp;schema=youtube\" width=\"854\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://www.youtube.com/watch?v=NS0PIfh0M6w",
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=644220",
+    "published_at": "2016-12-09T08:56:01+00:00",
+    "summary": "We are developing an Online Versus Real Time Tactics RPG called Battle is Key! Think of game-play similar to Fire Emblem or Final Fantasy Tactics - except there is no luck based mechanics because all the game-play (attacking, healing, dodging) \u00a0happens in real-time! You don\u0027t have to stand there and take the hit! - Move out the way! Every playable Unit on your team is given a Letter on the Keyboard or Controller that will give you control for as long as held. They have their own unique actions that they will preform when not under your control too so don\u0027t worry about idle Units!\u003cbr\u003e\u003cbr\u003e\u003ca href=\"http://steamcommunity.com/sharedfiles/filedetails/?id=808104405\" rel=\"nofollow\" target=\"_blank\"\u003eWe\u0027ve Been Green-Lit on Steam - Thanks for the votes!\u003c/a\u003e\u003cbr\u003e\u003cbr\u003eAll the code for Tournament mode, Ranking, Online matchmaking and etc is done. We just need to build up the funds to upgrade the assets via purchase or a professional artist. Additionally we have a robust code base to implement almost any new Unit, feature or mechanic\u00a0the community may vote on. We also want to create a single player mode to accompany the online part of the game.\u003cbr\u003e\u003cbr\u003eRight now we have 22 Units fully playable. Here is a small list of what they can do:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eKnight\u003c/strong\u003e - High Attack that lowers when HP is below 50 percent. Has a Shield Move that block Status ailments if timed right.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eGeomancer\u003c/strong\u003e - Can Spawn Cubes to block players. Earth-Quake Knock away all nearby Units. Can spawn a wave of sand that pushes units.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eWereWolf\u003c/strong\u003e - \u00a0When struck. He auto howls and heals for each Unit Nearby. Can Sense Invisible Units. Weak to fire.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eMage\u003c/strong\u003e - Can set an Ice Trap that falls on Units and gives Confusion. Has a Fireball and Thunder move that hits airborne Units.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003ePriest\u003c/strong\u003e - Auto Heals weakened allies. Can heal from afar. Able to Exorcise \u0027Evil\u0027 Units like Werewolf , Assassin , Nother etc.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eDragon\u003c/strong\u003e - Stays in flight all game. Flies over obstacles. Able to destroy Obstacles in a single attack.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eAssassin\u003c/strong\u003e - Invisibility and the ability to throw a dagger 4 tile that Poison. At low health he can explode for High Burn damage.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eNother\u003c/strong\u003e - A ghostly Unit that can go thru walls , teleport and set poison traps.Heals when he licks you...\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eArcher\u003c/strong\u003e - Can set a cross shape pattern of grass for invisibility. Long rang attacks that include an ability to go over obstacles.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eRonin\u003c/strong\u003e - Can commit seppuku to deal massive damage 2 tiles BEHIND him. If damaged , this Unit spreads the total evenly to adjacent allies.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eMonk\u003c/strong\u003e - Auto regens over time and has diagonal movement . High stat resistance. High Damage to Blocks. Invisible if in Grass.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eForestSpirit\u003c/strong\u003e - Spawns 3x3 grass tiles. On Death , this unit explodes for high Burn Damage that leaves lava. After time the lava becomes Grass.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eCrystal\u003c/strong\u003e - A Unit That must be Selected in Crystal Mode. If destroyed you lose. Invisible in Grass. Auto regens. Diagonal and Double movement.\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cstrong\u003eNOTE\u003c/strong\u003e: The is is not the full list of moves/abilities for the Units .\u003cbr\u003e\u003cbr\u003eWe just want to make games and software that haven\u0027t been created before. To have players excited about competing in their favorite genres without the any subscriptions or pay to win structures. To have those genres injected with game-play mechanics and features that create new sub genres. We want a community driven gaming experience\u003cbr\u003ewhere players have more access to the development of the games \u00a0they are interested in.\u003cbr\u003eHelp us... Help you!"
+   },
+   "id": "644220",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4584401",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4584401"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "635632",
+       "type": "goal"
+      },
+      {
+       "id": "635633",
+       "type": "goal"
+      },
+      {
+       "id": "635634",
+       "type": "goal"
+      },
+      {
+       "id": "635635",
+       "type": "goal"
+      },
+      {
+       "id": "635636",
+       "type": "goal"
+      },
+      {
+       "id": "635637",
+       "type": "goal"
+      },
+      {
+       "id": "635638",
+       "type": "goal"
+      },
+      {
+       "id": "635639",
+       "type": "goal"
+      },
+      {
+       "id": "635640",
+       "type": "goal"
+      },
+      {
+       "id": "635641",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1157445",
+       "type": "reward"
+      },
+      {
+       "id": "1143857",
+       "type": "reward"
+      },
+      {
+       "id": "1144306",
+       "type": "reward"
+      },
+      {
+       "id": "1144305",
+       "type": "reward"
+      },
+      {
+       "id": "1144304",
+       "type": "reward"
+      },
+      {
+       "id": "1144303",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-12-09T04:30:39+00:00",
+     "facebook": "https://www.facebook.com/BattleIsKey/?ref=br_rs",
+     "first_name": "Cenobium",
+     "full_name": "Cenobium Software",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4584401/5d7ec9056f5b4354b3645c9787a69cdb?token-time=2145916800\u0026token-hash=OkvVsimEfmS-yc-LyWqNjkCpLCmZmRmOZ6LzN10d1jg%3D",
+     "last_name": "Software",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4584401/5d7ec9056f5b4354b3645c9787a69cdb?token-time=2145916800\u0026token-hash=YcFaHy4emVHat4rAasjLUcYqNZ5M0yaL01w4no1xvGo%3D",
+     "twitch": null,
+     "twitter": "CenobiumSw",
+     "url": "https://www.patreon.com/Cenobium",
+     "vanity": "Cenobium",
+     "youtube": "https://www.youtube.com/channel/UChJdf4J4VBldBTVkbUZTAoQ"
+    },
+    "id": "4584401",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "644220",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/644220"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-12-12T16:18:28.322114+00:00",
+     "description": "\u003cdiv\u003e\u00a0Every bit counts and helps push us further. Thanks for the support!\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-05T04:19:53.416791+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-12T16:18:28.322114+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Intitiate",
+     "unpublished_at": null,
+     "url": "/bePatron?c=644220\u0026rid=1157445"
+    },
+    "id": "1157445",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-12-09T04:37:37.851922+00:00",
+     "description": "Get the latest version of the game (for Mac and Windows and Linux) with 12 playable characters, 3 game modes , and online matchmaking updated about three times per month.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-05T04:19:53.442802+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-09T04:37:37.851922+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Scribe",
+     "unpublished_at": null,
+     "url": "/bePatron?c=644220\u0026rid=1143857"
+    },
+    "id": "1143857",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-12-09T08:32:53.139334+00:00",
+     "description": "\u003cdiv\u003eGet the latest version of the game (for Mac and Windows and Linux) with 12 playable characters, 3 game modes , and online matchmaking updated about three times per month.\u003cbr\u003eVote on changes in the game.\u003c/div\u003e\u003cul\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-05T04:19:53.463699+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-09T08:32:53.139334+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tactician",
+     "unpublished_at": null,
+     "url": "/bePatron?c=644220\u0026rid=1144306"
+    },
+    "id": "1144306",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-12-09T08:32:53.111842+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eEarly downloads of all releases\u003c/li\u003e\u003cli\u003eYour name in the credits of my videos\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003cli\u003eVote counts twice compared to previous Tier.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-05T04:19:53.483911+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-09T08:32:53.111842+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Strategist",
+     "unpublished_at": null,
+     "url": "/bePatron?c=644220\u0026rid=1144305"
+    },
+    "id": "1144305",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-12-09T08:32:53.084394+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eFree Copy of one game a year.\u003c/li\u003e\u003cli\u003eAccess to closed betas of unreleased games.\u003c/li\u003e\u003cli\u003eAccess to Live Game Design via Skype \u00a0\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003cli\u003eVote counts twice compared to previous Tier.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-05T04:19:53.513967+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-09T08:32:53.084394+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Master Plan(ner)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=644220\u0026rid=1144304"
+    },
+    "id": "1144304",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-12-09T08:32:53.056141+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eDirect access to the Team \u00a0via Skype\u003c/li\u003e\u003cli\u003eFree copy of ALL games released this year.\u003c/li\u003e\u003cli\u003eAccess to unreleased games and builds\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003cli\u003eTHANKS FOR YOUR SUPPORT\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-05T04:19:53.545002+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-09T08:32:53.056141+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Divine Plan(ner)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=644220\u0026rid=1144303"
+    },
+    "id": "1144303",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 44,
+     "created_at": "2016-12-09T05:31:54+00:00",
+     "description": "We will be able to keep the game servers up and running for both old and new games we create. We are currently using Photon Unity to host most of our games for now and $50 a month would keep all of them up all year. We would rather borrow money than have subscriptions of any kind.\u00a0",
+     "reached_at": "2016-12-27T15:59:44+00:00",
+     "title": ""
+    },
+    "id": "635632",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 11,
+     "created_at": "2016-12-09T05:31:54+00:00",
+     "description": "We will be able to pay for cheap assets that will speed of the development of new game betas for the community to test.This helps us test out features without going through the hassle of having to hire someone to produce decent visuals.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "635633",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 6,
+     "created_at": "2016-12-09T05:31:54+00:00",
+     "description": "We will be able to afford simple living expenses for the team while we work... Why wasn\u0027t this the first thing!?",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "635634",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 4,
+     "created_at": "2016-12-09T05:31:54+00:00",
+     "description": "We would have double the spending power to improve game assets. This helps us test out features without going through the hassle of having to hire someone to produce decent visuals.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "635635",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2016-12-09T05:31:54+00:00",
+     "description": "We could hire an artist to improve the graphical quality of the games we work on. We currently have 4 programmers and 2 artists. We are looking to add and financially support new team members.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "635636",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2016-12-09T05:31:54+00:00",
+     "description": "We could hire a 3D modeler/animator to improve the graphical quality of the games we work on. We currently have 4 programmers and 2 artists . We are looking to add and financially support new team members.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "635637",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2016-12-09T05:31:54+00:00",
+     "description": "We will be able to work on multiple preexisting projects at once and facilitate more open betas of the current projects we work on.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "635638",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2016-12-09T05:31:54+00:00",
+     "description": "Equipment upgrades and new purchases. \u003cbr\u003eSome examples include:\u003cbr\u003e\u003cbr\u003eAnother HTC Vive controller for the online VR title we are working on.\u003cbr\u003ePC hardware upgrades and software purchases.\u003cbr\u003e\u003cbr\u003eConsole controller and etc for the Fighting game we want to do (arcade-stick is a must) .",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "635639",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2016-12-09T05:31:54+00:00",
+     "description": "At this amount we\u00a0would have the funds needed to create the seed builds of multiple community voted/driven projects. We want to open a channel of communication for gamers to have their voices heard on things they may want to see added in their favorite competitive genres.\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "635640",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2016-12-09T05:31:54+00:00",
+     "description": "At this amount we could comfortably produce high-quality\u003cbr\u003ecompetitive games with unique mechanics and rich Metas and release them in a timely manner.\u003cbr\u003eThere\u0027s nothing more that needs to be said !",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "635641",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/644220"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "763ad047-bc64-41af-9b1b-a0458b8acd78",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Cenobium Software is creating Battle is Key! An Online Real-Time Tactics RPG "
+});
+    </script>

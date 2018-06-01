@@ -1,0 +1,511 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "U3p6hTjj97FqoMjp-uTLY6O_e5Wi-Xp7UG4J2c8JZ1U";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "151369",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/151369"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-04-03T04:56:38+00:00",
+    "creation_name": "art and oddities.",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/331637/219fb9f881774c84ad367a241d977d5b?token-time=2145916800\u0026token-hash=M6FYbcnGjQx-rlvuhkEIsQILUK2284zB74V8tIT6kJg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/331637/219fb9f881774c84ad367a241d977d5b?token-time=2145916800\u0026token-hash=LizLmq0BNHyD_cv7sFVRZjNb2cHvCQX0vcwWo1oKtBM%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 16,
+    "pay_per_name": "month",
+    "pledge_sum": 13015,
+    "pledge_url": "/bePatron?c=331637",
+    "published_at": "2016-04-04T03:58:58+00:00",
+    "summary": "I like making weird art! I work primarily in digital and traditional visual art (pencils, inks, venturing into oils), and draw a lot of monster people, guro, and animals.\u003cbr\u003e\u003cbr\u003eWhen I can devote more resources to art (instead of squeezing art in on the side) it frees up energy and time to spend on creative endeavors, resulting in more art for everyone. It also pays for supplies like paint and canvas, which I can\u0027t easily spend money on otherwise.\u00a0If I get enough pledges, I\u0027ll start designing and selling leather (and faux-leather) harnesses - something I\u0027ve wanted to do for a while!\u003cbr\u003e\u003cbr\u003ePatron rewards include access to extra art, sketchbook files, step-by-step process work, and more.\u003cbr\u003e"
+   },
+   "id": "331637",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2370757",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2370757"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "390982",
+       "type": "goal"
+      },
+      {
+       "id": "390983",
+       "type": "goal"
+      },
+      {
+       "id": "390984",
+       "type": "goal"
+      },
+      {
+       "id": "390985",
+       "type": "goal"
+      },
+      {
+       "id": "395391",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-331637",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-331637"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "494263",
+       "type": "reward"
+      },
+      {
+       "id": "494264",
+       "type": "reward"
+      },
+      {
+       "id": "1718207",
+       "type": "reward"
+      },
+      {
+       "id": "495937",
+       "type": "reward"
+      },
+      {
+       "id": "494265",
+       "type": "reward"
+      },
+      {
+       "id": "494266",
+       "type": "reward"
+      },
+      {
+       "id": "500520",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Queer trans artist and goth bird nerd.\u00a0\u003cbr\u003e\u003cbr\u003eMy tumblr is deadbirdlife.",
+     "created": "2015-09-24T14:19:12+00:00",
+     "facebook": null,
+     "first_name": "DeadBird",
+     "full_name": "DeadBird",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2370757/d04ee3ccf81c4d3bad6a2943f0ca64e0?token-time=2145916800\u0026token-hash=bZrqj1dRRshxOn9rvuWV8rJdcDoWQnUS_1Jen1WwyzM%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2370757/d04ee3ccf81c4d3bad6a2943f0ca64e0?token-time=2145916800\u0026token-hash=IvtdrEi7DhwtShCNfbBIf7RXUF9ssD4RGDbhkFXjD1o%3D",
+     "twitch": null,
+     "twitter": "deadbirdlife",
+     "url": "https://www.patreon.com/deadbird",
+     "vanity": "deadbird",
+     "youtube": null
+    },
+    "id": "2370757",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "331637",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/331637"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 90,
+     "upgrade_url": "/bePatron?c=331637\u0026rid=494263"
+    },
+    "id": "post-aggregation-for-0-331637",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-21T05:48:19+00:00",
+     "description": "\u003cstrong\u003eMODERATELY UNCANNY\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eYou\u0027ll get access to patron-only updates here, such as previews of new art, step-by-step progress files, selected files from my finished sketchbooks, etc. You will also level up your uncanny energy, possibly causing those who come into your presence to glance furtively around, seeking the source of a strange and ominous humming they cannot place.",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-10T23:26:15.097158+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": 30,
+     "published": true,
+     "published_at": "2016-10-21T05:48:19+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=331637\u0026rid=494263",
+     "user_limit": null
+    },
+    "id": "494263",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-21T05:48:19+00:00",
+     "description": "\u003cstrong\u003eBEHIND THE VEIL\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eAccess to the $1 rewards, plus access to a secret dropbox with non-public art and tutorials. Step into the uncertain grey area behind the mists. Come on, step through - I can almost guarantee you won\u0027t be (badly) hurt or (irreparably) changed.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-10T23:26:15.130536+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2016-10-21T05:48:19+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=331637\u0026rid=494264",
+     "user_limit": null
+    },
+    "id": "494264",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 666,
+     "amount_cents": 666,
+     "created_at": "2017-05-26T05:48:23.644965+00:00",
+     "description": "Access to other reward tiers, plus NSFW and guro material (much of which will not be available anywhere else online).",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-27T03:22:33.513011+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": 21,
+     "published": true,
+     "published_at": "2017-05-27T03:22:33.501234+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "SIN AWAITS",
+     "unpublished_at": null,
+     "url": "/bePatron?c=331637\u0026rid=1718207",
+     "user_limit": null
+    },
+    "id": "1718207",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-21T05:48:19+00:00",
+     "description": "\u003cstrong\u003eVALUED COMRADE OF THE HELLISH DOMAINS\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eAccess to prior reward tiers, 5% discount on art/items I\u0027m selling, and the power to request art topics or ideas for public art, including NSFW art requests (\u0026amp; guro). Join us, comrade.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-10T23:26:15.152497+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-21T05:48:19+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=331637\u0026rid=495937",
+     "user_limit": null
+    },
+    "id": "495937",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-10-21T05:48:19+00:00",
+     "description": "\u003cdiv style=\"margin-left: 20px;\"\u003e\u003c/div\u003e\u003cstrong\u003eAVATAR OF SIN\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eAccess to the earlier tier rewards, 10% discount on stuff I\u0027m selling, and I\u0027ll draw you a digital bust of yourself or whatever other character you want when you sign up (please provide references or descriptions). Want a new avatar? I\u0027m on it. Want your favorite character happy, or very unhappy, or whatever other emotion/state you desire? We\u0027ll handle that for you. Want a picture of yourself as a badass fox? Well, don\u0027t we all?\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-10T23:26:15.174374+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-21T05:48:19+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=331637\u0026rid=494265",
+     "user_limit": null
+    },
+    "id": "494265",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4500,
+     "amount_cents": 4500,
+     "created_at": "2016-10-21T05:48:19+00:00",
+     "description": "\u003cstrong\u003eTRUE FIEND\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eAccess to the prior tier rewards (minus the digital bust), 15% off anything I\u0027m selling,\u00a0advance dibs on new items/commission slots I\u0027m putting up, and\u00a0I\u0027ll create a personal piece for you when you first pledge. \u003cbr\u003e\u003cbr\u003eThe art piece can be a physical pencil/pen drawing or a digital file, whichever you prefer. These are personal sigils/symbols akin to a coat of arms. You give me several subjects you feel close to (examples: \"lavender plants, cats, the moon, and simmering anger\" or \"old video games, feminism, and cellular biology\") and I bring them together into a symbol for your use. We can also IM or video chat to discuss the elements you wish to include.\u00a0\u003cbr\u003e\u003cbr\u003eHere\u0027s an example:\u003cbr\u003e\u003cimg src=\"http://41.media.tumblr.com/dc3a608007e6926e556a7d4a853f0c87/tumblr_o53fwdIX8s1trj458o2_r1_1280.jpg\"\u003e\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-10T23:26:15.197078+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-21T05:48:19+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=331637\u0026rid=494266",
+     "user_limit": null
+    },
+    "id": "494266",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-21T05:48:19+00:00",
+     "description": "\u003cstrong\u003eDEVILISH GUARDIAN\u00a0\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eNot only will you get access to all the lower tier rewards, but you\u0027ll also get a free leatherwork (or faux-leather) harness or other wearable piece made by me, designed specifically to fit your body and tastes, along with a box of odd trinkets and shinies, including a pigeon skull (scavenged and cleaned myself). You can also opt to receive one postcard per month with my art on it.\u003cbr\u003e\u003cbr\u003e(You may also have a locket of my hair, if you so desire.)",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-10T23:26:15.223173+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-21T05:48:19+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=331637\u0026rid=500520",
+     "user_limit": null
+    },
+    "id": "500520",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000,
+     "completed_percentage": 100,
+     "created_at": "2016-04-03T05:30:16+00:00",
+     "description": "I need new brushes for ink, watercolors, and acrylic, which opens up a lot of possibilities. Let\u0027s do this.",
+     "reached_at": "2016-04-05T22:00:42+00:00",
+     "title": ""
+    },
+    "id": "390982",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 4500,
+     "completed_percentage": 100,
+     "created_at": "2016-04-03T05:30:16+00:00",
+     "description": "I\u0027ll be able to focus on making tutorials, step-by-step process videos, and also creating art/designs for\u00a0\u003ca href=\"https://society6.com/deadbirdlife\"\u003emy Society6 store\u003c/a\u003e.\u00a0",
+     "reached_at": "2017-11-08T00:01:21+00:00",
+     "title": ""
+    },
+    "id": "390983",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 65,
+     "created_at": "2016-04-03T05:30:16+00:00",
+     "description": "At this point I\u0027ll be able to focus less on my day job and more on making art and actually setting up leather-working and making clothing/accessories as more than a side hobby.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "390984",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2016-04-03T05:30:16+00:00",
+     "description": "I\u0027ll buy proper leather-working supplies and start making harnesses/collars/cuffs/etc. They will be available to patrons on a discount from their regular price.",
+     "reached_at": "2018-05-07T02:39:53+00:00",
+     "title": ""
+    },
+    "id": "390985",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3000,
+     "completed_percentage": 100,
+     "created_at": "2016-04-08T19:31:24+00:00",
+     "description": "I have watercolors and brushes now, but very little gouache! I crave it. Feed me.\u00a0\u003cbr\u003e\u003cbr\u003e(Gouache is an opaque watercolor paint, which can be used alongside regular watercolors or on its own. Because it\u0027s opaque, it works quite differently from watercolor, which is translucent.)",
+     "reached_at": "2016-04-11T03:29:40+00:00",
+     "title": ""
+    },
+    "id": "395391",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/331637"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "9eb01da4-f243-4721-ac97-0eaf22a1e19e",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "DeadBird is creating art and oddities."
+});
+    </script>

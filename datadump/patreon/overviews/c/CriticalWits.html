@@ -1,0 +1,463 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "ed8oJ8yKWwfcUR3zdraGIw_L4uTYo6qmNYsFO4AVe64";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "14595",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/14595"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-06-17T23:50:59+00:00",
+    "creation_name": "Podcasts",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/97783/5d56d0910e9c4610a2268107fb5c8167?token-time=2145916800\u0026token-hash=pXwoV-mWoTVGOEleGAfeUOIq3Fg3WDrthpVwh1Mvc1U%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/97783/5d56d0910e9c4610a2268107fb5c8167?token-time=2145916800\u0026token-hash=8-9y5dX2SKgClczO1yP_s3Kc86yAOI0y4efXk87fx3c%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Ostensibly About Dungeons \u0026 Dragons",
+    "patron_count": 3,
+    "pay_per_name": "podcast",
+    "pledge_sum": 1440,
+    "pledge_url": "/bePatron?c=97783",
+    "published_at": "2014-06-17T23:50:59+00:00",
+    "summary": "Join tabletop RPG aficionados Chrispy and Tim for a trip through the game of D\u0026amp;D and the world that surrounds it. Every episode, we pick one topic to talk about, and we don\u0027t stop talking until we run out of words. Enjoy a closer look at the game, the way it\u0027s played, and the culture surrounding our hobby.\u003cbr\u003e\u003cbr\u003eCritical Wits is a side project for both of its hosts, which means that there are often substantial delays between episode releases. With your support, we\u0027ll be able to prioritize the creation of new Critical Wits content, including more frequent releases (from \"occasional\" to \"regular\"!) as well as written articles by both Tim and Chrispy, including various thinkpieces and examinations of tabletop game rules, history, and culture. We might even be able to create other, more involved projects, like videos!\u003cbr\u003e\u003cbr\u003eYour pledge will go toward covering the costs of running the podcast, including web hosting and the cost of new equipment, as well as helping support its hosts, starving self-employed creative Tim and starving full-time academic Chrispy."
+   },
+   "id": "97783",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "199771",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/199771"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "35554",
+       "type": "goal"
+      },
+      {
+       "id": "35555",
+       "type": "goal"
+      },
+      {
+       "id": "35556",
+       "type": "goal"
+      },
+      {
+       "id": "35557",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-97783",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-97783"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "50336",
+       "type": "reward"
+      },
+      {
+       "id": "50707",
+       "type": "reward"
+      },
+      {
+       "id": "50337",
+       "type": "reward"
+      },
+      {
+       "id": "50339",
+       "type": "reward"
+      },
+      {
+       "id": "50338",
+       "type": "reward"
+      },
+      {
+       "id": "50340",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "\u003cstrong style=\"font-weight: bold;\"\u003e\u003cimg src=\"http://criticalwits.info/wp-content/uploads/2012/07/CW-Chrispy.png\"\u003e\u003cbr\u003eChris \u201cChrispy\u201d Stockett\u003cbr\u003e\u003c/strong\u003eHi! I\u2019m Chrispy! I\u2019ve been around the podcasting scene for a couple years now with the Wild Games Productions group as a host of the \u003ca href=\"http://saveordie.info/\"\u003eSave or Die Podcast\u003c/a\u003e, a podcast about Classic D\u0026amp;D. I\u2019ve also done a few guest spots on other WGPRN shows dealing with Old School D\u0026amp;D: \u003ca href=\"http://rfipodcast.com/\"\u003eThe Roll for Initiative Podcast\u003c/a\u003e and\u003ca href=\"http://thacoshammer.info/\"\u003e tHAC0\u2032s Hammer\u003c/a\u003e. I\u2019ve been an avid and active member of the Old School Renaissance (OSR) since around 2008 and I have a deep love for the earlier versions of the game.\u003cbr\u003e\u003cbr\u003eI\u2019m an anglophile, a wannabe linguist, a natural mimic, and a day dreamer. Sometimes I make music.\u003cbr\u003e\u003cbr\u003eTo me, role playing games should help you tell a story, but it should be a story that is driven by the players\u2019 actions. The Referee\u2019s role should be a reactionary one; with the players actively pursuing their goals and relationships and the Referee handling how those decisions affect the game world. Sadly, the game seems to be played the other way around, with the Referee telling the players a story that they have a small impact upon. I like games with rules-lite designs or games that act as tool boxes.\u003cbr\u003e\u003cbr\u003eIn addition to D\u0026amp;D, I\u2019m also a fan of the Mouse Guard RPG, d6 Star Wars, Ninja Burger, and Munchkin.\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"http://criticalwits.info/wp-content/uploads/2012/07/CW-Tim.png\"\u003e\u003cbr\u003e\u003cstrong\u003eTim Jenkins\u003c/strong\u003e\u003cbr\u003eGood day! I\u2019m Tim Jenkins. I\u2019ve been playing D\u0026amp;D regularly about as long as Chrispy has, and I\u2019ve enjoyed many needlessly heated arguments with him over the way the game should be run. As a game designer myself, I like to pick apart the rules and see what makes these game systems tick, and to see what does and doesn\u2019t work in each edition of D\u0026amp;D in order to understand how we can make the game encourage the kind of play that makes table top role playing such a unique and wonderful experience.\u003cbr\u003e\u003cbr\u003eI enjoy table top role playing games because they\u2019re only limited by your imagination. Using the rules to describe your characters and resolve events, RPGs give you the unique opportunity to become a part of a dynamically changing narrative, a collaborative story that everyone tells with an ending that nobody is certain of. Not only are they a fun pastime, table top RPGs are a great way to meet new people, hone your own practical skills, and even explore new parts of your own personality.\u003cbr\u003e\u003cbr\u003eI also like that most table top RPGs are flexible and customizable, allowing you to change the game and add new content to suit your needs and that of your group. I\u2019m an active homebrewer, and will freely generate pages of new rules and options for any system I get into enough.\u003cbr\u003e\u003cbr\u003eI\u2019ve played just about every edition of D\u0026amp;D, but I have the most experience playing Pathfinder. My favorite edition so far is the D\u0026amp;D Next / 5th Edition Playtest, which has the most elegantly designed, simple, and versatile core rules out of any of them, in my opinion.\u003cbr\u003e\u003cbr\u003e",
+     "created": "2014-06-17T23:50:59+00:00",
+     "facebook": "https://www.facebook.com/CriticalWits",
+     "first_name": "Critical",
+     "full_name": "Critical Wits",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/199771/b4c604d93ed74d29968e14a501319cd0?token-time=2145916800\u0026token-hash=tHmLzpY3So3kgK9iu5RJl4hAQdc_Q7zPfIh06LACUUs%3D",
+     "last_name": "Wits",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/199771/b4c604d93ed74d29968e14a501319cd0?token-time=2145916800\u0026token-hash=zpJIjQIN2eIjJ1D4-slvno5s5gb4Z-R9SzfOn0-ZciQ%3D",
+     "twitch": null,
+     "twitter": "CriticalWits_PC",
+     "url": "https://www.patreon.com/CriticalWits",
+     "vanity": "CriticalWits",
+     "youtube": null
+    },
+    "id": "199771",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "97783",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/97783"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 2,
+     "upgrade_url": "/bePatron?c=97783\u0026rid=50336"
+    },
+    "id": "post-aggregation-for-0-97783",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2014-06-18T01:10:30+00:00",
+     "description": "\u003cstrong\u003eBe the decider!\u003c/strong\u003e\u00a0Pledge 1 dollar per episode, and you\u0027ll get to vote in patron-only polls deciding what the topic of the next episode will be. You\u0027ll get access to our Big List of Potential Topics, and get to vote up what you want us to talk about. At least every other episode, we\u0027ll discuss a topic chosen by you, the patrons!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2014-06-18T01:10:30+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=97783\u0026rid=50336",
+     "user_limit": null
+    },
+    "id": "50336",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2014-06-19T04:24:36+00:00",
+     "description": "\u003cstrong\u003eHang Out with Us!\u003c/strong\u003e\u00a0Pledge at least $5 per episode, and you\u0027ll be invited to patron-only Google Hangouts with the Critical Wits folks at least once a month! You\u0027ll get to schmooze with us, ask us questions about D\u0026amp;D or basically anything else, ask us to elaborate on opinions we\u0027ve expressed on the show or make us defend our beliefs as you viciously attack our credibility, live on the Internet! The hangouts will be posted to the Critical Wits YouTube account, so it\u0027s almost like a free extra podcast!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2014-06-19T04:24:36+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=97783\u0026rid=50707",
+     "user_limit": null
+    },
+    "id": "50707",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2014-06-18T01:10:30+00:00",
+     "description": "\u003cstrong\u003eShout-out!\u003c/strong\u003e\u00a0Pledge 10 dollars per episode, and we\u0027ll thank you for your support at the end of every episode, as long as you continue to support us!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-06-18T01:10:30+00:00",
+     "remaining": 14,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=97783\u0026rid=50337",
+     "user_limit": 15
+    },
+    "id": "50337",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2014-06-18T01:10:30+00:00",
+     "description": "\u003cstrong\u003eCritical Wits Portrait! \u003c/strong\u003eYou\u0027ll get a custom vector art caricature of yourself made, in the style of the host portraits on the Critical Wits website! Send us a photo and pick your iconic color, and you\u0027ll be ready to stand beside us as the ones who make the show possible! You\u0027ll get this reward after supporting us at this level for at least \u003cstrong\u003etwo months\u003c/strong\u003e.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-06-18T01:10:30+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=97783\u0026rid=50339",
+     "user_limit": null
+    },
+    "id": "50339",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2014-06-18T01:10:30+00:00",
+     "description": "\u003cstrong\u003eSponsor Shout-out!\u00a0\u003c/strong\u003ePledge 35 dollars per episode, not only will we give you a shout-out at the \u003cstrong\u003estart\u003c/strong\u003e\u00a0of each episode you support, we\u0027ll also \u003cstrong\u003eplug your own projects! \u003c/strong\u003eJust give us a URL or other information about where to find you, and we\u0027ll highlight your work on the show right at the start!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-06-18T01:10:30+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=97783\u0026rid=50338",
+     "user_limit": 3
+    },
+    "id": "50338",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2014-06-18T01:10:30+00:00",
+     "description": "\u003cstrong\u003eGuest Host! \u003c/strong\u003ePledge at least 60 dollars per episode, and you\u0027ll get to \u003cstrong\u003eguest host an episode \u003c/strong\u003ewith us at least \u003cstrong\u003eonce a year!\u003c/strong\u003e\u00a0We\u0027ll Skype you in (unless you want to travel to the Vegas area to meet us in person) and talk about any topic of your choosing, even if we\u0027ve done it before! You can call us mean names, and we\u0027ll just have to take it, because we can\u0027t do this show without your support!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-06-18T01:10:30+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=97783\u0026rid=50340",
+     "user_limit": 3
+    },
+    "id": "50340",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 14,
+     "created_at": "2014-06-18T00:58:55+00:00",
+     "description": "Upon reaching $100 per episode, we\u0027ll be able to set aside time to come together and create a podcast episode \u003cstrong\u003eat least once a month\u003c/strong\u003e. Since we always record episodes together in person and neither of us have transportation, not to mention that both of us are typically preoccupied with our own projects or studies, this is typically something of an ordeal - but your pledge can make it happen!",
+     "reached_at": null,
+     "title": "Monthly Episodes!"
+    },
+    "id": "35554",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 9,
+     "created_at": "2014-06-18T00:58:55+00:00",
+     "description": "If we reach this goal, we\u0027ll start to accompany our episodes with written articles about D\u0026D written by both Chrispy and Tim. If you enjoyed Tim\u0027s\u0026nbsp;\u003ca href=\"http://criticalwits.info/2012/12/27/article-dd-next-an-alternative-to-combat-expertise/\"\u003eexamination of the \u0027Expertise Dice\u0027 mechanic\u003c/a\u003e from the D\u0026D Next playtest, you\u0027ll be able to look forward to content a lot like that - and if you didn\u0027t enjoy it, you can also look forward to articles that are nothing like that!",
+     "reached_at": null,
+     "title": "Monthly written articles!"
+    },
+    "id": "35555",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 7,
+     "created_at": "2014-06-18T00:58:55+00:00",
+     "description": "Get us up to 200 dollars an episode, and we\u0027ll pledge to put together an episode every two weeks! With this much money, we\u0027ll be able to afford taking the time to create more content, advertise to build a bigger audience, and buy more high quality equipment.",
+     "reached_at": null,
+     "title": "Biweekly Episodes!"
+    },
+    "id": "35556",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 4,
+     "created_at": "2014-06-18T00:58:55+00:00",
+     "description": "With this much support, we\u0027ll have everything we need to make Critical Wits video content! At least once every two months, we\u0027ll be able to put together a video. These videos may be much like our podcasts, or might slant more towards the informative (like game design discussions complete with animated diagrams) or entertaining (like skits that showcase our particular brand of humor).",
+     "reached_at": null,
+     "title": "Videos!"
+    },
+    "id": "35557",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/97783"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "d3111fb9-ffc4-4c4f-827b-017d3d231dfa",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Critical Wits is creating Podcasts"
+});
+    </script>

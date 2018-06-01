@@ -1,0 +1,596 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "SzeAaDoL8vKuww3lKp3A4y6fU7h1Zg32aojnXsRX0Dg";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "94408",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/94408"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-08-08T01:16:21+00:00",
+    "creation_name": "Music, Comics \u0026 Even More Music - and sometimes food",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/200253/1cc0f76bbf2846969448586e50866c89?token-time=2145916800\u0026token-hash=iqQzyLxwXLuyiK_Dfq86jz0Igk8vhnsB-1bpOTeWSM8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/200253/1cc0f76bbf2846969448586e50866c89?token-time=2145916800\u0026token-hash=TOl1pcuI6H1EsWdUFpl_CS5X4bPkE02uuF7igiYiaJs%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Greatest musician you\u0027ve maybe never heard of to turn down a record deal. Twice.",
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=200253",
+    "published_at": "2015-08-19T04:10:33+00:00",
+    "summary": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/MfRAatAc4vo\" width=\"560\"\u003e\u003c/iframe\u003e\u003cdiv style=\"text-align: center;\"\u003e\u003c/div\u003e\u003cbr\u003eWatch the video if you want. It\u0027s what I tried to do at first. Everything about this page is about to change. If you want to become a Patron, you might just want to do the minimum for now until we launch with new updates and when the countdown to new music begins in January! New posts daily (almost) so stick around!"
+   },
+   "id": "200253",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "977799",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/977799"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "221881",
+       "type": "goal"
+      },
+      {
+       "id": "221882",
+       "type": "goal"
+      },
+      {
+       "id": "221883",
+       "type": "goal"
+      },
+      {
+       "id": "221884",
+       "type": "goal"
+      },
+      {
+       "id": "221885",
+       "type": "goal"
+      },
+      {
+       "id": "221886",
+       "type": "goal"
+      },
+      {
+       "id": "221889",
+       "type": "goal"
+      },
+      {
+       "id": "221890",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-200253",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-200253"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "279642",
+       "type": "reward"
+      },
+      {
+       "id": "284315",
+       "type": "reward"
+      },
+      {
+       "id": "284316",
+       "type": "reward"
+      },
+      {
+       "id": "284317",
+       "type": "reward"
+      },
+      {
+       "id": "284318",
+       "type": "reward"
+      },
+      {
+       "id": "284319",
+       "type": "reward"
+      },
+      {
+       "id": "284320",
+       "type": "reward"
+      },
+      {
+       "id": "284321",
+       "type": "reward"
+      },
+      {
+       "id": "284322",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "A San Francisco-based musician with 5 albums (working on a 6th), 2 novels (working on 2 more) and a webcomic that has been running for 3 years.",
+     "created": "2015-08-07T03:09:45+00:00",
+     "facebook": "https://www.facebook.com/pages/Chris-Reed-and-the-Anime-Raiders/",
+     "first_name": "Chris",
+     "full_name": "Chris Reed",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/977799/05e6104fd5ec461a91f18d39bb7ce5dd?token-time=2145916800\u0026token-hash=H_Nf0dVeKVtON1shnD8BsYRHG739C9v259avA39Ab0I%3D",
+     "last_name": "Reed",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/977799/05e6104fd5ec461a91f18d39bb7ce5dd?token-time=2145916800\u0026token-hash=f9IviDBqcw__02sW66wHOLB3KL6dqxqUB2rcVJ7xIlQ%3D",
+     "twitch": null,
+     "twitter": "animeraider",
+     "url": "https://www.patreon.com/animeraider",
+     "vanity": "animeraider",
+     "youtube": "https://www.youtube.com/channel/UCaxr7hiAHyrTXUDWRN-YT6Q"
+    },
+    "id": "977799",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "200253",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/200253"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 7,
+     "upgrade_url": "/bePatron?c=200253\u0026rid=279642"
+    },
+    "id": "post-aggregation-for-0-200253",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-08-19T04:09:59+00:00",
+     "description": "All Patrons will get access to free digital copies of all my albums past, present and future for as long as we are doing this.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-19T04:09:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=200253\u0026rid=279642"
+    },
+    "id": "279642",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-08-19T04:09:59+00:00",
+     "description": "\u2026and in addition you get put on my Christmas card list. \nOr Hanukah. Or Kwanza. Or Winter Solstice. Or \u201chey, I\u2019m happy to send you a \nshout out as we reach the end of the year\u201d card. There will be music attached to \nyour e-card. Oh hey, a free additional song? Why not. It won\u2019t be a Christmas \nsong though. I\u2019ve never written one and don\u2019t plan to start.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-19T04:09:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=200253\u0026rid=284315"
+    },
+    "id": "284315",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2015-08-19T04:09:59+00:00",
+     "description": "\u2026and in addition I will make you dinner once a month. \nWell, sort of. Among all of my other talents I\u2019ve also been a chef. Not solid \nenough to get onto MasterChef or open a restaurant or anything, but I\u2019m pretty \ndecent (I worked as a line cook in a restaurant when I was 19) and I like to \nexperiment. I will make up a recipe for you and post step-by-step instructions, \nprobably with a video so that you can see how it\u2019s done and make it yourself. I \nalso like to do something called \u201cWhat If Kitchen\u201d where I take some cuisine and \npretend it came from somewhere else. For example I once made a dish by positing \nthe question, \u201cwhat if the enchilada were invented in France\u201d? I may even share \nmy grandmother\u2019s recipe for one-armed spaghetti sauce. I\u2019ll have to get it from \nmy mom first though.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-19T04:09:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=200253\u0026rid=284316"
+    },
+    "id": "284316",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2015-08-19T04:09:59+00:00",
+     "description": "\u2026and in addition I will add you to the comic strip I \nwrite, the 20th\u00a0Life of Corbin Dodge. I\u2019ll need to get a picture of \nyou and your preference of whether or not you\u2019d like to be evil or good (as a \ncartoon character). No promises that it will be anything other than a walk-on \nbecause we have a lot of the story already scripted, but you will be there for \nall time.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-19T04:09:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=200253\u0026rid=284317"
+    },
+    "id": "284317",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2015-08-19T04:09:59+00:00",
+     "description": "\u2026and in addition, after shaking my head in wonder \n(because that\u2019s $300 per year \u2013 wow), I\u2019ll throw in a T-shirt I have yet to \ndesign. I might actually ask one of my cartoonist friends to create it. We\u2019ll \nsee because if someone is giving me this much money every month it will be a bit \nof a shock. What the hell \u2013 2 T-shirts. Each year. A new design each time. \u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-19T04:09:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=200253\u0026rid=284318"
+    },
+    "id": "284318",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2015-08-19T04:09:59+00:00",
+     "description": "\u2026and in addition I actually have no idea what I will do \nhere because that\u2019s a lot of money to spend on a single artist and unless you\u2019re \nmy mom it just seems unlikely. Actually I owe mom money so she wouldn\u2019t do it \neither and I\u2019m done giving anyone any more grandchildren. I\u2019ll come up with \nsomething but at this point I don\u2019t know what. Maybe a private streaming \nconcert. A buddy of mine did that once and it was pretty successful. Maybe \nconcert tickets. I have to give it some thought. We\u2019ll see.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-19T04:09:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=200253\u0026rid=284319"
+    },
+    "id": "284319",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2015-08-19T04:09:59+00:00",
+     "description": "\u2026and in addition after I\u2019ve recovered from my probable \nheart attack ($1,200 per year!) I will come to your home once a year and cook \nfor you and 3 guests. I\u2019m not kidding - as long as you\u0027re in the continental U.S. If you live overseas it might have to be a bit less frequent. I will drive to your \nhouse/apartment/brothel and make you dinner. But I make no promises to stay the \nnight. I can find a hotel. Don\u2019t worry about me. I\u2019m good. You will have to buy \nthe groceries though \u2013 I\u2019ll make a list.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-19T04:09:59+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=200253\u0026rid=284320"
+    },
+    "id": "284320",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2015-08-19T04:09:59+00:00",
+     "description": "\u2026and are you kidding me? Monthly? Are you sure you \ndidn\u2019t meant to type in $15 or $1.50?\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-19T04:09:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=200253\u0026rid=284321"
+    },
+    "id": "284321",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2015-08-19T04:09:59+00:00",
+     "description": "\u2026and at this point I\u2019m just going to assume that \nyou\u2019re quite rich and this amount of money doesn\u2019t mean anything to you. Would \nyou consider giving even more? I\u2019d love to quit the day job. Let\u2019s talk!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-19T04:09:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=200253\u0026rid=284322"
+    },
+    "id": "284322",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2015-08-13T05:21:09+00:00",
+     "description": "Every Patreon backer (or Patron) will get a free digital copy of every album I have released and will release for as long as we\u0027re doing this. If you\u0027re a patron, you get access to my releases. It\u0027s that simple.\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": "2018-01-10T17:35:03+00:00",
+     "title": ""
+    },
+    "id": "221881",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 3,
+     "created_at": "2015-08-13T05:21:09+00:00",
+     "description": "If I raise $150 a month, I will release 1 new song each and every month exclusively to my Patreon backers. Full on, studio quality songs, and not songs that are planned to be on my regular albums and not just simple demos. Now that\u2019s not a lot of money for a lot of work, but I want to show you that I can do it and put my abilities out there for everyone to see. I\u2019m already working on that 6th album and if I raise no money at all that album will still happen. This is for exclusive extra music. I may release it to the public at a later date, but I promise you that Patreon backers will get first grab for a minimum of 6 months.\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "221882",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2015-08-13T05:21:09+00:00",
+     "description": "If I raise $500 a month I will double my output to 2 songs every month, exclusive to backers for at least 30 days. I might want to release a single or two from this batch. We\u2019ll see how it goes.\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "221883",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2015-08-13T05:21:09+00:00",
+     "description": "If I raise $2000 a month I will increase my output to a song every week, although I might take a week off here and there and have to double up later. At least 1 song every month will be full album quality, but there will probably be a few demos and such along the way. Perhaps the occasional live performance, or guests brought in from the outside (you should see who some of my friends are \u2013 I\u2019ve been around a while). I will be literally singing for my supper at this level.\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "221884",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2015-08-13T05:21:09+00:00",
+     "description": "If I raise $2500 a month I will release one studio album a year in addition to everything else done here and add all of the names of my Patreon backers to the liner notes of the album. It won\u2019t be just a \u201cthanks\u201d either. We will assign job titles and the like to each of you individually. Who wants to be an Executive Producer? Who wants to be the Caterer? Who wants to be the Key Grip? Animal Wrangler? Pinstripe adjuster? Arthur, King of the Britons? If we actually reach this level we will work something out.\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "221885",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2015-08-13T05:21:09+00:00",
+     "description": "And finally, if we reach $3000 a month I will release a SECOND album each year of the best 12-15 tracks released during the year previous to our Patreon backers. Again, there will be names on the liner notes.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "221886",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2015-08-13T05:27:08+00:00",
+     "description": "No spoilers!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "221889",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2015-08-13T05:27:08+00:00",
+     "description": "No Spoilers!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "221890",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/200253"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "a0875644-1cb0-4568-93fc-4bb2bc0f2e0f",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Chris Reed is creating Music, Comics \u0026 Even More Music - and sometimes food"
+});
+    </script>

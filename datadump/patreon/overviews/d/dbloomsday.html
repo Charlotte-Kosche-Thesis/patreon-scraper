@@ -1,0 +1,626 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Oiny-L4XzODUlPqKMiNrnyqQevTZPwAkViU0FXPzFkE";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": "2018-02-26T00:40:09.460681+00:00"
+   },
+   "id": "349333",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/349333"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-01-26T22:46:47+00:00",
+    "creation_name": "photographic art",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/720893/43eb3aa32ed44c24b9b25e67ba2de14b?token-time=2145916800\u0026token-hash=m5wuJXkSWuOdxMlTzUEhje9fqdhLCydO90m4ArXEG94%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/720893/43eb3aa32ed44c24b9b25e67ba2de14b?token-time=2145916800\u0026token-hash=ovAOraidXLXNf_2ifJEhmchJgQBMqF5qrsgJjLdMYiA%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=720893",
+    "published_at": "2017-01-26T23:11:08+00:00",
+    "summary": "I create photographic art. When photography, it is almost always created using completely analog means. When video, it is most certainly digital.\u003cbr\u003e\u003cbr\u003eFilm photography has proved to fill a void once filled by mathematics\u2014a perfect blend of the technical and the abstract. For me, the restrictions on the medium force me to more creatively find ways to express whatever it is I\u0027m trying to express\u2014from the absurd to the serious.\u003cbr\u003e\u003cbr\u003eI\u0027ve been called a \"surrealist photographer,\" which is probably accurate (even though I hate boxes). Listen to me talk about this kind of stuff with \u003ca href=\"http://jonwilkening.com\" target=\"_blank\"\u003eJon Wilkening\u003c/a\u003e on his podcast, \u003ca href=\"https://soundcloud.com/jon-wilkening/41-dave-allen-ii\" target=\"_blank\"\u003eThe Creative Bar\u003c/a\u003e.\u003cbr\u003e"
+   },
+   "id": "720893",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4942170",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4942170"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "695234",
+       "type": "goal"
+      },
+      {
+       "id": "695304",
+       "type": "goal"
+      },
+      {
+       "id": "695305",
+       "type": "goal"
+      },
+      {
+       "id": "983812",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-720893",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-720893"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2360021",
+       "type": "reward"
+      },
+      {
+       "id": "1335671",
+       "type": "reward"
+      },
+      {
+       "id": "2156577",
+       "type": "reward"
+      },
+      {
+       "id": "2044659",
+       "type": "reward"
+      },
+      {
+       "id": "1335926",
+       "type": "reward"
+      },
+      {
+       "id": "2044888",
+       "type": "reward"
+      },
+      {
+       "id": "2020940",
+       "type": "reward"
+      },
+      {
+       "id": "1335925",
+       "type": "reward"
+      },
+      {
+       "id": "2020942",
+       "type": "reward"
+      },
+      {
+       "id": "2360005",
+       "type": "reward"
+      },
+      {
+       "id": "2360121",
+       "type": "reward"
+      },
+      {
+       "id": "2360123",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "After dropping out of College to focus on video production and graphic design, I decided to become a strength coach.  And, after deciding to no longer be a strength coach, I went back to college.  This resulted in a Masters degree in mathematics.  Now\u2014while working as a freelance writer, graphic designer, and mathematician\u2014I am pursuing film photography as art. \u003cbr\u003e \u003cbr\u003e\u003ca href=\"http://teutonicplague.blogspot.com/\"\u003eMy \u003c/a\u003e\u003ca href=\"http://teutonicplague.blogspot.com/\"\u003ewife\u003c/a\u003e, fortunately, is very supportive.\u003cbr\u003e\u003cbr\u003eCurrently, we are living in Toulouse, France where my wife teaches English.  Apart from my work, you might find me caf\u00e9 loitering, rock climbing, or skiing.  I, in fact, enjoy most caffeine-fueled,  mountain-based activities.\u003cbr\u003e",
+     "created": "2017-01-26T22:45:13+00:00",
+     "facebook": "https://www.facebook.com/dsafilm",
+     "first_name": "David",
+     "full_name": "David Allen",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4942170/267cee926c1e48f883b00ff73756a4b7?token-time=2145916800\u0026token-hash=AfDFtym_WvR4Bfibh0Azas-RHQ7XwOSdvojTEIpQGR4%3D",
+     "last_name": "Allen",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4942170/267cee926c1e48f883b00ff73756a4b7?token-time=2145916800\u0026token-hash=Lz7s6v1-QblE7GyJd2NmbYAE7oNSUp61abPPyNHd_5Y%3D",
+     "twitch": null,
+     "twitter": "dbloomsday",
+     "url": "https://www.patreon.com/dbloomsday",
+     "vanity": "dbloomsday",
+     "youtube": "https://www.youtube.com/channel/UCNUnlBI-xAO9DvQ_aSxzQLA"
+    },
+    "id": "4942170",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "720893",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/720893"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 1,
+     "upgrade_url": "/bePatron?c=720893\u0026rid=1335671"
+    },
+    "id": "post-aggregation-for-0-720893",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-02-09T23:19:39.815609+00:00",
+     "description": "\u00a0Every tier receives the SAME REWARD each month. Each month\u0027s reward will either be announce a month in advance or will be a complete surprise. Sign-up early and get rewards for less!\u00a0\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-02T11:53:39.491598+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2360021/be55c9d094b74207833a919526ba3962?token-time=2145916800\u0026token-hash=RpKf3Pm1kYvgo9kYYzfi26SRJoqV85e-5dZfW8YofoU%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-02T11:53:39.483394+00:00",
+     "remaining": 0,
+     "requires_shipping": true,
+     "title": "2\u2070",
+     "unpublished_at": null,
+     "url": "/bePatron?c=720893\u0026rid=2360021"
+    },
+    "id": "2360021",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-01-26T22:48:48.645537+00:00",
+     "description": "Every tier receives the SAME REWARD each month. Each month\u0027s reward will either be announce a month in advance or will be a complete surprise. Sign-up early and get rewards for less!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-09T23:19:10.091495+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-09T23:19:10.082723+00:00",
+     "remaining": 2,
+     "requires_shipping": true,
+     "title": "2\u00b9",
+     "unpublished_at": null,
+     "url": "/bePatron?c=720893\u0026rid=1335671"
+    },
+    "id": "1335671",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2017-11-18T12:06:14.125810+00:00",
+     "description": "\u00a0Every tier receives the SAME REWARD each month. Each month\u0027s reward will either be announce a month in advance or will be a complete surprise. Sign-up early and get rewards for less! \u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-09T23:15:42.355883+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-09T23:15:42.346078+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "2\u00b2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=720893\u0026rid=2156577"
+    },
+    "id": "2156577",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 800,
+     "amount_cents": 800,
+     "created_at": "2017-10-02T21:07:44.649151+00:00",
+     "description": "Every tier receives the SAME REWARD each month. Each month\u0027s reward will either be announce a month in advance or will be a complete surprise. Sign-up early and get rewards for less! \u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-09T23:15:54.984101+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-09T23:15:54.974843+00:00",
+     "remaining": 8,
+     "requires_shipping": true,
+     "title": "2\u00b3",
+     "unpublished_at": null,
+     "url": "/bePatron?c=720893\u0026rid=2044659"
+    },
+    "id": "2044659",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1600,
+     "amount_cents": 1600,
+     "created_at": "2017-01-26T23:44:05.257357+00:00",
+     "description": "\u00a0Every tier receives the SAME REWARD each month. Each month\u0027s reward will either be announce a month in advance or will be a complete surprise. Sign-up early and get rewards for less! \u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-09T23:16:27.565616+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-09T23:16:27.556550+00:00",
+     "remaining": 16,
+     "requires_shipping": true,
+     "title": "2\u2074",
+     "unpublished_at": null,
+     "url": "/bePatron?c=720893\u0026rid=1335926"
+    },
+    "id": "1335926",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6400,
+     "amount_cents": 6400,
+     "created_at": "2017-10-02T22:58:08.321108+00:00",
+     "description": "\u00a0Every tier receives the SAME REWARD each month. Each month\u0027s reward will either be announce a month in advance or will be a complete surprise. Sign-up early and get rewards for less! \u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-09T23:17:04.581822+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-09T23:17:04.574664+00:00",
+     "remaining": 64,
+     "requires_shipping": true,
+     "title": "2\u2076",
+     "unpublished_at": null,
+     "url": "/bePatron?c=720893\u0026rid=2044888"
+    },
+    "id": "2044888",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 12800,
+     "amount_cents": 12800,
+     "created_at": "2017-09-22T09:38:56.421466+00:00",
+     "description": "\u00a0Every tier receives the SAME REWARD each month. Each month\u0027s reward will either be announce a month in advance or will be a complete surprise. Sign-up early and get rewards for less! \u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-09T23:17:19.556529+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-09T23:17:19.549657+00:00",
+     "remaining": 128,
+     "requires_shipping": true,
+     "title": "2\u2077",
+     "unpublished_at": null,
+     "url": "/bePatron?c=720893\u0026rid=2020940"
+    },
+    "id": "2020940",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25600,
+     "amount_cents": 25600,
+     "created_at": "2017-01-26T23:44:04.778982+00:00",
+     "description": "\u00a0Every tier receives the SAME REWARD each month. Each month\u0027s reward will either be announce a month in advance or will be a complete surprise. Sign-up early and get rewards for less! \u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-09T23:17:31.516016+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-09T23:17:31.506626+00:00",
+     "remaining": 256,
+     "requires_shipping": true,
+     "title": "2\u2078",
+     "unpublished_at": null,
+     "url": "/bePatron?c=720893\u0026rid=1335925"
+    },
+    "id": "1335925",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 51200,
+     "amount_cents": 51200,
+     "created_at": "2017-09-22T09:42:57.571340+00:00",
+     "description": "\u00a0Every tier receives the SAME REWARD each month. Each month\u0027s reward will \u00a0either be announce a month in advance or will be a complete surprise. \u00a0Sign-up early and get rewards for less! \u00a0\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-09T23:58:22.225462+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-09T23:58:22.217121+00:00",
+     "remaining": 512,
+     "requires_shipping": true,
+     "title": "2\u2079",
+     "unpublished_at": null,
+     "url": "/bePatron?c=720893\u0026rid=2020942"
+    },
+    "id": "2020942",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 102400,
+     "amount_cents": 102400,
+     "created_at": "2018-02-09T23:14:44.775879+00:00",
+     "description": "\u00a0Every tier receives the SAME REWARD each month. Each month\u0027s reward will either be announce a month in advance or will be a complete surprise. Sign-up early and get rewards for less! \u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-09T23:18:24.682497+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-09T23:18:24.673223+00:00",
+     "remaining": 1024,
+     "requires_shipping": true,
+     "title": "2\u00b9\u2070",
+     "unpublished_at": null,
+     "url": "/bePatron?c=720893\u0026rid=2360005"
+    },
+    "id": "2360005",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 204800,
+     "amount_cents": 204800,
+     "created_at": "2018-02-09T23:55:52.398734+00:00",
+     "description": "\u00a0Every tier receives the SAME REWARD each month. Each month\u0027s reward will \u00a0either be announce a month in advance or will be a complete surprise. \u00a0Sign-up early and get rewards for less! \u00a0\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-09T23:55:52.398734+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-09T23:55:52.398734+00:00",
+     "remaining": 2048,
+     "requires_shipping": true,
+     "title": "2\u00b9\u00b9",
+     "unpublished_at": null,
+     "url": "/bePatron?c=720893\u0026rid=2360121"
+    },
+    "id": "2360121",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 409600,
+     "amount_cents": 409600,
+     "created_at": "2018-02-09T23:57:00.155057+00:00",
+     "description": "\u00a0Every tier receives the SAME REWARD each month. Each month\u0027s reward will \u00a0either be announce a month in advance or will be a complete surprise. \u00a0Sign-up early and get rewards for less!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-09T23:57:00.155057+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-09T23:57:00.155057+00:00",
+     "remaining": 4096,
+     "requires_shipping": true,
+     "title": "2\u00b9\u00b2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=720893\u0026rid=2360123"
+    },
+    "id": "2360123",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 15,
+     "created_at": "2017-01-26T23:02:10+00:00",
+     "description": "When I hit $200 per month, I can start rewarding darkroom prints.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "695234",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 6,
+     "created_at": "2017-01-26T23:45:04+00:00",
+     "description": "When I hit $500 per month I can invest in negative scanners to start sharing my work more easily.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "695304",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-01-26T23:45:58+00:00",
+     "description": "When I hit $3000 per month I can work completely as an art photographer and stop staring at computer screens.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "695305",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 31,
+     "created_at": "2017-10-03T13:37:15+00:00",
+     "description": "When I hit $100 per month, I will start making occasional zines to send to my patrons.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "983812",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/720893"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "5a9f8820-cc64-4ff0-a408-3373643e8c0f",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "David Allen is creating photographic art"
+});
+    </script>

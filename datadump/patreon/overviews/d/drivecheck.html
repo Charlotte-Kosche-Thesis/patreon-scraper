@@ -1,0 +1,561 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "PUi8dyTHzl7KieokQzRzhZvuqFsLK5pKJ7xpsb72cjA";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "844157",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/844157"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-02-11T02:21:23+00:00",
+    "creation_name": "a weekly podcast about Cardfight!! Vanguard and other games.",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1533178/51257a609ce34d98a664cc457e3b0b85?token-time=2145916800\u0026token-hash=1IV5kvykb6ED30HQW1VRW9ZWYv6ssO1hPCz26khdmQI%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1533178/51257a609ce34d98a664cc457e3b0b85?token-time=2145916800\u0026token-hash=wAwgVo_zukoebrHUVKxDu8oMvQG06m_0nXXJy6Hgvyo%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 10,
+    "pay_per_name": "month",
+    "pledge_sum": 4624,
+    "pledge_url": "/bePatron?c=1533178",
+    "published_at": "2018-03-18T00:58:16+00:00",
+    "summary": "Thank you to our listeners all around the world! \u00a0We here at the Drive Check podcast are doing our best to bring you fun and engaging content week after week while we talk about one of our favorite games - Cardfight!! Vanguard! Rather than a scientific breakdown of the meta game and sick competitive strats, we just have fun talking about the cards and what we think about them. \u00a0We don\u0027t take ourselves too seriously! \u00a0Hopefully you have fun and a lot of laughs as we follow down the paths that Bushiroad is leading us.\u003cbr\u003e\u003cbr\u003eContributing to our Patreon will help defray some of the costs of creating the podcast - SoundCloud subscription, Squarespace web hosting, Google domain registration, etc. \u00a0If we exceed our baseline goals we\u0027ll be able to invest in improved recording equipment and potentially video equipment for streaming matches or having an occasional Twitch stream. \u00a0If we\u0027re funded beyond our wildest dreams we\u0027ll be able to put that towards traveling to events where we can meet with you - our listeners!\u003cbr\u003e\u003cbr\u003eThank you again - any contribution helps us continue making content for you to enjoy."
+   },
+   "id": "1533178",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9731348",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9731348"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1108299",
+       "type": "goal"
+      },
+      {
+       "id": "1108300",
+       "type": "goal"
+      },
+      {
+       "id": "1108301",
+       "type": "goal"
+      },
+      {
+       "id": "1108302",
+       "type": "goal"
+      },
+      {
+       "id": "1108303",
+       "type": "goal"
+      },
+      {
+       "id": "1108304",
+       "type": "goal"
+      },
+      {
+       "id": "1108305",
+       "type": "goal"
+      },
+      {
+       "id": "1108306",
+       "type": "goal"
+      },
+      {
+       "id": "1108307",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2362788",
+       "type": "reward"
+      },
+      {
+       "id": "2362792",
+       "type": "reward"
+      },
+      {
+       "id": "2362801",
+       "type": "reward"
+      },
+      {
+       "id": "2362820",
+       "type": "reward"
+      },
+      {
+       "id": "2362822",
+       "type": "reward"
+      },
+      {
+       "id": "2362830",
+       "type": "reward"
+      },
+      {
+       "id": "2362849",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-02-11T02:20:07+00:00",
+     "facebook": null,
+     "first_name": "Drive",
+     "full_name": "Drive Check",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/9731348/7e0e369d0c8840679b66c9186f6d4246?token-time=2145916800\u0026token-hash=HSJkguzv9Om3t8sqsaKjVji5W8SHtkARZucqaPZJIe0%3D",
+     "last_name": "Check",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9731348/7e0e369d0c8840679b66c9186f6d4246?token-time=2145916800\u0026token-hash=8ZKvda3a1t67UUjIVUizrlqUoovBZGkdnc1r_bCvLKk%3D",
+     "twitch": null,
+     "twitter": "drive_check",
+     "url": "https://www.patreon.com/drivecheck",
+     "vanity": "drivecheck",
+     "youtube": "https://www.youtube.com/channel/UC004CDA1eEIjdeNXjJ4ymEA/featured"
+    },
+    "id": "9731348",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1533178",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1533178"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-02-11T02:39:59.270502+00:00",
+     "description": "Friends of the podcast - have your name in the description of every episode (space permitting!)",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-14T01:10:49.480027+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjQwMH0%3D/patreon-media/reward/2362788/4f0a973a9bd54d5ca917c081d47fe2c4?token-time=2145916800\u0026token-hash=5VZUgAEVggk8oUsEK7skjnehoGu4xkkKEdCQKHGEj0A%3D",
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-14T01:10:49.472436+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Amigos!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1533178\u0026rid=2362788",
+     "user_limit": null
+    },
+    "id": "2362788",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-11T02:41:40.909287+00:00",
+     "description": "You\u0027re an Amigo who wants to contribute a little more! Let\u0027s get this Cardfight club started! If we are able to make swag (buttons, stickers, etc.) you\u0027ll be in on it!",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-14T01:11:05.783511+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjQwMH0%3D/patreon-media/reward/2362792/ab7d7743578e4e358b3e226da4c74ffb?token-time=2145916800\u0026token-hash=sMhCttR5UjhkyDyaxGxaTg5uNSrRNjP4n68owinx94w%3D",
+     "patron_count": 5,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-14T01:11:05.773701+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Naoki Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1533178\u0026rid=2362792",
+     "user_limit": null
+    },
+    "id": "2362792",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-11T02:45:40.472409+00:00",
+     "description": "You love Vanguard as a way of keeping the memory of your parents alive in your heart! \u00a0You own two card shops! \u00a0We\u0027ll read your name as a thank you at the end of every episode! (includes lower tiers as well)",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-18T00:51:39.986877+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjQwMH0%3D/patreon-media/reward/2362801/6bfe40545a904dff937c70a1d1b04db2?token-time=2145916800\u0026token-hash=ulEK3Qv68iNDka02kWXrji1vIzXWUmoOIFSKx2At5As%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-18T00:51:39.979795+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Misaki Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1533178\u0026rid=2362801",
+     "user_limit": null
+    },
+    "id": "2362801",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-02-11T02:52:51.350667+00:00",
+     "description": "All of these thank yous are fine but you want to battle (or talk Vanguard or something)! Schedule a one to two hour Skype or Facebook video chat with one of the Drive Check co-hosts. \u00a0(Disclaimer: it may be Mika - you don\u0027t get to pick)(includes lower tiers as well)",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-18T00:52:04.909129+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2362820/4fd3fafb5a894988b573d476eecd61f3?token-time=2145916800\u0026token-hash=5xkaW8YTH5FpyE6yC7Twnndc3PIRcfIXzvZ1x47wXRo%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-18T00:52:04.899867+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Kamui Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1533178\u0026rid=2362820",
+     "user_limit": 10
+    },
+    "id": "2362820",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-02-11T02:56:43.943025+00:00",
+     "description": "You\u0027re one of the greatest Cardfighters in the world - but still not the best? \u00a0Don\u0027t give in to the Link Joker! Similar to Kamui but you get to pick who you want to schedule with. (includes Misaki and below tiers as well)",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-14T01:12:07.112502+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjQwMH0%3D/patreon-media/reward/2362822/41652c51d6b54b47af6c6a8519686c73?token-time=2145916800\u0026token-hash=FepCup8OhE9Wqn37R_QAQE3yVyWRvLhuVkGdFOqFWa4%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-14T01:12:07.099819+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Kai Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1533178\u0026rid=2362822",
+     "user_limit": 5
+    },
+    "id": "2362822",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-02-11T03:04:36.924522+00:00",
+     "description": "There are few things as strong in this world as plot armor - and you\u0027ve got some of the strongest. \u00a0You can be a guest on Drive Check once a year! (includes Misaki and below tiers as well)",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-14T01:12:37.389280+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMyIsInciOjQwMH0%3D/patreon-media/reward/2362830/7eb749846ed84ae5932ebc9e8452303d?token-time=2145916800\u0026token-hash=6hEubk6PS8y4q0niazOzY8K6OzdHdY5S1W91HFHHwh8%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-14T01:12:37.374137+00:00",
+     "remaining": 12,
+     "requires_shipping": false,
+     "title": "Chrono Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1533178\u0026rid=2362830",
+     "user_limit": 12
+    },
+    "id": "2362830",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-02-11T03:11:22.614427+00:00",
+     "description": "Like no others before or after you (except for maybe Ren Suzugi-whatshisname) you have a deep and continual connection to the planet Cray and your avatar - Blaster Blade! \u00a0This is the producer tier - you will be involved in the direction the podcast takes and planning of future events. \u00a0As a producer you will be involved in the continuous discussion around growing and developing the podcast but final decisions will be up to the hosts. (includes all lower tiers - you\u0027ll be on video chats with us weekly)",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-14T01:12:50.444841+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMyIsInciOjQwMH0%3D/patreon-media/reward/2362849/9ca1d1c0a54a40bd9fad45d6f520af28?token-time=2145916800\u0026token-hash=CQHAE6t5_hlT7GKsEx2B9jtKqfFxPtsX83B4Y049HKk%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-14T01:12:50.437376+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Aichi Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1533178\u0026rid=2362849",
+     "user_limit": 10
+    },
+    "id": "2362849",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 92,
+     "created_at": "2018-02-11T03:29:14+00:00",
+     "description": "We can keep the lights on - this will cover our basic expenses.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1108299",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 46,
+     "created_at": "2018-02-11T03:29:14+00:00",
+     "description": "We\u0027ll put the extra money towards improving our recording equipment.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1108300",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 9,
+     "created_at": "2018-02-11T03:29:14+00:00",
+     "description": "We\u0027ll make certain that all of the hosts have good microphones and interfaces (it\u0027s a USB thing that lets you plug your microphone into the computer) as well as putting money towards cameras and tripods for recording game play and card discussions - this will move us into video. 5% will go to the musicians who provide the music for our episodes - this will continue through all of the higher goals.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1108301",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 4,
+     "created_at": "2018-02-11T03:29:14+00:00",
+     "description": "We travel light and cheap - hitting this level will allow us to attend more regionals so you can battle us in person! \u00a0We\u0027ll put the extra into a shared fund to pay for hotels and food.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1108302",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 2,
+     "created_at": "2018-02-11T03:29:14+00:00",
+     "description": "Boy oh boy - if every listener were to pay $10 a month - we\u0027ll be able to travel to regionals and hold live Drive Check panels at conventions (Origins, Gen Con, PAX). \u00a0These usually require flight and hotel over several days - but we still travel cheap.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1108303",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-11T03:29:14+00:00",
+     "description": "At this point each of the hosts will receive a portion to spend on cards and gas/food/etc. for going to locals.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1108304",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-11T03:29:14+00:00",
+     "description": "We\u0027d buy all the cases. \u00a0For ourselves. \u00a0No more getting ripped off on case splits!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1108305",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2000000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-11T03:29:14+00:00",
+     "description": "All of the hosts will quit their jobs, move in together, and just play card games all day.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1108306",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-11T03:29:14+00:00",
+     "description": "Will Anderson will start playing competitive Yu-Gi-Oh.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1108307",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1533178"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "7d68f84c-ed50-4235-bc5b-c246134d0d9a",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Drive Check is creating a weekly podcast about Cardfight!! Vanguard and other games."
+});
+    </script>

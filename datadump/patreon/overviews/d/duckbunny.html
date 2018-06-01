@@ -1,0 +1,447 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "8Bg0nkJNoMza_RqzUZgWubxsP2hHi840IgWQJWBp6Sk";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "358220",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/358220"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-02-07T18:06:50+00:00",
+    "creation_name": "Words",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 6,
+    "pay_per_name": "month",
+    "pledge_sum": 5060,
+    "pledge_url": "/bePatron?c=739758",
+    "published_at": "2017-02-07T19:00:57+00:00",
+    "summary": "Hello! I\u0027m duckbunny. You may know me as duckbunny on Archive Of Our Own, @duckbunny on Tumblr, or @captain_bunny on Twitter. I write prose, poetry and music, and they\u0027re good.\u003cbr\u003eHere\u0027s the deal: for every penny you throw into my hat, I\u0027ll guarantee to publish one word of fiction. $10? One thousand words. $20? Two thousand. Guaranteed. Words are capped at 6k for now, because I also work a full-time real-person job. \u003cbr\u003eEveryone who signs up for $5 or more will receive access to an audio recording of a song, poem or short story each month. My services as a lyricist are available from $25.\u003cbr\u003e\u003cbr\u003eThe Small Print:\u003cbr\u003e\u003cul\u003e\u003cli\u003eTalk to me before purchasing any kind of commission to be sure your commission is something I can write. Unconfirmed commissions may not be honoured.\u003c/li\u003e\u003cli\u003eMoney paid for music commissions does not count towards the penny-per-word total. Money paid for fiction commissions does.\u003c/li\u003e\u003cli\u003e\"Published\" means published on AO3 or made available directly through Patreon. Patrons may sometimes get early or exclusive access. If you\u0027ve paid for a commission, I\u0027ll give you the choice of whether to have it linked to you.\u003c/li\u003e\u003cli\u003eThe monthly total is set by the Patreon amount at the start of the month, which is also when Patreon collects the money.\u003c/li\u003e\u003cli\u003eI think in pounds and Patreon works in dollars. If you\u0027re talking to me and I start referring to \u00a3, I may have forgotten that Patreon is in $, which is the sort of thing I do when distracted by interesting things like writing. Please check which value I actually mean.\u003c/li\u003e\u003c/ul\u003e"
+   },
+   "id": "739758",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3375380",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3375380"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "709589",
+       "type": "goal"
+      },
+      {
+       "id": "709590",
+       "type": "goal"
+      },
+      {
+       "id": "709591",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-739758",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-739758"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1382413",
+       "type": "reward"
+      },
+      {
+       "id": "1382421",
+       "type": "reward"
+      },
+      {
+       "id": "1382427",
+       "type": "reward"
+      },
+      {
+       "id": "1382447",
+       "type": "reward"
+      },
+      {
+       "id": "1382451",
+       "type": "reward"
+      },
+      {
+       "id": "1382911",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-05-28T21:13:58+00:00",
+     "facebook": null,
+     "first_name": "duckbunny",
+     "full_name": "duckbunny",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3375380/2d8a5703d66d4e038922f5aadea09091?token-time=2145916800\u0026token-hash=9y85Dzt9Flp2kV9mPpxCDhY-9bCpUzzjc_rpAuPkFeI%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3375380/2d8a5703d66d4e038922f5aadea09091?token-time=2145916800\u0026token-hash=b0-AQrk6j7WjC4A1PhTfjevBpzK1Ynud56j4-FnDPMk%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/duckbunny",
+     "vanity": "duckbunny",
+     "youtube": null
+    },
+    "id": "3375380",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "739758",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/739758"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 10,
+     "upgrade_url": "/bePatron?c=739758\u0026rid=1382421"
+    },
+    "id": "post-aggregation-for-0-739758",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-02-07T18:11:01.152941+00:00",
+     "description": "Add a bit to the total words I\u0027ll guarantee to publish this month, at a rate of a penny per word.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-07T19:02:15.658266+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-07T18:11:01.152941+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pennies In The Pot",
+     "unpublished_at": null,
+     "url": "/bePatron?c=739758\u0026rid=1382413",
+     "user_limit": null
+    },
+    "id": "1382413",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-02-07T18:12:12.294449+00:00",
+     "description": "\u00a0Access to one audio recording per month - either a song, a poem, or a short story - exclusive to $5+ patrons.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-08T17:21:18.088567+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 10,
+     "published": true,
+     "published_at": "2017-02-07T18:12:12.294449+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Seat At The Fire",
+     "unpublished_at": null,
+     "url": "/bePatron?c=739758\u0026rid=1382421",
+     "user_limit": null
+    },
+    "id": "1382421",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-02-07T18:13:50.573828+00:00",
+     "description": "\u00a0Guarantee a chapter will be posted of your preferred work, defined as at least 1500 words (presently eligible works are \u003cem\u003eVellichor\u003c/em\u003e, \u003cem\u003eUnder the Throne the Snake\u003c/em\u003e and \u003cem\u003eThe Chalice Inverted\u003c/em\u003e). Words purchased at this tier count towards the monthly total.",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-25T18:11:10.237068+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-07T18:13:50.573828+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Sponsored Chapter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=739758\u0026rid=1382427",
+     "user_limit": 3
+    },
+    "id": "1382427",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-02-07T18:18:33.453168+00:00",
+     "description": "Pick a folk song or tune and a target, I will make you words that you can sing and provide you with a sung recording. Talk to me beforehand to be sure your commission is something I can write.\u003cstrong\u003e Unconfirmed commissions may not be honoured.\u003c/strong\u003e\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-07T19:02:15.775771+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-07T18:18:33.453168+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Filker for Hire",
+     "unpublished_at": null,
+     "url": "/bePatron?c=739758\u0026rid=1382447",
+     "user_limit": 1
+    },
+    "id": "1382447",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2017-02-07T18:20:41.006643+00:00",
+     "description": "In addition to lyrics and a recording, receive a PDF of the words and tune, suitable for singers to work from. Requires original sheet music to be available. Talk to me beforehand to be sure your commission is something I can write.\u003cstrong\u003e Unconfirmed commissions may not be honoured.\u003c/strong\u003e \u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-07T19:02:15.803980+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-07T18:20:41.006643+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Filker for Higher",
+     "unpublished_at": null,
+     "url": "/bePatron?c=739758\u0026rid=1382451",
+     "user_limit": 1
+    },
+    "id": "1382451",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2017-02-07T20:48:18.642979+00:00",
+     "description": "I swear to God, if you give me a thousand bucks, I will record the happy dance I do when I see it.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-07T20:48:18.642979+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-07T20:48:18.642979+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Dance, Monkey, Dance",
+     "unpublished_at": null,
+     "url": "/bePatron?c=739758\u0026rid=1382911",
+     "user_limit": 1
+    },
+    "id": "1382911",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2000,
+     "completed_percentage": 100,
+     "created_at": "2017-02-07T19:00:24+00:00",
+     "description": "",
+     "reached_at": "2017-02-08T19:01:25+00:00",
+     "title": ""
+    },
+    "id": "709589",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 25,
+     "created_at": "2017-02-07T19:00:24+00:00",
+     "description": "At $200/month, I will be financially independent\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "709590",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 2,
+     "created_at": "2017-02-07T19:00:24+00:00",
+     "description": "At $2000/month, I will buy a house.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "709591",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/739758"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "03bf109a-df31-450c-abcb-ca1c68beae4e",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "duckbunny is creating Words"
+});
+    </script>

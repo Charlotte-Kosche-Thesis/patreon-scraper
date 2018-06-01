@@ -1,0 +1,529 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "AdZBevuD5dThLEZfEp9YZ3zCZO7bZNYoGCedrsisKZo";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "35314",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/35314"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-07-11T18:55:42+00:00",
+    "creation_name": "GamePlays",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/102033/e228008a792e4b8db86b76c47e5546c4?token-time=2145916800\u0026token-hash=loxk1FVvTz88t_ouurDFCP87-SMVo-L5oEPApw4w4CQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/102033/e228008a792e4b8db86b76c47e5546c4?token-time=2145916800\u0026token-hash=wf_MT6znKazcKv_ny6wmXs9lxiwVPGShIewFTWgI0wA%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"401\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fwww.youtube.com%2Fembed%2F80zKIrGFyZ0%3Fautoplay%3D1\u0026amp;url=https%3A%2F%2Fwww.youtube.com%2Fuser%2FAresPlayers\u0026amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2F80zKIrGFyZ0%2Fdefault.jpg\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;autoplay=1\u0026amp;type=text%2Fhtml\u0026amp;schema=youtube\" width=\"714\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://www.youtube.com/aresplayers",
+    "one_liner": "por q eu dan\u00e7o sapateado",
+    "patron_count": 2,
+    "pay_per_name": "Cria\u00e7\u00e3o de conte\u00fado para o youtube",
+    "pledge_sum": 3600,
+    "pledge_url": "/bePatron?c=102033",
+    "published_at": "2015-02-20T17:05:18+00:00",
+    "summary": "\u003cfont\u003ePara manter o canal, pois mesmo n\u00e3o parecendo ele tem gastos e sempre trazer um conte\u00fado cada dia melhor. \u0026lt;3\u003c/font\u003e"
+   },
+   "id": "102033",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "226584",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/226584"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "126308",
+       "type": "goal"
+      },
+      {
+       "id": "126403",
+       "type": "goal"
+      },
+      {
+       "id": "126404",
+       "type": "goal"
+      },
+      {
+       "id": "126405",
+       "type": "goal"
+      },
+      {
+       "id": "127342",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "165297",
+       "type": "reward"
+      },
+      {
+       "id": "163996",
+       "type": "reward"
+      },
+      {
+       "id": "163997",
+       "type": "reward"
+      },
+      {
+       "id": "163998",
+       "type": "reward"
+      },
+      {
+       "id": "163999",
+       "type": "reward"
+      },
+      {
+       "id": "164000",
+       "type": "reward"
+      },
+      {
+       "id": "165293",
+       "type": "reward"
+      },
+      {
+       "id": "196743",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2014-07-11T18:55:42+00:00",
+     "facebook": "https://www.facebook.com/AresPlayersOficial?ref_type=bookmark",
+     "first_name": "AresPlayers",
+     "full_name": "AresPlayers",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/226584/ca36889ca162456ba3f001ecaab53a98?token-time=2145916800\u0026token-hash=BSu4hyqp0_hVI4ehqLLvk6mHrGrJSGqY9HCmlr_X9Cw%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/226584/ca36889ca162456ba3f001ecaab53a98?token-time=2145916800\u0026token-hash=t-M_hRuvEImsOIgDXktFKq4r-6tfLqw2tf69uvz3v2U%3D",
+     "twitch": null,
+     "twitter": "aresplayers",
+     "url": "https://www.patreon.com/AresPlayers",
+     "vanity": "AresPlayers",
+     "youtube": "https://www.youtube.com/user/AresPlayers"
+    },
+    "id": "226584",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "102033",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/102033"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2015-02-22T19:52:37+00:00",
+     "description": "Ter\u00e1 acesso ao grupo secreto no facebook.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-02-22T19:52:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=102033\u0026rid=165297",
+     "user_limit": null
+    },
+    "id": "165297",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2015-02-20T13:00:38+00:00",
+     "description": "*Todas outras a cima\u003cbr\u003e*Irei seguir no twitter, para termos contato.\u003cbr\u003e*Divulgarei seu canal no twitter e na fan-page do canal.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-02-20T13:00:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=102033\u0026rid=163996",
+     "user_limit": null
+    },
+    "id": "163996",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-02-20T13:00:38+00:00",
+     "description": "*Todas outras a cima\u003cbr\u003e*adicionarei voc\u00ea no meu skype pessoal.\u003cbr\u003e*1 Tiket para o sorteio da GTX 650 TI",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-02-20T13:00:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=102033\u0026rid=163997",
+     "user_limit": null
+    },
+    "id": "163997",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2015-02-20T13:00:38+00:00",
+     "description": "*Todas outras a cima\u003cbr\u003e*Fa\u00e7o um v\u00eddeo seu canal ou server para o meu canal.\u003cbr\u003e*2 Tikets para o sorteio da GTX 650 TI",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-02-20T13:00:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=102033\u0026rid=163998",
+     "user_limit": null
+    },
+    "id": "163998",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2015-02-20T13:00:39+00:00",
+     "description": "*Todas outras a cima\u003cbr\u003e*Ir\u00e1 gravar comigo, minecraft e outros jogos que tivermos em comum.\u003cbr\u003e*3 Tikets para o sorteio da GTX 650 TI",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-02-20T13:00:39+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=102033\u0026rid=163999",
+     "user_limit": null
+    },
+    "id": "163999",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2015-02-20T13:00:39+00:00",
+     "description": "*Todas outras a cima\u003cbr\u003e*Te Adicionarei em meu facebook pessoal.\u003cbr\u003e*Ter\u00e1 meu WatsApp para me chamar para jogar e trocar ideia.\u003cbr\u003e*Gravo com voc\u00ea para o seu canal.\u003cbr\u003e*Ter\u00e1 seu canal na minha BOX do YouTube\u003cbr\u003e*5\u00a0Tikets para o sorteio da GTX 650 TI\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-02-20T13:00:39+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=102033\u0026rid=164000",
+     "user_limit": null
+    },
+    "id": "164000",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 8000,
+     "amount_cents": 8000,
+     "created_at": "2015-02-22T19:50:45+00:00",
+     "description": "*Todas outras a cima\u003cbr\u003e*Ter\u00e1 seu canal na descri\u00e7\u00e3o de todos os meus v\u00eddeos.\u003cbr\u003e*Darei like em todos os seus v\u00eddeos.\u003cbr\u003e*Te seguirei no Instagran\u003cbr\u003e*7\u00a0Tikets para o sorteio da GTX 650 TI",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-02-22T19:50:45+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=102033\u0026rid=165293",
+     "user_limit": null
+    },
+    "id": "165293",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2015-04-10T21:12:15+00:00",
+     "description": "*Todas outras a cima\u003cbr\u003e*Farei uma serie semanal no seu SERVIDOR\u003cbr\u003e*10\u00a0Tikets para o sorteio da GTX 650 TI",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-04-10T21:12:15+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=102033\u0026rid=196743",
+     "user_limit": null
+    },
+    "id": "196743",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 36,
+     "created_at": "2015-02-20T13:07:11+00:00",
+     "description": "Ao atingirmos esta marca o canal ter\u00e1 um s\u00e9rie de pegadinhas gravadas com uma equipe de filmagem.",
+     "reached_at": "2015-02-24T02:13:15+00:00",
+     "title": "V\u00eddeo de Pegadinha"
+    },
+    "id": "126308",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 18,
+     "created_at": "2015-02-20T17:29:40+00:00",
+     "description": "Sorteio de 1 (um) game de PC entre os Patr\u00f5es (game escolhido por eles)",
+     "reached_at": "2015-05-09T13:06:34+00:00",
+     "title": "Sorteio (games)"
+    },
+    "id": "126403",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 12,
+     "created_at": "2015-02-20T17:29:40+00:00",
+     "description": "Sorteio de 2 (dois) games de PC entre os Patr\u00f5es (games escolhidos por eles)",
+     "reached_at": null,
+     "title": "Sorteio (games)"
+    },
+    "id": "126404",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 9,
+     "created_at": "2015-02-20T17:29:40+00:00",
+     "description": "Sorteio de 1 (um) Mouse Razer deathadder\u00a0entre os Patr\u00f5es",
+     "reached_at": null,
+     "title": "Sorteio (perif\u00e9rico)"
+    },
+    "id": "126405",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 350000,
+     "completed_percentage": 1,
+     "created_at": "2015-02-22T19:55:27+00:00",
+     "description": "Ao Atingirmos essa marca poderei realizar todos os \"goals\" a cima e al\u00e9m disso comprar um PC novo e Sortearei o meu pc atuar (\u00e9 bom)",
+     "reached_at": null,
+     "title": "Sorteio do meu PC"
+    },
+    "id": "127342",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/102033"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "4629e302-ae7a-4ad1-8915-cfd953024158",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "AresPlayers is creating GamePlays"
+});
+    </script>

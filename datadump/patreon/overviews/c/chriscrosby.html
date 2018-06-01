@@ -1,0 +1,641 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "QuUnYEvXj7x7lrVhSmD4r7NeWSuqZwsXSsBsGQ6lQjY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "123832",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/123832"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-01-06T06:38:33+00:00",
+    "creation_name": "Superosity",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/261642/2f48440251b04ad684aad4d33a5fecca?token-time=2145916800\u0026token-hash=xk213fJ5zc1Dy3X98nrOH1Dkiv5fzFY4o48B5AK9D9Q%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/261642/2f48440251b04ad684aad4d33a5fecca?token-time=2145916800\u0026token-hash=mC3BBdZBhGm-CAOyQjpcBsgLzgrGaTJ_D_acZtGDx-M%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_sum": 680,
+    "pledge_url": "/bePatron?c=261642",
+    "published_at": "2016-01-06T07:11:28+00:00",
+    "summary": "\u003cstrong\u003eEvery day for about 17 years and counting, I have produced a new \u003ca href=\"http://superosity.keenspot.com\" rel=\"nofollow\" target=\"_blank\"\u003eSUPEROSITY\u003c/a\u003e comic strip against all reason, logic, and requests to stop.\u003cbr\u003e\u003cbr\u003eFor many of those years I have had a hunch that, out of my hundreds of fans, there is a multi-millionaire... perhaps even a billionaire.\u00a0 And secondly, I have a hunch that this super-rich fan may be willing to give me obscene amounts of money on a lark every month if only I afforded them the easy ability for a trusted third-party to remove that obscene amount of money from their bank account and place it into mine.\u00a0 \u003cbr\u003e\u003cbr\u003eThe purpose of this Patreon is for one thing and one thing only: to discover whether or not my hunches are correct.\u003cbr\u003e\u003cbr\u003eFor those of you who are NOT that lucky fan I\u0027m searching for, please join me on this journey to find them by pledging tiny, laughable amounts of money that you can just barely afford to give me every month for no reason.\u003cbr\u003e\u003cbr\u003e(I will be SHOCKED if more than $5 a month is pledged to this thing.)\u003cbr\u003e\u003c/strong\u003e"
+   },
+   "id": "261642",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2704973",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2704973"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "318278",
+       "type": "goal"
+      },
+      {
+       "id": "318279",
+       "type": "goal"
+      },
+      {
+       "id": "318280",
+       "type": "goal"
+      },
+      {
+       "id": "318281",
+       "type": "goal"
+      },
+      {
+       "id": "318282",
+       "type": "goal"
+      },
+      {
+       "id": "318289",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "400541",
+       "type": "reward"
+      },
+      {
+       "id": "400542",
+       "type": "reward"
+      },
+      {
+       "id": "400543",
+       "type": "reward"
+      },
+      {
+       "id": "400544",
+       "type": "reward"
+      },
+      {
+       "id": "400545",
+       "type": "reward"
+      },
+      {
+       "id": "400546",
+       "type": "reward"
+      },
+      {
+       "id": "400547",
+       "type": "reward"
+      },
+      {
+       "id": "400548",
+       "type": "reward"
+      },
+      {
+       "id": "400549",
+       "type": "reward"
+      },
+      {
+       "id": "400550",
+       "type": "reward"
+      },
+      {
+       "id": "400551",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-01-06T06:36:08+00:00",
+     "facebook": "https://www.facebook.com/chriscrosby",
+     "first_name": "Chris",
+     "full_name": "Chris Crosby",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2704973/d5724f883e0e4bd4aa255743dd5b3877?token-time=2145916800\u0026token-hash=9b2qJz7kuu9iczHvobvviTGcP0BVSbIE7Aekw--Ob8I%3D",
+     "last_name": "Crosby",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2704973/d5724f883e0e4bd4aa255743dd5b3877?token-time=2145916800\u0026token-hash=m_znB1kL7fRrh0s8APaRy-rSljMDRCe-q-MKYYfDYOk%3D",
+     "twitch": null,
+     "twitter": "chriscrosby",
+     "url": "https://www.patreon.com/chriscrosby",
+     "vanity": "chriscrosby",
+     "youtube": "https://www.youtube.com/chriscrosby"
+    },
+    "id": "2704973",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "261642",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/261642"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-01-06T07:11:23+00:00",
+     "description": "You will have the honor of having your money automatically placed in my bank account each month.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T07:11:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261642\u0026rid=400541",
+     "user_limit": null
+    },
+    "id": "400541",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-01-06T07:11:23+00:00",
+     "description": "You will have the honor of having your money automatically placed in my bank account each month.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T07:11:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261642\u0026rid=400542",
+     "user_limit": null
+    },
+    "id": "400542",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-01-06T07:11:23+00:00",
+     "description": "You will have the honor of having your money\u00a0automatically placed in my bank account each month.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T07:11:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261642\u0026rid=400543",
+     "user_limit": null
+    },
+    "id": "400543",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-01-06T07:11:23+00:00",
+     "description": "You will have the honor of having your money automatically placed in my bank account each month.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T07:11:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261642\u0026rid=400544",
+     "user_limit": null
+    },
+    "id": "400544",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-01-06T07:11:23+00:00",
+     "description": "You will have the honor of having your money automatically placed in my bank account each month.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T07:11:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261642\u0026rid=400545",
+     "user_limit": null
+    },
+    "id": "400545",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-01-06T07:11:23+00:00",
+     "description": "You will have the honor of having your money automatically placed in my bank account each month.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T07:11:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261642\u0026rid=400546",
+     "user_limit": null
+    },
+    "id": "400546",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2016-01-06T07:11:23+00:00",
+     "description": "You are lucky enough to be rich, and you will be barely reminded of this when\n $1,000 disappears from your bank account each month and you barely \neven notice or care.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T07:11:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261642\u0026rid=400547",
+     "user_limit": null
+    },
+    "id": "400547",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000000,
+     "amount_cents": 1000000,
+     "created_at": "2016-01-06T07:11:23+00:00",
+     "description": "You are lucky enough to be super-rich, and you will be barely reminded of this when\n $10,000 disappears from your bank account each month and you barely \neven notice or care.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T07:11:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261642\u0026rid=400548",
+     "user_limit": null
+    },
+    "id": "400548",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500000,
+     "amount_cents": 2500000,
+     "created_at": "2016-01-06T07:11:23+00:00",
+     "description": "You are lucky enough to be super-rich, and you will be barely reminded of this when\n $25,000 disappears from your bank account each month and you barely \neven notice or care.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T07:11:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261642\u0026rid=400549",
+     "user_limit": null
+    },
+    "id": "400549",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000000,
+     "amount_cents": 10000000,
+     "created_at": "2016-01-06T07:11:23+00:00",
+     "description": "You are lucky enough to be super-rich, and you will be barely reminded of this when\n $100,000 disappears from your bank account each month and you barely \neven notice or care.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T07:11:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261642\u0026rid=400550",
+     "user_limit": null
+    },
+    "id": "400550",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000000,
+     "amount_cents": 100000000,
+     "created_at": "2016-01-06T07:11:24+00:00",
+     "description": "You are lucky enough to be a BILLIONAIRE, and you will be barely reminded of this when\n $1,000,000 disappears from your bank account each month and you barely \neven notice or care.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T07:11:24+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261642\u0026rid=400551",
+     "user_limit": null
+    },
+    "id": "400551",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 6,
+     "created_at": "2016-01-06T06:56:16+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": "This amount of money will make me pleasantly surprised but also deeply disappointed."
+    },
+    "id": "318278",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2016-01-06T06:56:16+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": "This amount of money will really surprise me but also hurt my soul."
+    },
+    "id": "318279",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 0,
+     "created_at": "2016-01-06T06:56:16+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": "I will update my CAST OF CHARACTERS page, and cry."
+    },
+    "id": "318280",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500000,
+     "completed_percentage": 0,
+     "created_at": "2016-01-06T06:56:16+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": "This is an obvious sign that my hunch was right, but I may still feel vaguely disappointed."
+    },
+    "id": "318281",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000000,
+     "completed_percentage": 0,
+     "created_at": "2016-01-06T06:56:16+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": "My hunch was definitely right!  I\u0027ll try to express my satisfaction in a drawing as a reward."
+    },
+    "id": "318282",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000000,
+     "completed_percentage": 0,
+     "created_at": "2016-01-06T07:11:10+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": "I\u0027ll increase the size of each SUPEROSITY strip to make them slightly larger, as requested by a couple of people over the years!  (Unless the super-rich fan objects to that, of course.)"
+    },
+    "id": "318289",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/261642"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "6753bdc9-adb1-42dc-a888-faad2ade6b23",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Chris Crosby is creating Superosity"
+});
+    </script>

@@ -1,0 +1,611 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "pqGdooFaQ9S_E91YgwEyKXMIyqC6Y8da8Vg9utzhRMI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "314379",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/314379"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-11-30T03:05:23+00:00",
+    "creation_name": "a Podcast and a Community",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/631019/b439546421964bb3a2b769d9a7b710db?token-time=2145916800\u0026token-hash=YtQdVysWnuWp7U5kieF5yUPHD8irkbnz3yERuJ4wZeM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/631019/b439546421964bb3a2b769d9a7b710db?token-time=2145916800\u0026token-hash=JQXrEmqQ44sw_LGfE2J7Ha07-bS0RtTmMmoQKUxY0Uk%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": "\u003ciframe src=\"https://player.vimeo.com/video/184249954\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfu",
+    "one_liner": null,
+    "patron_count": 8,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=631019",
+    "published_at": "2016-12-07T21:29:39+00:00",
+    "summary": "Brew Theology exists to brew theology and create an alliance of healthy, meaningful and eclectic dialogue in pub communities. We aim to equip a variety of communities, individuals, organizations, churches, startups, and existing institutions to better navigate through a world with vastly different views, lifestyles and beliefs.\u003cbr\u003e\u003cbr\u003eYou can learn more about use a\u00a0\u003ca href=\"http://www.brewtheology.org\" rel=\"nofollow\" target=\"_blank\"\u003ewww.brewtheology.org\u003cbr\u003e\u003cbr\u003e\u003c/a\u003e\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"360\" mozallowfullscreen=\"\" src=\"https://player.vimeo.com/video/184249954\" webkitallowfullscreen=\"\" width=\"640\"\u003e\u003c/iframe\u003e"
+   },
+   "id": "631019",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4520114",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4520114"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1126942",
+       "type": "reward"
+      },
+      {
+       "id": "1126933",
+       "type": "reward"
+      },
+      {
+       "id": "1874658",
+       "type": "reward"
+      },
+      {
+       "id": "1106646",
+       "type": "reward"
+      },
+      {
+       "id": "1874661",
+       "type": "reward"
+      },
+      {
+       "id": "1874666",
+       "type": "reward"
+      },
+      {
+       "id": "1874668",
+       "type": "reward"
+      },
+      {
+       "id": "1874765",
+       "type": "reward"
+      },
+      {
+       "id": "1106647",
+       "type": "reward"
+      },
+      {
+       "id": "1106648",
+       "type": "reward"
+      },
+      {
+       "id": "1110058",
+       "type": "reward"
+      },
+      {
+       "id": "1110057",
+       "type": "reward"
+      },
+      {
+       "id": "1138213",
+       "type": "reward"
+      },
+      {
+       "id": "1138212",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "\u003ca href=\"http://www.brewtheology.org/about\"\u003ehttp://www.brewtheology.org/about\u003c/a\u003e",
+     "created": "2016-11-30T03:05:04+00:00",
+     "facebook": "https://www.facebook.com/brewtheology/",
+     "first_name": "Brew",
+     "full_name": "Brew Theology",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4520114/24585469ee6a473c8e293c0392928314?token-time=2145916800\u0026token-hash=27hHm1Nyqlx-M9RzrHZxAc_ilD6j5-j9dtif9JPJRxI%3D",
+     "last_name": "Theology",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4520114/24585469ee6a473c8e293c0392928314?token-time=2145916800\u0026token-hash=HWrAIFYUPxaa9QDpy-bqKy46jA-cniaHqklkWjGk5WI%3D",
+     "twitch": null,
+     "twitter": "brew_theology",
+     "url": "https://www.patreon.com/brewtheology",
+     "vanity": "brewtheology",
+     "youtube": "https://www.youtube.com/channel/UC13ot956fUXWHCF2aZTqBrw"
+    },
+    "id": "4520114",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "631019",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/631019"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-12-05T03:24:48+00:00",
+     "description": "You believe in the cause. You want our world to genuinely become a better place. We love that, and due to your generosity, we will kick back and give ya some fun love on the inter webs... via Facebook \u0026amp; Twitter! Send us a pic and we\u0027ll give you some love on Instagram too.\u00a0\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-07T21:40:04.651077+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-05T03:24:48+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Social Media Love",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1126942"
+    },
+    "id": "1126942",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-12-05T03:23:47+00:00",
+     "description": "Thank you so much for supporting us as we try to make the world a better place. We want to thank you with a shout on the #BrewTheology Podcast and with a little social media love too. Thank you!\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-07T21:40:04.710089+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-05T03:23:47+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Podcast Love",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1126933"
+    },
+    "id": "1126933",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-07-26T03:49:00.863286+00:00",
+     "description": "If you want to join Brew Theology, this level gets you the logo and the leadership guide. Welcome to Brew Theology.",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-26T03:53:19.798990+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-26T03:49:00.863286+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Partnership - Pilsner - $5/month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1874658"
+    },
+    "id": "1874658",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-30T03:07:37+00:00",
+     "description": "This level of support helps us pay for expenses and helps us continue to bring you awesome #BrewTheology content. Since brewing consists of 4 basic ingredients, we have four special brewtastic levels. The WATER level gets you a sticker \u0026amp; a pint glass!\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-07T21:40:04.760729+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-30T03:07:37+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Water",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1106646"
+    },
+    "id": "1106646",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-07-26T03:51:43.163565+00:00",
+     "description": "Join the Brew Theology family. This level includes the $5 level plus 1 curriculum/month and 1 hour of coaching.",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-26T04:03:54.968677+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-26T03:51:43.163565+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Partnership - Belgian Wit - $10/month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1874661"
+    },
+    "id": "1874661",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-07-26T03:55:25.542008+00:00",
+     "description": "Joining Brew Theology? This level includes the Pilsner and the Wit plus 2 curriculum pieces/month and an hour of coaching. Welcome to Brew Theology!",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-26T04:04:32.212054+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-26T03:55:25.542008+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Partnership - Porter - $15/month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1874666"
+    },
+    "id": "1874666",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-07-26T03:57:22.819173+00:00",
+     "description": "This level of partnership includes everything in the other levels, extra coaching, and a little swag for your leaders. Welcome to Brew Theology.",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-26T03:57:22.819173+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-26T03:57:22.819173+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Partnership - IPA - $20/month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1874668"
+    },
+    "id": "1874668",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-07-26T04:28:17.473093+00:00",
+     "description": "Join Brew Theology with all the bells and whistles. We\u0027ll make sure you have all the curriculum you need, the social media love, and even a guest spot on the Podcast. Welcome to Brew Theology.",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-26T04:28:17.473093+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-26T04:28:17.473093+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Partnership - Whiskey Barrel Stout - $25/month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1874765"
+    },
+    "id": "1874765",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-11-30T03:07:37+00:00",
+     "description": "You deserve an internet hug. Thank you so much for supporting #BrewTheology. Your partnership helps us to keep creating great content and to spread the love of safe and authentic Brew Communities. The GRAIN level gets you a sticker, pint glass, \u0026amp; T-shirt.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-07T21:40:04.814911+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-30T03:07:37+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Grain",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1106647"
+    },
+    "id": "1106647",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2016-11-30T03:07:37+00:00",
+     "description": "Thank you for moving #BrewTheology forward. As we continue to grow, you are are a part of our fantastic brew. Without you our brew wouldn\u0027t have that special hoppy zing. The HOPS level gets you a sticker, pint glass, cooler, \u0026amp; T-shirt.",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-07T21:40:04.859781+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-30T03:07:37+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Hops",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1106648"
+    },
+    "id": "1106648",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-11-30T22:32:48+00:00",
+     "description": "Now we\u0027re getting serious about brewing some fantastic beer. That yeasty goodness, whether from Belgium or the USA, is what turns wort into beer. Without you we\u0027d just be a fancy barley tea. Supporting us on the yeast level gets you a sticker, pint glass, hoodie, cooler, and 2 beers on US in person.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-07T21:40:04.921027+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-30T22:32:48+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Yeast",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1110058"
+    },
+    "id": "1110058",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-11-30T22:32:48+00:00",
+     "description": "Barrel Aged Beer is some of the best there is. Deep, complex, and full of flavor, it\u0027s hard to turn down such and amazing beer. If you are one of our Barrel Aged supporters you recieve a sticker, pint glass, hoodie, Brew Theology cooler, hat, and 2 beers on US in person.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-07T21:40:04.969457+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-30T22:32:48+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Barrel Aged",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1110057"
+    },
+    "id": "1110057",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2016-12-07T21:28:32.627159+00:00",
+     "description": "\u003cdiv\u003eWhen you give support, you give it all. You don\u0027t settle for being a mile high. You want to go 2. When you support us at the Rocky Mountain level you get all previous rewards, a\u00a0spot on the podcast for 1 recording, a\u00a0consultation on topics you would like to see on the Brew Theology podcast, and a\u00a0call with Ryan and Janel to talk about Brew Theology.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-07T21:40:05.020599+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-07T21:28:32.627159+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Rocky Mountain",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1138213"
+    },
+    "id": "1138213",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500000,
+     "amount_cents": 500000,
+     "created_at": "2016-12-07T21:28:32.595292+00:00",
+     "description": "\u003cdiv\u003eWhat is there to say?! You are obviously our biggest fan! Your support means that all those dreams we have in our Google doc can start to come true. You will get all previous rewards and something special that you can cook up with Ryan and Janel. Thank you so much for this tremendous gift! #Cheers\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-07T21:40:05.081892+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-07T21:28:32.595292+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Estes Park",
+     "unpublished_at": null,
+     "url": "/bePatron?c=631019\u0026rid=1138212"
+    },
+    "id": "1138212",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/631019"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "239fd0b6-2164-4d08-a638-a2a9da5f2a40",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Brew Theology is creating a Podcast and a Community"
+});
+    </script>

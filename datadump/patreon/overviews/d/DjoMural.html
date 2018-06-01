@@ -1,0 +1,609 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Zu5c06b07eNZKLoJx6U4iAWXKIlKUoPDZ0AfjY6qA-o";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "95111",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/95111"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-03-07T03:49:04+00:00",
+    "creation_name": "A Mural For the Foundry 2.0",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/153383/9efe696d9d624f7f8a93cf629eaf5e86?token-time=2145916800\u0026token-hash=yYyY57T1nKGl_dokSu_lx6uHwMwqxdhtOqDq6IGwHpk%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/153383/9efe696d9d624f7f8a93cf629eaf5e86?token-time=2145916800\u0026token-hash=xMbjzkVNO4OfeK4miMy8O683sRuJp79tiiyg1XiIocI%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "My name is Joe (Djo) Fortunato and I am an artist, musician and educator based in Portland, OR.  This mural will be by far the largest piece I\u0027ve ever done and I\u0027m so excited to see it happen ! =D",
+    "patron_count": 3,
+    "pay_per_name": "Section by Section Execution of the Foundry 2.0\u0027s exterior 45\u0027 \u00d7",
+    "pledge_sum": 16200,
+    "pledge_url": "/bePatron?c=153383",
+    "published_at": "2015-08-23T04:32:06+00:00",
+    "summary": "Our Collective Maker Space, the Foundry 2.0 has chosen my design to become a Mural for the outside of their building !  The design has been approved by the building manager, and several of the neighboring businesses.  To apply for matching funds from the City of Portland, we need to raise funds to start the mural !\u003cbr\u003e"
+   },
+   "id": "153383",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "574391",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/574391"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "227864",
+       "type": "goal"
+      },
+      {
+       "id": "227865",
+       "type": "goal"
+      },
+      {
+       "id": "227866",
+       "type": "goal"
+      },
+      {
+       "id": "227867",
+       "type": "goal"
+      },
+      {
+       "id": "227868",
+       "type": "goal"
+      },
+      {
+       "id": "227869",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "291018",
+       "type": "reward"
+      },
+      {
+       "id": "291019",
+       "type": "reward"
+      },
+      {
+       "id": "291020",
+       "type": "reward"
+      },
+      {
+       "id": "291021",
+       "type": "reward"
+      },
+      {
+       "id": "291022",
+       "type": "reward"
+      },
+      {
+       "id": "291023",
+       "type": "reward"
+      },
+      {
+       "id": "291024",
+       "type": "reward"
+      },
+      {
+       "id": "291025",
+       "type": "reward"
+      },
+      {
+       "id": "291026",
+       "type": "reward"
+      },
+      {
+       "id": "291027",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "My name is Djo Fortunato, and I am a visual artist, musician and educator based in Portland, OR.",
+     "created": "2015-02-20T19:38:47+00:00",
+     "facebook": null,
+     "first_name": "Djo",
+     "full_name": "Djo",
+     "gender": 1,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/574391/4377de6a2e1f40ca84f86a0b80b022da?token-time=2145916800\u0026token-hash=UlCYK7XvAROPWLhfKBw3JE-gXR_-pD7tnmLhqOIFnq0%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/574391/4377de6a2e1f40ca84f86a0b80b022da?token-time=2145916800\u0026token-hash=vux0Xg0_7gemLf196V1fndbzUv97nZaDD21B1Ui6f0E%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/DjoMural",
+     "vanity": "DjoMural",
+     "youtube": null
+    },
+    "id": "574391",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "153383",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/153383"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2015-08-24T01:06:35+00:00",
+     "description": "Thank you for your generous gift! \u00a0You will receive:\u003cbr\u003e-\u00a0A copy of my Self Published comic journal, \"EgoBox!ng\" (created \u0026amp; documenting my time as a struggling musician \u0026amp; artist in Philadelphia). \u00a040 pgs. , over 350 copies sold at shows or comics shops. \u00a02nd Printing would be a $12 retail value. \u00a0=)\u003cbr\u003e\u003cbr\u003eAlso- for $15- I\u0027ll throw in a set of Post-cards from yours truly. \u00a0Packages of 5 available, representing a vast array of styles, subjects \u0026amp; all featuring printed original art.\u003cbr\u003e\u003cbr\u003eAnd - at $20 - I\u0027ll throw in a personalized Art Postcard from myself to You ! =D\u003cbr\u003e\u003cbr\u003ePlus- @ $25 - You have a choice of all of the above, with a Postcard Sized Print of my current FB Cover Painting, \"~FLOW~\" (original size 24\" \u00d7 18.5\")\u003cbr\u003e\u003cbr\u003eOr a single Medium Sized Print of \"~Flow~\" (8.5\" \u00d7 11\") and a copy of my 40 pg. Black \u0026amp; White Comic Journal, \"EgoBox!ng\" (orig. Published 2005)\u003cbr\u003e\u003cbr\u003eOR - $28 (plus shipping \u0026amp; handling) Will get you a Larger 17\" \u00d7 \"22 Print of my Acrylic Live Painting, \"~Flow~\" with an artsy thank you postcard from me to You ! =D",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-24T01:06:35+00:00",
+     "remaining": 350,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=153383\u0026rid=291018",
+     "user_limit": 350
+    },
+    "id": "291018",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2015-08-24T01:06:35+00:00",
+     "description": "Thank you! \u00a0You will receive: \u00a0\u003cbr\u003eAll of the Above - Plus!\u003cbr\u003e\u003cbr\u003eA personalized message from me to you, on an individual post-card expressing my thanks to you, for participating in this Mural through your generosity \u0026amp; general awesomeness. =) \u00a0You rock!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-24T01:06:35+00:00",
+     "remaining": 250,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=153383\u0026rid=291019",
+     "user_limit": 250
+    },
+    "id": "291019",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2015-08-24T01:06:35+00:00",
+     "description": "My Thanks to You, Generous Giver !\u003cbr\u003eYou will receive from me:\u003cbr\u003e- All of the above ( My self published Comic Journal , a Pack of 5 blank art Postcards, \u0026amp; a personalized Postcard from Djo.)\u003cbr\u003e- PLUS ! \u00a0You will receive a digital print of an artwork of your selection, from my series of Nostalgia Art pieces (as part of my ongoing collaboration with the website, Cartoon Club, run by my childhood friend, Tom.) \u00a0 These Small Poster Sized Full Color prints run for $12 to 15 - so you\u0027re getting your chosen piece at a steal !\u003cbr\u003e\u003cbr\u003eChoose 1 from: -\u003cbr\u003e-\u00a0\"The Cartoon Club Band\" \u00a0(Pen, Pencil, Marker \u0026amp; Gouache on Paper) 10\" x 12.5\".\u003cbr\u003e- \"The Jimmy \u0026amp; Tommy Show\" \u00a0(Pen, Pencil, \u0026amp; Marker on Paper) \u00a0* Featuring Characters from popular Video Games of the past! \u00a09\" x 11\".\u003cbr\u003e- \"The Tom\u0027s Basement Action Figure Playset!\" \u00a0(Pen, Pencil, \u0026amp; Colored Pencil/ Marker on Paper) \u00a0A truly Surreal alternate reality Ad in which our favorite Toy-Based Cartoon Characters - play with Action Figures based on US (!!!) \u00a0Action Basement Playset \u0026amp; Battle Armor Tom (with Pizza staining shirt action) Each Sold Separately. ;)\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-24T01:06:35+00:00",
+     "remaining": 350,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=153383\u0026rid=291020",
+     "user_limit": 350
+    },
+    "id": "291020",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2015-08-24T01:06:35+00:00",
+     "description": "My deepest thanks \u0026amp; gratitude to you for this Gift ! \u00a0\u003cbr\u003eAs my gift back to you, You will get:\u003cbr\u003e- All of the Above (Self Published 40 pg. Comic Journal , 5 blank Postcards, 1 Personalized Postcard from Moi , and ...)\u003cbr\u003e- The FULL 3 Print Set of my NOSTALGIA ART ongoing series ~ !\u003cbr\u003e(See Print details above)\u00a0\u003cbr\u003eThese 3 Prints are equivalent to a $30 + value ~ A Real Steal for your generous gift towards this Mural Project !\u003cbr\u003e\u003cbr\u003eWhat the heck. \u00a0You\u0027ll also get a Skype call from me (if you have Skype. \u00a0It\u0027s FREE !) \u00a0thanking you \u0026amp; letting you in on the details behind these pieces you\u0027ll receive, as well as possible insight into the direction my works will go from here on out ~ =D",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-24T01:06:35+00:00",
+     "remaining": 59,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=153383\u0026rid=291021",
+     "user_limit": 60
+    },
+    "id": "291021",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2015-08-24T01:06:35+00:00",
+     "description": "This is for all you fans of that Live Painting I did - \" ~ FLOW ~ \". \u00a0Some 125 of you liked it on Facebook within just a day or two after it was posted so - This is how you can get that Print for your Wall ! =D\u003cbr\u003e\u003cbr\u003eAlso: \u00a0For $75 , you will get my Original Comic Journal - \u0027EgoBox!ng\u0027 (45pgs. black \u0026amp; white.) and a signed personalized Art Post Card from yours truly. =D\u003cbr\u003e\u003cbr\u003eAND: \u00a0For $80 - You get\u00a0An Original Commission of Your Choice. \u00a0(Black \u0026amp; White with Some Color, on Paper.)\u003cbr\u003e\u003cbr\u003eThis is my base price for Commissioned Pieces. \u00a0\u003cbr\u003eExamples of these include:\u003cbr\u003e- Customized Illustration of Your Described Idea or chosen Imagery.\u003cbr\u003e- Tattoo Design requests.\u003cbr\u003e- Illustrations based on Text (whether your own or from an Author/ Writer/ Poet you enjoy).\u003cbr\u003e\u003cbr\u003e* This Commission will require a phone or Skype conversation (at very least an email exchange) to hash out just what kind of piece you\u0027d like me to create for you! =D",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-24T01:06:35+00:00",
+     "remaining": 50,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=153383\u0026rid=291022",
+     "user_limit": 50
+    },
+    "id": "291022",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2015-08-24T01:06:35+00:00",
+     "description": "FULL COLOR Commission Piece. \u00a0(Of your chosen description)\u003cbr\u003e\u003cbr\u003eFull Color Pen, Pencil, Ink, Marker, \u0026amp; possibly some charcoal or paint, depending on the requested piece. \u00a0See Details above. \u00a0Appropriate for Illustrations, Tattoo Designs, or other similar mixed media art requests on paper.\u003cbr\u003e\u003cbr\u003e- Plus ! \u00a0Illuminated Manuscript Pieces (Prints, 9\" x 12\") based on characters \u0026amp; Deities from my self-produced play \u0026amp; upcoming Graphic Novel : \"GODS Vs. MEN\".\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-24T01:06:35+00:00",
+     "remaining": 14,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=153383\u0026rid=291023",
+     "user_limit": 15
+    },
+    "id": "291023",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2015-08-24T01:06:35+00:00",
+     "description": "A Small Painting done with Gouache (simply Beautiful opaque paints that are applied in layers. \u00a0Similar to watercolor but much stronger in their painterly application \u0026amp; impact.) \u00a09\" x 12.5\" on sturdy, gouache-friendly paper.\u003cbr\u003e\u003cbr\u003eOriginal Art Pieces will be developed for you to choose from : \u00a0Landscapes , Figural Art, Visionary pieces, Character pieces or subject of your choosing (see below)\u003cbr\u003e\u003cbr\u003eWhat would You like to see me paint? \u00a0- Let\u0027s has it out over Skype, Phone or email. \u00a0=D \u00a0I can\u0027t wait to do my best to give you whatever it is you\u0027d like me to dish out onto high quality gouache-friendly paper for you !\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-24T01:06:35+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=153383\u0026rid=291024",
+     "user_limit": 10
+    },
+    "id": "291024",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2015-08-24T01:06:35+00:00",
+     "description": "An Original Acrylic Painting ! \u00a0Medium sized on Canvas Panel.\u003cbr\u003e\u003cbr\u003e- Choose from assorted original Paintings (to be Produced throughout Campaign) or add $35 for an Original, Commissioned Acrylic Painting of Your Chosen Description / Desired Imagery ~ =D",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-24T01:06:35+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=153383\u0026rid=291025",
+     "user_limit": 10
+    },
+    "id": "291025",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 30000,
+     "amount_cents": 30000,
+     "created_at": "2015-08-24T01:06:35+00:00",
+     "description": "Original Oil / Acrylic \u0026amp; Mixed Media Painting on Wood Panel. \u00a0Medium : 20\" x 18\".\u003cbr\u003e\u003cbr\u003e- Let\u0027s get Artsy ! \u00a0I will create an Original Piece for you, based on a Skype, Phone or email conversation , to get a feel for what I, as the artist ,would like to create - for You ! =D \u00a0( I can\u0027t wait to create this for you, in gratitude for your Generous \u0026amp; Super Helpful gift towards the realization of our Mural \u0026amp; it\u0027s ongoing campaign!)\u003cbr\u003e\u003cbr\u003e* For $50 more, I will throw in a signed Print of the Mural Design in its Entirety. \u00a0See what it will look like when it\u0027s done, with a full color print of my approved design - unframed. \u00a0(For matted / $70 , for framed / $80)\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-24T01:06:35+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=153383\u0026rid=291026",
+     "user_limit": 10
+    },
+    "id": "291026",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2015-08-24T01:06:35+00:00",
+     "description": "Let\u0027s see if we can get one of these turned out for each proposed Section of the Mural ( ! ! ! )\u003cbr\u003e\u003cbr\u003eI am throwing the gauntlet down. \u00a0Gifts of this size would essentially enable me to work on both the Mural and my gift to you , full time for a week or more. \u00a0That\u0027s saying something about your investment in my continuing pursuit of Art , and my ongoing direction from commissioned work to original pieces, to be hung in galleries \u0026amp; sold online. \u00a0\u003cbr\u003e\u003cbr\u003eThank you. \u00a0Thank You. \u00a0Thank YOU.\u003cbr\u003e\u003cbr\u003eYou\u0027ll get a big piece on canvas , high grade paper , or wood panel. \u00a0Your choice. \u00a0I\u0027ll mix up media or just do a painting (acrylic or oil) for You, you generous and tremendous supporter of the Arts (and my ongoing career as an artist).\u003cbr\u003e\u003cbr\u003e* For $50 more - you will receive the Full Color Print of the Approved FOUNDRY MURAL Design as well. \u00a0(see above for framing choices by price.)\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-24T01:06:35+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=153383\u0026rid=291027",
+     "user_limit": 5
+    },
+    "id": "291027",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 54,
+     "created_at": "2015-08-23T03:54:36+00:00",
+     "description": "The 1st Nine-Foot-Wide Section : \u00a0Starting at the left we have the Prehistoric Age ~ \u00a0Lush Redwood forests that vanish into the landscape, populated by Brontosaurus, Iguanadon, Triceratops \u0026amp; Pterodactyls, soaring above the canopy of a single Redwood trunk, which frames the transition into the beginnings of civilization ~ Stone Monuments, Sphinxes , Pyramids \u0026amp; Pillared Temples rise from the deserts, as the sunset gives way to a yet to dawn age ~",
+     "reached_at": null,
+     "title": "($1500 is the Total Goal, to complete this enormous Mural throughout the year) I will execute this 45 ft x 20 ft mural in 9 foot wide sections, for every $300 that is raised towards this campaign ~ =D"
+    },
+    "id": "227864",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 54,
+     "created_at": "2015-08-23T03:54:36+00:00",
+     "description": "Our Second Pillar is represented by a Corinthian Column ~ Emulating the Natural world through Classical (i.e. sacred) Geometry \u0026amp; Sculpted Natural Forms at its base \u0026amp; apex. \u00a0The sky above holds Lyres , Harps \u0026amp; long brass trumpets ~ the early music of an emerging awareness. \u00a0Philosophy, Mathematics, Theatre \u0026amp; the Arts coalesce into Temples below as a falcon soars above the sunset ~ The Library of Alexandria fades into mythic status, as plumes rise from it, in the distance ~ An Age Falls, giving way to a New World to come ~",
+     "reached_at": null,
+     "title": "The 2nd Pillar (or 9 foot section) :  the beginnings of \u0027society\u0027 ~"
+    },
+    "id": "227865",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 54,
+     "created_at": "2015-08-23T03:54:36+00:00",
+     "description": "The Third Pillar of the Foundry\u0027s wall will give way to the vast underground network of maze-like pipes as we enter the Engineer-led age of Industry and Progress. \u00a0Ships along the River below our mural hoist massive sails in exploration of the New World (i.e. setting out to conquer far off, ancient cultures). \u00a0Steel and Iron give way to Rust and green Oxidation, as the newness of Industry gives way to the Elements, and their structures erode \u0026amp; decay, over mere decades of time. \u00a0The rivers become green, brown, and red as does the sky, now filled with emanations of Incinerators, Smokestacks, and Power Plants. \u00a0Above - a Wright Brothers style bi-plane soars away, giving hope to the progress touted by these times of great expansion \u0026amp; mechanization. \u00a0The world holds hope, as it heaves forward - towards Progress !",
+     "reached_at": null,
+     "title": "The 3rd Pillar:  The Iron \u0026amp; Steel Piping of the Post-Enlightenment \u0026amp; Modern Era ~"
+    },
+    "id": "227866",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 54,
+     "created_at": "2015-08-23T03:54:36+00:00",
+     "description": "In the Fourth Pillar of the Foundry 2.0\u0027s exterior wall, we come into the 20th Century, in Full Global Swing ! \u00a0Jazz trumpets, Saxophones, as well as Acoustic Guitars, Banjos and the beginnings of Electrified Music populate the Rising Cities, whose Towering Canyons (as described in prophecies past) hoist mankind into the skies. \u00a0Blinking skylines of antennae give rise to Satellites, who join with the fading stars to map a network of radio-waves \u0026amp; broadcast communication unlike anything the Earth has every seen ~ \u00a0And the Jetliner growls, hoisting itself into the sky, it\u0027s globe-trotting mechanics enabling World Travel - as the Electric Guitar emerges to Wail our way into an ever more complex, Rocking \u0026amp; eventually, post-industrial Future ~",
+     "reached_at": null,
+     "title": "The Fourth Pillar: A Skyscraper with Antennaes Rising High into the Night Sky ~"
+    },
+    "id": "227867",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 54,
+     "created_at": "2015-08-23T03:54:36+00:00",
+     "description": "The Electric Guitar expands our Wired, cable-spaghetti of a loosely connected, ever more Electrified Age. \u00a0Wiring gives way to Circuitry, which overtakes the entirety of our plane of view, until Rockets, Space Shuttles \u0026amp; Satellites overtake our Sky - and the wiring \u0026amp; micro-circuitry of the Age of Media gives way to the Turntable, Sampler \u0026amp; Microphone. \u00a0A new possibility emerges from the chaos. \u00a0Unpredictable and yet Natural in it\u0027s captivation of our Ages\u0027 ever more interconnected, self-referential Collective Imaginations ~ \u00a0We Enter the workshop of the Foundry as craftsmen, makers, musicians \u0026amp; producers: \u00a0pioneers of the Precipice. \u00a0Surveying the Past, to usher in what lies Beyond ~",
+     "reached_at": null,
+     "title": "The Doorway to Now \u0026amp; Beyond ~  (The Foundry 2.0\u0027s Front Door \u0026amp; Mezzanine Window Wall)"
+    },
+    "id": "227868",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 54,
+     "created_at": "2015-08-23T03:54:36+00:00",
+     "description": "What lies ahead? \u00a0A return to the Green-ness of our Lush Landscapes \u0026amp; Rivers, congealing within and around our rebuilt city landscapes with Crystal-like structures of reflective steel \u0026amp; glass. \u00a0The solar panel \u0026amp; green roof covered Skyline is peppered with Urban Forestry, as the Garden overtakes the City, one citizen at a time. \u00a0With Speakers blaring the combined sounds of digital music and analog Percussion, Sampling pads and the Tree of Rhythm drives us along cascading hills, vanishing into the setting Sun of yet another new Era ~",
+     "reached_at": null,
+     "title": "The Crystal Green Waters of the River, and the Sustainable \u0026amp; Re-Greened Cities of the Forward-thinking Future ~"
+    },
+    "id": "227869",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/153383"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "44fccfe9-d637-462b-a3cf-c383d83a8836",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Djo is creating A Mural For the Foundry 2.0"
+});
+    </script>

@@ -1,0 +1,418 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "iGEmydl2fzTRqDJ3GDNOt5_qHqRnEWsKmjkhpgR-eA8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "652350",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/652350"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-12-02T20:55:13+00:00",
+    "creation_name": "A novel",
+    "display_patron_goals": true,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1370756/312b71aee8844cfbbf195b29e4b68803?token-time=2145916800\u0026token-hash=2lSe1iTkDBfJtHg9ckaWLUU7JutIHY5L6fPGGqDWuPQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1370756/312b71aee8844cfbbf195b29e4b68803?token-time=2145916800\u0026token-hash=252ZiKKfu_Fju72WuFAIa6JDd6Neam9PURhzOgeIv4k%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_sum": 6395,
+    "pledge_url": "/bePatron?c=1370756",
+    "published_at": "2017-12-02T21:26:44+00:00",
+    "summary": "\u003cem\u003eTough Love at Mystic Bay\u003c/em\u003e is a novel that I have been writing since November, 2015. At age 14, Grace is kidnapped by 2 men in the middle of the night and taken to a behavior modification facility in Northern Minnesota. After she attempts to escape, she is sent to a facility in the Dominican Republic where students are kept in dog cages, deprived of food and subject to brutal physical assaults. The story weaves together her perspective as an adult dealing with the long-term effects of this experience with her perspective as a teenage girl surviving in a dark, surreal and violent world. As an adult, Grace is a brilliant chef who only has time for work and Brazilian jiu-jitsu. Her only friends are on an internet forum for survivors of behavior modification programs. Though she longs for friendship, she struggles to trust the people in her life. This novel is about her struggle to unlearn harsh lessons and rediscover friendship. The novel is over 300 pages long and is about 65% finished.\u00a0\u003cbr\u003e\u003cbr\u003eI am a talented writer with many great works of literature to offer the world. The only thing standing between me and success is time. Fortunately, you can buy time for me! Get in on the ground floor now and when my books become bestsellers, you will have a charming anecdote to share at dinner parties, not to mention the noble designation as patron of the literary arts!\u003cbr\u003e"
+   },
+   "id": "1370756",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8686997",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8686997"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1038581",
+       "type": "goal"
+      },
+      {
+       "id": "1038582",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "55519",
+       "type": "patron_goal"
+      },
+      {
+       "id": "55520",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2187439",
+       "type": "reward"
+      },
+      {
+       "id": "2187445",
+       "type": "reward"
+      },
+      {
+       "id": "2187449",
+       "type": "reward"
+      },
+      {
+       "id": "2187454",
+       "type": "reward"
+      },
+      {
+       "id": "2187464",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-12-02T20:55:02+00:00",
+     "facebook": "https://www.facebook.com/elizabeth.sowden",
+     "first_name": "Elizabeth",
+     "full_name": "Elizabeth Sowden",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/8686997/fc73746e857844e5a8ae043dc36da636?token-time=2145916800\u0026token-hash=Ac8RLboRmdZf3MDz9-zUb-gPISlHyZRUkqJfmkUlo1I%3D",
+     "last_name": "Sowden",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/8686997/fc73746e857844e5a8ae043dc36da636?token-time=2145916800\u0026token-hash=VwFoJQYrfPS6BgQQ40HOp-wqJKK_653cowXFBPpaVa0%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/elizabethsowden",
+     "vanity": "elizabethsowden",
+     "youtube": null
+    },
+    "id": "8686997",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1370756",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1370756"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-12-02T21:06:44.041589+00:00",
+     "description": "For $10, I will send you a handwritten, 100-word story starring you!",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-02T21:06:44.041589+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-02T21:06:44.041589+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "100 Word Story",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1370756\u0026rid=2187439",
+     "user_limit": null
+    },
+    "id": "2187439",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-12-02T21:07:58.393764+00:00",
+     "description": "For $20, I will help you edit a document of up to 500 words.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-02T21:07:58.393764+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-02T21:07:58.393764+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Editing Help",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1370756\u0026rid=2187445",
+     "user_limit": null
+    },
+    "id": "2187445",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-12-02T21:09:08.975125+00:00",
+     "description": "I will send you a signed copy once the book hits store shelves!",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-02T21:09:08.975125+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-02T21:09:08.975125+00:00",
+     "remaining": 99,
+     "requires_shipping": true,
+     "title": "Signed Copy",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1370756\u0026rid=2187449",
+     "user_limit": 100
+    },
+    "id": "2187449",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2017-12-02T21:10:38.557249+00:00",
+     "description": "Be the first to pledge $200 and I will name a character after you.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-02T21:10:38.557249+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-02T21:10:38.557249+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Put Yourself in the Story",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1370756\u0026rid=2187454",
+     "user_limit": 1
+    },
+    "id": "2187454",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500000,
+     "amount_cents": 1500000,
+     "created_at": "2017-12-02T21:15:35.383077+00:00",
+     "description": "I am a professional copywriter. If you pledge at this level, I will assist you with your writing and editing needs for one year.",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-02T21:16:10.940915+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-02T21:16:10.924588+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "Unlimited editing or copywriting help",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1370756\u0026rid=2187464",
+     "user_limit": 3
+    },
+    "id": "2187464",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 6,
+     "created_at": "2017-12-02T21:22:44+00:00",
+     "description": "When I reach $1,000 per month, I will begin sending out newsletters containing helpful hints on how to improve your writing skills.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1038581",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 2,
+     "created_at": "2017-12-02T21:22:44+00:00",
+     "description": "When I reach $3,000 per month, I will begin hosting private 1-hour chat sessions with patrons interested in chatting about writing.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1038582",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-12-06T16:54:36+00:00",
+     "deleted_at": null,
+     "description": "When I reach 100 patrons, I will begin sending out newsletters containing helpful hints on how to improve your writing skills.",
+     "goal_text": "When I reach 100 patrons, I will begin sending out newsletters containing helpful hints on how to improve your writing skills.",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "55519",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-12-06T16:54:36+00:00",
+     "deleted_at": null,
+     "description": "When I reach 300 patrons, I will begin hosting private 1-hour chat sessions with patrons interested in chatting about writing.",
+     "goal_text": "When I reach 300 patrons, I will begin hosting private 1-hour chat sessions with patrons interested in chatting about writing.",
+     "number_patrons": 300,
+     "reached_at": null
+    },
+    "id": "55520",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1370756"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "52c45cd5-ce9b-4982-83d5-b24442683622",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Elizabeth Sowden is creating A novel"
+});
+    </script>

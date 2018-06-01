@@ -1,0 +1,383 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "HV3zR6JvAkYG2v2Ux3dFC3gxzDZZ3mpnF2qMwYYEnKw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "845529",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/845529"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-03-18T17:43:44+00:00",
+    "creation_name": "Campaign Mods for Warhammer II ",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI0IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1620402/e89244b96b1c4da39f0f461d8c33634c?token-time=2145916800\u0026token-hash=Srz_a58ruPHgs6qANr29v6gdl_izUnE4XZDyZjDQ-II%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNCJ9/patreon-media/campaign/1620402/e89244b96b1c4da39f0f461d8c33634c?token-time=2145916800\u0026token-hash=SNs348cr3OA4i4ht3pyNYa7WrLKTrvgw0pVz7v9GbcA%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 12,
+    "pay_per_name": "month",
+    "pledge_sum": 2555,
+    "pledge_url": "/bePatron?c=1620402",
+    "published_at": "2018-03-19T03:22:24+00:00",
+    "summary": "Hey all! I go by Drunk Flamingo and I create script heavy mods for the Total War Series. Right now I focus on Warhammer II.\u003cbr\u003e\u003cbr\u003eMy work includes\u00a0\u003cstrong\u003eRunic Forge\u003c/strong\u003e, which adds a Rune Crafting mechanic to the Dwarves; \u003cstrong\u003eEmpire of Man\u003c/strong\u003e, a full political system for the Empire;\u00a0\u003cstrong\u003eBook of Grudges: Reforged, \u003c/strong\u003ea rework to the Book of Grudges mechanic;\u00a0and the scripting side of Vandy\u0027s \u003cstrong\u003eOld World Rites\u003c/strong\u003e, which extends the Rites mechanic from the Warhammer II races to the Old World and is being integrated into Steel Faith Overhaul. I\u0027ve also worked on additions to Crynsos\u0027s \u003cstrong\u003eCommunity Scripting Framework\u003c/strong\u003e\u00a0and I am generally active in helping out aspiring and established modders on the\u00a0\u003ca href=\"https://discord.gg/yyYv3tC\"\u003eC\u0026amp;C modding discord\u003c/a\u003e, run by Cataph and Crynsos.\u003cbr\u003e\u003cbr\u003eI will populate this blog with updates on my current work, previews of future releases, beta testing opportunities, opinion polls and other content related to my mods. If you\u0027re a fan of my work, you should consider following this patreon regardless of whether you donate, as its the fastest way to hear about major updates and new mod releases.\u00a0\u003cbr\u003e\u003cbr\u003eThese general guidelines should sum up what I believe fairly nicely:\u003cbr\u003e\u003col\u003e\u003cli\u003eI believe all mods should be free. On Patreon, I ask for support, not payment.\u003c/li\u003e\u003cli\u003eI believe that the best mods are those that create new layers to gameplay. I try to avoid just changing what already exists; I try to create something new.\u003c/li\u003e\u003cli\u003eI believe that compatibility is the best way to make good mods. I can\u0027t create everything on my own, so my mods will always strive to fit into a work seamlessly with the best of the steam workshop.\u00a0\u003c/li\u003e\u003cli\u003eFinally, I believe that modding knowledge ought to be communal. I couldn\u0027t have taught myself Lua and produced as much as I have without the help of others, so I always try to help new modders get off the ground and offer my specific expertise to improve other mods.\u003c/li\u003e\u003c/ol\u003e\u003cbr\u003e\u003ca href=\"https://www.patreon.com/vandymods\" target=\"_blank\"\u003eAs a final note, many of my mods are cooperatively made with Vandy, whose Patreon you can find here.\u003c/a\u003e While I create scripts and systems for our mods, Vandy does the hard work of creating the seemingly endless database files upon which they all run, as well as doing much of the balancing and having an equal part in designing them. If you\u0027re feeling generous, I\u0027d very much appreciate you giving his patreon a look; without his work many of my mods simply would not exist.\u003cbr\u003e\u003cbr\u003eIf you decide to support me, I thank you immensely. If you don\u0027t, that\u0027s okay too. My mods will always be free for everyone, and I hope many more people enjoy them than are able to donate. \u003cbr\u003eA big thank you to anyone who decides to support, but also to\u00a0\u003ca href=\"https://www.patreon.com/CataphTW\" target=\"_blank\"\u003eCataph\u003c/a\u003e and\u00a0\u003ca href=\"https://www.patreon.com/Crynsos\" target=\"_blank\"\u003eCrynsos\u003c/a\u003e for running the best modding discord in the community; and to Alexandra, for contributing so much of the art that livens up me and Vandy\u0027s mods.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "1620402",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "104286",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/104286"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1145151",
+       "type": "goal"
+      },
+      {
+       "id": "1145716",
+       "type": "goal"
+      },
+      {
+       "id": "1157679",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1620402",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1620402"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2457909",
+       "type": "reward"
+      },
+      {
+       "id": "2457939",
+       "type": "reward"
+      },
+      {
+       "id": "2457947",
+       "type": "reward"
+      },
+      {
+       "id": "2457972",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2014-03-13T16:55:00+00:00",
+     "facebook": null,
+     "first_name": "Drunk",
+     "full_name": "Drunk Flamingo",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiNiIsInciOjIwMH0%3D/patreon-media/user/104286/758acbf960aa420e8ccb93d217cc766a?token-time=2145916800\u0026token-hash=Vw_gyJuR3iFNLxy2VrxDAFX9VyuaOK0R3kkRzvIN9MQ%3D",
+     "last_name": "Flamingo",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiI2IiwidyI6MTAwfQ%3D%3D/patreon-media/user/104286/758acbf960aa420e8ccb93d217cc766a?token-time=2145916800\u0026token-hash=3WjhINx2ALlKTpB5AIE1kdBtvqMWPyD7cZXlo-hMqjg%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/drunkflamingo",
+     "vanity": "drunkflamingo",
+     "youtube": null
+    },
+    "id": "104286",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1620402",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1620402"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 9,
+     "upgrade_url": "/bePatron?c=1620402\u0026rid=2457909"
+    },
+    "id": "post-aggregation-for-0-1620402",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-03-19T01:20:51.470271+00:00",
+     "description": "Thanks for the support! \u003cbr\u003e\n\u003cbr\u003e\nThis tier will give you access to the development previews and blogs.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-19T01:27:29.034511+00:00",
+     "image_url": null,
+     "patron_count": 9,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-03-19T01:27:29.027516+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1620402\u0026rid=2457909",
+     "user_limit": null
+    },
+    "id": "2457909",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-03-19T01:32:50.402410+00:00",
+     "description": "Thanks for the support!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThis tier will give you access to everything in the previous tiers, plus\u003cstrong\u003e early access to beta testing\u003c/strong\u003e and some \u003cstrong\u003epreviews of the more experimental content\u003c/strong\u003e I work on.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYes, that includes when I mess things up and make funny glitches.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-19T01:37:42.309702+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-19T01:37:42.300134+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1620402\u0026rid=2457939",
+     "user_limit": null
+    },
+    "id": "2457939",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-03-19T01:36:55.137258+00:00",
+     "description": "Thanks for the support!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThis tier will give you access to everything in the previous tiers, plus a personal, prominent \u003cstrong\u003e\"thank you\"\u003c/strong\u003e on the mod page of your choosing.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-19T01:52:23.954733+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-19T01:52:23.947758+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1620402\u0026rid=2457947",
+     "user_limit": null
+    },
+    "id": "2457947",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1600,
+     "amount_cents": 1600,
+     "created_at": "2018-03-19T01:51:47.629894+00:00",
+     "description": "Thanks for your support!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThis tier will give you access to everything in the previous tiers, plus access to\u003cstrong\u003e development brainstorming sessions\u003c/strong\u003e for any new projects.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eI couldn\u0027t be happier for support at this level -- this reward gives you the opportunity to pitch ideas, give your opinions and be heard. It \u003cem\u003edoesn\u0027t\u003c/em\u003e necessarily mean your ideas will always be created, but it does give you access and input to the early development of my work.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-19T01:54:57.570422+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-19T01:54:57.563484+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Cheers!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1620402\u0026rid=2457972",
+     "user_limit": null
+    },
+    "id": "2457972",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 17,
+     "created_at": "2018-03-19T02:19:48+00:00",
+     "description": "Being able to make money off of something you enjoy is rare, so if I could reach this goal, it would make me extremely grateful.\u003cbr\u003eMy mods will always be free, but getting some extra spending money towards my expenses would justify the many hours I put into modding. \u003cbr\u003e\u003cbr\u003e\u003cbr\u003eIn the long term, sustained income at this rate could easily finance some formal programming training. I learned to script because I enjoy Total War and wanted to make it better, but programming has become a great interest of mine and with your support, I hope it could become more than a hobby. Regardless of whether this ends up being something I do for life, I guarantee you that more experience would only improve my mods.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1145151",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000,
+     "completed_percentage": 100,
+     "created_at": "2018-03-19T17:21:13+00:00",
+     "description": "I\u0027d let to get my Patreon off the ground. I have a lot of ambitions for future mods, and having a way to support the time investment required to make them would be very cool!",
+     "reached_at": "2018-03-30T23:07:39+00:00",
+     "title": ""
+    },
+    "id": "1145716",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3000,
+     "completed_percentage": 85,
+     "created_at": "2018-03-31T22:14:52+00:00",
+     "description": "Not much a milestone, but it\u0027s around here that modding would cover my monthly electricity bills. \u003cbr\u003e\u003cbr\u003eThat\u0027s pretty cool if you ask me.",
+     "reached_at": "2018-04-07T03:29:00+00:00",
+     "title": ""
+    },
+    "id": "1157679",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1620402"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "12ee9059-b4a6-446f-9b3b-441bcf16459e",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Drunk Flamingo is creating Campaign Mods for Warhammer II "
+});
+    </script>

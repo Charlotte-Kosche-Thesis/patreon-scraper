@@ -1,0 +1,833 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "as2Tm6bTTDJ2z_trSBfIgWY4CLjigPMqok0FssJSPYM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "534808",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/534808"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-08-04T21:03:50+00:00",
+    "creation_name": "Stories",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 2303,
+    "pledge_url": "/bePatron?c=1143166",
+    "published_at": "2017-08-04T22:18:19+00:00",
+    "summary": "Thank you for coming here!\u003cbr\u003e\u003cbr\u003eI\u0027m really happy you like my work! Or that a random wiki-walk led you to my work. Or that you googled something that was kind of similar to my name/work/etc.\u00a0\u003cbr\u003e\u003cbr\u003eEvery little bit counts, and don\u0027t worry if you can\u0027t spare some digital change right now, I\u0027ll make everything freely accessible for everyone eventually.\u003cbr\u003e\u003cbr\u003eHave a good day!\u003cbr\u003e"
+   },
+   "id": "1143166",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7192343",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7192343"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "924356",
+       "type": "goal"
+      },
+      {
+       "id": "924357",
+       "type": "goal"
+      },
+      {
+       "id": "924358",
+       "type": "goal"
+      },
+      {
+       "id": "924359",
+       "type": "goal"
+      },
+      {
+       "id": "924360",
+       "type": "goal"
+      },
+      {
+       "id": "924361",
+       "type": "goal"
+      },
+      {
+       "id": "924362",
+       "type": "goal"
+      },
+      {
+       "id": "924363",
+       "type": "goal"
+      },
+      {
+       "id": "924364",
+       "type": "goal"
+      },
+      {
+       "id": "924365",
+       "type": "goal"
+      },
+      {
+       "id": "924366",
+       "type": "goal"
+      },
+      {
+       "id": "924367",
+       "type": "goal"
+      },
+      {
+       "id": "924368",
+       "type": "goal"
+      },
+      {
+       "id": "924369",
+       "type": "goal"
+      },
+      {
+       "id": "924370",
+       "type": "goal"
+      },
+      {
+       "id": "924371",
+       "type": "goal"
+      },
+      {
+       "id": "924372",
+       "type": "goal"
+      },
+      {
+       "id": "924373",
+       "type": "goal"
+      },
+      {
+       "id": "924374",
+       "type": "goal"
+      },
+      {
+       "id": "924375",
+       "type": "goal"
+      },
+      {
+       "id": "924376",
+       "type": "goal"
+      },
+      {
+       "id": "924377",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1900554",
+       "type": "reward"
+      },
+      {
+       "id": "1900553",
+       "type": "reward"
+      },
+      {
+       "id": "1900551",
+       "type": "reward"
+      },
+      {
+       "id": "1900555",
+       "type": "reward"
+      },
+      {
+       "id": "1900552",
+       "type": "reward"
+      },
+      {
+       "id": "1900549",
+       "type": "reward"
+      },
+      {
+       "id": "1900627",
+       "type": "reward"
+      },
+      {
+       "id": "1900628",
+       "type": "reward"
+      },
+      {
+       "id": "1900550",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-08-04T21:03:30+00:00",
+     "facebook": null,
+     "first_name": "Eager",
+     "full_name": "Eager Question",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c8.patreon.com/2/400/7192343",
+     "last_name": "Question",
+     "thumb_url": "https://c8.patreon.com/2/100/7192343",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/EagerQuestion",
+     "vanity": "EagerQuestion",
+     "youtube": null
+    },
+    "id": "7192343",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1143166",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1143166"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-08-04T21:44:11.403878+00:00",
+     "description": "You get to read my things knowing that I think YOU ARE AWESOME and I am VERY THANKFUL FOR YOUR HELP.\u00a0\u003cbr\u003e\u003cbr\u003eAlso, people occasionally ask questions about stories, and it\u0027s a tossup whether I see them and/or can answer them. With this, you have an answer to ANY ONE SPECIFIC QUESTION about ANY ONE SPECIFIC STORY guaranteed. For every month you do it.\u00a0\u003cbr\u003e\u003cbr\u003eIt\u0027s 1 dollar for the first 15 people.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-04T21:44:11.403878+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-04T21:44:11.403878+00:00",
+     "remaining": 15,
+     "requires_shipping": false,
+     "title": "Early Bird Loaded Dice",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143166\u0026rid=1900554",
+     "user_limit": 15
+    },
+    "id": "1900554",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-08-04T21:44:11.382020+00:00",
+     "description": "\u003cdiv\u003eYou get to read my things knowing that I think YOU ARE AWESOME and I am VERY THANKFUL FOR YOUR HELP. \u003cbr\u003e\u003cbr\u003eAlso, people occasionally ask questions about stories, and it\u0027s a tossup whether I see them and/or can answer them. With this, you have an answer to ANY ONE SPECIFIC QUESTION about ANY ONE SPECIFIC STORY guaranteed. For every month you do it.\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-04T21:44:11.382020+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-04T21:44:11.382020+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Loaded Dice",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143166\u0026rid=1900553",
+     "user_limit": null
+    },
+    "id": "1900553",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-04T21:44:11.333973+00:00",
+     "description": "You will get my love and appreciation and also, you have a guaranteed answer to ANY ONE SPECIFIC QUESTION for EVERY STORY YOU WANT TO ASK ABOUT.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-04T21:44:11.333973+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-04T21:44:11.333973+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "SUPER Loaded Dice",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143166\u0026rid=1900551",
+     "user_limit": null
+    },
+    "id": "1900551",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-08-04T21:44:11.406488+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eGuaranteed answer for any question of every story\u003c/li\u003e\u003cli\u003eYou get to suggest a story and I will (eventually) write it*.\u003c/li\u003e\u003c/ul\u003e* Keep it PG, and the product will be \u0026gt;10 pages unless I really get into it for some reason.",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-04T22:17:00.649719+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-04T21:44:11.406488+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Personalized Story",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143166\u0026rid=1900555",
+     "user_limit": null
+    },
+    "id": "1900555",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-08-04T21:44:11.384753+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eGuaranteed answer for any question of every story.\u003c/li\u003e\u003cli\u003eYou get to suggest a story and I will (eventually) write it*.\u003c/li\u003e\u003c/ul\u003e*You don\u0027t have to keep it PG, and will be sent the story personally. The product will be \u0026lt;10 pages unless I really get into it for some reason. You are free to share the story if you want.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-04T21:44:11.384753+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-04T21:44:11.384753+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Personalized Story EXTREME",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143166\u0026rid=1900552",
+     "user_limit": null
+    },
+    "id": "1900552",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-04T21:44:11.328353+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eGuaranteed answer for any question of every story.\u003c/li\u003e\u003cli\u003eYou get to suggest TWO stories and I will (eventually) write them*.\u003c/li\u003e\u003c/ul\u003e*You don\u0027t have to keep it PG, and will be sent the stories personally. The product will be \u0026lt;10 pages unless I really get into it for some reason. You are free to share the story if you want.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-04T21:44:11.328353+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-04T21:44:11.328353+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Personalized Story EXTREME + 2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143166\u0026rid=1900549",
+     "user_limit": null
+    },
+    "id": "1900549",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2017-08-04T22:17:00.531873+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to all of the google-docs of stories (completed or partially written) that I have, independently of whether or not they\u0027re published or will ever be published online.\u003c/li\u003e\u003cli\u003eGuaranteed answer for any question of every story.\u003c/li\u003e\u003cli\u003eYou get to suggest TWO stories and I will (eventually) write them*.\u003c/li\u003e*You don\u0027t have to keep it PG, and will be sent the stories personally. The product will be \u0026lt;10 pages unless I really get into it for some reason. You are free to share the story if you want.\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-04T22:17:00.531873+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-04T22:17:00.531873+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "VIP ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143166\u0026rid=1900627",
+     "user_limit": null
+    },
+    "id": "1900627",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6500,
+     "amount_cents": 6500,
+     "created_at": "2017-08-04T22:17:00.584106+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAll previous rewards\u003c/li\u003e\u003cli\u003eAND the ability to comment on EVERY ONE of the google-doc unpublished stories.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-04T22:17:00.584106+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-04T22:17:00.584106+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "VIP +",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143166\u0026rid=1900628",
+     "user_limit": null
+    },
+    "id": "1900628",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 8500,
+     "amount_cents": 8500,
+     "created_at": "2017-08-04T21:44:11.330708+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAll previous rewards AND a guarantee that I will get around to your stories within a month of you suggesting them.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-04T22:17:00.669252+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-04T21:44:11.330708+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "RICH PERSON\u0027S GUARANTEE",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143166\u0026rid=1900550",
+     "user_limit": null
+    },
+    "id": "1900550",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2000,
+     "completed_percentage": 100,
+     "created_at": "2017-08-04T22:08:06+00:00",
+     "description": "Monthly pizza!",
+     "reached_at": "2017-08-13T03:04:39+00:00",
+     "title": ""
+    },
+    "id": "924356",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 46,
+     "created_at": "2017-08-04T22:08:06+00:00",
+     "description": "I get to eat good food at the university cafeteria 2/4 weeks every month.",
+     "reached_at": "2017-11-22T11:28:08+00:00",
+     "title": ""
+    },
+    "id": "924357",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 30,
+     "created_at": "2017-08-04T22:08:06+00:00",
+     "description": "I get to eat good food at the university cafeteria 3/4 weeks every month.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924358",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 23,
+     "created_at": "2017-08-04T22:08:06+00:00",
+     "description": "All of my weekday food needs are covered.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924359",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 15,
+     "created_at": "2017-08-04T22:08:06+00:00",
+     "description": "All of my weekday and weeknight food needs are covered.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924360",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 17500,
+     "completed_percentage": 13,
+     "created_at": "2017-08-04T22:08:06+00:00",
+     "description": "I can just... eat. Without worrying about the budget.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924361",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 11,
+     "created_at": "2017-08-04T22:08:06+00:00",
+     "description": "This pays for both my food and my medicine.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924362",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 9,
+     "created_at": "2017-08-04T22:08:06+00:00",
+     "description": "Cost of food+meds+miscellaneous is covered, and every 9 months I get 1 month of rent from this.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924363",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 7,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "Cost of\u00a0Cost of food+meds+miscellaneous is covered, and every 5 months I get 1 month of rent from this.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924364",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 35000,
+     "completed_percentage": 6,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "Cost of Cost of food+meds+miscellaneous is covered, and every 3 months I get 1 month of free rent from this.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924365",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 5,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "All of my food and other needs are covered and I get to pay one month of rent out of this every 2.5 months.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924366",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 45000,
+     "completed_percentage": 5,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "All of my food and other needs are covered and I get to pay one month of rent out of this every 2 months.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924367",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 4,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "All of my food and other needs are covered and I get to pay one month of rent out of this every 1.5 months.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924368",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 3,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "All of my food and other needs are covered and I get to pay rent with this monthly while barely dipping into my emergency fund.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924369",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 65000,
+     "completed_percentage": 3,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "All of my food and other needs are covered, and I get to pay rent with this.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924370",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 70000,
+     "completed_percentage": 3,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "All of my food and other needs are covered, and I get to pay rent with this. Also, every 10 months this pays for one of my university courses.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924371",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 75000,
+     "completed_percentage": 3,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "All of my food and other needs are covered, and I get to pay rent with this. Also, every 5 months this pays for one of my university courses.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924372",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 80000,
+     "completed_percentage": 2,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "All of my food and other needs are covered, and I get to pay rent with this. Also, every 3.6 months this pays for one of my university courses.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924373",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 85000,
+     "completed_percentage": 2,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "All of my food and other needs are covered, and I get to pay rent with this. Also, every 3.3 months this pays for one of my university courses.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924374",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 90000,
+     "completed_percentage": 2,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "All of my food and other needs are covered, and I get to pay rent with this. Also, every 2 months this pays for one of my university courses.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924375",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 2,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "All of my food and other needs are covered, and I get to pay rent with this. Also, every 1.6 months this pays for one of my university courses.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924376",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 115000,
+     "completed_percentage": 2,
+     "created_at": "2017-08-04T22:08:07+00:00",
+     "description": "All of my food and other needs are covered, I get to pay rent with this, and every month pays for a university course.\u003cbr\u003e\u003cbr\u003eAlso I throw some sort of big online party or something because I really really doubt this will ever happen and if it does I can reasonably expect to pay my student debt with this and some part-time work on top within \u0026lt;5 years, which would be AWESOME.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "924377",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1143166"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "4a9c1e94-e9d8-43fd-b3aa-1a4c46ceb120",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Eager Question is creating Stories"
+});
+    </script>

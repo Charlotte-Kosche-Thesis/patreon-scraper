@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "cdlZUbgjTb3jUk8zeog29SjHuoFnFKeUfmDdw96T16Y";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "661992",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/661992"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-11-18T23:13:41+00:00",
+    "creation_name": "Film photography and art",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1342999/d93b3cfb4fe44f3caabaf25732f858ae?token-time=2145916800\u0026token-hash=1gTruiOlm4ALxpsWHrDgohrm8tniVM8sbqLhX-QouAQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1342999/d93b3cfb4fe44f3caabaf25732f858ae?token-time=2145916800\u0026token-hash=8Y2gLbOORwLZiwoMYBaQvf3h_4L0NlYzMH-rELKm2ok%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 11,
+    "pay_per_name": "month",
+    "pledge_sum": 4625,
+    "pledge_url": "/bePatron?c=1342999",
+    "published_at": "2017-12-11T19:55:16+00:00",
+    "summary": "I am a film photographer based in Seattle, WA!\u00a0\u003cbr\u003e\u003cbr\u003eI take photos of women (or women identifying) to create confidence within them and to capture their personalities and essence on film. In the past I have made art exploring themes of feminism and intimacy, through realistic imagery shot in domestic settings. I also have a passion for nature and animals and have always loved to include that in my work.\u00a0\u003cbr\u003e\u003cbr\u003eI shoot most of my work currently on my Mamiya using primarily 120 color film. My aesthetic is typically very dark and moody while at the same time extremely colorful. I love to create images that are reminiscent of classical paintings that also reject the male gaze. I find that film is absolutely essential to this style and trying to make art with a digital camera makes my images fall very flat.\u00a0\u003cbr\u003e\u003cbr\u003eIn an ideal world I would love to be making money doing boudoir and artistic portrait sessions on film. To continue to be able to create more art I am asking for your help! Any contribution would help immensely to paying for film and developing costs (a box of Kodak Portra 800 costs $50 not including the cost of development). Any contribution would also help tremendously in my venture to move to Seattle in the upcoming months.\u00a0\u003cbr\u003e"
+   },
+   "id": "1342999",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "6945327",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/6945327"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1028740",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1342999",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1342999"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2164172",
+       "type": "reward"
+      },
+      {
+       "id": "2164179",
+       "type": "reward"
+      },
+      {
+       "id": "2164183",
+       "type": "reward"
+      },
+      {
+       "id": "2164192",
+       "type": "reward"
+      },
+      {
+       "id": "2164197",
+       "type": "reward"
+      },
+      {
+       "id": "2164200",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-07-17T20:38:56+00:00",
+     "facebook": "https://www.facebook.com/ericasterlingphotography",
+     "first_name": "Erica",
+     "full_name": "Erica Sterling",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/6945327/d4f9904ba1cb4290bbda673400fc9a52?token-time=2145916800\u0026token-hash=-hM0CzTLqlVOYauvdAqBTc_OxQkJYvae3ATIeyQ3viU%3D",
+     "last_name": "Sterling",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/6945327/d4f9904ba1cb4290bbda673400fc9a52?token-time=2145916800\u0026token-hash=d8FTPtGtXdjCrKRKvT-0bx-5mbR_bHu8tZhUzUelYco%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/ericasterlingphotography",
+     "vanity": "ericasterlingphotography",
+     "youtube": null
+    },
+    "id": "6945327",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1342999",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1342999"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 8,
+     "upgrade_url": "/bePatron?c=1342999\u0026rid=2164172"
+    },
+    "id": "post-aggregation-for-0-1342999",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-11-22T01:33:48.176364+00:00",
+     "description": "Access to behind the scenes images and updates,\u00a0\n\u003cp\u003ePatron ONLY content\u003c/p\u003e\n\u003cp\u003eMy sincerest gratitude!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-11T20:14:38.263556+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-12-11T20:14:38.235710+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "$1 or more",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1342999\u0026rid=2164172",
+     "user_limit": null
+    },
+    "id": "2164172",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-11-22T01:37:37.434285+00:00",
+     "description": "Uncensored images posted directly to Patreon\n\u003cp\u003eBehind the scenes videos\u003c/p\u003e\n\u003cp\u003eChance to win a 4x6 photo of mine (one $5 patron will win each month)\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll previous rewards!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-12T17:24:34.863814+00:00",
+     "image_url": null,
+     "patron_count": 9,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-12T17:24:34.843115+00:00",
+     "remaining": 21,
+     "requires_shipping": false,
+     "title": "$5 or more",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1342999\u0026rid=2164179",
+     "user_limit": 30
+    },
+    "id": "2164179",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-22T01:39:05.380386+00:00",
+     "description": "A hand made thank you note will be sent to you every month!\u00a0\n\u003cp\u003eChance to win a 4x6 photo of mine (one $10 patron will win each month)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll previous rewards!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-12T17:24:52.254383+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-12T17:24:52.231929+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "$10 or more",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1342999\u0026rid=2164183",
+     "user_limit": null
+    },
+    "id": "2164183",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-11-22T01:44:08.542253+00:00",
+     "description": "Video of me once a month showing film editing before and afters, loading film into the camera, showing the film scan process, different art experiments, and different surprises every month!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA surprise 4x6 print of mine will be sent to you every month (or a polaroid)!\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll previous rewards!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-12T17:25:07.385734+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-12T17:25:07.359981+00:00",
+     "remaining": 15,
+     "requires_shipping": false,
+     "title": "$20 or more",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1342999\u0026rid=2164192",
+     "user_limit": 15
+    },
+    "id": "2164192",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-11-22T01:46:12.317101+00:00",
+     "description": "An 8.5x11 photo every month of your choice!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA watercolored personalized thank you card!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eVideo of me once a month showing film editing before and afters, loading film into the camera, showing the film scan process, different art experiments, and different surprises every month!\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll previous rewards!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-12T17:25:23.649672+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-12T17:25:23.628795+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "$50 or more",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1342999\u0026rid=2164197",
+     "user_limit": 10
+    },
+    "id": "2164197",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-11-22T01:48:15.118870+00:00",
+     "description": "A headshot shoot of YOU every 3 months- including two rolls of film!!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAn 8.5x11 photo every month of your choice!\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA watercolored personalized thank you card!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll previous rewards!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-12T17:25:42.604278+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-12T17:25:42.584788+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "$100 or more",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1342999\u0026rid=2164200",
+     "user_limit": 5
+    },
+    "id": "2164200",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 30,
+     "created_at": "2017-11-22T01:50:35+00:00",
+     "description": "$150 dollars a month would allow me to do an extra shoot every month and would help me pay off some of my film debt and developing costs! (each box of 5 rolls costs $50 and every roll costs $8 for developing). I also spend money on props, photo paper and photo ink. It would also help tremendously with me being able to create art on film still!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1028740",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1342999"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "cb6f3e28-1107-422d-a7a8-f5011991de30",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Erica Sterling is creating Film photography and art"
+});
+    </script>

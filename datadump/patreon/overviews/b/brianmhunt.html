@@ -1,0 +1,448 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "xEo6rAvT1Znzj3AdUe7FhMbJKYcEfffsEJA9Hn7mMpQ";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "621609",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/621609"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-09-21T14:18:11+00:00",
+    "creation_name": "tko: a new foundation for knockout.js",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1234137/138806711e374a048a0649dadc9bdba6?token-time=2145916800\u0026token-hash=5w0hub7JT7A3Cfq_fXa2URbg7TrEE1AquQ1WHZ_bqp0%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1234137/138806711e374a048a0649dadc9bdba6?token-time=2145916800\u0026token-hash=Jftf-lQW6nKMrO-orBbyuCuoPc9Izkcpfy4TkuQKncw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 8,
+    "pay_per_name": "month",
+    "pledge_sum": 7808,
+    "pledge_url": "/bePatron?c=1234137",
+    "published_at": "2017-11-02T14:16:27+00:00",
+    "summary": "Knockout.js was one of the first web frameworks, and is still used on tens of thousands of websites and by millions of visitors every day.\u003cbr\u003e\n\u003cbr\u003e\nKnockout was first released in 2010, and back then Internet Explorer was \u003cem\u003ethe\u003c/em\u003e browser and a lot of workarounds were needed to make the magic work.\u00a0 Since then, web browsers have come a long way the internals of Knockout have gotten a bit rusty with a lot of antiquated code and design.\u003cbr\u003e\u003cbr\u003eSo with the blessing of its founders and other maintainers (\u003cspan style=\"color: rgb(31, 73, 125);\"\u003e\u003cspan style=\"color: rgb(192, 80, 77);\"\u003e\u003cspan style=\"color: rgb(79, 129, 189);\"\u003eSteve Sanderson\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e, \u003cspan style=\"color: rgb(31, 73, 125);\"\u003e\u003cspan style=\"color: rgb(192, 80, 77);\"\u003e\u003cspan style=\"color: rgb(79, 129, 189);\"\u003eRyan Niemeyer\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e, and \u003cspan style=\"color: rgb(192, 80, 77);\"\u003e\u003cspan style=\"color: rgb(79, 129, 189);\"\u003eMichael Best\u003c/span\u003e\u003c/span\u003e \u2014 Thank you!) over the past two years I\u0027ve been taking time to break Knockout up into self-contained ES6 import/export packages that combine to make a solid foundation for a bright Knockout future.\u00a0 This collection of packages and tools is called tko.\u003cbr\u003e\u003cbr\u003eCheck out the\u00a0repository at \u003ca href=\"https://github.com/knockout/tko\"\u003e\u003cstrong\u003egithub.com/knockout/tko\u003c/strong\u003e\u003c/a\u003e!\u003cbr\u003e\u003cbr\u003e\nWhen tko is ready it\u0027ll be the foundation for Knockout 4.0, and bring with it all the greatness that made Knockout.js so popular in the first place \u2014\u2014\u003cbr\u003e\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003esuper-low barrier to entry\u003c/li\u003e\n\t\u003cli\u003eeasy, intuitive data-binding inline html\u003c/li\u003e\n\t\u003cli\u003elightning fast two-way binding process of anything\u003c/li\u003e\n\t\u003cli\u003eobservables with auto-computed dependencies\u003c/li\u003e\n\t\u003cli\u003erock-solid battle-hardened cross-browser compatibility\u00a0\u003c/li\u003e\n\t\u003cli\u003ea bazillion unit tests\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.amazon.ca/s/ref=nb_sb_noss_2?url=search-alias%3Dstripbooks\u0026amp;field-keywords=knockout.js\" target=\"_blank\"\u003esome super-handy books\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003ePlus a whole bunch of new awesome-sauce \u2014\u2014\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eO(1) foreach loops\u003c/li\u003e\u003cli\u003eES6 class-based components and bindings\u003c/li\u003e\u003cli\u003eclever lifecycle encapsulation\u003c/li\u003e\u003cli\u003etypescript support\u003c/li\u003e\u003cli\u003eserver-side rendering\u003c/li\u003e\u003cli\u003econtent-security-policy unsafe-eval compatible\u003c/li\u003e\u003cli\u003ea rebuildable platform to roll-your-own knockout-derivation\u003c/li\u003e\u003cli\u003eindependent reusable packages (e.g. observables, computeds)\u003c/li\u003e\u003c/ul\u003e\n\nCheck out lots, lots, LOTS more in the\u00a0\u003ca href=\"https://github.com/knockout/tko/blob/master/CHANGELOG.md\" target=\"_blank\"\u003eCHANGELOG.md\u003c/a\u003e\u003cbr\u003e\n\u003cbr\u003e\u003cstrong\u003eHow close is tko to being ready?\u003c/strong\u003e \u00a0It\u0027s been in alpha for almost a year, with use in high volume, highly complex production applications for a substantial part of that.\u00a0 TKO passes all the unit tests of knockout, and is solid with modern browsers.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eHow close is knockout 4?\u00a0\u003c/strong\u003e\u00a0Knockout 4.0.0 will be part of the first release of tko (which will, monorepo-style, also be version 4.0.0).\u00a0 With support, hopefully in weeks to months!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWhat\u0027s the difference between tko and knockout?\u00a0\u003c/strong\u003e\u00a0tko is a set of\u00a0\u003ca href=\"https://github.com/knockout/tko/tree/master/packages\" target=\"_blank\"\u003eindividual packages\u003c/a\u003e that combined to form Knockout, a reference implementation (tko.js), or a custom knockout-like binding provider.\u00a0 Knockout is also a combination of the tko packages, but with a more conservative set of choices.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWhere\u0027s the documentation?\u00a0 \u003c/strong\u003eWith your support, coming ASAP to\u00a0\u003ca href=\"http://tko.io\"\u003etko.io\u003c/a\u003e!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIs tko / knockout.js backwards compatible?\u00a0\u003c/strong\u003e\u00a0With one exception (anonymous functions inside data-bind), it should be darned close.\u00a0 Backwards compatibility is a priority, so please report incompatibilities!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWho am I supporting with this Patron?\u00a0 \u003c/strong\u003eYou\u0027ll be supporting software developers that use open source libraries like Knockout.js to create beautiful, complex, and reliable web applications.\u00a0 Support helps me make a project like tko and Knockout more reliable, better documented, and more functional \u2014 so other developers can do more, faster, with greater certainty.\u003cbr\u003e\u003cbr\u003e\nThank you so much for checking this out.\u00a0 With your support I\u0027ll carve out every moment I can for this project.\u003cbr\u003e"
+   },
+   "id": "1234137",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7778012",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7778012"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2116489",
+       "type": "reward"
+      },
+      {
+       "id": "2118425",
+       "type": "reward"
+      },
+      {
+       "id": "2121055",
+       "type": "reward"
+      },
+      {
+       "id": "2116386",
+       "type": "reward"
+      },
+      {
+       "id": "2116388",
+       "type": "reward"
+      },
+      {
+       "id": "2116391",
+       "type": "reward"
+      },
+      {
+       "id": "2121051",
+       "type": "reward"
+      },
+      {
+       "id": "2116394",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2017-09-21T14:07:40+00:00",
+     "facebook": null,
+     "first_name": "Brian",
+     "full_name": "Brian Hunt",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7778012/67e7873a79eb47969a3e5da5ad00ccb7?token-time=2145916800\u0026token-hash=8YOytaHEg-l5p_WFGV1gED7WFIWe9YMba8f6U1OmKzQ%3D",
+     "last_name": "Hunt",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7778012/67e7873a79eb47969a3e5da5ad00ccb7?token-time=2145916800\u0026token-hash=ttR0_7EYZ0DGpZtJpiYDWuwXP7AkWnAmdumDgzNRgCI%3D",
+     "twitch": null,
+     "twitter": "brianmhunt",
+     "url": "https://www.patreon.com/brianmhunt",
+     "vanity": "brianmhunt",
+     "youtube": null
+    },
+    "id": "7778012",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1234137",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1234137"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-10-31T16:21:13.712910+00:00",
+     "description": "A cup of coffee emoticon next to your name in Backers.md",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-02T12:59:11.046126+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-02T12:59:11.023858+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\u2615\ufe0f Cup of Joe",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1234137\u0026rid=2116489",
+     "user_limit": null
+    },
+    "id": "2116489",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-11-01T13:14:47.028433+00:00",
+     "description": "Your name in Backers.md next to two cups of brain-fuel.",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-02T12:58:58.439242+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-02T12:58:58.415515+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\u2615\ufe0f\u2615\ufe0f Two cups of Joe",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1234137\u0026rid=2118425",
+     "user_limit": null
+    },
+    "id": "2118425",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-11-02T13:00:05.194783+00:00",
+     "description": "You with a star, so recognized in Backers.md",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-02T14:13:26.554072+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-02T14:13:26.532425+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\u2b50\ufe0f  Stars Support",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1234137\u0026rid=2121055",
+     "user_limit": null
+    },
+    "id": "2121055",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-10-31T15:36:23.781061+00:00",
+     "description": "Your name in Backers.md with superstars!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-02T12:58:22.374543+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-02T12:58:22.355177+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\ud83c\udf1f \ud83d\udcab Superstar \ud83d\udcab \ud83c\udf1f",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1234137\u0026rid=2116386",
+     "user_limit": null
+    },
+    "id": "2116386",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2017-10-31T15:36:54.415422+00:00",
+     "description": "Your name in Backers.md with Knockout emoticons!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-02T12:58:03.742274+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-02T12:58:03.721285+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\ud83e\udd4a Knockout support",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1234137\u0026rid=2116388",
+     "user_limit": null
+    },
+    "id": "2116388",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2017-10-31T15:38:28.003282+00:00",
+     "description": "Your name and two punches in Backers.md",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-02T12:57:48.567476+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-02T12:57:48.548910+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\ud83e\udd4a \ud83e\udd4a Two-punch support",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1234137\u0026rid=2116391",
+     "user_limit": null
+    },
+    "id": "2116391",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2017-11-02T12:57:21.015617+00:00",
+     "description": "Your logo and name in Backers.md.",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-02T12:57:21.015617+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-02T12:57:21.015617+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\ud83d\uddbc Sponsored-by Logo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1234137\u0026rid=2121051",
+     "user_limit": null
+    },
+    "id": "2121051",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200000,
+     "amount_cents": 200000,
+     "created_at": "2017-10-31T15:38:55.805949+00:00",
+     "description": "Your logo and name at the top of the tko.io landing page, and leading in Backers.md.",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-01T13:08:44.974495+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-01T13:08:44.955162+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\ud83d\uddbc \ud83d\uddbc  Landing Page",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1234137\u0026rid=2116394",
+     "user_limit": null
+    },
+    "id": "2116394",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1234137"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "6dc9e1b8-8af8-4c8b-9dac-796ad217e20d",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Brian Hunt is creating tko: a new foundation for knockout.js"
+});
+    </script>

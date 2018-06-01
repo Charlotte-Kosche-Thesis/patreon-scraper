@@ -1,0 +1,432 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "dgR9WcJXTVz9WOzfpiRV-Mzt2se_VpBcp9oPNDgu1VA";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "355097",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/355097"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-02-03T03:25:06+00:00",
+    "creation_name": "open source sustainable didactic toys ",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI0IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/733079/e4989a8d99d54eed9b6604f2929717f7?token-time=2145916800\u0026token-hash=MSKoEMDLOL8tK8-kIZoh9vKtOr-6kzCL80g5-FM8aTg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNCJ9/patreon-media/campaign/733079/e4989a8d99d54eed9b6604f2929717f7?token-time=2145916800\u0026token-hash=2R7hyLGezhKhZkWkbC2mdrnc7dOeT1JFjLp2pKiDzKQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2ForhOAZik0_M%3Ffeature%3Doembed\u0026amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DorhOAZik0_M\u0026amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2ForhOAZik0_M%2Fhqdefault.jpg\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;type=text%2Fhtml\u0026amp;schema=youtube\" width=\"854\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://www.youtube.com/watch?v=orhOAZik0_M",
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=733079",
+    "published_at": "2017-02-03T08:05:39+00:00",
+    "summary": "Hi, I\u0027m Fernando and together with our community we created Alquimetricos because we love toys. Playing, designing, building some for my friends\u2019 daughters and sons. We think everybody should have the right to play with wonderful toys. \u003cbr\u003eWe see building blocks as a way of self teaching a bunch of things like architecture, mechanics, physics, chemistry, among others. We specially like LEGO and KNEX, they  are awesome. But in South America, where we come from and live, they are particularly expensive and sometimes hard to find. \u003cbr\u003e\u003cbr\u003eSo we created an open source alternative collection of toys you can build on your own, or at school, or with your family, or maybe start your own business based on them (because they are really open source even commercially). Many of them are based on the research and guidelines of great minds like \u003ca href=\"https://en.wikipedia.org/wiki/Buckminster_Fuller\"\u003eBuckminster Fuller\u003c/a\u003e and \u003ca href=\"http://kennethsnelson.net/\"\u003eKenneth Snelson\u003c/a\u003e.\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/Dl1YnmxKiO1jULMGmp5jvbjYKI0_Z48ls0veFdE3oO69y6u2C2Q07mmOJcsP-YOMSadVyv63QUG7DfCp5AqpxCToaJSN48xyZDYQ9jg4RaSO7jIrmcICHvZhYhtIvngyAM-h0385YquTWntrQLtIbX7wLFQ6AT_KEXwb3vFqWW8LqTPq8IY8dOOikLp3-8V8jqr5vuazaq6GUHEGLm6trouA_eXlfikH1UPxJQQRnihgFzdQHd4Ii3NIS79nkykmkX-iHRBwrxv44UWTgfH2wCS1a3lLAzzOw4Fms0wVn_M3GpS3FhTZzq10Gi-SD6jn5mLdCnkMF5ab3nhAUYY2uPg6O0OwfyiEIPtkC7NnBFL729Wey-2qKntkqc9lpjxBQgGlRGRFHgOdxhKw08bWc8vuFQY3eAcWnrYfO2G-zY7qDRuC5jUKdBpvDvlN65xTwTq2wQGiohVuBwc3hEce0C9GxO6Bke5-t4ovHNqN4IVkmyzugfc2yGD6P5vTNdEF6ftUjh3SNG6VoaOzV8tIsBGyBHxlgo8Gaa4-2QPXBZbHheqXVsiAiiMooS4LQCnqTXo8s61-5c5KG9VGoD49gxZxCr3oohdgp21ioxjPQ2VkhEgdkV0Miof2vjJlh6G8Npl-GUciwmGC0IPUT9x6J5-LvpZMx2eM5x74s9a4YRw=w1118-h611-no\"\u003e\u003cbr\u003e\u003cbr\u003eAlquimetricos stand for Alchemy (magic, ethereal, mutational) + Metric (exact, material, permanent). I think (and actually feel) that this conjunction is a parabola of the paradigm we have to change: we need to focus on processes, materiais and products that, with the use of a very specific and simple knowledge and energy efficient processes, we can convert some huge problem (like trash) into something completely positive (like didactic toys!). That\u2019s the vision, that\u2019s the mutation we ran after. Help us reach as many multiplicators as possible, we belive it will be a fun ride!\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/8qnHWJTlFEi35vT8TxhQHFxKEWY9NdzM6GK3h6I2Q1T_If_9wwTfwfQ8MSZwnp1qv71gF8jc6TgjKlBte_80AVCti2aCBFGPxhVapZqtxWtijoEeGQnHpcjn361zQegysjNbKLT73YYmfuAcSQiluaaLc0m_Noju77LcI3zKJ2rrdpfNzojmDnYPs7-Au76Dzgdh9TAPfzID744ccLQZ0qeIRWqq12yyckdByjsTA2VRR5mGbTn9C2z3tlEG4tpqw4cnsir7kyNfi2kplD42hqt6G70BbiUsQeiof6-qtMocVwOZ1yK-JyjtWAfMsKKfmnbCI4VXbCdCl6C6zyz3i0S7KhgI1Gqok3nagMpPJkrSh0zOVztj5u8W-rMAQpYzIRb2ZBq8-mfwD_LdQ8dm8dGZNgeNxpi0-VWGpRB-QpVC2XxXwgTZNMWtDKAldpcGWueZ3c86PQML4E-x10gdib3XTgpaN64N5ChEGBSsqLjiTn5vmSXUNlCuZ1P3nLv_y5AIKs4EmNP8_zMzRNKlBCtQSvWeeyJDLotqadLWhve8YSx6ZEcIjKEHmqjYyIMt0EeZP4_e6B6hK1L5vDwJShnOQxCcVVOpTqH4TK7tHjW9QYqTbKyU2PcGNLpl7K39NrtXbfRlCq04nL-sWVxIswohO3Lj1XRRU5MuWve9Tw=w917-h611-no\"\u003e\u003cbr\u003e\u003cbr\u003eThe production team and me build toy kits, sculptures, cat toys (cat loves Alquimetricos!), interactive installations, lamps (everybody likes lamps), even robotic kits. With the help of volunteers, partners, users and friends, we develop guidelines, videos, workshops and classes for kids, family, teachers, artists, community leaders, etc. Events happen almost every month, each time more frequently. As you can imagine, is much easier q to focus on the project when it is founded. We are always developing new proposals for government, ONGs and companies, like family days, summits, group dynamics, immersive DIY activities, zero waste and social responsibility programs, If you belong to some kind of organization that may benefit from smart playing, don\u2019t hesitate to support us, we will give you a tailor made reward to match your needs and likes.\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/f1cgnvhYmDttgt5S7dlnTJYeC2O8sQKXRzgRxKTH8Iug8w4-9w_c-ZqYcTvhyvgQxqh6RazGUCcdbk0VE6_Q9_wffnvvLN1kynADCd92LkW5Z5rHc4L5ottvZBQMrGiqtmGCI95rwXoKp4PmI5RCOBvo_iq8XDCSSRtpzZ9zb4aFnITrtvStWBV57Q93490SOu1OSG8AUmTSMN4nlKUzrMv-UX2T8m-qzjfm6DcEDuHXKwzR33n7t44vMWM3j1ZfE-DiFLpY8CqFjAgu0E8pizUAMHRwSj42zmGSJRVR0hheoA49O0K8BXxWhlZs8k5OICbdrh9Ay_I5b5S-Ozq_a1zr1Xjl4tybsqjbCm-o3xHYyg1XW-fVjXxgT1NJeJBFRKu_aVqbMZgKBBEgfK01d7j41dlAYqwlZTM9NVTBxGUUbrzlqNPUfB9OFTkinFR5WL6Xxt9QTK637EoTPhqeiL5lA6ixqxcjoPPDJG14FW8lboTCYsm7M4o1X7bFpXI3BaBgs0r9rWZT4AsCnvRDLZLIMEKPpo83QGDb6fMozX1MFOeiunz_GZqT8QQoO-eXY8tbs4QinR-ZjxtVVtjnTbQ3wDsL_pL9WR7Ol8BWQ3C-UtbZXW-O4A=w972-h546-no\"\u003e\u003cbr\u003e\u003cbr\u003eWe\u0027re especially keen on three types of building block structures: geodesics, tensegrities and lock. There are lots of good systems around; we selected some we like most based on production simplicity and versatility and have been developed for the past two years. Anyway, change is the only constant, and new techs come in and out of the scope every time. We find this type of architectures and structures the subject in which 21st century tech should be focused on, a sense that must be developed. \u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/J5foBG3EZxfAklXxdwTtdRTmXVqk46AV2gBp-WdsipH_lvuhf4ja5SNe5dOWyVWbdn_YiQ7ys8Xa2kxafnN3l5q_zFwVc9Uoj1mmGxVzHguKOHSIdx3kLP8oV384I9LUmn82pgfEqCsnexyPfThTd8mfReZNS2HBcBVpI4VXUin84vmcwBGbJecIRmUOWzQ0sDI9N-2lvGNCxLfcgRRBGIFW6UEGZxncPBA_P9L0avSE4a6Qsw08_LHqi-d_Q3dAytFZqCjMpILwnw6aI7QqQbFrzNkzyGXwxQ0NhzfMU2OoCHSwA7r-Eg9e7Y1teEKQJmOshZl75mNN_zeQbz8oZNRrKHBiQQDqXU61o6jJMWaKEtTCI9yvHNBpujeel3jIG5QwUuGafBMMClSVisZziQTEoAbBvkXTn0CmYQpIlpAVUmkFy9aMzWG8uoHcWr771EIY_XwWhUAgo9KMTQmRntLuY-H8W83hQBKTxtOekQJMNm6wR-PGmXI0Bq4Ah379ccEScrzCENbbciljLjkEp0VkdrsCA4-0FaaA0MyI_QmY50UAhOjCgSAWVWUnR8NLSUC1EiMsJYcUc44ov0fZZmEvW5NxaKkj0VlK4_lpXtFq0TEaPeg9upEqTyxe9etBr73dBFtbbYgcgDyN7kW3XsGq9ZDoDT8gj3JzN8O24w=w917-h611-no\"\u003e\u003cbr\u003e\u003cbr\u003eYou need no special prerequisites or tools. Or maybe yes, but we try to keep things as basic or as complex as to match your possibilities and will. Actual broad spectrum is the game here.  As makers (and quite nerds) grown up and focused on emerging countries reality we try to keep things feasible either by analogic as to digital production. Don\u2019t understand us wrong, we\u2019re great fans of 3D printers, CNCs and specially, laser cutters. But that\u2019s something quite restrictive where we come from and we\u2019re certainly not at the pyramid\u2019s top, nor the base, so we try to prioritize systems that can help that analog-digital transition. How? Well, interest in technology (and, actually, in following a tech life-career) can start by being a tech fun, and enabling that, from the very first childhood, whether you have resources or not, is a key step to enabling community linked tech savvy children and teenagers. Maybe, with time and efforts, some of them can become technicians, engineers, architects, artists\u2026  who knows. In the southern hemisphere we need lots of them to reduce inequality and make our countries grow, so let\u2019s starts from the very base, shall we?\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/23ch4E8Zp5XkXP18oUZCa53t-r9wtViKukXYxBs432H1xq674vvif5agySuhGZpNBJk9KiN1iE5JoweEw-nHZwJhHCTiJPYeADhBvhbNGIgO5BlzCrIIYWVa6w7WKjjLj3F-i2sIGLb3SlF74pxKI4Rz7J0qtErNJFo34mNiPKzO99Tc67F5bIr0IAHSmPxi_Ga6q0pZqPPJ2kviUmQBNnIthU5P5764hAzz2RLEhxZqj2bj9D_lxo7SkYVVkKt_wsVWz_jrk65IoGeq_Jcrpn8DMIV_pz0wwWmDnEaN5-d8ahtggfKiBFWXj9D8WGdydfQ-5ZirI7rAstVamKY2QwNwVjPuMfsaQh4LJy6rREqodNBH76AVUtKD9Krmc_hWq_2oLw3uQ9HTkox7Y-osQPDTNM_M05AX1LElsZrYueFrrx_x3ayYv3xHzT8YrPrekjFqZXuPTtBet5xtSFnR35WSMjiRhO9dznMd2msV547zBCgXjVMnxKNvedYQnQWvC-Zwa1CAUbIfBd2a3EKtYNOYrDqg1QxxBeG5lFkip-DqtywYODnA6WFFn_2P_hei5TDi3a4YjTG_e1XA9chmvlO_4B9jnK_FNAqV8Vs9GcE78TaNc52ziQ=w1154-h611-no\"\u003e\u003cbr\u003e\u003cbr\u003eSome of them we have created from scratch, other are traditional building blocks system we\u0027ve hacked. We give workshops and classes on how to create them, even online. But this is not nearly our own work. We\u0027re collective intelligence believers. We discover the actual potential (and fun) of the Alquimetricos whenever we teach somebody how to produce and mount them. Kids are our best teachers. And everybody that participates or plays with Alquimetricos is part of the movement. \u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/iXQnTXJLHLvEDEAeg_4ey9Diw17WspknpEhhNzBv4ZSqRsueY9FXsJ2tkTPI8LufbiAdyJBm-T_e6eNbsNrpara8CJBp7DoXYqQbxmcmCQ4BglzO_5Bm7UHhZSJXXW9iq4oUvDV_tXuDfQkKyZNWOAaf8yAwqleGtDQfSEodhBVFUB283KO1a-B4xDZLPHLJU_bAC23bEKR0G8noiyYimnxwbuaj39uYONX02Y3Pw_1yBPt4lYXtwi556e-CnL70tELkAt8mkgZLQNIDObzLGBrDJ6YySJkZS6sV9y30RsimKqlcED3xg7tEJZ2kjcISVmxe5AFmxJF4T-iS9640beJ2J7lQoA0yy1jMAH0nMcF92Vr_5QSV7EZRxu7kY7ielhmAVYuZ72Vo3xy41XSzQIuHJan8qyE7dMUMaCa8_e-ozAfMhMkh0wwiWwL__gb4cuC0x56tD5xIl61_RXObmgsbLLTp_IIZjLBFtZWPpsBbsR0MYo8NQkpRIeQkbYByJOmxIGa5d1Uzi66gTWN5e61VvN7UnjPhdM08eUohR2VxO_EypoHsUEtbmGnNDXxJ5dPeuxn_zuMLTg0ieplVjizswFh33o1Lmny7-riKdode51h1CbPPq_esVk008VZqdOpKOfp2hVLu_zQXOtZpv8VREvMsMAc9Ck7mw-7xp6I=w1088-h611-no\"\u003e\u003cbr\u003e\u003cbr\u003eProject is focused on recycling. It\u2019s a deep conviction: when we see so much and many good-still-usable materials wasted I really want to cry. Already passed the \u003ca href=\"https://en.wikipedia.org/wiki/Compulsive_hoarding\"\u003ecompulsive hoarding fase\u003c/a\u003e (think we started this because we needed to do something about that) and got to know almost magical waste-to-something-cool transformations. Recycling is about creating consciousness, resilience, becoming technologically sovereign. Key materials are most abundant ones, like PET, Tetrapack\u24c7, publicity vinyl banner, textiles and more,  You can use raw materials if you want. You will feel much better if you recycle something, believe me. \u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/soNvxSFFTL5GxVbkg-j72qFSJv8264g4buc-kqJz3ZeLrlkkgISCCjCaJGR17VBDsnOcvJVv9TGfn64Ll_6vckXydEMu3uYzg-p458_RA6xigFo27qVkt4QZyD-Uo_pfAsjukqE=w1171-h660-no\"\u003e\u003cbr\u003e\u003cbr\u003eWe\u2019d love to thank everybody that have helped to develop the project so far, and I\u2019m really encouraged to invite to you to join and play. Shall we?\u003cbr\u003e"
+   },
+   "id": "733079",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5002556",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5002556"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "704750",
+       "type": "goal"
+      },
+      {
+       "id": "704752",
+       "type": "goal"
+      },
+      {
+       "id": "1198974",
+       "type": "goal"
+      },
+      {
+       "id": "1198975",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1367691",
+       "type": "reward"
+      },
+      {
+       "id": "1367692",
+       "type": "reward"
+      },
+      {
+       "id": "1367693",
+       "type": "reward"
+      },
+      {
+       "id": "1367694",
+       "type": "reward"
+      },
+      {
+       "id": "1367695",
+       "type": "reward"
+      },
+      {
+       "id": "1367696",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-02-03T03:24:21+00:00",
+     "facebook": "https://www.facebook.com/alquimetricos",
+     "first_name": "Alquimetricos",
+     "full_name": "Alquimetricos",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/5002556/16a4295dd94c4bf9ab3ac96f6d3583fc?token-time=2145916800\u0026token-hash=Xm6QbrZ7t92uX_a0xajbJlO27t5nLN7xbm3KpZeWAKI%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5002556/16a4295dd94c4bf9ab3ac96f6d3583fc?token-time=2145916800\u0026token-hash=3Q57q7OWBCax4_WihhQ9gO229QVbh9m5EnZ4TQ8tKQo%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/alquimetricos",
+     "vanity": "alquimetricos",
+     "youtube": "https://www.youtube.com/channel/UC-jxD4Hq-vHRxDoYBdtFIQg"
+    },
+    "id": "5002556",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "733079",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/733079"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-02-03T03:29:32.924010+00:00",
+     "description": "Did you just join my team of patrons?! Yes, yes you did. THANK YOU! As an official patron, you\u0027ll have access to our basic set of templates and instructions to download and start building your own Alquimetricos.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-09T22:02:33.360094+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-09T22:02:33.349915+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Alquimetrico iniciado",
+     "unpublished_at": null,
+     "url": "/bePatron?c=733079\u0026rid=1367691"
+    },
+    "id": "1367691",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-02-03T03:29:34.252884+00:00",
+     "description": "Every month, we\u0027ll have a Patreon-live chat with all of you awesome $3+ patrons, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-09T22:01:27.170316+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-09T22:01:27.158372+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Alquimetrico supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=733079\u0026rid=1367692"
+    },
+    "id": "1367692",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-02-03T03:29:34.269132+00:00",
+     "description": "You\u0027ll receive access to an unlisted piece of content for your eyes only, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-17T01:48:57.214953+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-03T03:29:34.269132+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Alquim\u00e9trico commited",
+     "unpublished_at": null,
+     "url": "/bePatron?c=733079\u0026rid=1367693"
+    },
+    "id": "1367693",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-02-03T03:29:34.287375+00:00",
+     "description": "\u003cbr\u003e\n\u003cbr\u003e\nThis is our campaign to support the Alquibot project: the bamboo tensegrity pneumatic dancing robot we intent to build as an art and didactic platform (and to dance at 2018 carnival like crazy!)\u003cbr\u003e\nEvery month, we\u0027ll have a patron-only live stream just for us, updating project news, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-17T01:48:57.239359+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1367694/23f793c75b5b463f851d00a687945035?token-time=2145916800\u0026token-hash=XMc4jtCad5VNKDwg7YP5CVHnSGLrdSMtmAgj2bhVWN0%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-03T03:29:34.287375+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Alquibotter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=733079\u0026rid=1367694"
+    },
+    "id": "1367694",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-02-03T03:29:34.304610+00:00",
+     "description": "Swag is on the way! At this level, you\u0027ll get a patron-only shirt (one time only), plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-17T01:48:57.262848+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-03T03:29:34.304610+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Alquimetrico benefactor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=733079\u0026rid=1367695"
+    },
+    "id": "1367695",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-02-03T03:29:34.321579+00:00",
+     "description": "Wow. You\u0027re an official sponsor of my work, and I couldn\u0027t be more grateful for it. You\u0027ve changed my life!",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-17T01:48:57.286430+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-03T03:29:34.321579+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Alquimetrico stakeholder",
+     "unpublished_at": null,
+     "url": "/bePatron?c=733079\u0026rid=1367696"
+    },
+    "id": "1367696",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-02-03T06:34:09+00:00",
+     "description": "Thanks for allowing this magic to happen!\u00a0\u003cbr\u003eWe will be able to give at least one \"Alquimetricos\u0027 toy lab\" class at a favela context each week.\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/A_YFcTT3ih5ajnbmXBV8wTANDNPyjdb31DIJ8clwbiLzPWBeNk_aqU0Ktsu13ga58UvtCBlwSepNoLJexGYeRlsfoUS_Ar5usLeCVBFrr45y5yzfvCYuhJP4Iht4jad3JK409KTa9GbWMh2lx1SGV-LU7wbPQI5woEkY3Hluxo515FJvO12xYFN1RXK2gHlWJweV3R_kyZuZgTXqRDLZelwPddfpunw2LXRgYtYD08BDXIkxRC2ym-lNOA_cHowhkB02naEM31HXOHRpeocVO0cx1i7TGkkrChBpvJ59_E2CvkLDqqxIYY9dNPJC6MoMPq7CbrdK5VUlLAQUkptUO4BXA6gSytOrityamcLsJm68fm0LUy0SddAcM327qJwdbWlF5EKS6xmSecovJ0UPGKsnDloD32MEaAk4Cftp_P59neHqSb_gQ5brJmyR4AJbV8n5a7RdJ0ykTBraPThFkj14h2tDWKCMYhuAvZ_9FBZhiCY0iobe8DNEqTlsFwA8gEC75oXy1qE4gG6Iidd8Gu4cG6b14BqKL-LMUvxtOu89-pjeuxh-HQ3PgRFth1XgyBi8NmnOrF6aYvz2r92UC5QDby261VVHgWSYTEJtAgdmjKqFElDUcCG6nF45aj2AJeRCFINUJcfIhv-KhykkyWsxvPNuBrhN6w=w1004-h603-no\"\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "704750",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-02-03T06:34:09+00:00",
+     "description": "We are writing and translating our Alquimetricos Manual. Help us publish it as soon as possible. You can also contribute through your workforce regarding graphic design, corrections, translations and more.\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://alquimetricos.files.wordpress.com/2018/05/capturas-manual-livre.png?w=1000\"\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "704752",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2018-05-11T14:46:22+00:00",
+     "description": "It would be AWESOME to have a cheap punch cut tool to easily and rapidly create Alquimetricos connections within seconds at home or school.\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://i.pinimg.com/236x/ab/2d/ea/ab2deae5619bf44ed805ab0822cbd11a--hole-punch.jpg\"\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1198974",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2018-05-11T14:46:22+00:00",
+     "description": "We have been developing software templates and scripts that allow to design\u00a0connectors and models for almost three years. Help us integrate everything in an app everybody can install in their phones and tablets.\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://alquimetricos.files.wordpress.com/2018/05/captura-software.png?w=1000\"\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1198975",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/733079"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "800e5336-0ece-49a8-be80-44753219ec57",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Alquimetricos is creating open source sustainable didactic toys "
+});
+    </script>

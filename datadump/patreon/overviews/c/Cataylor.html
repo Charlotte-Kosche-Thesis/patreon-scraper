@@ -1,0 +1,639 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "9x1-__C5YIPwiboPFJBDGtcMjSMIBUfu125W4fhOP6k";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "853956",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/853956"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-03-26T04:26:24+00:00",
+    "creation_name": "Books",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1638342/e8fb07e5231149dfb995cfc1c618eaa9?token-time=2145916800\u0026token-hash=NZcYSDoeIgIXkwhKy6VbW57P95Bshav79_fLh1FaQJg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1638342/e8fb07e5231149dfb995cfc1c618eaa9?token-time=2145916800\u0026token-hash=iYUvRcsJrNc3jh-7ZqVtfFCYEw24SIZUXqnQcoXE-u0%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "creation",
+    "pledge_sum": 5400,
+    "pledge_url": "/bePatron?c=1638342",
+    "published_at": "2018-03-26T07:07:30+00:00",
+    "summary": "\u003cdiv style=\"text-align: center;\"\u003eHi, my name is Clara.\u003cbr\u003eI write under the pen name of C.A. Taylor as my middle name is Anne.\u003cbr\u003eI\u0027ve been writing since I was 16.\u00a0\u003cbr\u003eOn my 28th birthday, my dream came true and I released my first debut novel, Starlight.\u003cbr\u003eThen later in 2017, I released my second novel, Chandelier.\u00a0\u003cbr\u003eIn 2018, I released my third novel, which was originally only meant to be a short story for my online course. My friend\u0027s Instagram account was the inspiration for the name, Torch.\u003cbr\u003eI love British crime shows.\u00a0\u003cbr\u003eI love science fiction.\u003cbr\u003eI love Marvel.\u003cbr\u003eI have two animals, an energetic Kelpie called Thor and a fat ginger cat called Alvin.\u003cbr\u003eI am really shy most of the time, but don\u0027t fret if I squeak.\u00a0\u003c/div\u003e\u003cdiv style=\"text-align: center;\"\u003e\u003c/div\u003e"
+   },
+   "id": "1638342",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "10415791",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/10415791"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1151969",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1638342",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1638342"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2481928",
+       "type": "reward"
+      },
+      {
+       "id": "2475561",
+       "type": "reward"
+      },
+      {
+       "id": "2516032",
+       "type": "reward"
+      },
+      {
+       "id": "2516045",
+       "type": "reward"
+      },
+      {
+       "id": "2475598",
+       "type": "reward"
+      },
+      {
+       "id": "2475632",
+       "type": "reward"
+      },
+      {
+       "id": "2513630",
+       "type": "reward"
+      },
+      {
+       "id": "2516062",
+       "type": "reward"
+      },
+      {
+       "id": "2491396",
+       "type": "reward"
+      },
+      {
+       "id": "2475576",
+       "type": "reward"
+      },
+      {
+       "id": "2475581",
+       "type": "reward"
+      },
+      {
+       "id": "2475615",
+       "type": "reward"
+      },
+      {
+       "id": "2475625",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-03-26T04:26:13+00:00",
+     "facebook": "https://www.facebook.com/cataylor",
+     "first_name": "C",
+     "full_name": "C A Taylor",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/10415791/16fbd2522df644dfaa6772691bd988b8?token-time=2145916800\u0026token-hash=DN0wcl76Apf_fFNiwd9loNBJJ-OgxXIu5J86JMZ_IN8%3D",
+     "last_name": "A Taylor",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/10415791/16fbd2522df644dfaa6772691bd988b8?token-time=2145916800\u0026token-hash=4tsVE3kc9J_b5snn6PA-iEdjOAcOARDWH-0P5YudeZk%3D",
+     "twitch": null,
+     "twitter": "claraannetaylor ",
+     "url": "https://www.patreon.com/Cataylor",
+     "vanity": "Cataylor",
+     "youtube": null
+    },
+    "id": "10415791",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1638342",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1638342"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 5,
+     "upgrade_url": "/bePatron?c=1638342\u0026rid=2481928"
+    },
+    "id": "post-aggregation-for-0-1638342",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-03-28T14:01:28.702747+00:00",
+     "description": "Gain access to immediate news and announcements by accessing my Patreon only access tier. This includes daily fun facts about the characters, the writing process and much more!",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-28T14:01:28.702747+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-28T14:01:28.702747+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patreon Access Tier ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1638342\u0026rid=2481928",
+     "user_limit": null
+    },
+    "id": "2481928",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-03-26T05:44:46.564292+00:00",
+     "description": "First ten patrons who pledge $10 a month and receive a new art print, commissioned by C A and done by her chibi artist Chouuko.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-26T06:26:22.966571+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2475561/fdb44ab9d6f046c288416d0b55c38d73?token-time=2145916800\u0026token-hash=OXxjnz9rznz3nsk5WTpmhASJ_sPO-pySVOc88PLq6ro%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-26T06:26:22.957418+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "Print Torch Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1638342\u0026rid=2475561",
+     "user_limit": 10
+    },
+    "id": "2475561",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-04-10T04:29:21.641644+00:00",
+     "description": "Get an insight into the third book of the Chronicles, Bliss, with a Cannelita chibi. Limited to 10 Patrons.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-10T04:29:21.641644+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2516032/e3c2d00cf0f44eefb0c6acbd1bcb8aad?token-time=2145916800\u0026token-hash=P48mdXdr9vW1BL4aFraErD1excitTNpBSefakWSwPGE%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-10T04:29:21.641644+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "Cannelita Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1638342\u0026rid=2516032",
+     "user_limit": 10
+    },
+    "id": "2516032",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-04-10T04:33:57.280145+00:00",
+     "description": "Designed by Rebeca, get a print of Chandelier\u0027s magestic front cover when you pledge $10.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-10T04:33:57.280145+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2516045/cfb9ca137a044a4ca35828176df33ff8?token-time=2145916800\u0026token-hash=86HTbiNR9FRaRAIgMd7ZJgmhKuNK4As53S1nN4mQqSQ%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-10T04:33:57.280145+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "Chandelier Cover Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1638342\u0026rid=2516045",
+     "user_limit": 10
+    },
+    "id": "2516045",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-03-26T06:02:28.339515+00:00",
+     "description": "First ten donors who pledge $10 a month will receive a print of Chandelier\u0027s artwork, which I commissioned from Chouuko.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-26T06:27:53.901668+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2475598/7261757de7804f3c9ca1cd859cca2d87?token-time=2145916800\u0026token-hash=0RWVMkySOGs6Qw7HuOoIXr6OBI6Q2zqbDtcdgA-N7Og%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-26T06:27:53.893653+00:00",
+     "remaining": 9,
+     "requires_shipping": true,
+     "title": "Chandelier Print Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1638342\u0026rid=2475598",
+     "user_limit": 10
+    },
+    "id": "2475598",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-03-26T06:16:36.028254+00:00",
+     "description": "In anticipation of my upcoming novel and the next installment in the Blunderbuss Anthologies after Constantine, Mirza follows the detective that the Detroit Police Department has gone into damage control over. Follow Mirza has she realizes that the underground is no place for rookie detectives. Release date TBA. \u00a0Artwork by Chouuko. Limited to ten.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-26T06:31:34.818979+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2475632/e29dca23e3494102a0bebf3428b12fca?token-time=2145916800\u0026token-hash=1-i-eBgOM2Itndv4myaZKe-THoZqqJFxAqob0pqiyho%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-26T06:31:34.809333+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "Mirza Print Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1638342\u0026rid=2475632",
+     "user_limit": 10
+    },
+    "id": "2475632",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-04-09T11:08:02.361868+00:00",
+     "description": "Receive a Lisa \u0026amp; Randall Print Tier for a $10 pledge, personally signed and sent. Limited to 10 Patrons.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-09T11:08:02.361868+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2513630/822d7ec7c1fe4911a99975d87579a717?token-time=2145916800\u0026token-hash=HqA5nBVZAPcGFJhrsHX6Oew7iQCkjaU3ojrNY8VNPWM%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-09T11:08:02.361868+00:00",
+     "remaining": 9,
+     "requires_shipping": true,
+     "title": "Lisa \u0026 Randall Hoss Print Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1638342\u0026rid=2513630",
+     "user_limit": 10
+    },
+    "id": "2513630",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-04-10T04:40:23.086075+00:00",
+     "description": "If you would like to buy more than one print, you can do so, by pledging $15 towards the campaign. Let me know what prints! Limited to 5 patrons only.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-10T04:40:23.086075+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-10T04:40:23.086075+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Two Print Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1638342\u0026rid=2516062",
+     "user_limit": 5
+    },
+    "id": "2516062",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-04-01T09:21:06.322167+00:00",
+     "description": "Continue the journey as Anna fronts her nightmares, including her sister, Alexis. Limited to 5 patrons at a discounted rate of $30",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T09:21:06.322167+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2491396/a203d27a31944f3db57bb34be177748d?token-time=2145916800\u0026token-hash=FNncyR-G7ttzFZ1bINI7wXIaU8nGEsp0R2euZ1shE4A%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T09:21:06.322167+00:00",
+     "remaining": 4,
+     "requires_shipping": true,
+     "title": "Signed Chandelier Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1638342\u0026rid=2491396",
+     "user_limit": 5
+    },
+    "id": "2491396",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-03-26T05:52:52.669255+00:00",
+     "description": "First two patrons who pledges $30 \u00a0a month will receive a \u00a0copy of book #1, Torch, personally signed and sent.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-10T04:23:04.138264+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2475576/8790662d277745c992621e5063a9b1eb?token-time=2145916800\u0026token-hash=K46CvHopUtz_JpjkP0WY-XasUM7XlDZBJ8FgHp3CT7M%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-10T04:23:04.125649+00:00",
+     "remaining": 2,
+     "requires_shipping": true,
+     "title": "Signed Torch Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1638342\u0026rid=2475576",
+     "user_limit": 2
+    },
+    "id": "2475576",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 9000,
+     "amount_cents": 9000,
+     "created_at": "2018-03-26T05:55:09.882393+00:00",
+     "description": "First three donors who pledges $90 \u00a0a month and receive a \u00a0copy of book #1, Torch, personally signed and sent, along with artwork from Chouuko, signed and sent.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T09:14:30.004437+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2475581/bdbfa38b43204d8694cbdbb491bd58a0?token-time=2145916800\u0026token-hash=QYsM0Wi0-M4CcK81yHcl6PEFrjDrOZ4Y09DeI-jlWk4%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T09:14:29.994655+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "Ultimate Torch Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1638342\u0026rid=2475581",
+     "user_limit": 3
+    },
+    "id": "2475581",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 9000,
+     "amount_cents": 9000,
+     "created_at": "2018-03-26T06:07:23.156035+00:00",
+     "description": "First five donors who pledge $90 a month will receive a print of Chandelier\u0027s artwork, which I commissioned from Chouuko.\u00a0It will be personally signed, along with a signed copy of Chandelier.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T09:14:43.019714+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2475615/6629a8cd47054658a1ea07e2a031646c?token-time=2145916800\u0026token-hash=SMr26GsJf-Tg2Wtn2fhJZb_gUMTHSTMhDZsnp9NWQDw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T09:14:43.012564+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Ultimate Chandelier Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1638342\u0026rid=2475615",
+     "user_limit": 5
+    },
+    "id": "2475615",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 9000,
+     "amount_cents": 9000,
+     "created_at": "2018-03-26T06:10:31.009550+00:00",
+     "description": "Go back to where it all began with Alexis as she introduces characters like the witty Jesse Wiser and her obnoxious half sister, Anna (Chandelier). First five pledgers who pledge $90a month will receive a print of Starlight\u0027s artwork, which I commissioned from Chouuko.\u00a0It will be personally signed, along with a signed copy of Starlight.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T09:14:58.302158+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2475625/bd18d1b732b3406f86fccd47588d375a?token-time=2145916800\u0026token-hash=6RyGCbtCaASTs3DXni5BfXOoMzGPqjftwHuBXRQ-3Ow%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T09:14:58.292793+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Ultimate Starlight Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1638342\u0026rid=2475625",
+     "user_limit": 5
+    },
+    "id": "2475625",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 21,
+     "created_at": "2018-03-26T06:56:00+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cem\u003eConstantine O\u0027Brien was the youngest detective to be promoted to the ranking of Captain in the history of the Detroit Police Force. He loved his family, he loved his job and more importantly he stood up for what he believed in.\u003cbr\u003e \u003c/em\u003e\u003cem\u003e\u003cbr\u003e\u003c/em\u003e\u003cem\u003eIt wasn\u0027t until one fateful evening that he had to become something that he wasn\u0027t. He made a pact with the Devil who wore Italian threads and a Bowler hat.\u003cbr\u003e\u003c/em\u003e\u003cem\u003e\u003cbr\u003e\u003c/em\u003e\u003cem\u003ePlagued by his ruined conscience, Constantine has to try and make things right before they backfire. In a race to protect his loved ones and his job, he has to find the middle ground between corruption and integrity.\u003cbr\u003e\u003c/em\u003e\u003cem\u003e\u003cbr\u003eConstantine is the second book in the Blunderbuss Anthologies series.\u003c/em\u003e\u003cbr\u003e\u003cem\u003e--------\u00a0\u003cbr\u003e\u003cbr\u003ePlease support this goal. \u003cbr\u003eThere are many rewards for becoming a patron to Constantine and its following books in the series. I have successfully published three books in the last two years.\u003cbr\u003e$250 will get the book through one round of editing.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003c/em\u003e\u003c/div\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1151969",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1638342"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "49a69607-adff-4456-96b8-a29a51b0f28a",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "C A Taylor is creating Books"
+});
+    </script>

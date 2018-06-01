@@ -1,0 +1,431 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "9UR7PhNhgJIF2t7TtzQJkGobmvFBgHr9WWCB6odISwk";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "280604",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/280604"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-10-13T16:28:24+00:00",
+    "creation_name": "Podcast",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 5,
+    "pay_per_name": "A Podcast Episode",
+    "pledge_sum": 810,
+    "pledge_url": "/bePatron?c=564717",
+    "published_at": "2016-10-13T16:48:05+00:00",
+    "summary": "Name: Bryan Davis\u003cbr\u003ePodcast: As Bryan Discovers The World\u003cbr\u003eSocial Media: @AskBryan\u003cbr\u003e\u003cbr\u003eI would like to podcast again. \u003cbr\u003eI would like to make enough money to bother. \u003cbr\u003e\u003cbr\u003eFul Stop\u003cbr\u003e"
+   },
+   "id": "564717",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4226047",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4226047"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "580299",
+       "type": "goal"
+      },
+      {
+       "id": "580300",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-564717",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-564717"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "915375",
+       "type": "reward"
+      },
+      {
+       "id": "915376",
+       "type": "reward"
+      },
+      {
+       "id": "915377",
+       "type": "reward"
+      },
+      {
+       "id": "915378",
+       "type": "reward"
+      },
+      {
+       "id": "915379",
+       "type": "reward"
+      },
+      {
+       "id": "915380",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-10-13T16:27:53+00:00",
+     "facebook": "https://www.facebook.com/AsBryanDiscoversTheWorld",
+     "first_name": "Bryan",
+     "full_name": "Bryan Davis",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4226047/e893965034d141929d46571a47dce822?token-time=2145916800\u0026token-hash=qm6cTTua6VO_nICMd-RCksDpwcWRkrdxb0waeJDGuN0%3D",
+     "last_name": "Davis",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4226047/e893965034d141929d46571a47dce822?token-time=2145916800\u0026token-hash=XjHNkpXEptY_dyOX_-zw9OJf0whQcQIWHKMyjxKHAs0%3D",
+     "twitch": null,
+     "twitter": "AskBryan",
+     "url": "https://www.patreon.com/AskBryan",
+     "vanity": "AskBryan",
+     "youtube": null
+    },
+    "id": "4226047",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "564717",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/564717"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 3,
+     "upgrade_url": "/bePatron?c=564717\u0026rid=915375"
+    },
+    "id": "post-aggregation-for-0-564717",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-13T16:57:23+00:00",
+     "description": "You\u0027re officially a patron.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-13T16:57:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=564717\u0026rid=915375",
+     "user_limit": null
+    },
+    "id": "915375",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-10-13T16:57:23+00:00",
+     "description": "You\u0027re officially a more generous Patron.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-13T16:57:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=564717\u0026rid=915376",
+     "user_limit": null
+    },
+    "id": "915376",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-13T16:57:23+00:00",
+     "description": "You\u0027re officially an even more generous Patron.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-13T16:57:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=564717\u0026rid=915377",
+     "user_limit": null
+    },
+    "id": "915377",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-13T16:57:23+00:00",
+     "description": "What can I offer?\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-13T16:57:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=564717\u0026rid=915378",
+     "user_limit": null
+    },
+    "id": "915378",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-10-13T16:57:23+00:00",
+     "description": "This is getting ridiculous. \u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-13T16:57:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=564717\u0026rid=915379",
+     "user_limit": null
+    },
+    "id": "915379",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-13T16:57:23+00:00",
+     "description": "Oh come now.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-13T16:57:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=564717\u0026rid=915380",
+     "user_limit": null
+    },
+    "id": "915380",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 55000,
+     "completed_percentage": 1,
+     "created_at": "2016-10-13T16:37:45+00:00",
+     "description": "This amount makes new episodes more reasonably possible.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "580299",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2016-10-13T16:37:46+00:00",
+     "description": "Now we\u0027re talking. \u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "580300",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/564717"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "f768e86f-bc4f-4bed-8828-0aee9a4181ef",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Bryan Davis is creating Podcast"
+});
+    </script>

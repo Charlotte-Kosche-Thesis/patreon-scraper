@@ -1,0 +1,860 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "pB5G3zvTr239YXGRyRN5I-YYps46PC1RqIhcqtFI72E";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": "2018-04-01T04:07:43.595967+00:00"
+   },
+   "id": "162469",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/162469"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-12-30T23:25:06+00:00",
+    "creation_name": "Fine Art Photography, Digital Art, and Videos. ",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/258044/a9835b00b5dd4bd08d371dbcab868cfb?token-time=2145916800\u0026token-hash=b_hbUawUc6rPckQ1Z63DtZDpErVZkmm85NIJ9Z0nTsM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/258044/a9835b00b5dd4bd08d371dbcab868cfb?token-time=2145916800\u0026token-hash=KOVleK8Qq4dnep4GIYMuLZGK1tiXWpriRE53IapXuiY%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FOEe8isEi62Y%3Ffeature%3Doembed\u0026amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DOEe8isEi62Y\u0026amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FOEe8isEi62Y%2Fhqdefault.jpg\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;type=text%2Fhtml\u0026amp;schema=youtube\" width=\"854\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://youtu.be/OEe8isEi62Y",
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=258044",
+    "published_at": "2016-05-11T17:53:06+00:00",
+    "summary": "Hi and Thank you for Visiting our Page.\u003cbr\u003e\n\u003cbr\u003eWe are identical twins who strive to show the sculptural beauty of the muscular physique in a dynamically infused way through photographs, digital paintings, and video. Similarly, we feel, the muscular body embodies the raw representation of hard work, commitment, focus, and determination, in a sculptural aesthetic way.\u00a0We do a lot of \u00a0TFP shoots (Time for Photos) to build up our (and our models) portfolio. In the process, we are putting a book together celebrating the beauty and power of the muscular male form. With your pledge and support we will be able to continue creating new\u00a0MONUMENTAL images to share, Thank you! \u003cbr\u003e\n\u003ca href=\"https://static.wixstatic.com/media/7263eb_0f6f6cba0233485b915d8df186e79ed1~mv2.jpg/v1/fill/w_936,h_1100,al_c,q_85/7263eb_0f6f6cba0233485b915d8df186e79ed1~mv2.webp\" rel=\"nofollow\"\u003e\u003c/a\u003e\u003cimg src=\"https://static.wixstatic.com/media/7263eb_9a473b296c7f482c98380c06bb669399~mv2.jpg/v1/fill/w_946,h_946,al_c,q_85,usm_0.66_1.00_0.01/7263eb_9a473b296c7f482c98380c06bb669399~mv2.webp\"\u003e\u003cbr\u003e\n\u003cbr\u003eThe male form in its most natural state is something that we strive to show to the viewer. \u003cbr\u003e\n\u003cimg src=\"https://lh3.googleusercontent.com/brspxO1UZg8ZDv44A8j7BxMlQXZHYpz3b_SzTenRrKj_OihcNH1DP6zuGi70XJ-VGqeWa2-OfOin6EZbQQr6Ea7x-cng9lgQm0y0pEpPWtQFZimRYwQYx9n-jBDlPYBhY8BmisD5718SJk6H1ahaXX1wh3KHPlYmvq0PH2vVlPp5uDbBwQdvuGDlxwu8gf9NlQgjdFGA_lJomjAfPTxw9MUqgnoHkI_7X0sxsj00hu015SKxF0pRpE-FIbd0yuCZFsOsaZOM6Dqw0kKruyHxfa9pzWIxY8AYcVJlR0Q96fuaD71X87oNQDQdAITrzFc1_tQsklYbslCnefVrcfvHJ6eR7pqKDXtkEVtvRjIv6bPLIv1f-gzvaitjbSIxKz81abHsvq7aQzALNScRjWBz1eVADh6WLbDkw3cfImxXM_Sa4tCj8JIsTQ0eAfjJEtsqCkcv9YAWxzykUkfFBUsXDb3S-VBgaKk9HcJRrJzPeGs8E4WXyvCL-MZkIbjgvy1l39zLjpE-eU8mlPssy736cJ3LLy5p0yOekx9IXWZ0niIUrz5bexBZIHjPJV5dISbtdQVCAQs2gU_JNm4lnw4Dm1IMiDgSn9Yh=w1920-h534-no\"\u003e\u003cbr\u003e\n\u003cbr\u003eSharing our work with you can be frustrating on social media. \u003cbr\u003e\n\u003ca href=\"https://static.wixstatic.com/media/7263eb_d81baaf4509a4c908d8de99e778e63fb~mv2.jpg/v1/fill/w_976,h_264,al_c,q_80,usm_0.66_1.00_0.01/7263eb_d81baaf4509a4c908d8de99e778e63fb~mv2.webp\" rel=\"nofollow\"\u003e\u003c/a\u003e\u003cimg src=\"https://static.wixstatic.com/media/7263eb_d81baaf4509a4c908d8de99e778e63fb~mv2.jpg/v1/fill/w_976,h_264,al_c,q_80,usm_0.66_1.00_0.01/7263eb_d81baaf4509a4c908d8de99e778e63fb~mv2.webp\"\u003e\u003cbr\u003eHere on Patreon we can show the uncensored feeds of our work, for you to enjoy, for a low monthly cost. Any amount you contribute goes towards our work, so we can continue to create and share our photographic creations with you. \u003cbr\u003e\n\u003cimg src=\"https://lh3.googleusercontent.com/QGi9ovGVjxkwp2YRJRTTH4sTYsQ6JCsbHuYRLq1lXQ9aOrIFf-tLnqOWTQvCMItlMpmii7NiY0uqri23qeBtdDiLsrfGVqq36cN9JYptvGRod3ifnteLB-8Oe5nT9neIZsH-IvsGGZ44CoUfJuTUTsR9F8BUkK8FsmV4Pwl3l6oUi0L4wfn6q6Z5tmprsuG0LCs5H-kIE3rA-IliG5U1xCHhQw4h5DZwbB57AD0PSJ1s7zcSyCQRt5aiWvkFctY6oIKN74GI1Qm7Ko52UTBSt3pwUCB7s2pDpLE7FfmiUFIW1EXa0E9zEzU4rJtUOllfV9dB5bV9YtQ5dLwlOwyRc85WDcMPBiyEpIJEwneYphm7xslC5DygOF6DM3Lpy8_776_SGFdNy3iQv9jc3x3nUjSCyWQW5Mp6x5WIAwb62a5PXGvqVEXKG_TyTmFBqVN4ovoleahZsjS1SuEy69vltzuimPKjwjuta6g4M-WnegLu3m_xf4fXhZIp1B5Xa9cRTQi9wTv6vCpRyb4F2ma3a3387wuFwVZdoTbs2zj91kytNjUUVmCr_wqHfv8VOygFgD-XNJxYFor7rLadpTPIA8J0BP-5-MD3=w1920-h517-no\"\u003e\u003cbr\u003e\n\u003cbr\u003eWe will also have some behind the scenes videos of the process we go through when creating our monumental images (an example can be seen below). \u003cbr\u003e\n\u003cbr\u003eWith Patreon you set up a maximum limit per month, and for how many months. This way, you are totally in control of your budget and can also cancel at any time. \u003cbr\u003e\n\u003cbr\u003eYour donations will be charged on the\u00a01st of each month and you will receive the \u00a0Rewards\u00a0from the previous month. \u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003e\u003cem\u003eFrom \u003cem\u003e$10 \u003c/em\u003edollars or more per month, you can view all NSFW images in the activity feed.\u00a0\u003c/em\u003e\u003c/strong\u003e\u003cbr\u003eHave a look at what you receive with each reward every month, and choose which one best suits you. Here is a link that explains it in detail.\u00a0 \u003cbr\u003e\n\u003ca href=\"https://patreon.zendesk.com/hc/en-us/articles/203913709-How-do-I-become-a-patron-to-a-creator-\"\u003eHow do I become a patron to a creator\u003c/a\u003e\u003cbr\u003e\n\u003cbr\u003eThank you so much \u003cbr\u003e\n\u003cbr\u003e\n\u003cdiv style=\"text-align: center;\"\u003e\tOur very first book is available. It features some of our best work from when we started till today. There will be more volumes coming out as we create more work. \u003cdiv style=\"margin: 2px; color: #000; text-align: center; margin: 5px auto;\"\u003e\n  \u003ca href=\"http://www.blurb.ca/bookshare/app/index.html?bookId=8720914\" target=\"_blank\"\u003e \u003cimg src=\"http://bookshow.blurb.com/bookshow/cache/P13797658/md/cover_2.jpeg?version=1525744489\"\u003e \t\u003c/a\u003e \u003ca target=\"_blank\"\u003eRise to Epic (Large Square)\u003c/a\u003e\u003cbr\u003eBy \u003ca\u003eMarcin and Dawid Witukiewicz\u003c/a\u003e\u003cbr\u003e\n\u003c/div\u003e\u003c/div\u003e"
+   },
+   "id": "258044",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "589231",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/589231"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "422420",
+       "type": "goal"
+      },
+      {
+       "id": "422421",
+       "type": "goal"
+      },
+      {
+       "id": "422422",
+       "type": "goal"
+      },
+      {
+       "id": "422423",
+       "type": "goal"
+      },
+      {
+       "id": "423388",
+       "type": "goal"
+      },
+      {
+       "id": "423389",
+       "type": "goal"
+      },
+      {
+       "id": "423390",
+       "type": "goal"
+      },
+      {
+       "id": "548074",
+       "type": "goal"
+      },
+      {
+       "id": "799943",
+       "type": "goal"
+      },
+      {
+       "id": "801314",
+       "type": "goal"
+      },
+      {
+       "id": "825696",
+       "type": "goal"
+      },
+      {
+       "id": "971426",
+       "type": "goal"
+      },
+      {
+       "id": "1062563",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "2375",
+       "type": "patron_goal"
+      },
+      {
+       "id": "2376",
+       "type": "patron_goal"
+      },
+      {
+       "id": "2377",
+       "type": "patron_goal"
+      },
+      {
+       "id": "2378",
+       "type": "patron_goal"
+      },
+      {
+       "id": "2379",
+       "type": "patron_goal"
+      },
+      {
+       "id": "2380",
+       "type": "patron_goal"
+      },
+      {
+       "id": "2381",
+       "type": "patron_goal"
+      },
+      {
+       "id": "2382",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-258044",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-258044"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1424915",
+       "type": "reward"
+      },
+      {
+       "id": "536081",
+       "type": "reward"
+      },
+      {
+       "id": "539830",
+       "type": "reward"
+      },
+      {
+       "id": "536082",
+       "type": "reward"
+      },
+      {
+       "id": "650217",
+       "type": "reward"
+      },
+      {
+       "id": "1179584",
+       "type": "reward"
+      },
+      {
+       "id": "536083",
+       "type": "reward"
+      },
+      {
+       "id": "536084",
+       "type": "reward"
+      },
+      {
+       "id": "536085",
+       "type": "reward"
+      },
+      {
+       "id": "1425021",
+       "type": "reward"
+      },
+      {
+       "id": "650218",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Bombelkie are identical twins that create amazing masterpieces. \u003cbr\u003eOur work emphasis is on physique, fitness, modeling, and portrait photography.",
+     "created": "2015-02-27T18:45:32+00:00",
+     "facebook": "https://www.facebook.com/pages/Bombelkie/119900248093344",
+     "first_name": "BOMBELKIE",
+     "full_name": "BOMBELKIE",
+     "gender": 1,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/589231/dbf8b123deb544e095b567e1fb6efad0?token-time=2145916800\u0026token-hash=P3wO1xWN9VuWVcVW6m99npLM9UXJRpZsLQnuRnP6kv8%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/589231/dbf8b123deb544e095b567e1fb6efad0?token-time=2145916800\u0026token-hash=-uCETdUGUa8R46pL_VbbkIvviiVVIhwUIjDKOB81-r0%3D",
+     "twitch": null,
+     "twitter": "Bombelkie",
+     "url": "https://www.patreon.com/Bombelkie",
+     "vanity": "Bombelkie",
+     "youtube": "https://www.youtube.com/user/Bombelkie"
+    },
+    "id": "589231",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "258044",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/258044"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 237,
+     "upgrade_url": "/bePatron?c=258044\u0026rid=1424915"
+    },
+    "id": "post-aggregation-for-0-258044",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-02-20T23:34:04.839439+00:00",
+     "description": "\u003cstrong\u003e-Access to SFW with our logo on it. -\u003c/strong\u003eEarly Access to our Original Art and Photography before it\u2019s posted anywhere else.\u00a0\n\u003cp\u003e- Lens Only available on the Patreon mobile app. \u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T08:19:29.572575+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1424915/1fc6b9de2eb64fe8acbce6665b7b4547?token-time=2145916800\u0026token-hash=XUS2Cswa9olumRhpqm5HObBzZ0fbTa4tHpsIbJT8obM%3D",
+     "post_count": 81,
+     "published": true,
+     "published_at": "2018-02-07T08:19:29.566232+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "TIER 1",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258044\u0026rid=1424915"
+    },
+    "id": "1424915",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-09-18T00:02:19+00:00",
+     "description": "\u003cstrong\u003e-Access to uncensored versions of our photographs and artwork with our logo on them.(NSFW)\u003c/strong\u003e\u003cbr\u003e\n-Early Access to our Original Art and Photography before it\u2019s posted anywhere else.\n\u003cp\u003e- Lens Only available on the Patreon mobile app. \u00a0\u003cbr\u003e\n-Thank you for your Patronage.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T08:19:51.339807+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/536081/d71274fd4e91435ebf411aa9596fb721?token-time=2145916800\u0026token-hash=S7wJyeNpkCwwYPkbhv0VvXf8-x2AmcqfGXIIyJGWYFY%3D",
+     "post_count": 85,
+     "published": true,
+     "published_at": "2018-02-07T08:19:51.329154+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "TIER 2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258044\u0026rid=536081"
+    },
+    "id": "536081",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-09-18T00:02:19+00:00",
+     "description": "\u003cstrong\u003e-Behind the scenes of our photoshoots video including nude sessions.\u003cbr\u003e\n\u003c/strong\u003e-Access to uncensored versions of our photographs and artwork with our logo on them..(NSFW)\u003cbr\u003e\n-Early Access to our Original Art and Photography before it\u2019s posted anywhere else.\u003cbr\u003e\n- Lens Only available on the Patreon mobile app. \u00a0\n\u003cp\u003e-Thank you for your Patronage.\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T08:20:15.757665+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/539830/edb9dd58a54e429099040b8a125ff3d2?token-time=2145916800\u0026token-hash=DDp0mIVZaxVyjL8chRrD0lVLJs0HyASrjWFNb8kZUQo%3D",
+     "post_count": 23,
+     "published": true,
+     "published_at": "2018-02-07T08:20:15.747255+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "TIER 3",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258044\u0026rid=539830"
+    },
+    "id": "539830",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-09-18T00:02:20+00:00",
+     "description": "\u003cstrong\u003e-Receive a 5\"x7\" personal Thank you card, (includes shipping). It\u0027s a beautiful art card you can frame. (logo will not be on final image, All prints will be sent from Fine Art America)\u003c/strong\u003e\u003cbr\u003e\n-Behind the scenes of our photoshoots.\n\u003cp\u003e-Full access to all of my Patreon-only posts.\u003cbr\u003e\n-Early Access to our Original Art and Photography before it\u2019s posted anywhere else.\u003cbr\u003e\n- Lens Only available on the Patreon mobile app. \u00a0\u003c/p\u003e\n\u003cp\u003e-Thank you for your Patronage.\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T08:20:30.747120+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/536082/0e6bc96d727b486aab1da3d39d5ad191?token-time=2145916800\u0026token-hash=60a0einu2W54ueMS-d8zFkuUG7MoEjm9l7Bt8XyYdOQ%3D",
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-07T08:20:30.739778+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "TIER 4",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258044\u0026rid=536082"
+    },
+    "id": "536082",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2016-09-18T00:02:20+00:00",
+     "description": "\u003cstrong\u003e-Receive a 8\"x10\" fine art print, (includes shipping). It\u0027s a beautiful Fine Art Print \u00a0you can frame. (logo will not be on final image, All prints will be sent from Fine Art America)\u003c/strong\u003e\u003cbr\u003e\n-Behind the scenes of our photoshoots.\u003cbr\u003e\n-Full access to all of my Patreon-only posts.\u003cbr\u003e\n-Early Access to our Original Art and Photography before it\u2019s posted anywhere else.\n\u003cp\u003e- Lens Only available on the Patreon mobile app. \u00a0\u003c/p\u003e\n\u003cp\u003e-Thank you for your Patronage.\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T08:21:55.392463+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/650217/268ce3c4318b4fdc9a60a2331720ac41?token-time=2145916800\u0026token-hash=rsR0bsXLwdmflKMbJEbguPe93ZCQcq4gLrHExOqEPlY%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-07T08:21:55.383956+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "TIER 5",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258044\u0026rid=650217"
+    },
+    "id": "650217",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-12-18T07:05:42.506160+00:00",
+     "description": "\u003cstrong\u003e-Receive a 11\"x14\" fine art print, (includes shipping). It\u0027s a beautiful Fine Art Print you can frame. (logo will not be on final image, All prints will be sent from Fine Art America)\u003c/strong\u003e\u003cbr\u003e\n-Behind the scenes of our photoshoots.\u003cbr\u003e\n-Full access to all of my Patreon-only posts.\u003cbr\u003e\n-Early Access to our Original Art and Photography before it\u2019s posted anywhere else.\n\u003cp\u003e- Lens Only available on the Patreon mobile app. \u00a0\u003cbr\u003e\n-Thank you for your Patronage.\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T08:22:12.163501+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1179584/c1ba86b8efd6404f8d9652ee18944a13?token-time=2145916800\u0026token-hash=5OkO9T0oKcwklBAYxCbuvjC1fKhBUD9vHxz9bSgbIsA%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-07T08:22:12.157044+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "TIER 6",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258044\u0026rid=1179584"
+    },
+    "id": "1179584",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2016-09-18T00:02:20+00:00",
+     "description": "\u003cstrong\u003e-For a donation of $200 receive a Fine Art print a month size being 20\u201d x 30\u201d, \u00a0Fine Art print. ( Image would be from the previous month art. All prints will be sent from Fine Art America\u00a0).\u003cbr\u003e\n\u003c/strong\u003e-Behind the scenes of our photoshoots.\n\u003cp\u003e-Full access to all of my Patreon-only posts.\u003cbr\u003e\n-Early Access to our Original Art and Photography before it\u2019s posted anywhere else.\u003c/p\u003e\n\u003cp\u003e- Lens Only available on the Patreon mobile app. \u00a0\u003cbr\u003e\n-Thank you for your Patronage.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T08:21:35.517283+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/536083/43bce543401f482798fe6e819e9ed74e?token-time=2145916800\u0026token-hash=qg8YNqSKC_hp9ZtZa2c3rjVP3nk4-6n8P6UVOkjhs0Q%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-07T08:21:35.510739+00:00",
+     "remaining": 42,
+     "requires_shipping": true,
+     "title": "TIER 7",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258044\u0026rid=536083"
+    },
+    "id": "536083",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 30000,
+     "amount_cents": 30000,
+     "created_at": "2016-09-18T00:02:20+00:00",
+     "description": "\u003cstrong\u003e-For a donation of $300 receive a Fine Art print a month with the longest size being 24\u201d x 36\u201d, Fine art Print ( Image would be from the previous month art. All prints will be sent from Fine Art America\u00a0).\u003cbr\u003e\n\u003c/strong\u003e-Behind the scenes of our photoshoots.\n\u003cp\u003e-Full access to all of my Patreon-only posts.\u003cbr\u003e\n-Credit at the end of our making of Bombelkie creation video.\u003cbr\u003e\n-Early Access to our Original Art and Photography before it\u2019s posted anywhere else.\u003c/p\u003e\n\u003cp\u003e- Lens Only available on the Patreon mobile app. \u00a0\u003cbr\u003e\n-Thank you for your Patronage.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T08:22:46.740202+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/536084/ec3b9e6536a84a95bc702c7bcc2e2404?token-time=2145916800\u0026token-hash=kwCBo3Cc6nxRc9S_J7KnscbB18nA9T8-k0ytE4YIlCo%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-07T08:22:46.733654+00:00",
+     "remaining": 50,
+     "requires_shipping": true,
+     "title": "TIER 8",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258044\u0026rid=536084"
+    },
+    "id": "536084",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-09-18T00:02:20+00:00",
+     "description": "\u00a0\n\u003cp\u003eWith this reward we would be able to fund a photoshoot, and create some epic and monumental images.\u00a0\u003c/p\u003e\n\u003cp\u003eYou would receive credit for all images and videos created from a shoot you helped to fund.\u00a0\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eAccess to photos and videos via google drive (email required), before posted on our patreon page. \u00a0\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eReceive a 8\"x10\" fine art print, (includes shipping). It\u0027s a beautiful Fine Art Print you can frame. (logo will not be on final image, All prints are printed on acid-free papers using archival inks, and \u00a0will be sent from Fine Art America). You will be able to choose your image from choices we provide to you exclusively.\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003eFull access to all of my Patreon-only posts.\u003c/li\u003e\n\u003cli\u003eEarly Access to our Original Art and Photography before it\u2019s posted anywhere else.\u003c/li\u003e\n\u003cli\u003e- Lens Only available on the Patreon mobile app. \u00a0\u003c/li\u003e\n\u003cli\u003eThank you for your Patronage.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003e\u00a0We would send the \u00a0Fine Art Print to you via Fine Art America.\u003c/strong\u003e\u003c/em\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-06T02:01:08.183232+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/536085/b98bb6f63d9d42caaa4412fd31691a58?token-time=2145916800\u0026token-hash=n9ZdHKD2bteZmh83_aUQ6u9XwxodZCbtNp_sVanC9YY%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T02:01:08.175802+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Fund a Photo-shoot Option 1",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258044\u0026rid=536085"
+    },
+    "id": "536085",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 70000,
+     "amount_cents": 70000,
+     "created_at": "2017-02-21T00:12:18.827699+00:00",
+     "description": "\u00a0\n\u003cp\u003eWith this reward we would be able \u00a0to fund a photoshoo, and create some epic and monumental images.\u00a0\u003c/p\u003e\n\u003cp\u003eYou would receive credit for all images and videos created from a shoot you helped to fund.\u00a0\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eAccess to photos and videos via google drive (email required), before posted on our patreon page. \u00a0\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eReceive a 11\"x14\" fine art print, (includes shipping). It\u0027s a beautiful Fine Art Print you can frame. (logo will not be on final image, All prints are printed on acid-free papers using archival inks, and \u00a0will be sent from Fine Art America). You will be able to choose your image from choices we provide to you exclusively.\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003eFull access to all of my Patreon-only posts.\u003c/li\u003e\n\u003cli\u003eEarly Access to our Original Art and Photography before it\u2019s posted anywhere else.\u003c/li\u003e\n\u003cli\u003e- Lens Only available on the Patreon mobile app. \u00a0\u003c/li\u003e\n\u003cli\u003eThank you for your Patronage.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u00a0\u003cem\u003e\u003cstrong\u003e\u00a0We would send the \u00a0Fine Art Print to you via Fine Art America.\u003c/strong\u003e\u003c/em\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-06T02:01:26.971991+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1425021/226f43c34c204c148becb91367fb7d90?token-time=2145916800\u0026token-hash=Uz2wFqEgtTQlGvYxDi7q-ufU4rKmvq4NPdx5-XPrQV4%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T02:01:26.964089+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Fund a Photo-shoot Option 2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258044\u0026rid=1425021"
+    },
+    "id": "1425021",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2016-09-18T00:02:20+00:00",
+     "description": "\u00a0\n\u003cp\u003eWith this reward we would be able \u00a0\u00a0to fund a photoshoo, and create some epic and monumental images.\u00a0\u003c/p\u003e\n\u003cp\u003eYou would receive credit for all images and videos created from a shoot you helped to fund.\u00a0\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eYou would get a full credit in our book and help us fund a whole photoshoot. As well as a shout out on our Facebook page. Or if you want to stay anonymous just let us know.\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003eAccess to photos and videos via google drive (email required), before posted on our patreon page. \u00a0\u003c/li\u003e\n\u003cli\u003eReceive a 24\u201d x 36\u201d fine art print, (includes shipping). It\u0027s a beautiful Fine Art Print you can frame. (logo will not be on final image, All prints are printed on acid-free papers using archival inks, and \u00a0will be sent from Fine Art America). You will be able to choose your image from choices we provide to you exclusively.\u003c/li\u003e\n\u003cli\u003eFull access to all of my Patreon-only posts.\u003c/li\u003e\n\u003cli\u003eEarly Access to our Original Art and Photography before it\u2019s posted anywhere else.\u003c/li\u003e\n\u003cli\u003e- Lens Only available on the Patreon mobile app. \u00a0\u003c/li\u003e\n\u003cli\u003eThank you for your Patronage.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u00a0\u003cem\u003e\u003cstrong\u003e\u00a0We would send the \u00a0Fine Art Print to you via Fine Art America.\u003c/strong\u003e\u003c/em\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-06T02:01:44.341589+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/650218/11a839ce1fc344a8a50846f6a306f46d?token-time=2145916800\u0026token-hash=6LODFxebQO3aqMqLBZCXq-c_qq6oXdWH73PbqzkRYrs%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T02:01:44.334288+00:00",
+     "remaining": 7,
+     "requires_shipping": true,
+     "title": "Fund a Photo-shoot Option 3",
+     "unpublished_at": null,
+     "url": "/bePatron?c=258044\u0026rid=650218"
+    },
+    "id": "650218",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 2,
+     "created_at": "2016-05-10T04:31:39+00:00",
+     "description": "Allow us to reach outside our curent area and shoot with models we curently are unable to shoot with.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "422420",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2016-05-10T04:31:39+00:00",
+     "description": "Capture 4K 3D 360\u00b0 VR Video You could view our photo-shoot as if you are actually there.\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/Gt9aa4L0w_o\" width=\"420\"\u003e\u003c/iframe\u003e\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "422421",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2016-05-10T04:31:39+00:00",
+     "description": "-Canon EF 70-200mm f/2.8L IS II USM",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "422422",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2016-05-10T04:31:39+00:00",
+     "description": "Purchase new photography equipment.\u00a0\u003cbr\u003e-Portable lights for the studio.\u00a0\u003cbr\u003e-Bigger soft boxes.\u003cbr\u003e-Finally be able to have a fully functional studio as well as a portable studio.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "422423",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-05-11T04:06:35+00:00",
+     "description": "Someone likes what we are doing.",
+     "reached_at": "2016-08-09T23:50:09+00:00",
+     "title": ""
+    },
+    "id": "423388",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 77,
+     "created_at": "2016-05-11T04:07:51+00:00",
+     "description": "Continue doing what we are doing.\u00a0Purchase some Spartan and Roman soldier props.",
+     "reached_at": "2017-11-20T01:37:49+00:00",
+     "title": ""
+    },
+    "id": "423389",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 11,
+     "created_at": "2016-05-11T04:10:15+00:00",
+     "description": "Be able to fund a whole photoshoot.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "423390",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2016-09-15T18:37:35+00:00",
+     "description": "Adobe CC is taken care off. Thank you.\u00a0",
+     "reached_at": "2017-11-07T00:22:14+00:00",
+     "title": ""
+    },
+    "id": "548074",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2017-04-20T23:32:53+00:00",
+     "description": "-Canon 5Dsr\u003cbr\u003e\u003cbr\u003eIt would be perfect for our monumental. Like to work large format and its 50 Megapixels\u00a0would aid us immensely to assure high quality.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "799943",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-04-21T22:38:42+00:00",
+     "description": "\u003cimg src=\"https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ma/imacpro/27/imacpro-27-retina-config-hero?wid=412\u0026amp;hei=352\u0026amp;fmt=jpeg\u0026amp;qlt=95\u0026amp;.v=1512501389796\"\u003e\u003cbr\u003e27-inch imac with retina 8k display\u003cbr\u003e\u003cul\u003e\u003cli\u003e2.3GHz 18-core Intel Xeon W processor, Turbo Boost up to 4.3GHz\u003c/li\u003e\u003cli\u003e128GB 2666MHz DDR4 ECC memory\u003c/li\u003e\u003cli\u003e4TB SSD\u003c/li\u003e\u003cli\u003eRadeon Pro Vega 64 with 16GB of HBM2 memory\u003c/li\u003e\u003cli\u003eMagic Mouse 2 + Magic Trackpad 2 - Space Grey\u003c/li\u003e\u003cli\u003eMagic Keyboard with Numeric Keypad - US English - Space Grey\u003c/li\u003e\u003c/ul\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "801314",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-05-08T17:18:17+00:00",
+     "description": "purchase the ultamit mobile workstation.\u00a0\u003cbr\u003e\u003ca href=\"https://us-store.acer.com/laptops/predator-21-x-ultimate-gaming/predator-21-x-gaming-laptop-gx21-71-76zf\"\u003ePredator 21 X Gaming Laptop - GX21-71-76ZF\u003c/a\u003e\u003cbr\u003e\u003cimg src=\"https://static-ecpa.acer.com/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/p/r/predator_21x_sku_main.png\" style=\"width: 304px;\"\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "825696",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 3,
+     "created_at": "2017-09-20T04:07:29+00:00",
+     "description": "No more worries, studeo rent is coverd.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "971426",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 2,
+     "created_at": "2017-12-31T01:20:39+00:00",
+     "description": "- Purchase a\u00a0Blackmagic Pocket Cinema Camera with lens, for amazing behind the scenes video of our photoshoots.\u00a0\u003cbr\u003e\u003cimg src=\"https://images.blackmagicdesign.com/images/products/blackmagicpocketcinemacamera/landing/mft-lens-mount.jpg?_v=1460999813\"\u003e\u003cbr\u003e\u003cbr\u003e\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/hqg52E-mq1I\" width=\"560\"\u003e\u003c/iframe\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1062563",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-01-31T19:44:55+00:00",
+     "deleted_at": null,
+     "description": "Someone likes what we are doing.",
+     "goal_text": "Someone likes what we are doing.",
+     "number_patrons": 2,
+     "reached_at": null
+    },
+    "id": "2375",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-01-31T19:44:55+00:00",
+     "deleted_at": null,
+     "description": "Adobe CC is taken care off. Thank you.\u00a0",
+     "goal_text": "Adobe CC is taken care off. Thank you.\u00a0",
+     "number_patrons": 17,
+     "reached_at": null
+    },
+    "id": "2376",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-01-31T19:44:55+00:00",
+     "deleted_at": null,
+     "description": "Continue doing what we are doing.\u00a0Purchase some Spartan and Roman soldier costumes for our models.",
+     "goal_text": "Continue doing what we are doing.\u00a0Purchase some Spartan and Roman soldier costumes for our models.",
+     "number_patrons": 21,
+     "reached_at": null
+    },
+    "id": "2377",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-01-31T19:44:55+00:00",
+     "deleted_at": null,
+     "description": "Focesing on our masterpices is a little easer.\u00a0Purchase some Spartan and Roman soldier costumes for our models.",
+     "goal_text": "Focesing on our masterpices is a little easer.\u00a0Purchase some Spartan and Roman soldier costumes for our models.",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "2378",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-01-31T19:44:55+00:00",
+     "deleted_at": null,
+     "description": "Start shooting, in high quality, behind the scenes of our photoshoots.",
+     "goal_text": "Start shooting, in high quality, behind the scenes of our photoshoots.",
+     "number_patrons": 300,
+     "reached_at": null
+    },
+    "id": "2379",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-01-31T19:44:55+00:00",
+     "deleted_at": null,
+     "description": "- start shooting, in true 3D, behind the scenes of our photoshoots in HD.\u003cbr\u003e\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/Gt9aa4L0w_o\" width=\"420\"\u003e\u003c/iframe\u003e\u003cbr\u003e\u003cbr\u003e",
+     "goal_text": "- start shooting, in true 3D, behind the scenes of our photoshoots in HD.\u003cbr\u003e\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/Gt9aa4L0w_o\" width=\"420\"\u003e\u003c/iframe\u003e\u003cbr\u003e\u003cbr\u003e",
+     "number_patrons": 400,
+     "reached_at": null
+    },
+    "id": "2380",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-01-31T19:44:55+00:00",
+     "deleted_at": null,
+     "description": "- Canon EF 70-200mm f/2.8L IS II USM",
+     "goal_text": "- Canon EF 70-200mm f/2.8L IS II USM",
+     "number_patrons": 700,
+     "reached_at": null
+    },
+    "id": "2381",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-01-31T19:44:55+00:00",
+     "deleted_at": null,
+     "description": "Capture 4K 3D 360\u00b0 VR Video You could view our photo-shoot as if you are actually there.",
+     "goal_text": "Capture 4K 3D 360\u00b0 VR Video You could view our photo-shoot as if you are actually there.",
+     "number_patrons": 2090,
+     "reached_at": null
+    },
+    "id": "2382",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/258044"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "6be515d6-9b14-4045-bb4d-7d4102fb6faf",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "BOMBELKIE are creating Fine Art Photography, Digital Art, and Videos. "
+});
+    </script>

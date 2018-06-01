@@ -1,0 +1,505 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "KJHKpGH7SUuEZSUxAQfzKyOH7kWSKB1BiiBHnRlnYzc";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "31388",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/31388"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-01-20T07:25:41+00:00",
+    "creation_name": "Stories, Comics, and games",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/140582/38dbddbbafe44f1fa731a25e54413531?token-time=2145916800\u0026token-hash=38WSD4YPw_DQAyBy-IOEL-0PA0JGeS9vv1ylhPlOSxA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/140582/38dbddbbafe44f1fa731a25e54413531?token-time=2145916800\u0026token-hash=jnsGTKT1POFj-r_iAqOUgVBWYf3wKa2IvRFdkxIp13c%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_sum": 1925,
+    "pledge_url": "/bePatron?c=140582",
+    "published_at": "2015-01-21T04:51:22+00:00",
+    "summary": "My name is Emily-Ann Coons, also known as \"Sureen Ink\", and I\u0027m trying to raise money to help me out in my daily life. At the moment, I make about $500 a month working in fast food, but I also have about $16,000 worth of medical bills that keep demanding me to pay them. Unfortunately, with my current $400 a month in other bills (food, power, internet, etc.) I can\u0027t exactly afford to pay those bills. As well, I write stories and have artists who draw me webcomics that I write for.\u003cbr\u003e\u003cbr\u003eThis money will go to helping to actually pay those artists who currently receive nothing for their hard work, as well as helping me to pay my medical bills. My artist friends have offered to help out as well by offering different benefits (such as requests, access to sketches, lineart, etc.) to anyone who donates. So, any donations would be greatly appreciated, and would be met with joy and thanks! As well, if I can raise enough, I might even be able to start paying some people to start programming a video game I have in mind!\u003cbr\u003e"
+   },
+   "id": "140582",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "264243",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/264243"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "109257",
+       "type": "goal"
+      },
+      {
+       "id": "111961",
+       "type": "goal"
+      },
+      {
+       "id": "332910",
+       "type": "goal"
+      },
+      {
+       "id": "446226",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-140582",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-140582"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "144055",
+       "type": "reward"
+      },
+      {
+       "id": "418307",
+       "type": "reward"
+      },
+      {
+       "id": "144056",
+       "type": "reward"
+      },
+      {
+       "id": "144080",
+       "type": "reward"
+      },
+      {
+       "id": "144082",
+       "type": "reward"
+      },
+      {
+       "id": "144676",
+       "type": "reward"
+      },
+      {
+       "id": "144083",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2014-08-13T08:58:23+00:00",
+     "facebook": null,
+     "first_name": "Sureen",
+     "full_name": "Sureen Ink",
+     "gender": 2,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/264243/a6ef5d6e1cca490ea6b58185fdf97eef?token-time=2145916800\u0026token-hash=VZtfCUxef-HmJC6hXdrnHIITfXSk2jUx27FwDnAXb2w%3D",
+     "last_name": "Ink",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/264243/a6ef5d6e1cca490ea6b58185fdf97eef?token-time=2145916800\u0026token-hash=kqX3hTUzcfTq0H0q5e5XSnH_wLNUmyBQ_ildZSKqYjw%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/emilyanncoons",
+     "vanity": "emilyanncoons",
+     "youtube": "https://www.youtube.com/sureenink"
+    },
+    "id": "264243",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "140582",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/140582"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 558,
+     "upgrade_url": "/bePatron?c=140582\u0026rid=144055"
+    },
+    "id": "post-aggregation-for-0-140582",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-07-17T17:56:37+00:00",
+     "description": "You get the following benefits:\u003cbr\u003e\u003cul\u003e\u003cli\u003eYour name will be posted to everything this Patreon goes to. That includes anything I post that goes here on my DeviantArt, my monthly update videos on YouTube, etc. (Please let me know what name you wish to be labelled as. Patreon usually displays your real name, so that is what I will use unless you tell me otherwise!)\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-12T03:55:48.805065+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 19,
+     "published": true,
+     "published_at": "2016-07-17T17:56:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Copper Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=140582\u0026rid=144055",
+     "user_limit": null
+    },
+    "id": "144055",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-07-17T17:56:37+00:00",
+     "description": "You get the following benefits:\u003cbr\u003e\u003cul\u003e\u003cli\u003eAll the benefits of Copper Tier\u003c/li\u003e\u003cli\u003eYou get early access (roughly a week minimum) to completed versions of my stories and D\u0026amp;D campaigns I\u0027m writing. This includes things like the Versumi Handbook (extra rules, races, classes, etc. used in my campaigns) \u003c/li\u003e\u003cli\u003eI will name things after you in games that have the ability for me to name things (i.e. as nicknames in Pokemon, names of Aeons in FFX, etc.)\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-12T03:55:48.846709+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 5,
+     "published": true,
+     "published_at": "2016-07-17T17:56:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Brass Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=140582\u0026rid=418307",
+     "user_limit": null
+    },
+    "id": "418307",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-07-17T17:56:37+00:00",
+     "description": "You gain the following benefits:\u003cbr\u003e\u003cul\u003e\u003cli\u003eAll the benefits of Brass Tier\u003c/li\u003e\u003cli\u003eYou gain access to completed pages of any comic I produce.\u003c/li\u003e\u003cli\u003eYou gain access to individual chapters of any stories I\u0027m writing.\u003c/li\u003e\u003cli\u003eYou gain the ability to vote on the next series I do of my Let\u0027s Plays on my YouTube channel.\u003c/li\u003e\u003cli\u003eYou gain the ability to see my weekly game development posts ONE WEEK in advance of when they are posted onto the Knight\u0027s Creations Tumblr account.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "359441556572471306"
+     ],
+     "edited_at": "2018-02-27T05:09:55.589856+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 250,
+     "published": true,
+     "published_at": "2018-02-27T05:09:55.541554+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Bronze Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=140582\u0026rid=144056",
+     "user_limit": null
+    },
+    "id": "144056",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-07-17T17:56:37+00:00",
+     "description": "You gain the following benefits:\u003cbr\u003e\u003cul\u003e\u003cli\u003eAll the benefits of Bronze Tier\u003c/li\u003e\u003cli\u003eYou gain access to the linearts of any comic I produce.\u003c/li\u003e\u003cli\u003eYou gain access to any WIPs of chapters of stories I write.\u003c/li\u003e\u003cli\u003eYou can request any game that I own and haven\u0027t yet played \non YouTube for me to play. I will record about 2 hours of gameplay of \nthat game per month.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "359441556572471306"
+     ],
+     "edited_at": "2018-02-27T05:10:35.062702+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 188,
+     "published": true,
+     "published_at": "2018-02-27T05:10:35.040804+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Silver Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=140582\u0026rid=144080",
+     "user_limit": null
+    },
+    "id": "144080",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-07-17T17:56:37+00:00",
+     "description": "You gain the following benefits:\u003cbr\u003e\u003cul\u003e\u003cli\u003eAll the benefits of Silver Tier\u003c/li\u003e\u003cli\u003eYou gain access to the sketches of any comic I produce.\u003c/li\u003e\u003cli\u003eYou can request a multiplayer session with me of a game I own and\n I will record it for my YouTube. Restricted 2 hours per month. This is \nnot limited to multiplayer games. You can request a multiplayer session \nwith me on a single player game where I play and you join in on \ncommentary.\u003c/li\u003e\u003cli\u003eYou can exchange the multiplayer recording time for an extra 2 hours of the original request time (4 hours instead of 2).\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "359441556572471306"
+     ],
+     "edited_at": "2018-02-27T05:10:44.135097+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 82,
+     "published": true,
+     "published_at": "2018-02-27T05:10:44.101344+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gold Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=140582\u0026rid=144082",
+     "user_limit": null
+    },
+    "id": "144082",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-07-17T17:56:37+00:00",
+     "description": "You gain the following benefits:\u003cbr\u003e\u003cul\u003e\u003cli\u003eAll of the benefits of Gold Tier\u003c/li\u003e\u003cli\u003eYou gain access to the scripts of any comic I produce.\u003c/li\u003e\u003cli\u003eI can request up to 4 hours of multiplayer recording time with me instead of just 2.\u003c/li\u003e\u003cli\u003eYou can exchange the multiplayer recording time for an extra 4 hours of the request recording time (6 hours instead of 2). You may exchange less multiplayer recording time and obtain both the multiplayer and extended request recording time if you want (i.e. you want to record 3 hours of multiplayer recording time, and want the rest as your game request).\u003c/li\u003e\u003cli\u003eYou can make a cameo as a background character with no lines in a comic of your choice (will occur when cameos are available and may not necessarily mean you will get it right away).\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "359441556572471306"
+     ],
+     "edited_at": "2018-02-27T05:10:52.570849+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-27T05:10:52.540709+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Platinum Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=140582\u0026rid=144676",
+     "user_limit": null
+    },
+    "id": "144676",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-07-17T17:56:37+00:00",
+     "description": "You gain the following benefits:\u003cbr\u003e\u003cul\u003e\u003cli\u003eAll of the benefits of Platinum Tier\u003c/li\u003e\u003cli\u003eYou may request a game I do not own (as long as it is no more than $10, or you are willing to pay anything above $10 for the game) for the recording.\u003c/li\u003e\u003cli\u003eI will finish the game you request, and you can join in on commentary as well if you like (or I will play the game until I am unable to continue playing it due to rage, boredom, or anything of the sort. Minimum of 6 hours.)\u003c/li\u003e\u003cli\u003eIf you choose, I\u0027ll host a call with you and any others at this tier once a month and I\u0027ll discuss with you anything you want to know about the game\u0027s development that isn\u0027t overly spoilery.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "359441556572471306"
+     ],
+     "edited_at": "2018-02-27T05:11:00.723387+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-27T05:11:00.690821+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Diamond Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=140582\u0026rid=144083",
+     "user_limit": null
+    },
+    "id": "144083",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 38,
+     "created_at": "2015-01-20T10:15:39+00:00",
+     "description": "We all know I suck horribly at updating my stories. At this amount, it would push me to want to keep myself focused on writing. As I write stories and D\u0026amp;D campaigns, I\u0027d push myself to release some sort of \nupdate to either a story or D\u0026amp;D campaign twice a month.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "109257",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 12,
+     "created_at": "2015-01-24T07:49:29+00:00",
+     "description": "We all know I suck horribly at updating my stories. At this amount, it \nwould push me to want to keep myself focused on writing. As I write \nstories and D\u0026amp;D campaigns, I\u0027d push myself to release some sort of \nupdate to either a story or D\u0026amp;D campaign every week.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "111961",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 6,
+     "created_at": "2016-01-23T14:28:15+00:00",
+     "description": "At this goal, we\u0027d make enough money that we\u0027re no longer 100% dependant on the ads from the Smackjeeves website. Life of Alexis Perkins would be able to return to updating normally again on both websites, instead of updating earlier on the Smackjeeves site.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "332910",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 77,
+     "created_at": "2016-06-05T06:53:07+00:00",
+     "description": "We all know I suck horribly at updating my stories. At this amount, it \nwould push me to want to keep myself focused on writing. As I write \nstories and D\u0026amp;D campaigns, I\u0027d push myself to release some sort of \nupdate to either a story or D\u0026amp;D campaign once a month.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "446226",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/140582"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "1916fd6e-c420-4371-9316-099f56e3d874",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Sureen Ink is creating Stories, Comics, and games"
+});
+    </script>

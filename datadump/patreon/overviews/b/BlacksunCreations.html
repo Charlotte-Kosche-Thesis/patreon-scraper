@@ -1,0 +1,431 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "x8WguiW_-sZ9ncQiKHYt-Q2BPO3tLqRWAOqnL4mk9G4";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "21174",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/21174"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-09-14T02:40:49+00:00",
+    "creation_name": "Pinup Art",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/113657/2f9f5f5e4dd3486bb62b485ff0d705ac?token-time=2145916800\u0026token-hash=pkEYnkMIjgk1cxu09jlGMSfrNe5LCxtEZBryG-5XrMc%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/113657/2f9f5f5e4dd3486bb62b485ff0d705ac?token-time=2145916800\u0026token-hash=8avp_AdkZemailAeUI4eKO-uXeSbEQn2UPxtOrNu77I%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Art speaks every language.",
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_sum": 3686,
+    "pledge_url": "/bePatron?c=113657",
+    "published_at": "2014-09-14T02:40:49+00:00",
+    "summary": "Hello! I\u0027m Harley, and I love art. I\u0027m a freelance artist living in the San Fracisco Bay Area. My goal is to supplement my household\u0027s income with art while my husband and I attend school. Your support means that I can continue doing what I love while helping support my loved ones, and be able to give back to people who have inspired me so much.\u003cbr\u003e\u003cbr\u003eExpect:\u003cbr\u003e\u003cul\u003e\u003cli\u003ePinup Art\u003c/li\u003e\u003cli\u003eDungeons and Dragons characters\u003c/li\u003e\u003cli\u003eOriginal art\u003c/li\u003e\u003cli\u003eWorld of Warcraft art\u003c/li\u003e\u003cli\u003eFanart from various places\u003c/li\u003e\u003c/ul\u003e(I am slowly updating things on this page as I have time/energy, so expect to see changes here and there!)\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "113657",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "305197",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/305197"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "64156",
+       "type": "goal"
+      },
+      {
+       "id": "1010488",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-113657",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-113657"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "309396",
+       "type": "reward"
+      },
+      {
+       "id": "86607",
+       "type": "reward"
+      },
+      {
+       "id": "86643",
+       "type": "reward"
+      },
+      {
+       "id": "1774681",
+       "type": "reward"
+      },
+      {
+       "id": "2248043",
+       "type": "reward"
+      },
+      {
+       "id": "2248047",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "My name is Harley and I\u0027m pretty addicted to art and coffee.",
+     "created": "2014-09-14T02:40:49+00:00",
+     "facebook": null,
+     "first_name": "Harley",
+     "full_name": "Harley Blacksun",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/305197/4d51bdc641cb4c99bb4b5fece11a31a5?token-time=2145916800\u0026token-hash=C6JmAXNkW5RqfPNp0usqKuz-4rCml8fbjj00w1rNNkM%3D",
+     "last_name": "Blacksun",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/305197/4d51bdc641cb4c99bb4b5fece11a31a5?token-time=2145916800\u0026token-hash=GukGysGruY0-G0gxWINilmnJuMGRMncdg2LBkImGUrU%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/BlacksunCreations",
+     "vanity": "BlacksunCreations",
+     "youtube": null
+    },
+    "id": "305197",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "113657",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/113657"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 24,
+     "upgrade_url": "/bePatron?c=113657\u0026rid=86607"
+    },
+    "id": "post-aggregation-for-0-113657",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2015-09-14T08:40:02+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003e48 hour advance notice of commissions opening\u003c/li\u003e\n\u003cli\u003eAccess to artwork marked Safe for Work\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-31T23:29:03.211256+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-31T23:29:03.190765+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Copper",
+     "unpublished_at": null,
+     "url": "/bePatron?c=113657\u0026rid=309396",
+     "user_limit": null
+    },
+    "id": "309396",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-09-14T08:40:02+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eEverything from the previous tier PLUS:\u003c/li\u003e\n\u003cli\u003eAccess to Not Safe For Work art\u003c/li\u003e\n\u003cli\u003eSketch and WIP access\u003c/li\u003e\n\u003cli\u003eAccess to polls for content suggestions\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-31T23:30:00.386555+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2017-12-31T23:30:00.350908+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Silver",
+     "unpublished_at": null,
+     "url": "/bePatron?c=113657\u0026rid=86607",
+     "user_limit": null
+    },
+    "id": "86607",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2015-09-14T08:40:02+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eEverything from the previous tier PLUS:\u003c/li\u003e\n\u003cli\u003eDownloadable high res pieces\u003c/li\u003e\n\u003cli\u003eDownloadable line art\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-31T23:30:47.132839+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-31T23:30:47.106624+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gold",
+     "unpublished_at": null,
+     "url": "/bePatron?c=113657\u0026rid=86643",
+     "user_limit": null
+    },
+    "id": "86643",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-06-17T22:18:20.340875+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eEverything from the previous tier PLUS:\u003c/li\u003e\n\u003cli\u003e1 Line art portrait of your choice per month\u003c/li\u003e\n\u003cli\u003e5% discount on commissions\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-31T23:50:53.879224+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-31T23:50:53.851573+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Platinum",
+     "unpublished_at": null,
+     "url": "/bePatron?c=113657\u0026rid=1774681",
+     "user_limit": 6
+    },
+    "id": "1774681",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-12-31T23:33:20.771352+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eEverything from the previous tier PLUS:\u003c/li\u003e\n\u003cli\u003eOne 2.5 inch patch per month (themed, some months will be your choice!)\u003c/li\u003e\n\u003cli\u003e10% discount on purchasing any original traditional art posted for sale\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-31T23:56:04.864154+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-31T23:56:04.839669+00:00",
+     "remaining": 6,
+     "requires_shipping": true,
+     "title": "Titanium",
+     "unpublished_at": null,
+     "url": "/bePatron?c=113657\u0026rid=2248043",
+     "user_limit": 6
+    },
+    "id": "2248043",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-12-31T23:35:35.879057+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eEverything from the previous tier PLUS:\u003c/li\u003e\n\u003cli\u003eOne print of choice from artwork of the month OR a bound copy of the art book at the end of the year(likely shipping in January of the following year)\u003c/li\u003e\n\u003cli\u003e10% discount on commissions\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-31T23:35:35.879057+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-31T23:35:35.879057+00:00",
+     "remaining": 6,
+     "requires_shipping": true,
+     "title": "Stardust",
+     "unpublished_at": null,
+     "url": "/bePatron?c=113657\u0026rid=2248047",
+     "user_limit": 6
+    },
+    "id": "2248047",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 100,
+     "created_at": "2014-09-14T04:17:10+00:00",
+     "description": "With this goal reached, I will do a thank you picture for all of my lovely patrons! Everyone who is subscribed when this goal is reached will have their names added(if desired) to a new banner image as thanks for their support.",
+     "reached_at": "2017-08-01T01:52:09+00:00",
+     "title": ""
+    },
+    "id": "64156",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 73,
+     "created_at": "2017-11-02T01:18:38+00:00",
+     "description": "$50 per month would mean that I could afford the materials every month to create one full-color traditional media piece. Additionally, the artwork created during this will be given away in a quarterly raffle open to ALL patrons! Each raffle winner will be offered their pick of the artwork and it will be shipped to them at absolutely no cost.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1010488",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/113657"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "8566b1a4-57c2-46a2-8261-6c627c45144a",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Harley Blacksun is creating Pinup Art"
+});
+    </script>

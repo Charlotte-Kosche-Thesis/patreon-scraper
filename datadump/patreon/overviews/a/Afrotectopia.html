@@ -1,0 +1,660 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Uqj8lmL5qWkhTXUkMEOOuzbjVUbNcUigntGzqtoiQI4";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "875789",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/875789"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-04-12T07:18:07+00:00",
+    "creation_name": "a community of Black innovators and building social impact.",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1681046/a175a13ec5ab4de185663d02f3d07c1a?token-time=2145916800\u0026token-hash=emnxZtaEuFPjxhncV1fmVyYszb1QJwl2BKQsYBUQIDM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/1681046/a175a13ec5ab4de185663d02f3d07c1a?token-time=2145916800\u0026token-hash=RfqeZSXFLoGb9vPggd7TRrZv9XBVH47pRZ4_9oilO8k%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1681046",
+    "published_at": "2018-04-12T08:49:03+00:00",
+    "summary": "Afrotectopia began as a new media arts, culture and technology festival - holding our inaugural event at New York University\u0027s Interactive Telecommunications Graduate Program (ITP). The event was created and produced by ITP student,\u00a0\u003ca href=\"http://www.ariciano.com\" target=\"_blank\"\u003eAri Melenciano\u003c/a\u003e, and co-organized by students and faculty at NYU.\u003cbr\u003e\u003cbr\u003eWith an incredibly well received inaugural festival, Afrotectopia is looking to expand to other cities and host smaller scaled events in New York City. We have a handful of other exciting ideas we would like to develop, as well. But, before we can do anything, we need funding to be able to expand and bring the Afrotectopia experience to many more people outside of New York City."
+   },
+   "id": "1681046",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "10698951",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/10698951"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "91096",
+       "type": "patron_goal"
+      },
+      {
+       "id": "91097",
+       "type": "patron_goal"
+      },
+      {
+       "id": "91098",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2522089",
+       "type": "reward"
+      },
+      {
+       "id": "2522088",
+       "type": "reward"
+      },
+      {
+       "id": "2522085",
+       "type": "reward"
+      },
+      {
+       "id": "2522083",
+       "type": "reward"
+      },
+      {
+       "id": "2522082",
+       "type": "reward"
+      },
+      {
+       "id": "2522081",
+       "type": "reward"
+      },
+      {
+       "id": "2522078",
+       "type": "reward"
+      },
+      {
+       "id": "2522075",
+       "type": "reward"
+      },
+      {
+       "id": "2522072",
+       "type": "reward"
+      },
+      {
+       "id": "2522071",
+       "type": "reward"
+      },
+      {
+       "id": "2522066",
+       "type": "reward"
+      },
+      {
+       "id": "2522063",
+       "type": "reward"
+      },
+      {
+       "id": "2522061",
+       "type": "reward"
+      },
+      {
+       "id": "2522057",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "We are a creative community that centers art, design, technology, activism and Blackness.",
+     "created": "2018-04-12T07:15:10+00:00",
+     "facebook": "https://www.facebook.com/Afrotectopia",
+     "first_name": "Afrotectopia",
+     "full_name": "Afrotectopia",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/10698951/51d77cdc3da54bf8bc2221f6c96e570d?token-time=2145916800\u0026token-hash=NXDjJCH4mi5lQuWm2XJs8NTNdmrDOoDzcQkGTqN7u80%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/10698951/51d77cdc3da54bf8bc2221f6c96e570d?token-time=2145916800\u0026token-hash=8KDqZSMlRAUTxfKyxsXB6tFVluf_fBz00dA3qTfEHWk%3D",
+     "twitch": null,
+     "twitter": "Afrotectopia",
+     "url": "https://www.patreon.com/Afrotectopia",
+     "vanity": "Afrotectopia",
+     "youtube": null
+    },
+    "id": "10698951",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1681046",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1681046"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-04-12T07:47:35.999437+00:00",
+     "description": "We appreciate you!",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:33:44.802883+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:33:44.796215+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Afrotectopia Contributor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522089"
+    },
+    "id": "2522089",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-04-12T07:46:39.300660+00:00",
+     "description": "We thank you and celebrate your support!",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:33:55.576278+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:33:55.566253+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Afrotectopia Fan",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522088"
+    },
+    "id": "2522088",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-04-12T07:45:55.455688+00:00",
+     "description": "Your support means so much to us.\n\u003cp\u003eFind your shoutout in our Instagram Stories \u2764\ufe0f\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:34:24.181415+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:34:24.174692+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Afrotectopia Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522085"
+    },
+    "id": "2522085",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-04-12T07:45:20.769969+00:00",
+     "description": "You\u0027re amazing, thank you!\n\u003cp\u003e- Find your shoutout in our Instagram Stories \u2764\ufe0f\u003c/p\u003e\n\u003cp\u003e- Receive Behind-The-Scenes footage of Afrotectopia in your inbox\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:34:58.017333+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:34:58.007718+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Friend of Afrotectopia",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522083"
+    },
+    "id": "2522083",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-04-12T07:44:50.202826+00:00",
+     "description": "Wow - thank you so much!\n\u003cp\u003e- Find your shoutout in our Instagram Stories \u2764\ufe0f\u003c/p\u003e\n\u003cp\u003e- Receive Behind-The-Scenes footage of Afrotectopia in your inbox\u003c/p\u003e\n\u003cp\u003e- Exclusive member perks (We\u0027ll reach out to you with polls on next events details)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:35:49.016342+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:35:49.009415+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Champion of Afrotectopia",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522082"
+    },
+    "id": "2522082",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-04-12T07:44:26.359855+00:00",
+     "description": "Thank you so much!\n\u003cp\u003e- Find your shoutout in our Instagram Stories \u2764\ufe0f\u003c/p\u003e\n\u003cp\u003e- Receive Behind-The-Scenes footage of Afrotectopia in your inbox\u003c/p\u003e\n\u003cp\u003e- Exclusive member perks:\u003c/p\u003e\n\u003cp\u003e- We\u0027ll share our updates with you, before we publicly announce them.\u003c/p\u003e\n\u003cp\u003e- We\u0027ll reach out to you with polls on next events details\u003c/p\u003e\n\u003cp\u003e- We\u0027ll send you some Afrotectopia paraphernalia\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:36:28.767644+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:36:28.760525+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Afrotectopia Superhero",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522081"
+    },
+    "id": "2522081",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2018-04-12T07:43:58.070876+00:00",
+     "description": "We simply cannot thank you enough!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e- Find your shoutout in our Instagram Stories \u2764\ufe0f\u003c/p\u003e\n\u003cp\u003e- Receive Behind-The-Scenes footage of Afrotectopia in your inbox\u003c/p\u003e\n\u003cp\u003eExclusive member perks:\u003c/p\u003e\n\u003cp\u003e- We\u0027ll share our updates with you, before we publicly announce them.\u003c/p\u003e\n\u003cp\u003e- We\u0027ll reach out to you with polls on next events details\u003c/p\u003e\n\u003cp\u003e- We\u0027ll send you even more Afrotectopia paraphernalia\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:36:54.187011+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:36:54.180152+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Afrotectopia SuperSuperhero",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522078"
+    },
+    "id": "2522078",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2018-04-12T07:38:26.326939+00:00",
+     "description": "Thank you so much! Your support truly helps us grow.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e- Find your shoutout in our Instagram Stories \u2764\ufe0f\u003c/p\u003e\n\u003cp\u003e- Receive Behind-The-Scenes footage of Afrotectopia in your inbox\u003c/p\u003e\n\u003cp\u003e\u00a0Exclusive member perks:\u003c/p\u003e\n\u003cp\u003e- We\u0027ll share our updates with you, before we publicly announce them.\u003c/p\u003e\n\u003cp\u003e- We\u0027ll reach out to you with polls on next events details\u003c/p\u003e\n\u003cp\u003e- We\u0027ll send you even more Afrotectopia paraphernalia\u00a0\u003c/p\u003e\n\u003cp\u003e- We\u0027ll give you a shout out on our social media handles and in our next festival\u0027s program.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:37:23.520715+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:37:23.510713+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Afrotectopia Donor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522075"
+    },
+    "id": "2522075",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2018-04-12T07:35:53.958279+00:00",
+     "description": "We couldn\u0027t be more grateful of your support, thank you!\n\u003cp\u003e- Find your shoutout in our Instagram Stories \u2764\ufe0f\u003c/p\u003e\n\u003cp\u003e- Receive Behind-The-Scenes footage of Afrotectopia in your inbox\u003c/p\u003e\n\u003cp\u003e\u00a0Exclusive member perks:\u003c/p\u003e\n\u003cp\u003e- We\u0027ll share our updates with you, before we publicly announce them.\u003c/p\u003e\n\u003cp\u003e- We\u0027ll reach out to you with polls on next events details\u003c/p\u003e\n\u003cp\u003e- We\u0027ll send you even more Afrotectopia paraphernalia\u00a0\u003c/p\u003e\n\u003cp\u003e- We\u0027ll give you a shout out on our social media handles and in our next festival\u0027s program.\u00a0\u003c/p\u003e\n\u003cp\u003e- reach out to us for additional alternate efforts of collaboration\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:37:42.370971+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:37:42.364180+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Afrotectopia Big Donor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522072"
+    },
+    "id": "2522072",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 250000,
+     "amount_cents": 250000,
+     "created_at": "2018-04-12T07:34:31.250904+00:00",
+     "description": "Your support truly amazes us, thank you!\n\u003cp\u003e- Find your shoutout in our Instagram Stories \u2764\ufe0f\u003c/p\u003e\n\u003cp\u003e- Receive Behind-The-Scenes footage of Afrotectopia in your inbox\u003c/p\u003e\n\u003cp\u003e\u00a0Exclusive member perks:\u003c/p\u003e\n\u003cp\u003e- We\u0027ll share our updates with you, before we publicly announce them.\u003c/p\u003e\n\u003cp\u003e- We\u0027ll reach out to you with polls on next events details\u003c/p\u003e\n\u003cp\u003e- We\u0027ll send you even more Afrotectopia paraphernalia\u00a0\u003c/p\u003e\n\u003cp\u003e- We\u0027ll give you a shout out on our social media handles and in our next festival\u0027s program.\u00a0\u003c/p\u003e\n\u003cp\u003e- Reach out to us for additional alternate efforts of collaboration\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:37:55.594121+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:37:55.587250+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Afrotectopia Bigger Donor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522071"
+    },
+    "id": "2522071",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500000,
+     "amount_cents": 500000,
+     "created_at": "2018-04-12T07:31:48.258652+00:00",
+     "description": "Your support truly does not go unnoticed. We give many thanks to you!\u00a0\n\u003cp\u003e- You will be awarded (6) Afrotectopia tickets to any annual festival, when giving 15 days notice.\u003c/p\u003e\n\u003cp\u003e- Find your shoutout in our Instagram Stories \u2764\ufe0f\u003c/p\u003e\n\u003cp\u003e- Receive Behind-The-Scenes footage of Afrotectopia in your inbox\u003c/p\u003e\n\u003cp\u003e- We\u0027ll share our updates with you, before we publicly announce them.\u003c/p\u003e\n\u003cp\u003e- We\u0027ll reach out to you with polls on next events details\u003c/p\u003e\n\u003cp\u003e- We\u0027ll send you even more Afrotectopia paraphernalia\u00a0\u003c/p\u003e\n\u003cp\u003e- We\u0027ll give you a shout out on our social media handles and in our next festival\u0027s program.\u00a0\u003c/p\u003e\n\u003cp\u003e- reach out to us for additional alternate efforts of collaboration\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:17:55.024830+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:17:55.015156+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Afrotectopia Believer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522066"
+    },
+    "id": "2522066",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700000,
+     "amount_cents": 700000,
+     "created_at": "2018-04-12T07:30:29.514198+00:00",
+     "description": "You are a shining star and we\u0027re so lucky to have your support. Thank you for believing in us.\u00a0\n\u003cp\u003e- You will be award (8) Afrotectopia tickets to any annual festival, when giving 15 days notice.\u003c/p\u003e\n\u003cp\u003e- Find your shoutout in our Instagram Stories \u2764\ufe0f\u003c/p\u003e\n\u003cp\u003e- Receive Behind-The-Scenes footage of Afrotectopia in your inbox\u003c/p\u003e\n\u003cp\u003e- We\u0027ll share our updates with you, before we publicly announce them.\u003c/p\u003e\n\u003cp\u003e- We\u0027ll reach out to you with polls on next events details\u003c/p\u003e\n\u003cp\u003e- We\u0027ll send you even more Afrotectopia paraphernalia\u00a0\u003c/p\u003e\n\u003cp\u003e- We\u0027ll give you a shout out on our social media handles and in our next festival\u0027s program.\u00a0\u003c/p\u003e\n\u003cp\u003e- reach out to us for additional alternate efforts of collaboration\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:17:43.692452+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:17:43.682277+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Afrotectopia Star",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522063"
+    },
+    "id": "2522063",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000000,
+     "amount_cents": 1000000,
+     "created_at": "2018-04-12T07:29:29.023679+00:00",
+     "description": "We are so thankful of your support! We can\u0027t thank you enough.\u00a0\n\u003cp\u003e- You will be awarded (10) Afrotectopia tickets to any annual festival, when giving 15 days notice.\u003c/p\u003e\n\u003cp\u003e- Find your shoutout in our Instagram Stories \u2764\ufe0f\u003c/p\u003e\n\u003cp\u003e- Receive Behind-The-Scenes footage of Afrotectopia in your inbox\u003c/p\u003e\n\u003cp\u003e- We\u0027ll share our updates with you, before we publicly announce them.\u003c/p\u003e\n\u003cp\u003e- We\u0027ll reach out to you with polls on next events details\u003c/p\u003e\n\u003cp\u003e- We\u0027ll send you even more Afrotectopia paraphernalia\u00a0\u003c/p\u003e\n\u003cp\u003e- We\u0027ll give you a shout out on our social media handles and in our next festival\u0027s program.\u00a0\u003c/p\u003e\n\u003cp\u003e- reach out to us for additional alternate efforts of collaboration\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:18:07.224042+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:18:07.211789+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Afrotectopia True Believer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522061"
+    },
+    "id": "2522061",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500000,
+     "amount_cents": 1500000,
+     "created_at": "2018-04-12T07:28:18.402066+00:00",
+     "description": "Wow. You truly believe in the Afrotectopia vision and we can\u0027t thank you enough.\u00a0\n\u003cp\u003e- You will be awarded (12) Afrotectopia tickets to any annual festival, when giving 15 days notice.\u00a0\u003c/p\u003e\n\u003cp\u003e- Find your shoutout in our Instagram Stories \u2764\ufe0f\u003c/p\u003e\n\u003cp\u003e- Receive Behind-The-Scenes footage of Afrotectopia in your inbox\u003c/p\u003e\n\u003cp\u003e- We\u0027ll share our updates with you, before we publicly announce them.\u003c/p\u003e\n\u003cp\u003e- We\u0027ll reach out to you with polls on next events details\u003c/p\u003e\n\u003cp\u003e- We\u0027ll send you even more Afrotectopia paraphernalia\u00a0\u003c/p\u003e\n\u003cp\u003e- We\u0027ll give you a shout out on our social media handles and in our next festival\u0027s program.\u00a0\u003c/p\u003e\n\u003cp\u003e- reach out to us for additional alternate efforts of collaboration\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-12T08:18:17.961564+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-12T08:18:17.951785+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Afrotectopia Angel",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1681046\u0026rid=2522057"
+    },
+    "id": "2522057",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-04-12T08:48:02+00:00",
+     "deleted_at": null,
+     "description": "When we reach 50 patrons, we\u0027ll begin selling Afrotectopia paraphernalia on our website.",
+     "goal_text": "When we reach 50 patrons, we\u0027ll begin selling Afrotectopia paraphernalia on our website.",
+     "number_patrons": 30,
+     "reached_at": null
+    },
+    "id": "91096",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-04-12T08:48:02+00:00",
+     "deleted_at": null,
+     "description": "When we reach 50 patrons, we\u0027ll begin producing Afrotectopia media content.",
+     "goal_text": "When we reach 50 patrons, we\u0027ll begin producing Afrotectopia media content.",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "91097",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-04-12T08:48:02+00:00",
+     "deleted_at": null,
+     "description": "When we reach 200 patrons, we\u0027ll begin creating gift bag giveaways of cool gadgets and items.",
+     "goal_text": "When we reach 200 patrons, we\u0027ll begin creating gift bag giveaways of cool gadgets and items.",
+     "number_patrons": 200,
+     "reached_at": null
+    },
+    "id": "91098",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1681046"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "1d3ce88c-ebf0-4fa0-99cd-0f35cbb1f012",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Afrotectopia is creating a community of Black innovators and building social impact."
+});
+    </script>

@@ -1,0 +1,383 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "-Zken1KFmuo9pL96M2ea8VnTOl0IUNy7X_q7QkZTUsI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "495809",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/495809"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-02-23T18:06:21+00:00",
+    "creation_name": "Podcast",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/764564/4dc4437078ed416c9fd910c3e2e3451a?token-time=2145916800\u0026token-hash=MdaRqj8gU8G0XSrFbpgjXjiU1hCTC1EPUsGYThIZh10%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/764564/4dc4437078ed416c9fd910c3e2e3451a?token-time=2145916800\u0026token-hash=FcVkDEI1nSOR7JuJeKk8qUV2xmLm-hMRTJAutj_D2p4%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "month",
+    "pledge_sum": 3464,
+    "pledge_url": "/bePatron?c=764564",
+    "published_at": "2017-07-01T00:15:24+00:00",
+    "summary": "\u003cdiv style=\"text-align: center;\"\u003eEach week we\u2019ll talk about different series/character/franchise/person in the pop culture-verse that matter to people. They might have large and active fandoms, revolutionized their industry, or pulled in unsurpassed viewer numbers, but why tho?\u00a0\u003c/div\u003e\u003cstrong\u003e\u003cbr\u003e\u003c/strong\u003eWe\u0027re on Patreon for a few reasons:\u003cbr\u003e1) We want to give you the best listening experience possible! That involves putting more dollars and cents into production (and possibly sending Kate to a professional talker to teach her not say umm every other sentence).\u003cbr\u003e\u003cbr\u003e2) We want to bring you guys more news! Fan conventions are some of the best places to get access to closed Alpha/Beta codes, early game play, and yuuge announcements. By going to more fan conventions we can bring you more con recaps and more announcements from the convention floor.\u00a0\u003cbr\u003e\u003cbr\u003e3) We want to be able to do more shows, more side-shows, and interact with you guys as much as possible! In order to bring you all more content we\u0027ll need a little help, but all the extras we make will be 100% sourced from you, the awesome listener.\u00a0\u003cbr\u003e"
+   },
+   "id": "764564",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5171850",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5171850"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "727025",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-764564",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-764564"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1807312",
+       "type": "reward"
+      },
+      {
+       "id": "1812238",
+       "type": "reward"
+      },
+      {
+       "id": "2397539",
+       "type": "reward"
+      },
+      {
+       "id": "2247664",
+       "type": "reward"
+      },
+      {
+       "id": "1812249",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-02-23T18:05:59+00:00",
+     "facebook": "https://www.facebook.com/ButWhyThoPC",
+     "first_name": "But",
+     "full_name": "But Why Tho the podcast",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5171850/40bf9844357f48d3bba21cbbd85ccddc?token-time=2145916800\u0026token-hash=yR8By_gC8ApwUBfpJ3UynjK8ijCnixmmbglDGIo2kq8%3D",
+     "last_name": "Why Tho the podcast",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5171850/40bf9844357f48d3bba21cbbd85ccddc?token-time=2145916800\u0026token-hash=yTghjjVS9XOXET2V6TY-HKOlqBhgkVyQMXH_cW2H3H4%3D",
+     "twitch": "https://www.twitch.tv/ButWhyThoPC",
+     "twitter": "ButWhyThoPC",
+     "url": "https://www.patreon.com/ButWhyThoPC",
+     "vanity": "ButWhyThoPC",
+     "youtube": "https://www.youtube.com/channel/UCN1XobCG7CComfopq_fUnLQ"
+    },
+    "id": "5171850",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "764564",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/764564"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 76,
+     "upgrade_url": "/bePatron?c=764564\u0026rid=1807312"
+    },
+    "id": "post-aggregation-for-0-764564",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-07-01T00:10:32.239799+00:00",
+     "description": "As a patron, you\u0027ll be recognized for making my work possible on our episodes.\u00a0\n\u003cul\u003e\n\u003cli\u003eOur undying love and affection\u003c/li\u003e\n\u003cli\u003eAccess to our show-prep research\u003c/li\u003e\n\u003cli\u003eRecognition for helping us keep the dream alive by being mentioned on our website\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-31T19:13:43.322847+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1807312/e58a90e87645450b80a4bf2b5e43502a?token-time=2145916800\u0026token-hash=_eyK-Mw8o5t-wZFWORxhKqTNUUG257pHneuxGww3xbE%3D",
+     "patron_count": 2,
+     "post_count": 40,
+     "published": true,
+     "published_at": "2017-12-31T19:13:43.295855+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Being a part of the BWT Crew",
+     "unpublished_at": null,
+     "url": "/bePatron?c=764564\u0026rid=1807312",
+     "user_limit": null
+    },
+    "id": "1807312",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-07-03T02:50:03.292663+00:00",
+     "description": "Get early access to episodes and merch\u00a0\n\u003cul\u003e\n\u003cli\u003eBonus Episodes\u003c/li\u003e\n\u003cli\u003eSneak peeks\u003c/li\u003e\n\u003cli\u003eStickers and pins to rep the BWT crew\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-31T20:07:48.387635+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1812238/f3ab9892a82e42f1ac81af1cc729ce1b?token-time=2145916800\u0026token-hash=SVswneE5fFzkzbuTNGUJs13NcYR0IuH3lBMFHkItbRM%3D",
+     "patron_count": 2,
+     "post_count": 15,
+     "published": true,
+     "published_at": "2017-12-31T20:07:48.367843+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "The Original Trilogy Club",
+     "unpublished_at": null,
+     "url": "/bePatron?c=764564\u0026rid=1812238",
+     "user_limit": null
+    },
+    "id": "1812238",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-24T00:52:31.451487+00:00",
+     "description": "Every month you subscribe you get put into a raffle to win a Steam Code\n\u003cul\u003e\n\u003cli\u003eEach game has a value of at least $10 and varies on genre\u003c/li\u003e\n\u003cli\u003eWe will do a blind drawing and then post it on the page on the 10th of every month.\u003c/li\u003e\n\u003cli\u003eAll previous rewards\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-24T00:52:31.451487+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2397539/0226ccee77ec4c87bbf049e760d591f4?token-time=2145916800\u0026token-hash=cXEpQI_nZoebueZgdtVOsjXymTe4nKCuc-cA_I6jME4%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-24T00:52:31.451487+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "You Feeling Lucky?",
+     "unpublished_at": null,
+     "url": "/bePatron?c=764564\u0026rid=2397539",
+     "user_limit": null
+    },
+    "id": "2397539",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-12-31T20:02:35.078049+00:00",
+     "description": "You pick the movie, we make the episode\n\u003cul\u003e\n\u003cli\u003eYou pick the movie from streaming sites (Netflix, HBO Now, Amazon Prime, Hulu) and we review it. We\u0027ll produce the episode with all the bells \u0026amp; whistles, only you tell us what to watch\u00a0\u003c/li\u003e\n\u003cli\u003eRotate the genre! A way to keep it fresh so we don\u0027t end up watching the same thing.\u003c/li\u003e\n\u003cli\u003eKeep it with \u00a0within reason: no Human Centipede-genre movies and obviously no porn.\u00a0\u003c/li\u003e\n\u003cli\u003eAt least 2 out of 3 will be on every episode\u003c/li\u003e\n\u003cli\u003eAll previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-24T00:52:51.574495+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2247664/1e119625f0c94bf1a0624c35c8edc443?token-time=2145916800\u0026token-hash=vfJx_Bf-BtSoPT-xmangQ2H_434k6IsnQfcXgPJhRBg%3D",
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-24T00:52:51.566599+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Take us to the Movies",
+     "unpublished_at": null,
+     "url": "/bePatron?c=764564\u0026rid=2247664",
+     "user_limit": 4
+    },
+    "id": "2247664",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-07-03T02:55:00.425789+00:00",
+     "description": "Be our guide and send us through your fandom by choosing a show topic.\n\u003cul\u003e\n\u003cli\u003eChoice of popular culture fandom (movie, comic, sports, game, etc.)\u003c/li\u003e\n\u003cli\u003eAll previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-31T20:06:29.755027+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1812249/38c9c157bda541cbb0eda76b9632361d?token-time=2145916800\u0026token-hash=QobkPVlGIxll5RsCNOr52Zvw1tb1NHwjTe3c5bZpT00%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-31T20:06:29.726531+00:00",
+     "remaining": 2,
+     "requires_shipping": true,
+     "title": "You Choose",
+     "unpublished_at": null,
+     "url": "/bePatron?c=764564\u0026rid=1812249",
+     "user_limit": 2
+    },
+    "id": "1812249",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 69,
+     "created_at": "2017-02-23T18:49:17+00:00",
+     "description": "Help us make the best podcast possible! This goal will help us increase production value and get us to more events around the country to help bring you the latest and greatest in pop culture news.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "727025",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/764564"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "6b57de7d-51ec-4a60-bdcd-5a37c2172b4d",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "But Why Tho the podcast is creating Podcast"
+});
+    </script>

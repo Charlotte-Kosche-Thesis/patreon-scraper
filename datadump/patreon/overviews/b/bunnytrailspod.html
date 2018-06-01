@@ -1,0 +1,626 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "r92dTxxrU91En7xcoIAqf5SwgSZYmR368NiBqNC-zhY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "890321",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/890321"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-04-15T01:20:15+00:00",
+    "creation_name": "whimsical adventures of idioms \u0026 other turns of phrase (Podcast)",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1687701/e824736c7a514b3794580149d68096d9?token-time=2145916800\u0026token-hash=O1dfnddKKwP2eITsochXoWxLfNxKVt7trG-R_BBYOIo%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/1687701/e824736c7a514b3794580149d68096d9?token-time=2145916800\u0026token-hash=0cFLjM5LzakXfYuZ-MMZfXVxohatYXxgY3knYP9S6Ik%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1687701",
+    "published_at": "2018-04-23T00:44:43+00:00",
+    "summary": "Welcome to Bunny Trails, a comedy nerdcast with two writers on a whimsical adventure of idioms and other turns of phrase. We created our Patreon to allow bigger and better content for YOU! By joining us here at Bunny Trails, you can get exclusive perks like show notes, early access, behind-the-scenes moments, and cut scenes/bloopers. We\u0027ll even do a special patron-only podcast once a month! Thank you for hopping along with us on this adventure.\u00a0 And don\u0027t forget, words belong to their users!\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "1687701",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "10746113",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/10746113"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1172646",
+       "type": "goal"
+      },
+      {
+       "id": "1172647",
+       "type": "goal"
+      },
+      {
+       "id": "1172648",
+       "type": "goal"
+      },
+      {
+       "id": "1172649",
+       "type": "goal"
+      },
+      {
+       "id": "1177183",
+       "type": "goal"
+      },
+      {
+       "id": "1178143",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1687701",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1687701"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2528668",
+       "type": "reward"
+      },
+      {
+       "id": "2534177",
+       "type": "reward"
+      },
+      {
+       "id": "2528677",
+       "type": "reward"
+      },
+      {
+       "id": "2528673",
+       "type": "reward"
+      },
+      {
+       "id": "2528727",
+       "type": "reward"
+      },
+      {
+       "id": "2528685",
+       "type": "reward"
+      },
+      {
+       "id": "2528706",
+       "type": "reward"
+      },
+      {
+       "id": "2528697",
+       "type": "reward"
+      },
+      {
+       "id": "2528715",
+       "type": "reward"
+      },
+      {
+       "id": "2547239",
+       "type": "reward"
+      },
+      {
+       "id": "2547242",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Shauna Harrison is a freelance writer and photographer with a background in marketing and communications. Her full-time gig is in public relations where she spends her time framing and telling people\u0027s stories. She is currently working on her first book, a YA fantasy novel. Shauna is a Bibilophile, Math geek, Nerdfighter, and Ravenclaw.\u003cbr\u003e\u003cbr\u003eDan Pugh became a small business owner after 20+ years of government service in public safety and preparedness. He spends his time writing and hosting podcasts, consulting with businesses, and other creative endeavors. Dan loves board games, reading, and bird-watching on his deck. His fandom labels include Nerdfighter, Gryffindor, and any labels you wish to ascribe to a fan of Star Trek, Star Wars, and Stargate.",
+     "created": "2018-04-15T01:19:57+00:00",
+     "facebook": "https://www.facebook.com/bunnytrailspod",
+     "first_name": "Bunny",
+     "full_name": "Bunny Trails Podcast",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/10746113/8ba718c801cb4e488080b8ffdaa912b7?token-time=2145916800\u0026token-hash=m-MUSzUG7-tvZWtOVxOBKH2EDYLplKZxQ99z5zWAksg%3D",
+     "last_name": "Trails Podcast",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/10746113/8ba718c801cb4e488080b8ffdaa912b7?token-time=2145916800\u0026token-hash=LDyBuMakETvcfo8Dxm9mzArdDaxivwLgo2SOR7i1TZM%3D",
+     "twitch": null,
+     "twitter": "bunnytrailspod",
+     "url": "https://www.patreon.com/bunnytrailspod",
+     "vanity": "bunnytrailspod",
+     "youtube": null
+    },
+    "id": "10746113",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1687701",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1687701"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 27,
+     "upgrade_url": "/bePatron?c=1687701\u0026rid=2534177"
+    },
+    "id": "post-aggregation-for-0-1687701",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-04-15T01:42:23.072432+00:00",
+     "description": "Join the patron-only discussion with your hosts!\u00a0Plus, we\u0027ll thank our patrons every week on the show, because YOU make Bunny Trails happen!",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T14:19:07.421826+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-28T14:19:07.411533+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patron-Only Conversations!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687701\u0026rid=2528668"
+    },
+    "id": "2528668",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-04-16T22:01:01.364365+00:00",
+     "description": "Exclusive access to the show notes, which are basically our talking points for each regular episode.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIncludes all the perks from previous tiers\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T14:19:24.583933+00:00",
+     "image_url": null,
+     "post_count": 10,
+     "published": true,
+     "published_at": "2018-05-28T14:19:24.573899+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Show Notes!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687701\u0026rid=2534177"
+    },
+    "id": "2534177",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-04-15T01:47:54.465313+00:00",
+     "description": "Early access to regular episodes the day before it airs!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0Includes all the perks from previous tiers\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T14:19:40.137186+00:00",
+     "image_url": null,
+     "post_count": 11,
+     "published": true,
+     "published_at": "2018-05-28T14:19:40.126139+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Early Access to Episodes!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687701\u0026rid=2528677"
+    },
+    "id": "2528677",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-04-15T01:44:33.629493+00:00",
+     "description": "Exclusive behind-the-scenes pictures, videos, and information from all phases of the Bunny Trails Podcast production.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIncludes all the perks from previous tiers\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T14:19:52.067186+00:00",
+     "image_url": null,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2018-05-28T14:19:52.059979+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Behind-The-Scenes Exclusives!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687701\u0026rid=2528673"
+    },
+    "id": "2528673",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2018-04-15T02:17:46.622679+00:00",
+     "description": "For our regular episodes, we\u0027ll grab our best bloopers plus all the bits that didn\u0027t make it into the show and put them together in special \"Cutting Room Tracks\" just for you! You\u0027ll get at least one cutting room track per month, sometimes more!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIncludes all the perks from previous tiers\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T14:21:18.067785+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-05-28T14:21:18.060968+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Cutting Room Tracks!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687701\u0026rid=2528727"
+    },
+    "id": "2528727",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-04-15T01:52:09.048244+00:00",
+     "description": "Access to our monthly bonus episode where we talk about more \"colorful\" turns of phrases including those with profane language, alcohol-related themes, or suggestive phrasing.\u00a0 Warning: This episode will frequently have the \u003cem\u003eExplicit\u003c/em\u003e tag and should be considered Not Safe For Work!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e(You\u0027ll also get the occasional Cutting Room tracks for our monthly bonus episodes, too!)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIncludes all the perks from previous tiers\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T14:20:04.217065+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-05-28T14:20:04.207570+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Monthly Bonus Episode about a more \"colorful\" phrase",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687701\u0026rid=2528685"
+    },
+    "id": "2528685",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-04-15T02:03:31.016749+00:00",
+     "description": "Get personal on-air recognition during our monthly bonus episode for as long as you are at this tier. We\u0027ll reach out to you about how you want to be addressed. \u00a0Even though the monthly bonus episode will often earn the \"explicit\" tag, please keep your name or title on the cleaner side. ;-)\n\u003cp\u003e\u00a0\u003cbr\u003e\nIncludes all the perks from previous tiers, too!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eLagomorpha\u003c/em\u003e is the taxonomic order of rabbits and hares, so we made up a fun new department, Lagomorphology!\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T14:21:12.306350+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-28T14:21:12.299347+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "Lagomorphology Intern (For Monthly Bonus Episodes)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687701\u0026rid=2528706"
+    },
+    "id": "2528706",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-04-15T01:58:08.053226+00:00",
+     "description": "Get personal on-air recognition during every regular episode for as long as you are at this tier. We\u0027ll reach out to you about how you want to be addressed. \u00a0Please keep your name \"safe for work\". :-)\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIncludes all the perks from previous tiers\u00a0EXCEPT the Intern recognition for the monthly bonus episode.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eLagomorpha\u003c/em\u003e is the taxonomic order of rabbits and hares, so we made up a fun new department, Lagomorphology!\u00a0\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T14:21:06.345888+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-28T14:21:06.336726+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Lagomorphology Intern (For our Regular Episodes)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687701\u0026rid=2528697"
+    },
+    "id": "2528697",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2018-04-15T02:07:49.608784+00:00",
+     "description": "Get personal on-air recognition as our Associate Lagomorphologist during our regular AND monthly bonus episode for as long as you are at this tier. We\u0027ll reach out to you about how you want to be addressed. \u00a0Even though the monthly bonus episode will often earn the \"explicit\" tag, please keep your name or title on the cleaner side. ;-)\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIncludes all the perks from previous tiers, too!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eLagomorpha\u003c/em\u003e is the taxonomic order of rabbits and hares, so we made up a fun new department, Lagomorphology!\u00a0\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T14:21:48.492993+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-28T14:21:48.485845+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "Associate Lagomorphologist",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687701\u0026rid=2528715"
+    },
+    "id": "2528715",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-04-21T21:29:13.344726+00:00",
+     "description": "Recognition as a Professor of Lagomorphology, a big player in keeping Bunny Trails going! You\u0027ll keep this title for as long as you are at this tier for the regular episodes and the monthly bonus podcasts. We\u0027ll reach out to you about how you want to be addressed.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll also get perks from the previous tiers, too!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eLagomorpha\u003c/em\u003e is the taxonomic order of rabbits and hares, so we made up a fun new department, Lagomorphology! \u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T14:21:58.109806+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-28T14:21:58.103074+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": "Professor of Lagomorphology",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687701\u0026rid=2547239"
+    },
+    "id": "2547239",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2018-04-21T21:30:00.407637+00:00",
+     "description": "Recognition as the Dean of Lagomorphology, the biggest player in keeping Bunny Trails going! You\u0027ll keep this title for as long as you are at this tier for the regular episodes and the monthly bonus podcasts. We\u0027ll reach out to you about how you want to be addressed.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll also get perks from the previous tiers, too!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eLagomorpha\u003c/em\u003e is the taxonomic order of rabbits and hares, so we made up a fun new department, Lagomorphology! \u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-29T18:54:12.572753+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-29T18:54:12.562427+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Dean of Lagomorphology",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687701\u0026rid=2547242"
+    },
+    "id": "2547242",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 84,
+     "created_at": "2018-04-15T02:36:18+00:00",
+     "description": "At $25 per month, we will break even on hosting and domain fees! Hitting this goal tells us enough people like and support Bunny Trails for us to keep going! You are awesome!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1172646",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 28,
+     "created_at": "2018-04-15T02:36:18+00:00",
+     "description": "At $75 per month we will pay for professional transcription services. It\u0027s important to Shauna and Dan that Bunny Trails is accessible to everyone, including those who - for whatever reason - are unable to listen to the podcast. So Dan types out transcripts for every episode. It\u0027s a labor of love, but Dan says he would be perfectly happy outsourcing this!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1172647",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 10,
+     "created_at": "2018-04-15T02:36:18+00:00",
+     "description": "With $200 per month we will start upgrading equipment including recording hardware, editing tools, and computer software. This will allow for better quality and more efficiency in creating content!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1172648",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 4,
+     "created_at": "2018-04-15T02:36:18+00:00",
+     "description": "At $500 per month we will add a several subscription services to allow us access to more historical information to delve deeper into the origins behind your favorite phrases!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1172649",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2018-04-19T02:25:19+00:00",
+     "description": "At $1,500 per month\u00a0we will start paying our researchers, editors, and hosts for their work on the show.\u00a0 (They currently volunteer their time because everyone loves the show.) That means we\u0027ll keep doing Bunny Trails until the Sun explodes! (Maybe not \u003cem\u003equite\u003c/em\u003e that long.) We can dig deeper, go further, and turn phrases like never before. We\u0027ll also add more rewards and tiers to show our thanks!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1177183",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2018-04-20T03:59:01+00:00",
+     "description": "Holy Smokes! At $2,500... We don\u0027t even know! When we start getting close we will ask you, our amazing patrons, what you want to see as our goals. We can craft new ones together because YOU make this possible!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1178143",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1687701"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "518eee20-db85-4c90-8e53-d095e7215edb",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Bunny Trails Podcast is creating whimsical adventures of idioms \u0026 other turns of phrase (Podcast)"
+});
+    </script>

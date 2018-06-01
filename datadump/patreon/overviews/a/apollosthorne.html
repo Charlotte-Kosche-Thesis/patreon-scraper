@@ -1,0 +1,536 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "pbqdbRsfWhH4muUXShzDk-U_wCbBHxuBq1MyvahcXbs";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "874128",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/874128"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-04-11T00:06:25+00:00",
+    "creation_name": "Fiction",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1677620/60ffcf9058604398893c11b2c41a3c8f?token-time=2145916800\u0026token-hash=_-9P0ygk7rs8wePs2E9FN4urkQFjDLjdgWdaF3ZQK0g%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/1677620/60ffcf9058604398893c11b2c41a3c8f?token-time=2145916800\u0026token-hash=c6-ySH0Lzis8o_mYPS_73Z1BeiyhfYZARDnemi8vnvE%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 45,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1677620",
+    "published_at": "2018-04-11T03:04:27+00:00",
+    "summary": "\u003cimg src=\"http://apollos-thorne.com/wp-content/uploads/2018/04/Patreon-Intro.jpg\"\u003e\u003cbr\u003e\u003cbr\u003eApollos Thorne here! \u003cbr\u003e\u003cbr\u003eAuthor of the LitRPG/GameLit series Underworld - Level Up or Die and Codename: Freedom!\u003cbr\u003e\u003cbr\u003eIf you are looking for a place to read chapters before anyone else, then you are in the right place!\u003cbr\u003e\u003cbr\u003eI also plan on commissioning artwork and maps when we reach certain goals.\u003cbr\u003e\u003cbr\u003eDo you love Bacon? You can also expect ridiculous videos of me with food, eating food, and talking about food. If you like the humor in the books, especially Underworld, then you already have a hint on what to expect.\u003cbr\u003e\u003cbr\u003eThe goal is to write full time. The more successful the Patreon becomes, the more often I can write. The more often I can write, the more entertainment I can provide!\u003cbr\u003e\u003cbr\u003eYou guys are awesome!\u003cbr\u003e"
+   },
+   "id": "1677620",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "10673727",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/10673727"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1168738",
+       "type": "goal"
+      },
+      {
+       "id": "1168739",
+       "type": "goal"
+      },
+      {
+       "id": "1168740",
+       "type": "goal"
+      },
+      {
+       "id": "1168741",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1677620",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1677620"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2518738",
+       "type": "reward"
+      },
+      {
+       "id": "2518747",
+       "type": "reward"
+      },
+      {
+       "id": "2518766",
+       "type": "reward"
+      },
+      {
+       "id": "2518776",
+       "type": "reward"
+      },
+      {
+       "id": "2518783",
+       "type": "reward"
+      },
+      {
+       "id": "2518807",
+       "type": "reward"
+      },
+      {
+       "id": "2518847",
+       "type": "reward"
+      },
+      {
+       "id": "2518864",
+       "type": "reward"
+      },
+      {
+       "id": "2518894",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Fantasy and science fiction author. My current series include Underworld - Level Up or Die and Codename: Freedom!\u00a0",
+     "created": "2018-04-10T23:58:46+00:00",
+     "facebook": "https://www.facebook.com/official.apollos.thorne/",
+     "first_name": "Apollos",
+     "full_name": "Apollos Thorne",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/10673727/0d50c8d1f6ee41bba0484a51bbbb5386?token-time=2145916800\u0026token-hash=GxnvdaJXMMZE65DIk8Y-xWsvhxEbx_Dz1C-hDWCssDA%3D",
+     "last_name": "Thorne",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/10673727/0d50c8d1f6ee41bba0484a51bbbb5386?token-time=2145916800\u0026token-hash=LB1KJay4ibH-sKmX3-35BSdrRk7qYaXAnrC9jbVCK7E%3D",
+     "twitch": null,
+     "twitter": "Apollos_Thorne",
+     "url": "https://www.patreon.com/apollosthorne",
+     "vanity": "apollosthorne",
+     "youtube": null
+    },
+    "id": "10673727",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1677620",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1677620"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 10,
+     "upgrade_url": "/bePatron?c=1677620\u0026rid=2518766"
+    },
+    "id": "post-aggregation-for-0-1677620",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-04-11T01:23:37.916556+00:00",
+     "description": "You are a faithful member of the community!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*Access to any exclusive Patreon First News!\u003c/p\u003e\n\u003cp\u003e*My sincere Thank You!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-11T02:11:55.815150+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-11T02:11:55.808201+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Mighty Peasant!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1677620\u0026rid=2518738"
+    },
+    "id": "2518738",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-04-11T01:26:55.396281+00:00",
+     "description": "You have arrived boldly into a world of loot, bacon, and leveling up!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*\u003cstrong\u003eAccess to Early Chapters!\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e*Access to any exclusive Patreon First News!\u003c/p\u003e\n\u003cp\u003e*My sincere Thank You!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-11T02:29:03.479137+00:00",
+     "image_url": null,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2018-04-11T02:29:03.467650+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Newbie Adventurer! (Limited! You are among the first to arrive!)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1677620\u0026rid=2518747"
+    },
+    "id": "2518747",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-04-11T01:34:49.440142+00:00",
+     "description": "You have arrived boldly into a world of loot, bacon, and leveling up!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*\u003cstrong\u003eAccess to Early Chapters!\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e*Access to any exclusive Patreon First News!\u003c/p\u003e\n\u003cp\u003e*My sincere Thank You!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-11T02:29:13.309858+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-11T02:29:13.298393+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Newbie Adventurer!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1677620\u0026rid=2518766"
+    },
+    "id": "2518766",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-04-11T01:40:18.775209+00:00",
+     "description": "You have swaggered your way into a world of loot, bacon, and leveling up!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e* You will receive a \u003cstrong\u003eCopy of my eBooks\u003c/strong\u003e as they are released! (Starting with future books)\u00a0\u003c/p\u003e\n\u003cp\u003e*Access to Early Chapters!\u003c/p\u003e\n\u003cp\u003e*Access to any exclusive Patreon First News!\u003c/p\u003e\n\u003cp\u003e*My sincere Thank You!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-11T02:28:38.208777+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-11T02:28:38.196059+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Warrior",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1677620\u0026rid=2518776"
+    },
+    "id": "2518776",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2018-04-11T01:43:22.122124+00:00",
+     "description": "You have dived head first into a world of loot, bacon, and leveling up!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e* You will receive a copy of my eBooks as they are released! (Starting with future books)\u00a0\u003c/p\u003e\n\u003cp\u003e*Access to Early Chapters!\u003c/p\u003e\n\u003cp\u003e*Access to any exclusive Patreon First News!\u003c/p\u003e\n\u003cp\u003e*Luck from the lucky number seven! As if Wizards believe in such a thing.\u003c/p\u003e\n\u003cp\u003e*Acknowledgment that you are awesome because you\u0027re a wizard.\u003c/p\u003e\n\u003cp\u003e*My sincere Thank You!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-11T02:11:15.647425+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-11T02:11:15.640536+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Wizard",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1677620\u0026rid=2518783"
+    },
+    "id": "2518783",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-04-11T01:51:16.289158+00:00",
+     "description": "You stand to greet others into the world of loot, bacon, and leveling up!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e* You will receive a copy of my eBooks as they are released! (Starting with future books)\u00a0\u003c/p\u003e\n\u003cp\u003e*Access to Early Chapters!\u003c/p\u003e\n\u003cp\u003e*Access to any exclusive Patreon First News!\u003c/p\u003e\n\u003cp\u003e*You will be \u003cstrong\u003eCredited by Name\u003c/strong\u003e in my next published book!\u00a0\u003c/p\u003e\n\u003cp\u003e*My sincere Thank You!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-11T02:28:10.382213+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-11T02:28:10.370291+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Veterans",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1677620\u0026rid=2518807"
+    },
+    "id": "2518807",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-04-11T02:10:43.355877+00:00",
+     "description": "You stand in the inner circle of the world of loot, bacon, and leveling up!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*\u003cstrong\u003eMonthly Chat\u003c/strong\u003e with the author on Discord!\u003c/p\u003e\n\u003cp\u003e* You will receive a copy of my eBooks as they are released! (Starting with future books)\u00a0\u003c/p\u003e\n\u003cp\u003e*Access to Early Chapters!\u003c/p\u003e\n\u003cp\u003e*Access to any exclusive Patreon First News!\u003c/p\u003e\n\u003cp\u003e*You will be credited by name in my next published book!\u003c/p\u003e\n\u003cp\u003e*My sincere Thank You!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-11T02:27:21.608476+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-11T02:27:21.601232+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Nobility",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1677620\u0026rid=2518847"
+    },
+    "id": "2518847",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-04-11T02:14:56.154979+00:00",
+     "description": "You have taken on of the world of loot, bacon, and leveling up and have been rewarded with awesomeness!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*\u003cstrong\u003eA Signed Paperback Copy\u003c/strong\u003e of Codename: Freedom or Underworld Book 1! Your choice! (Limited to USA)\u003c/p\u003e\n\u003cp\u003e*Monthly chat with the author on Discord!\u003c/p\u003e\n\u003cp\u003e* You will receive a copy of my eBooks as they are released! (Starting with future books)\u00a0\u003c/p\u003e\n\u003cp\u003e*Access to Early Chapters!\u003c/p\u003e\n\u003cp\u003e*Access to any exclusive Patreon First News!\u003c/p\u003e\n\u003cp\u003e*You will be credited by name in my next published book!\u003c/p\u003e\n\u003cp\u003e*My sincere Thank You!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-11T11:02:18.766960+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-11T11:02:18.759809+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Combat Master",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1677620\u0026rid=2518864"
+    },
+    "id": "2518864",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-04-11T02:26:34.466253+00:00",
+     "description": "The world of loot, bacon, and leveling up is your playground!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*\u003cstrong\u003eName a boss mob or minor character!\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e*A signed paperback copy of Codename: Freedom or Underworld Book 1! Your choice! (Limited to USA)\u003c/p\u003e\n\u003cp\u003e*\u003cstrong\u003eBiweekly\u003c/strong\u003e \u003cstrong\u003echat\u003c/strong\u003e with the author on Discord!\u003c/p\u003e\n\u003cp\u003e* You will receive a copy of my eBooks as they are released! (Starting with future books)\u00a0\u003c/p\u003e\n\u003cp\u003e*Access to Early Chapters!\u003c/p\u003e\n\u003cp\u003e*Access to any exclusive Patreon First News!\u003c/p\u003e\n\u003cp\u003e*You will be credited by name in my next published book!\u003c/p\u003e\n\u003cp\u003e*My sincere Thank You!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-11T11:02:24.637080+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-11T11:02:24.625293+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Grand Master",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1677620\u0026rid=2518894"
+    },
+    "id": "2518894",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2018-04-11T03:02:05+00:00",
+     "description": "You can expect a post at least once a week about what is going on in my life and how that will affect the posting schedule in the coming weeks!\u003cbr\u003eNote: There will be early chapters posted whether this goal is met or not.",
+     "reached_at": "2018-05-29T05:48:39+00:00",
+     "title": ""
+    },
+    "id": "1168738",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 40,
+     "created_at": "2018-04-11T03:02:05+00:00",
+     "description": "I will start an art fund to commission maps and artwork!\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1168739",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 10,
+     "created_at": "2018-04-11T03:02:05+00:00",
+     "description": "I am half way to being able to go full time. Expect chapters much more often!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1168740",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 5,
+     "created_at": "2018-04-11T03:02:06+00:00",
+     "description": "At his level, including publishing on Amazon, I should be able to write full time. That means I\u0027ll be able to spend forty hours a week writing and much more time communicating with you fine people!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1168741",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1677620"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "eb86e663-0261-487a-9075-d157c10fe39d",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Apollos Thorne is creating Fiction"
+});
+    </script>

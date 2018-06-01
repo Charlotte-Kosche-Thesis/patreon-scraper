@@ -1,0 +1,337 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "XBV9RlG9EIzgMe0XTCoQ7WSWjrE8NyTvIvZwn9E4ho0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "566648",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/566648"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-09-01T01:23:05+00:00",
+    "creation_name": "Theatre Magic!",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1199774/19ae66ea164a46dfa312590d4d7beb29?token-time=2145916800\u0026token-hash=uUalb_hZWscK9TCxjroYz3BBQvWe5n1hXtcBsYzF-Vo%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1199774/19ae66ea164a46dfa312590d4d7beb29?token-time=2145916800\u0026token-hash=HcRbZng6eeEApPwjZSc6C6b7cNy3FnMV1b2h6eFh2wQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"720\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F31470996\u0026amp;url=https%3A%2F%2Fvimeo.com%2F31470996\u0026amp;image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F212147992_1280.jpg\u0026amp;key=96a16496e36611e091d14040d3dc5c07\u0026amp;type=text%2Fhtml\u0026amp;schema=vimeo\" width=\"1280\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://vimeo.com/31470996",
+    "one_liner": null,
+    "patron_count": 5,
+    "pay_per_name": "month",
+    "pledge_sum": 3822,
+    "pledge_url": "/bePatron?c=1199774",
+    "published_at": "2017-09-04T06:30:31+00:00",
+    "summary": "\u003cem\u003eAccidental Humour Co\u003c/em\u003e is a collective of artists, actors, writers and dreamers based out of Edmonton, Alberta. Over the past 9 years we have created hilarious, exciting and  innovative theatre shows that blend live-action antics with high-octane video projection.\u003cbr\u003e\u003cbr\u003eWe rely on our fans and supporters to help offset the cost in creating our highly creative shows. Our goal with Patreon is to have a base of financial support that will allow us to pay creators and performers what they are actually worth (no more payment in timbits... well maybe also timbits) and continue to build bigger and better shows for our growing audience.\u00a0\u003cbr\u003e\u003cbr\u003eIf you like what we do, and you want to see us continue doing it, please pledge your support.\u00a0\u003cbr\u003e"
+   },
+   "id": "1199774",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7526300",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7526300"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "953759",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1972088",
+       "type": "reward"
+      },
+      {
+       "id": "1972089",
+       "type": "reward"
+      },
+      {
+       "id": "1972231",
+       "type": "reward"
+      },
+      {
+       "id": "1973578",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-09-01T01:22:42+00:00",
+     "facebook": "https://www.facebook.com/accidentalhumour/",
+     "first_name": "Accidental",
+     "full_name": "Accidental Humour Co",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7526300/a39ae23adaf6460881c574fb8903ea08?token-time=2145916800\u0026token-hash=QEY2Ir6IMRsaGlp0xl0_93zgHxqdEOtF3eVAePqFD0U%3D",
+     "last_name": "Humour Co",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7526300/a39ae23adaf6460881c574fb8903ea08?token-time=2145916800\u0026token-hash=omz_E2NkhlKaUoFosAqTDgvGpT_xO9vKcXtk5HKZEXM%3D",
+     "twitch": null,
+     "twitter": "acchum",
+     "url": "https://www.patreon.com/accidentalhumour",
+     "vanity": "accidentalhumour",
+     "youtube": null
+    },
+    "id": "7526300",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1199774",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1199774"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-09-01T22:54:44.566801+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eShout out on social media and website\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-02T15:37:33.717483+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-01T22:54:44.566801+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1199774\u0026rid=1972088",
+     "user_limit": null
+    },
+    "id": "1972088",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-09-01T22:54:44.598112+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e$10 Famoso Pizza Gift Certificate\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-02T00:14:20.833867+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-01T22:54:44.598112+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1199774\u0026rid=1972089",
+     "user_limit": null
+    },
+    "id": "1972089",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-09-02T00:14:20.692793+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAll (4) collector \"Spark\" trading cards\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003cli\u003eOngoing perks - TBD\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-04T06:30:20.642118+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-02T00:14:20.692793+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1199774\u0026rid=1972231",
+     "user_limit": null
+    },
+    "id": "1972231",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-09-02T15:37:33.625209+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eBe a guest on the AccHum Podcast\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003cli\u003eOngoing perks - TBD\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-04T06:30:20.578638+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-02T15:37:33.625209+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1199774\u0026rid=1973578",
+     "user_limit": null
+    },
+    "id": "1973578",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 15,
+     "created_at": "2017-09-01T22:57:52+00:00",
+     "description": "If you help us reach this goal by Sept 9th, 2017 - Our team (The Accidental Avengers) will participate in the \"Battle for the Limelight\" Fundraiser - ON TRICYCLES! believe us when we say that this will put us at a huge disadvantage in our attempt to win this race!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "953759",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1199774"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "172a76c5-c28d-4377-81e8-7edd1bf91a30",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Accidental Humour Co is creating Theatre Magic!"
+});
+    </script>
