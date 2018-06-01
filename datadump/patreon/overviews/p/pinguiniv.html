@@ -1,0 +1,529 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "EBie-sMadqeF6SxLHAwHwIQ_hHNQT_Wmh1vvOzWtAWs";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "10436",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/10436"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-04-15T06:41:37+00:00",
+    "creation_name": "videos of all sorts (russian)",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/88162/d05a0ce1caa947cf8b5fd23f2cd717de?token-time=2145916800\u0026token-hash=hP7AqHpVXPj68i9e7XJZ0fEh8iRJAm8Tj5ErsJhCui8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/88162/d05a0ce1caa947cf8b5fd23f2cd717de?token-time=2145916800\u0026token-hash=leJ-HC8VIdWvRtpYyltbJUoLmVmAYWfgxlht2n_uvU4%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"402\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fwww.youtube.com%2Fembed%2FgQug7M4bdR4%3Fautoplay%3D1%26feature%3Doembed\u0026amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgQug7M4bdR4\u0026amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FgQug7M4bdR4%2Fhqdefault.jpg\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;autoplay=1\u0026amp;type=text%2Fhtml\u0026amp;schema=youtube\" width=\"714\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "http://www.youtube.com/watch?v=gQug7M4bdR4",
+    "one_liner": "\u0414\u043e\u0441\u0442\u043e\u0439\u043d\u044b\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0434\u0435\u043b\u0430\u044e \u0436\u0435, \u043d\u0443",
+    "patron_count": 2,
+    "pay_per_name": "video",
+    "pledge_sum": 450,
+    "pledge_url": "/bePatron?c=88162",
+    "published_at": "2014-04-15T06:41:37+00:00",
+    "summary": "*Well, I am russian. My english may be good, but only when I start translating things, not composing them on my own. Everything on this page will be written in my language, and translated later, hope it is ok with you guys:)*\u003cbr\u003e\u041f\u0440\u0438\u0432\u0435\u0442, \u0442\u043e\u0432\u0430\u0440\u0438\u0449\u0438! \u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0410\u043d\u0442\u043e\u043d, \u043c\u043d\u043e\u0433\u0438\u0435 \u0437\u043d\u0430\u044e\u0442 \u043c\u0435\u043d\u044f \u043a\u0430\u043a \u044e\u0442\u0443\u0431\u0435\u0440\u0430 \u043f\u043e\u0434 \u043d\u0438\u043a\u043d\u0435\u0439\u043c\u043e\u043c pinguiniv. \u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 \u043c\u0435\u0441\u044f\u0446\u044b \u044f \u043f\u043e\u0447\u0442\u0438 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u043f\u043e\u0442\u0435\u0440\u044f\u043b \u043c\u043e\u0442\u0438\u0432\u0430\u0446\u0438\u044e \u0438\u0437-\u0437\u0430 \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u0439 \u043e\u0442\u0434\u0430\u0447\u0438 \u043e\u0442 \u0437\u0440\u0438\u0442\u0435\u043b\u0435\u0439, \u0438, \u0432 \u043e\u0431\u0449\u0435\u043c-\u0442\u043e, \u0436\u0435\u043b\u0430\u043d\u0438\u0435\u043c \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u043e\u0433\u043e \u0437\u0440\u0438\u0442\u0435\u043b\u044f \u043f\u043e\u0436\u0438\u0440\u0430\u0442\u044c \u0442\u043e\u043d\u043d\u044b \u043c\u0443\u0441\u043e\u0440\u0430. \u042f \u0441\u0447\u0438\u0442\u0430\u044e, \u0447\u0442\u043e \u044d\u0442\u043e \u0432\u044b\u0437\u0432\u0430\u043d\u043e \u043d\u0435 \u0437\u0430\u0441\u043e\u0445\u0448\u0438\u043c \u0447\u0443\u0432\u0441\u0442\u0432\u043e\u043c \u0432\u043a\u0443\u0441\u0430, \u0430 \u043d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\u043a\u043e\u043c \u0434\u043e\u0441\u0442\u043e\u0439\u043d\u043e\u0433\u043e \u043a\u043e\u043d\u0442\u0435\u043d\u0442\u0430. \u0418 \u0443 \u043c\u0435\u043d\u044f \u043f\u043e\u044f\u0432\u0438\u043b\u043e\u0441\u044c \u043d\u0435\u0432\u044b\u0440\u0430\u0437\u0438\u043c\u043e\u0435 \u0436\u0435\u043b\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0438\u0442\u044c \u044d\u0442\u043e\u0442 \u0434\u043e\u0441\u0442\u043e\u0439\u043d\u044b\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0434\u0435\u043b\u0430\u0442\u044c.\u003cbr\u003e\u042f \u043d\u0438\u043a\u043e\u0433\u0434\u0430 \u043d\u0435 \u0434\u0435\u043b\u0430\u043b \u0432\u0438\u0434\u0435\u043e \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e - \u044d\u0442\u043e \u0432\u0441\u0435\u0433\u0434\u0430 \u0431\u044b\u043b\u043e \u0445\u043e\u0431\u0431\u0438, \u0432 \u043a\u043e\u0442\u043e\u0440\u043e\u043c \u043d\u0430 \u0432\u0441\u0435\u0445 \u044d\u0442\u0430\u043f\u0430\u0445 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0443\u0447\u0430\u0441\u0442\u0432\u043e\u0432\u0430\u043b \u0442\u043e\u043b\u044c\u043a\u043e \u044f. \u041e\u0442 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u044f \u0434\u043e \u0444\u0438\u043d\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0440\u0435\u043d\u0434\u0435\u0440\u0430. \u0415\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e, \u044d\u0442\u043e \u0432\u044b\u043b\u0438\u0432\u0430\u043b\u043e\u0441\u044c \u0432, \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e, \u0445\u043e\u0440\u043e\u0448\u0438\u0435 \u0432\u0438\u0434\u0435\u043e, \u043d\u043e \u043d\u0435 \u0433\u043e\u0434\u044f\u0449\u0438\u0435\u0441\u044f \u0434\u043b\u044f \u0442\u043e\u0433\u043e, \u0447\u0442\u043e\u0431\u044b \u0432\u044b\u0445\u043e\u0434\u0438\u0442\u044c \u0432 \u0448\u0438\u0440\u043e\u043a\u0443\u044e \u043f\u0443\u0431\u043b\u0438\u043a\u0443. \u0415\u0441\u043b\u0438 \u0442\u0435\u043a\u0441\u0442 \u0432\u0441\u0435\u0445 \u0443\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u043b, \u0442\u043e \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e \u0437\u0432\u0443\u043a\u0430, \u0438\u043d\u0442\u043e\u043d\u0430\u0446\u0438\u0438, \u043c\u043e\u043d\u0442\u0430\u0436, \u043d\u0435 \u0432\u0441\u0435\u043c \u043f\u043e\u043d\u044f\u0442\u043d\u044b\u0435 \u0432\u0441\u0442\u0430\u0432\u043a\u0438 - \u043e\u043d\u0438 \u0441\u0431\u0438\u0432\u0430\u043b\u0438 \u0441 \u0442\u043e\u043b\u043a\u0443. \u0412\u044b\u0437\u0432\u0430\u043d\u044b \u043e\u043d\u0438 \u0442\u0435\u043c, \u0447\u0442\u043e \u044f \u0434\u0435\u043b\u0430\u043b \u0442\u043e, \u0447\u0442\u043e \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f \u043c\u043d\u0435, \u043d\u0435 \u0437\u0430\u0434\u0443\u043c\u044b\u0432\u0430\u044f\u0441\u044c \u043e \u0442\u043e\u043c, \u0447\u0442\u043e \u043b\u044e\u0434\u0438 \u0432\u043e\u043a\u0440\u0443\u0433 \u043c\u0435\u043d\u044f \u0432 \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u0435 \u043c\u043e\u0433\u0443\u0442 \u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c.\u003cbr\u003e\u0422\u0435\u043f\u0435\u0440\u044c \u0442\u0430\u043a \u043d\u0435 \u0431\u0443\u0434\u0435\u0442. \u041d\u0435\u0442, \u043a\u043e\u043d\u0435\u0447\u043d\u043e, \u0441\u043f\u0440\u044f\u0442\u0430\u043d\u043d\u044b\u0439 \u0433\u0434\u0435-\u0442\u043e \u0432 \u0432\u0438\u0434\u0435\u043e\u0440\u044f\u0434\u0435 \u0438 \u0442\u0435\u043a\u0441\u0442\u0435 \u0435\u043b\u0435 \u0437\u0430\u043c\u0435\u0442\u043d\u044b\u0439 \u044e\u043c\u043e\u0440, \u0438\u0433\u0440\u0430 \u0441\u043b\u043e\u0432 - \u044d\u0442\u043e \u043e\u0441\u0442\u0430\u043d\u0435\u0442\u0441\u044f. \u041d\u043e \u0432 \u0446\u0435\u043b\u043e\u043c \u044f \u0431\u0443\u0434\u0443 \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0441\u0435\u0440\u044c\u0435\u0437\u043d\u043e. \u041e\u0431\u0437\u043e\u0440\u044b \u043c\u0430\u043b\u043e\u0437\u0430\u043c\u0435\u0442\u043d\u044b\u0445, \u043d\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0445\u043e\u0440\u043e\u0448\u0438\u0445 \u0438\u0433\u0440, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0432\u0438\u0434\u0435\u043e \u043d\u0430 \u0442\u0435\u043c\u044b, \u0432\u044b\u0437\u044b\u0432\u0430\u044e\u0449\u0438\u0435 \u043d\u0430 \u0441\u0430\u0439\u0442\u0430\u0445 \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u043d\u044b\u0435 \u0434\u0438\u0441\u043a\u0443\u0441\u0441\u0438\u0438, \u043e\u0431\u0443\u0447\u0430\u044e\u0449\u0438\u0435 \u0432\u0438\u0434\u0435\u043e, \u043f\u043e\u043c\u043e\u0433\u0430\u044e\u0449\u0438\u0435 \u0447\u0442\u043e-\u0442\u043e \u0440\u0435\u0434\u043a\u043e\u0435 \u0438 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e\u0435 \u0432 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u044b\u0445 \u0438\u0433\u0440\u0430\u0445 - \u0432\u043e\u0442 \u0447\u0442\u043e \u0442\u0435\u043f\u0435\u0440\u044c \u0431\u0443\u0434\u0435\u0442 \u043d\u0430 \u043a\u0430\u043d\u0430\u043b\u0435 Made In Game.\u003cbr\u003e\u0412\u044b \u0441\u043f\u0440\u043e\u0441\u0438\u0442\u0435: \"\u0410 \u0437\u0430\u0447\u0435\u043c \u0442\u0435\u0431\u0435 \u0434\u0435\u043d\u044c\u0433\u0438?\". \u0414\u043b\u044f \u043d\u0430\u0447\u0430\u043b\u0430, \u044f \u0431\u044b \u0445\u043e\u0442\u0435\u043b \u043e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0440\u0435\u043a\u043b\u0430\u043c\u0443. \u041e\u043d\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0431\u0435\u0441\u0438\u0442, \u0430 \u043f\u043e\u043b\u0443\u0447\u0430\u044e \u0441 \u043d\u0435\u0435 \u043a\u043e\u043f\u0435\u0439\u043a\u0438, \u044f \u0431\u044b \u0434\u0430\u0436\u0435 \u0441\u043a\u0430\u0437\u0430\u043b \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439 \u0431\u043e\u043d\u0443\u0441, \u043d\u0430 \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0434\u0430\u0436\u0435 \u0441\u0430\u043c\u0438 \u043e\u0431\u043e\u0437\u0440\u0435\u0432\u0430\u0435\u043c\u044b\u0435 \u0438\u0433\u0440\u044b \u043d\u0435 \u043a\u0443\u043f\u0438\u0448\u044c. \u0417\u0430\u0442\u0435\u043c, \u0440\u0430\u0437 \u0443\u0436 \u043d\u0430 \u0442\u043e \u043f\u043e\u0448\u043b\u043e, \u044f \u0436\u0438\u0432\u0443 \u043e\u0434\u0438\u043d, \u0438 \u0432 \u0434\u0430\u043d\u043d\u044b\u0439 \u043c\u043e\u043c\u0435\u043d\u0442 \u0441\u0438\u0436\u0443 \u0431\u0435\u0437 \u0440\u0430\u0431\u043e\u0442\u044b. \u0415\u0441\u043b\u0438 \u043a \u043a\u043e\u043d\u0446\u0443 \u043b\u0435\u0442\u0430 \u043d\u0438\u0447\u0435\u0433\u043e \u043d\u0430 \u0433\u043e\u043b\u043e\u0432\u0443 (\u0432\u0440\u043e\u0434\u0435 \u0432\u043d\u0435\u0437\u0430\u043f\u043d\u043e \u0431\u043e\u043b\u044c\u0448\u043e\u0433\u043e \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u0430 \u043f\u0430\u0442\u0440\u0435\u043e\u043d\u0446\u0435\u0432) \u043d\u0435 \u0441\u0432\u0430\u043b\u0438\u0442\u0441\u044f, \u044f \u043d\u0430\u0439\u0434\u0443 \u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u0443\u044e \u0440\u0430\u0431\u043e\u0442\u0443. \u041a\u0430\u0437\u0430\u043b\u043e\u0441\u044c \u0431\u044b, \u0448\u0435\u043b \u0431\u044b \u0438 \u0440\u0430\u0431\u043e\u0442\u0430\u043b, \u0442\u0430\u043a \u043d\u0435\u0442, \u0440\u043e\u0441\u0442\u043a\u0438 \u043a\u0440\u0435\u0430\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438 - \u043e\u043d\u0438 \u0436\u0435 \u0437\u0430\u0433\u043d\u0438\u0432\u0430\u044e\u0442! \u0418\u0445 \u043d\u0430\u0434\u043e \u043f\u043e\u043b\u0438\u0432\u0430\u0442\u044c, \u0432\u0441\u043a\u0430\u0440\u043c\u043b\u0438\u0432\u0430\u0442\u044c. \u0418 \u0438\u043c\u0435\u043d\u043d\u043e \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u043c\u043d\u0435 \u043d\u0443\u0436\u043d\u044b \u0434\u0435\u043d\u044c\u0433\u0438. \u041d\u0430\u0434\u043e \u043f\u043b\u0430\u0442\u0438\u0442\u044c \u0437\u0430 \u0436\u0438\u043b\u044c\u0435 \u0438 \u0435\u0434\u0443.\u003cbr\u003e\u0411\u043e\u043b\u0435\u0435 \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u0430\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u0431\u0443\u0434\u0435\u0442 \u0440\u0430\u0437\u0431\u0440\u043e\u0441\u0430\u043d\u0430 \u043f\u043e \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435. \u041d\u0435 \u0437\u0430\u0431\u0443\u0434\u044c\u0442\u0435 \u0437\u0430\u0433\u043b\u044f\u043d\u0443\u0442\u044c \u0432\u043e \u0432\u043a\u043b\u0430\u0434\u043a\u0438, \u0432 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u044f, \u0447\u0442\u043e\u0431\u044b \u0431\u044b\u0442\u044c \u0432 \u043a\u0443\u0440\u0441\u0435.\u003cbr\u003e\u041d\u0430\u0434\u0435\u044e\u0441\u044c \u043d\u0430 \u0432\u0430\u0448\u0443 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0443.\u00a0\u003cbr\u003e\u0412\u0441\u0435\u0433\u0434\u0430 \u0432\u0430\u0448,\u003cbr\u003epinguiniv.\u003cbr\u003e____________________________________________________\u003cbr\u003e\u041a\u043e\u0433\u0434\u0430 \u044f \u0432\u0435\u0440\u043d\u0443\u0441\u044c? \u041c\u043d\u0435 \u043d\u0443\u0436\u043d\u043e \u0445\u043e\u0442\u044f \u0431\u044b 30 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0449\u0438\u0445 \u043c\u0435\u043d\u044f \u0441\u0443\u043c\u043c\u043e\u0439 \u043b\u044e\u0434\u0435\u0439. \u042d\u0442\u043e \u043c\u043d\u043e\u0433\u043e \u0438, \u043a\u0445\u043c, \u043d\u0435\u0434\u043e\u0441\u0442\u0438\u0436\u0438\u043c\u043e. \u041d\u043e \u044f \u0431\u0443\u0434\u0443 \u0436\u0434\u0430\u0442\u044c \u0438 \u0442\u0438\u0445\u043e\u043d\u0435\u0447\u043a\u043e \u0434\u0443\u043c\u0430\u0442\u044c \u043e \u0442\u043e\u043c, \u0447\u0442\u043e \u044f \u043c\u043e\u0433\u0443 \u0441\u0434\u0435\u043b\u0430\u0442\u044c.\u003cbr\u003e\u041c\u043d\u043e\u0433\u0438\u0435 \u0433\u043e\u0432\u043e\u0440\u044f\u0442 \"\u0443 \u0441\u0430\u043c\u043e\u0433\u043e \u043f\u043e\u043a\u0430 \u043d\u0435\u0442 \u0434\u0435\u043d\u0435\u0433\" - \u0430 \u0432\u044b \u043d\u0435 \u0431\u043e\u0439\u0442\u0435\u0441\u044c! \u041f\u0440\u043e\u0441\u0442\u043e \u043e\u043a\u0430\u0436\u0438\u0442\u0435 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0443. \u041f\u043e\u0441\u0442\u0430\u0432\u044c\u0442\u0435 \u0434\u043e\u043b\u043b\u0430\u0440, \u043f\u0440\u0438\u0432\u044f\u0436\u0438\u0442\u0435 \u043a\u0430\u0440\u0442\u0443 - \u0434\u0435\u043d\u044c\u0433\u0438 \u0441\u043f\u0438\u0441\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u0432 \u043a\u043e\u043d\u0446\u0435 \u043c\u0435\u0441\u044f\u0446\u0430 \u0435\u0441\u043b\u0438 \u0432\u044b\u0445\u043e\u0434\u0438\u043b\u043e \u0445\u043e\u0442\u044f \u0431\u044b \u043e\u0434\u043d\u043e \u0432\u0438\u0434\u0435\u043e. \u0423 \u043c\u0435\u043d\u044f \u043d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u0432\u044b\u0445\u043e\u0434\u0438\u043b\u043e, \u0430 \u044d\u0442\u043e \u0437\u043d\u0430\u0447\u0438\u0442, \u0447\u0442\u043e \u0443 \u0432\u0430\u0441 \u043d\u0438\u0447\u0435\u0433\u043e \u0438 \u043d\u0435 \u0441\u043f\u0438\u0448\u0435\u0442\u0441\u044f. \u041d\u0435 \u0431\u0435\u0441\u043f\u043e\u043a\u043e\u0439\u0442\u0435\u0441\u044c, \u044f \u0432\u0430\u0441 \u0432\u0441\u0435\u0445 \u043e\u043f\u043e\u0432\u0435\u0449\u0443, \u043a\u043e\u0433\u0434\u0430 \u043d\u0430\u0447\u043d\u0443 \u0431\u0440\u0430\u0442\u044c \u0432\u0430\u0448\u0438 \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0435 \u043f\u043e\u0436\u0435\u0440\u0442\u0432\u043e\u0432\u0430\u043d\u0438\u044f, \u0434\u043e\u0431\u0430\u0432\u044c\u0442\u0435 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443 \u0432 \u0438\u0437\u0431\u0440\u0430\u043d\u043d\u043e\u0435 \u043d\u0430 \u0432\u0441\u044f\u043a\u0438\u0439 \u043f\u043e\u0436\u0430\u0440\u043d\u044b\u0439.\u003cbr\u003e"
+   },
+   "id": "88162",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "134076",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/134076"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "20189",
+       "type": "goal"
+      },
+      {
+       "id": "20190",
+       "type": "goal"
+      },
+      {
+       "id": "20191",
+       "type": "goal"
+      },
+      {
+       "id": "20192",
+       "type": "goal"
+      },
+      {
+       "id": "20193",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "30740",
+       "type": "reward"
+      },
+      {
+       "id": "30739",
+       "type": "reward"
+      },
+      {
+       "id": "30741",
+       "type": "reward"
+      },
+      {
+       "id": "30742",
+       "type": "reward"
+      },
+      {
+       "id": "30743",
+       "type": "reward"
+      },
+      {
+       "id": "30746",
+       "type": "reward"
+      },
+      {
+       "id": "30744",
+       "type": "reward"
+      },
+      {
+       "id": "30745",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2014-04-15T06:41:37+00:00",
+     "facebook": null,
+     "first_name": "Antony",
+     "full_name": "Antony Ivachev",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/134076/ef1f3e0ea75440739439fdfce0bc9d83?token-time=2145916800\u0026token-hash=C1HnYZ7ZG8ThXZyeQPfN2HYSbiMvsabM-KMB1ZaR3qk%3D",
+     "last_name": "Ivachev",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/134076/ef1f3e0ea75440739439fdfce0bc9d83?token-time=2145916800\u0026token-hash=AqYdnSpjsb8JC50SrDsgOARbJg9KxtOpt_vODV856-U%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/pinguiniv",
+     "vanity": "pinguiniv",
+     "youtube": "https://www.youtube.com/user/MadeInGameOfficial"
+    },
+    "id": "134076",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "88162",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/88162"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2014-04-15T07:54:34+00:00",
+     "description": "\u0412\u044b - \u043e\u0447\u0435\u043d\u044c \u0445\u043e\u0440\u043e\u0448\u0438\u0439 \u0447\u0435\u043b\u043e\u0432\u0435\u043a! \u0412\u044b \u0441\u043c\u043e\u0436\u0435\u0442\u0435 \u0432 \u043b\u044e\u0431\u043e\u0439 \u043c\u043e\u043c\u0435\u043d\u0442 \u0443\u0437\u043d\u0430\u0442\u044c, \u043a\u0430\u043a \u0443 \u043c\u0435\u043d\u044f \u043f\u0440\u043e\u0434\u0432\u0438\u0433\u0430\u0435\u0442\u0441\u044f \u0440\u0430\u0431\u043e\u0442\u0430 \u0438 \u0447\u0442\u043e \u0432\u044b\u0439\u0434\u0435\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u043c!\u003cdiv style=\"margin-left: 40px;\"\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-04-15T07:54:34+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=88162\u0026rid=30740",
+     "user_limit": null
+    },
+    "id": "30740",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2014-04-15T07:54:34+00:00",
+     "description": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e! \u0412\u044b - \u043f\u0435\u0440\u0432\u043e\u043f\u0440\u043e\u0445\u043e\u0434\u0446\u044b, \u0432\u044b \u043d\u0430\u0432\u0441\u0435\u0433\u0434\u0430 \u0437\u0430\u0440\u0435\u0437\u0435\u0440\u0432\u0438\u0440\u043e\u0432\u0430\u043b\u0438 \u0441\u0435\u0431\u0435 \u043c\u0435\u0441\u0442\u043e \u0432 \u0442\u0438\u0442\u0440\u0430\u0445 \u043c\u043e\u0438\u0445 \u0432\u0438\u0434\u0435\u043e!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-04-15T07:54:34+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=88162\u0026rid=30739",
+     "user_limit": 5
+    },
+    "id": "30739",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2014-04-15T07:54:34+00:00",
+     "description": "\u041d\u0435\u043f\u043b\u043e\u0445\u043e! \u042f \u0433\u043e\u0442\u043e\u0432 \u043f\u0440\u0438\u043d\u0435\u0441\u0442\u0438 \u0432\u0430\u043c \u0432\u043a\u0443\u0441\u043d\u044b\u0439 \u043f\u0438\u0440\u043e\u0436\u043e\u043a, \u0435\u0441\u043b\u0438 \u043c\u044b \u0432\u043d\u0435\u0437\u0430\u043f\u043d\u043e \u043e\u043a\u0430\u0436\u0435\u043c\u0441\u044f \u0432 \u043e\u0434\u043d\u043e\u043c \u0433\u043e\u0440\u043e\u0434\u0435. \u0410 \u0442\u0430\u043a \u0436\u0435 \u0432\u044b \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u043a\u043b\u044e\u0447 \u043e\u0442 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u0438\u0433\u0440\u044b \u0438\u0437 \u043c\u043e\u0435\u0433\u043e \u043e\u0433\u0440\u043e\u043c\u043d\u043e\u0433\u043e \u0441\u043a\u043b\u0430\u0434\u0430 \u043a\u043b\u044e\u0447\u0435\u0439 \u043e\u0442 \u0438\u0433\u0440!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-04-15T07:54:34+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=88162\u0026rid=30741",
+     "user_limit": null
+    },
+    "id": "30741",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2014-04-15T07:54:34+00:00",
+     "description": "\u041e\u0433\u043e! \u0414\u0430 \u0432\u044b \u0431\u043e\u0433\u0430\u0447! \u0412\u044b \u0441\u043c\u043e\u0436\u0435\u0442\u0435 \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u044c \u0441\u043e \u043c\u043d\u043e\u0439 \u0432 \u0441\u043a\u0430\u0439\u043f\u0435 \u0438\u043b\u0438 \u0432 \u0433\u0443\u0433\u043b\u0435, \u0433\u0434\u0435 \u0443\u0434\u043e\u0431\u043d\u0435\u0435, \u0438 \u0434\u0430\u0436\u0435 \u0438\u043d\u043e\u0433\u0434\u0430 \u0438\u0433\u0440\u0430\u0442\u044c \u0432 \u0438\u0433\u0440\u044b! \u0415\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e, \u044f \u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d \u0434\u0430\u043b\u0435\u043a\u043e \u043d\u0435 \u0432\u0441\u0435\u0433\u0434\u0430, \u043d\u043e \u0434\u043e\u0432\u043e\u043b\u044c\u043d\u043e \u0447\u0430\u0441\u0442\u043e.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-04-15T07:54:34+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=88162\u0026rid=30742",
+     "user_limit": null
+    },
+    "id": "30742",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2014-04-15T07:54:34+00:00",
+     "description": "\u0424\u0443\u0442\u0431\u043e\u043b\u043e\u0447\u043a\u0438!\u00a0\u003cbr\u003e\u0412\u044b \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u0444\u0443\u0442\u0431\u043e\u043b\u043e\u0447\u043a\u0443 Made In Game \u0441 \u0432\u0430\u0448\u0438\u043c \u043d\u0438\u043a\u043d\u0435\u0439\u043c\u043e\u043c \u0441\u043f\u0435\u0440\u0435\u0434\u0438, \u0438 \u043a\u0430\u043a\u043e\u0439-\u043d\u0438\u0431\u0443\u0434\u044c \u043f\u043e\u0434\u0430\u0440\u043e\u043a \u043b\u0438\u0447\u043d\u043e \u043e\u0442 \u043c\u0435\u043d\u044f:) \u0410 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0438 \u0434\u0430\u0436\u0435 \u043d\u0435 \u043e\u0434\u0438\u043d \u0440\u0430\u0437...",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-04-15T07:54:34+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=88162\u0026rid=30743",
+     "user_limit": null
+    },
+    "id": "30743",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2014-04-15T07:54:34+00:00",
+     "description": "\u042f \u0433\u043e\u0442\u043e\u0432 \u043e\u0437\u0432\u0443\u0447\u0438\u0432\u0430\u0442\u044c \u0432\u0430\u0448\u0438 \u0432\u0438\u0434\u0435\u043e, \u0438\u043b\u0438 \u0432\u043e\u043e\u0431\u0449\u0435 \u043f\u043e\u043c\u043e\u0433\u0430\u0442\u044c \u0432\u0430\u043c, \u043d\u043e \u043d\u0435 \u043e\u0447\u0435\u043d\u044c \u043c\u043d\u043e\u0433\u043e. \u041d\u043e \u043f\u043e\u043c\u043e\u0447\u044c \u0432\u0441\u0435\u0433\u0434\u0430 \u0433\u043e\u0442\u043e\u0432, \u0437\u0430 \u0442\u0430\u043a\u0438\u0435 \u0442\u043e \u0434\u0435\u043d\u044c\u0433\u0438!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-04-15T07:54:34+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=88162\u0026rid=30746",
+     "user_limit": null
+    },
+    "id": "30746",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2014-04-15T07:54:34+00:00",
+     "description": "\u042f \u0433\u043e\u0442\u043e\u0432 \u043f\u043e\u043e\u0431\u0435\u0434\u0430\u0442\u044c \u0441 \u0432\u0430\u043c\u0438 \u0437\u0430 \u0432\u0430\u0448 \u0441\u0447\u0435\u0442. \u0414\u0430\u0436\u0435 \u0435\u0441\u043b\u0438 \u0432\u044b \u0441\u0442\u0440\u0430\u0448\u043d\u0430\u044f \u0438 \u0442\u043e\u043b\u0441\u0442\u0430\u044f. \u041c\u043c\u043c...",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-04-15T07:54:34+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=88162\u0026rid=30744",
+     "user_limit": null
+    },
+    "id": "30744",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2014-04-15T07:54:34+00:00",
+     "description": "\u042f \u0433\u043e\u0442\u043e\u0432 \u0441\u043f\u0430\u0442\u044c \u0441 \u0432\u0430\u043c\u0438 \u0432 \u0434\u0435\u043d\u044c \u0432\u044b\u0445\u043e\u0434\u0430 \u043d\u043e\u0432\u043e\u0433\u043e \u0432\u0438\u0434\u0435\u043e, \u043f\u043e\u0442\u043e\u043c\u0443 \u0447\u0442\u043e \u0432\u044b \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0435 \u043a\u043e\u0441\u0442\u044f\u043a \u043c\u043e\u0435\u0433\u043e \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044f!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-04-15T07:54:34+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=88162\u0026rid=30745",
+     "user_limit": null
+    },
+    "id": "30745",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000,
+     "completed_percentage": 45,
+     "created_at": "2014-04-15T07:44:22+00:00",
+     "description": "\u0415\u0435 \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0431\u0443\u0434\u0435\u0442! \u041d\u0438\u0433\u0434\u0435! \u0418 \u043d\u0430 \u0441\u0442\u0430\u0440\u044b\u0445 \u0432\u0438\u0434\u0435\u043e \u0442\u043e\u0436\u0435:)",
+     "reached_at": "2014-04-15T07:44:22+00:00",
+     "title": "\u0420\u0435\u043a\u043b\u0430\u043c\u0430"
+    },
+    "id": "20189",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2000,
+     "completed_percentage": 22,
+     "created_at": "2014-04-15T07:44:22+00:00",
+     "description": "\u0412\u0438\u0434\u0435\u043e \u0431\u0443\u0434\u0443\u0442 \u0432\u044b\u0445\u043e\u0434\u0438\u0442\u044c \u043a\u0430\u0436\u0434\u0443\u044e \u043d\u0435\u0434\u0435\u043b\u044e \u0432 \u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0434\u043d\u0438",
+     "reached_at": null,
+     "title": "\u041f\u043e\u0441\u0442\u043e\u044f\u043d\u0441\u0442\u0432\u043e"
+    },
+    "id": "20190",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3000,
+     "completed_percentage": 15,
+     "created_at": "2014-04-15T07:44:22+00:00",
+     "description": "10% \u0437\u0430\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0441 \u043f\u0430\u0442\u0440\u0435\u043e\u043d\u0430 \u043f\u043e\u0439\u0434\u0443\u0442 \u043d\u0430 \u0440\u0430\u0437\u0434\u0430\u0447\u0438 \u043f\u043e\u0434\u0430\u0440\u043a\u043e\u0432 \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u0430\u043c \u043f\u043e\u0434 \u043a\u0430\u0436\u0434\u044b\u043c \u0432\u0438\u0434\u0435\u043e",
+     "reached_at": null,
+     "title": "\u0420\u0430\u0437\u0434\u0430\u0447\u0438"
+    },
+    "id": "20191",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 9,
+     "created_at": "2014-04-15T07:44:22+00:00",
+     "description": "\u0422\u043e\u0447\u043d\u0435\u0435, \u0441\u043a\u043e\u0440\u0435\u0435 \u0432\u0441\u0435\u0433\u043e \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 \u0437\u0432\u0443\u043a\u0430 \u0438 \u0432\u0438\u0434\u0435\u043e \u0441 \u044d\u0442\u043e\u0433\u043e \u043c\u043e\u043c\u0435\u043d\u0442\u0430 \u043d\u0430\u0447\u043d\u0443\u0442 \u0437\u043d\u0430\u044e\u0449\u0438\u0435 \u0441\u0432\u043e\u0435 \u0434\u0435\u043b\u043e \u043b\u044e\u0434\u0438",
+     "reached_at": null,
+     "title": "\u041f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+    },
+    "id": "20192",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 4,
+     "created_at": "2014-04-15T07:44:22+00:00",
+     "description": "\u041c\u043d\u0435 \u043d\u0435 \u043d\u0443\u0436\u043d\u0430 \u0440\u0430\u0431\u043e\u0442\u0430. \u041c\u043d\u0435 \u043d\u0443\u0436\u043d\u044b \u0442\u043e\u043b\u044c\u043a\u043e \u0432\u044b \u0438 youtube.",
+     "reached_at": null,
+     "title": "\u042f \u043b\u044e\u0431\u043b\u044e \u0432\u0430\u0441"
+    },
+    "id": "20193",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/88162"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "83770709-07d8-4ced-892d-d28d77ea8c92",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Antony Ivachev is creating videos of all sorts (russian)"
+});
+    </script>

@@ -1,0 +1,465 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "OmO4Xd0UOAW5tpY5CpOM9BbjoY_YDj4V77_deEWepIY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "634608",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/634608"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-11-15T04:13:59+00:00",
+    "creation_name": "video blogs",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1335754/cce4e5292b1747d68c10a4715761c1ce?token-time=2145916800\u0026token-hash=VHMhdn1Q4UrH2rmkNRfMSIRx4pAXw4v2Q3g77AAizV4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1335754/cce4e5292b1747d68c10a4715761c1ce?token-time=2145916800\u0026token-hash=nnU6nzadqDDM-lm5JL1lyzUhVF45yt4v-K9oj4h3JiY%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "creation/ per sailing video blog",
+    "pledge_sum": 1350,
+    "pledge_url": "/bePatron?c=1335754",
+    "published_at": "2017-11-15T04:33:33+00:00",
+    "summary": null
+   },
+   "id": "1335754",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8466295",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8466295"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1022681",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2149641",
+       "type": "reward"
+      },
+      {
+       "id": "2149649",
+       "type": "reward"
+      },
+      {
+       "id": "2149648",
+       "type": "reward"
+      },
+      {
+       "id": "2149652",
+       "type": "reward"
+      },
+      {
+       "id": "2149654",
+       "type": "reward"
+      },
+      {
+       "id": "2149657",
+       "type": "reward"
+      },
+      {
+       "id": "2149658",
+       "type": "reward"
+      },
+      {
+       "id": "2149663",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-11-15T04:13:29+00:00",
+     "facebook": null,
+     "first_name": "Sailing",
+     "full_name": "Sailing Gypsychristine",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/8466295/56c76349545a44af8ddaed5ea51251c1?token-time=2145916800\u0026token-hash=O4zGNzTUD8PW3asVLO-Bb2_yfmGckv_21uMfuV35jWE%3D",
+     "last_name": "Gypsychristine",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/8466295/56c76349545a44af8ddaed5ea51251c1?token-time=2145916800\u0026token-hash=1s0GZhv7PCkJBaBkmKpXaEPbzZ4OXoISExY-YTYjqsU%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/sailinggypsychristine",
+     "vanity": "sailinggypsychristine",
+     "youtube": null
+    },
+    "id": "8466295",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1335754",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1335754"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-11-15T04:26:29.242256+00:00",
+     "description": "I think I would be rich for every time someone said I was \"Crazy!\" so this is my CRAZY EXPERIMENT!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T04:26:29.242256+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-15T04:26:29.242256+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "CRAZY FUND",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1335754\u0026rid=2149641",
+     "user_limit": null
+    },
+    "id": "2149641",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-11-15T04:28:28.655463+00:00",
+     "description": "If you wanted to be DOUBLE GENEROUS!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T04:28:28.655463+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-15T04:28:28.655463+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "DOUBLE CRAZY FUND",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1335754\u0026rid=2149649",
+     "user_limit": null
+    },
+    "id": "2149649",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-11-15T04:27:44.989777+00:00",
+     "description": "You have my ETERNAL gratitude and MANY ONLINE HUGS",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T04:27:44.989777+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-15T04:27:44.989777+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Eternal HUGS FUND",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1335754\u0026rid=2149648",
+     "user_limit": null
+    },
+    "id": "2149648",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-11-15T04:29:05.044427+00:00",
+     "description": "\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T04:29:05.044427+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-15T04:29:05.044427+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "TRAVEL FUND ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1335754\u0026rid=2149652",
+     "user_limit": null
+    },
+    "id": "2149652",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2017-11-15T04:29:39.035966+00:00",
+     "description": "Sending me LOTS OF LUCK for my trips!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T04:29:39.035966+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-15T04:29:39.035966+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "LUCKY FUND",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1335754\u0026rid=2149654",
+     "user_limit": null
+    },
+    "id": "2149654",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-15T04:30:32.933721+00:00",
+     "description": "Helping me to create better sailing vlogs",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T04:30:32.933721+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-15T04:30:32.933721+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "SUPPORT my VLOGS FUND",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1335754\u0026rid=2149657",
+     "user_limit": null
+    },
+    "id": "2149657",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-11-15T04:31:05.437172+00:00",
+     "description": "Helping me to create better sailing vlogs with BETTER EQUIPMENT",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T04:31:05.437172+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-15T04:31:05.437172+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "EQUIPMENT FUND",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1335754\u0026rid=2149658",
+     "user_limit": null
+    },
+    "id": "2149658",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-11-15T04:31:57.581415+00:00",
+     "description": "Helping to maintain the sailboat with constant maintenance and repairs",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T04:31:57.581415+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-15T04:31:57.581415+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "MAINTAINING SAILBOAT FUND",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1335754\u0026rid=2149663",
+     "user_limit": null
+    },
+    "id": "2149663",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 2,
+     "created_at": "2017-11-15T05:15:47+00:00",
+     "description": "When I reach \u003cstrong\u003e$500 per month\u003c/strong\u003e, I will create and release two sailing video blogs per month instead of one.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1022681",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1335754"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "9148dea7-1e9d-46c7-8053-82e5cf1f6433",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Sailing Gypsychristine is creating video blogs"
+});
+    </script>

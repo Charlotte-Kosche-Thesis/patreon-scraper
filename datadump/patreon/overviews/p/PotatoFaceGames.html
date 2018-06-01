@@ -1,0 +1,577 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "FPul4CrXG-6JLQ74TpAXJP16dq1le91tEekC6CKF0R0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "340786",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/340786"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-01-02T18:39:28+00:00",
+    "creation_name": "VR Video Games",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/678833/a83bd04d3ebb4c89bcc59dd62ec281ed?token-time=2145916800\u0026token-hash=avr8lXwIqUvoUGIvK4Yrm_8czDFCNkw9--1JCrsYafU%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/678833/a83bd04d3ebb4c89bcc59dd62ec281ed?token-time=2145916800\u0026token-hash=VQrxXiST739UkWp5yQscXh6Q02SktiHCVnZ-4BYFR9Q%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_sum": 4189,
+    "pledge_url": "/bePatron?c=678833",
+    "published_at": "2017-01-15T22:27:47+00:00",
+    "summary": "Currently two VR Developers residing in Austin. We\u0027re building a Fantasy Action game that includes Dungeon exploring, adventuring and pvp. Donations totaling $10 or more gets you the steam key when we release.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://j.gifs.com/k5jmPJ.gif\"\u003e\u003cbr\u003e\u003cbr\u003eRogue, our latest addition:\u003cbr\u003e\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/Q1xxdun13pM\" width=\"560\"\u003e\u003c/iframe\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "678833",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4755637",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4755637"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "680342",
+       "type": "goal"
+      },
+      {
+       "id": "711369",
+       "type": "goal"
+      },
+      {
+       "id": "711370",
+       "type": "goal"
+      },
+      {
+       "id": "711371",
+       "type": "goal"
+      },
+      {
+       "id": "711372",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-678833",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-678833"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1235376",
+       "type": "reward"
+      },
+      {
+       "id": "1235377",
+       "type": "reward"
+      },
+      {
+       "id": "1235378",
+       "type": "reward"
+      },
+      {
+       "id": "1235379",
+       "type": "reward"
+      },
+      {
+       "id": "1287661",
+       "type": "reward"
+      },
+      {
+       "id": "1235380",
+       "type": "reward"
+      },
+      {
+       "id": "1518535",
+       "type": "reward"
+      },
+      {
+       "id": "1287640",
+       "type": "reward"
+      },
+      {
+       "id": "1235375",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2017-01-02T18:39:01+00:00",
+     "facebook": "https://www.facebook.com/PotatoFaceGames123",
+     "first_name": "Potato",
+     "full_name": "Potato Face Games",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4755637/21e6b4fd77f54df2a7b773aaf676db1d?token-time=2145916800\u0026token-hash=C7H8CssNvw19lJZhzatxHVKBruYRlDJGg2us53_8_AM%3D",
+     "last_name": "Face Games",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4755637/21e6b4fd77f54df2a7b773aaf676db1d?token-time=2145916800\u0026token-hash=bk3vBgjP6g0vFer4Q2Cq3dn-HQRmyXw545evsnM9Bew%3D",
+     "twitch": "https://www.twitch.tv/potatofacegames",
+     "twitter": "PotatoFaceGames",
+     "url": "https://www.patreon.com/PotatoFaceGames",
+     "vanity": "PotatoFaceGames",
+     "youtube": "https://www.youtube.com/channel/UCQ6krxyNXguGz2pQvJ4qE0A"
+    },
+    "id": "4755637",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "678833",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/678833"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 11,
+     "upgrade_url": "/bePatron?c=678833\u0026rid=1235376"
+    },
+    "id": "post-aggregation-for-0-678833",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-01-02T18:44:34.467335+00:00",
+     "description": "For just a dollar per month, this will cover the cost of hosting our website.\u003cbr\u003e\n\u003cbr\u003e\nYou\u0027ll also get access to our Patreon creator feed, so you\u0027ll see most posts + access to unlisted YouTube videos and our Discord Channel. \u00a0\u003cbr\u003e\n\u003cbr\u003e\nWe also love to game! We take people first from this tier to play with us on twitch. (We also play a lot of Overwatch)\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eDrop by and say hello!\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eDiscord!\u003c/li\u003e\u003cli\u003eJoin the patron community\u003c/li\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eUnlisted Videos\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "302165947181957121"
+     ],
+     "edited_at": "2017-05-09T05:45:06.637908+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-01-02T18:44:34.467335+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Make it rain",
+     "unpublished_at": null,
+     "url": "/bePatron?c=678833\u0026rid=1235376",
+     "user_limit": null
+    },
+    "id": "1235376",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-01-02T18:44:34.481047+00:00",
+     "description": "You\u0027ll receive access to unlisted pre-alpha versions of our most recent game for your eyes only, plus all previous rewards!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-21T22:46:05.887150+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 5,
+     "published": true,
+     "published_at": "2017-01-02T18:44:34.481047+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Apha Testing Tier!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=678833\u0026rid=1235377",
+     "user_limit": null
+    },
+    "id": "1235377",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-01-02T18:44:34.496181+00:00",
+     "description": "We will include you in the credits of our game!\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-21T22:14:14.163471+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-02T18:44:34.496181+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Producer Credit Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=678833\u0026rid=1235378",
+     "user_limit": null
+    },
+    "id": "1235378",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-01-02T18:44:34.511090+00:00",
+     "description": "Swag is on the way! At this level, you\u0027ll get a custom made art piece made by resident artist Cope Williams! (one time only), plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-22T05:45:59.302473+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-02T18:44:34.511090+00:00",
+     "remaining": 8,
+     "requires_shipping": true,
+     "title": "Custom Art Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=678833\u0026rid=1235379",
+     "user_limit": 10
+    },
+    "id": "1235379",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-01-15T21:59:34.210855+00:00",
+     "description": "One time- We send you a video of us singing you a song, in VR. \u00a0\u003cbr\u003e\u003cbr\u003ePlus all previous rewards.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T07:27:38.488274+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-15T21:59:34.210855+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "Song Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=678833\u0026rid=1287661",
+     "user_limit": 4
+    },
+    "id": "1287661",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-01-02T18:44:34.526110+00:00",
+     "description": "Every month, we will hang out on a one on one video chat, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T07:27:38.510307+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-02T18:44:34.526110+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": "1 on 1 chat ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=678833\u0026rid=1235380",
+     "user_limit": 2
+    },
+    "id": "1235380",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2017-03-22T05:24:48.712559+00:00",
+     "description": "We will make a custom magic item (within reason) just for you! (only once)\u003cbr\u003e\n\u003cbr\u003e\nPlus all previous tiers.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-22T05:25:53.807474+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-22T05:24:48.712559+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "Mr.Magic",
+     "unpublished_at": null,
+     "url": "/bePatron?c=678833\u0026rid=1518535",
+     "user_limit": 3
+    },
+    "id": "1518535",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2017-01-15T21:56:29.236682+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eSeriously... thank you!\u00a0\u003c/li\u003e\u003cli\u003eExtended influence to development for as many months as you keep this tier.\u00a0\u003c/li\u003e\u003cli\u003eDev\u0027s personal phone numbers\u003cbr\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T07:27:38.533639+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-15T21:56:29.236682+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Game influence",
+     "unpublished_at": null,
+     "url": "/bePatron?c=678833\u0026rid=1287640",
+     "user_limit": 1
+    },
+    "id": "1287640",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200000,
+     "amount_cents": 200000,
+     "created_at": "2017-01-02T18:44:34.128972+00:00",
+     "description": "Legendary, you can live with us as long as you stay subscribed to this tier. \u003cbr\u003e\n\u003cbr\u003e\nAdditionally we will make a custom class, just for you!",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-21T22:47:20.199069+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-02T18:44:34.128972+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Live with us and create a personal class!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=678833\u0026rid=1235375",
+     "user_limit": 1
+    },
+    "id": "1235375",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 140000,
+     "completed_percentage": 2,
+     "created_at": "2017-01-15T21:53:40+00:00",
+     "description": "Full time development! This is the greatest goal we can achieve on Patreon!\u00a0\u003cbr\u003e\u003cbr\u003eTwo months at this level and we hit steam Early Acsess!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "680342",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 20,
+     "created_at": "2017-02-09T07:27:38+00:00",
+     "description": "Food! You\u0027ll help feed us as we develop!\u00a0\u003cbr\u003e\u003cbr\u003eIf we hit this goal the community will vote on a support character name!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "711369",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 41,
+     "created_at": "2017-02-09T07:27:38+00:00",
+     "description": "Helps us get professional equipment such as hard drives and operation of servers.\u00a0\u003cbr\u003eIf we hit this goal we\u0027ll make a magic community item for all current backers.",
+     "reached_at": "2017-08-20T20:40:35+00:00",
+     "title": ""
+    },
+    "id": "711370",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 10,
+     "created_at": "2017-02-09T07:27:38+00:00",
+     "description": "Cope and James, will both try to set a world record of being in VR for more than 48 hours and live stream the experience.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "711371",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 6,
+     "created_at": "2017-02-09T07:27:38+00:00",
+     "description": "If we even hit this goal, both Cope and I can do part time development!\u00a0\u003cbr\u003e\u003cbr\u003eWe\u0027ll add 6 community decided magic items to the game!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "711372",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/678833"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "d3aa6672-4ad4-4d39-9c96-3cf63687956a",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Potato Face Games are creating VR Video Games"
+});
+    </script>

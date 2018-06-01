@@ -1,0 +1,625 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "I6fiJxj_EouZRKFH_eNmtLFXmwmwJXkWIbRERFSI7oY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "2638",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/2638"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2013-10-13T22:36:11+00:00",
+    "creation_name": "music, comics, animations, illustrations, and games",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/74206/9ef1746ae0af4ed986e4459c642bbb55?token-time=2145916800\u0026token-hash=p73OoI-mbqtBXRefPjYYn6ypZrwqPLV_T_QLeWUhyL8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/74206/9ef1746ae0af4ed986e4459c642bbb55?token-time=2145916800\u0026token-hash=1lOTz84_JQ2lvMh5BuXAmcCrbjkFY74dKkGYTQ66r6A%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "help ...me",
+    "patron_count": 5,
+    "pay_per_name": "month",
+    "pledge_sum": 1103,
+    "pledge_url": "/bePatron?c=74206",
+    "published_at": "2013-10-13T22:36:11+00:00",
+    "summary": "(my name is rj lake and i do a lot of things.\u00a0\u003ca href=\"https://spellmynamewithabang.bandcamp.com/album/stuckhome-syndrome-part-one-v1-years-in-the-past\"\u003emost recently i made an album with over four hundred and thirteen songs on it that i\u0027m slowly polishing up until it\u0027s perfect\u003c/a\u003e. i\u0027m also working on more music, as well as comics and video games. consider helpin\u0027 out.)"
+   },
+   "id": "74206",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "47481",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/47481"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "8494",
+       "type": "goal"
+      },
+      {
+       "id": "229827",
+       "type": "goal"
+      },
+      {
+       "id": "229828",
+       "type": "goal"
+      },
+      {
+       "id": "231043",
+       "type": "goal"
+      },
+      {
+       "id": "231044",
+       "type": "goal"
+      },
+      {
+       "id": "462748",
+       "type": "goal"
+      },
+      {
+       "id": "462749",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-74206",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-74206"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "15664",
+       "type": "reward"
+      },
+      {
+       "id": "294901",
+       "type": "reward"
+      },
+      {
+       "id": "1582281",
+       "type": "reward"
+      },
+      {
+       "id": "1582283",
+       "type": "reward"
+      },
+      {
+       "id": "293378",
+       "type": "reward"
+      },
+      {
+       "id": "1582322",
+       "type": "reward"
+      },
+      {
+       "id": "294902",
+       "type": "reward"
+      },
+      {
+       "id": "294903",
+       "type": "reward"
+      },
+      {
+       "id": "294904",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "i make everything, kind of",
+     "created": "2013-10-13T22:36:11+00:00",
+     "facebook": null,
+     "first_name": "RJ",
+     "full_name": "RJ Lake",
+     "gender": 1,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/47481/f6acaf4fe3fc43adb606ea9b26a523cb?token-time=2145916800\u0026token-hash=BVuWe_1ou7BQIeLB9PNJxmJsJYkX2lMWh9hoHRYGC5g%3D",
+     "last_name": "Lake",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/47481/f6acaf4fe3fc43adb606ea9b26a523cb?token-time=2145916800\u0026token-hash=26_fhSO9gtB9WZBBVZfAFByKol-FaPT-PzLd_D7qwCM%3D",
+     "twitch": "https://www.twitch.tv/spellmynamewithabang",
+     "twitter": "spellbang",
+     "url": "https://www.patreon.com/spellmynamewithabang",
+     "vanity": "spellmynamewithabang",
+     "youtube": "https://www.youtube.com/user/spellmynamewithabang"
+    },
+    "id": "47481",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "74206",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/74206"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 13,
+     "upgrade_url": "/bePatron?c=74206\u0026rid=15664"
+    },
+    "id": "post-aggregation-for-0-74206",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-09-05T15:33:18+00:00",
+     "description": "Exclusive access to vote in all patron polls, which shape what things I make (so: important!). Early access to all public updates.",
+     "discord_role_ids": [
+      "306621210953908225"
+     ],
+     "edited_at": "2017-04-10T11:15:23.521224+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2015-09-05T15:33:18+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The One Dollar Thing",
+     "unpublished_at": null,
+     "url": "/bePatron?c=74206\u0026rid=15664",
+     "user_limit": null
+    },
+    "id": "15664",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2015-09-05T15:33:18+00:00",
+     "description": "Get access to patron polls, get a chance to submit ideas for new polls, AND get early access to public updates and album releases, plus exclusive ...secret posts with bonuses?",
+     "discord_role_ids": [
+      "306621210953908225"
+     ],
+     "edited_at": "2017-04-10T11:26:32.909934+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-04-10T11:12:45.825078+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Two Dollar Thing",
+     "unpublished_at": null,
+     "url": "/bePatron?c=74206\u0026rid=294901",
+     "user_limit": null
+    },
+    "id": "294901",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-04-10T11:18:22.580228+00:00",
+     "description": "All of the above plus access to my \u003ca href=\"https://twitter.com/robertjlake\" rel=\"nofollow noopener\" target=\"_blank\"\u003esneaky secret special Patreon twitter account, \u003c/a\u003e\u00a0which only patrons of this tier and above get to see, plus more bonuses and \u003cstrong\u003eaccess to exclusive monthly patron streams.\u003c/strong\u003e",
+     "discord_role_ids": [
+      "306621210953908225"
+     ],
+     "edited_at": "2017-04-12T19:47:20.588004+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-10T11:18:22.580228+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Three Dollar Thing",
+     "unpublished_at": null,
+     "url": "/bePatron?c=74206\u0026rid=1582281",
+     "user_limit": null
+    },
+    "id": "1582281",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2017-04-10T11:19:41.942614+00:00",
+     "description": "All of the above plus \u003cstrong\u003eaccess to downloads of exclusive album releases every two months\u003c/strong\u003e that I promise will remain with an exclusivity window to this tier and above for at least 365 days.",
+     "discord_role_ids": [
+      "306621210953908225"
+     ],
+     "edited_at": "2017-04-10T11:26:18.169527+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-10T11:19:41.942614+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Four Dollar Thing",
+     "unpublished_at": null,
+     "url": "/bePatron?c=74206\u0026rid=1582283",
+     "user_limit": null
+    },
+    "id": "1582283",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-09-05T15:33:18+00:00",
+     "description": "Includes all of the above plus access to a very top secret project as well as a simple personalized quickie 5-minute sketch every month I\u0027ll do during \u003cstrong\u003ethe exclusive patron streams. \u00a0\u003c/strong\u003ePlus get exclusive discounts at all the places I sell things!",
+     "discord_role_ids": [
+      "306621210953908225"
+     ],
+     "edited_at": "2017-04-12T19:49:21.439420+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2015-09-05T15:33:18+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Five Dollar Thing",
+     "unpublished_at": null,
+     "url": "/bePatron?c=74206\u0026rid=293378",
+     "user_limit": null
+    },
+    "id": "293378",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-04-10T11:33:10.857422+00:00",
+     "description": "\u003cem\u003eEverything \u003c/em\u003eabove plus\u00a0ANOTHER secret project, one you get to help shape. Treat me like a weird talented manpuppet.",
+     "discord_role_ids": [
+      "306621210953908225"
+     ],
+     "edited_at": "2017-04-12T19:50:26.717499+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-10T11:33:10.857422+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Cool Kids Table",
+     "unpublished_at": null,
+     "url": "/bePatron?c=74206\u0026rid=1582322",
+     "user_limit": null
+    },
+    "id": "1582322",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2015-09-05T15:33:18+00:00",
+     "description": "You are truly mega fancy. Everything from the above, but you also get \u003cstrong\u003ea short song, illustration to your specs,\u003c/strong\u003e\u003cem\u003e\u003cstrong\u003e and a \u003c/strong\u003e\u003c/em\u003e\u003cstrong\u003epersonalized comic \u003c/strong\u003e\u003cem\u003e\u003cstrong\u003eabout you every year, \u003c/strong\u003e\u003c/em\u003edone during a marathon patron-only stream\u003cem\u003e\u003cstrong\u003e.\u00a0\u003c/strong\u003e\u003c/em\u003e",
+     "discord_role_ids": [
+      "306621210953908225"
+     ],
+     "edited_at": "2017-04-10T11:21:52.004920+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-05T15:33:18+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Special People Club",
+     "unpublished_at": null,
+     "url": "/bePatron?c=74206\u0026rid=294902",
+     "user_limit": null
+    },
+    "id": "294902",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2015-09-05T15:33:18+00:00",
+     "description": "\u003cstrong\u003eULTIMATE SAVIOR PATRON PACKAGE: \u003c/strong\u003e\u003cem\u003e\u003cstrong\u003eEvery month\u003c/strong\u003e\u003c/em\u003e\u003cstrong\u003e you get a short song, short comic, or an illustration of your choice and design, plus all exclusives from previous tiers.\u003cbr\u003e\n\u003c/strong\u003e",
+     "discord_role_ids": [
+      "306621210953908225"
+     ],
+     "edited_at": "2017-04-10T11:23:41.503453+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-05T15:33:18+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "ok seriously how are you real",
+     "unpublished_at": null,
+     "url": "/bePatron?c=74206\u0026rid=294903",
+     "user_limit": null
+    },
+    "id": "294903",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2015-09-05T15:33:18+00:00",
+     "description": "\u003cstrong\u003eULTIMATE EXTREME PACKAGE: SOMETHING EVERY SINGLE WEEK FOR THE DURATION OF YOUR PATRONAGE, PLUS ONE PHYSICAL ACRYLLIC PAINTING ON CANVAS DELIVERED TO YOUR DOOR TWICE A YEAR, AND AN ALBUM A YEAR WRITTEN FOR YOU TO YOUR SPECIFICATIONS.\u003cbr\u003e\n\u003c/strong\u003e\n\u003cp\u003ePlus: access to something very secret. So secret that elsewhere I might not even release it under my name. You\u0027ve earned that much.\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": [
+      "306621210953908225"
+     ],
+     "edited_at": "2017-04-10T11:34:15.880627+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2015-09-05T15:33:18+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "are you an insane person",
+     "unpublished_at": null,
+     "url": "/bePatron?c=74206\u0026rid=294904",
+     "user_limit": null
+    },
+    "id": "294904",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 11,
+     "created_at": "2014-02-14T03:25:59+00:00",
+     "description": "I launch A Song A Week, which is, you know, one song a week, completely exclusive for Patreon patrons. PLUS you get downloads at the 5 dollar tier and up!",
+     "reached_at": "2014-02-14T03:25:59+00:00",
+     "title": ""
+    },
+    "id": "8494",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 44,
+     "created_at": "2015-08-26T04:19:26+00:00",
+     "description": "New public-access stuff at least once a week on my tumblr and here,\u003cem\u003e\u00a0plus \u003c/em\u003ean exclusive Patreon patron wallpaper for download every month.",
+     "reached_at": "2016-06-23T18:17:18+00:00",
+     "title": ""
+    },
+    "id": "229827",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 22,
+     "created_at": "2015-08-26T04:19:26+00:00",
+     "description": "\u003cstrong\u003eAt least one exclusive Patreon comic\u003c/strong\u003e (fully colored or toned, of two pages or more) or song (fully produced/finished/probably with vocals) a month, with downloads for everything at the 5 dollar tier and above.",
+     "reached_at": "2017-04-14T13:03:18+00:00",
+     "title": ""
+    },
+    "id": "229828",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 1,
+     "created_at": "2015-08-27T20:28:59+00:00",
+     "description": "\u003cstrong\u003eRENT IS OFFICIALLY COVERED, WITH UTILITIES. That means I only need to resort to outside work to \u003cem\u003eeat... and pay student loans.\u003c/em\u003e\u00a0Which, you know, means I still need outside work, but rent is absolutely the single biggest obstacle. So expect a page every single week.\u003c/strong\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "231043",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 3,
+     "created_at": "2015-08-27T20:28:59+00:00",
+     "description": "This is enough money for me to do a webcomic part-time as a job \u003cstrong\u003e\u003cstrong\u003ewith at least one update every other week week, or about two/three pages a month. \u003c/strong\u003e\u003c/strong\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "231044",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 0,
+     "created_at": "2016-06-23T08:32:07+00:00",
+     "description": "I\u0027m no longer living under the poverty line! I\u0027m living \u003cem\u003eat \u003c/em\u003ethe poverty line! But I\u0027m stable. I have enough money coming in from you guys that I don\u0027t need \u003cem\u003eany \u003c/em\u003eother work. Three pages every single week, plus the leeway to work on everything else I want to do (streaming, games, etc, etc). Expect a lot more from me!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "462748",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 120000,
+     "completed_percentage": 0,
+     "created_at": "2016-06-23T08:32:07+00:00",
+     "description": "This covers rent, student loans, and gives me \u003cem\u003esome \u003c/em\u003ewiggle room for food. Not a lot, but not bad, either. Bump it up to two pages a week! I can kind of live off this? It\u0027s shaky, but doable! Things might get scary but I\u0027ll possibly be able to make do with this?",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "462749",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/74206"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "820831b3-1ea4-4591-9913-d50fab03e679",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "RJ Lake is creating music, comics, animations, illustrations, and games"
+});
+    </script>

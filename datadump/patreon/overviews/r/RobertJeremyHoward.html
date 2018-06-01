@@ -1,0 +1,591 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "DwNC_VWES5DZ36RVadbuP3tmuXFsgxTCW9uoImSJ1YI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "653638",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/653638"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-10-23T15:47:12+00:00",
+    "creation_name": "Books and Stuff!",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/578792/1631e388593f4b47a9a4a7c4558b499c?token-time=2145916800\u0026token-hash=rS_3piaNbkbBdkmEXDtLejX2uLl3N3XJnhUZn1ffH5g%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/578792/1631e388593f4b47a9a4a7c4558b499c?token-time=2145916800\u0026token-hash=lSP3dekvH0Vx-o5t-NumVLDYFIjgWGUXm-NzW2NynGo%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/yVFJaXfq_kw\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "http://youtu.be/yVFJaXfq_kw",
+    "one_liner": null,
+    "patron_count": 6,
+    "pay_per_name": "month",
+    "pledge_sum": 2218,
+    "pledge_url": "/bePatron?c=578792",
+    "published_at": "2017-12-04T01:10:50+00:00",
+    "summary": "If you\u0027ve made it this far in our journey together, I already owe you a lot. Y\u0027all have been charging me up, giving me the determination to proceed with boldness.\u003cbr\u003e\u003cbr\u003eI\u0027ve found the Kingdom of Kyrn\u0027reth. It\u0027s been in my head for Pelor knows how long. Every time I look to it now, it seems like it\u0027s just waiting to tell me something new. I\u0027m so excited to record its\u00a0 history, to find out where it\u0027s going, and to take you on that journey with me.\u003cbr\u003e\u003cbr\u003eLet\u0027s get going!"
+   },
+   "id": "578792",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4285721",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4285721"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "595698",
+       "type": "goal"
+      },
+      {
+       "id": "1039651",
+       "type": "goal"
+      },
+      {
+       "id": "1039652",
+       "type": "goal"
+      },
+      {
+       "id": "1039653",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-578792",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-578792"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2113450",
+       "type": "reward"
+      },
+      {
+       "id": "2113931",
+       "type": "reward"
+      },
+      {
+       "id": "2174912",
+       "type": "reward"
+      },
+      {
+       "id": "2174952",
+       "type": "reward"
+      },
+      {
+       "id": "2174985",
+       "type": "reward"
+      },
+      {
+       "id": "2174998",
+       "type": "reward"
+      },
+      {
+       "id": "2175009",
+       "type": "reward"
+      },
+      {
+       "id": "2175033",
+       "type": "reward"
+      },
+      {
+       "id": "2175056",
+       "type": "reward"
+      },
+      {
+       "id": "2189711",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Never been so happy to be so scared of the future.\u003cbr\u003e\u003cbr\u003eLet\u0027s make some magic.\u003cbr\u003e",
+     "created": "2016-10-23T10:38:47+00:00",
+     "facebook": "https://www.facebook.com/robertjeremyhoward",
+     "first_name": "Robert",
+     "full_name": "Robert Jeremy Howard",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/4285721/ca633ddda31149ba9be7ae09f469d933?token-time=2145916800\u0026token-hash=gcHIWH0isLVFAoi-PxPV4ONn2EU-hmwAt8KXhB_tlB4%3D",
+     "last_name": "Jeremy Howard",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4285721/ca633ddda31149ba9be7ae09f469d933?token-time=2145916800\u0026token-hash=iyxsJWa7fZepu8Sk3UrM14DS6d6Kw-ngKLARCUlNiBs%3D",
+     "twitch": null,
+     "twitter": "RJeremyHoward",
+     "url": "https://www.patreon.com/RobertJeremyHoward",
+     "vanity": "RobertJeremyHoward",
+     "youtube": "https://www.youtube.com/RJeremyHoward"
+    },
+    "id": "4285721",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "578792",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/578792"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 12,
+     "upgrade_url": "/bePatron?c=578792\u0026rid=2113931"
+    },
+    "id": "post-aggregation-for-0-578792",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-10-30T11:34:30.121233+00:00",
+     "description": "This is the beginning. This is the core of the corps. You makes life a little less hard while I create worlds I hope you\u0027ll love.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThe only reward I can afford you at this tier is my personal gratitude and acknowledgement that, in fact, I\u0027d be lost without you.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAnd, literally, I would.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-27T12:03:22.076394+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-27T12:03:22.054027+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Eldritch Blast",
+     "unpublished_at": null,
+     "url": "/bePatron?c=578792\u0026rid=2113450",
+     "user_limit": null
+    },
+    "id": "2113450",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-10-30T16:27:13.916940+00:00",
+     "description": "You\u0027re actually putting out a little more for me. Like a whole gallon of gas, or some pens to keep writing.\u003cbr\u003e\n\u003cbr\u003e\nYou give me strength, so I give you access to my personal updates on the progress I\u0027m making. This will start being my go-to blogosphere for the journey of my books, and you shall be the first to get to tell me what crap they are. You will see everything from achievements to writer\u0027s blocks to character ideas and story hooks.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYes, you can comment, dismiss, add, or just enjoy.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAnd also yes, I\u0027ll take them all under serious consideration.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-27T12:06:05.769868+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": 9,
+     "published": true,
+     "published_at": "2017-11-27T12:06:05.745351+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Witch Bolt",
+     "unpublished_at": null,
+     "url": "/bePatron?c=578792\u0026rid=2113931",
+     "user_limit": null
+    },
+    "id": "2113931",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 600,
+     "amount_cents": 600,
+     "created_at": "2017-11-27T13:23:36.314575+00:00",
+     "description": "This is where we get real power started. You\u0027re committing a foot-long combo to me, so I\u0027ll give you a mile.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIn addition to all lower tiers, you get to look in on my personal Google Doc for a detailed World Bible of the current work. You can even suggest character and story direction, spells, tech, boosts, nerfs, or just tell me how wonderful my beautiful mind is.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eI prefer the critique, though. My ego has its own power source. We\u0027re working here.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-03T21:40:21.102656+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-12-03T21:40:21.049992+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Shatter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=578792\u0026rid=2174912",
+     "user_limit": null
+    },
+    "id": "2174912",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-27T13:55:41.668835+00:00",
+     "description": "This is your window into my demiplane.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eBeyond just the 3rd level, I will conduct monthly live video updates and short brainstorming sessions. You folks will get to hold me to the fire, Q my face for A\u0027s, and probably get to see my cute kids attempting to get some attention in the process.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027re also getting an e-copy of whatever book is coming out or just published at the time of your Patronage. If I\u0027ve announced one is upcoming, you get it early access*.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*Must be a patron at the time of announced early access release.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-04T00:06:43.130126+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-04T00:06:43.103611+00:00",
+     "remaining": 100,
+     "requires_shipping": false,
+     "title": "Banishment",
+     "unpublished_at": null,
+     "url": "/bePatron?c=578792\u0026rid=2174952",
+     "user_limit": 100
+    },
+    "id": "2174952",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-11-27T14:14:53.827909+00:00",
+     "description": "Who are you, kind stranger? What do you wish of me?\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIf you think I\u0027m not willing to hug you at this point, you\u0027d be wrong. If that isn\u0027t possible (and even if it is), you will see yourself in the back of whatever book I\u0027m on, specifically named in the Special Thanks as one of the Core Corps for which I would be destitute without.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAdditionally, you get to record a tailored voicemail of me **one time only**. You script it, I script it, me alone, bantering with you, whatever. As long as we don\u0027t make sex noises or swear, I\u0027m down for most forms of humor/seriousness/weirdness. I reserve the right to refuse things at my own discretion.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-03T23:24:25.743988+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-03T23:24:25.712050+00:00",
+     "remaining": 50,
+     "requires_shipping": false,
+     "title": "Contact Other Plane",
+     "unpublished_at": null,
+     "url": "/bePatron?c=578792\u0026rid=2174985",
+     "user_limit": 50
+    },
+    "id": "2174985",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2017-11-27T14:25:42.598567+00:00",
+     "description": "What in Hades\u0027 blue hair has gotten into you? I\u0027m too flattered for words.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou get named in the dedication of whatever book I\u0027m working on at the time. You know, you might get a character named after you. I don\u0027t know. I don\u0027t know what to do for someone with such faith in me.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAt least, you\u0027ll get an e-copy of up to 5 things. If it\u0027s a novel, I wrote it, and I published it online, and you pick it, it\u0027ll be yours. Note: won\u0027t have more than 5 things for a while, so the choices will be limited.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-03T23:23:01.307005+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-03T23:23:01.286192+00:00",
+     "remaining": 50,
+     "requires_shipping": true,
+     "title": "True Seeing",
+     "unpublished_at": null,
+     "url": "/bePatron?c=578792\u0026rid=2174998",
+     "user_limit": 50
+    },
+    "id": "2174998",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7000,
+     "amount_cents": 7000,
+     "created_at": "2017-11-27T14:38:22.108507+00:00",
+     "description": "I\u0027ll hand write you a thank you card and mail it anywhere in the world. At least once a year, probably more. Not a clever Hallmark card, mind you. Something thoughtful.\u003cbr\u003e\n\u003cbr\u003e\nYou get full first five chapters access via Google Docs to whatever book I\u0027m currently on. Full text. And you can leave me love/hate notes on it.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAnd, of course, all the other stuff before this tier.\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-03T23:47:05.483934+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-03T23:47:05.462160+00:00",
+     "remaining": 50,
+     "requires_shipping": true,
+     "title": "Plane Shift",
+     "unpublished_at": null,
+     "url": "/bePatron?c=578792\u0026rid=2175009",
+     "user_limit": 50
+    },
+    "id": "2175009",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-11-27T14:52:45.083259+00:00",
+     "description": "How? What? Who?\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll get a hand signed (possibly handwritten) letter once a month detailing the happenings of yours truly and what\u0027s going on with current work, publicity, the struggle, my leaky brainpan, etc.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIn addition to your Plane Shift tier thank you note, \u00a0if there\u0027s a physical paper copy of a book and your name is in it (thanks, character, dedication), I will sign it and send it with your thank you card. Limit one at a time.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll other things hitherto promised, as well.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-03T23:49:15.825281+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-03T23:49:15.797891+00:00",
+     "remaining": 25,
+     "requires_shipping": true,
+     "title": "Power Word Stun",
+     "unpublished_at": null,
+     "url": "/bePatron?c=578792\u0026rid=2175033",
+     "user_limit": 25
+    },
+    "id": "2175033",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2017-11-27T15:13:35.038122+00:00",
+     "description": "You are, honestly, wasting your money on me. I have nothing else to give.\u003cbr\u003e\n\u003cbr\u003e\nMerch, perhaps? Oh my Kord, we\u0027ve gotta get some merch...\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYeah, we\u0027ll have a small-ish swag box fly out to you monthly with your letter from Power Word Stun tier. New stuff, maybe some old stuff. Stickers, books, posters, maybe some of my wife\u0027s (unused) Younique makeup...\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eI don\u0027t know. I don\u0027t foresee anyone being so crazy as to just throw this kind of money at me on the regular, so I don\u0027t have a single iota of what else to give you.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThis one\u0027s for the upper North American\u0027s exclusively. Not discriminating for lack of love. U.S. and territories/Canada shipping is just way, way easier than to the rest of the world.\u003c/p\u003e\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cp\u003eAll other things hitherto promised, as well.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eALL MY LOVE!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-03T23:52:16.721525+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-03T23:52:16.700652+00:00",
+     "remaining": 25,
+     "requires_shipping": true,
+     "title": "True Polymorph",
+     "unpublished_at": null,
+     "url": "/bePatron?c=578792\u0026rid=2175056",
+     "user_limit": 25
+    },
+    "id": "2175056",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2017-12-03T22:52:48.823061+00:00",
+     "description": "Seriously? Why? I didn\u0027t even know what to put for True Polymorph tier, so I sure as Asmodeus\u0027 spiked sphincter don\u0027t know what to put here.\u003cbr\u003e\n\u003cbr\u003e\nI mean, I\u0027ll send your True Polymorph tier stuff anywhere in the world for this. All the things I\u0027ve talked about previously. Everything signed. Obviously.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou definitely get to make one character for me. I mean, I get to say \"No!\" if you\u0027re going full \"Boaty McBoatface\" on me. But character, class, backstory, I\u0027ll personally Hangouts with you and crank one out and into the mix. It might not be the current work, it might not be the main character, but it will be used. And I\u0027ll write you your own personal short story about them.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThat\u0027s why there\u0027s only 4 spots open.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eWhat else?\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eOh! I\u0027ll DM a customized D\u0026amp;D 5e game for you and your friends once a month! Might be an altered module, might be completely homebrewed. I\u0027ll let you help decide that.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eMax 6 players. I\u0027m just one guy. Gimme a break.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eRoll20 for maps and rolling, Discord for chats. Unless you\u0027re somewhere within a 3-or-so hour drive of Bellingham, WA. I\u0027ll come to your house, bring snacks and caffeine, and we\u0027ll roll dice in person. Until I get a passport, this precludes Canada. But we can meet in Blaine for food/ice cream and gaming!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAlso why there\u0027s only 4 spots open.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-04T00:00:01.582028+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-04T00:00:01.558982+00:00",
+     "remaining": 4,
+     "requires_shipping": true,
+     "title": "Blessing of the Dawnfather",
+     "unpublished_at": null,
+     "url": "/bePatron?c=578792\u0026rid=2189711",
+     "user_limit": 4
+    },
+    "id": "2189711",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 4,
+     "created_at": "2016-10-29T12:14:59+00:00",
+     "description": "This will make me a part-time writer. I\u0027ll be able to do less things at my hourly job and devote much more time to you and the endeavor of writing.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "595698",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 1,
+     "created_at": "2017-12-04T00:22:22+00:00",
+     "description": "I will quit my day job and do nothing but create for you every. single. day.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1039651",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 0,
+     "created_at": "2017-12-04T00:22:22+00:00",
+     "description": "Daily blogging. It\u0027ll be character intros, writing tips, the gravy dripping off my overcooked brain... something. Anything. Daily.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1039652",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 0,
+     "created_at": "2017-12-04T00:22:22+00:00",
+     "description": "Weekly vlogging.\u00a0It\u0027ll be character intros, writing tips, the ramblings of a lunatic given license to ill... something. Anything. Weekly.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1039653",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/578792"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "8c92db21-6960-432a-ada0-6299257b5724",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Robert Jeremy Howard is creating Books and Stuff!"
+});
+    </script>

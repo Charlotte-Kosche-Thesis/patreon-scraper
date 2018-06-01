@@ -1,0 +1,527 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "DcxjkhbISH-ZRNunmFmX4GvP_34wkGEQma0iEbqjUIY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "567287",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/567287"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-08-15T20:19:17+00:00",
+    "creation_name": "a comedy podcast with Top 10 lists covering all topics",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1165625/48602ed327c04a168dae6cd283d11f57?token-time=2145916800\u0026token-hash=OZOsbQ6rVt5_gKxopO_NAiBj3gpeEqO4CnkYyvvm8jE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1165625/48602ed327c04a168dae6cd283d11f57?token-time=2145916800\u0026token-hash=m2trZqtoF7WfPKQuP5ohHSiG5lUngLBxTZouK3kb3Oo%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/K5rQSolSKts\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/K5rQSolSKts",
+    "one_liner": null,
+    "patron_count": 11,
+    "pay_per_name": "month",
+    "pledge_sum": 22566,
+    "pledge_url": "/bePatron?c=1165625",
+    "published_at": "2017-09-04T20:33:22+00:00",
+    "summary": "\"You\u0027re On The List\" \u00a0(or YOTL) is a podcast featuring comedians Bret Ernst and Pete Giovine. \u00a0Each week, the guys create a Top 10 list based on any given topic. The show is recorded in the basement studio of the World Famous Comedy Store in Hollywood, CA. YOTL has been in existence for 3 years, has a loyal fan base, and prides itself on listener interactions. We thank all of our listeners for spreading the word about this show and send big shout outs to all of our new patrons! \u00a0"
+   },
+   "id": "1165625",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7323885",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7323885"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "949217",
+       "type": "goal"
+      },
+      {
+       "id": "949223",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1165625",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1165625"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1985086",
+       "type": "reward"
+      },
+      {
+       "id": "1956014",
+       "type": "reward"
+      },
+      {
+       "id": "1956017",
+       "type": "reward"
+      },
+      {
+       "id": "1956019",
+       "type": "reward"
+      },
+      {
+       "id": "1956016",
+       "type": "reward"
+      },
+      {
+       "id": "1956020",
+       "type": "reward"
+      },
+      {
+       "id": "1956018",
+       "type": "reward"
+      },
+      {
+       "id": "1956030",
+       "type": "reward"
+      },
+      {
+       "id": "1956031",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-08-15T20:18:37+00:00",
+     "facebook": "https://www.facebook.com/YOTLpodcast",
+     "first_name": "You\u0027re",
+     "full_name": "You\u0027re On The List",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7323885/a6b1b8391ed64cc59b53dade0723bf68?token-time=2145916800\u0026token-hash=fv9Xv0HrlPVtw_zA-YomHfNpkS711XRFNUNWwQtTPzc%3D",
+     "last_name": "On The List",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7323885/a6b1b8391ed64cc59b53dade0723bf68?token-time=2145916800\u0026token-hash=fG0FKokLM5FenCXvmtA4TjeZVlyANE0EoVDn354B2cw%3D",
+     "twitch": null,
+     "twitter": "YOTLpodcast",
+     "url": "https://www.patreon.com/YOTL",
+     "vanity": "YOTL",
+     "youtube": null
+    },
+    "id": "7323885",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1165625",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1165625"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 8,
+     "upgrade_url": "/bePatron?c=1165625\u0026rid=1985086"
+    },
+    "id": "post-aggregation-for-0-1165625",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-09-06T23:52:59.144084+00:00",
+     "description": "\u003cdiv\u003eA buck a month gets you our endless gratitude for your support. It means a lot and we really appreciate you!\u00a0\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-07T01:50:42.843704+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-06T23:52:59.144084+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "I\u0027m just tryin\u0027 to get in...",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1165625\u0026rid=1985086",
+     "user_limit": null
+    },
+    "id": "1985086",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2017-08-26T21:41:55.834389+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003cli\u003eOur endless gratitude for your support\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-04T20:26:03.445722+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-26T21:41:55.834389+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "I should be on the list...",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1165625\u0026rid=1956014",
+     "user_limit": null
+    },
+    "id": "1956014",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 600,
+     "amount_cents": 600,
+     "created_at": "2017-08-26T21:41:55.845829+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eSneak peek photos of upcoming releases\u003c/li\u003e\u003cli\u003eOur endless gratitude for your support\u00a0\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-04T20:26:03.467682+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-26T21:41:55.845829+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Door guy knows me...",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1165625\u0026rid=1956017",
+     "user_limit": null
+    },
+    "id": "1956017",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-08-26T21:41:55.843396+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePatron only behind the scenes videos of the podcast, backstage at shows, and clips from the road\u003c/li\u003e\u003cli\u003eOur endless gratitude for your support\u00a0\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-06T23:54:21.269653+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-26T21:41:55.843396+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "I\u0027m with the DJ...",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1165625\u0026rid=1956019",
+     "user_limit": null
+    },
+    "id": "1956019",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-08-26T21:41:55.833483+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eMonthly patron-only livestream hanging out with comics in the Comedy Store parking lot\u003c/li\u003e\u003cli\u003eOur endless gratitude for your support\u00a0\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-04T20:26:03.467003+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-26T21:41:55.833483+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "VIP",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1165625\u0026rid=1956016",
+     "user_limit": null
+    },
+    "id": "1956016",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-08-26T21:41:55.862838+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eA free ticket to Bret Ernst or Pete Giovine stand-up show of your choice each month\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-04T20:21:49.085735+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-26T21:41:55.862838+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mezzanine ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1165625\u0026rid=1956020",
+     "user_limit": null
+    },
+    "id": "1956020",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-26T21:41:55.841981+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e\"Call Your Moms\" YOTL t-shirt\u003c/li\u003e\u003cli\u003eFree tickets for you and a guest at any Bret Ernst or Pete Giovine stand-up show of your choice each month\u003c/li\u003e\u003cli\u003eOur endless gratitude for your support\u00a0\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-04T20:26:03.469255+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-26T21:41:55.841981+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "In the DJ booth",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1165625\u0026rid=1956018",
+     "user_limit": null
+    },
+    "id": "1956018",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-08-26T21:48:59.745554+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePete as Sebastian calls you in character for five minutes every month or leaves you a voicemail as Sebastian\u003c/li\u003e\u003cli\u003eFree tickets for four at any Bret Ernst or Pete Giovine standup show of your choice each month\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-04T20:21:49.095625+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-26T21:48:59.745554+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Owners Table",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1165625\u0026rid=1956030",
+     "user_limit": null
+    },
+    "id": "1956030",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-26T21:48:59.748991+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eWeekly shout-out on the podcast\u003c/li\u003e\u003cli\u003eWe will plug any product, business, or whim you desire\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-04T20:26:03.478933+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-26T21:48:59.748991+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "I\u0027ll kill everybody...",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1165625\u0026rid=1956031",
+     "user_limit": null
+    },
+    "id": "1956031",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 11,
+     "created_at": "2017-08-29T00:12:07+00:00",
+     "description": "We are currently trying to work with a company that specializes in growing podcasts. The retainer is more than we planned on so we will need your help to take that leap. This goal would have Pete and Bret somewhat covered on the cost of professionals working on a marketing strategy, sponsorship development, and creative assets that will add to the podcast experience. This goal would also help cover expenses for bandwidth, equipment, and recording costs. \u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "949217",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-29T00:16:08+00:00",
+     "description": "Dude. We will go nuts. If we reach this goal, we will go clubbing with our listeners every night. Bottles and models. VIP. Everybody will be blacked out. Totally regretful behavior and lawsuits will ensue. Just a nightmare.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "949223",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1165625"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "b190d2b6-f655-489c-b802-ec9086c696bb",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "You\u0027re On The List is creating a comedy podcast with Top 10 lists covering all topics"
+});
+    </script>

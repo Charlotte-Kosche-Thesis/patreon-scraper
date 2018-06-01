@@ -1,0 +1,356 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "BnRkG5etOVgfYpeA56exqUtktOGdqlgrFs49SKLEHNo";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "681294",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/681294"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-12-20T14:24:32+00:00",
+    "creation_name": "YouTube videos covering Digital Forensics and Pen Testing.",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI1IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1409377/00ab222fcbcd48c7a67eb8ff7a18f59f?token-time=2145916800\u0026token-hash=UAu6-sXgWyzXPRw2vw_t2N0Mq-vdHVfvUwWmS5DYPes%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNSJ9/patreon-media/campaign/1409377/00ab222fcbcd48c7a67eb8ff7a18f59f?token-time=2145916800\u0026token-hash=PAx0ZWZJcz4pYGE9JPrD35lGSue6HTZFbQCXGfOadOc%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 9,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1409377",
+    "published_at": "2017-12-20T16:02:36+00:00",
+    "summary": null
+   },
+   "id": "1409377",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5362068",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5362068"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1054356",
+       "type": "goal"
+      },
+      {
+       "id": "1054357",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1409377",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1409377"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2226216",
+       "type": "reward"
+      },
+      {
+       "id": "2226222",
+       "type": "reward"
+      },
+      {
+       "id": "2226233",
+       "type": "reward"
+      },
+      {
+       "id": "2226238",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "InfoSec nerd, hobbyist coder, lover of all things Star Trek and Sierra On-Line, Linux and Mac fanboy.",
+     "created": "2017-03-17T01:04:20+00:00",
+     "facebook": null,
+     "first_name": "13Cubed",
+     "full_name": "13Cubed",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMTAiLCJ3IjoyMDB9/patreon-media/user/5362068/3b05acfe69bf438b9d56f68b47ea4caf?token-time=2145916800\u0026token-hash=S9sCqSpV0wUSWgcNF5w2hFdQHgr-2oQApDOfGnCGoV0%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxMCIsInciOjEwMH0%3D/patreon-media/user/5362068/3b05acfe69bf438b9d56f68b47ea4caf?token-time=2145916800\u0026token-hash=-16xAfukxPPNYXxEiuEt3nDUoT1mA4HtWi6Xy1JVV24%3D",
+     "twitch": null,
+     "twitter": "davisrichardg",
+     "url": "https://www.patreon.com/13cubed",
+     "vanity": "13cubed",
+     "youtube": "https://www.youtube.com/13cubed"
+    },
+    "id": "5362068",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1409377",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1409377"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 2,
+     "upgrade_url": "/bePatron?c=1409377\u0026rid=2226216"
+    },
+    "id": "post-aggregation-for-0-1409377",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-12-20T16:29:43.385946+00:00",
+     "description": "You will get early access to my videos, sometimes weeks in advance!",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-20T16:29:43.385946+00:00",
+     "image_url": null,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-12-20T16:29:43.385946+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $2 or more per month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1409377\u0026rid=2226216"
+    },
+    "id": "2226216",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-12-20T16:31:26.675049+00:00",
+     "description": "You will get everything from the previous rewards tier, plus 13Cubed vinyl die cut stickers of the 13Cubed logo (perfect for your laptop).",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-25T14:37:46.632462+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2226222/338dacf8700d4bc088d3b7efcda1e092?token-time=2145916800\u0026token-hash=F2HODmo7X2h-XANYiiyPVW-cCGzC3esTZFMBDYNmM1o%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-25T14:37:46.597812+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Pledge $5 or more per month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1409377\u0026rid=2226222"
+    },
+    "id": "2226222",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-12-20T16:37:11.681017+00:00",
+     "description": "You will get everything from the previous rewards tier, plus a 13Cubed Digital Forensics t-shirt (currently being designed -- please allow a couple of weeks for delivery).",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-20T16:37:11.681017+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-20T16:37:11.681017+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Pledge $15 or more per month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1409377\u0026rid=2226233"
+    },
+    "id": "2226233",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-12-20T16:40:23.709017+00:00",
+     "description": "Wow, thank you! Obviously, you\u0027ll get everything from the previous rewards tier, plus my sincere gratitude. I have nothing else to offer at this level yet, but suggestions are welcome.",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-20T16:40:23.709017+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-20T16:40:23.709017+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Pledge $30 or more per month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1409377\u0026rid=2226238"
+    },
+    "id": "2226238",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 24,
+     "created_at": "2017-12-20T16:46:30+00:00",
+     "description": "This will cover the cost of Adobe Creative Suite, as well as help cover some of the cost for 13Cubed swag!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1054356",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 4,
+     "created_at": "2017-12-20T16:46:30+00:00",
+     "description": "Oooh... more 13Cubed swag! Perhaps some nice polo shirts with embroidered logos and other cool stuff.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1054357",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1409377"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e9b8e539-1391-42af-988d-19df511eb4fa",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "13Cubed is creating YouTube videos covering Digital Forensics and Pen Testing."
+});
+    </script>

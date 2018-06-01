@@ -1,0 +1,687 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "kU3ulhK4e0DWyi5ndbyPDsYdElDRKGErgfcvAiPS6iw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "190298",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/190298"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-07-13T21:21:34+00:00",
+    "creation_name": "several tabletop games for your enjoyment!",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/426898/88f5da52754c42d9b8612d0f88685d93?token-time=2145916800\u0026token-hash=YNlOLzwNsGMgt-4KmtWKpK6UIRm5p3Ka_xYUCw6V4rk%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/426898/88f5da52754c42d9b8612d0f88685d93?token-time=2145916800\u0026token-hash=jv_bJ7f59N4IgwKt2WM5Q0ic8460WZCISzdrBuXDNcQ%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 11,
+    "pay_per_name": "month",
+    "pledge_sum": 11109,
+    "pledge_url": "/bePatron?c=426898",
+    "published_at": "2016-07-14T01:11:44+00:00",
+    "summary": "I am building and tweaking several different tabletop RPGs and party games, but between working on my degree and real life, it\u0027s hard to devote as much time to my game development as I\u0027d like!\u003cbr\u003e\u003cbr\u003eFunding me here allows me to spend less time worrying about other work and sales, and to devote more time to getting my various games developed so that you all can enjoy them at their maximum potential!\u003cbr\u003e\u003cbr\u003eAlso, thank all of you super-epic people out there who DO support my endeavors!\u00a0 You guys have been helping me literally make my dreams come true, and it humbles me to know that others are truly enjoying the work I\u0027ve been doing to make my imaginings come to life!\u003cbr\u003e"
+   },
+   "id": "426898",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "827382",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/827382"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "482009",
+       "type": "goal"
+      },
+      {
+       "id": "482010",
+       "type": "goal"
+      },
+      {
+       "id": "482011",
+       "type": "goal"
+      },
+      {
+       "id": "482012",
+       "type": "goal"
+      },
+      {
+       "id": "482013",
+       "type": "goal"
+      },
+      {
+       "id": "482014",
+       "type": "goal"
+      },
+      {
+       "id": "482015",
+       "type": "goal"
+      },
+      {
+       "id": "482171",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-426898",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-426898"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "617808",
+       "type": "reward"
+      },
+      {
+       "id": "617809",
+       "type": "reward"
+      },
+      {
+       "id": "617810",
+       "type": "reward"
+      },
+      {
+       "id": "617811",
+       "type": "reward"
+      },
+      {
+       "id": "2192496",
+       "type": "reward"
+      },
+      {
+       "id": "617812",
+       "type": "reward"
+      },
+      {
+       "id": "617813",
+       "type": "reward"
+      },
+      {
+       "id": "617814",
+       "type": "reward"
+      },
+      {
+       "id": "617815",
+       "type": "reward"
+      },
+      {
+       "id": "617816",
+       "type": "reward"
+      },
+      {
+       "id": "617817",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Tabletop game enthusiast, player and creator!\u00a0 I love building and sharing my systems with all whom shall enjoy it!\u00a0 I am also an Ordained ArchDruid who loves Nature and all of the flora and fauna within it, real or fantastic!\u003cbr\u003e",
+     "created": "2015-06-08T20:56:44+00:00",
+     "facebook": null,
+     "first_name": "SteelTheWarrior",
+     "full_name": "SteelTheWarrior",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/827382/a0167d84a32d4ddaba864d85b4c4510d?token-time=2145916800\u0026token-hash=lHdkVJScbdh7ql-Ac0c3iVQA0WlbyYmiIKM3MErB2IY%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/827382/a0167d84a32d4ddaba864d85b4c4510d?token-time=2145916800\u0026token-hash=mct15D734kZ13Q4aOobUJCJuFrSUm1pIIITOAB-hZRE%3D",
+     "twitch": null,
+     "twitter": "SteelTheWarrior",
+     "url": "https://www.patreon.com/SteelTheWarrior",
+     "vanity": "SteelTheWarrior",
+     "youtube": null
+    },
+    "id": "827382",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "426898",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/426898"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 5,
+     "upgrade_url": "/bePatron?c=426898\u0026rid=617809"
+    },
+    "id": "post-aggregation-for-0-426898",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-08-22T18:28:00+00:00",
+     "description": "\u003cstrong\u003eBasic Tier:\u003c/strong\u003e\u003cbr\u003e\nA whole-hearted \"Thank you!\", along with access to the basic feed.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAwwww! \u00a0You\u0027re so sweet!\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-12T00:43:37.225270+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-12T00:43:37.200266+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Basic",
+     "unpublished_at": null,
+     "url": "/bePatron?c=426898\u0026rid=617808",
+     "user_limit": null
+    },
+    "id": "617808",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-08-22T18:28:00+00:00",
+     "description": "\u003cstrong\u003e+1 Tier:\u003c/strong\u003e\u003cbr\u003e\nAll of the above perks, along with extra tidbits of stuff sprinkled in, including access to my Patron-only feed, and access to participate in give-aways and other contests!\u003cbr\u003e\n\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027re great!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-12T00:32:52.991336+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-12T00:32:52.948505+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "+1",
+     "unpublished_at": null,
+     "url": "/bePatron?c=426898\u0026rid=617809",
+     "user_limit": null
+    },
+    "id": "617809",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-08-22T18:28:00+00:00",
+     "description": "\u003cstrong\u003e+2 Tier:\u003c/strong\u003e\u003cbr\u003e\nAll of the above perks, plus access to the Dropbox folder where I keep lots of information about my various systems, like character sheets and game mechanics.\u003cbr\u003e\n\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027re wonderful!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-12T00:36:53.019587+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-12T00:36:52.991877+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "+2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=426898\u0026rid=617810",
+     "user_limit": null
+    },
+    "id": "617810",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-08-22T18:28:00+00:00",
+     "description": "\u003cstrong\u003e+3 Tier:\u003c/strong\u003e\u003cbr\u003e\nAll of the above perks, plus you get added to the on-call list as a potential fill-in that Sponsor and Super Sponsor tiers haven\u0027t filled, in the many games I run online.\u003cbr\u003e\n\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou are truly amazing!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-26T08:33:07.631465+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-26T08:33:07.624938+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "+3",
+     "unpublished_at": null,
+     "url": "/bePatron?c=426898\u0026rid=617811",
+     "user_limit": null
+    },
+    "id": "617811",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-12-05T00:00:09.009632+00:00",
+     "description": "+4 Tier\n\u003cp\u003eAll of the above perks, plus you get access to the Super Special chats on my Discord channel where we can talk about every aspect of the games, and even make requests and participate in my game-building thought processes.\u00a0 Plus, you get your name listed in the d4 section of the Patreon Support credits.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou are an inspiration!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-26T08:32:59.809390+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-26T08:32:59.800311+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "+4",
+     "unpublished_at": null,
+     "url": "/bePatron?c=426898\u0026rid=2192496",
+     "user_limit": null
+    },
+    "id": "2192496",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-08-22T18:28:00+00:00",
+     "description": "\u003cstrong\u003e+5 Tier:\u003c/strong\u003e\u003cbr\u003e\nAll of the above perks, plus an invitation to actively participate in monthly Q\u0026amp;A sessions where I will dole out tips and tricks for playing, writing, worldbuilding or GMing tabletop RPGs, AND your name mentioned in the d6 Patreon Support credits!\u003cbr\u003e\n\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou are a truly generous and wonderful person!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-05T00:00:48.778056+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-05T00:00:48.757819+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "+5",
+     "unpublished_at": null,
+     "url": "/bePatron?c=426898\u0026rid=617812",
+     "user_limit": null
+    },
+    "id": "617812",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-08-22T18:28:00+00:00",
+     "description": "\u003cstrong\u003eSponsor Tier:\u003cbr\u003e\n\u003c/strong\u003eAll of the above perks, plus you are now a Sponsor, so you get priority seating once a month, for one of my many games I run online.\u00a0 Plus, you get your name listed in the d8 Patreon Support credits.\u003cbr\u003e\n\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYour sponsorship shall arm us to be ready for adventure!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-12T00:41:34.373361+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-12T00:41:34.350400+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=426898\u0026rid=617813",
+     "user_limit": null
+    },
+    "id": "617813",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2016-08-22T18:28:00+00:00",
+     "description": "\u003cstrong\u003eSuper Sponsor Tier:\u003c/strong\u003e\u003cbr\u003e\nAll of the above perks, plus you are a Super Sponsor, which gives you priority seating in all of my games I run online!\u00a0 Plus, you get your name listed in the d10 Patreon Support credits.\u003cbr\u003e\n\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYour superb sponsorship shall guide us to safety!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-12T00:41:02.661966+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-12T00:41:02.643141+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Super Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=426898\u0026rid=617814",
+     "user_limit": null
+    },
+    "id": "617814",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 30000,
+     "amount_cents": 30000,
+     "created_at": "2016-08-22T18:28:00+00:00",
+     "description": "\u003cstrong\u003eEpic Sponsor Tier:\u003c/strong\u003e\u003cbr\u003e\nAll of the above perks, as well as a 1 hour conference each month with me for a personal discussion about gaming in general, either in assistance in making characters, world-building, help on how to be a better GM, or whatever else you can think of, plus you get your name listed in the d12 Patreon Support credits!\u003cbr\u003e\n\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou are truly epic!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-12T00:37:14.558172+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-12T00:37:14.535413+00:00",
+     "remaining": 40,
+     "requires_shipping": false,
+     "title": "Epic Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=426898\u0026rid=617815",
+     "user_limit": 40
+    },
+    "id": "617815",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-08-22T18:28:00+00:00",
+     "description": "\u003cstrong\u003eLegendary Sponsor Tier:\u003c/strong\u003e\u003cbr\u003e\nAll of the above perks, along with TWO personal 4-hour games run just for you (and up to 4 other friends) each month, plus you get your name listed in the d20 Patreon Support credits!\u003cbr\u003e\n\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou are the very stuff of legends!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-12T00:37:41.106499+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-12T00:37:41.082974+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Legendary Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=426898\u0026rid=617816",
+     "user_limit": 10
+    },
+    "id": "617816",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2016-08-22T18:28:00+00:00",
+     "description": "\u003cstrong\u003eDeific Sponsor Tier:\u003c/strong\u003e\u003cbr\u003e\nAll of the above perks, and a character of your creation will be inserted into the important cannon of a game world of your choosing!\u00a0 Also, you get 2 hours a -week- of personal assistance with game design, worldbuilding, tutoring, or just about anything else via online calls, plus you get your name listed in the d100 Patreon Support credits!\u003cbr\u003e\n\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYour deific power and presence humbles us all!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-12T00:40:21.783296+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-12T00:40:21.758465+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Deific Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=426898\u0026rid=617817",
+     "user_limit": 10
+    },
+    "id": "617817",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2016-07-13T21:48:11+00:00",
+     "description": "This is the second step in my journey of trying to replace the need of employment in corporate America.\u00a0 With this, I can afford to upkeep on various game designing supplies!\u003cbr\u003e\u003cstrong\u003eReward:\u003c/strong\u003e Unlocks detailed character creation information for the +2 and higher tiers!\u003cbr\u003e",
+     "reached_at": "2017-11-11T21:31:35+00:00",
+     "title": ""
+    },
+    "id": "482009",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 100,
+     "created_at": "2016-07-13T21:48:11+00:00",
+     "description": "This next step will help me be able to afford commissioning artists to not only add more splash art to the patreon page (to attract more supporters) but also to start cranking out art for the various game systems, in order to start really breathing life into them, from a visual standpoint!\u003cbr\u003e\u003cstrong\u003eReward:\u003c/strong\u003e Unlocks further world details for each universe, as well as hints for character creation and building within the worlds, as well as monthly How-To podcasts!\u003cbr\u003e",
+     "reached_at": "2017-12-19T19:16:34+00:00",
+     "title": ""
+    },
+    "id": "482010",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 44,
+     "created_at": "2016-07-13T21:48:11+00:00",
+     "description": "With this step, I\u0027ll be able to begin paying a decent amount of my current bills, so that I can even further concentrate on game development, and even start working on requests!\u00a0 This will be the first major step to really letting me focus on getting you guys more of the games that you love!\u003cbr\u003e\u003cstrong\u003eReward:\u003c/strong\u003e Unlocks behind-the-scenes videos, clips, and other aspects of the development process of these games, as well as detailed videos for worldbuilding and game design!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "482011",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 22,
+     "created_at": "2016-07-13T21:48:11+00:00",
+     "description": "This step is yet another large step in liberating my time away from worrying about work and sales, so I can further focus on giving you guys the games that you want!\u003cbr\u003e\u003cstrong\u003eReward:\u003c/strong\u003e Unlocks Publication!\u00a0 With this, I\u0027ll finally be able to produce and publish physical materials for at least one of my games that gets the most attention!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "482012",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 11,
+     "created_at": "2016-07-13T21:48:11+00:00",
+     "description": "Now, I can almost work solely on game development, having most of my bills (minus rent) handled!\u003cbr\u003e\u003cstrong\u003eReward:\u003c/strong\u003e I\u0027ll think of a special celebratory-type event I\u0027ll do when we get to this checkpoint!\u00a0 Needless to say, it\u0027s going to be \u003cstrong\u003e\u003cem\u003elegendary!\u003c/em\u003e\u003c/strong\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "482013",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 7,
+     "created_at": "2016-07-13T21:48:11+00:00",
+     "description": "Phew!\u00a0 We finally made it!\u00a0 I can now live without worrying about rent and bills each month!\u00a0 You guys are awesome!\u003cstrong\u003e\u003cbr\u003eReward:\u003c/strong\u003e Personal thank yous sent out to every single one of you awesome people, with various mystery gifts mailed out to each of you based on your tier level!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "482014",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 5,
+     "created_at": "2016-07-13T21:48:11+00:00",
+     "description": "With this, I\u0027ll finally be able to afford to permanently hire on an artist to really start fleshing out all of my games, give them mascots, cool world shots, maps, monsters, NPCs images, terrain detail, and all of the other stuff that I\u0027m not currently thinking of!\u003cbr\u003e\u003cstrong\u003eReward:\u003c/strong\u003e Completion of 4 more systems to publication, and the beginning work on expansions for each game!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "482015",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 100,
+     "created_at": "2016-07-14T01:01:27+00:00",
+     "description": "The first step in my journey of supported game design, this will really help me handle minor expenses as well as when I bring my games to conventions to run them for all of you!\u003cbr\u003e\u003cstrong\u003eReward:\u003c/strong\u003e Unlocks character sheets and general overviews on the mood and atmosphere of each game!\u003cbr\u003e",
+     "reached_at": "2016-07-14T22:41:30+00:00",
+     "title": ""
+    },
+    "id": "482171",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/426898"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "294fe192-db9e-4d8b-9e69-a84a164511ce",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "SteelTheWarrior is creating several tabletop games for your enjoyment!"
+});
+    </script>

@@ -1,0 +1,464 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Lk0xvirFLYmPuOGfRKx0uI4nByYDjqBbe8NjYiLB7w8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "420375",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/420375"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-04-21T05:59:47+00:00",
+    "creation_name": "Tech Reviews and How-To\u0027s (YouTube Videos)",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIzIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/870908/927ff8318fdb44c79c0db4875e823cbe?token-time=2145916800\u0026token-hash=b3YyoWBkSGDmaoC4SIWoem2dYuRlVvRZyVaXUv7080A%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMyJ9/patreon-media/campaign/870908/927ff8318fdb44c79c0db4875e823cbe?token-time=2145916800\u0026token-hash=CWH3OW6XcbDrEwzjX7PbChvvYEMzJEAe24cunX_eAvs%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_sum": 1105,
+    "pledge_url": "/bePatron?c=870908",
+    "published_at": "2017-04-21T06:44:06+00:00",
+    "summary": "Maybe you\u0027re just like me and love tech. Maybe you just enjoy watching my videos and want to help me continue to do so. Perhaps I have helped you in some way.\u00a0\u003cstrong\u003eWhatever the reason is, thank you.\u003c/strong\u003e Thank you for even checking out my page and to even have an interest in what I do. \u003cstrong\u003eYou\u0027re amazing!\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eIf you want to be a part of this crazy thing I started called \"This Is Tech Today,\" you can spread the word, share ideas, or even contribute a few bucks here and there. Every little bit helps and gives me the opportunity to improve the channel, try new things, do more, and hopefully have time to create more videos and start making comprehensive reviews. \u003cstrong\u003eI love helping people out and messing with tech. Thanks for helping me do that!\u003c/strong\u003e"
+   },
+   "id": "870908",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5814618",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5814618"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "800368",
+       "type": "goal"
+      },
+      {
+       "id": "1157870",
+       "type": "goal"
+      },
+      {
+       "id": "1157871",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "84818",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-870908",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-870908"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2465979",
+       "type": "reward"
+      },
+      {
+       "id": "2490667",
+       "type": "reward"
+      },
+      {
+       "id": "1621618",
+       "type": "reward"
+      },
+      {
+       "id": "1621619",
+       "type": "reward"
+      },
+      {
+       "id": "1621620",
+       "type": "reward"
+      },
+      {
+       "id": "2490680",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-04-21T05:59:28+00:00",
+     "facebook": "https://www.facebook.com/thisistechtoday",
+     "first_name": "This",
+     "full_name": "This Is Tech Today",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/5814618/caf3682721b34f1c82da97865ae69b03?token-time=2145916800\u0026token-hash=3l9TmrMGXL2yg8phEDH1AYRjdu-jzXWBLedH2p0ORyY%3D",
+     "last_name": "Is Tech Today",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5814618/caf3682721b34f1c82da97865ae69b03?token-time=2145916800\u0026token-hash=mVMS8C1THIALSnjKYHweYQeMKEdQho1Osyd0EV77N_w%3D",
+     "twitch": null,
+     "twitter": "thisistechtoday",
+     "url": "https://www.patreon.com/thisistechtoday",
+     "vanity": "thisistechtoday",
+     "youtube": "https://www.youtube.com/thisistechtoday"
+    },
+    "id": "5814618",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "870908",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/870908"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 1,
+     "upgrade_url": "/bePatron?c=870908\u0026rid=2465979"
+    },
+    "id": "post-aggregation-for-0-870908",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-03-22T05:34:19.022374+00:00",
+     "description": "If you just want to help out in any way you can and say thanks for as little as a dollar.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T01:27:55.844011+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T01:27:55.837037+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "A Thanks From You!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=870908\u0026rid=2465979",
+     "user_limit": null
+    },
+    "id": "2465979",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 199,
+     "amount_cents": 199,
+     "created_at": "2018-04-01T01:24:24.164329+00:00",
+     "description": "Did you know that you can use your Discover card and if you \u003cstrong\u003eONLY\u003c/strong\u003e spend $1.99 per statement balance and \u003cstrong\u003ethey will credit your account $1.99 as a courtesy fee?\u00a0\u003c/strong\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cu\u003eAs long as you do not spend more than $1.99 per statement, they\u0027ll do this!\u00a0\u003c/u\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIf you wanted to sign up for a Discover Card for normal use or just so you can donate to me, sign up here: \u003ca href=\"http://bit.ly/2pUhce9\" rel=\"nofollow noopener\" target=\"_blank\"\u003ehttp://bit.ly/2pUhce9\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e*Of course, this is at your own risk and it could change at any time, but hey, it still works at the time that I\u0027m writing this!\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T01:45:26.567262+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T01:45:26.556985+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "A Free Donation From You! (See Description)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=870908\u0026rid=2490667",
+     "user_limit": null
+    },
+    "id": "2490667",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-04-21T06:02:54.776272+00:00",
+     "description": "Let\u0027s make it official on social media.\n\u003cul\u003e\n\u003cli\u003eSocial media follow on Twitter or Instagram\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T01:26:57.284940+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1621618/7e6a16f3d4e74d948efac3c0de9e6a32?token-time=2145916800\u0026token-hash=4Y1sgEOGM5js3IZzxr6sVnxNDw1WPjPQeyxMKSgNmPk%3D",
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T01:26:57.277834+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Social Media Follow",
+     "unpublished_at": null,
+     "url": "/bePatron?c=870908\u0026rid=1621618",
+     "user_limit": null
+    },
+    "id": "1621618",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-04-21T06:02:54.972808+00:00",
+     "description": "As a patron, you\u0027ll be recognized for making my work possible.\u003cul\u003e\u003cli\u003eCredits on an upcoming video\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-22T05:32:53.392964+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1621619/3ea580e264ea4ce88f09dba3d5b8674f?token-time=2145916800\u0026token-hash=lzOF6dBwMumLCANwYdbauhfI2x05NitWWHNYv9PyzRA%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-22T05:32:53.384888+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Name In The Credits",
+     "unpublished_at": null,
+     "url": "/bePatron?c=870908\u0026rid=1621619",
+     "user_limit": null
+    },
+    "id": "1621619",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-04-21T06:02:54.971239+00:00",
+     "description": "Join me for a monthly livestream.\n\u003cul\u003e\n\u003cli\u003eMonthly patron-only livestream with you and any other supporters in this tier and above (15-30 Minutes)\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T01:26:12.034453+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1621620/7710aea4cd35416fb837331fcd914023?token-time=2145916800\u0026token-hash=VASHX2qFpAv5BIbweDsR-f_ItpBHAuzkL8FWYfse4fc%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T01:26:12.023142+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Private Livestream",
+     "unpublished_at": null,
+     "url": "/bePatron?c=870908\u0026rid=1621620",
+     "user_limit": null
+    },
+    "id": "1621620",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-04-01T01:30:45.286116+00:00",
+     "description": "If you have idea(s) for a video, we can discuss a possible video that I could make. If your ideas seems like something I can do, once it is made, you\u0027ll have your name in the credits as a contributor!",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T01:30:45.286116+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T01:30:45.286116+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Help Create a Video!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=870908\u0026rid=2490680",
+     "user_limit": null
+    },
+    "id": "2490680",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 0,
+     "created_at": "2017-04-21T06:10:08+00:00",
+     "description": "In order to keep doing what I\u0027m doing and pay the normal everyday bills, I work a full-time job and a part-time job. \u003cbr\u003e\u003cbr\u003e\u003cem\u003eIf I can consistently meet this goal every month, I would be able to quit my part-time job\u00a0\u003cem\u003e(I also have a full-time job)\u003c/em\u003e and in turn, have more time to make videos for you!\u003c/em\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "800368",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 2,
+     "created_at": "2018-04-01T01:37:36+00:00",
+     "description": "Many people have asked me to make more videos or to make comprehensive review videos. I\u0027d love to make those, but they take up a lot of time.\u003cbr\u003e\u003cbr\u003e\u003cem\u003eIf I can consistently meet this goal every month, I wouldn\u0027t have to work as much at my part-time job (I also have a full-time job). I would be able to have more time to make videos for you and start making comprehensive review videos.\u003c/em\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1157870",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 1,
+     "created_at": "2018-04-01T01:37:36+00:00",
+     "description": "I\u0027d love to step up the cinematography of my videos, but setting up a shot in a unique, cinematic way and even doing things with special effects takes up a lot of time.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cem\u003e\u003cem\u003eIf I can consistently meet this goal every month, I wouldn\u0027t have to work as much at my part-time job \u003cem\u003e(I also have a full-time job)\u003c/em\u003e. I would be able to have more time to make videos for you and start making comprehensive review views and more cinematic videos in general!\u003c/em\u003e\u003c/em\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1157871",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-03-22T05:40:50+00:00",
+     "deleted_at": null,
+     "description": "Saving up to upgrade my camera to the new Panasonic GH5. This will help me improve the quality of my videos by going to 4K and provide more creative options. \u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eDid someone say sllooooowwww moooottttiiioooonnnn? #MichaelBay\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eThis would cover 1/4 of the cost.",
+     "goal_text": "Saving up to upgrade my camera to the new Panasonic GH5. This will help me improve the quality of my videos by going to 4K and provide more creative options. \u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eDid someone say sllooooowwww moooottttiiioooonnnn? #MichaelBay\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eThis would cover 1/4 of the cost.",
+     "number_patrons": 161,
+     "reached_at": null
+    },
+    "id": "84818",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/870908"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "cb2e8761-c645-4d1a-ac5e-13de010afd1e",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "This Is Tech Today is creating Tech Reviews and How-To\u0027s (YouTube Videos)"
+});
+    </script>

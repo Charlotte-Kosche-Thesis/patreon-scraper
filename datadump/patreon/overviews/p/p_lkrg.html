@@ -1,0 +1,448 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "A31CGKRxVMpZPQaYSrNchxajSyzkIjuNm9rFXFUYIcM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "724748",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/724748"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-09-29T05:27:40+00:00",
+    "creation_name": "Linux Kernel Runtime Guard (LKRG)",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1244999/7d12db3583054afebc53be7a612105ec?token-time=2145916800\u0026token-hash=JWXdiDaD6vZj51Hb0_7LrpA4kkErY_woPkOL-MNxrEM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1244999/7d12db3583054afebc53be7a612105ec?token-time=2145916800\u0026token-hash=kV-DxT8lSL61vhqy6vfeJk9BIc4Drsnj8jJuTWLde2k%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_sum": 11808,
+    "pledge_url": "/bePatron?c=1244999",
+    "published_at": "2018-01-25T04:21:21+00:00",
+    "summary": "\u003cimg src=\"http://openwall.info/wiki/_media/p_lkrg/p_lkrg.png\"\u003e\u003cbr\u003eThe Linux Kernel Runtime Guard\u00a0is a free and Open Source project distributed primarily in source code form. You can download it and prepare custom build by yourself. \u003cbr\u003e\u003cbr\u003eLKRG\u00a0 protects system by comparing hashes which are calculated from the most important kernel region / sections / structures with the internal database hashes. Additionally, special efforts have been made to individually protect all extensions of the kernel (modules). To make the project fully functional, the module should be initially loaded on a clean system \u2013 e.g. directly after installation or after booting clean system. At this moment it is possible to create a trusted database of hashes.\u003cbr\u003e\u003cbr\u003eThere are two main ideas behind the Linux Kernel Runtime Guard (LKRG):\u003cbr\u003e\u003cul\u003e\u003cli\u003ePrevent unsupported modifications of the Linux kernel \u2013 it forces \u201crules\u201d which need to be followed to develop extensions/extra functionalities for the Linux Operating System. These \u201crules\u201d are an official Linux \u0026lt;abbr\u0026gt;API\u0026lt;/abbr\u0026gt; which must be consumed to provide specific functionality instead of relying on unsupported modifications of running kernel (patching). Patching the kernel has direct impact on the security, system stability and performance. This project was never designed to be a perfect solution (it can be bypassed) and the weaknesses are known but the correct usage may significantly improve security, system stability and performance of the entire \u0026lt;abbr\u0026gt;OS\u0026lt;/abbr\u0026gt; / platform.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e[Beta version]\u003c/strong\u003e Given that LKRG correctly prevents unauthorized modifications, we implemented beta version of Exploit Detection feature with the goal of being able to detect kernel exploitation process.\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003c/ul\u003e\u003cbr\u003eCurrently, we maintain two versions of the LKRG project:\u003cbr\u003e\u003cul\u003e\u003cli\u003ep_lkrg-main - light version of the LKRG project.\u003c/li\u003e\u003cli\u003ep_lkrg-experimental - Experimental version of the LKRG project which fully includes \u201cProtected Features\u201d. This version is more functional but it has some side effects (if tou are interested in experimental branch please read \u201d\u003ca href=\"http://openwall.info/wiki/p_lkrg/Protected_Features\"\u003eProtected Features\u003c/a\u003e\u201d page)\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003eMore information about the project and full documentation can be found here:\u003cbr\u003e\u003ca href=\"http://openwall.info/wiki/p_lkrg/Main\"\u003ehttp://openwall.info/wiki/p_lkrg/Main\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "1244999",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7872651",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7872651"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2138567",
+       "type": "reward"
+      },
+      {
+       "id": "2138569",
+       "type": "reward"
+      },
+      {
+       "id": "2138570",
+       "type": "reward"
+      },
+      {
+       "id": "2138571",
+       "type": "reward"
+      },
+      {
+       "id": "2138572",
+       "type": "reward"
+      },
+      {
+       "id": "2138575",
+       "type": "reward"
+      },
+      {
+       "id": "2138576",
+       "type": "reward"
+      },
+      {
+       "id": "2138577",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-09-29T05:27:01+00:00",
+     "facebook": null,
+     "first_name": "Adam",
+     "full_name": "Adam \u0027pi3\u0027 Zabrocki",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7872651/e7e169516a6e4e58b4333eff8d0a0f53?token-time=2145916800\u0026token-hash=hrmXW0fzoIrlv8sdf13nAUTR_yYh7bLHXl3t5FhJpwI%3D",
+     "last_name": "\u0027pi3\u0027 Zabrocki",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7872651/e7e169516a6e4e58b4333eff8d0a0f53?token-time=2145916800\u0026token-hash=Sr4qxW5yvWpiw-HoQNZMVOyATDqYBSxF8FJ37coImN0%3D",
+     "twitch": null,
+     "twitter": "Adam_pi3",
+     "url": "https://www.patreon.com/p_lkrg",
+     "vanity": "p_lkrg",
+     "youtube": null
+    },
+    "id": "7872651",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1244999",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1244999"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-11-10T04:16:30.263760+00:00",
+     "description": "Support LKRG at the basic level.",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T04:16:30.263760+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T04:16:30.263760+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $5 or more per month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1244999\u0026rid=2138567",
+     "user_limit": null
+    },
+    "id": "2138567",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-10T04:17:03.910763+00:00",
+     "description": "Support LKRG at basic level++ :)",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T04:17:03.910763+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T04:17:03.910763+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $10 or more per month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1244999\u0026rid=2138569",
+     "user_limit": null
+    },
+    "id": "2138569",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-11-10T04:17:30.746618+00:00",
+     "description": "Support LKRG and make me feel that project is worth of doing.",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T04:17:30.746618+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T04:17:30.746618+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $20 or more per month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1244999\u0026rid=2138570",
+     "user_limit": null
+    },
+    "id": "2138570",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-11-10T04:17:56.385340+00:00",
+     "description": "Support LKRG and force me to keep the project updated with new kernels.",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-10T04:17:56.385340+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-10T04:17:56.385340+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $50 or more per month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1244999\u0026rid=2138571",
+     "user_limit": null
+    },
+    "id": "2138571",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-11-10T04:18:16.547396+00:00",
+     "description": "Support LKRG and your name will be listed*:\n\u003cp\u003e\u00a0- in the official LKRG repository in the PATREONS file\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*the listing will only stay while Patreon support continues, and is removed \u00a0when support is cancelled (or when we stop accepting donations). \u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-29T16:11:42.141553+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-29T16:11:42.134748+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $100 or more per month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1244999\u0026rid=2138572",
+     "user_limit": null
+    },
+    "id": "2138572",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2017-11-10T04:18:52.645752+00:00",
+     "description": "Support LKRG and your name will be listed*:\n\u003cp\u003e\u00a0- in the official LKRG repository in the PATREONS file\u003c/p\u003e\n\u003cp\u003e\u00a0- in the official LKRG repository in the README file\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*the listing will only stay while Patreon support continues, and is removed \u00a0when support is cancelled (or when we stop accepting donations).\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-29T16:11:29.442562+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-29T16:11:29.432946+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $200 or more per month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1244999\u0026rid=2138575",
+     "user_limit": null
+    },
+    "id": "2138575",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2017-11-10T04:19:16.016271+00:00",
+     "description": "Support LKRG and your name will be listed*:\n\u003cp\u003e\u00a0- in the official LKRG repository in the PATREONS file\u003c/p\u003e\n\u003cp\u003e\u00a0- in the official LKRG repository in the README file\u003c/p\u003e\n\u003cp\u003e\u00a0- in the LKRG official wiki website (Patreon section)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*the listing will only stay while Patreon support continues, and is removed \u00a0when support is cancelled (or when we stop accepting donations).\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-29T16:10:56.609646+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-29T16:10:56.600798+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $500 or more per month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1244999\u0026rid=2138576",
+     "user_limit": null
+    },
+    "id": "2138576",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200000,
+     "amount_cents": 200000,
+     "created_at": "2017-11-10T04:19:37.447447+00:00",
+     "description": "Support LKRG and your name will be listed*:\n\u003cp\u003e\u00a0- in the official LKRG repository in the PATREONS file\u003c/p\u003e\n\u003cp\u003e\u00a0- in the official LKRG repository in the README file\u003c/p\u003e\n\u003cp\u003e\u00a0- in the LKRG official wiki website (Patreon section)\u003c/p\u003e\n\u003cp\u003e\u00a0- in the LKRG official wiki website your logo will be listed as official sponsor.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*the listing will only stay while Patreon support continues, and is removed \u00a0when support is cancelled (or when we stop accepting donations).\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-29T16:11:10.523096+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-29T16:11:10.516341+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $2000 or more per month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1244999\u0026rid=2138577",
+     "user_limit": null
+    },
+    "id": "2138577",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1244999"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "65390041-607f-4282-9442-e0eaaf361a17",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Adam \u0027pi3\u0027 Zabrocki is creating Linux Kernel Runtime Guard (LKRG)"
+});
+    </script>

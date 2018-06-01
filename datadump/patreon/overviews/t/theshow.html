@@ -1,0 +1,479 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "_DwYooF7Ct0fxpWG_YauPK2Y4OmLFNZIYjO2v2ohOqE";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "699860",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/699860"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-02-18T23:10:44+00:00",
+    "creation_name": "The Show",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI4IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/148807/101972e40fe94b5bac37953801f89ced?token-time=2145916800\u0026token-hash=EtyiZeEptTGQcs7L5IQenu4ipPlEsd9qPU5MHPVp7tE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiOCJ9/patreon-media/campaign/148807/101972e40fe94b5bac37953801f89ced?token-time=2145916800\u0026token-hash=70oKQ88-mK5fBTsEnqsh3eXu72h5CcUcvomAR6uIQxQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Founder of Reverb Culture. We \u0026lt;3 Coffee and Hipsters and Catechisms.",
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_sum": 2257,
+    "pledge_url": "/bePatron?c=148807",
+    "published_at": "2018-01-06T19:05:50+00:00",
+    "summary": "Cheers! My name is Edmund Mitchell and I like making things. Especially for people like you.\u003cbr\u003e\u003cbr\u003eThe Show is a place to explore conversations, creation, and ideas. Right now I\u0027m doing a lot of interviews with people I find interesting.\u003cbr\u003e\u003cbr\u003eI work real hard to make great stuff for free. Supporting The Show by a monthly donation helps cover dumb costs like upkeep on the website, and cool costs like getting better gear so we sound listenable. It also helps the show develop and evolve, and I\u0027m very excited for you to join The Show community where we can discuss, shape The Show, and create something crazy together.\u003cbr\u003e\u003cbr\u003eThanks so much for supporting us and being a part of The Show."
+   },
+   "id": "148807",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "570861",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/570861"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1069459",
+       "type": "goal"
+      },
+      {
+       "id": "1069460",
+       "type": "goal"
+      },
+      {
+       "id": "1069461",
+       "type": "goal"
+      },
+      {
+       "id": "1069462",
+       "type": "goal"
+      },
+      {
+       "id": "1069463",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-148807",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-148807"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2263476",
+       "type": "reward"
+      },
+      {
+       "id": "2263484",
+       "type": "reward"
+      },
+      {
+       "id": "2263496",
+       "type": "reward"
+      },
+      {
+       "id": "2263508",
+       "type": "reward"
+      },
+      {
+       "id": "2263519",
+       "type": "reward"
+      },
+      {
+       "id": "2263524",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "The Show is available to listen at\u00a0\u003ca href=\"http://theshow.fireside.fm\"\u003etheshow.fireside.fm\u003c/a\u003e or in your podcast app.",
+     "created": "2015-02-18T22:50:56+00:00",
+     "facebook": "https://www.facebook.com/edmundmitchell",
+     "first_name": "Edmund",
+     "full_name": "Edmund Mitchell",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/570861/cbcbfbd59d224373ac35b966c7bc2916?token-time=2145916800\u0026token-hash=HkKF628by5mu8sctZ7qmEZgUTRadoeQRBnnbkrfyyHg%3D",
+     "last_name": "Mitchell",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/570861/cbcbfbd59d224373ac35b966c7bc2916?token-time=2145916800\u0026token-hash=8lQRS4Ml6YfLhPh43V4vtcGb4OZcbVZE74aQ2RO3fIc%3D",
+     "twitch": null,
+     "twitter": "edmundmitchell",
+     "url": "https://www.patreon.com/theshow",
+     "vanity": "theshow",
+     "youtube": null
+    },
+    "id": "570861",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "148807",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/148807"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 9,
+     "upgrade_url": "/bePatron?c=148807\u0026rid=2263476"
+    },
+    "id": "post-aggregation-for-0-148807",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-01-06T17:56:24.486549+00:00",
+     "description": "A great way to support independent content and allow The Show to keep going.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-06T19:06:38.140144+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-01-06T19:06:38.114521+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tip Jar",
+     "unpublished_at": null,
+     "url": "/bePatron?c=148807\u0026rid=2263476",
+     "user_limit": null
+    },
+    "id": "2263476",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-01-06T18:00:19.318754+00:00",
+     "description": "Access to bonus episodes, exclusive content, and membership to The Show\u0027s patreon community and discussion. Your name will be listed in an episode\u0027s show notes. You\u0027ll know who I\u0027m scheduled to interview and be able to submit questions.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-07T17:32:36.603453+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 5,
+     "published": true,
+     "published_at": "2018-01-07T17:32:36.575834+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Behind the Curtain",
+     "unpublished_at": null,
+     "url": "/bePatron?c=148807\u0026rid=2263484",
+     "user_limit": null
+    },
+    "id": "2263484",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-06T18:06:28.325863+00:00",
+     "description": "Your name mentioned on The Show and listed in an episode\u0027s show notes. Access to the community. All previous rewards as well!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-06T18:06:28.325863+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2263496/be9a0abbb99340f79b109de6a7ba11e5?token-time=2145916800\u0026token-hash=fSzV505ZYFfATfNSQRYKzWEv-lDLnPEwwcUJISBbjIo%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-06T18:06:28.325863+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patron of the Arts",
+     "unpublished_at": null,
+     "url": "/bePatron?c=148807\u0026rid=2263496",
+     "user_limit": null
+    },
+    "id": "2263496",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-01-06T18:11:34.642973+00:00",
+     "description": "I\u0027ll send you a surprise thank-you package filled with goodies and things I\u0027ve made. Access to the community. All previous rewards as well!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-06T18:11:34.642973+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2263508/103feec4742f48c18a01206cf54f62b3?token-time=2145916800\u0026token-hash=yVdXXFHA_zZpgLRDwbS6fGnRbEbrlD5MKxDzZ9llGss%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-06T18:11:34.642973+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Extra",
+     "unpublished_at": null,
+     "url": "/bePatron?c=148807\u0026rid=2263508",
+     "user_limit": null
+    },
+    "id": "2263508",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-01-06T18:15:05.670626+00:00",
+     "description": "You and I will record a short interview as an opening segment of The Show. Access to the community. All previous rewards as well!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-06T18:15:05.670626+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-06T18:15:05.670626+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Stage Manager",
+     "unpublished_at": null,
+     "url": "/bePatron?c=148807\u0026rid=2263519",
+     "user_limit": null
+    },
+    "id": "2263519",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-01-06T18:17:30.162948+00:00",
+     "description": "You and I will record a full bonus episode together. I\u0027ll interview you and it will be available to The Show community. \u00a0All previous rewards as well!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-06T18:17:30.162948+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-06T18:17:30.162948+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Part of the Cast",
+     "unpublished_at": null,
+     "url": "/bePatron?c=148807\u0026rid=2263524",
+     "user_limit": null
+    },
+    "id": "2263524",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 45,
+     "created_at": "2018-01-06T18:59:26+00:00",
+     "description": "This is the survival line! This would allow The Show to break even on hosting and some monthly costs, and stay alive!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1069459",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 4,
+     "created_at": "2018-01-06T18:59:26+00:00",
+     "description": "We become fully sustainable! At this point The Show will have sturdy legs and I\u0027ll begin devoting significantly more time and attention to The Show, getting more creative with it. I\u0027ll record a special rapid-fire call in version of The Show only accepting calls from Patreon supporters.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1069460",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 1,
+     "created_at": "2018-01-06T18:59:26+00:00",
+     "description": "This is where things would really start getting interesting. We\u0027d look for more ways to expand on The Show, possibly releasing interview episodes on Thursdays and a different format of The Show on Tuesdays. To celebrate we\u0027ll crowdsource the design of a \"The Show\" t-shirt that Patreon supporters get to vote on, and everyone at the $10/month level and higher will get the t-shirt for free.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1069461",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 0,
+     "created_at": "2018-01-06T18:59:27+00:00",
+     "description": "I can hire my wife to work for The Show as a general manager. She gets to stay at home and homeschool our 5 kids. To celebrate we crowdsource a \"The Show\" coffee table beautiful book, taking writings and photos and contributions from people who are in the Patreon community. Everyone in the $10 or higher level get the book for free. Everyone who supports The Show gets their name printed in the book.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1069462",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 0,
+     "created_at": "2018-01-06T18:59:27+00:00",
+     "description": "We host the first ever version of The Show live and in person as a experimental variety show. The community votes on the location, the line-up, and has a hand in the event every step of the way. Everyone shows up. We go nuts. We record it as an episode of The Show. The first 100 Patreon supporters who ever supported The Show get free tickets.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1069463",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/148807"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "7998c96f-e00d-4dec-bfb2-2f04dfaeee9c",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Edmund Mitchell is creating The Show"
+});
+    </script>

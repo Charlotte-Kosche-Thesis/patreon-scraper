@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "pCQmGxVipCHYGz-03CvaTCR5ZppqjoWF3mWfDLQiuro";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "291178",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/291178"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-04-16T20:20:34+00:00",
+    "creation_name": "VGM Albums",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/344485/d648914b3dac4d1da7f26907a9d238a4?token-time=2145916800\u0026token-hash=VqDoU1l0b4d2cizTvIiKpHc8ma-ZlKyhXalW2gbUbIY%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/344485/d648914b3dac4d1da7f26907a9d238a4?token-time=2145916800\u0026token-hash=e5dKv5Ua3SIVjLHyTcvCBBj1HtRlQbWhprmXajpYq8s%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 16,
+    "pay_per_name": "album",
+    "pledge_sum": 56222,
+    "pledge_url": "/bePatron?c=344485",
+    "published_at": "2016-10-31T04:15:34+00:00",
+    "summary": "\u003cimg src=\"https://i2.wp.com/runawayfour.files.wordpress.com/2018/05/wad-o-bills.png\"\u003e\u003cbr\u003eIf we had 1200 dollars, we could pay off our sound engineer and move on to the next album...\u003cbr\u003e\u003cbr\u003eHey, kids! We\u0027re working hard on our upcoming album, Live from The Overworld. It\u0027s set to release at this year\u0027s Vancouver Retro Gaming Expo coming up on June 23rd, 2018. If you\u0027ve come looking for a way to support us you\u0027re in the right place! We\u0027ve got some meager perks so we really hope you love us, but we\u0027re also open to suggestions. This is our first Patreon venture so whether you\u0027re a patron all over or just came for us we want to hear your thoughts!\u003cbr\u003e\u003cbr\u003eThe album was recorded live in 2016 at the Retro Gaming Expo (we love them, they love us). This one is wild and lengthy, spanning two 45 minute sets, including collaborations with the horn section of missingNo. as well as our guest flautist Ingrid Cheung. You\u0027ll barely hear us play these collabs live, so we\u0027re putting forward a proper sound production and packaging them up in a pretty bow for you! Isn\u0027t that nice?\u003cbr\u003e\u003cbr\u003eIf you wanted a track listing, well...\u003cbr\u003e\u003col\u003e\u003cli\u003eReturn to Hell\u003cul\u003e\u003cli\u003eReturn to Zork - Intro\u003c/li\u003e\u003cli\u003eCommand \u0026amp; Conquer: Red Alert - Hell March\u003c/li\u003e\u003cli\u003eDoom 2 - Running from Evil\u003c/li\u003e\u003cli\u003eSuper Meat Boy - Hot Damned\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eOompa Land\u003cul\u003e\u003cli\u003eFinal Fantasy IX - Vivi\u0027s Theme\u003c/li\u003e\u003cli\u003eEarthbound - Saturn Valley\u003c/li\u003e\u003cli\u003eFinal Fantasy IV - Mystic Mysidia\u003c/li\u003e\u003cli\u003eSuper Mario RPG - Hello, Happy Kingdom\u003c/li\u003e\u003cli\u003eTheme Hospital - Candy Floss\u003c/li\u003e\u003cli\u003eBanjo-Kazooie - Gobi Valley\u003c/li\u003e\u003cli\u003eAero the Acro-Bat - Circus 2\u003c/li\u003e\u003cli\u003eUndertale - Bonetrousle\u003c/li\u003e\u003cli\u003eTetris - Theme A\u003c/li\u003e\u003cli\u003eKirby Superstar - Gourmet Race\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eBeach Party\u003cul\u003e\u003cli\u003eLegend of Zelda, Ocarina of Time - Zora\u0027s Domain\u003c/li\u003e\u003cli\u003eEarthbound - Summers\u003c/li\u003e\u003cli\u003eFinal Fantasy VII - Costa del Sol\u003c/li\u003e\u003cli\u003eMario Party - Yoshi\u0027s Tropical Island\u003c/li\u003e\u003cli\u003eKirby\u0027s Epic Yarn - Secret Island\u003c/li\u003e\u003cli\u003eOutrun - Magical Sound Shower\u003c/li\u003e\u003cli\u003eSuper Mario Kart - Koopa Beach\u003c/li\u003e\u003cli\u003eMario Kart 64 - Koopa Beach\u003c/li\u003e\u003cli\u003eDiddy Kong Racing - Pirate Lagoon\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eJazzy Jungle Joyride\u003cul\u003e\u003cli\u003eSuper Mario World - Athletic\u003c/li\u003e\u003cli\u003eNew Super Mario Bros. Wii - Overworld Theme\u003c/li\u003e\u003cli\u003eSonic the Hedgehog 2 - Casino Night Zone\u003c/li\u003e\u003cli\u003eSuper Mario 64 - Bob-Omb Battlefield\u003c/li\u003e\u003cli\u003eDonkey Kong Returns - Rocket Barrle\u003c/li\u003e\u003cli\u003eDonkey Kong Country - Jungle Groove\u003c/li\u003e\u003cli\u003eAladdin - Friend Like Me\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eSIDWAVE\u003cul\u003e\u003cli\u003eGreat Giana Sisters \u003c/li\u003e\u003cli\u003eFlimbo\u2019s Quest \u003c/li\u003e\u003cli\u003eSavage \u003c/li\u003e\u003cli\u003eR-Type \u003c/li\u003e\u003cli\u003eCrazy Comets \u003c/li\u003e\u003cli\u003eBionic Commando \u003c/li\u003e\u003cli\u003eKrakout \u003c/li\u003e\u003cli\u003eMayhem in Monsterland\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eObligatory Forest Level\u003cul\u003e\u003cli\u003eStar Ocean 2 - Venerable Forest \u003c/li\u003e\u003cli\u003ePokemon Diamond/Pearl/Platinum - Eterna Forest \u003c/li\u003e\u003cli\u003eSuper Mario World - Forest of Illusion\u003c/li\u003e\u003cli\u003eChrono Trigger - Secret of the Forest \u003c/li\u003e\u003cli\u003eFinal Fantasy VI - Phantom Forest \u003c/li\u003e\u003cli\u003eFinal Fantasy IX - Stirring the Forest \u003c/li\u003e\u003cli\u003eSecret of Mana - Into the Thick of It\u003c/li\u003e\u003cli\u003eLegend of Zelda, Link to the Past - Lost Woods \u003c/li\u003e\u003cli\u003ePokemon Red/Blue/Yellow - Viridian Forest \u003c/li\u003e\u003cli\u003eMother 3 - Murasaki Forest \u003c/li\u003e\u003cli\u003eSuper Mario RPG - Beware the Forest\u2019s Mushrooms \u003c/li\u003e\u003cli\u003eLegend of Zelda, Ocarina of Time - Lost Woods \u003c/li\u003e\u003cli\u003eWario\u2019s Woods - Title Theme\u003c/li\u003e\u003cli\u003eBanjo-Kazooie - Click Clock Wood (Spring) \u003c/li\u003e\u003cli\u003eKirby Superstar - Green Greens\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eMaster Quest\u003cul\u003e\u003cli\u003eOcarina of Time - Title Screen\u003c/li\u003e\u003cli\u003eOcarina of Time - Morning\u003c/li\u003e\u003cli\u003eWind Waker - Outset Island\u003c/li\u003e\u003cli\u003eOcarina of Time - House\u003c/li\u003e\u003cli\u003eMajora\u2019s Mask - Clock Town\u003c/li\u003e\u003cli\u003eLink\u2019s Awakening - Tal Tal Heights\u003c/li\u003e\u003cli\u003eOcarina of Time - Hyrule Field\u003c/li\u003e\u003cli\u003eTwilight Princess - Hyrule Field\u003c/li\u003e\u003cli\u003eSpirit Tracks - Full Steam Ahead\u003c/li\u003e\u003cli\u003eWind Waker - Great Ocean\u003c/li\u003e\u003cli\u003eSkyward Sword - Ballad of the Goddess\u003c/li\u003e\u003cli\u003eOcarina of Time - Epona\u2019s Theme\u003c/li\u003e\u003cli\u003eWind Waker - Dragon Roost Island\u003c/li\u003e\u003cli\u003eA Link to the Past - Dark World\u003c/li\u003e\u003cli\u003eThe Adventure of Link - Temple Theme\u003c/li\u003e\u003cli\u003eLink Between Worlds - Lorule Castle\u003c/li\u003e\u003cli\u003eOcarina of Time - Ganon\u2019s Tower\u003c/li\u003e\u003cli\u003eLink Between Worlds - Zelda\u2019s Lullaby\u003c/li\u003e\u003cli\u003eHyrule Fanfare\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003c/ol\u003eIT\u0027S HUGE! Let us know what you\u0027re most excited for!"
+   },
+   "id": "344485",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3174512",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3174512"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "597338",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-344485",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-344485"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1190324",
+       "type": "reward"
+      },
+      {
+       "id": "1190323",
+       "type": "reward"
+      },
+      {
+       "id": "1183130",
+       "type": "reward"
+      },
+      {
+       "id": "1190584",
+       "type": "reward"
+      },
+      {
+       "id": "1190583",
+       "type": "reward"
+      },
+      {
+       "id": "1190585",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "We\u0027re the Runaway Four and we do a video game music thing with our real life instruments together with our bodies and tell all the themed themes where to theme. We\u0027re on Patreon to gather moral and financial support for the production of our ULTIMATE ALBUM PRODUCTION PLAN (UAPP). If you want to hear what our first, self-financed album sounds like you can check it out here:\u003cbr\u003e\u003cbr\u003ehttp://therunawayfour.bandcamp.com/album/chaos-theatre",
+     "created": "2016-04-16T20:14:18+00:00",
+     "facebook": "https://www.facebook.com/therunawayfour/",
+     "first_name": "The",
+     "full_name": "The Runaway Four",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3174512/643ce9088a9845fa881ffc162d3956c0?token-time=2145916800\u0026token-hash=KVhfPTG30C1KVGhZJkytlI702XQHV7kwJG3A_eI6LOw%3D",
+     "last_name": "Runaway Four",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3174512/643ce9088a9845fa881ffc162d3956c0?token-time=2145916800\u0026token-hash=-wdPH6s3KefslspjBvm64Odm3mVtOJo6xbXAJdlPt6k%3D",
+     "twitch": null,
+     "twitter": "TheRunawayFour",
+     "url": "https://www.patreon.com/therunawayfour",
+     "vanity": "therunawayfour",
+     "youtube": "https://www.youtube.com/runawayfour"
+    },
+    "id": "3174512",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "344485",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/344485"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 3,
+     "upgrade_url": "/bePatron?c=344485\u0026rid=1190323"
+    },
+    "id": "post-aggregation-for-0-344485",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-12-21T01:14:13.344013+00:00",
+     "description": "\u003cdiv\u003e\u003cimg src=\"http://theearthboundone.tripod.com/earthbound/images/e_worthless_protoplasm.gif\"\u003e\u003cbr\u003eWow! You\u0027ve proven you\u0027re willing to do the bare minimum to support us! You get:\u003c/div\u003e\u003cul\u003e\u003cli\u003eA metaphysical thank you\u003c/li\u003e\u003cli\u003eAccess to our patron feed\u003c/li\u003e\u003cli\u003eThe lowest rank among patrons; wear it with pride!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-21T02:21:09.979399+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-21T01:14:13.344013+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Worthless Protoplasm",
+     "unpublished_at": null,
+     "url": "/bePatron?c=344485\u0026rid=1190324",
+     "user_limit": null
+    },
+    "id": "1190324",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-12-21T01:14:12.524757+00:00",
+     "description": "\u003cimg src=\"http://theearthboundone.tripod.com/earthbound/images/e_pitbull_slug.gif\"\u003e\u003cbr\u003e\nYou\u0027re one small step above the bare minimum, and that\u0027s what makes you unique! You get:\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eAccess to patron feed\u003c/li\u003e\n\u003cli\u003eThoughts and prayers\u003c/li\u003e\n\u003cli\u003eSocially-enforced superiority over your Worthless Protoplasm brethren\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-03T23:23:56.706376+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-05-03T23:23:56.696202+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pitbull Slug",
+     "unpublished_at": null,
+     "url": "/bePatron?c=344485\u0026rid=1190323",
+     "user_limit": null
+    },
+    "id": "1190323",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-12-19T06:37:37.179070+00:00",
+     "description": "\u003cimg src=\"http://theearthboundone.tripod.com/earthbound/images/e_runaway_dog.gif\"\u003e\u003cbr\u003e\nYou\u0027re not afraid to make it on your own, and you\u0027re not afraid to shuck a few extra bucks! You get:\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eAccess to Patron-only jamspace streams (when that becomes a thing)\u003c/li\u003e\n\u003cli\u003eAn actual thanks from the band in the album credits, with your name in it and everything\u003c/li\u003e\n\u003cli\u003eAccess to patron feed\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-03T23:27:49.777946+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-03T23:27:49.768438+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Runaway Dog (Dawg)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=344485\u0026rid=1183130",
+     "user_limit": null
+    },
+    "id": "1183130",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-12-21T02:21:09.936243+00:00",
+     "description": "\u003cimg src=\"http://theearthboundone.tripod.com/earthbound/images/e_cute_lil_ufo.gif\"\u003e\u003cbr\u003e\nYou\u0027re the perky weirdo who loves to accessorize and be admired. You get:\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eAutomatic pre-order of one digital copy of the album\u003c/li\u003e\n\u003cli\u003eThe right to wear a pretty little bow\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-03T23:28:30.872891+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-03T23:28:30.864510+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Cute Li\u0027l UFO",
+     "unpublished_at": null,
+     "url": "/bePatron?c=344485\u0026rid=1190584",
+     "user_limit": null
+    },
+    "id": "1190584",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-12-21T02:21:09.867983+00:00",
+     "description": "\u003cdiv\u003e\u003cimg src=\"http://theearthboundone.tripod.com/earthbound/images/e_beautiful_ufo.gif\"\u003e\u003cbr\u003eYou are beautiful, no matter what they say. We see it. Everyone sees it. You get:\u003c/div\u003e\u003cul\u003e\u003cli\u003ePersonalized song/video message\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-21T02:21:09.867983+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-21T02:21:09.867983+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Beautiful UFO",
+     "unpublished_at": null,
+     "url": "/bePatron?c=344485\u0026rid=1190583",
+     "user_limit": null
+    },
+    "id": "1190583",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-12-21T02:21:09.956459+00:00",
+     "description": "\u003cdiv\u003e\u003cimg src=\"http://theearthboundone.tripod.com/earthbound/images/e_insane_cultist.gif\"\u003e\u003cbr\u003eYou\u0027re crazy in the coconut and you can afford to let it shine! What makes you so insane? It must be the perks. You get:\u003cbr\u003e\u003c/div\u003e\u003cul\u003e\u003cli\u003eA cheesy, personalized thumbs-up thank you photo from the band\u003c/li\u003e\u003cli\u003eDigital copies of every recording we\u0027ve ever done\u003c/li\u003e\u003cli\u003eMAD bragging rights\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2016-12-21T02:21:09.956459+00:00",
+     "image_url": null,
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-12-21T02:21:09.956459+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Insane Cultist",
+     "unpublished_at": null,
+     "url": "/bePatron?c=344485\u0026rid=1190585",
+     "user_limit": null
+    },
+    "id": "1190585",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 120000,
+     "completed_percentage": 46,
+     "created_at": "2016-10-31T03:55:30+00:00",
+     "description": "Live from The Overworld\u0027s costs:\u003cbr\u003e\u003cbr\u003eLive Recording: $300\u003cbr\u003eMixing and Mastering: $600\u003cbr\u003eAlbum Art: $300\u003cbr\u003e\u003cbr\u003eIf we reach our goal we\u0027ll be releasing the album early to patrons of all tiers!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "597338",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/344485"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "1c6f4af7-b397-46a8-ad7c-19d4bd2f43b8",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "The Runaway Four are creating VGM Albums"
+});
+    </script>

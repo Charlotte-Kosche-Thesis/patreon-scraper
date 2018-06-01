@@ -1,0 +1,559 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "M0jKdsBfQfbhY8zTkjWzWtkcM3CIpKeBb8AefaMzfnE";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "461120",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/461120"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-03-24T16:26:06+00:00",
+    "creation_name": "a podcast for real business stories",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/812431/4b265f1359ec48578af38701fda429f8?token-time=2145916800\u0026token-hash=uMBMfmDn0ra490UqiQ2qbfMQ9XKaKziAL2tytuj8WiM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/812431/4b265f1359ec48578af38701fda429f8?token-time=2145916800\u0026token-hash=Oh-pDiJBqxePhCcDK458zTzplgRskK3x1NKDDezxtps%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 6,
+    "pay_per_name": null,
+    "pledge_sum": 3690,
+    "pledge_url": "/bePatron?c=812431",
+    "published_at": "2017-05-28T16:28:03+00:00",
+    "summary": "\u003cstrong\u003eSo, Here\u0027s My Story...\u003c/strong\u003e is the only business podcast that promises wildly useful lessons from the absurd, the poignant and the seemingly irrelevant. This project arose out of a burning hatred of bullet point blogs, canned solutions and highlight-reel business conversations that look nothing like the realities of leadership. Business is messy and unpredictable. Business has depth and nuance. Business is more than spreadsheets. \u003cstrong\u003eBusiness is stories.... \u003cem\u003eand we want to hear yours.\u003c/em\u003e\u003c/strong\u003e"
+   },
+   "id": "812431",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5432562",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5432562"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "837766",
+       "type": "goal"
+      },
+      {
+       "id": "837767",
+       "type": "goal"
+      },
+      {
+       "id": "837768",
+       "type": "goal"
+      },
+      {
+       "id": "837769",
+       "type": "goal"
+      },
+      {
+       "id": "837770",
+       "type": "goal"
+      },
+      {
+       "id": "837771",
+       "type": "goal"
+      },
+      {
+       "id": "837772",
+       "type": "goal"
+      },
+      {
+       "id": "837773",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-812431",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-812431"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1615632",
+       "type": "reward"
+      },
+      {
+       "id": "1615653",
+       "type": "reward"
+      },
+      {
+       "id": "1615702",
+       "type": "reward"
+      },
+      {
+       "id": "1615701",
+       "type": "reward"
+      },
+      {
+       "id": "1615700",
+       "type": "reward"
+      },
+      {
+       "id": "1905253",
+       "type": "reward"
+      },
+      {
+       "id": "1905252",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-03-24T16:25:29+00:00",
+     "facebook": "https://www.facebook.com/SHMSpodcast",
+     "first_name": "So,",
+     "full_name": "So, Here\u0027s My Story",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5432562/518642abfc9743e79405fbd812c5e4da?token-time=2145916800\u0026token-hash=JZ5LfQk79JshNWmzGc0YVsZmbdboY4VdgTKM1VZnShU%3D",
+     "last_name": "Here\u0027s My Story",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5432562/518642abfc9743e79405fbd812c5e4da?token-time=2145916800\u0026token-hash=i8FSzhskklmlSR2nfTLXbotruIGNgkANzsQQMu9cTfw%3D",
+     "twitch": null,
+     "twitter": "SHMSpodcast",
+     "url": "https://www.patreon.com/SHMSpodcast",
+     "vanity": "SHMSpodcast",
+     "youtube": "https://www.youtube.com/SHMSpodcast"
+    },
+    "id": "5432562",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "812431",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/812431"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 23,
+     "upgrade_url": "/bePatron?c=812431\u0026rid=1615632"
+    },
+    "id": "post-aggregation-for-0-812431",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-04-19T15:51:56.585141+00:00",
+     "description": "\u003cdiv\u003eWhile we intend to always make the show available to listen to for free... your patronage means we can create more shows, more bonus content, and find more ways to show our Patrons we love them.\u00a0\u003cstrong\u003eFor $1 per episode\u003c/strong\u003e you\u0027ll get our undying gratitude, plus...\u00a0\u003c/div\u003e\u003cul\u003e\u003cli\u003eAccess to \u003cstrong\u003epatron-only content\u003c/strong\u003e.\u003c/li\u003e\u003cli\u003eA\u003cstrong\u003e one-time, sincere thank you \u003c/strong\u003eon the next episode.\u003c/li\u003e\u003cli\u003eThe ability to comment, post, and interact with other listeners, as well as Jodi \u0026amp; Eliot here in our patron-only community.\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T15:49:24.648745+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-15T15:49:24.620639+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=812431\u0026rid=1615632",
+     "user_limit": null
+    },
+    "id": "1615632",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-04-19T15:59:20.609061+00:00",
+     "description": "\u003cdiv\u003eAt $2 per episode, you\u0027ll get all the above rewards, PLUS...\u00a0\u003c/div\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eAccess to PREMIUM CONTENT\u003c/strong\u003e\u00a0including bonus episodes, behind-the-scenes recordings and special-release rants and raves.\u00a0\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eEarly notification\u003c/strong\u003e of all special events and publications.\u00a0\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eVote \u003c/strong\u003eon future topics and bonus content.\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T15:49:33.494701+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-15T15:49:33.471099+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=812431\u0026rid=1615653",
+     "user_limit": null
+    },
+    "id": "1615653",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-04-19T16:23:34.169489+00:00",
+     "description": "At $5 per episode, you\u0027re a full-time sponsor of the show. You\u0027ll get all the above rewards, PLUS...\u00a0\u003cul\u003e\u003cli\u003eAccess to \u003cstrong\u003eLive Chats, Video Hangouts and other cool interactive \u003c/strong\u003eways to become part of the conversation.\u003c/li\u003e\u003cli\u003eshow \u003cstrong\u003eswag \u003c/strong\u003eas it develops, including the soon-to-be-released SHMS whiskey\u00a0glasses.\u00a0\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eVote \u003c/strong\u003eon the \u003cstrong\u003eshow mascot.\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-15T15:49:48.612293+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-15T15:49:48.592429+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "PatronPlus+",
+     "unpublished_at": null,
+     "url": "/bePatron?c=812431\u0026rid=1615702",
+     "user_limit": null
+    },
+    "id": "1615702",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-04-19T16:23:34.047634+00:00",
+     "description": "\u003cdiv\u003eAt $10 per episode, you.... ok, we\u0027ll just say it... you\u0027re the best. Enjoy all the above rewards, PLUS...\u003c/div\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003ePriority access\u003c/strong\u003e for your questions and comments.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e\u003ca href=\"http://soheresmystory.libsyn.com/rss\" rel=\"nofollow noopener\" target=\"_blank\"\u003eW\u003c/a\u003eeekly on-air mention\u003c/strong\u003e during every episode.\u003c/li\u003e\u003cli\u003eWe will answer any \u003cstrong\u003eone question you have, on any topic, on the air!\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eInvitation to \u003cstrong\u003eexclusive in-person events, including the SHMS annual dinner.\u00a0\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-06T21:10:35.782155+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-19T16:23:34.047634+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Friend",
+     "unpublished_at": null,
+     "url": "/bePatron?c=812431\u0026rid=1615701",
+     "user_limit": null
+    },
+    "id": "1615701",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-04-19T16:23:33.828153+00:00",
+     "description": "As a $20 supporter, we\u0027re frankly shocked. Please enjoy all the above rewards, PLUS...\u003cul\u003e\u003cli\u003e\u003cstrong\u003ePersonal Welcome Call \u003c/strong\u003efrom Jodi or Eliot\u003c/li\u003e\u003cli\u003eA \u003cstrong\u003ecustomized perk\u003c/strong\u003e of your choosing (\u003cem\u003etbd with J\u0026amp;E\u003c/em\u003e).\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-06T13:18:44.145510+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-19T16:23:33.828153+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "BFF",
+     "unpublished_at": null,
+     "url": "/bePatron?c=812431\u0026rid=1615700",
+     "user_limit": null
+    },
+    "id": "1615700",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6500,
+     "amount_cents": 6500,
+     "created_at": "2017-08-06T21:10:35.762635+00:00",
+     "description": "All the above perks, plus:\u003cbr\u003e\u003cul\u003e\u003cli\u003eAccess to Jodi \u0026amp; Eliot FOUR times per year for talks/workshops with your staff on the topics of your choosing. \u00a0\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-06T21:10:35.762635+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-06T21:10:35.762635+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "CORPORATE Patron Package",
+     "unpublished_at": null,
+     "url": "/bePatron?c=812431\u0026rid=1905253",
+     "user_limit": null
+    },
+    "id": "1905253",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 12500,
+     "amount_cents": 12500,
+     "created_at": "2017-08-06T21:10:35.756868+00:00",
+     "description": "All the above perks, plus:\u003cbr\u003e\u003cul\u003e\u003cli\u003eAccess to Jodi \u0026amp; Eliot SIX times per year for talks/workshops with your staff on the topics of your choosing.\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-06T21:10:35.756868+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-06T21:10:35.756868+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "CORPORATE Sponsorship Package",
+     "unpublished_at": null,
+     "url": "/bePatron?c=812431\u0026rid=1905252",
+     "user_limit": null
+    },
+    "id": "1905252",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 73,
+     "created_at": "2017-05-17T21:28:48+00:00",
+     "description": "We \u003cstrong\u003elaunch\u003c/strong\u003e\nout of the gate with one 30(ish)-minute episode per week.\u003cem\u003e (This would sound FAR more impressive if you witnessed us trying to coordinate our calendars each week!!)\u003c/em\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "837766",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 36,
+     "created_at": "2017-05-17T21:28:48+00:00",
+     "description": "We begin incorporating\u003cstrong\u003e listener stories and questions\u003c/strong\u003e. \u003cem\u003e(psssst... that means you. And we\u0027re even more interested in your stories than we are our own!)\u003c/em\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "837767",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 18,
+     "created_at": "2017-05-17T21:28:49+00:00",
+     "description": "We start releasing \u003cstrong\u003ebonus episodes\u003c/strong\u003e on various topics of our choosing. \u003cem\u003e(Think of it as the business podcast version of a box of chocolates.)\u003c/em\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "837768",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 7,
+     "created_at": "2017-05-17T21:28:49+00:00",
+     "description": "We \u003cstrong\u003ehire an intern, \u003c/strong\u003ewhich will allow us to do lots more of the cool things we have in mind. \u003cem\u003e(But wait, it gets better \u2013 you get to pick some of our interview questions, and we intend to badger him/her into allowing us to put the interview on YouTube)\u003c/em\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "837769",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 75000,
+     "completed_percentage": 4,
+     "created_at": "2017-05-17T21:28:49+00:00",
+     "description": "We \u003cstrong\u003edouble our output\u003c/strong\u003e and move to TWO episodes a week. (\u003cem\u003eTo be fair, no one who knows us thinks that talking for this long is even close to a stretch.)\u003c/em\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "837770",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 3,
+     "created_at": "2017-05-17T21:28:49+00:00",
+     "description": "We begin \u003cstrong\u003ehosting live group video chats\u003c/strong\u003e for Patrons only. \u003cem\u003e(That means Jodi does her hair, and Eliot starts wearing pants)\u003c/em\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "837771",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 1,
+     "created_at": "2017-05-17T21:28:49+00:00",
+     "description": "We \u003cstrong\u003erecord and publish episodes in video\u003c/strong\u003e as well as audio. (\u003cem\u003eJodi gets a new wardrobe, and Eliot sticks by his pants-wearing commitment.)\u003c/em\u003e\u003cbr\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "837772",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 1,
+     "created_at": "2017-05-17T21:28:49+00:00",
+     "description": "\u003cstrong\u003ePick your own adventure: \u003c/strong\u003eWe either host a live event, write a book, go on tour, or whatever we (that includes YOU) decide might be most fun. \u003cem\u003e(As we approach this goal, we\u0027ll be asking all our Patrons to weigh in on what you\u0027d most love to see from us.)\u003c/em\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "837773",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/812431"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "f94a5056-8e1e-48c1-995d-acfadc6e59fa",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "So, Here\u0027s My Story is creating a podcast for real business stories"
+});
+    </script>

@@ -1,0 +1,607 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "LVWCcsDzuSX9v6SgLwZS327sRf3fqxscVGOqelTzqpM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "167169",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/167169"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-05-24T23:54:50+00:00",
+    "creation_name": "Art drawings",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/373836/964412837b274b5f978333bd6d6a46c0?token-time=2145916800\u0026token-hash=UHyPKXlB4qN9qWK-qP6q5oYMqBVk0hxZ8r6XGV8GUXs%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/373836/964412837b274b5f978333bd6d6a46c0?token-time=2145916800\u0026token-hash=nx6KCDMJ8gWU7c86G--Xyx8ginaA9KgW9ApMuOOFciI%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_sum": 2381,
+    "pledge_url": "/bePatron?c=373836",
+    "published_at": "2016-05-25T01:35:55+00:00",
+    "summary": "And if we were doing a book with my artwork?\u003cbr\u003eShould we do a whole sketchbook of this ? I guess yes !\u003cbr\u003e\u003cem\u003e\u003cbr\u003eYou can see my artwork on:\u003c/em\u003e\u003cbr\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(79, 129, 189);\"\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u003cspan style=\"background-color: rgb(79, 129, 189);\"\u003eFacebook:\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u00a0\u003c/strong\u003e\u003ca href=\"https://www.facebook.com/Y.Dessin/\" rel=\"nofollow\" target=\"_blank\"\u003ehere\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "373836",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3353742",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3353742"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "436386",
+       "type": "goal"
+      },
+      {
+       "id": "436407",
+       "type": "goal"
+      },
+      {
+       "id": "436436",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-373836",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-373836"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "555295",
+       "type": "reward"
+      },
+      {
+       "id": "555168",
+       "type": "reward"
+      },
+      {
+       "id": "554533",
+       "type": "reward"
+      },
+      {
+       "id": "554534",
+       "type": "reward"
+      },
+      {
+       "id": "554535",
+       "type": "reward"
+      },
+      {
+       "id": "554536",
+       "type": "reward"
+      },
+      {
+       "id": "554569",
+       "type": "reward"
+      },
+      {
+       "id": "554590",
+       "type": "reward"
+      },
+      {
+       "id": "554591",
+       "type": "reward"
+      },
+      {
+       "id": "554612",
+       "type": "reward"
+      },
+      {
+       "id": "554613",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I am a French illustrator. I did a series of drawings on the father -daughter relationship and I wanted to produce a book.",
+     "created": "2016-05-24T23:50:22+00:00",
+     "facebook": "https://www.facebook.com/Y.dessin",
+     "first_name": "Yannick",
+     "full_name": "Yannick Vicente",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3353742/8c47cbf1643a423d95f642980703c9dd?token-time=2145916800\u0026token-hash=uOg8SYLES8LEoEyTaPmp03YeYY3k26Fur1moTtwMZ2s%3D",
+     "last_name": "Vicente",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3353742/8c47cbf1643a423d95f642980703c9dd?token-time=2145916800\u0026token-hash=4FbyE0UBm1gwv2KXz7rPdvSdxF6Uk7lDnQAKaQLRqxo%3D",
+     "twitch": "",
+     "twitter": "Yannickvicente",
+     "url": "https://www.patreon.com/YannickVicente",
+     "vanity": "YannickVicente",
+     "youtube": ""
+    },
+    "id": "3353742",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "373836",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/373836"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 13,
+     "upgrade_url": "/bePatron?c=373836\u0026rid=555295"
+    },
+    "id": "post-aggregation-for-0-373836",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-06-06T06:37:48+00:00",
+     "description": "Thank you very much. :-)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-06T06:37:48+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=373836\u0026rid=555295",
+     "user_limit": null
+    },
+    "id": "555295",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-06-06T06:37:48+00:00",
+     "description": "I thank you on my facebook page with all participants.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-06T06:37:48+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=373836\u0026rid=555168",
+     "user_limit": null
+    },
+    "id": "555168",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-06-06T06:37:48+00:00",
+     "description": "1 Postcard of my artwork. Dedicated.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-06T06:37:48+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=373836\u0026rid=554533",
+     "user_limit": null
+    },
+    "id": "554533",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-06-06T06:37:48+00:00",
+     "description": "2 postcards. Dedicated",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-06T06:37:48+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=373836\u0026rid=554534",
+     "user_limit": null
+    },
+    "id": "554534",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-06-06T06:37:48+00:00",
+     "description": "1 signed print of my artwork (21x29,7)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-06T06:37:48+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=373836\u0026rid=554535",
+     "user_limit": null
+    },
+    "id": "554535",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2016-06-06T06:37:48+00:00",
+     "description": "2 different signed prints of my art (in english) (21x29,7)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-06T06:37:48+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=373836\u0026rid=554536",
+     "user_limit": null
+    },
+    "id": "554536",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-06-06T06:37:48+00:00",
+     "description": "3 different signed prints of my art (English) (21x29,7)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-06T06:37:48+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=373836\u0026rid=554569",
+     "user_limit": null
+    },
+    "id": "554569",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2016-06-06T06:37:48+00:00",
+     "description": "4 different signed prints of my art (English) (21x29,7)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-06T06:37:48+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=373836\u0026rid=554590",
+     "user_limit": null
+    },
+    "id": "554590",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-06-06T06:37:48+00:00",
+     "description": "5\u00a0different signed prints of my art (English) (21x29,7)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-06T06:37:48+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=373836\u0026rid=554591",
+     "user_limit": null
+    },
+    "id": "554591",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-06-06T06:37:48+00:00",
+     "description": "1 of my picture with\u00a0you, in my style, print in color in 5 exemplars\u00a0numbered and signed. (21x29,7)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-06T06:37:48+00:00",
+     "remaining": 2,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=373836\u0026rid=554612",
+     "user_limit": 2
+    },
+    "id": "554612",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2016-06-06T06:37:48+00:00",
+     "description": "1 of my picture with you, in my style, print in color in 5 exemplars numbered and signed (21x29,7) + the original sketch + 5 signed print of my art (French, English or Spanish) + 5 postcards+ 5 posters.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-06T06:37:48+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=373836\u0026rid=554613",
+     "user_limit": 2
+    },
+    "id": "554613",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 2,
+     "created_at": "2016-05-25T00:54:49+00:00",
+     "description": "All my work translate in English, Spanish by professional and on a web site.",
+     "reached_at": null,
+     "title": "Draw and translate 2 artworks by month and create a web site"
+    },
+    "id": "436386",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 1,
+     "created_at": "2016-05-25T01:12:39+00:00",
+     "description": "Take an Half-time job to have time to draw.",
+     "reached_at": null,
+     "title": "Become independant"
+    },
+    "id": "436407",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 0,
+     "created_at": "2016-05-25T01:58:01+00:00",
+     "description": "Buy professional equipment: Computer",
+     "reached_at": null,
+     "title": "Become an independant professional artist"
+    },
+    "id": "436436",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/373836"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "cb20490d-ecd8-4dad-9fcc-5b09c2c0fd5d",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Yannick Vicente is creating Art drawings"
+});
+    </script>

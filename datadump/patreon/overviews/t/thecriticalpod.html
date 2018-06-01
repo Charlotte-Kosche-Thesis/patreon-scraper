@@ -1,0 +1,705 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "uBXSDHgdlK-y6AN8xeyxOzvuIpVszijIsOFmH48DUlA";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "868990",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/868990"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-02-15T04:42:26+00:00",
+    "creation_name": "THE CRITICAL PODCAST",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1542944/3fbcbfcbeae44e63a2cc21af51616a55?token-time=2145916800\u0026token-hash=_owpxxUFNHH38zTUi1SLJK9u7uSxrd9gmV32RwX7y18%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/1542944/3fbcbfcbeae44e63a2cc21af51616a55?token-time=2145916800\u0026token-hash=EfoyvYFBheJA8MHa1pwedVaqYJFAOYb2PLV-XFvSDqo%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 12,
+    "pay_per_name": "month",
+    "pledge_sum": 4406,
+    "pledge_url": "/bePatron?c=1542944",
+    "published_at": "2018-04-07T08:57:32+00:00",
+    "summary": "Welcome to the Critical Podcast! Thank you for your support!\u00a0"
+   },
+   "id": "1542944",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9793685",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9793685"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1123039",
+       "type": "goal"
+      },
+      {
+       "id": "1123040",
+       "type": "goal"
+      },
+      {
+       "id": "1123041",
+       "type": "goal"
+      },
+      {
+       "id": "1123042",
+       "type": "goal"
+      },
+      {
+       "id": "1123043",
+       "type": "goal"
+      },
+      {
+       "id": "1123044",
+       "type": "goal"
+      },
+      {
+       "id": "1123045",
+       "type": "goal"
+      },
+      {
+       "id": "1123046",
+       "type": "goal"
+      },
+      {
+       "id": "1123047",
+       "type": "goal"
+      },
+      {
+       "id": "1123048",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2400686",
+       "type": "reward"
+      },
+      {
+       "id": "2400688",
+       "type": "reward"
+      },
+      {
+       "id": "2400689",
+       "type": "reward"
+      },
+      {
+       "id": "2400690",
+       "type": "reward"
+      },
+      {
+       "id": "2400692",
+       "type": "reward"
+      },
+      {
+       "id": "2400693",
+       "type": "reward"
+      },
+      {
+       "id": "2400696",
+       "type": "reward"
+      },
+      {
+       "id": "2400698",
+       "type": "reward"
+      },
+      {
+       "id": "2400700",
+       "type": "reward"
+      },
+      {
+       "id": "2400699",
+       "type": "reward"
+      },
+      {
+       "id": "2400703",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-02-15T04:41:32+00:00",
+     "facebook": "https://www.facebook.com/thecriticalpod",
+     "first_name": "CRITICAL",
+     "full_name": "CRITICAL",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/9793685/2f2808f073b347e998b430e812f78992?token-time=2145916800\u0026token-hash=SyW8GSR0okeCKsqD8F2XAqNrZYmj4jKeIVVwJBH3QHQ%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9793685/2f2808f073b347e998b430e812f78992?token-time=2145916800\u0026token-hash=RsqaK_0YuOocYYvWFAepc0hpNH9l_6TXUFpxA2bV-yk%3D",
+     "twitch": null,
+     "twitter": "thecriticalpod",
+     "url": "https://www.patreon.com/thecriticalpod",
+     "vanity": "thecriticalpod",
+     "youtube": null
+    },
+    "id": "9793685",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1542944",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1542944"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-02-25T09:17:56.919773+00:00",
+     "description": "You want to show your appreciation for Critical!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-25T09:17:56.919773+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T09:17:56.919773+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Basic Critter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1542944\u0026rid=2400686",
+     "user_limit": null
+    },
+    "id": "2400686",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-02-25T09:18:28.174685+00:00",
+     "description": "A fan of Critical",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-25T09:18:28.174685+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T09:18:28.174685+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Critter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1542944\u0026rid=2400688",
+     "user_limit": null
+    },
+    "id": "2400688",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 800,
+     "amount_cents": 800,
+     "created_at": "2018-02-25T09:19:10.380867+00:00",
+     "description": "Same price as a cup of coffee, support the podcast, and 1 star-Critter!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-25T09:19:10.380867+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T09:19:10.380867+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Basic Cup of Coffee",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1542944\u0026rid=2400689",
+     "user_limit": null
+    },
+    "id": "2400689",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-25T09:20:07.202143+00:00",
+     "description": "True 3-star critter. Sincere fan of Critical.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-25T09:20:07.202143+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T09:20:07.202143+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Organic cup of Coffee",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1542944\u0026rid=2400690",
+     "user_limit": null
+    },
+    "id": "2400690",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-02-25T09:20:49.079517+00:00",
+     "description": "5-star critter. Ready to show support for their favorite podcast!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-25T09:20:49.079517+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T09:20:49.079517+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Keep the lights on",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1542944\u0026rid=2400692",
+     "user_limit": null
+    },
+    "id": "2400692",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-02-25T09:21:46.665691+00:00",
+     "description": "Top fan buys 2 cups of good coffee for show hosts Nick \u0026amp; David!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-25T09:21:46.665691+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T09:21:46.665691+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "2 cups Organic Coffee",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1542944\u0026rid=2400693",
+     "user_limit": null
+    },
+    "id": "2400693",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-02-25T09:22:46.600390+00:00",
+     "description": "Large bag of coffee beans, good to keep the show shelf stocked!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-25T09:22:46.600390+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T09:22:46.600390+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Bag of coffee beans",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1542944\u0026rid=2400696",
+     "user_limit": null
+    },
+    "id": "2400696",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2018-02-25T09:23:30.525360+00:00",
+     "description": "Years supply of coffee beans! Needed for extra production. THanks!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-25T09:23:30.525360+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T09:23:30.525360+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Crate of Coffee Beans",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1542944\u0026rid=2400698",
+     "user_limit": null
+    },
+    "id": "2400698",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2018-02-25T09:25:22.855776+00:00",
+     "description": "We rent a small plot of land to grow coffee to supplement our normal buying of coffee.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-25T09:25:22.855776+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T09:25:22.855776+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patch of coffee + supplies",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1542944\u0026rid=2400700",
+     "user_limit": null
+    },
+    "id": "2400700",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300000,
+     "amount_cents": 300000,
+     "created_at": "2018-02-25T09:24:16.942390+00:00",
+     "description": "Fund small coffee operation to no longer rely on store bought coffee.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-25T09:24:16.942390+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T09:24:16.942390+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Farming costs small Coffee Plantation",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1542944\u0026rid=2400699",
+     "user_limit": null
+    },
+    "id": "2400699",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500000,
+     "amount_cents": 1500000,
+     "created_at": "2018-02-25T09:26:29.005460+00:00",
+     "description": "We produce coffee for you and ship world wide with your heroic support!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-25T09:26:29.005460+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-25T09:26:29.005460+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Coffee Factory \u0026 Plantation",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1542944\u0026rid=2400703",
+     "user_limit": null
+    },
+    "id": "2400703",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000,
+     "completed_percentage": 100,
+     "created_at": "2018-02-25T09:31:59+00:00",
+     "description": "Getting off the ground",
+     "reached_at": "2018-04-19T14:39:02+00:00",
+     "title": ""
+    },
+    "id": "1123039",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 22,
+     "created_at": "2018-02-25T09:31:59+00:00",
+     "description": "Keeping this thing going",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1123040",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 58,
+     "created_at": "2018-02-25T09:31:59+00:00",
+     "description": "People telling their friends about Critical",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1123041",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 4,
+     "created_at": "2018-02-25T09:31:59+00:00",
+     "description": "\u003cdiv style=\"margin-left: 20px;\"\u003eCritical fanbase starts its meteoric rise\u003c/div\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1123042",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-25T09:31:59+00:00",
+     "description": "\u003cdiv style=\"margin-left: 20px;\"\u003eEveryone\u0027s talking about critical podcast\u003c/div\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1123043",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-25T09:31:59+00:00",
+     "description": "We make Critical Podcast full time",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1123044",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-25T09:31:59+00:00",
+     "description": "Expand to Critical TV show, daily",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1123045",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-25T09:31:59+00:00",
+     "description": "24 hour Critical Cycle begins",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1123046",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-25T09:31:59+00:00",
+     "description": "Critical movie, game \u0026amp; Netflix show all planned",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1123047",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-25T09:31:59+00:00",
+     "description": "Critical buys majority shares in mainstream media companies.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1123048",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1542944"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "1f350001-81b4-48bd-95c3-5632b7f0445c",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "CRITICAL is creating THE CRITICAL PODCAST"
+});
+    </script>

@@ -1,0 +1,463 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "fH_EcQRQpytARRSm-iHPjEh6sx-7mGXFx_v0QNKrPkw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "702447",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/702447"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-01-01T18:37:05+00:00",
+    "creation_name": "Glitchy punk music",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1432545/5c07dfadfea8464fbf5790d29a6e4543?token-time=2145916800\u0026token-hash=lYvwDX3wPaDsMZ_GMSV1ldj4-MIRkFGmor6CnCgj4yo%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1432545/5c07dfadfea8464fbf5790d29a6e4543?token-time=2145916800\u0026token-hash=r6PBI3nsqgGlRml4rkdH76Gl5NjX0oiVV-pi4Hsqwyw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/HDQfG1t8eSg\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://youtu.be/HDQfG1t8eSg",
+    "one_liner": null,
+    "patron_count": 8,
+    "pay_per_name": "month",
+    "pledge_sum": 1073,
+    "pledge_url": "/bePatron?c=1432545",
+    "published_at": "2018-01-08T19:01:26+00:00",
+    "summary": "Regdar and the Fighters has been creating weird glitch-punk since 2007. In 2008, we started incorporating randomized, procedural drum and synth sounds into our live show and recordings. (Regdar is the computer; we gave him free-will, and he makes strange decisions.)\u003cbr\u003e\u003cbr\u003eNow, it\u0027s time to give you, the listener, access to those same tools.\u003cbr\u003e\u003cbr\u003eWhenever we release a new song, Regdar will re-randomize his drum and synth sounds for each and every supporter. You will get a custom MP3 unique to you. Higher reward tiers will also include remix kits with Creative Commons licenses, physical merch, and even the ability to dictate what we write songs about.\u003cbr\u003e"
+   },
+   "id": "1432545",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9082574",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9082574"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1064164",
+       "type": "goal"
+      },
+      {
+       "id": "1075256",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1432545",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1432545"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2278021",
+       "type": "reward"
+      },
+      {
+       "id": "2249402",
+       "type": "reward"
+      },
+      {
+       "id": "2249422",
+       "type": "reward"
+      },
+      {
+       "id": "2249557",
+       "type": "reward"
+      },
+      {
+       "id": "2259013",
+       "type": "reward"
+      },
+      {
+       "id": "2249589",
+       "type": "reward"
+      },
+      {
+       "id": "2258782",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-01-01T18:11:07+00:00",
+     "facebook": "https://www.facebook.com/regdarandthefighters",
+     "first_name": "Regdar",
+     "full_name": "Regdar and the Fighters",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiNSIsInciOjIwMH0%3D/patreon-media/user/9082574/8bb58869830d42219dd00561465d71e9?token-time=2145916800\u0026token-hash=4AYaCv8OQ15GCj1UtQLMUMSNYNdwid-C46xT--XDTU8%3D",
+     "last_name": "and the Fighters",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiI1IiwidyI6MTAwfQ%3D%3D/patreon-media/user/9082574/8bb58869830d42219dd00561465d71e9?token-time=2145916800\u0026token-hash=d0knjPgJIqmiIPBlzu_T_GuKBVmJD9T7e5oEmxoJT-A%3D",
+     "twitch": null,
+     "twitter": "regdarfighters",
+     "url": "https://www.patreon.com/vomithatsteve",
+     "vanity": "vomithatsteve",
+     "youtube": "https://www.youtube.com/regdarandthefighters"
+    },
+    "id": "9082574",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1432545",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1432545"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 6,
+     "upgrade_url": "/bePatron?c=1432545\u0026rid=2278021"
+    },
+    "id": "post-aggregation-for-0-1432545",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-01-12T03:36:53.288605+00:00",
+     "description": "For every RatF song released, you will receive a customized version with Regdar\u0027s drum and synth parts re-randomized.\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n(Minimum 1 song per month)",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T03:36:53.288605+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2278021/412b7e91e26b4bb49469ebd875c2779b?token-time=2145916800\u0026token-hash=81g8nypfyVIi2OEqbMsDR1q524LZ7sCRUMjd1acUwNo%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T03:36:53.288605+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "MP3s",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1432545\u0026rid=2278021",
+     "user_limit": null
+    },
+    "id": "2278021",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-01-01T19:04:54.678519+00:00",
+     "description": "You get the \"MP3s+FLAC+Remix kit\" tier at a special, limited, early-bird price!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e(Minimum 1 song per month)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T03:35:42.365239+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2249402/cb453f847ccd40b0b51b57450c1140d9?token-time=2145916800\u0026token-hash=ItbuLIbJEDoWRP-0JOvXIp70yzUR-t102O0qpxHhgLI%3D",
+     "patron_count": 6,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T03:35:42.343284+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "MP3s + Remix kits - Early Bird!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1432545\u0026rid=2249402",
+     "user_limit": 10
+    },
+    "id": "2249402",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-01-01T19:15:49.115692+00:00",
+     "description": "For every RatF song released, you will receive a customized version with Regdar\u0027s drum and synth parts re-randomized in both MP3 and lossless FLAC formats.\u003cbr\u003e\nPlus! You will receive a remix kit consisting of your personalized tracks and all the original stems issued under a Creative Commons Attribution-ShareAlike 4.0 Int. license.\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-04T22:26:21.521160+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2249422/26cf0a25dcd04814a3558a6e1c94cdcb?token-time=2145916800\u0026token-hash=jDQKbCmEYRXNd7wrG3p_PYMdfRgd1gG8qOal7gLpir0%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-04T22:26:21.469838+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "MP3s+FLAC+Remix kit",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1432545\u0026rid=2249422",
+     "user_limit": null
+    },
+    "id": "2249422",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-01-01T20:09:25.296331+00:00",
+     "description": "In addition to the customized tracks and remix kits, in the other tiers, supporters at this level will receive physical copies of all RatF CDs as they are released. Fans in the continental US will also receive other swag and merch.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e(Minimum 1 CD per year)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-04T22:13:07.093840+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2249557/52e3c17176694246a5879420f3532e71?token-time=2145916800\u0026token-hash=EkW_4N8tJ8P7GUoNF5lm6q8SDNvgrAqlQcoLWICNleU%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-04T22:13:07.069454+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Physical media",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1432545\u0026rid=2249557",
+     "user_limit": null
+    },
+    "id": "2249557",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-01-04T22:44:45.408582+00:00",
+     "description": "Pick a topic, any topic. We\u0027ll write a song about it. (Note: we\u0027re very sarcastic, so there\u0027s no guarantee we\u0027ll say *nice* things about the topic). Each year that you keep supporting us at this level, we\u0027ll write another one for you.\n\u003cp\u003ePlus you get all the physical media, remix kits, etc!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-04T22:57:17.523383+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2259013/a653e61485844d4e83746be3fbbce607?token-time=2145916800\u0026token-hash=UczmKiUgko7oqtVoMpvkJG9HhzzqJ2x1UVg1PaotUDg%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-04T22:57:17.431885+00:00",
+     "remaining": 9,
+     "requires_shipping": true,
+     "title": "Pick a song topic",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1432545\u0026rid=2259013",
+     "user_limit": 10
+    },
+    "id": "2259013",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-01T20:23:43.135622+00:00",
+     "description": "In addition to all the merch and music, if you live in the continental US, Alaska, or Canada we will play a minimum of 1 concert in your area per year. You will be given back-stage, guest-list access at any concert you attend.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e(We\u0027ll contact you regarding venue recommendations, logistics, etc. Please note that this does not include a custom song.)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-04T22:46:39.975860+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2249589/3aec3002fd3043e1ab0262ac6bb3a50c?token-time=2145916800\u0026token-hash=pVwVhxwSpVGosZUdRjnlUsmnT02TYqR4-QJ_IkFEU0c%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-04T22:46:39.947528+00:00",
+     "remaining": 25,
+     "requires_shipping": true,
+     "title": "Yearly Concert",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1432545\u0026rid=2249589",
+     "user_limit": 25
+    },
+    "id": "2249589",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-01-04T21:17:50.009650+00:00",
+     "description": "In addition to all the other rewards - including VIP shows and custom songs - supporters at this level gain access to the code base.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou can see just how the sausage is made: the drum samples, the F/OSS tools, the poorly-formatted code, the GPL. Included are my notes to myself allowing you to build your very own Regdar should you so wish.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-04T22:47:18.797514+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2258782/e686bae45d6a421caa98fb1c1bf68b10?token-time=2145916800\u0026token-hash=m8pmPH_U0vPqeMiHqtCmAUAuAdQ3eR_uUZwi0UusoCY%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-04T22:47:18.763259+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Codebase access",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1432545\u0026rid=2258782",
+     "user_limit": 5
+    },
+    "id": "2258782",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 2,
+     "created_at": "2018-01-01T22:42:52+00:00",
+     "description": "Five hundred bucks?! Shoot! We\u0027re gonna make some real music videos! As of now, we\u0027re doing quick lyric or tracking videos for most songs.\u003cbr\u003eBut if we reach this level, we will work with various semi-to-professional videos and to a real music video every month!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1064164",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 42,
+     "created_at": "2018-01-12T04:01:38+00:00",
+     "description": "Guaranteed one old song per month.\u003cbr\u003e\u003cbr\u003eWe have a ton of old material we\u0027ve released over the last decade. Once we reach this level, we\u0027ll start releasing a minimum of one old song, remixed and customized for you, per month in addition to the new one.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1075256",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1432545"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "4535f592-a1de-4e55-b9b6-6ff0abe36343",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Regdar and the Fighters is creating Glitchy punk music"
+});
+    </script>

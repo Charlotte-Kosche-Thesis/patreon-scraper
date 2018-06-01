@@ -1,0 +1,482 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "IsZHTd4VYWB0nDGJscpzkuv5MJsSWEFplZh8yOOCo28";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "873704",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/873704"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-06-21T14:43:59+00:00",
+    "creation_name": "watercolor paintings and brush pen drawings!",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI0IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/400376/25310d627d76429c93f443183fad1e0e?token-time=2145916800\u0026token-hash=0pxiGJrYgtZ96sL8BURBlj6DyDLt9Og9RNiSVi5E0gs%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNCJ9/patreon-media/campaign/400376/25310d627d76429c93f443183fad1e0e?token-time=2145916800\u0026token-hash=nZ5pSZxPLoYQCcB20e_nucynP1RxF8k1F5C4575VNms%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=400376",
+    "published_at": "2018-04-10T20:23:58+00:00",
+    "summary": "\u003cstrong\u003eHo boy, where to start? Hello, my name is Sonya, but most folks know me as Otekah Sunshield, THE MIGHTY TAUREN PALADIN!\u00a0\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e*cough*\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/dc0l9fsxgFJ5PZj3jzQegYYVUocwt_LLrwrqOc2mxWgQjVcT2ABM6-Wd5XtXE8CxEQmwNsy_x_JFlKJtbBToJNpchCy3a_KjinVo0gpmBqy-NfDT9hA-fush2jjY6ipMyr4lD-mpxbS8R67ezqXEgB8wViNene7ZAZCosiyGA7f5OH9lSM71vNS1L6i3b8ePlvr9zNe-mPTuGZZEp26q3gU5ni8hV6gKBORxshUOTeRFfE3dNWfeoa4louuPLauqfVquVFrpInoxxDpnHig3uVp7Y07tfWWlk5jFVWGI2np90wBD51jwpZkiFfmoL5HMjFpRsMg0ZaQe3dDIzvnZHIcyU9bt-Hm8JbFu4QLHFNLAq1qrfOzmdGtLQQsbaHwiqApVWAS6S0YnAqPBQypmC_m0umIfCVNw6TSy0ImC1OYuNuGChU-PcBcieXoy583bynwFrhgsUZzVfa7aTEsprSW9pQiU9ZorORE_TnIWXQGDGqDNXbNZkAItPI30Ehl0OvqWJZg4Kk1Ty4e7I1ajxwbYhcteddmcTzSpQ3r30qVI27EwJsqflzVEjjU8-VD9Dwci1YbV7TBpQ48DBvXRcrcQplZGTfyBmcHJdUs=w1367-h384-no\"\u003e\u003cbr\u003e(banner courtesy of\u00a0\u003ca href=\"https://twitter.com/VicinityThree\" target=\"_blank\"\u003e@VicinityThree\u003c/a\u003e)\u003cbr\u003e\u003cbr\u003eIn all seriousness, I spend most of my online life on World of Warcraft, Diablo 3, Hearthstone, and Twitter.\u00a0 As such, I draw a lot of inspiration from the worlds that Blizzard has created, as well as other video games, cartoons, and other pop culture-y things.\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/L4yOSkIahM66ylMS0bmdmvoKMGqiKfPvmJD3saybTCvi6AHiGGbPgYDbGgwH6q56PbZmjEnuVjWFpYvYKrdYdk0QyG1zOBzKU1PkBeZolA9zOeHEgLXWanywr3MvYdkLeAGaGhW3CygRdDxaCVpPVoG1Usi8KI2WK9rtHa1uqQzQOqQ55-mwZS5uQr4bc5-LoLVX_ILla3jDdjKUpxRNqDeF1RF62F5zkEM9aWfAu96ku53e6KANfGEIpNWWzTvQawByD76rv1hozjYzRCKLaLHCDlbk9zMeng4X3cEzQTosJkA9pcuaKKLiqSQuJf7Z35C8NFZRTo-_3b4CIFEaqCIF3PPmKdjf4Kg9yoBdVkOlgSjyBPshPCAe2b4ePtxkNZwQ8KJtRGhw9ZXTzu76nrHSXcD3tuEjJgv_7xLudhcGwdbJOOtDdQrOE8jga50FSpffZJsQcP7e5QEoSwRj-NjoTOpfWuPnxru9sQ07jY1ZMtmVVVLls3oSqKpWc6E8UV7Flg9U179xJNkznwGXrl6F4vm3_gutm48kumbz1yXFlb0xhQ7qmNf6flpTUqxzP9pP-yucntty4qA-SteltYdb7AG7tD3jgb-M78U=w1367-h216-no\"\u003e\u003cbr\u003e\u003cbr\u003eMy ultimate goal is to be able to support myself and my family by making art. It\u0027s what I love. By supporting me here on Patreon, you\u0027ll be helping me toward that goal a bit at a time while getting some kick ass loot at the same time!\u00a0 Your support will go to purchasing new/better supplies, equipment, and will help fund cool merchandise like stickers and pins!\u003cbr\u003e\u003cbr\u003ePatrons will receive access to a variety of awesome goodies, such as sketches, works in progress, coloring pages, and even a tiered discount to my Etsy shop!\u00a0 Patrons will also receive early access to commission slots and merch before it hits Etsy.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/ikv8letV0s-qry_JneKYKZFPTbsceBwVpwMsbfGDR65k5TOyvLxNmdSiZcZK9phfA7cV2umUvrahKgR0AxdKIW3UeUpS0szcS0lfTqLEASEIoiLl-_qEiziN_pKlN2VveHrVD07emx3FaUHSQZOPFLhTD9eX2bFfuvDOLuAa-czXwtWPQSu-lPQBZgcNcxqPeL_KP8USmg7V35QiDoUhCpx56gtTMezwrSiVpeWZIwaR8m2LHm43ggUDoD7DHeKiUXTiAjCiccgKeXiXqaL9nzPxo8M4s7HC-WpUtemAvfD58ohESV_i1yKvdbe8VsHB3nV5_T1UL-in4Ld3Z__ef8znJZIm24rYUSbftKw4wAqGI7DNrHT1sNv1ygC3j4ouY94rrvFhQmXI8EPbRci4i4EaZTWs9NL9we9ouqIgWl6qlCa7vq0PdeKeL_fJ9qJ50QLvhLv0DxqJSRiN_KT36rX3AmLVrzZMZQRa2j5tWzP2ZJSTaofUTps7UpLzeUTx3yztiJaoevS9O-YiUrhyEEaCHLGsqL1PTrzUULv6UD-oUl8pkdaYnuywkAQdC0Ih7D86BO0-MCViA9pYrroXXf2yeoTZT1mCfZbWv78=w1367-h342-no\"\u003e\u003cbr\u003e\u003cbr\u003eEven $1 is so super helpful and goes such a long way. Most things will be posted publicly or be available for sale eventually, as I\u0027m not intending this to be a paywall.\u00a0 I just really want to use this as a support platform for those who appreciate my work and want to show their support.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eOther ways to help?\u003c/strong\u003e\u003cbr\u003eIf Patreon isn\u0027t your thing, check out the links below to show your support! Spread the word!\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e\u003ca href=\"http://Ko-fi.com/otekah \" target=\"_blank\"\u003eKo-fi\u003c/a\u003e\u003cbr\u003e\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://www.etsy.com/shop/SunshieldCreations\"\u003eEtsy\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003eThank you all for your support! Much love!\u003cbr\u003e\u003cbr\u003eMoo!\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "400376",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3247183",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3247183"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "461160",
+       "type": "goal"
+      },
+      {
+       "id": "461162",
+       "type": "goal"
+      },
+      {
+       "id": "760443",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "101788",
+       "type": "patron_goal"
+      },
+      {
+       "id": "101795",
+       "type": "patron_goal"
+      },
+      {
+       "id": "101796",
+       "type": "patron_goal"
+      },
+      {
+       "id": "101797",
+       "type": "patron_goal"
+      },
+      {
+       "id": "101798",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-400376",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-400376"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "587570",
+       "type": "reward"
+      },
+      {
+       "id": "587571",
+       "type": "reward"
+      },
+      {
+       "id": "587572",
+       "type": "reward"
+      },
+      {
+       "id": "587573",
+       "type": "reward"
+      },
+      {
+       "id": "2616958",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "-Otekah Sunshield",
+     "created": "2016-05-02T17:56:47+00:00",
+     "facebook": "",
+     "first_name": "Otekah",
+     "full_name": "Otekah",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiNCIsInciOjIwMH0%3D/patreon-media/user/3247183/b509566e1145443f80197303ccf70f1f?token-time=2145916800\u0026token-hash=2Ez15UXIx5osaFZS016lM6xY4kfhatVlhLCCyrMJ2mE%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiI0IiwidyI6MTAwfQ%3D%3D/patreon-media/user/3247183/b509566e1145443f80197303ccf70f1f?token-time=2145916800\u0026token-hash=3QB_E7miDiP2IQyt5dtGZQxmInN65rhAX7OsasqNxwE%3D",
+     "twitch": "Twitch.tv/Otekah",
+     "twitter": "OtekahSunshield",
+     "url": "https://www.patreon.com/SunshieldCreations",
+     "vanity": "SunshieldCreations",
+     "youtube": ""
+    },
+    "id": "3247183",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "400376",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/400376"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 20,
+     "upgrade_url": "/bePatron?c=400376\u0026rid=587571"
+    },
+    "id": "post-aggregation-for-0-400376",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-06-21T19:24:49+00:00",
+     "description": "Access to my Patreon Activity Feed which includes:\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eWorks in Progress.\u003c/li\u003e\n\u003cli\u003eSketch dumps and thought processes for future works.\u003c/li\u003e\n\u003cli\u003e5% discount code towards commissions and Etsy.\u003c/li\u003e\n\u003cli\u003eOccasional Line Arts for download. \u003cbr\u003e\n\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-19T20:11:50.179884+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/587570/d3b232e03f454616a0008bd1601bd4ac?token-time=2145916800\u0026token-hash=K9xDrSKK8dSNjDozwi3s2zb13GYyBh3PF_-hde4pYKk%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-19T20:11:50.169935+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tip Jar!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=400376\u0026rid=587570"
+    },
+    "id": "587570",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-06-21T19:24:49+00:00",
+     "description": "\u00a0\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eAll Previous Tier Rewards!\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eUpgraded to 10% discount towards commissions and Etsy.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eAccess to voting on future projects.\u003c/li\u003e\n\u003cli\u003eEarly access to commission slots.\u003c/li\u003e\n\u003cli\u003eDoodle requests - submit your ideas for my lunch time work doodles.\u003cbr\u003e\n\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-19T20:21:08.756033+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjQwMH0%3D/patreon-media/reward/587571/fbc7ced536884acb83f12de91da107d0?token-time=2145916800\u0026token-hash=ccZjifAP2jcbFM4OmcXXJxjLFuD6Tyh9xIr4bKzWdLI%3D",
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-05-19T20:21:08.746499+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Rare Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=400376\u0026rid=587571"
+    },
+    "id": "587571",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-06-21T19:24:49+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eAll Previous Tier Rewards!\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eUpgraded to 15% discount towards commissions and Etsy.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eAccess to downloads of completed, non-commission works.\u003c/li\u003e\n\u003cli\u003eEntry into a monthly sketch giveaway.\u003c/li\u003e\n\u003cli\u003eAccess to Time Lapse and other videos.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-19T20:21:32.240836+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMyIsInciOjQwMH0%3D/patreon-media/reward/587572/57781beb705c4164839768efb80b72c3?token-time=2145916800\u0026token-hash=Bkh1r34j3PaeKjeYH_hsnkwXCYU28MCxINefsV4CsQg%3D",
+     "post_count": 6,
+     "published": true,
+     "published_at": "2018-05-19T20:21:32.233279+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Epic Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=400376\u0026rid=587572"
+    },
+    "id": "587572",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-06-21T19:24:50+00:00",
+     "description": "\u003cu\u003e\u003cstrong\u003ePrint of the Month Club\u003c/strong\u003e\u003c/u\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eGotta get your hands on some physical goodies? This is the tier for you! \u00a0This tier includes:\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u00a0All previous tier rewards\u003c/li\u003e\n\u003cli\u003e20% discount towards commissions and Etsy.\u003c/li\u003e\n\u003cli\u003e\u00a0Monthly Print pack including:\n    \u003cul\u003e\n\u003cli\u003e1-2 small prints\u003c/li\u003e\n\u003cli\u003e1-2 vinyl stickers\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eDomestic and International Shipping included in the price of this tier. Items will be packaged in a flat rigid mailer.\u003c/em\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-19T22:33:43.135522+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMyIsInciOjQwMH0%3D/patreon-media/reward/587573/50903ef6ce3943eeb271c7e94f8a004e?token-time=2145916800\u0026token-hash=yKBbAC11XdPkSFOCl_0sXSWqfXX7I-e5cbGCzHbZPis%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-19T22:33:43.128258+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Legendary Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=400376\u0026rid=587573"
+    },
+    "id": "587573",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-05-19T21:15:45.667937+00:00",
+     "description": "\u00a0\u003cstrong\u003eThe Collector\u0027s Edition Tier!\u003c/strong\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThis tier is for the ultimate Otekah fan! This is your very own monthly art loot box, including:\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eMonthly Print pack from the Legendary Tier\u003c/li\u003e\n\u003cli\u003eSmall goodies such as small crochet plushies, pins, or possibly items from guest artists!\u003c/li\u003e\n\u003cli\u003e\u00a0Maybe baked goods or other treats?!\n    \u003cul\u003e\n\u003cli\u003e\u003cem\u003ePlease list any allergies, I don\u2019t want to kill anyone.\u003c/em\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThis tier also includes all previous tier rewards as well as an upgraded 25% discount on commissions and Etsy!\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eDomestic shipping is included in the price of this tier. International patrons, please add an additional $5 USD to your pledge to cover the extra shipping costs.\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eThis tier is limited to 10 slots due to the extra time required to complete these boxes.\u003c/em\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-19T21:15:45.667937+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2616958/39cf8798cabf4479ab3691adbc9e7270?token-time=2145916800\u0026token-hash=5fVSplu5izqFDo-00LJFyZqLnxUPCeq6Qqr-TWCSBUw%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-19T21:15:45.667937+00:00",
+     "remaining": 9,
+     "requires_shipping": true,
+     "title": "Collector\u0027s Edition!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=400376\u0026rid=2616958"
+    },
+    "id": "2616958",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 42,
+     "created_at": "2016-06-21T19:11:24+00:00",
+     "description": "At $50, I\u0027ll be able to upgrade some of my lower tier and old art supplies.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "461160",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 21,
+     "created_at": "2016-06-21T19:11:24+00:00",
+     "description": "At $100,\u00a0I will be able to register for more conventions!  Costs of tables plus supplies and hotel rooms are crazy, $100 monthly will allow me to do more cons in the not so immediate area.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "461162",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 85,
+     "created_at": "2017-03-23T13:07:41+00:00",
+     "description": "At $25, I will be able to maintain my own portfolio site/ online store independent of Etsy.\u00a0 I love Etsy for it\u0027s ease of use, but the fees pile up as business increases.\u00a0\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "760443",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-19T22:31:03+00:00",
+     "deleted_at": null,
+     "description": "\u003cdiv\u003e\u003cstrong\u003eA very special Thank you!\u003c/strong\u003e\u003c/div\u003e\u003cul\u003e\u003cli\u003eI will create a special thank you piece available for download for ALL of my Patrons as well as schedule weekly shout outs on Twitter!\u003c/li\u003e\u003c/ul\u003e",
+     "goal_text": "\u003cdiv\u003e\u003cstrong\u003eA very special Thank you!\u003c/strong\u003e\u003c/div\u003e\u003cul\u003e\u003cli\u003eI will create a special thank you piece available for download for ALL of my Patrons as well as schedule weekly shout outs on Twitter!\u003c/li\u003e\u003c/ul\u003e",
+     "number_patrons": 10,
+     "reached_at": null
+    },
+    "id": "101788",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-19T23:36:40+00:00",
+     "deleted_at": null,
+     "description": "\u003cstrong\u003eSecret Shopping!\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eI will be able to create a special store just for patrons where all merchandise will be available for early access before it hits Etsy!\u003c/li\u003e\u003c/ul\u003e",
+     "goal_text": "\u003cstrong\u003eSecret Shopping!\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eI will be able to create a special store just for patrons where all merchandise will be available for early access before it hits Etsy!\u003c/li\u003e\u003c/ul\u003e",
+     "number_patrons": 25,
+     "reached_at": null
+    },
+    "id": "101795",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-19T23:36:40+00:00",
+     "deleted_at": null,
+     "description": "\u003cstrong\u003eA special sticker package will be created and sent to all patrons!\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eSuggestions and voting will be done to determine the contents of the package.\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "goal_text": "\u003cstrong\u003eA special sticker package will be created and sent to all patrons!\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eSuggestions and voting will be done to determine the contents of the package.\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "number_patrons": 50,
+     "reached_at": null
+    },
+    "id": "101796",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-19T23:36:40+00:00",
+     "deleted_at": null,
+     "description": "\u003cstrong\u003eI\u0027ll create my first enamel pin and send one to each and every one of my patrons!\u003cbr\u003e\u003c/strong\u003e\u003cul\u003e\u003cli\u003eSuggestions and voting will be done to determine what the pin will be.\u00a0\u00a0\u003c/li\u003e\u003cli\u003eI\u0027ll be sharing my adventure of my very first pin creation with all of you!\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "goal_text": "\u003cstrong\u003eI\u0027ll create my first enamel pin and send one to each and every one of my patrons!\u003cbr\u003e\u003c/strong\u003e\u003cul\u003e\u003cli\u003eSuggestions and voting will be done to determine what the pin will be.\u00a0\u00a0\u003c/li\u003e\u003cli\u003eI\u0027ll be sharing my adventure of my very first pin creation with all of you!\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "101797",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-19T23:36:40+00:00",
+     "deleted_at": null,
+     "description": "\u003cstrong\u003eArt book!\u003c/strong\u003e\u003cbr\u003e\u003cul style=\"\"\u003e\u003cli\u003e\u003cb style=\"font-weight: bold;\"\u003e\u003c/b\u003eI will create and send out a very special art book to every patron.\u00a0\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e",
+     "goal_text": "\u003cstrong\u003eArt book!\u003c/strong\u003e\u003cbr\u003e\u003cul style=\"\"\u003e\u003cli\u003e\u003cb style=\"font-weight: bold;\"\u003e\u003c/b\u003eI will create and send out a very special art book to every patron.\u00a0\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e",
+     "number_patrons": 200,
+     "reached_at": null
+    },
+    "id": "101798",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/400376"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "6a022729-220d-48de-9b14-5f7db8855d78",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Otekah is creating watercolor paintings and brush pen drawings!"
+});
+    </script>

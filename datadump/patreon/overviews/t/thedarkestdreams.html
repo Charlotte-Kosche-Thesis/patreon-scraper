@@ -1,0 +1,817 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "V_qbOfNpU5k9c_Xesi8XxCDAwmiIbjyKpHvNA5OvEBA";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "883667",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/883667"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-04-16T17:13:07+00:00",
+    "creation_name": "The Darkest Dreams PW for Neverwinter Nights 2",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1692751/0d221328ae54432ab3d11c7a73359c73?token-time=2145916800\u0026token-hash=WnIMnpiKPZs-QCom2GjY3lBBgTdae8uyCb-sIpbsW-E%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1692751/0d221328ae54432ab3d11c7a73359c73?token-time=2145916800\u0026token-hash=SCNZfsdggHOCO1ANV4NGmerBwp5W-CEZAlUq-IIJBMU%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_sum": 8279,
+    "pledge_url": "/bePatron?c=1692751",
+    "published_at": "2018-04-17T23:30:15+00:00",
+    "summary": "We are creating content and new features for the Neverwinter Nights 2 Persistent World - \u003cstrong\u003eThe Darkest Dreams\u003c/strong\u003e.\u003cbr\u003e\u003cbr\u003eThis is our hobby and we love it, even if we can\u0027t always find as much time to invest into it as we would like to.\u003cbr\u003e\u003cbr\u003eIf you like what we are doing and what we have already done - consider supporting us on Patreon!\u003cbr\u003e\u003cbr\u003eWith your support we can do more.\u003cbr\u003e"
+   },
+   "id": "1692751",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "10777976",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/10777976"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1174433",
+       "type": "goal"
+      },
+      {
+       "id": "1174435",
+       "type": "goal"
+      },
+      {
+       "id": "1174454",
+       "type": "goal"
+      },
+      {
+       "id": "1175928",
+       "type": "goal"
+      },
+      {
+       "id": "1175929",
+       "type": "goal"
+      },
+      {
+       "id": "1175930",
+       "type": "goal"
+      },
+      {
+       "id": "1175931",
+       "type": "goal"
+      },
+      {
+       "id": "1175963",
+       "type": "goal"
+      },
+      {
+       "id": "1175964",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2533317",
+       "type": "reward"
+      },
+      {
+       "id": "2536801",
+       "type": "reward"
+      },
+      {
+       "id": "2536806",
+       "type": "reward"
+      },
+      {
+       "id": "2536818",
+       "type": "reward"
+      },
+      {
+       "id": "2537066",
+       "type": "reward"
+      },
+      {
+       "id": "2537070",
+       "type": "reward"
+      },
+      {
+       "id": "2537078",
+       "type": "reward"
+      },
+      {
+       "id": "2537079",
+       "type": "reward"
+      },
+      {
+       "id": "2537090",
+       "type": "reward"
+      },
+      {
+       "id": "2537102",
+       "type": "reward"
+      },
+      {
+       "id": "2537098",
+       "type": "reward"
+      },
+      {
+       "id": "2537056",
+       "type": "reward"
+      },
+      {
+       "id": "2536812",
+       "type": "reward"
+      },
+      {
+       "id": "2537095",
+       "type": "reward"
+      },
+      {
+       "id": "2537086",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-04-16T17:12:49+00:00",
+     "facebook": null,
+     "first_name": "TDD",
+     "full_name": "TDD Team",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/10777976/26c6def17a524389bb4bc99a315bc240?token-time=2145916800\u0026token-hash=FrigNCO-fcBACW6_yFmc5HwnG36leB-71_Wm2nEaEgI%3D",
+     "last_name": "Team",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/10777976/26c6def17a524389bb4bc99a315bc240?token-time=2145916800\u0026token-hash=rGNyu03ZgV0v5Cmxq9NkPWHz5KpgsoQl0p9PV21YKDw%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/thedarkestdreams",
+     "vanity": "thedarkestdreams",
+     "youtube": null
+    },
+    "id": "10777976",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1692751",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1692751"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-04-16T17:44:38.258614+00:00",
+     "description": "We will say \u003cstrong\u003eThank You\u003c/strong\u003e one time.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T21:52:09.699929+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T21:52:09.693128+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Goblin",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2533317",
+     "user_limit": null
+    },
+    "id": "2533317",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-04-17T20:18:47.621710+00:00",
+     "description": "We will say \u003cstrong\u003eThank You\u003c/strong\u003e twice!",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T20:20:43.276068+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T20:20:43.269307+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Kobold",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2536801",
+     "user_limit": null
+    },
+    "id": "2536801",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-04-17T20:19:50.159341+00:00",
+     "description": "One of the staff members will personally assure you that there will be no Patreon rewards on the server.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T21:52:33.101632+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T21:52:33.091623+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Bugbear",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2536806",
+     "user_limit": null
+    },
+    "id": "2536806",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-04-17T20:23:12.402017+00:00",
+     "description": "Two members of the staff will personally assure you that there will be no Patreon rewards on the server.\u00a0\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T21:51:52.540078+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T21:51:52.530575+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gnoll",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2536818",
+     "user_limit": null
+    },
+    "id": "2536818",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-04-17T21:51:33.240604+00:00",
+     "description": "\u003cstrong\u003eValor\u003c/strong\u003e will be personally assured by one staff member that eventually we will make \u003cstrong\u003eDwarven Defender\u003c/strong\u003e class better.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T21:51:33.240604+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T21:51:33.240604+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Dwarf",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2537066",
+     "user_limit": null
+    },
+    "id": "2537066",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-04-17T21:53:43.661818+00:00",
+     "description": "\u003cstrong\u003eGenbor\u003c/strong\u003e will be personally assured by one staff member that his halfling character doesn\u0027t looks like a kid.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T21:56:58.161999+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T21:56:58.152463+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Halfling",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2537070",
+     "user_limit": null
+    },
+    "id": "2537070",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-04-17T21:56:12.432106+00:00",
+     "description": "\u003cstrong\u003eFantasy Setting\u003c/strong\u003e and you choose \u003cstrong\u003eHuman\u003c/strong\u003e? \u003cem\u003e*Plain stare.*\u003c/em\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T21:58:11.072711+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T21:58:11.064300+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Human",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2537078",
+     "user_limit": null
+    },
+    "id": "2537078",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2018-04-17T21:56:43.024906+00:00",
+     "description": "We very much hope you are a female \u003cstrong\u003eElf\u003c/strong\u003e, because they are all looking like one. \u003cem\u003e*Suspicious glance.*\u003c/em\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T22:01:04.620288+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T22:01:04.613538+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Elf",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2537079",
+     "user_limit": null
+    },
+    "id": "2537079",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2018-04-17T22:00:45.018782+00:00",
+     "description": "What is with your face, friend?",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T22:00:45.018782+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T22:00:45.018782+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Half-Elf",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2537090",
+     "user_limit": null
+    },
+    "id": "2537090",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4500,
+     "amount_cents": 4500,
+     "created_at": "2018-04-17T22:04:47.463459+00:00",
+     "description": "\u003cem\u003e\u003cstrong\u003eWhat are you?\u003c/strong\u003e\u003c/em\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T22:04:47.463459+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T22:04:47.463459+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Planetouched",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2537102",
+     "user_limit": null
+    },
+    "id": "2537102",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-04-17T22:03:47.620116+00:00",
+     "description": "We will allow you to use \u003cstrong\u003eDrommon\u003c/strong\u003e in RP one day per month.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T22:03:47.620116+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T22:03:47.620116+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Drow",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2537098",
+     "user_limit": null
+    },
+    "id": "2537098",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2018-04-17T21:48:49.848581+00:00",
+     "description": "Our \u003cstrong\u003eSupreme Leader\u003c/strong\u003e will personally assure you that there will be no Patreon rewards on the server.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T21:48:49.848581+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T21:48:49.848581+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Noble Drow",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2537056",
+     "user_limit": null
+    },
+    "id": "2537056",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2018-04-17T20:21:48.085298+00:00",
+     "description": "We will officially allow you to list your ERP preferences in the character description.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T20:21:48.085298+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T20:21:48.085298+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Orc",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2536812",
+     "user_limit": null
+    },
+    "id": "2536812",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200000,
+     "amount_cents": 200000,
+     "created_at": "2018-04-17T22:02:21.240299+00:00",
+     "description": "We will add \u003cstrong\u003eReturning Throwing Weapons\u003c/strong\u003e to the server.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T22:02:21.240299+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T22:02:21.240299+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Crossbow Sniper",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2537095",
+     "user_limit": null
+    },
+    "id": "2537095",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500000,
+     "amount_cents": 500000,
+     "created_at": "2018-04-17T21:59:11.247793+00:00",
+     "description": "We will enable \u003cstrong\u003eYuan-ti\u003c/strong\u003e race on the server.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T21:59:11.247793+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T21:59:11.247793+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Yuan-ti",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1692751\u0026rid=2537086",
+     "user_limit": null
+    },
+    "id": "2537086",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3100,
+     "completed_percentage": 100,
+     "created_at": "2018-04-16T17:21:42+00:00",
+     "description": "When we reach \u003cstrong\u003e$31/month,\u003c/strong\u003e our \u003cstrong\u003eNWN2 Server Hosting\u003c/strong\u003e costs will be covered.\u003cbr\u003e",
+     "reached_at": "2018-04-21T15:59:45+00:00",
+     "title": ""
+    },
+    "id": "1174433",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 4600,
+     "completed_percentage": 100,
+     "created_at": "2018-04-16T17:23:01+00:00",
+     "description": "When we reach \u003cstrong\u003e$46/month,\u003c/strong\u003e our \u003cstrong\u003eNWN2 Server Hosting\u003c/strong\u003e and \u003cstrong\u003eWebsite Hosting\u003c/strong\u003e costs will be covered.\u003cbr\u003e",
+     "reached_at": "2018-04-21T16:10:27+00:00",
+     "title": ""
+    },
+    "id": "1174435",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 400000,
+     "completed_percentage": 2,
+     "created_at": "2018-04-16T17:41:36+00:00",
+     "description": "When we reach \u003cstrong\u003e$4,000/month,\u003c/strong\u003e our \u003cstrong\u003eSupreme Leader\u003c/strong\u003e will no longer need to work in this life and can dedicate a lot of time to developing the server!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1174454",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 6600,
+     "completed_percentage": 100,
+     "created_at": "2018-04-17T23:01:19+00:00",
+     "description": "When we reach \u003cstrong\u003e$66/month,\u003c/strong\u003e we get the \u003cstrong\u003eBackup Storage \u003c/strong\u003eand \u003cstrong\u003eAutomated Backups\u003c/strong\u003e for the server.",
+     "reached_at": "2018-04-25T11:35:35+00:00",
+     "title": ""
+    },
+    "id": "1175928",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7300,
+     "completed_percentage": 100,
+     "created_at": "2018-04-17T23:01:19+00:00",
+     "description": "When we reach \u003cstrong\u003e$73/month,\u003c/strong\u003e we get the additional \u003cstrong\u003e50GB of Disk Space \u003c/strong\u003efor the server.",
+     "reached_at": "2018-04-25T23:09:33+00:00",
+     "title": ""
+    },
+    "id": "1175929",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 8000,
+     "completed_percentage": 100,
+     "created_at": "2018-04-17T23:01:19+00:00",
+     "description": "When we reach \u003cstrong\u003e$80/month,\u003c/strong\u003e we get the additional \u003cstrong\u003e100GB of Disk Space \u003c/strong\u003efor the server.",
+     "reached_at": "2018-04-28T16:24:49+00:00",
+     "title": ""
+    },
+    "id": "1175930",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 33,
+     "created_at": "2018-04-17T23:02:40+00:00",
+     "description": "When we reach \u003cstrong\u003e$250/month,\u003c/strong\u003e we will look into moving to a \u003cstrong\u003eBetter Server\u003c/strong\u003e with all features included.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1175931",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 16,
+     "created_at": "2018-04-17T23:25:00+00:00",
+     "description": "When we reach \u003cstrong\u003e$500/month,\u003c/strong\u003e we will look into commissioning \u003cstrong\u003e3D Models / Textures\u003c/strong\u003e, and into improving existing 3D Models / Textures to enhance the game experience.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1175963",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 5,
+     "created_at": "2018-04-17T23:25:01+00:00",
+     "description": "When we reach \u003cstrong\u003e$1,500/month,\u003c/strong\u003e we will look into \ncommissioning \u003cstrong\u003eC++ Developers\u003c/strong\u003e to resume the work on \u003cstrong\u003eNWNX4 Server Extension\u003c/strong\u003e which has been stale since 2008 Year, to provide all of us with a better experience of \u003cstrong\u003eNeverwinter Nights 2\u003c/strong\u003e.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1175964",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1692751"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "5a9e5cfc-0628-4690-a85a-7367d2e83b50",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "TDD Team is creating The Darkest Dreams PW for Neverwinter Nights 2"
+});
+    </script>

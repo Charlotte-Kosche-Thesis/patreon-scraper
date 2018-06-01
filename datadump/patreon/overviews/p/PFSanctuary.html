@@ -1,0 +1,527 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "geSdiltO8wwWlwIlmEeIHQdXDXAQLj2LqxDqZgeswTM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "851323",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/851323"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-03-23T19:18:02+00:00",
+    "creation_name": "sanctuary for saved lives of farmed animals in need ",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1632726/ecf2da6dbee14f8291beddf713a1cd68?token-time=2145916800\u0026token-hash=N9SdGp1AMmCsvmCTSEk4_xdHZC7CuH1Ffp1n5xtrPUI%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1632726/ecf2da6dbee14f8291beddf713a1cd68?token-time=2145916800\u0026token-hash=oTifSZt3MBmecBzjhpXGPSoZaXn3-1rkw19g7SbfnYk%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "month",
+    "pledge_sum": 6533,
+    "pledge_url": "/bePatron?c=1632726",
+    "published_at": "2018-03-24T00:19:17+00:00",
+    "summary": "\u003cdiv style=\"text-align: center;\"\u003e\u003ca href=\"http://www.peacefulfieldssanctuary.org/\" target=\"_blank\"\u003ePeaceful Fields Sanctuary\u003c/a\u003e is a\u00a0 vegan farmed animal sanctuary located in the beautiful country of Shenandoah Valley, Virginia. The sanctuary was founded to provide a happy and healthy forever home for farmed animals in need as stewardship. Peaceful Fields Sanctuary is incorporated as a nonprofit and a 501c3. This mission of saving lives is only possible thanks to our amazing supporters! All gifts are tax deductible as per tax code.\u003cbr\u003e\"\u003cem\u003eHonoring All Creation\"\u003c/em\u003e\u003c/div\u003e"
+   },
+   "id": "1632726",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "10375682",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/10375682"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1167579",
+       "type": "goal"
+      },
+      {
+       "id": "1167580",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1632726",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1632726"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2513750",
+       "type": "reward"
+      },
+      {
+       "id": "2470316",
+       "type": "reward"
+      },
+      {
+       "id": "2470323",
+       "type": "reward"
+      },
+      {
+       "id": "2471589",
+       "type": "reward"
+      },
+      {
+       "id": "2470329",
+       "type": "reward"
+      },
+      {
+       "id": "2470355",
+       "type": "reward"
+      },
+      {
+       "id": "2470343",
+       "type": "reward"
+      },
+      {
+       "id": "2470345",
+       "type": "reward"
+      },
+      {
+       "id": "2470348",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-03-23T19:15:49+00:00",
+     "facebook": "https://www.facebook.com/peacefulfieldssanctuary/",
+     "first_name": "Peaceful",
+     "full_name": "Peaceful Fields Sanctuary",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/10375682/853b29f96a944b849cf44924c656c46c?token-time=2145916800\u0026token-hash=kShFxNw1UvS0-oAL6aCGw296on423GVZIv3530gADbA%3D",
+     "last_name": "Fields Sanctuary",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/10375682/853b29f96a944b849cf44924c656c46c?token-time=2145916800\u0026token-hash=SPT5i2a3zo7XjLa_YxO4Sq_BLMntEZyivFiNzvWrf24%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/PFSanctuary",
+     "vanity": "PFSanctuary",
+     "youtube": null
+    },
+    "id": "10375682",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1632726",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1632726"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 12,
+     "upgrade_url": "/bePatron?c=1632726\u0026rid=2513750"
+    },
+    "id": "post-aggregation-for-0-1632726",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-04-09T12:52:44.060879+00:00",
+     "description": "Take a stand to support our mission by giving a dollar a month, that\u0027s just $12 a year. You\u0027ll help to save the lives of a buck (male goat) as well as other farmed animals in need.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-09T12:52:44.060879+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-09T12:52:44.060879+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Give a buck to save a buck!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1632726\u0026rid=2513750",
+     "user_limit": null
+    },
+    "id": "2513750",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 334,
+     "amount_cents": 334,
+     "created_at": "2018-03-23T23:46:17.477699+00:00",
+     "description": "Donate a gift of $40 and PFS will feed a snack to an animal resident and share a video as a thank you.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-23T23:51:51.129043+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-23T23:51:51.122315+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Snack Thank You Video",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1632726\u0026rid=2470316",
+     "user_limit": null
+    },
+    "id": "2470316",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 417,
+     "amount_cents": 417,
+     "created_at": "2018-03-23T23:48:39.468308+00:00",
+     "description": "Donate a gift of $50 annually as a sponsor to help cover the costs of care for a chicken resident. You will receive a card with photos and a bio on your recipient.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-23T23:58:30.828811+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2470323/d21f8547c571428eace84d544028a2ae?token-time=2145916800\u0026token-hash=S5EzwP9PvCaKbnTjMhtMQGK0S64YWUtYss6CofQ6z-0%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-23T23:58:30.819492+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Chicken Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1632726\u0026rid=2470323",
+     "user_limit": null
+    },
+    "id": "2470323",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2018-03-24T16:25:00.428918+00:00",
+     "description": "Seven dollars will buy one bale of straw or hay for the sanctuary residents. Currently we average using three bales a day.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-24T16:25:00.428918+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-24T16:25:00.428918+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Buy a Bale",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1632726\u0026rid=2471589",
+     "user_limit": null
+    },
+    "id": "2471589",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-03-23T23:49:44.154105+00:00",
+     "description": "Donate a gift of $120 annually as a sponsor to help cover the costs of care for a goat resident. You will receive a card with photos and a bio on your recipient.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-23T23:59:13.683877+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2470329/57ec8c324a5b49c39834ca73b6ee73e1?token-time=2145916800\u0026token-hash=evIKGcu9YxCRM5iqGyoPCgJ4VkGdmSkE7p8qBxrCIVs%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-23T23:59:13.676938+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Goat Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1632726\u0026rid=2470329",
+     "user_limit": null
+    },
+    "id": "2470329",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1250,
+     "amount_cents": 1250,
+     "created_at": "2018-03-23T23:57:44.092996+00:00",
+     "description": "Donate a gift of $150 annually as a sponsor to help cover the costs of care for a sheep resident. You will receive a card with photos and a bio on your recipient.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-23T23:57:44.092996+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2470355/85551cb6190848978f87f791f4cc07a2?token-time=2145916800\u0026token-hash=yRo4T48AHG_9b8IyHmgw3koiKx0wimWBvsHYkn9_puE%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-23T23:57:44.092996+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Sheep Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1632726\u0026rid=2470355",
+     "user_limit": null
+    },
+    "id": "2470355",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1667,
+     "amount_cents": 1667,
+     "created_at": "2018-03-23T23:54:26.106323+00:00",
+     "description": "Donate a gift of $200 annually as a sponsor to help cover the costs of care for a pig resident. You will receive a card with photos and a bio on your recipient.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-23T23:59:41.453745+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2470343/5fca77e0cb7f4eadae216276c1244516?token-time=2145916800\u0026token-hash=G3AgVIvjGsVmbFaz1IrsWIHDfdZmOPSGNans-bjgVCw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-23T23:59:41.444378+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Pig Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1632726\u0026rid=2470343",
+     "user_limit": null
+    },
+    "id": "2470343",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-03-23T23:55:26.269532+00:00",
+     "description": "Donate a gift of $300 annually as a sponsor to help cover the costs of care for a donkey resident. You will receive a card with photos and a bio on your recipient.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-24T00:00:04.656067+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2470345/e725f81b6863400191da1fe263612d86?token-time=2145916800\u0026token-hash=1P-QD6aqM23bQuGY1G4eVDcD6ujsXT3qi9QWUD66tTQ%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-24T00:00:04.649181+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Donkey Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1632726\u0026rid=2470345",
+     "user_limit": null
+    },
+    "id": "2470345",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2600,
+     "amount_cents": 2600,
+     "created_at": "2018-03-23T23:56:31.926032+00:00",
+     "description": "Donate a gift of $312 annually as a sponsor to help cover the costs of care for a horse resident. You will receive a card with photos and a bio on your recipient.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-24T00:00:33.508358+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2470348/825f17a481bc4c18b52a03c590bfb043?token-time=2145916800\u0026token-hash=RbFqwFdrg-VSohoCzGtPEskCaJdparppfIZ5p6F2mhk%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-24T00:00:33.498182+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Horse Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1632726\u0026rid=2470348",
+     "user_limit": null
+    },
+    "id": "2470348",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 180000,
+     "completed_percentage": 3,
+     "created_at": "2018-04-10T03:10:08+00:00",
+     "description": "This is the best quote received for replacing the sanctuary\u0027s existing fencing at $21,600. The fencing was pre-existing on the property and at estimated 20 years old, is reaching its life expectancy and requires frequent repairs. With this, we can ensure all the residents continue to be safe and secure and reduce the time spent on repairs and maintenance.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1167579",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 350000,
+     "completed_percentage": 1,
+     "created_at": "2018-04-10T03:10:08+00:00",
+     "description": "When PFS reaches $3,500 a month, Peaceful Fields Sanctuary will be fully supported by YOU, our patrons for general operating expenses! Having the daily needs of all the animal residents met will allow the sanctuary to focus additional funding towards special projects, improvements and new rescues.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1167580",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1632726"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "8cb912eb-8d75-4a10-9710-20a8bf546b6f",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Peaceful Fields Sanctuary is creating sanctuary for saved lives of farmed animals in need "
+});
+    </script>

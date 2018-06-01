@@ -1,0 +1,288 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "7Knj1SvSIwxCr1-lhI6wFyZsOkqAJnO-KuIKhOlUJf8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "878845",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/878845"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-04-14T19:51:28+00:00",
+    "creation_name": "an example of how to use the Patreon PHP library",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "nothing, never charged",
+    "pledge_sum": 5103,
+    "pledge_url": "/bePatron?c=1687126",
+    "published_at": "2018-04-14T20:14:15+00:00",
+    "summary": "This campaign is a demo campaign used as part of the Patreon PHP example. \u003cstrong\u003eThis campaign will never bill you\u003c/strong\u003e. You can pledge to this campaign to test out the example \u003cstrong\u003ewithout\u003c/strong\u003e being at risk of unexpected charges.\u003cbr\u003e\u003cbr\u003eYou can visit the website where the data from this campaign is displayed at\u00a0\u003ca href=\"https://patreon.1f991.com\"\u003epatreon.1f991.com\u003c/a\u003e.\u003cbr\u003e\u003cbr\u003eYou can get started integration Patreon with your own PHP projects by visiting\u00a0\u003ca href=\"https://github.com/1f991/patreon-php\"\u003ePatreon PHP on GitHub\u003c/a\u003e.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eThis project is not associated with Patreon\u003c/strong\u003e, Patreon PHP is a third party library.\u003cbr\u003e"
+   },
+   "id": "1687126",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "10741939",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/10741939"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2528048",
+       "type": "reward"
+      },
+      {
+       "id": "2528049",
+       "type": "reward"
+      },
+      {
+       "id": "2528051",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-04-14T19:51:07+00:00",
+     "facebook": null,
+     "first_name": "Patreon",
+     "full_name": "Patreon PHP",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c8.patreon.com/2/400/10741939",
+     "last_name": "PHP",
+     "thumb_url": "https://c8.patreon.com/2/100/10741939",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/patreonphp",
+     "vanity": "patreonphp",
+     "youtube": null
+    },
+    "id": "10741939",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1687126",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1687126"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-04-14T19:55:06.125896+00:00",
+     "description": "Just a reward without anything granted",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-16T19:31:37.352621+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-16T19:31:37.345730+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Example",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687126\u0026rid=2528048",
+     "user_limit": null
+    },
+    "id": "2528048",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-04-14T19:55:37.153637+00:00",
+     "description": "Your name will display in purple on the example website",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-14T19:55:37.153637+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-14T19:55:37.153637+00:00",
+     "remaining": 8,
+     "requires_shipping": false,
+     "title": "Purple Name",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687126\u0026rid=2528049",
+     "user_limit": 10
+    },
+    "id": "2528049",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3333,
+     "amount_cents": 3333,
+     "created_at": "2018-04-14T19:56:40.998649+00:00",
+     "description": "A squid emoji will be displayed next to your name on the example site",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-14T20:34:51.250045+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-14T20:34:51.242430+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "Emoji",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1687126\u0026rid=2528051",
+     "user_limit": 5
+    },
+    "id": "2528051",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1687126"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "6eeec5d1-ce19-4ab0-8ae5-980f311eecc0",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Patreon PHP is creating an example of how to use the Patreon PHP library"
+});
+    </script>

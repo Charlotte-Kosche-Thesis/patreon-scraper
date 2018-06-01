@@ -1,0 +1,418 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "eA70rRgKx1Lk6GBBXf07oq45cmsNBpq4Nm91aQ6q3bo";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "397061",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/397061"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-03-28T04:57:04+00:00",
+    "creation_name": "The Rock Your Retirement Show",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/818540/2e772609e8524427b08212720bba4214?token-time=2145916800\u0026token-hash=FbgElsGFUOznfgeg6I1imRwKKCvWkhw8nYyL5knRP0A%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/818540/2e772609e8524427b08212720bba4214?token-time=2145916800\u0026token-hash=W4nsaWW5HuDbiNP8ST8TsG-L6jvZ59XH8m2xj5Ovu3k%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=818540",
+    "published_at": "2017-03-28T16:59:21+00:00",
+    "summary": "\u003cimg src=\"http://rockyourretirement.com/wp-content/uploads/2017/03/Kathe-at-Fake-TV-e1490659879608.jpg\"\u003e\u003cbr\u003eI\u0027m so glad you found me!\u003cbr\u003e\u003cbr\u003eI created the Rock Your Retirement show so that you can have a better retirement. \u00a0I hope that you find the show educational, creative, and fun.\u003cbr\u003e\u003cbr\u003eI don\u0027t accept advertising on the show, except sometimes I have fun little bits about other podcasts, and in my older episodes I had bits from one of the people I\u0027d interviewed or even my day job.\u00a0\u003cbr\u003e\u003cbr\u003eI hope that you enjoy the show enough to sponsor me. \u00a0It would mean the world to me, and every bit helps me with the ability to continue producing the show for you.\u003cbr\u003eEven the minimum helps.\u003cbr\u003e\u003cbr\u003eXXOO\u003cbr\u003e\u003cbr\u003eKathe"
+   },
+   "id": "818540",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5466006",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5466006"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "766199",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "6810",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-818540",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-818540"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1920178",
+       "type": "reward"
+      },
+      {
+       "id": "1920190",
+       "type": "reward"
+      },
+      {
+       "id": "1536657",
+       "type": "reward"
+      },
+      {
+       "id": "1536660",
+       "type": "reward"
+      },
+      {
+       "id": "1536661",
+       "type": "reward"
+      },
+      {
+       "id": "1920204",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-03-28T04:56:55+00:00",
+     "facebook": null,
+     "first_name": "Kathe",
+     "full_name": "Kathe Kline",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5466006/fbb5abffac1142639e3fc321ef8f4be6?token-time=2145916800\u0026token-hash=51LvMWHVTBwiZ8fkJ5ngTvI0gK7KRet8hET-oTr70kU%3D",
+     "last_name": "Kline",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5466006/fbb5abffac1142639e3fc321ef8f4be6?token-time=2145916800\u0026token-hash=yOulE6acMW9HeLTL3Ukpo-EqE3Q_Os5P5gbxEF0F36I%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/RockIt",
+     "vanity": "RockIt",
+     "youtube": null
+    },
+    "id": "5466006",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "818540",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/818540"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 1,
+     "upgrade_url": "/bePatron?c=818540\u0026rid=1920190"
+    },
+    "id": "post-aggregation-for-0-818540",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-08-12T17:21:57.517133+00:00",
+     "description": "Help the show for only $1 a MONTH! \u00a0You will receive my heartfelt gratitude and the satisfaction of knowing that you are helping the show!",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-12T17:26:12.415756+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1920178/48c7779e47914838be28cd86ce3f8fae?token-time=2145916800\u0026token-hash=qyeYifythpj3LHpYCXxvqCxRZsr7iK1CPEEERo5RgkE%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-12T17:24:51.472636+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Herman\u0027s Hermits",
+     "unpublished_at": null,
+     "url": "/bePatron?c=818540\u0026rid=1920178"
+    },
+    "id": "1920178",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-12T17:32:17.202108+00:00",
+     "description": "The Doors level is $5 per month. \u00a0If you are at this level, I\u0027ll say your name one time on my show as a thank you!",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-12T17:32:17.710670+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1920190/3a807d28284d4c0da039eafe472cb352?token-time=2145916800\u0026token-hash=2gKxEfpS2Am4GjKehVCWTUSdmSAIVXS9_dSPaezqq24%3D",
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-08-12T17:32:17.202108+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Doors",
+     "unpublished_at": null,
+     "url": "/bePatron?c=818540\u0026rid=1920190"
+    },
+    "id": "1920190",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-03-28T05:15:55.800473+00:00",
+     "description": "You get \u00a0everything in the previous tiers, PLUS:\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYour name on my show notes\u00a0once per month!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-12T17:26:47.750473+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1536657/f2daa7d682a243a6911b931ef3a7e095?token-time=2145916800\u0026token-hash=GEyPh7YPenhf1zOngAhVG0H6pixjSxPIxDAqYvYtzYQ%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-28T05:15:55.800473+00:00",
+     "remaining": 25,
+     "requires_shipping": false,
+     "title": "Beach Boys",
+     "unpublished_at": null,
+     "url": "/bePatron?c=818540\u0026rid=1536657"
+    },
+    "id": "1536657",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2017-03-28T05:18:13.850003+00:00",
+     "description": "You get \u00a0everything in the previous tiers, PLUS:\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will get a link to your website, if you have one, in the show notes, once per month. \u00a0If you don\u0027t have a website, your name will be highlighted in the show notes and I\u0027ll think \u00a0fondly of you each time I see it.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-12T17:27:16.979656+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1536660/c095d51f634b44be9b5708d70485f2c6?token-time=2145916800\u0026token-hash=bxg4ZE3nfYOSo49jalFEA_njSo4G6gZ9_95gA8Kynxw%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-28T05:18:13.850003+00:00",
+     "remaining": 25,
+     "requires_shipping": false,
+     "title": "Dead Head",
+     "unpublished_at": null,
+     "url": "/bePatron?c=818540\u0026rid=1536660"
+    },
+    "id": "1536660",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2017-03-28T05:21:13.846785+00:00",
+     "description": "You\u0027ll get everything in the lower tier levels, PLUS:\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eI will SAY your name or business name at the end of the show once per month. \u00a0Or I will cleverly say it at some point during the episode!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-12T17:28:30.329767+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1536661/c34ab73084774a08a484567325a1792f?token-time=2145916800\u0026token-hash=RtxXSRWoZk9brSwDqKwu72fEm4G0_rIogrpyh3Dy_P4%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-28T05:21:13.846785+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Rolling Stone",
+     "unpublished_at": null,
+     "url": "/bePatron?c=818540\u0026rid=1536661"
+    },
+    "id": "1536661",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 99500,
+     "amount_cents": 99500,
+     "created_at": "2017-08-12T17:47:03.153657+00:00",
+     "description": "If you want to be an ultimate show sponsor, I can accept up to three ultimate show sponsorships.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAt this level, you\u0027ll get a one hour phone or Skype call with me every month, along with all the benefits of the other levels.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll be helping to make the Rock Your Retirement show better, and available to more people as I\u0027ll be able to use the money to promote the show, in addition to covering my costs.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-12T17:47:03.867429+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1920204/6d6baa8f32a044b686109c707b39081e?token-time=2145916800\u0026token-hash=ro0lRq7bhJ4L7N8OZyfpxnmkSrHXpt6z8KYtACilECA%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-12T17:47:03.153657+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "Ultimate Rock your Retirement Sponsorship!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=818540\u0026rid=1920204"
+    },
+    "id": "1920204",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 5,
+     "created_at": "2017-03-28T05:04:14+00:00",
+     "description": "When I reach my Goal, I\u0027ll be able to cover the cost of editing the show. \u00a0:-)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "766199",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-03-28T05:04:14+00:00",
+     "deleted_at": null,
+     "description": "When I get my first 25 patreons, I\u0027ll\u00a0",
+     "goal_text": "When I get my first 25 patreons, I\u0027ll\u00a0",
+     "number_patrons": 25,
+     "reached_at": null
+    },
+    "id": "6810",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/818540"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "a41d886d-8399-484f-8aba-4914c62244e7",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Kathe Kline is creating The Rock Your Retirement Show"
+});
+    </script>

@@ -1,0 +1,431 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "TNpLCvPYDmZ1-ZJpcI9Vnj1KXoIBnWtm_VOnn6D4dMk";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "721400",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/721400"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-11-23T02:26:40+00:00",
+    "creation_name": "Podcasts",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1351218/55062158936243e88f0243cc61fa1e4d?token-time=2145916800\u0026token-hash=6XjDZvzKfTX2YnQIKIrf0386GVgQEdbDHRjQhvzF94c%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/1351218/55062158936243e88f0243cc61fa1e4d?token-time=2145916800\u0026token-hash=zE1h6UkNRoJ_IV-BC6mAmJeWmB8EhJIcUn-X24IwEFo%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/WHqYtx5QToM\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://www.youtube.com/watch?v=WHqYtx5QToM",
+    "one_liner": null,
+    "patron_count": 11,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1351218",
+    "published_at": "2018-01-22T19:40:06+00:00",
+    "summary": "The Post Mortem Show is a horror movie podcast with a dark sense of humor. Dom \u0026amp; JD are the hosts and have been bringing you a FREE weekly show for over 2 years. Unfortunately, producing the show costs us over $100 per month out of our own pocket. Between hosting, promotion, and research/buying movies the show takes up a lot of our time and money. We want to take the show to the next level and give you more content as well as videos and MAKE OUR OWN HORROR MOVIE. Any amount helps. Thank you for listening and for your support. As H.P. Lovecraft once said, \"If it smells like fish... Throw the fucker back!!!\"\u003cbr\u003e\u003cbr\u003ehttp://www.postmortemshow.com"
+   },
+   "id": "1351218",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8562201",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8562201"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1078103",
+       "type": "goal"
+      },
+      {
+       "id": "1078104",
+       "type": "goal"
+      },
+      {
+       "id": "1078105",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1351218",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1351218"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2285315",
+       "type": "reward"
+      },
+      {
+       "id": "2285322",
+       "type": "reward"
+      },
+      {
+       "id": "2285333",
+       "type": "reward"
+      },
+      {
+       "id": "2285351",
+       "type": "reward"
+      },
+      {
+       "id": "2285357",
+       "type": "reward"
+      },
+      {
+       "id": "2285374",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-11-23T02:26:34+00:00",
+     "facebook": "https://www.facebook.com//postmortemshow",
+     "first_name": "Post",
+     "full_name": "Post Mortem Show",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/8562201/420af3f84bb94eb2bb8b3fc3d6aa3d4b?token-time=2145916800\u0026token-hash=CvkcxmZHds3mt1iPGwc3ixC34uRz1ic5wO_a0GB-wnQ%3D",
+     "last_name": "Mortem Show",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/8562201/420af3f84bb94eb2bb8b3fc3d6aa3d4b?token-time=2145916800\u0026token-hash=GqktfLsH8yEh_ZmL96FraYw8SW1Y1khp2Vj923e2h0M%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/postmortemshow",
+     "vanity": "postmortemshow",
+     "youtube": "https://www.youtube.com/channel/UCjsvqM4QMnMwP14CFrfmBAA"
+    },
+    "id": "8562201",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1351218",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1351218"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 36,
+     "upgrade_url": "/bePatron?c=1351218\u0026rid=2285315"
+    },
+    "id": "post-aggregation-for-0-1351218",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-01-15T03:48:24.724610+00:00",
+     "description": "Patrons who contribute $1 per month will receive each week\u0027s episode early. In addition, they will have access to bonus audio content and receive a Post Mortem Show sticker.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-15T04:53:45.557465+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2285315/3d365f12a2704c2986d158a0d710a6e9?token-time=2145916800\u0026token-hash=kbwq6zOZYnxPCex4TbbZt7LnsAuP1S-zoxizpFtT5oU%3D",
+     "post_count": 15,
+     "published": true,
+     "published_at": "2018-02-15T04:53:45.551069+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Neonate of Biff",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1351218\u0026rid=2285315"
+    },
+    "id": "2285315",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-01-15T03:53:51.817115+00:00",
+     "description": "Patrons who contribute $5 per month will receive each week\u0027s episode early. Have access to EVEN MORE bonus audio content, monthly VIDEO content, and a Post Mortem Show sticker.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-15T04:22:18.157617+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2285322/12459aac29904370beb32dc5d598d785?token-time=2145916800\u0026token-hash=3vSGHqxT-G61bkqGKeGWxGG3tokWL028XHK7lFbdSg8%3D",
+     "post_count": 10,
+     "published": true,
+     "published_at": "2018-01-15T04:22:18.136374+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Apprentice of Morty",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1351218\u0026rid=2285322"
+    },
+    "id": "2285322",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-15T03:59:08.578311+00:00",
+     "description": "Patrons who contribute $10 per month will receive each week\u0027s episode early. Have access to all lower level bonus audio content, monthly VIDEO content, a Post Mortem Show sticker, \u00a0BEST OF JD HORROR ON THE WEST COAST DEATHMATCH VIDEO DOWNLOAD AND WILL BE ABLE TO ASSIGN US A MOVIE TO REVIEW AND BE CREDITED ON THE SHOW.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-15T04:53:14.532809+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2285333/d1fa90b2fe5c49ad95e10721e9fa3a7e?token-time=2145916800\u0026token-hash=jLieo1-Yny31zWJc294_8IppPs47u6HEI6K2HBfDG3Q%3D",
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-02-15T04:53:14.523128+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Journeyman of the Yak",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1351218\u0026rid=2285333"
+    },
+    "id": "2285333",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-01-15T04:10:46.577571+00:00",
+     "description": "Patrons who contribute $20 per month will receive each week\u0027s episode early. Have access to all lower level bonus audio content, monthly VIDEO content, a Post Mortem Show sticker, will be able to assign us a movie to review on the show and be credited. In addition they will receive access to Best of JD Horror on the West Coat DVD download, OUR OWN MUSIC (Mechanical Ghost, Grave Command, Public Defecation, Old Scratch, Weapon A and more), MORE REWARDS TO COME FOR THIS TIER!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-15T04:53:02.165643+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2285351/12ce5e5583904f9eaaafbab5f1daccda?token-time=2145916800\u0026token-hash=6v0pEDiTC9KqyU4RGNbwZO81FQLCAa4V440SUesPMmk%3D",
+     "post_count": 7,
+     "published": true,
+     "published_at": "2018-02-15T04:53:02.153457+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Doogmaster ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1351218\u0026rid=2285351"
+    },
+    "id": "2285351",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-01-15T04:16:26.976967+00:00",
+     "description": "Patrons who contribute $50 per month will receive each week\u0027s episode early. Have access to all lower level bonus audio content, monthly VIDEO content, a Post Mortem Show sticker, will be able to assign us a movie to review on the show and be credited. In addition they will receive access to Best of JD Horror on the West Coast Deathmatch video download, Our Own Music (Mechanical Ghost, Grave Command, Public Defecation, Old Scratch, Weapon A and more), BE CREDITED AS A PRODUCER ON THE SHOW, GET TO COME ON THE SHOW AND JOIN US FOR A TOP 5 LIST OF THEIR CHOICE, RECEIVE A POST MORTEM SHOW T-SHIRT",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-15T05:03:57.828206+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2285357/f4172fa4ff47475a9a603743e75840ad?token-time=2145916800\u0026token-hash=gXV4Vil9p-_FRghRRih7SeIyIbR5P2o5ZpL_lRQtP-s%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-15T05:03:57.802249+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Hierophant Fish Thrower",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1351218\u0026rid=2285357"
+    },
+    "id": "2285357",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-01-15T04:20:46.673211+00:00",
+     "description": "Patrons who contribute $100 per month will receive each week\u0027s episode early. Have access to all lower level bonus audio content, monthly VIDEO content, a Post Mortem Show sticker, will be able to assign us a movie to review on the show and be credited. In addition they will receive access to Best of JD Horror on the West Coast Deathmatch video download, Our Own Music (Mechanical Ghost, Grave Command, Public Defecation, Old Scratch, Weapon A and more), receive a Post Mortem Show T-Shirt, GET TO JOIN US ON THE SHOW FOR A FULL EPISODE AND TOP 5 OF THEIR CHOICE, BE CREDITED AS EXECUTIVE PRODUCER, WILL GET TO JOIN US FOR DINNER, DRINKS, AND A MOVIE (Dinner, drinks and movie tickets paid by us, must be in or travel to California, minimum 3 months patron at this level)",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-15T05:04:10.532393+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2285374/684962c353ec42ff927984bf5988f38c?token-time=2145916800\u0026token-hash=utU20DVKEppmgwCOG9XM8WMwHGTXJ1vJP_T2blydyRo%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-15T05:04:10.494616+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Ascendant of Stroges",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1351218\u0026rid=2285374"
+    },
+    "id": "2285374",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2018-01-15T04:29:26+00:00",
+     "description": "At this level of support we can afford all of the hard costs associated with running the show. Web hosting, purchase of movies (We watch 8+ movies every month to review on the show). We really appreciate all of your support.",
+     "reached_at": "2018-05-02T22:36:43+00:00",
+     "title": ""
+    },
+    "id": "1078103",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 20,
+     "created_at": "2018-01-15T04:29:27+00:00",
+     "description": "At this level of support we can afford to upgrade the quality of our podcasting equipment to deliver a better audio quality for the show.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1078104",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 10,
+     "created_at": "2018-01-15T04:29:27+00:00",
+     "description": "Dom \u0026amp; JD want to make movies! At this level of support we can afford to invest in equipment and effects and share these videos with our listeners.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1078105",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1351218"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ea8626d5-13ae-4748-8ade-2a1e0027ea99",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Post Mortem Show is creating Podcasts"
+});
+    </script>

@@ -1,0 +1,463 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "WOG5ODkoL7aL7SlrcaDY1VMVvlx9bCSM5Sl3EhfWpow";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "733923",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/733923"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-07-29T23:00:14+00:00",
+    "creation_name": "digital art",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI0IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1127307/64825c20fb9c47499dfe2399d9b01b0c?token-time=2145916800\u0026token-hash=T70RN1EVtORxbmqwRjSakwQ3ENHX4VGS8tTPRuYfFxs%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNCJ9/patreon-media/campaign/1127307/64825c20fb9c47499dfe2399d9b01b0c?token-time=2145916800\u0026token-hash=KIbwiph7yybU5qvEgUQ4CcaTWY0w8Gw2sYJGTm3_x14%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 9,
+    "pay_per_name": "month",
+    "pledge_sum": 18436,
+    "pledge_url": "/bePatron?c=1127307",
+    "published_at": "2018-02-01T03:50:55+00:00",
+    "summary": "Hiya, I\u0027m Req and if you\u0027ve come to this page on purpose: thanks for dropping by! I\u0027m endeavoring to make a living off drawing stuff for people and to do so I could use your help! Of course, you won\u0027t be expected to just gib moneys like a parent would their disappointing child, I will draw for you in return. Have a look at the various reward tiers I\u0027m offering, and if any look appealing to you, have at it!\u00a0\u003cbr\u003e\u003cbr\u003eAlso, if you pick a tier that gets you a drawing in return, please send me an e-mail at requestorpastebin@gmail.com with the month in the title. Feel free to include as many refs as you feel appropriate for both the character and the expression or pose you want them in.\u00a0\u003cbr\u003eIf you want your request to be kept private, please say so in your message. If no such request is made, the drawing will go online.\u00a0\u003cbr\u003e\u003cbr\u003eThanks!"
+   },
+   "id": "1127307",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2691049",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2691049"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1097645",
+       "type": "goal"
+      },
+      {
+       "id": "1097646",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1127307",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1127307"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2335327",
+       "type": "reward"
+      },
+      {
+       "id": "2335329",
+       "type": "reward"
+      },
+      {
+       "id": "2335331",
+       "type": "reward"
+      },
+      {
+       "id": "2335335",
+       "type": "reward"
+      },
+      {
+       "id": "2335339",
+       "type": "reward"
+      },
+      {
+       "id": "2408547",
+       "type": "reward"
+      },
+      {
+       "id": "2408552",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I write and draw. Started off as a hobby, now I\u0027m trying to make it a living",
+     "created": "2016-01-03T10:47:30+00:00",
+     "facebook": null,
+     "first_name": "Req",
+     "full_name": "Req",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMyIsInciOjIwMH0%3D/patreon-media/user/2691049/b9da15006ab947c8a317270ec3a2663e?token-time=2145916800\u0026token-hash=-cqtuMxyZ1IPtYLVmSjf0Z4mc0u3cypbweDYR_9_rNU%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIzIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2691049/b9da15006ab947c8a317270ec3a2663e?token-time=2145916800\u0026token-hash=YNgsL5wzdreIFlAnb2lOY3gYkN4pMVl13AOiWVGqiSA%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/Reqqles",
+     "vanity": "Reqqles",
+     "youtube": null
+    },
+    "id": "2691049",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1127307",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1127307"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 9,
+     "upgrade_url": "/bePatron?c=1127307\u0026rid=2335327"
+    },
+    "id": "post-aggregation-for-0-1127307",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-02-01T03:37:34.730822+00:00",
+     "description": "Pick this tier if you want to support me, but don\u0027t want any of those pesky rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-01T03:37:34.730822+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-01T03:37:34.730822+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tip jar",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1127307\u0026rid=2335327",
+     "user_limit": null
+    },
+    "id": "2335327",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-02-01T03:39:24.906705+00:00",
+     "description": "This tier gets you access to source files with every piece I post.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-01T03:39:24.906705+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-01T03:39:24.906705+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Enter the Reqroom",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1127307\u0026rid=2335329",
+     "user_limit": null
+    },
+    "id": "2335329",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-01T03:40:23.654778+00:00",
+     "description": "This tier gets you access to source files with every piece I post.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIt also gets you a custom avatar each month. Just pick a character and an expression, and I\u0027ll draw it for you!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-01T03:42:51.137544+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2335331/7765669e674e474dbf20388ed2ea9011?token-time=2145916800\u0026token-hash=4dJ531FYL3cpJb5n7ltBAEK1nM27iESNfBLhi07SlzU%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-01T03:42:51.131165+00:00",
+     "remaining": 8,
+     "requires_shipping": false,
+     "title": "The Avatar",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1127307\u0026rid=2335331",
+     "user_limit": 10
+    },
+    "id": "2335331",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-01T03:42:19.186928+00:00",
+     "description": "This tier gets you access to source files with every piece I post.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIt also gets you an uncolored drawing each month. SFW, NSFW, it\u0027s all good!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-01T03:42:19.186928+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2335335/8a529c4d96b84ce3bc3c45291b172c85?token-time=2145916800\u0026token-hash=WFixbeOOiMdRwenQfBMpX1Bu7CjntHs1rzEUFNjFW9c%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-01T03:42:19.186928+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "This is where I draw the line",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1127307\u0026rid=2335335",
+     "user_limit": 5
+    },
+    "id": "2335335",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-02-01T03:43:34.974655+00:00",
+     "description": "This tier gets you access to source files with every piece I post.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIt also gets you a colored drawing each month. SFW, NSFW, it\u0027s all good!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T00:58:24.179818+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2335339/c23a6d26636646d7b1b88d4352b5eabe?token-time=2145916800\u0026token-hash=8MBMKvydPEd8dvfHEmIjd3Ql52zNO3Qxr2IUaHYYhbY%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-28T00:58:24.165861+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "And this is where I color it.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1127307\u0026rid=2335339",
+     "user_limit": 6
+    },
+    "id": "2335339",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-02-28T00:56:44.623289+00:00",
+     "description": "Do you want a background to go with your drawing? Or would you rather have me draw 2 characters for you instead? Then this tier is for you!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T00:56:44.623289+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2408547/2f94e9654a334482ae78e42d92af5ebb?token-time=2145916800\u0026token-hash=egrPFAkISynurDvi9GYe02HxNCzKc3xI8lAitac2124%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-28T00:56:44.623289+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "Choose your destiny",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1127307\u0026rid=2408547",
+     "user_limit": 5
+    },
+    "id": "2408547",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-02-28T00:57:57.606211+00:00",
+     "description": "Can\u0027t choose between an extra character or a swanky background? Then this tier is for you!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T00:57:57.606211+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2408552/a4dc8fa00ee241759f4359c96378b49b?token-time=2145916800\u0026token-hash=myBCpVaOcmXSUyqLn6KsEwSRJEMgXgbAko1Zy7pRDVA%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-28T00:57:57.606211+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Or don\u0027t!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1127307\u0026rid=2408552",
+     "user_limit": 2
+    },
+    "id": "2408552",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 36,
+     "created_at": "2018-02-01T03:48:05+00:00",
+     "description": "If I can hit this number, I\u0027ll introduce Patron\u0027s Pick, where you can nominate and vote on a character for me to paint into a fully detailed painting, background and all!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1097645",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 120000,
+     "completed_percentage": 15,
+     "created_at": "2018-02-01T03:48:05+00:00",
+     "description": "Woo, now I can do this thing full time! That means I\u0027ll be able to draw more for you guys, so expect a bump up in the tiers and a second Patron\u0027s Pick.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1097646",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1127307"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "025e717c-11af-4432-ab0e-7a312aea8399",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Req is creating digital art"
+});
+    </script>

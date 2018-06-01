@@ -1,0 +1,526 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "jtFE3jxEkaHkCnZe7KwjWpaQbdMQd7VWrsD6RvRzfB4";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "466112",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/466112"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-06-02T15:23:25+00:00",
+    "creation_name": "Streams, Game mastery guides, Tabletop Homebrew",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/968201/71ff0ae015754ebaa699adf1d307e63e?token-time=2145916800\u0026token-hash=3fnwT6rYkZ8gv74vEdAGDeHzvA9SgDGUjPGOwR7nIC8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/968201/71ff0ae015754ebaa699adf1d307e63e?token-time=2145916800\u0026token-hash=6rNbadB3nOlUKejsGLOHWjmPZOq8lYsXh-a4P1VpNmk%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/_84CpPHY_vY\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/_84CpPHY_vY",
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": null,
+    "pledge_sum": 11330,
+    "pledge_url": "/bePatron?c=968201",
+    "published_at": "2017-06-02T15:30:54+00:00",
+    "summary": "A weekly pathfinder show following the follies and exploits of Nuckelavee and his merry band of shitlords.\u003cbr\u003e\u003cbr\u003eI am its Dungeon Master, Varangian Bill.\u003cbr\u003eFunds from this patreon will go towards improving the show\u0027s production values and paying the various creative minds who help me make this show possible.\u003cbr\u003e\u003cbr\u003eOurselves on the team would like to thank any viewers reading this and especially our contributors who help make this show possible.\u00a0"
+   },
+   "id": "968201",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "985448",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/985448"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-968201",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-968201"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1736790",
+       "type": "reward"
+      },
+      {
+       "id": "1736621",
+       "type": "reward"
+      },
+      {
+       "id": "1736791",
+       "type": "reward"
+      },
+      {
+       "id": "1736620",
+       "type": "reward"
+      },
+      {
+       "id": "1770024",
+       "type": "reward"
+      },
+      {
+       "id": "1770025",
+       "type": "reward"
+      },
+      {
+       "id": "1736789",
+       "type": "reward"
+      },
+      {
+       "id": "1763411",
+       "type": "reward"
+      },
+      {
+       "id": "1770022",
+       "type": "reward"
+      },
+      {
+       "id": "1770023",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-08-10T05:25:41+00:00",
+     "facebook": null,
+     "first_name": "Tales",
+     "full_name": "Tales from my Wife\u0027s Son",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/985448/39399799b05c46dea9014f834c6a69cd?token-time=2145916800\u0026token-hash=PLw_nbPUYy7Q-WF_zluEUmf7ZEYUQC_OyDO3kjZea_c%3D",
+     "last_name": "from my Wife\u0027s Son",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/985448/39399799b05c46dea9014f834c6a69cd?token-time=2145916800\u0026token-hash=pUZSafzBYFfAKTVkk3nvs1RC6xYzEVRSSi2uWTbItW4%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/WifesSonTales",
+     "vanity": "WifesSonTales",
+     "youtube": null
+    },
+    "id": "985448",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "968201",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/968201"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 1,
+     "upgrade_url": "/bePatron?c=968201\u0026rid=1736790"
+    },
+    "id": "post-aggregation-for-0-968201",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-06-02T17:05:47.680976+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eGet yourself a shout out at the end of the episode (text credit)\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-02T17:05:47.680976+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-02T17:05:47.680976+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "End of show shout-out",
+     "unpublished_at": null,
+     "url": "/bePatron?c=968201\u0026rid=1736790",
+     "user_limit": null
+    },
+    "id": "1736790",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2017-06-02T15:38:30.989937+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eDesign an NPC who will be added to the setting including your preferences of design, personality and anything else you wish (within reason).\u003c/li\u003e\u003cli\u003eNo hard work required, I\u0027ll craft a character specific to your design and the party will run into them in fairly short order.\u003c/li\u003e\u003cli\u003eNPC icons are included in the cost\u003c/li\u003e\u003cli\u003eEach week of payment guarantees either that many weeks worth of appearances or a new NPC\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-11T01:07:12.673645+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-02T15:38:30.989937+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "NPC role",
+     "unpublished_at": null,
+     "url": "/bePatron?c=968201\u0026rid=1736621",
+     "user_limit": null
+    },
+    "id": "1736621",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-06-02T17:05:47.776039+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYou get to suggest/design an encounter the players in \"Tales from my Wife\u0027s son\" will face.\u003c/li\u003e\u003cli\u003eNo homework required, I\u0027ll do the rules legwork\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-02T17:05:47.776039+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-02T17:05:47.776039+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Encounter Crafter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=968201\u0026rid=1736791",
+     "user_limit": null
+    },
+    "id": "1736791",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-06-02T15:38:30.595228+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eBe entered into a weekly raffle to get one of the spots on the weekly one-shot livestream where I\u0027ll DM for 4-6 patrons in a unique scenario\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-02T15:38:30.595228+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-02T15:38:30.595228+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Weekly One-Shot Raffle",
+     "unpublished_at": null,
+     "url": "/bePatron?c=968201\u0026rid=1736620",
+     "user_limit": null
+    },
+    "id": "1736620",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-06-16T01:01:28.052886+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eFuck over one of the players in a hilarious manner of your choosing.\u003c/li\u003e\u003cli\u003eMoney from this bracket will be given to the donator\u0027s choice of player.\u003c/li\u003e\u003cli\u003eCauses an effect up to the equivalent of bestow curse\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-16T01:01:28.052886+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-16T01:01:28.052886+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Care package drop ON the player (minor)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=968201\u0026rid=1770024",
+     "user_limit": null
+    },
+    "id": "1770024",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-06-16T01:01:28.219467+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eGet something for one of the players in game that you may design/suggest and at your discretion you may include your name as a distant relative who sent it or similar other means of shout out.\u003c/li\u003e\u003cli\u003eMoney from this bracket will be used for nice things for the player in question\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-16T01:01:28.219467+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-16T01:01:28.219467+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Care package drop for a player (Minor)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=968201\u0026rid=1770025",
+     "user_limit": null
+    },
+    "id": "1770025",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-06-02T17:05:47.337278+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eI will personally fine tune a character or encounter for you, playtesting it with my usual playtesting crew who have multiple commercial playtests under their belt.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-02T17:05:47.337278+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-02T17:05:47.337278+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Character/Encounter custom build",
+     "unpublished_at": null,
+     "url": "/bePatron?c=968201\u0026rid=1736789",
+     "user_limit": null
+    },
+    "id": "1736789",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-06-13T18:27:22.840637+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYour very own character drawn by player and resident artistic savant, Ritualist.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-13T18:27:22.840637+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-13T18:27:22.840637+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Character Artwork",
+     "unpublished_at": null,
+     "url": "/bePatron?c=968201\u0026rid=1763411",
+     "user_limit": null
+    },
+    "id": "1763411",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-06-16T01:01:27.577761+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAs the minor version but up to the equivalent of a wish.\u003c/li\u003e\u003cli\u003eGet your name added to the roster of the temple of ascetic Anarcho-Capitalism.\u003c/li\u003e\u003cli\u003eThis category may even result in character death.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-16T01:01:27.577761+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-16T01:01:27.577761+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Care package drop ON a player (Major)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=968201\u0026rid=1770022",
+     "user_limit": null
+    },
+    "id": "1770022",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-06-16T01:01:28.019215+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAs the minor version but up to the equivalent of a wish.\u003c/li\u003e\u003cli\u003eYour name/logo will be added to Edgy\u0027s armor of sponsorship, permanently.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-16T01:01:28.019215+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-16T01:01:28.019215+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Care package drop for a player (major)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=968201\u0026rid=1770023",
+     "user_limit": null
+    },
+    "id": "1770023",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/968201"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "7446112e-8811-4ac6-ba90-8df40842ddee",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Tales from my Wife\u0027s Son is creating Streams, Game mastery guides, Tabletop Homebrew"
+});
+    </script>

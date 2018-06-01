@@ -1,0 +1,557 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Fu03v-Ua71xzUeR9NYY8qwxJayJXDdvANXWrPavcGoI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "31704",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/31704"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-01-23T13:55:05+00:00",
+    "creation_name": "Twitch Streams and Wiki Entries",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/141498/036a310b38f0426081dc543b2df2eeaf?token-time=2145916800\u0026token-hash=BXQoCfldsjp2BO9fVV6Hs6ZIHz9GMUxVTyjQbn3yS9w%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/141498/036a310b38f0426081dc543b2df2eeaf?token-time=2145916800\u0026token-hash=g0rs_qIH2gCUFdLOKuYlPQ_wLi6coR75SRlO_Nog0XE%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Internet personality making content for the...well, Internet!",
+    "patron_count": 8,
+    "pay_per_name": "week",
+    "pledge_sum": 2784,
+    "pledge_url": "/bePatron?c=141498",
+    "published_at": "2015-01-23T18:27:52+00:00",
+    "summary": "I\u0027m an aspiring creator, internet personality, and entrepreneur.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eFor over 2 years,\u003c/strong\u003e I have been editing the\u00a0\u003ca href=\"http://dctvpedia.com/\"\u003e\u003cstrong\u003eDCTVpedia\u003c/strong\u003e\u003c/a\u003e which is a wiki for the\u00a0\u003ca href=\"http://diamondclub.tv/\"\u003e\u003cstrong\u003eDiamond Club\u003c/strong\u003e\u003c/a\u003e, which is a group of amazing people that make way better content than I do. This wiki provides an easy way to see show notes, inside jokes, and other \"useless\" information. \u003cstrong\u003eThis year,\u003c/strong\u003e\u00a0off the success of \u0026lt;\u0026gt; Game Night, I am starting to stream other games more regularly on my\u00a0\u003ca href=\"http://www.twitch.tv/wscottis1\"\u003e\u003cstrong\u003eTwitch\u003c/strong\u003e\u003c/a\u003e, including \u003cstrong\u003eRocket League\u003c/strong\u003e, \u003cstrong\u003ePlayerunknown\u0027s Battlegrounds\u003c/strong\u003e, and \u003cstrong\u003eFortnite\u003c/strong\u003e.\u003cbr\u003e\u003cbr\u003eSo far, all of this content I have been doing for \u003cstrong\u003efree\u003c/strong\u003e and \u003cstrong\u003eI\u0027ve enjoyed doing it\u003c/strong\u003e, however, it is starting to take up more of my time. However, doing articles and streams alone doesn\u0027t pay all that much alone and I need to buy food to survive. With your support, I can continue to be \u003cstrong\u003econsistent\u003c/strong\u003e with my posts and streams and you will be providing a \u003cstrong\u003emonetary cushion\u003c/strong\u003e for me to be able to ensure I can continue carving out time to dedicate to these projects.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWhat you will receive as a result of supporting my content:\u003c/strong\u003e\u003cul\u003e\u003cli\u003eRegular DCTVpedia articles every week\u003cul\u003e\u003cli\u003eShow notes for all the main \"flagship\" shows on Diamond Club\u003c/li\u003e\u003cli\u003eShow notes for other podcasts on Diamond Club\u003c/li\u003e\u003cli\u003eResearch into making bots that can auto create posts, except for Night Attack, those show notes will never be good enough to be written by a bot ;)\u003c/li\u003e\u003cli\u003eOther random articles from time-to-time\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eHere\u0027s what you\u0027ll receive on my\u00a0\u003ca href=\"http://www.twitch.tv/wscottis1\"\u003eTwitch\u003c/a\u003e:\u003c/strong\u003e\u003cul\u003e\u003cli\u003eCOMING SOON! Mondays are Rocket League Monday! This fun popular soccer game involves the use of toy cars instead of humans to kick the giant soccer ball inside the goal.\u003c/li\u003e\u003cli\u003eWednesdays at around 11:30pm Eastern are\u00a0Battle Royale Wednesday (alternating between Playerunknown\u0027s Battlegrounds and Fortnite: Battle Royale). Battle Royale games have taken Twitch by storm and now your favorite streamer is taking them on by himself and with teammates. Will he succeed and win, or will he die? Probably the latter, but find out for yourself, every Wednesday!\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eDepending on which reward tier you select, you will also receive additional exclusive content!\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cstrong\u003eHere\u0027s what the money you give will be going towards:\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eAbility for me to pay my rent and utilities and food, basically all my living expenses\u003c/li\u003e\u003cli\u003eEquipment upgrades including new streaming gear and computer upgrades to make sure those DCTVpedia articles get written and published to you faster\u003c/li\u003e\u003cli\u003ePaying off college and other debts\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003ePlease consider donating and I would greatly appreciate it. If you honestly can\u0027t afford to support, believe me, I have been there, don\u0027t feel bad. A simple share can help out tremendously. You will still receive most, if not all, of my content for free.\u003cbr\u003e\u003cbr\u003e\u0026lt;\u0026gt;"
+   },
+   "id": "141498",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "234367",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/234367"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "111599",
+       "type": "goal"
+      },
+      {
+       "id": "111600",
+       "type": "goal"
+      },
+      {
+       "id": "111601",
+       "type": "goal"
+      },
+      {
+       "id": "111602",
+       "type": "goal"
+      },
+      {
+       "id": "111603",
+       "type": "goal"
+      },
+      {
+       "id": "1044858",
+       "type": "goal"
+      },
+      {
+       "id": "1044859",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-141498",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-141498"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "146129",
+       "type": "reward"
+      },
+      {
+       "id": "2275126",
+       "type": "reward"
+      },
+      {
+       "id": "2275544",
+       "type": "reward"
+      },
+      {
+       "id": "2275546",
+       "type": "reward"
+      },
+      {
+       "id": "2275551",
+       "type": "reward"
+      },
+      {
+       "id": "2275553",
+       "type": "reward"
+      },
+      {
+       "id": "2275557",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2014-07-17T18:57:54+00:00",
+     "facebook": "",
+     "first_name": "Willie",
+     "full_name": "Willie Scott",
+     "gender": 1,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/234367/aa20395a18814353a56819a850e4260e?token-time=2145916800\u0026token-hash=LPzezfV4iXVznBkTutvMKkjAsV2PK9A0zouz31JkBlQ%3D",
+     "last_name": "Scott",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/234367/aa20395a18814353a56819a850e4260e?token-time=2145916800\u0026token-hash=jd6NHU07zPA1-un29uWMxegC1BzIAyKdFg410oM1Qg8%3D",
+     "twitch": "https://www.twitch.tv/wscottis1",
+     "twitter": "WScottis1",
+     "url": "https://www.patreon.com/WScottis1",
+     "vanity": "WScottis1",
+     "youtube": ""
+    },
+    "id": "234367",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "141498",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/141498"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 5,
+     "upgrade_url": "/bePatron?c=141498\u0026rid=146129"
+    },
+    "id": "post-aggregation-for-0-141498",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-01-23T17:48:17+00:00",
+     "description": "Thank you so much for supporting! You will get regular updates and occasional exclusive posts!",
+     "discord_role_ids": [
+      "398756663227842562"
+     ],
+     "edited_at": "2018-02-02T22:46:45.952260+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-02T22:46:45.924550+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $1 or more per week",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141498\u0026rid=146129",
+     "user_limit": null
+    },
+    "id": "146129",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-01-10T23:42:39.805266+00:00",
+     "description": "At this level, you will get a shout out during my Twitch streams!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus all previous rewards\u003c/p\u003e",
+     "discord_role_ids": [
+      "398756663227842562"
+     ],
+     "edited_at": "2018-02-02T22:46:54.778247+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-02T22:46:54.752648+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $5 or more per week",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141498\u0026rid=2275126",
+     "user_limit": null
+    },
+    "id": "2275126",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-11T03:30:17.147039+00:00",
+     "description": "You guys at the $10 tier will have even more advanced exclusive updates here on Patreon before anyone else!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus all previous rewards\u003c/p\u003e",
+     "discord_role_ids": [
+      "398756663227842562"
+     ],
+     "edited_at": "2018-02-02T22:47:03.081632+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-02T22:47:03.049767+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $10 or more per week",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141498\u0026rid=2275544",
+     "user_limit": null
+    },
+    "id": "2275544",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-01-11T03:30:35.112201+00:00",
+     "description": "At this tier, you will be able to vote on any future decisions that I need deciding on before $1-$10 patrons are notified. In addition, you will receive a gifted $4.99 Twitch subscription to my page from myself and will continue to receive them every month as long as you continue to support at this level!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus all previous rewards\u003c/p\u003e",
+     "discord_role_ids": [
+      "398756663227842562"
+     ],
+     "edited_at": "2018-02-02T22:47:16.617907+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-02T22:47:16.595325+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $25 or more per week",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141498\u0026rid=2275546",
+     "user_limit": null
+    },
+    "id": "2275546",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-01-11T03:36:02.214203+00:00",
+     "description": "Wow, look at you supporting at $50/week! At this level, you\u0027ll get a shout out at the end of every Patreon post listing the DCTVpedia articles I edited for the week.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus all previous rewards\u003c/p\u003e",
+     "discord_role_ids": [
+      "398756663227842562"
+     ],
+     "edited_at": "2018-02-02T22:47:31.728461+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-02T22:47:31.699581+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $50 or more per week",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141498\u0026rid=2275551",
+     "user_limit": null
+    },
+    "id": "2275551",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-01-11T03:37:24.250060+00:00",
+     "description": "At this tier, you will get a shout out at the end of every DCTVpedia article that I write!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus all previous rewards\u003c/p\u003e",
+     "discord_role_ids": [
+      "398756663227842562"
+     ],
+     "edited_at": "2018-02-02T22:47:42.306139+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-02T22:47:42.250134+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $100 or more per week",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141498\u0026rid=2275553",
+     "user_limit": null
+    },
+    "id": "2275553",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2018-01-11T03:39:42.791476+00:00",
+     "description": "Stop it! Seriously. There are better ways to spend your money. If someone actually supports at this tier, you will get a personal Skype call from me to discuss a stream where you get to call the shots. Do you want me to do a talk show? Is there a particular game you want me to play? It\u0027s all your choice! In addition, I will write a DCTVpedia article about any subject that you would like me to write. What\u0027s a DCTVpedia article that\u0027s lacking on the site? You get to decide!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus all previous rewards\u003c/p\u003e",
+     "discord_role_ids": [
+      "398756663227842562"
+     ],
+     "edited_at": "2018-02-02T22:47:53.345710+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-02T22:47:53.314116+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $1,000 or more per week",
+     "unpublished_at": null,
+     "url": "/bePatron?c=141498\u0026rid=2275557",
+     "user_limit": null
+    },
+    "id": "2275557",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 55,
+     "created_at": "2015-01-23T17:40:18+00:00",
+     "description": "($200/month) With this amount, I will have enough to consider this a part time job. More small and big tech upgrades can be made more often at this level.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "111599",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 12500,
+     "completed_percentage": 22,
+     "created_at": "2015-01-23T17:40:18+00:00",
+     "description": "($500/month) Oh wow, now at $125/week, this can be the dream full time job. At this level, big and small upgrades can be made every month. More streaming on Twitch can be possible! More streaming avenues can be explored at this level! Maybe some podcasting? And of course, more articles and show notes can be written on DCTVpedia.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "111600",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 11,
+     "created_at": "2015-01-23T17:40:18+00:00",
+     "description": "($1000/month) With this amount, I can now justify only having a part time job in addition to doing this every week. More time is opened up and more articles can be written for you!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "111601",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 125000,
+     "completed_percentage": 2,
+     "created_at": "2015-01-23T17:40:18+00:00",
+     "description": "($5000/month) Thanks to your support, I can quit any \"normal\" job that I have at this level, writing DCTVpedia articles and streaming on Twitch is my full time job now. This means that this unlocks more streaming opportunities and opens up more time for even more articles being written!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "111602",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 1,
+     "created_at": "2015-01-23T17:40:18+00:00",
+     "description": "($10,000/month) Ok, this is insane. I don\u0027t think it\u0027ll really go beyond this point, but I\u0027m pretty sure all future expenses ever will be payed for at this level. Thank you, thank you, thank you! I can\u0027t say thank you enough! Thank you very much for your generosity!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "111603",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1250,
+     "completed_percentage": 100,
+     "created_at": "2017-12-09T10:45:09+00:00",
+     "description": "($50/month) Oh wow, people are actually giving me money! This is rad! At this level, I can guarantee a few DCTVpedia articles every single week.",
+     "reached_at": "2018-01-17T07:13:10+00:00",
+     "title": ""
+    },
+    "id": "1044858",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 100,
+     "created_at": "2017-12-09T10:50:15+00:00",
+     "description": "($100/month) At this level, I can guarantee DCTVpedia articles on all the \"flagship\" shows on Diamond Club every week. One or two big upgrades a year can be made to keep all streaming and typing equipment in tip top shape.",
+     "reached_at": "2018-02-03T03:10:37+00:00",
+     "title": ""
+    },
+    "id": "1044859",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/141498"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "1f7b0742-b3c1-4ed6-82b5-27a8f28b7b64",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Willie Scott is creating Twitch Streams and Wiki Entries"
+});
+    </script>

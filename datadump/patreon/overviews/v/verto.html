@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "qLDJPQPj9izEf5rJcdwTbMqN-ALnVMPL0_U6ifdEoa8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "132062",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/132062"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-02-01T13:28:30+00:00",
+    "creation_name": "circle clicking theoretical analyses and stuff",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/278036/99384ec02e664e2f9d451ea0bf27c5bb?token-time=2145916800\u0026token-hash=piKjc3crOEYIygMKzOf3-p5ewW8khGO-jKWK-q2y27E%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/278036/99384ec02e664e2f9d451ea0bf27c5bb?token-time=2145916800\u0026token-hash=oSdLvfPUeepXaRqFKFXbmOFnVVR1j1x2GmgrpQS-AOo%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 5,
+    "pay_per_name": "month",
+    "pledge_sum": 5253,
+    "pledge_url": "/bePatron?c=278036",
+    "published_at": "2016-02-01T21:19:21+00:00",
+    "summary": "\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "278036",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2806402",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2806402"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "621100",
+       "type": "goal"
+      },
+      {
+       "id": "1008915",
+       "type": "goal"
+      },
+      {
+       "id": "1175974",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-278036",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-278036"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2115774",
+       "type": "reward"
+      },
+      {
+       "id": "2638451",
+       "type": "reward"
+      },
+      {
+       "id": "2310468",
+       "type": "reward"
+      },
+      {
+       "id": "2310480",
+       "type": "reward"
+      },
+      {
+       "id": "2310478",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-01-30T10:34:45+00:00",
+     "facebook": null,
+     "first_name": "verto",
+     "full_name": "verto",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2806402/d85e13b1c21b4cd3b076f6b6e7bceeee?token-time=2145916800\u0026token-hash=DR4G5n3Ps_WBfdNUl_BEadzweu9Rz2nWwMnHbntEH8k%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2806402/d85e13b1c21b4cd3b076f6b6e7bceeee?token-time=2145916800\u0026token-hash=UJtlalCA97Kv801EEs6v4sf3LJCCuuzopvuy4HJ16PY%3D",
+     "twitch": "https://www.twitch.tv/verto_don",
+     "twitter": "KVerto",
+     "url": "https://www.patreon.com/verto",
+     "vanity": "verto",
+     "youtube": "https://www.youtube.com/channel/UCbMCXJYFeShO0VE-ZPBzsAg"
+    },
+    "id": "2806402",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "278036",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/278036"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 1,
+     "upgrade_url": "/bePatron?c=278036\u0026rid=2115774"
+    },
+    "id": "post-aggregation-for-0-278036",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-10-31T06:49:36.623587+00:00",
+     "description": "Ask anything, like a line you want me to say and record for you",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-14T13:37:29.983602+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-14T13:37:29.959786+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Thank you",
+     "unpublished_at": null,
+     "url": "/bePatron?c=278036\u0026rid=2115774",
+     "user_limit": null
+    },
+    "id": "2115774",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-05-28T20:02:21.216038+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T20:02:21.216038+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-28T20:02:21.216038+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Free mutual",
+     "unpublished_at": null,
+     "url": "/bePatron?c=278036\u0026rid=2638451",
+     "user_limit": null
+    },
+    "id": "2638451",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-23T10:33:03.890608+00:00",
+     "description": "If you provide some of your plays, I\u0027ll use them in my discussion videos.",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T20:02:36.268519+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-28T20:02:36.258289+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Cute loli",
+     "unpublished_at": null,
+     "url": "/bePatron?c=278036\u0026rid=2310468",
+     "user_limit": 5
+    },
+    "id": "2310468",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-01-23T10:41:27.974592+00:00",
+     "description": "Can request a video topic every month. Also custom colour name at the end of the video.",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-28T20:02:44.768754+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-28T20:02:44.758270+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "Waifu materials",
+     "unpublished_at": null,
+     "url": "/bePatron?c=278036\u0026rid=2310480",
+     "user_limit": 4
+    },
+    "id": "2310480",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-01-23T10:38:23.351137+00:00",
+     "description": "Also bold, golden name at the end of the videos.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-23T10:39:58.868080+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-23T10:39:58.844819+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Magic girls",
+     "unpublished_at": null,
+     "url": "/bePatron?c=278036\u0026rid=2310478",
+     "user_limit": null
+    },
+    "id": "2310478",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 400,
+     "completed_percentage": 100,
+     "created_at": "2016-11-25T02:43:06+00:00",
+     "description": "Wew free supporter",
+     "reached_at": "2018-01-22T18:34:00+00:00",
+     "title": ""
+    },
+    "id": "621100",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2017-10-31T06:54:47+00:00",
+     "description": "Monthly supporter raffle/competition",
+     "reached_at": "2018-03-27T19:44:42+00:00",
+     "title": ""
+    },
+    "id": "1008915",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 52,
+     "created_at": "2018-04-17T23:37:01+00:00",
+     "description": "Monthly bounties on certain scores.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1175974",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/278036"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "716189a1-fc44-4ff0-b5c4-fbf3f59d324c",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "verto is creating circle clicking theoretical analyses and stuff"
+});
+    </script>

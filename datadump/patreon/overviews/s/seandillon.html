@@ -1,0 +1,463 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "g8xN-3x58lHI7VwXguzinEBFUTVRpq7Hw2MwoY2_8Ak";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "570574",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/570574"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-09-08T00:26:59+00:00",
+    "creation_name": "Blog Posts",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1214247/99fbc23452b540c2a47c551f84678b31?token-time=2145916800\u0026token-hash=t_f2MezuLAfW5IVLy63uN70B6io_7GL0gFEp9ig_mgU%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1214247/99fbc23452b540c2a47c551f84678b31?token-time=2145916800\u0026token-hash=ciIz4FT_43sIprONz71d7wSa7-H1T9QXB9aR2oz6TjE%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 4,
+    "pay_per_name": "week of posts.",
+    "pledge_sum": 1129,
+    "pledge_url": "/bePatron?c=1214247",
+    "published_at": "2017-09-08T02:11:53+00:00",
+    "summary": "I am a struggling writer who has just gotten out of college. As such, I hope to use Patreon to supplement any paychecks I may get from whatever jobs I get. I currently have a\u00a0\u003ca href=\"https://thekinginredandblue.blogspot.com\"\u003eblog\u003c/a\u003e, which will start up in earnest on 10/10, wherein I\u0027ll write various essays on whatever I feel like. My current project, Fearful Symmetry, is a series on fiction from October and November 1987.\u003cbr\u003e\u003cbr\u003ePatreon rewards will include early access to posts, quick fire reviews of whatever I\u0027ve seen lately, the ability to request posts, and more. Thank you for sponsoring me and I hope to live up to your expectations."
+   },
+   "id": "1214247",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "653024",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/653024"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "959958",
+       "type": "goal"
+      },
+      {
+       "id": "959959",
+       "type": "goal"
+      },
+      {
+       "id": "959977",
+       "type": "goal"
+      },
+      {
+       "id": "1010584",
+       "type": "goal"
+      },
+      {
+       "id": "1010585",
+       "type": "goal"
+      },
+      {
+       "id": "1010586",
+       "type": "goal"
+      },
+      {
+       "id": "1134028",
+       "type": "goal"
+      },
+      {
+       "id": "1134029",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1214247",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1214247"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1987718",
+       "type": "reward"
+      },
+      {
+       "id": "1987717",
+       "type": "reward"
+      },
+      {
+       "id": "1987720",
+       "type": "reward"
+      },
+      {
+       "id": "1987719",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-03-24T11:26:47+00:00",
+     "facebook": "https://www.facebook.com/profile.php?id=1453683970",
+     "first_name": "Sean",
+     "full_name": "Sean Dillon",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/653024/c4844492f2294f85835f7b560a62656a?token-time=2145916800\u0026token-hash=Hyy3dlm9uQgEUY32aNlhZfnRF46ZwyrqTb0nQD_0eWk%3D",
+     "last_name": "Dillon",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/653024/c4844492f2294f85835f7b560a62656a?token-time=2145916800\u0026token-hash=DHiaoRSe4mxHD5tSxUQ3ZhHMhCUTyFOUy54-WCOfyKY%3D",
+     "twitch": null,
+     "twitter": "deathchrist2000",
+     "url": "https://www.patreon.com/seandillon",
+     "vanity": "seandillon",
+     "youtube": null
+    },
+    "id": "653024",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1214247",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1214247"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 54,
+     "upgrade_url": "/bePatron?c=1214247\u0026rid=1987718"
+    },
+    "id": "post-aggregation-for-0-1214247",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-09-08T01:44:30.547931+00:00",
+     "description": "\u003cdiv\u003ePledge $1 dollar a week, and you shall receive:\u003cbr\u003e\u003c/div\u003e\u003cul\u003e\u003cli\u003eMy eternal gratitude\u003c/li\u003e\u003cli\u003eAccess to blog posts when they\u0027re finished\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-08T01:47:55.571130+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 35,
+     "published": true,
+     "published_at": "2017-09-08T01:44:30.547931+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "A friend in deed",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214247\u0026rid=1987718",
+     "user_limit": null
+    },
+    "id": "1987718",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-09-08T01:44:30.543666+00:00",
+     "description": "Pledge $3 dollars a week, and you shall receive:\u003cbr\u003e\u003cul\u003e\u003cli\u003eMy eternal gratitude\u003c/li\u003e\u003cli\u003eAccess to blog posts when they\u0027re finished.\u003c/li\u003e\u003cli\u003eAccess to quick fire reviews\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-08T01:47:55.580040+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 16,
+     "published": true,
+     "published_at": "2017-09-08T01:44:30.543666+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Going the extra mile",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214247\u0026rid=1987717",
+     "user_limit": null
+    },
+    "id": "1987717",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-09-08T01:44:30.780580+00:00",
+     "description": "Pledge $5 dollars a week, and you shall receive:\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eMy eternal gratitude\u003c/li\u003e\n\u003cli\u003eAccess to blog posts when they\u0027re finished.\u003c/li\u003e\n\u003cli\u003eAccess to quick fire reviews\u003c/li\u003e\n\u003cli\u003eI will write a post once a month (min. 2,000 words) on something of your choice (we\u0027ll discuss beforehand)\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-07T14:50:43.930551+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-03-07T14:50:43.922697+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Going a bit too far",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214247\u0026rid=1987720",
+     "user_limit": null
+    },
+    "id": "1987720",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-09-08T01:44:30.557036+00:00",
+     "description": "Pledge $15 dollars a week, and you shall receive:\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003eMy eternal gratitude\u003c/li\u003e\n\u003cli\u003eAccess to blog posts when they\u0027re finished.\u003c/li\u003e\n\u003cli\u003eAccess to quick fire reviews\u003c/li\u003e\n\u003cli\u003eI will write a work of fiction (5,000-10,000 words) based on a pitch you supply. (Not guaranteed to be done within a month)\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-07T15:19:28.612081+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-07T15:19:28.602163+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "You have a lot of money to burn",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1214247\u0026rid=1987719",
+     "user_limit": 5
+    },
+    "id": "1987719",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 11,
+     "created_at": "2017-09-08T01:44:31+00:00",
+     "description": "\u003cstrong\u003eWe Should Do Something!\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eShould I reach this goal, I will write a series of posts analyzing Linkara\u0027s Review of Final Crisis, why it\u0027s wrong, and what the comic is actually about with divergences into Morrison\u0027s mystical tradition and how that relates to his views on Godhood, the differences between thematic cohesion and plot cohesion, why the covers are actually brilliant, and more.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "959958",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 2,
+     "created_at": "2017-09-08T01:44:31+00:00",
+     "description": "\u003cstrong\u003eTwine Finale\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eIf I reach this goal, I\u0027ll actually make the final essay of Fearful Symmetry as it was originally intended to be: In Twine. This is a major undertaking on my part and way too much for me to do right now. Maybe someday when I achieve this goal.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "959959",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 5,
+     "created_at": "2017-09-08T02:09:24+00:00",
+     "description": "\u003cstrong\u003eSean and David Watch Doctor Who\u003cbr\u003e\u003c/strong\u003e\u003cbr\u003eI will make a monthly/weekly podcast wherein I subject David Mann (@davidmann95) who hasn\u0027t seen Doctor Who to all of its weird, wonderful, and terrible stories. (How deep? Bojeffries Saga deep.)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "959977",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 1,
+     "created_at": "2017-11-02T03:46:04+00:00",
+     "description": "\u003cstrong\u003eNo. 1 at the Box Office\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eShould I reach this goal, I\u0027ll write a project on every movie that got to Number One at the box office between the years 2000 and 2012 (because that year has the better ending for such a project than 2010).",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1010584",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 0,
+     "created_at": "2017-11-02T03:46:04+00:00",
+     "description": "\u003cstrong\u003eUnnamed Tarantino Project\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eShould I reach this goal, I\u0027ll do a psychochronographic project on the works of Quentin Tarantino. This will include his tv and acting roles (The goal will decrease to $300 should Roman Polanski die before I reach this goal).",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1010585",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 0,
+     "created_at": "2017-11-02T03:46:04+00:00",
+     "description": "\u003cstrong\u003eConspiracy Against The Spider-Race\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eI will do a psychocronography on the whole of Spider-Man from Steve Ditko to Secret Wars IV. This will cover everything that has had an impact on the comics and also Rock Reflections of a Superhero.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1010586",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 22,
+     "created_at": "2018-03-07T14:57:21+00:00",
+     "description": "\u003cstrong\u003eWeekly Posts\u003cbr\u003e\u003c/strong\u003e\u003cbr\u003eIf I get to this goal, I\u0027ll have a consistent schedule for my future blog projects as opposed to the more likely \"when it\u0027s done schedule\" they will have without this goal.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1134028",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 4,
+     "created_at": "2018-03-07T14:57:21+00:00",
+     "description": "\u003cstrong\u003eBiweekly Posts\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eIf I get here, Being Parted/Broken Hearted will be twice a week.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1134029",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1214247"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "f25d0fb8-44d7-4b73-84cc-b58103fda198",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Sean Dillon is creating Blog Posts"
+});
+    </script>

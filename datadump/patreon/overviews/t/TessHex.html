@@ -1,0 +1,475 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "KS0q9wpgmzoLS7Kb9NcCQ1gQonPlwdXQaaiMJ3BYf3w";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "510095",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/510095"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-07-02T22:44:37+00:00",
+    "creation_name": "reviews of Eurovision and video-games",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1035997/ef9d0db1f7364cca80cb6fe3b69a5c44?token-time=2145916800\u0026token-hash=xQGBaApeaPiaKmD2VVe_tgPpHEI7vFBIxfsHj6eANS8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1035997/ef9d0db1f7364cca80cb6fe3b69a5c44?token-time=2145916800\u0026token-hash=_COaEZcuY9F2hH3PK1_c3bI0YfVAGi1aO6-txJoXh3I%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 5,
+    "pay_per_name": "video",
+    "pledge_sum": 2015,
+    "pledge_url": "/bePatron?c=1035997",
+    "published_at": "2017-07-13T14:59:33+00:00",
+    "summary": "\u003ci style=\"font-weight: bold;\"\u003e\"Hello, everyone-- I am Tessellating Hexagons!\"\u003c/i\u003e\u003cbr\u003e...Or just \"Tess\" for short. Or \"TessHex\" for medium, if you prefer. And a hearty welcome to my Patreon page from me to you.\u003cbr\u003e\u003cbr\u003eI\u0027ve been around on the Internet for...well, let\u0027s not go there. But I\u0027ve been alive since the mid-90s, grew up with the Internet, and started making stuff for the Internet in 2013, as a reviewer of Eurovision songs, and irreverent player of video-games. And now, I\u0027ve decided to make the move to board the Good Ship Patreon, albeit a bit later than the rest of the cool kids.\u003cbr\u003e\u003cbr\u003e\u003ci style=\"font-weight: bold;\"\u003eSo, what\u0027s this all about, then?\u003cbr\u003e\u003c/i\u003eOrdinarily, you\u0027ll find me doing what I do over on\u00a0\u003ca href=\"https://www.youtube.com/user/TessHex\" target=\"_blank\"\u003emy YouTube channel\u003c/a\u003e-- that is, four gaming videos per week, next-day reviews of Eurovision songs when they\u0027re chosen (season permitting), and roughly-weekly live-streams, with the occasional piece of miscellaneous creative content sprinkled throughout.\u003cbr\u003e\u003cbr\u003eI don\u0027t plan on hiding any of that behind money-shaped barriers; heavens, no. I intend to create additional stuff for Patreon above and beyond all of that-- namely, combining my talents into regular reviews of gaming content, \u003cem\u003eand\u003c/em\u003e\u00a0Eurovision content, in the hopes that I may appease as many of you lovely people as I can. These will reach my YouTube channel eventually, but not for a minimum of one month after they\u0027re posted here. That might be extended, if patrons feel it ought to be.\u003cbr\u003e\u003cbr\u003eSo, in plain and simple terms: the stuff I usually do for YouTube isn\u0027t going anywhere. It won\u0027t be hidden behind pay-walls, and you lovely people here on Patreon won\u0027t be charged for them. It\u0027s just the shiny, new, review-based content that your support will be...well, supporting.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cem\u003eBut what does that actually mean?\u003c/em\u003e\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003eMy plans for Patreon are as simple as this: for each month, I\u0027ll post three to four times-- once weekly, only two of which are paid posts. That is to say, \u003cstrong\u003eyou only pay for two videos per month, no matter how much I produce.\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eWeek 1\u003c/strong\u003e\u00a0will be a quick round-up of what to expect in the coming month here on Patreon. It\u0027s free, of course.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eWeek 2\u003c/strong\u003e\u00a0will be that month\u0027s Eurovision-based review. It could be about a whole country\u0027s history; it could be about a particular year-- anything\u0027s on the cards, really. It\u0027ll be delivered unto your review-receiving apparatuses as a 20-minute-or-so video (or \"audiovisual experience\", if you prefer). This is one of the two monthly paid posts.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eWeek 3\u003c/strong\u003e\u00a0will be that month\u0027s gaming-based review. This might be an in-depth look at one game that I want to shed more light on; it might be that \"top five/ten countdown\" format some YouTubers are so fond of producing. You\u0027ll just have to wait and see. Regardless, same as the Eurovision content, it\u0027s in the form of a 20-ish minute video. This, too, is a paid post.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eWeek 4\u003c/strong\u003e, in most months, will be my week off, where I plan ahead for the next month\u0027s load of content.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eBonus content?\u003c/strong\u003e\u00a0If a month ends up working out at five weeks, I\u0027ll throw in a little extra something, free of charge. I\u0027m just that nice.\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003ci style=\"font-weight: bold;\"\u003eWhat if I can\u0027t support you right now?\u003cbr\u003e\u003c/i\u003eFear not. Each video I post to Patreon will remain Patreon-exclusive for one month (subject to change if my patrons feel that needs extending), after which they will be uploaded to YouTube for general consumption. I\u0027ll do my best to make them worth the wait, and, even better, worth paying for.\u003cbr\u003e\u003cbr\u003e\u003ci style=\"font-weight: bold;\"\u003eAnd what will you be doing with the money from this campaign?\u003cbr\u003e\u003c/i\u003eI\u0027m so glad you asked. Well, you see, I\u0027m currently studying at university, which, here in the UK, doesn\u0027t come especially cheap. I\u0027d like to be able to afford nice things without worrying about paying back those pesky tuition fees. So your donations will help improve what hardware and software I use to create what I create (both here, and on YouTube), as well as give me more opportunities to showcase games that aren\u0027t quite so easy to get one\u0027s hands on, and so on.\u003cbr\u003e\u003cbr\u003e...And you\u0027ll get my sincerest thanks, of course."
+   },
+   "id": "1035997",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2395518",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2395518"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "887732",
+       "type": "goal"
+      },
+      {
+       "id": "887733",
+       "type": "goal"
+      },
+      {
+       "id": "887734",
+       "type": "goal"
+      },
+      {
+       "id": "906779",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1035997",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1035997"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1811895",
+       "type": "reward"
+      },
+      {
+       "id": "1813165",
+       "type": "reward"
+      },
+      {
+       "id": "1811894",
+       "type": "reward"
+      },
+      {
+       "id": "1811898",
+       "type": "reward"
+      },
+      {
+       "id": "1811897",
+       "type": "reward"
+      },
+      {
+       "id": "1811896",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-10-02T01:04:37+00:00",
+     "facebook": null,
+     "first_name": "Tessellating",
+     "full_name": "Tessellating Hexagons",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2395518/4d50e9fc7f254861ab281e915fca119b?token-time=2145916800\u0026token-hash=jXnpbSqmM6p3Mv7zVd45IPVFqbc2QRebXxG2fu57x6k%3D",
+     "last_name": "Hexagons",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2395518/4d50e9fc7f254861ab281e915fca119b?token-time=2145916800\u0026token-hash=xgmLcMjqAurWfL_APWK9uuJFo9MBntEvSnMpyYhWVxA%3D",
+     "twitch": "https://www.twitch.tv/tessellatinghexagons",
+     "twitter": "TessHexagons",
+     "url": "https://www.patreon.com/TessHex",
+     "vanity": "TessHex",
+     "youtube": "https://www.youtube.com/TessHex"
+    },
+    "id": "2395518",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1035997",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1035997"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 27,
+     "upgrade_url": "/bePatron?c=1035997\u0026rid=1813165"
+    },
+    "id": "post-aggregation-for-0-1035997",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-07-03T00:03:35.615905+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAccess to all the Patreon-based good stuff a whole month before they go public on YouTube. ...The videos, that is.\u003c/li\u003e\n\u003cli\u003eAccess to the patron-exclusive channel on the TessHex Discord server!\u003c/li\u003e\n\u003cli\u003eMy most genuine thanks.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "450424549180309504"
+     ],
+     "edited_at": "2018-05-27T22:34:46.361963+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1811895/31c235e24a604e4781adf1f40e44dd5a?token-time=2145916800\u0026token-hash=rh3m0_GlBOKN0xC-uLUiOT0oSgsbgg1_dusNfeQVb6E%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-27T22:34:46.354563+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Certified Lovely Person",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1035997\u0026rid=1811895",
+     "user_limit": null
+    },
+    "id": "1811895",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-07-03T13:37:37.004726+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAll the goodness of the $1 tier, with the added bonus of knowing your support is that much bigger.\u003c/li\u003e\n\u003cli\u003eAccess to bonus content in months with five Fridays.\u003c/li\u003e\n\u003cli\u003eMy most genuine thanks.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "450424549180309504"
+     ],
+     "edited_at": "2018-05-27T22:29:38.377204+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1813165/619a5d37eeae4a178a83569eae909e60?token-time=2145916800\u0026token-hash=9QXxqQjvPNwbYp3yo11FN-Tko6ON_T4WQ0hkePhugA8%3D",
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-05-27T22:29:38.338308+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Supportive Lovely Person",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1035997\u0026rid=1813165",
+     "user_limit": null
+    },
+    "id": "1813165",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-07-03T00:03:35.613482+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eA place in every Patreon video\u0027s credits.\u003c/li\u003e\n\u003cli\u003eAccess to said videos, of course, a month before they\u0027re available to the general public.\u003c/li\u003e\n\u003cli\u003eBonus content on months with five Fridays.\u003c/li\u003e\n\u003cli\u003eMy most genuine thanks.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "450424549180309504"
+     ],
+     "edited_at": "2018-05-27T22:29:50.987701+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1811894/ff1a6c0ba75a414daae6fa2b76e5818e?token-time=2145916800\u0026token-hash=ZNxCcN1ch1BqnJHYDp4Jo34zaGt0X8Et38gac2V5YWw%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-27T22:29:50.956520+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Credited Lovely Person",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1035997\u0026rid=1811894",
+     "user_limit": null
+    },
+    "id": "1811894",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-07-03T00:03:35.662166+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eInput on future videos (that is, suggesting topics, or even just lines, quips, or witticisms to include).\u003c/li\u003e\n\u003cli\u003eA place in the credits; you deserve it!\u003c/li\u003e\n\u003cli\u003eAccess to the Patreon-bound videos a whole month before they\u0027re made public, naturally.\u003c/li\u003e\n\u003cli\u003eBonus content on months with five Fridays.\u003c/li\u003e\n\u003cli\u003e...Plus a monthly compilation of outtakes. Why not?~\u003c/li\u003e\n\u003cli\u003eMy most genuine thanks.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "450424549180309504"
+     ],
+     "edited_at": "2018-05-27T22:29:58.348658+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1811898/75e57fda249d4b2cb302a6c16054fbdd?token-time=2145916800\u0026token-hash=wq6nU37zuJpAKpIgJBmFTc113UvBbg5ffYP3ILSbDM0%3D",
+     "patron_count": 1,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2018-05-27T22:29:58.319586+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Superbly Lovely Person",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1035997\u0026rid=1811898",
+     "user_limit": null
+    },
+    "id": "1811898",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-07-03T00:03:35.627804+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAn actual, out-loud shout-out credit in the Patreon-based content. You\u0027ve earned it!\u003c/li\u003e\u003cli\u003eEvery perk of the previous tiers.\u003c/li\u003e\u003cli\u003eAnd have another round of thanks, too, for good measure.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "450424549180309504"
+     ],
+     "edited_at": "2018-05-27T22:30:06.349684+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1811897/ecc7a16be1c54af28bea8ce8c806349d?token-time=2145916800\u0026token-hash=EOV6iErno7fnaWeptHmPQipLhtVQ3PIDKkn4JLkhvog%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-27T22:30:06.315883+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Amazingly Lovely Person",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1035997\u0026rid=1811897",
+     "user_limit": null
+    },
+    "id": "1811897",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-07-03T00:03:35.628031+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eTalk to me...if you want. It can be private, it can be part of a video (Patreon-based or not; we\u0027ll figure it out), or whatever. Your call. ...In this case, literally.\u003c/li\u003e\u003cli\u003eA shout-out on Twitter, too, because...wow!\u003c/li\u003e\u003cli\u003eAnd all the other perks, obviously.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "450424549180309504"
+     ],
+     "edited_at": "2018-05-27T22:30:15.823179+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1811896/8c7b1551a352436386c7d50518edf5af?token-time=2145916800\u0026token-hash=nE1qxGYCNFlk1MgyT1N-A44u2NCiidmoe3lroHWjU5I%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-27T22:30:15.792767+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Unprecedentedly Lovely Person",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1035997\u0026rid=1811896",
+     "user_limit": null
+    },
+    "id": "1811896",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 10,
+     "created_at": "2017-07-03T00:03:36+00:00",
+     "description": "At this point, I\u0027ll have access to pretty much all the means of making my content as high-quality as I can. I\u0027d like to think you\u0027ll be able to see a marked difference.\u003cbr\u003eAlso, I\u0027ll release a bonus-video detailing every last thing Patreon has helped me pay for, and how it\u0027s helped me.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "887732",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 4,
+     "created_at": "2017-07-03T00:03:36+00:00",
+     "description": "At this point, I should be able to travel much more freely, so meet-ups and the like could be on the cards. At the very least, it\u0027ll offer me a nice change of scenery and boost of morale, which could lead to a broader variety of content...you never know.\u003cbr\u003eOh, and another round-up video of all the things Patreon has helped me pay for, of course.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "887733",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 2,
+     "created_at": "2017-07-03T00:03:36+00:00",
+     "description": "Wow, indeed. By this point, I should have the ability to travel easily and-- hopefully-- be in attendance at at least a handful of conventions. I\u0027ve got my eyes on the likes of one of the PAXes, MAGFest, VidCon...and maybe others. A man can dream, right?\u003cbr\u003e...And I\u0027ll supply another video documenting everything your support has helped me achieve along the way!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "887734",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 20,
+     "created_at": "2017-07-19T17:34:14+00:00",
+     "description": "If I reach this, I\u0027ll know, beyond any reasonable doubt, that there is definite interest in my work and me.\u003cbr\u003eTo show my gratitude, I shall pursue the possibility of creating TessHex merchandise, and anyone of the $10 tier or higher will have the first opportunity to suggest ideas for that!\u003cbr\u003eI\u0027ll also look into getting discounts for you lovely people, depending on your tier!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "906779",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1035997"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e220e07a-7a69-4854-ab22-8fe18e2e5314",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Tessellating Hexagons is creating reviews of Eurovision and video-games"
+});
+    </script>

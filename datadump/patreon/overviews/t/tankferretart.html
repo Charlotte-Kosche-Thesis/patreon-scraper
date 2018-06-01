@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "uKf4mS906Z9ajmzL0vJ0JbH6brE0lpUn1J86SSMHWF4";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "230520",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/230520"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-09-13T02:17:57+00:00",
+    "creation_name": "worlds!",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/213468/357e56ee5f4e41518e9af94acae56b9d?token-time=2145916800\u0026token-hash=MwgTZCzl5P0PgKh-a9V66v8WQya6Z4S8Yh9Hh3X1ztk%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/213468/357e56ee5f4e41518e9af94acae56b9d?token-time=2145916800\u0026token-hash=0SjC377eAsDjbWoETtKqUzhC4f1ypxLp-qa6uPgyv6I%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Always aiming to improve quality!",
+    "patron_count": 9,
+    "pay_per_name": "month",
+    "pledge_sum": 6420,
+    "pledge_url": "/bePatron?c=213468",
+    "published_at": "2016-09-15T01:36:34+00:00",
+    "summary": "\u003cstrong\u003eWelcome to Tank Ferret Presents on Patreon!\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003eHey folks, Weston \"Tank Ferret\" Duggan-Starr here. I hope to entertain you with stories and art!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWhat is Patreon?\u00a0\u003cbr\u003e\u003c/strong\u003eIt is the \u003cem\u003epremier\u003c/em\u003e site to stay up to date and support your favorite creators!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWhy Patreon?\u00a0\u003cbr\u003e\u003c/strong\u003eI want to bring you the best entertainment that I can, but I also need to make a living. So, I\u0027ve set up and environment where I can bring you top notch entertainment, provide exclusive content, and (of course) swag!\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003e"
+   },
+   "id": "213468",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "547886",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/547886"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "241572",
+       "type": "goal"
+      },
+      {
+       "id": "547070",
+       "type": "goal"
+      },
+      {
+       "id": "788353",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-213468",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-213468"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "782532",
+       "type": "reward"
+      },
+      {
+       "id": "2491313",
+       "type": "reward"
+      },
+      {
+       "id": "2491320",
+       "type": "reward"
+      },
+      {
+       "id": "2491322",
+       "type": "reward"
+      },
+      {
+       "id": "2491332",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Published Artist, Comic Enthusiast, Cyberpunk Nerd, King of the Bad Pun, Father, and Tanker Emeritus.",
+     "created": "2015-02-08T03:28:04+00:00",
+     "facebook": "https://www.facebook.com/tankferretart",
+     "first_name": "Tank",
+     "full_name": "Tank Ferret Art",
+     "gender": 1,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/547886/05b288a618e84d829d791153902d5355?token-time=2145916800\u0026token-hash=8qaj_yeTJRugBtRSGEGILU_iG56OqbnTicpW4n-_vSQ%3D",
+     "last_name": "Ferret Art",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/547886/05b288a618e84d829d791153902d5355?token-time=2145916800\u0026token-hash=EbzHooTzstKqgxs5xE7TiPA5Z7oYXO_QRyyS5ckc27o%3D",
+     "twitch": null,
+     "twitter": "TankFerretArt",
+     "url": "https://www.patreon.com/tankferretart",
+     "vanity": "tankferretart",
+     "youtube": null
+    },
+    "id": "547886",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "213468",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/213468"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 41,
+     "upgrade_url": "/bePatron?c=213468\u0026rid=782532"
+    },
+    "id": "post-aggregation-for-0-213468",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-09-15T01:36:26+00:00",
+     "description": "You know the word on the stree and now have full access to Tales From The 99er!",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T07:41:53.754028+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": 14,
+     "published": true,
+     "published_at": "2018-04-01T07:41:53.747039+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gutter Punk",
+     "unpublished_at": null,
+     "url": "/bePatron?c=213468\u0026rid=782532",
+     "user_limit": null
+    },
+    "id": "782532",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-04-01T07:34:37.968324+00:00",
+     "description": "You\u0027ve successfully hacked the net for exclusive access to my private sketchbook.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eEvery month I will upload a character design with a bio. (Spoiler free)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T07:34:37.968324+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-04-01T07:34:37.968324+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Script Kiddie",
+     "unpublished_at": null,
+     "url": "/bePatron?c=213468\u0026rid=2491313",
+     "user_limit": null
+    },
+    "id": "2491313",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-04-01T07:38:07.994908+00:00",
+     "description": "For keeping the streets in order, the don has rewarded you with an exclusive collectable postcard with my personal thanks.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T07:38:07.994908+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T07:38:07.994908+00:00",
+     "remaining": 18,
+     "requires_shipping": true,
+     "title": "Mob Enforcer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=213468\u0026rid=2491320",
+     "user_limit": 20
+    },
+    "id": "2491320",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-04-01T07:40:22.654318+00:00",
+     "description": "Congratulations on cracking the code! You have found an access node to exclusive wallpapers every week.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T07:40:22.654318+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T07:40:22.654318+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Corporate I.T.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=213468\u0026rid=2491322",
+     "user_limit": null
+    },
+    "id": "2491322",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-04-01T07:47:18.916382+00:00",
+     "description": "You\u0027ve made it to the big time and reap the rewards due to such a person of stature!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eNot only will you get an original Tales From The 99er comic, but a page from my mini sketchbook!\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-01T07:47:18.916382+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-01T07:47:18.916382+00:00",
+     "remaining": 4,
+     "requires_shipping": true,
+     "title": "Corporate Hot Shot",
+     "unpublished_at": null,
+     "url": "/bePatron?c=213468\u0026rid=2491332",
+     "user_limit": 4
+    },
+    "id": "2491332",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 12,
+     "created_at": "2015-09-13T03:07:34+00:00",
+     "description": "A new\u003cstrong\u003e Tales From The 99er \u003c/strong\u003ewill be uploaded 5 days a week!\u003cbr\u003e\u003cbr\u003eNew reward level TBA.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "241572",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 25,
+     "created_at": "2016-09-15T01:36:26+00:00",
+     "description": "\u003cstrong\u003eTales From The 99er \u003c/strong\u003ewill be published every Monday, Wednesday and Sunday!\u003cbr\u003e\u003cbr\u003eA new reward level TBA.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "547070",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 4,
+     "created_at": "2017-04-12T23:33:18+00:00",
+     "description": "Every Sunday, I\u0027ll add a page from 2065:Retribution. Whereas \u003cstrong\u003eTales From The 99er \u003c/strong\u003eis three panel newspaper like comic strip, \u003cstrong\u003e2065:Retribution \u003c/strong\u003eis a proper comic!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "788353",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/213468"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "cad2dd86-9f75-4af3-bd14-c2d281af0271",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Tank Ferret Art is creating worlds!"
+});
+    </script>

@@ -1,0 +1,575 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "4zaH-VunmfbLjBGr5ajYoga7PQNUoyd-xMkMxnk6CRM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "30196",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/30196"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-07-21T04:00:20+00:00",
+    "creation_name": "CS:GO guides/gameplays to teach Players",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/103919/2798be981ead489ca1cef53997645b6e?token-time=2145916800\u0026token-hash=yvqD62YGzpUXynN16-FBujCVVOBtAKVcCX2ivB-o-JU%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/103919/2798be981ead489ca1cef53997645b6e?token-time=2145916800\u0026token-hash=6r85_NOmDN5ABPrwXBHyFTwsJuFkgmhJ9T-LRhR3A3c%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "I call myself a Hardcore PC Gamer for a very good reason. Need help? I\u0027m your guy.",
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_sum": 1880,
+    "pledge_url": "/bePatron?c=103919",
+    "published_at": "2015-01-11T18:32:30+00:00",
+    "summary": "\u003cdiv\u003eYO guys! I am Yellow, the Norwegian hardcore PC gamer - an old \"title\" i use that describe my dedication towards the FPS genre pretty well. Over the last 7 years i have made a crazy amount of fps videos, whereas the last 4 have been about helping CS:GO players getting better at the game. And i want to continue doing so while pushing my limits for your viewing/learning pleasure.\u003cbr\u003e\u003cbr\u003eThus far you guys have been incredible, we have broken trough many smaller barriers. \u003cstrong\u003eBut there are 2 huge goals left, so participate with your support if you feel like doing so.\u003cbr\u003e\u003cbr\u003eMy mind is pretty blank on what rewards to choose. \u003c/strong\u003eYou can always send me a Personal Message trough Patreon if you got suggestions for your pledge. A google hangout could work, a supporter discord chat with all you guys, make up your mind \u0026amp; ask and we\u0027ll make things happen.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003c/div\u003e"
+   },
+   "id": "103919",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "238299",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/238299"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "167349",
+       "type": "goal"
+      },
+      {
+       "id": "167491",
+       "type": "goal"
+      },
+      {
+       "id": "272167",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-103919",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-103919"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "140130",
+       "type": "reward"
+      },
+      {
+       "id": "138864",
+       "type": "reward"
+      },
+      {
+       "id": "138865",
+       "type": "reward"
+      },
+      {
+       "id": "348789",
+       "type": "reward"
+      },
+      {
+       "id": "138868",
+       "type": "reward"
+      },
+      {
+       "id": "348790",
+       "type": "reward"
+      },
+      {
+       "id": "138869",
+       "type": "reward"
+      },
+      {
+       "id": "138870",
+       "type": "reward"
+      },
+      {
+       "id": "160560",
+       "type": "reward"
+      },
+      {
+       "id": "348088",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "How many people got over 10000 hours of FPS gaming on the PC? Few, but i\u0027m one of them.\u003cbr\u003eJust call me Yellow, i am a Norwegian hardcore PC gamer. My channel feature my\u00a0Guides, Gaming science, technical things you should do in order to make your PC perform better, among other gaming related things. The goal is to make the FPS community better overall.\u003cbr\u003e\u003cbr\u003eIs your computer not running the game properly? Need to get better at a shooter game? Need good examples to get better? I am your guy.\u003cbr\u003e\u003cbr\u003e",
+     "created": "2014-07-21T04:00:20+00:00",
+     "facebook": "https://www.facebook.com/Cyellowan",
+     "first_name": "Yellow",
+     "full_name": "Yellow",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/238299/c7945c70f4444d1ea15174468fd0b55c?token-time=2145916800\u0026token-hash=reJrgUntcN1XA0PdSzpZDY2BLhrvg7XNWwf9XTCwuJA%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/238299/c7945c70f4444d1ea15174468fd0b55c?token-time=2145916800\u0026token-hash=-4pZrAyOchh_AwczXXZuopG9bvVGJMzkA2CVLnYk3D0%3D",
+     "twitch": "https://www.twitch.tv/cyellowan",
+     "twitter": "MattYellow1",
+     "url": "https://www.patreon.com/Yellow",
+     "vanity": "Yellow",
+     "youtube": "https://www.youtube.com/user/CYellowan"
+    },
+    "id": "238299",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "103919",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/103919"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 28,
+     "upgrade_url": "/bePatron?c=103919\u0026rid=140130"
+    },
+    "id": "post-aggregation-for-0-103919",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-08-05T23:39:42+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eYou get access to the Yellow Discord Server.\u003c/li\u003e\n\u003cli\u003e\u00a0Preview of videos before they get uploaded up to 3 days before release.\u003c/li\u003e\n\u003cli\u003e\u00a0You get instant contact to me trough Patreon that, notifies me.\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-25T20:55:27.595358+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 9,
+     "published": true,
+     "published_at": "2016-08-05T23:39:42+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Beast 1 (Discord+Vid Preview)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103919\u0026rid=140130",
+     "user_limit": null
+    },
+    "id": "140130",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 250,
+     "amount_cents": 250,
+     "created_at": "2016-08-05T23:39:42+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eI add you to my main \u0026amp; smurf. Msg me about this on Patreon! (Send me your REAL Steam url. Copy your steamProfile URL and search yourself up on \"steamrep\" to find it)\u003c/li\u003e\n\u003cli\u003eI don\u0027t like signing profiles. But if you want me to sign then ask me after i add you on steam.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-25T20:44:14.642763+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-05T23:39:42+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Beast 2 (AccAdd)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103919\u0026rid=138864",
+     "user_limit": null
+    },
+    "id": "138864",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-08-05T23:39:42+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eI\u0027ll review 1 demo you got, or even do some PC tech research for you if you request it. I am kinda good at that stuff.\u003c/li\u003e\n\u003cli\u003eGot a CS/PC related issue? I\u0027ll try help you get it fixed. Unless you got a very rare bug. Then, GABEN PLZ.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-25T20:40:58.414671+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-05T23:39:42+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Beast 3",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103919\u0026rid=138865",
+     "user_limit": null
+    },
+    "id": "138865",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 600,
+     "amount_cents": 600,
+     "created_at": "2016-08-05T23:39:42+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003e\u00a0You will get to take part in a \u003cstrong\u003e2H private Patreon Google hangout\u003c/strong\u003e. We can talk about CS news \u0026amp; details \u0026amp; whatever comes up or whatever interesting you want to bring up.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-25T20:43:36.755954+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-08-05T23:39:42+00:00",
+     "remaining": 14,
+     "requires_shipping": false,
+     "title": "Beast 4 (Hangout)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103919\u0026rid=348789",
+     "user_limit": 15
+    },
+    "id": "348789",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-08-05T23:39:42+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eI will take video suggestions seriously if there is something you want me to cover. \u003c/strong\u003eYou will also be the official sponsor of said video if you want to!\u003c/li\u003e\n\u003cli\u003eIf you got an MM game you want featured on the channel (\u003cstrong\u003eHighlights\u003c/strong\u003e), send me the match link and you\u0027ll be Featured! Will mention your name if desired.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-25T20:45:10.028095+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-05T23:39:42+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Beast 5 (Video suggestion)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103919\u0026rid=138868",
+     "user_limit": null
+    },
+    "id": "138868",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1400,
+     "amount_cents": 1400,
+     "created_at": "2016-08-05T23:39:42+00:00",
+     "description": "Dunno what to put here. Send me suggestions if you think of something good! Thanks for the support!",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-25T20:47:29.022085+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-05T23:39:42+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Beast 666 ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103919\u0026rid=348790",
+     "user_limit": 6
+    },
+    "id": "348790",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-08-05T23:39:42+00:00",
+     "description": "\u00a0Dunno what to put here. Send me suggestions if you think of something good! Thanks for the support!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-25T20:48:57.086346+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-05T23:39:42+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "BronzeBeast 7",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103919\u0026rid=138869",
+     "user_limit": null
+    },
+    "id": "138869",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-08-05T23:39:42+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eIf you have a video sugestion, i will start to work on it ASAP. You will get a private preview as soon as it is uploaded, to judge before ANYONE else also! you will be shouted out as the sponsor of said video if desired as well.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-25T20:52:17.527852+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-05T23:39:42+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "GoldBeast 8 (INSTANT VIDEO!)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103919\u0026rid=138870",
+     "user_limit": null
+    },
+    "id": "138870",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-08-05T23:39:42+00:00",
+     "description": "Crashcourse in becomign a YouTuber. This will be from my perspective. I will remind you that i have done less with more my entire life, so this will be very detailed and useful if you are interested.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-25T20:59:36.151967+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-05T23:39:42+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": "To the Aspiring YouTubers. (9)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103919\u0026rid=160560",
+     "user_limit": 2
+    },
+    "id": "160560",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 30000,
+     "amount_cents": 30000,
+     "created_at": "2016-08-05T23:39:42+00:00",
+     "description": "I will make sure to mention you 5 times in 5 different good videos as the patreon sponsor of the channel. Aside from that, i don\u0027t know what reward would fit so ask away. PS: \u003cstrong\u003eI NEVER deal with gambling sponsorships.\u003c/strong\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-25T20:57:46.181086+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-08-05T23:39:42+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "Sponsor-Beast 10",
+     "unpublished_at": null,
+     "url": "/bePatron?c=103919\u0026rid=348088",
+     "user_limit": 3
+    },
+    "id": "348088",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 7,
+     "created_at": "2015-05-10T00:53:06+00:00",
+     "description": "Zen is just about released, AMD\u0027s new CPU architecture! That means i can for a decent coin upgrade my old and tired FX-8350. The sooner this happens the better, it would be sweet getting back at 300+fps and having a fighting chance against professional CS:GO players when playing. That would make the game a lot more fun for me again. So ROCK ON with the support!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "167349",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 3,
+     "created_at": "2015-05-10T07:31:37+00:00",
+     "description": "This goal stands as it previously did! My CPU, Motherboard and RAM is on the chopping block. My PC is too old and the physical lag i get in CS and on particular maps PHYSICALLY makes me play worse. If we reach this point then i can assure you we\u0027ll get this fixed asap.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "167491",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 1,
+     "created_at": "2015-10-29T04:13:33+00:00",
+     "description": "At this point i can either get EVERY upgrade done with, or start making videos/stream every day. Because of Norwegian taxes, it\u0027s actually a bit short to be real with you. But if this mile-stone is ever reach i\u0027d imagine it would get passed eventually.\u003cbr\u003e\u003cbr\u003eYou people are monsters, glorious epic beasts every single one of you!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "272167",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/103919"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "cc49536f-a362-489d-b880-f334f8a25160",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Yellow is creating CS:GO guides/gameplays to teach Players"
+});
+    </script>

@@ -1,0 +1,625 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "wVEPBrsB2KhxO4EBwSwRkr1ZC2QMjDOsWq6hC-V8yC0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "292402",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/292402"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-05-28T07:40:23+00:00",
+    "creation_name": "SFM animations",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/376365/39728c2ef7f7475081f2775b8c35cdad?token-time=2145916800\u0026token-hash=9KR9_KC8-9Nay6mFPfUHTIWkKOYTfRAes_p8FGf46c8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/376365/39728c2ef7f7475081f2775b8c35cdad?token-time=2145916800\u0026token-hash=YVgIS43sECFtMajs9GjJ4mbEZyhnyt1Tds_fVlgDU-c%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "month",
+    "pledge_sum": 2393,
+    "pledge_url": "/bePatron?c=376365",
+    "published_at": "2016-11-02T02:59:13+00:00",
+    "summary": "I make SFM animations, and I need to be able to prove to my parents that I can actually sit at my computer all day and not starve to death!\u003cbr\u003e\u003cbr\u003eMy animations will be split into three categories:\u00a0\u003cbr\u003e\u003col\u003e\u003cli\u003e\u003cstrong\u003eShort and sweet:\u003c/strong\u003e Any animation that goes below 30 seconds will fall here, these animations will not have any credits, intro or outro.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eAverage and, well, average:\u003c/strong\u003e Any animation longer than 30 seconds, but less than a minute will feature a short outro card!\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eLong and hard:\u003c/strong\u003e Any animation that goes for longer than a minute will have a custom outro scene with credits!\u003c/li\u003e\u003c/ol\u003eAny money that you pledge would be fantastic and help me massively in the coming winters."
+   },
+   "id": "376365",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3372187",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3372187"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "469311",
+       "type": "goal"
+      },
+      {
+       "id": "469315",
+       "type": "goal"
+      },
+      {
+       "id": "469316",
+       "type": "goal"
+      },
+      {
+       "id": "470406",
+       "type": "goal"
+      },
+      {
+       "id": "478022",
+       "type": "goal"
+      },
+      {
+       "id": "552064",
+       "type": "goal"
+      },
+      {
+       "id": "960975",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-376365",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-376365"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "598774",
+       "type": "reward"
+      },
+      {
+       "id": "737693",
+       "type": "reward"
+      },
+      {
+       "id": "598763",
+       "type": "reward"
+      },
+      {
+       "id": "1613426",
+       "type": "reward"
+      },
+      {
+       "id": "600346",
+       "type": "reward"
+      },
+      {
+       "id": "1990154",
+       "type": "reward"
+      },
+      {
+       "id": "600363",
+       "type": "reward"
+      },
+      {
+       "id": "600360",
+       "type": "reward"
+      },
+      {
+       "id": "600367",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-05-28T07:36:26+00:00",
+     "facebook": "https://www.facebook.com/QuillosFace/",
+     "first_name": "Quillo",
+     "full_name": "Quillo Manar",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3372187/c47f955144b34b779f25a416f7eee9ab?token-time=2145916800\u0026token-hash=0EZ_KT8ZiyIVapedMX5_NanSy8OEGtX1TwgwJ32lw78%3D",
+     "last_name": "Manar",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3372187/c47f955144b34b779f25a416f7eee9ab?token-time=2145916800\u0026token-hash=mOyP_--x8u83MMYvvyYmW-WBJn_WLdc2pMKJRio62cI%3D",
+     "twitch": "",
+     "twitter": "quillomanar",
+     "url": "https://www.patreon.com/QuilloManar",
+     "vanity": "QuilloManar",
+     "youtube": "https://www.youtube.com/channel/UC_K3P-IyqfU2oGqebkD23Yw"
+    },
+    "id": "3372187",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "376365",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/376365"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 23,
+     "upgrade_url": "/bePatron?c=376365\u0026rid=598774"
+    },
+    "id": "post-aggregation-for-0-376365",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-08T12:32:37+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003c/div\u003e\u003cdiv style=\"text-align: center;\"\u003eYou can access \u003cstrong\u003eall\u003c/strong\u003e\u00a0my WiP videos!\u003cbr\u003e\u003cbr\u003e\u003c/div\u003eThese would be my scraps, bits, and pieces, of animations that may or may not be in production.\u003cbr\u003e",
+     "discord_role_ids": [
+      "264327116827525120"
+     ],
+     "edited_at": "2017-11-15T00:40:12.352501+00:00",
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": 21,
+     "published": true,
+     "published_at": "2017-11-15T00:40:12.324858+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Scrapyard Admittance",
+     "unpublished_at": null,
+     "url": "/bePatron?c=376365\u0026rid=598774",
+     "user_limit": null
+    },
+    "id": "598774",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-08T12:32:37+00:00",
+     "description": "You will get access to the completed version of my animations ahead of when I said I would release it!\u003cbr\u003e\u003cbr\u003e....\u003cbr\u003e\u003cbr\u003eProvided I complete it before I need to release it that is. :P",
+     "discord_role_ids": [
+      "264327116827525120"
+     ],
+     "edited_at": "2017-11-15T00:40:25.210015+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-15T00:40:25.182225+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Early Bird",
+     "unpublished_at": null,
+     "url": "/bePatron?c=376365\u0026rid=737693",
+     "user_limit": null
+    },
+    "id": "737693",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-08T12:32:37+00:00",
+     "description": "Get your name in the credits/end scene!\n\u003cp\u003e\u003cbr\u003e\nIn any video that has credits mind you.\u003cbr\u003e\n\u003cbr\u003e\nAlso, access to WiP videos.\u003cbr\u003e\n\u003c/p\u003e\n\u003cp\u003eYou\u0027ll get a super special mention in the description because you\u0027re so amazing.\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": [
+      "264327116827525120"
+     ],
+     "edited_at": "2017-11-25T20:48:12.651277+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-25T20:48:12.632233+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Plaque Etching",
+     "unpublished_at": null,
+     "url": "/bePatron?c=376365\u0026rid=598763",
+     "user_limit": null
+    },
+    "id": "598763",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2017-04-19T00:16:26.656188+00:00",
+     "description": "People keep spraying your likeness everywhere!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou can send me an image of yourself or whatever you want (keep it PG-13 please), and I\u0027ll make you into an emoji that everyone can use in my Discord server!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAlso, everything from $5 down.\u003c/p\u003e",
+     "discord_role_ids": [
+      "264327116827525120"
+     ],
+     "edited_at": "2017-11-15T00:40:41.326880+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-15T00:40:41.300108+00:00",
+     "remaining": 30,
+     "requires_shipping": false,
+     "title": "Graffiti Artist",
+     "unpublished_at": null,
+     "url": "/bePatron?c=376365\u0026rid=1613426",
+     "user_limit": 30
+    },
+    "id": "1613426",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-08T12:32:37+00:00",
+     "description": "I\u0027ll lipsync an around 5 second clip (depending on voice speed) featuring whatever pony you like, with whatever voice clip you like, every month!\u003cbr\u003e\n\u003cbr\u003e\nWhen I\u0027m done, I\u0027ll send you a rendered copy and the .dmx project file! (Mind you, this is only lipsync, not body movement... unless I\u0027m in the mood that is)\u003cbr\u003e\n\u003cbr\u003e\nAlso, all rewards from $5 and less!\u003cbr\u003e\n\u003cbr\u003e\n\u003cem\u003e\u003cstrong\u003eNOTE: That\u0027s a max of 5 seconds each month, this does not stack, and unused seconds don\u0027t carry over.\u003cbr\u003e\n\u003cbr\u003e\nYou can commission more than 5 seconds, but it will take the required amount of months to do, rounded up;\u00a0e.g. If you want me to lipsync something that\u0027s 16 seconds long, it\u0027ll be done in four months.\u003c/strong\u003e\u003c/em\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eHave me do a little something that you want me to do.\u003cbr\u003e\n\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": [
+      "264327116827525120"
+     ],
+     "edited_at": "2018-03-25T20:59:17.666853+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-25T20:59:17.659666+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Project Commissioner",
+     "unpublished_at": null,
+     "url": "/bePatron?c=376365\u0026rid=600346",
+     "user_limit": 10
+    },
+    "id": "600346",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-09-09T05:21:22.164148+00:00",
+     "description": "Put \u003cstrong\u003eyour OC\u003c/strong\u003e in the Intro/Outro Cards!\u003cbr\u003e\n\n\u003cp\u003eI\u0027ll let your OC be a \u0027Toy Pony\u0027 (in a pose of your choice) in my intro or outro sequence thingy! So you\u0027ll essentially be in every video from that point! (Including my gameplay videos)\u003cbr\u003e\n\u003c/p\u003e\n\u003cp\u003eAlso! Every reward from $5 and less!\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "264327116827525120"
+     ],
+     "edited_at": "2018-03-25T20:50:11.307880+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-25T20:50:11.299976+00:00",
+     "remaining": 19,
+     "requires_shipping": false,
+     "title": "Architect Status",
+     "unpublished_at": null,
+     "url": "/bePatron?c=376365\u0026rid=1990154",
+     "user_limit": 20
+    },
+    "id": "1990154",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-11-08T12:32:37+00:00",
+     "description": "\"This is a pretty cool guy.\"\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou\u0027ll get a custom (very short) little animation of \u003cstrong\u003eQuillo (my OC) interacting with your Toy Pony\u003c/strong\u003e in the end scene after an animation. (Can include things like: Picking up your Toy Pony and praising it by hoof, or setting your OC on my nose for instance)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA little mention of how awesome you are!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThat and everything from $5 and below!\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": [
+      "264327116827525120"
+     ],
+     "edited_at": "2018-04-18T07:16:07.889290+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-18T07:16:07.881906+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Public Commemoration",
+     "unpublished_at": null,
+     "url": "/bePatron?c=376365\u0026rid=600363",
+     "user_limit": 10
+    },
+    "id": "600363",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-11-08T12:32:37+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003eWhat did I tell you about breaking and entering?\u003cbr\u003e\u003cbr\u003e\u003c/div\u003eI\u0027ll let you put your OC somewhere hidden in an animation I\u0027ll be working on (similar to Derpy)!\u003cbr\u003e\u003cbr\u003eYou\u0027ll be listed in any credits I might make and in the description as a \u0027Try and find the x.\u0027\u003cbr\u003e\u003cbr\u003eAlso rewards from $5 and less!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cem\u003eNOTE: An animation may take many months to make, but you\u0027ll only need to be a rascal for one month to get in it. So long as you\u0027re the rascal for at least a month, your OC will appear in an animation.\u003cbr\u003e\u003cbr\u003eThat being said, only one OC per animation.\u003c/em\u003e\u003c/strong\u003e",
+     "discord_role_ids": [
+      "264327116827525120"
+     ],
+     "edited_at": "2017-11-15T00:42:07.695348+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-15T00:42:07.641198+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Work-Site Rascal",
+     "unpublished_at": null,
+     "url": "/bePatron?c=376365\u0026rid=600360",
+     "user_limit": 1
+    },
+    "id": "600360",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 199600,
+     "amount_cents": 199600,
+     "created_at": "2016-11-08T12:32:37+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cbr\u003e\u003c/div\u003eI...\u003cbr\u003e\u003cbr\u003eYou...\u003cbr\u003e\u003cbr\u003eI just...\u003cbr\u003e\u003cbr\u003eI wouldn\u0027t know what to do... or even what to say...\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eAll the things.\u003c/strong\u003e\u003cbr\u003e",
+     "discord_role_ids": [
+      "264327116827525120"
+     ],
+     "edited_at": "2018-03-25T21:05:11.344994+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-25T21:05:11.334492+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Overseer Of All",
+     "unpublished_at": null,
+     "url": "/bePatron?c=376365\u0026rid=600367",
+     "user_limit": 1
+    },
+    "id": "600367",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100,
+     "completed_percentage": 100,
+     "created_at": "2016-06-30T08:48:11+00:00",
+     "description": "Yay! My first buck!",
+     "reached_at": "2016-11-15T00:29:15+00:00",
+     "title": ""
+    },
+    "id": "469311",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000,
+     "completed_percentage": 100,
+     "created_at": "2016-06-30T08:48:31+00:00",
+     "description": "You know, 10 is just 2 in binary.",
+     "reached_at": "2016-12-21T04:16:46+00:00",
+     "title": ""
+    },
+    "id": "469315",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 4,
+     "created_at": "2016-06-30T08:51:31+00:00",
+     "description": "I\u0027ll be able to consistantly attend Bronycon!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "469316",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 23,
+     "created_at": "2016-07-01T09:02:37+00:00",
+     "description": "I\u0027ll remove the ads on all the videos on my YouTube!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "470406",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 0,
+     "created_at": "2016-07-09T13:11:57+00:00",
+     "description": "Animating will be my full time job!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "478022",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 1,
+     "created_at": "2016-09-18T13:47:40+00:00",
+     "description": "Work will be my side job to animating!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "552064",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 2,
+     "created_at": "2017-09-09T05:23:31+00:00",
+     "description": "I\u0027ll be able to consistently attend BronyCon and other select conventions!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "960975",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/376365"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ad5cb3c9-0d6a-4550-8eb3-c3a035b5fc97",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Quillo Manar is creating SFM animations"
+});
+    </script>

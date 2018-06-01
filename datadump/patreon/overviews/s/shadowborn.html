@@ -1,0 +1,545 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "AaVzNT_bOM8C2ttLTl9f4fojPo6BKCn7r9QEFFT1f5Q";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "797131",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/797131"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-01-12T06:13:52+00:00",
+    "creation_name": "Video Games",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1458606/5ece06a541724273a5aa3cb1ae00fb0b?token-time=2145916800\u0026token-hash=XoRduHxeFs15HPGo-WdLcK3_LXdMH4l8G8tDZRmbGJ4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1458606/5ece06a541724273a5aa3cb1ae00fb0b?token-time=2145916800\u0026token-hash=v3VuYxHpsMczaizbiDmWywKdzdBMOVFiRq18pKa2ND4%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/dj6fsRH__hQ\" width=\"854\"\u003e\u003c/iframe\u003e\n",
+    "main_video_url": "https://youtu.be/dj6fsRH__hQ",
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "month",
+    "pledge_sum": 14960,
+    "pledge_url": "/bePatron?c=1458606",
+    "published_at": "2018-02-08T06:51:01+00:00",
+    "summary": "Hey it\u2019s James! What you\u2019re about to see is a slice of what I have so far in a game I\u2019ve been building for quite some time now.\u003cbr\u003e\u003cbr\u003eI\u2019m putting my project on Patreon to get assistance in making this game into the great potential that it has.\u003cbr\u003e\u003cbr\u003eIf you don\u2019t know what patreon is, essentially it lets you subscribe to my project (Like netflix), supporting me and my work put into it.\u003cbr\u003e\u003cbr\u003eFor helping me do this, you\u2019ll get all kinds of rewards in return.\u003cbr\u003e\u003cbr\u003eA free copy of the game on release. Beta-Access copies of the game for testing during the development phase. Special in-game rewards and your name in the credits. And a whole lot more :)\u003cbr\u003e\u003cbr\u003eI hope you enjoy this short teaser, and thank you so much for supporting this project."
+   },
+   "id": "1458606",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9256681",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9256681"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1105413",
+       "type": "goal"
+      },
+      {
+       "id": "1105414",
+       "type": "goal"
+      },
+      {
+       "id": "1105415",
+       "type": "goal"
+      },
+      {
+       "id": "1105416",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2355370",
+       "type": "reward"
+      },
+      {
+       "id": "2355378",
+       "type": "reward"
+      },
+      {
+       "id": "2355382",
+       "type": "reward"
+      },
+      {
+       "id": "2355410",
+       "type": "reward"
+      },
+      {
+       "id": "2355428",
+       "type": "reward"
+      },
+      {
+       "id": "2355444",
+       "type": "reward"
+      },
+      {
+       "id": "2355458",
+       "type": "reward"
+      },
+      {
+       "id": "2355468",
+       "type": "reward"
+      },
+      {
+       "id": "2355472",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-01-12T06:13:44+00:00",
+     "facebook": null,
+     "first_name": "James",
+     "full_name": "James Starks",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/9256681/5658a3957f974f6489f9d0d153ecee18?token-time=2145916800\u0026token-hash=qs3b5vCfbdx6YkyqhuvhrE6gLUpERPE5tfcoGc7qQJY%3D",
+     "last_name": "Starks",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9256681/5658a3957f974f6489f9d0d153ecee18?token-time=2145916800\u0026token-hash=bcEYhOdN8b_L6eKWgjwYlSUqA7BN9tFXAkerH1cA7eY%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/shadowborn",
+     "vanity": "shadowborn",
+     "youtube": null
+    },
+    "id": "9256681",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1458606",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1458606"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-02-08T05:30:52.179735+00:00",
+     "description": "Thank you for your support! (:",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-08T05:41:13.062178+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-08T05:41:13.053265+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Peasant! ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458606\u0026rid=2355370",
+     "user_limit": null
+    },
+    "id": "2355370",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-02-08T05:36:20.804254+00:00",
+     "description": "Free Copy of the Game upon release, and name in the Credits under special thanks!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA squire\u0027s Wage. (In-game currency calculated based on number of months supporting)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-08T08:49:22.461774+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-08T08:49:22.454215+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Squire!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458606\u0026rid=2355378",
+     "user_limit": null
+    },
+    "id": "2355378",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-08T05:38:09.118378+00:00",
+     "description": "Free Copy of the Game upon release, and name in the Credits under special thanks!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA Knights Wage. (In-game currency calculated based on months supporting)\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus inside access to beta copies as the game development progresses!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-08T08:49:42.375220+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-08T08:49:42.369059+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Knight!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458606\u0026rid=2355382",
+     "user_limit": null
+    },
+    "id": "2355382",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-08T05:48:05.258823+00:00",
+     "description": "Free Copy of the Game upon release, and name in the Credits under special thanks!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA Lord/Lady\u0027s Wage. (In-game currency calculated based on months supporting)\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus inside access to beta copies as the game development progresses!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAn NPC will be named after you!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-08T08:50:16.698910+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-08T08:50:16.691902+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Lord/Lady!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458606\u0026rid=2355410",
+     "user_limit": null
+    },
+    "id": "2355410",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-02-08T05:56:37.349757+00:00",
+     "description": "Free Copy of the Game upon release, and name in the Credits under special thanks!\n\u003cp\u003e\u003cbr\u003e\nAn Earl\u0027s wage (In-game currency calculated based on months supporting)\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus inside access to beta copies as the game development progresses!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAn NPC will be named after you!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eSpecial in-game rewards!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-08T08:50:44.334588+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-08T08:50:44.327140+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Earl!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458606\u0026rid=2355428",
+     "user_limit": null
+    },
+    "id": "2355428",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-02-08T06:05:24.052702+00:00",
+     "description": "Free Copy of the Game upon release, and name in the Credits under special thanks!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA Hero\u0027s Wage. (In-game currency calculated based on months supporting)\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus inside access to beta copies as the game development progresses!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAn NPC will be named after you!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eSpecial in-game rewards!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA weapon will be named after you!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-08T08:51:18.239312+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-08T08:51:18.232771+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Hero!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458606\u0026rid=2355444",
+     "user_limit": null
+    },
+    "id": "2355444",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-02-08T06:10:03.793485+00:00",
+     "description": "Free Copy of the Game upon release, and name in the Credits under special thanks!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eRoyalty\u0027s Wage. (In-game currency calculated based on months supporting)\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus inside access to beta copies as the game development progresses!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAn NPC will be named after you!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eSpecial in-game rewards!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA weapon will be named after you!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eFull game digital soundtrack + collection of game art\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAn in-game landmark will be named after you!\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-08T08:51:40.761333+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-08T08:51:40.754843+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Royalty!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458606\u0026rid=2355458",
+     "user_limit": null
+    },
+    "id": "2355458",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-02-08T06:11:47.658903+00:00",
+     "description": "Free Copy of the Game upon release, and name in the Credits under special thanks!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA Warlord\u0027s Wage. (In-game currency calculated based on months supporting)\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus inside access to beta copies as the game development progresses!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAn NPC will be named after you!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eSpecial in-game rewards!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA weapon will be named after you!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eFull game digital soundtrack + collection of game art\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAn in-game landmark will be named after you!\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eSpecial cosmetic in-game items for warlords only!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-08T08:52:00.394563+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-08T08:52:00.385608+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Warlord!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458606\u0026rid=2355468",
+     "user_limit": null
+    },
+    "id": "2355468",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-02-08T06:13:44.324776+00:00",
+     "description": "Free Copy of the Game upon release, and name in the Credits under special thanks!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA God\u0027s Wage. You must have worshipers! (In-game currency calculated based on months supporting)\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus inside access to beta copies as the game development progresses!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAn NPC will be named after you!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eSpecial in-game rewards!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eA weapon will be named after you!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eFull game digital soundtrack + collection of game art\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAn in-game landmark will be named after you!\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eSpecial cosmetic in-game items for warlords only!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAn in-game deity will be named after you!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eSpecial cosmetic in-game items for Deities only!\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-08T08:52:43.193342+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-08T08:52:43.183749+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Deity!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458606\u0026rid=2355472",
+     "user_limit": null
+    },
+    "id": "2355472",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 59,
+     "created_at": "2018-02-08T06:34:02+00:00",
+     "description": "I will create a beta test .exe file every month for my patrons to test play!",
+     "reached_at": "2018-03-02T05:51:49+00:00",
+     "title": ""
+    },
+    "id": "1105413",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 29,
+     "created_at": "2018-02-08T06:34:02+00:00",
+     "description": "As you can imagine, building a video game is a lot of work. As of this goal, I will dedicate most of my time to the development of this game and make sure it gets into your hands as soon as possible.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1105414",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 14,
+     "created_at": "2018-02-08T06:34:02+00:00",
+     "description": "At this point, bigger and better content will be added into the game. More options to include my patrons into the game itself will arise and we\u0027ll be well on our way. (:",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1105415",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 9,
+     "created_at": "2018-02-08T06:34:02+00:00",
+     "description": "Much needed Software acquisition will happen here.\u003cbr\u003eIntense 3D design and development from this point on.\u003cbr\u003e\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1105416",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1458606"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e9b67b0c-94a4-4143-b050-13de1df30032",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "James Starks is creating Video Games"
+});
+    </script>

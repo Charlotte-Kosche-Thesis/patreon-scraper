@@ -1,0 +1,577 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "1H39OEfK4zYo3Q6-fKQEMWRPKpGwk9jFCpRP38mvcXQ";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "140577",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/140577"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-02-22T22:38:46+00:00",
+    "creation_name": "Art for Charity",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/301666/44f7a37cf2714b22a8848f7ee64dfedc?token-time=2145916800\u0026token-hash=Wshv_l53J-uRXZpkSnqeUXfRECGdNi7SGbhBSx8jOhQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/301666/44f7a37cf2714b22a8848f7ee64dfedc?token-time=2145916800\u0026token-hash=bYITxTrUsFcEj5R7xMa4RgqwpkIo0Yz6y7XM91umZRg%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_sum": 3676,
+    "pledge_url": "/bePatron?c=301666",
+    "published_at": "2016-02-27T15:52:53+00:00",
+    "summary": "Victoria is on Patreon to support national, regional, and local fundraising for notable charities with her bespoke art, and raise funds for the basic supplies to create it.\u003cbr\u003e\u003cbr\u003eAfter making an art donation to a friend\u0027s charity silent auction back in 2008 and watching it raise $500 for an incredible organization she knew she wanted to continue to make these donations and has helped raise much needed funds for more than 50 charities around the world. Bringing awareness to so many different charities and, more importantly, helping others in need brings her incredible joy. Your participation in this campaign can assist her with continuing on this amazing journey. \u003cbr\u003e\u003cbr\u003eYou can make a one time donation or a monthly donation for as little as $5. Please see the list of REWARDS you can get for making a donation. It\u0027s a Win - Win for everyone!\u00a0\u003cbr\u003e\u003cbr\u003eIf it\u0027s easier you can retrieve your rewards at the page below via PayPal. \u003cbr\u003e\u003ca href=\"http://vanegallery.com/Vane_Gallery_-_Victoria_Schweizer/Donate.html\" rel=\"nofollow\"\u003ehttp://vanegallery.com/Vane_Gallery_-_Victoria_Sc...\u003c/a\u003e"
+   },
+   "id": "301666",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "973419",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/973419"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "358862",
+       "type": "goal"
+      },
+      {
+       "id": "359063",
+       "type": "goal"
+      },
+      {
+       "id": "359064",
+       "type": "goal"
+      },
+      {
+       "id": "361099",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "450651",
+       "type": "reward"
+      },
+      {
+       "id": "450652",
+       "type": "reward"
+      },
+      {
+       "id": "450653",
+       "type": "reward"
+      },
+      {
+       "id": "450654",
+       "type": "reward"
+      },
+      {
+       "id": "450655",
+       "type": "reward"
+      },
+      {
+       "id": "450656",
+       "type": "reward"
+      },
+      {
+       "id": "450657",
+       "type": "reward"
+      },
+      {
+       "id": "450658",
+       "type": "reward"
+      },
+      {
+       "id": "450659",
+       "type": "reward"
+      },
+      {
+       "id": "450946",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Charities are my \u003cstrong\u003epassion\u003c/strong\u003e. Helping others has been something I\u0027ve always enjoyed doing and donating my time and/or artwork to so many different \u003cstrong\u003ewonderful\u003c/strong\u003e organizations has been incredibly \u003cstrong\u003erewarding\u003c/strong\u003e. This campaign was initiated so I can continue on this \u003cstrong\u003ejourney\u003c/strong\u003e and to start a new one which is to bring the \u003cstrong\u003ejoy\u003c/strong\u003e of art to children in hospitals.\u00a0\u003cbr\u003e\u003cbr\u003ePurchasing supplies are costly and the time it takes to paint these pieces can take anywhere form five hours to sometimes over twenty. This campaign will allow me to continue to do what I love and move forward with a passion project I\u0027ve been dreaming about for a long time.\u00a0\u003cbr\u003e\u003cbr\u003eI am so grateful that I have been able to do this for the last eight years in my spare time but with so many organizations requesting paintings it\u0027s taking up a lot more of my time because seeing these people in need is difficult to refuse.\u00a0\u003cbr\u003e\u003cbr\u003eMuch love and gratitude,\u003cbr\u003e\u003cbr\u003eVictoria xxox\u003cbr\u003e\u003cbr\u003eIf it\u0027s easier you can donate at the page below via PayPal. :-)\u003cbr\u003ehttp://vanegallery.com/Vane_Gallery_-_Victoria_Schweizer/Donate.html\u003cbr\u003e",
+     "created": "2015-08-05T15:51:57+00:00",
+     "facebook": "https://www.facebook.com/VictoriaSchweizer.Artist",
+     "first_name": "Victoria",
+     "full_name": "Victoria Schweizer",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/973419/08314803e8d949cdbb2d9d25b24ba1b6?token-time=2145916800\u0026token-hash=1_VNldFirfmroTGaPjgy8CKgii82tH7-qmJWqp9EUxw%3D",
+     "last_name": "Schweizer",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/973419/08314803e8d949cdbb2d9d25b24ba1b6?token-time=2145916800\u0026token-hash=CDWtcd6pmP3p8Yw9dTsXos1NOrGohcKuPlVzqzc9xeo%3D",
+     "twitch": null,
+     "twitter": "VictoriaSchweiz",
+     "url": "https://www.patreon.com/VictoriaSchweizer",
+     "vanity": "VictoriaSchweizer",
+     "youtube": "https://www.youtube.com/user/victoria1111"
+    },
+    "id": "973419",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "301666",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/301666"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-03-03T19:33:54+00:00",
+     "description": "\u003cstrong\u003e$5 Monthly Donation\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eFor making a monthly donation of $5 you will receive a handwritten thank you note including a fun little SURPRISE each month!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-03T19:33:54+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=301666\u0026rid=450651",
+     "user_limit": null
+    },
+    "id": "450651",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-03-03T19:33:54+00:00",
+     "description": "\u003cstrong\u003e$10 Monthly Donation\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eFor making a monthly donation of $10 you will receive a handwritten thank you note including a fun little surprise each month AND a personal shout out on social media for your business or something that you are passionate about. Can be a charity, a fundraising event, a bar or restaurant opening, your business or anything else that interests you that you would like more people to know about. \u00a0\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou will also receive \u003cstrong style=\"color: rgb(51, 51, 51);\"\u003e10%\u003c/strong\u003e off any painting!\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-03T19:33:54+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=301666\u0026rid=450652",
+     "user_limit": null
+    },
+    "id": "450652",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-03-03T19:33:54+00:00",
+     "description": "\u003cdiv\u003e\u003cstrong\u003e$20 Monthly Donation\u003c/strong\u003e\u003c/div\u003e\u003cbr\u003eFor making a monthly donation of $20 you will receive a handwritten thank you note including a fun little surprise each month AND a personal shout out on social media for your business or something that you are passionate about. Can be a charity, a fundraising event, a bar or restaurant opening, your business or anything else that interests you that you would like more people to know about.\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou will also be sent a \u003cstrong\u003e8\" x10\" signed, limited edition print.\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou will also receive \u003cstrong\u003e15%\u003c/strong\u003e off any painting!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-03T19:33:54+00:00",
+     "remaining": 49,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=301666\u0026rid=450653",
+     "user_limit": 50
+    },
+    "id": "450653",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-03-03T19:33:54+00:00",
+     "description": "\u003cstrong\u003e$50 Monthly Donation\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eFor making a monthly donation of $50 you will receive a handwritten thank you note including a fun little surprise each month AND a personal shout out on social media for your business or something that you are passionate about. Can be a charity, a fundraising event, a bar or restaurant opening, your business or anything else that interests you that you would like more people to know about.\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou will also be sent a signed \u003cstrong\u003eORIGINAL 5\" x 7\" piece of artwork\u003c/strong\u003e.\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou will also receive \u003cstrong\u003e20%\u003c/strong\u003e off any painting found on www.vanegallery.com!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-03T19:33:54+00:00",
+     "remaining": 30,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=301666\u0026rid=450654",
+     "user_limit": 30
+    },
+    "id": "450654",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-03-03T19:33:54+00:00",
+     "description": "\u003cstrong\u003e$100 Monthly Donation\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eFor making a monthly donation of $100 you will receive a handwritten thank you note including a fun little surprise each month AND a personal shout out on social media for your business or something that you are passionate about. Can be a charity, a fundraising event, a bar or restaurant opening, your business or anything else that interests you that you would like more people to know about.\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou will also be sent a signed \u003cstrong\u003eORIGINAL 8\" x 10\" piece of artwork\u003c/strong\u003e.\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou will also receive \u003cstrong\u003e25%\u003c/strong\u003e off any painting found on www.vanegallery.com!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-03T19:33:54+00:00",
+     "remaining": 20,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=301666\u0026rid=450655",
+     "user_limit": 20
+    },
+    "id": "450655",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2016-03-03T19:33:54+00:00",
+     "description": "\u003cstrong\u003e$250 Monthly Donation\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eFor making a monthly donation of $250 you will receive a handwritten thank you note and a fun little surprise each month AND a personal shout out on social media for your business or something that you are passionate about. Can be a charity, a fundraising event, a bar or restaurant opening, your business or anything else that interests you that you would like more people to know about.\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou will also be sent a signed \u003cstrong\u003eORIGINAL 12\" x 16\" piece of artwork\u003c/strong\u003e.\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou will also receive \u003cstrong\u003e30%\u003c/strong\u003e off any painting found on www.vanegallery.com!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-03T19:33:54+00:00",
+     "remaining": 15,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=301666\u0026rid=450656",
+     "user_limit": 15
+    },
+    "id": "450656",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-03-03T19:33:54+00:00",
+     "description": "\u003cstrong\u003e$500 Monthly Donation\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eFor making a monthly donation of $500 you will receive a handwritten thank you note and a fun little surprise each month AND a personal shout out on social media for your business or something that you are passionate about. Can be a charity, a fundraising event, a bar or restaurant opening, your business or anything else that interests you that you would like more people to know about.\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou will also be sent a signed \u003cstrong\u003eORIGINAL 16\" x 20\"\u003c/strong\u003e\u003cstrong\u003e\u00a0contemporary piece done with the colors you choose.\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003eA time lapse video of your painting will be sent to you via youtube.\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003eYou will also receive \u003cstrong\u003e35%\u003c/strong\u003e off any painting found on www.vanegallery.com!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-03T19:33:54+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=301666\u0026rid=450657",
+     "user_limit": 10
+    },
+    "id": "450657",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2016-03-03T19:33:54+00:00",
+     "description": "\u003cstrong\u003e$1000 Monthly Donation\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eOMG! For making a monthly donation of $1000 you will receive a handwritten thank you note including a fun little surprise each month AND a personal shout out on social media for your business or something that you are passionate about. Can be a charity, a fundraising event, a bar or restaurant opening, your business or anything else that interests you that you would like more people to know about.\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou will also be sent a signed \u003cstrong\u003eORIGINAL 20\" x 24\" piece of artwork\u003c/strong\u003e created especially for you after discussing what you would specifically like. \u003cstrong\u003eCan be a portrait or a contemporary piece done with the colors you choose.\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eA time lapse video of your painting will be sent to you via youtube.\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003eYou will also receive \u003cstrong\u003e40%\u003c/strong\u003e off any painting found on www.vanegallery.com!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-03T19:33:54+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=301666\u0026rid=450658",
+     "user_limit": 5
+    },
+    "id": "450658",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 150000,
+     "amount_cents": 150000,
+     "created_at": "2016-03-03T19:33:54+00:00",
+     "description": "\u003cstrong\u003e$1500 Monthly Donation\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eWOW!!! For making a monthly donation of $1500 you will receive a handwritten thank you note including a fun little surprise each month AND a personal shout out on social media for your business or something that you are passionate about. Can be a charity, a fundraising event, a bar or restaurant opening, your business or anything else that interests you that you would like more people to know about.\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou will also be sent a signed \u003cstrong\u003eORIGINAL 30\" x 40\" piece of artwork\u003c/strong\u003e created especially for you after discussing what you would specifically like. Can be a portrait or a contemporary piece done with the colors you choose.\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eA time lapse video \u003c/strong\u003eof your painting will be sent to you via youtube.\u00a0\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003eYou will also receive \u003cstrong\u003e50% off any painting \u003c/strong\u003efound on www.vanegallery.com!\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eALSO - an invitation for you to attend a private cocktail hour before any gallery show opening.\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-03T19:33:54+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=301666\u0026rid=450659",
+     "user_limit": 3
+    },
+    "id": "450659",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500000,
+     "amount_cents": 500000,
+     "created_at": "2016-03-03T19:33:54+00:00",
+     "description": "\u003cstrong\u003eYOU ARE A ROCK STAR! \u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eFor making a monthly donation of $5000 you will receive a handwritten thank you note including a fun little surprise each month AND a personal shout out on social media for your business or something that you are passionate about. Can be a charity, a fundraising event, a bar or restaurant opening, your business or anything else that interests you that you would like more people to know about.\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou can either choose between an \u003cstrong\u003eexisting piece of work\u003c/strong\u003e that I\u0027ve done OR a \u003cstrong\u003esigned ORIGINAL 36\" x 48\" piece of artwork\u003c/strong\u003e created especially for you after discussing what you would specifically like. Can be a portrait or a contemporary piece done with the colors you choose.\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003eA time lapse video of your painting will be sent to you via youtube.\u00a0\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eALSO - an invitation for you to attend a private cocktail hour before any gallery show opening.\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-03T19:33:54+00:00",
+     "remaining": 2,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=301666\u0026rid=450946",
+     "user_limit": 2
+    },
+    "id": "450946",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 1,
+     "created_at": "2016-02-22T22:46:55+00:00",
+     "description": "Art supplies are costly and the time it takes to create these pieces of artwork is usually a minimum of five hours. The larger pieces sometimes take over twenty hours. To continue to paint these pieces I am hoping that you can support the arts.",
+     "reached_at": null,
+     "title": "To be able to continue to create large paintings for charity."
+    },
+    "id": "358862",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 350000,
+     "completed_percentage": 1,
+     "created_at": "2016-02-23T02:43:36+00:00",
+     "description": "I addition to the above I would like to start bringing larger pieces to additional organizations.",
+     "reached_at": null,
+     "title": "Bigger Art - More Charities!"
+    },
+    "id": "359063",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 0,
+     "created_at": "2016-02-23T02:43:36+00:00",
+     "description": "This level would allow me to purchase additional supplies and bring them to local hospitals and let children paint whatever they would like! Painting is very therapeutic and the joy they would get from their creations would be a wonderful gift to them and their families.",
+     "reached_at": null,
+     "title": "Bringing the gift of art to children that are in local hospitals"
+    },
+    "id": "359064",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2000000,
+     "completed_percentage": 0,
+     "created_at": "2016-02-25T16:35:44+00:00",
+     "description": "To have an art studio where people can come to create or just to hang out and watch others working on their masterpieces would be the absolute icing on the cake. Would be a warehouse setting with more of a Central Perk feel with big chairs and couches, coffee and wine and maybe bring in some tasty pastries for people to nosh on! I\u0027ve had this dream for years and would love for it to become a reality!",
+     "reached_at": null,
+     "title": "ART STUDIO"
+    },
+    "id": "361099",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/301666"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "bbd5b245-de4e-4118-9ec8-631754525c89",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Victoria Schweizer is creating Art for Charity"
+});
+    </script>

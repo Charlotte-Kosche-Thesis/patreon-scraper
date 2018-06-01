@@ -1,0 +1,607 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Q9QKzg71MCmn0qpqq4A5EJBtTsbEE1boC9HMgPaqZhM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "481329",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/481329"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-06-03T09:04:44+00:00",
+    "creation_name": "discord bots (Elite Looter)",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/969519/ad567843f9394c769e6c2b08b8089100?token-time=2145916800\u0026token-hash=yIY4qvvcaIT_X19QhNvHd3OGzYRS4RpPX9qZ1xDxfZA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/969519/ad567843f9394c769e6c2b08b8089100?token-time=2145916800\u0026token-hash=s4CqJDCgUtzLANPRBDklMTBCVBiAn0X500XGhi_MTYM%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 15,
+    "pay_per_name": "month",
+    "pledge_sum": 5169,
+    "pledge_url": "/bePatron?c=969519",
+    "published_at": "2017-06-17T07:14:22+00:00",
+    "summary": "Hey! I\u0027m Sjustein and I love programming.\u003cbr\u003eI started creating a discord bot called \u0027Elite Looter\u0027 in the beginning of April 2017. At first, nothing really happened, but after a while I added it to both bot list pages (http://www.sjustein.com/html/links.html).\u003cbr\u003eSome people started adding him to their servers and it grew with 1 or 2 servers per day. But it kept expanding and soon it grew 10 and even 20 guilds per day. Around the milestone of 100 servers I created the Elite Looter Support server.\u003cbr\u003eIt still kept growing and I decided to create a patreon page. At first not too much happened, but in the second month, some insane guy called Unsolidsnek donated $16! I\u0027m still very thankful he did that and the month after that some small donations were done. These are all my currency patrons:\u003cbr\u003e\u003cbr\u003e- Sylvo Sane\u003cbr\u003e- Sav\u0027aaq\u003cbr\u003e- Suprnova (also donated $20 on the christmas stream!)\u003cbr\u003e- HeyItsRichy\u003cbr\u003e- Spyeedy (also donated $2 on the christmas stream!)\u003cbr\u003e- Vonco\u003cbr\u003e- Ben\u003cbr\u003e- JamesP\u003cbr\u003e- Callum\u003cbr\u003e- HandyDev\u003cbr\u003e- Some more that want to stay anonymous\u003cbr\u003e\u003cbr\u003eWith all the money you guys donated I have created a website: \u003ca href=\"http://www.sjustein.com\"\u003ehttp://www.sjustein.com\u003c/a\u003e .\u003cbr\u003e\u003cbr\u003eA big thank you to everyone that donated, added Elite Looter to his server or is helping the bot out in another way!\u003cbr\u003e"
+   },
+   "id": "969519",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "6393210",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/6393210"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "863182",
+       "type": "goal"
+      },
+      {
+       "id": "985724",
+       "type": "goal"
+      },
+      {
+       "id": "985725",
+       "type": "goal"
+      },
+      {
+       "id": "985726",
+       "type": "goal"
+      },
+      {
+       "id": "985727",
+       "type": "goal"
+      },
+      {
+       "id": "1042110",
+       "type": "goal"
+      },
+      {
+       "id": "1042111",
+       "type": "goal"
+      },
+      {
+       "id": "1133977",
+       "type": "goal"
+      },
+      {
+       "id": "1135277",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-969519",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-969519"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1755581",
+       "type": "reward"
+      },
+      {
+       "id": "2141312",
+       "type": "reward"
+      },
+      {
+       "id": "2141315",
+       "type": "reward"
+      },
+      {
+       "id": "1755605",
+       "type": "reward"
+      },
+      {
+       "id": "1755603",
+       "type": "reward"
+      },
+      {
+       "id": "1755606",
+       "type": "reward"
+      },
+      {
+       "id": "1755604",
+       "type": "reward"
+      },
+      {
+       "id": "2141319",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-06-03T09:04:21+00:00",
+     "facebook": null,
+     "first_name": "Sjustein",
+     "full_name": "Sjustein",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/6393210/315e1ceae8204b8cb925182eaa4a8ea9?token-time=2145916800\u0026token-hash=bXIRF3bRUmSPdsmgfb8vgfDgYTfSW8sO4UKJbWMb304%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/6393210/315e1ceae8204b8cb925182eaa4a8ea9?token-time=2145916800\u0026token-hash=WrOFJH2vAYzyMv3ySLggMbJFUAAoRBc_FfrZeOFbMeA%3D",
+     "twitch": null,
+     "twitter": "Sjustein",
+     "url": "https://www.patreon.com/Sjustein",
+     "vanity": "Sjustein",
+     "youtube": "https://www.youtube.com/channel/UCoC4QZeCMe7uf2ZMHambL8A"
+    },
+    "id": "6393210",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "969519",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/969519"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 19,
+     "upgrade_url": "/bePatron?c=969519\u0026rid=1755581"
+    },
+    "id": "post-aggregation-for-0-969519",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-06-10T07:00:55.057816+00:00",
+     "description": "Previously Donator Tier 1\u003cbr\u003e\nYour rewards will be:\n\u003cp\u003e- Access to the special donator textchannel and voicechannel in the Elite Looter Support guild\u003c/p\u003e\n\u003cp\u003e- Helper role in the Elite Looter Support guild\u003c/p\u003e\n\u003cp\u003e- Access to the ;weekly command\u003c/p\u003e\n\u003cp\u003e- Access to the Elite Looter Patreon Server!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-01T19:54:13.041825+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1755581/8b7e3211418646e98a461fc7a2310e1d?token-time=2145916800\u0026token-hash=_MHfvT-ZSXDJpxfx0ZK6g8t5eTLsMS9GdhoxfGdbPiQ%3D",
+     "patron_count": 20,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-02-01T19:54:13.008716+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Helper (Tier 1)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=969519\u0026rid=1755581",
+     "user_limit": null
+    },
+    "id": "1755581",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-11-11T13:06:40.551715+00:00",
+     "description": "Your rewards:\n\u003cp\u003eEverything you would get with Tier 1 +\u003c/p\u003e\n\u003cp\u003e- Access to the beta testing server, so you can beta test future update before they are released!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-11T13:06:40.551715+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2141312/6456a91053be4dbd8f64edb57dbd5abc?token-time=2145916800\u0026token-hash=sG8c8mS6Wk-5kirH_5ubEXkl15OEmV6JXlyteBPqGrM%3D",
+     "patron_count": 3,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-11T13:06:40.551715+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Generous (Tier 2)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=969519\u0026rid=2141312",
+     "user_limit": null
+    },
+    "id": "2141312",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-11-11T13:08:04.596456+00:00",
+     "description": "Your rewards:\n\u003cp\u003eEverything you would get with Tier 2 +\u003c/p\u003e\n\u003cp\u003e- You can change your own nickname in the Elite Looter Support Guild\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-11T13:08:04.596456+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2141315/15ae0b543d224fe4bfa56864f1bca639?token-time=2145916800\u0026token-hash=JCXqyLOvJlCOhwuAZeSr_aqet24JiXGi7UOkXoYiQmw%3D",
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-11T13:08:04.596456+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Elite Donator (Tier 3)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=969519\u0026rid=2141315",
+     "user_limit": null
+    },
+    "id": "2141315",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-06-10T07:32:51.478574+00:00",
+     "description": "Previously Donator Tier 2\n\u003cp\u003e- You will keep your money whenever a reset occurs!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-25T08:28:59.846165+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1755605/b7987a40909748d5b9199c376a07d4ab?token-time=2145916800\u0026token-hash=HsRiB4AjDdbShX8Iohk6R4s8CYCzW4zIn1wasC4Yo50%3D",
+     "patron_count": 5,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-03-25T08:28:59.835735+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Website Funder (Tier 4)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=969519\u0026rid=1755605",
+     "user_limit": null
+    },
+    "id": "1755605",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-06-10T07:32:50.568979+00:00",
+     "description": "Previously Donator Tier 3\n\u003cp\u003eYou will get everything from lower tiers +\u003c/p\u003e\n\u003cp\u003e\u00a0- I will invite Elite Looter Preview to your server, giving your server every update one week before the entire world does!\u00a0\u003c/p\u003e\n\u003cp\u003e- A virtual hug from Sjustein\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-06T06:35:44.712505+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1755603/e6c5e7dec9a6412a99937138b4926ed5?token-time=2145916800\u0026token-hash=YhxT2VsJoWz7WAOGBdJ7uLsXpr8i2aQNJAnuYEcLzQU%3D",
+     "patron_count": 4,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-06T06:35:44.702758+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Funder (Tier 5)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=969519\u0026rid=1755603",
+     "user_limit": null
+    },
+    "id": "1755603",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-06-10T07:32:51.482542+00:00",
+     "description": "Previously Donator Tier 4\n\u003cp\u003eYou will get everything from lower tiers +\u003c/p\u003e\n\u003cp\u003e- Your own page on the Elite Looter Website\u003c/p\u003e\n\u003cp\u003e- Add 2 emojis to the Elite Looter Support guild\u003c/p\u003e\n\u003cp\u003e- Announce your product/website/youtube channel/discord server in the Elite Looter Support guild\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-06T06:35:30.754620+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1755606/8bf9a4cf86694411a7ebae2c6bae1dd6?token-time=2145916800\u0026token-hash=fU2uOLLljurjw_I_eyGaSaN8TRHYc8J9m1HJiDHcehc%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-06T06:35:30.746718+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Insane funder (Tier 6)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=969519\u0026rid=1755606",
+     "user_limit": null
+    },
+    "id": "1755606",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-06-10T07:32:50.971855+00:00",
+     "description": "Previously Donator Tier 5\n\u003cp\u003e- Add your own bot to the Elite Looter Support guild\u003c/p\u003e\n\u003cp\u003e- Announce your product/website/youtube channel/discord server in all servers Elite Looter is in!\u003c/p\u003e\n\u003cp\u003e- Join the server Elite Looter was developed since the beginning basically\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-06T06:36:09.279887+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1755604/85817c92f0104369ba1c35dde22cf869?token-time=2145916800\u0026token-hash=YkV04wvBJAxpzaqQ9loyytrYCXeK01M9_utX840i7q8%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-06T06:36:09.272697+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "MIND BLOOOWIING (Tier 7)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=969519\u0026rid=1755604",
+     "user_limit": null
+    },
+    "id": "1755604",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-11-11T13:16:29.752124+00:00",
+     "description": "\u003cstrong\u003e:thinking: Are you sure?\u003c/strong\u003e\n\u003cp\u003e- Get your own entire \u003cstrong\u003esubdomain \u003c/strong\u003eon sjustein.com (for example yourbot.sjustein.com)\u003c/p\u003e\n\u003cp\u003e- \u003cstrong\u003eA custom bot feature only you and your friends can use (you can decide who is your friend btw)!\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-06T06:36:20.520873+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2141319/ccd793403dc845cdbf9cf6ddf9fa84ed?token-time=2145916800\u0026token-hash=t1kgKFc2qNTMuNsr20WoslW4Z_DpeeN_iYkBjMoWJ6k%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-06T06:36:20.511148+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The I don\u0027t know what to say tier (Tier 8)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=969519\u0026rid=2141319",
+     "user_limit": null
+    },
+    "id": "2141319",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 600,
+     "completed_percentage": 100,
+     "created_at": "2017-06-10T08:06:46+00:00",
+     "description": "With 5 euros (= $6, per month) I could definitely host a website for Elite Looter, I\u0027ll create a website and host it (with a full documentation and shoutouts to my Patrons), I\u0027ll have to buy a domain name first!\u003cbr\u003e",
+     "reached_at": "2017-07-01T15:49:29+00:00",
+     "title": ""
+    },
+    "id": "863182",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 100,
+     "created_at": "2017-10-05T15:03:34+00:00",
+     "description": "I\u0027m going to add a new cratetype to Elite Looter, which my patrons can create. Done: the birthday crate",
+     "reached_at": "2017-11-18T18:24:47+00:00",
+     "title": ""
+    },
+    "id": "985724",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2017-10-05T15:03:34+00:00",
+     "description": "I\u0027m gonna get a vps for Elite Looter + better uptime\u003cbr\u003e",
+     "reached_at": "2017-12-28T21:36:35+00:00",
+     "title": ""
+    },
+    "id": "985725",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 51,
+     "created_at": "2017-10-05T15:03:34+00:00",
+     "description": "I quit my current job and invest even more time in Elite Looter! Thanks guys!",
+     "reached_at": "2018-02-04T12:04:00+00:00",
+     "title": ""
+    },
+    "id": "985726",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 20,
+     "created_at": "2017-10-05T15:03:34+00:00",
+     "description": "I\u0027ll put some money aside for when Elite Looter needs a VPS/new hosting pc and maybe start saving up for a new pc for myself",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "985727",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 10,
+     "created_at": "2017-12-06T14:32:15+00:00",
+     "description": "I\u0027ll create Elite Looter merchandise in some sort of webshop (also a webshop for Elite Looter coins and crates)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1042110",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 5,
+     "created_at": "2017-12-06T14:32:15+00:00",
+     "description": "I\u0027ll do a face reveal (thnx ThePlayerlo)...\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1042111",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 2,
+     "created_at": "2018-03-07T13:17:46+00:00",
+     "description": "Elite Looter is now my work? I turned my hobby into work?\u003cbr\u003e\u003cbr\u003eWhat?",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1133977",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 75000,
+     "completed_percentage": 6,
+     "created_at": "2018-03-08T19:50:52+00:00",
+     "description": "I can just turn Elite Looter into my official work? What?",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1135277",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/969519"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "b0defcaa-d0dd-431d-a763-7572c6315df1",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Sjustein is creating discord bots (Elite Looter)"
+});
+    </script>

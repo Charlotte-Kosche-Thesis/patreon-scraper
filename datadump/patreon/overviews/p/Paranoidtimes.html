@@ -1,0 +1,641 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "J3KW5IiSTRy0IUMtgtipVOu5eOFXbb3in2fxuYWzrkw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "551620",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/551620"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-08-19T05:26:49+00:00",
+    "creation_name": "Short stories, video shorts, specials",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1173142/a224d897fea1470bb7371c47427f9d24?token-time=2145916800\u0026token-hash=xnQHinPE3bk9QPDJvGaEdpEZjtjC9i6huROn3CDvgt8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/1173142/a224d897fea1470bb7371c47427f9d24?token-time=2145916800\u0026token-hash=S026O2Pwb9oKFlcDNVZZaO49hE5N-rlGhoxE7AesJTQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 6,
+    "pay_per_name": "month",
+    "pledge_sum": 7013,
+    "pledge_url": "/bePatron?c=1173142",
+    "published_at": "2017-08-21T01:25:47+00:00",
+    "summary": "\"please keep in mind we are still working on this page\"\u00a0\u003cbr\u003eWe seek to expose the evil conspiracies and dirty little secrets of those who hold power as well as to investigate strange and fringe events around the world. \u00a0I ask you to see past the veil of society, use social media, the Internet as well as your person to hunt and find events and facts that need to be examined and explained. remember this is a collective of people that wishes to see truths, with the use of discussion and science. \u003cbr\u003ewe had to move some videos here, some of our unwelcome videos at you-tube,\u00a0\u003cbr\u003ewe have a number of on going projects, story\u0027s live events ect.\u00a0\u003cbr\u003ewe ask you to join us here as well, be a \"true\" part of our journey.\u003cbr\u003e\"Believe the Unbelievable.\" If anyone ever needed a believer, it\u0027s me..\u003cbr\u003e"
+   },
+   "id": "1173142",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7366664",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7366664"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "940963",
+       "type": "goal"
+      },
+      {
+       "id": "940964",
+       "type": "goal"
+      },
+      {
+       "id": "940965",
+       "type": "goal"
+      },
+      {
+       "id": "940966",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1937004",
+       "type": "reward"
+      },
+      {
+       "id": "1941407",
+       "type": "reward"
+      },
+      {
+       "id": "1941408",
+       "type": "reward"
+      },
+      {
+       "id": "1941763",
+       "type": "reward"
+      },
+      {
+       "id": "1957474",
+       "type": "reward"
+      },
+      {
+       "id": "1941451",
+       "type": "reward"
+      },
+      {
+       "id": "1941477",
+       "type": "reward"
+      },
+      {
+       "id": "1941453",
+       "type": "reward"
+      },
+      {
+       "id": "1941406",
+       "type": "reward"
+      },
+      {
+       "id": "1941764",
+       "type": "reward"
+      },
+      {
+       "id": "1941452",
+       "type": "reward"
+      },
+      {
+       "id": "1941450",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-08-19T05:26:20+00:00",
+     "facebook": null,
+     "first_name": "PARANOID",
+     "full_name": "PARANOID  TIMES",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7366664/e8347c3a52694c5590990cbb0541ccea?token-time=2145916800\u0026token-hash=H8s3hKJXsVLiwX8cQ58J-RUefFI-kFG3bPef2yGX6Fc%3D",
+     "last_name": " TIMES",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7366664/e8347c3a52694c5590990cbb0541ccea?token-time=2145916800\u0026token-hash=3LitT_sh0SVxUSJZNmWfvU-vDA32Aw6g1Fkq46hxxF8%3D",
+     "twitch": null,
+     "twitter": "cerberusmedical",
+     "url": "https://www.patreon.com/Paranoidtimes",
+     "vanity": "Paranoidtimes",
+     "youtube": "https://www.youtube.com/c/Paranoidtimes"
+    },
+    "id": "7366664",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1173142",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1173142"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-08-19T05:38:13.452783+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003eSneak peek photos of upcoming releases\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-21T00:54:19.901839+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-19T05:38:13.452783+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "At society locked door",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1173142\u0026rid=1937004",
+     "user_limit": null
+    },
+    "id": "1937004",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-21T00:59:06.167914+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eHigh-quality downloads (.jpg, .mp3)\u003c/li\u003e\u003cli\u003eProcess/behind-the-scenes\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-21T01:14:40.042266+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-21T00:59:06.167914+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "i found a key!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1173142\u0026rid=1941407",
+     "user_limit": null
+    },
+    "id": "1941407",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-08-21T00:59:06.175168+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eMonthly patron-only newsletter mailed right to your mail box!\u003c/li\u003e\u003cli\u003eSigned digital poster of charlie\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-21T01:14:39.670232+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-21T00:59:06.175168+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "the newsletter ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1173142\u0026rid=1941408",
+     "user_limit": null
+    },
+    "id": "1941408",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-21T03:33:40.448821+00:00",
+     "description": "\u003cul\u003e\u003cli\u003enew details and story\u0027s from the gas mask story\u0027s.\u003c/li\u003e\u003cli\u003efree gasmask to show your frends ?\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-21T03:33:40.448821+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-21T03:33:40.448821+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "gas mask chronicles",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1173142\u0026rid=1941763",
+     "user_limit": null
+    },
+    "id": "1941763",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-27T16:13:17.300736+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eGoogle and YouTube has been tormenting creators like me,\nthey have compromised your information.\u003cbr\u003eThis affects you the subscriber and creators like me, we\nhave decided to take another approach and we need your help.\u003cbr\u003e\n\nEither donate here or on our go fund me page, \u003cbr\u003e\n\nOur plan is simple, send a thank you card to google and to YouTube\nwith a box full of the biggest, blackest dildos money can buy.\u003cbr\u003e\n\nBecause they really stuck it to us!\u003cbr\u003e\n\nStay paranoid google, stay very paranoid!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-27T16:13:17.300736+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-27T16:13:17.300736+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "operation stick it to google ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1173142\u0026rid=1957474",
+     "user_limit": null
+    },
+    "id": "1957474",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-21T01:14:40.183870+00:00",
+     "description": "\u003cul\u003e\u003cli\u003egear, shirts ect. only things you can get from here.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-21T01:14:40.183870+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-21T01:14:40.183870+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "gear for the paranoid ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1173142\u0026rid=1941451",
+     "user_limit": null
+    },
+    "id": "1941451",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-21T01:23:30.229350+00:00",
+     "description": "\u003cul\u003e\u003cli\u003esigned!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-21T01:23:30.229350+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-21T01:23:30.229350+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "hardback signed copy I\u2019m a Physicist At CERN ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1173142\u0026rid=1941477",
+     "user_limit": null
+    },
+    "id": "1941477",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2017-08-21T01:14:40.192702+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ea deeper look in to the cern story.\u00a0\u003c/li\u003e\u003cli\u003esigned copy\u0027s of the book when it goes to print.\u003c/li\u003e\u003cli\u003efirst viewing of a \u00a0film about the cern story, when it has been finished\u00a0\u003c/li\u003e\u003cli\u003enewsletter\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-21T01:14:40.192702+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-21T01:14:40.192702+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "the cern madness ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1173142\u0026rid=1941453",
+     "user_limit": null
+    },
+    "id": "1941453",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7000,
+     "amount_cents": 7000,
+     "created_at": "2017-08-21T00:59:05.967348+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eas well as the newsletter, you will become part of a special story mailed each month to you, called the journals\u003c/li\u003e\u003cli\u003eEarly downloads of all releases\u003c/li\u003e\u003cli\u003eYour name in the credits of my videos as a supporter!\u00a0\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-21T00:59:05.967348+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-21T00:59:05.967348+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "the journals ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1173142\u0026rid=1941406",
+     "user_limit": null
+    },
+    "id": "1941406",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-21T03:33:40.461046+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ea\u00a0Charlie McCarthy Dummy Ventriloquist Doll\u003c/li\u003e\u003cli\u003ea rather unique story line that \"you\" can experience with him\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-21T03:33:40.461046+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-21T03:33:40.461046+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "the Ventriloquist Doll",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1173142\u0026rid=1941764",
+     "user_limit": null
+    },
+    "id": "1941764",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-21T01:14:40.185895+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eyou will receive a \"very special box mystery each month\"\u003c/li\u003e\u003cli\u003enewsletter\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-21T01:14:40.185895+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-21T01:14:40.185895+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Pandora\u0027s box ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1173142\u0026rid=1941452",
+     "user_limit": null
+    },
+    "id": "1941452",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2017-08-21T01:14:40.021354+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eeach month you will live a very special story from your home, and collect a few trophy\u0027s along the way. just becareful where you keep them.....\u003c/li\u003e\u003cli\u003enewsletter\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-21T01:14:40.021354+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-21T01:14:40.021354+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "the artifact society and the madness ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1173142\u0026rid=1941450",
+     "user_limit": null
+    },
+    "id": "1941450",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 14,
+     "created_at": "2017-08-21T01:20:18+00:00",
+     "description": "at 500 we will start the orders,",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "940963",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 1,
+     "created_at": "2017-08-21T01:20:18+00:00",
+     "description": "big things to come",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "940964",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 70,
+     "created_at": "2017-08-21T01:20:18+00:00",
+     "description": "i will know this is working, the work on the interface has started,\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "940965",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2000000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-21T01:20:18+00:00",
+     "description": "i will make sure every one has a hard back copy of the cern story at cost!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "940966",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1173142"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "d9323f27-9e38-4b65-b458-845e58e1ae7a",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "PARANOID  TIMES are creating Short stories, video shorts, specials"
+});
+    </script>

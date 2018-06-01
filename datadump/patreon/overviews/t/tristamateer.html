@@ -1,0 +1,431 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "aPcwdUzJGr_PPX6kAWFAIb6mL7JCOnSDFgLw2kUfIuM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "119444",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/119444"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-06-22T20:16:52+00:00",
+    "creation_name": "Poetry, etc.",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/185413/1def27caf51446e0b0f190378ddc069a?token-time=2145916800\u0026token-hash=TZEAOCdzADvMf8BL6wf0bmaSH7vyx0OCK0F1mrwTTOc%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/185413/1def27caf51446e0b0f190378ddc069a?token-time=2145916800\u0026token-hash=zJvAbwzVR5YkugqndscBcsk86qsN-K6w5th-3FxXN8Y%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "",
+    "patron_count": 12,
+    "pay_per_name": "month",
+    "pledge_sum": 4635,
+    "pledge_url": "/bePatron?c=185413",
+    "published_at": "2015-12-18T09:47:17+00:00",
+    "summary": "Hey, folks! I\u0027m Trista! I create art, spoken word videos/audio, books, chapbooks, etc.; but mostly I write poetry and fiction and share it online. The majority of my work is available for free (primarily on tumblr) at\u00a0\u003ca href=\"http://tristamateer.com\" rel=\"nofollow\"\u003etristamateer.com\u003c/a\u003e. \u003cbr\u003e\n\u003cbr\u003e\nHere\u0027s the conundrum: life is expensive. It\u0027s difficult to fund the projects I really want to work on when I share so much content for free, but I also don\u0027t like the idea of my work only being available to the people who can afford it. Here\u0027s the compromise: if some of y\u0027all can afford to toss just a few dollars my way every month, we can keep my work hosted for free without ads AND take things in new, interesting directions. For example: more regularly posted spoken word videos! an illustrated book of poetry in the vein of a graphic novel! touring! free ebooks! other THINGS!!\u003cbr\u003e\n\u003cbr\u003e\nSubscribers to this cause, as well as like, being rewarded with the feeling of doing something cool and sort of charitable, will also have access to this ~top secret~ Patreon page where you\u0027ll get all kinds of behind the scenes stuff like spoken word video/audio bloopers, excerpts from new poems before I share them anywhere else, and pieces of secret projects in the works. Plus we get to interact more! I\u0027ll share stories and music playlists and talk about what inspired certain things/about my creative process/etc.\u003cbr\u003e\n\u003cbr\u003e\nSo, to get a few quick things out of the way...\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eI already bought your books, why should I pay you more?\u003c/strong\u003e\u003cbr\u003e\nI mean first of all, THANK YOU. Actually buying my work is such a big help and I appreciate your support so much! But more to the point: you are in no way obligated! Patreon is just an alternative for people who want to help out but already own the books or want to find a way to continually support what I do instead of just whenever something purchasable comes out. If you don\u0027t have the money but still want to offer some support, the most important thing you can do is to review my books on Goodreads and Amazon, and to recommend my work to other people!\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eWhat are some examples of things\u00a0the money will be used for?\u003cbr\u003e\n\u003c/strong\u003eequipment as the need arises (like a mic or a printer/scanner/etc.), other associated printing costs, paying the artists who collaborate on work with me, boring standard fees for things like URLs and online shop costs, alleviating some of the financial burden of living in a society that loves art but hates artists so I have the time to work on these projects without stressing too much, also pens??\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eThere are reward tiers???\u003cbr\u003e\n\u003c/strong\u003eOkay SO each reward tier (i.e. $1, $5, $10, $whatever) gives you access to different things. These rewards are subject to improve as I figure out what works best and what you all want. I\u0027m open to suggestions! Please feel free to contact me with any specific requests!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eSo, how the heck does this work?\u003c/strong\u003e\u003cbr\u003eOnce you commit to an amount, you will be charged once around the first of the month every month for as long as you choose to subscribe. If you join up later in the month, you may not be charged until the following month. You can cancel at ANY time. And remember that any amount helps! If you have any other questions, check out \u003ca href=\"https://patreon.zendesk.com/hc/en-us/categories/200359925-Patrons\" rel=\"nofollow\"\u003ethis FAQ\u003c/a\u003e! Or feel free to email or contact me on social media or here on the Patreon page!\u003cbr\u003e\n\u003cbr\u003e\nSo, in short: become a Patron and like chill here w/ me while supporting the arts."
+   },
+   "id": "185413",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "854153",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/854153"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "305695",
+       "type": "goal"
+      },
+      {
+       "id": "305709",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-185413",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-185413"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "383172",
+       "type": "reward"
+      },
+      {
+       "id": "383173",
+       "type": "reward"
+      },
+      {
+       "id": "383174",
+       "type": "reward"
+      },
+      {
+       "id": "383175",
+       "type": "reward"
+      },
+      {
+       "id": "383176",
+       "type": "reward"
+      },
+      {
+       "id": "383177",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Poet. Writer. Creator of ~things.",
+     "created": "2015-06-22T08:34:22+00:00",
+     "facebook": null,
+     "first_name": "Trista",
+     "full_name": "Trista Mateer",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/854153/a6cc30f99ccb4d5891fe974d62a7fc8b?token-time=2145916800\u0026token-hash=zfiIzCQ2DPxm1LC3oNTlB7Nc7M17E8zohSYN4jdb3AE%3D",
+     "last_name": "Mateer",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/854153/a6cc30f99ccb4d5891fe974d62a7fc8b?token-time=2145916800\u0026token-hash=NSpd086kFnqGs4Mi2wqHVLqZtz7FIaSWvfHwBUiHDBQ%3D",
+     "twitch": null,
+     "twitter": "tristamateer",
+     "url": "https://www.patreon.com/tristamateer",
+     "vanity": "tristamateer",
+     "youtube": "https://www.youtube.com/c/TristaMateer"
+    },
+    "id": "854153",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "185413",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/185413"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 18,
+     "upgrade_url": "/bePatron?c=185413\u0026rid=383172"
+    },
+    "id": "post-aggregation-for-0-185413",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-01-06T15:17:10+00:00",
+     "description": "Access to exclusive content! (aka the Patreon contributors-only page including behind-the-scenes, sneak peaks, continual updates on upcoming projects, Q\u0026amp;As, fun stuff???)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 8,
+     "post_count": 13,
+     "published": true,
+     "published_at": "2016-01-06T15:17:10+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=185413\u0026rid=383172",
+     "user_limit": null
+    },
+    "id": "383172",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-01-06T15:17:10+00:00",
+     "description": "Access to MORE exclusive content like art/signed book giveaways and tiny chat invitations. Also I\u0027ll follow you on Twitter and Tumblr (from my primary blog: lovewillfuckusapart). AND you\u0027ll get a thank you note on a post card!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 5,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-01-06T15:17:10+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=185413\u0026rid=383173",
+     "user_limit": null
+    },
+    "id": "383173",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-01-06T15:17:11+00:00",
+     "description": "The $5 tier rewards AND you\u0027ll get my undying appreciation as well as\u00a0ONE personalized, private audio recording of me reading whatever poem of mine you want!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T15:17:11+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=185413\u0026rid=383174",
+     "user_limit": null
+    },
+    "id": "383174",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-01-06T15:17:11+00:00",
+     "description": "The $10 tier rewards but you have the choice between an audio recording or a handwritten poem! ALSO your name will get printed in the acknowledgements/special thanks in my next full length book(s) for as long as you\u0027re a supporter!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T15:17:11+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=185413\u0026rid=383175",
+     "user_limit": null
+    },
+    "id": "383175",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2016-01-06T15:17:11+00:00",
+     "description": "The $20 tier rewards! PLUS\u00a0I\u0027ll workshop one poem, prose piece, or novel excerpt (2500 words or less) with you per month (opinion/suggested edits)!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T15:17:11+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=185413\u0026rid=383176",
+     "user_limit": 10
+    },
+    "id": "383176",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-01-06T15:17:11+00:00",
+     "description": "\u003cdiv\u003eThe $35 rewards plus I\u0027ll mail you a signed copy of any new book or chapbook I put out! (or you\u0027ll get a free ebook if it\u0027s only available digitally)\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T15:17:11+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=185413\u0026rid=383177",
+     "user_limit": null
+    },
+    "id": "383177",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 46,
+     "created_at": "2015-12-18T09:23:36+00:00",
+     "description": "Once we reach this goal, I\u0027ll start posting one spoken word video per month. Sometimes new work, sometimes older. I\u0027ll be happy to take suggestions from you all for pieces to read.",
+     "reached_at": null,
+     "title": "Monthly Spoken Word Videos"
+    },
+    "id": "305695",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 18,
+     "created_at": "2015-12-18T09:42:35+00:00",
+     "description": "MY GOAL is to not have to raise the price for this book. To be able to do this without charging everyone way too much, I\u0027m going to have to eat a little bit of the cost of color printing, but it\u0027s going to be so worth it.",
+     "reached_at": null,
+     "title": "Print The Next Book w/ Color Interior Illustrations"
+    },
+    "id": "305709",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/185413"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "7b8df4bc-50d0-424d-a726-70d042c406a6",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Trista Mateer is creating Poetry, etc."
+});
+    </script>

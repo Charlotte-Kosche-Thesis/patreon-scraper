@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "axcPJd9tA4eNO_baEQSz4ZHtHwOSBFmswvTduCIEJ3o";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "332403",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/332403"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-01-04T23:28:31+00:00",
+    "creation_name": "drawings, paintings, murals, sculptures, and poetry",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/683148/9184473840a64f1184c7cdac6c3e8d1a?token-time=2145916800\u0026token-hash=o3z4iEICbHFd47uIa7wYAolvbXBet8VnH6Tb9rmuGyc%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/683148/9184473840a64f1184c7cdac6c3e8d1a?token-time=2145916800\u0026token-hash=nM-QX1PT_J4xhUY5nOFQWi6mxVObgUICYkLTdCa8-Vk%3D",
+    "is_monthly": false,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "piece",
+    "pledge_sum": 2250,
+    "pledge_url": "/bePatron?c=683148",
+    "published_at": "2017-01-05T01:08:50+00:00",
+    "summary": "Art has many definitions. For me, it\u0027s a way to channel my inner voice onto paper, canvas, screens, and even everyday objects. Some things you can\u0027t say with words. Let me share these experiences with you. I use Patreon to fund only what I need for artistic materials, which I can\u0027t afford right now as a student. As a patron, you\u0027ll be directly helping me buy canvas, paint, and materials to build experiences from nothing.\u003cbr\u003e\u003cbr\u003eHelp me spread my wings! My dream is to get back into airbrushing and find new ways to add artistic heart to objects. Help make the world a more colourful place!\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/40422_1547761342019_5275701_n.jpg?oh=12222cdcb9dd9bab6aa101577a058b59\u0026amp;oe=58E979E7\" style=\"width: 453px;\"\u003e"
+   },
+   "id": "683148",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4774682",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4774682"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "665235",
+       "type": "goal"
+      },
+      {
+       "id": "665238",
+       "type": "goal"
+      },
+      {
+       "id": "665239",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-683148",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-683148"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1245546",
+       "type": "reward"
+      },
+      {
+       "id": "1245481",
+       "type": "reward"
+      },
+      {
+       "id": "1245630",
+       "type": "reward"
+      },
+      {
+       "id": "1245617",
+       "type": "reward"
+      },
+      {
+       "id": "1245496",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I am a creatively-minded student studying computer science at University of Guelph in Ontario. I\u0027ve been drawing since I could hold a pencil and have a passion for the arts. As well as painting, I am also a pianist (and aspiring guitarist), writer, film editor, and programmer.",
+     "created": "2017-01-04T23:28:02+00:00",
+     "facebook": "https://www.facebook.com/mrrple",
+     "first_name": "Zina",
+     "full_name": "Zina Ramirez",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4774682/54e743ba0aaa436e917ee8fd50723c9e?token-time=2145916800\u0026token-hash=OUXT3RbaHDl0KAnhhuGl1LDlS5kIrMowiY5HX9eBcJg%3D",
+     "last_name": "Ramirez",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4774682/54e743ba0aaa436e917ee8fd50723c9e?token-time=2145916800\u0026token-hash=9hDAxklUMiSS_14c-hRncWOkF-BQ2S4a_LrNJncgmbw%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/zinaramirez",
+     "vanity": "zinaramirez",
+     "youtube": null
+    },
+    "id": "4774682",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "683148",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/683148"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 13,
+     "upgrade_url": "/bePatron?c=683148\u0026rid=1245546"
+    },
+    "id": "post-aggregation-for-0-683148",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-01-05T00:25:05.560592+00:00",
+     "description": "See every original idea before the piece comes to fruition, including sketches and drafts, prose snippets, and photos of inspirational objects.",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-07T02:52:10.002982+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 9,
+     "published": true,
+     "published_at": "2017-01-05T00:34:07.935034+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Skeleton Lover",
+     "unpublished_at": null,
+     "url": "/bePatron?c=683148\u0026rid=1245546",
+     "user_limit": null
+    },
+    "id": "1245546",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-01-05T00:07:32.182973+00:00",
+     "description": "Gain access to photos and videos of progress updates as they happen for every piece I create!",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-07T02:52:10.027649+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2017-01-05T00:34:12.266342+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Flesh Lover",
+     "unpublished_at": null,
+     "url": "/bePatron?c=683148\u0026rid=1245481",
+     "user_limit": null
+    },
+    "id": "1245481",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-01-05T00:54:25.676340+00:00",
+     "description": "Receive a high quality digital copy of every finished piece.",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-07T02:52:10.050160+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-05T00:54:25.676340+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Collector",
+     "unpublished_at": null,
+     "url": "/bePatron?c=683148\u0026rid=1245630",
+     "user_limit": null
+    },
+    "id": "1245630",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-01-05T00:48:36.515630+00:00",
+     "description": "You get to select the content or theme of my next piece!",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-07T02:52:10.074992+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-05T00:54:36.824489+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Commissioner",
+     "unpublished_at": null,
+     "url": "/bePatron?c=683148\u0026rid=1245617",
+     "user_limit": 5
+    },
+    "id": "1245617",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-01-05T00:10:19.690958+00:00",
+     "description": "Receive a $100 credit toward the purchase and shipment of my next piece!",
+     "discord_role_ids": null,
+     "edited_at": "2017-01-07T02:52:10.097354+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-01-05T00:34:14.699500+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Golden Ticket",
+     "unpublished_at": null,
+     "url": "/bePatron?c=683148\u0026rid=1245496",
+     "user_limit": 1
+    },
+    "id": "1245496",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 45,
+     "created_at": "2017-01-04T23:45:15+00:00",
+     "description": "I will buy more canvasses and materials to let me paint again!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "665235",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 22,
+     "created_at": "2017-01-04T23:47:29+00:00",
+     "description": "I will purchase larger canvasses and more paint to give more freedom to my art!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "665238",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 7,
+     "created_at": "2017-01-04T23:47:29+00:00",
+     "description": "I will buy a Makita air compressor to enable me to return to airbrushing, which means I can start painting murals, objects, and even human beings!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "665239",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/683148"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e6dd2533-8c73-4d0f-ab37-b70a8c3b9cd1",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Zina Ramirez is creating drawings, paintings, murals, sculptures, and poetry"
+});
+    </script>

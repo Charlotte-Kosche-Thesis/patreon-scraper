@@ -1,0 +1,643 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "74Es3WJkyRlXBe8M2aMfD3OmZnto6ef0vHsuYhXRvXw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "234022",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/234022"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-09-18T06:18:34+00:00",
+    "creation_name": "a site where people can Read\u0026Chill",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/522732/2d2d0ff5e6ec4495ac05824b4cb6539c?token-time=2145916800\u0026token-hash=5pfbk73wqpAK9_eex3i2LCa_ZQ1wkxO3ohJwptwe8AU%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/522732/2d2d0ff5e6ec4495ac05824b4cb6539c?token-time=2145916800\u0026token-hash=AZ4p60_Ek0xyrBbMLzKlJ-dETR9zyj85GbtXrGbYAC8%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=522732",
+    "published_at": "2016-09-18T06:54:23+00:00",
+    "summary": "Over 99% of the money used to pay translators are from ads. If one day we can make this 0% we can disable ads forever (yayyy...I wish). Anyway please do support us if possible and even a single dollar has our thanks. Cheers"
+   },
+   "id": "522732",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4059289",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4059289"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "691688",
+       "type": "goal"
+      },
+      {
+       "id": "700994",
+       "type": "goal"
+      },
+      {
+       "id": "700995",
+       "type": "goal"
+      },
+      {
+       "id": "700996",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "5492",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-522732",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-522732"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "802853",
+       "type": "reward"
+      },
+      {
+       "id": "798203",
+       "type": "reward"
+      },
+      {
+       "id": "798204",
+       "type": "reward"
+      },
+      {
+       "id": "798205",
+       "type": "reward"
+      },
+      {
+       "id": "798194",
+       "type": "reward"
+      },
+      {
+       "id": "798188",
+       "type": "reward"
+      },
+      {
+       "id": "798184",
+       "type": "reward"
+      },
+      {
+       "id": "798177",
+       "type": "reward"
+      },
+      {
+       "id": "798165",
+       "type": "reward"
+      },
+      {
+       "id": "798156",
+       "type": "reward"
+      },
+      {
+       "id": "798148",
+       "type": "reward"
+      },
+      {
+       "id": "798138",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-09-18T06:18:08+00:00",
+     "facebook": null,
+     "first_name": "TheNo1Fan",
+     "full_name": "TheNo1Fan",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c8.patreon.com/2/400/4059289",
+     "last_name": "",
+     "thumb_url": "https://c8.patreon.com/2/100/4059289",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/theno1fan",
+     "vanity": "theno1fan",
+     "youtube": null
+    },
+    "id": "4059289",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "522732",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/522732"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 22,
+     "upgrade_url": "/bePatron?c=522732\u0026rid=802853"
+    },
+    "id": "post-aggregation-for-0-522732",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-20T05:53:49+00:00",
+     "description": "\u003cstrong\u003eBecome a Commoner Fan\u003c/strong\u003e\u003cbr\u003e\nYou become a Commoner Fan in discord and get the same privileges as them which include:\u003cbr\u003e\nLooking down on the Plebs,\u003cbr\u003e\nBecoming a resource mine for our Fan Sect\u003cbr\u003e\nGetting into the Commoner Village and Novel Discussion Channel (where there are spoilers and whatnot)\u003cbr\u003e\nThe pride of knowing that you contributed to the Sect\u003cstrong\u003e\u003cbr\u003e\n\u003c/strong\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-01T13:20:00.899492+00:00",
+     "image_url": null,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2016-11-20T05:53:49+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": " Commoner Fan",
+     "unpublished_at": null,
+     "url": "/bePatron?c=522732\u0026rid=802853"
+    },
+    "id": "802853",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-20T05:53:49+00:00",
+     "description": "\u003cstrong\u003eBecome a Fan Inner Disciple\u003c/strong\u003e\u003cbr\u003e\nYou become a Fan Inner Disciple in discord and get the same privileges as them which include:\u003cbr\u003e\nLooking down on the Plebs, Commoners, Outer Disciples\u003cbr\u003e\nBecoming a fan of our Fan Sect\u003cbr\u003e\nGetting into the Inner Sect Bullies Discord Channel",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-01T13:22:00.846415+00:00",
+     "image_url": null,
+     "post_count": 12,
+     "published": true,
+     "published_at": "2016-11-20T05:53:49+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fan Inner Disciple",
+     "unpublished_at": null,
+     "url": "/bePatron?c=522732\u0026rid=798203"
+    },
+    "id": "798203",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-20T05:53:50+00:00",
+     "description": "\u003cstrong\u003eBecome a Fan Core disciple\u003c/strong\u003e\u003cbr\u003e\nYou become a Fan Core Disciple in discord and get the same privileges as them which include:\u003cbr\u003e\nLooking down on the Plebs, Commoners, Outer Disciples, Inner Disciples\u003cbr\u003e\nBecoming a follower of our Fan Sect\u003cbr\u003e\nGetting into the Core Disciple Hoodlum Discord Channel",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-01T13:22:50.921950+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-11-20T05:53:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fan Core disciple",
+     "unpublished_at": null,
+     "url": "/bePatron?c=522732\u0026rid=798204"
+    },
+    "id": "798204",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-11-20T05:53:50+00:00",
+     "description": "\u003cstrong\u003eBecome a Fan Direct Disciple\u003c/strong\u003e\u003cbr\u003e\nYou become a Fan Direct Disciple in discord and get the same privileges as them which include:\u003cbr\u003e\nLooking down on the Plebs, Commoners, Outer Disciple, Inner Disciple and Core Disciples\u003cbr\u003e\nBecoming a supporter of our Fan Sect\u003cbr\u003e\nGetting into the Direct Disciple Gang Discord Channel\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-01T13:22:46.739139+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-11-20T05:53:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fan Direct Disciple",
+     "unpublished_at": null,
+     "url": "/bePatron?c=522732\u0026rid=798205"
+    },
+    "id": "798205",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-11-20T05:53:50+00:00",
+     "description": "\u003cstrong\u003eBecome a Fan Elder\u003c/strong\u003e\u003cbr\u003e\nYou become a Fan Elder in discord and get the same privileges as them which include:\u003cbr\u003e\nLooking down on everyone of a lower rank\u003cbr\u003e\nBecoming the support of our Fan Sect\u003cbr\u003e\nGetting into the Elder Clique Discord Channel\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-01T13:22:39.221917+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-11-20T05:53:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fan Elder",
+     "unpublished_at": null,
+     "url": "/bePatron?c=522732\u0026rid=798194"
+    },
+    "id": "798194",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-11-20T05:53:51+00:00",
+     "description": "\u003cstrong\u003eBecome a Fan Patriarch\u003c/strong\u003e\u003cbr\u003e\nYou become a Fan Patriarch in discord and get the same privileges as them which include:\u003cbr\u003e\nLooking down on everyone of a lower rank\u003cbr\u003e\nBecoming the true support of our Fan Sect\u003cbr\u003e\nGetting into the Patriarch Club Discord Channel\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-01T13:22:16.601500+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-11-20T05:53:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fan Patriarch",
+     "unpublished_at": null,
+     "url": "/bePatron?c=522732\u0026rid=798188"
+    },
+    "id": "798188",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2016-11-20T05:53:51+00:00",
+     "description": "\u003cstrong\u003eBecome a Fan Grand Elder\u003c/strong\u003e\u003cbr\u003eYou become a Fan God in discord and get the same privileges as them which include:\u003cbr\u003eLooking down on everyone of a lower rank\u003cbr\u003eBecoming a Pillar of our Fan Sect\u003cbr\u003eGetting into the Grand Elder Circle Discord Channel\u003cbr\u003eAbility to talk to other Grand Elders and vote for a chapter you\u0027d like to see in advance... ONCE EVERY WEEK!!!!",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-01T13:17:06.636486+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-11-20T05:53:51+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=522732\u0026rid=798184"
+    },
+    "id": "798184",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-11-20T05:53:51+00:00",
+     "description": "\u003cstrong\u003eBecome a Fan God\u003c/strong\u003e\u003cbr\u003e\nYou become a Fan God in discord and get the same privileges as them which include:\u003cbr\u003e\nLooking down on everyone of a lower rank\u003cbr\u003e\nBecoming a true Pillar of our Fan Sect\u003cbr\u003e\nGetting into the Pantheon of Gods Discord Channel\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-01T13:21:50.076541+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T05:53:51+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fan God",
+     "unpublished_at": null,
+     "url": "/bePatron?c=522732\u0026rid=798177"
+    },
+    "id": "798177",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2016-11-20T05:53:52+00:00",
+     "description": "\u003cstrong\u003eBecome a DotF\u003c/strong\u003e\u003cbr\u003e\nYou become a DotF in discord and get the same privileges as them which include:\u003cbr\u003e\nLooking down on everyone of a lower rank\u003cbr\u003e\nBecoming a true and even bigger Pillar of our Fan Sect\u003cbr\u003e\nGetting into the DotF Faction Discord Channel\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-01T13:21:25.520404+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T05:53:51+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Dao of the Fan",
+     "unpublished_at": null,
+     "url": "/bePatron?c=522732\u0026rid=798165"
+    },
+    "id": "798165",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-11-20T05:53:52+00:00",
+     "description": "\u003cstrong\u003eBecome a PDF\u003cbr\u003e\n\u003c/strong\u003eYou become a PDF in discord and get the same privileges as them which include:\u003cbr\u003e\nLooking down on everyone of a lower rank\u003cbr\u003e\nBecoming \u003cstrong\u003ethe\u003c/strong\u003e true Pillar of our Fan Sect\u003cbr\u003e\nGetting into the PDF Syndicate Discord Channel\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-01T13:21:35.573477+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T05:53:52+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pinnacle Dao of the Fan",
+     "unpublished_at": null,
+     "url": "/bePatron?c=522732\u0026rid=798156"
+    },
+    "id": "798156",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2016-11-20T05:53:52+00:00",
+     "description": "\u003cstrong\u003eBecome a EDP\u003c/strong\u003e\u003cbr\u003e\nYou become a EDP in discord and get the same privileges as them which include:\u003cbr\u003e\nLooking down on everyone of a lower rank\u003cbr\u003e\nBecoming a mountain which holds up our Fan Sect\u003cbr\u003e\nGetting into the EDP Camp Discord Channel\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-01T13:20:44.609664+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T05:53:52+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "EDP",
+     "unpublished_at": null,
+     "url": "/bePatron?c=522732\u0026rid=798148"
+    },
+    "id": "798148",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 40000,
+     "amount_cents": 40000,
+     "created_at": "2016-11-20T05:53:52+00:00",
+     "description": "\u003cstrong\u003eBecome a Chinese MC\u003c/strong\u003e\u003cbr\u003e\nYou become a Chinese MC in discord and get the same privileges as them which include:\u003cbr\u003e\nLooking down on everyone of a lower rank\u003cbr\u003e\nBecoming the Holy Mountain where our Fan Sect resides upon\u003cbr\u003e\nGetting into the Chinese MC Bastards Discord Channel\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-01T13:19:54.844579+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T05:53:52+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Chinese MC",
+     "unpublished_at": null,
+     "url": "/bePatron?c=522732\u0026rid=798138"
+    },
+    "id": "798138",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 4,
+     "created_at": "2017-01-24T06:30:58+00:00",
+     "description": "This pushes away all server costs and I don\u0027t have to think about getting downgrades in the future to worse servers due to money problems. Or it could allow me to downgrade my servers and use that money to raise my translators pay and make them work even harder.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "691688",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 3,
+     "created_at": "2017-01-31T06:22:00+00:00",
+     "description": "Server Cost + Cost of the translators under me (Only SaintSnack atm....) After this goal is achieved I could raise the pay of my translators so they get motivated to translate more or try to hire more translators for more novels.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "700994",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2017-01-31T06:22:00+00:00",
+     "description": "Server Cost + Cost of Translator under me + Monthly Food Cost. Usually I starve myself at lunch time when I\u0027m outside due to uni and skip lunch and eat an extra serving of dinner. This would leave me able to buy myself a good old McChicken Burger Large Meal. Cheers for the meal:) Or I could up the pay for translators once again so that I can motivate/hire even more translators. Banzai!!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "700995",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-01-31T06:22:00+00:00",
+     "description": "Server Cost + Cost of Translator under me + Monthly Food Cost + Cost of Monthly Rent. This would allow me to move out and live on campus near the uni. Basically you would be providing for my basic needs which would allow me to quit my part-time job. OR I could live with my parents and use that money to hire even MOAR translators or up the pay for current translators so they translator MOAR CHAPTERS. BANZAI!! BAZINGA!!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "700996",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-03-01T13:14:59+00:00",
+     "deleted_at": null,
+     "description": "A lot of people say 1,000,000 to take over the world and whatnot. Let\u0027s get serious and truly take over the world and make every person in the world my patron. Let\u0027s get started.\u003cbr\u003e(RIP this is the max number as whenever I put in 7 billion it gets lowered to 2 billion... We\u0027ll conquer a quarter of the world first then)",
+     "goal_text": "A lot of people say 1,000,000 to take over the world and whatnot. Let\u0027s get serious and truly take over the world and make every person in the world my patron. Let\u0027s get started.\u003cbr\u003e(RIP this is the max number as whenever I put in 7 billion it gets lowered to 2 billion... We\u0027ll conquer a quarter of the world first then)",
+     "number_patrons": 2147483647,
+     "reached_at": null
+    },
+    "id": "5492",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/522732"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "cacb21da-08eb-457e-bcb1-d400d4a9753b",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "TheNo1Fan is creating a site where people can Read\u0026Chill"
+});
+    </script>

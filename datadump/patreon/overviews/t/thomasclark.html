@@ -1,0 +1,527 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "dKevu2ri-ayeP2Gj58YuEWdgBYYv71tbxYj48l2joMA";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "83169",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/83169"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-06-09T13:14:13+00:00",
+    "creation_name": "Podcasts",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/181653/97515ccb69434551a51b9ad3d2eee4ca?token-time=2145916800\u0026token-hash=pTk8rSVZpxe5DQW-MDX6HpQiuTsuYDdIAFd7OdH4Was%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/181653/97515ccb69434551a51b9ad3d2eee4ca?token-time=2145916800\u0026token-hash=_gZgMdjFtbPtkO-oRXnjmP9UHT6GXGZRgbB8yBH0-jw%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "I say dumb stuff on the internet.",
+    "patron_count": 6,
+    "pay_per_name": "month",
+    "pledge_sum": 7384,
+    "pledge_url": "/bePatron?c=181653",
+    "published_at": "2015-06-11T00:27:17+00:00",
+    "summary": "My name is Thomas Clark. I currently have two solo podcasts, The Clark Sessions (clarksessions.libsyn.com) and Clark Film (clarkfilm.libsyn.com). I would very much like to both continue and improve upon these shows and also launch other solo projects. To do this, I need your help. It would mean so much to me if you guys were to pledge just $1 a month to me so that I can continue to do what I love to do and give you guys quality(ish) content."
+   },
+   "id": "181653",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "571237",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/571237"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "183830",
+       "type": "goal"
+      },
+      {
+       "id": "183832",
+       "type": "goal"
+      },
+      {
+       "id": "183880",
+       "type": "goal"
+      },
+      {
+       "id": "183881",
+       "type": "goal"
+      },
+      {
+       "id": "300197",
+       "type": "goal"
+      },
+      {
+       "id": "300198",
+       "type": "goal"
+      },
+      {
+       "id": "300199",
+       "type": "goal"
+      },
+      {
+       "id": "300200",
+       "type": "goal"
+      },
+      {
+       "id": "300202",
+       "type": "goal"
+      },
+      {
+       "id": "300203",
+       "type": "goal"
+      },
+      {
+       "id": "300204",
+       "type": "goal"
+      },
+      {
+       "id": "407246",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-181653",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-181653"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "237746",
+       "type": "reward"
+      },
+      {
+       "id": "237747",
+       "type": "reward"
+      },
+      {
+       "id": "237748",
+       "type": "reward"
+      },
+      {
+       "id": "237749",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-02-19T02:38:14+00:00",
+     "facebook": null,
+     "first_name": "Thomas",
+     "full_name": "Thomas Clark",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/571237/3f9dfd7190c5409ebd26984769f61f05?token-time=2145916800\u0026token-hash=T9KtOWFYf4z-EjNeYvpbMGNB3TrupF4YjIHwdG6Q_1g%3D",
+     "last_name": "Clark",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/571237/3f9dfd7190c5409ebd26984769f61f05?token-time=2145916800\u0026token-hash=aLYuvv498jkPlXnarf2--Y_-xvwOzyJeIBMPP2M0V7g%3D",
+     "twitch": null,
+     "twitter": "tomtom4468",
+     "url": "https://www.patreon.com/thomasclark",
+     "vanity": "thomasclark",
+     "youtube": "https://www.youtube.com/channel/UC91eVQL3Z-Zrr7wjJfxgsUQ/featured"
+    },
+    "id": "571237",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "181653",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/181653"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 144,
+     "upgrade_url": "/bePatron?c=181653\u0026rid=237746"
+    },
+    "id": "post-aggregation-for-0-181653",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-09-14T21:12:20+00:00",
+     "description": "You have my eternal thanks.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 113,
+     "published": true,
+     "published_at": "2016-09-14T21:12:20+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=181653\u0026rid=237746",
+     "user_limit": null
+    },
+    "id": "237746",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-09-14T21:12:20+00:00",
+     "description": "You will get exclusive updates about this show and my other projects before anyone else.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 29,
+     "published": true,
+     "published_at": "2016-09-14T21:12:20+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=181653\u0026rid=237747",
+     "user_limit": null
+    },
+    "id": "237747",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-09-14T21:12:20+00:00",
+     "description": "You\u0027re now an executive producer of The Clark Sessions \u0026amp; Clark Film. Enjoy the bragging rights \u0026amp; the Slack channel!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 4,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-09-14T21:12:20+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=181653\u0026rid=237748",
+     "user_limit": null
+    },
+    "id": "237748",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-09-14T21:12:20+00:00",
+     "description": "Clearly, you\u0027re rich. We\u0027re going to be good friends.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-14T21:12:20+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=181653\u0026rid=237749",
+     "user_limit": null
+    },
+    "id": "237749",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 100,
+     "created_at": "2015-06-09T13:34:44+00:00",
+     "description": "No promises.",
+     "reached_at": "2015-06-11T02:17:15+00:00",
+     "title": ""
+    },
+    "id": "183830",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 73,
+     "created_at": "2015-06-09T13:34:44+00:00",
+     "description": "I will do monthly commentary tracks of movies for Clark Film, most likely hilariously awful movies.",
+     "reached_at": "2015-06-11T02:17:16+00:00",
+     "title": ""
+    },
+    "id": "183832",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 18,
+     "created_at": "2015-06-09T15:17:20+00:00",
+     "description": "You guys are awesome and I\u0027m gonna reward you for your awesomeness! Every month, I will give something away to a random patron.",
+     "reached_at": "2015-06-11T02:17:17+00:00",
+     "title": ""
+    },
+    "id": "183880",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 2,
+     "created_at": "2015-06-09T15:17:20+00:00",
+     "description": "You guys have given me so much at this point. Now I want to use that for something actually important. At this level, I will give 5% of all Patreon donations to charity.",
+     "reached_at": "2015-06-11T02:17:17+00:00",
+     "title": ""
+    },
+    "id": "183881",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 36,
+     "created_at": "2015-12-10T09:29:22+00:00",
+     "description": "I\u0027ve wanted to live stream on Twitch for awhile now. At this level, I can guarantee that I will be able to do that on a weekly basis. So now you can watch me suck at video games!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "300197",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 24,
+     "created_at": "2015-12-10T09:29:22+00:00",
+     "description": "The title is pretty self explanatory. I will launch a daily podcast that outlines what happened on that day in film history.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "300198",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 14,
+     "created_at": "2015-12-10T09:29:22+00:00",
+     "description": "If you know me, you know that I HATE The Last Airbender movie, it is easily my least favorite movie of all time. At this level, I will do a detailed review outlining every single reason why this movie is an abomination against humanity. More work and professionalism will go into this review than any other review I\u0027ve done (it might even be a video review).",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "300199",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 66600,
+     "completed_percentage": 11,
+     "created_at": "2015-12-10T09:29:22+00:00",
+     "description": "My friend Meghan has never seen any of the Marvel Cinematic Universe films and, for some stupid reason, refuses to watch them. When I hit this goal, she will watch every single movie and television series in the MCU and LIKE IT! (Psst... she doesn\u0027t know that I made this goal, yet.)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "300200",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 7,
+     "created_at": "2015-12-10T09:29:22+00:00",
+     "description": "I\u0027ve always wanted to go to a film festival and, at this level, I can afford to do so. Of course, everything that I see at said film festival (haven\u0027t decided which, yet) I will review on Clark Film, so it\u0027s a win-win scenario!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "300202",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 1,
+     "created_at": "2015-12-10T09:29:22+00:00",
+     "description": "More and more over the past few months, I\u0027ve had the thought in my head that I want to move to Austin. The major limiting factor in this, however, is money. At this level, I can afford to make this change that I really want to make.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "300203",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000000,
+     "completed_percentage": 0,
+     "created_at": "2015-12-10T09:29:22+00:00",
+     "description": "I talk a lot about movies, I might as well make one. At this level, I will write and direct a short film. It will probably be garbage, but I can say that I did it.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "300204",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2016-04-22T21:58:45+00:00",
+     "description": "Remember when I talked about movie news on Clark Film? You want more of that? Well, you\u0027ll get it in the form of a weekly news recap in addition to the reviews.",
+     "reached_at": "2016-07-27T20:45:41+00:00",
+     "title": ""
+    },
+    "id": "407246",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/181653"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "7afdd5f1-22aa-434f-b249-8dd8639cd719",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Thomas Clark is creating Podcasts"
+});
+    </script>

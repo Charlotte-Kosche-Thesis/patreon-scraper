@@ -1,0 +1,543 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "ax6M0SWRXrOXU2HPTxhgvwDmu6S0sJs_4HMda2Vi49I";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "602979",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/602979"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-10-15T00:41:05+00:00",
+    "creation_name": "Weekly Bass Fishing Videos",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1272756/0f448ecc62454a009a1d4cdbb7d40b8b?token-time=2145916800\u0026token-hash=IWNcrUk4ArY4SHznZ3cOheCntjbgD5UOdGITtkA7HXA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1272756/0f448ecc62454a009a1d4cdbb7d40b8b?token-time=2145916800\u0026token-hash=yd01bEsS0Mx47Cn0Oim_EBklHa9WVQuCXLTb1SspR3k%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "month",
+    "pledge_sum": 7346,
+    "pledge_url": "/bePatron?c=1272756",
+    "published_at": "2017-10-15T01:39:25+00:00",
+    "summary": "My name is Sean, and I\u0027m the creator and owner of 603bass Fishing! I love creating videos that showcase the incredible bass fishing in New Hampshire, the wonderful diversity of fisheries available here, and the phenomenal scenery our great state has to offer. By joining this community, I can expand upon and improve my video \u0026amp; audio recording capabilities to bring you the best educational and entertaining bass fishing videos possible! Patreons will get access to monthly tackle and gear giveaways, free 603bass fishing apparel, exclusive first looks behind the scenes on what I\u0027m working on, and more!"
+   },
+   "id": "1272756",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8000101",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8000101"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "994180",
+       "type": "goal"
+      },
+      {
+       "id": "994181",
+       "type": "goal"
+      },
+      {
+       "id": "994182",
+       "type": "goal"
+      },
+      {
+       "id": "994183",
+       "type": "goal"
+      },
+      {
+       "id": "994184",
+       "type": "goal"
+      },
+      {
+       "id": "994185",
+       "type": "goal"
+      },
+      {
+       "id": "1008798",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1272756",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1272756"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2075311",
+       "type": "reward"
+      },
+      {
+       "id": "2075315",
+       "type": "reward"
+      },
+      {
+       "id": "2075325",
+       "type": "reward"
+      },
+      {
+       "id": "2075328",
+       "type": "reward"
+      },
+      {
+       "id": "2075331",
+       "type": "reward"
+      },
+      {
+       "id": "2075334",
+       "type": "reward"
+      },
+      {
+       "id": "2075339",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "My name is Sean, and I create bass fishing videos on YouTube! I solely focus on bass fishing in my home state of New Hampshire, and create anything from educational, to entertaining, to product review videos. The primary focus of my videos is to show just how good the bass fishing is here in New Hampshire, the incredible diversity of our fisheries, and to teach my viewers as much as I can along the way.",
+     "created": "2017-10-09T15:22:48+00:00",
+     "facebook": null,
+     "first_name": "603bass",
+     "full_name": "603bass",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/8000101/a2ff98ded1644194829fe56d8e8af39c?token-time=2145916800\u0026token-hash=Z0QQ3fBoBNZDLRpndqP5vq28KyZ-JCG8Fn45-Bak6ro%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/8000101/a2ff98ded1644194829fe56d8e8af39c?token-time=2145916800\u0026token-hash=L9DDxeOGZnmn737HLeWPMG28C-U8lUDVVbTueNv5PxI%3D",
+     "twitch": null,
+     "twitter": "603bass",
+     "url": "https://www.patreon.com/603bass",
+     "vanity": "603bass",
+     "youtube": "https://www.youtube.com/603bass"
+    },
+    "id": "8000101",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1272756",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1272756"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 6,
+     "upgrade_url": "/bePatron?c=1272756\u0026rid=2075328"
+    },
+    "id": "post-aggregation-for-0-1272756",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-10-15T00:48:44.497983+00:00",
+     "description": "Thank you so much for your support! This money is a huge help, every single dollar helps me to procure what I need to continue to improve the quality of my videos.",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-07T00:30:57.345922+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-07T00:30:57.319940+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Thank You! - The Push Button Reel Anglers",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1272756\u0026rid=2075311",
+     "user_limit": null
+    },
+    "id": "2075311",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-10-15T00:50:28.553576+00:00",
+     "description": "First reward tier! Patreons at this level will be entered into a t-shirt giveaway every month! Winner is chosen at random, results \u0026amp; method for the random drawing will always be shared. Minimum of eight (8) Patreons at this level are required to hold the monthly random drawing. You can win multiple times.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-09T01:36:20.051238+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-09T01:36:20.030805+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Spinning Tackle Anglers",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1272756\u0026rid=2075315",
+     "user_limit": null
+    },
+    "id": "2075315",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-10-15T00:58:24.177086+00:00",
+     "description": "You guys are awesome! Patreons at this level will receive a FREE 603bass t-shirt every 5 months!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-07T00:51:48.715021+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-07T00:51:48.682562+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Baitcasters",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1272756\u0026rid=2075325",
+     "user_limit": null
+    },
+    "id": "2075325",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-10-15T01:00:01.941372+00:00",
+     "description": "Patreons at this level receive a FREE 603bass t-shirt every 2 months! You will also gain access to the Patron-only activity feed, to be the first to hear about the newest upcoming content for the channel, and other behind the scene happenings!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-09T01:41:23.298611+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 5,
+     "published": true,
+     "published_at": "2017-11-09T01:41:23.269275+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Sandbaggers",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1272756\u0026rid=2075328",
+     "user_limit": null
+    },
+    "id": "2075328",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-10-15T01:03:30.019766+00:00",
+     "description": "Thanks Mr/Mrs Money Bags! Patreons at this level will receive my \"lure of the month\" every month! It will be something that I myself use on a regular basis for that time of the year. It won\u0027t be some knockoff cheapo thing I grab from some store\u0027s clearance shelf, it will be brand new and identical to what I use.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou will also receive \"The Sandbaggers\" rewards, and special recognition at the end of every video!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-09T01:42:09.732910+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-09T01:42:09.676844+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "The Local Pro",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1272756\u0026rid=2075331",
+     "user_limit": null
+    },
+    "id": "2075331",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-10-15T01:07:16.713878+00:00",
+     "description": "Words can\u0027t describe my appreciation for this level of support. Patreons at this level will be able to join in on a once a month private group get together, either on Discord or on a live stream. We can discuss anything and everything you would like to go over for all things fishing, and/or anything else that is on their mind! For example, we can pull up a lake chart of your favorite places to fish, and I can help go over the lake and offer my input on what I feel would be the best way to tackle it! Method/means of conversation TBD based on Patreon backer\u0027s capabilities.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e...OR...\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePatreons at this level can choose to have their own one of a kind 603bass apparel of their choosing once every two months! We will get together and go over exactly what it is you want, and I will have a custom shirt, hoodie, hat, or whatever it is you want made with the custom logo of your choosing!\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eBoth choices will also receive the same rewards from \"The Sandbaggers\" and up.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-09T01:44:38.616702+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-09T01:44:38.590700+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "The Pro",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1272756\u0026rid=2075334",
+     "user_limit": null
+    },
+    "id": "2075334",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 12500,
+     "amount_cents": 12500,
+     "created_at": "2017-10-15T01:10:14.855285+00:00",
+     "description": "You are unequivocally the GOAT of Patreons. Patreons at this level have two options to choose from.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePatreons will receive a one on one private learning session once a month! We can discuss whatever it is you want to learn about ahead of time, whether it be a new technique, or how to break down new lakes, or anything else! I will even live stream directly from the lake to demonstrate new techniques if you so want! You make the decisions here (within reason!), but the main point is I will provide you an extremely in depth lesson on anything you want to learn fishing related.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e...OR...\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePatreons at this level\u00a0get to act as the director for one episode every 2 months! Want to see a full day of fishing something specific? Have an absurd fishing related challenge in mind for me to try out? You name it, I do it.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eBoth choices will also receive the same rewards from \"The Sandbaggers\" and up.\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-09T01:45:55.684651+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-09T01:45:55.660632+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "The Kevin Vandam of Patreons",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1272756\u0026rid=2075339",
+     "user_limit": 5
+    },
+    "id": "2075339",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 73,
+     "created_at": "2017-10-15T01:32:25+00:00",
+     "description": "Monthly tackle reviews! When I reach this goal, I will purchase new tackle to review every month. From anything like\u00a0the fanciest damn tungsten jigs one can buy, or the newest fandangled frog, to the sexiest spinnerbait you\u0027ve ever seen, if it\u0027s something I think will actually catch fish, then I\u0027ll buy it and review it! This won\u0027t just be a \"well I bought it and looked at it for 5 minutes so here\u0027s my review\" kind of review. I will absolutely put whatever I purchase through hell and back over several weeks to ensure I have a thorough understanding of the quality of the product before I give feedback on it. All Patreons will be welcome to provide suggestions on what tackle I purchase to review!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "994180",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 24,
+     "created_at": "2017-10-15T01:32:25+00:00",
+     "description": "NO MORE ADS ON MY VIDEOS! Every video will be ad free! Look, I know that there\u0027s a ton of money to be made from YouTube ad revenue, but I don\u0027t need a ton of money here to get things done. Reaching this goal will provide enough money to make significant upgrades to the video \u0026amp; audio quality in a short amount of time, AND conduct monthly reviews on new tackle.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "994181",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 12,
+     "created_at": "2017-10-15T01:32:25+00:00",
+     "description": "Monthly fishing rod \u003cstrong\u003e\u003cem\u003eOR\u003c/em\u003e\u003c/strong\u003e reel reviews! There\u0027s a ton of fishing gear out there to look at. There are dozens of options every $30-$40 jump, starting with the really cheap $30 rods \u0026amp; reels, up to the $600+ rods \u0026amp; reels. I would love to be able to run through the whole spectrum of options here and test as many as I can, with the same level of dedicated testing as the tackle reviews, to really give a solid \u0026amp; thorough review of whatever it is I buy and test. All Patreons will also be invited to provide input on what I purchase to review here as well!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "994182",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 7,
+     "created_at": "2017-10-15T01:32:25+00:00",
+     "description": "I\u0027m hitting the open road! That\u0027s right, when I reach this point, I will take one trip a month to a lake NOT in New Hampshire! 603bass will hit the road and go out of state to tackle a lake based on suggestions from you, the Patreons that support this channel! Some restrictions MAY apply here depending on drive distances (I am a father of two very young children after all!). For example, this would provide me the opportunity to travel south to Florida for some good winter fishing while we\u0027re snowed in here in NH.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "994183",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 2,
+     "created_at": "2017-10-15T01:32:25+00:00",
+     "description": "I\u0027m going to the Bassmaster Classic! Well, I\u0027ll try at any rate! When I reach this goal, I will join a fishing club that is part of Bass Nation, and fish every tournament needed to qualify for the state level championship, then the regionals, and so on. No amount of money will pay my way beyond the State level, that will be 100% on me and my abilities as an angler, but this money will allow me to take extended time off from work to dedicate to pre-fishing and preparing for each tournament. Doing so will help put myself in the best position to win each event, moving upward \u0026amp; onward through the levels of the Bass Nation, which ultimately ends in winning a spot to the Bassmaster Classic. Doing so will require a whole lot of travel and time on the water though to have a solid chance at making it happen! (Earnings amount will need to be reached \u0026amp; sustained for a minimum of 2 consecutive months before I will pursue this goal)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "994184",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000000,
+     "completed_percentage": 0,
+     "created_at": "2017-10-15T01:32:25+00:00",
+     "description": "I\u0027M GOING FULL TIME!!! That means I\u0027ll be quitting my job and making fishing content full time, and that also means multiple videos a week. Yes, this is an insane goal at a high price. However, I am the primary source of income for my family. Reaching this goal would put me in a position that I could leave my full time job, be able to continue to provide health insurance for my family, and still keep paying the bills on the house, all while taking on the additional cost of towing a boat 4-5 days a week to put out even more new content. All of that adds up to a high cost very quickly. To reach this point though would be a dream come true, and I sincerely hope to hit this goal at some point in my life.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "994185",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 1,
+     "created_at": "2017-10-31T03:05:34+00:00",
+     "description": "Reviews on high end gear every other month! Think big stuff like the latest and greatest depth finders/GPS units, or different trolling motors, comparing shallow water anchors (Power Pole and Minn Kota Talons), etc. This is where we get to go out and buy the expensive toys we all want on our boats, and put them through the same tests that all other gear \u0026amp; tackle is subjected to. I\u0027m going to be extremely thorough in my testing. If I don\u0027t know the product well enough to test it thoroughly, then I will be able to bring in other industry professionals that DO know enough to help ensure we\u0027re getting the most out of everything I buy and test! All Patreons will also be invited to provide input on what I purchase to review here as well! Due to the shear depth of information that can come from these types of products, reviews will be conducted every other month in order to ensure an adequate amount of time is put into thoroughly testing these products.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1008798",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1272756"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "2e4dec7f-133b-446f-b9d8-66a402f7b98a",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "603bass is creating Weekly Bass Fishing Videos"
+});
+    </script>

@@ -1,0 +1,418 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "v4NmlTfoTu1wRS1QX_9dHnewpAtyUNzPT-f7GliawP0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "573219",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/573219"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-09-09T11:01:05+00:00",
+    "creation_name": "Latin translations of modern literature",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1216181/4dc819e23c664e438cadd43aedca1e55?token-time=2145916800\u0026token-hash=q-BDxL-mPLudONanQ9bJBe5lWd8oPVFDdVwtIWMs70A%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1216181/4dc819e23c664e438cadd43aedca1e55?token-time=2145916800\u0026token-hash=PA1jhUaxgS04WV4whJr96WszzXvZN-svILoOi3TOxoY%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1216181",
+    "published_at": "2017-09-11T10:05:39+00:00",
+    "summary": "Welcome to the Scriptorium! \u003cbr\u003eWorking here is a linguist who translates books to latin. Teachers may use my translations and bilingual editions in class\u00a0and hand out excerpts to their students if they want to. It\u0027s all stories and short novellas in the beginning, but I\u0027ll start translating longer books once I can afford to take the time off my day job. \u003cbr\u003e The first chapter of everything is free, the complete translations are behind a 1$-Paywall. I also make bilingual PDFs and ePubs that my patrons can download from Quaestor-rank on. \u003cbr\u003eIs there something you\u0027d like to see translated? Have the senate vote on it. The original can be in Catalan, English, Finnish, French, German or Spanish. \u003cbr\u003e\u003cbr\u003eWhile you\u0027re here, visit \u003ca href=\"https://www.patreon.com/latinum\"\u003eLatinum\u003c/a\u003e who is creating awesome Latin Language Audio Courses.\u003cbr\u003e"
+   },
+   "id": "1216181",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7631549",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7631549"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "965939",
+       "type": "goal"
+      },
+      {
+       "id": "965940",
+       "type": "goal"
+      },
+      {
+       "id": "965941",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "35231",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1216181",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1216181"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1990553",
+       "type": "reward"
+      },
+      {
+       "id": "1990556",
+       "type": "reward"
+      },
+      {
+       "id": "1990555",
+       "type": "reward"
+      },
+      {
+       "id": "1990565",
+       "type": "reward"
+      },
+      {
+       "id": "1990554",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-09-09T11:00:19+00:00",
+     "facebook": null,
+     "first_name": "Scriptorium",
+     "full_name": "Scriptorium",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7631549/55bb0b43ce944fef87ff630e1b23f7a1?token-time=2145916800\u0026token-hash=hMKm3KLkelsT2jE-TmUTxS16WZESrYIOxBd-SZ5qTtk%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7631549/55bb0b43ce944fef87ff630e1b23f7a1?token-time=2145916800\u0026token-hash=h0DyLTmGBJmwzIA7TolJRJtTTsdQLzVNQsmB_T0tMIo%3D",
+     "twitch": null,
+     "twitter": "vuorille",
+     "url": "https://www.patreon.com/scriptorium",
+     "vanity": "scriptorium",
+     "youtube": null
+    },
+    "id": "7631549",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1216181",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1216181"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 20,
+     "upgrade_url": "/bePatron?c=1216181\u0026rid=1990556"
+    },
+    "id": "post-aggregation-for-0-1216181",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-09-09T11:18:15.466567+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to my patron-only feed\u003c/li\u003e\u003cli\u003eVote on what I translate next\u003c/li\u003e\u003cli\u003eRead new translations of public domain works online\u003c/li\u003e\u003c/ul\u003eThe entry fee is at 1$ to make my latin translations affordable for everybody. Feel free to contribute more - every dollar helps.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-11T10:35:46.725061+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-09T11:18:15.466567+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Senator",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1216181\u0026rid=1990553"
+    },
+    "id": "1990553",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-09-09T11:20:52.882782+00:00",
+     "description": "All of the above plus:\u003cbr\u003e\u003cul\u003e\u003cli\u003eDownload all translations and bilingual editions of public domain works from the Download catalogue\u003c/li\u003e\u003c/ul\u003eFor 2$ you can download my bilingual editions of classic novels and shortstories. Feel free to contribute: The more hours I can afford to work on translations, the faster the catalogue will grow.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-01T10:42:29.844684+00:00",
+     "image_url": null,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-09-09T11:20:52.882782+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Quaestor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1216181\u0026rid=1990556"
+    },
+    "id": "1990556",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-09-09T11:20:52.861018+00:00",
+     "description": "All of the above plus:\u003cbr\u003e\u003cul\u003e\u003cli\u003eReceive a paper copy of every new translation of a public domain book\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-11T10:03:12.153386+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-09T11:20:52.861018+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Aedilis",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1216181\u0026rid=1990555"
+    },
+    "id": "1990555",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-09-09T11:26:13.269394+00:00",
+     "description": "All of the above plus:\u003cbr\u003e\u003cul\u003e\u003cli\u003eReceive a paper copy of every new translation of copyrighted works\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-09T11:26:13.269394+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-09T11:26:13.269394+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Praetor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1216181\u0026rid=1990565"
+    },
+    "id": "1990565",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-09-09T11:20:52.842336+00:00",
+     "description": "All of the above plus: \u003cbr\u003e\u003cul\u003e\u003cli\u003eHave your name/company/website listed as a sponsor in my self-published e-books.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-11T10:05:12.193802+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-09T11:20:52.842336+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Consul",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1216181\u0026rid=1990554"
+    },
+    "id": "1990554",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 31,
+     "created_at": "2017-09-14T10:43:33+00:00",
+     "description": "As soon as the senate has some members, I will start doing polls. You can choose what gets translated.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "965939",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 3,
+     "created_at": "2017-09-14T10:43:33+00:00",
+     "description": "Get professional help with layout and design for my bilingual e-books and paper editions.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "965940",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-09-14T10:43:33+00:00",
+     "description": "Work less hours at my day job and more on latin translations.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "965941",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-09-09T11:45:51+00:00",
+     "deleted_at": null,
+     "description": "When the senate has 5 members, I will start doing polls about what to translate next. \u003cbr\u003e",
+     "goal_text": "When the senate has 5 members, I will start doing polls about what to translate next. \u003cbr\u003e",
+     "number_patrons": 5,
+     "reached_at": null
+    },
+    "id": "35231",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1216181"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "2402e9a0-9c2a-457c-8360-d2060a54c9e7",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Scriptorium is creating Latin translations of modern literature"
+});
+    </script>

@@ -1,0 +1,463 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "wwFHsLUb8VmBpm6dbgIWdc5CemSK9Jc4gbcgks4PmAc";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "123321",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/123321"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-01-04T17:03:56+00:00",
+    "creation_name": "Cosplay Music Videos (CMVs) ",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/260561/f8fd8e6a479a448c9ef5cbaef492ff81?token-time=2145916800\u0026token-hash=RcpNn4l2qUmb-7OGDuLRmS-CcaKg5Ztohq0anPeMMQY%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/260561/f8fd8e6a479a448c9ef5cbaef492ff81?token-time=2145916800\u0026token-hash=EeJ8mGppGLky6zh_uo2fdZ_jZpBGsWBcGyfEVbAG8Jc%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/VrEzOhet7eE\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://www.youtube.com/watch?v=VrEzOhet7eE",
+    "one_liner": null,
+    "patron_count": 12,
+    "pay_per_name": "month",
+    "pledge_sum": 7252,
+    "pledge_url": "/bePatron?c=260561",
+    "published_at": "2016-01-04T18:21:21+00:00",
+    "summary": "\u003cdiv style=\"margin-left: 260px;\"\u003e\u003cstrong style=\"color: rgb(247, 150, 70); background-color: initial;\"\u003eHallo!\u003c/strong\u003e\u003c/div\u003eWelcome to our patreon site. We are a\u00a0\u003cspan style=\"background-color: rgb(247, 150, 70);\"\u003e\u003cspan style=\"background-color: rgb(255, 255, 255);\"\u003eDutch cosplay group\u003c/span\u003e\u003c/span\u003e and we make CMVs about a lot of series, including Hetalia, Harry Potter, Evangelion, No.6 and Haikyuu!! We have high hopes for our CMVs in 2017 and we want to show you the best videos possible. Since we are just a bunch of students who don\u0027t make a ton of money, we\u0027ve decided to make a patreon so we can buy more and better camera equipment. It would also enable us to film on awesome locations.\u003cbr\u003e \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0In short, so we can give you \u003cstrong\u003e\u003cspan style=\"color: rgb(99, 36, 35);\"\u003ethe best CMVs!\u00a0\u003c/span\u003e\u003c/strong\u003e\u003cbr\u003eWe will \u003cem\u003edefinitely\u003c/em\u003e\u00a0\u003cem\u003enot\u003c/em\u003e\u00a0use this for our groceries so do not fear! We hope you will support us, but most of all... that you will enjoy our videos!\u00a0\u003cbr\u003e\u003cbr\u003e\u003cdiv style=\"margin-left: 60px;\"\u003e\u003cem style=\"background-color: initial;\"\u003e\"Thank you so much!\"\u003c/em\u003e, from everyone at \u003cstrong style=\"background-color: initial;\"\u003e\u003cspan style=\"color: rgb(247, 150, 70);\"\u003eWaffles\u003c/span\u003e\u003c/strong\u003e\u003cstrong style=\"background-color: initial;\"\u003e\u003cspan style=\"color: rgb(151, 72, 6);\"\u003ew\u003c/span\u003e\u003c/strong\u003e\u003cstrong style=\"background-color: initial;\"\u003e\u003cspan style=\"color: rgb(151, 72, 6);\"\u003eithSpain\u003c/span\u003e\u003c/strong\u003e\u003c/div\u003e\u003cimg src=\"http://i66.tinypic.com/2jcu0e1.jpg\" style=\"width: 862px;\"\u003e\u003cbr\u003e\u003cimg src=\"http://i63.tinypic.com/2116lhy.jpg\"\u003e\u003cbr\u003e\u003cdiv style=\"margin-left: 180px;\"\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(99, 36, 35);\"\u003e\u003cbr\u003e\u003c/span\u003e\u003c/strong\u003e\u003c/div\u003e"
+   },
+   "id": "260561",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2696703",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2696703"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "317643",
+       "type": "goal"
+      },
+      {
+       "id": "317644",
+       "type": "goal"
+      },
+      {
+       "id": "317645",
+       "type": "goal"
+      },
+      {
+       "id": "775027",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-260561",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-260561"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "398497",
+       "type": "reward"
+      },
+      {
+       "id": "398522",
+       "type": "reward"
+      },
+      {
+       "id": "398499",
+       "type": "reward"
+      },
+      {
+       "id": "398523",
+       "type": "reward"
+      },
+      {
+       "id": "398501",
+       "type": "reward"
+      },
+      {
+       "id": "398502",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "We are a very ambitious cosplay group from the Netherlands. We want to make the most awesome CMVs possible! \u003cbr\u003e\u003cem\u003eHetalia, Harry Potter, Kuroko no Basuke, Evangelion, No.6, etc.\u00a0\u003c/em\u003e",
+     "created": "2016-01-04T16:58:34+00:00",
+     "facebook": "https://www.facebook.com/waffleswithspain/",
+     "first_name": "WaffleswithSpain",
+     "full_name": "WaffleswithSpain",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2696703/c7581a41370e431aa7fecec56b1d39cf?token-time=2145916800\u0026token-hash=gVSKOqvSJNIl1uRAH-UpgCrjrXDxuD9KsEHVeCBsVPY%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2696703/c7581a41370e431aa7fecec56b1d39cf?token-time=2145916800\u0026token-hash=x__eGBuQ8tEc4cNdGm8avgSFoCDIOuSyXVI1g2PZ94E%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/waffleswithspain",
+     "vanity": "waffleswithspain",
+     "youtube": "https://www.youtube.com/user/WaffleswithSpain"
+    },
+    "id": "2696703",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "260561",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/260561"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 32,
+     "upgrade_url": "/bePatron?c=260561\u0026rid=398499"
+    },
+    "id": "post-aggregation-for-0-260561",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-01-05T17:53:41+00:00",
+     "description": "\u003cem\u003eAahh, thank you ! This means a lot to us all.\u003c/em\u003e\n\u003cp\u003e\u003cem\u003e\u003cbr\u003e\n* \u003c/em\u003eOne thank you \u003cstrong\u003emessage \u003c/strong\u003efrom us\u003cbr\u003e\n\u00a0\u003c/p\u003e\n\u003cp\u003e* Access to our exclusive Patreon feed with \u003cstrong\u003esneak peeks\u003c/strong\u003e about our\u00a0upcoming videos! You\u0027ll get to see our thumbnail before everyone else :)\u003cbr\u003e\n\u003cbr\u003e\n* Every month a fun, informational \u003cstrong\u003eemail \u003c/strong\u003eabout us, our hopes and dreams and our CMVs!\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-25T06:53:23.236466+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/398497/f6cfbf486b9d49a5818afc248bc3574b?token-time=2145916800\u0026token-hash=ikKW2IJyWNaptmHizX_JoAqudR3LgWqCDpqmoHyJ5Ag%3D",
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-05T17:53:41+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Galettes",
+     "unpublished_at": null,
+     "url": "/bePatron?c=260561\u0026rid=398497",
+     "user_limit": null
+    },
+    "id": "398497",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 250,
+     "amount_cents": 250,
+     "created_at": "2016-01-05T17:53:41+00:00",
+     "description": "\u003cem\u003eafldsjhf you have no idea how happy you make us!\u003cbr\u003e\n\u003cbr\u003e\n* \u003c/em\u003eOf course all of the above rewards\u003cbr\u003e\n\u003cbr\u003e\n* AND a \u003cstrong\u003eselfie\u003c/strong\u003e made especially for YOU (and you get to choose from who)!\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-25T06:49:40.823220+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/398522/b6ca501de3db4f958c58dde872c2cb1f?token-time=2145916800\u0026token-hash=5cZMk-1XABZ2p9prErDTKEX20aP00oEmumPLgd2bmsM%3D",
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-05T17:53:41+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Belgian Waffle",
+     "unpublished_at": null,
+     "url": "/bePatron?c=260561\u0026rid=398522",
+     "user_limit": null
+    },
+    "id": "398522",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-01-05T17:53:41+00:00",
+     "description": "\u003cem\u003eWoah really? This is beyond awesome.\u003cbr\u003e\n\u003c/em\u003e\u003cbr\u003e\n* You\u0027ll get all of the above!\u003cbr\u003e\n\u003cbr\u003e\n* AND A\u003cstrong\u003e digital group picture\u003c/strong\u003e from us after every CMV we make!\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-25T06:49:55.916763+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/398499/02306ad5d2ee4381926d1881b5e1aa0d?token-time=2145916800\u0026token-hash=M1mJ4dtzekBf90wgOqyTDVutA8tJhBmcrMkCd6ULrDA%3D",
+     "patron_count": 2,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-01-05T17:53:41+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Scandinavian Waffle",
+     "unpublished_at": null,
+     "url": "/bePatron?c=260561\u0026rid=398499",
+     "user_limit": null
+    },
+    "id": "398499",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 750,
+     "amount_cents": 750,
+     "created_at": "2016-01-05T17:53:41+00:00",
+     "description": "\u003cem\u003eNo way ! THAT IS SO COOL. We can do so much with this!\u003cbr\u003e\n\u003cbr\u003e\n* \u003c/em\u003eYou\u0027ll get all of the above!\u003cbr\u003e\n\u003cbr\u003e\n* AND \u003cstrong\u003eA video message\u003c/strong\u003e from one of the waffles (you can choose who!) or all of us, to show you how much we appreciate and love you \u2661\u003cbr\u003e\n\u003cbr\u003e\n* BUT ALSO \u003cstrong\u003eBehind the Scenes video updates \u0026amp; small vlogs\u003c/strong\u003e !",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-25T06:46:51.140337+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/398523/79998a74e4a741bbb484237bf42001e8?token-time=2145916800\u0026token-hash=Etxn2HJmrjXWJJnANakFlTbHqdyv50mVweGCMcDNXfs%3D",
+     "patron_count": 1,
+     "post_count": 12,
+     "published": true,
+     "published_at": "2016-01-05T17:53:41+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Brussels Waffle",
+     "unpublished_at": null,
+     "url": "/bePatron?c=260561\u0026rid=398523",
+     "user_limit": null
+    },
+    "id": "398523",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-01-05T17:53:41+00:00",
+     "description": "\u003cem\u003eWOWOWOW. You\u2019re making us blush o//o No but seriously, we thank you so much. \u003c/em\u003e\u2661\u003cbr\u003e\n\u003cbr\u003e\n* Of course, all of the above! \u00a0\u003cbr\u003e\n\u003cbr\u003e\n* AND one personal \u003cstrong\u003eMail\u003c/strong\u003e to one of the waffles: you get to choose who, and you will receive an e-mail back!",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-25T06:44:42.828129+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/398501/c89791dde53a4b2d95f2c14b3727157f?token-time=2145916800\u0026token-hash=aaxu9IPzOrB-V-OKOEPmPqOI74bBLAK-ma5uYvMXWdk%3D",
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-05T17:53:41+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Stroopwafel",
+     "unpublished_at": null,
+     "url": "/bePatron?c=260561\u0026rid=398501",
+     "user_limit": null
+    },
+    "id": "398501",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-01-05T17:53:41+00:00",
+     "description": "\u003cem\u003eWords cannot describe how much we love you. Please be ready to get smothered with our love \u003c/em\u003e\u003cdel\u003e\u003cem\u003eand waffles.\u003cbr\u003e\n\u003c/em\u003e\u003c/del\u003e\u003cem\u003e\u003cbr\u003e\n* \u003c/em\u003eAll of the above, naturally!\u003cbr\u003e\n\u003cbr\u003e\n* BUT ALSO you\u0027ll receive \u003cstrong\u003ea page of our CMV scripts, \u003c/strong\u003ewith our comments, after every finished CMV! That\u0027s about one page per two months!\u003cbr\u003e\n\u003cbr\u003e\n* AND a handwritten birthday card in your inbox or mailbox \u0026lt;3",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-27T09:45:11.928427+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/398502/f6bb7c9c8f5240efbc90801421c7180e?token-time=2145916800\u0026token-hash=1vM1Xb4PEyKroHIljNnosPRiZ2a_13CY9-jpcm9ueto%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-05T17:53:41+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Li\u00e8ge Waffle",
+     "unpublished_at": null,
+     "url": "/bePatron?c=260561\u0026rid=398502",
+     "user_limit": null
+    },
+    "id": "398502",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 100,
+     "created_at": "2016-01-05T17:48:53+00:00",
+     "description": "Awesome! With $50 per month we\u0027ll be able to start saving for the more impressive lenses and buy more small props for videos!",
+     "reached_at": "2016-09-10T10:17:49+00:00",
+     "title": ""
+    },
+    "id": "317643",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 72,
+     "created_at": "2016-01-05T17:48:53+00:00",
+     "description": "AMAZING! Now we can invest more in our locations, hiring all the good spots, but also buy/make more awesome props.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "317644",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 36,
+     "created_at": "2016-01-05T17:48:53+00:00",
+     "description": "LET\u0027S GO ON AN ADVENTURE\u003cbr\u003eWith $200 per month, we\u0027ll visit more conventions in Europe :D",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "317645",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 24,
+     "created_at": "2017-04-03T19:52:31+00:00",
+     "description": "MORE EQUIPMENT \u003cbr\u003eso we can shoot the most high-def videos, maybe even in slow-mo !",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "775027",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/260561"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "4bf695b7-effe-4828-b7b3-abae205766b3",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "WaffleswithSpain is creating Cosplay Music Videos (CMVs) "
+});
+    </script>

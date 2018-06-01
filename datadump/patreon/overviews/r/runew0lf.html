@@ -1,0 +1,513 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "_mMjS2HDfPuveYlkiHAJLPqLgdpqETNqTMDjiE98uHY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "31669",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/31669"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-01-23T08:34:53+00:00",
+    "creation_name": "Community Based Twitch Streams",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/141467/ee2162e2946442b8822d7b2476aeb166?token-time=2145916800\u0026token-hash=QqRjHgmSrr5DkFA8PRZhdauJIzogYPJEbW_F_VssSW0%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/141467/ee2162e2946442b8822d7b2476aeb166?token-time=2145916800\u0026token-hash=ttr3vYwcjvubdkuc0hin7YHb_sOKUUHuTkB0rTKgGxU%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "Welcome to the Mankini Minions!",
+    "patron_count": 4,
+    "pay_per_name": "month",
+    "pledge_sum": 3602,
+    "pledge_url": "/bePatron?c=141467",
+    "published_at": "2015-01-23T08:36:05+00:00",
+    "summary": "Lets do butt-touches!"
+   },
+   "id": "141467",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "504338",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/504338"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "111629",
+       "type": "goal"
+      },
+      {
+       "id": "269496",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "146160",
+       "type": "reward"
+      },
+      {
+       "id": "146161",
+       "type": "reward"
+      },
+      {
+       "id": "146162",
+       "type": "reward"
+      },
+      {
+       "id": "146163",
+       "type": "reward"
+      },
+      {
+       "id": "146164",
+       "type": "reward"
+      },
+      {
+       "id": "146165",
+       "type": "reward"
+      },
+      {
+       "id": "342364",
+       "type": "reward"
+      },
+      {
+       "id": "342365",
+       "type": "reward"
+      },
+      {
+       "id": "342366",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Just an old dude playing games and talking too much!",
+     "created": "2015-01-23T08:31:24+00:00",
+     "facebook": "https://www.facebook.com/runew0lf",
+     "first_name": "runew0lf",
+     "full_name": "runew0lf",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/504338/4943246b83b9453d84863dbc2a6e85d5?token-time=2145916800\u0026token-hash=5BFT0G8IF8kwsZ5RQaKg1w6_pMzMVkFhe5BslcK0J1Q%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/504338/4943246b83b9453d84863dbc2a6e85d5?token-time=2145916800\u0026token-hash=LMRAEFGcijE1lRsMXK0jsNjtRF8NEHDbL1G8L5gfpkw%3D",
+     "twitch": "https://www.twitch.tv/runew0lf",
+     "twitter": "runew0lf",
+     "url": "https://www.patreon.com/runew0lf",
+     "vanity": "runew0lf",
+     "youtube": "https://www.youtube.com/runew0lf"
+    },
+    "id": "504338",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "141467",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/141467"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-10-25T12:19:26+00:00",
+     "description": "- Big thanks from me to you on cast and have your name in the Thank You section on my Twitch page! \u0026lt;3\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-25T12:19:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=141467\u0026rid=146160",
+     "user_limit": null
+    },
+    "id": "146160",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2015-10-25T12:19:26+00:00",
+     "description": "- All the previous rewards\u003cbr\u003e- You get priority names on video games!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-25T12:19:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=141467\u0026rid=146161",
+     "user_limit": null
+    },
+    "id": "146161",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2015-10-25T12:19:26+00:00",
+     "description": "- All the previous rewards\u003cbr\u003e- Name displayed on the BRB screen!\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-25T12:19:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=141467\u0026rid=146162",
+     "user_limit": null
+    },
+    "id": "146162",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2015-10-25T12:19:26+00:00",
+     "description": "- All the previous rewards\u003cbr\u003e- Your very own personal command on my bot! (as long as its approved)\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-25T12:19:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=141467\u0026rid=146163",
+     "user_limit": null
+    },
+    "id": "146163",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2015-10-25T12:19:26+00:00",
+     "description": "- All the previous rewards\u003cbr\u003e- I will take a professional photo of anything (within reason) and send it to you\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-25T12:19:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=141467\u0026rid=146164",
+     "user_limit": null
+    },
+    "id": "146164",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2015-10-25T12:19:26+00:00",
+     "description": "- All the previous rewards\u003cbr\u003e- A 1 hour personal video chat with me 1 on 1 once a month!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-25T12:19:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=141467\u0026rid=146165",
+     "user_limit": null
+    },
+    "id": "146165",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2015-10-25T12:19:26+00:00",
+     "description": "- All the previous rewards\u003cbr\u003e- Cooking time, you get to choose the dish, i shall create it and make food porn as well as the instructions on how to make it",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-25T12:19:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=141467\u0026rid=342364",
+     "user_limit": null
+    },
+    "id": "342364",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2015-10-25T12:19:26+00:00",
+     "description": "- All the previous rewards\u003cbr\u003e- To be announced!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-25T12:19:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=141467\u0026rid=342365",
+     "user_limit": null
+    },
+    "id": "342365",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200000,
+     "amount_cents": 200000,
+     "created_at": "2015-10-25T12:19:26+00:00",
+     "description": "- All the previous rewards\u003cbr\u003e- I shall come to your house and cook any meal you choose every 6 months",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-25T12:19:26+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=141467\u0026rid=342366",
+     "user_limit": null
+    },
+    "id": "342366",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 3,
+     "created_at": "2015-01-23T18:43:50+00:00",
+     "description": "When i reach this goal, every month i will do a cooking show and show you how to make glorious good looking food!",
+     "reached_at": null,
+     "title": "The cooking show"
+    },
+    "id": "111629",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 2,
+     "created_at": "2015-10-25T06:27:05+00:00",
+     "description": "Me and the lovely Luke from creeperhost will team up once a month to whip up some amazing culinary delights for you guys",
+     "reached_at": null,
+     "title": "Dual cooking stream"
+    },
+    "id": "269496",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/141467"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "51d5f4f4-e597-4c51-bb4a-dbbf47055d17",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "runew0lf is creating Community Based Twitch Streams"
+});
+    </script>

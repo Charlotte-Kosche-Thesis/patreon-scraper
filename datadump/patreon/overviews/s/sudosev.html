@@ -1,0 +1,235 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "t6Buu3GsOQW3q2Ie4hQ5hoGtC7gCrSy2flIrrBepvEo";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "394083",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/394083"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-03-24T19:27:42+00:00",
+    "creation_name": "malware analysis lectures",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 7,
+    "pay_per_name": "creation",
+    "pledge_url": "/bePatron?c=812683",
+    "published_at": "2017-03-24T22:27:53+00:00",
+    "summary": "\u003cstrong\u003eWhoami\u003c/strong\u003e\u003cbr\u003eSome of you may know me from Twitter but I will assume that nobody here knows me. \u00a0I\u0027m a final year computer \u0026amp; network security student at Staffordshire University with an undying passion for information security and more specifically, malware research \u0026amp; threat intelligence. \u00a0In 2016, I really threw myself in at the deep end in the community and spoke at a conference as well as guest authored blog posts, all while studying for my degree and posting anything interesting I found in my spare time on Twitter. \u00a0Anybody that truly knows me will know that my passion and drive for information security is unstoppable. \u00a0That being said, I also enjoy teaching and I hope that my motivation can fuel some beginners to help ignite their love for information security and the dissection of malware.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWhy Patreon?\u003c/strong\u003e\u003cbr\u003eSeveral services exist for offering teaching at a low cost but due to financial constraints and time constraints, it\u0027s proving difficult to find the time to build a course in full to then push out to those that want to purchase the course. \u00a0Instead, I have opted for what we have here. \u00a0Any previous or current student will know that the financial situation as a student is diabolical. \u00a0I\u0027ve reached the depths of my cash pool at this point so here I am attempting to source some income while simultaneously teaching people the skills that they frequently ask me for in direct messages on Twitter. \u00a0While I am open to answering random questions, a structured course with in-depth explanation and demonstrations is much better. \u00a0Not only that but by doing this, I can dedicate time to the course whereas direct messages are answered on the fly and answer quality may vary depending on how rushed I am at the time.\u003cbr\u003e\u003cbr\u003eEssentially, money gained through Patreon is going to reduce my stress levels majorly and keep me fed while I write the content for this course and finish up my degree. \u00a0I\u0027ll also make sure that I dedicate some of the course writing time to speaking with Patreons as long as the numbers don\u0027t grow to a ridiculous amount. \u00a0For example, speaking to 2-3 Patreons is no issue but trying to speak to 100-200 people in a 3-4 hour allocated slot is going to be damn difficult.\u003cbr\u003e\u003cbr\u003eAmanda Rousseau (@malwareunicorn) will be reviewing course content before publishing to ensure the quality is of a high standard.\u003cbr\u003e\u003cbr\u003e\u003cem\u003eThe following areas are in the context of malware activity.  Some knowledge is already assumed.\u003c/em\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eNetworking \u0026amp; security technologies\u003c/strong\u003e\u003cbr\u003e- IP addresses and subnetting (IPv4, VLSM)\u003cbr\u003e- Routing \u0026amp; switching basics\u003cbr\u003e- How data/packets move through a network\u003cbr\u003e- ICMP\u003cbr\u003e- TCP and UDP\u003cbr\u003e- DNS\u003cbr\u003e- Firewalls/ACLs\u003cbr\u003e- IDS/IPS\u003cbr\u003e- Denial of service attacks\u003cbr\u003e- DoS mitigation\u003cbr\u003e- Network security topologies \u0026amp; architecture\u003cbr\u003e- OSI model in-depth and how each layer correlates to malware investigations\u003cbr\u003e- Command and control servers\u003cbr\u003e- Common network indicators for malicious activity\u003cbr\u003e- Abusing DNS and ICMP for malicious traffic\u003cbr\u003e- C2 traffic (HTTP/DNS/ICMP)\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIntroduction to malware analysis\u003c/strong\u003e\u003cbr\u003e- What is malware?\u003cbr\u003e- Malware broken into sub-categories\u003cbr\u003e- What is gained from malware analysis?\u003cbr\u003e- High level overview: malware techniques\u003cbr\u003e- Packers\u003cbr\u003e- Analysis Methodology\u003cbr\u003e- Lab safety\u003cbr\u003e- Lab environment (virtualization)\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eTools (full walk-through)\u003c/strong\u003e\u003cbr\u003e- Wireshark (customize appearance, filters, follow streams, file carving)\u003cbr\u003e- NetworkMiner\u003cbr\u003e- PeStudio\u003cbr\u003e- RegShot\u003cbr\u003e- ProcessExplorer\u003cbr\u003e- ProcessMonitor\u003cbr\u003e- FakeNet\u003cbr\u003e- Resource Hacker\u003cbr\u003e- HxD\u003cbr\u003e- IDA\u003cbr\u003e- x64dbg\u003cbr\u003e- API Monitor\u003cbr\u003e- Yara\u003cbr\u003e- XORSearch\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eStatic Malware Analysis\u003c/strong\u003e\u003cbr\u003e- What exactly are you are looking for?\u003cbr\u003e- Why are you doing this?\u003cbr\u003e- Once you have analyzed the malware specimen, what do you plan to do with the information extracted from our analysis session?\u003cbr\u003e- What is your end goal?\u003cbr\u003e- File appearance\u003cbr\u003e- Reading and understanding histograms \u0026amp; entropy\u003cbr\u003e- Identifying packing\u003cbr\u003e- Unpacking (may require manual unpacking)\u003cbr\u003e- Strings\u003cbr\u003e- Sections\u003cbr\u003e- Imports\u003cbr\u003e- Threat intel for additional clues\u003cbr\u003e- Preparing for dynamic analysis\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eDynamic Malware Analysis\u003c/strong\u003e\u003cbr\u003e- Translate static findings into expected dynamic behavior\u003cbr\u003e- Determine what artifacts you should be looking for post-execution\u003cbr\u003e- Understand each step of the malware execution\u003cbr\u003e- Learn common and uncommon techniques used by malware authors during execution\u003cbr\u003e- Identify system and file changes\u003cbr\u003e- Identify persistence\u003cbr\u003e- Analyze network traffic sourcing from the malware\u003cbr\u003e- Compile a list of indicators of compromise\u003cbr\u003e- Correlate behavior with static findings\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eManual reverse engineering\u003c/strong\u003e\u003cbr\u003e- CPU architectures\u003cbr\u003e- Memory management\u003cbr\u003e- ASLR\u003cbr\u003e- Stack operations\u003cbr\u003e- Basic ASM instructions\u003cbr\u003e- Flags\u003cbr\u003e- Functions\u003cbr\u003e- If/Else\u003cbr\u003e- Jump instructions (conditional)\u003cbr\u003e- Identifying loops\u003cbr\u003e- Opcodes\u003cbr\u003e- Example walk-through\u003cbr\u003e- IDA \u0026amp; x64dbg examples\u003cbr\u003e- Anti-Debugging techniques\u003cbr\u003e- Anti-Virtualization techniques\u003cbr\u003e- Identifying the disabling of security services\u003cbr\u003e- Process injection\u003cbr\u003e- DLL Hijacking \u003cbr\u003e- Manual binary patching via opcodes \u0026amp; hex editor\u003cbr\u003e\u003cbr\u003eI\u0027m open to questions about this Patreon, just throw me a DM @sudosev and I\u0027ll answer you as soon as possible.\u003cbr\u003e"
+   },
+   "id": "812683",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5433840",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5433840"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-812683",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-812683"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1526387",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-03-24T19:27:33+00:00",
+     "facebook": null,
+     "first_name": "Sudosev",
+     "full_name": "Sudosev",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5433840/56fa01f1788444d39cd5336d84ebccb1?token-time=2145916800\u0026token-hash=CU2C_Cqjin_Vt8Lp7fzANFZg5-9ex0Sn8cR7BJysPik%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5433840/56fa01f1788444d39cd5336d84ebccb1?token-time=2145916800\u0026token-hash=Oro-K2LkZuUuxkOUC8853HyQ21FUFJhYUTqr7ltgrU4%3D",
+     "twitch": null,
+     "twitter": "sudosev",
+     "url": "https://www.patreon.com/sudosev",
+     "vanity": "sudosev",
+     "youtube": null
+    },
+    "id": "5433840",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "812683",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/812683"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 1,
+     "upgrade_url": "/bePatron?c=812683"
+    },
+    "id": "post-aggregation-for-0-812683",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-03-24T21:25:11.264576+00:00",
+     "description": "Show your support and reduce those awful stress levels for a student that is writing malware analysis classes for Windows. \u00a0Patreons will receive frequent updates on the project and may be able to review parts of the project nearer to completion.",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-13T22:05:57.911806+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1526387/b788fbd779434ef2a8306deb75bee196?token-time=2145916800\u0026token-hash=eumkWyCudOAbuOLX_p-5Vb6WQHL7jj89qLC_AOsKhng%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-24T21:25:11.264576+00:00",
+     "remaining": 0,
+     "requires_shipping": false,
+     "title": "Show your support",
+     "unpublished_at": null,
+     "url": "/bePatron?c=812683\u0026rid=1526387"
+    },
+    "id": "1526387",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/812683"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": null,
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "7fc98188-3739-446c-8baa-b2d385188ce6",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Sudosev is creating malware analysis lectures"
+});
+    </script>

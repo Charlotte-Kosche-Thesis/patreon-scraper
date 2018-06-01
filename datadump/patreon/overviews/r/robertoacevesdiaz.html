@@ -1,0 +1,656 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "eaJSt6XYfn3swGCmgty8eG_-VnYZVdlVH0bwLodMFYw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": "2018-02-07T18:24:09.302947+00:00"
+   },
+   "id": "424849",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/424849"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-03-27T04:58:04+00:00",
+    "creation_name": "paintings and drawings",
+    "display_patron_goals": true,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI0IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/816710/488697974e08448db5011dd6a7154145?token-time=2145916800\u0026token-hash=OcMx9nQLugZXdauMeu9Ew2VU2rC0w_mn2UcGXinSW6g%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNCJ9/patreon-media/campaign/816710/488697974e08448db5011dd6a7154145?token-time=2145916800\u0026token-hash=9HLS-kiABRx5fEPp-rvIV8deBungFPI8za3ZVxDmwZM%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 5,
+    "pay_per_name": "month",
+    "pledge_sum": 870,
+    "pledge_url": "/bePatron?c=816710",
+    "published_at": "2017-04-25T03:20:42+00:00",
+    "summary": "\u003cstrong\u003eWhy am I in Patreon? \u00bfPor qu\u00e9 estoy en Patreon?\u003cbr\u003e\u003c/strong\u003eTo take advantage of the benefits of this platform.\u003cbr\u003e\nTo be able to fund my art career in a sustained, growing and solid way.\u003cbr\u003e\nTo be able to genuinely create, knowing that my economic needs are fulfilled.\u003cbr\u003e\nTo create what I want to create instead of what is popular or what sells.\u003cbr\u003e\nTo leverage my career by the power of a community.\u003cbr\u003e\nTo be able to take and exhibit my work around the world.\u003cbr\u003e\u003cspan style=\"background-color: rgb(238, 236, 225);\"\u003e\u003cspan style=\"background-color: rgb(196, 189, 151);\"\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u003cspan style=\"background-color: rgb(147, 137, 83);\"\u003eES\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e Para aprovechar las ventajas de esta plataforma.\u003cbr\u003e\nPara obtener fondos para mi carrera art\u00edstica de manera sostenida, creciente y s\u00f3lida.\u003cbr\u003e\nPara poder crear genuinamente, sabiendo que mis necesidades econ\u00f3micas est\u00e1n cubiertas.\u003cbr\u003e\nPara crear lo que quiero crear en vez de lo que es popular o lo que vende.\u003cbr\u003e\nPara apalancar mi carrera con el poder de una comunidad.\u003cbr\u003e\nPara poder llevar y exponer mi obra alrededor del mundo.\u003cbr\u003e\n\u003cstrong\u003e\u003c/strong\u003e\u003cbr\u003e\n\u003cstrong\u003eWhat is Patreon? \u00bfQu\u00e9 es Patreon?\u003cbr\u003e\u003c/strong\u003ePatreon is a crowdfunding patronage platform. Patronage? Yes, the thing that the ancient artists did. They produced artwork and there was a patron, that is, someone who supported economically the artist\u0027s career. Patreon takes this concept and allows artists to get the funds and create. Everybody can participate by a monthly amount from something small to something bigger and the sum of all contributions allows the artist achieve his/her goals. Each patron gets rewards defined by the artist depending on the amount of the contribution.\u003cbr\u003eArticle about Patreon: \u003ca href=\"https://techcrunch.com/2017/05/18/patreon-pushes-as-youtube-stutters\"\u003ehttps://techcrunch.com/2017/05/18/patreon-pushes-...\u003c/a\u003e\u003cbr\u003e\u003cspan style=\"background-color: rgb(196, 189, 151);\"\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003e\u003cspan style=\"background-color: rgb(63, 63, 63);\"\u003e\u003cspan style=\"background-color: rgb(147, 137, 83);\"\u003eES\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u00a0Patreon es una plataforma de mecenazgo colectivo. \u00bfMecenazgo? S\u00ed, lo que hac\u00edan los artistas de antes. Ellos produc\u00edan obra y hab\u00eda un mecenas, es decir, alguien que apoyaba econ\u00f3micamente la carrera del artista. Patreon toma ese concepto y permite que los artistas adquieran fondos para dedicarse a crear. Todos pueden participar mensualmente con una cantidad desde algo peque\u00f1o hasta algo mayor y la suma de las aportaciones permite al artista lograr sus metas. Cada mecenas recibe recompensas definidas por el artista seg\u00fan el monto aportado.\u003cbr\u003eArt\u00edculo sobre Patreon: \u003ca href=\"https://techcrunch.com/2017/05/18/patreon-pushes-as-youtube-stutters\"\u003ehttps://techcrunch.com/2017/05/18/patreon-pushes-...\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWhy do I make art? \u00bfPor qu\u00e9 hago arte?\u003c/strong\u003e\u003cbr\u003eLife is made up of moments. Lots of them are plain and irrelevant. But there are other, remarkable, unique. They will last during our whole existence.\u003cbr\u003eThat unforgettable trip, that coffee in Paris, that unique concert, that dinner, that kiss, that gratitude smile of someone we helped, that life changing experience.\u003cbr\u003eThose moments, short, sporadic, very intense and unforgettable are what really make our lives. \u003cbr\u003eI want to create this kind of experiences through my art. I want to give this to the people who see my artwork. I want to inspire others to do the same.\u003cbr\u003e\u003cspan style=\"background-color: rgb(147, 137, 83);\"\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003eES\u003c/span\u003e\u003c/span\u003e La vida est\u00e1 hecha de momentos. Muchos de ellos son planos e irrelevantes. Pero existen otros que son memorables, \u00fanicos. Perdurar\u00e1n durante toda nuestra existencia.\u003cbr\u003eAquel viaje inolvidable, aquel caf\u00e9 en Par\u00eds, ese concierto \u00fanico, esa cena, ese beso, esa sonrisa de gratitud de alguien a quien ayudamos, esa experiencia que cambi\u00f3 nuestra vida.\u003cbr\u003eEsos momentos, cortos, fugaces, espor\u00e1dicos pero tan intensos son los que en verdad hacen nuestras vidas. Quiero crear ese tipo de experiencias a trav\u00e9s de mi obra. Quiero transmitirle esto al espectador. Quiero inspirar a otros a hacer lo mismo.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eWhat will I do with the money? \u00bfQu\u00e9 har\u00e9 con el dinero recaudado?\u003c/strong\u003e\u003cbr\u003eI will buy supplies and pay lessons, courses and books. I will use it also to fulfill my economic needs, mine and of my family (food, daily expenses, medical care, transportation, etc.) so I can dedicate time to produce artwork and grow my artistic career.\u003cbr\u003e\u003cspan style=\"background-color: rgb(147, 137, 83);\"\u003e\u003cspan style=\"color: rgb(255, 255, 255);\"\u003eES\u003c/span\u003e\u003c/span\u003e Adquirir\u00e9 materiales y pagar\u00e9 clases, cursos y libros. Lo utilizar\u00e9 tambi\u00e9n para cubrir mis necesidades econ\u00f3micas y de mi familia (comida, gastos del d\u00eda a d\u00eda, atenci\u00f3n m\u00e9dica, transporte, etc.) para as\u00ed poder dedicar mi tiempo a producir obra y crecer mi carrera art\u00edstica.\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "816710",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5456023",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5456023"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "775696",
+       "type": "goal"
+      },
+      {
+       "id": "775702",
+       "type": "goal"
+      },
+      {
+       "id": "775709",
+       "type": "goal"
+      },
+      {
+       "id": "775714",
+       "type": "goal"
+      },
+      {
+       "id": "775715",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "49290",
+       "type": "patron_goal"
+      },
+      {
+       "id": "49291",
+       "type": "patron_goal"
+      },
+      {
+       "id": "49292",
+       "type": "patron_goal"
+      },
+      {
+       "id": "49293",
+       "type": "patron_goal"
+      },
+      {
+       "id": "49294",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-816710",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-816710"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2084638",
+       "type": "reward"
+      },
+      {
+       "id": "1562988",
+       "type": "reward"
+      },
+      {
+       "id": "1832199",
+       "type": "reward"
+      },
+      {
+       "id": "1832201",
+       "type": "reward"
+      },
+      {
+       "id": "1846313",
+       "type": "reward"
+      },
+      {
+       "id": "1846314",
+       "type": "reward"
+      },
+      {
+       "id": "1846316",
+       "type": "reward"
+      },
+      {
+       "id": "1846319",
+       "type": "reward"
+      },
+      {
+       "id": "1846320",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-03-27T04:56:12+00:00",
+     "facebook": "https://www.facebook.com/robertoacevesdiaz",
+     "first_name": "Roberto",
+     "full_name": "Roberto Aceves D\u00edaz",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiNCIsInciOjIwMH0%3D/patreon-media/user/5456023/b2fd6cb52ff04786a9510138a1dfba68?token-time=2145916800\u0026token-hash=p1Ji0zV2wKhCVJyOisA6InrJ-Qy8ASGit_pA2nbZy2o%3D",
+     "last_name": "Aceves D\u00edaz",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiI0IiwidyI6MTAwfQ%3D%3D/patreon-media/user/5456023/b2fd6cb52ff04786a9510138a1dfba68?token-time=2145916800\u0026token-hash=mygXvd6E1YMr7IR4YrJrhKBNpFMNcyupT52eD_tlWGE%3D",
+     "twitch": null,
+     "twitter": "RobertoAcevesD1",
+     "url": "https://www.patreon.com/robertoacevesdiaz",
+     "vanity": "robertoacevesdiaz",
+     "youtube": "https://www.youtube.com/channel/UCKobDC1lmScPRAipH4umb3w"
+    },
+    "id": "5456023",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "816710",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/816710"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 55,
+     "upgrade_url": "/bePatron?c=816710\u0026rid=2084638"
+    },
+    "id": "post-aggregation-for-0-816710",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-10-18T19:58:59.295589+00:00",
+     "description": "Access to audio newsletter.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-18T19:58:59.295589+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 20,
+     "published": true,
+     "published_at": "2017-10-18T19:58:59.295589+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "L\u00ednea / Line",
+     "unpublished_at": null,
+     "url": "/bePatron?c=816710\u0026rid=2084638",
+     "user_limit": null
+    },
+    "id": "2084638",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-04-05T02:33:25.036657+00:00",
+     "description": "Behind the scenes pictures and videos.\n\u003cp\u003eFotos y videos detr\u00e1s de las c\u00e1maras.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-10T19:16:35.591113+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1562988/ffaa788d77764025a32a4d7750616e30?token-time=2145916800\u0026token-hash=adQFQs3fBKfcjsXIdmWWNc9pki5AlsB7y_nc37lzDbA%3D",
+     "patron_count": 4,
+     "post_count": 28,
+     "published": true,
+     "published_at": "2017-04-05T02:33:25.036657+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Color / Colour",
+     "unpublished_at": null,
+     "url": "/bePatron?c=816710\u0026rid=1562988",
+     "user_limit": null
+    },
+    "id": "1562988",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-07-10T15:05:30.766648+00:00",
+     "description": "Early access to YouTube channel / Acceso previo a canal de YouTubeYou\u0027ll be able to watch he new episodes of my YouTube channel before they become public.\n\u003cp\u003ePodr\u00e1s ver los nuevos episodios de mi canal de YouTube antes de volverse p\u00fablicos.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-10T19:17:12.762253+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 5,
+     "published": true,
+     "published_at": "2017-07-10T15:05:30.766648+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Forma / Shape",
+     "unpublished_at": null,
+     "url": "/bePatron?c=816710\u0026rid=1832199",
+     "user_limit": null
+    },
+    "id": "1832199",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-07-10T15:06:54.052069+00:00",
+     "description": "You\u0027ll have access to documentaries about my most relevant artwork pieces. You\u0027ll see how they were made and the concept behind them.\n\u003cp\u003eTendr\u00e1s acceso a documentales sobre mis piezas m\u00e1s relevantes. Ver\u00e1s c\u00f3mo fueron hechas y el concepto detr\u00e1s de ellas.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-10T19:17:34.419797+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-10T15:06:54.052069+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Simetr\u00eda / Simmetry",
+     "unpublished_at": null,
+     "url": "/bePatron?c=816710\u0026rid=1832201",
+     "user_limit": null
+    },
+    "id": "1832201",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-07-15T23:10:28.382702+00:00",
+     "description": "To be defined. Suggestions are welcome.\n\u003cp\u003ePor definir. Se aceptan sugerencias.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-15T23:23:03.543104+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-15T23:10:28.382702+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Equilibrio / Balance",
+     "unpublished_at": null,
+     "url": "/bePatron?c=816710\u0026rid=1846313",
+     "user_limit": null
+    },
+    "id": "1846313",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-07-15T23:11:47.740988+00:00",
+     "description": "To be defined. Suggestions are welcome.\n\u003cp\u003ePor definir. Se aceptan sugerencias.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-15T23:11:47.740988+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-15T23:11:47.740988+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Contraste / Contrast",
+     "unpublished_at": null,
+     "url": "/bePatron?c=816710\u0026rid=1846314",
+     "user_limit": null
+    },
+    "id": "1846314",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-07-15T23:12:47.956635+00:00",
+     "description": "To be defined. Suggestions are welcome.\n\u003cp\u003ePor definir. Se aceptan sugerencias.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-15T23:12:47.956635+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-15T23:12:47.956635+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Luz y sombra / Light and shadow",
+     "unpublished_at": null,
+     "url": "/bePatron?c=816710\u0026rid=1846316",
+     "user_limit": null
+    },
+    "id": "1846316",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-07-15T23:14:20.073611+00:00",
+     "description": "To be defined. Suggestions are welcome.\n\u003cp\u003ePor definir. Se aceptan sugerencias.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-15T23:16:02.934337+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-15T23:14:20.073611+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Saturaci\u00f3n y valor / Saturation and value",
+     "unpublished_at": null,
+     "url": "/bePatron?c=816710\u0026rid=1846319",
+     "user_limit": null
+    },
+    "id": "1846319",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-07-15T23:15:27.929947+00:00",
+     "description": "To be defined. Suggestions are welcome.\n\u003cp\u003ePor definir. Se aceptan sugerencias.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-15T23:15:27.929947+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-15T23:15:27.929947+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Proporci\u00f3n \u00e1urea / Golden ratio",
+     "unpublished_at": null,
+     "url": "/bePatron?c=816710\u0026rid=1846320",
+     "user_limit": null
+    },
+    "id": "1846320",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 4,
+     "created_at": "2017-04-04T05:47:37+00:00",
+     "description": "\u003cstrong\u003eStudies and supplies\u003c/strong\u003e\u003cbr\u003eI will be able to pay for courses, books and supplies like pencils, brushes, paint, etc. to keep improving my art.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eEstudios y suministros\u003c/strong\u003e\u003cbr\u003ePodr\u00e9 pagar clases, libros y suministros como l\u00e1pices, pinceles, pintura, etc. para seguir mejorando mi obra.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "775696",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 82500,
+     "completed_percentage": 1,
+     "created_at": "2017-04-04T05:57:17+00:00",
+     "description": "\u003cstrong\u003eOne day per week as full-time artist\u003c/strong\u003e\u003cbr\u003eI will be able to dedicate one full day of the week working in my art!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eUn d\u00eda a la semana como artista de tiempo completo\u003c/strong\u003e\u003cbr\u003e\u00a1Podr\u00e9 dedicar un d\u00eda completo a la semana a trabajar haciendo arte!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "775702",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 145000,
+     "completed_percentage": 0,
+     "created_at": "2017-04-04T06:09:29+00:00",
+     "description": "\u003cstrong\u003eTwo days per week as full-time artist\u003c/strong\u003e\u003cbr\u003eI will be able to dedicate two full days of the week working in my art!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eDos d\u00edas a la semana como artista de tiempo completo\u003cbr\u003e\u003c/strong\u003e\u00a1Podr\u00e9 dedicar dos d\u00edas completos a la semana a trabajar haciendo arte!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "775709",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 207500,
+     "completed_percentage": 0,
+     "created_at": "2017-04-04T06:14:18+00:00",
+     "description": "\u003cstrong\u003eThree days per week as full-time artist\u003c/strong\u003e\u003cbr\u003eI will be able to dedicate three full days of the week working in my art!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eTres d\u00edas a la semana como artista de tiempo completo\u003c/strong\u003e\u003cbr\u003e\u00a1Podr\u00e9 dedicar tres d\u00edas completos a la semana a trabajar haciendo arte!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "775714",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 270000,
+     "completed_percentage": 0,
+     "created_at": "2017-04-04T06:14:18+00:00",
+     "description": "\u003cstrong\u003eFour days per week as full-time artist\u003c/strong\u003e\u003cbr\u003eI will be able to dedicate four full days of the week working in my art!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eCuatro\u00a0d\u00edas a la semana como artista de tiempo completo\u003c/strong\u003e\u003cbr\u003e\u00a1Podr\u00e9 dedicar cuatro d\u00edas completos a la semana a trabajar haciendo arte!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "775715",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-11-10T23:03:17+00:00",
+     "deleted_at": null,
+     "description": "\u003cstrong\u003eStudies and supplies\u003c/strong\u003e\u003cbr\u003eI will be able to pay for courses, books and supplies like pencils, brushes, paint, etc. to keep improving my art.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eEstudios y suministros\u003c/strong\u003e\u003cbr\u003ePodr\u00e9 pagar clases, libros y suministros como l\u00e1pices, pinceles, pintura, etc. para seguir mejorando mi obra.",
+     "goal_text": "\u003cstrong\u003eStudies and supplies\u003c/strong\u003e\u003cbr\u003eI will be able to pay for courses, books and supplies like pencils, brushes, paint, etc. to keep improving my art.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eEstudios y suministros\u003c/strong\u003e\u003cbr\u003ePodr\u00e9 pagar clases, libros y suministros como l\u00e1pices, pinceles, pintura, etc. para seguir mejorando mi obra.",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "49290",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-11-10T23:03:17+00:00",
+     "deleted_at": null,
+     "description": "\u003cstrong\u003eOne day per week as full-time artist\u003c/strong\u003e\u003cbr\u003eI will be able to dedicate one full day of the week working in my art!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eUn d\u00eda a la semana como artista de tiempo completo\u003c/strong\u003e\u003cbr\u003e\u00a1Podr\u00e9 dedicar un d\u00eda completo a la semana a trabajar haciendo arte!",
+     "goal_text": "\u003cstrong\u003eOne day per week as full-time artist\u003c/strong\u003e\u003cbr\u003eI will be able to dedicate one full day of the week working in my art!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eUn d\u00eda a la semana como artista de tiempo completo\u003c/strong\u003e\u003cbr\u003e\u00a1Podr\u00e9 dedicar un d\u00eda completo a la semana a trabajar haciendo arte!",
+     "number_patrons": 500,
+     "reached_at": null
+    },
+    "id": "49291",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-11-10T23:03:17+00:00",
+     "deleted_at": null,
+     "description": "\u003cstrong\u003eTwo days per week as full-time artist\u003c/strong\u003e\u003cbr\u003eI will be able to dedicate two full days of the week working in my art!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eDos d\u00edas a la semana como artista de tiempo completo\u003cbr\u003e\u003c/strong\u003e\u00a1Podr\u00e9 dedicar dos d\u00edas completos a la semana a trabajar haciendo arte!",
+     "goal_text": "\u003cstrong\u003eTwo days per week as full-time artist\u003c/strong\u003e\u003cbr\u003eI will be able to dedicate two full days of the week working in my art!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eDos d\u00edas a la semana como artista de tiempo completo\u003cbr\u003e\u003c/strong\u003e\u00a1Podr\u00e9 dedicar dos d\u00edas completos a la semana a trabajar haciendo arte!",
+     "number_patrons": 1000,
+     "reached_at": null
+    },
+    "id": "49292",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-11-10T23:03:17+00:00",
+     "deleted_at": null,
+     "description": "\u003cstrong\u003eThree days per week as full-time artist\u003c/strong\u003e\u003cbr\u003eI will be able to dedicate three full days of the week working in my art!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eTres d\u00edas a la semana como artista de tiempo completo\u003c/strong\u003e\u003cbr\u003e\u00a1Podr\u00e9 dedicar tres d\u00edas completos a la semana a trabajar haciendo arte!",
+     "goal_text": "\u003cstrong\u003eThree days per week as full-time artist\u003c/strong\u003e\u003cbr\u003eI will be able to dedicate three full days of the week working in my art!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eTres d\u00edas a la semana como artista de tiempo completo\u003c/strong\u003e\u003cbr\u003e\u00a1Podr\u00e9 dedicar tres d\u00edas completos a la semana a trabajar haciendo arte!",
+     "number_patrons": 1500,
+     "reached_at": null
+    },
+    "id": "49293",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-11-10T23:03:17+00:00",
+     "deleted_at": null,
+     "description": "\u003cstrong\u003eFour days per week as full-time artist\u003c/strong\u003e\u003cbr\u003eI will be able to dedicate four full days of the week working in my art!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eCuatro\u00a0d\u00edas a la semana como artista de tiempo completo\u003c/strong\u003e\u003cbr\u003e\u00a1Podr\u00e9 dedicar cuatro d\u00edas completos a la semana a trabajar haciendo arte!",
+     "goal_text": "\u003cstrong\u003eFour days per week as full-time artist\u003c/strong\u003e\u003cbr\u003eI will be able to dedicate four full days of the week working in my art!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eCuatro\u00a0d\u00edas a la semana como artista de tiempo completo\u003c/strong\u003e\u003cbr\u003e\u00a1Podr\u00e9 dedicar cuatro d\u00edas completos a la semana a trabajar haciendo arte!",
+     "number_patrons": 2000,
+     "reached_at": null
+    },
+    "id": "49294",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/816710"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "a3d3c4f3-45b3-499a-979e-347ecff2d21b",
+ "is_impersonating": false,
+ "js_git_sha": "2eee59fdd2ee1e386777f0170519d19bdb6a177b",
+ "page_title": "Roberto Aceves D\u00edaz is creating paintings and drawings"
+});
+    </script>
