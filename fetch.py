@@ -16,22 +16,32 @@ from time import sleep
 # http://skipperkongen.dk/2016/09/09/easy-parallel-http-requests-with-python-and-asyncio/
 import asyncio
 from concurrent.futures import ThreadPoolExecutor
-
-
 BATCH_SIZE = 50
-WORKER_COUNT = 5
-SRCPATH = Path('datadump', 'graphtreon', '2018-04.csv')
+WORKER_COUNT = 10
+
+GRAPHTREON_SRCPATH = Path('mydata', 'graphtreon', '2018-04.csv')
+GRAPHTREON_HEADERS = [
+    "Graphtreon","Name","Category","Patrons","Earnings","Range","Is Nsfw","Facebook Likes",
+    "Twitter Followers","Youtube Subscribers","Youtube Videos","Youtube Views",
+]
+
 DATA_DIR = Path('datadump', 'patreon', 'overviews')
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 METATAG = 'Object.assign(window.patreon.bootstrap, {'
 
 
-def gather_slugs():
-    records = list(csv.DictReader(SRCPATH.read_text().splitlines()))
-    # filter out invalid users
-    slugs = [r['Graphtreon'].split('/')[-1] for r in records if 'user?u=' not in r['Graphtreon']]
-    return slugs
+def get_source_records(srcpath=GRAPHTREON_SRCPATH):
+    records = []
+    for d in csv.DictReader(GRAPHTREON_SRCPATH.read_text().splitlines()):
+        # filter out invalid users
+        if 'user?u=' not in d['Graphtreon']:
+            d['slug'] = d['Graphtreon'].split('/')[-1]
+            d['patreon_url'] = "https://www.patreon.com/{}/overview".format(d['slug'])
+            records.append(d)
+    return records
+
+
 
 def gather_paths():
     """
@@ -39,8 +49,9 @@ def gather_paths():
         [(slug, patreonurl, local_filename), (slug, patreon_url, local_filename)]
     """
     paths = []
-    for slug in gather_slugs():
-        url = "https://www.patreon.com/{}/overview".format(slug)
+    for row in get_source_records():
+        slug = row['slug']
+        url = row['patreon_url']
         dest_name = DATA_DIR.joinpath(slug[0].lower(), slug + '.html')
         paths.append((slug, url, dest_name))
     return paths

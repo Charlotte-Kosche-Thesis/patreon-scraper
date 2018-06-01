@@ -1,7 +1,32 @@
 # some instructions
 
-Run [detect_keywords.py](detect_keywords.py) to generate [results/with_keywords.csv](results/with_keywords.csv).
+## Detecting keywords
 
-Edit the `KEYWORDS` variable to pick which words to include.
+Edit [keywords.txt](keywords.txt) to add keywords relevant to what you want to find -- one word per line.
 
 
+Run [detect_keywords.py](detect_keywords.py), which will iterate through all of `datadump/patreon` and look for the keywords specified in [keywords.txt](keywords.txt)
+
+```sh
+$ python detect_keywords.py
+```
+
+
+### The results
+
+The result of the script will be to generate a new version of the [mydata/2015-03.csv](mydata/2015-03.csv), with a few extra columns. This result file can be found at:
+
+[mydata/detected-2015-03.csv](mydata/detected-2015-03.csv)
+
+This results file omits the invalid entries in the original data file (where `Graphtreon` had a pattern like '?user='), and a few new columns:
+
+    slug, patreon_url, keywords_count, keywords_found
+
+Filter the results file by `keywords_count > 0` to find all records that had matching keywords.
+
+
+
+
+### fetch.py
+
+Running [fetch.py](fetch.py) will read [mydata/2015-03.csv](mydata/2015-03.csv) and download pages into [datadump/patreon](datadump/patreon), but at this point (2018-06-01), [datadump/patreon](datadump/patreon) should contain all of the relevant pages (~100K).
