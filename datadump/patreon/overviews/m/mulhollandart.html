@@ -1,0 +1,511 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "b9TwTe6D2hbHH0SpJUcO9awTPf2Us1TenGGQ3CMbPVo";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "403334",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/403334"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-03-29T23:52:13+00:00",
+    "creation_name": "Video tutorials, reviews, cosplay armor and props, and other art",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/821898/928b4d330d6c43bfb8b7f18ccbfe8815?token-time=2145916800\u0026token-hash=ESrn0GuFZz9Ymd6r1COeqQgPiWZv2hI2UPf-zlAVd4w%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/821898/928b4d330d6c43bfb8b7f18ccbfe8815?token-time=2145916800\u0026token-hash=iPRYolDDgf_-BmO5AZ5tfGI3NYrh61jpbjrynN0WZPE%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=821898",
+    "published_at": "2017-04-04T16:37:33+00:00",
+    "summary": "I\u0027m a Philadelphia area artist who is primarily interested in using art to bridge to new arenas. The more invested we are in all that is great about humanity, the more we will want to see it progress and thrive. To that end, I also like to teach techniques so that others can bring their ideas forth. I hope to make tutorials for a variety of things from basic single material how-tos to in depth, large project planning and execution. Your support will help me spend less time at my day job and more time creating and giving back to the community!\u003cbr\u003e\u003cbr\u003eAll rewards will be effective the month after the first contribution has cycled in.\u003cbr\u003e\u003cbr\u003e*On 25% contributions to date: If your contributions total $1000, then $250 is the max. If your project costs $200, then the leftover $50 is simply added to your future contributions."
+   },
+   "id": "821898",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5486112",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5486112"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "776163",
+       "type": "goal"
+      },
+      {
+       "id": "776167",
+       "type": "goal"
+      },
+      {
+       "id": "776168",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-821898",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-821898"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1561009",
+       "type": "reward"
+      },
+      {
+       "id": "1560949",
+       "type": "reward"
+      },
+      {
+       "id": "1560972",
+       "type": "reward"
+      },
+      {
+       "id": "1561022",
+       "type": "reward"
+      },
+      {
+       "id": "1561004",
+       "type": "reward"
+      },
+      {
+       "id": "1560989",
+       "type": "reward"
+      },
+      {
+       "id": "1561055",
+       "type": "reward"
+      },
+      {
+       "id": "1561076",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-03-29T23:51:52+00:00",
+     "facebook": "https://www.facebook.com/mulholland%20art",
+     "first_name": "Mulholland",
+     "full_name": "Mulholland Art",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5486112/62b456ef34314f8ba73475394bee6fe3?token-time=2145916800\u0026token-hash=wG-JxdcrnS3QX2UPIdP-_AWnPh02nbK58sYJ5GryiVI%3D",
+     "last_name": "Art",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5486112/62b456ef34314f8ba73475394bee6fe3?token-time=2145916800\u0026token-hash=AKqC1mOmlUs0rvulnziBuEyzteDMzVOHjsi8lGlA3to%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/mulhollandart",
+     "vanity": "mulhollandart",
+     "youtube": "https://www.youtube.com/mulholland%20art"
+    },
+    "id": "5486112",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "821898",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/821898"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 1,
+     "upgrade_url": "/bePatron?c=821898\u0026rid=1561009"
+    },
+    "id": "post-aggregation-for-0-821898",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-04-04T16:11:13.858462+00:00",
+     "description": "I\u0027ll list your name in the credits of each video I create and publish if you\u0027re a supporter at the time of the video\u0027s creation.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-04T16:11:13.858462+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-04T16:11:13.858462+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Credits",
+     "unpublished_at": null,
+     "url": "/bePatron?c=821898\u0026rid=1561009",
+     "user_limit": null
+    },
+    "id": "1561009",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-04-04T15:53:31.105974+00:00",
+     "description": "Ask me any question related to your or my projects and I will answer in a timely fashion, ideally within the day!",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-04T16:09:26.860328+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-04T15:53:31.105974+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Guaranteed Response",
+     "unpublished_at": null,
+     "url": "/bePatron?c=821898\u0026rid=1560949",
+     "user_limit": null
+    },
+    "id": "1560949",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-04-04T15:58:49.270259+00:00",
+     "description": "Once a month per person, I\u0027ll share a post of yours or someone else\u0027s on my Instagram, Facebook, and Minds accounts. Use or lose it!",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-04T16:03:58.166242+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-04T15:58:49.270259+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Help Me Help You",
+     "unpublished_at": null,
+     "url": "/bePatron?c=821898\u0026rid=1560972",
+     "user_limit": 10
+    },
+    "id": "1560972",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-04-04T16:13:15.495534+00:00",
+     "description": "I\u0027ll weigh in on a topic of your choosing in a video no less than 5 minutes in length. Because everybody is just dying to hear more political commentary.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-04T16:13:15.495534+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-04T16:13:15.495534+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Political Commentary",
+     "unpublished_at": null,
+     "url": "/bePatron?c=821898\u0026rid=1561022",
+     "user_limit": 5
+    },
+    "id": "1561022",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2017-04-04T16:08:29.563423+00:00",
+     "description": "I\u0027ll purchase, test, and review an art material. Then I will create and share a how to video demonstrating some uses of the material.\u00a0Material must be equal or less than 25% of your total contributions to date.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-04T16:27:54.979267+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-04T16:08:29.563423+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Cosplay Material Tutorial",
+     "unpublished_at": null,
+     "url": "/bePatron?c=821898\u0026rid=1561004",
+     "user_limit": 5
+    },
+    "id": "1561004",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2017-04-04T16:03:48.033669+00:00",
+     "description": "I\u0027ll review and criticize a moive, game, anime, artwork, etc. (as long as it doesn\u0027t cost me more than $50 to observe it) in a 5-30 minutes video.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-04T16:03:48.033669+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-04T16:03:48.033669+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Critassize",
+     "unpublished_at": null,
+     "url": "/bePatron?c=821898\u0026rid=1560989",
+     "user_limit": 5
+    },
+    "id": "1560989",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2017-04-04T16:20:04.017886+00:00",
+     "description": "I\u0027ll make something you tell me to make with up to 25% of the funds you have contributed and create a how-to tutorial video. Must be within the realm of my capabilities (using materials like worbla, foam, expanding foam, resin, epoxy putty, clay, etc.).",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-04T16:20:04.017886+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-04T16:20:04.017886+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Make Me Make Something",
+     "unpublished_at": null,
+     "url": "/bePatron?c=821898\u0026rid=1561055",
+     "user_limit": 5
+    },
+    "id": "1561055",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2017-04-04T16:26:06.108292+00:00",
+     "description": "I\u0027ll make and send you something of your choice using materials that will maximize quality per dollar up to 25% of your total contributions to date. Item or items must be small enough to be mailed by the USPS. International is okay!",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-04T16:26:06.108292+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-04T16:26:06.108292+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Make Something for You",
+     "unpublished_at": null,
+     "url": "/bePatron?c=821898\u0026rid=1561076",
+     "user_limit": 5
+    },
+    "id": "1561076",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000,
+     "completed_percentage": 9,
+     "created_at": "2017-04-04T16:33:15+00:00",
+     "description": "Seems insignificant, but I can hardly imagine convincing one person to give me a dollar a month!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "776163",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 0,
+     "created_at": "2017-04-04T16:37:22+00:00",
+     "description": "I don\u0027t exactly have a bunch of wealthy friends, so reaching this level of support would tell me that either my friends are really interested in investing in me or that I\u0027m gaining traction among strangers. Both good!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "776167",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2017-04-04T16:37:22+00:00",
+     "description": "We\u0027d be really cooking here. We\u0027re talking interfering with my day job levels! I don\u0027t expect this goal to be on the horizon any time soon, but who knows!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "776168",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/821898"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "df4938a3-0ff8-4615-b14c-0383180a5de5",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Mulholland Art is creating Video tutorials, reviews, cosplay armor and props, and other art"
+});
+    </script>

@@ -1,0 +1,463 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "k6eCuVRWae90xKG7h9uV1-90Wx2Y_vumdVu3oP32J8c";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "218378",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/218378"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-09-01T14:30:06+00:00",
+    "creation_name": "educational videos",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/488768/41cf2381ee7245ca9caf2b4d8f3d4dfe?token-time=2145916800\u0026token-hash=ldGizgSUHnWElLlBPfLeVQIMLRC7uFEm1zbXN31hu6Q%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/488768/41cf2381ee7245ca9caf2b4d8f3d4dfe?token-time=2145916800\u0026token-hash=R57vD3w02xpAOwYkOL4_XDPyeqjckUW8Dr8q5qBbbGw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 900,
+    "pledge_url": "/bePatron?c=488768",
+    "published_at": "2016-09-02T18:12:44+00:00",
+    "summary": "Hi everyone! Welcome to FreeSchool, where I make educational video content for children, students, ESL language learners, teachers, or anyone who needs a simple video explanation of a topic in history, science, math, art, architecture, geography, astronomy, and more.\u003cbr\u003e\u003cbr\u003eYou may not know it, but FreeSchool is a one woman show. I research, write, record, produce, edit, publish, and subtitle every single video by myself. Each video takes days to put together. At the moment I am limited to using free public domain or creative commons materials, along with video clips from an inexpensive stock video membership. Sometimes I have a video I want to make but I just can\u0027t because I can\u0027t afford the media to make it a good video. (Don\u0027t you want to see me make a video about the platypus? Because I do!)\u003cbr\u003e\u003cbr\u003eEach donation from each patron brings us closer to the level of production quality that I daydream about being able to afford. Thank you so much for your help!"
+   },
+   "id": "488768",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3924660",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3924660"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "528807",
+       "type": "goal"
+      },
+      {
+       "id": "528831",
+       "type": "goal"
+      },
+      {
+       "id": "528842",
+       "type": "goal"
+      },
+      {
+       "id": "528857",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-488768",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-488768"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "723452",
+       "type": "reward"
+      },
+      {
+       "id": "723453",
+       "type": "reward"
+      },
+      {
+       "id": "723454",
+       "type": "reward"
+      },
+      {
+       "id": "726619",
+       "type": "reward"
+      },
+      {
+       "id": "726638",
+       "type": "reward"
+      },
+      {
+       "id": "726704",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-09-01T14:29:01+00:00",
+     "facebook": "https://www.facebook.com/watchFreeSchool/",
+     "first_name": "FreeSchool",
+     "full_name": "FreeSchool",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3924660/468c3360394a4432a3ee08f960964517?token-time=2145916800\u0026token-hash=4TogTd3-u0350QJwJmQwyHMlnbTN5t42ob5Y5LrFIOQ%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3924660/468c3360394a4432a3ee08f960964517?token-time=2145916800\u0026token-hash=SSJ8TI4_gQarbjxwXg8F_3dg5-4wnzxGnUPuIfaCYkU%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/freeschool",
+     "vanity": "freeschool",
+     "youtube": "https://www.youtube.com/c/freeschool"
+    },
+    "id": "3924660",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "488768",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/488768"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 5,
+     "upgrade_url": "/bePatron?c=488768\u0026rid=723454"
+    },
+    "id": "post-aggregation-for-0-488768",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-05T13:12:50+00:00",
+     "description": "\u003cimg src=\"http://i.imgur.com/7mqHZIp.png\"\u003e\u003cbr\u003eThank you for becoming a \u003cstrong\u003eSupporter\u003c/strong\u003e! For your pledge of $1, you will receive:\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eMy thanks!\u003c/strong\u003e Seriously, \u003cem\u003ethank you\u003c/em\u003e for supporting my channel and my videos. It means so much to me that you appreciate the work I create enough to donate.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eAdblock Absolution.\u003c/strong\u003e Want to use Adblock but still support the channel? A $1 donation is the perfect way to make up the difference.\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-10T19:52:58.932081+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-10T19:52:58.922591+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=488768\u0026rid=723452",
+     "user_limit": null
+    },
+    "id": "723452",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-10-05T13:12:50+00:00",
+     "description": "\u003cimg src=\"http://i.imgur.com/XPcH3mD.png\"\u003e\u003cbr\u003eThank you for becoming a \u003cstrong\u003ePatron\u003c/strong\u003e! For your pledge of $3 you will receive all the rewards of the previous level PLUS:\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eOfficial patron status.\u003c/strong\u003e This means you\u0027ll get access to my patron-only feed which includes\u00a0\u003cstrong style=\"background-color: initial;\"\u003eexclusive bonus content\u003c/strong\u003e. From fun facts to photos, sneak peeks and advance notice of upcoming video topics, the patron feed is the place to be! Also,\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eVote in video topic polls.\u003c/strong\u003e Help choose which video enters production next! \u003cem\u003eI\u003c/em\u003e want to make the videos \u003cem\u003eyou\u003c/em\u003e want to see!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-10T19:52:44.905658+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-10T19:52:44.896132+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patron",
+     "unpublished_at": null,
+     "url": "/bePatron?c=488768\u0026rid=723453",
+     "user_limit": null
+    },
+    "id": "723453",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-05T13:12:50+00:00",
+     "description": "\u003cimg src=\"http://i.imgur.com/x7oOPbg.png\"\u003e\u003cbr\u003e\nThank you for becoming a\u003cstrong\u003e Donor\u003c/strong\u003e! For your pledge of $5 you will receive all the rewards of the previous level PLUS:\u003cbr\u003e\n\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eAccess to a password-protected Vimeo album\u003c/strong\u003e containing ad-free versions of my videos with direct download links. \u003cem\u003eThis album currently contains about 60 of most recent FreeSchool videos\u003c/em\u003e. I am beginning the process of improving early videos (correcting editing mistakes, redoing poor quality voice recording, improving video where possible, and appending credits to the videos) and uploading the results to this album. These improved videos will not be available on my YouTube channel.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-10T19:52:30.343025+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-05-10T19:52:30.335451+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Donor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=488768\u0026rid=723454",
+     "user_limit": null
+    },
+    "id": "723454",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-05T13:12:50+00:00",
+     "description": "\u003cimg src=\"http://i.imgur.com/L5mHshR.png\"\u003e\u003cbr\u003eThank you for becoming a \u003cstrong\u003eContributor\u003c/strong\u003e! For your pledge of $10 you will receive all the rewards of the previous level PLUS:\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eSpecial content downloads,\u003c/strong\u003e including but not limited to wallpapers/desktop backgrounds and reproducible worksheets /printable packets, at a minimum of 1 new download a month.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-10T19:53:13.276885+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-05-10T19:53:13.268521+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Contributor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=488768\u0026rid=726619",
+     "user_limit": null
+    },
+    "id": "726619",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-10-05T13:12:50+00:00",
+     "description": "\u003cimg src=\"http://i.imgur.com/qAdwX2s.png\"\u003e\u003cbr\u003eThank you for becoming a \u003cstrong\u003eBenefactor\u003c/strong\u003e! For your pledge of $25 you will receive all the rewards of the previous level PLUS:\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eHave your name listed\u003c/strong\u003e permanently in the description of all YouTube videos created while you are subscribed. (You may opt out of this if you wish to donate but remain anonymous.)\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-10T19:53:26.533335+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-10T19:53:26.524455+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Benefactor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=488768\u0026rid=726638",
+     "user_limit": null
+    },
+    "id": "726638",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-10-05T13:12:50+00:00",
+     "description": "\u003cimg src=\"http://i.imgur.com/dzMXHMH.png\"\u003e\u003cbr\u003eThank you for becoming a \u003cstrong\u003ePhilanthropist\u003c/strong\u003e! For your pledge of $50 you will receive all the rewards of the previous level PLUS:\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eHave your name listed in the credits \u003c/strong\u003eof each new video created while you are subscribed.\u00a0 (You may opt out of this if you wish to donate but remain anonymous.)\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-10T19:54:07.355218+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-10T19:54:07.347973+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Philanthropist",
+     "unpublished_at": null,
+     "url": "/bePatron?c=488768\u0026rid=726704",
+     "user_limit": null
+    },
+    "id": "726704",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000,
+     "completed_percentage": 90,
+     "created_at": "2016-09-01T14:37:08+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eStock Video Membership\u003c/strong\u003e\u003cbr\u003eJust $10 a month keeps me in my current stock video membership. This is where I get awesome shots like \u0027Aerial View over Mountainside\u0027 and \u0027Smiling Man Rides Bicycle.\u0027\u003c/div\u003e\u003cstrong\u003e\u003c/strong\u003e",
+     "reached_at": "2017-10-25T03:40:39+00:00",
+     "title": ""
+    },
+    "id": "528807",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 13900,
+     "completed_percentage": 6,
+     "created_at": "2016-09-01T14:50:33+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eSecond Stock Video Membership, 1 month\u003c/strong\u003e\u003c/div\u003eThis will allow me to access more and a greater variety of HD video clips to  incorporate into videos. They have platypus clips on this site, people!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "528831",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 83900,
+     "completed_percentage": 1,
+     "created_at": "2016-09-01T15:09:10+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eSecond Stock Video Membership, 1 year\u003c/strong\u003e\u003c/div\u003eA year of HD video doesn\u0027t come cheap, apparently. At this membership level, once I\u0027ve done the platypus video I can make one about the pyramids! Stonehenge! Even raccoons! (You get the picture.)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "528842",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 129500,
+     "completed_percentage": 0,
+     "created_at": "2016-09-01T15:19:42+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eHD Video Camera\u003c/strong\u003e\u003c/div\u003eWith an HD camera I can start collecting my own footage.\u00a0\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "528857",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/488768"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "5e380b92-24df-4220-a205-4e46d2a697cb",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "FreeSchool is creating educational videos"
+});
+    </script>

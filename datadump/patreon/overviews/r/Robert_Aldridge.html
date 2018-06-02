@@ -1,0 +1,581 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "2vItzKMi94LCVmyItXqpIa-0vi9CuNWbXO_ulrtp6aQ";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "380281",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/380281"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-03-07T22:56:35+00:00",
+    "creation_name": "A Medieval Fantasy RPG",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/784681/9c39e5d31e874e6fb89cd94f379457c7?token-time=2145916800\u0026token-hash=h6EG-AN7CM772KB1cpJiObIbO8FGol9R1XYB9lLJ4D8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/784681/9c39e5d31e874e6fb89cd94f379457c7?token-time=2145916800\u0026token-hash=BnphynhmvCeXH9kPwCl3VsN6JsYZ9GDsoY1W9Mo06Fc%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=784681",
+    "published_at": "2017-03-08T00:39:07+00:00",
+    "summary": "Hello, My name is Robert Aldridge, I am currently working on developing a medieval fantasy RPG for PC using Unreal Engine 4. \u00a0\u003cbr\u003e\u003cbr\u003eThank you for visiting the page, please share around to help make this dream a reality."
+   },
+   "id": "784681",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5280208",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5280208"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "741492",
+       "type": "goal"
+      },
+      {
+       "id": "741493",
+       "type": "goal"
+      },
+      {
+       "id": "741494",
+       "type": "goal"
+      },
+      {
+       "id": "741495",
+       "type": "goal"
+      },
+      {
+       "id": "741496",
+       "type": "goal"
+      },
+      {
+       "id": "741497",
+       "type": "goal"
+      },
+      {
+       "id": "741498",
+       "type": "goal"
+      },
+      {
+       "id": "741499",
+       "type": "goal"
+      },
+      {
+       "id": "741500",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-784681",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-784681"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1476089",
+       "type": "reward"
+      },
+      {
+       "id": "1476087",
+       "type": "reward"
+      },
+      {
+       "id": "1476088",
+       "type": "reward"
+      },
+      {
+       "id": "1476086",
+       "type": "reward"
+      },
+      {
+       "id": "1476085",
+       "type": "reward"
+      },
+      {
+       "id": "1476084",
+       "type": "reward"
+      },
+      {
+       "id": "1476082",
+       "type": "reward"
+      },
+      {
+       "id": "1476080",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Aspiring game developer using unreal engine. World design is my passion.",
+     "created": "2017-03-07T22:56:22+00:00",
+     "facebook": "https://www.facebook.com/robert.aldridge.212",
+     "first_name": "Robert",
+     "full_name": "Robert Aldridge",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5280208/bb8c0c000d594c5e96b20712e26dd2b8?token-time=2145916800\u0026token-hash=fPjmxa5RILb3ndOkgBMzZdgYb5_wzvdAU25_1IPuMNA%3D",
+     "last_name": "Aldridge",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5280208/bb8c0c000d594c5e96b20712e26dd2b8?token-time=2145916800\u0026token-hash=JwQjpZJgucCSpdZZz_RYQOEOGsuMXSefCWRavXIIBlE%3D",
+     "twitch": null,
+     "twitter": "RobertJALA",
+     "url": "https://www.patreon.com/Robert_Aldridge",
+     "vanity": "Robert_Aldridge",
+     "youtube": null
+    },
+    "id": "5280208",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "784681",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/784681"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 30,
+     "upgrade_url": "/bePatron?c=784681\u0026rid=1476087"
+    },
+    "id": "post-aggregation-for-0-784681",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-03-08T00:31:44.501841+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only content.\u003c/li\u003e\u003cli\u003eYou get to feel good about yourself for helping me reach toward my dream, and you have my thanks.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-11T01:17:54.678220+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-08T00:31:44.501841+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "$1 Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=784681\u0026rid=1476089"
+    },
+    "id": "1476089",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-03-08T00:31:44.462717+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAccess to patron-only dev screenshots.\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-05T03:54:23.423875+00:00",
+     "image_url": null,
+     "post_count": 15,
+     "published": true,
+     "published_at": "2018-01-05T03:54:23.386979+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "$3 Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=784681\u0026rid=1476087"
+    },
+    "id": "1476087",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-03-08T00:31:44.482281+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to Patron-only dev videos updated as they are made most likely.\u003c/li\u003e\u003cli\u003ePlus all previous rewards.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-11T01:17:54.707222+00:00",
+     "image_url": null,
+     "post_count": 9,
+     "published": true,
+     "published_at": "2017-03-08T00:31:44.482281+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "$5 Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=784681\u0026rid=1476088"
+    },
+    "id": "1476088",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2017-03-08T00:31:44.442460+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to my notebook scribbles about the project ( ideas, places, concepts and such.)\u003c/li\u003e\u003cli\u003ePlus all previous rewards.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-11T01:17:54.765417+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-03-08T00:31:44.442460+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "$7 Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=784681\u0026rid=1476086"
+    },
+    "id": "1476086",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-03-08T00:31:44.422476+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYou can help me name a character or place.\u003c/li\u003e\u003cli\u003ePlus all previous rewards.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-11T01:17:54.797381+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-03-08T00:31:44.422476+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "$15 Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=784681\u0026rid=1476085"
+    },
+    "id": "1476085",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-03-08T00:31:44.400059+00:00",
+     "description": "\u003cbr\u003e\n\u003cul\u003e\n\u003cli\u003eSpecial thanks in the credits of the project.\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards.\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-05T03:55:12.301292+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-05T03:55:12.277033+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "$30 Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=784681\u0026rid=1476084"
+    },
+    "id": "1476084",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2017-03-08T00:31:44.359513+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to the projects roadmap (comment access)\u003c/li\u003e\u003cli\u003eCustom signed item of your choice\u003c/li\u003e\u003cli\u003ePlus all previous rewards.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-11T01:17:54.875725+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-08T00:31:44.359513+00:00",
+     "remaining": 20,
+     "requires_shipping": true,
+     "title": "$200 Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=784681\u0026rid=1476082"
+    },
+    "id": "1476082",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2017-03-08T00:31:44.317186+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eI highly doubt anyone would ever go this far so if you do, I will happily explain how any system in the project works code wise.\u003c/li\u003e\u003cli\u003ePlus all previous rewards.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-11T01:17:54.924280+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-08T00:31:44.317186+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "\"You are insane, but curious.\" Tier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=784681\u0026rid=1476080"
+    },
+    "id": "1476080",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2017-03-07T23:50:35+00:00",
+     "description": "Awesome, someone donated. Thank you for the support! With this goal reached I am ever so slightly closer to a viable product.",
+     "reached_at": "2017-03-08T07:53:43+00:00",
+     "title": ""
+    },
+    "id": "741492",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 45,
+     "created_at": "2017-03-07T23:50:35+00:00",
+     "description": "Nice, I can buy maybe a small asset or asset pack with this.\u003cbr\u003e",
+     "reached_at": "2017-03-11T18:53:38+00:00",
+     "title": ""
+    },
+    "id": "741493",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 9,
+     "created_at": "2017-03-07T23:50:35+00:00",
+     "description": "Cool, People actually have \u003cem\u003esome\u003c/em\u003e kind of faith in this project. I thank you.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "741494",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 4,
+     "created_at": "2017-03-07T23:50:35+00:00",
+     "description": "Sweet, I can use this to by more assets to create nature areas.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "741495",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-03-07T23:50:36+00:00",
+     "description": "Wow, I can maybe take a few days off from my day job to get more work done on the Project.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "741496",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-03-07T23:50:36+00:00",
+     "description": "Unbelievable, I really can\u0027t believe it. I can definitely take some time off the day job and buy more assets.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "741497",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-03-07T23:50:36+00:00",
+     "description": "WHAT? This is more than I make in a month at the day job. I will quit and start developing the project full time. \u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "741498",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-03-07T23:50:36+00:00",
+     "description": "Wha.. but how? \u00a0I can contract out some mesh work for specific needs for the project. I can also go to bed happy knowing that people have faith in my art.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "741499",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-03-07T23:50:36+00:00",
+     "description": "??? There is no way... If i get this far I can build a far more powerful computer and increase development time significantly. \u003cbr\u003eI will also erupt in tears of joy knowing that maybe just maybe I can be a success.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "741500",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/784681"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "fed9a6d8-841c-4ecf-b845-e5b30f564546",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Robert Aldridge is creating A Medieval Fantasy RPG"
+});
+    </script>

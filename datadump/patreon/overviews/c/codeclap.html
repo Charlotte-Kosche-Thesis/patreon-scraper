@@ -1,0 +1,325 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "b6Mw_j7HTiqXWfzAi-iZDkJxYnvGjSpfL7fyN1FmrQ0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "574066",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/574066"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-09-11T14:43:33+00:00",
+    "creation_name": "debugging tools for native x64 on Linux",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1219199/cfa6bd663f9144ed9b7e05d7663da992?token-time=2145916800\u0026token-hash=WP13PZRfVSwfDquJDXo4rg-Ii2es8tJJ89H5p7f-9jM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1219199/cfa6bd663f9144ed9b7e05d7663da992?token-time=2145916800\u0026token-hash=U6lqwXHWkl1fE8SRMePu1JuRpPGSuvo289hHC4sEmBw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1219199",
+    "published_at": "2017-09-12T08:45:39+00:00",
+    "summary": "\u003cdiv style=\"text-align: center;\"\u003e\n\t\u003cspan style=\"background-color: rgb(207, 207, 207); text-align: center; background-color: rgb(110, 133, 186); color: rgb(162, 43, 43);\"\u003e\n\t--------------------- BEWARE ---------------------\n\t\u003c/span\u003e\n\u003c/div\u003e\n\u003cspan style=\"background-color: rgb(207, 207, 207);\"\u003e\nc[ode]clap is currently in pre-alpha state. If you are expecting a software that has all the features you want in everyday use, please wait and return in a few months. If you want to try out this project as soon as possible, break it, give feedback and shape future goals, then you probably want to stay and read further.\n\u003c/span\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eWhy this project?\u003c/strong\u003e\n\u003cbr\u003eLinux is a great ecosystem to compile code on. There is fast access to multiple good compilers. Most distributions provide a packaging system and repositories with lots of precompiled libraries and if you have to compile code yourself it usually works without too much a hassle.\u003cbr\u003eDebugging on the other hand isn\u0027t such a pleasant experience, especially when compared to solutions available on Windows systems. Many tools struggle to give you a good view on what is actually happening with your data and the control flow, some suffer under their own interface clutter and others are build on some strange Java framework and are just slow and unresponsive.\u003cbr\u003ecodeclap goes back to the roots and tries to build a minimal foundation to show and understand what is going on when the compiled code is executed, why it is doing what it is doing and how it reached the state you may observe at that time.\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eWhy pre-alpha?\u003c/strong\u003e\n\u003cbr\u003eI will consider this project to have reached alpha stage as soon as it potentially contains all features that people might want or expect from a debugger in everyday use.\nI\u0027ve compiled a small list of those features that are currently missing completely:\u003cbr\u003e\u003cul\u003e\u003cli\u003econditional and memory breakpoints\u003c/li\u003e\u003cli\u003eout-of-process debugging (also attach and remote debugging)\u003c/li\u003e\u003cli\u003ecustomizable keybindings (and more customization options)\u003c/li\u003e\u003cli\u003ecasts and function calls in watch window\u003c/li\u003e\u003cli\u003einlined functions are not handled very well in source view\u003c/li\u003e\u003cli\u003ebetter C++ support (inheritance, possibly pretty-printing of STL structures)\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\n\u003cstrong\u003eWhat happens after reaching \"alpha\" state?\u003c/strong\u003e\n\u003cbr\u003e\tFirst of all, this page will get a totally cool and awesome introductory video. But at some point for a software project it is also necessary to mature and build a stable foundation. It is important that adding features, extending and changing existing features doesn\u0027t break the project all the time.\u003cbr\u003eBut at the same time this project has high ambitions to not only replicate the debugging experience you would expect from other systems but to make the interface as efficient as possible, provide better tools to quickly understand bugs or find them in the first place and observe how memory/variables get changed over time.\nTherefore after reaching alpha functionality I will likely aim for a state I will label as beta which may then become the first stable release; or I will go totally crazy and head towards \"gamma\" builds. However there is no stated time frame in which this may happen. Likely as soon as possible.\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eHow does it look?\u003c/strong\u003e\n\u003cbr\u003e\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/zTGx7YTqFb4?rel=0\" width=\"560\"\u003e\u003c/iframe\u003e\u003cbr\u003e\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/xGO4Amvhlaw?rel=0\" width=\"560\"\u003e\u003c/iframe\u003e\u003cbr\u003e\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/IFGOPr_a7lg?rel=0\" width=\"560\"\u003e\u003c/iframe\u003e\u003cbr\u003e"
+   },
+   "id": "1219199",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7656005",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7656005"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1219199",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1219199"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1995763",
+       "type": "reward"
+      },
+      {
+       "id": "1995762",
+       "type": "reward"
+      },
+      {
+       "id": "1995764",
+       "type": "reward"
+      },
+      {
+       "id": "1995761",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-09-11T14:42:39+00:00",
+     "facebook": null,
+     "first_name": "c[ode]clap",
+     "full_name": "c[ode]clap",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7656005/658eb2dab02c4271b90f3dc4abb1d9c6?token-time=2145916800\u0026token-hash=chQ7yKZzCsF2uDaBeyEU1jDNzZdi2tKGMMUPoG6RRus%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7656005/658eb2dab02c4271b90f3dc4abb1d9c6?token-time=2145916800\u0026token-hash=teAqHku8B0ZuEuN7nEYaPR-6hkd3M2RY9L0XUiW2VEw%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/codeclap",
+     "vanity": "codeclap",
+     "youtube": null
+    },
+    "id": "7656005",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1219199",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1219199"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 15,
+     "upgrade_url": "/bePatron?c=1219199\u0026rid=1995763"
+    },
+    "id": "post-aggregation-for-0-1219199",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2017-09-11T16:16:06.786054+00:00",
+     "description": "Every reward from the \"Basic Supporter\" tier.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-11T16:16:06.786054+00:00",
+     "image_url": null,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2017-09-11T16:16:06.786054+00:00",
+     "remaining": 30,
+     "requires_shipping": false,
+     "title": "Early Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1219199\u0026rid=1995763"
+    },
+    "id": "1995763",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 600,
+     "amount_cents": 600,
+     "created_at": "2017-09-11T16:16:06.771059+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to at least one codeclap build every month.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-12T00:17:23.248795+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-11T16:16:06.771059+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Basic Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1219199\u0026rid=1995762"
+    },
+    "id": "1995762",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 900,
+     "amount_cents": 900,
+     "created_at": "2017-09-11T16:16:06.785471+00:00",
+     "description": "Everything from the \"Awesome Supporter\" tier.",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-11T16:16:06.785471+00:00",
+     "image_url": null,
+     "post_count": 7,
+     "published": true,
+     "published_at": "2017-09-11T16:16:06.785471+00:00",
+     "remaining": 20,
+     "requires_shipping": false,
+     "title": "Early Awesome Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1219199\u0026rid=1995764"
+    },
+    "id": "1995764",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1200,
+     "amount_cents": 1200,
+     "created_at": "2017-09-11T16:16:06.303589+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eEverything from the \"Basic Supporter\" tier.\u003c/li\u003e\n\u003cli\u003eAccess to builds with up-to-date changes on a daily basis.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eDaily snapshots upon changes can be accessed using \u003ca href=\"https://so.codeclap.cc\" rel=\"nofollow noopener\" target=\"_blank\"\u003eso.codeclap.cc\u003c/a\u003e.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-10T00:55:59.859460+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-10T00:55:59.833951+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Awesome Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1219199\u0026rid=1995761"
+    },
+    "id": "1995761",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1219199"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "46c69bf5-e877-4f3e-bdd8-4ed9631ed51e",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "c[ode]clap is creating debugging tools for native x64 on Linux"
+});
+    </script>

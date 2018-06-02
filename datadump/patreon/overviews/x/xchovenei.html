@@ -1,0 +1,561 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "pdFwXpWMmguBFJe1G1yC4t6LuNYP520SHEttHgY5m8o";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "412934",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/412934"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-04-13T21:33:29+00:00",
+    "creation_name": "Digital Art and d20 Supplements",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/853328/60debe37502647bd9f4a75661a47e07d?token-time=2145916800\u0026token-hash=2KWnbgoi8DmAqTTjVOHOn5onhzI09Jh2aSKo3u04RtE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/853328/60debe37502647bd9f4a75661a47e07d?token-time=2145916800\u0026token-hash=j2YwTW26Q5jMx7aP0T7TFokcoXDCd6SBuoikhb6WXVY%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "Table Top Supplement Documents",
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=853328",
+    "published_at": "2017-04-13T23:22:18+00:00",
+    "summary": "Hey! You made it this far! That\u0027s more than enough you can do to support me emotionally. If you\u0027re ready for the next step in our relationship, I\u0027d like to tell you about what I do. I draw comics, write adventures, compose characters, and create rules. Think of Pathfinder content, d20 content, Dungeons and Dragons supplements, combining genres into a collectively different world, fantasy settings with comedy, romance, horror! I have lots of ideas for the future and want to eventually have my adventures\u00a0published. \u003cbr\u003e\u003cbr\u003eAnyone supporting my dreams of these works will gain access to supplements, influence creative curves in content by brainstorming or offer suggestions to things.\u00a0\u003cbr\u003e\u003cbr\u003eCommission Work, too! The commissions I get will be posted here for your viewing in hopes that maybe you will make another leap to aiding me in content creation. \u003cbr\u003e\u003cbr\u003eI would love to keep up drawing and writing all kinds of work. Mostly RPG and tabletop related compositions and comics (one-offs and sagas). To support me, I will be able to post more frequently and with inspiration on my side it\u0027ll be easier to compose.\u003cbr\u003e\u003cbr\u003eIf you\u0027re thinking about donating for a specific reward, I\u0027ll let you know that it is very much appreciated and any input you have with your reward benefits will be discussed through email or skype (or other media if you prefer).\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "853328",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5706516",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5706516"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "789711",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1595422",
+       "type": "reward"
+      },
+      {
+       "id": "1595424",
+       "type": "reward"
+      },
+      {
+       "id": "1595439",
+       "type": "reward"
+      },
+      {
+       "id": "1595458",
+       "type": "reward"
+      },
+      {
+       "id": "1595468",
+       "type": "reward"
+      },
+      {
+       "id": "1595423",
+       "type": "reward"
+      },
+      {
+       "id": "1595473",
+       "type": "reward"
+      },
+      {
+       "id": "1595504",
+       "type": "reward"
+      },
+      {
+       "id": "1595514",
+       "type": "reward"
+      },
+      {
+       "id": "1595522",
+       "type": "reward"
+      },
+      {
+       "id": "1595536",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-04-13T21:33:08+00:00",
+     "facebook": null,
+     "first_name": "Xchovenei",
+     "full_name": "Xchovenei",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5706516/1c1fd1ffae9d4f53a6a4879a8d2145a5?token-time=2145916800\u0026token-hash=lWvYDZpqNmVWZYm5NVQccoj1navdlteZwZxIzPp4Qvs%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5706516/1c1fd1ffae9d4f53a6a4879a8d2145a5?token-time=2145916800\u0026token-hash=erCHSM5Nlzj0Wh4WCal73dYbgYNENzUtcSDsRWNnzR8%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/xchovenei",
+     "vanity": "xchovenei",
+     "youtube": null
+    },
+    "id": "5706516",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "853328",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/853328"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-04-13T22:26:13.737232+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eName a spell that will be depicted in one of the homebrew worlds of mine. You get to establish some flair features, and even what kind of class/race enjoys this spell more.\u00a0\u003c/li\u003e\u003cli\u003eA free commission (flat colour) of its depiction.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-13T22:26:13.737232+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-13T22:26:13.737232+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Spell Namer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=853328\u0026rid=1595422",
+     "user_limit": null
+    },
+    "id": "1595422",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-04-13T22:26:13.807858+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eHave an item named after you and some flavour or why the item is used and for how long.\u003c/li\u003e\u003cli\u003ea commission (flat colour) depicting the item in one of its uses.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-13T22:26:13.807858+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-13T22:26:13.807858+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Item Namer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=853328\u0026rid=1595424",
+     "user_limit": null
+    },
+    "id": "1595424",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-04-13T22:33:10.943156+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e(Canon) Create a character(and npc version) to be established in a homebrew world, if they\u0027re involved in a quest.\u003c/li\u003e\u003cli\u003eYou pick their class(es), race from the pantheon, if there is an adaptation in another world, their backstory, their future\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-13T23:06:59.195784+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-13T22:33:10.943156+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Character Cannon",
+     "unpublished_at": null,
+     "url": "/bePatron?c=853328\u0026rid=1595439",
+     "user_limit": 0
+    },
+    "id": "1595439",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-04-13T22:38:18.374019+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eBrainstorm notes, a conversion from an old class, a translation into another world, footnotes, napkin you wrote on a week ago, \u0026amp;c. Pledge this, and you get to contribute to one of the classes in the pantheon or give me a feat or trait.\u003c/li\u003e\u003cli\u003eYou get a depiction of two different creatures as this class.\u003c/li\u003e\u003cli\u003eYou get to name it too!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-13T23:06:58.980587+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-13T22:38:18.374019+00:00",
+     "remaining": 15,
+     "requires_shipping": false,
+     "title": "Class Contributor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=853328\u0026rid=1595458",
+     "user_limit": 15
+    },
+    "id": "1595458",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-04-13T22:43:12.026556+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAdd a (you name it, too!) feature, or an aesthetic, a historical movement, \u0026amp;c. Anything that involves moulding a race in the pantheon.\u003c/li\u003e\u003cli\u003eYou get a dipiction of the race with both counter parts.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-13T23:06:58.980675+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-13T22:43:12.026556+00:00",
+     "remaining": 15,
+     "requires_shipping": false,
+     "title": "Race Composer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=853328\u0026rid=1595468",
+     "user_limit": 15
+    },
+    "id": "1595468",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-04-13T22:26:13.739898+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eName a land piece in the world. It can be anything from a village, to a lake, to a city or a county.\u00a0\u003c/li\u003e\u003cli\u003eYou can implement culture, environmental issues, racial composition, and some fun little quirks about the area.\u003c/li\u003e\u003cli\u003eYou get a commission of this depiction. You influence the setting.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-13T23:09:32.093991+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-13T22:26:13.739898+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Land Ho",
+     "unpublished_at": null,
+     "url": "/bePatron?c=853328\u0026rid=1595423",
+     "user_limit": 10
+    },
+    "id": "1595423",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-04-13T22:46:46.796780+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eGive me your ideas and desire to put it into a quest or a side mission, or an event in one or more of the homebrew worlds.\u00a0\u003c/li\u003e\u003cli\u003eYou can compose NPC\u0027s, level parameters, possible outcomes, or you can leave those to me.\u003c/li\u003e\u003cli\u003eOne of the situations involved in the quest or event will be depicted with a flat colour commission w/ half background.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-13T22:46:46.796780+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-13T22:46:46.796780+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Twist in story",
+     "unpublished_at": null,
+     "url": "/bePatron?c=853328\u0026rid=1595473",
+     "user_limit": null
+    },
+    "id": "1595473",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-04-13T22:58:45.150210+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eName/create a god/goddess, force, power source, or element to your parameters. What history they\u0027re from, and to what other gods and iterations they may come from or influence in other settings or homebrews.\u003c/li\u003e\u003cli\u003eYou may share ideas of their icon, imagery, symbols, names, and depictions of their corporeal form.\u00a0\u003c/li\u003e\u003cli\u003eCommission depiction of the creation.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-13T23:04:58.855985+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-13T22:58:45.150210+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patron and Deity to My Success",
+     "unpublished_at": null,
+     "url": "/bePatron?c=853328\u0026rid=1595504",
+     "user_limit": null
+    },
+    "id": "1595504",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-04-13T23:02:12.448252+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eInfluence and name a world associated with the homebrews. Whether a plain, dimension, or an alternate reality based on a historical change in the past of one of the homebrews or something. You make it up!\u00a0\u003c/li\u003e\u003cli\u003eBrainstorm with me on some depictions of the equivilant to the races and classes in another world or plain/dimension.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-13T23:02:12.448252+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-13T23:02:12.448252+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "World Waker",
+     "unpublished_at": null,
+     "url": "/bePatron?c=853328\u0026rid=1595514",
+     "user_limit": null
+    },
+    "id": "1595514",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-04-13T23:04:59.521323+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eImplement a race to your specifications\u003c/li\u003e\u003cli\u003eTheir motifs, their history, their culture\u003c/li\u003e\u003cli\u003eA commission of a few of their cultural differences\u003c/li\u003e\u003cli\u003eBrainstorm their statistics and features. Discuss whether they can have a feature implemented from a Pledge\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-13T23:06:59.106122+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-13T23:04:59.521323+00:00",
+     "remaining": 6,
+     "requires_shipping": false,
+     "title": "Conjure Race",
+     "unpublished_at": null,
+     "url": "/bePatron?c=853328\u0026rid=1595522",
+     "user_limit": 6
+    },
+    "id": "1595522",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-04-13T23:09:23.509932+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eBrainstorm with me about classes and what kind of class you\u0027d like to implement it as. The kind of races that change around the parameters, and where they\u0027re mostly prevalent in areas. Naming schemes for their features and subclasses and incorporation in prestige classes and archetypes.\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-13T23:09:23.509932+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-13T23:09:23.509932+00:00",
+     "remaining": 6,
+     "requires_shipping": false,
+     "title": "Class Christened ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=853328\u0026rid=1595536",
+     "user_limit": 6
+    },
+    "id": "1595536",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 1,
+     "created_at": "2017-04-13T22:00:12+00:00",
+     "description": "We\u0027re starting out small! We can work towards building some really cool and interesting stories to play through or read through. This includes compositions of extra pieces around depictions of events and quests. I\u0027d like to get into making full supplements with tabletop content and the like. You can expect supplements to happen even without the goal, but they will appear slower rather than almost immediately.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "789711",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/853328"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "9bff92c2-fbb3-41e7-b97c-034bf184143e",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Xchovenei is creating Digital Art and d20 Supplements"
+});
+    </script>

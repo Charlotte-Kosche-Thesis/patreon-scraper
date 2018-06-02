@@ -1,0 +1,607 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Ygo7zwKa1Q2Z93EwLjcywYgD8QiaEvGme6c5M5RnL68";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "109875",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/109875"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-08-14T02:25:30+00:00",
+    "creation_name": "Tutorials, comics, and much art!",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/202295/9931f0858ccf40b9af72a8b80393cfa2?token-time=2145916800\u0026token-hash=SPbfUiHJPfYneI9Gj6-Zn7qPAOXdBmk5S2BR68NVPXc%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/202295/9931f0858ccf40b9af72a8b80393cfa2?token-time=2145916800\u0026token-hash=QvhsLECMElixtageMvQjjwWDn_7W9UkL95Q0uKHqTV4%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "In the cool kid\u0027s club!",
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=202295",
+    "published_at": "2015-11-04T01:06:28+00:00",
+    "summary": "\u003ch3 style=\"text-align: center;\"\u003eMeet Froggy:\u003cbr\u003e\u003cspan style=\"color: rgb(178, 162, 199);\"\u003e\u003cimg src=\"https://artdroppings.files.wordpress.com/2016/06/3.jpg?w=96\u0026amp;h=143\" style=\"background-color: initial; color: rgb(229, 185, 183);\"\u003e\u003cbr\u003e\u003c/span\u003e\u003c/h3\u003eFroggy is out of commission for health reasons, but will return as soon as she is physically able \u0026lt;3 Thank you for your kind wishes, and we\u0027ll see you soon!"
+   },
+   "id": "202295",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "996061",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/996061"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "605298",
+       "type": "goal"
+      },
+      {
+       "id": "605301",
+       "type": "goal"
+      },
+      {
+       "id": "605302",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-202295",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-202295"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "350113",
+       "type": "reward"
+      },
+      {
+       "id": "350331",
+       "type": "reward"
+      },
+      {
+       "id": "370212",
+       "type": "reward"
+      },
+      {
+       "id": "483249",
+       "type": "reward"
+      },
+      {
+       "id": "350114",
+       "type": "reward"
+      },
+      {
+       "id": "350500",
+       "type": "reward"
+      },
+      {
+       "id": "370213",
+       "type": "reward"
+      },
+      {
+       "id": "350201",
+       "type": "reward"
+      },
+      {
+       "id": "483250",
+       "type": "reward"
+      },
+      {
+       "id": "350371",
+       "type": "reward"
+      },
+      {
+       "id": "350260",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Just a Frog trying to figure out the universe \u0026lt;3\u003cbr\u003e",
+     "created": "2015-08-14T02:17:25+00:00",
+     "facebook": "https://www.facebook.com//wwwfacebook.com/sirfrogarts",
+     "first_name": "Froggy",
+     "full_name": "Froggy",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/996061/75d310bf0cf74941ad5a70f4eed38580?token-time=2145916800\u0026token-hash=H4xQOtE5VUpoGChEveBMilCMPhGNybhPsZH250wHoic%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/996061/75d310bf0cf74941ad5a70f4eed38580?token-time=2145916800\u0026token-hash=B0Aqqv0rEfMWXLIeWP132K-SHnpaxocLfNiXUcVUuZo%3D",
+     "twitch": null,
+     "twitter": "Froggyarts",
+     "url": "https://www.patreon.com/sirfrog",
+     "vanity": "sirfrog",
+     "youtube": "https://www.youtube.com/mizgracie88"
+    },
+    "id": "996061",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "202295",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/202295"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 61,
+     "upgrade_url": "/bePatron?c=202295\u0026rid=350113"
+    },
+    "id": "post-aggregation-for-0-202295",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-08T11:13:05+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003eAccess to WIPs.\u003cbr\u003e\u003cdel\u003ePledge for pledge (I will automatically hunt you down here on Patreon and return the love)\u003c/del\u003e\u003cbr\u003e\u003cem\u003eCurrent traded pledges OK\u003cbr\u003eNo longer offering NEW pledge for pledge.\u003c/em\u003e\u003cbr\u003e\u003cimg src=\"http://t12.deviantart.net/HvliRTkb1xWTTnjFuR9x4xv1Qa0=/300x200/filters:fixed_height(100,100):origin()/pre00/d613/th/pre/i/2015/355/c/b/kastra_by_sir_frog-d9kvrfv.png\"\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-01T23:07:58.891229+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-11-08T11:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202295\u0026rid=350113",
+     "user_limit": null
+    },
+    "id": "350113",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-11-08T11:13:05+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003eAccess to WIP\u0027s\u003cbr\u003eMonthly \"postcard\" (digital)\u003cbr\u003e\u003cimg src=\"http://t13.deviantart.net/zzvAO6VU-Bz8w183LQ3BkAppSfU=/300x200/filters:fixed_height(100,100):origin()/pre13/d3bd/th/pre/i/2015/339/2/4/holiday_pinup__zero_by_sir_frog-d9j6kaa.jpg\"\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-01T23:07:58.927946+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2016-11-08T11:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202295\u0026rid=350331",
+     "user_limit": null
+    },
+    "id": "350331",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-08T11:13:05+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003eAccess to WIP\u0027s\u003cbr\u003eMonthly \"postcard\" (digital)\u003cbr\u003eMake requests for tutorial videos, and other content.\u003cbr\u003e\u003cimg src=\"http://t11.deviantart.net/WyS9YpWDernRilWfv_jSFTp3Bgs=/300x200/filters:fixed_height(100,100):origin()/pre10/bdff/th/pre/i/2015/359/e/3/heart_glow__full_by_sir_frog-d9lek7g.jpg\"\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-01T23:07:58.970691+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2016-11-08T11:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202295\u0026rid=370212",
+     "user_limit": null
+    },
+    "id": "370212",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2016-11-08T11:13:05+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003eAccess to WIP\u0027s\u003cbr\u003eMonthly \"postcard\" (digital)\u003cbr\u003eMake requests for tutorial videos, and other content.\u003cbr\u003eReceive a sticker print each month!\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://img0.etsystatic.com/112/0/7835101/il_570xN.945483942_htif.jpg\"\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-01T23:07:59.010816+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-08T11:13:05+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202295\u0026rid=483249",
+     "user_limit": 5
+    },
+    "id": "483249",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-08T11:13:05+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003eAccess to WIP\u0027s\u003cbr\u003eMonthly \"postcard\" (digital).\u003cbr\u003eMake requests for tutorial videos, and other content.\u003cbr\u003eColoring page (digital line art)\u003cbr\u003e\u003cimg src=\"http://t06.deviantart.net/R8KZY7AyF0YfcxScSzPBBxa_KRc=/300x200/filters:fixed_height(100,100):origin()/pre03/c2b2/th/pre/i/2015/317/a/b/soul_eater_lines_by_sir_frog-d9gi3rb.png\"\u003e\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-01T23:07:59.056059+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2016-11-08T11:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202295\u0026rid=350114",
+     "user_limit": null
+    },
+    "id": "350114",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2016-11-08T11:13:05+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003eAccess to WIP\u0027s\u003cbr\u003eMonthly \"postcard\" (digital)\u003cbr\u003eMake requests for tutorial videos, and other content.\u003cbr\u003e$5 off one $50+ print order, original art purchase, or commission a month.\u003cbr\u003eColoring page (digital line art)\u003cbr\u003e Get an extra-small print (4x6) each month!\u003cbr\u003e\u003cimg src=\"http://t08.deviantart.net/5Ukb2EcpeX4ooLKxEGkc00ukE1I=/300x200/filters:fixed_height(100,100):origin()/pre01/cf95/th/pre/i/2015/301/9/3/madokami_by_sir_frog-d9enltq.jpg\"\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-01T23:07:59.097597+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2016-11-08T11:13:05+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202295\u0026rid=350500",
+     "user_limit": 10
+    },
+    "id": "350500",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-08T11:13:05+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003eAccess to WIP\u0027s\u003cbr\u003eMonthly \"postcard\" (digital)\u003cbr\u003eMake requests for tutorial videos.\u003cbr\u003e$5 off one $50+ print order, original art purchase, or commission a month.\u003cbr\u003eColoring page (digital line art)\u003cbr\u003eGet a small print (8x10) each month!\u003cbr\u003e\u003cimg src=\"http://t12.deviantart.net/qmtrJGLcSJjBwxJjq98TzDecwBA=/300x200/filters:fixed_height(100,100):origin()/pre10/32d0/th/pre/i/2015/304/8/3/mulan_by_sir_frog-d9ezhag.jpg\"\u003e\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-01T23:07:59.141998+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-08T11:13:05+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202295\u0026rid=370213",
+     "user_limit": 5
+    },
+    "id": "370213",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-11-08T11:13:05+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003eAccess to WIP\u0027s\u003cbr\u003eMonthly \"postcard\" (digital)\u003cbr\u003eMake requests for tutorial videos.\u003cbr\u003eGet a small print (8x10) each month!\u003cbr\u003e$10 off one $50+ print order, original art purchase, or commission a month.\u003cbr\u003eColoring page (digital line art)\u003cbr\u003eSee something new from The S.I.R.S. (The Supernatural Individuals\u0027 Registration Services) (monthly)\u003cbr\u003e\u003cimg src=\"http://img10.deviantart.net/afe8/i/2016/030/6/a/c_talitha_by_sir_frog-d9pv76d.png\"\u003e\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-01T23:07:59.192451+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-08T11:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202295\u0026rid=350201",
+     "user_limit": null
+    },
+    "id": "350201",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-11-08T11:13:05+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003ePrint Collector Package; get something fun each month!:\u003cbr\u003e\u003col\u003e\u003cli\u003e\u003cspan style=\"color: rgb(51, 51, 51); background-color: initial;\"\u003eSomething small. A sticker, keychain, small print? A button? Who knows?\u003c/span\u003e\u003c/li\u003e\u003cli\u003eSomething medium. A medium sized print? WELL yeah probably...\u00a0\u003c/li\u003e\u003cli\u003eTwice a year, get a LARGE (11x17 or 13x19) print!\u003c/li\u003e\u003cli\u003eGet a printed copy of the monthly postcard!\u003c/li\u003e\u003cli\u003eGet exclusive Galaxy Girls prints! Pin ups? Character sheets? Glam portraits?\u00a0\u003c/li\u003e\u003c/ol\u003eSign up to find out! You will also get:\u003cbr\u003e\u003col\u003e\u003cli\u003eAccess to WIP\u0027s\u003c/li\u003e\u003cli\u003eMonthly \"postcard\" (digital)\u003c/li\u003e\u003cli\u003eMake requests for tutorial videos.\u003c/li\u003e\u003cli\u003eGet a small print (8x10) each month!\u003c/li\u003e\u003cli\u003e$10 off one $50+ print order, original art purchase, or commission a month.\u003c/li\u003e\u003cli\u003eColoring page (digital line art)\u003c/li\u003e\u003cli\u003eSee something new from The S.I.R.S. (The Supernatural Individuals\u0027 Registration Services) (monthly)\u003c/li\u003e\u003c/ol\u003e\u003cimg src=\"http://img04.deviantart.net/32a8/i/2016/063/3/1/black_cat_by_sir_frog-d9txpbx.png\"\u003e\u003cbr\u003e\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-01T23:07:59.236775+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-08T11:13:05+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202295\u0026rid=483250",
+     "user_limit": 5
+    },
+    "id": "483250",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-11-08T11:13:05+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003eAccess to WIP\u0027s\u003cbr\u003eMonthly \"postcard\" (digital)\u003cbr\u003eMake requests for tutorial videos.\u003cbr\u003eColoring page (digital line art)\u003cbr\u003eSee something new from The S.I.R.S. (The Supernatural Individuals\u0027 Registration Services) (monthly)\u003cbr\u003e50% discount on one commission a month.\u003cbr\u003eAccess to an exclusive piece each month.\u003cbr\u003eGet an 11x17 print each month!\u003cbr\u003eGet a small print (8x10) each month!\u003cbr\u003e\u003cimg src=\"http://t09.deviantart.net/IOtaSDEXeCCr_NRL6DtmW1ViNls=/300x200/filters:fixed_height(100,100):origin()/pre10/2b11/th/pre/i/2015/331/6/1/sketch_variant_mlp_issue_35_by_sir_frog-d9hqppz.jpg\"\u003e\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-01T23:07:59.282579+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-08T11:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202295\u0026rid=350371",
+     "user_limit": null
+    },
+    "id": "350371",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-11-08T11:13:05+00:00",
+     "description": "\u003cdiv style=\"text-align: center;\"\u003eAccess to WIP\u0027s\u003cbr\u003eMonthly \"postcard\" (digital)\u003cbr\u003eMake requests for tutorial videos.\u003cbr\u003eColoring page (digital line art)\u003cbr\u003eSee something new from The S.I.R.S. (The Supernatural Individuals\u0027 Registration Services) (monthly)\u003cbr\u003e50% discount on one commission a month.\u003cbr\u003eAccess to an exclusive piece each month.\u003cbr\u003eGet an 11x17 print each month!\u003cbr\u003eGet a small print (8x10) each month!\u003cbr\u003e\u003cbr\u003e\u003cbr\u003ePrize Package to be sent out with little goodies for the best supporters containing:\u003cbr\u003e\u003cbr\u003e2 (2.5 inch) buttons\u003cbr\u003e11x17 (2 extra) prints\u003cbr\u003eoriginal sketch\u003cbr\u003epersonalized note\u003cbr\u003e1 free personalized drawing\u003cbr\u003esomething secret!\u003cbr\u003e(your package is sent out after you are charged and you make your drawing request)\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"http://img00.deviantart.net/a10a/i/2015/302/7/c/pika_drool_by_sir_frog-d9erihd.png\"\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-01T23:07:59.326296+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-08T11:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202295\u0026rid=350260",
+     "user_limit": null
+    },
+    "id": "350260",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 3,
+     "created_at": "2016-11-08T11:09:06+00:00",
+     "description": "First off, thank you for being a part of my Patreon!\u003cbr\u003eThis goal is pretty simple! I have so many dead Copics lying around that are just begging for refills! A little bit goes a long way with these!",
+     "reached_at": "2016-11-20T15:15:10+00:00",
+     "title": ""
+    },
+    "id": "605298",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 1,
+     "created_at": "2016-11-08T11:11:33+00:00",
+     "description": "Want more content? You got it!\u003cbr\u003eInstead of getting that one HR image each month, every tier will get another!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "605301",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 0,
+     "created_at": "2016-11-08T11:13:05+00:00",
+     "description": "So, right now I have my studio split into 2 areas of my house. I really wanna revamp it, and with a new work area comes that tasty tour! Once I get the studio updated and put together, I\u0027ll take you on a video tour, so you can see how this kid gets her work all done!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "605302",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/202295"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "5fc3834c-e623-4bde-a760-eee5f57ff099",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Froggy is creating Tutorials, comics, and much art!"
+});
+    </script>

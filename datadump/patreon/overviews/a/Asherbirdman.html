@@ -1,0 +1,591 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "aDwIkt8Oe6dRUQHsJcCz_mLsq1DDaXaFei2U2zlPITc";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "9194",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/9194"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-03-25T18:04:21+00:00",
+    "creation_name": "Videogame Design, 2D Digital art  and Animation",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/85228/d7de9ed4bb8a448083ad976c9fb35449?token-time=2145916800\u0026token-hash=nAAOpIgXuTN1olYHyW-OJ0S8qYvLgXv2ozUdXDSaYHU%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/85228/d7de9ed4bb8a448083ad976c9fb35449?token-time=2145916800\u0026token-hash=1dxi9aLRc74JXiFpptoiCIFGw_XBmaMZDenzIdnyEBc%3D",
+    "is_monthly": false,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "A Day without Gorksonic Productions is like a Day without Sunshine.",
+    "patron_count": 1,
+    "pay_per_name": "Per Character Art or Animation/Gif or Videogameplay Video, ",
+    "pledge_sum": 900,
+    "pledge_url": "/bePatron?c=85228",
+    "published_at": "2014-03-25T18:04:21+00:00",
+    "summary": "I need the funds to Kickstart my Future Career in Animation/Comics/Videogame design. See My Goals for Info...\u003cbr\u003e"
+   },
+   "id": "85228",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "115530",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/115530"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "67028",
+       "type": "goal"
+      },
+      {
+       "id": "67352",
+       "type": "goal"
+      },
+      {
+       "id": "67355",
+       "type": "goal"
+      },
+      {
+       "id": "67356",
+       "type": "goal"
+      },
+      {
+       "id": "67767",
+       "type": "goal"
+      },
+      {
+       "id": "67768",
+       "type": "goal"
+      },
+      {
+       "id": "67769",
+       "type": "goal"
+      },
+      {
+       "id": "68305",
+       "type": "goal"
+      },
+      {
+       "id": "144144",
+       "type": "goal"
+      },
+      {
+       "id": "235434",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-85228",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-85228"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "90184",
+       "type": "reward"
+      },
+      {
+       "id": "90190",
+       "type": "reward"
+      },
+      {
+       "id": "90191",
+       "type": "reward"
+      },
+      {
+       "id": "90192",
+       "type": "reward"
+      },
+      {
+       "id": "90193",
+       "type": "reward"
+      },
+      {
+       "id": "90625",
+       "type": "reward"
+      },
+      {
+       "id": "90626",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "A starving Artist who needs some Serious Business Done.\u003cbr\u003e\u003cbr\u003e\u00a0Studies Photshop for Videogame Design at nonPareil Institute\u003cbr\u003e\u003cbr\u003eFire and Flying type Pokemon Maste\u003cbr\u003e",
+     "created": "2014-03-25T18:04:21+00:00",
+     "facebook": "https://www.facebook.com/groups/377324279103046",
+     "first_name": "Ash",
+     "full_name": "Ash Coursey",
+     "gender": 1,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/115530/f1fc2781dd2f44a6bd2f06454afb5abc?token-time=2145916800\u0026token-hash=KeaiMmpaoVOECAgQ9PVIiZsWeGjTKCZMjlFiabBihjE%3D",
+     "last_name": "Coursey",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/115530/f1fc2781dd2f44a6bd2f06454afb5abc?token-time=2145916800\u0026token-hash=VUE3g7alvntd8XKC6nkFgjxGZ3qcjHn_eN0u3CLgHBU%3D",
+     "twitch": null,
+     "twitter": "AshC121",
+     "url": "https://www.patreon.com/Asherbirdman",
+     "vanity": "Asherbirdman",
+     "youtube": "https://www.youtube.com/user/Gorksonic"
+    },
+    "id": "115530",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "85228",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/85228"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 43,
+     "upgrade_url": "/bePatron?c=85228\u0026rid=90184"
+    },
+    "id": "post-aggregation-for-0-85228",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-09-03T15:30:56+00:00",
+     "description": "you get a simple written \u00a0thank you tweet\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T02:34:13.245785+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-03T15:30:56+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=85228\u0026rid=90184",
+     "user_limit": null
+    },
+    "id": "90184",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-09-03T15:30:56+00:00",
+     "description": "Get featured on my sites for a few days",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T02:34:13.268644+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-03T15:30:56+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=85228\u0026rid=90190",
+     "user_limit": null
+    },
+    "id": "90190",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2015-09-03T15:30:56+00:00",
+     "description": "Get A Basic drawing for you thanks",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T02:34:13.289056+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-03T15:30:56+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=85228\u0026rid=90191",
+     "user_limit": null
+    },
+    "id": "90191",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2015-09-03T15:30:56+00:00",
+     "description": "Gif animation or Intermediate drawing request",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T02:34:13.312761+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-03T15:30:56+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=85228\u0026rid=90192",
+     "user_limit": null
+    },
+    "id": "90192",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2015-09-03T15:30:56+00:00",
+     "description": "A Short live stream on twitch.tv to watch ( see my YouTube videos for more info))\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T02:34:13.333501+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-03T15:30:56+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=85228\u0026rid=90193",
+     "user_limit": null
+    },
+    "id": "90193",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6400,
+     "amount_cents": 6400,
+     "created_at": "2015-09-03T15:30:56+00:00",
+     "description": "You get a Videogame Related Gift.",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T02:34:13.354421+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-03T15:30:56+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=85228\u0026rid=90625",
+     "user_limit": null
+    },
+    "id": "90625",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2015-09-03T15:30:56+00:00",
+     "description": "TBA\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T02:34:13.374898+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-09-03T15:30:56+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=85228\u0026rid=90626",
+     "user_limit": null
+    },
+    "id": "90626",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 36,
+     "created_at": "2014-09-23T14:03:21+00:00",
+     "description": "Start\u00a0 my Animation Software Budget\u003cbr\u003e",
+     "reached_at": "2015-08-03T19:39:54+00:00",
+     "title": ""
+    },
+    "id": "67028",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 6,
+     "created_at": "2014-09-24T16:06:19+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "67352",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 0,
+     "created_at": "2014-09-24T16:16:11+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "67355",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 18,
+     "created_at": "2014-09-24T16:18:20+00:00",
+     "description": "TBD\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "67356",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 12500,
+     "completed_percentage": 7,
+     "created_at": "2014-09-25T23:02:52+00:00",
+     "description": "Start Developing my first Graphic novel movie.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "67767",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 1,
+     "created_at": "2014-09-25T23:04:07+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "67768",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 0,
+     "created_at": "2014-09-25T23:10:09+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "67769",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 12000,
+     "completed_percentage": 7,
+     "created_at": "2014-09-28T05:03:16+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "68305",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 12,
+     "created_at": "2015-03-27T16:30:13+00:00",
+     "description": "Adobe CC Complete Pack.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "144144",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 105997,
+     "completed_percentage": 0,
+     "created_at": "2015-09-03T15:29:58+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "235434",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/85228"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "5c0dd89f-1ec9-4ef8-8868-c5a5c8173ff1",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Ash Coursey is creating Videogame Design, 2D Digital art  and Animation"
+});
+    </script>

@@ -1,0 +1,536 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "8jEM1v6jjGaDfwOWfntcMIPEOkoX2goU6q_qITIGP_A";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "531386",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/531386"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-07-31T20:28:10+00:00",
+    "creation_name": "Star Trek Animations",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1133192/01f1175d15304ad4b7980221153d935e?token-time=2145916800\u0026token-hash=2FPzJ0KT4HxWacp_wyWxY5KlHbc_0upt993YLL7D43I%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1133192/01f1175d15304ad4b7980221153d935e?token-time=2145916800\u0026token-hash=9E3YuWK09mOzbeW0a5aIHN-yucv2SH5d4AyiiDq2kzs%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1133192",
+    "published_at": "2017-08-01T21:12:57+00:00",
+    "summary": "Hello and welcome to the Patreon page for a Star Trek cartoon series called One More Trek. Now, this particular fan made series shall be somewhat different to the norm. In a good way of course! \u003cbr\u003e\u003cbr\u003eYou see, the content of this cartoon shall be decided not by the creator, but by you! Yes you, the audience! Cool huh?\n\nThe creator of this series\u0027 tumblr account is @admiralamott. If you have any queries or early suggestions for the series don\u0027t hesitate to get into contact with her on there.\u003cbr\u003e\u003cbr\u003eThanks so much for reading and showing interest in this project, it\u0027s much appreciated. Please give what you can to allow this series to be the best it can be."
+   },
+   "id": "1133192",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7138454",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7138454"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "919875",
+       "type": "goal"
+      },
+      {
+       "id": "919876",
+       "type": "goal"
+      },
+      {
+       "id": "919877",
+       "type": "goal"
+      },
+      {
+       "id": "919878",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1133192",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1133192"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1891875",
+       "type": "reward"
+      },
+      {
+       "id": "1891873",
+       "type": "reward"
+      },
+      {
+       "id": "1891879",
+       "type": "reward"
+      },
+      {
+       "id": "1891872",
+       "type": "reward"
+      },
+      {
+       "id": "1891877",
+       "type": "reward"
+      },
+      {
+       "id": "1891878",
+       "type": "reward"
+      },
+      {
+       "id": "1891874",
+       "type": "reward"
+      },
+      {
+       "id": "1891871",
+       "type": "reward"
+      },
+      {
+       "id": "1891876",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-07-31T20:27:18+00:00",
+     "facebook": null,
+     "first_name": "AdmiralAmott",
+     "full_name": "AdmiralAmott",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7138454/e2f23fd4f4c54fb28d5432b70d917324?token-time=2145916800\u0026token-hash=oJr98ArVWP4IXhoS9lbCi1wmyiWSII0KuqetzNqjRbo%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7138454/e2f23fd4f4c54fb28d5432b70d917324?token-time=2145916800\u0026token-hash=s2gdZTZfnI8iKHPlpyp4Hv_SecXxwaoxBYC861IRtkA%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/onemoretrek",
+     "vanity": "onemoretrek",
+     "youtube": null
+    },
+    "id": "7138454",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1133192",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1133192"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 4,
+     "upgrade_url": "/bePatron?c=1133192\u0026rid=1891875"
+    },
+    "id": "post-aggregation-for-0-1133192",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-08-01T20:54:16.386663+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003eSneak peek photos of upcoming releases\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-01T20:55:36.054405+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-01T20:54:16.386663+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1133192\u0026rid=1891875"
+    },
+    "id": "1891875",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-01T20:54:16.385528+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eProcess/behind-the-scenes (what the animation looks like while in progress)\u003c/li\u003e\u003cli\u003eName in all credits displayed at the end of every video\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-01T20:55:36.069729+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-01T20:54:16.385528+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1133192\u0026rid=1891873"
+    },
+    "id": "1891873",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-08-01T20:54:16.417084+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eSigned digital poster (choose a photo from a selection and I\u0027ll sign it with a message to you digitally, through email or whatever means is best)\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-01T20:55:36.073555+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-01T20:54:16.417084+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1133192\u0026rid=1891879"
+    },
+    "id": "1891879",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-08-01T20:54:16.381629+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYou can give a name for a planet and decide what color it should be, the landscape, etc, and we\u0027ll use it in a certain episode (within acceptable parameters, lieutenant)\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-01T21:08:18.397870+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-01T20:54:16.381629+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1133192\u0026rid=1891872"
+    },
+    "id": "1891872",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-01T20:54:16.399617+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eFree T-Shirt sent to you of your choice.\u003c/li\u003e\u003cli\u003eExtend the usual 1 minute video to at least 3 minutes around a fan made story of your choice.\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-01T21:08:18.392056+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-01T20:54:16.399617+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1133192\u0026rid=1891877"
+    },
+    "id": "1891877",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-01T20:54:16.400302+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eDownload to the entire soundtrack for all episodes so far, and will send you more if any additional music is used in the future.\u003c/li\u003e\u003cli\u003eSticker set of the characters and rooms.\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-01T20:54:16.400302+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-01T20:54:16.400302+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1133192\u0026rid=1891878"
+    },
+    "id": "1891878",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2017-08-01T20:54:16.381024+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eSigned poster with a message. The poster will be created by an artist digitally, then signed and written by me and sent to you in the post. It\u0027s your choice what you want a drawing of.\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-01T20:54:16.381024+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-01T20:54:16.381024+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1133192\u0026rid=1891874"
+    },
+    "id": "1891874",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2017-08-01T20:54:16.340438+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eA character will be created of your choice -- the name, rank, and look is up to you and will be featured in episodes as a crew member.\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-01T20:54:16.340438+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-01T20:54:16.340438+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1133192\u0026rid=1891871"
+    },
+    "id": "1891871",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2017-08-01T20:54:16.393270+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eI\u0027ll add $100 of your donation to the total money being sent to the charities and include that some of it was sent by you.\u003c/li\u003e\u003cli\u003e1 iPhone or Galaxy phone case with a choice of selection.\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-01T20:54:16.393270+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-01T20:54:16.393270+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1133192\u0026rid=1891876"
+    },
+    "id": "1891876",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 2,
+     "created_at": "2017-07-31T22:30:48+00:00",
+     "description": "At $200, the main character models (Kirk, Spock, McCoy) can be redone to a better standard.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "919875",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 4,
+     "created_at": "2017-07-31T22:30:48+00:00",
+     "description": "At $100, sickbay can be built as an extra scene for the animations.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "919876",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-07-31T22:30:48+00:00",
+     "description": "At $1500, there will be enough funding to hire an animator to create blendshapes for the characters (enables them to have facial expressions)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "919877",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 9,
+     "created_at": "2017-07-31T22:30:48+00:00",
+     "description": "At $50, we can afford a music license for the background of each animation.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "919878",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1133192"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "57bf30a1-0408-4615-9afd-7dcfc10f6fc1",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "AdmiralAmott is creating Star Trek Animations"
+});
+    </script>

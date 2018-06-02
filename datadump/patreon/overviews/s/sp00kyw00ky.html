@@ -1,0 +1,401 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "UjgSzs0qMTKTC_3hy0VZBpNBMW34vpjypuwbVtsFah8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "286047",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/286047"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-10-22T21:52:30+00:00",
+    "creation_name": "Varied Indie Music",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "Piece",
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=577757",
+    "published_at": "2016-10-22T23:02:24+00:00",
+    "summary": "I\u0027m honestly going to make shit no matter what, but since I don\u0027t make my things for wide audiences in most cases or for commercial use \u003cstrong\u003eat all\u003c/strong\u003e (it\u0027s a personal thing, I make it for my friends), I thought Patreon would be an interesting experience. Also because I can\u0027t live on peanut butter and cheap bread and canned soup if I want to get somewhere in life. That\u0027s probably not going to do very good...\u003cbr\u003e\u003cbr\u003eBut yeah, pledges will go to production so I can focus my actual money on not being homeless. Peace, loves.\u003cbr\u003e"
+   },
+   "id": "577757",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4282665",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4282665"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "589297",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "952722",
+       "type": "reward"
+      },
+      {
+       "id": "952723",
+       "type": "reward"
+      },
+      {
+       "id": "952724",
+       "type": "reward"
+      },
+      {
+       "id": "952725",
+       "type": "reward"
+      },
+      {
+       "id": "952726",
+       "type": "reward"
+      },
+      {
+       "id": "952727",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-10-22T21:50:30+00:00",
+     "facebook": null,
+     "first_name": "Sp00kifier",
+     "full_name": "Sp00kifier",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4282665/ee2d647f204a428ca106fcdd5518f9fc?token-time=2145916800\u0026token-hash=WB7jTkh6ATrXl2hnMJN6qaAhQkiuUGc928GhoBHGUpQ%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4282665/ee2d647f204a428ca106fcdd5518f9fc?token-time=2145916800\u0026token-hash=WJU447ZP8L8jJNANjFUkCLiV3U2BfQzffAOMFsdNcYM%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/sp00kyw00ky",
+     "vanity": "sp00kyw00ky",
+     "youtube": "https://www.youtube.com/UCV64_Z-nJ6FFwQ-J0H6m-Pg"
+    },
+    "id": "4282665",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "577757",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/577757"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-22T22:57:35+00:00",
+     "description": "Did you just join my team of patrons?! Yes, yes you did. THANK YOU! As an official patron, you\u0027ll have access to my patron-only feed and early access to music and/or videos.\u003cbr\u003eI\u0027m not expecting much traffic on Patreon, but I don\u0027t think most people playing guitar downtown with their case open expect the dollar that gets tossed in by some warm-hearted stranger. Thanks, man! \u0026lt;3\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-22T22:57:35+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=577757\u0026rid=952722",
+     "user_limit": null
+    },
+    "id": "952722",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-10-22T22:57:35+00:00",
+     "description": "Every month, I\u0027ll have a Patreon-live chat with all of you awesome $3+ patrons, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-22T22:57:35+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=577757\u0026rid=952723",
+     "user_limit": null
+    },
+    "id": "952723",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-22T22:57:35+00:00",
+     "description": "You get the say! When I\u0027ve got a question, you\u0027ll be one of the few that can answer through polls, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-22T22:57:35+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=577757\u0026rid=952724",
+     "user_limit": null
+    },
+    "id": "952724",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-22T22:57:35+00:00",
+     "description": "You get the cred. Seriously, your name will get in the credits as a huge thank you being on my team, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-22T22:57:35+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=577757\u0026rid=952725",
+     "user_limit": null
+    },
+    "id": "952725",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-10-22T22:57:35+00:00",
+     "description": "I\u0027ll send you a custom voice message recording just for you, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-22T22:57:35+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=577757\u0026rid=952726",
+     "user_limit": null
+    },
+    "id": "952726",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-22T22:57:35+00:00",
+     "description": "I hope you like surprises, because I\u0027ll be sending you a surprise gift box filled with merch and things I picked out for you, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-22T22:57:35+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=577757\u0026rid=952727",
+     "user_limit": null
+    },
+    "id": "952727",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 9500,
+     "completed_percentage": 0,
+     "created_at": "2016-10-22T22:57:35+00:00",
+     "description": "I can pay for a non-chopped down version of Video Copilot\u0027s Pro Scores software and produce music without the guilt of pseudo-pirating. I might also have a base to make music as commissions, which would be pretty cool.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "589297",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/577757"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ec10142c-d38b-48ca-b8b3-bc0e60865fae",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Sp00kifier is creating Varied Indie Music"
+});
+    </script>

@@ -1,0 +1,385 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "OB1-Yfm-haOaQ8IENKqmj7JZ5AwXE_BwSVfrktv0SOs";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "649099",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/649099"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-11-29T11:04:17+00:00",
+    "creation_name": "Underground Fighting League fight bot system for F-List",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1363590/15d3ecafaff246dc8707b8b882e15e6d?token-time=2145916800\u0026token-hash=s41n2ieGc3YGPdD3UbP1q72byD184DtxZrTImDnzeWQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1363590/15d3ecafaff246dc8707b8b882e15e6d?token-time=2145916800\u0026token-hash=vP84OWP5rGSCD-wJYtpXKiRfCA6lUGQ7qkeQZ4aFejQ%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 270,
+    "pledge_url": "/bePatron?c=1363590",
+    "published_at": "2017-11-29T20:41:15+00:00",
+    "summary": "Hello! Thanks for visiting this page.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(247, 150, 70);\"\u003eAbout\u003c/span\u003e\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eThis page is about this system:\u003cbr\u003e\u003ca href=\"http://undergroundfightingleague.club/\"\u003ehttp://undergroundfightingleague.club/\u003c/a\u003e\u003cbr\u003e\u003cbr\u003eI\u0027m a regular of F-List who enjoys roleplaying fight scenes with all sorts of kinky contents. F-List is the perfect place to find a partner for almost any kink combination, as tens of thousands of people visit it daily from all over the world.\u003cbr\u003e\u003cbr\u003eFor ears I\u0027ve been playing there, and one thing kept bugging me - lack of any systems suitable for fight RPs, other then basic dice roll function. So, three years ago I went ahead and created Rendezvous Fighting system, which eventually turned out into a bot with it\u0027s own room, where fights are held.\u003cbr\u003e\u003cbr\u003eI\u0027ve learned from my mistakes on that system, and now creating a better bot with a more interesting and flexible fight mechanics, as well as stat system. I\u0027m trying to make it both simple and flexible, to allow people to both have fair fights, or set up fights with pre-determined ends.\u003cbr\u003e\u003cbr\u003eOn top of that, fight results and progress are recorded in a database, which allows to create cool roster and leader boards, and later even setup events and monthly challenges!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eCurrent working features of UFL system:\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eF-List chatbot, through which all interactions with the system are performed\u003c/li\u003e\u003cli\u003eRock Paper Scissors on steroids battle system with stats\u003c/li\u003e\u003cli\u003eMatchmaking based on power points\u003c/li\u003e\u003cli\u003eAnonymity. By default no one will see your real f-list profile, only your stage name and whatever information you supply to the bot. All messages are relayed through the bot.\u003c/li\u003e\u003cli\u003eFatality system. Wanna finish your fight with style? FINISH HER\\HIM! And it will be recorded as a kill\u003c/li\u003e\u003cli\u003eLeaderboards\\Roster website\u003c/li\u003e\u003cli\u003ePersonal cool-looking fighter-cards\\pages\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(247, 150, 70);\"\u003eWhy Patreon?\u003c/span\u003e\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eBoth bot and website require a host to run. Website also requires domain. Unfortunately there are no free VPS or domains. Even if there are, most likely are unstable or won\u0027t fit the system, with no guarantees of privacy of stored information and no guarantees that some day they won\u0027t just shut everything down.\u003cbr\u003e\u003cbr\u003eSo I have to pay monthly for those things. I found the cheapest VPS I could, and cheap-ish domain name. But eventually the system will need more, if it grows, to support more features and people. For that VPS will need more CPU power, RAM and Disk space, and that costs money.\u003cbr\u003e\u003cbr\u003eOn top of that, supporting and developing this system takes a lot of time. And with support I\u0027d be able to spend more of my time developing this system. As well as other related projects, which I will talk about later.\u003cbr\u003e\u003cbr\u003eI don\u0027t expect bags of money here, but, if you like the system, idea, feel free to support me, any help will be much appreciated!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(247, 150, 70);\"\u003ePlanned features and things I\u0027m thinking about\u003c/span\u003e\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eMultiple images in fighter profile cards\u003c/li\u003e\u003cli\u003eWebsite improvements\u003c/li\u003e\u003cli\u003eBattle system improvements\u003c/li\u003e\u003cli\u003eMore commands for the bot\u003c/li\u003e\u003cli\u003eImage upload\u003c/li\u003e\u003cli\u003eProfile editing through the website (still have to figure out how to authenticate this)\u003c/li\u003e\u003cli\u003eTighter integration with f-list\u003c/li\u003e\u003cli\u003eTracking more details about fights for better leaderboards and roaster\u003c/li\u003e\u003cli\u003eFinisher gallery. Whenever you use !fatality command - your fatality will be recorded and displayed in the gallery\u003c/li\u003e\u003cli\u003eBattle list - a page which will list all battles with details like who fought whom, whether there was a fatality, etc\u003c/li\u003e\u003cli\u003eMoving to a faster VPS\u003c/li\u003e\u003cli\u003eMoving to a shorter and better domain name\u003c/li\u003e\u003cli\u003eSuggestion\\report system\u003c/li\u003e\u003cli\u003eMatchmaking improvements to include kink matching support and more\u003c/li\u003e\u003cli\u003eMore! Feel free to suggest!\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(247, 150, 70);\"\u003eOther projects? What else will this Patreon support?\u003c/span\u003e\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eFighting bot is just a start. I started working on it because that\u0027s what I have time for.\u00a0\u003cbr\u003e\u003cbr\u003eBut I\u0027m actually a game developer and modder. Here are some other projects I work on in my spare time:\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eFighting Game with Kinks and Finishers\u003c/li\u003e\u003cli\u003eF4AK - Animation modding toolset and guide for Fallout 4\u003c/li\u003e\u003cli\u003eCreatorsLab - a project that\u0027s brewing deep inside LoversLab community\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cstrong\u003eFighting game\u003c/strong\u003e\u003cbr\u003eAnd one of my dreams is to create a kinky fighting game. Think - Mortal Kombat with battle sex. And fatal and non-fatal finishers, of course. I actually already started working on the prototype by don\u0027t have enough time to actively develop it.\u00a0And one of the reasons I open this Patreon is in hopes to kickstart this other project I have in mind.\u003cbr\u003e\u003cbr\u003eHere\u0027s the very basic test I\u0027ve built in a couple of days, which was mostly a test for physics-based collision and damage system:\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=20_oR3x7dEc\"\u003ehttps://www.youtube.com/watch?v=20_oR3x7dEc\u003cbr\u003e\u003cbr\u003e\u003c/a\u003eI will write more about it later.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eF4AK\u003c/strong\u003e\u003cbr\u003eI\u0027m also working on things on LoversLab. One of the things I made is F4AK for Fallout 4 - which is now used by most modders as toolset and guide on creating animations for Fallout 4 mods.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eCreatorsLab\u003cbr\u003e\u003c/strong\u003eCan\u0027t go into details, but LoversLab community has a project that\u0027s currently is in early stages of development. I\u0027m currently taking place of Animation Lead and general adviser there, working on animation systems and animations and sharing my game dev experience with the team. The project is also using Unreal Engine 4, and will feature an open world and kinky stuff as well.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "1363590",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8639123",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8639123"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1035277",
+       "type": "goal"
+      },
+      {
+       "id": "1035278",
+       "type": "goal"
+      },
+      {
+       "id": "1035279",
+       "type": "goal"
+      },
+      {
+       "id": "1035736",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2180508",
+       "type": "reward"
+      },
+      {
+       "id": "2180511",
+       "type": "reward"
+      },
+      {
+       "id": "2180525",
+       "type": "reward"
+      },
+      {
+       "id": "2180517",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-11-29T11:02:54+00:00",
+     "facebook": null,
+     "first_name": "Wrecksler",
+     "full_name": "Wrecksler",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/8639123/d46e3578f7604b6ebadb41749527882c?token-time=2145916800\u0026token-hash=iLYpJmmRZHoJrF2-a913yXfEKZUjc241yynj9VMbE9U%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/8639123/d46e3578f7604b6ebadb41749527882c?token-time=2145916800\u0026token-hash=nvTxmn-WFM0TZF3Z-_QYteZ1w42-lmcmvtIb9ppZR2g%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/wrecksler",
+     "vanity": "wrecksler",
+     "youtube": null
+    },
+    "id": "8639123",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1363590",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1363590"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-11-29T20:30:53.043233+00:00",
+     "description": "By pledging 1$ you support maintenance of the project, and you\u0027ll get \"supporter\" badge in UFL.",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-29T22:58:27.595445+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-29T22:58:27.578858+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Basic support",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1363590\u0026rid=2180508",
+     "user_limit": null
+    },
+    "id": "2180508",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-11-29T20:31:59.346283+00:00",
+     "description": "Pledge 5$ for even more support of the project! You\u0027ll also get \u00a0a gold supporter badge on your profile page.",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-29T22:58:43.629463+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-29T22:58:43.609799+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Extended support",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1363590\u0026rid=2180511",
+     "user_limit": null
+    },
+    "id": "2180511",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-29T20:35:45.651372+00:00",
+     "description": "All of the above, and you will get a status of a Superstar in UFL system for as long as you pay.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-29T20:35:45.651372+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-29T20:35:45.651372+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "UFL Star",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1363590\u0026rid=2180525",
+     "user_limit": null
+    },
+    "id": "2180525",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 30000,
+     "amount_cents": 30000,
+     "created_at": "2017-11-29T20:33:51.555107+00:00",
+     "description": "All of the above, and you will get a personal design for your fighter page! (Well, I don\u0027t really expect anyone to pay this much, but who knows :D )",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-29T20:33:51.555107+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-29T20:33:51.555107+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "UFL Champion",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1363590\u0026rid=2180517",
+     "user_limit": null
+    },
+    "id": "2180517",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500,
+     "completed_percentage": 54,
+     "created_at": "2017-11-29T11:35:57+00:00",
+     "description": "5$ a month will be enough to pay fully for both VPS and domain name!",
+     "reached_at": "2018-02-21T03:03:49+00:00",
+     "title": ""
+    },
+    "id": "1035277",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 3,
+     "created_at": "2017-11-29T11:35:57+00:00",
+     "description": "75$ montly - I\u0027ll be able to move everything to a more powerful server with around 120GB of space, multiple processing cores and lots of RAM! This way I\u0027ll be able to host a lot of UFL related things there, allowing users to upload files, character images, and more! (feature list is a WIP)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1035278",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 330000,
+     "completed_percentage": 0,
+     "created_at": "2017-11-29T11:35:57+00:00",
+     "description": "3300$ montly. Aw well, one can dream! This would be enough for me to dedicate myself fully to this and similar projects!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1035279",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 1,
+     "created_at": "2017-11-29T20:42:38+00:00",
+     "description": "This should cover both a better VPS and a better and shorter domain name!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1035736",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1363590"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "49d7d324-e064-4354-bb44-abef9e262789",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Wrecksler is creating Underground Fighting League fight bot system for F-List"
+});
+    </script>

@@ -1,0 +1,641 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "hRcnruyL660KBLO26W2ODzbTwo-owtkMZ3nesRrySYs";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "93736",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/93736"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-08-14T20:20:26+00:00",
+    "creation_name": "a Hub for Sustainable Future Cities with Wide-Ranging Services",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/202523/5b3deac2b98049e499a2681cf1a3df4d?token-time=2145916800\u0026token-hash=bIZndBGb9bS_MAIY5RtXnC9db3gHC6yvCmzSfyf-pW8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/202523/5b3deac2b98049e499a2681cf1a3df4d?token-time=2145916800\u0026token-hash=jz19PnwLBCdBpi7SVRHmH0LIPAGb-oVNT5ARVEERX2E%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "",
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=202523",
+    "published_at": "2015-08-15T15:00:27+00:00",
+    "summary": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eWe will be very grateful for any cooperation!\u003c/strong\u003e\u003c/div\u003e\u003cbr\u003e\u003cimg src=\"http://ecourbanhub.com/wp-content/uploads/2017/12/Patreon-ECOURBANHUB.png\"\u003e\u003cbr\u003e\u003cbr\u003eSupport the world\u0027s\u00a0HUB for sustainable future cities and ecoefficient urbanization. We still need some coins to provide astonishing content,\u00a0pay coder, services and necessary software. For example, some new staff writers\u00a0are\u00a0needed urgently.\u003cbr\u003e\u003cbr\u003ePlease check our Rewards on the right side time by time. We constantly adapt our offers!\u003cbr\u003e\u003cbr\u003eThanks for your attention and visit ECOURBANHUB via \u003ca href=\"http://www.ecourbanhub.com\"\u003ewww.ecourbanhub.com\u003c/a\u003e\u003cbr\u003e"
+   },
+   "id": "202523",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "992794",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/992794"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "222767",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-202523",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-202523"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "284869",
+       "type": "reward"
+      },
+      {
+       "id": "285390",
+       "type": "reward"
+      },
+      {
+       "id": "2230051",
+       "type": "reward"
+      },
+      {
+       "id": "2227109",
+       "type": "reward"
+      },
+      {
+       "id": "2227126",
+       "type": "reward"
+      },
+      {
+       "id": "2227107",
+       "type": "reward"
+      },
+      {
+       "id": "2228019",
+       "type": "reward"
+      },
+      {
+       "id": "2227131",
+       "type": "reward"
+      },
+      {
+       "id": "2227091",
+       "type": "reward"
+      },
+      {
+       "id": "2228021",
+       "type": "reward"
+      },
+      {
+       "id": "2227258",
+       "type": "reward"
+      },
+      {
+       "id": "2228020",
+       "type": "reward"
+      },
+      {
+       "id": "2227162",
+       "type": "reward"
+      },
+      {
+       "id": "2228774",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-08-12T21:39:18+00:00",
+     "facebook": "https://www.facebook.com/ECOURBANHUB/",
+     "first_name": "ECOURBANHUB",
+     "full_name": "ECOURBANHUB",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/992794/337060007d664500a9347f18942c7e17?token-time=2145916800\u0026token-hash=rsvPvJZp7Zkd1y2g1DdfacXXeCDwYx1o1qvSnIzFP0Q%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/992794/337060007d664500a9347f18942c7e17?token-time=2145916800\u0026token-hash=eV_OUeXVpWh-ouqMoxDsf7LD2NnD-2o_gbHn2OqPyV0%3D",
+     "twitch": null,
+     "twitter": "ecourbanhub",
+     "url": "https://www.patreon.com/ecourbanhub",
+     "vanity": "ecourbanhub",
+     "youtube": null
+    },
+    "id": "992794",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "202523",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/202523"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 18,
+     "upgrade_url": "/bePatron?c=202523\u0026rid=285390"
+    },
+    "id": "post-aggregation-for-0-202523",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2015-08-15T14:54:46+00:00",
+     "description": "With just $3 you can call yourself an ECOURBANHUB supporter\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-22T14:06:22.803688+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-22T14:06:22.776107+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "I want to support ECOURBANHUB",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=284869"
+    },
+    "id": "284869",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-08-15T14:54:46+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eWith just $5 you can call yourself an advanced ECOURBANHUB supporter\u00a0\u00a0\u003c/li\u003e\n\u003cli\u003eWe add your email address to ECOURBANHUB\u0027s newsletter list and send you a personalized thank you\u003c/li\u003e\n\u003cli\u003eAccess to patron-only content\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-22T14:45:19.297936+00:00",
+     "image_url": null,
+     "post_count": 16,
+     "published": true,
+     "published_at": "2017-12-22T14:45:19.266499+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "I really want to support ECOURBANHUB",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=285390"
+    },
+    "id": "285390",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-12-22T14:48:35.152734+00:00",
+     "description": "Exercise Unselfish Solidarity",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-22T14:48:35.152734+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-22T14:48:35.152734+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Effective Altruism",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=2230051"
+    },
+    "id": "2230051",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1200,
+     "amount_cents": 1200,
+     "created_at": "2017-12-21T00:06:06.378307+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eWe add your email address to ECOURBANHUB\u0027s newsletter list and send you a personalized thank you\u00a0\u003c/li\u003e\n\u003cli\u003eAccess to patron-only content\u00a0\u003c/li\u003e\n\u003cli\u003eYou get a personalized business card design as ECOURBANHUB supporter in four different file formats\u00a0\u003c/li\u003e\n\u003cli\u003eYour name / logo on our supporter page\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-22T14:04:15.186465+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-22T14:04:15.156040+00:00",
+     "remaining": 70,
+     "requires_shipping": false,
+     "title": "This is where ECO URBAN begins!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=2227109"
+    },
+    "id": "2227109",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-12-21T00:17:52.685274+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eWe add your email address to ECOURBANHUB\u0027s newsletter list and send you a personalized thank you\u00a0\u003c/li\u003e\n\u003cli\u003eYou get a personalized business card design as ECOURBANHUB supporter in four different file formats\u00a0\u003c/li\u003e\n\u003cli\u003eYour linked name / logo on our supporter page above TIER \"This is where ECO URBAN begins!\" logos\u003c/li\u003e\n\u003cli\u003eFor you, we add and link your topic-related events on our event list\u003c/li\u003e\n\u003cli\u003eAccess to patron-only content\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-22T14:32:31.399035+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-22T14:32:31.354300+00:00",
+     "remaining": 30,
+     "requires_shipping": false,
+     "title": "Hyperlinked Logo + Event Listing",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=2227126"
+    },
+    "id": "2227126",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-12-21T00:05:39.769890+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eWe add your email address to ECOURBANHUB\u0027s newsletter list and send you a personalized thank you \u00a0\u003c/li\u003e\n\u003cli\u003ePersonalized business card design as ECOURBANHUB supporter in four different file formats\u00a0\u003c/li\u003e\n\u003cli\u003eOne \u003ca href=\"http://ecourbanhub.com/wp-content/uploads/2017/12/ECOURBANHUB-CUP.png\" rel=\"nofollow noopener\" target=\"_blank\"\u003eECOURBANHUB cup\u003c/a\u003e. We will supply worldwide!\u00a0\u003c/li\u003e\n\u003cli\u003eLink your name / banner / logo in the end of our newsletter with a hyperlink\u003c/li\u003e\n\u003cli\u003eYour featured name / logo on the very top of our supporter page including a reasonable hyperlink\u00a0\u003c/li\u003e\n\u003cli\u003eWe list and link your topic-related events on our \u003ca href=\"http://ecourbanhub.com/event-calendar/\" rel=\"nofollow noopener\" target=\"_blank\"\u003e\u003cstrong\u003eevent list \u003c/strong\u003e\u003c/a\u003eand place a linked event banner\u003c/li\u003e\n\u003cli\u003eAccess to highly valuable posts here on Patreon - Only for Patrons with a monthly USD50+ subscription\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-22T14:51:00.718640+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-12-22T14:51:00.692345+00:00",
+     "remaining": 20,
+     "requires_shipping": true,
+     "title": "Featured Linked Logo + Events II + Newsletter + Cup",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=2227107"
+    },
+    "id": "2227107",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5100,
+     "amount_cents": 5100,
+     "created_at": "2017-12-21T12:40:37.786599+00:00",
+     "description": "\u003cstrong\u003eLIMITED\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eGet a $75 US \u00a0voucher for our job board every month for a $51 US subscription\u003c/li\u003e\n\u003cli\u003eAccess to highly valuable posts here on Patreon - Only for Patrons with a monthly USD50+ subscription\u00a0\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-21T12:51:50.195285+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-21T12:51:50.176416+00:00",
+     "remaining": 30,
+     "requires_shipping": false,
+     "title": "$75 US Voucher Reward ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=2228019"
+    },
+    "id": "2228019",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-12-21T00:20:26.620203+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eWe add your email address to ECOURBANHUB\u0027s newsletter list and send you a personalized thank you \u00a0\u00a0\u003c/li\u003e\n\u003cli\u003ePersonalized business card design + 100 thick (0.35mm) and personalized ECOURBANHUB business cards with your name as ECOURBANHUB SPONSOR\u00a0- \u00a0We supply worldwide!\u00a0\u003c/li\u003e\n\u003cli\u003e2 \u003ca href=\"http://ecourbanhub.com/wp-content/uploads/2017/12/ECOURBANHUB-CUP.png\" rel=\"nofollow noopener\" target=\"_blank\"\u003eECOURBANHUB cups\u003c/a\u003e\u00a0\u00a0- We supply worldwide!\u003c/li\u003e\n\u003cli\u003eOne $500 US voucher for the ECOURBANHUB job board\u003c/li\u003e\n\u003cli\u003eOne $200 US voucher for the ECOURBANHUB market directory\u00a0\u003c/li\u003e\n\u003cli\u003eAdd and link your topic-related events on our \u003ca href=\"http://ecourbanhub.com/event-calendar/\" rel=\"nofollow noopener\" target=\"_blank\"\u003e\u003cstrong\u003eevent list\u003c/strong\u003e\u003c/a\u003e and place a linked event banner\u003c/li\u003e\n\u003cli\u003eLinked name / logo above our newsletter footer\u003c/li\u003e\n\u003cli\u003eAccess to highly valuable posts here on Patreon - Only for Patrons with a monthly USD50+ subscription\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-30T15:00:49.472219+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-30T15:00:49.446180+00:00",
+     "remaining": 15,
+     "requires_shipping": false,
+     "title": "Companion",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=2227131"
+    },
+    "id": "2227131",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 18000,
+     "amount_cents": 18000,
+     "created_at": "2017-12-20T23:50:58.405728+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eEvery month one voucher worth $150 US for our ECOURBANHUB job board advertised within our website posts\u003c/li\u003e\n\u003cli\u003eOne voucher worth $300 US for our ECOURBANHUB market directory advertised within our website\u003c/li\u003e\n\u003cli\u003eWe publish 2 topic related press releases in our \u003ca href=\"http://ecourbanhub.com/horizon/press-releases/\" rel=\"nofollow noopener\" target=\"_blank\"\u003epress release section\u003c/a\u003e every month for you\u003c/li\u003e\n\u003cli\u003ePersonalized business card design + 100 extreme thick (0.65mm) and personalized ECOURBANHUB business cards with your name as ECOURBANHUB BRONZE SPONSOR\u00a0\u00a0\u003c/li\u003e\n\u003cli\u003eAccess to highly valuable posts here on Patreon - Only for Patrons with a monthly USD50+ subscription\u00a0\u003c/li\u003e\n\u003cli\u003eYour linked written name in every footer within our website\u00a0\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-30T15:01:14.958991+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-30T15:01:14.932252+00:00",
+     "remaining": 20,
+     "requires_shipping": false,
+     "title": "BRONZE SPONSOR",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=2227091"
+    },
+    "id": "2227091",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20100,
+     "amount_cents": 20100,
+     "created_at": "2017-12-21T12:44:11.823720+00:00",
+     "description": "\u003cstrong\u003eLIMITED\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eGet a $333 US \u00a0voucher for our job board every month for a $200 US subscription\u003c/li\u003e\n\u003cli\u003eAccess to highly valuable posts here on Patreon\u003c/li\u003e\n\u003cli\u003eOnly for Patrons with a monthly USD50+ subscription\u00a0\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-22T14:37:57.295018+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-22T14:37:57.272317+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "$333 US Voucher Reward ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=2228021"
+    },
+    "id": "2228021",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 45000,
+     "amount_cents": 45000,
+     "created_at": "2017-12-21T01:33:08.377568+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eEvery month one voucher worth $300 US for our ECOURBANHUB job board advertised within our website posts\u003c/li\u003e\n\u003cli\u003eOne voucher worth $350 US for our ECOURBANHUB market directory advertised within our website\u003c/li\u003e\n\u003cli\u003eWe publish 4 topic related press releases in our \u003ca href=\"http://ecourbanhub.com/horizon/press-releases/\" rel=\"nofollow noopener\" target=\"_blank\"\u003epress release section\u003c/a\u003e every month for you\u003c/li\u003e\n\u003cli\u003ePersonalized business card design + 100 extreme thick (0.65mm) and personalized ECOURBANHUB business cards with your name as ECOURBANHUB SILVER SPONSOR\u00a0- We supply worldwide!\u00a0\u003c/li\u003e\n\u003cli\u003e5 \u003ca href=\"http://ecourbanhub.com/wp-content/uploads/2017/12/ECOURBANHUB-CUP.png\" rel=\"nofollow noopener\" target=\"_blank\"\u003eECOURBANHUB cups\u003c/a\u003e (worth $ 140 US). We supply worldwide!\u003c/li\u003e\n\u003cli\u003ePresenting you or your product on one of our social channels 3 times a year\u003c/li\u003e\n\u003cli\u003eWe add and link your topic-related events on our \u003ca href=\"http://ecourbanhub.com/event-calendar/\" rel=\"nofollow noopener\" target=\"_blank\"\u003e\u003cstrong\u003eevent list\u003c/strong\u003e\u003c/a\u003e and place a linked event banner\u003c/li\u003e\n\u003cli\u003eAdvertise your hyperlinked event on our homepage during your entire patron period (Worth $50 US / month)\u003c/li\u003e\n\u003cli\u003eMentioning you as SILVER SPONSOR in the upper third of our newsletters with a hyperlink\u00a0\u003c/li\u003e\n\u003cli\u003eWe advertise one of your product pages in your ECOURBANHUB MARKET DIRECTORY in our newsletters for your entire Patron time\u003c/li\u003e\n\u003cli\u003eAccess to highly valuable posts here on Patreon - Only for Patrons with a monthly USD50+ subscription\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-30T15:02:33.779520+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-30T15:02:33.755139+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "SILVER SPONSOR ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=2227258"
+    },
+    "id": "2227258",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50100,
+     "amount_cents": 50100,
+     "created_at": "2017-12-21T12:42:04.953569+00:00",
+     "description": "\u003cstrong\u003eVERY LIMITED\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eGet a $1000 US voucher for our job board every month for a $501 US subscription\u003c/li\u003e\n\u003cli\u003eAccess to highly valuable posts here on Patreon - Only for Patrons with a monthly USD50+ subscription\u00a0\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-21T12:54:13.448668+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-21T12:54:13.431559+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "$1000 US Voucher Reward ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=2228020"
+    },
+    "id": "2228020",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 70000,
+     "amount_cents": 70000,
+     "created_at": "2017-12-21T00:38:00.427968+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eWe present you as GOLD SPONSOR with a separate and astonishing supporter page designed in close cooperation with you and with wide ranging benefits and design options - Linked in our main menu\u00a0\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eWOW!\u003c/strong\u003e Featured banner or logo (~250x150px) on the top of our footer on every page with your hyperlink\u003c/li\u003e\n\u003cli\u003eWe publish your 5 topic related press releases in our \u003ca href=\"http://ecourbanhub.com/horizon/press-releases/\" rel=\"nofollow noopener\" target=\"_blank\"\u003epress release section\u003c/a\u003e every month\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eWOW!\u003c/strong\u003e Mentioning you as GOLD SPONSOR on the top of our Newsletter with a hyperlink\u003c/li\u003e\n\u003cli\u003eEvery month one voucher worth $300 US for our ECOURBANHUB \u003ca href=\"https://ecourbanhubjobs.com/\" rel=\"nofollow noopener\" target=\"_blank\"\u003ejob board\u003c/a\u003e advertised within our website posts\u003c/li\u003e\n\u003cli\u003ePresent your featured product / company in our market directory with up to 1 personalized page with exclusive GOLD SPONSOR support\u00a0\u003c/li\u003e\n\u003cli\u003eWe add and link your topic-related events on our \u003ca href=\"http://ecourbanhub.com/event-calendar/\" rel=\"nofollow noopener\" target=\"_blank\"\u003e\u003cstrong\u003eevent list\u003c/strong\u003e\u003c/a\u003e and place a linked event banner\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eWOW!\u003c/strong\u003e Advertise your hyperlinked event on our homepage during your entire patron period (Worth $50 US / month)\u003c/li\u003e\n\u003cli\u003ePersonalized business card design + 250 extra thick (0.65mm) and personalized ECOURBANHUB business cards with your name as ECOURBANHUB GOLD SPONSOR - \u00a0We supply worldwide!\u00a0\u003c/li\u003e\n\u003cli\u003e5 ECOURBANHUB \u003ca href=\"http://ecourbanhub.com/wp-content/uploads/2017/12/ECOURBANHUB-CUP.png\" rel=\"nofollow noopener\" target=\"_blank\"\u003ecups\u003c/a\u003e\u00a0(worth $ 140 US incl. worldwide supply )\u00a0\u003c/li\u003e\n\u003cli\u003eWe advertise your product on one of our social channels each two months (You choose)\u003c/li\u003e\n\u003cli\u003eAccess to highly valuable posts here on Patreon - Only for Patrons with a monthly USD50+ subscription\u003c/li\u003e\n\u003cli\u003eWe publish your topic-related content here on our Patreon Post Page once a month\u00a0\u00a0\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-30T15:05:35.395915+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-30T15:05:35.367729+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "GOLD SPONSOR",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=2227162"
+    },
+    "id": "2227162",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 150000,
+     "amount_cents": 150000,
+     "created_at": "2017-12-21T21:04:23.931353+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eWOW!\u003c/strong\u003e Advertise unlimited not featured job posts on \u003ca href=\"http://ecourbanhubjobs.com\" rel=\"nofollow noopener\" target=\"_blank\"\u003eECOURBANHUB JOBS\u003c/a\u003e\u00a0\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eWOW!\u003c/strong\u003e Advertise a maximum of 6 featured job posts on \u003ca href=\"http://ecourbanhubjobs.com/\" rel=\"nofollow noopener\" target=\"_blank\"\u003e\u003cu\u003eECOURBANHUB JOBS\u003c/u\u003e\u003c/a\u003e \u00a0at the same time\u003c/li\u003e\n\u003cli\u003ePresent your products / company on our market directory with up to 3 featured and personalized pages with exclusive DIAMOND SPONSOR support\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eWOW!\u003c/strong\u003e Featured banner or logo (~250x150px) on the top of our footer on every page with your hyperlink\u00a0\u003c/li\u003e\n\u003cli\u003eWe present you as our Sponsor with a separate and astonishing supporter page designed in close cooperation with you and with wide ranging benefits and design options - Linked in our main menu\u003c/li\u003e\n\u003cli\u003e10 ECOURBANHUB \u003ca href=\"http://ecourbanhub.com/wp-content/uploads/2017/12/ECOURBANHUB-CUP.png\" rel=\"nofollow noopener\" target=\"_blank\"\u003ecups\u003c/a\u003e\u00a0(worth ~ $ 250 US incl. worldwide supply)\u003c/li\u003e\n\u003cli\u003ePersonalized business card design + 250 extra thick (0.65mm) and personalized ECOURBANHUB business cards with your name as ECOURBANHUB DIAMOND SPONSOR - \u00a0We supply worldwide!\u00a0\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eWOW!\u003c/strong\u003e Mentioning you as one of three DIAMOND SPONSORS on the top of our Newsletter with a hyperlink placed above \u00a0GOLD SPONSOR\u00a0\u003c/li\u003e\n\u003cli\u003ePublish topic-related content here on our Patreon Post Page once a month\u003c/li\u003e\n\u003cli\u003eAdvertise your hyperlinked event on our homepage during your entire Patron period (Worth $50 US / month)\u003c/li\u003e\n\u003cli\u003eWe publish your 5 topic related press releases in our \u003ca href=\"http://ecourbanhub.com/horizon/press-releases/\" rel=\"nofollow noopener\" target=\"_blank\"\u003e\u003cstrong\u003epress release section\u003c/strong\u003e\u003c/a\u003e every month\u003c/li\u003e\n\u003cli\u003eWe add and link your topic-related events on our \u003ca href=\"http://ecourbanhub.com/event-calendar/\" rel=\"nofollow noopener\" target=\"_blank\"\u003e\u003cstrong\u003eevent list\u003c/strong\u003e\u003c/a\u003e and place a linked event banner\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-30T15:05:08.446819+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-30T15:05:08.418531+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "DIAMOND SPONSOR",
+     "unpublished_at": null,
+     "url": "/bePatron?c=202523\u0026rid=2228774"
+    },
+    "id": "2228774",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2015-08-14T20:31:29+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "222767",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/202523"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "f33b5d35-ab4c-4673-a206-84b678e1ee72",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "ECOURBANHUB is creating a Hub for Sustainable Future Cities with Wide-Ranging Services"
+});
+    </script>

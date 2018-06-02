@@ -1,0 +1,575 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "jxq0vc5mPfy240GLpc50Q4O9WjJoo_4CTgmqYx4RE2E";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "37571",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/37571"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-02-09T21:05:04+00:00",
+    "creation_name": "Art",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/146358/5f8b1c73e6fd4a0b8053c0079593b744?token-time=2145916800\u0026token-hash=frmZ4rWIJMnXYjg-9W12Orw07yRlgSCRMjS78W0h_eg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/146358/5f8b1c73e6fd4a0b8053c0079593b744?token-time=2145916800\u0026token-hash=MAUN56bTpdQig-0koKJP2HUJl8d3YKnqRDWtMtsB9WM%3D",
+    "is_monthly": false,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Personal art for the Pin Up next door.",
+    "patron_count": 1,
+    "pay_per_name": "creation",
+    "pledge_sum": 450,
+    "pledge_url": "/bePatron?c=146358",
+    "published_at": "2015-03-09T21:45:39+00:00",
+    "summary": "In an effort to constantly be finding out what works, I\u0027m trying something new. \u00a0Not a new idea, but new to me. \u00a0I am going to complete 30 day challenges to myself. \u00a0The rules for each will change, depending on what the challenge is. \u00a0\u003cbr\u003e\u003cbr\u003eI am going to rearrange funding to be per challenge. \u00a0Ideally that will be every 30 days (once a month), but depending on the individual challenge it might change. \u00a0\u003cbr\u003e\u003cbr\u003eThe money will almost exclusively go towards babysitting costs ($15/hr). \u00a0The hardest part about drawing/painting/creating lately has been finding the time to be able to actually get something on the page. \u00a0If I even get an hour here or there, it will not go to waste.\u003cbr\u003e\u003cbr\u003eThanks!"
+   },
+   "id": "146358",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "511094",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/511094"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "121231",
+       "type": "goal"
+      },
+      {
+       "id": "121232",
+       "type": "goal"
+      },
+      {
+       "id": "121233",
+       "type": "goal"
+      },
+      {
+       "id": "121234",
+       "type": "goal"
+      },
+      {
+       "id": "121235",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-146358",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-146358"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "174662",
+       "type": "reward"
+      },
+      {
+       "id": "174663",
+       "type": "reward"
+      },
+      {
+       "id": "174664",
+       "type": "reward"
+      },
+      {
+       "id": "174665",
+       "type": "reward"
+      },
+      {
+       "id": "174666",
+       "type": "reward"
+      },
+      {
+       "id": "174667",
+       "type": "reward"
+      },
+      {
+       "id": "174668",
+       "type": "reward"
+      },
+      {
+       "id": "174669",
+       "type": "reward"
+      },
+      {
+       "id": "174670",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "My name is Stephanie, and I am an artist, a mother, a wife, and a mathematics enthusiast. \u00a0\u003cbr\u003e\u003cbr\u003eI think that at least now, at this point in my life, those roles are what define me best.\u00a0\u003cbr\u003e\u003cbr\u003eI have in the past focused purely on Pin Up art (celebrating female beauty as I see it in the world), and Creative Boredom (abstracts that take shape as I go, with no forethought). \u00a0Main materials charcoal, acrylic, copic markers, or pen/watercolors.\u003cbr\u003e\u003cbr\u003eI also dabble in photography - only when particularly inspired.\u003cbr\u003e\u003cbr\u003eRecently I have felt a drive to achieve expertise in something. \u00a0My skill level hasn\u0027t dramatically increased in recent years, and when I was pregnant with my son I hit a remarkable artist\u0027s block. \u00a0So now I\u0027m trying to break through that via repetition and short term (often 30 day) challenges.\u00a0 These tend to be watercolors, something I am fairly new to, though my mother is expert in so I\u0027ve learned a lot over the years watching her.\u00a0\u00a0\u003cbr\u003e\u003cbr\u003e",
+     "created": "2015-01-26T22:47:08+00:00",
+     "facebook": "https://www.facebook.com/pages/Haughty-Naughty-Art/5336416399925",
+     "first_name": "Art",
+     "full_name": "Art By Stephiroth",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/511094/32c9e168eece452095c6ce94b8fe6883?token-time=2145916800\u0026token-hash=O8H1MhvYMYHhKfuhBq1rk4CCBqI86TEdEXekRTThMSc%3D",
+     "last_name": "By Stephiroth",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/511094/32c9e168eece452095c6ce94b8fe6883?token-time=2145916800\u0026token-hash=5xfUuKkVFU0AMZEjRJ2l3TDJDVsK3QMN0U5nQn7A5x8%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/ArtByStephiroth",
+     "vanity": "ArtByStephiroth",
+     "youtube": null
+    },
+    "id": "511094",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "146358",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/146358"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 1,
+     "upgrade_url": "/bePatron?c=146358\u0026rid=174662"
+    },
+    "id": "post-aggregation-for-0-146358",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-03-09T21:42:58+00:00",
+     "description": "You\u0027ll get:\u003cbr\u003e~Undying gratitude\u003cbr\u003e~mailing list updates for current projects and practice sketches so you can see my monthly progress.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-03-09T21:42:58+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=146358\u0026rid=174662",
+     "user_limit": null
+    },
+    "id": "174662",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2015-03-09T21:42:58+00:00",
+     "description": "You\u0027ll get:\u003cbr\u003e~Undying gratitude\u003cbr\u003e~A mailed thank you card!\u003cbr\u003e~mailing list updates for current projects and practice sketches\u003cbr\u003e~a themed monthly e-card!\u00c2\u00a0(email me preference for pin up lady or abstract)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-03-09T21:42:58+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=146358\u0026rid=174663",
+     "user_limit": null
+    },
+    "id": "174663",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-03-09T21:42:58+00:00",
+     "description": "You\u0027ll get:\u003cbr\u003e~Undying gratitude\u003cbr\u003e~A mailed thank you card!\u003cbr\u003e~mailing list updates for current projects and practice sketches\u003cbr\u003e~a themed monthly e-card! (email me preference for pin up lady or abstract)\u003cbr\u003e~PLUS you\u0027ll be entered in a monthly giveaway for a signed print!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-03-09T21:42:58+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=146358\u0026rid=174664",
+     "user_limit": null
+    },
+    "id": "174664",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2015-03-09T21:42:58+00:00",
+     "description": "You\u0027ll get:\u003cbr\u003e~Undying gratitude\u003cbr\u003e~A mailed thank you card!\u003cbr\u003e~Mailing list updates\u003cbr\u003e~A themed postcard every month\u003cbr\u003e~Monthly entry in a signed print giveaway \u003cbr\u003e\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-03-09T21:42:58+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=146358\u0026rid=174665",
+     "user_limit": null
+    },
+    "id": "174665",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2015-03-09T21:42:58+00:00",
+     "description": "You\u0027ll get:\u003cbr\u003e~Undying gratitude and kind thoughts every day\u003cbr\u003e~Mailing list updates\u003cbr\u003e~A mailed thank you card!\u003cbr\u003e~A themed postcard every month\u003cbr\u003e~Monthly entry in a signed print giveaway \u003cbr\u003e~A print just for you (abstract or sexy lady!)\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-03-09T21:42:58+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=146358\u0026rid=174666",
+     "user_limit": null
+    },
+    "id": "174666",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2015-03-09T21:42:58+00:00",
+     "description": "You\u0027ll get:\u003cbr\u003e~Undying gratitude and kind thoughts every day plus recognition of being a super awesome human being\u003cbr\u003e~A mailed thank you card!\u003cbr\u003e~Mailing list updates\u003cbr\u003e~A themed postcard every month\u003cbr\u003e~Monthly entry in a signed print giveaway \u003cbr\u003e~A print based on an idea you email me! Abstract or sexy lady.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-03-09T21:42:58+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=146358\u0026rid=174667",
+     "user_limit": null
+    },
+    "id": "174667",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2015-03-09T21:42:58+00:00",
+     "description": "You\u0027ll get:\u003cbr\u003e~Undying gratitude and kind thoughts every day plus recognition of being a super awesome human being\u003cbr\u003e~A mailed thank you card!\u003cbr\u003e~Mailing list updates\u003cbr\u003e~A themed postcard every month\u003cbr\u003e~Monthly entry in a signed print giveaway \u003cbr\u003e~I\u0027ll mail you an original pen and watercolor pin up lady (or abstract) based on your interests (or YOU)!\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-03-09T21:42:58+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=146358\u0026rid=174668",
+     "user_limit": null
+    },
+    "id": "174668",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2015-03-09T21:42:58+00:00",
+     "description": "You\u0027ll get:\u003cbr\u003e~Undying gratitude and kind thoughts every day plus recognition of being a super awesome human being\u003cbr\u003e~A mailed thank you card!\u003cbr\u003e~Mailing list updates\u003cbr\u003e~A themed postcard every month\u003cbr\u003e~Monthly entry in a signed print giveaway \u003cbr\u003e~I\u0027ll mail you a print of a pen and watercolor pin up lady (or abstract) based on your interests (or YOU)!\u003cbr\u003e~A 25 pack of holiday cards for the holiday of your choosing!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-03-09T21:42:58+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=146358\u0026rid=174669",
+     "user_limit": null
+    },
+    "id": "174669",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2015-03-09T21:42:58+00:00",
+     "description": "You\u0027ll get:\u003cbr\u003e~Undying gratitude and kind thoughts every day plus recognition of being a super awesome human being\u003cbr\u003e~A mailed thank you card!\u003cbr\u003e~Mailing list updates\u003cbr\u003e~A themed postcard every month\u003cbr\u003e~Monthly entry in a signed print giveaway \u003cbr\u003e~I\u0027ll mail you an original pen and watercolor pin up lady (or abstract) based on your interests (or YOU)!\u003cbr\u003e~A 25 pack of holiday cards for the holiday of your choosing!\u003cbr\u003e~I don\u0027t even know... ask and I\u0027ll let you know.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-03-09T21:42:58+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=146358\u0026rid=174670",
+     "user_limit": null
+    },
+    "id": "174670",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 18,
+     "created_at": "2015-02-09T21:49:39+00:00",
+     "description": "$25 per 30 Day Challenge will keep me in art supplies; paper, watercolors, brushes, pens, charcoal, erasers - plus the oddball new medium I inevitably want to try.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "121231",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 9,
+     "created_at": "2015-02-09T21:49:39+00:00",
+     "description": "Those art supplies I mentioned will get upgraded from the cheap-o ones I usually have to get.  Good quality watercolor paper is kind of a dream to me - that stuff is pricy!!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "121232",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 4,
+     "created_at": "2015-02-09T21:49:39+00:00",
+     "description": "$100 will pay for my supplies AND a class at one of the local guilds, with a babysitter for the baby!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "121233",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 1,
+     "created_at": "2015-02-09T21:49:39+00:00",
+     "description": "Two classes at a time?! Inconceivable! Babysitter for both?! Oh how I\u0027d love it :-)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "121234",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 0,
+     "created_at": "2015-02-09T21:49:39+00:00",
+     "description": "I thought about this, and honestly - it would go towards a babysitter so I could have solid hours in my studio to work on my art. \u00a0That\u0027s the most expensive part.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "121235",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/146358"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ae245b5f-068e-4588-80a7-2cc52debac8c",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Art By Stephiroth is creating Art"
+});
+    </script>

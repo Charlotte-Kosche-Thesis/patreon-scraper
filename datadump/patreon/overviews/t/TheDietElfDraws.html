@@ -1,0 +1,575 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "6P1LHDL-qnl3BA4jWm7sIGvgAHsQAGeG-IuKeMDSRd0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "165898",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/165898"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-05-21T03:57:26+00:00",
+    "creation_name": "Art and Comics",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/370924/37d9602618c841f3ac61e3f60bb10b5d?token-time=2145916800\u0026token-hash=QhZrMPWsMfHc9mJwU17B8NRkCdSnIzAzZsxqIrUC5bk%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/370924/37d9602618c841f3ac61e3f60bb10b5d?token-time=2145916800\u0026token-hash=51a9ZY6r8BqO1H0xUKJGKQLHsc7UXEcQORgUH5SrHh0%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_sum": 2392,
+    "pledge_url": "/bePatron?c=370924",
+    "published_at": "2016-05-21T04:34:44+00:00",
+    "summary": "I am the nerd commonly known around the internet as \u003cstrong\u003eTheDietElf--\u003c/strong\u003eprimarily I focus on fantasy illustrations and comic art in both traditional and digital mediums.\u00a0\u003cbr\u003e\u003cbr\u003eMy plea for your moneydollars is simply so that I can devote more time to creating [and getting a \u003cem\u003ewebcomic\u003c/em\u003e\u00a0as well as some print comics] out of my head and into the hands of readers! It\u0027s my dream to do this full time--and I want to stop talking and start \u003cem\u003edoing.\u003cbr\u003e\u003cbr\u003e\u003c/em\u003eThere will be no paywalls for most content starting in 2018! Exceptions being comic pages and downloadable wallpapers/icons, etc.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003ePosts Every Monday, Wednesday and Friday!\u003c/strong\u003e\u003cbr\u003e"
+   },
+   "id": "370924",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "553646",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/553646"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "432913",
+       "type": "goal"
+      },
+      {
+       "id": "432914",
+       "type": "goal"
+      },
+      {
+       "id": "432915",
+       "type": "goal"
+      },
+      {
+       "id": "432916",
+       "type": "goal"
+      },
+      {
+       "id": "441057",
+       "type": "goal"
+      },
+      {
+       "id": "443023",
+       "type": "goal"
+      },
+      {
+       "id": "459161",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-370924",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-370924"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "549993",
+       "type": "reward"
+      },
+      {
+       "id": "1696206",
+       "type": "reward"
+      },
+      {
+       "id": "549994",
+       "type": "reward"
+      },
+      {
+       "id": "549995",
+       "type": "reward"
+      },
+      {
+       "id": "549996",
+       "type": "reward"
+      },
+      {
+       "id": "549997",
+       "type": "reward"
+      },
+      {
+       "id": "549998",
+       "type": "reward"
+      },
+      {
+       "id": "549999",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "28, Giant Nerd, Loves Tabletop RPGs and Video Games. Diagnosed with SLE.",
+     "created": "2015-02-10T18:41:00+00:00",
+     "facebook": "",
+     "first_name": "Kimi",
+     "full_name": "Kimi Sisson",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/553646/c18d1d02e8384b7e92efef009193ee61?token-time=2145916800\u0026token-hash=ybeDO-Ysu2eN0SAtSWNdncUpOdqv7VKj1L0IEPlDtIU%3D",
+     "last_name": "Sisson",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/553646/c18d1d02e8384b7e92efef009193ee61?token-time=2145916800\u0026token-hash=TdxOcbCQLayu9xT3fV68B88P4Z5MavLK93vjRZrz5xc%3D",
+     "twitch": "",
+     "twitter": "TheDietElf",
+     "url": "https://www.patreon.com/TheDietElfDraws",
+     "vanity": "TheDietElfDraws",
+     "youtube": ""
+    },
+    "id": "553646",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "370924",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/370924"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 97,
+     "upgrade_url": "/bePatron?c=370924\u0026rid=549993"
+    },
+    "id": "post-aggregation-for-0-370924",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-06-23T04:26:36+00:00",
+     "description": "Access to Early Releases of Comics and to wallpapers and icons.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAlso, you\u0027ll be entered into a raffle to get a Full* Commission!\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*simple backgrounds only\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-16T15:13:27.211858+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 17,
+     "published": true,
+     "published_at": "2018-01-16T15:13:27.185605+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Baby Punk",
+     "unpublished_at": null,
+     "url": "/bePatron?c=370924\u0026rid=549993",
+     "user_limit": null
+    },
+    "id": "549993",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-05-17T16:50:20.447415+00:00",
+     "description": "2 Entries into the Monthly Raffle!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e+All Previous Rewards\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-16T15:13:19.240650+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-01-16T15:13:19.193634+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Young Punk",
+     "unpublished_at": null,
+     "url": "/bePatron?c=370924\u0026rid=1696206",
+     "user_limit": null
+    },
+    "id": "1696206",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-06-23T04:26:36+00:00",
+     "description": "5 Entries into the Monthly Commission Raffle!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e+All Previous Rewards!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-16T15:14:11.614038+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 39,
+     "published": true,
+     "published_at": "2018-01-16T15:14:11.520678+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Drunk Punk",
+     "unpublished_at": null,
+     "url": "/bePatron?c=370924\u0026rid=549994",
+     "user_limit": null
+    },
+    "id": "549994",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-06-23T04:26:36+00:00",
+     "description": "A new Mini Print each month! Sent to you in the mail!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e+All Previous Rewards\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*personal use only, please.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-16T15:15:33.442725+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 5,
+     "published": true,
+     "published_at": "2018-01-16T15:15:33.419597+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Unruly Punk",
+     "unpublished_at": null,
+     "url": "/bePatron?c=370924\u0026rid=549995",
+     "user_limit": null
+    },
+    "id": "549995",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-06-23T04:26:36+00:00",
+     "description": "One digital copy of a quick bust sketch commission, made just for you, each month!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e+All Previous Rewards!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-16T15:16:38.076876+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-01-16T15:16:37.917038+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Gutter Punk",
+     "unpublished_at": null,
+     "url": "/bePatron?c=370924\u0026rid=549996",
+     "user_limit": null
+    },
+    "id": "549996",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-06-23T04:26:36+00:00",
+     "description": "One digital copy of a full character sketch commission, each month!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e+All Previous Rewards!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-16T15:17:39.614178+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-16T15:17:39.596708+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Anarchist Punk",
+     "unpublished_at": null,
+     "url": "/bePatron?c=370924\u0026rid=549997",
+     "user_limit": null
+    },
+    "id": "549997",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-06-23T04:26:36+00:00",
+     "description": "A full colour commission each month! Up to two characters + a simple background.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e+All Previous Reward Tiers!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-16T15:20:27.295028+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-16T15:20:27.272706+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Riot Punk",
+     "unpublished_at": null,
+     "url": "/bePatron?c=370924\u0026rid=549998",
+     "user_limit": 5
+    },
+    "id": "549998",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-06-23T04:26:36+00:00",
+     "description": "Free print copies of any books, art books, fan books or sketch zines I put out! Plus a full colour illustration commission of up to three characters + a complex background!\u003cbr\u003e\n\u003cp\u003e+All Previous Rewards!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-16T15:20:58.696461+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-16T15:20:58.668853+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "In The Band",
+     "unpublished_at": null,
+     "url": "/bePatron?c=370924\u0026rid=549999",
+     "user_limit": 3
+    },
+    "id": "549999",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 47,
+     "created_at": "2016-05-21T04:16:13+00:00",
+     "description": "I\u0027ll be able to eat instant ramen, with EGGS in it.\u00a0",
+     "reached_at": "2016-06-20T09:05:21+00:00",
+     "title": ""
+    },
+    "id": "432913",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 23,
+     "created_at": "2016-05-21T04:16:13+00:00",
+     "description": "I can pay for \u007fmy phone or my utilities. Pick one.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "432914",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 9,
+     "created_at": "2016-05-21T04:16:13+00:00",
+     "description": "With this taken care of, I would have a lot more time to focus my attention on creating, and a lot less on working odd jobs or doing emergency art commissions. More paintings, illustrations, fanart, fancomics and my own personal comic projects!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "432915",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 4,
+     "created_at": "2016-05-21T04:16:13+00:00",
+     "description": "At this goal, I can sit down and start to get enough together to get some new equipment, a better tablet, better streaming devices--I\u0027d be able to stream tutorials and make art book and comic publications! I might even be able to pay bills...",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "432916",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 80000,
+     "completed_percentage": 2,
+     "created_at": "2016-05-30T19:47:21+00:00",
+     "description": "At this goal I will hold a raffle for a short 3-5 page comic, content and characters are up to the winner! I could buy myself some new boots too...",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "441057",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 2,
+     "created_at": "2016-06-01T20:02:27+00:00",
+     "description": "I\u0027ll be making enough to have COOL SHIT in my online shop!! Lanyards! Acrylic minis!! Full sticker sheets!! Maybe even a limited run of some hardcover art books!! I\u0027ll even be able to attend more conventions--and possibly even make it out of the Midwest to sell at other conventions!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "443023",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 1,
+     "created_at": "2016-06-19T16:46:30+00:00",
+     "description": "WOW.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "459161",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/370924"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e5bc0f7f-a407-4fcc-87da-ab46a0e1858c",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Kimi Sisson is creating Art and Comics"
+});
+    </script>

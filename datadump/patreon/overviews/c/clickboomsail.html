@@ -1,0 +1,527 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Y-SWW1Jno3u3wyWXKPxXndEvIZtss71Y1xIpl4Wab8g";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "422972",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/422972"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-11-17T06:15:20+00:00",
+    "creation_name": "Real life shows as we learn to sail, find a boat, and sail away",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/613245/882d330b06ee41d2bbf41518a69f9b51?token-time=2145916800\u0026token-hash=0FL4cB4VyhTiERNXxjwI4Pr-YEocYFak7acEU1olzGc%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/613245/882d330b06ee41d2bbf41518a69f9b51?token-time=2145916800\u0026token-hash=5hgJ3KMU2LTQx57K4lCYSXm7aTfH_Zz22rI3AVVygcI%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/VNA4Ah8fz4g\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/VNA4Ah8fz4g",
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "Captain\u0027s Log",
+    "pledge_sum": 900,
+    "pledge_url": "/bePatron?c=613245",
+    "published_at": "2017-04-23T11:41:20+00:00",
+    "summary": "We love to share with you our lives and our journey on land and sea. If you like who we are or what we do, please consider an Exclusive Membership and join us on Patreon where our Captain\u0027s Logs will be ad free and available one week prior to worldwide release. Exclusive Membership to Click Boom Sail gives you additional photos, video content, opportunities to join us aboard our boat, and personal interaction within Patreon."
+   },
+   "id": "613245",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4441508",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4441508"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "613743",
+       "type": "goal"
+      },
+      {
+       "id": "613744",
+       "type": "goal"
+      },
+      {
+       "id": "613745",
+       "type": "goal"
+      },
+      {
+       "id": "613746",
+       "type": "goal"
+      },
+      {
+       "id": "613747",
+       "type": "goal"
+      },
+      {
+       "id": "613748",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-613245",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-613245"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1055774",
+       "type": "reward"
+      },
+      {
+       "id": "1055775",
+       "type": "reward"
+      },
+      {
+       "id": "1055776",
+       "type": "reward"
+      },
+      {
+       "id": "1055779",
+       "type": "reward"
+      },
+      {
+       "id": "1055778",
+       "type": "reward"
+      },
+      {
+       "id": "1055838",
+       "type": "reward"
+      },
+      {
+       "id": "1055837",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-11-17T06:14:55+00:00",
+     "facebook": "https://www.facebook.com/clickboomsail/",
+     "first_name": "Click",
+     "full_name": "Click Boom Sail",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4441508/ce82b33a0e8e4461bf86b01b48bbff8f?token-time=2145916800\u0026token-hash=SN7ib3qE8yMlu93BMR74YAloD158-CWzYj9QK4anLuY%3D",
+     "last_name": "Boom Sail",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4441508/ce82b33a0e8e4461bf86b01b48bbff8f?token-time=2145916800\u0026token-hash=t-pqPTQ9RRvaL6uBbYOzJMpkOWOwpoTK8nRyOx9gmeA%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/clickboomsail",
+     "vanity": "clickboomsail",
+     "youtube": "https://www.youtube.com/channel/UCsQWI13k_OxnR0QPITL4Jtg"
+    },
+    "id": "4441508",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "613245",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/613245"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 2,
+     "upgrade_url": "/bePatron?c=613245\u0026rid=1055775"
+    },
+    "id": "post-aggregation-for-0-613245",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-17T08:01:33+00:00",
+     "description": "You\u0027re officially a Member and will have access to our Captain\u0027s Logs ad free and one week prior to their worldwide YouTube release date. You will also be listed in the Credits for each Captain\u0027s Log.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-30T05:06:28.451374+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1055774/0b33ce4f899047f685805f9e5c281ac5?token-time=2145916800\u0026token-hash=kkTnykEnvO0lXMTlZ6l1cHWUUzbNSxeKZafIXOv_qYQ%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-30T05:06:28.444651+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Likes Sailing",
+     "unpublished_at": null,
+     "url": "/bePatron?c=613245\u0026rid=1055774",
+     "user_limit": null
+    },
+    "id": "1055774",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-17T08:01:33+00:00",
+     "description": "Previously mentioned bonus, plus access to unlisted video shorts or raw footage for your eyes only.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-30T05:08:02.004739+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1055775/313fe52a40424669a6068c955b144687?token-time=2145916800\u0026token-hash=EkTw8o2ZH6yUihtw_PuA0frP4EyAEdBpT8KgzIE5A7k%3D",
+     "patron_count": 2,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-30T05:08:01.994618+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Likes Cats",
+     "unpublished_at": null,
+     "url": "/bePatron?c=613245\u0026rid=1055775",
+     "user_limit": null
+    },
+    "id": "1055775",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2016-11-17T08:01:33+00:00",
+     "description": "You\u0027ll receive a hand written thank you note from the Captain and Number One, plus all previously mentioned rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-30T05:09:36.701394+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1055776/03a82a620c374ebcafdccbb3e715500d?token-time=2145916800\u0026token-hash=aa7AYFya1BC_4KlHjwsh-7-iMr4PC8zNGyhDoD1ziZM%3D",
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-03-30T05:09:36.694182+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Cat\u0027s Purr",
+     "unpublished_at": null,
+     "url": "/bePatron?c=613245\u0026rid=1055776",
+     "user_limit": null
+    },
+    "id": "1055776",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1300,
+     "amount_cents": 1300,
+     "created_at": "2016-11-17T08:01:33+00:00",
+     "description": "13 has been a very lucky number for us. Join us with this unique contribution to our creations and you get unique recognition. Also, all previously mentioned rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-14T04:39:19.451059+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1055779/b47887033c7249f79987ed36a811ee26?token-time=2145916800\u0026token-hash=gWCbdDwnsiAHz3WtuJZd1wo-1FEOwGzpCpD14Mpf6Co%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-17T06:34:43+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Cat\u0027s Tail",
+     "unpublished_at": null,
+     "url": "/bePatron?c=613245\u0026rid=1055779",
+     "user_limit": null
+    },
+    "id": "1055779",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1700,
+     "amount_cents": 1700,
+     "created_at": "2016-11-17T08:01:33+00:00",
+     "description": "Send us footage of yourself talking about sailing, something you\u0027ve done, or talk about supporting Click Boom Sail and we\u0027ll include it in a Captain\u0027s Log, plus all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-30T19:04:37.878424+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1055778/10ac4c5a756247d9b2c0d5b7b4afb98d?token-time=2145916800\u0026token-hash=cwocF_vznKxnrxjB2qlZUPw3TLpKZ8XRRdvRtgpeUL8%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-17T06:34:43+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Cat\u0027s Meow",
+     "unpublished_at": null,
+     "url": "/bePatron?c=613245\u0026rid=1055778",
+     "user_limit": null
+    },
+    "id": "1055778",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2300,
+     "amount_cents": 2300,
+     "created_at": "2016-11-17T08:01:33+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eExecutive Producer credits in our videos\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-30T19:05:52.660566+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1055838/b6cdafb839064b4aaaf1cf33af585e24?token-time=2145916800\u0026token-hash=SJHIxlw8UoXFOAG4Udjgz2WBVCmfH2dWO5oluYITc3E%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-17T06:54:03+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Cat Finally",
+     "unpublished_at": null,
+     "url": "/bePatron?c=613245\u0026rid=1055838",
+     "user_limit": null
+    },
+    "id": "1055838",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5300,
+     "amount_cents": 5300,
+     "created_at": "2016-11-17T08:01:33+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eInvitation to board and sail on Finally\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-30T19:07:08.099773+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1055837/187e41f85b894676ab85ead1b54a6e68?token-time=2145916800\u0026token-hash=eOU_W7POJcdywudj-ldTeoGZIXv7ZyIRDvrQegcT_Gw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-17T06:54:03+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Catimus Prime",
+     "unpublished_at": null,
+     "url": "/bePatron?c=613245\u0026rid=1055837",
+     "user_limit": null
+    },
+    "id": "1055837",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5300,
+     "completed_percentage": 16,
+     "created_at": "2016-11-17T07:56:24+00:00",
+     "description": "When we reach $53 per Captain\u0027s Log we will include audio during the credits of the next video to recognize each of our Founding Members.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "613743",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10100,
+     "completed_percentage": 8,
+     "created_at": "2016-11-17T07:56:24+00:00",
+     "description": "At the $101 per Captain\u0027s Log level we\u0027ll go over 101 ways to pet a cat.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "613744",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 31100,
+     "completed_percentage": 2,
+     "created_at": "2016-11-17T07:56:24+00:00",
+     "description": "At this level Click Boom Sail will have a special video presentation for everyone to see highlighting Members. It\u0027s all about YOU!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "613745",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 101300,
+     "completed_percentage": 0,
+     "created_at": "2016-11-17T07:56:24+00:00",
+     "description": "At this point, we may consult Chris Carter for some Direction on a Captain\u0027s Log.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "613746",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 301100,
+     "completed_percentage": 0,
+     "created_at": "2016-11-17T07:56:24+00:00",
+     "description": "Now hiring Crew! Videos will get much better when more camera angles are available and other perspectives on editing are introduced. Help running the lines is a plus as well.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "613747",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 511300,
+     "completed_percentage": 0,
+     "created_at": "2016-11-17T07:56:24+00:00",
+     "description": "13 has been a very lucky number for us. When preceded by a 5 and a 1, Number One can put to rest any inkling of the Captain returning to the career in health care. Creating high quality exciting content for our members is our number one goal. At this goal, we stop starting IVs, drawing blood, taking X-Rays, or cleaning up \"code brown\" situations.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "613748",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/613245"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "6a361e61-d295-4657-b9ea-d58366b8df00",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Click Boom Sail is creating Real life shows as we learn to sail, find a boat, and sail away"
+});
+    </script>

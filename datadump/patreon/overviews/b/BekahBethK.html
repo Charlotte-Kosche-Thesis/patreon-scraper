@@ -1,0 +1,401 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Wy_j0R3Kv1ezJ3w9Em1O7fHVEXEZeY0ipeWiTELteoY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "81762",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/81762"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-04-15T04:11:23+00:00",
+    "creation_name": "Silly Little Stories",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/88147/8d8cfd23583e4101a235e06c922d8254?token-time=2145916800\u0026token-hash=etXZ2usDE5WCNw8Ar62jEc6bdEkRxRTMm4tt5dPhwbA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/88147/8d8cfd23583e4101a235e06c922d8254?token-time=2145916800\u0026token-hash=xu75jSiyi-eOH72js9tg9To8ydQdqTbdl0x-_upfLgs%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "It\u0027s just the silly stuff bouncing around in my skull",
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 450,
+    "pledge_url": "/bePatron?c=88147",
+    "published_at": "2015-06-01T16:27:05+00:00",
+    "summary": "Why Hello!\u003cbr\u003eI write because I love it. Unfortunately, love doesn\u0027t pay the bills. \u00a0Besides the basics of food, shelter, etc, I also have student loans that I\u0027m trying to pay off. In order to fund all of that I have to work a lot, which means I have less and less time to dedicate to writing and editing and making decent stories.\u003cbr\u003e\u003cbr\u003eAny and all money that you can give me here will go towards paying off those bills and reducing my stress. \u00a0With more time, I can dedicate myself to writing and editing more every day, and give you all better quality work on a more regular basis. And what\u0027s not to like about better quality?\u003cbr\u003e\u003cbr\u003eHowever, if I don\u0027t hold up my end of the bargain, I don\u0027t deserve your money. \u00a0If I miss posts, then you won\u0027t get charged. \u00a0That\u0027s only fair, right? You give me what you can, and I\u0027ll make sure to give you the work I\u0027ve promised. That means that you get at least one story a day, all posted up on butsowhat.wordpress.com. So, donate what you think is worth those little rambles.\u003cbr\u003e"
+   },
+   "id": "88147",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "134015",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/134015"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "64212",
+       "type": "goal"
+      },
+      {
+       "id": "64213",
+       "type": "goal"
+      },
+      {
+       "id": "64214",
+       "type": "goal"
+      },
+      {
+       "id": "64236",
+       "type": "goal"
+      },
+      {
+       "id": "64237",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "86711",
+       "type": "reward"
+      },
+      {
+       "id": "86708",
+       "type": "reward"
+      },
+      {
+       "id": "86709",
+       "type": "reward"
+      },
+      {
+       "id": "86710",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I write. A lot. \u00a0Most of it is just silly nonsense, but occasionally I stumble onto something good. That\u0027s half the fun, huh?\u00a0\u003cbr\u003e\u003cbr\u003eBuildingadoor.wordpress.com\u003cbr\u003eButsowhat.wordpress.com",
+     "created": "2014-04-15T04:11:23+00:00",
+     "facebook": "https://www.facebook.com/BekahBethK",
+     "first_name": "Bekah",
+     "full_name": "Bekah Beth Kerr",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/134015/a72bcf1ed4a54ba9b14987194d4eafe0?token-time=2145916800\u0026token-hash=nBKwXyQXcnxb_LeHW7-lDqIy_q5Bw4LUQ0MJI43X0IA%3D",
+     "last_name": "Beth Kerr",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/134015/a72bcf1ed4a54ba9b14987194d4eafe0?token-time=2145916800\u0026token-hash=C_nYuGdNcch1QC9nEbsawaBZr7vho50BcmxLkKpXeY0%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/BekahBethK",
+     "vanity": "BekahBethK",
+     "youtube": null
+    },
+    "id": "134015",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "88147",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/88147"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2014-09-14T10:21:36+00:00",
+     "description": "For only a dollar you can get access to my patreon\u0027s only feed, with news about up coming projects and access to some things earlier than the average joe. \u00a0It\u0027s the least I can do. (Literally. Sorry)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-09-14T10:21:36+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=88147\u0026rid=86711",
+     "user_limit": null
+    },
+    "id": "86711",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2014-09-14T10:21:36+00:00",
+     "description": "Anyone who can manage fifteen bucks a month to help me out is granted one wish--albeit a small one because I\u0027m not a genie and can only do so much. Anything you want me to write, it\u0027s yours. \u00a0A prompt you like. A first line you want me to work off. A character you want me to do more with. Whatever. It\u0027s yours. \u00a0Just ask.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-09-14T10:21:36+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=88147\u0026rid=86708",
+     "user_limit": null
+    },
+    "id": "86708",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2014-09-14T10:21:36+00:00",
+     "description": "For thirty a month, in addition to your little wish from before, I\u0027ll send you a personal thank you note. \u00a0I might even write it all out in pretty colors if you\u0027d be interested in something like that.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-09-14T10:21:36+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=88147\u0026rid=86709",
+     "user_limit": null
+    },
+    "id": "86709",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2014-09-14T10:21:36+00:00",
+     "description": "Seventy-Five! Oh man. For that, I\u0027ll give you the little wish, and the personal thank you note and a big wish! A hangout chat with me, a video or story dedicated to you, anything! \u00a0Dream big! Well, not too big, because I\u0027m still not a genie--but if it\u0027s in my power, ask away.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2014-09-14T10:21:36+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=88147\u0026rid=86710",
+     "user_limit": null
+    },
+    "id": "86710",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 9,
+     "created_at": "2014-09-14T09:34:36+00:00",
+     "description": "With this amount, I can start putting together a brand for us all to enjoy. I can take the wordpress out of my account names. I can pull everything together on one webpage. I can make myself some logos and maybe even get some pretty pictures to go with my reoccurring stories. All in all, I will make everything a much pretty place to look at.",
+     "reached_at": null,
+     "title": "Building a Brand"
+    },
+    "id": "64212",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 35000,
+     "completed_percentage": 1,
+     "created_at": "2014-09-14T09:34:36+00:00",
+     "description": "I can finally pay off my student loans by writing alone. \u00a0It\u0027s an English Majors dream. \u00a0With one less bill to pay, I can spend less time at my day job, and more time making things up for you guys. I also promise to increase my number of posts a week so you can get more bang for your bucks. I\u0027ll add a weekly installment bigger story in addition to the daily short stories I post.\u00a0",
+     "reached_at": null,
+     "title": "The Degree Was Worth It!"
+    },
+    "id": "64213",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 170000,
+     "completed_percentage": 0,
+     "created_at": "2014-09-14T09:34:36+00:00",
+     "description": "This is an absolute pipe dream, but I figured I\u0027d stick it here anyway. \u00a0This would be what I need a week to pay all my bills, rent, buy food, start saving, etc. \u00a0Basically, this is what it would take for me to be able to quit my day job and dedicate myself to writing full time. If we can reach this goal, I will set up a poll to figure out what you guys want as a reward for this, because I will be beyond grateful.",
+     "reached_at": null,
+     "title": "Oh My Goodness"
+    },
+    "id": "64214",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 0,
+     "created_at": "2014-09-14T10:32:48+00:00",
+     "description": "If you guys have that kind of support in me, the least I can give you is a little more. \u00a0 I\u0027ll be updating my editing software and start uploading weekly videos, about what I\u0027m writing, how my life is going, answering any questions you guys have for me, \"Dramatic\" readings of some of my stories, whatever you guys want.\u00a0\u003cbr /\u003e",
+     "reached_at": null,
+     "title": "More Media"
+    },
+    "id": "64236",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 70000,
+     "completed_percentage": 0,
+     "created_at": "2014-09-14T10:32:48+00:00",
+     "description": "At this point, I\u0027ll gladly up my videos to twice a week. \u00a0You know, if you guys aren\u0027t already sick of my face at that point.",
+     "reached_at": null,
+     "title": "More of my face"
+    },
+    "id": "64237",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/88147"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "a9d4b351-87c5-4ac9-8456-d8eb356106f7",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Bekah Beth Kerr is creating Silly Little Stories"
+});
+    </script>

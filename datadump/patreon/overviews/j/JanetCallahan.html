@@ -1,0 +1,479 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "kwnt0Ajw12yh0ZBZXIrO86JuvBCt3xLcx4x_PtNnyVw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "174919",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/174919"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-12-28T22:30:22+00:00",
+    "creation_name": "Magical Parenting and more",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/256893/5403c34dfc1641eaa34e915e63ef9179?token-time=2145916800\u0026token-hash=O280swfX-Nc9dl6YuL1yUO4t5Ei7mp4XFr8DABIcBv8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/256893/5403c34dfc1641eaa34e915e63ef9179?token-time=2145916800\u0026token-hash=H2AetmgTJj2ZVeVxmTVzxYZTMNZMftj7fn3fM5O78QQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=256893",
+    "published_at": "2016-06-12T22:16:11+00:00",
+    "summary": "I\u0027m a mom living in the suburbs of Detroit with my two children with multiple special needs, working as an engineer in the auto industry.\u00a0\u003cbr\u003e\u003cbr\u003eBut I\u0027m also a Pagan author and artist, a Reiki master who is fascinated with exploring other vibrational energy techniques, and an all around creative person.\u00a0\u003cbr\u003e\u003cbr\u003eI\u0027ve written a book called \"Parenting Pagan Tots,\" I\u0027ve been in a number of anthologies, and I write a regular column for Sage Woman.\u003cbr\u003e\u003cbr\u003eI\u0027m getting started on my next book, Magical Parenting, and I\u0027m inviting you along for the journey. Patrons will see sneak peeks, outlines, and work in progress samples along the way.\u003cbr\u003e\u003cbr\u003eThere are other projects in the works too, so you\u0027ll probably hear about them."
+   },
+   "id": "256893",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2667377",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2667377"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "453159",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-256893",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-256893"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "576949",
+       "type": "reward"
+      },
+      {
+       "id": "611993",
+       "type": "reward"
+      },
+      {
+       "id": "576950",
+       "type": "reward"
+      },
+      {
+       "id": "576951",
+       "type": "reward"
+      },
+      {
+       "id": "576952",
+       "type": "reward"
+      },
+      {
+       "id": "576953",
+       "type": "reward"
+      },
+      {
+       "id": "1782497",
+       "type": "reward"
+      },
+      {
+       "id": "576954",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I\u0027m a suburban Detroit mom and automotive engineer...who is also a Pagan, a writer, an artist, a healer, and a priestess.",
+     "created": "2015-12-28T22:26:16+00:00",
+     "facebook": "https://www.facebook.com/JanetCallahanWriter/",
+     "first_name": "Janet",
+     "full_name": "Janet",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2667377/239d757810db4276b338f6e8ffb9858e?token-time=2145916800\u0026token-hash=9oQlaqMedgckbV_CB0WamLwqS_3um9AeskgGxfD92R8%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2667377/239d757810db4276b338f6e8ffb9858e?token-time=2145916800\u0026token-hash=qJ1jx7XuiH4VtHn9Ld9EvLUoP36JdGZ339CCeCT5BNo%3D",
+     "twitch": "",
+     "twitter": "kadiera",
+     "url": "https://www.patreon.com/JanetCallahan",
+     "vanity": "JanetCallahan",
+     "youtube": ""
+    },
+    "id": "2667377",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "256893",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/256893"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 3,
+     "upgrade_url": "/bePatron?c=256893\u0026rid=576949"
+    },
+    "id": "post-aggregation-for-0-256893",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-16T14:52:14+00:00",
+     "description": "Hi friend! \u00a0Glad you\u0027re here! At this level, you get access to the patrons-only feed, your name in my Reiki box every week, and my eternal gratitude",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-20T23:18:58.606287+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-07-23T20:58:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Internet Friends",
+     "unpublished_at": null,
+     "url": "/bePatron?c=256893\u0026rid=576949",
+     "user_limit": null
+    },
+    "id": "576949",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-11-16T14:52:14+00:00",
+     "description": "Hey, do I know you? \u00a0Have we met in person? \u00a0Should I follow you on twitter? (really - I will if you want!) \u00a0At this level, you\u0027ll get the patrons-only feed, your name in the Reiki box, plus at least one \"work in progress\" sneak peek each month",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-20T23:18:36.712582+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-07-23T20:58:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Better Friends",
+     "unpublished_at": null,
+     "url": "/bePatron?c=256893\u0026rid=611993",
+     "user_limit": null
+    },
+    "id": "611993",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-16T14:52:14+00:00",
+     "description": "Hey, it\u0027s like going out for Starbucks with me every month! At this level, you get the patrons-only feed, your name in the Reiki box, a monthly sneak peek, and access to polls on what chapter I should work on next",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-20T23:01:29.032964+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-07-23T20:58:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Coffee Klatch",
+     "unpublished_at": null,
+     "url": "/bePatron?c=256893\u0026rid=576950",
+     "user_limit": null
+    },
+    "id": "576950",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-11-16T14:52:14+00:00",
+     "description": "When I eventually get rich and open my energy work practice, I\u0027m going to call it Good Vibrations Energy Studio. This level gets you the patrons-only feed, your name in the Reiki box, the special sneak peek, the ability to participate in polls, and a monthly special post on energy work.",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-20T23:07:39.198610+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-07-23T20:58:23+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Good Vibrations",
+     "unpublished_at": null,
+     "url": "/bePatron?c=256893\u0026rid=576951",
+     "user_limit": null
+    },
+    "id": "576951",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-11-16T14:52:14+00:00",
+     "description": "Flower essences are one of my favorite things in the whole world for dealing with life\u2019s challenges. \u00a0This level gets you the patrons-only feed, your name in the Reiki box, the special sneak peek, the ability to participate in polls, a monthly special post on energy work, and a monthly flower essence of my choosing.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-20T23:10:44.437192+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-07-23T20:58:23+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "I\u0027ve Got Your Bach",
+     "unpublished_at": null,
+     "url": "/bePatron?c=256893\u0026rid=576952",
+     "user_limit": null
+    },
+    "id": "576952",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-11-16T14:52:15+00:00",
+     "description": "It\u0027s a tough job being a Pagan parent some days, because you often have to figure it out on your own. This level of support gets you a monthly 30 minute consultation with me on the Pagan Parenting topic of your choice, plus the patrons-only feed, your name in the Reiki box, the special sneak peek, the ability to participate in polls, and a monthly special post on energy work.",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-20T23:12:46.629178+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-07-23T20:58:23+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Mother (or Father) of the Year",
+     "unpublished_at": null,
+     "url": "/bePatron?c=256893\u0026rid=576953",
+     "user_limit": null
+    },
+    "id": "576953",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-06-20T23:15:31.845007+00:00",
+     "description": "For the Reiki lovers out there. A monthly distance Reiki session, and a one-time gift of a Peace, Love, Reiki t-shirt in the size of your choice. \u00a0Plus you get the patrons-only feed, your name in the Reiki box, the special sneak peek, the ability to participate in polls, and a monthly special post on energy work.",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-20T23:15:31.845007+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-20T23:15:31.845007+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Peace, Love, and Reiki",
+     "unpublished_at": null,
+     "url": "/bePatron?c=256893\u0026rid=1782497",
+     "user_limit": null
+    },
+    "id": "1782497",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-11-16T14:52:15+00:00",
+     "description": "Hey, you rock! \u00a0Very generous. \u00a0This tier gets you a monthly gift which may include runes, a book, or something else from my stash of created goodies. Patrons at this level will get a poll for those choices. \u00a0Plus, you get the patrons-only feed, your name in the Reiki box, the special sneak peek, the ability to participate in polls, and a monthly special post on energy work.",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-20T23:17:48.427814+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-07-23T20:58:23+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "You Rock!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=256893\u0026rid=576954",
+     "user_limit": null
+    },
+    "id": "576954",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 1,
+     "created_at": "2016-06-12T21:55:47+00:00",
+     "description": "When I reach $50 total per month, I\u0027ll write a new ebook, and let patrons vote for the topic, and they will get it for free.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "453159",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/256893"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "cb4771ea-5487-47f8-a166-b02c66129e85",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Janet is creating Magical Parenting and more"
+});
+    </script>

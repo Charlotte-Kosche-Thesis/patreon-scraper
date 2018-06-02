@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "KZmH6TeKd3hEpVA5wPl-22fb0OoFR1sllv6n23mAWcY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "301952",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/301952"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-11-17T00:52:54+00:00",
+    "creation_name": "The Phasing Line Podcast",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/612867/ea4c86da56684b0ba811beb276056650?token-time=2145916800\u0026token-hash=7BWbodWYaXVu9lF7AFlpe0wQzLjtjAnHoRVM9tpRxdY%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/612867/ea4c86da56684b0ba811beb276056650?token-time=2145916800\u0026token-hash=WN-SFQoGNoD3N6fyeawKwTwGoNXd-m08uQTsZ_UC0DQ%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "episode",
+    "pledge_sum": 1800,
+    "pledge_url": "/bePatron?c=612867",
+    "published_at": "2016-11-17T15:56:04+00:00",
+    "summary": "The Phasing Line Podcast is brought to you by Marty Sullaway KC1CWF, and Sterling Coffey, N0SSC, whose combined age is still less than that of the average ham radio operator. We hope to bring some interesting conversation to the table like no other ham radio podcast on the market. We talk about everything - literally everything - in ham radio. Whether it\u0027s about a four-square array, or the D-STAR/System Fusion/DMR debate, youth, or SDR architecture, we have it all. \u003cbr\u003e\u003cbr\u003eAs young people, we aim to promote the interests of youth in ham radio and make the hobby great for the next generation of radio amateurs.\u00a0\u003cbr\u003e\u003cbr\u003eThank you for finding your way to our Patreon page, and a much bigger thank you to donating. Every bit helps!\u00a0\u003cbr\u003e\u003cbr\u003eThe podcast is available in all major podcast catchers, and at \u003ca href=\"http://phasinglinepodcast.com.\" rel=\"nofollow\"\u003ehttp://phasinglinepodcast.com.\u003c/a\u003e"
+   },
+   "id": "612867",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4439855",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4439855"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "613509",
+       "type": "goal"
+      },
+      {
+       "id": "613510",
+       "type": "goal"
+      },
+      {
+       "id": "613511",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-612867",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-612867"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1054614",
+       "type": "reward"
+      },
+      {
+       "id": "1385623",
+       "type": "reward"
+      },
+      {
+       "id": "1054615",
+       "type": "reward"
+      },
+      {
+       "id": "1054616",
+       "type": "reward"
+      },
+      {
+       "id": "1054619",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Marty and Sterling are two intrepid ham radio youths that aspire to make the hobby welcoming to the next generation of radio amateurs. They host the Phasing Line Podcast, available on \u003ca href=\"https://itunes.apple.com/us/podcast/the-phasing-line-podcast/id1172677397?mt=2\"\u003eiTunes\u003c/a\u003e, \u003ca href=\"http://www.stitcher.com/podcast/phasing-line-podcast\"\u003eStitcher\u003c/a\u003e, \u003ca href=\"http://pca.st/q3e9\"\u003ePocketcasts\u003c/a\u003e, \u003ca href=\"https://overcast.fm/itunes1172677397/the-phasing-line-podcast\"\u003eOvercast\u003c/a\u003e,\u00a0\u003ca href=\"https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic\u0026amp;isi=691797987\u0026amp;ius=googleplaymusic\u0026amp;link=https://play.google.com/music/m/Iijy3nwsrb5spycwe3ka5d7eesu?t%3DThe_Phasing_Line_Podcast%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16\"\u003eGoogle Play Music\u003c/a\u003e, and at \u003ca href=\"http://phasinglinepodcast.com.\"\u003ehttp://phasinglinepodcast.com.\u003c/a\u003e \u003cbr\u003e\u003cbr\u003eSterling, \u003ca href=\"http://phasinglinepodcast.libsyn.com/content/qrz.com/db/n0ssc\"\u003eN0SSC\u003c/a\u003e: 25 year old electrical engineer from St. Louis, Missouri who\u2019s in the hobby for contesting, youth engagement, and just about everything else. He\u2019s a former ARRL youth editor. \u003ca href=\"http://n0ssc.com/\"\u003ehttp://n0ssc.com\u003cbr\u003e\u003c/a\u003e\u003cbr\u003eMarty, \u003ca href=\"http://phasinglinepodcast.libsyn.com/content/qrz.com/db/kc1cwf\"\u003eKC1CWF\u003c/a\u003e: The infamous \u201cchicken with fries,\u201d  is a 15 year old ham from the Boston, MA area, who loves contesting, DXing, building stations and mentoring others. He is very involved in ham radio related media production and web content. \u003ca href=\"https://chickenwithfries.wordpress.com/author/kc1cwf/\"\u003ehttps://chickenwithfries.wordpress.com/author/kc1cwf/\u003c/a\u003e",
+     "created": "2016-11-17T00:52:29+00:00",
+     "facebook": "https://www.facebook.com/PhasingLinePodcast/",
+     "first_name": "Marty,",
+     "full_name": "Marty, KC1CWF and Sterling, N0SSC",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4439855/33eb770335ab4ed78c6bea0c82f47b96?token-time=2145916800\u0026token-hash=2_cIEq2G4_9Y69gq0vi9ORR5s1AGxxnPYd_LTkmCsuY%3D",
+     "last_name": "KC1CWF and Sterling, N0SSC",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4439855/33eb770335ab4ed78c6bea0c82f47b96?token-time=2145916800\u0026token-hash=gtCnb2gl00D5c-yKoWz_ck9Axjfw8s5QCl37yRSnRJo%3D",
+     "twitch": null,
+     "twitter": "phasingline",
+     "url": "https://www.patreon.com/PhasingLinePodcast",
+     "vanity": "PhasingLinePodcast",
+     "youtube": "https://www.youtube.com/channel/UCsCtm3fqCHKqKvvSimaLyjA"
+    },
+    "id": "4439855",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "612867",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/612867"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 3,
+     "upgrade_url": "/bePatron?c=612867\u0026rid=1054614"
+    },
+    "id": "post-aggregation-for-0-612867",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-17T04:46:17+00:00",
+     "description": "Even though the SWR is through the roof, it\u0027ll still tune up every band!\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eJoin the community, and you\u0027ll be featured on the show by name and/or callsign - if you want \u00a0- and receive a big thank you!\u003c/p\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eJoin the patron community\u003c/li\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eYour name in the credits\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-05T04:09:50.779401+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-17T00:55:10+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Wet Noodle",
+     "unpublished_at": null,
+     "url": "/bePatron?c=612867\u0026rid=1054614",
+     "user_limit": null
+    },
+    "id": "1054614",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-02-08T17:35:21.113007+00:00",
+     "description": "For our Patron\u0027s who want to give a bit more than $1. You\u0027ll have your own place on the show, with a mention at the end of \u00a0every show and on the shownotes page, and you\u0027ll get to join our Patron-only livestreams/chatroom (if we ever set it up)\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eJoin the patron community\u003c/li\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eYour name in the credits\u003c/li\u003e\u003cli\u003eEarly access to my work\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-01T15:02:42.122611+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-08T17:35:21.113007+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Random Wire",
+     "unpublished_at": null,
+     "url": "/bePatron?c=612867\u0026rid=1385623",
+     "user_limit": null
+    },
+    "id": "1385623",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-11-17T04:46:17+00:00",
+     "description": "Whoa, now you\u0027re talking! Get a super big mention on the show in support of our gratitude - you just paid for this months web hosting expenses!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eJoin the patron community\u003c/li\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eYour name in the credits\u003c/li\u003e\u003cli\u003eEarly access to my work\u003c/li\u003e\u003cli\u003eMonthly Q\u0026amp;A\u003c/li\u003e\u003cli\u003ePatron-only livestreams \u0026amp; chatroom\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-01T14:57:55.928730+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-17T00:55:10+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Dipole",
+     "unpublished_at": null,
+     "url": "/bePatron?c=612867\u0026rid=1054615",
+     "user_limit": null
+    },
+    "id": "1054615",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-11-17T04:46:17+00:00",
+     "description": "We never thought you would donate this much, and we really don\u0027t have the budget for patron swag....BUT NOW WE DO thanks to you!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eJoin the patron community\u003c/li\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eYour name in the credits\u003c/li\u003e\u003cli\u003eEarly access to my work\u003c/li\u003e\u003cli\u003eMonthly Q\u0026amp;A\u003c/li\u003e\u003cli\u003ePatron-only livestreams \u0026amp; chatroom\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-01T14:59:39.905317+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-17T00:55:10+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tribander",
+     "unpublished_at": null,
+     "url": "/bePatron?c=612867\u0026rid=1054616",
+     "user_limit": null
+    },
+    "id": "1054616",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2016-11-17T04:46:17+00:00",
+     "description": "Wow. Literally. Wow. You\u0027re our official hero, and we couldn\u0027t be more grateful for it! Get all the stuff we have to offer and expect a skype call to collaborate with the Phasing Line Team!\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eJoin the patron community\u003c/li\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eYour name in the credits\u003c/li\u003e\u003cli\u003eEarly access to my work\u003c/li\u003e\u003cli\u003eMonthly Q\u0026amp;A\u003c/li\u003e\u003cli\u003ePatron-only livestreams \u0026amp; chatroom\u003c/li\u003e\u003cli\u003eJoin as a guest\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-01T15:08:46.861885+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-17T00:55:10+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Stacked Yagis",
+     "unpublished_at": null,
+     "url": "/bePatron?c=612867\u0026rid=1054619",
+     "user_limit": null
+    },
+    "id": "1054619",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5500,
+     "completed_percentage": 32,
+     "created_at": "2016-11-17T02:46:39+00:00",
+     "description": "Breaking even is always nice, but it leaves so much room for growth. Running a podcast isn\u0027t free, and at least at this point, we aren\u0027t loosing money, and that\u0027s all we hope for!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "613509",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 24,
+     "created_at": "2016-11-17T02:46:39+00:00",
+     "description": "We\u0027ll finally get a little bit of an upgrade! Expect logo-covered clothing for sale, and some higher quality production gear, and more episodes.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "613510",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 7,
+     "created_at": "2016-11-17T02:46:39+00:00",
+     "description": "WHAT HOLY COW wow this is a lot. If we make this much a month, we\u0027ll bring our gear to hamfests and produce in-the-field content, start up subscriber-only specials as well as video content!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "613511",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/612867"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "30f55ec4-9513-49d9-b26d-8bc33ff217b9",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Marty, KC1CWF and Sterling, N0SSC are creating The Phasing Line Podcast"
+});
+    </script>

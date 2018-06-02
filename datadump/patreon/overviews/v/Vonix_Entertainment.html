@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "3z45VPcBBTGjAjxSMjjWuaSyqYhsuo9fAZI4fCULF50";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "123960",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/123960"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-01-06T17:35:29+00:00",
+    "creation_name": "Videos",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/261871/b00761ab517e4c7fa18684eb166c8a1e?token-time=2145916800\u0026token-hash=qaoYhWe0siVbD1lRmLV-5M_ZVEiOtGKvQeYnmuoluGg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/261871/b00761ab517e4c7fa18684eb166c8a1e?token-time=2145916800\u0026token-hash=KqOfprY0dU7Tdu5usmriuPOq8_KYwbIGZ5W4qXkntHM%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FvcugyIr-Z3s%3Ffeature%3Doembed\u0026amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvcugyIr-Z3s\u0026amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FvcugyIr-Z3s%2Fhqdefault.jpg\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;type=text%2Fhtml\u0026amp;schema=youtube\" width=\"854\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://www.youtube.com/watch?v=vcugyIr-Z3s",
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=261871",
+    "published_at": "2016-01-06T19:44:32+00:00",
+    "summary": "We are a group of friends that create gaming or video content for your amusement. We will be giving to you, our Patrons, videos that will not be released publicly. \u003cbr\u003e"
+   },
+   "id": "261871",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2706465",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2706465"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "318645",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-261871",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-261871"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "400985",
+       "type": "reward"
+      },
+      {
+       "id": "400987",
+       "type": "reward"
+      },
+      {
+       "id": "400988",
+       "type": "reward"
+      },
+      {
+       "id": "400989",
+       "type": "reward"
+      },
+      {
+       "id": "400991",
+       "type": "reward"
+      },
+      {
+       "id": "400992",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "We are a group of friends that want to spread joy through the use of our videos. \u003cbr\u003e",
+     "created": "2016-01-06T17:24:06+00:00",
+     "facebook": "https://www.facebook.com/Vonix-Entertainment-885896824808333/",
+     "first_name": "Vonix",
+     "full_name": "Vonix Entertainment",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2706465/c7967c192e7549fb8256f785fa53c293?token-time=2145916800\u0026token-hash=IWOjumKqeOKkXtRGT4VfEKF-wC2jTb5dVoY2LiDofI8%3D",
+     "last_name": "Entertainment",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2706465/c7967c192e7549fb8256f785fa53c293?token-time=2145916800\u0026token-hash=g40wUy7jyL8JtS9aEyd7xQwj9xnIRqkOVuh2W-i1PoY%3D",
+     "twitch": "https://www.twitch.tv/vonix_entertainment",
+     "twitter": "Vonix Entertainment",
+     "url": "https://www.patreon.com/Vonix_Entertainment",
+     "vanity": "Vonix_Entertainment",
+     "youtube": "https://www.youtube.com/channel/UCwED2XCO2iqhx26SoMN4xDQ"
+    },
+    "id": "2706465",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "261871",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/261871"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 6,
+     "upgrade_url": "/bePatron?c=261871\u0026rid=400987"
+    },
+    "id": "post-aggregation-for-0-261871",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-01-06T18:55:12+00:00",
+     "description": "You get our love and compassion.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T18:55:12+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261871\u0026rid=400985",
+     "user_limit": null
+    },
+    "id": "400985",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-01-06T18:55:13+00:00",
+     "description": "You get everything above, but you feel like being an even awesomer person\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T18:55:13+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261871\u0026rid=400987",
+     "user_limit": null
+    },
+    "id": "400987",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-01-06T18:55:13+00:00",
+     "description": "You get everything above plus a Shout Out in our next livestream on twitch.tv.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T18:55:13+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261871\u0026rid=400988",
+     "user_limit": null
+    },
+    "id": "400988",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-01-06T18:55:13+00:00",
+     "description": "You get all the amazing items above plus a Shout Out on our next public video on youTube.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T18:55:13+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261871\u0026rid=400989",
+     "user_limit": null
+    },
+    "id": "400989",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-01-06T18:55:13+00:00",
+     "description": "Holy Cow! You are the most spectaular person in the world. You get everything above as well as we will name a piece of equipment after you. :D\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T18:55:13+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261871\u0026rid=400991",
+     "user_limit": null
+    },
+    "id": "400991",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2016-01-06T18:55:13+00:00",
+     "description": "Good Golly lob lolly! You are super de dupper! You get every thing above and your name goes on our wall of awesomness! \u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-06T18:55:13+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=261871\u0026rid=400992",
+     "user_limit": null
+    },
+    "id": "400992",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 0,
+     "created_at": "2016-01-06T17:56:07+00:00",
+     "description": "This goal is for us to buy new equipment to make our videos better so that we can produce more videos per week.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Equipment"
+    },
+    "id": "318645",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/261871"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "f4bfe673-af4d-40d1-81a8-a6b220716fdd",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Vonix Entertainment is creating Videos"
+});
+    </script>

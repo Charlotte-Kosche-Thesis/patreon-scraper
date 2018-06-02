@@ -1,0 +1,417 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "h-VkErs1W0wIZ3tnTT2JYVPdjr0jlaUsKuJZeRv8ZQY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "82503",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/82503"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-06-06T01:19:43+00:00",
+    "creation_name": "livestreams for charity and more gluten-free content",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/180683/17adee2e64fd47faaf8630981481643c?token-time=2145916800\u0026token-hash=NkzsbFZ7dR7IDtLgz84TdA-Q4NJG2sdMN37ynt0uyuw%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/180683/17adee2e64fd47faaf8630981481643c?token-time=2145916800\u0026token-hash=d0qXzKgN0iRCyTGNhnhyIUYWoX5XXOBlvyQaylQ6zRc%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DUU3Htg1rI7FMWe9qBlD4K18g\u0026url=https%3A%2F%2Fwww.youtube.com%2Fuser%2FGruppetstudios\u0026image=https%3A%2F%2Fyt3.ggpht.com%2F-DIzrup6m5JY%2FAAAAAAAAAAI%2FAAAAAAAAAAA%2FxisycHZLx8c%2Fs900-c-k-no-mo-rj-c0xffffff%2Fphoto.jpg\u0026key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026type=text%2Fhtml\u0026schema=youtube\" width=\"853\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://www.youtube.com/user/Gruppetstudios",
+    "one_liner": "Yeah, THAT Gruppeteer. Donate, will \u0027ya?",
+    "patron_count": 1,
+    "pay_per_name": "livestream, vlog, or comedy",
+    "pledge_sum": 450,
+    "pledge_url": "/bePatron?c=180683",
+    "published_at": "2015-06-06T16:32:33+00:00",
+    "summary": "HEY HEY! I know you simply ADORE my videos, (who doesn\u0027t?) so why not donate a small sum of money to keep the Gruppetstudios train chugging? All profits go towards the Gruppetstudios crew and towards my friend Madeline Carlson, the cancer patient who I made \"Cartoons VS Cancer\" for. I would love some support, and I\u0027m hoping you\u0027ll be one of the loyalists to do so!"
+   },
+   "id": "180683",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "821653",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/821653"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "182061",
+       "type": "goal"
+      },
+      {
+       "id": "182062",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "235713",
+       "type": "reward"
+      },
+      {
+       "id": "235714",
+       "type": "reward"
+      },
+      {
+       "id": "235715",
+       "type": "reward"
+      },
+      {
+       "id": "235716",
+       "type": "reward"
+      },
+      {
+       "id": "589531",
+       "type": "reward"
+      },
+      {
+       "id": "589532",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "\u003cdiv style=\"margin-left: 20px;\"\u003eI\u0027m The Gruppeteer, and I make videos for people on the internet. I vlog about Steven Universe and make original comedies. I can also slice bagels.\u003c/div\u003e",
+     "created": "2015-06-06T01:11:46+00:00",
+     "facebook": null,
+     "first_name": "The",
+     "full_name": "The Gruppeteer",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/821653/0932e9a347cd4505a0302cfd970b8f14?token-time=2145916800\u0026token-hash=GaHd0AyS6PMr_eogoyuwJlHb6p1q-ArhUUqirFI70zk%3D",
+     "last_name": "Gruppeteer",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/821653/0932e9a347cd4505a0302cfd970b8f14?token-time=2145916800\u0026token-hash=kiWJ7W3np7RcGA2nXoV6gdDf1fnWHK__KPEGCqZkPfs%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/givethegruppetabuck",
+     "vanity": "givethegruppetabuck",
+     "youtube": "https://www.youtube.com/user/Gruppetstudios"
+    },
+    "id": "821653",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "180683",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/180683"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-06-23T02:44:12+00:00",
+     "description": "I will give you a shout out at the end of a the next vlog!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-23T02:44:12+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=180683\u0026rid=235713",
+     "user_limit": null
+    },
+    "id": "235713",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-06-23T02:44:12+00:00",
+     "description": "Autographed Gruppeteer picture and Gruppetstudios poster will be sent to you!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-23T02:44:12+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=180683\u0026rid=235714",
+     "user_limit": null
+    },
+    "id": "235714",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-06-23T02:44:12+00:00",
+     "description": "Skype session with The Gruppeteer and I\u0027ll collab on one of your videos.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-23T02:44:12+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=180683\u0026rid=235715",
+     "user_limit": null
+    },
+    "id": "235715",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2016-06-23T02:44:12+00:00",
+     "description": "Auntie Gruppet sings in a music video of \"Stronger Than You\" from Steven Universe.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-23T02:44:12+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=180683\u0026rid=235716",
+     "user_limit": null
+    },
+    "id": "235716",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-06-23T02:44:12+00:00",
+     "description": "You will be praised as my Messiah.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-23T02:44:12+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=180683\u0026rid=589531",
+     "user_limit": null
+    },
+    "id": "589531",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2016-06-23T02:44:12+00:00",
+     "description": "I will personally check you into a mental hospital for giving so much money to a YouTuber. Please donate it elsewhere.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-06-23T02:44:12+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=180683\u0026rid=589532",
+     "user_limit": null
+    },
+    "id": "589532",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500,
+     "completed_percentage": 90,
+     "created_at": "2015-06-06T01:34:10+00:00",
+     "description": "All these pledges go straight towards the cancer treatment of Madeline Carlson, the patient who \"Cartoons VS Cancer\" is for!",
+     "reached_at": "2016-07-06T18:23:01+00:00",
+     "title": ""
+    },
+    "id": "182061",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100,
+     "completed_percentage": 100,
+     "created_at": "2015-06-06T01:34:10+00:00",
+     "description": "Ever since I met my uncle, I knew the existence of a Bigfoot could be possible. Join me in my quest to find, catch, and tame the beast. If caught, we will karaoke every song off a Gary Newman album and play Twister.",
+     "reached_at": "2016-07-05T18:19:07+00:00",
+     "title": ""
+    },
+    "id": "182062",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/180683"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "d02d9cfe-3c07-437e-8aec-2cce21d263ce",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "The Gruppeteer is creating livestreams for charity and more gluten-free content"
+});
+    </script>

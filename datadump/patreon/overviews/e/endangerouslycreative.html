@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "vDC55Cm4jCk6q2t13Nuk1Z1sAi5w1FE6cYL7l76yvPs";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "432989",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/432989"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-05-02T12:34:28+00:00",
+    "creation_name": "paintings and illustrations inspired by animals and nature.",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/901553/651b321b175f4409b4532143917a7e5a?token-time=2145916800\u0026token-hash=znoBaddavp_80fBuz3Z0Skzu-9LKDg3pr9J4ShIPwzE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/901553/651b321b175f4409b4532143917a7e5a?token-time=2145916800\u0026token-hash=9xoPhf_4ZtYjo7aKjFwyTaGXSRNaeHPpmSdNxNUrnxY%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=901553",
+    "published_at": "2017-05-02T12:52:21+00:00",
+    "summary": null
+   },
+   "id": "901553",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5827345",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5827345"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-901553",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-901553"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1656349",
+       "type": "reward"
+      },
+      {
+       "id": "1656348",
+       "type": "reward"
+      },
+      {
+       "id": "1656343",
+       "type": "reward"
+      },
+      {
+       "id": "1656344",
+       "type": "reward"
+      },
+      {
+       "id": "1656347",
+       "type": "reward"
+      },
+      {
+       "id": "1656345",
+       "type": "reward"
+      },
+      {
+       "id": "1656346",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-04-22T03:38:10+00:00",
+     "facebook": "https://www.facebook.com/endangerouslycreative/",
+     "first_name": "Endangerously",
+     "full_name": "Endangerously Creative",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5827345/c671f7c6b888439f9b506449258e848c?token-time=2145916800\u0026token-hash=lfXjnnCwcJU1djdiJW4hqJNdSkLfIQGsGRr71VvqQvw%3D",
+     "last_name": "Creative",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5827345/c671f7c6b888439f9b506449258e848c?token-time=2145916800\u0026token-hash=pt1J75jrJ4zz5Rx47iPmY644wykbp1-th4oACtgENOo%3D",
+     "twitch": null,
+     "twitter": "ECIndustries",
+     "url": "https://www.patreon.com/endangerouslycreative",
+     "vanity": "endangerouslycreative",
+     "youtube": "https://www.youtube.com/channel/UCXwYbINhvih9xY_c9g6Bu9A/featured?view_as=public"
+    },
+    "id": "5827345",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "901553",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/901553"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 99,
+     "upgrade_url": "/bePatron?c=901553\u0026rid=1656349"
+    },
+    "id": "post-aggregation-for-0-901553",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-05-02T13:23:05.552944+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003eSneak peek photos of upcoming releases\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-02T13:23:05.552944+00:00",
+     "image_url": null,
+     "post_count": 38,
+     "published": true,
+     "published_at": "2017-05-02T13:23:05.552944+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Quartz",
+     "unpublished_at": null,
+     "url": "/bePatron?c=901553\u0026rid=1656349"
+    },
+    "id": "1656349",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-05-02T13:23:05.305672+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eHigh-quality downloads of monthly coloring pages\u003c/li\u003e\u003cli\u003eMonthly Livestream\u003c/li\u003e\u003cli\u003eAccess to real time videos\u003c/li\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003eSneak peek photos of upcoming releases\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-07T18:45:45.241646+00:00",
+     "image_url": null,
+     "post_count": 23,
+     "published": true,
+     "published_at": "2017-05-02T13:23:05.305672+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Amethyst",
+     "unpublished_at": null,
+     "url": "/bePatron?c=901553\u0026rid=1656348"
+    },
+    "id": "1656348",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-05-02T13:23:04.932971+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eMonthly patron-only tutorial\u003c/li\u003e\u003cli\u003eMonthly Livestream\u003c/li\u003e\u003cli\u003eHigh-quality downloads of monthly coloring pages\u003c/li\u003e\u003cli\u003eAccess to real time videos\u003c/li\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003eSneak peek photos of upcoming releases\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-07T18:45:44.397885+00:00",
+     "image_url": null,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2017-05-02T13:23:04.932971+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Chalcedony",
+     "unpublished_at": null,
+     "url": "/bePatron?c=901553\u0026rid=1656343"
+    },
+    "id": "1656343",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2017-05-02T13:23:04.975006+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eA hand painted card featuring a surprise flower design and blank interior. \u003c/li\u003e\u003cli\u003eMonthly tutorial and livestream\u003c/li\u003e\u003cli\u003eHigh-quality downloads of monthly coloring pages\u003c/li\u003e\u003cli\u003eAccess to real time videos, patron-only content, Sneak peeks, and polls\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-07T18:45:44.202252+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-02T13:23:04.975006+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Azurite",
+     "unpublished_at": null,
+     "url": "/bePatron?c=901553\u0026rid=1656344"
+    },
+    "id": "1656344",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-05-02T13:23:05.178416+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ean original sketch (approximately 5x7.5\")\u003c/li\u003e\u003cli\u003eA hand painted card featuring a surprise flower design and blank interior. \u003c/li\u003e\u003cli\u003eMonthly tutorial and livestream\u003c/li\u003e\u003cli\u003eHigh-quality downloads of monthly coloring pages\u003c/li\u003e\u003cli\u003eAccess to real time videos, patron-only content, Sneak peeks, and polls\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-07T18:45:44.936332+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-02T13:23:05.178416+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Cat\u0027s Eye",
+     "unpublished_at": null,
+     "url": "/bePatron?c=901553\u0026rid=1656347"
+    },
+    "id": "1656347",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-05-02T13:23:05.155756+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAn original painted illustration (approximately 6x9\")\u003c/li\u003e\u003cli\u003ean original sketch (approximately 5x7.5\")\u003c/li\u003e\u003cli\u003eA hand painted card featuring a surprise flower design and blank interior. \u003c/li\u003e\u003cli\u003eMonthly tutorial and livestream\u003c/li\u003e\u003cli\u003eHigh-quality downloads of monthly coloring pages\u003c/li\u003e\u003cli\u003eAccess to real time videos, patron-only content, Sneak peeks, and polls\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-07T18:45:44.559040+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-02T13:23:05.155756+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Emerald",
+     "unpublished_at": null,
+     "url": "/bePatron?c=901553\u0026rid=1656345"
+    },
+    "id": "1656345",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2017-05-02T13:23:05.166795+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eA pet portrait (approximately 8x10\")\u00a0\u003c/li\u003e\u003cli\u003eAn original painted illustration (approximately 6x9\")\u003c/li\u003e\u003cli\u003ean original sketch (approximately 5x7.5\")\u003c/li\u003e\u003cli\u003eA hand painted card featuring a surprise flower design and blank interior.\u00a0\u003c/li\u003e\u003cli\u003eMonthly tutorial and livestream\u003c/li\u003e\u003cli\u003eHigh-quality downloads of monthly coloring pages\u003c/li\u003e\u003cli\u003eAccess to real time videos, patron-only content, Sneak peeks, and polls\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-07T18:45:44.745371+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-02T13:23:05.166795+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Moonstone",
+     "unpublished_at": null,
+     "url": "/bePatron?c=901553\u0026rid=1656346"
+    },
+    "id": "1656346",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/901553"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "1c4a4032-ced7-4d28-9899-64e39dc6ebe0",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Endangerously Creative is creating paintings and illustrations inspired by animals and nature."
+});
+    </script>

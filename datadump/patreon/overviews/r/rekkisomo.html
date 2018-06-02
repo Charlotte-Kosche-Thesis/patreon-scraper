@@ -1,0 +1,667 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "MNte-KMUOdhnPgQbWtDM2X5OCNFeS6VEP_o93Rjxb7E";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "150035",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/150035"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-03-06T02:19:03+00:00",
+    "creation_name": "Idiotic bots and Radwolf Live",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/313360/5d4c02b12fdd4fd4bcf06082353d0e1c?token-time=2145916800\u0026token-hash=L6c4gc9Orc3LJHG8TrFkqGsHztnWiDW40MBaVx8rSX4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/313360/5d4c02b12fdd4fd4bcf06082353d0e1c?token-time=2145916800\u0026token-hash=sEj9xqnyVaO-Zz-SebwnIddzWBQlgepO6IMGo_Aa4Cc%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 180,
+    "pledge_url": "/bePatron?c=313360",
+    "published_at": "2016-03-30T14:09:22+00:00",
+    "summary": "Hey there! We\u0027re Radwolf, the developers of Marshmallow \u0026amp; a few other bots.\u00a0Marshmallow is a Discord bot that\u0027s meant for administration \u0026amp; General entertainment. Currently, our job is low-paying and can\u0027t keep the servers up. So, by pledging, not only do you help keeping the server\u0027s up for the bots, you also get a few neat rewards! (\u003cem\u003ewew lad\u003c/em\u003e)"
+   },
+   "id": "313360",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2979675",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2979675"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "387944",
+       "type": "goal"
+      },
+      {
+       "id": "387955",
+       "type": "goal"
+      },
+      {
+       "id": "387956",
+       "type": "goal"
+      },
+      {
+       "id": "387957",
+       "type": "goal"
+      },
+      {
+       "id": "387958",
+       "type": "goal"
+      },
+      {
+       "id": "387959",
+       "type": "goal"
+      },
+      {
+       "id": "387960",
+       "type": "goal"
+      },
+      {
+       "id": "387961",
+       "type": "goal"
+      },
+      {
+       "id": "387962",
+       "type": "goal"
+      },
+      {
+       "id": "387963",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "490018",
+       "type": "reward"
+      },
+      {
+       "id": "756309",
+       "type": "reward"
+      },
+      {
+       "id": "490019",
+       "type": "reward"
+      },
+      {
+       "id": "490020",
+       "type": "reward"
+      },
+      {
+       "id": "490021",
+       "type": "reward"
+      },
+      {
+       "id": "490022",
+       "type": "reward"
+      },
+      {
+       "id": "490023",
+       "type": "reward"
+      },
+      {
+       "id": "588456",
+       "type": "reward"
+      },
+      {
+       "id": "588457",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-03-06T01:46:01+00:00",
+     "facebook": null,
+     "first_name": "Radwolf",
+     "full_name": "Radwolf",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/2979675/d59383a3176d47ec9e9ab3287cac585e?token-time=2145916800\u0026token-hash=wsoCEx4Dz8weMhJMs2nRoLEzxww8dmgO4ga86-e_UxA%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2979675/d59383a3176d47ec9e9ab3287cac585e?token-time=2145916800\u0026token-hash=id0YuI_cOJWm7PvaP3V9NSr_oxtVgxfAceY1I_QJ_R0%3D",
+     "twitch": null,
+     "twitter": "Radwolf_Live",
+     "url": "https://www.patreon.com/rekkisomo",
+     "vanity": "rekkisomo",
+     "youtube": null
+    },
+    "id": "2979675",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "313360",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/313360"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-15T02:07:40+00:00",
+     "description": "A nice, cuddly thank you DM from us and get added a role on Marshmallow\u0027s server.",
+     "discord_role_ids": [
+      "164834930726010880"
+     ],
+     "edited_at": "2017-06-01T10:08:57.244720+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-15T02:07:40+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Hellloooo!!!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=313360\u0026rid=490018",
+     "user_limit": null
+    },
+    "id": "490018",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-10-15T02:07:40+00:00",
+     "description": "extra music slot on \u003cstrong\u003ea\u003c/strong\u003e\u00a0server.\u003cbr\u003e",
+     "discord_role_ids": [
+      "164834930726010880",
+      "288215870419763201"
+     ],
+     "edited_at": "2017-03-06T07:48:22.115278+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-15T02:07:40+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Free Music Slot",
+     "unpublished_at": null,
+     "url": "/bePatron?c=313360\u0026rid=756309",
+     "user_limit": null
+    },
+    "id": "756309",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-15T02:07:40+00:00",
+     "description": "A custom command on whatever you desire. Even if it\u0027s NSFW.\u003cbr\u003eall of above\u003cbr\u003e",
+     "discord_role_ids": [
+      "164834930726010880"
+     ],
+     "edited_at": "2017-03-06T07:54:32.555858+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-15T02:07:40+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Custom Command Made",
+     "unpublished_at": null,
+     "url": "/bePatron?c=313360\u0026rid=490019",
+     "user_limit": null
+    },
+    "id": "490019",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-10-15T02:07:40+00:00",
+     "description": "Keep the bot in voice 24/7\u003cbr\u003e\nall of above\u003cbr\u003e\n",
+     "discord_role_ids": [
+      "164834930726010880",
+      "288217654366306304"
+     ],
+     "edited_at": "2017-03-06T07:51:16.973072+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-15T02:07:40+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "24/7 Music",
+     "unpublished_at": null,
+     "url": "/bePatron?c=313360\u0026rid=490020",
+     "user_limit": null
+    },
+    "id": "490020",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-10-15T02:07:40+00:00",
+     "description": "Access to Code Snippets for use in own projects\u003cbr\u003e\nall of above\u003cbr\u003e\n",
+     "discord_role_ids": [
+      "164834930726010880",
+      "288217532513386496"
+     ],
+     "edited_at": "2017-03-06T07:52:13.452655+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-15T02:07:40+00:00",
+     "remaining": 19,
+     "requires_shipping": false,
+     "title": "Snippos Pippo!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=313360\u0026rid=490021",
+     "user_limit": 20
+    },
+    "id": "490021",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-10-15T02:07:40+00:00",
+     "description": "You can be my waifu + something else idk\u003cbr\u003eall of above",
+     "discord_role_ids": [
+      "164834930726010880",
+      "223615979479891968"
+     ],
+     "edited_at": "2017-03-06T07:52:36.118167+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-15T02:07:40+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "Konnichiwa.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=313360\u0026rid=490022",
+     "user_limit": 1
+    },
+    "id": "490022",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-15T02:07:40+00:00",
+     "description": "I\u0027ll host a private instance of the bot for you and your server only. Constantly updated\u003cbr\u003eall of above",
+     "discord_role_ids": [
+      "164834930726010880",
+      "288217457682808832"
+     ],
+     "edited_at": "2017-03-06T07:52:46.476110+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-15T02:07:40+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "Own Bot Instance",
+     "unpublished_at": null,
+     "url": "/bePatron?c=313360\u0026rid=490023",
+     "user_limit": 3
+    },
+    "id": "490023",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000000,
+     "amount_cents": 100000000,
+     "created_at": "2016-10-15T02:07:40+00:00",
+     "description": "THIS IS A JOKE, BUT ACTUALLY NOT REALLY A JOKE\u003cbr\u003eLiterally anything you want idfc on what you choose at this point o.o\u003cbr\u003eall of above\u003cbr\u003e",
+     "discord_role_ids": [
+      "164834930726010880"
+     ],
+     "edited_at": "2017-03-06T07:52:51.936220+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-15T02:07:40+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "o.o",
+     "unpublished_at": null,
+     "url": "/bePatron?c=313360\u0026rid=588456",
+     "user_limit": 1
+    },
+    "id": "588456",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4294967295,
+     "amount_cents": 4294967295,
+     "created_at": "2016-10-15T02:07:40+00:00",
+     "description": "I cant even... what?\u003cbr\u003eall of above",
+     "discord_role_ids": [
+      "164834930726010880",
+      "225202213306236928",
+      "196110372741054465",
+      "176955956771553280"
+     ],
+     "edited_at": "2017-03-06T07:53:05.169597+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-15T02:07:40+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "0.0",
+     "unpublished_at": null,
+     "url": "/bePatron?c=313360\u0026rid=588457",
+     "user_limit": 1
+    },
+    "id": "588457",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2000,
+     "completed_percentage": 9,
+     "created_at": "2016-03-30T13:55:56+00:00",
+     "description": "Weeks worth of Baskin Robbins",
+     "reached_at": "2016-09-12T07:23:40+00:00",
+     "title": ""
+    },
+    "id": "387944",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 3,
+     "created_at": "2016-03-30T13:57:44+00:00",
+     "description": "Enough to make us feel tingly inside",
+     "reached_at": "2016-09-14T23:25:29+00:00",
+     "title": ""
+    },
+    "id": "387955",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 1,
+     "created_at": "2016-03-30T13:57:44+00:00",
+     "description": "Get a Dedicated server 4 boots (cuz y not?)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "387956",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 1,
+     "created_at": "2016-03-30T13:57:44+00:00",
+     "description": "Enough to persuade us to stay up 24/7 working on the stupid thing.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "387957",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 0,
+     "created_at": "2016-03-30T13:57:44+00:00",
+     "description": "Enough to persuade us to fix my Computer\u0027s Clock, and Activate Windows.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "387958",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 0,
+     "created_at": "2016-03-30T13:57:44+00:00",
+     "description": "free secks 4 all from bot. (Monthly. Cost: $AsMuchAsYouPledged)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "387959",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 0,
+     "created_at": "2016-03-30T13:57:44+00:00",
+     "description": "Enough for us to try Starbucks for the first time. (Only at Brisbane in AU. R.I.P)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "387960",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 0,
+     "created_at": "2016-03-30T13:57:44+00:00",
+     "description": "Stop dean from calling me a pedo?",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "387961",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2016-03-30T13:57:44+00:00",
+     "description": "Possible flight to Nihon desu.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "387962",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 0,
+     "created_at": "2016-03-30T13:57:44+00:00",
+     "description": "Fly to America and try Chipotle",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "387963",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/313360"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "1b818053-e099-4a7d-ad48-aa5a20cf211e",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Radwolf are creating Idiotic bots and Radwolf Live"
+});
+    </script>

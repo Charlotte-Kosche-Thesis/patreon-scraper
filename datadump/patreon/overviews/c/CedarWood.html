@@ -1,0 +1,417 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "fH2bT7AVkDLdGePl5PT8qrBF0sqfw9yC8_XFaJYdcL8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "867577",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/867577"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-04-05T21:28:17+00:00",
+    "creation_name": "music, interviews \u0026 learning resources",
+    "display_patron_goals": true,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1664746/58861a66f5774442a36454b0dcb9b0c8?token-time=2145916800\u0026token-hash=TqltrDUuC-FZ3gIpn5FmfEz708fsBHRh2WMfzLYEb9w%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/1664746/58861a66f5774442a36454b0dcb9b0c8?token-time=2145916800\u0026token-hash=dwF1zQ0jl6luK_ENV0K5DbfEUSxH0sT9RhRaqxHn7uc%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_sum": 3164,
+    "pledge_url": "/bePatron?c=1664746",
+    "published_at": "2018-04-06T04:12:21+00:00",
+    "summary": "Producer, composer, arranger, live musician, and music teacher with an ongoing creative practice - making music in a diversity of styles and distributing it publicly for free streaming, while writing about composition processes.\u003cbr\u003e\u003cbr\u003eMembers (starting at $2 per month) have access to exclusive educational resources, as well as the public content that I create for everyone: monthly releases of new music* \u0026amp; monthly interviews with other artists.\u00a0For $4 per month and up, rewards include free downloads of my music, and opportunities to collaborate on a track, an album, or a musical event.\u003cbr\u003e\u003cbr\u003eAt this stage, funds that I receive go towards more instruments \u0026amp; upgraded sound equipment, so that I can be a more versatile producer and continue feeding the flow of our collective learning. Once these costs are taken care of, funds can go towards bigger things... like studio rent or community-oriented events. I\u0027m grateful to all members of this page for actively being a part of this journey with me. Thank you!\u003cbr\u003e\u003cbr\u003e* You can listen to my music by following the link below - for ongoing easy access,\u00a0be sure to hit the \"follow\" button, or save this page to your favourites in your web browser:\u003cbr\u003e\u003ca href=\"https://soundcloud.com/cedarwoodsounds/tracks\"\u003ehttps://soundcloud.com/cedarwoodsounds/tracks\u003c/a\u003e"
+   },
+   "id": "1664746",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4896484",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4896484"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "99351",
+       "type": "patron_goal"
+      },
+      {
+       "id": "100987",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2504785",
+       "type": "reward"
+      },
+      {
+       "id": "2504791",
+       "type": "reward"
+      },
+      {
+       "id": "2504798",
+       "type": "reward"
+      },
+      {
+       "id": "2504825",
+       "type": "reward"
+      },
+      {
+       "id": "2504845",
+       "type": "reward"
+      },
+      {
+       "id": "2570621",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I create music, collaborate, educate, and feed creative processes as a producer, composer, improvising artist, and music teacher. My degree is in music composition / improvisation from WLU.",
+     "created": "2017-01-20T18:24:53+00:00",
+     "facebook": "https://www.facebook.com/cedarwoodsounds",
+     "first_name": "Cedar",
+     "full_name": "Cedar Wood",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4896484/829c4bf9aa51450dbd762c0648c8490a?token-time=2145916800\u0026token-hash=OAGJj59dkp9w8cDBGk2asYN6np8GyDwjJK7ig6aQpHo%3D",
+     "last_name": "Wood",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4896484/829c4bf9aa51450dbd762c0648c8490a?token-time=2145916800\u0026token-hash=O7_VLyVyKXfeDGBr_gRwmA4yRVe155L7N0U_M-y1bGE%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/CedarWood",
+     "vanity": "CedarWood",
+     "youtube": null
+    },
+    "id": "4896484",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1664746",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1664746"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-04-05T22:07:24.944646+00:00",
+     "description": "You receive access to my patrons-only posts - including monthly music tutorial videos. You also receive... knowing that you are making a direct impact on my life\u0027s work in contributing to the collective creativity of humanity as a whole. \u003cbr\u003e\n\u003cbr\u003e\nMy public page features weekly album reviews, posts about techniques for improvising \u0026amp; composing music, and transcriptions of monthly interviews with artists about their creative process.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T19:43:28.763541+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T19:43:28.753582+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Basic Membership",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1664746\u0026rid=2504785",
+     "user_limit": null
+    },
+    "id": "2504785",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2018-04-05T22:10:12.350731+00:00",
+     "description": "You receive the files (mp3 or other) for all the tracks that I have released, and that I will release in the future - which are otherwise available for listening only through soundcloud.\u003cbr\u003e\nYou also have access to my Patrons-only posts, as well as public posts.",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T19:53:35.915591+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T19:53:35.907060+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Ongoing Music Consumption",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1664746\u0026rid=2504791",
+     "user_limit": null
+    },
+    "id": "2504791",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 800,
+     "amount_cents": 800,
+     "created_at": "2018-04-05T22:12:28.815136+00:00",
+     "description": "You receive an opportunity for shared experience: I\u2019ll listen to your musical creation with you (one track/demo per month), and offer feedback via sharing my experience of listening. This can be done over the phone (up to 15 mins, or through email if preferred)\u003cbr\u003e\nYou also receive all rewards for the previous tiers:\u003cbr\u003e\n- the files (mp3 or other) for my original tracks\u003cbr\u003e\n- access to my Patrons-only posts",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-10T15:16:13.807221+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-10T15:16:13.796974+00:00",
+     "remaining": 80,
+     "requires_shipping": false,
+     "title": "Making Music",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1664746\u0026rid=2504798",
+     "user_limit": 80
+    },
+    "id": "2504798",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1300,
+     "amount_cents": 1300,
+     "created_at": "2018-04-05T22:20:11.143306+00:00",
+     "description": "You receive one DJ set (approx. one hour) at an event that you\u2019re organizing. This can be renewed once per 4 months. The kind of music is flexible, depending on your desires \u0026amp; the nature of the event. It will likely contain a mixture of my original tracks, and other recorded music. *\u003cbr\u003e\nYou also receive the rewards for the previous tiers:\n\u003cp\u003e- musical feedback / shared experience (one track/month)\u003c/p\u003e\n\u003cp\u003e- the files (mp3 or other) for my original tracks\u003c/p\u003e\n\u003cp\u003e- access to my Patrons-only posts\u003cbr\u003e\n\u003cbr\u003e\n* If transportation is provided, and you\u0027re located in Kitchener-Waterloo, Ontario, I\u0027ll show up to spin the set live. Otherwise, I\u0027ll put it together and send it to you.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-10T15:16:57.730266+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-10T15:16:57.719876+00:00",
+     "remaining": 12,
+     "requires_shipping": false,
+     "title": "Brightening Your Event",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1664746\u0026rid=2504825",
+     "user_limit": 12
+    },
+    "id": "2504825",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-04-05T22:24:42.922428+00:00",
+     "description": "If you continue to be a patron for 6 months or longer...\u003cbr\u003e\nYou receive my services as a producer - I\u0027ll work with you on \u00a0a song or an album, including mixing as well as pre-production creativity. Up to 6 hours of working together, however you want to use the time. This can be renewed once per 6 months.\u003cbr\u003e\nEither way... You also receive the rewards for the previous tiers:\u003cbr\u003e\n- one DJ set or playlist, every 6 months\u003cbr\u003e\n- musical feedback / shared experience (one track/month)\u003cbr\u003e\n- the files (mp3 or other) for my original tracks\n\u003cp\u003e- access to my Patrons-only posts, as well as public posts\u003cbr\u003e\n\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-09T20:59:46.366712+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-09T20:59:46.356379+00:00",
+     "remaining": 12,
+     "requires_shipping": false,
+     "title": "Producing Your Own Music With Me",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1664746\u0026rid=2504845",
+     "user_limit": 12
+    },
+    "id": "2504845",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-05-01T10:59:27.637222+00:00",
+     "description": "You receive a custom-made physical CD of my music, where you can pick from a variety of musical selections that I\u0027ve put together over the years. This will include a hand-made drawing that I\u0027ll make for you on the front of the CD sleeve. Thanks a bunch, you rock!!!\u003cbr\u003e\nYou also receive the rewards for the previous tiers:\n\u003cp\u003e- my services as a producer\u003c/p\u003e\n\u003cp\u003e- one DJ set or playlist, every 6 months\u003cbr\u003e\n- musical feedback / shared experience (one track/month)\u003c/p\u003e\n\u003cp\u003e- the files (mp3 or other) for my original tracks\u003c/p\u003e\n\u003cp\u003e- access to my Patrons-only posts\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-10T15:17:11.759552+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-10T15:17:11.752445+00:00",
+     "remaining": 11,
+     "requires_shipping": false,
+     "title": "Gratitude for a More Generative Future",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1664746\u0026rid=2570621",
+     "user_limit": 12
+    },
+    "id": "2570621",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-10T15:27:08+00:00",
+     "deleted_at": null,
+     "description": "When this page reaches 12 patrons, I\u0027ll start making transcriptions of interviews with local artists/musicians. In the mean time, I\u0027ve been seeking out creative people who want to be interviewed. I feel confident at this point that there will be enough interest from local musicians that these transcriptions will be released monthly.",
+     "goal_text": "When this page reaches 12 patrons, I\u0027ll start making transcriptions of interviews with local artists/musicians. In the mean time, I\u0027ve been seeking out creative people who want to be interviewed. I feel confident at this point that there will be enough interest from local musicians that these transcriptions will be released monthly.",
+     "number_patrons": 12,
+     "reached_at": null
+    },
+    "id": "99351",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-05-16T20:48:21+00:00",
+     "deleted_at": null,
+     "description": "When this page reaches 50 patrons, there will be a new music video released every month - visuals to go with the sounds. These will be created either alone or in collaboration.",
+     "goal_text": "When this page reaches 50 patrons, there will be a new music video released every month - visuals to go with the sounds. These will be created either alone or in collaboration.",
+     "number_patrons": 50,
+     "reached_at": null
+    },
+    "id": "100987",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1664746"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "622ef7e6-c951-4994-9801-e8d2324a0805",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Cedar Wood is creating music, interviews \u0026 learning resources"
+});
+    </script>

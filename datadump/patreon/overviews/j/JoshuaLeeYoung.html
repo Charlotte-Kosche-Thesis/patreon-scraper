@@ -1,0 +1,625 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "9cbK1PuJN6tuHGo7N1Ibr0AtnUBYpTQloNjRKgkdfw0";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "32768",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/32768"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-01-31T06:59:13+00:00",
+    "creation_name": "Videos, Music, Cartoons",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/143689/d388514610b3494f970f5a9c8775eff1?token-time=2145916800\u0026token-hash=SM8v9HZZYB7cg32_TsNaj8cY62_Ud-B5a9mRh4RFCUM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/143689/d388514610b3494f970f5a9c8775eff1?token-time=2145916800\u0026token-hash=V1xa1rHToEMx5WccBMoQis4SxyL9xu8NqrLTRgdwpXs%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"535\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fwww.youtube.com%2Fembed%2FT8HIKrJs_Ik%3Fautoplay%3D1%26feature%3Doembed\u0026amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DT8HIKrJs_Ik\u0026amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FT8HIKrJs_Ik%2Fhqdefault.jpg\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;autoplay=1\u0026amp;type=text%2Fhtml\u0026amp;schema=youtube\" width=\"714\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "http://youtu.be/T8HIKrJs_Ik",
+    "one_liner": "I\u0027m just a normal dude with dreams",
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 450,
+    "pledge_url": "/bePatron?c=143689",
+    "published_at": "2015-02-01T01:09:26+00:00",
+    "summary": "\u003cstrong\u003eI make YouTube videos every week.\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eMy videos are \u003cb style=\"\"\u003eFREE\u003c/b\u003e\u00a0on YouTube. Your donations help me to continue.\u003c/li\u003e\u003cli\u003eYou\u0027re not paying for my personal rent, bills, gas, or food. Just helping\u003cu\u003e\u00a0\u003c/u\u003eme pay for equipment, editors, and production expenses.\u003c/li\u003e\u003c/ul\u003e\u003cstrong\u003eA) YouTube Videos cost:\u003c/strong\u003e\u00a0~$6000/year\u003cbr\u003e\u003cstrong\u003eB) Music cost: \u003c/strong\u003e$7,900/year\u003cbr\u003e\u003cstrong\u003eC) Acting cost: \u003c/strong\u003e$3,300/year\u003cbr\u003e\u003cstrong\u003eTOTAL COST: \u003c/strong\u003e17,200/year\u003cbr\u003e"
+   },
+   "id": "143689",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "520198",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/520198"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "115608",
+       "type": "goal"
+      },
+      {
+       "id": "115626",
+       "type": "goal"
+      },
+      {
+       "id": "115640",
+       "type": "goal"
+      },
+      {
+       "id": "115908",
+       "type": "goal"
+      },
+      {
+       "id": "191569",
+       "type": "goal"
+      },
+      {
+       "id": "191575",
+       "type": "goal"
+      },
+      {
+       "id": "191576",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "151394",
+       "type": "reward"
+      },
+      {
+       "id": "151395",
+       "type": "reward"
+      },
+      {
+       "id": "151396",
+       "type": "reward"
+      },
+      {
+       "id": "151397",
+       "type": "reward"
+      },
+      {
+       "id": "151409",
+       "type": "reward"
+      },
+      {
+       "id": "151410",
+       "type": "reward"
+      },
+      {
+       "id": "151411",
+       "type": "reward"
+      },
+      {
+       "id": "151675",
+       "type": "reward"
+      },
+      {
+       "id": "151676",
+       "type": "reward"
+      },
+      {
+       "id": "151677",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I work on TV Shows, Movies, and YouTube videos.",
+     "created": "2015-01-31T06:42:58+00:00",
+     "facebook": "https://www.facebook.com/JoshuaLeeYoungJLY",
+     "first_name": "Joshua",
+     "full_name": "Joshua Lee Young",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/520198/692cac0276fb4f9d8f93e354d16f152e?token-time=2145916800\u0026token-hash=HB9iT_7Iy1F6wbl5BHM3xaHEqdjTr4W3D0vKMCTc_F4%3D",
+     "last_name": "Lee Young",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/520198/692cac0276fb4f9d8f93e354d16f152e?token-time=2145916800\u0026token-hash=AxZhzEKrEaDk5wZDyQTQjs1JkhB6LE29Q-aOKMcHgaM%3D",
+     "twitch": null,
+     "twitter": "JoshuaLeeYoung",
+     "url": "https://www.patreon.com/JoshuaLeeYoung",
+     "vanity": "JoshuaLeeYoung",
+     "youtube": "https://www.youtube.com/user/JoshuaLeeYoung"
+    },
+    "id": "520198",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "143689",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/143689"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-01-31T09:19:25+00:00",
+     "description": "\u003cstrong\u003eWHOA! \u003c/strong\u003eYou\u0027re awesome!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cu\u003eREWARDS(\u003cstrong\u003e\u003cu\u003emonthly\u003c/u\u003e\u003c/strong\u003e):\u003c/u\u003e\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eTwitter shoutout for you baby!\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e----------------------------------------------------------------\u003cstrong\u003e\u003c/strong\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-01-31T09:19:25+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=143689\u0026rid=151394",
+     "user_limit": null
+    },
+    "id": "151394",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-01-31T09:19:25+00:00",
+     "description": "\u003cstrong\u003eHey calm down now... \u003c/strong\u003eThis is like giving up Starbucks once per week... You are making a SERIOUS commitment...\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cu\u003eREWARDS(\u003cstrong\u003e\u003cu\u003emonthly\u003c/u\u003e\u003c/strong\u003e):\u003c/u\u003e\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e+Previous Rewards\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eShoutout to you in the \u003cu\u003eOutro \u003c/u\u003eof next month\u0027s \u003cu\u003eYouTube videos\u003c/u\u003e\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e\"Special Thanks to the Sexy Patron Baegels [names listed below]\"\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e----------------------------------------------------------------\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-01-31T09:19:25+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=143689\u0026rid=151395",
+     "user_limit": null
+    },
+    "id": "151395",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 900,
+     "amount_cents": 900,
+     "created_at": "2015-01-31T09:19:25+00:00",
+     "description": "\u003cstrong\u003eUH OHHH!!\u003c/strong\u003e You\u0027re steppin\u0027 up your game, so I\u0027ll step up mine.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cu\u003eREWARDS(\u003cstrong\u003e\u003cu\u003emonthly\u003c/u\u003e\u003c/strong\u003e):\u003c/u\u003e\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e+Previous Rewards\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eYour name will be on screen for the \u003cu\u003eIntro \u003c/u\u003eof \u003cu\u003enext month\u0027s YouTube videos\u003c/u\u003e\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e\"This video was made possible by [names] and my other sexy patron baegels\"\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e----------------------------------------------------------------\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-01-31T09:19:25+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=143689\u0026rid=151396",
+     "user_limit": null
+    },
+    "id": "151396",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4900,
+     "amount_cents": 4900,
+     "created_at": "2015-01-31T09:19:25+00:00",
+     "description": "\u003cstrong\u003eWhoaaaaaa! Look at you being such a boss!!\u003c/strong\u003e You Deserve an \u003cu\u003eUltimate Baegel Shout Out\u003c/u\u003e!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cu\u003eREWARDS(\u003cstrong\u003e\u003cu\u003emonthly\u003c/u\u003e\u003c/strong\u003e):\u003c/u\u003e\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e+Previous Rewards\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eI\u0027ll make an Instagram Video Thanking you, Shouting you out~\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eI\u0027ll make sure I\u0027m following you on Instagram (@JoshuaLeeYoung)\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e----------------------------------------------------------------\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-01-31T09:19:25+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=143689\u0026rid=151397",
+     "user_limit": null
+    },
+    "id": "151397",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 9900,
+     "amount_cents": 9900,
+     "created_at": "2015-01-31T10:18:07+00:00",
+     "description": "\u003cstrong\u003eOKAY. STOP. You are WAY. TOO. COOL.\u003c/strong\u003e We need to have \u003cu\u003eMonthly\u003c/u\u003e\u00a0\u003cu\u003esleepovers\u003c/u\u003e...\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cu\u003eREWARDS (\u003cstrong\u003e\u003cu\u003emonthly\u003c/u\u003e\u003c/strong\u003e):\u003c/u\u003e\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e+Previous Rewards\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003ePrivate Slumber Party with me next month over Skype [you, me, and everyone who qualifies]\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e----------------------------------------------------------------\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-01-31T10:18:07+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=143689\u0026rid=151409",
+     "user_limit": null
+    },
+    "id": "151409",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 29900,
+     "amount_cents": 29900,
+     "created_at": "2015-01-31T10:18:07+00:00",
+     "description": "\u003cstrong\u003eYOU\u0027RE SO DANG COOL I WANT TO SLEEP WITH YOU BAEGEL!!\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cu\u003eREWARDS (\u003cstrong\u003e\u003cu\u003emonthly\u003c/u\u003e\u003c/strong\u003e):\u003c/u\u003e\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e+Previous Rewards\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eExclusive Sleepover\u00a0next month [You and me over Skype]\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e----------------------------------------------------------------\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-01-31T10:18:07+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=143689\u0026rid=151410",
+     "user_limit": null
+    },
+    "id": "151410",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 39900,
+     "amount_cents": 39900,
+     "created_at": "2015-01-31T10:22:44+00:00",
+     "description": "\u003cstrong\u003eNO FREAKRANG WAY... \u003c/strong\u003eAll throughout history, songs have been written for heroes. Well, \u003cu\u003eyou\u0027re MY hero\u003c/u\u003e, so \u003cu\u003eI\u0027m writing a song about you\u003c/u\u003e.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cu\u003eREWARDS:\u003c/u\u003e\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e+Previous Rewards\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eI\u0027ll write a song with your names in it, and sing it in a YouTube video (Delivers after 2\u00a0months).\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e----------------------------------------------------------------\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-01-31T10:22:44+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=143689\u0026rid=151411",
+     "user_limit": null
+    },
+    "id": "151411",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300000,
+     "amount_cents": 300000,
+     "created_at": "2015-01-31T21:03:21+00:00",
+     "description": "\u003cstrong\u003eYO! You are legit MY channel\u0027s Producer bruh!\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cu\u003eREWARDS(\u003cstrong\u003e\u003cu\u003emonthly\u003c/u\u003e\u003c/strong\u003e):\u003c/u\u003e\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e+Previous Rewards\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eYour name and Picture at the end of next month\u0027s\u00a0YouTube videos with the title \"Produced by\"\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eJoin in on my Writing Sessions via Skype, make suggestions for videos, songs, apparel designs, and animations)\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eLink any website of your choice to next week\u0027s YouTube video (as long as it doesn\u0027t violate YouTube guidelines)\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e----------------------------------------------------------------\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-01-31T21:03:21+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=143689\u0026rid=151675",
+     "user_limit": 2
+    },
+    "id": "151675",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500000,
+     "amount_cents": 1500000,
+     "created_at": "2015-01-31T21:03:21+00:00",
+     "description": "\u003cstrong\u003eARE YOU FOR CEREAL?\u003c/strong\u003e You are my magic bae-genie on the internet, let\u0027s change that to \u003cstrong\u003e-in person\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cu\u003eREWARDS(\u003cstrong\u003e\u003cu\u003emonthly\u003c/u\u003e\u003c/strong\u003e):\u003c/u\u003e\u003c/strong\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e+Previous Rewards\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eI will fly my ass out to \u003cu\u003eAnywhere\u003c/u\u003e in the world to perform a private show for You, \u003c/strong\u003e\u003cstrong\u003e\u003cu\u003eEVERY MONTH\u003c/u\u003e you pledge.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eWe can hang all day and night too, I\u0027ll even sleep on your floor!\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eI\u0027ll book my flight after each month you donate to this package\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e----------------------------------------------------------------\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-01-31T21:03:21+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=143689\u0026rid=151676",
+     "user_limit": 2
+    },
+    "id": "151676",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000000,
+     "amount_cents": 4000000,
+     "created_at": "2015-01-31T21:03:21+00:00",
+     "description": "\u003cstrong\u003eARE YOU CRAYZEE?! \u003c/strong\u003eI put this up as a joke, but if anyone is loony enough pick this, you have become the \u003cu\u003e\u003cstrong\u003eLegendary Super Baegel\u003c/strong\u003e\u003c/u\u003e...\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cu\u003eREWARDS(monthly):\u003c/u\u003e\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e+Previous Rewards\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003ePut YOU in my YouTube Videos for every month you pledge\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eMail you poop (signed on request)\u003c/strong\u003e\u003c/li\u003e\u003cli\u003eDelivered after each month you donate to this package.\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e----------------------------------------------------------------\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-01-31T21:03:21+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=143689\u0026rid=151677",
+     "user_limit": 1
+    },
+    "id": "151677",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100,
+     "completed_percentage": 100,
+     "created_at": "2015-01-31T07:36:46+00:00",
+     "description": "Yay! You care!",
+     "reached_at": "2015-02-01T02:13:44+00:00",
+     "title": "Boost my self-esteem!"
+    },
+    "id": "115608",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1900,
+     "completed_percentage": 23,
+     "created_at": "2015-01-31T08:04:13+00:00",
+     "description": "Strings need to be replaced monthly to preserve tone quality.",
+     "reached_at": null,
+     "title": "New guitar strings!"
+    },
+    "id": "115626",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 9900,
+     "completed_percentage": 4,
+     "created_at": "2015-01-31T08:41:55+00:00",
+     "description": "All production and editing costs have been covered!",
+     "reached_at": null,
+     "title": "YouTube Video costs covered!"
+    },
+    "id": "115640",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 24900,
+     "completed_percentage": 1,
+     "created_at": "2015-01-31T23:47:27+00:00",
+     "description": "All writing, recording, producing, mixing, and mastering costs for this song have been covered!",
+     "reached_at": null,
+     "title": "1 song costs covered!"
+    },
+    "id": "115908",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 59900,
+     "completed_percentage": 0,
+     "created_at": "2015-06-24T10:27:42+00:00",
+     "description": "This will fund advertisements to get my art to thousands of people per day.",
+     "reached_at": null,
+     "title": "Promotion costs covered!"
+    },
+    "id": "191569",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3250000,
+     "completed_percentage": 0,
+     "created_at": "2015-06-24T10:53:00+00:00",
+     "description": "Let\u0027s all hang out, eat pizza, and I\u0027ll perform songs to you! This milestone will make it all FREE!",
+     "reached_at": null,
+     "title": "FREE USA Tour costs covered"
+    },
+    "id": "191575",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 99900,
+     "completed_percentage": 0,
+     "created_at": "2015-06-24T10:53:00+00:00",
+     "description": "All writing, recording, producing, mixing, and mastering costs for this album\u00a0have been covered!",
+     "reached_at": null,
+     "title": "Album Costs covered"
+    },
+    "id": "191576",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/143689"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "6e1f55bb-3db8-46a9-b351-d3b5c393a4a0",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Joshua Lee Young is creating Videos, Music, Cartoons"
+});
+    </script>

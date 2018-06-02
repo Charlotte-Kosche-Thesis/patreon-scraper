@@ -1,0 +1,529 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "AHjncPFGaPSxtE8ty-K5YpptBPp-kKczXQZXNVWeyy8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "170176",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/170176"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-06-01T22:45:16+00:00",
+    "creation_name": "a compendium Book on Maths and Physics",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/380877/86de9f0a473a439a8084319e800ea284?token-time=2145916800\u0026token-hash=lKl_IABaF_I1iVkkBD6Seq3di-3mwjwss-krkgccz9U%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/380877/86de9f0a473a439a8084319e800ea284?token-time=2145916800\u0026token-hash=6AYtdywM7F0e5Bfp9b_jWOkJIzHvIsKM_jqGAsZxIj8%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 904,
+    "pledge_url": "/bePatron?c=380877",
+    "published_at": "2016-06-01T23:04:49+00:00",
+    "summary": "The main reason of sponsoring this book is to help us pay professionals to review the book content (\u003ca href=\"https://archive.org/details/OperaMagistris\" target=\"_blank\"\u003eOpera Magistris\u003c/a\u003e) , to redraw all figures in high quality vector drawings (and give them after to all for free), to pay people for peer review of the maths stuff and also to give the whole book and it source code for free to everybody in the world and not only the 6,000 first pages (see the corresponding\u00a0\u003ca href=\"https://github.com/vincentisoz/Opera_Magistris_English_v3\" target=\"_blank\"\u003eGithub\u00a0\u003c/a\u003erepository). Also writing, updating, reviewing and answering to the e-mails about this book takes actually 5 to 8 hours every day including week-ends since 16 years and it is now quite hard to do our daily job and the book at the same time.\u003cbr\u003e\u003cbr\u003e\u003cdiv style=\"text-align: center;\"\u003e\u003cimg src=\"http://www.sciences.ch/tmp/opera_magistris.jpg\"\u003e\u003cbr\u003e\u003c/div\u003e"
+   },
+   "id": "380877",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3403398",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3403398"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "443202",
+       "type": "goal"
+      },
+      {
+       "id": "443204",
+       "type": "goal"
+      },
+      {
+       "id": "585348",
+       "type": "goal"
+      },
+      {
+       "id": "585349",
+       "type": "goal"
+      },
+      {
+       "id": "585350",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "563472",
+       "type": "reward"
+      },
+      {
+       "id": "563473",
+       "type": "reward"
+      },
+      {
+       "id": "563474",
+       "type": "reward"
+      },
+      {
+       "id": "563475",
+       "type": "reward"
+      },
+      {
+       "id": "935989",
+       "type": "reward"
+      },
+      {
+       "id": "935988",
+       "type": "reward"
+      },
+      {
+       "id": "936003",
+       "type": "reward"
+      },
+      {
+       "id": "936002",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Working for the company Scientific Evolution S\u00e0rl specialized in consulting and training for high-potentials especially for quantitative analysts in project management, quality, engineering, finance and decision making (my main activity is to popularize advanced mathematical models for consulting firms and industrial companies). Incidentally, happy trainer and R\u0026amp;D manager that gathers since young information from articles everywhere and now addicted to everything related to Applied Mathematics in the management of organization (Businesses, States), TQM (Total Quality Management) with Post-Taylorism and related softwares. Consultant in Applied Mathematics tutoring quantitative analysts (graduate and posgraduate) and gifted young students in French, English and German and author of several French and English eBooks (R, Minitab, Project Management and so on...).",
+     "created": "2016-06-01T22:41:48+00:00",
+     "facebook": "https://www.facebook.com/groups/1793543747588689/",
+     "first_name": "Opera",
+     "full_name": "Opera Magistris Community",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3403398/6b9d8b1bade94f69a12e846b292d8b03?token-time=2145916800\u0026token-hash=tkswHhB1Fc9-V1cEoM_-WvlO9OoaXBuhV-gYu8RlnHE%3D",
+     "last_name": "Magistris Community",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3403398/6b9d8b1bade94f69a12e846b292d8b03?token-time=2145916800\u0026token-hash=1jXo7uolf3ULYiIfys3hv5r3ZWvNAs4INqKUdXCxMy0%3D",
+     "twitch": "",
+     "twitter": "",
+     "url": "https://www.patreon.com/sciences",
+     "vanity": "sciences",
+     "youtube": ""
+    },
+    "id": "3403398",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "380877",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/380877"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-11-20T09:44:21+00:00",
+     "description": "Tip because you just like the book.\u003cbr\u003e\u003cbr\u003eYou get a thx from the redaction team.",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-20T09:44:21+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T09:44:21+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380877\u0026rid=563472",
+     "user_limit": null
+    },
+    "id": "563472",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-11-20T09:44:21+00:00",
+     "description": "You will receive by e-mail the LaTeX source code of a subsub-section of your choice.",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-20T09:44:21+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T09:44:21+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380877\u0026rid=563473",
+     "user_limit": null
+    },
+    "id": "563473",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-11-20T09:44:21+00:00",
+     "description": "You will receive by e-mail the LaTeX source code of a sub-section of your choice and you can send an e-mail to the redactor and ask one question.",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-20T09:44:21+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T09:44:21+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380877\u0026rid=563474",
+     "user_limit": null
+    },
+    "id": "563474",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2016-11-20T09:44:21+00:00",
+     "description": "You will receive by e-mail the LaTeX source code of a section of your choice and you can have a skype of 30 minutes with the redactor.",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-20T09:44:21+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T09:44:21+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380877\u0026rid=563475",
+     "user_limit": null
+    },
+    "id": "563475",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-11-20T09:44:21+00:00",
+     "description": "You will receive by e-mail the LaTeX source code of a chapter of your choice and you can send an e-mail to the redactor and make one Skype of 30 minutes with the redactor once every quarter.",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-20T09:44:22+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T09:44:21+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380877\u0026rid=935989",
+     "user_limit": null
+    },
+    "id": "935989",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2016-11-20T09:44:22+00:00",
+     "description": "You will receive by e-mail the LaTeX source code of the whole book and you can send an e-mail to the redactor and make one Skype of 30 minutes with the redactor once every month.",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-20T09:44:22+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T09:44:22+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380877\u0026rid=935988",
+     "user_limit": null
+    },
+    "id": "935988",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 150000,
+     "amount_cents": 150000,
+     "created_at": "2016-11-20T09:44:22+00:00",
+     "description": "You will receive by e-mail the LaTeX source code of the whole book and you can send an e-mail to the redactor and make one Skype of 30 minutes with the redactor once every month and get all the Microsoft Excel, R and MATLAB source files of the companion books.",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-20T09:44:22+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T09:44:22+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380877\u0026rid=936003",
+     "user_limit": null
+    },
+    "id": "936003",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200000,
+     "amount_cents": 200000,
+     "created_at": "2016-11-20T09:44:22+00:00",
+     "description": "You will receive by e-mail the LaTeX source code of the whole book and you can send an e-mail to the redactor and make one Skype of 30 minutes with the redactor once every month and get all the Microsoft Excel, R and MATLAB source files of the companion books and get an unlimited professional access to our quiz builder.",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-20T09:44:22+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-11-20T09:44:22+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=380877\u0026rid=936002",
+     "user_limit": null
+    },
+    "id": "936002",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 1,
+     "created_at": "2016-06-01T22:52:58+00:00",
+     "description": "If we hit 500$/month we give for free 5 new pages of detailed mathematical proofs in the PDF every month.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "443202",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2016-06-01T22:52:58+00:00",
+     "description": "If we hit 1000$/month we give for free 10 new pages of detailed mathematical proofs in the PDF every month.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "443204",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 0,
+     "created_at": "2016-10-18T15:59:24+00:00",
+     "description": "If we hit 2000$/month we give for free 20 new pages of detailed mathematical proofs in the PDF every month.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "585348",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 0,
+     "created_at": "2016-10-18T15:59:24+00:00",
+     "description": "If we hit 3000$/month we give for free 30 new pages of detailed mathematical proofs in the PDF every month and we provide everybody a high quality cartoon illustration of a theorem/model available in the book.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "585349",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 400000,
+     "completed_percentage": 0,
+     "created_at": "2016-10-18T15:59:24+00:00",
+     "description": "If we hit 4000$/month we give for free 40 new pages of detailed mathematical proofs in the PDF every month\u00a0and we provide everybody two high quality cartoon illustration of a theorem/model available in the book.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "585350",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/380877"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "7ae5cc54-8e7e-482f-81c3-f5e30567b68b",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Opera Magistris Community is creating a compendium Book on Maths and Physics"
+});
+    </script>

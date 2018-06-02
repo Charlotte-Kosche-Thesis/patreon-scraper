@@ -1,0 +1,431 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "XGgl4YNtXoru3elYU1xyjQgZa4l5pVLPRL4_u5AflbE";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "287826",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/287826"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-10-25T04:34:33+00:00",
+    "creation_name": " Nerdy Entertainment",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/581228/92bfcdaaf2594819a9c57504f2c9b380?token-time=2145916800\u0026token-hash=GbMT2TiScs5UOhdmVHNJAFaw_E2AS3ag06Y-0-uPW-g%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/581228/92bfcdaaf2594819a9c57504f2c9b380?token-time=2145916800\u0026token-hash=F6rdHDIiOXR3BCiyaLoPT3Zy8DBb1-CvhfW1EoseAmw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=581228",
+    "published_at": "2016-10-25T18:32:30+00:00",
+    "summary": "Welcome to the Zeroes To Heroes Patreon! This is Josh, Zachary, and Chandler. And new guy, Richard! \u00a0We are a \ngroup of nerdy Texas guys who want to make entertaining videos for \nyou. The videos we want to make range from reactions, anime, news, Let\u0027s Plays, movie reviews, podcasts, etc.\u003cbr\u003eNow that it\u0027s 2017, we want to get more active with our page! We have quite a lot planned for this year and hope you will stick around to watch what we\u0027ve got to offer.\u003cbr\u003eWhen you pledge to us, your money will go directly into a savings account that we can use specifically for buying new equipment, pay for better Internet and keeping a steady flow of videos and podcasts coming.\u003cbr\u003eWith this being the first time any of us have used Patreon, we can learn and edit the page as we go along. We hope you will help support us and enjoy our content. In the words of the late Leonard Nimoy, \"Live long and prosper!\"\u003cbr\u003e"
+   },
+   "id": "581228",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4297851",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4297851"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "746447",
+       "type": "goal"
+      },
+      {
+       "id": "748387",
+       "type": "goal"
+      },
+      {
+       "id": "749504",
+       "type": "goal"
+      },
+      {
+       "id": "775582",
+       "type": "goal"
+      },
+      {
+       "id": "779647",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-581228",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-581228"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "962630",
+       "type": "reward"
+      },
+      {
+       "id": "1570698",
+       "type": "reward"
+      },
+      {
+       "id": "962631",
+       "type": "reward"
+      },
+      {
+       "id": "962632",
+       "type": "reward"
+      },
+      {
+       "id": "962633",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-10-25T04:34:09+00:00",
+     "facebook": "https://www.facebook.com/zeroes2heroes/",
+     "first_name": "Zeroes",
+     "full_name": "Zeroes To Heroes",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4297851/370d065f9d964a88808217fd808cfbea?token-time=2145916800\u0026token-hash=hM_KiJ2WlQCy1sTE651fhYyqUsYIMuPC7jUzo-aKwFg%3D",
+     "last_name": "To Heroes",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4297851/370d065f9d964a88808217fd808cfbea?token-time=2145916800\u0026token-hash=J2kxaPpl0PILR7lE8VifUF23btF_E-zAm3LVAQYN8dY%3D",
+     "twitch": null,
+     "twitter": "zeroes2heroes_",
+     "url": "https://www.patreon.com/zeroestoheroes",
+     "vanity": "zeroestoheroes",
+     "youtube": "https://www.youtube.com/ZeroesToHeroes"
+    },
+    "id": "4297851",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "581228",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/581228"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 3,
+     "upgrade_url": "/bePatron?c=581228\u0026rid=962630"
+    },
+    "id": "post-aggregation-for-0-581228",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-28T21:30:03+00:00",
+     "description": "THANK YOU for becoming one of our supporters! While $1 might not seem like much to you, to us it shows that you care and want to be entertained. As an official patron, you\u0027ll have access to our patron-only feed, early access to videos AND get your name displayed at the end of our videos!\n\u003cp\u003e\u00a0Plus you will get a tear stained email from us gratefully thanking you.*\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e*Emails may not be tearstained, but the sentiment will be there.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-14T20:19:39.770581+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-28T21:30:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Path of the Nerd",
+     "unpublished_at": null,
+     "url": "/bePatron?c=581228\u0026rid=962630"
+    },
+    "id": "962630",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-04-07T06:57:03.506591+00:00",
+     "description": "When you donate to this tier you will be given access to the completely UNEDITED episodes of our podcasts, that will only be available on Patreon!\n\u003cp\u003ePlus all previous rewards.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-07T07:02:22.296435+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-07T07:02:22.286449+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Idiocy Unleashed!!!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=581228\u0026rid=1570698"
+    },
+    "id": "1570698",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-10-28T21:30:03+00:00",
+     "description": "-Cool Discord Stuff!\n\u003cp\u003e-Patreon Exclusive chat/Q\u0026amp;A\u003c/p\u003e\n\u003cp\u003e-Name in the credits w/ Dollar Sign\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eWhen you pledge Bronze you\u0027ll receive access to certain \u00a0cool Discord server features! And a monthly Patreon Exclusive chat/Q\u0026amp;A with all of you awesome $3+ patrons, plus all previous rewards.\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-14T20:19:39.822023+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-28T21:30:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Bronze Level",
+     "unpublished_at": null,
+     "url": "/bePatron?c=581228\u0026rid=962631"
+    },
+    "id": "962631",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-28T21:30:03+00:00",
+     "description": "-Access to the Vault\n\u003cp\u003e-Exclusive \u00a0video\u003c/p\u003e\n\u003cp\u003e-Name in the credits with gold plating and Dollar sign (It looks terrible...You\u0027ll love it)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAs Silver, you\u0027ll receive access to a Patreon Exclusive unlisted video with topic being determined by popular vote in a poll, plus all previous rewards. \u00a0Also gain access to the Vault. Which includes all the things we wished never saw the light of day. Like\u00a0all the outtakes from the shows. You also get access to all the previous rewards.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-14T20:19:39.848277+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-28T21:30:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Silver Level",
+     "unpublished_at": null,
+     "url": "/bePatron?c=581228\u0026rid=962632"
+    },
+    "id": "962632",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-28T21:30:03+00:00",
+     "description": "-Access to a super Secret Podcast\n\u003cp\u003e-Force Richard or Zachary to read an Audio Passage of your choice\u003c/p\u003e\n\u003cp\u003e-Includes All Previous Awards\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThe Super Secret Podcast will be bi-weekly and every time it is posted we talk about anything and everything that you want us to talk about.\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou also get to force either Richard or Zachary to record text, fanfiction, or a verbally binding legal contract. We can only handle about 1000 words per person, but we are looking forward to all cool stuff you\u0027re going to let us read!*\u003cbr\u003e\n\u003c/p\u003e\n\u003cp\u003e*Reoccurs monthly, but completion time may vary\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-14T20:19:39.869786+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-28T21:30:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gold Level",
+     "unpublished_at": null,
+     "url": "/bePatron?c=581228\u0026rid=962633"
+    },
+    "id": "962633",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 45,
+     "created_at": "2017-03-12T06:19:46+00:00",
+     "description": "There\u0027s more shows, podcasts, and Ideas that we want to do! If we reach this tier, we will start the process of creating new series, reviews new shows, doing special one offs and more!",
+     "reached_at": "2017-03-13T21:48:41+00:00",
+     "title": ""
+    },
+    "id": "746447",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 12,
+     "created_at": "2017-03-13T22:27:45+00:00",
+     "description": "It\u0027s no secret that we are all nerds. If we reach this tier we will stream one game or thing a month. It\u0027ll be a night of fun, the most royal idiotic-ness, and all of the Josh face-palming that you can handle!",
+     "reached_at": "2017-03-31T21:34:53+00:00",
+     "title": ""
+    },
+    "id": "748387",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 6,
+     "created_at": "2017-03-14T20:10:32+00:00",
+     "description": "If we reach this tier, we will gain a steady and constant schedule of posting our content. Richard will have less echo. Chandler will be more energized for our podcasts, and Josh will tolerate more of our BS! At this level, we will also be putting out an Exclusive Patreon Let\u0027s Play chosen by you guys!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "749504",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 22,
+     "created_at": "2017-04-04T03:17:52+00:00",
+     "description": "Once we reach over $40 per month, we will get both the Akibento monthly subscription boxes and Josh will make an unboxing video!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "775582",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 4,
+     "created_at": "2017-04-07T03:07:42+00:00",
+     "description": "Chandler will stop swearing to for one podcast a week. SFW FOR ONE PODCAST A WEEK. *He will try. May not successfully do so but we will try at the very least!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "779647",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/581228"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "a0365478-2d99-45dd-8cce-9ac7ad4c975e",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Zeroes To Heroes are creating  Nerdy Entertainment"
+});
+    </script>

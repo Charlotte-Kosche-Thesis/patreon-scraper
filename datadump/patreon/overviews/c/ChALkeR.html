@@ -1,0 +1,529 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "ver-7Com8ND0i-NLQm0kg5PusbI4PDiZnRniF2idqbU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "848572",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/848572"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-09-10T11:26:33+00:00",
+    "creation_name": "Free software and security stuff",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/501515/2309a4c1fe7f46789f17df7e8f29f924?token-time=2145916800\u0026token-hash=UP4DsBZjTNJK4IKRoU4psYhTuZS6t4_HCAXrFFQbkKk%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/501515/2309a4c1fe7f46789f17df7e8f29f924?token-time=2145916800\u0026token-hash=g3n35djPq74RRmJrCcidYLfrjpDEadLzfQLX11Fp92A%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_sum": 2700,
+    "pledge_url": "/bePatron?c=501515",
+    "published_at": "2018-03-21T17:33:15+00:00",
+    "summary": "\u003ch2\u003eHi, I\u0027m Nikita\u003c/h2\u003e\n\u003cbr\u003e\n\u003cimg src=\"https://github.com/ChALkeR/fundraising/raw/master/media/Nikita.crop.jpg\" width=\"512\"\u003e\n\u003cbr\u003e\nThe FLOSS community/ecosystem work that I do online is currently not paid for by any company or organization, I do that solely in my free time.\n\u003cbr\u003e\n\u003cbr\u003e\nMy current areas of interest include Node.js ecosystem and Node.js API, general security-related problems, QmlWeb, and quantum informatics.\n\u003cbr\u003e\n\u003cbr\u003e\nIn the Node.js-related area, I am interested mostly in locating and addressing various issues in the Node.js ecosystem, with an accent on (but not limited to) security and stability issues.\n\u003cbr\u003e\nThat takes about 20-30% of what could be a full-time job currently. I did receive several bounties for security issues from e.g. GitHub, but I try to optimize for impact and not for bounties, and most of my work is voluntary. During the main phase of those npm credentials leaks / reuse stories, I was asked by several people independently how did I fund the research \u2014 the honest answer was that I didn\u0027t, and I performed that solely in my free time. There are also direct expenses in some of those cases \u2014 i.e. I am paying for hosting and processing power for some of the tasks, and for other things like coworking space access.\n\u003cbr\u003e\n\u003cbr\u003e\nOver the recent time, I:\n\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003ediscovered and reported some security-related issues in Node.js, npm, and ecosystem packages,\u003c/li\u003e\n\t\u003cli\u003emade some public posts aimed at improving the ecosystem security (note: not all issues deserved a post \u2014 only those that I wanted to bring the public attention to, the top reason is to stop the ecosystem from doing bad things in their own code),\u003c/li\u003e\n\t\u003cli\u003eprobably the most significant of those was the massive credentials leak/reusage story, in several parts (\u003ca href=\"https://github.com/ChALkeR/notes/blob/master/Do-not-underestimate-credentials-leaks.md\"\u003eone\u003c/a\u003e, \u003ca href=\"https://github.com/ChALkeR/notes/blob/master/Gathering-weak-npm-credentials.md\"\u003etwo\u003c/a\u003e), which you could have heard about (I\u0027m still spending my time on that issue even now),\u003c/li\u003e\n\t\u003cli\u003eresurrected \u003ca href=\"https://github.com/qmlweb/qmlweb\"\u003eQmlWeb\u003c/a\u003e (originally written by other people \u2014 see the \u003ca href=\"https://github.com/qmlweb/qmlweb/graphs/contributors\"\u003egraph\u003c/a\u003e and started an attempt to merge its numerous forks back into one piece, that was accomplished with everyone contributing in one repo now,\u003c/li\u003e\n\t\u003cli\u003efiled a significant number of issues (a large part of those were similar) to various projects with suggestions, in-advance warnings of future deprecations and semver-major changes on Node.js side, and about those some projects doing an obviously wrong thing (like packaging what they didn\u0027t want to or other obvious mistakes),\u003c/li\u003e\n\t\u003cli\u003ehave been trying hard to estimate the impact of some semver-major API changes on Node.js side,\u003c/li\u003e\n\t\u003cli\u003emade some number of general issue an PR \u003ca href=\"https://github.com/search?q=org%3Anodejs+commenter%3AChALkeR\"\u003ecomments\u003c/a\u003e and reviews for Node.js, and have been doing some usual CTC/TSC member stuff.\u003c/li\u003e\n\u003c/ul\u003e\nMost of that is shared on GitHub (my username is \n\u003ca href=\"https://github.com/ChALkeR\"\u003e@ChALkeR\u003c/a\u003e), but a significant part is not:\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003eprivate repos \u2014 e.g. preliminary private notes, the tooling used to perform attacks on npm (shared with npm), some other stuff shared with affected projects and parties,\u003c/li\u003e\n\t\u003cli\u003eprivate emails / DMs \u2014 e.g. most security-related reports,\u003c/li\u003e\n\t\u003cli\u003emost time that spent on code review / analysis produce no visible result \u2014 and that is a good thing, that means that I wasn\u0027t able to locate issues in those libraries.\u003c/li\u003e\n\u003c/ul\u003e\nRecently, with the appearance of Node.js \n\u003ca href=\"https://hackerone.com/nodejs-ecosystem\"\u003ethird-party modules security program\u003c/a\u003e, I also started filing my reports for significant modules through that one, instead of simple emails to maintainers \u2014 that is more organized, visible and makes sure that it goes into various databases for e.g. automated deps detection. Some of those are fixed by now and should be disclosed fairly soon.\u003cbr\u003e\n\u003cbr\u003e\nIn future, I am planning to:\n\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003efind and report more security-related issues and perform more audits,\u003c/li\u003e\n\t\u003cli\u003espend more time taking a look at issues and pull requests,\u003c/li\u003e\n\t\u003cli\u003einvestigate building an automated tool that would find and help report common issues and mistakes in Node.js ecosystem libraries,\u003c/li\u003e\n\t\u003cli\u003egive some more love to \u003ca href=\"https://github.com/qmlweb/qmlweb\"\u003eQmlWeb\u003c/a\u003e,\u003c/li\u003e\n\t\u003cli\u003ewrite some more notes about common security issues in the ecosystem.\u003c/li\u003e\n\u003c/ul\u003e\nThis fundraiser, if it succeeds, might help to to achieve the above goals faster and with more significant results.\n\u003cbr\u003e\n\u003cbr\u003e\nOther things that I probably would have devoted some time to if I had more of that time is some investigation of secure and usable means of communication (\u003ca href=\"https://github.com/ChALkeR/whinings/blob/master/Instant-messaging.md\"\u003eref\u003c/a\u003e).\u003cbr\u003e\n\u003cbr\u003e\nI am planning to continue contributing to FLOSS even if this attempt fails, but if it succeeds \u2014 it will help me to stop doing things that I like less (and which bring some stress to my life) and start doing more things that I like more (i.e. FLOSS activity).\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ch3\u003eWhat would this give?\u003c/h3\u003e\n\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003eMore work on \u003ca href=\"https://github.com/ChALkeR/Gzemnid\"\u003eGzemnid\u003c/a\u003e the ecosystem analysis toolset \u2014 it needs some crucial features.\u003c/li\u003e\n\t\u003cli\u003eMore time for me to spend on inspecting API usage, sending patches, doing code review and other related activity.\u003c/li\u003e\n\t\u003cli\u003eI would be able to do more work on improving Node.js ecosystem security at a whole, from various directions.\u003c/li\u003e\n\t\u003cli\u003eI would be able to do more work (and more organized work) on reviewing ecosystem packages security. And probably, more reports.\u003c/li\u003e\n\t\u003cli\u003eFrom the personal point of view \u2014 this will help me concentrate on working on things that I love doing (FLOSS and community/ecosystem issues) instead of doing things that I like less, while still being able to pay my bills. That would make me a happier person.\u003c/li\u003e\n\t\u003cli\u003eThe burn-out that could be observed on my \u003ca href=\"https://github.com/ChALkeR/\"\u003eGitHub activity\u003c/a\u003e over September-December was probably caused by the ratio of effort and time that I devoted to making the ecosystem better to the feedback that I received on that from parties involved. If this fundraiser succeeds, it would provide me positive reinforcement that I need to keep going. This is one of the significant reasons why I\u0027m finally starting a personal fundraiser.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch3\u003eContacts\u003c/h3\u003e\n\u003cbr\u003e\nIf you have any questions, you can contact me over \n\u003ca href=\"https://gitter.im/ChALkeR\"\u003eGitter\u003c/a\u003e or over \u003ca href=\"mailto:chalkerx@gmail.com\"\u003eemail\u003c/a\u003e. Also, \u003ca href=\"https://twitter.com/skovorodan\"\u003eTwitter\u003c/a\u003e DMs are open.\u003cbr\u003e\n\u003cbr\u003e\n\u003ch3\u003eNotes\u003c/h3\u003e\n\u003cbr\u003e\nAlso, \n\u003ca href=\"https://www.paypal.me/ChALkeR\"\u003ePayPal\u003c/a\u003e works for one-time donations. ;-)\u003cbr\u003e\n\u003cbr\u003e\n\u003cem\u003eThis fundraiser is entirely personal, it\u0027s not directly affiliated with any projects which I participate in.\u003c/em\u003e\u003cbr\u003e"
+   },
+   "id": "501515",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3985574",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3985574"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "538165",
+       "type": "goal"
+      },
+      {
+       "id": "538191",
+       "type": "goal"
+      },
+      {
+       "id": "538193",
+       "type": "goal"
+      },
+      {
+       "id": "538856",
+       "type": "goal"
+      },
+      {
+       "id": "543357",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "750993",
+       "type": "reward"
+      },
+      {
+       "id": "2408958",
+       "type": "reward"
+      },
+      {
+       "id": "2408969",
+       "type": "reward"
+      },
+      {
+       "id": "751005",
+       "type": "reward"
+      },
+      {
+       "id": "751006",
+       "type": "reward"
+      },
+      {
+       "id": "2408925",
+       "type": "reward"
+      },
+      {
+       "id": "751007",
+       "type": "reward"
+      },
+      {
+       "id": "2408940",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-09-10T11:26:12+00:00",
+     "facebook": "https://www.facebook.com/chalkerx",
+     "first_name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430",
+     "full_name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3985574/6b8f7aef7a2d4c0b9bdc56f720079171?token-time=2145916800\u0026token-hash=5oMWx9gI2SisbMi8WpBYCO0ZuaG33FPHooILfBpsmqY%3D",
+     "last_name": "\u041d\u0438\u043a\u0438\u0442\u0430",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3985574/6b8f7aef7a2d4c0b9bdc56f720079171?token-time=2145916800\u0026token-hash=Q_MUxtw60Nx-YjIpHQ-wxZHib1uwEgQtYb60__XHMlU%3D",
+     "twitch": null,
+     "twitter": "skovorodan",
+     "url": "https://www.patreon.com/ChALkeR",
+     "vanity": "ChALkeR",
+     "youtube": null
+    },
+    "id": "3985574",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "501515",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/501515"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-09-14T11:10:05+00:00",
+     "description": "It is important for me to know that you support me, and that what I am doing is appreciated.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-21T17:31:04.873748+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-21T17:31:04.866707+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Thanks!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=501515\u0026rid=750993",
+     "user_limit": null
+    },
+    "id": "750993",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-28T04:16:27.142491+00:00",
+     "description": "Thanks so much for supporting me!\n\u003cp\u003eIt is really important to me and gives me motivation to continue.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eActive individual contributors will be listed in my \u003ca href=\"https://github.com/ChALkeR/fundraising\" rel=\"nofollow noopener\" target=\"_blank\"\u003efundraising\u003c/a\u003e repo.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-27T11:28:22.981618+00:00",
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-27T11:28:22.971657+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=501515\u0026rid=2408958",
+     "user_limit": null
+    },
+    "id": "2408958",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-02-28T04:26:09.837444+00:00",
+     "description": "More motivation for me \ud83d\ude09.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAlso, I plan adding something else from this point later if this succeeds, but no hard promises yet \u2014 so let\u0027s make this just a tier with another separate section in my \u003ca href=\"https://github.com/ChALkeR/fundraising\" rel=\"nofollow noopener\" target=\"_blank\"\u003efundraising\u003c/a\u003e repo for now. =)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-27T11:28:49.055986+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-27T11:28:49.046283+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Large supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=501515\u0026rid=2408969",
+     "user_limit": null
+    },
+    "id": "2408969",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-09-14T11:10:05+00:00",
+     "description": "Active individual contributors will be listed in my \u003ca href=\"https://github.com/ChALkeR/fundraising\" rel=\"nofollow noopener\" target=\"_blank\"\u003efundraising\u003c/a\u003e repo, sorted by the tier, with avatars or photos.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-27T11:31:27.641436+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-27T11:31:27.634760+00:00",
+     "remaining": 40,
+     "requires_shipping": false,
+     "title": "Top supporter",
+     "unpublished_at": null,
+     "url": "/bePatron?c=501515\u0026rid=751005",
+     "user_limit": 40
+    },
+    "id": "751005",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-09-14T11:10:05+00:00",
+     "description": "Active contributors, including companies, will be listed in my \u003ca href=\"https://github.com/ChALkeR/fundraising\" rel=\"nofollow noopener\" target=\"_blank\"\u003e\u003cu\u003efundraising\u003c/u\u003e\u003c/a\u003e repo, with a link.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-27T11:33:01.141586+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-27T11:33:01.134109+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Bronze",
+     "unpublished_at": null,
+     "url": "/bePatron?c=501515\u0026rid=751006",
+     "user_limit": null
+    },
+    "id": "751006",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2018-02-28T03:54:45.222411+00:00",
+     "description": "Active contributors, including companies, will be listed in my \u003ca href=\"https://github.com/ChALkeR/fundraising\" rel=\"nofollow noopener\" target=\"_blank\"\u003efundraising\u003c/a\u003e repo, with a small logo and a link.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-27T11:33:45.058566+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-27T11:33:45.049265+00:00",
+     "remaining": 20,
+     "requires_shipping": false,
+     "title": "Silver",
+     "unpublished_at": null,
+     "url": "/bePatron?c=501515\u0026rid=2408925",
+     "user_limit": 20
+    },
+    "id": "2408925",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-09-14T11:10:05+00:00",
+     "description": "Active contributors, including companies, will be listed in my \u003ca href=\"https://github.com/ChALkeR/fundraising\" rel=\"nofollow noopener\" target=\"_blank\"\u003efundraising\u003c/a\u003e repo, with a medium logo and a link.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-27T11:34:31.833813+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-27T11:34:31.824362+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Gold",
+     "unpublished_at": null,
+     "url": "/bePatron?c=501515\u0026rid=751007",
+     "user_limit": 5
+    },
+    "id": "751007",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2018-02-28T04:08:04.267011+00:00",
+     "description": "Active contributors, including companies, will be listed in my \u003ca href=\"https://github.com/ChALkeR/fundraising\" rel=\"nofollow noopener\" target=\"_blank\"\u003efundraising\u003c/a\u003e repo, with a large logo and a link.",
+     "discord_role_ids": null,
+     "edited_at": "2018-03-27T11:35:13.977898+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-03-27T11:35:13.970946+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": "Platinum",
+     "unpublished_at": null,
+     "url": "/bePatron?c=501515\u0026rid=2408940",
+     "user_limit": 3
+    },
+    "id": "2408940",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 400000,
+     "completed_percentage": 0,
+     "created_at": "2016-09-10T12:54:49+00:00",
+     "description": "Full-time work on FLOSS and related community/ecosystem issues.\u003cbr\u003e\u003cbr\u003eAt this point, I would (hopefully) finally stop asking myself what am I doing to my life.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "538165",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 120000,
+     "completed_percentage": 2,
+     "created_at": "2016-09-10T13:19:11+00:00",
+     "description": "It would pay off my current time spent on FLOSS work and related community/ecosystem issues. I would be really happy about that.\u003cbr\u003e\u003cbr\u003eThis would make me devote more time to it, so the ideal balance would still be not reached here =).\u003cbr\u003e\u003cbr\u003eI would be able to sleep\u00a0regularly at this point, though.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "538191",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 27,
+     "created_at": "2016-09-10T13:21:43+00:00",
+     "description": "Good start!\u003cbr\u003eIt would make me feel a bit better knowing that my work is appreciated.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "538193",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 1,
+     "created_at": "2016-09-11T02:41:55+00:00",
+     "description": "Half there!\u003cbr\u003e\u003cbr\u003eI would be quite happy knowing that I am able to spent most of my work time at FLOSS and community/ecosystem issues.\u003cbr\u003e\u003cbr\u003eActually, I will probably be able to drop other less-effective activities somewhere past this point and start working full-time on FLOSS.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "538856",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 5,
+     "created_at": "2016-09-13T13:09:56+00:00",
+     "description": "Past this amount, I will try to come up with something for the rewards, apart from the standard thanks in my fundraising repo.\u003cbr\u003eI have some interesting ideas ;-).\u003cbr\u003e\u003cbr\u003eAlso a bit more time for blog posts and status updates.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "543357",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/501515"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "d9709e69-e581-448e-904b-37064c7663f6",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 is creating Free software and security stuff"
+});
+    </script>

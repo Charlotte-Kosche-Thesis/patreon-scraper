@@ -1,0 +1,565 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "oZu3W5O-BLWlJ1cYwEac5yShkpa-rKD-vC7V8RLTU-c";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "147552",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/147552"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-03-21T18:24:08+00:00",
+    "creation_name": "Seminars for Cryptocurrencies",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=323379",
+    "published_at": "2016-03-21T19:07:28+00:00",
+    "summary": "For those who want to support me in making more content for the community\u003cbr\u003e\u003cbr\u003eThe more support i will get, the more i can focus on creating for you lovely people.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003eFully free for those who doesnt and who does support me!"
+   },
+   "id": "323379",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3047241",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3047241"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "381312",
+       "type": "goal"
+      },
+      {
+       "id": "381313",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "480670",
+       "type": "reward"
+      },
+      {
+       "id": "480677",
+       "type": "reward"
+      },
+      {
+       "id": "480678",
+       "type": "reward"
+      },
+      {
+       "id": "480679",
+       "type": "reward"
+      },
+      {
+       "id": "480680",
+       "type": "reward"
+      },
+      {
+       "id": "480681",
+       "type": "reward"
+      },
+      {
+       "id": "480682",
+       "type": "reward"
+      },
+      {
+       "id": "480683",
+       "type": "reward"
+      },
+      {
+       "id": "480684",
+       "type": "reward"
+      },
+      {
+       "id": "480685",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-03-21T15:59:51+00:00",
+     "facebook": null,
+     "first_name": "Powermouse",
+     "full_name": "Powermouse",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c8.patreon.com/2/400/3047241",
+     "last_name": "",
+     "thumb_url": "https://c8.patreon.com/2/100/3047241",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/Powermouse",
+     "vanity": "Powermouse",
+     "youtube": null
+    },
+    "id": "3047241",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "323379",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/323379"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-03-21T19:07:11+00:00",
+     "description": "Discord access",
+     "discord_role_ids": [
+      "389630618595491840"
+     ],
+     "edited_at": "2017-12-11T04:27:33.698483+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-11T04:27:33.673775+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "x1",
+     "unpublished_at": null,
+     "url": "/bePatron?c=323379\u0026rid=480670",
+     "user_limit": null
+    },
+    "id": "480670",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-03-21T19:07:11+00:00",
+     "description": "\u00a0Discord access\u00a0",
+     "discord_role_ids": [
+      "389630618595491840"
+     ],
+     "edited_at": "2017-12-11T04:27:39.677056+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-11T04:27:39.655594+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "x5",
+     "unpublished_at": null,
+     "url": "/bePatron?c=323379\u0026rid=480677",
+     "user_limit": null
+    },
+    "id": "480677",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-03-21T19:07:11+00:00",
+     "description": "\u00a0Discord access\u00a0",
+     "discord_role_ids": [
+      "389630618595491840"
+     ],
+     "edited_at": "2017-12-11T04:27:47.359165+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-11T04:27:47.340032+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "x10",
+     "unpublished_at": null,
+     "url": "/bePatron?c=323379\u0026rid=480678",
+     "user_limit": null
+    },
+    "id": "480678",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-03-21T19:07:11+00:00",
+     "description": "\u00a0Discord Access \u00a0\u00a0+ Private Session",
+     "discord_role_ids": [
+      "389630618595491840"
+     ],
+     "edited_at": "2017-12-11T04:29:37.636329+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-11T04:29:37.614951+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "x25",
+     "unpublished_at": null,
+     "url": "/bePatron?c=323379\u0026rid=480679",
+     "user_limit": null
+    },
+    "id": "480679",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-03-21T19:07:11+00:00",
+     "description": "\u00a0Discord Access \u00a0+ Private Session",
+     "discord_role_ids": [
+      "389630618595491840"
+     ],
+     "edited_at": "2017-12-11T04:29:24.930602+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-11T04:29:24.910499+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "x50",
+     "unpublished_at": null,
+     "url": "/bePatron?c=323379\u0026rid=480680",
+     "user_limit": null
+    },
+    "id": "480680",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-03-21T19:07:11+00:00",
+     "description": "\u00a0Discord Privileges + Private Session and Advicement",
+     "discord_role_ids": [
+      "389630618595491840"
+     ],
+     "edited_at": "2017-12-11T04:26:49.418095+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-11T04:26:49.396931+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "x100",
+     "unpublished_at": null,
+     "url": "/bePatron?c=323379\u0026rid=480681",
+     "user_limit": null
+    },
+    "id": "480681",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2016-03-21T19:07:11+00:00",
+     "description": "\u00a0\u00a0Discord Privileges + Private Sessions",
+     "discord_role_ids": [
+      "389630618595491840"
+     ],
+     "edited_at": "2017-12-11T04:27:06.369442+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-11T04:27:06.333575+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "x150",
+     "unpublished_at": null,
+     "url": "/bePatron?c=323379\u0026rid=480682",
+     "user_limit": null
+    },
+    "id": "480682",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2016-03-21T19:07:11+00:00",
+     "description": "\u00a0\u00a0Discord Privileges + Private Sessions / Advisor",
+     "discord_role_ids": [
+      "389630618595491840"
+     ],
+     "edited_at": "2017-12-11T04:26:05.871891+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-11T04:26:05.851147+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "x250",
+     "unpublished_at": null,
+     "url": "/bePatron?c=323379\u0026rid=480683",
+     "user_limit": null
+    },
+    "id": "480683",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-03-21T19:07:11+00:00",
+     "description": "\u00a0\u00a0Discord Privileges + Private Sessions / Advisor",
+     "discord_role_ids": [
+      "389630618595491840"
+     ],
+     "edited_at": "2017-12-11T04:26:11.749914+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-11T04:26:11.728519+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "x500",
+     "unpublished_at": null,
+     "url": "/bePatron?c=323379\u0026rid=480684",
+     "user_limit": null
+    },
+    "id": "480684",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2016-03-21T19:07:11+00:00",
+     "description": "\u00a0\u00a0Discord Privileges + Private Sessions / Advisor",
+     "discord_role_ids": [
+      "389630618595491840"
+     ],
+     "edited_at": "2017-12-11T04:25:22.351084+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-11T04:25:22.331473+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "x1000",
+     "unpublished_at": null,
+     "url": "/bePatron?c=323379\u0026rid=480685",
+     "user_limit": null
+    },
+    "id": "480685",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000000,
+     "completed_percentage": 0,
+     "created_at": "2016-03-21T18:56:00+00:00",
+     "description": "Better solid computer, build by you all for you all!\u003cbr\u003e\u003cbr\u003eThis of course will devote most of my time to you people!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "381312",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 0,
+     "created_at": "2016-03-21T18:56:00+00:00",
+     "description": "Investing into making videos and 1 to 1 education programs!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "381313",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/323379"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "2c0de37e-628c-4b94-b9b2-e2ae42bf772e",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Powermouse is creating Seminars for Cryptocurrencies"
+});
+    </script>

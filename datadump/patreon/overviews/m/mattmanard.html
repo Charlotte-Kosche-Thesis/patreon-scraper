@@ -1,0 +1,431 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "V0Oy7qOLjH8urg4Dz1YEWxpJVbWnTZ4GD_loMPkod7Y";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "361900",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/361900"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-02-10T04:15:14+00:00",
+    "creation_name": "Fantasy Worlds",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/743416/2566ddd1fb42403e891c4aa0b8207c3f?token-time=2145916800\u0026token-hash=jFc-sxniLve3KEJelzR6AdAfoD97WbQtwwJsRmSQqfs%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/743416/2566ddd1fb42403e891c4aa0b8207c3f?token-time=2145916800\u0026token-hash=ez-9S-EAAHroEgME1yDIkIbS-Uns-2t3BCzEUyiyDro%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 2250,
+    "pledge_url": "/bePatron?c=743416",
+    "published_at": "2017-02-12T17:44:59+00:00",
+    "summary": "Hello, and welcome to my mind. I admit that it is a rather unusual place, but I also think it may hold some interest for a weary traveler to see some things that will hopefully bring you intrigue, amusement, and above all, wonder.\u003cbr\u003eMy goal is to create at least two or maybe three paintings per\n week. Which, even if you were in at a twenty five dollar per month level, is\n only roughly three dollars per painting. I feel like at that rate I am \noffering a thing of value both to you, and to myself. I have a number of\n ideas, some ongoing creative things, like the travels of my character \nthe Pilgrim. Some would be my renditions of popular characters you may \nalready know, like the piece I\u0027m working on of Link right now. Almost every painting will be accompanied by a several paragraph description, or story of sorts, to help flesh out the scene, and give you a further glimpse into the world it takes place in.\u003cbr\u003e In\n short, if you are willing, I can take you on a hundred journeys to a \nthousand places. And I would greatly appreciate it if you support my \nefforts in doing so. And even if you can\u0027t directly, I would be much \nindebted if you could share my site when I get it up, for people who are\n in a better position to do so."
+   },
+   "id": "743416",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "306566",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/306566"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "713875",
+       "type": "goal"
+      },
+      {
+       "id": "713876",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-743416",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-743416"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1390456",
+       "type": "reward"
+      },
+      {
+       "id": "1390458",
+       "type": "reward"
+      },
+      {
+       "id": "1390460",
+       "type": "reward"
+      },
+      {
+       "id": "1390459",
+       "type": "reward"
+      },
+      {
+       "id": "1411804",
+       "type": "reward"
+      },
+      {
+       "id": "1390457",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2014-09-15T03:14:10+00:00",
+     "facebook": "https://www.facebook.com/profile.php?id=100013962720142",
+     "first_name": "Matt",
+     "full_name": "Matt  Manard",
+     "gender": 1,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/306566/ebd8b2830ec24b98a10ee3bde5c0332a?token-time=2145916800\u0026token-hash=iBdaVG2IJT5ji-NawKOBSKaH4FYNveXMuBhZbJFajx0%3D",
+     "last_name": " Manard",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/306566/ebd8b2830ec24b98a10ee3bde5c0332a?token-time=2145916800\u0026token-hash=JI-IeKzijn8967dHqWLCYg_p6HxA5m0jRoZZhj5zRYo%3D",
+     "twitch": null,
+     "twitter": "Umbrafox",
+     "url": "https://www.patreon.com/mattmanard",
+     "vanity": "mattmanard",
+     "youtube": null
+    },
+    "id": "306566",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "743416",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/743416"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 86,
+     "upgrade_url": "/bePatron?c=743416\u0026rid=1390456"
+    },
+    "id": "post-aggregation-for-0-743416",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-02-10T04:33:01.251199+00:00",
+     "description": "Get a patron-only perspective on my work.\n\u003cul\u003e\n\u003cli\u003eBehind-the-scenes art and low-res images of all paintings and work in progress images.\u003c/li\u003e\n\u003cli\u003ePatrons get updates on work before anywhere else. Approximately six to ten paintings per month.\u003c/li\u003e\n\u003cli\u003e\u003cbr\u003e\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-11T19:45:55.781730+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1390456/369ded7ffb654ad9b625008d758923e3?token-time=2145916800\u0026token-hash=m_MIycI_idAayUK62kIamFyT1CsW52LdBlfzqVDWnJ0%3D",
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-02-10T04:33:01.251199+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Audience Hall",
+     "unpublished_at": null,
+     "url": "/bePatron?c=743416\u0026rid=1390456",
+     "user_limit": null
+    },
+    "id": "1390456",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-02-10T04:33:01.459684+00:00",
+     "description": "Get all the merch you\u0027ve always wanted.\n\u003cul\u003e\n\u003cli\u003eDiscount code on merch\u003c/li\u003e\n\u003cli\u003e\u00a0One High-res finished painting image per month.\u00a0\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-11T19:45:55.801733+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1390458/51b523fd16344f3d83a90508da651e9e?token-time=2145916800\u0026token-hash=XypakjDJ6qEyowoUZZg1co_JsXuyDOHIrQSuSV0SVmY%3D",
+     "patron_count": 0,
+     "post_count": 13,
+     "published": true,
+     "published_at": "2017-02-10T04:33:01.459684+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Glade of the Sword",
+     "unpublished_at": null,
+     "url": "/bePatron?c=743416\u0026rid=1390458",
+     "user_limit": null
+    },
+    "id": "1390458",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-02-10T04:33:01.705808+00:00",
+     "description": "Getting there!\n\u003cul\u003e\n\u003cli\u003eAt least three High-res painting images per month.\u003c/li\u003e\n\u003cli\u003eCan participate in the monthly poll to choose between thumbnails, one of the paintings for the coming month.\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-11T19:45:55.819573+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1390460/9c8e09f2fa4345d792e2e3355a321fc5?token-time=2145916800\u0026token-hash=ykHOJlrY0lgk4qoucT-7F-MMxJZy2VH8dIcbjaz7-xM%3D",
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-02-10T04:33:01.705808+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Galactic Vortex",
+     "unpublished_at": null,
+     "url": "/bePatron?c=743416\u0026rid=1390460",
+     "user_limit": null
+    },
+    "id": "1390460",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-02-10T04:33:01.472856+00:00",
+     "description": "The\n\u003cul\u003e\n\u003cli\u003eHigh-res images of all finished paintings every month.\u003c/li\u003e\n\u003cli\u003eCan suggest poll topics to be voted on each month.\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-11T19:45:55.837789+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1390459/154c30d6db024c3c827453b506c35575?token-time=2145916800\u0026token-hash=fFzdXa3fmATYA84xX5vs6Ab9slrSVLU6YA8yQEmiA7U%3D",
+     "patron_count": 1,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2017-02-10T04:33:01.472856+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The Falls of Memory",
+     "unpublished_at": null,
+     "url": "/bePatron?c=743416\u0026rid=1390459",
+     "user_limit": null
+    },
+    "id": "1390459",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-02-16T21:46:21.657852+00:00",
+     "description": "Send me a photo you have taken, preferably of a place, and I will paint over, adding cool interesting creatures, places, etc... to it! The tier image is an example of one such I recently did for a friend.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll lower tier rewards as well.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-16T21:46:26.740511+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1411804/e4c5fa1787de459b9255beeb840866a9?token-time=2145916800\u0026token-hash=uxGMmgCzlghAYA9ervsEQA3Pczy5-ALBBbmnz91vQYs%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-16T21:46:21.657852+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Photo Paints!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=743416\u0026rid=1411804",
+     "user_limit": null
+    },
+    "id": "1411804",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-02-10T04:33:01.264702+00:00",
+     "description": "Tell me your vision and I\u0027ll make something for you.\n\u003cul\u003e\n\u003cli\u003eTake part in the creative process of an upcoming piece. May take a bit longer than other paintings, but I will work with you, sending sketches, and images of the work as it progresses.\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-11T19:45:55.855366+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1390457/58170efb31cc46918ecdbe3777ba590e?token-time=2145916800\u0026token-hash=bwMds9ZkYYxXLytbWMaGPfUe0h8txYDGnzvwp10UjfU%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-10T04:33:01.264702+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Commissioned Colossus",
+     "unpublished_at": null,
+     "url": "/bePatron?c=743416\u0026rid=1390457",
+     "user_limit": 5
+    },
+    "id": "1390457",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 1,
+     "created_at": "2017-02-11T19:20:36+00:00",
+     "description": "Paying the bills.\u003cbr\u003eLet\u0027s face it. I can\u0027t paint if I don\u0027t have any power, or a roof over my head. I figure that this is the bare minimum, with my other work, to keep me and the two kitties in kibble every month. And I simply cannot express how grateful I will be to simply be supported this far in my effort to provide a vision to everyone who wants it.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "713875",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 0,
+     "created_at": "2017-02-11T19:20:36+00:00",
+     "description": "Books.\u003cbr\u003e\u003cbr\u003eI have several ideas for art books, some of which will go along with novels I am writing/have written. I hope to bring you at least some pieces of these worlds without even reaching this point, but I know I will need further support to enable me to put physical art books into people\u0027s hands. I admit I am guessing at the amount here, but I will do my utmost to make this amount per month be enough to support this endeavor.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "713876",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/743416"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "a056392d-da34-4132-8ff9-25fd5f0eb4a2",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Matt  Manard is creating Fantasy Worlds"
+});
+    </script>

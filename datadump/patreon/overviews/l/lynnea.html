@@ -1,0 +1,529 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "MLiLdadtPxhVCJcgyvhHM_nSiU6JzUourK1HFoGVvv8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "152418",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/152418"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-12-12T06:59:23+00:00",
+    "creation_name": "Interactive Fiction: Design, Reviews, Streaming",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/249885/3f9f812e8bf543eca29aaa0da7077aff?token-time=2145916800\u0026token-hash=On3-3DGLcaqcMIMynioBPeN3f61TI133Le2bfYQERtY%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/249885/3f9f812e8bf543eca29aaa0da7077aff?token-time=2145916800\u0026token-hash=J4BeGdX_wzWgTpYgehbD4hHoFtoo1Vcm7RLI0-SCDxs%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": null,
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=249885",
+    "published_at": "2016-04-07T14:36:06+00:00",
+    "summary": "I love writing rich and detailed games -- such as \u003cem\u003eColoratura\u003c/em\u003e, \u003cem\u003eCreatures Such as We\u003c/em\u003e, and \u003cem\u003eThe Sea Eternal\u003c/em\u003e -- but because they require so much work and effort, they come out infrequently, every year or so. In addition to those larger, more involved games, I\u0027d like to take time for smaller projects.\u003cbr\u003e\u003cbr\u003eYour donations will help fund smaller, for-fun, meaningful, or even silly games (I have a \u003cem\u003eStar Trek\u003c/em\u003e one in mind), community learning tools (such as my recently-finished ChoiceScript Tutorial), and spotlighting inspiring IF games and authors on my weekly Twitch stream. The emphasis will be more on frequent community interaction where I both create more games and help support more games.\u003cbr\u003e"
+   },
+   "id": "249885",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2611047",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2611047"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "393709",
+       "type": "goal"
+      },
+      {
+       "id": "393710",
+       "type": "goal"
+      },
+      {
+       "id": "393711",
+       "type": "goal"
+      },
+      {
+       "id": "393712",
+       "type": "goal"
+      },
+      {
+       "id": "394947",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "498664",
+       "type": "reward"
+      },
+      {
+       "id": "498671",
+       "type": "reward"
+      },
+      {
+       "id": "498667",
+       "type": "reward"
+      },
+      {
+       "id": "498672",
+       "type": "reward"
+      },
+      {
+       "id": "498668",
+       "type": "reward"
+      },
+      {
+       "id": "498666",
+       "type": "reward"
+      },
+      {
+       "id": "498670",
+       "type": "reward"
+      },
+      {
+       "id": "498669",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Lynnea Glasser is an award-winning \nInteractive Fiction game designer who has topped the IFComp two years \nin a row and won multiple XYZZY awards. She\ndraws on her science background to create strange and beautiful\nworlds that speak to our humanity. She loves both telling stories and \nhighlighting the beauty that can be found in engaging and listening to \nother people\u0027s stories, which is why she chooses to highlight text-based\n games on her stream. More of Glasser\u0027s\nworks can be found at MadeRealStories.com.",
+     "created": "2015-12-12T06:54:05+00:00",
+     "facebook": null,
+     "first_name": "Lynnea",
+     "full_name": "Lynnea Glasser",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2611047/4696f523d7df49bb859606fcce8b949a?token-time=2145916800\u0026token-hash=PlRrq_betzl9me8PbokCGhxqXG0r8HJaFBl2rG3zrgI%3D",
+     "last_name": "Glasser",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2611047/4696f523d7df49bb859606fcce8b949a?token-time=2145916800\u0026token-hash=RCwlmPFBmNyfgcyWIFKf6HsGY1RcCbrVTxnBQfg3kTs%3D",
+     "twitch": null,
+     "twitter": "lynneaglasser",
+     "url": "https://www.patreon.com/lynnea",
+     "vanity": "lynnea",
+     "youtube": null
+    },
+    "id": "2611047",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "249885",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/249885"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-04-07T17:08:59+00:00",
+     "description": "Thank you! Everything counts.\u003cbr\u003eYour name will be added to the \"Patreon Supporters\" thank-you section on my next project.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-07T17:08:59+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=249885\u0026rid=498664",
+     "user_limit": null
+    },
+    "id": "498664",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 350,
+     "amount_cents": 350,
+     "created_at": "2016-04-07T17:08:59+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eI will tweet about whatever game you want.\u003cbr\u003e\u003cul\u003e\u003cli\u003eTweets will be fair even as they are focused on the enjoyable parts of the game.\u003c/li\u003e\u003cli\u003e(Reservations against objectionable content.)\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eYour name will be added to the \"Patreon Supporters\" thank-you section on my next project.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-07T17:08:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=249885\u0026rid=498671",
+     "user_limit": null
+    },
+    "id": "498671",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-04-07T17:08:59+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYou can choose the next Interactive Fiction game I play on Twitch. (Reservations against objectionable content.)\u003c/li\u003e\u003cli\u003eYour name will be added to the \"Patreon Supporters\" thank-you section on my next project.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-07T17:08:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=249885\u0026rid=498667",
+     "user_limit": null
+    },
+    "id": "498667",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 750,
+     "amount_cents": 750,
+     "created_at": "2016-04-07T17:08:59+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eI will test your game [for games focused on progressive themes]:\u003cul\u003e\u003cli\u003eMultiple play sessions with complete annotated transcripts.\u003c/li\u003e\u003cli\u003e(Reservations against objectionable content.)\u003c/li\u003e\u003cli\u003eDetailed analysis, feedback and suggestions.\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eYour name will be added to the \"Patreon Supporters\" thank-you section on my next project.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-07T17:08:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=249885\u0026rid=498672",
+     "user_limit": null
+    },
+    "id": "498672",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-04-07T17:08:59+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYou can choose any game for me to play on Twitch. (Reservations against objectionable content.)\u003c/li\u003e\u003cli\u003eYour name will be added to the \"Top Patreon Supporters\" thank-you section on my next project.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-07T17:08:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=249885\u0026rid=498668",
+     "user_limit": null
+    },
+    "id": "498668",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-04-07T17:08:59+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eI will test your game [games of general subject and style]:\u003cul\u003e\u003cli\u003eMultiple play sessions with complete annotated transcripts.\u003c/li\u003e\u003cli\u003eDetailed analysis, feedback and suggestions.\u003c/li\u003e\u003cli\u003e(Reservations against objectionable content.)\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eYour name will be added to the \"Top Patreon Supporters\"\u00a0thank-you section on my next project.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-07T17:08:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=249885\u0026rid=498666",
+     "user_limit": null
+    },
+    "id": "498666",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200000,
+     "amount_cents": 200000,
+     "created_at": "2016-04-07T17:08:59+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eI will personally make you a small (2-month timeline) game:\u003cul\u003e\u003cli\u003eIn Twine, Inform 7, ChoiceScript, or any other story-based medium of your choosing.\u003c/li\u003e\u003cli\u003eThe game can be publicly or privately released.\u003c/li\u003e\u003cli\u003e(Reservations against objectionable content.)\u003c/li\u003e\u003cli\u003e(Privately commissioned games cannot be re-sold.)\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eYour name will be added to the \"Patreon Producers\" thank-you section on my next project.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-07T17:08:59+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=249885\u0026rid=498670",
+     "user_limit": 5
+    },
+    "id": "498670",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000000,
+     "amount_cents": 2000000,
+     "created_at": "2016-04-07T17:08:59+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eI will personally make you a full (1-year timeline) game:\u003cul\u003e\u003cli\u003eIn Twine, Inform7, ChoiceScript, or any other story-based medium of your choosing.\u003c/li\u003e\u003cli\u003eThe game can be publicly or privately released.\u003c/li\u003e\u003cli\u003e(Reservations against objectionable content.)\u003c/li\u003e\u003cli\u003e(Privately commissioned games cannot be re-sold.)\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eYour name will be added to the \"Patreon Producers\" thank-you section on my next project.\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-04-07T17:08:59+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=249885\u0026rid=498669",
+     "user_limit": 1
+    },
+    "id": "498669",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500,
+     "completed_percentage": 18,
+     "created_at": "2016-04-06T15:59:27+00:00",
+     "description": "Maintain the ChoiceScript Interactive Tutorial:\u003cbr\u003eExpand the Design Strategies, Style Guide, and Quicktest / Randomtest error pages.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Maintain the ChoiceScript Interactive Tutorial"
+    },
+    "id": "393709",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 3,
+     "created_at": "2016-04-06T15:59:27+00:00",
+     "description": "Keep streams of individual games past Twitch\u0027s 2-week auto-delete by allowing me to take the time to save games to highlight reels.\u003cbr\u003eThis will also allow me to save my games to YouTube and focus on managing that.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Save Twitch streams into individual highlight reels"
+    },
+    "id": "393710",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 0,
+     "created_at": "2016-04-06T15:59:27+00:00",
+     "description": "I\u0027ll be making a non-commercial fan game based on the Star Trek series.\u003cbr\u003e(I\u0027ll also be streaming my creation of the game.)\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Star Trek fanmade game"
+    },
+    "id": "393711",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 1,
+     "created_at": "2016-04-06T15:59:27+00:00",
+     "description": "Streaming Game Design\u003cbr\u003eStream myself doing game design on Twitch Creative once a week so viewers can watch the magic of game design.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Streaming Game Design"
+    },
+    "id": "393712",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 1,
+     "created_at": "2016-04-08T03:26:44+00:00",
+     "description": "I\u0027ll commission a banner that represents me and my games, instead of just using a stock photograph.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Commission a new banner"
+    },
+    "id": "394947",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/249885"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "318244ed-7157-41b2-8dea-972d1a6b87c5",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Lynnea Glasser is creating Interactive Fiction: Design, Reviews, Streaming"
+});
+    </script>

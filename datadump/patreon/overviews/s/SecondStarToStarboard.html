@@ -1,0 +1,566 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "3JeeiJ_nj9krU5kfsCClvqfHmxMqK8pI-tImtPag9Ho";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "531883",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/531883"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-08-02T05:32:42+00:00",
+    "creation_name": "DIY videos related to boating and travel",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1137313/314a4cb7972048d38499d4c1e0b46855?token-time=2145916800\u0026token-hash=BVkEfjCmZFfJRaAS6peAaB8sCBTWsGr3xjYAqM0-qHA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1137313/314a4cb7972048d38499d4c1e0b46855?token-time=2145916800\u0026token-hash=HQclDa3U4UmTvsj608ectQJ7bu0L0HlSEPFa23r91r4%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1137313",
+    "published_at": "2017-08-02T07:18:22+00:00",
+    "summary": "\u201cSecond star to the right and straight on \u0027til morning. \u201d\u003cbr\u003e\u2015 J.M. Barrie, Peter Pan\u003cbr\u003e\u003cbr\u003eJoin the Skipper and Crew of Queen\u0027s Reach as they repair and sail a derelict Jensen Cal 20 sailboat in Newport, Oregon.\u003cbr\u003e\u003cbr\u003ePatron\u0027s have special access to Crew information and shorts. (You won\u0027t want to miss The Adventures of the Skipper.)\u003cbr\u003e"
+   },
+   "id": "1137313",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7159359",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7159359"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "934722",
+       "type": "goal"
+      },
+      {
+       "id": "934723",
+       "type": "goal"
+      },
+      {
+       "id": "934724",
+       "type": "goal"
+      },
+      {
+       "id": "934725",
+       "type": "goal"
+      },
+      {
+       "id": "934726",
+       "type": "goal"
+      },
+      {
+       "id": "934727",
+       "type": "goal"
+      },
+      {
+       "id": "934728",
+       "type": "goal"
+      },
+      {
+       "id": "934729",
+       "type": "goal"
+      },
+      {
+       "id": "934730",
+       "type": "goal"
+      },
+      {
+       "id": "934731",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1137313",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1137313"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1906460",
+       "type": "reward"
+      },
+      {
+       "id": "1906462",
+       "type": "reward"
+      },
+      {
+       "id": "1906459",
+       "type": "reward"
+      },
+      {
+       "id": "1906464",
+       "type": "reward"
+      },
+      {
+       "id": "1906463",
+       "type": "reward"
+      },
+      {
+       "id": "1906458",
+       "type": "reward"
+      },
+      {
+       "id": "1906461",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-08-02T05:30:41+00:00",
+     "facebook": "https://www.facebook.com/SecondStarToStarboard/",
+     "first_name": "Second",
+     "full_name": "Second Star To Starboard",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7159359/91f6fd3e3cf645918d5acc5db9e0f40f?token-time=2145916800\u0026token-hash=7Q-aq-gccsWVGhYV-4KrPE9FKbXl-FbG6v4H5ASDnA8%3D",
+     "last_name": "Star To Starboard",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7159359/91f6fd3e3cf645918d5acc5db9e0f40f?token-time=2145916800\u0026token-hash=9BWgMk0KMnNtmJE-r3Bu1-mYu5p4h0Hn6xv-WHiu7ns%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/SecondStarToStarboard",
+     "vanity": "SecondStarToStarboard",
+     "youtube": "https://www.youtube.com/channel/UCWZFRpnAvsf92EXYNw49s9g"
+    },
+    "id": "7159359",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1137313",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1137313"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 2,
+     "upgrade_url": "/bePatron?c=1137313\u0026rid=1906460"
+    },
+    "id": "post-aggregation-for-0-1137313",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-08-07T06:50:19.703829+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003eSneak peek photos of upcoming releases\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-07T06:50:19.703829+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-07T06:50:19.703829+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Swab",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137313\u0026rid=1906460"
+    },
+    "id": "1906460",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-07T06:50:19.715888+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eBehind-the-scenes content\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-07T06:50:19.715888+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-07T06:50:19.715888+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Cabin Boy",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137313\u0026rid=1906462"
+    },
+    "id": "1906462",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-08-07T06:50:19.662709+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eMonthly patron-only livestream\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-07T06:50:19.662709+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-07T06:50:19.662709+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mate",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137313\u0026rid=1906459"
+    },
+    "id": "1906459",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-08-07T06:50:19.725690+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYour name in the credits of my videos\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-07T06:50:19.725690+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-07T06:50:19.725690+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Rigger",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137313\u0026rid=1906464"
+    },
+    "id": "1906464",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-07T06:50:19.715269+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eSecond Star To Starboard swag\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-07T06:51:23.450973+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-07T06:50:19.715269+00:00",
+     "remaining": 25,
+     "requires_shipping": true,
+     "title": "Bosun\u0027s Mate",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137313\u0026rid=1906463"
+    },
+    "id": "1906463",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-08-07T06:50:19.650019+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eFree access to restricted Vimeo channel\u003c/li\u003e\u003cli\u003eSecond Star to Starboard Patron Burgee\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-07T07:19:06.159789+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-07T06:50:19.650019+00:00",
+     "remaining": 20,
+     "requires_shipping": true,
+     "title": "Bosun",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137313\u0026rid=1906458"
+    },
+    "id": "1906458",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-07T06:50:19.718907+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eProducer credit in my videos\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-07T06:50:50.106418+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-07T06:50:19.718907+00:00",
+     "remaining": 15,
+     "requires_shipping": true,
+     "title": "Quartermaster",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1137313\u0026rid=1906461"
+    },
+    "id": "1906461",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-08-15T06:07:18+00:00",
+     "description": "Getting moving isn\u0027t always easy.\u003cbr\u003e\u003cbr\u003eLeon used to own camera gear but lost it during a period of purging.\u00a0For now, tablets and smartphones will be how we get things done, but those items won\u0027t be as effective in the future.\u003cbr\u003e\u003cbr\u003eWe haven\u0027t decided exactly what we will use, Mostly because Leon has very specific requirements that he is trying to meet. Whatever happens, the result will be spectacular and for your benefit.\u003cbr\u003e\u003cbr\u003eThe goal is lofty because we intend to have a minimum of three devices that are mounted aboard when we are sailing and one handheld device to follow us around.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "934722",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-08-15T06:07:18+00:00",
+     "description": "We want to take you with us but even we can\u0027t fly.\u00a0\u003cbr\u003eSo... Help us fly a drone!\u003cbr\u003e\u003cbr\u003eLeon sees great capability in a drone for looking at rigging, following a boat at sail, or just showing you the sights; help us find the right one to support this goal!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "934723",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-08-15T06:07:18+00:00",
+     "description": "The Cal 20 Leon is working on...\u003cbr\u003e\u003cbr\u003eShe is to be named: \u003cem\u003eQueen\u0027s Reach.\u003c/em\u003e\u003cbr\u003e\u003cbr\u003eTiana isn\u0027t fully aware that this boat is being named for her. Tiana, translated, means \"fairy queen\", according to\u00a0\u003ca href=\"https://nameberry.com/babyname/Tiana\" target=\"_blank\"\u003enameberry.com\u003c/a\u003e and \"Princess\" from Greek origins as stated by\u00a0\u003ca href=\"https://www.i-am-pregnant.com/baby-names/girls/Tiana/\" target=\"_blank\"\u003ei-am-pregnant.com\u003c/a\u003e (at this date). \u00a0Her reach is the stars, and though she has not yet discovered her power to drive me, she is my Queen and muse.\u003cbr\u003e\u003cbr\u003eThis goal is part of a series of small steps that will take \u003cem\u003eQueen\u0027s Reach\u003c/em\u003e from derelict to dreadnought - a small step that we can gauge progress with.\u003cbr\u003e\u003cbr\u003eThis goal will address: replacing the berths.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "934724",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-08-15T06:07:18+00:00",
+     "description": "The Cal 20 Leon is working on...\u003cbr\u003e\u003cbr\u003eShe is to be named: \u003cem\u003eQueen\u0027s Reach.\u003c/em\u003e\u003cbr\u003e\u003cbr\u003eTiana isn\u0027t fully aware that this boat is being named for her. Tiana, translated, means \"fairy queen\", according to \u003ca href=\"https://nameberry.com/babyname/Tiana\"\u003enameberry.com\u003c/a\u003e and \"Princess\" from Greek origins as stated by \u003ca href=\"https://www.i-am-pregnant.com/baby-names/girls/Tiana/\"\u003ei-am-pregnant.com\u003c/a\u003e (at this date).  Her reach is the stars, and though she has not yet discovered her power to drive me, she is my Queen and muse.\u003cbr\u003e\u003cbr\u003eThis goal is part of a series of small steps that will take \u003cem\u003eQueen\u0027s Reach\u003c/em\u003e from derelict to dreadnought - a small step that we can gauge progress with.\u003cbr\u003e\u003cbr\u003eThis goal will address: building a new rudder.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "934725",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-08-15T06:07:18+00:00",
+     "description": "The Cal 20 Leon is working on...\u003cbr\u003e\u003cbr\u003eShe is to be named: \u003cem\u003eQueen\u0027s Reach.\u003c/em\u003e\u003cbr\u003e\u003cbr\u003eTiana isn\u0027t fully aware that this boat is being named for her. Tiana, translated, means \"fairy queen\", according to \u003ca href=\"https://nameberry.com/babyname/Tiana\"\u003enameberry.com\u003c/a\u003e and \"Princess\" from Greek origins as stated by \u003ca href=\"https://www.i-am-pregnant.com/baby-names/girls/Tiana/\"\u003ei-am-pregnant.com\u003c/a\u003e (at this date).  Her reach is the stars, and though she has not yet discovered her power to drive me, she is my Queen and muse.\u003cbr\u003e\u003cbr\u003eThis goal is part of a series of small steps that will take \u003cem\u003eQueen\u0027s Reach\u003c/em\u003e from derelict to dreadnought - a small step that we can gauge progress with.\u003cbr\u003e\u003cbr\u003eThis goal will address: depth instruments.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "934726",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-08-15T06:07:18+00:00",
+     "description": "The Cal 20 Leon is working on...\u003cbr\u003e\u003cbr\u003eShe is to be named: \u003cem\u003eQueen\u0027s Reach.\u003c/em\u003e\u003cbr\u003e\u003cbr\u003eTiana isn\u0027t fully aware that this boat is being named for her. Tiana, translated, means \"fairy queen\", according to \u003ca href=\"https://nameberry.com/babyname/Tiana\"\u003enameberry.com\u003c/a\u003e and \"Princess\" from Greek origins as stated by \u003ca href=\"https://www.i-am-pregnant.com/baby-names/girls/Tiana/\"\u003ei-am-pregnant.com\u003c/a\u003e (at this date).  Her reach is the stars, and though she has not yet discovered her power to drive me, she is my Queen and muse.\u003cbr\u003e\u003cbr\u003eThis goal is part of a series of small steps that will take \u003cem\u003eQueen\u0027s Reach\u003c/em\u003e from derelict to dreadnought - a small step that we can gauge progress with.\u003cbr\u003e\u003cbr\u003eThis goal will address: battery banks",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "934727",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-08-15T06:07:18+00:00",
+     "description": "The Cal 20 Leon is working on...\u003cbr\u003e\u003cbr\u003eShe is to be named: \u003cem\u003eQueen\u0027s Reach.\u003c/em\u003e\u003cbr\u003e\u003cbr\u003eTiana isn\u0027t fully aware that this boat is being named for her. Tiana, translated, means \"fairy queen\", according to \u003ca href=\"https://nameberry.com/babyname/Tiana\"\u003enameberry.com\u003c/a\u003e and \"Princess\" from Greek origins as stated by \u003ca href=\"https://www.i-am-pregnant.com/baby-names/girls/Tiana/\"\u003ei-am-pregnant.com\u003c/a\u003e (at this date).  Her reach is the stars, and though she has not yet discovered her power to drive me, she is my Queen and muse.\u003cbr\u003e\u003cbr\u003eThis goal is part of a series of small steps that will take \u003cem\u003eQueen\u0027s Reach\u003c/em\u003e from derelict to dreadnought - a small step that we can gauge progress with.\u003cbr\u003e\u003cbr\u003eThis goal will address: lighting.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "934728",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-08-15T06:07:18+00:00",
+     "description": "The Cal 20 Leon is working on...\u003cbr\u003e\u003cbr\u003eShe is to be named: \u003cem\u003eQueen\u0027s Reach.\u003c/em\u003e\u003cbr\u003e\u003cbr\u003eTiana isn\u0027t fully aware that this boat is being named for her. Tiana, translated, means \"fairy queen\", according to \u003ca href=\"https://nameberry.com/babyname/Tiana\"\u003enameberry.com\u003c/a\u003e and \"Princess\" from Greek origins as stated by \u003ca href=\"https://www.i-am-pregnant.com/baby-names/girls/Tiana/\"\u003ei-am-pregnant.com\u003c/a\u003e (at this date).  Her reach is the stars, and though she has not yet discovered her power to drive me, she is my Queen and muse.\u003cbr\u003e\u003cbr\u003eThis goal is part of a series of small steps that will take \u003cem\u003eQueen\u0027s Reach\u003c/em\u003e from derelict to dreadnought - a small step that we can gauge progress with.\u003cbr\u003e\u003cbr\u003eThis goal will address: standing rigging.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "934729",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-08-15T06:07:18+00:00",
+     "description": "The Cal 20 Leon is working on...\u003cbr\u003e\u003cbr\u003eShe is to be named: \u003cem\u003eQueen\u0027s Reach.\u003c/em\u003e\u003cbr\u003e\u003cbr\u003eTiana isn\u0027t fully aware that this boat is being named for her. Tiana, translated, means \"fairy queen\", according to \u003ca href=\"https://nameberry.com/babyname/Tiana\"\u003enameberry.com\u003c/a\u003e and \"Princess\" from Greek origins as stated by \u003ca href=\"https://www.i-am-pregnant.com/baby-names/girls/Tiana/\"\u003ei-am-pregnant.com\u003c/a\u003e (at this date).  Her reach is the stars, and though she has not yet discovered her power to drive me, she is my Queen and muse.\u003cbr\u003e\u003cbr\u003eThis goal is part of a series of small steps that will take \u003cem\u003eQueen\u0027s Reach\u003c/em\u003e from derelict to dreadnought - a small step that we can gauge progress with.\u003cbr\u003e\u003cbr\u003eThis goal will address: running rigging.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "934730",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-08-15T06:07:18+00:00",
+     "description": "The Cal 20 Leon is working on...\u003cbr\u003e\u003cbr\u003eShe is to be named: \u003cem\u003eQueen\u0027s Reach.\u003c/em\u003e\u003cbr\u003e\u003cbr\u003eTiana isn\u0027t fully aware that this boat is being named for her. Tiana, translated, means \"fairy queen\", according to \u003ca href=\"https://nameberry.com/babyname/Tiana\"\u003enameberry.com\u003c/a\u003e and \"Princess\" from Greek origins as stated by \u003ca href=\"https://www.i-am-pregnant.com/baby-names/girls/Tiana/\"\u003ei-am-pregnant.com\u003c/a\u003e (at this date).  Her reach is the stars, and though she has not yet discovered her power to drive me, she is my Queen and muse.\u003cbr\u003e\u003cbr\u003eThis goal is part of a series of small steps that will take \u003cem\u003eQueen\u0027s Reach\u003c/em\u003e from derelict to dreadnought - a small step that we can gauge progress with.\u003cbr\u003e\u003cbr\u003eThis goal will address: new sails.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "934731",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1137313"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "ef9d7665-d978-44bc-9a47-a556d7818f43",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Second Star To Starboard is creating DIY videos related to boating and travel"
+});
+    </script>

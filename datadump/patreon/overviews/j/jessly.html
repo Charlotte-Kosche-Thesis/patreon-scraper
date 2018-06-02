@@ -1,0 +1,433 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Edi6WkPByIlg-lw03UPHFmrEcjqKcBQOSNqFOND8NDU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "487477",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/487477"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-06-22T22:39:57+00:00",
+    "creation_name": "asmr videos",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 63,
+    "pledge_url": "/bePatron?c=1013833",
+    "published_at": "2017-06-22T22:43:29+00:00",
+    "summary": "\u003cdiv\u003eHi! Welcome to my Patreon page! Think of this place as more of a hang out / chill area where we can both get to know each other and become friends! Feel free to slide into that dm or somthin somethin to grab my attention! If you do decide to become a patreon of mine, I love you and you love me. It is a mutual love so now we are one. wait what.\u003cbr\u003e\u003cdiv\u003eAnyways, I appreciate any type of support so thank you!\u003cbr\u003e\u003c/div\u003e\u003c/div\u003e"
+   },
+   "id": "1013833",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "6622769",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/6622769"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "876855",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1787398",
+       "type": "reward"
+      },
+      {
+       "id": "1787397",
+       "type": "reward"
+      },
+      {
+       "id": "1787396",
+       "type": "reward"
+      },
+      {
+       "id": "1787401",
+       "type": "reward"
+      },
+      {
+       "id": "1787400",
+       "type": "reward"
+      },
+      {
+       "id": "1787399",
+       "type": "reward"
+      },
+      {
+       "id": "1787395",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-06-22T22:39:46+00:00",
+     "facebook": null,
+     "first_name": "Jess",
+     "full_name": "Jess Ly",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/6622769/6d18db1ad7254c71962c0ce7ab916137?token-time=2145916800\u0026token-hash=grcuA7gVzTxTkVxmnmrn8J-JS3MFfoZX-98LMpEvC7g%3D",
+     "last_name": "Ly",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/6622769/6d18db1ad7254c71962c0ce7ab916137?token-time=2145916800\u0026token-hash=fdMMymBzTvrmo1aQxhlakm7hGyRSjcbQ2xQmh9O-QAs%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/jessly",
+     "vanity": "jessly",
+     "youtube": "https://www.youtube.com/channel/UC1UJwgiLQXSKNHcs2AtlYLw"
+    },
+    "id": "6622769",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1013833",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1013833"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-06-22T23:10:12.308845+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAccess to patron-only content\u003c/li\u003e\n\u003cli\u003eMessage me anytime and have a conversation with me!\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T21:46:20.210424+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T21:46:20.200090+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Bronze",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1013833\u0026rid=1787398",
+     "user_limit": null
+    },
+    "id": "1787398",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-06-22T23:10:12.304428+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eShout out at the end of one video\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T21:47:21.063836+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T21:47:21.053659+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Silver",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1013833\u0026rid=1787397",
+     "user_limit": null
+    },
+    "id": "1787397",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-06-22T23:10:12.294644+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eHave a phone conversation with me once a month!\u00a0\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T21:47:47.175986+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T21:47:47.168964+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Gold",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1013833\u0026rid=1787396",
+     "user_limit": null
+    },
+    "id": "1787396",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-06-22T23:10:12.339015+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eIf you play games let\u0027s play together! I play league, fortnite, pub g, overwatch, and other steam games\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T21:48:34.343177+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T21:48:34.335790+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Plat",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1013833\u0026rid=1787401",
+     "user_limit": null
+    },
+    "id": "1787401",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-06-22T23:10:12.341466+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eOne personalized video just for you. Ex) Girlfriend roleplay with your name, a crazy psychopath video tryna kill you.....whut\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T21:49:03.596713+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T21:49:03.590183+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Diamond",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1013833\u0026rid=1787400",
+     "user_limit": null
+    },
+    "id": "1787400",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-06-22T23:10:12.323740+00:00",
+     "description": "\u003cbr\u003e\n\u003cul\u003e\n\u003cli\u003eOne private video just for you\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T21:51:12.043063+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T21:51:12.033464+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Master",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1013833\u0026rid=1787399",
+     "user_limit": null
+    },
+    "id": "1787399",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2017-06-22T23:10:12.287111+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eYou can create a video with me! Your ideas, your name, will be posted on my official channel.\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-25T21:50:16.591752+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-25T21:50:16.584638+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Challenger",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1013833\u0026rid=1787395",
+     "user_limit": null
+    },
+    "id": "1787395",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 0,
+     "created_at": "2017-06-22T22:53:38+00:00",
+     "description": "Get a better camera and a microphone",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "876855",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1013833"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "25e0bca4-0986-4d54-93b8-785fdec65b86",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Jess Ly is creating asmr videos"
+});
+    </script>

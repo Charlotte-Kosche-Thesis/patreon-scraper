@@ -1,0 +1,639 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "3Ut_eibydCwxRIPgVClTgHI6kJZp0-tJj886c1uwI0E";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "34896",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/34896"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-02-16T14:50:53+00:00",
+    "creation_name": "The Classiest Streams in Gaming",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/148103/d643aa65be9242679d61200e164c5289?token-time=2145916800\u0026token-hash=F2cEjK6_2owzSbDfGse3GLbL3h9JaZqYPvTCJzeGoWU%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/148103/d643aa65be9242679d61200e164c5289?token-time=2145916800\u0026token-hash=Y1MFzkyalr0frgyDaPWFwkYy3WO3s410DN3LaXJxS84%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Changing the Gaming Community One Sir at a Time",
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 450,
+    "pledge_url": "/bePatron?c=148103",
+    "published_at": "2015-02-17T06:26:45+00:00",
+    "summary": "Hi my name is Nik do you have a moment to talk abou... wait sorry wrong intro. I\u0027m Nik also known as Triage. I love doing things to be productive in any way and at all times, whether that be improving peoples day while live streaming for fun or working 2 jobs. I always have a plan though in everything I do. With that, this Patreon account has a plan, look at all the goals or to get straight to the point the final 2 goals, to understand what I mean. I hope you enjoy the stream and if you decide to help make these plans work. Thank you for being as awesome as you are."
+   },
+   "id": "148103",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "565914",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/565914"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "124698",
+       "type": "goal"
+      },
+      {
+       "id": "124699",
+       "type": "goal"
+      },
+      {
+       "id": "124700",
+       "type": "goal"
+      },
+      {
+       "id": "124701",
+       "type": "goal"
+      },
+      {
+       "id": "124702",
+       "type": "goal"
+      },
+      {
+       "id": "124703",
+       "type": "goal"
+      },
+      {
+       "id": "124726",
+       "type": "goal"
+      },
+      {
+       "id": "124786",
+       "type": "goal"
+      },
+      {
+       "id": "190810",
+       "type": "goal"
+      },
+      {
+       "id": "190811",
+       "type": "goal"
+      },
+      {
+       "id": "233534",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-148103",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-148103"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "162093",
+       "type": "reward"
+      },
+      {
+       "id": "162094",
+       "type": "reward"
+      },
+      {
+       "id": "162109",
+       "type": "reward"
+      },
+      {
+       "id": "162110",
+       "type": "reward"
+      },
+      {
+       "id": "162111",
+       "type": "reward"
+      },
+      {
+       "id": "162112",
+       "type": "reward"
+      },
+      {
+       "id": "162113",
+       "type": "reward"
+      },
+      {
+       "id": "298238",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-02-16T14:33:02+00:00",
+     "facebook": null,
+     "first_name": "Nikolas",
+     "full_name": "Nikolas Petersen",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/565914/69ec3d1f31af4c00a80f22e5163d924b?token-time=2145916800\u0026token-hash=sZ7zsFHdVWCn-FhgAmIExZ5gqvgD8MoMg4VB9MSy5oE%3D",
+     "last_name": "Petersen",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/565914/69ec3d1f31af4c00a80f22e5163d924b?token-time=2145916800\u0026token-hash=HH0jLiGzqZ_yOygOUBwKL1YYm_V3bBQYUwucOT017cY%3D",
+     "twitch": null,
+     "twitter": "truetriage",
+     "url": "https://www.patreon.com/truetriage",
+     "vanity": "truetriage",
+     "youtube": "https://www.youtube.com/truetriage"
+    },
+    "id": "565914",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "148103",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/148103"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 1,
+     "upgrade_url": "/bePatron?c=148103\u0026rid=162093"
+    },
+    "id": "post-aggregation-for-0-148103",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-03-15T18:43:03+00:00",
+     "description": "WOHOOOOO WE GOT ONE. I will make a special panel on stream dedicated to all people who pledge with your name on it.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-15T18:43:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=148103\u0026rid=162093",
+     "user_limit": null
+    },
+    "id": "162093",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 250,
+     "amount_cents": 250,
+     "created_at": "2016-03-15T18:43:03+00:00",
+     "description": "$2.50!? T-THIS IS LIKE A TACO BELL MEAL! Your name will be in the credits for any video I make or anything produced where I will have credits in them.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-15T18:43:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=148103\u0026rid=162094",
+     "user_limit": null
+    },
+    "id": "162094",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-03-15T18:43:03+00:00",
+     "description": "You\u0027ll forever have priority in games whether it be viewer games, inhouses, and any other event which has a limited capacity in it.\u00a0You\u0027ll also receive every perk that comes before this one.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 3,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-15T18:43:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=148103\u0026rid=162109",
+     "user_limit": null
+    },
+    "id": "162109",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2016-03-15T18:43:03+00:00",
+     "description": "Well Congrats! I\u0027ll add you as a Steam Friend, and you\u0027ll have the the proper ranking in Discord to move and navigate wherever you want.\u00a0You\u0027ll also receive every perk that comes before this one.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-15T18:43:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=148103\u0026rid=162110",
+     "user_limit": null
+    },
+    "id": "162110",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-03-15T18:43:03+00:00",
+     "description": "See now Things get interesting. Remember the panel that every person who pledges gets to be a part of? You\u0027ll be a part of a higher tier on it exemplifying your level of support to the stream. In addition to every other perk kicking in I\u0027ll have you as a guest on stream for a whole stream, we can get the details figured out and go from there. I\u0027ll even see if I can pull some strings and get a person from the Dota 2 Community that you would like to play some games with us. The stream will probably go for 4+ hours.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-15T18:43:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=148103\u0026rid=162111",
+     "user_limit": null
+    },
+    "id": "162111",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2016-03-15T18:43:03+00:00",
+     "description": "Donating this amount is a little special because I\u0027ll have you on a the Triage Show. I\u0027ll promote you and whatever you\u0027re working on or just you in general. Do an hour long interview with a custom Overlay made to work with you. After that we\u0027ll do viewer and inhouse games. and of course you\u0027ll get all the perks in the previous tiers in addition to becoming a mod on the stream. Lastly I\u0027ll send you a personal video message declaring my never ending love for you. Just kidding, but I will send you a personal video message.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-15T18:43:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=148103\u0026rid=162112",
+     "user_limit": null
+    },
+    "id": "162112",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-03-15T18:43:03+00:00",
+     "description": "This is the final tier, of course if you would like you can always pledge more. At this tier if you are a twitch streamer in addition to everything that comes in the prior tiers, for a month straight I will host your stream whenever I\u0027m offline, I\u0027ll promote you on twitter and youtube. If you live in the lower 48 of the USA and I\u0027m on a roadtrip let me know what area you\u0027re in we can meet up for a meal somewhere. If you\u0027re going to be at a Dota 2 Event I\u0027ll be at let me know we\u0027ll hangout and have an awesome time! If you ever want to play a game of Dota, send me a message and we\u0027ll play a game. Want to be a casual guest on stream with your webcam in the game? I can do that too.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-15T18:43:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=148103\u0026rid=162113",
+     "user_limit": null
+    },
+    "id": "162113",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 250000,
+     "amount_cents": 250000,
+     "created_at": "2016-03-15T18:43:03+00:00",
+     "description": "I will send you a bag of sugar every month to remind you that you are my sugar _____ . Just Kidding, I doubt there would be any person who would do this and I\u0027m just putting it here for kicks. Essentially looking at the goals this single patron would put me to the point where all extra patreon funds out side of this donator will go to helping people. I don\u0027t know what I could do to thank you for this aside from become your employee and work for you to earn this amount of money. In the event anyone pledges this I will contact you and we can figure out a proper reward and probably some form of shareholding and direct involvement in the end game idea of TrueTriage as well as the stream.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-03-15T18:43:03+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=148103\u0026rid=298238",
+     "user_limit": null
+    },
+    "id": "298238",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 4,
+     "created_at": "2015-02-17T02:40:45+00:00",
+     "description": "This will all go into stream enhancements new gear, webcam, paying off the illuminati for me being associated with triangles.\u003cbr\u003e",
+     "reached_at": "2015-02-21T04:58:38+00:00",
+     "title": "Stream Ehancements"
+    },
+    "id": "124698",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 22500,
+     "completed_percentage": 2,
+     "created_at": "2015-02-17T02:40:45+00:00",
+     "description": "I won\u0027t do the 24 stream the moment it is achieved but I will plan it out and use every contact I have to make it as much of an EVENT as possible, expect a lot of inhouses 10 or more guests from assorted streamers and creators. Atleast 2 Arcana giveaways and a few other things I\u0027ll leave for you guys to speculate. (No sex tape, sorry folks.)",
+     "reached_at": "2015-02-21T04:58:39+00:00",
+     "title": "24 Hour Stream Event"
+    },
+    "id": "124699",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 22000,
+     "completed_percentage": 2,
+     "created_at": "2015-02-17T02:40:45+00:00",
+     "description": "Now we get to the impressive enhancements. A new professional logo. The planned events in stream such as the Triage Show, I want to see about giving that an actual animated intro and a more impressive overlay as well as layout in general. With Sirlike Sundays, I would buy a few items that will maximize the level of Classiness that is in the stream.",
+     "reached_at": "2015-02-21T04:58:39+00:00",
+     "title": "Stream Enhancements Mk II"
+    },
+    "id": "124700",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 1,
+     "created_at": "2015-02-17T02:40:45+00:00",
+     "description": "I\u0027ll use this exclusively for new gear for the stream, new headset, Green screen, Computer Parts, a new chair and more.",
+     "reached_at": "2015-02-21T04:58:39+00:00",
+     "title": "Upgrading Streaming Gear"
+    },
+    "id": "124701",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 55000,
+     "completed_percentage": 0,
+     "created_at": "2015-02-17T02:40:45+00:00",
+     "description": "I tried applying for partnership once, it didn\u0027t end well... In the event we get here I will apply again under the name Truly Gonzales Triage, They\u0027ll never know it\u0027s me\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Twitch Partnership Application ROUND 2"
+    },
+    "id": "124702",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 0,
+     "created_at": "2015-02-17T02:40:45+00:00",
+     "description": "By the time I get here I\u0027ll be making enough money to support myself and all my bills. If I get here there are not enough words with enough strength to show you my gratitude but all I can say is I would put everything into making TrueTriage exactly what you all want it to be, because to me it goes way farther than a simple stream and with the plans I have it will do just that. in addition to saving for events and trips which will all be cataloged and vlogged for your viewing pleasure. This means, cons, tournaments, events, vacations. etc etc. The Possibilities are limitless! Really though, with a community at your back the possibilities are limitless. Because I can\u0027t do it all on my own but all of us together sure as hell can.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "All or Nothing"
+    },
+    "id": "124703",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 1,
+     "created_at": "2015-02-17T03:17:07+00:00",
+     "description": "In the event you get me here, you will be tortured, I will practice the voice and then make a costume (Or have one made cause I\u0027m a terrible artist and designer) I will then do a full stream wings and all in full costume. Why? MEESING MEEDLE",
+     "reached_at": "2015-12-06T01:29:58+00:00",
+     "title": "Skywrath Cosplay Stream"
+    },
+    "id": "124726",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 80000,
+     "completed_percentage": 0,
+     "created_at": "2015-02-17T06:21:47+00:00",
+     "description": "Anyone who is a regular viewer or who knows much about the stream knows what Sirlike Sundays are. However we aren\u0027t as Sirly as we can be. If we can reach this goal I\u0027ll Rent a fitted Tux, get a monocle, get a top hat, even a cane, with a custom overlay for that day and that day only, then we shall stream in the most gentlemanly way possible as for the duration of the stream, it would be a minimum of 10 hours.",
+     "reached_at": null,
+     "title": "Ultimate Sirlike Stream"
+    },
+    "id": "124786",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 0,
+     "created_at": "2015-06-22T23:10:38+00:00",
+     "description": "Yes, another 24 hour stream but this one will be different and better and cooler and more fun and and and and and and STUFF. Details to exactly how, what, who, why, where, etc. I\u0027m not sure. However I have a few thoughts that could be a lot of fun, for you. They would probably suck for me. \u003cbr\u003e",
+     "reached_at": null,
+     "title": "24 Hour Stream Mk 2"
+    },
+    "id": "190810",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 0,
+     "created_at": "2015-06-22T23:10:38+00:00",
+     "description": "I\u0027ll just help you guys out and inform you I won\u0027t send you my naked photos, mostly because I don\u0027t have any... With this The stream will not only be completely optimized between overlays, moobot, playlists, and content, it will give me plenty to be able to maximize my computer to stream at a higher quality with say 60FPS at 1080p LIVE STREAMED. If that\u0027s possible we\u0027ll find a way with this goal. Especially once I\u0027m partnered to be able to set the quality of the stream.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Nudes, all the Nudes. Just Kidding, The Stream will be completely optimized... With Nudes"
+    },
+    "id": "190811",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250100,
+     "completed_percentage": 0,
+     "created_at": "2015-08-31T20:35:27+00:00",
+     "description": "\u003cstrong\u003eThis is the end game, all cards on the table, no joking, this is TrueTriage\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eThe real goal is to find people who because of one circumstance or another are unable to work and provide for themselves or their families. I will contact this person assess the situation and together with them will solve their issue paying for all expenses whether it be:\u003cbr\u003e\u003cbr\u003e- Moving to a new location to start a job\u003cbr\u003e- Solving issue to provide proper commute to job\u003cbr\u003e- Paying for Classes to secure position at job\u003cbr\u003e- Paying for medicine to allow person to work\u003cbr\u003e- and whatever else is discovered along the way\u003cbr\u003e\u003cbr\u003e\u003ch1\u003e\u003c/h1\u003eThis will provided with the single term contract that the person will after a set amount of time pay back TrueTriage either at once or in Payments with \u003cstrong\u003eNo Interest\u003c/strong\u003e. In doing this we can use the money again to help the next person. Eventually we will be able to help more than one person at a time however \u003cstrong\u003eI don\u0027t intend to run a charity\u003c/strong\u003e. This is TrueTriage and with enough people we can all put it together so that people can stand on their own instead of be forced to lean on others.\u003cbr\u003e",
+     "reached_at": null,
+     "title": "TrueTriage"
+    },
+    "id": "233534",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/148103"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "d0e0b40f-f91d-4ad7-8a54-4656f3772384",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Nikolas Petersen is creating The Classiest Streams in Gaming"
+});
+    </script>

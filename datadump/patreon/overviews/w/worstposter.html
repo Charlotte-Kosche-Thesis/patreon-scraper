@@ -1,0 +1,433 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "s0y2jYyd86K0zoBaFjy_wNEN_FzVu6y5rQ-xemD3w1k";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "289304",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/289304"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-10-28T02:17:10+00:00",
+    "creation_name": "Internet Commentary",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=585479",
+    "published_at": "2016-10-28T02:24:55+00:00",
+    "summary": "I\u0027m the worst poster on reddit and other internet boards.\u003cbr\u003e"
+   },
+   "id": "585479",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4131851",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4131851"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "594472",
+       "type": "goal"
+      },
+      {
+       "id": "594473",
+       "type": "goal"
+      },
+      {
+       "id": "594474",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "974519",
+       "type": "reward"
+      },
+      {
+       "id": "974520",
+       "type": "reward"
+      },
+      {
+       "id": "974521",
+       "type": "reward"
+      },
+      {
+       "id": "974522",
+       "type": "reward"
+      },
+      {
+       "id": "974523",
+       "type": "reward"
+      },
+      {
+       "id": "974524",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-09-28T22:53:10+00:00",
+     "facebook": null,
+     "first_name": "WorstPoster",
+     "full_name": "WorstPoster",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4131851/6fdbe8ef32624b59ad13f3d1821fbbc6?token-time=2145916800\u0026token-hash=QqWUnnksC_rgC5PldX7dufVg63zka5uzLOxVzKBqHcU%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4131851/6fdbe8ef32624b59ad13f3d1821fbbc6?token-time=2145916800\u0026token-hash=BSCXCTu-b4NDJDtuouKn2IlofNRnEmSk5wZvBr--pZs%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/worstposter",
+     "vanity": "worstposter",
+     "youtube": null
+    },
+    "id": "4131851",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "585479",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/585479"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-28T02:24:51+00:00",
+     "description": "I\u0027ll link you every week to all of my shitposts.\u00a0 If I forget to do this, I\u0027ll say I\u0027m sorry if enough people complain about it.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-28T02:24:51+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=585479\u0026rid=974519",
+     "user_limit": null
+    },
+    "id": "974519",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-10-28T02:24:51+00:00",
+     "description": "I\u0027ll let you comment on one of my shitposts without responding.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-28T02:24:51+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=585479\u0026rid=974520",
+     "user_limit": null
+    },
+    "id": "974520",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-28T02:24:51+00:00",
+     "description": "I\u0027ll avoid shitposting one day a month on a day of your choice.\u00a0 These days are anonymous.\u00a0 Please don\u0027t cheat the system.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-28T02:24:51+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=585479\u0026rid=974521",
+     "user_limit": null
+    },
+    "id": "974521",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-28T02:24:51+00:00",
+     "description": "I\u0027ll donate $1 to Asterios $1 to Dick and keep the rest to myself.\u00a0 You can also message me on reddit and I might respond at this level.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-28T02:24:51+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=585479\u0026rid=974522",
+     "user_limit": null
+    },
+    "id": "974522",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-10-28T02:24:51+00:00",
+     "description": "I\u0027ll donate $1 to Asterios and $1 to Dick and keep the rest for myself.\u00a0 You can have me shitpost on your reddit of choice once per month.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-28T02:24:51+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=585479\u0026rid=974523",
+     "user_limit": null
+    },
+    "id": "974523",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-28T02:24:51+00:00",
+     "description": "I\u0027ll never shit post again.\u00a0 Well, I won\u0027t in a thread of your choice for up to 12 hours.\u00a0 I will also mail you a hand written shitpost.\u00a0 \u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-28T02:24:51+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=585479\u0026rid=974524",
+     "user_limit": null
+    },
+    "id": "974524",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000,
+     "completed_percentage": 9,
+     "created_at": "2016-10-28T02:24:19+00:00",
+     "description": "",
+     "reached_at": "2017-02-15T04:43:22+00:00",
+     "title": ""
+    },
+    "id": "594472",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 1,
+     "created_at": "2016-10-28T02:24:19+00:00",
+     "description": "This is $50 a month I get to post really boring commentary on the internet.\u00a0 If I obtain this I will buy more indy games and not enjoy them.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "594473",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 0,
+     "created_at": "2016-10-28T02:24:19+00:00",
+     "description": "If I hit $500 a month in my shitposting account it will probably lead to actual good posts and then I\u0027ll have to make another patreon goal.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "594474",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/585479"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "bd3ebf7f-c7a9-44a1-9fb0-04e8de9adee2",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "WorstPoster is creating Internet Commentary"
+});
+    </script>

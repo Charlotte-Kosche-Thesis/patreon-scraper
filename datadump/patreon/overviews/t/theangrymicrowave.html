@@ -1,0 +1,479 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "9V4gOFKTDgqj0-hTggSANYFmwyBYOkcupcpOqCcv4ag";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "32992",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/32992"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-02-02T13:32:28+00:00",
+    "creation_name": "Features, Podcasts \u0026 More!",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/144299/370c7b22493046d5843a8f1d599e8712?token-time=2145916800\u0026token-hash=n4hU7iMaoi-6UnOJ0-Y6kOGPbn-cy9RASkWcuvpEbRA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/144299/370c7b22493046d5843a8f1d599e8712?token-time=2145916800\u0026token-hash=si1N0U4rWSIY89iQaM-aZOU2Dhvf434dE-4gPu-EB1I%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "For all things gaming, film, theatre, music and comedy!",
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 450,
+    "pledge_url": "/bePatron?c=144299",
+    "published_at": "2015-02-02T14:06:38+00:00",
+    "summary": "It\u0027s nearly been a year since we launched\u00a0\u003ca href=\"http://www.theangrymicrowave.com\" rel=\"nofollow\" target=\"_blank\"\u003e\u003cstrong\u003eThe Angry Microwave\u003c/strong\u003e\u003c/a\u003e - and what a journey it\u0027s been!\u003cbr\u003e\u003cbr\u003eYour pledge means we\u0027ll be able to take the next step, allowing us to expand our horizon of content, form \u003cstrong\u003emore interviews\u003c/strong\u003e with big name stars to \u003cstrong\u003enew video features\u003c/strong\u003e, from \u003cstrong\u003emore coverage of large events\u003c/strong\u003e to \u003cstrong\u003elive music sessions\u003c/strong\u003e with local and worldwide bands.\u003cstrong\u003e\u00a0\u003c/strong\u003e.\u003cbr\u003e\u003cbr\u003eEvery penny (or cent!) makes a difference, we greatly appreciate it!"
+   },
+   "id": "144299",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "527014",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/527014"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "116807",
+       "type": "goal"
+      },
+      {
+       "id": "116808",
+       "type": "goal"
+      },
+      {
+       "id": "118413",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-144299",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-144299"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "152838",
+       "type": "reward"
+      },
+      {
+       "id": "152839",
+       "type": "reward"
+      },
+      {
+       "id": "152842",
+       "type": "reward"
+      },
+      {
+       "id": "152843",
+       "type": "reward"
+      },
+      {
+       "id": "157074",
+       "type": "reward"
+      },
+      {
+       "id": "152840",
+       "type": "reward"
+      },
+      {
+       "id": "152841",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Welcome to The Angry Microwave! Your one-stop shop for all things gaming, film, comedy, music and theatre!",
+     "created": "2015-02-02T13:27:40+00:00",
+     "facebook": "https://www.facebook.com/TheAngryMicrowave",
+     "first_name": "The",
+     "full_name": "The Angry Microwave",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/527014/07a981479df4499dab6b358f79b1a3ea?token-time=2145916800\u0026token-hash=3mktkrqxqBI9TBx_ENWd6ymlqcfihz2rFoEqEl3zsr4%3D",
+     "last_name": "Angry Microwave",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/527014/07a981479df4499dab6b358f79b1a3ea?token-time=2145916800\u0026token-hash=Y1oFmcT5XXN9wuGUn2AnYaEwbw0XRiz9pZuGGxV4WUk%3D",
+     "twitch": null,
+     "twitter": "1AngryMicrowave",
+     "url": "https://www.patreon.com/theangrymicrowave",
+     "vanity": "theangrymicrowave",
+     "youtube": "https://www.youtube.com/user/theangrymicrowave"
+    },
+    "id": "527014",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "144299",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/144299"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 4,
+     "upgrade_url": "/bePatron?c=144299\u0026rid=152838"
+    },
+    "id": "post-aggregation-for-0-144299",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-01-08T17:04:32+00:00",
+     "description": "\u003cstrong\u003eThanks! Your name on www.TheAngryMicrowave.com Patreon page!\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eThanks for your pledge! We appreciate it and you allow us to continue making exciting and new content!\u003c/li\u003e\u003cli\u003eYour name will be added to our Patreon page at\u00a0www.TheAngryMicrowave.com\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-01-08T17:04:32+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=144299\u0026rid=152838",
+     "user_limit": null
+    },
+    "id": "152838",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-01-08T17:04:32+00:00",
+     "description": "\u003cstrong\u003eThe Angry Microwave Podcast Early!\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYou\u0027ll get The Angry Microwave Podcast and The AM Film Podcast early!\u003c/li\u003e\u003cli\u003eNormally on a Tuesday for Film and Thursday for the regualar podcast - a whole day before it goes live.\u003c/li\u003e\u003cli\u003ePlus all of the other perks above\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2016-01-08T17:04:32+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=144299\u0026rid=152839",
+     "user_limit": null
+    },
+    "id": "152839",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-01-08T17:04:32+00:00",
+     "description": "\u003cstrong\u003ePodcast Shout-Out!\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cb style=\"font-weight: bold; color: rgb(51,51,51);\"\u003e\u003c/b\u003eWe\u0027ll give you a shout-out on The Angry Microwave Podcast!\u003c/li\u003e\u003cli\u003eSilly names encouraged, not for business (See our sponsorship reward!)\u003c/li\u003e\u003cli\u003ePlus all of the other perks above\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-08T17:04:32+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=144299\u0026rid=152842",
+     "user_limit": 5
+    },
+    "id": "152842",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-01-08T17:04:32+00:00",
+     "description": "\u003cstrong\u003eThank You Video!\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cb style=\"font-weight: bold; color: rgb(51,51,51);\"\u003e\u003c/b\u003eWe\u0027ll make a whole video saying our thanks!\u003c/li\u003e\u003cli\u003eGive us your Twitter \u0026amp; Facbeook page and we\u0027ll personalise the video even more!\u003c/li\u003e\u003cli\u003ePlus all of the other perks that aren\u0027t limited\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-08T17:04:32+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=144299\u0026rid=152843",
+     "user_limit": 5
+    },
+    "id": "152843",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-01-08T17:04:32+00:00",
+     "description": "\u003cstrong\u003eYour company logo in our sidebar at www.TheAngryMicrowave.com!\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eYour company logo will appear in the sidebar on our site, it will be\u00a0visible\u00a0on every article page and will link to your website too!\u003c/li\u003e\u003cli\u003ePlease email [email\u00a0protected]\n/*  */ with your logo and details if you are wishing to choose this reward tier.\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-08T17:04:32+00:00",
+     "remaining": 3,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=144299\u0026rid=157074",
+     "user_limit": 3
+    },
+    "id": "157074",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2016-01-08T17:04:32+00:00",
+     "description": "\u003cstrong\u003eSponsor The Angry Microwave Podcast!\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eHave a business/video-game/channel that would like to sponsor The Angry Microwave Podcast? Well you\u0027re in luck!\u003c/li\u003e\u003cli\u003eYou\u0027ll be mentioned on every podcast released that month (four episodes) and in the relevant descriptions of the episodes.\u003c/li\u003e\u003cli\u003ePlus all the other perks that aren\u0027t limited\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-08T17:04:32+00:00",
+     "remaining": 2,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=144299\u0026rid=152840",
+     "user_limit": 2
+    },
+    "id": "152840",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-01-08T17:04:32+00:00",
+     "description": "\u003cstrong\u003eThe Angry Microwave T-Shirt!\u003c/strong\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eFancy a T-Shirt to show your support of The Angry Microwave? This is the reward for you.\u003c/li\u003e\u003cli\u003eShipped within four weeks of payment.\u003c/li\u003e\u003cli\u003ePlus all the other perks that aren\u0027t limited\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-01-08T17:04:32+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=144299\u0026rid=152841",
+     "user_limit": null
+    },
+    "id": "152841",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 3,
+     "created_at": "2015-02-02T13:50:02+00:00",
+     "description": "Another new series where we take YOU to the locations of our greatest film moments in this video series. Exploring where our favourite films were shot, from Shaun of the Dead to 28 Days Later (plus other non-zombie films!). *Name subject to change",
+     "reached_at": null,
+     "title": "Behind The Location*"
+    },
+    "id": "116807",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 9,
+     "created_at": "2015-02-02T13:50:02+00:00",
+     "description": "Ever wanted to watch The Angry Microwave play the latest video game releases live? This is your chance! We\u0027ll commit to streaming the latest video games and (possibly) The Angry Microwave Podcast!",
+     "reached_at": "2015-02-03T20:14:11+00:00",
+     "title": "Twitch!"
+    },
+    "id": "116808",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 6,
+     "created_at": "2015-02-04T01:56:13+00:00",
+     "description": "Ever wondered what our best films, actors, albums and more are? In this new video series, we\u0027ll tell you what we think deserve to be experienced by everyone! *Title subject to change",
+     "reached_at": null,
+     "title": "Best Of...*"
+    },
+    "id": "118413",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/144299"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e0f47f7c-b79c-4142-a5f8-08eebb4b017e",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "The Angry Microwave is creating Features, Podcasts \u0026 More!"
+});
+    </script>

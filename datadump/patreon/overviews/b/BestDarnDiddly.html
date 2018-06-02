@@ -1,0 +1,497 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "sU5bauyy4G_BCxRfi-plrTNWNKxEwWAplP9-YT7TEQE";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "511728",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/511728"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-07-06T00:39:26+00:00",
+    "creation_name": "a podcast for Simpson\u0027s fans",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/417195/d3783cdb170a4b98be7c0f649fdbf66f?token-time=2145916800\u0026token-hash=HuBTVBNrfX2oytY2IcycwTDKg7EwhDIw1T5wJbnNVCQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/417195/d3783cdb170a4b98be7c0f649fdbf66f?token-time=2145916800\u0026token-hash=illWWD2WQu_UpuYm_O3S4I7ngOw-5u6-q4VPFl0V1bo%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 3,
+    "pay_per_name": "month",
+    "pledge_sum": 1005,
+    "pledge_url": "/bePatron?c=417195",
+    "published_at": "2017-07-15T03:36:57+00:00",
+    "summary": "Best Darn Diddly is a weekly podcast for anyone who loves The Simpsons, or ever has loved The Simpsons, hosted by two dudes that grew up on The Simpsons!\u00a0\u003cbr\u003e\u003cbr\u003eWe want to make Best Darn Diddly THE best darn diddly Simpsons podcast in the world, and we want to build a strong community of Simpsons fans around our show! \u00a0We will use all donations to purchase promotional materials or \"swag\" to try to reach more Simpsons fans and bring them into the flock!\u00a0\u003cbr\u003e\u003cbr\u003eThank you for supporting the Best Darn Diddly Review Show!\u00a0\u003cbr\u003e\u003cbr\u003eFind us online at BestDarnDiddly.com and follow us on Twitter and IG @BestDarnDiddly\u003cbr\u003e"
+   },
+   "id": "417195",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3615831",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3615831"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "901773",
+       "type": "goal"
+      },
+      {
+       "id": "1017695",
+       "type": "goal"
+      },
+      {
+       "id": "1017712",
+       "type": "goal"
+      },
+      {
+       "id": "1174684",
+       "type": "goal"
+      },
+      {
+       "id": "1174685",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1844622",
+       "type": "reward"
+      },
+      {
+       "id": "2137370",
+       "type": "reward"
+      },
+      {
+       "id": "2535187",
+       "type": "reward"
+      },
+      {
+       "id": "2137374",
+       "type": "reward"
+      },
+      {
+       "id": "2533629",
+       "type": "reward"
+      },
+      {
+       "id": "2185331",
+       "type": "reward"
+      },
+      {
+       "id": "2535276",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Best Darn Diddly is a weekly podcast for anyone who lovest The Simpsons or ever has loved The SImpsons!\u00a0 Available now wherever you listen to podcasts or at BestDarnDiddly.com",
+     "created": "2016-07-06T00:39:13+00:00",
+     "facebook": "https://www.facebook.com/bestdarndiddly/",
+     "first_name": "Best",
+     "full_name": "Best Darn Diddly",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3615831/d95d24a5eeaf49edaa50d8c4fff4ef7f?token-time=2145916800\u0026token-hash=rFibeqxQXfrfRhqKL5iyzO10O0_VK4Yp3HOzLF7ZlA0%3D",
+     "last_name": "Darn Diddly",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3615831/d95d24a5eeaf49edaa50d8c4fff4ef7f?token-time=2145916800\u0026token-hash=cRFxalLXKHBTPqGxq3hWZZEpSmjP46BFsKyktC5_t-A%3D",
+     "twitch": "https://www.twitch.tv/MrMostDaysOFf",
+     "twitter": "BestDarnDiddly",
+     "url": "https://www.patreon.com/BestDarnDiddly",
+     "vanity": "BestDarnDiddly",
+     "youtube": "https://www.youtube.com/BestDarnDiddly"
+    },
+    "id": "3615831",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "417195",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/417195"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-07-15T03:29:23.606151+00:00",
+     "description": "Just like it says, give us a buck a month and we will give you a shout out on the podcast!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-09T19:04:27.989673+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1844622/8bf719d08b494a8ba9273ebb2754e967?token-time=2145916800\u0026token-hash=v1lnT8g-Oq5skWT2hikNxdUx9LuNZpA9HNP-UaNii6M%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-09T19:04:27.967041+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Shout out",
+     "unpublished_at": null,
+     "url": "/bePatron?c=417195\u0026rid=1844622",
+     "user_limit": null
+    },
+    "id": "1844622",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-11-09T18:40:25.298801+00:00",
+     "description": "Receive a shout on the podcast and one random\u00a0Best Darn Diddly sticker!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-09T19:03:57.195180+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2137370/07e7da6011f141ed8bf7086d5c20c48d?token-time=2145916800\u0026token-hash=dCZqxhBoz1W0qYviIwQWEIihaS1AFsn4RYgsAdyWMPM%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-09T19:03:57.172493+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Shout out \u0026 sticker",
+     "unpublished_at": null,
+     "url": "/bePatron?c=417195\u0026rid=2137370",
+     "user_limit": null
+    },
+    "id": "2137370",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-04-17T05:54:42.605435+00:00",
+     "description": "By donating $3 a month you will be able to participate in the Best Darn Diddly Book Club. \u00a0This will be a once a month Google Hangout chat to discuss one of the many great books about The Simpsons.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eNOTE! The Best Darn Diddly Book Club will begin once we hit our goal of $50 per month on Patreon. \u00a0For now the extra donation is just because you\u0027re an awesome and generous person and we appreciate it very much!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T05:54:42.605435+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2535187/3ffd0e0b2c9d4a3d9fa41fe99bb26a31?token-time=2145916800\u0026token-hash=QV-gzAs6FYhTJwckO0cftFbMR8fM1E23PtK3aNFw_gA%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T05:54:42.605435+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "Best Darn Diddly Book Club Participant (coming soon)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=417195\u0026rid=2535187",
+     "user_limit": 10
+    },
+    "id": "2535187",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-11-09T18:41:49.073921+00:00",
+     "description": "\u00a0What a bargain! A human soul for just $5 a month? \u00a0Please note that any power you are granted through use of my soul will only be available to you as long as you are a patron and you must agree to share my soul with other patrons at this tier. \u00a0All the generous suckers, err, I mean generous donors at this tier will also receive a shout out and a Best Darn Diddly sticker!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T06:00:40.584319+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2137374/e0030bbf758c4503a0d59ab85ca9d80d?token-time=2145916800\u0026token-hash=hrExUvUVCNKnUCGeaU1u27rwpk74D-8dDcbl5Cl_DNo%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T06:00:40.574588+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "My Soul",
+     "unpublished_at": null,
+     "url": "/bePatron?c=417195\u0026rid=2137374",
+     "user_limit": null
+    },
+    "id": "2137374",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-04-16T19:13:00.468244+00:00",
+     "description": "Joining at this tier will not only give you all of the benefits from previous tiers but you will also be invited to quarterly Best Darn Diddly Board meetings where you will have an opportunity to discuss plans and input ideas for the future of the podcast. \u00a0\"Legitimate business\" only!",
+     "discord_role_ids": null,
+     "edited_at": "2018-05-14T21:54:24.739734+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjQwMH0%3D/patreon-media/reward/2533629/fb9064d9cb394d99bf54dd20d9bb5714?token-time=2145916800\u0026token-hash=sXd-zJmym_HMgIp1XFBtEVbthFi-GX4aReYb5nxRakw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-14T21:54:24.729650+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "The Best Darn Diddly Legitimate Business Person\u0027s Club!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=417195\u0026rid=2533629",
+     "user_limit": 5
+    },
+    "id": "2533629",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-12-01T20:55:13.968863+00:00",
+     "description": "A 30 second ad for whatever you want to promote! Your advertisement will be rotated as a preroll, midroll, or post roll ad on EVERY episode of Best Darn Diddly. \u00a0Only 3 spots available for this super cheap advertising opportunity! Note, all ads are subject to approval and can be cancelled at any time at our discretion. Nazis or likewise need not apply.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T20:13:02.769556+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2185331/840e6e8c364a4a9ba20d588326465dec?token-time=2145916800\u0026token-hash=WrqtD5lrg2YMJNCOQa4Eg_sSUntNebqEF6Inxex04PU%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T20:13:02.758900+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "30 Second Ad",
+     "unpublished_at": null,
+     "url": "/bePatron?c=417195\u0026rid=2185331",
+     "user_limit": 3
+    },
+    "id": "2185331",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-04-17T06:49:37.643579+00:00",
+     "description": "You\u0027ve got money like Montgomery and you love the Simpsons as much as we do? \u00a0Help us out way more than we actually deserve just because you can afford it! \u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-04-17T06:49:37.643579+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2535276/d290790bdbdb46ef83879b8dc40c08b9?token-time=2145916800\u0026token-hash=V0C5XLmGKfW0FxPHzoGX2-CKMQOUut20Z8L2dR3p0LI%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-17T06:49:37.643579+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Mr. Burns Money",
+     "unpublished_at": null,
+     "url": "/bePatron?c=417195\u0026rid=2535276",
+     "user_limit": null
+    },
+    "id": "2535276",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 7500,
+     "completed_percentage": 13,
+     "created_at": "2017-07-15T03:25:47+00:00",
+     "description": "Help us buy some \u00a0swag such as buttons, pins, t-shirts, hats, sunglasses, koozies or basically anything that our logo would look good on.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "901773",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 10,
+     "created_at": "2017-11-09T18:54:58+00:00",
+     "description": "If we reach $100 per month we will start a second podcast combining Simpsons and role playing elements!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1017695",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 5,
+     "created_at": "2017-11-09T19:09:45+00:00",
+     "description": "Reaching this goal will allow us to afford booth space at local comic con\u0027s and other similar conventions where we plan to record live shows and interviews.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1017712",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3000,
+     "completed_percentage": 33,
+     "created_at": "2018-04-16T21:13:08+00:00",
+     "description": "Help us cover our costs so we can keep this podcasting journey going through every single episode of The Simpsons!\u003cbr\u003e\u003cbr\u003eThere are many costs associated with podcasting such as hosting fees, website fees, postage for mailing out swag and many more!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1174684",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 20,
+     "created_at": "2018-04-16T21:13:08+00:00",
+     "description": "At this goal we will launch the Best Darn Diddly Book Club for all of our patrons!\u00a0 Everyone who donates $3 or more per month will be invited to a monthly Google Hangouts chat to discuss one of the many books available about The Simpsons.\u00a0 All patrons will have access to view the chat, $3 and up get to participate!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1174685",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/417195"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "9ff94ceb-05bd-4e69-b737-700df0870a94",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Best Darn Diddly is creating a podcast for Simpson\u0027s fans"
+});
+    </script>

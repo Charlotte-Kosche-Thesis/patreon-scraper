@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "JYWI4Sf2DIHoz72wlAaszL-Gdm2sejjlufIvFnt5vSk";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "424810",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/424810"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-04-16T19:44:38+00:00",
+    "creation_name": "fiction with a flair for fantasy and steamy romance.",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/344434/2cf9a4b1cfef4acebc4f377ddc3dec1e?token-time=2145916800\u0026token-hash=x-NInuMHP4CfsCF0LqdWVYA9gjHqsX_4NXSOYaqzjAQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/344434/2cf9a4b1cfef4acebc4f377ddc3dec1e?token-time=2145916800\u0026token-hash=RDBZtjrBH22oXJc5qdM7L2NcM7koN9XWNjJ1wTaj1kg%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 2250,
+    "pledge_url": "/bePatron?c=344434",
+    "published_at": "2017-04-25T02:33:52+00:00",
+    "summary": "I am a storyteller. I have been since I was a child. Remember the slumber party game light as a feather, stiff as a board? I always told the best spooky stories to set the proper mood. My imagination took simple ideas and built monuments out of them. My hope is to share the vivid imagery which is my constant companion with readers so they can enjoy the tales as much as I do. I want others to love and hate my heroes and villains as much as I do.\u003cbr\u003e\u003cbr\u003eI write a little fantasy. A little science fiction. I dabble in horror. Many of my characters are LGBT and diverse. I write erotica to make you blush. Like some kink in your tantalizing tales? You\u0027ll find it here.\u00a0\u003cbr\u003e\u003cbr\u003eMy muse though is a fickle thing. She likes to go on extended vacations from time to time. Though she can be bribed to return. When things are less stressful and chaotic at home, she doesn\u0027t tend to wander as much. So this Page is to bribe my muse to stay on task and not hightail it off to some distant land I\u0027ve yet to visit.\u003cbr\u003e\u003cbr\u003eThanks for visiting and I look forward to sharing many tales with you before we are done."
+   },
+   "id": "344434",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3174245",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3174245"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "402037",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-344434",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-344434"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1633030",
+       "type": "reward"
+      },
+      {
+       "id": "509141",
+       "type": "reward"
+      },
+      {
+       "id": "1677940",
+       "type": "reward"
+      },
+      {
+       "id": "1633015",
+       "type": "reward"
+      },
+      {
+       "id": "1633050",
+       "type": "reward"
+      },
+      {
+       "id": "1633066",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-04-16T19:25:34+00:00",
+     "facebook": "https://www.facebook.com/Kaiden.Moss.author/",
+     "first_name": "Kaiden",
+     "full_name": "Kaiden",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3174245/351c86fdc79a48c18e9eec1fdbe459ec?token-time=2145916800\u0026token-hash=6bSl3wFM2wCZaGvI5OIzt9O2_LVenbZeTtxOe6ou_y0%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3174245/351c86fdc79a48c18e9eec1fdbe459ec?token-time=2145916800\u0026token-hash=miGKZMPmLlVZ4ZjyBqL2IRAb6nItqIPcOm9sk_1psEA%3D",
+     "twitch": null,
+     "twitter": "KaidenMoss",
+     "url": "https://www.patreon.com/kaidenmossauthor",
+     "vanity": "kaidenmossauthor",
+     "youtube": null
+    },
+    "id": "3174245",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "344434",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/344434"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 5,
+     "upgrade_url": "/bePatron?c=344434\u0026rid=1633030"
+    },
+    "id": "post-aggregation-for-0-344434",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-04-25T02:08:03.214369+00:00",
+     "description": "Thanks for your support. You and the rest of my patrons will get all the important info first. \u00a0Some stories will be available immediately, others at a later date.",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-10T08:32:22.469118+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1633030/081817a83cd942dab73efb3cdea9b9c9?token-time=2145916800\u0026token-hash=9vNQgB4y_xvQSs3tYzMp2O-TQtUewAOXDtDyxNGEowU%3D",
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-04-25T02:08:03.214369+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Ramen",
+     "unpublished_at": null,
+     "url": "/bePatron?c=344434\u0026rid=1633030",
+     "user_limit": null
+    },
+    "id": "1633030",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-04-16T20:21:55+00:00",
+     "description": "Support at this level gets access to the Empire of Shenendril: The Blue Chronicles and many future projects.\u003cbr\u003e\n\u003cbr\u003e\nEveryone who is a patron at this level for at least 3 months at time of outside publication will receive an electronic copy of all manuscripts.",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-31T19:33:52.488222+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/509141/5a4b580854e64bdc96666791d001f1b8?token-time=2145916800\u0026token-hash=jLkLeFkyJ8lhgZLdvV_ogzE_aZmyEZnj1aU7MPLGTho%3D",
+     "patron_count": 0,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2016-04-16T20:21:55+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mac n\u0027Cheese",
+     "unpublished_at": null,
+     "url": "/bePatron?c=344434\u0026rid=509141",
+     "user_limit": null
+    },
+    "id": "509141",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-05-10T08:20:03.375814+00:00",
+     "description": "Everyone loves tacos. You can\u0027t go wrong with tacos, even if it doesn\u0027t go with the pasta theme.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAt this level you get the electronic copy of manuscripts. But you also will be able to offer input such as voting in polls or join in plot discussions.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-10T08:31:26.401256+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1677940/b16fe3531d434eda89fadb64f835fe1d?token-time=2145916800\u0026token-hash=Fbgu5LgOKvvBA1u403X14sUhGXIABM0AFP3zxl0hKGw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-05-10T08:20:03.375814+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "TACOS!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=344434\u0026rid=1677940",
+     "user_limit": null
+    },
+    "id": "1677940",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-04-25T02:04:14.177005+00:00",
+     "description": "You like me! You really like me! You must really want me to succeed. Thanks!\u003cbr\u003e\n\u003cbr\u003e\nAnyone on this level for at least 3 months at time of publication will receive a physical copy of any books published, autographed by yours truly.",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-10T08:33:42.664541+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1633015/a3489a95ed0c43e0a1cc45b1f9de103c?token-time=2145916800\u0026token-hash=9H-qJ0M6CTzORI_tn_EEssui8pTBS-HoF2Wi0mkLWVE%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-25T02:04:14.177005+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Spaghetti with tomato sauce",
+     "unpublished_at": null,
+     "url": "/bePatron?c=344434\u0026rid=1633015",
+     "user_limit": null
+    },
+    "id": "1633015",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-04-25T02:14:20.910023+00:00",
+     "description": "You are clearly my favorite dish, I mean patron. Along with all previous rewards you shall also have a side character created in your honor. What sort of effect this character has on the story will remain to be seen.",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-10T08:34:31.968000+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1633050/96c88543faf64145bae3c53dbe3a39f8?token-time=2145916800\u0026token-hash=L0un0CVZ1Oy7yXhj08OvIGOpBvV4oPHOh2xc0nCoDjc%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-25T02:14:20.910023+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Baked Ziti",
+     "unpublished_at": null,
+     "url": "/bePatron?c=344434\u0026rid=1633050",
+     "user_limit": 10
+    },
+    "id": "1633050",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-04-25T02:19:26.953038+00:00",
+     "description": "Okay, I admit. This is actually my favorite dish. \u003cbr\u003e\n\u003cbr\u003e\nAlong with all other previous awards current and forthcoming, patrons at this level will receive a personalized short story featuring their unique character interacting with the protagonist of their choice. \u003cbr\u003e\n\u003cbr\u003e\nLimit 1 short story per patron per calendar year as time allows.",
+     "discord_role_ids": null,
+     "edited_at": "2017-05-10T08:35:21.481608+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1633066/c1543066f63742f996e4eaf7af0957b7?token-time=2145916800\u0026token-hash=p4fUTXvr4osJSaQZWfjWM-XknIeEsTGHxluJiIsFe2w%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-25T02:19:26.953038+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Fettuccine Alfredo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=344434\u0026rid=1633066",
+     "user_limit": 5
+    },
+    "id": "1633066",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 4,
+     "created_at": "2016-04-16T20:02:25+00:00",
+     "description": "Self publishing is not a walk in the park. The need for beta readers, editors, and even cover artists can cost money. Then there\u0027s advertising and other needs to get your book in front of the right eyes. Any help is appreciated and your patronage will take a lot of the stress off which will make the creative process easier.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "402037",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/344434"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "a95ba01b-96a2-419f-83b4-fcbb44b8a084",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Kaiden is creating fiction with a flair for fantasy and steamy romance."
+});
+    </script>

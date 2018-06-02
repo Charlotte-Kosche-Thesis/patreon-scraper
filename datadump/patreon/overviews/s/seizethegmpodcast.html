@@ -1,0 +1,559 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Qus69a7K_lkSYgkNQSYTguua1BHV8-9tpK8p54T2sfI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "279720",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/279720"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-09-06T02:02:14+00:00",
+    "creation_name": "an RPG podcast ",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/495338/78f352b713a149b19754a3169e55ea26?token-time=2145916800\u0026token-hash=WmHu7-9QnUJ_sP2LUWcgns02KEYrYLgIDfMsJxHtjh0%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/495338/78f352b713a149b19754a3169e55ea26?token-time=2145916800\u0026token-hash=qSH5ixKTLhUmqs3_zFPTa1ClKR-BAnDp80bMVUovaB8%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "Episode",
+    "pledge_sum": 180,
+    "pledge_url": "/bePatron?c=495338",
+    "published_at": "2016-10-12T02:58:48+00:00",
+    "summary": "Why do a Patreon? Well to be honest I figured this way I could get help from listeners. Not in the normal begging for money. I want to create a community that helps us to make the best shows we can. We want to be able to stay up to date on the games that people want us to talk about and sadly those are not cheap. Also to make audio that sounds great also costs. We as a team want to make the kind of shows you guys want to hear and this is the easiest way. Plus it gives those that want to a voice on and for the show. Well from all of us I am going to sign off and say \"Let\u0027s make some great shows!\"\u00a0"
+   },
+   "id": "495338",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3956257",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3956257"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "534853",
+       "type": "goal"
+      },
+      {
+       "id": "534874",
+       "type": "goal"
+      },
+      {
+       "id": "534930",
+       "type": "goal"
+      },
+      {
+       "id": "534931",
+       "type": "goal"
+      },
+      {
+       "id": "535931",
+       "type": "goal"
+      },
+      {
+       "id": "535932",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-495338",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-495338"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "737485",
+       "type": "reward"
+      },
+      {
+       "id": "737486",
+       "type": "reward"
+      },
+      {
+       "id": "737487",
+       "type": "reward"
+      },
+      {
+       "id": "737488",
+       "type": "reward"
+      },
+      {
+       "id": "737489",
+       "type": "reward"
+      },
+      {
+       "id": "737490",
+       "type": "reward"
+      },
+      {
+       "id": "737491",
+       "type": "reward"
+      },
+      {
+       "id": "737492",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-09-06T02:02:13+00:00",
+     "facebook": "https://www.facebook.com/seizethegm",
+     "first_name": "Seize",
+     "full_name": "Seize the GM Podcast",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3956257/e4dc2e7e80d5437f9693736c92044255?token-time=2145916800\u0026token-hash=ygoiGQJZa0aeLCpwm-VehE6uGv3Xy9VYoujazw6mHK0%3D",
+     "last_name": "the GM Podcast",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3956257/e4dc2e7e80d5437f9693736c92044255?token-time=2145916800\u0026token-hash=xmyNKc0iwti4elLANBQRNf4v5a1Ey-f1DiohkzfFFLs%3D",
+     "twitch": null,
+     "twitter": "seizethegm",
+     "url": "https://www.patreon.com/seizethegmpodcast",
+     "vanity": "seizethegmpodcast",
+     "youtube": null
+    },
+    "id": "3956257",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "495338",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/495338"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 6,
+     "upgrade_url": "/bePatron?c=495338\u0026rid=737485"
+    },
+    "id": "post-aggregation-for-0-495338",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-09-29T15:19:50+00:00",
+     "description": "You will get a special callout on the show. Plus you will get to vote on show topics.",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-30T03:01:22+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-09-29T15:19:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=495338\u0026rid=737485",
+     "user_limit": null
+    },
+    "id": "737485",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-09-29T15:19:50+00:00",
+     "description": "You will get invited to a once a month chat with us on Skype or whatever we are using at the time. Plus you can pitch us ideas for upcoming shows.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-30T03:01:22+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-09-29T15:19:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=495338\u0026rid=737486",
+     "user_limit": null
+    },
+    "id": "737486",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-09-29T15:19:50+00:00",
+     "description": "Ok so now you get to be a guest on the show for an episode.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-30T03:01:22+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-29T15:19:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=495338\u0026rid=737487",
+     "user_limit": null
+    },
+    "id": "737487",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-09-29T15:19:50+00:00",
+     "description": "Now you get special content! We will create at least 2 pieces of special content just for you guys. It will be PDF\u0027s or recordings. All digital things.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-30T03:01:22+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-29T15:19:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=495338\u0026rid=737488",
+     "user_limit": null
+    },
+    "id": "737488",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-09-29T15:19:50+00:00",
+     "description": "Here we will play or run a one shot with you and the hosts or a group of your buddies, or we will rent a copy of a movie and all sit around on our computers and watch and talk about it.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-30T03:01:22+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-29T15:19:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=495338\u0026rid=737489",
+     "user_limit": null
+    },
+    "id": "737489",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1200,
+     "amount_cents": 1200,
+     "created_at": "2016-09-29T15:19:50+00:00",
+     "description": "Ok so I am a fan of props and such in games. As well as building landscape. Here I will make 3 things for a game that you would like. Within reason folks I am not building a starship in full detail. :)\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-30T03:01:22+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-29T15:19:50+00:00",
+     "remaining": 15,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=495338\u0026rid=737490",
+     "user_limit": 15
+    },
+    "id": "737490",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-09-29T15:19:50+00:00",
+     "description": "Alrighty at this point you will get swag from us. Things like stickers, pencils, notebooks, t-shirts. It will be released on a seasonal basis.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-30T03:01:22+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-29T15:19:50+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=495338\u0026rid=737491",
+     "user_limit": null
+    },
+    "id": "737491",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-09-29T15:19:50+00:00",
+     "description": "Here we go the Creme de la Creme. We will write a full blown adventure for you. It will be system neutral (sorry) as we don\u0027t want those pesky lawyers coming after us. It will be an actual book you can hold in your hand with art as well. This is a one time thing for you.",
+     "discord_role_ids": null,
+     "edited_at": "2016-11-30T03:01:22+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-09-29T15:19:50+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=495338\u0026rid=737492",
+     "user_limit": null
+    },
+    "id": "737492",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200,
+     "completed_percentage": 90,
+     "created_at": "2016-09-07T01:44:08+00:00",
+     "description": "Well this goal opens up a monthly chat with us. It will be an hour or so. We will send out the link to what we are using for it once we get things going.\u00a0",
+     "reached_at": "2016-11-22T16:01:24+00:00",
+     "title": ""
+    },
+    "id": "534853",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500,
+     "completed_percentage": 36,
+     "created_at": "2016-09-07T02:03:08+00:00",
+     "description": "At this goal we cover the costs of the hosting and keeping the lights on.\u00a0",
+     "reached_at": "2018-04-06T19:55:55+00:00",
+     "title": ""
+    },
+    "id": "534874",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 700,
+     "completed_percentage": 25,
+     "created_at": "2016-09-07T02:58:57+00:00",
+     "description": "Now you get a special show. That is a world building show.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "534930",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 3,
+     "created_at": "2016-09-07T02:58:57+00:00",
+     "description": "We unlock Swag for All Seasons. Quarterly gear for you.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "534931",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 7,
+     "created_at": "2016-09-08T03:13:28+00:00",
+     "description": "We start upgrading hardware and getting gear for shows on the road.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "535931",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 1,
+     "created_at": "2016-09-08T03:13:28+00:00",
+     "description": "We will see you at a big gaming con this year.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "535932",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/495338"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "a436e70c-7086-49cd-8a06-63b6af4854fd",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Seize the GM Podcast is creating an RPG podcast "
+});
+    </script>

@@ -1,0 +1,607 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "9R8pj2hFZWC8wKvMrpey8Sb4xtpxLh2QqJDqmMbgWF8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "164174",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/164174"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-05-16T09:03:48+00:00",
+    "creation_name": "Art, Writing, A World of Pure Imagination",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/366955/1b8ac922fd224a4aa4c39a86b3f95926?token-time=2145916800\u0026token-hash=phe5jjxHsZ-TgvcXdb9UF6LqNXMMyoE3csGQ3ewhbpE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/366955/1b8ac922fd224a4aa4c39a86b3f95926?token-time=2145916800\u0026token-hash=qBHozHbuhasXQW0emXGTWtidKNnpVgzzR7lmFEqyzbM%3D",
+    "is_monthly": false,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "Art, Comic Pages, Short Fiction, Comic/Picture/Coloring Books",
+    "pledge_sum": 180,
+    "pledge_url": "/bePatron?c=366955",
+    "published_at": "2016-05-16T09:32:14+00:00",
+    "summary": "My name is Jack Noire. I am an unemployed transgender artist. You can find my art at \u003cstrong\u003emechanicalsymphonies.tumblr.com/tagged/jack-draws \u003c/strong\u003eOR \u003cstrong\u003e@JackDTylerD\u003c/strong\u003e on Twitter under the tag \u003cstrong\u003e\"Jack Draws\u003c/strong\u003e\".\u003cbr\u003e\u003cstrong\u003e\u003c/strong\u003eI want to be in a creative profession more than anything else in the world. I\u0027m here to provide original art, fanart, short fiction, and much more to you. Supporting me brings you original content that can\u0027t be found on my Tumblr or Twitter, as well as requests for art and short fiction from you, the Patrons!"
+   },
+   "id": "366955",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3309011",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3309011"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "428173",
+       "type": "goal"
+      },
+      {
+       "id": "428182",
+       "type": "goal"
+      },
+      {
+       "id": "429205",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-366955",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-366955"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "543622",
+       "type": "reward"
+      },
+      {
+       "id": "543623",
+       "type": "reward"
+      },
+      {
+       "id": "543624",
+       "type": "reward"
+      },
+      {
+       "id": "543625",
+       "type": "reward"
+      },
+      {
+       "id": "543626",
+       "type": "reward"
+      },
+      {
+       "id": "543627",
+       "type": "reward"
+      },
+      {
+       "id": "543628",
+       "type": "reward"
+      },
+      {
+       "id": "543629",
+       "type": "reward"
+      },
+      {
+       "id": "543630",
+       "type": "reward"
+      },
+      {
+       "id": "543631",
+       "type": "reward"
+      },
+      {
+       "id": "543632",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "My name is Jack Noire. I\u0027m a transgender artist with a penchant for character design. My interests include writing, voice acting, watching cartoons and playing video games. I have a lot of fandoms I enjoy, but my favourites are Gravity Falls, Osomatsu-san, Mystery Skulls, Professor Layron, Ace Attorney, and many others. I love to paint and my proudest works are the canvas portraits I do on a large scale. Eventually, I hope to find enough of a following to have some sort of official release of my original work.",
+     "created": "2016-05-16T09:00:07+00:00",
+     "facebook": "",
+     "first_name": "Jack",
+     "full_name": "Jack Noire",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3309011/224302db533244e7b0640c1616e42990?token-time=2145916800\u0026token-hash=6h6mQhFLWxZXeKTwsGGRtm_yaPIl0BD8ex6FS3ZnKgY%3D",
+     "last_name": "Noire",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3309011/224302db533244e7b0640c1616e42990?token-time=2145916800\u0026token-hash=ubXfw4skm0q6OZXLI4YKidTue3EVNm-RtkhgDiSozLM%3D",
+     "twitch": "",
+     "twitter": "jackDtylerD",
+     "url": "https://www.patreon.com/JackNoireDraws",
+     "vanity": "JackNoireDraws",
+     "youtube": ""
+    },
+    "id": "3309011",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "366955",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/366955"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 8,
+     "upgrade_url": "/bePatron?c=366955\u0026rid=543622"
+    },
+    "id": "post-aggregation-for-0-366955",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-05-16T09:31:59+00:00",
+     "description": "Access to original design sketches and additional content exclusive to Patreon.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-05-16T09:31:59+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=366955\u0026rid=543622",
+     "user_limit": null
+    },
+    "id": "543622",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-05-16T09:31:59+00:00",
+     "description": "Black and white fanart or original art of your choice. Any fandom or subject, NSFW okay! (Additional figures and details may be more depending on the work)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-16T09:31:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=366955\u0026rid=543623",
+     "user_limit": null
+    },
+    "id": "543623",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-05-16T09:31:59+00:00",
+     "description": "300-500 word short fiction of your choice, any fandom, any subject, NSFW okay!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-16T09:31:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=366955\u0026rid=543624",
+     "user_limit": null
+    },
+    "id": "543624",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-05-16T09:31:59+00:00",
+     "description": "Black and white short comic, 3-5 pages. Any subject or fandom, NSFW okay!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-16T09:31:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=366955\u0026rid=543625",
+     "user_limit": null
+    },
+    "id": "543625",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-05-16T09:31:59+00:00",
+     "description": "Full colour digital art. Any subject or fandom, NSFW okay!\u00a0 (Additional figures and details may be more depending on the work)",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-16T09:31:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=366955\u0026rid=543626",
+     "user_limit": null
+    },
+    "id": "543626",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4500,
+     "amount_cents": 4500,
+     "created_at": "2016-05-16T09:31:59+00:00",
+     "description": "Full color short comic. Up to 5 pages. Any subject of fandom, NSFW okay!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-16T09:31:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=366955\u0026rid=543627",
+     "user_limit": null
+    },
+    "id": "543627",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4500,
+     "amount_cents": 4500,
+     "created_at": "2016-05-16T09:31:59+00:00",
+     "description": "1000-5000 word short fiction. Any subject or fandom, NSFW okay!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-16T09:31:59+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=366955\u0026rid=543628",
+     "user_limit": null
+    },
+    "id": "543628",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2016-05-16T09:31:59+00:00",
+     "description": "Original traditional full colour art, any fandom of subject, NSFW okay!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-16T09:31:59+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=366955\u0026rid=543629",
+     "user_limit": null
+    },
+    "id": "543629",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-05-16T09:31:59+00:00",
+     "description": "Original canvas painting up to 11\u00d714, any fandom or original subject, NSFW okay!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-16T09:31:59+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=366955\u0026rid=543630",
+     "user_limit": null
+    },
+    "id": "543630",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2016-05-16T09:31:59+00:00",
+     "description": "Original canvas painting + care package! I will paint any subject or fandom on a canvas UP TO 16\u00d720 and ship the painting with an assortment of stickers, a personal, handwritten thank you letter, extra doodles and plenty of extra goodies!",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-16T09:31:59+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=366955\u0026rid=543631",
+     "user_limit": null
+    },
+    "id": "543631",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 30000,
+     "amount_cents": 30000,
+     "created_at": "2016-05-16T09:31:59+00:00",
+     "description": "Original \u003cstrong\u003eNSFW\u003c/strong\u003e canvas painting + care package! I will paint any \u003cstrong\u003eNSFW\u003c/strong\u003e subject or fandom on a canvas UP TO 16\u00d720 and ship the painting with an assortment of stickers, a personal, handwritten thank you letter, extra doodles and plenty of extra goodies! \u003cstrong\u003eWhat makes this reward special is an added hard copy of a 1000-5000 word short fiction about the subject of your painting, decorated with appropriate embellisments!\u003c/strong\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-16T09:31:59+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=366955\u0026rid=543632",
+     "user_limit": null
+    },
+    "id": "543632",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 0,
+     "created_at": "2016-05-16T09:48:07+00:00",
+     "description": "I have always wanted to self-publish a small art book that congoers could buy to get a taste of my art. If this goal is reached, I will publish a 60-page, full-colour art book on quality paper to sell at conventions and on Patreon as a reward (with a few Patreon-exclusive extras, of course!)",
+     "reached_at": null,
+     "title": "Publish an original, full-colour art book for sale at conventions AND Patreon!"
+    },
+    "id": "428173",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 0,
+     "created_at": "2016-05-16T10:03:43+00:00",
+     "description": "Para One, otherwise known as Introduction to Paranormal Investigation, is my pet project. Initially, I imagined it as an animated series, but I would be more than happy to release the first full length story of these community college spirit busters as a graphic novel! These would go on sale at conventions, and of course, Patreon! The volume will be in greyscale with a colour cover, but there are future goals to push toward a colour release, as well as additional volumes!",
+     "reached_at": null,
+     "title": "Release a comic version of Para One! "
+    },
+    "id": "428182",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 0,
+     "created_at": "2016-05-17T08:05:01+00:00",
+     "description": "As a friend of many people of various ages who face medical troubles, I understand that going to the doctor can be intimidating, and I want to give these people something to ease their worries. Introducing the good Doctor Pincher, a clownlike doctor with good intentions. With his beautiful nurse to aid him, he\u0027ll prove that your hospital visit won\u0027t be so bad! These colorful characters will reside in a customizable picture/colouring book with options to put in a patient\u0027s name and other specific details. I also plan to make generic ones for conventions and to donate copies to hospitals.\u003cbr\u003eNurse Squeeze is also willing to provide a visit to more mature audiences. Nothing funny, just a little squeeze...but that\u0027s for another goal!\u003cbr\u003e",
+     "reached_at": null,
+     "title": "A Visit with Doctor Pincher \u0026amp; Nurse Squeeze: A Hospital Children\u0027s Colouring Book"
+    },
+    "id": "429205",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/366955"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "6c7cce4e-f3d0-4eab-8ab0-7d6f12fd500d",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Jack Noire is creating Art, Writing, A World of Pure Imagination"
+});
+    </script>

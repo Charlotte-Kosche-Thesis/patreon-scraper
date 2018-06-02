@@ -1,0 +1,607 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "-vWL2_enn3fUQtrIy2EmTcjeRel6NTHKlws4T-YQqT8";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "21298",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/21298"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-09-15T23:15:43+00:00",
+    "creation_name": "Fractals, polymer clay, Dreamscape Art \u0026 Wire Trees",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/113966/326ec5cb9f97401d9487f29d05527b88?token-time=2145916800\u0026token-hash=efdpx14t3ysflqnW-Cm3i-xbC4SpSLJ6ePNEhDNw-uE%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/113966/326ec5cb9f97401d9487f29d05527b88?token-time=2145916800\u0026token-hash=3cU-2zaIzoVfsPS5S5IShLWLkb0nL0YkBtcKZRFQq2U%3D",
+    "is_monthly": false,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "Spiritual Intuitive Artist",
+    "patron_count": 1,
+    "pay_per_name": "wire trees, polymer clay, fractals, reiki, jewelry",
+    "pledge_sum": 1350,
+    "pledge_url": "/bePatron?c=113966",
+    "published_at": "2014-09-15T23:15:43+00:00",
+    "summary": "You can support me by pledging so I may continue to create free flowing and bring more beauty to this world. By supporting me you are also supporting humanity as a whole. I create for healing and spirituality. I am a reiki healer and spiritual artist incarnated with many gifts and new gifts continue to flow thru me unto you all. Your support is appreciated on so many levels ..more than I could possibly put into words. Love from my heart to you~Namaste )O(\u00a0\u003cbr\u003e\u003cbr\u003eTo see more of what I\u0027m up to like my Facebook page\u00a0\u003ca href=\"https://www.facebook.com/pages/H3ArtWork-by-EnchantedMoon143/131111593621831?ref=hl\" rel=\"nofollow\"\u003eH3rtWork by EnchantedMoon143\u003c/a\u003e"
+   },
+   "id": "113966",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "308198",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/308198"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "64784",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-113966",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-113966"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "275417",
+       "type": "reward"
+      },
+      {
+       "id": "275418",
+       "type": "reward"
+      },
+      {
+       "id": "275419",
+       "type": "reward"
+      },
+      {
+       "id": "275420",
+       "type": "reward"
+      },
+      {
+       "id": "87295",
+       "type": "reward"
+      },
+      {
+       "id": "87293",
+       "type": "reward"
+      },
+      {
+       "id": "87290",
+       "type": "reward"
+      },
+      {
+       "id": "87291",
+       "type": "reward"
+      },
+      {
+       "id": "87292",
+       "type": "reward"
+      },
+      {
+       "id": "275427",
+       "type": "reward"
+      },
+      {
+       "id": "275428",
+       "type": "reward"
+      },
+      {
+       "id": "87294",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2014-09-15T23:15:43+00:00",
+     "facebook": "",
+     "first_name": "Name",
+     "full_name": "Name here",
+     "gender": 2,
+     "hide_pledges": true,
+     "image_url": "https://c8.patreon.com/2/400/308198",
+     "last_name": "here",
+     "thumb_url": "https://c8.patreon.com/2/100/308198",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/123456abc",
+     "vanity": "123456abc",
+     "youtube": ""
+    },
+    "id": "308198",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "113966",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/113966"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 45,
+     "upgrade_url": "/bePatron?c=113966\u0026rid=87290"
+    },
+    "id": "post-aggregation-for-0-113966",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-08-14T06:55:50+00:00",
+     "description": "I will send a personal thank you! )O(",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-14T06:55:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=113966\u0026rid=275417",
+     "user_limit": null
+    },
+    "id": "275417",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2015-08-14T06:55:50+00:00",
+     "description": "I will send a personal thank you! )O(",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-14T06:55:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=113966\u0026rid=275418",
+     "user_limit": null
+    },
+    "id": "275418",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2015-08-14T06:55:50+00:00",
+     "description": "I will send a personal thank you! )O(",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-14T06:55:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=113966\u0026rid=275419",
+     "user_limit": null
+    },
+    "id": "275419",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2015-08-14T06:55:50+00:00",
+     "description": "I will send a personal thank you \u0026amp; distant reiki healing to you or someone of your choice! )O(",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-14T06:55:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=113966\u0026rid=275420",
+     "user_limit": null
+    },
+    "id": "275420",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-08-14T06:55:50+00:00",
+     "description": "I will send a personal thank you \u0026amp; distant reiki healing to you or someone of your choice! )O(\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-14T06:55:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=113966\u0026rid=87295",
+     "user_limit": null
+    },
+    "id": "87295",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2015-08-14T06:55:50+00:00",
+     "description": "I will send you a personal thank you on a postcard of a digital fractal I created and I have professionally printed, signed by me. )O(",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-14T06:55:50+00:00",
+     "remaining": 70,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=113966\u0026rid=87293",
+     "user_limit": 70
+    },
+    "id": "87293",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2015-08-14T06:55:50+00:00",
+     "description": "I will create a digital fractal just for you! )O(",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 23,
+     "published": true,
+     "published_at": "2015-08-14T06:55:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=113966\u0026rid=87290",
+     "user_limit": null
+    },
+    "id": "87290",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2015-08-14T06:55:50+00:00",
+     "description": "I will create a custom intuited pair of earrings and charge them with reiki healing just for you! )O(\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-14T06:55:50+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=113966\u0026rid=87291",
+     "user_limit": null
+    },
+    "id": "87291",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2015-08-14T06:55:50+00:00",
+     "description": "I will create a custom intuited wrap tree and charge it with reiki healing just for you! )O(",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-14T06:55:50+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=113966\u0026rid=87292",
+     "user_limit": null
+    },
+    "id": "87292",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2015-08-14T06:55:50+00:00",
+     "description": "I will create a polymer clay figurine for you! )O(",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-14T06:55:50+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=113966\u0026rid=275427",
+     "user_limit": null
+    },
+    "id": "275427",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2015-08-14T06:55:50+00:00",
+     "description": "I will intuit a custom gemstone necklace for you charged with reiki healing! )O(",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-14T06:55:50+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=113966\u0026rid=275428",
+     "user_limit": null
+    },
+    "id": "275428",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2015-08-14T06:55:50+00:00",
+     "description": "I will send you an alcohol ink dreamscape tile painted by me and signed. )O(",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-08-14T06:55:50+00:00",
+     "remaining": 25,
+     "requires_shipping": true,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=113966\u0026rid=87294",
+     "user_limit": 25
+    },
+    "id": "87294",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 0,
+     "created_at": "2014-09-15T23:48:48+00:00",
+     "description": "I could use some help in buying supplies to continue creating and expanding my creative talents into the multiverse and beyond! Will you help me out? )O(\u003cbr\u003e",
+     "reached_at": null,
+     "title": "Creating for Humanity"
+    },
+    "id": "64784",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/113966"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "c9d5e381-2532-43a1-a7cc-29f4b3eb778c",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Name here is creating Fractals, polymer clay, Dreamscape Art \u0026 Wire Trees"
+});
+    </script>

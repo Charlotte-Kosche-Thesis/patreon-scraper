@@ -1,0 +1,656 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "zJfYe2nLhVo59VMLw5yXkMBOaR3HsGNDHaUln8XWlds";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "618918",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/618918"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-10-30T03:56:05+00:00",
+    "creation_name": "gameing video and trying to make music videos  ",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1302981/acf2d331c099493f9a150ace4bda7c27?token-time=2145916800\u0026token-hash=egfL6cxDnEedqBUnVTOzBww2DhW4DWIrKnhEGFdUrV8%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1302981/acf2d331c099493f9a150ace4bda7c27?token-time=2145916800\u0026token-hash=IeXgjycFzxXSkN5gKs4Rg9LU2aZ8NusehXMuwAX9PYQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 900,
+    "pledge_url": "/bePatron?c=1302981",
+    "published_at": "2017-10-30T21:38:46+00:00",
+    "summary": "I just try to make my video better so you can see them better. but I can\u0027t afford a good gaming computer. I don\u0027t\u00a0have a good computer. And I need to use a good editing software. so if you can support me I will shove 50 pies in my face. thank you and have a nice day."
+   },
+   "id": "1302981",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8259717",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8259717"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1026704",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "51402",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1302981",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1302981"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2215499",
+       "type": "reward"
+      },
+      {
+       "id": "2158222",
+       "type": "reward"
+      },
+      {
+       "id": "2164815",
+       "type": "reward"
+      },
+      {
+       "id": "2164819",
+       "type": "reward"
+      },
+      {
+       "id": "2112941",
+       "type": "reward"
+      },
+      {
+       "id": "2164828",
+       "type": "reward"
+      },
+      {
+       "id": "2112959",
+       "type": "reward"
+      },
+      {
+       "id": "2160281",
+       "type": "reward"
+      },
+      {
+       "id": "2119037",
+       "type": "reward"
+      },
+      {
+       "id": "2158227",
+       "type": "reward"
+      },
+      {
+       "id": "2115219",
+       "type": "reward"
+      },
+      {
+       "id": "2158224",
+       "type": "reward"
+      },
+      {
+       "id": "2160291",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-10-30T03:55:31+00:00",
+     "facebook": null,
+     "first_name": "Wiseguy",
+     "full_name": "Wiseguy gamer",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/8259717/026514044a964986af9b20286b0c40d9?token-time=2145916800\u0026token-hash=ID2GWSP8HS3dQ0e92bSquirRGU_6if7yGRvaO-2BlV0%3D",
+     "last_name": "gamer",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/8259717/026514044a964986af9b20286b0c40d9?token-time=2145916800\u0026token-hash=q8OvcceoFwQKeBR7eHvS7iixyjA4oISyXrJ55EmUn8k%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/wiseguygamer",
+     "vanity": "wiseguygamer",
+     "youtube": "https://www.youtube.com/channel/UCAq_MWLgImIl9fnyhb47GhQ?view_as=subscriber"
+    },
+    "id": "8259717",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1302981",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1302981"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 3,
+     "upgrade_url": "/bePatron?c=1302981\u0026rid=2158224"
+    },
+    "id": "post-aggregation-for-0-1302981",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-12-15T05:27:51.111246+00:00",
+     "description": "i say a word that you want me to say on my YouTube channel. every day\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-15T05:28:10.204185+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-15T05:28:10.180488+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "hi ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1302981\u0026rid=2215499",
+     "user_limit": null
+    },
+    "id": "2215499",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-11-19T06:42:49.693079+00:00",
+     "description": "\u003cbr\u003e\n\u003cbr\u003e\nno my live streams",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-04T03:24:55.904794+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-04T03:24:55.880172+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Early access to my video. 4 day until they come out ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1302981\u0026rid=2158222",
+     "user_limit": null
+    },
+    "id": "2158222",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-11-22T09:04:52.891754+00:00",
+     "description": "Early access to my videos a 9 day before they get posted\u00a0not my live streams",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-04T03:24:37.850643+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-04T03:24:37.829998+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level one  ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1302981\u0026rid=2164815",
+     "user_limit": null
+    },
+    "id": "2164815",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-22T09:08:50.392631+00:00",
+     "description": "Early access to my videos a 9 day before they get posted+ i will say anything and send it to you. Text me what you want to say \u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-22T09:08:50.392631+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-22T09:08:50.392631+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level two  ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1302981\u0026rid=2164819",
+     "user_limit": null
+    },
+    "id": "2164819",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-10-30T04:03:32.939415+00:00",
+     "description": "+ eveything Else",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-22T09:09:58.730815+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-22T09:09:58.707977+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "i will friend you on ps4 ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1302981\u0026rid=2112941",
+     "user_limit": null
+    },
+    "id": "2112941",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-11-22T09:16:07.227916+00:00",
+     "description": "\u00a0\n\u003cp\u003e\u003cstrong\u003e+eveything else\u00a0Above\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-22T09:16:29.863279+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-22T09:16:29.834288+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level three ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1302981\u0026rid=2164828",
+     "user_limit": null
+    },
+    "id": "2164828",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-10-30T04:09:32.834543+00:00",
+     "description": "under 60-10\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e+eveything else\u00a0Above\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-22T09:16:39.870622+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2112959/3354de6c8c9e4e30bbd7858c474e0c09?token-time=2145916800\u0026token-hash=_N1gvOzEjfAb3kTUk9roDnXuIK7TbQQjWDO2ECtvFfY%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-22T09:16:39.833664+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "i will buy any game you want to play on the ps4 evey 5 month ok ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1302981\u0026rid=2112959",
+     "user_limit": null
+    },
+    "id": "2112959",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-11-20T05:48:03.560510+00:00",
+     "description": "\u00a0\n\u003cp\u003e\u003cstrong\u003e+eveything else\u00a0Above\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0. not the \u00a0\u003cstrong\u003ei will buy any game you want to play on the ps4 evey 5 month ok\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-22T09:17:08.137359+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-22T09:17:08.113122+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "i will shove a pie face in my face on my YouTube channel. ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1302981\u0026rid=2160281",
+     "user_limit": null
+    },
+    "id": "2160281",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-11-01T17:42:41.419998+00:00",
+     "description": "I say really Dirty stuff\u00a0\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e+eveything else\u00a0Above\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003enot the i\u003c/strong\u003e \u003cstrong\u003ewill\u003c/strong\u003e \u003cstrong\u003ebuy\u003c/strong\u003e \u003cstrong\u003eany\u003c/strong\u003e \u003cstrong\u003egame\u003c/strong\u003e \u003cstrong\u003eyou\u003c/strong\u003e \u003cstrong\u003ewant\u003c/strong\u003e \u003cstrong\u003eto\u003c/strong\u003e \u003cstrong\u003eplay\u003c/strong\u003e \u003cstrong\u003eon\u003c/strong\u003e \u003cstrong\u003ethe\u003c/strong\u003e \u003cstrong\u003eps4\u003c/strong\u003e \u003cstrong\u003eevey\u003c/strong\u003e \u003cstrong\u003e5\u003c/strong\u003e \u003cstrong\u003emonth\u003c/strong\u003e \u003cstrong\u003eok\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-22T09:17:29.576873+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-22T09:17:29.553766+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "date with me on ps4",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1302981\u0026rid=2119037",
+     "user_limit": null
+    },
+    "id": "2119037",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-11-19T06:50:11.025513+00:00",
+     "description": "\u003cstrong\u003e+i will friend you on ps4\u003c/strong\u003e\u003cbr\u003e\n\u00a0\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e+eveything else\u00a0Above\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003enot the i\u003c/strong\u003e \u003cstrong\u003ewill\u003c/strong\u003e \u003cstrong\u003ebuy\u003c/strong\u003e \u003cstrong\u003eany\u003c/strong\u003e \u003cstrong\u003egame\u003c/strong\u003e \u003cstrong\u003eyou\u003c/strong\u003e \u003cstrong\u003ewant\u003c/strong\u003e \u003cstrong\u003eto\u003c/strong\u003e \u003cstrong\u003eplay\u003c/strong\u003e \u003cstrong\u003eon\u003c/strong\u003e \u003cstrong\u003ethe\u003c/strong\u003e \u003cstrong\u003eps4\u003c/strong\u003e \u003cstrong\u003eevey\u003c/strong\u003e \u003cstrong\u003e5\u003c/strong\u003e \u003cstrong\u003emonth\u003c/strong\u003e \u003cstrong\u003eok\u003c/strong\u003e\u003cbr\u003e\n\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-22T09:17:47.007444+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-22T09:17:46.978899+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "you will be in every video if you have a ps4  ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1302981\u0026rid=2158227",
+     "user_limit": null
+    },
+    "id": "2158227",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-10-31T01:06:25.451736+00:00",
+     "description": "under 60\u00a0\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e+eveything else\u00a0Above\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003enot the i\u003c/strong\u003e \u003cstrong\u003ewill\u003c/strong\u003e \u003cstrong\u003ebuy\u003c/strong\u003e \u003cstrong\u003eany\u003c/strong\u003e \u003cstrong\u003egame\u003c/strong\u003e \u003cstrong\u003eyou\u003c/strong\u003e \u003cstrong\u003ewant\u003c/strong\u003e \u003cstrong\u003eto\u003c/strong\u003e \u003cstrong\u003eplay\u003c/strong\u003e \u003cstrong\u003eon\u003c/strong\u003e \u003cstrong\u003ethe\u003c/strong\u003e \u003cstrong\u003eps4\u003c/strong\u003e \u003cstrong\u003eevey\u003c/strong\u003e \u003cstrong\u003e5\u003c/strong\u003e \u003cstrong\u003emonth\u003c/strong\u003e \u003cstrong\u003eok\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-22T09:18:00.145779+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-22T09:18:00.116613+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "i will buy you a game every 2 months",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1302981\u0026rid=2115219",
+     "user_limit": null
+    },
+    "id": "2115219",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2017-11-19T06:45:37.536648+00:00",
+     "description": "\u00a0\n\u003cp\u003e\u003cstrong\u003e+eveything else\u00a0Above\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003enot the i\u003c/strong\u003e \u003cstrong\u003ewill\u003c/strong\u003e \u003cstrong\u003ebuy\u003c/strong\u003e \u003cstrong\u003eany\u003c/strong\u003e \u003cstrong\u003egame\u003c/strong\u003e \u003cstrong\u003eyou\u003c/strong\u003e \u003cstrong\u003ewant\u003c/strong\u003e \u003cstrong\u003eto\u003c/strong\u003e \u003cstrong\u003eplay\u003c/strong\u003e \u003cstrong\u003eon\u003c/strong\u003e \u003cstrong\u003ethe\u003c/strong\u003e \u003cstrong\u003eps4\u003c/strong\u003e \u003cstrong\u003eevey\u003c/strong\u003e \u003cstrong\u003e5\u003c/strong\u003e \u003cstrong\u003emonth\u003c/strong\u003e \u003cstrong\u003eok and the 60 dollar one ok\u00a0\u003c/strong\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-22T09:18:31.284681+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-22T09:18:31.254320+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "make a video of your choice. any thing. ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1302981\u0026rid=2158224",
+     "user_limit": null
+    },
+    "id": "2158224",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2017-11-20T05:55:26.349560+00:00",
+     "description": "\u00a0\n\u003cp\u003e\u003cstrong\u003e+eveything else\u00a0\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-12-04T03:26:54.946672+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-12-04T03:26:54.926789+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "pay me this if you want to see me break my phone. give me a month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1302981\u0026rid=2160291",
+     "user_limit": 10
+    },
+    "id": "2160291",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 1,
+     "created_at": "2017-11-19T21:38:11+00:00",
+     "description": "I just try to make my video better so you can see them better. but I can\u0027t afford a good gaming\u00a0computer. I just use my friend computer. And I need to use a good editing. so if you can do that I will shove 50 pie in my face. thank you and have a nice day.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1026704",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-11-19T21:40:39+00:00",
+     "deleted_at": null,
+     "description": "I just try to make my video better so you can see them better. but I can\u0027t afford a good gaming\u00a0computer. I just use my friend computer. And I need to use a good editing. so if you can do that I will shove 50 pie in my face. thank you and have a nice day.\u00a0 \u00a0\u00a0",
+     "goal_text": "I just try to make my video better so you can see them better. but I can\u0027t afford a good gaming\u00a0computer. I just use my friend computer. And I need to use a good editing. so if you can do that I will shove 50 pie in my face. thank you and have a nice day.\u00a0 \u00a0\u00a0",
+     "number_patrons": 1000,
+     "reached_at": null
+    },
+    "id": "51402",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1302981"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "7113d2d1-4104-43e6-90ac-f2e60a1c08af",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Wiseguy gamer is creating gameing video and trying to make music videos  "
+});
+    </script>

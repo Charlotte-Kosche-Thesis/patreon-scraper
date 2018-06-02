@@ -1,0 +1,577 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "bXCk4_LEO_9a1fBwCd3FRiMQbibemG1gbeoyEH0xhxg";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "561310",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/561310"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-07-25T14:42:30+00:00",
+    "creation_name": "songs",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/195623/da7aba4068ab40be86427d39eb71d8d9?token-time=2145916800\u0026token-hash=wlm2o_v4IMoGrbZpGYtw3zLViPU54l-CSEI1OhSNCtQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/195623/da7aba4068ab40be86427d39eb71d8d9?token-time=2145916800\u0026token-hash=zN_MpnX3vGWODRpVU-jTNH0_3WJdNwUarffu43ZUwMA%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/jJrSXITgc0g\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/jJrSXITgc0g",
+    "one_liner": "An expressive singer/songwriter creating a beautiful musical landscape.",
+    "patron_count": 1,
+    "pay_per_name": "song(s)",
+    "pledge_sum": 1800,
+    "pledge_url": "/bePatron?c=195623",
+    "published_at": "2017-08-30T11:16:19+00:00",
+    "summary": "I\u0027ve finally done it. I\u0027ve created a Patreon page to create musical projects for My Girl The River. It\u0027s not kickstarter with one big push, it\u0027s lots of tiny little fingers helping to make the pie, $1 or $3 or $10 at a time. Different reward levels keep it interesting for everyone. I am really keen to see this come together as a great community and I hope I can create songs and performances and videos that are really going to make people feel and engage with music. Anyway, it\u0027s all about craft on this one so let\u0027s get started! I\u0027ll bring in great musicians and producers, who knows where we\u0027ll go! I\u0027m your River Guide, do you trust me? Grab your paddles or jump right on in! All forward! Let\u0027s go!!"
+   },
+   "id": "195623",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "941810",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/941810"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "243790",
+       "type": "goal"
+      },
+      {
+       "id": "950759",
+       "type": "goal"
+      },
+      {
+       "id": "950760",
+       "type": "goal"
+      },
+      {
+       "id": "950761",
+       "type": "goal"
+      },
+      {
+       "id": "950762",
+       "type": "goal"
+      },
+      {
+       "id": "950763",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "269229",
+       "type": "reward"
+      },
+      {
+       "id": "269230",
+       "type": "reward"
+      },
+      {
+       "id": "311235",
+       "type": "reward"
+      },
+      {
+       "id": "311233",
+       "type": "reward"
+      },
+      {
+       "id": "311234",
+       "type": "reward"
+      },
+      {
+       "id": "311250",
+       "type": "reward"
+      },
+      {
+       "id": "311251",
+       "type": "reward"
+      },
+      {
+       "id": "313829",
+       "type": "reward"
+      },
+      {
+       "id": "318493",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I am an American singer/songwriter who cut her teeth listening to all kinds of music from the deep south and the rest of the world. I live in the UK now and find that a lot of my music today reflects feelings and memories of my time in the southern states. Once a member of Perfect Strangers in Jackson, MS, then leader of For Kate\u0027s Sake in Nashville and currently one/half of Cicero Buck in Bedford. My Girl The River is my latest project. I\u0027m incredibly excited to be working on this and look forward to sharing some amazing music and experiences with you!",
+     "created": "2015-07-25T14:38:01+00:00",
+     "facebook": "https://www.facebook.com/mygirltheriver",
+     "first_name": "My",
+     "full_name": "My Girl The River",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/941810/09788a39d4ef47839248397eafb2deb3?token-time=2145916800\u0026token-hash=Luqn3VKI3qHH-uISrNEcqaBZwHYefhLJlRV_jbDX7do%3D",
+     "last_name": "Girl The River",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/941810/09788a39d4ef47839248397eafb2deb3?token-time=2145916800\u0026token-hash=Ym50x_vF9Pf7CXXot4w9yxYIiw55NFj8hyzD0IdZVS0%3D",
+     "twitch": null,
+     "twitter": "mygirltheriver",
+     "url": "https://www.patreon.com/mygirltheriver",
+     "vanity": "mygirltheriver",
+     "youtube": "https://www.youtube.com/channel/UC6ZVP-CVk86Swf5chdxov6A"
+    },
+    "id": "941810",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "195623",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/195623"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2015-10-01T12:52:43+00:00",
+     "description": "I want in. I want access to your feed and I\u0027m along for the ride, that\u0027s exciting enough for me!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-30T10:46:28.227884+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/269229/dda3a806f2e040658f0f69fb9f972842?token-time=2145916800\u0026token-hash=Sa9U-QuuXiDumPfzE9lW-XAhxGG9xoqnGXaehcWaiwY%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-01T12:52:43+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Raft",
+     "unpublished_at": null,
+     "url": "/bePatron?c=195623\u0026rid=269229",
+     "user_limit": null
+    },
+    "id": "269229",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2015-10-01T12:52:43+00:00",
+     "description": "You\u0027re committed and feeling chilled in your support and you definitely want to float this river and see where it leads...\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eSound teasers\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-30T10:09:47.226009+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/269230/4f8fcde43e74424992ee912568120403?token-time=2145916800\u0026token-hash=IXGCEdh9mbVRwwegTqdKHVrW3BENSXqEKxqtm4NN8TU%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-01T12:52:43+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Innertube",
+     "unpublished_at": null,
+     "url": "/bePatron?c=195623\u0026rid=269230",
+     "user_limit": null
+    },
+    "id": "269230",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2015-10-01T12:52:43+00:00",
+     "description": "This says I\u0027m feeling like I can make it with just a little bit of support from the magic unicorn! I\u0027m in and I\u0027m excited!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eSound teasers\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-30T10:16:05.230208+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/311235/f33078c05be945dca9a33f258ed4c7c3?token-time=2145916800\u0026token-hash=p85Fn92KDWCRcwBfBMaB52lJkiiBFTMTNNlzMOFIB2E%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-01T12:52:43+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tummy Band",
+     "unpublished_at": null,
+     "url": "/bePatron?c=195623\u0026rid=311235",
+     "user_limit": null
+    },
+    "id": "311235",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2015-10-01T12:52:43+00:00",
+     "description": "Well, you need the least amount of boost to float down this river. Happy to be here and see what happens next.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eSound teasers\u003c/li\u003e\u003cli\u003ePictures \u0026amp; video updates\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-30T10:17:50.507883+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/311233/4a289aa8caee4c71a8a69e27276c60fe?token-time=2145916800\u0026token-hash=fK3yBMFVz4w6EwWJG9Dh9qDpmfqoF05u68s_UNpE-gw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-01T12:52:43+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Arm Bands",
+     "unpublished_at": null,
+     "url": "/bePatron?c=195623\u0026rid=311233",
+     "user_limit": null
+    },
+    "id": "311233",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2015-10-01T12:52:43+00:00",
+     "description": "Here we are going down the river together! Everyone needs a lifejacket but you\u0027re a confident swimmer and love where this adventure might take you!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eSound teasers\u003c/li\u003e\u003cli\u003ePictures \u0026amp; video updates\u003c/li\u003e\u003cli\u003ePatron-only livestreams\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-30T10:24:12.439393+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/311234/102ce68c8f3d450d8ec87c3979f9218d?token-time=2145916800\u0026token-hash=DBRgL6Dd5J1nCdwRRvVl4uH64qJQsuxZ0mAgvep4g4o%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-01T12:52:43+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Life Jacket",
+     "unpublished_at": null,
+     "url": "/bePatron?c=195623\u0026rid=311234",
+     "user_limit": null
+    },
+    "id": "311234",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2015-10-01T12:52:43+00:00",
+     "description": "FIFTY?? Well, we\u0027re floating down the river in STYLE now and you are the cold beverage on top of a great ride! Let\u0027s do this thing TOGETHER!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eSound teasers\u003c/li\u003e\u003cli\u003ePictures \u0026amp; video updates\u003c/li\u003e\u003cli\u003ePatron-only livestreams\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-30T10:27:37.158745+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/311250/48b43a3fa12c4c6dae306d7e6b001c08?token-time=2145916800\u0026token-hash=Ssf3QAXdrl4u_VjPFPAw3uPtRInirl1JDVntgZ24RKU%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-01T12:52:43+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Cooler",
+     "unpublished_at": null,
+     "url": "/bePatron?c=195623\u0026rid=311250",
+     "user_limit": null
+    },
+    "id": "311250",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2015-10-01T12:52:43+00:00",
+     "description": "You are completely on board and just want us to be happy whilst putting a big \u0027ol smile on your face! You are amazing! You are the duck\u0027s bill!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eSound teasers\u003c/li\u003e\u003cli\u003ePictures \u0026amp; video updates\u003c/li\u003e\u003cli\u003ePatron-only livestreams\u003c/li\u003e\u003cli\u003eExecutive Producer Credit\u003c/li\u003e\u003cli\u003eHandwritten Lyric\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-30T10:33:37.939975+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/311251/dc7b2b1b85f140cfa77db2620df69065?token-time=2145916800\u0026token-hash=T9LImv1g5DoayshWS5dkz06m8HVIjx083poJytJ4AVk%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-01T12:52:43+00:00",
+     "remaining": 20,
+     "requires_shipping": true,
+     "title": "Rubber Duck",
+     "unpublished_at": null,
+     "url": "/bePatron?c=195623\u0026rid=311251",
+     "user_limit": 20
+    },
+    "id": "311251",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2015-10-01T12:52:43+00:00",
+     "description": "Warm fuzzies! You\u0027ve just funded a song just on your ownsome and you just want us to relax and create something beautiful, so chill by the fire! *send us an idea/story and we\u0027ll write something as a gift or possibly as part of an album!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eSound teasers\u003c/li\u003e\u003cli\u003ePictures \u0026amp; video updates\u003c/li\u003e\u003cli\u003ePatron-only livestreams\u003c/li\u003e\u003cli\u003eExecutive Producer Credit\u003c/li\u003e\u003cli\u003eHandwritten Lyric\u003c/li\u003e\u003cli\u003eStories and collaboration\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-30T10:40:06.367440+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/313829/b61fc21b454c42579e32447477b76184?token-time=2145916800\u0026token-hash=jVgatSjmC87y9_S0AYoyUDLIEzStBZO7X_J2av0c4ng%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-01T12:52:43+00:00",
+     "remaining": 4,
+     "requires_shipping": true,
+     "title": "Campfire",
+     "unpublished_at": null,
+     "url": "/bePatron?c=195623\u0026rid=313829",
+     "user_limit": 4
+    },
+    "id": "313829",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2015-10-01T12:52:43+00:00",
+     "description": "Now you really want us to get comfortable! We\u0027ll write it and get it out there and it will be mainly down to YOU! We\u0027ll arrange a house concert/live streaming concert just for you and your friends/family where you\u0027ll hear the songs you helped create!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eSound teasers\u003c/li\u003e\u003cli\u003ePictures \u0026amp; video updates\u003c/li\u003e\u003cli\u003ePatron-only livestreams\u003c/li\u003e\u003cli\u003eExecutive Producer Credit\u003c/li\u003e\u003cli\u003eHandwritten Lyric\u003c/li\u003e\u003cli\u003eStories and collaboration\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-30T10:55:52.429522+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/318493/1b38ff91f7a244b79c95862a353ec9d5?token-time=2145916800\u0026token-hash=QcFUPeEJ2OpKZN2_z1RQRlslvnVGyK7AH6TFOfZihIE%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2015-10-01T12:52:43+00:00",
+     "remaining": 2,
+     "requires_shipping": true,
+     "title": "River Cabin",
+     "unpublished_at": null,
+     "url": "/bePatron?c=195623\u0026rid=318493",
+     "user_limit": 2
+    },
+    "id": "318493",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 7,
+     "created_at": "2015-09-16T16:12:52+00:00",
+     "description": "We did it! We raised enough to create a new song! Look at us go.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "243790",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 3,
+     "created_at": "2017-08-30T10:01:26+00:00",
+     "description": "Written, mixed, mastered and out there as a single. You guys ROCK!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "950759",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 1,
+     "created_at": "2017-08-30T10:01:26+00:00",
+     "description": "Make that TWO songs in the can! I might throw in a video, too!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "950760",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-30T10:01:26+00:00",
+     "description": "Right then, we\u0027re working towards the new EP/Album and you\u0027re gonna hear it all first that\u0027s for sure! You might even inspire a song or two!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "950761",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 400000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-30T10:01:26+00:00",
+     "description": "I\u0027m gonna get that album done people and you\u0027re gonna love it! Art work and all!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "950762",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 600000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-30T10:01:26+00:00",
+     "description": "AND now I have a budget to run a press campaign to get it to radio, reviewed on blogs and magazines and hopefully widen the audience which means (drum roll)....MORE music for YOU the Patron family!!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "950763",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/195623"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "17326260-01c4-4a24-b1e7-30ada9125b19",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "My Girl The River is creating songs"
+});
+    </script>

@@ -1,0 +1,513 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "AxFdkj7RJ4ZS3nVrrg1MTwfWgT2Uv9JDWSYszA3U7Ro";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "283010",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/283010"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-10-17T16:21:43+00:00",
+    "creation_name": "streams diarios",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/570462/1f385857086546cba5252424545ec0eb?token-time=2145916800\u0026token-hash=0LwpzhVnhgmH_0Vqwg634YxnBpUa3x4igbTh4vH6HiM%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/570462/1f385857086546cba5252424545ec0eb?token-time=2145916800\u0026token-hash=8X4BTJdQw669JT4g1wRUs_e1FDrKyctUpuekwYYEqWU%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 435,
+    "pledge_url": "/bePatron?c=570462",
+    "published_at": "2016-10-17T16:25:56+00:00",
+    "summary": "Me encantar\u00eda seguir mejorando todo mi contenido d\u00eda a d\u00eda, para ofreceros material de calidad y buen entretenimiento. Vale ya se que eso lo puedo hacer yo s\u00f3lo, pero no quiero que se as\u00ed! Necesito vuestra ayuda! Quiero que todo esto sea interactivo :DDD Quiero que particip\u00e9is conmigo, me deis ideas, consejos para mejorar. Este es un proyecto ambicioso, lo s\u00e9, pero es mi sue\u00f1o, quiero dedicarme plenamente a crear contenido de entretenimiento para vosotros, y que lo disfrut\u00e9is conmigo.\u003cbr\u003e\u003cbr\u003eEn realidad aqu\u00ed mand\u00e1is vosotros, ya que vosotros sois lo que hac\u00e9is que esto vaya a flote o termine en el fondo del mar c\u00f3mo el titanic xD Sabr\u00e9is en todo momento cu\u00e1nto dinero estoy ganando, no habr\u00e1 secretos, lo compartimos todo xD\u003cbr\u003e\u003cbr\u003eTodo las metas impuestas anteriormente son algo inamovible, se van a cumplir sin faltar ni una, obviamente."
+   },
+   "id": "570462",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "4250488",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/4250488"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "584266",
+       "type": "goal"
+      },
+      {
+       "id": "584269",
+       "type": "goal"
+      },
+      {
+       "id": "584270",
+       "type": "goal"
+      },
+      {
+       "id": "584272",
+       "type": "goal"
+      },
+      {
+       "id": "584277",
+       "type": "goal"
+      },
+      {
+       "id": "584279",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "931950",
+       "type": "reward"
+      },
+      {
+       "id": "931951",
+       "type": "reward"
+      },
+      {
+       "id": "931952",
+       "type": "reward"
+      },
+      {
+       "id": "931953",
+       "type": "reward"
+      },
+      {
+       "id": "931954",
+       "type": "reward"
+      },
+      {
+       "id": "932117",
+       "type": "reward"
+      },
+      {
+       "id": "931955",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-10-17T16:21:23+00:00",
+     "facebook": null,
+     "first_name": "Draalar",
+     "full_name": "Draalar",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/4250488/fa8ff2659ba242829661ff6791366c81?token-time=2145916800\u0026token-hash=VGS1yf2UmcKpbk8CQmsnFFH0gYXCHbAtQut0bse1pFo%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/4250488/fa8ff2659ba242829661ff6791366c81?token-time=2145916800\u0026token-hash=Ll7hKlfKbk4Hqsm-C_mEQgQ1vbHRSBYVmEaF14b9Qew%3D",
+     "twitch": "https://www.twitch.tv/draalar",
+     "twitter": "Edwardsymphony",
+     "url": "https://www.patreon.com/Draalar",
+     "vanity": "Draalar",
+     "youtube": "https://www.youtube.com/Youtube.com/user/draalar"
+    },
+    "id": "4250488",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "570462",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/570462"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-17T19:27:36+00:00",
+     "description": "- Se agradece de coraz\u00f3n vuestra ayuda :D\u003cbr\u003e- Tendr\u00e1s acceso al panel de actividades de Patreon.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T20:15:47.757395+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/931950/69e625c5029047fd826dfcf85a83a185?token-time=2145916800\u0026token-hash=iNI63hXwRUOSF1FCp3r7Jl_1ds1e7RTHz-cFpTLfoB8%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-17T19:27:36+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "La luz estar\u00e1 contigo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=570462\u0026rid=931950",
+     "user_limit": null
+    },
+    "id": "931950",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2016-10-17T19:27:36+00:00",
+     "description": "- Tendr\u00e1s acceso a sorteos exclusivos.\u003cbr\u003e- Todo lo anterior tambi\u00e9n.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T20:16:17.847951+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/931951/a8087b4dea2b4bff843c66d9276fa956?token-time=2145916800\u0026token-hash=kZDwkrw0fS8NSb8Fa49idK6r3-jLEdCiB0b2DxB9zmE%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-17T19:27:36+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "La naturaleza te arropar\u00e1",
+     "unpublished_at": null,
+     "url": "/bePatron?c=570462\u0026rid=931951",
+     "user_limit": null
+    },
+    "id": "931951",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-17T19:27:36+00:00",
+     "description": "- Privilegios exclusivos (podr\u00e1s agregarme al discord, WA y tendr\u00e1s preferencia a la hora de jugar con followers)\u003cbr\u003e\n- Todo lo anterior tambi\u00e9n.\u003cbr\u003e\n",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T20:16:47.443405+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/931952/61f3dfbc0f904c09bdf642778ffbbe09?token-time=2145916800\u0026token-hash=uz7vkz9MIFDGdAWVJJqh1fGUEIhyHEbhDuASuVRPqPA%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-17T19:27:36+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Las sombras acechan por doquier",
+     "unpublished_at": null,
+     "url": "/bePatron?c=570462\u0026rid=931952",
+     "user_limit": null
+    },
+    "id": "931952",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-17T19:27:36+00:00",
+     "description": "- Podr\u00e1s ver antes que nadie mis v\u00eddeos de youtube.\u003cbr\u003e- Tendr\u00e1s un extra de sombrid\u00f3lares al mes +3000\u003cbr\u003e- Todo lo anterior tambi\u00e9n.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T20:17:25.948091+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/931953/7f264675f3e84a6aa65e6a132de08de3?token-time=2145916800\u0026token-hash=TOcddeb2Cj7dNw_YDO3ei36_NTO2fkUkKFH_-fdUFn0%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-17T19:27:36+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "El fuego abrasar\u00e1 tus pecados",
+     "unpublished_at": null,
+     "url": "/bePatron?c=570462\u0026rid=931953",
+     "user_limit": null
+    },
+    "id": "931953",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-10-17T19:27:36+00:00",
+     "description": "- Extra de sombrid\u00f3lares mensual +5500\u003cbr\u003e- Tendr\u00e1s una clave de steam mensual asegurada.\u003cbr\u003e- Todo lo anterior tambi\u00e9n :3",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T20:18:08.355203+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/931954/32a2e44beb39464d84fea97d3856ae3a?token-time=2145916800\u0026token-hash=ex_tswF8MIX8GQB36H67Q5fufPNL1soKtIuIyaRjDy8%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-17T19:27:36+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "El esp\u00edritu Gerudo est\u00e9 siempre contigo",
+     "unpublished_at": null,
+     "url": "/bePatron?c=570462\u0026rid=931954",
+     "user_limit": null
+    },
+    "id": "931954",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-10-17T19:27:36+00:00",
+     "description": "- Extra de sombridolares al mes +8000 para tener acceso a los premios antes que nadie.\u003cbr\u003e- Env\u00edo de un regalo mensual directamente a tu casa.\u003cbr\u003e- Podr\u00e1s salir en mis v\u00eddeos de youtube, de hecho t\u00fa aporatar\u00e1s la mayor\u00eda de ideas, yo s\u00f3lo les dar\u00e9 forma :D\u003cbr\u003e- Todo lo anterior tambi\u00e9n.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T20:20:31.053319+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/932117/bb2fab6fca984d7084c99380bb00708e?token-time=2145916800\u0026token-hash=OH1i_CDB93Ra8FZRAp8NJlk5L-1HzMAbOrM5L9815Zs%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-17T19:27:36+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "No ser\u00e1s rico verdad?",
+     "unpublished_at": null,
+     "url": "/bePatron?c=570462\u0026rid=932117",
+     "user_limit": null
+    },
+    "id": "932117",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-17T19:27:36+00:00",
+     "description": "- Tendr\u00e1s la oportunidad de ( a parte de tenerte agregado y seguirte en todas tus redes sociales) Conocerme en persona y pasar un d\u00eda contigo.\u003cbr\u003e- Todo lo anterior por supuesto.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-08T20:21:06.281390+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/931955/719a553cfb644516ab5926a9e3a01360?token-time=2145916800\u0026token-hash=DY70ald_L6_Nwyj--G9qX-UK18vMjhQQ8zYlEbFuweM%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-17T19:27:36+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "La luz brilla tan intensa c\u00f3mo tu coraz\u00f3n",
+     "unpublished_at": null,
+     "url": "/bePatron?c=570462\u0026rid=931955",
+     "user_limit": null
+    },
+    "id": "931955",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100,
+     "completed_percentage": 100,
+     "created_at": "2016-10-17T16:27:46+00:00",
+     "description": "Gracias por el rico ramen del chino de la esquina :D",
+     "reached_at": "2017-03-08T18:59:05+00:00",
+     "title": ""
+    },
+    "id": "584266",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 8,
+     "created_at": "2016-10-17T16:30:13+00:00",
+     "description": "Si llegamos a esta cifra habr\u00e1 un sorteo todos los meses entre todos los followers del canal de twitch :)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "584269",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 4,
+     "created_at": "2016-10-17T16:33:15+00:00",
+     "description": "Si llegamos a esta pedazo de cifra las cosas ya ser\u00e1n un poco mejores, habr\u00e1 2 sorteos al mes entre todos los followers, y estar\u00e9 m\u00ednimo 5 horas haciendo stream entre semana, a parte de los v\u00eddeos de youtube, que subir\u00eda cada 3 d\u00edas.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "584270",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 1,
+     "created_at": "2016-10-17T16:35:24+00:00",
+     "description": "Aqu\u00ed la cosa ya se pone curiosa jejejeje. Me comprometo para con vosotros de hacer 8 horas de stream entre semana sin falta y 3 sorteos al mes. Tambi\u00e9n intentar\u00e9 subir v\u00eddeos a youtube cada dos d\u00edas, en la medida de lo posible xD",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "584272",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 60000,
+     "completed_percentage": 0,
+     "created_at": "2016-10-17T16:38:11+00:00",
+     "description": "Si estuviera ganando esto al mes chicos, mi vida ser\u00eda incre\u00edble, ya que me dedicar\u00eda a tiempo completo a hacer contenido para vosotros, 10 horas de stream todos los d\u00edas entre semana y 1 v\u00eddeo cada 2 d\u00edas en youtube. A parte de 2 especiales al mes 24 horas de stream sin interrupciones :D",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "584277",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 120000,
+     "completed_percentage": 0,
+     "created_at": "2016-10-17T16:40:38+00:00",
+     "description": "Si llegamos a esta cifra mensual, quiere decir que mi vida estar\u00eda solucionada, y os lo tendr\u00eda que agradecer todo a vosotros, as\u00ed llegado a este punto vosotros decid\u00eds, os lo dejo a vuestro criterio, y as\u00ed se har\u00e1 :DDD",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "584279",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/570462"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "90902f30-7eaa-45fa-9e71-e2cc0a5b4485",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Draalar is creating streams diarios"
+});
+    </script>

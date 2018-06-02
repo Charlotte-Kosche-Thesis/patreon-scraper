@@ -1,0 +1,495 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "x1oXS1A4TGCOjexCDmHrJ9k4m3R9QukhwG8yU8OuSVk";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "682550",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/682550"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-02-14T16:03:19+00:00",
+    "creation_name": "Robots, Apps, Music, Electronic Accessories and other crazy stuf",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/750248/c284b658a14a45a48504a88b01344891?token-time=2145916800\u0026token-hash=B38HDAmtz9HfaLqNInRxCJ0E2YtcBlVfrtcCscDFrKY%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/750248/c284b658a14a45a48504a88b01344891?token-time=2145916800\u0026token-hash=oKOJU4tX9dRE8LcIKkhj6QW_RdF_oog6meg1gzDR5O0%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_sum": 180,
+    "pledge_url": "/bePatron?c=750248",
+    "published_at": "2017-12-21T18:02:14+00:00",
+    "summary": "I am a student at the LMU for IT, working partly as an app-developer and in the free time, I am inventing my dreams.\u003cbr\u003eFor me, experience has the most value and I strive to getting them.\u003cbr\u003eNow I wanted to do bigger projects, which requires backing from you.\u003cbr\u003eMy projects are sometimes from an artistic nature, sometimes quite nerdy, but all in all, they are beautiful.\u003cbr\u003eEvery artist try to finish \"THE\" art, and the attempt is what is of value.\u003cbr\u003eSince my projects consists mostly of hardware, I need money to actually build them.\u003cbr\u003e\u003cbr\u003eSo please support me and I make sure that my inventions make you happy."
+   },
+   "id": "750248",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5094631",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5094631"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "716866",
+       "type": "goal"
+      },
+      {
+       "id": "716867",
+       "type": "goal"
+      },
+      {
+       "id": "716868",
+       "type": "goal"
+      },
+      {
+       "id": "716870",
+       "type": "goal"
+      },
+      {
+       "id": "716871",
+       "type": "goal"
+      },
+      {
+       "id": "1055672",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-750248",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-750248"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1404369",
+       "type": "reward"
+      },
+      {
+       "id": "1404367",
+       "type": "reward"
+      },
+      {
+       "id": "1404365",
+       "type": "reward"
+      },
+      {
+       "id": "1404364",
+       "type": "reward"
+      },
+      {
+       "id": "1404366",
+       "type": "reward"
+      },
+      {
+       "id": "1404368",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-02-14T16:02:52+00:00",
+     "facebook": "https://www.facebook.com/Kenny%20Mitstreiter",
+     "first_name": "Kenny.Industries",
+     "full_name": "Kenny.Industries",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5094631/2f6233e00e2d47c08de2e1190f7ef60c?token-time=2145916800\u0026token-hash=KQK80--m10x-UodlF_P7dNXtcOmN0vkEJPmDAJ4-pMM%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5094631/2f6233e00e2d47c08de2e1190f7ef60c?token-time=2145916800\u0026token-hash=pob-Vj6jKFoHntofL4Jyr4zHC5LCqEZN-YC7jvhXdS8%3D",
+     "twitch": null,
+     "twitter": "https://twitter.com/Machinepecker",
+     "url": "https://www.patreon.com/kennyindustries",
+     "vanity": "kennyindustries",
+     "youtube": "https://www.youtube.com/channel/UCiC72SbjcJNWGlgtoKxswBw"
+    },
+    "id": "5094631",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "750248",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/750248"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 1,
+     "upgrade_url": "/bePatron?c=750248\u0026rid=1404369"
+    },
+    "id": "post-aggregation-for-0-750248",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-02-14T16:07:02.358181+00:00",
+     "description": "Get a patron-only perspective on my work.\u003cul\u003e\u003cli\u003eBehind-the-scenes pics and videos\u003c/li\u003e\u003cli\u003ePatrons get updates on work before anywhere else\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-14T16:32:56.817806+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1404369/c31be31682e74b4d9f80feae36c91ff5?token-time=2145916800\u0026token-hash=feSc7rTfLA0p7xs5KRcsuRB0XddpzXw5CXs414_8-kU%3D",
+     "patron_count": 2,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-02-14T16:07:02.358181+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Behind The Scenes",
+     "unpublished_at": null,
+     "url": "/bePatron?c=750248\u0026rid=1404369",
+     "user_limit": null
+    },
+    "id": "1404369",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-02-14T16:07:02.341536+00:00",
+     "description": "Want a special look at how I make my videos?\u003cul\u003e\u003cli\u003eLearn more about my techniques\u003c/li\u003e\u003cli\u003eTutorials\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-14T16:32:56.842957+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1404367/a208d100b4314cf1ba0a01f4e89f7a9c?token-time=2145916800\u0026token-hash=ck4-N8kJcjG1TnaUOQxi27PfJhYcrN2P_SkS8kH1Tmw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-14T16:07:02.341536+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Process Videos",
+     "unpublished_at": null,
+     "url": "/bePatron?c=750248\u0026rid=1404367",
+     "user_limit": null
+    },
+    "id": "1404367",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-02-14T16:07:01.866291+00:00",
+     "description": "Get all the merch you\u0027ve always wanted.\u003cul\u003e\u003cli\u003eDiscount code on merch\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-14T16:32:56.864582+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1404365/7f4de13c9a4c45b2b54ad16925769ce8?token-time=2145916800\u0026token-hash=88DsElJRY-kgufTaX-j-5c6STM7RkUW6FhFFpGeuZ2o%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-14T16:07:01.866291+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Merch Discount",
+     "unpublished_at": null,
+     "url": "/bePatron?c=750248\u0026rid=1404365",
+     "user_limit": null
+    },
+    "id": "1404365",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-02-14T16:07:01.846997+00:00",
+     "description": "Join me for a monthly livestream.\u003cul\u003e\u003cli\u003eMonthly livestream for $10+ patrons only\u003c/li\u003e\u003cli\u003eMore process videos\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-14T16:32:56.884444+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1404364/0a9e262a7ec74853880601caa7e861f1?token-time=2145916800\u0026token-hash=b9xuofw2L1xr0vbPO3M0f4l-9KSO4AMgzoQuWTuABMc%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-14T16:07:01.846997+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Private Livestream",
+     "unpublished_at": null,
+     "url": "/bePatron?c=750248\u0026rid=1404364",
+     "user_limit": null
+    },
+    "id": "1404364",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-02-14T16:07:01.870110+00:00",
+     "description": "As a patron, you\u0027ll be recognized for making my work possible.\u003cul\u003e\u003cli\u003eCredits on an upcoming video\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-14T16:32:56.904740+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1404366/73ef357cc2e645919dcf3a5e35574658?token-time=2145916800\u0026token-hash=DnyvIApBHacWXCK5N_UjOdiXiiMGBcHumMJaTAzpUNo%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-14T16:07:01.870110+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Name In The Credits",
+     "unpublished_at": null,
+     "url": "/bePatron?c=750248\u0026rid=1404366",
+     "user_limit": null
+    },
+    "id": "1404366",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-02-14T16:07:02.354934+00:00",
+     "description": "I\u0027ll record a video message, just for you.\u003cul\u003e\u003cli\u003ePersonalized video message\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-14T16:32:56.924195+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1404368/dec01cbd56814e87ac381c4c14883476?token-time=2145916800\u0026token-hash=wZC_r_ULUYCIhH5rNF2JUo4HKQiokx_60AglWMYcBYc%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-02-14T16:07:02.354934+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Personalized Video Message",
+     "unpublished_at": null,
+     "url": "/bePatron?c=750248\u0026rid=1404368",
+     "user_limit": null
+    },
+    "id": "1404368",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2017-02-14T16:20:18+00:00",
+     "description": "\"Avatify\" - Motivation Platform Of Tomorrow\u003cbr\u003eNo matter on browser, app or real world hardware,\u003cbr\u003eI want something which tells you what to do next.\u003cbr\u003eIntelligently, beautifully and successfully.\u003cbr\u003eProject Site: \u003ca href=\"http://www.avatify.com\"\u003ewww.avatify.com\u003c/a\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "716866",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2017-02-14T16:20:18+00:00",
+     "description": "\"Robot Tool-Dog\"\u003cbr\u003eI have problems find my tools, because I work on my projects everywhere and can\u0027t have a tool wall.\u003cbr\u003e\u003cbr\u003eIt will also have a camera mount so it will be my camera ... dog. ;)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "716867",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 0,
+     "created_at": "2017-02-14T16:20:18+00:00",
+     "description": "\"Medistro\" - Miniature Medicine Distribution Machine For Hospitals For Daily Ration\u003cbr\u003eEach patient needs specific cocktail of medicine daily. This work has to do someone. This produces cost and the risk to make an error.\u003cbr\u003eA machine won\u0027t, which I am building.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "716868",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2017-02-14T16:20:18+00:00",
+     "description": "\"Cocktail Robot\" For Roboexotica\u003cbr\u003eRoboexotica is a award for robots mixing cocktails and I won the last 19th ACRA (Annual Cocktail Robot Award) the \"balls of steel\"-Prize and the Lime-Prize. This year I will be to the anniversary with new awesome robots! Serve the humans with delicious cocktails to weaken them and then to invade!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "716870",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2017-02-14T16:20:18+00:00",
+     "description": "Award winning: \"Flirty Dancing Bracelet\"\u003cbr\u003eThe reason why we don\u0027t flirt in discos is courage.\u003cbr\u003eIt derives from\u00a0the lack of information how active a partner at dancing is and how open they are. You can \"collect\" dance partners, by syncing it with your partner and if you get 8 dance partners in one evening, you will get a free drink.\u003cbr\u003e\u003cbr\u003eWith this concept I won with some friends the first place of the love-hackathon which I want to continue developping.(https://andcode.de/hackathon/3)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "716871",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2017-12-22T02:48:19+00:00",
+     "description": "Fab-Academy at Erfindergarden.de\u003cbr\u003e\u003cbr\u003eI am a teacher at an open workshop for kids who want to invent.\u003cbr\u003eIn Munich there is a such a place and there I can do further education for myself to be certified in my craftsmanship.\u003cbr\u003e\u003cbr\u003ePlease help me to archieve that goal.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1055672",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/750248"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "cb7cb67f-dc38-4931-82d3-18532d844484",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Kenny.Industries is creating Robots, Apps, Music, Electronic Accessories and other crazy stuf"
+});
+    </script>

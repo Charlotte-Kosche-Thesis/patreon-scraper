@@ -1,0 +1,869 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "oAl-f5qckZ1khJZaYsIHNM3d629lIshuWzpaaoVaXeA";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "486486",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/486486"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-06-22T01:35:38+00:00",
+    "creation_name": "art to bring sunshine into the world",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1011178/3a66565d76a741d9b3daad5c00cfb9ed?token-time=2145916800\u0026token-hash=yvZEym1w4AZQo3dSYVxbL1W83c7rqzRgmHtdtmFqjmQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1011178/3a66565d76a741d9b3daad5c00cfb9ed?token-time=2145916800\u0026token-hash=rBHvgj-M1PzaM6l8Zcn3jxjVl4HU6VS-s0pOQ8idtbE%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1011178",
+    "published_at": "2017-06-22T03:07:56+00:00",
+    "summary": "Artist. Adventurer. I love sunflowers, kayaking, video games, movies, the ocean, the outdoors, cooking and laughter. I enjoy creating joyful art in a variety of media, including photography, watercolors, acrylics, videography, colored pencil, markers, air brush, graphite and pen and ink.\u00a0"
+   },
+   "id": "1011178",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "6611043",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/6611043"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "875951",
+       "type": "goal"
+      },
+      {
+       "id": "875957",
+       "type": "goal"
+      },
+      {
+       "id": "875959",
+       "type": "goal"
+      },
+      {
+       "id": "875960",
+       "type": "goal"
+      },
+      {
+       "id": "875961",
+       "type": "goal"
+      },
+      {
+       "id": "875968",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "16878",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2172640",
+       "type": "reward"
+      },
+      {
+       "id": "1785665",
+       "type": "reward"
+      },
+      {
+       "id": "1785540",
+       "type": "reward"
+      },
+      {
+       "id": "1785542",
+       "type": "reward"
+      },
+      {
+       "id": "1785619",
+       "type": "reward"
+      },
+      {
+       "id": "1785250",
+       "type": "reward"
+      },
+      {
+       "id": "1822568",
+       "type": "reward"
+      },
+      {
+       "id": "1785541",
+       "type": "reward"
+      },
+      {
+       "id": "1785601",
+       "type": "reward"
+      },
+      {
+       "id": "1785257",
+       "type": "reward"
+      },
+      {
+       "id": "1785643",
+       "type": "reward"
+      },
+      {
+       "id": "1802919",
+       "type": "reward"
+      },
+      {
+       "id": "1785270",
+       "type": "reward"
+      },
+      {
+       "id": "1812929",
+       "type": "reward"
+      },
+      {
+       "id": "1785277",
+       "type": "reward"
+      },
+      {
+       "id": "1785283",
+       "type": "reward"
+      },
+      {
+       "id": "1785302",
+       "type": "reward"
+      },
+      {
+       "id": "1785303",
+       "type": "reward"
+      },
+      {
+       "id": "1785304",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I enjoy art, cooking, crochet, travel, movies, video games, photography, nature, kayaking \u0026amp; laughter. I\u0027ve been a professional artist since 2000. I teach and inspire others to make their own creations. I support homeless animals and people.\u00a0",
+     "created": "2017-06-22T01:04:26+00:00",
+     "facebook": "https://www.facebook.com/IvysSunshine/",
+     "first_name": "Ivy",
+     "full_name": "Ivy",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/6611043/b3ce8623ef444b79b510757ca1f089df?token-time=2145916800\u0026token-hash=vdMkZ9xjM8v8Oi4YxW6YyhnUZnkEzUDD5WsyG1iPKdI%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/6611043/b3ce8623ef444b79b510757ca1f089df?token-time=2145916800\u0026token-hash=LZcOniXTfjZ4hLzb_1ZfYqnHDTfJp1WV3sqqr0cPe9o%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/IvysSunshine",
+     "vanity": "IvysSunshine",
+     "youtube": null
+    },
+    "id": "6611043",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1011178",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1011178"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-11-26T14:31:20.603867+00:00",
+     "description": "Every dollar counts! For every $1 pledged at this tier, I will donate $0.50 to my local animal or homeless person shelter.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eIn return, I\u0027ll allow you to use 1 of my photographs to create your own personal work of art. (Transferred copyrights not included, additional fees are applicable to buy the rights to sell your work). Patreon must obtain permission prior to starting said creative piece.\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-26T14:36:51.183800+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2172640/daea194ba6fc4db28d2b750b02162412?token-time=2145916800\u0026token-hash=Mpj5Zz8B7o6V5tyMFjb-n7paBKHgI0szgbXkqIX0RQY%3D",
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-26T14:36:51.160139+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Make it count! ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=2172640"
+    },
+    "id": "2172640",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-06-22T05:27:24.974527+00:00",
+     "description": "Once a month, I will paint 5 pebbles of my choice in bright colors and pass them out to a stranger with a smile and a word of encouragement.",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-06T18:53:30.008606+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T05:27:24.974527+00:00",
+     "remaining": 50,
+     "requires_shipping": false,
+     "title": "Pebbles of Kindness",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785665"
+    },
+    "id": "1785665",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-06-22T04:12:30.794064+00:00",
+     "description": "Once a month, I will do a random 5 minute fun sketch (selected from the Jar of Never Ending Fun). High quality emailed, originals signed and sent upon request. Patreon responsible for shipping costs.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-22T04:12:30.794064+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T04:12:30.794064+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "Random Sketch",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785540"
+    },
+    "id": "1785540",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 750,
+     "amount_cents": 750,
+     "created_at": "2017-06-22T04:12:30.973519+00:00",
+     "description": "Once a month, you may choose one original piece of art on a first come first served basis from a selection in my portfolios. Patreon is responsible for shipping costs.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-22T04:12:30.973519+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T04:12:30.973519+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "Select Your Own",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785542"
+    },
+    "id": "1785542",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-06-22T04:51:06.395322+00:00",
+     "description": "Once a month, I will paint a small rock of my choice under 2 inches in diameter with something cheerful. I will then place it in a random location.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-03T10:57:05.080205+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T04:51:06.395322+00:00",
+     "remaining": 200,
+     "requires_shipping": false,
+     "title": "Mini Rock of Kindness ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785619"
+    },
+    "id": "1785619",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-06-22T01:45:23.847756+00:00",
+     "description": "Once a month sketch of current projects, \u00a0emailed.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-22T01:59:23.145389+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T01:45:23.847756+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sketch",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785250"
+    },
+    "id": "1785250",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1250,
+     "amount_cents": 1250,
+     "created_at": "2017-07-06T18:53:29.680312+00:00",
+     "description": "\u003cdiv\u003eOnce a month, I will paint 5 pebbles of my choice in bright colors and pass them out to a stranger with a smile and a word of encouragement.\u003cbr\u003e\u003cbr\u003ePLUS\u003cbr\u003e\u003cbr\u003eOnce a month, you may choose one original piece of art on a first come first served basis from a selection in my portfolios. Patreon is responsible for shipping costs.\u003cbr\u003e\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-06T18:53:29.680312+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-06T18:53:29.680312+00:00",
+     "remaining": 6,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1822568"
+    },
+    "id": "1822568",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-06-22T04:12:30.802885+00:00",
+     "description": "Once a month, I will randomly select an item from the fun jar to create a 15 minute drawing for you.\u00a0\u003cbr\u003e\u003cbr\u003eYou may either:\u003cbr\u003e\u003cbr\u003eAccept the item as drawn with one revision allowed\u003cbr\u003e\u003cbr\u003eOR\u003cbr\u003e\u003cbr\u003eSubmit 5 items for me to draw to the fun jar",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-22T04:12:30.802885+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T04:12:30.802885+00:00",
+     "remaining": 15,
+     "requires_shipping": true,
+     "title": "Jar of Fun ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785541"
+    },
+    "id": "1785541",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-06-22T04:37:55.134924+00:00",
+     "description": "Once a month, I will paint a 2in diameter minimum rock of my choice with something cheerful. I will add the date and place it in a random location.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-03T10:57:05.069741+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T04:37:55.134924+00:00",
+     "remaining": 100,
+     "requires_shipping": false,
+     "title": "Random Rock of Kindness ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785601"
+    },
+    "id": "1785601",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-06-22T01:48:41.429725+00:00",
+     "description": "A 30 second video review/technical of the most popular tool I\u0027m currently using, \u00a0once a month. \u00a0This will be a private Patreon only video section.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-22T01:48:41.429725+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T01:48:41.429725+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "30 Second Review",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785257"
+    },
+    "id": "1785257",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-06-22T05:01:30.945037+00:00",
+     "description": "Once a month, \u00a0I will paint a piece of art suitable to be donated to your favorite animal charity. I will ship the original direct to charity, and email a copy to you.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-29T04:48:08.001628+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T05:01:30.945037+00:00",
+     "remaining": 3,
+     "requires_shipping": true,
+     "title": "Dogs and Cats",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785643"
+    },
+    "id": "1785643",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-06-29T04:48:07.588781+00:00",
+     "description": "I will teach one unhoused person a month to paint. This is to give back to the community, and to allow unhoused persons a chance to learn a valuable skill. Lessons will be in person, at my discretion, a minimum of 4 hours of instruction per month. You may sponsor more than one person with this gift of giving back.",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-03T10:57:05.104629+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-29T04:48:07.588781+00:00",
+     "remaining": 9,
+     "requires_shipping": false,
+     "title": "Giving Back",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1802919"
+    },
+    "id": "1802919",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-06-22T01:52:42.470676+00:00",
+     "description": "Once a month, I will give you a 5 minute video critique of your art. \u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-22T01:52:42.470676+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T01:52:42.470676+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Personal Art Critique",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785270"
+    },
+    "id": "1785270",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-07-03T10:59:25.431333+00:00",
+     "description": "I will paint the flower of your choice in watercolor. Original to be signed, dated and mailed to Patreon. Size limited to 5x7in on watercolor paper.",
+     "discord_role_ids": null,
+     "edited_at": "2017-07-03T10:59:25.431333+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-07-03T10:59:25.431333+00:00",
+     "remaining": 5,
+     "requires_shipping": true,
+     "title": "Watercolor Floral Original Painting",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1812929"
+    },
+    "id": "1812929",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-06-22T01:55:15.541547+00:00",
+     "description": "Once a month, a 30 minute live video session with me, one on one. We\u0027ll talk about your choice of art subjects.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-22T01:55:15.541547+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T01:55:15.541547+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Video Conference ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785277"
+    },
+    "id": "1785277",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2017-06-22T01:59:23.104035+00:00",
+     "description": "Once a month, I will create an original piece of art for you of my choosing.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-22T01:59:23.104035+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T01:59:23.104035+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Original Artwork ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785283"
+    },
+    "id": "1785283",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2017-06-22T02:14:14.071248+00:00",
+     "description": "All rewards up until this point, once a month. A fantastic value!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-22T06:00:50.836788+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T02:14:14.071248+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "All of the Above",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785302"
+    },
+    "id": "1785302",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2017-06-22T02:14:14.078176+00:00",
+     "description": "Once a month, all of the above, plus a one hour in person art along session customized to your interests. (travel expenses additional)\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-22T02:14:14.078176+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T02:14:14.078176+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Everything and More",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785303"
+    },
+    "id": "1785303",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 150000,
+     "amount_cents": 150000,
+     "created_at": "2017-06-22T02:14:14.087029+00:00",
+     "description": "Once a month, all of the above, plus I will travel to your event for a 30 minute art demo. \u00a0(Speaking fees and travel expenses not included.)",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-22T02:14:14.087029+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-22T02:14:14.087029+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Professional Patreon ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1011178\u0026rid=1785304"
+    },
+    "id": "1785304",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 9,
+     "created_at": "2017-06-22T02:32:36+00:00",
+     "description": "Archival printer upgrades",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "875951",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 30,
+     "created_at": "2017-06-22T02:39:28+00:00",
+     "description": "New mobility item for outdoors",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "875957",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 18,
+     "created_at": "2017-06-22T02:40:47+00:00",
+     "description": "Additional training",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "875959",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 4,
+     "created_at": "2017-06-22T02:42:53+00:00",
+     "description": "Vacation fund. Imagine the artwork I could create!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "875960",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 2,
+     "created_at": "2017-06-22T02:44:19+00:00",
+     "description": "New computer, tablet, and phone.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "875961",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-06-22T03:00:13+00:00",
+     "description": "Bucket list trip to New Zealand\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "875968",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-06-22T03:04:13+00:00",
+     "deleted_at": null,
+     "description": "One Patreon, $2000.00 a month pledge. 10% will be donated to a local charity of my choice.\u00a0",
+     "goal_text": "One Patreon, $2000.00 a month pledge. 10% will be donated to a local charity of my choice.\u00a0",
+     "number_patrons": 1,
+     "reached_at": null
+    },
+    "id": "16878",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1011178"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "0f4108b1-07af-432b-9efb-161a5b2b6797",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Ivy is creating art to bring sunshine into the world"
+});
+    </script>

@@ -1,0 +1,556 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "UCUQrtEnPF1hTl8Gjvmm69hmYAxTQLKfVplCWxOjaq4";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "513501",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/513501"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-08-08T01:19:18+00:00",
+    "creation_name": "RuneScape \u0026 Final Fantasy, etc playthrough/walkthroughs",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/200254/9df2b0a86d9d4611864ccb7e4b012818?token-time=2145916800\u0026token-hash=-hZd9fK7c3kOt9MB-nTVle34BUMd6kIHARc5V6co9ic%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/200254/9df2b0a86d9d4611864ccb7e4b012818?token-time=2145916800\u0026token-hash=q9m14ztulOj_FRh1EsqAllp8FEjzzSrhCjAK84KlJQE%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/Gqf2xp50vgw\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/Gqf2xp50vgw",
+    "one_liner": "Loves Final Fantasy as much as questing",
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 450,
+    "pledge_url": "/bePatron?c=200254",
+    "published_at": "2017-07-16T23:42:08+00:00",
+    "summary": "First and foremost I want to thank all my viewers for their continued support through all the years. Without your support I would never have gotten to where I am now, nor the quality I have achieved (compared to my older content). I still have room to grow, but I hope we make that journey together.\u003cbr\u003e\u003cbr\u003eRegardless of the outcome here, I will still make videos. I would love to make more than what I am now, but work comes first as work pays the bills and helps me buy my gadgets to help increase the quality of my videos.\u003cbr\u003e\u003cbr\u003eI am not begging for donations, nor would I ever dream of forcing it, as I have never, and will never be like that. However, those of you that do donate will have my eternal gratitude, and will help me continue to put out content, and hopefully soon, more varieties, such as console games."
+   },
+   "id": "200254",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "980134",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/980134"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "903440",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2154025",
+       "type": "reward"
+      },
+      {
+       "id": "2154029",
+       "type": "reward"
+      },
+      {
+       "id": "2154050",
+       "type": "reward"
+      },
+      {
+       "id": "2154053",
+       "type": "reward"
+      },
+      {
+       "id": "2154085",
+       "type": "reward"
+      },
+      {
+       "id": "2154087",
+       "type": "reward"
+      },
+      {
+       "id": "2154092",
+       "type": "reward"
+      },
+      {
+       "id": "2154102",
+       "type": "reward"
+      },
+      {
+       "id": "2154107",
+       "type": "reward"
+      },
+      {
+       "id": "2154109",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I first started out on YouTube making Final Fantasy playthroughs. I eventually made my way onto the RuneScape scene making quest guides. After a long hiatus I would like to get back to making both, whenever possible.",
+     "created": "2015-08-08T01:08:46+00:00",
+     "facebook": null,
+     "first_name": "Gc20Amber",
+     "full_name": "Gc20Amber GoingCrazy201",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/980134/b99dda021edb4cc297bf496606ac20ad?token-time=2145916800\u0026token-hash=QIY3IH0MQQWKIjsgHyYH0IPJhX1FJpyAbG0OX-bwxRM%3D",
+     "last_name": "GoingCrazy201",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/980134/b99dda021edb4cc297bf496606ac20ad?token-time=2145916800\u0026token-hash=Oahpsj8FEoV7jumzNKmeSxKWnnrGev2oNQROBoP44BY%3D",
+     "twitch": "https://www.twitch.tv/gc20amber",
+     "twitter": "Gc20Amber",
+     "url": "https://www.patreon.com/Gc20Amber",
+     "vanity": "Gc20Amber",
+     "youtube": "https://www.youtube.com/user/goingcrazy201"
+    },
+    "id": "980134",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "200254",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/200254"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-11-17T03:53:09.364385+00:00",
+     "description": "Smallest Donation:\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 Your name in the Thank You in my description.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-17T03:53:09.364385+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2154025/9c71be1b3c704d21aa98cb67753f73a7?token-time=2145916800\u0026token-hash=a4aUuaxFl5gcKocC_JXXQ6WQUdbYksIH-GUpl7TiVVU%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-17T03:53:09.364385+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "A Buck for Luck",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200254\u0026rid=2154025",
+     "user_limit": null
+    },
+    "id": "2154025",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-11-17T03:55:33.876251+00:00",
+     "description": "A Little More Thanks:\u003cbr\u003e\n \u00a0\u00a0\u00a0\u2665 Your name in the Thank You at the end of every non-update video.\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 All previous rewards.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-17T03:55:33.876251+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2154029/827bccb1dd524bfaaf6527f92006d137?token-time=2145916800\u0026token-hash=T3fgmd0bCCBhD6muwHHDCBQwnBH0X5oYbnUSxrkDZZ4%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-17T03:55:33.876251+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "What```\u0027s Better than 1? 2!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200254\u0026rid=2154029",
+     "user_limit": null
+    },
+    "id": "2154029",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-11-17T04:04:14.730001+00:00",
+     "description": "I C U:\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 A follow on Twitter with a shoutout, so people know who helped me \u0026amp; should be checked out!\u003c/p\u003e\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 All previous rewards.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-17T04:04:14.730001+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2154050/5202170e6a5b442d8a589e718356d869?token-time=2145916800\u0026token-hash=YaeSvtq0Xnz4Ydyj032iGo-bnZKydblWuBUWyoV8lC0%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-17T04:04:14.730001+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "High Five!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200254\u0026rid=2154050",
+     "user_limit": null
+    },
+    "id": "2154050",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-17T04:07:58.905539+00:00",
+     "description": "Your say:\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 Get say on what video I should edit first, or if non or recorded, which I should record next to get it up there.\u003c/p\u003e\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 All previous rewards.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-17T04:07:58.905539+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2154053/04df56ea80a84a71afbac5965990ad9c?token-time=2145916800\u0026token-hash=8qz_d2_UyrNyiNMSuhZuGwHwUlmfC1HMSMNaiid1EqI%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-17T04:07:58.905539+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "We Pay, We Say",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200254\u0026rid=2154053",
+     "user_limit": null
+    },
+    "id": "2154053",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-11-17T04:23:01.389365+00:00",
+     "description": "Time for some banter:\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 Get added to my Discord server where we can text from time to time, if you got ideas or just wanna shoot the shit. (Talking not guaranteed, I Netflix a lot lol)\u003c/p\u003e\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 All previous rewards.\u003c/p\u003e",
+     "discord_role_ids": [
+      "380941539917955074"
+     ],
+     "edited_at": "2017-11-17T04:59:57.964847+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2154085/7fabdc574fa6483798fc12294a71ccf5?token-time=2145916800\u0026token-hash=P20kws7HLnj4SU1Xeo6ZKZiTwOnB0dClOMFRm7cEoWw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-17T04:59:57.944048+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Let\u0027s Text/Talk",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200254\u0026rid=2154085",
+     "user_limit": null
+    },
+    "id": "2154085",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-11-17T04:24:29.675194+00:00",
+     "description": "Time for some banter v2:\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 That\u0027s it, I\u0027m adding yo ass to my FL on RuneScape (I\u0027ll regret it but whatever, ur awesome).\u003c/p\u003e\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 All previous rewards.\u003c/p\u003e",
+     "discord_role_ids": [
+      "380941539917955074",
+      "380942618671972353"
+     ],
+     "edited_at": "2017-11-17T05:00:30.040762+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2154087/fb465a664511460bbb4a4e09a858449f?token-time=2145916800\u0026token-hash=cs3G7iRG6DcvoryVyGduwq7S4PKzyYedkfOqxhN6Y5Q%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-17T05:00:30.014334+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Holy Shmoly",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200254\u0026rid=2154087",
+     "user_limit": null
+    },
+    "id": "2154087",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-11-17T04:26:19.449233+00:00",
+     "description": "Um Wow:\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 $10 a month from your pledge donated to a charity (I like ones helping children, vets, or those at risk).\u003c/p\u003e\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 Add a special message of your choice (within reason) to the end of my videos with a link to your YouTube or Twitter. Can be text only or vocal and text, up to 5 seconds of speech if vocal.\u003c/p\u003e\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 All previous rewards.\u003c/p\u003e",
+     "discord_role_ids": [
+      "380941539917955074",
+      "380942618671972353",
+      "380943404323962880"
+     ],
+     "edited_at": "2017-11-17T05:00:47.181343+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2154092/b3f00da8327c4d84941ad6a4035d23c7?token-time=2145916800\u0026token-hash=wRiV6yacAvKEuXPOs4C95rSVk_4xph04uE06KGV9RZ8%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-17T05:00:47.149219+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "You Serious?",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200254\u0026rid=2154092",
+     "user_limit": null
+    },
+    "id": "2154092",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2017-11-17T04:33:14.371316+00:00",
+     "description": "I LOVE YOU THIS MUCH:\u003cbr\u003e\n \u00a0\u00a0\u00a0\u2665 I will play on RuneScape or the RSMV MineCraft server with you for like, an hour or two a month. We can agree to like do some easy ass bosses, I help you on a quest, we\u0027ll find something (just no PVP cause I\u0027ll die, and won\u0027t bring jack). I don\u0027t even, just wow.\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 All previous rewards.\u003c/p\u003e",
+     "discord_role_ids": [
+      "380941539917955074",
+      "380942618671972353",
+      "380943404323962880",
+      "380943747212509184"
+     ],
+     "edited_at": "2017-11-17T05:01:19.754017+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2154102/48af5c208ea9433e94868e63998210a8?token-time=2145916800\u0026token-hash=huLv8aspW9tpOxBFRW1wltm3aCTVTgZZzOfKHAcNN0U%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-17T05:01:19.727436+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "You Sure?",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200254\u0026rid=2154102",
+     "user_limit": null
+    },
+    "id": "2154102",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2017-11-17T04:36:11.224121+00:00",
+     "description": "At this point I\u0027m sure you\u0027re using someone else\u0027s credit card:\u003cbr\u003e\n\u00a0\u00a0\u00a0 \u2665 Your own private (or public) room on Discord.\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 All previous rewards.\u003c/p\u003e",
+     "discord_role_ids": [
+      "380941539917955074",
+      "380942618671972353",
+      "380943404323962880",
+      "380943747212509184",
+      "380944189090693133"
+     ],
+     "edited_at": "2017-11-17T05:01:38.853937+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2154107/ac44aede40eb4a92b742adbfbd605b6e?token-time=2145916800\u0026token-hash=FJ36r3p-DdcxA3biwPXxfmbxMxHHOb6h_-DhC38xjJ0%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-17T05:01:38.799080+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "You Sure This is Legal?",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200254\u0026rid=2154107",
+     "user_limit": null
+    },
+    "id": "2154107",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2017-11-17T04:37:22.129096+00:00",
+     "description": "The FBI is pulling up in my driveway:\u003cbr\u003e\n\u00a0\u00a0\u00a0 \u2665 I will make my boyfriend scream your name (I might even join him, okay lies, I already am).\n\u003cp\u003e\u00a0\u00a0\u00a0\u00a0\u2665 All previous rewards.\u003c/p\u003e",
+     "discord_role_ids": [
+      "380941539917955074",
+      "380942618671972353",
+      "380943404323962880",
+      "380943747212509184",
+      "380944189090693133",
+      "380944439230726147"
+     ],
+     "edited_at": "2017-11-17T05:02:19.145542+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2154109/a4b472b78b23491bbdf4fc8e12e2e350?token-time=2145916800\u0026token-hash=XimDoiCs_jvC3U2qC6sN9GBwWJF7C6tzkX_f7cTIarY%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-17T05:02:19.117988+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Ok, Now I Know it ain\u0027t Legal.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=200254\u0026rid=2154109",
+     "user_limit": null
+    },
+    "id": "2154109",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2017-07-16T22:43:55+00:00",
+     "description": "Hold a special Discord Q\u0026amp;A session with Patreon donators for an hour, can chill on RuneScape too if they want.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "903440",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/200254"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "737714e5-fdb3-4b3f-9775-95f9c88407ca",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Gc20Amber GoingCrazy201 is creating RuneScape \u0026 Final Fantasy, etc playthrough/walkthroughs"
+});
+    </script>

@@ -1,0 +1,591 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Xk0O-EVvwwV95dqP4L_GMz4fCqCb6KMyyAyef5UouHo";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "185162",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/185162"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2015-11-03T05:42:08+00:00",
+    "creation_name": "a variety of reviews, stories, and comedy",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/234629/7f702a7229fe43eea03b8b3e9b94bfc1?token-time=2145916800\u0026token-hash=IXk0oqqynfASg1IwrXXQ6p6y05HqNMS1CjJlYW_FxTg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/234629/7f702a7229fe43eea03b8b3e9b94bfc1?token-time=2145916800\u0026token-hash=0sYwSTd7UyebZO6dGdbqnPGChKi7RZUg4OdcvmhXSp8%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "A Place for Characters to Thrive",
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=234629",
+    "published_at": "2016-07-04T08:34:30+00:00",
+    "summary": "If you know me, you know I have a slightly bizarre and mildly caustic sense of humor, and also that I write super cool things (why, no, I\u0027m not modest at all about that, whoops). \u00a0I have some new things in mind to try that should be able to encapture all of the above into actual productivity.\u003cbr\u003e\u003cbr\u003eOn the writing side, I\u0027m going to endeavor to put out more fanfic and begin short original fic. \u00a0In order to increase the amount getting published, I\u0027m going to try and keep all writing relatively short (for me, anyway). \u00a0I\u0027ll also be doing book reviews (good and bad books, \u0027cause man, I\u0027ll read them all).\u003cbr\u003e\u003cbr\u003eI also make Perler Bead creations, and would really love a chance to expand my range and skill. \u00a0Plus, there will be a physical reward where you can request creations you want to see and have!\u003cbr\u003e\u003cbr\u003eSo, if this is something you\u0027d like to see, or if there\u0027s something ELSE you\u0027d like to see here, too, come on down and we\u0027ll see what happens!"
+   },
+   "id": "234629",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "733358",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/733358"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "291020",
+       "type": "goal"
+      },
+      {
+       "id": "291021",
+       "type": "goal"
+      },
+      {
+       "id": "674194",
+       "type": "goal"
+      },
+      {
+       "id": "674195",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-234629",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-234629"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "604555",
+       "type": "reward"
+      },
+      {
+       "id": "604556",
+       "type": "reward"
+      },
+      {
+       "id": "604557",
+       "type": "reward"
+      },
+      {
+       "id": "1457101",
+       "type": "reward"
+      },
+      {
+       "id": "604558",
+       "type": "reward"
+      },
+      {
+       "id": "604559",
+       "type": "reward"
+      },
+      {
+       "id": "604560",
+       "type": "reward"
+      },
+      {
+       "id": "604561",
+       "type": "reward"
+      },
+      {
+       "id": "1457084",
+       "type": "reward"
+      },
+      {
+       "id": "1457075",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Hey, y\u0027all! I\u0027m a homebound disabled writer trying to make a living and doing the best I can (and, um, I occasionally break into song). I write fanfic and slowly I\u0027m posting my original works. Everything I write is like me: queer af.\u003cbr\u003e\u003cbr\u003eI also do book reviews, movie reviews, and (hopefully soon) livestream game reviews. I\u0027m super open to requested reviews, if that\u0027s what you\u0027re interested in.\u003cbr\u003e\u003cbr\u003eAll of your pledges will be helping me live and get the accessibility tools I need to keep doing what I\u0027m doing, to keep creating content for you, and to generally surviving.\u003cbr\u003e\u003cbr\u003eI\u0027m always open to talk: here, Twitter, Tumblr, Discord, my site, even Instagram if that\u0027s your jam.\u003cbr\u003eThank you so much and I love each and every one of you. Especially you.\u003cbr\u003e\u003cbr\u003e~Fleet\u003cbr\u003e",
+     "created": "2015-04-28T22:49:30+00:00",
+     "facebook": null,
+     "first_name": "Fleet",
+     "full_name": "Fleet Sparrow",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/733358/86a435900cd14a709ca8d404cca2a69d?token-time=2145916800\u0026token-hash=NMUylAheg5fw66xF9lxzH_eB4wc5K53DW48zvkjEOlM%3D",
+     "last_name": "Sparrow",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/733358/86a435900cd14a709ca8d404cca2a69d?token-time=2145916800\u0026token-hash=sr240yNPoyrdm5KlHxi3VK0ivqwXwrA11hsZOBxVWXo%3D",
+     "twitch": null,
+     "twitter": "FleetSparrow",
+     "url": "https://www.patreon.com/fleetsparrow",
+     "vanity": "fleetsparrow",
+     "youtube": null
+    },
+    "id": "733358",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "234629",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/234629"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 41,
+     "upgrade_url": "/bePatron?c=234629\u0026rid=604555"
+    },
+    "id": "post-aggregation-for-0-234629",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-07-04T08:34:15+00:00",
+     "description": "Writing snippets, ahoy!\u003cbr\u003e\n\u003cbr\u003e\nI love sharing pieces of what I\u0027m working on, and, despite being the procrastinator I am, I\u0027m actually working on quite a few things!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eI\u0027ll share a snippet from a fic, either one I\u0027m currently working on, or one I have backlogged.\u003cbr\u003e\n\u003cbr\u003e\nAlso, get glimpses of my reviews and essays before they\u0027re finished.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-02T06:10:41.713482+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 38,
+     "published": true,
+     "published_at": "2017-03-02T05:46:49.512635+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Peep Show",
+     "unpublished_at": null,
+     "url": "/bePatron?c=234629\u0026rid=604555",
+     "user_limit": null
+    },
+    "id": "604555",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-07-04T08:34:15+00:00",
+     "description": "Sneak peek of fics!\u003cbr\u003e\n\u003cbr\u003e\nYou\u0027ll see all my fics chapter by chapter as I write them! \u00a0This includes everything I post for fic challenges as well as my regular stuff. \u00a0You\u0027ll also get to see essays and reviews before they go live.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-02T06:14:22.367007+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-03-02T05:48:35.096167+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Absolutely Fascinating",
+     "unpublished_at": null,
+     "url": "/bePatron?c=234629\u0026rid=604556",
+     "user_limit": null
+    },
+    "id": "604556",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-07-04T08:34:15+00:00",
+     "description": "Read fully edited fics before publishing!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eThat\u0027s right, you can see the final products of all my fics, reviews, and major posts first!\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus first look (listen?) to my audio posts (as they come). \u00a0Also, you can give me prompts for what kinds of things you\u0027d like to see me talk about (certain movies, fandoms, badfic, etc.)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-02T06:04:51.114706+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-02T05:52:21.146628+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Heart of the Cards",
+     "unpublished_at": null,
+     "url": "/bePatron?c=234629\u0026rid=604557",
+     "user_limit": null
+    },
+    "id": "604557",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-03-02T06:12:44.692579+00:00",
+     "description": "Audio rant of your choice, plus view of fanfics and reviews.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-02T06:12:44.692579+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-02T06:12:44.692579+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mmm Whatcha Say",
+     "unpublished_at": null,
+     "url": "/bePatron?c=234629\u0026rid=1457101",
+     "user_limit": null
+    },
+    "id": "1457101",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-07-04T08:34:15+00:00",
+     "description": "All of the above AND you can prompt one (1) fic idea that I\u0027ll write \u003cem\u003eespecially for you\u003c/em\u003e\u00a0(100-500 words). \u00a0:D",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-02T06:02:40.693298+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-02T05:52:57.867920+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Specialty Bread",
+     "unpublished_at": null,
+     "url": "/bePatron?c=234629\u0026rid=604558",
+     "user_limit": null
+    },
+    "id": "604558",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-07-04T08:34:15+00:00",
+     "description": "All of the above, and you get to request a topic or book for review that\u0027ll get top priority!",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-02T06:02:30.430590+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-02T05:55:16.327632+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Rowsdower!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=234629\u0026rid=604559",
+     "user_limit": null
+    },
+    "id": "604559",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-07-04T08:34:15+00:00",
+     "description": "All above, plus a small Perler Bead creation of your choice. \u00a0And also some fun little knick-knacks andstuff related to things you like (because that is how I roll). \u00a0International friends, too!",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-02T05:56:34.775542+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-02T05:56:29.019775+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Extruded Plastic Dingus",
+     "unpublished_at": null,
+     "url": "/bePatron?c=234629\u0026rid=604560",
+     "user_limit": null
+    },
+    "id": "604560",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-07-04T08:34:15+00:00",
+     "description": "Damn, son. \u00a0Lemme list this out.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eOne fic commission (3,000-4,000 words) in fandom of your choice.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eOne larger Perler Bead collection.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003ePlus the above rewards and a hearty thank you!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-02T06:00:46.263627+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-02T06:00:46.253369+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Adelaide Parade",
+     "unpublished_at": null,
+     "url": "/bePatron?c=234629\u0026rid=604561",
+     "user_limit": null
+    },
+    "id": "604561",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-03-02T06:09:17.017295+00:00",
+     "description": "All of the above, plus a longer commission (4,000-5,000 word) and TWO Perler creations of your choice. \u00a0Plus, audio rants on the topic of your choice, once a month.",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-02T06:09:17.017295+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-02T06:09:17.017295+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Sugar Parent",
+     "unpublished_at": null,
+     "url": "/bePatron?c=234629\u0026rid=1457084",
+     "user_limit": null
+    },
+    "id": "1457084",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-03-02T06:07:36.971091+00:00",
+     "description": "I mean, if you\u0027ve got this much to spend on me, hell yeah, bring it!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAll of the above, plus a livestream of Perler Creations (3), longer commission (6,000-8,000 word), and a one-on-one ranterview on the topic of your choice!\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-03-02T06:10:20.661725+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-02T06:07:36.971091+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Rich Douchebag",
+     "unpublished_at": null,
+     "url": "/bePatron?c=234629\u0026rid=1457075",
+     "user_limit": null
+    },
+    "id": "1457075",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 0,
+     "created_at": "2015-11-27T06:40:10+00:00",
+     "description": "I\u0027m doing all my stuff in Audacity with a Snowball mic. \u00a0Well, the mic\u0027s gonna stay, but it would probably be better to use some decent recording software to help me edit things smoother and with better quality.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "291020",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 0,
+     "created_at": "2015-11-27T06:40:10+00:00",
+     "description": "Every video I do is unedited, which can be hilarious to watch, but also frustrating when I just want to show highlights or skip through the 20 Skype messages I got during recording. \u00a0With this, I should be able to figure out what the hell I\u0027m doing and get better at it.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "291021",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 1,
+     "created_at": "2017-01-11T02:31:50+00:00",
+     "description": "If I could make this, it would ease up some of the stress on my financial-wise, and would allow me to create more content for y\u0027all. \u00a0More stories and fics would definitely be started.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "674194",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 0,
+     "created_at": "2017-01-11T02:31:50+00:00",
+     "description": "This would really allow me to write more, create more, and give back to you all for helping me. \u00a0This would allow for more frequent physical rewards and help me start making audio and video reviews.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "674195",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/234629"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e927db8e-617b-41b7-afc9-0e5fdf64dfc9",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Fleet Sparrow is creating a variety of reviews, stories, and comedy"
+});
+    </script>

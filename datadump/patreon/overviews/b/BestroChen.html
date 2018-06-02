@@ -1,0 +1,938 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "QjTFTUIbFDmhGnqXwA3Tt2M_IbGEPrTtMzwqPb9ibPM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "26951",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/26951"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-12-03T12:22:23+00:00",
+    "creation_name": "Videos, Art, and Live Productions",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/127438/76c83fd385ea4be39485ca5f441b8d94?token-time=2145916800\u0026token-hash=b0w5Z60wMUXOGeJgrh-ggg2A-BmK52oX7CPTe4d8lCw%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/127438/76c83fd385ea4be39485ca5f441b8d94?token-time=2145916800\u0026token-hash=bXakYpdPfG4WQrsI5lZ-Jgn_hm2C0eqzKJ8SdoGiemY%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": "I love art, event production, and most of all! Interacting with you guys! Hope you all enjoy!!! ",
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=127438",
+    "published_at": "2014-12-03T12:22:23+00:00",
+    "summary": "I am a person who loves to listen and is excited to learn. I do my best to look at the world in many perspectives and always keep myself open to new possibilities and choices. My goals in life are to excel in the creative arts. Such as Fine Art, Animation, Design, Graphic Art Video Editing, Content Creation, Streaming, and Photography.\u00a0"
+   },
+   "id": "127438",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "415255",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/415255"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "90007",
+       "type": "goal"
+      },
+      {
+       "id": "580899",
+       "type": "goal"
+      },
+      {
+       "id": "580900",
+       "type": "goal"
+      },
+      {
+       "id": "580938",
+       "type": "goal"
+      },
+      {
+       "id": "580940",
+       "type": "goal"
+      },
+      {
+       "id": "580941",
+       "type": "goal"
+      },
+      {
+       "id": "580945",
+       "type": "goal"
+      },
+      {
+       "id": "770852",
+       "type": "goal"
+      },
+      {
+       "id": "771014",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "917934",
+       "type": "reward"
+      },
+      {
+       "id": "608780",
+       "type": "reward"
+      },
+      {
+       "id": "918048",
+       "type": "reward"
+      },
+      {
+       "id": "918049",
+       "type": "reward"
+      },
+      {
+       "id": "918091",
+       "type": "reward"
+      },
+      {
+       "id": "918051",
+       "type": "reward"
+      },
+      {
+       "id": "918059",
+       "type": "reward"
+      },
+      {
+       "id": "1547895",
+       "type": "reward"
+      },
+      {
+       "id": "1547921",
+       "type": "reward"
+      },
+      {
+       "id": "918052",
+       "type": "reward"
+      },
+      {
+       "id": "918050",
+       "type": "reward"
+      },
+      {
+       "id": "918115",
+       "type": "reward"
+      },
+      {
+       "id": "931850",
+       "type": "reward"
+      },
+      {
+       "id": "918172",
+       "type": "reward"
+      },
+      {
+       "id": "931864",
+       "type": "reward"
+      },
+      {
+       "id": "931867",
+       "type": "reward"
+      },
+      {
+       "id": "931872",
+       "type": "reward"
+      },
+      {
+       "id": "918141",
+       "type": "reward"
+      },
+      {
+       "id": "2033036",
+       "type": "reward"
+      },
+      {
+       "id": "931871",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "Outgoing or shy depending on my mood, love my art and sharing it with other people. I love to make friends, but hate my enemies. I love to be creative with everything I do. \u003cbr\u003eI am fairly smart, like to think in different ways. Love reading and writing, but textbooks are my enemy. I praise Japanese anime and sometimes will get into a manga or two or fifty.\u003cbr\u003eI am in graphic design and plan on designing video games or animation. I do some RolePlay and have a great and creative imagination and I always have a new idea. If someone is a nice and funny person I will generally get along with them.  I also do YouTube, here is my channel if you would like to check me out: https://www.youtube.com/user/Bestrox Well that about raps it up see you around! ^_^\u003cbr\u003e",
+     "created": "2014-12-03T12:22:23+00:00",
+     "facebook": "https://www.facebook.com/BestroChen",
+     "first_name": "BestroChen",
+     "full_name": "BestroChen",
+     "gender": 1,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/415255/37d0f9fc018a405583f3e5647521ee93?token-time=2145916800\u0026token-hash=C2-JIuEYcQqFBkN0j9sGBi4MuPA9e16cfb7gU6zNmjk%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/415255/37d0f9fc018a405583f3e5647521ee93?token-time=2145916800\u0026token-hash=naLNqz_K9vCOQ91sjwNEhTqV_OKlmmlsbULMMNhCJ7w%3D",
+     "twitch": "https://www.twitch.tv/bestrochen",
+     "twitter": "BestroChen",
+     "url": "https://www.patreon.com/BestroChen",
+     "vanity": "BestroChen",
+     "youtube": "https://www.youtube.com/user/Bestrox"
+    },
+    "id": "415255",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "127438",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/127438"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-20T05:52:37+00:00",
+     "description": "My thanks for your support and access to Patreon only posts!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T02:22:09.549905+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #1: Support! ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=917934"
+    },
+    "id": "917934",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 250,
+     "amount_cents": 250,
+     "created_at": "2016-10-20T05:52:37+00:00",
+     "description": "Instant member access to my personal discord, instead of being limited to public chat or trying to get invited.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "108832800542625792"
+     ],
+     "edited_at": "2017-04-01T02:25:02.614680+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #2: Discord Member! ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=608780"
+    },
+    "id": "608780",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-20T05:52:37+00:00",
+     "description": "Will add you on all gaming accounts that are not already full please send me user names or invites. (Battle.net, Steam, Xbox One and more.)\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003cli\u003eFollow you on social media\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T02:22:39.058791+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #3: Net Worker! ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=918048"
+    },
+    "id": "918048",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 750,
+     "amount_cents": 750,
+     "created_at": "2016-10-20T05:52:37+00:00",
+     "description": "Access to Private Patreon voice chat and text chat in discord. In addition to enhanced permissions and role.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003cli\u003eFollow you on social media\u003c/li\u003e\u003cli\u003ePremium Discord role\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "362640248393564161",
+      "108832800542625792",
+      "362661617982504960"
+     ],
+     "edited_at": "2017-04-01T02:42:21.364029+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #4: Discord Patreon!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=918049"
+    },
+    "id": "918049",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 850,
+     "amount_cents": 850,
+     "created_at": "2016-10-20T05:52:37+00:00",
+     "description": "Your name will be added to the Patreon Supporter build in my Minecraft, ARK, and Unturned Series.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003cli\u003eFollow you on social media\u003c/li\u003e\u003cli\u003ePremium Discord role\u003c/li\u003e\u003cli\u003eName added to Patreon build\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T02:22:59.236541+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #5: Monument ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=918091"
+    },
+    "id": "918091",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-20T05:52:37+00:00",
+     "description": "Invite to once a month Patreon and Invite only Chill and hangout playing suggested and fun games!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003cli\u003eFollow you on social media\u003c/li\u003e\u003cli\u003ePremium Discord role\u003c/li\u003e\u003cli\u003eName added to Patreon build\u003c/li\u003e\u003cli\u003ePatreon hangouts \u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T02:25:35.723655+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #6: Hangout and Chill!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=918051"
+    },
+    "id": "918051",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1350,
+     "amount_cents": 1350,
+     "created_at": "2016-10-20T05:52:37+00:00",
+     "description": "Access to ARK, Unterned, and two Minecraft Servers one Survival and one Creative. (When the 1000$ goal is reached.)\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003cli\u003eFollow you on social media\u003c/li\u003e\u003cli\u003ePremium Discord role\u003c/li\u003e\u003cli\u003eName added to Patreon build\u003c/li\u003e\u003cli\u003ePatreon hangouts \u003c/li\u003e\u003cli\u003eAll Patreon servers\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T02:23:55.461755+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #7: Game Servers! ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=918059"
+    },
+    "id": "918059",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-03-31T17:45:34.462916+00:00",
+     "description": "Pick a multiplayer of your choice and we will do a 1v1 to see who is the best!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003cli\u003eFollow you on social media\u003c/li\u003e\u003cli\u003ePremium Discord role\u003c/li\u003e\u003cli\u003eName added to Patreon build\u003c/li\u003e\u003cli\u003ePatreon hangouts \u003c/li\u003e\u003cli\u003eAll Patreon servers\u003c/li\u003e\u003cli\u003e1v1 multiplayer battle\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T02:25:27.366430+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-31T17:45:34.462916+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #8: 1v1 Me Bro!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=1547895"
+    },
+    "id": "1547895",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-03-31T17:56:38.945764+00:00",
+     "description": "Will play a round of your choice in Overwatch.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003cli\u003eFollow you on social media\u003c/li\u003e\u003cli\u003ePremium Discord role\u003c/li\u003e\u003cli\u003eName added to Patreon build\u003c/li\u003e\u003cli\u003ePatreon hangouts \u003c/li\u003e\u003cli\u003eAll Patreon servers\u003c/li\u003e\u003cli\u003e1v1 multiplayer battle\u003c/li\u003e\u003cli\u003eOne round of OverWatch\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-27T17:23:12.850847+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-03-31T17:56:38.945764+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": " Tier #9: Overwatch",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=1547921"
+    },
+    "id": "1547921",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-10-20T05:52:37+00:00",
+     "description": "Access to a direct email where I will reply to you as soon as I can anytime of the month.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003cli\u003eFollow you on social media\u003c/li\u003e\u003cli\u003ePremium Discord role\u003c/li\u003e\u003cli\u003eName added to Patreon build\u003c/li\u003e\u003cli\u003ePatreon hangouts \u003c/li\u003e\u003cli\u003eAll Patreon servers\u003c/li\u003e\u003cli\u003e1v1 multiplayer battle\u003c/li\u003e\u003cli\u003eOne round of OverWatch\u003c/li\u003e\u003cli\u003eAccess to private email \u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T02:21:46.751314+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #10 You Got Mail!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=918052"
+    },
+    "id": "918052",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2016-10-20T05:52:37+00:00",
+     "description": "Once a month one on one talk and chat where you can ask me anything long as it\u0027s not too inappropriate or personal. Will do my best to answer any questions you might have! ^__^\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003cli\u003eFollow you on social media\u003c/li\u003e\u003cli\u003ePremium Discord role\u003c/li\u003e\u003cli\u003eName added to Patreon build\u003c/li\u003e\u003cli\u003ePatreon hangouts \u003c/li\u003e\u003cli\u003eAll Patreon servers\u003c/li\u003e\u003cli\u003e1v1 multiplayer battle\u003c/li\u003e\u003cli\u003eOne round of OverWatch\u003c/li\u003e\u003cli\u003eAccess to private email \u003c/li\u003e\u003cli\u003ePersonal Chat\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T02:21:59.033901+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #11 Chatty Cat",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=918050"
+    },
+    "id": "918050",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2016-10-20T05:52:37+00:00",
+     "description": "You will get your name sponsored in the description of my videos, streams, and at the end of my videos. (When an outro is created.)\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003cli\u003eFollow you on social media\u003c/li\u003e\u003cli\u003ePremium Discord role\u003c/li\u003e\u003cli\u003eName added to Patreon build\u003c/li\u003e\u003cli\u003ePatreon hangouts \u003c/li\u003e\u003cli\u003eAll Patreon servers\u003c/li\u003e\u003cli\u003e1v1 multiplayer battle\u003c/li\u003e\u003cli\u003eOne round of OverWatch\u003c/li\u003e\u003cli\u003eAccess to private email \u003c/li\u003e\u003cli\u003ePersonal Chat\u003c/li\u003e\u003cli\u003eYour name in the credits\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T02:22:20.016061+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #12: Credits!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=918115"
+    },
+    "id": "918115",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-10-20T05:52:37+00:00",
+     "description": "A custom video/vlog that you choose what I do. Be it a Q\u0026amp;A, video game, unboxing, trying a certain food (nothing with tomatoes, allergic) or anything you would like to see that is appropriate for video.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003cli\u003eFollow you on social media\u003c/li\u003e\u003cli\u003ePremium Discord role\u003c/li\u003e\u003cli\u003eName added to Patreon build\u003c/li\u003e\u003cli\u003ePatreon hangouts \u003c/li\u003e\u003cli\u003eAll Patreon servers\u003c/li\u003e\u003cli\u003e1v1 multiplayer battle\u003c/li\u003e\u003cli\u003eOne round of OverWatch\u003c/li\u003e\u003cli\u003eAccess to private email \u003c/li\u003e\u003cli\u003ePersonal Chat\u003c/li\u003e\u003cli\u003eYour name in the credits\u003c/li\u003e\u003cli\u003ePick my recording\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T02:22:50.823908+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #13:  Custom Video!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=931850"
+    },
+    "id": "931850",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2016-10-20T05:52:37+00:00",
+     "description": "Once a month one on one Video talk and chat where you can ask me anything or do a colab/recording with me.\u003cbr\u003e\n\u003cbr\u003e\nAdditional Tier #10\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003cli\u003ePremium Discord role\u003c/li\u003e\u003cli\u003ePatreon hangouts \u003c/li\u003e\u003cli\u003eAccess to private email \u003c/li\u003e\u003cli\u003eYour name in the credits\u003c/li\u003e\u003cli\u003eColab/Private video\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-01T02:23:47.588188+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:37+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #14: Colaber! ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=918172"
+    },
+    "id": "918172",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-20T05:52:38+00:00",
+     "description": "You will get your name sponsored at the top of the list in the description of my videos, streams, and at the end of my videos. (When an outro is created.) \u003cbr\u003e\n\u003cbr\u003e\nAccess to Private Patreon voice chat and text chat in discord. In addition to enhanced permissions and the Patreon Leader role.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003ePatron-only content feed\u003c/li\u003e\u003cli\u003eJoining the Discord community\u003c/li\u003e\u003cli\u003eFollow you on social media\u003c/li\u003e\u003cli\u003ePremium Discord role\u003c/li\u003e\u003cli\u003eName added to Patreon build\u003c/li\u003e\u003cli\u003ePatreon hangouts \u003c/li\u003e\u003cli\u003eAll Patreon servers\u003c/li\u003e\u003cli\u003eAccess to private email \u003c/li\u003e\u003cli\u003eYour name in the credits\u003c/li\u003e\u003cli\u003eSupport Leader\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "108870032250966016",
+      "108832800542625792",
+      "236377218362638336",
+      "362661617982504960"
+     ],
+     "edited_at": "2017-09-27T17:52:44.178057+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #15 Boss Supporter!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=931864"
+    },
+    "id": "931864",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2016-10-20T05:52:38+00:00",
+     "description": "Tier #14:\u00a0\u003cbr\u003e\u003cbr\u003eAdditional Tiers #",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-27T17:27:07.965741+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #16",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=931867"
+    },
+    "id": "931867",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2016-10-20T05:52:38+00:00",
+     "description": "Tier #15:\u00a0\u003cbr\u003e\u003cbr\u003eAdditional Tiers #",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-27T17:27:20.468105+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #17",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=931872"
+    },
+    "id": "931872",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2016-10-20T05:52:38+00:00",
+     "description": "(Within distance of where I live.) Will do a personal Photo Shoot of your choice. Whether I am doing photography for you, your family, or objects or products for sale.\u00a0\u003cbr\u003e\n\u003cbr\u003e\nYou will receive two copies of all photos taken via email or drop box. One with watermarks and one without. I will reserve the copyright for the photos being used. In other words beyond personal use You can not sell, make shirts, or profit in anyway off of the pictures themselves. In other words the object in the picture is fine to sell, but you cannot sell anything with the picture on it or claim it as your own work.\u00a0\u003cbr\u003e\n\u003cbr\u003e\n***WARNING I WILL NOT TAKE PHOTOS OF ANYTHING WHICH COULD BE CONSIDERED AGAINST THE LAW OR ADULT CONTENT OR 18+***\u003cbr\u003e\n\u003cbr\u003e\n(If you have more questions about this feel free to ask.)\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eNo Additional Tiers\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-27T17:27:44.376797+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #18: Photography",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=918141"
+    },
+    "id": "918141",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 30000,
+     "amount_cents": 30000,
+     "created_at": "2017-09-27T17:28:51.928380+00:00",
+     "description": "",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-27T17:28:51.928380+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-27T17:28:51.928380+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #19",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=2033036"
+    },
+    "id": "2033036",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-10-20T05:52:38+00:00",
+     "description": "Tier #17:\u00a0\u003cbr\u003e\u003cbr\u003eAdditional Tiers #",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-27T17:29:06.029930+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-20T05:52:38+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier #20",
+     "unpublished_at": null,
+     "url": "/bePatron?c=127438\u0026rid=931871"
+    },
+    "id": "931871",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2014-12-03T13:16:02+00:00",
+     "description": "Open a ARK, Unterned, and two Minecraft Servers one Survival and one Creative. \u00a0",
+     "reached_at": "2016-07-08T19:24:04+00:00",
+     "title": ""
+    },
+    "id": "90007",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2016-10-14T04:25:05+00:00",
+     "description": "Go to Minecon.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "580899",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2016-10-14T04:25:53+00:00",
+     "description": "Upgrade computer and sound system.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "580900",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2016-10-14T05:26:29+00:00",
+     "description": "I will do a face reveal video and live stream! And upload it to YouTube. ;)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "580938",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2016-10-14T05:27:51+00:00",
+     "description": "Do content creation for a living.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "580940",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2016-10-14T05:28:23+00:00",
+     "description": "Upgrade setup to be able to do regular content.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "580941",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2016-10-14T05:29:33+00:00",
+     "description": "Create a PO Box.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "580945",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-03-31T16:55:21+00:00",
+     "description": "Buy Adobe Creative Suite to improve my content and be able to custom logo designs.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "770852",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-03-31T19:17:08+00:00",
+     "description": "Plan an irl Patreon only hangout/party.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "771014",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/127438"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "a1e80b00-2b5e-4883-8c51-7f7c86873c07",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "BestroChen is creating Videos, Art, and Live Productions"
+});
+    </script>

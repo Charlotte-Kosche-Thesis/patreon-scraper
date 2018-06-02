@@ -1,0 +1,687 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "I8-c3wdkUPy09FbTxGrnJ8uOn3InhrJECtYewf4lhJk";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "547026",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/547026"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-08-16T20:39:02+00:00",
+    "creation_name": "a Geek Blog",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1167800/570be6c37af3440387207c9d333c915c?token-time=2145916800\u0026token-hash=Zt_2AQb6PArOsWOTMBpwsTVyNvAjfvaWP2U1yoBBPFk%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1167800/570be6c37af3440387207c9d333c915c?token-time=2145916800\u0026token-hash=9XTnEXlKV2nr4OKXZS54U9RSJMErUPAx6dV90KMqIAQ%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=1167800",
+    "published_at": "2017-08-16T20:50:48+00:00",
+    "summary": "Assorted Geekdom is an independent project facilitated by me (Joseph Ard); it is a geek blog that will include art, short stories, D\u0026amp;D character backstories, poetry, and so much more! Most of the content will be pre-released to patrons then made public within the next few weeks.\u00a0Geekdom is a like a box of chocolates; you never know what you\u0027re going to get.\u003cbr\u003e\u003cbr\u003eThank you so much for supporting Assorted Geekdom!"
+   },
+   "id": "1167800",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7336538",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7336538"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "936472",
+       "type": "goal"
+      },
+      {
+       "id": "936473",
+       "type": "goal"
+      },
+      {
+       "id": "936474",
+       "type": "goal"
+      },
+      {
+       "id": "936475",
+       "type": "goal"
+      },
+      {
+       "id": "936476",
+       "type": "goal"
+      },
+      {
+       "id": "936477",
+       "type": "goal"
+      },
+      {
+       "id": "936478",
+       "type": "goal"
+      },
+      {
+       "id": "936479",
+       "type": "goal"
+      },
+      {
+       "id": "936480",
+       "type": "goal"
+      },
+      {
+       "id": "936481",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1167800",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1167800"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1930719",
+       "type": "reward"
+      },
+      {
+       "id": "1930735",
+       "type": "reward"
+      },
+      {
+       "id": "1930734",
+       "type": "reward"
+      },
+      {
+       "id": "1930761",
+       "type": "reward"
+      },
+      {
+       "id": "1930760",
+       "type": "reward"
+      },
+      {
+       "id": "1930762",
+       "type": "reward"
+      },
+      {
+       "id": "1930758",
+       "type": "reward"
+      },
+      {
+       "id": "1930763",
+       "type": "reward"
+      },
+      {
+       "id": "1930765",
+       "type": "reward"
+      },
+      {
+       "id": "1930782",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "My name is Joe Ard; you may know me from Pok\u00e9mon GO Podcast. Assorted Geekdom is my geek blog. with anyone who wants to see them. I love a wide variety of geek culture, so you might see things that are an\u00a0homage to things decades old right next to things that are currently popular.",
+     "created": "2017-08-16T20:38:54+00:00",
+     "facebook": "https://www.facebook.com/AssortedGeekdom/",
+     "first_name": "Assorted",
+     "full_name": "Assorted Geekdom",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7336538/bd87f14b2747446fbed14bcbffb13d23?token-time=2145916800\u0026token-hash=HnDdc9VcOEU3hiwUttYb-cw1KHjyZEgC7XgfRomnSp4%3D",
+     "last_name": "Geekdom",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7336538/bd87f14b2747446fbed14bcbffb13d23?token-time=2145916800\u0026token-hash=62xpMTU0GnyStxme770fDEm3qu63S8aRE9VzdpGJ5NQ%3D",
+     "twitch": "https://www.twitch.tv/assortedgeekdom",
+     "twitter": "https://twitter.com/AssortedGeekdom",
+     "url": "https://www.patreon.com/AssortedGeekdom",
+     "vanity": "AssortedGeekdom",
+     "youtube": "https://www.youtube.com/channel/UCCW9slAsl5Zp4MOAw9EmFlQ"
+    },
+    "id": "7336538",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1167800",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1167800"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 2,
+     "upgrade_url": "/bePatron?c=1167800\u0026rid=1930761"
+    },
+    "id": "post-aggregation-for-0-1167800",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-08-16T21:02:12.878877+00:00",
+     "description": "\u003cdiv\u003eEvery cog matters! With this tier you gain access to\u00a0patron-exclusive content.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-16T21:02:12.878877+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-16T21:02:12.878877+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Cog",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1167800\u0026rid=1930719",
+     "user_limit": null
+    },
+    "id": "1930719",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-16T21:08:56.586925+00:00",
+     "description": "\u003cdiv\u003eEveryone knows that the early bird gets the worm. With this tier you gain access to content before the general public. In addition, you gain\u00a0all previous rewards.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-16T21:08:56.586925+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-16T21:08:56.586925+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Early Bird",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1167800\u0026rid=1930735",
+     "user_limit": null
+    },
+    "id": "1930735",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-08-16T21:08:56.412930+00:00",
+     "description": "\u003cdiv\u003eIt\u0027s always better to be included in the group. With this tier you gain access to the Assorted Geekdom Discord chat. In addition, you gain all previous rewards.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-16T21:08:56.412930+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-16T21:08:56.412930+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "One of Us",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1167800\u0026rid=1930734",
+     "user_limit": null
+    },
+    "id": "1930734",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-08-16T21:19:32.525319+00:00",
+     "description": "\u003cdiv\u003eBeing important is a wonderful feeling. With this tier you gain access to premium posts. Premium posts are content that is created for specific patrons. In addition, you gain all previous rewards.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-16T21:19:32.525319+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-08-16T21:19:32.525319+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "VIP",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1167800\u0026rid=1930761",
+     "user_limit": null
+    },
+    "id": "1930761",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-16T21:19:32.356794+00:00",
+     "description": "Everyone loves to represent. With this tier you will be eligible to receive an Assorted Geekdom t-shirt once they have been unlocked.\u00a0In addition, you gain all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-16T21:25:03.225664+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-16T21:19:32.356794+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Merch!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1167800\u0026rid=1930760",
+     "user_limit": null
+    },
+    "id": "1930760",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2017-08-16T21:19:32.540115+00:00",
+     "description": "Everything is awesome! With this tier I will create you a custom desktop or phone wallpaper which will be posted on Patreon as a premium post. In addition, you gain all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-16T21:25:03.234903+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-16T21:19:32.540115+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Wall of Awesomeness",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1167800\u0026rid=1930762",
+     "user_limit": null
+    },
+    "id": "1930762",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-16T21:19:32.340731+00:00",
+     "description": "\u003cdiv\u003eYou are the hero of this story! With this tier I will create you a personalized 3+ page character backstory which will be posted on Patreon as a premium post. In addition, you gain all previous rewards.\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-16T21:19:32.340731+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-16T21:19:32.340731+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Hero",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1167800\u0026rid=1930758",
+     "user_limit": null
+    },
+    "id": "1930758",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2017-08-16T21:19:32.522575+00:00",
+     "description": "The customer is always right. With this tier you are allowed to pick the topic and medium of a premium post. In addition, you gain all previous rewards.\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-16T21:25:03.255837+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-16T21:19:32.522575+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Always Right",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1167800\u0026rid=1930763",
+     "user_limit": null
+    },
+    "id": "1930763",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2017-08-16T21:20:28.624464+00:00",
+     "description": "You are simply amazing! With this tier you will be listed as an official sponsor of Assorted Geekdom. You can provide input on the future of this venture and if you are a content creator yourself, a link to your content will be displayed among the list of sponsors.\u00a0In addition, you gain all previous rewards.",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-16T21:25:03.420982+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-16T21:20:28.624464+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Sponsor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1167800\u0026rid=1930765",
+     "user_limit": null
+    },
+    "id": "1930765",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500000,
+     "amount_cents": 500000,
+     "created_at": "2017-08-16T21:25:03.091214+00:00",
+     "description": "\u003cdiv\u003eYour generosity is legendary! I will come to your town for a weekend and we will hangout.\u00a0In addition, you gain all previous rewards.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-16T21:25:03.091214+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-16T21:25:03.091214+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Demigod",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1167800\u0026rid=1930782",
+     "user_limit": 1
+    },
+    "id": "1930782",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2500,
+     "completed_percentage": 3,
+     "created_at": "2017-08-16T21:30:26+00:00",
+     "description": "This goal unlocks a monthly patreon-exclusive post.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "936472",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 1,
+     "created_at": "2017-08-16T21:30:26+00:00",
+     "description": "This goal unlocks a content expansion! Videos will now begin to appear among the other content.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "936473",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-16T21:30:26+00:00",
+     "description": "This goal will increase the amount of content to two posts per week.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "936474",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 15000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-16T21:30:26+00:00",
+     "description": "The number of patron-exclusive posts is increased to twice a month.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "936475",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-16T21:30:26+00:00",
+     "description": "This goal will increase the amount of content to three posts per week.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "936476",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-16T21:30:26+00:00",
+     "description": "T-shirts unlocked for eligible patrons.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "936477",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-16T21:30:26+00:00",
+     "description": "This goal will increase the amount of content to four posts per week.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "936478",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-16T21:30:26+00:00",
+     "description": "The number of patron-exclusive posts is increased to once a week.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "936479",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-16T21:30:26+00:00",
+     "description": "This goal will increase the amount of content to five posts per week.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "936480",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 400000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-16T21:30:26+00:00",
+     "description": "Once a month I will DM a 3-4 hour \u00a0D\u0026amp;D one shot with 4 patrons (randomly selected from the 25 most generous patrons in the past month).",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "936481",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1167800"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "5a489cbc-4792-47bb-a6bf-39d26ba84f10",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Assorted Geekdom is creating a Geek Blog"
+});
+    </script>

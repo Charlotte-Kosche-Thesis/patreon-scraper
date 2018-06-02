@@ -1,0 +1,625 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "M8Nhlj5q4hxlBxdCnJVcb17p-1O8-K3FP3iwO6KseaM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "697646",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/697646"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-01-04T22:08:51+00:00",
+    "creation_name": "Gaming Adventures",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1440859/64fdac3e7805434a98a7f91aefecbbb8?token-time=2145916800\u0026token-hash=HHbAiUm8vPJ7JiOGcLT2z-pyOWHCERuZoTn0w_h-YRA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1440859/64fdac3e7805434a98a7f91aefecbbb8?token-time=2145916800\u0026token-hash=fPDe7Dvl-exdQXWnTz6pPX2U5bKNwb-j9i_c2t2uPyg%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_sum": 180,
+    "pledge_url": "/bePatron?c=1440859",
+    "published_at": "2018-01-04T23:29:17+00:00",
+    "summary": "CC Riddoc Gaming Adventures created a Patreon to provide behind the scenes content for the subscribers that just can\u0027t get enough of the YouTube videos. Here we will provide exclusive behind the scenes content for our Patrons. We will be doing bloopers, podcasts, Q\u0026amp;A, Producer credits, check out the rewards areas for full details. Thank you so much for checking out our Patreon!\u003cbr\u003e\n\u003cbr\u003e\n\u003cu style=\"font-weight: bold;\"\u003eLeveling up Patrons:\u003c/u\u003e"
+   },
+   "id": "1440859",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9137007",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9137007"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1123759",
+       "type": "goal"
+      },
+      {
+       "id": "1125971",
+       "type": "goal"
+      },
+      {
+       "id": "1125972",
+       "type": "goal"
+      },
+      {
+       "id": "1125973",
+       "type": "goal"
+      },
+      {
+       "id": "1125974",
+       "type": "goal"
+      },
+      {
+       "id": "1125975",
+       "type": "goal"
+      },
+      {
+       "id": "1125976",
+       "type": "goal"
+      },
+      {
+       "id": "1125977",
+       "type": "goal"
+      },
+      {
+       "id": "1125978",
+       "type": "goal"
+      },
+      {
+       "id": "1125979",
+       "type": "goal"
+      },
+      {
+       "id": "1125980",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2258985",
+       "type": "reward"
+      },
+      {
+       "id": "2259052",
+       "type": "reward"
+      },
+      {
+       "id": "2259063",
+       "type": "reward"
+      },
+      {
+       "id": "2259072",
+       "type": "reward"
+      },
+      {
+       "id": "2259080",
+       "type": "reward"
+      },
+      {
+       "id": "2259134",
+       "type": "reward"
+      },
+      {
+       "id": "2259139",
+       "type": "reward"
+      },
+      {
+       "id": "2408134",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2018-01-04T22:08:30+00:00",
+     "facebook": "https://www.facebook.com/CCRiddoc",
+     "first_name": "CC",
+     "full_name": "CC Riddoc",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/9137007/82a4e6f64dea4a7fb836ca2ca5b70e47?token-time=2145916800\u0026token-hash=Pku-kswSXnBbfeMC9nbPCS67pTpjeHsMYrCTRKJOEUI%3D",
+     "last_name": "Riddoc",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9137007/82a4e6f64dea4a7fb836ca2ca5b70e47?token-time=2145916800\u0026token-hash=CaiEvisdKL9mo3yEstk7Hk7dpfLdZhIRcPIz39ICtYc%3D",
+     "twitch": "https://www.twitch.tv/CCRiddoc",
+     "twitter": "CCRiddoc",
+     "url": "https://www.patreon.com/CCRiddoc",
+     "vanity": "CCRiddoc",
+     "youtube": "https://www.youtube.com/channel/UCSmeaQfI5v0dBXI7x_U-dxA"
+    },
+    "id": "9137007",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1440859",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1440859"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-01-04T22:30:26.161636+00:00",
+     "description": "The Level 1 Patrons get my thanks and access to our Level 1 Patron only content (bloopers, uncut videos, and other fun stuff).",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T16:15:09.305647+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-28T16:15:09.296298+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level 1",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1440859\u0026rid=2258985",
+     "user_limit": null
+    },
+    "id": "2258985",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-01-04T22:59:25.451275+00:00",
+     "description": "The Level 5 Patrons get access to our Level 1 Patron only content, as well as, your name (or username) placed in the Leveling up Patrons in the about section of the youtube channel and the patron page.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T16:17:32.023678+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-28T16:17:32.012541+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level 5",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1440859\u0026rid=2259052",
+     "user_limit": null
+    },
+    "id": "2259052",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-04T23:03:21.038101+00:00",
+     "description": "The Level 10 Patrons get access to the Level 1 Patron only content, your name (or username) placed in the Leveling up Patrons in the about section of the youtube channel and the patron page, as well as, I will add backlinks to a page of your choosing in all the future video\u0027s description box and in the featured channel section on youtube (while you remain a Level 10 or higher Patron).",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T16:46:49.508809+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-28T16:46:49.497945+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level 10",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1440859\u0026rid=2259063",
+     "user_limit": null
+    },
+    "id": "2259063",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-01-04T23:05:25.918319+00:00",
+     "description": "The Level 25 Patrons get access to the Level 1 Patron only content, your name (or username) placed in the Leveling up Patrons in the about section of the youtube channel and the patron page, backlinks to a page of your choosing in all the future video\u0027s description box and in the featured channel section on youtube (while you remain a Level 10 or higher Patron), as well as, I will become your newest patron and you will receive a shout out in some form during each of the 3 weekly adventures.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T16:46:37.940856+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-28T16:46:37.933024+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level 25",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1440859\u0026rid=2259072",
+     "user_limit": null
+    },
+    "id": "2259072",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-01-04T23:07:05.898502+00:00",
+     "description": "The Level 50 Patrons get access to the Level 1 Patron only content, your name (or username) placed in the Leveling up Patrons in the about section of the youtube channel and the patron page, backlinks to a page of your choosing in all the future video\u0027s description box and in the featured channel section on youtube (while you remain a Level 10 or higher Patron), I will become your newest patron and you will receive a shout out in some form during each of the 3 weekly adventures, as well as, your name (or username) as a producer credited at the end of every gaming adventure (including Day Off Special Uploads).",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T16:49:35.870977+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-28T16:49:35.860990+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level 50",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1440859\u0026rid=2259080",
+     "user_limit": null
+    },
+    "id": "2259080",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-01-04T23:23:23.435194+00:00",
+     "description": "\u00a0The Level 100 Patrons get access to the Level 1 Patron only content, your name (or username) placed in the Leveling up Patrons in the about section of the youtube channel and the patron page, backlinks to a page of your choosing in all the future video\u0027s description box and in the featured channel section on youtube (while you remain a Level 10 or higher Patron), I will become your newest patron and you will receive a shout out in some form during each of the 3 weekly adventures, as well as, your name (or username) as an Executive Producer at the beginning of every gaming adventure (including Day Off Special Uploads). We will also send you a signed logo shirt when they are finished and a signed hard copy of the book series we are working every time one is published (while you remain a Level 100 or higher Patron).",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T16:51:44.124472+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-28T16:51:44.117202+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Level 100",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1440859\u0026rid=2259134",
+     "user_limit": null
+    },
+    "id": "2259134",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2018-01-04T23:25:05.789425+00:00",
+     "description": "The Level Capped Patrons get it all, you everything above. And if you are this freaking awesome, we will add in something super special just for you, every month you remain a Level Capped Patron or higher... we will be in touch!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-28T17:00:23.489443+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-28T17:00:23.477286+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Level Capped",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1440859\u0026rid=2259139",
+     "user_limit": null
+    },
+    "id": "2259139",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2018-02-27T22:21:36.918006+00:00",
+     "description": "The Angel Partner Tier gets you everything above. And if you are this amazing, please tell me how you have so much money and why are you spending it on me!! Secondly, can you show me how to do what you do??? \u00a0I will add in something super special just for you, every month you remain an Angel Partner and of course more... we will be in touch!!!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-27T22:25:37.384087+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-27T22:25:37.374170+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Angel Partner",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1440859\u0026rid=2408134",
+     "user_limit": null
+    },
+    "id": "2408134",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 3,
+     "created_at": "2018-02-26T00:17:05+00:00",
+     "description": "When we get to $50/month, I will do a\u00a01 hour long live stream with all patrons invited. As we get close to it I will put out a poll of the most desired game to be played on live stream and we can all hang out and chat.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1123759",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 1,
+     "created_at": "2018-02-27T22:37:31+00:00",
+     "description": "When we get to $100/month, I will do a\u00a02 - 1 hour long live streams with all patrons invited. As we get close to it I will put out a poll of the most desired game to be played on live stream and we can all hang out and chat.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1125971",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-27T22:37:31+00:00",
+     "description": "When we get to $200/month, I will do a\u00a02 - 2\u00a0hour long live streams with all patrons invited. As we get close to it I will put out a poll of the most desired game to be played on live stream and we can all hang out and chat.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1125972",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-27T22:37:31+00:00",
+     "description": "When we get to $300/month, I will do a\u00a03 hour long live stream with all patrons invited. As we get close to it I will put out a poll of the most desired game to be played on live stream and we can all hang out and chat.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1125973",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 40000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-27T22:37:31+00:00",
+     "description": "When we get to $400/month, I will do a 4 hour long live stream with all patrons invited. As we get close to it I will put out a poll of the most desired game to be played on live stream and we can all hang out and chat.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1125974",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-27T22:37:31+00:00",
+     "description": "When we get to $500/month, I will do a\u00a05 hour long live stream with all patrons invited. As we get close to it I will put out a poll of the most desired game to be played on live stream and we can all hang out and chat.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1125975",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-27T22:37:31+00:00",
+     "description": "When we get to $1000/month, I will do a 2 -\u00a05 hour long live streams with all patrons invited. As we get close to it I will put out a poll of the most desired game to be played on live stream and we can all hang out and chat.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1125976",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-27T22:37:31+00:00",
+     "description": "When we get to $2000/month, I will do a\u00a010 hour long live streams with all patrons invited. As we get close to it I will put out a poll of the most desired game to be played on live stream and we can all hang out and chat.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1125977",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-27T22:37:31+00:00",
+     "description": "When we get to $3000/month, I will do a\u00a012 hour long live stream with all patrons invited. As we get close to it I will put out a poll of the most desired game to be played on live stream and we can all hang out and chat.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1125978",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-27T22:37:31+00:00",
+     "description": "When we get to $5000/month, I will do a 1\u00a0hour long live streams everyday with all patrons invited, as well as, a special 8 hour long live stream once a week. As we get close to it I will put out a poll of the most desired game to be played on live stream and we can all hang out and chat.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1125979",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000000,
+     "completed_percentage": 0,
+     "created_at": "2018-02-27T22:37:31+00:00",
+     "description": "When we get to $10000/month, I will do a\u00a05 hour long live streams everyday with all patrons invited, as well as, a special 10 hour long live stream once a week. As we get close to it I will put out a poll of the most desired game to be played on live stream and we can all hang out and chat.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1125980",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1440859"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "dd2858b7-2008-48eb-b5ed-93b8a005c94c",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "CC Riddoc is creating Gaming Adventures"
+});
+    </script>

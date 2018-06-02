@@ -1,0 +1,607 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "4J1n33VlZMbj0NHCrj-thKsqJsgsQ6QOQWrk9uA5BeU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "532554",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/532554"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-08-02T19:39:45+00:00",
+    "creation_name": "Education \u0026 Mentoring for Photographers, Writers, \u0026 Creatives",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1138610/b2c95f3a646c411d92c88bda9d9fce17?token-time=2145916800\u0026token-hash=CCgSwMpJZVSQn4bdm1F32KdXUYQk521WqBUjA27R3Js%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1138610/b2c95f3a646c411d92c88bda9d9fce17?token-time=2145916800\u0026token-hash=uwEfE8jkJAvlQCfDA6u4Pu4MgOnyXMFrV25AznI7-U8%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 4500,
+    "pledge_url": "/bePatron?c=1138610",
+    "published_at": "2017-08-02T21:32:51+00:00",
+    "summary": null
+   },
+   "id": "1138610",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7166416",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7166416"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "922203",
+       "type": "goal"
+      },
+      {
+       "id": "922204",
+       "type": "goal"
+      },
+      {
+       "id": "922205",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1138610",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1138610"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1894851",
+       "type": "reward"
+      },
+      {
+       "id": "1894848",
+       "type": "reward"
+      },
+      {
+       "id": "1894854",
+       "type": "reward"
+      },
+      {
+       "id": "1894849",
+       "type": "reward"
+      },
+      {
+       "id": "1894852",
+       "type": "reward"
+      },
+      {
+       "id": "1894845",
+       "type": "reward"
+      },
+      {
+       "id": "1894847",
+       "type": "reward"
+      },
+      {
+       "id": "1894846",
+       "type": "reward"
+      },
+      {
+       "id": "1894853",
+       "type": "reward"
+      },
+      {
+       "id": "1897717",
+       "type": "reward"
+      },
+      {
+       "id": "1894850",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-08-02T19:39:33+00:00",
+     "facebook": "https://www.facebook.com/JessicaLark",
+     "first_name": "Jessica",
+     "full_name": "Jessica Lark",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7166416/77b01c374fed4244b9781707d38af2e3?token-time=2145916800\u0026token-hash=ko69QINyiPfpS-6AjLCcw-pK4R2L9AKZr_HZDrYhrQs%3D",
+     "last_name": "Lark",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7166416/77b01c374fed4244b9781707d38af2e3?token-time=2145916800\u0026token-hash=k5rA-Ms_L2ckL2_6hQcdS7xy3SK8Lha136tKexv1jkk%3D",
+     "twitch": null,
+     "twitter": "JessicaLark",
+     "url": "https://www.patreon.com/JessicaLarkMentoring",
+     "vanity": "JessicaLarkMentoring",
+     "youtube": "https://www.youtube.com/c/JessicaLark"
+    },
+    "id": "7166416",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1138610",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1138610"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 9,
+     "upgrade_url": "/bePatron?c=1138610\u0026rid=1894851"
+    },
+    "id": "post-aggregation-for-0-1138610",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-08-02T21:10:20.764511+00:00",
+     "description": "\u003cdiv\u003eAt this tier you just want to see whats going on and dip your feet in.  By joining at this level you\u0027ll get access to my members only Facebook group.  There I place challenges, do critiques, and host Q\u0026amp;As for all members, checking in at least 3 days a week\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T21:10:20.764511+00:00",
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2017-08-02T21:10:20.764511+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Member Only Group",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1138610\u0026rid=1894851",
+     "user_limit": null
+    },
+    "id": "1894851",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-02T21:10:20.540680+00:00",
+     "description": "\u003cdiv\u003eMonthly I will release a blog post with an educational element.  These fluctuate between business and art, and take on a tutorial format.  Members at this tier also get to help decide on the themes for the month that we are focusing on.\u003cbr\u003e\n\u003cp\u003e(All Rewards tier down, which means you get this and everything below it) :)\u003cbr\u003e\u003c/p\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T21:10:20.540680+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2017-08-02T21:10:20.540680+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Members Only Education Materials and Blogs",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1138610\u0026rid=1894848",
+     "user_limit": null
+    },
+    "id": "1894848",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-08-02T21:10:20.777239+00:00",
+     "description": "\u003cdiv\u003eThe Library is a collection of marketing and business materials. Access to Model Releases, Contracts, Invoices, and more. It is updated with one new item monthly, and for easy download and search ability we also have it in a google drive that is organized for your convenience to find what you need quickly and efficiently.\u003cbr\u003e\n\u003cp\u003e(All Rewards tier down, which means you get this and everything below it) :)\u003c/p\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T21:10:20.777239+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-08-02T21:10:20.777239+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Access to the Library",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1138610\u0026rid=1894854",
+     "user_limit": null
+    },
+    "id": "1894854",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-08-02T21:10:20.562191+00:00",
+     "description": "Some months we\u0027ll look at images, others we\u0027ll look at websites, business materials, branding and marketing, and more.  Monthly I\u0027ll do a live critique that you can tune into and will be available for rewatch to help you improve upon your business and your craft.  I will randomly select as many images as I can to go through in a 1 hour period.\u003cbr\u003e\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T21:10:20.562191+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T21:10:20.562191+00:00",
+     "remaining": 60,
+     "requires_shipping": false,
+     "title": "Member Group Critiques",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1138610\u0026rid=1894849",
+     "user_limit": 60
+    },
+    "id": "1894849",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-08-02T21:10:20.762374+00:00",
+     "description": "\u003cdiv\u003eBi-Weekly we will do group hangouts, Each with a different focus towards a specific thing you would like to talk about.  Youtube allows 10 people to sit in at a time, so it will be on a first come first serve basis to participate, but all in this group will be invited to watch and given the links to rewatch.  They also can submit questions before hand to be answered live.\u003cbr\u003e\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T21:10:20.762374+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T21:10:20.762374+00:00",
+     "remaining": 40,
+     "requires_shipping": false,
+     "title": "Group Hangouts",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1138610\u0026rid=1894852",
+     "user_limit": 40
+    },
+    "id": "1894852",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2017-08-02T21:10:20.526497+00:00",
+     "description": "\u003cdiv\u003eAt this rate you\u0027ll have access to everything previously listed, and also will have access to live recorded one on one meetings of 30 mins once a month that will be broadcast to others in group.  \u003cbr\u003e\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T21:10:20.526497+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T21:10:20.526497+00:00",
+     "remaining": 30,
+     "requires_shipping": false,
+     "title": "Live 1 on 1s",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1138610\u0026rid=1894845",
+     "user_limit": 30
+    },
+    "id": "1894845",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-02T21:10:20.539363+00:00",
+     "description": "Similar to the previous reward:  At this rate you\u0027ll have access to everything previously listed, and also be able to book one on one meetings of 60 mins monthly\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T21:10:20.539363+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T21:10:20.539363+00:00",
+     "remaining": 19,
+     "requires_shipping": false,
+     "title": "Monthly Private 1 on 1 Mentoring",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1138610\u0026rid=1894847",
+     "user_limit": 20
+    },
+    "id": "1894847",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5500,
+     "amount_cents": 5500,
+     "created_at": "2017-08-02T21:10:20.526565+00:00",
+     "description": "\u003cdiv\u003eHard Cover Limited Edition Version of Artistic Seductions, a $125 value, signed and given with a certificate of Authenticity. (a $40 shipping fee is necessary for anywhere outside the USA)\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T21:10:20.526565+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T21:10:20.526565+00:00",
+     "remaining": 100,
+     "requires_shipping": true,
+     "title": "Limited Edition Signed Book",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1138610\u0026rid=1894846",
+     "user_limit": 100
+    },
+    "id": "1894846",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-02T21:10:20.759842+00:00",
+     "description": "\u003cdiv\u003e30 minute mentoring sessions Weekly or 60 minutes biweekly, privately with me to work on your continued goals and growth with your business.  Along with everything below.\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T21:10:20.759842+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T21:10:20.759842+00:00",
+     "remaining": 15,
+     "requires_shipping": false,
+     "title": "Weekly Private 1 on 1 Mentoring",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1138610\u0026rid=1894853",
+     "user_limit": 15
+    },
+    "id": "1894853",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2017-08-03T20:55:23.672222+00:00",
+     "description": "\u003cdiv\u003eAt this tier you gain complimentary access to one full day of my workshops anywhere in the world. \u00a0I\u0027ll list and promote them months in advance and which ever strikes your fancy, one month at this level entitles you to one free entrance. \u00a0Each month you pledge is another day for you at multi day events, or for friends/colleagues you\u0027d like to bring with you.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-03T20:55:23.672222+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-03T20:55:23.672222+00:00",
+     "remaining": 50,
+     "requires_shipping": false,
+     "title": "Complimentary Workshop Entry",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1138610\u0026rid=1897717",
+     "user_limit": 50
+    },
+    "id": "1897717",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2017-08-02T21:10:20.748951+00:00",
+     "description": "\u003cdiv\u003e2 days at Lark Manor as my personal guest to work on your business plan or creativity. \u00a0We\u0027ll work together to come up with a 2 day syllabus to focus on your personalized goals.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-02T21:10:20.748951+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-02T21:10:20.748951+00:00",
+     "remaining": 15,
+     "requires_shipping": false,
+     "title": "2 Day Private In Person Workshop",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1138610\u0026rid=1894850",
+     "user_limit": 15
+    },
+    "id": "1894850",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 250000,
+     "completed_percentage": 1,
+     "created_at": "2017-08-02T21:22:51+00:00",
+     "description": "At this level we can start offering new content with high quality video production, live shoots, Post Production, and multi part video series as well as new books and resources. \u00a0We can also double the amount of material we\u0027re outputting at each tier level",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922203",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-02T21:22:51+00:00",
+     "description": "At this level we can begin offering in person 3 day workshops for one patron each month as my guest at Lark Manor. \u00a0The mentorship will be all expenses paid for the patron with the exception of travel/flight.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922204",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000000,
+     "completed_percentage": 0,
+     "created_at": "2017-08-02T21:22:51+00:00",
+     "description": "I\u0027m optimistic but WOW! \u00a0If we get to this rate you and I aren\u0027t just helping each other... we\u0027re majorly impacting the world! \u00a0The first major project we\u0027re undertaking is the building of a school house in Cambodia for disadvantaged youth. \u00a0If we could maintain this level for 5 months not only could we finance the building of the entire school, but also fly our film crew over to create a documentary of the entire process. \u00a0Everyone contributing when we hit this goal will also have their names included in our Patron Plaque on the school wall. \u00a0\u0026lt;3 \u00a0\u003cbr\u003e\u003cbr\u003eOnce we finish the building of the school you all can help us decide on the next humanitarian and/or philanthropic endeavor.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "922205",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1138610"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "71c89b13-8562-4c76-944b-695152e892dc",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Jessica Lark is creating Education \u0026 Mentoring for Photographers, Writers, \u0026 Creatives"
+});
+    </script>

@@ -1,0 +1,431 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "eeTzVeZEABEfMSakSgZrIc8srkS_O_BbDrQ2S1N7hFI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "235865",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/235865"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-09-20T02:48:14+00:00",
+    "creation_name": "Cosplay",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/526519/c9a51ad50edb4288ab4fdf9f230af283?token-time=2145916800\u0026token-hash=ICxqGwScFB_sQqsaJo8jkPaHMoGVJPClovjHMEJjrlc%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/526519/c9a51ad50edb4288ab4fdf9f230af283?token-time=2145916800\u0026token-hash=Mvlh1G8hh65cj8yKDOoTDsvApuFcKXjxDleB8gcPMbw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=526519",
+    "published_at": "2016-09-20T03:34:33+00:00",
+    "summary": "\u003cimg src=\"https://lh3.googleusercontent.com/hcwrAx1v2rOA3U-eR0R95ha4lZejh93x4vH_qYVqC0yD_sX4H2ZEsio_YSkbN4Oa3ZdL18fiw_jjC7DrfHheHD9FZ46q27WawjA3lduki856Sq0kYPSyKFEuJsughRYhCU5PaqNrX-UKGPF2VD46gFPoMv5h4DYtN1v9hqt91Bo6W23gO0eAJEPEZ-QJeB5OmyZriHYhIzzULMv2bNoPLNQQTaC__Iz8y5wQEDKNPCQ8KaHH0gqngSKsSzCEVpajgbWT0mU3SUciyVTB-NRy-apxBttmZvQkxdwT4t0Hb7EotR8g-W9L6MXpDw9rOmRAMoljoHat90iylgfyLZMD1ZHCPF2_O8GtFvmtZYql_lPhcF6fCVSL0IX6d01q0cGIfQV3iMqOgmWEHppAlUEAhRT_MTSfPU9SFv8YrFy3UBnYOB6cOyIgfBJEMaMawX1Gk3BgRhuwJT2nYA_r4k2IB9AFnph5mVIN3ZvuQw98-1W3cLtat4gnFO6JB46S2XA6JwKn5usW6cSwBNqR3UR4yKFVUdTp8i8LKPA7iJtBRvfeq96luoJvUctHLrzbktM8uul3NlP55Gzi0kYYwcyuZNxe-fDFBYrSvTUi5_PScuWEPsA=w580-h327-no\"\u003e\u003cbr\u003e\u003cstrong\u003eQuick About Me - \u003c/strong\u003e(to be read in British\u00a0narration... more \"butler in Buckingham\"... less \"cockney in the city\", or not... the second one works too.) Foamsmeef Kyle, a nerdy man-child, aged 24, is looking to launch into the career of his dreams; making his childhood heroes come to life in the physical 4-D world and helping others achieve their fantastical costuming adventures.\u003cbr\u003e\u003cbr\u003e\u003cdiv style=\"margin-left: 20px;\"\u003eAnd now! A little bit about some of the rewards:\u003c/div\u003e\u003cstrong\u003e\"\u003cem\u003eSmeef Sack\u003c/em\u003e\" Guide:\u003c/strong\u003e [All sacks on hold until January]\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/b4zpkjKsS95921rf344nx6WAlCYOHDNuwK4BBYspunrfcqbsYOqcMeZVHdgqRaJYCBiKNaoOk_rANtI7oA3_TshlwmN_Ynjm_DXlZTokeiXpw_963D7sjazxhbkxVlVl0Dk2Zg1QcA9YBi4ZKKhtVBxDJTNYV3TPPYald6UQ-Odo0T7ZonQx26TsiBq2EJUliOKmoHtNCJnhM5HJ7hAqzJ7G95yINo1t0bQnAek3CyEr48tRF9dCRvt3f3056PfNGXJkRftaycKFISpzc97W7UL3nkylWDM2LmtuPsPGztEWZW-7pPiYYE4nvSHQlVA5wWY1s8gavHjL78s8LcsVXHERDx40EJNzXl1RsOvdVX4vR0PGuwTexhNyHlqQk8nB01_zUCjCKpQWel9UpuuwKw0lah1LAOMwdjxf27lBOx5aCxGIKlyDbwV5_1fB3vGFtdPgDadozWd4P6uT5xeevSj9WoXPvsHFMcwBWJrY0O2nIYIqGvC6fBzHNJIDmpHtT7zqBl4JNI53TI7nDmc4xarPZCDgpnZ-WWg0lmuYFJoiobdxfvJZj8xtTU0nTEW2nlC7fqUhW-MCz15anTqsNPY--7nDVuKXK7LnrkVibBCggHI=w1388-h925-no\"\u003e\u003cbr\u003e\u003cstrong\u003eStarter Smeef Sack:\u003cbr\u003e\u003c/strong\u003e\u003col\u003e\u003cli\u003ePersonalized Smeef Sack. (Complete with at least one original art doodle.)\u003c/li\u003e\u003cli\u003ePersonalized Syndicate membership card. (Feel free to request a nickname instead of your real person name.)\u003c/li\u003e\u003cli\u003eThank you note each with a unique message.\u003c/li\u003e\u003cli\u003eAutographed cosplay print.\u003c/li\u003e\u003c/ol\u003e\u003cstrong\u003eSecondary Smeef Sack:\u003c/strong\u003e\u003cbr\u003e\u003col\u003e\u003cli\u003eAll of the above +\u003c/li\u003e\u003cli\u003eAn additional 2 cosplay prints, 1 \"model print\", as well as a \"steamy-smeef print\" (it\u0027s a surprise... ;])\u003c/li\u003e\u003cli\u003eA random nerdy mystery gift\u003c/li\u003e\u003c/ol\u003e\u003cstrong\u003eSuper Smeef Sack:\u003c/strong\u003e\u003cbr\u003e\u003col\u003e\u003cli\u003eAll of the above +\u003c/li\u003e\u003cli\u003eAll prints I have to offer\u003c/li\u003e\u003cli\u003eA random nerdy mystery gift\u003c/li\u003e\u003cli\u003eA small random cosplay prop piece\u003c/li\u003e\u003cli\u003eAn individualized newsletter letting you know what your contribution is going towards and what\u0027s coming up in the near future for my life. \u003c/li\u003e\u003c/ol\u003eBut...\u00a0you may still be asking\u00a0\u003cstrong\u003e\"Por Queee!? Why!?!?!? What does it all mean and what is he doing this for?\"\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eShort Version -\u003c/strong\u003e\u00a0I wanna make-uh duh crazy cosplayyyees! And I wanna teacha thuh other people-uh!\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/wY6fLLoR_SGb2ATDCR0RWnOsxXQ8_akppDKg4nWsUaa2l66jfGjdxd-ajBLZSH00C8FUxeerB2MJyoDLK8tzkc5YjU_WqmO_idmt09JorbSJRgTOU96gUP7jq4i9GYi5bdkr0xFmvxcgAUHY6w8O5RV0rhA0d1fG02mOd0Eu3im8c4mJc82p_YaUMN4MInxTrrL4oVQnVDvl1VJoLg4nssOYJr9XwEbz-XW1e-0-szX0badI41MKRLijfIrKB02yR1C4I802h5Hajr0DhUKcmEDHpJ_kJ7wQaP6M9dGzqU0-29MLam_0Fl0oigkcrUmHYa1RZI5cHUhcepNA2AqVx6jQoEU9yhi4Tzu8NGl01lyvHgQB3690NLw8WpRIZjoRWOfGnOHy-zI6pwUcm8DUOU62yNuBXm9DlKaCTxUjvwzEyFsxHSh549qSAA8Tv1j49sD9cuuuFSiF7ei65hkoq7zzK-CWSg_hZj5YLj2GJQVdIU3dmMgi8O2JA8paxUP_pm7J8Ns7tTf3KeEYlg0WIUQjxZ7bxTBZPzxUHrVsdySbqD9vfLw8bsO4Ep5dakLNS4SXi5sb9snoi3RrIAydIJoq1Evx3bD734tIWuk3_lkjmJk=w1645-h925-no\"\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eLong Version -\u003c/strong\u003e I work a full time adulting job IRL to make sure I can sustain life and also scrape by some extra funds for cosplay and creating things...\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/Z8fLIcHFhspCG-_gcenJXHXKAXOEZLiLbC-7tMzE0zm6vL1fidAEyJz579Vk-ZzxiHKcFnNo2SCM38pGhdKons6m6Qcaq0Xs3v8IKhCwFmB-alR3zKtxNXraTVJ9PV-qoP_Y2VxVb3BBs8ECbyq7xMqzlRumEMzNSPWiR3Cvr2ihsLpeDHTJH5LjT3RhhXhCYiKyWCPZsIh14Ta63XB1ilElzNvvTxKwjtz4qqLmVVMwOAWD7DBVvB2vS39Vdk5n7qpN9ebipUlUBMTIwOhYZ3gLnC6hjXfCG-dzP1aYBtJa3p4jjlHuE0X7BmuCet5IKcCyo0iiMCAdIF0AaDrfh0EGKVd17v_m3DjRpZn7IDkKYqUo1CsevTLEKzb4pqWolLBmEzIYuy1tMZAJiKteJlP2JGbBzBLDpRRjhpMmIZvX9DBEk8_fynEvxE7_Coxkya_kvt5_ySNjWNWPxMfApP2pQJb5mXvcB852TsdUvckDlL2bBgVJ9IdSI3jArCd9WLgBuNOCg9KjeSCrnuNnjt-1ntv5P4XlqET4zfXp-qIeSTIDIYnn8rOt5mqLSqC3K3y3KUDdyq5lkyjNK2z97br-JaRyvrHtyGbC4lR6V6pwSWs=w940-h529-no\"\u003e\u003cbr\u003e\u003cbr\u003ewhich have kindof taken over my life...\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/28IkbH2ddub0UMe3eJaQpS9c4YNGKc96vfjc93FTLdjvTyOewCboKq97PLT16gBuvyJcXIcpn2Ttd37HpAjYnqTZrZH_XVP2YT3iCP7QzivxU1Ey20OKW_p9JhCyEyB8qIysroqaJ3nomPd4qYj1ZmY3GGMkcoFpjQVEOoKCdMBkfrMcqfS2HH8aGL9CfVy1asvp04B7Kz4-DmXLfMU78kmqU7CTyV-fHaPU4fNDHezVkN9q99oM_Mcvjrg4FsWpSNgoxp7kunS8s0i8tTN7S0C6uB23wCGHz7ddG-dL9K3BIxHEML4ZtMUTozmHACPYh6ILFQB1yKNXd0Rdr4pQtDkV_LXuLJ1JN5erSqngwlV5oYUr2xhi1Ft2C3L6fNypX-osgZe2iso75C13zzoexiCJMN_QiO3OfZ7jGe2sNHoBu7LqrzkIt1ThxqO_1aiGJ8SVeoNGyJddYvn69cSSbOBWak1NeFNUe8n8bsW5kw0OAy74uFZdBTbK7HQGUumYBE3Kx-cMqBIt1lz3-H3B8GuW1J0eMtysIto2RlWrxIR9DmsPugCKmUFdqpk6ZJyWz-6VSLnGsoewyrY6ftUOVBfBSI_S2yKp7XReBBHUM9Iad3Q=w1388-h925-no\"\u003e\u003cbr\u003e\u003cbr\u003eand make me a better me... (with fitness, confidence, socially, etc.)\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/Ywx2IoZrmuaBB7hvYel4ggWyuXorV9S05aRw69_SNE4hqgMH072zcRWtPdSEO1uApLdn5oGlwGDDkkIaGp06N2pAJFE0IEPk02Gxx-jGqvcPj7LbNPLKsXi_SVP0F04jt4rTHQr1kgY8-O_Lq1G_zk2Nf8OqF0BvHEVjBsJSq7FyGpzsp0APdd82ovTl4f-kE6YCSZjYQ7i6aBZUbW41F4PqHULCmW7gHCZS0LX3mcTnYQ1ozi1DBKjTEHWU0wKjbJYs07oGyjkar4nPs-wjsEjrIrOmvF0YvqtCeNsWIXm9k_ZqdFLklJXgMLOr1-90g3U8V7gZTgyWIwcbBs9ds52UoIn2tbM7hDJVqOxUgzRve5NgGEYZRXwjnlarfLNqs-e-131kknA-1kBmoZCAR_gT0w4Ezn-y6IcxLyUrz3f-KycHVji2YNeYc6gSrzf1aiLv8x6s4un-sGfK8jxnsX3aYC2R4_sqZYnQ1M8g-WgeXVYdKE0luvHdLB7kVVc-Ac2QEZbIPUTA8BNvTx68bhU6dpqJoofFrL6frO_ari-ig1hJY0J_RqslBELXAuV-ogJvTys26aTmCoxFTG1S4TEkxSHQ6eYb4bxhm6xpYY5wgLo=w599-h898-no\"\u003e\u003cbr\u003e\u003cbr\u003eand I want to share it with the world...\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/7MoeSdIpMXn2FLXn0ZMG4b-j47COiWXhvhFexr1rvtJkGbzvbNdf2Wt6fpyz_5Mc-aVVvK2P05bkbeUUeMw5GTz6lMFnIJTWifxXJtIeM91aqQa8mykU2ELVymNCbE-lQPsG91zw518jSQkkNTHqgVElYOavI-MHTuJyMe3BTcYex3z-dMwD9vSKDgITlAxS-y5lTd_GnwLG3oGtkIjHkrM-KBceRtYQyKL17pIQESfjmOkG63lYJolwg6ZJbhbQA38acGbEWcdCKgHn3SgHQIGOZQ5zYWU9SPF17YmH4qwHABN3tPjt4cbu_Fe7HB_29Stll_WLSF7ffVykvdIcK-fiJFP44JhkkAyrFS7yUIYOE6Fg1Sr6b9gaKfW1hfboQNvanv2Eikm0kG1oocPswdEzHNlCDYzxpdq2joU01SYZ9kHvgenYEQ_dQqRKrU1BJVOtcbOOBESRu8r6vIhnzIQCYCqyFbDIIvjKW1CWT6J90aK_QdyZ9pZUUYQYqG_iWnnJe5pMZoGuP9sV4FXsugjwYOngtHLR_5Y7bZ2iNYOyui1jZh6s9YXI1iabnROruNvylxiwTFobQvCxg17Ijd2i7bbSCBdpXhfnHyQ4wsRO5KU=w1295-h925-no\"\u003e\u003cbr\u003eNow with Patreon; it might be possible! I will be able to triple or even quadruple my content. Not only will it take me out of the financial black hole abyss that is this hobby but it will make me accountable to my awesome fellow \"Smeefs\" so I have no excuse to slack off because you guys will have done so much for me I will inevitably work my hardest to repay the favor.\u003cbr\u003e\u003cbr\u003eAnything else? Just ask =]\u003cbr\u003e"
+   },
+   "id": "526519",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3177260",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3177260"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "600322",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-526519",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-526519"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "806611",
+       "type": "reward"
+      },
+      {
+       "id": "806612",
+       "type": "reward"
+      },
+      {
+       "id": "806613",
+       "type": "reward"
+      },
+      {
+       "id": "978514",
+       "type": "reward"
+      },
+      {
+       "id": "978513",
+       "type": "reward"
+      },
+      {
+       "id": "978520",
+       "type": "reward"
+      },
+      {
+       "id": "978519",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2016-04-17T06:08:11+00:00",
+     "facebook": "https://www.facebook.com/Foamsmeef",
+     "first_name": "Foamsmeef",
+     "full_name": "Foamsmeef",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3177260/9298c187f3dc49008d4fdc775bc20703?token-time=2145916800\u0026token-hash=5UE71AGTJMpzxQR4DEihMiNEvI7iwJ9IO8wLF3enRgM%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3177260/9298c187f3dc49008d4fdc775bc20703?token-time=2145916800\u0026token-hash=fUzRR1nGpJVXWCe_xwkgdJNkTL7HdWToVyBLjzCsl60%3D",
+     "twitch": "https://www.twitch.tv/Foamsmeef",
+     "twitter": "Foamsmeef",
+     "url": "https://www.patreon.com/Foamsmeef",
+     "vanity": "Foamsmeef",
+     "youtube": "https://www.youtube.com/Foamsmeef"
+    },
+    "id": "3177260",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "526519",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/526519"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 39,
+     "upgrade_url": "/bePatron?c=526519\u0026rid=806611"
+    },
+    "id": "post-aggregation-for-0-526519",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2016-11-05T22:45:37+00:00",
+     "description": "\u003ca class=\"redactor_btn redactor_btn_italic\"\u003e\u003c/a\u003e\u003cimg src=\"https://lh3.googleusercontent.com/n5PS3KjznppSRj8XtDqbzWrwfbZY5s8jF3i3zGihpAcw8XRMV6T2ZDQ0-LKRBcq6caWh5uSXLCbmwby4Uczr1oXN5roPosbNKoyGHpxjihwjMPig1Ntu8YPESThFsQRMTHvJoMyUeQg8Dj7FwJlz82YW-xXKtsVadM9vR8YvVkCsj7Rbiwxppyr2stjPrV_6IPYA2yKqiTyfXjMGqQs2kNzaAK9CwD9KcJBFWryELzavCkilz03uWfHnxU3_0Z_bdNq7NWxNBtcQycaMyoGEMzMObV8r4g6vUIYFgxBogTmbWVmIt77T0JkBFyTa2Aso7xuSjwKB_L1beLt-hC3bEhUiD65iunx2Ia51Z2E-kV5VcgrmgEXrupySA_VZYNyWe1-XE0HlZJUbxnMkZLLwSO24R0fgmlFSUS_BubBPmXbfgzXpsE8q3AkmuMnIkzM4ou-Q1A8_g8tAde8LGEwdBnp5dMfCq81BQuYy1v8Kx5vu-wceg_pbf-eTx5gQAiFm4Q-c3bKHuTTVPbPb7cN1PbS7fx-DwkEnAfEYT94Ksjd01MkZpnsHmKOEl8KmZlZWHh8gWSFsCoXJmr85fMWIQb6qeoUoKCbAc7Zt5JHTu1K0c6g=w685-h257-no\"\u003e\u003cbr\u003e\u003cstrong\u003eFansmeef - \u003c/strong\u003eYou\u0027re officially a \"\u003cem\u003eSmeef\u003c/em\u003e\"! And as such you shall receive my love in the form of virtual admiration. I also just wanna say thanks! It really does mean allot that you want to support my work and help more of it come to life. Thusly...\u003cbr\u003e\u003cstrong\u003eSmeefplements -\u00a0\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e1:\u00a0\u003c/strong\u003eYou\u0027ll have access to my Patron-Only Feed. A myriad of posts, pics, and pro-tips you won\u0027t find anywhere else but here!\u003cbr\u003e\u003cstrong\u003eBonus: \u003c/strong\u003eIf you stay in the Smeef-Syndicate at the \"\u003cem\u003eFansmeef\u003c/em\u003e\" level for 6 months I will send you a Starter Smeef Sack!",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T07:28:35.219390+00:00",
+     "image_url": null,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2016-11-05T22:45:37+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=526519\u0026rid=806611"
+    },
+    "id": "806611",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-11-05T22:45:37+00:00",
+     "description": "\u003cimg src=\"https://lh3.googleusercontent.com/bKcm-RKsyYn_0uCfP_pLQRXvw9or5P7-atqbuVE2zd7jXLNUAqLgk1veLnaCJA8D5b3Ox1q028c42Q-1R3Lh9ud0PX87mqEjrCYCihCb8pZAYzaXUup4JytC1_A3bqD1jgxpRyrqahcU5nbAiJY9Sb4mrg2j0Xh95nZK6oLBlU6drj1QpcXB7lypGIqs-CQmkewjQUUdWojDh2vu0yToQ9QrDDfIMSXhDyZOMFeFoUdcnG_P9XWEKn1MS71b1pVkMJkOyyxMD-U6fzToKStpAJAX36M-z30mFVMmTPTOcm_mJiag5eLMb31cFipbhIe5_Iucm3mMcdC4Is5eJjVRdAPDQwD6euglW2BaN82WsrCqVyakbRx4BLtctA7JuVBRH5l4zMYYxv77dTdUFuIrydF0eyJKgiVpUEUSbktOcJ1EcMPukKfVHT88yD2PRqO48NaZXNZG10yudAb_gwrX5eex6UenrND335HOafi7hWG2f07mGKfuRu2u8B5ck4LxFikT7_mEBFW92bKU6WUhR-J7O6T_q9wJDjGNhclcu_zRHqd2lKzuaQJs2xrTCQUl4aW_tbwhJUh52iVilA1VShhazPMIDZKlF8ZmgPLASZn4J2o=w685-h257-no\"\u003e\u003cbr\u003e\u003cstrong\u003eFratsmeef -\u00a0\u003c/strong\u003eWhoah! Now you\u0027re really showing your commitment to the \"\u003cem\u003eSmeef\u003c/em\u003e\" way of life! And in return you will gain access to even more \"Supplimentary Smeef Content\".\u003cbr\u003e\u003cstrong\u003eSmeefplements - ^^^ (All above as well as...)\u00a0\u003cbr\u003e\u003c/strong\u003e\u003cstrong\u003e2:\u003c/strong\u003e Get ready for some succulent Patron-Only Video Content featuring diaries, project updates, and project stream sessions.\u003cbr\u003e\u003cstrong\u003eBonus:\u003c/strong\u003e\u00a0If you stay in the Smeef-Syndicate at the \"\u003cem\u003eFratsmeef\u003c/em\u003e\" level for 2 months I will send you a Starter Smeef Sack!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T07:28:35.244358+00:00",
+     "image_url": null,
+     "post_count": 7,
+     "published": true,
+     "published_at": "2016-11-05T22:45:37+00:00",
+     "remaining": 100,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=526519\u0026rid=806612"
+    },
+    "id": "806612",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1200,
+     "amount_cents": 1200,
+     "created_at": "2016-11-05T22:45:37+00:00",
+     "description": "\u003cimg src=\"https://lh3.googleusercontent.com/M8Wqz6oA1j1kKIjit29US5riKGYomdjnDHteX85haR8MXgFgG2DwknhjagjB41kiGcemWmtmsj0eTxGDcsbOH4q0ltr6ycfu9bLr7wEB7s8SpC0GBKmT2llfKzdt28Vd0GynAsiHFdcWnHMcA6br_M8Zg7xiDOg2aR-B1UOZ9LmBIzJQWDXnDCgDLNRVY1kgwNhBSQqdLVa0V0JnEbdH4sreG8w84NIGmmmKRjzJC9UkDxeobbzal4uh3Mcde-VbPo3j8hEWJipVvSaQDzB8JUPplr58RYOC-8C0fhaEYNsGn4OT5opcyvq1BiSNuOitxB_eK_0_D3Ggiz906CMXxz1BuE2ezQuPH29iyQQBhoF9oUMlQNlzIpqJkTeY4oTdURhjEPBSBFpYsl-y4eX7Jx_nidbMs_WsJa1fC4B0xCA9Q_qPbSM8Cm8Cf7Jx9PpASjVdBCgkq9gBWhMyXqdL67Ab8TMgfcZrh2Lbraq9y3Z91kQKfnagdGQrUN7r1yxrLaKO2BtjVCq1w6YoFz-eixgaE6LJ0VF0I-bJEgqxaKBeRSebdQ5iiHbw-lfQoO9MYOgI6yRTTdXHQ1h35vooK81LGXj8hIw7bvicXVCB1awC008=w685-h257-no\"\u003e\u003cbr\u003e\u003cstrong\u003eFriendsmeef - \u003c/strong\u003eWoot! It takes true friends to allow them to encapsulate you in an algae bi-product and cement; and you are now at that level!\u003cbr\u003e\u003cstrong\u003eSmeefplements - ^^^\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e3: \u003c/strong\u003eScintillating sneak peeks at upcoming costumes, conventions and projects as well as secret behind the scenes footage and media from photo and video shoots!\u003cbr\u003eBonus:\u00a0Just for being in Smeef-Syndicate at the \"\u003cem\u003eFriendsmeef\u003c/em\u003e\" level I will send you a Starter Smeef Sack!\u003cbr\u003e\u003cstrong\u003ePlus+\u003c/strong\u003e\u003cbr\u003eEntrance\u00a0into a monthly give away for cool random nerd and cosplay items!\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T07:28:35.267036+00:00",
+     "image_url": null,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2016-11-05T22:45:37+00:00",
+     "remaining": 100,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=526519\u0026rid=806613"
+    },
+    "id": "806613",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-11-05T22:45:37+00:00",
+     "description": "\u003cimg src=\"https://lh3.googleusercontent.com/l02nE4_kID8a9grMZktOfXTZ_7CTDdxooFlyIdROEjmEmFfvvcZMeMUuWO5TgpGNxzKO_wCfXdd1V6SmDnFrxszeGAiCjna4GqDva_Rrabn178Dwwk8eipR7iFh2cjj0tpcn-WI1pNy480Ykx1SpRt5p1owr1vIdo69JArG-zC8ipXFyLBoG5xN2oAkCnm5drE2GXgjUSJB9q1rL9hgBVDA0lYwSM1O_s-o3lyzvjUAKCqAkP0UdkUGbqOwxDclvhkFMouXghUfi_3Vo-Rf17NZm1OKMO4xLvBoK3ZqyzetI5PcQuffIobHE_IrOZUiXUO1dmOvFxVyehHbxWYFNdxVgoOEYVhzPPheydKpdG2nlBOQLgbmB7RDMy8z5ihP41Y_kLu8HqZLg8_i9jz4Boqp4po0v1tqUChXzHrOi9NEaNCFQooFgpBvp4vt_pYFPthO9E_2lBc3BL7qNArk5PiffoCBk6jU2r_Ey_6tsKuLMj4uss1dyYDpoiu3zzPSTcHt-GnNmjBG45e47WbrAqUz9dqeZ-j_lqitiLpCSH2vJvvqz_FXKNnUac-owLV4sTDxL7KfPWhXv2omCKAsQCrn1-ZSSRUsgwAvWU-XkRDhb_FY=w685-h257-no\"\u003e\u003cbr\u003e\u003cstrong\u003eFundamentalsmeef -\u003c/strong\u003e Nioce! You know that weird stage where everything becomes militantly obsessive on a strange cultist level? Well you\u0027re here! Yay?...\u003cbr\u003e\u003cstrong\u003eSmeefplements - ^^^\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e4:\u003c/strong\u003e Access to \u003cstrong\u003e\u003cu\u003eALL\u003c/u\u003e \u003c/strong\u003econtent including Fundamental-Only media like: tutorials, build tips, and trade secrets!\u003cbr\u003e\u003cstrong\u003e5:\u003c/strong\u003e Access to the Smeef Snapchat! As if the stalk level wasn\u0027t high enough... \u0026lt;(^.^\u0026lt;) All the randomness shall flow amongst our telephonos!\u003cbr\u003e\u003cstrong\u003eBonus\u003c/strong\u003e:\u00a0You shall receive a\u00a0Secondary Smeef Sack! (Next level up from The Starter)",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T07:28:35.290150+00:00",
+     "image_url": null,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2016-11-05T22:45:37+00:00",
+     "remaining": 48,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=526519\u0026rid=978514"
+    },
+    "id": "978514",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-11-05T22:45:37+00:00",
+     "description": "\u003cimg src=\"https://lh3.googleusercontent.com/Xo93SulySJVmIsIhuq15OwzUX1JeqgOZNkj4cy-cjVmciLerBEbVFCbauRCgayXVmN1F-f3AxP9I7OXWZUrwCpegycLbNv3KpKXaCxwas_NzDEy_Ie8kZPLE_zncoF7LIMfDQJQqw9q2WS2XUhWPV69oLoIqfoUTHZ7_DdglV3Ke6nqJpM5bk4hiS4d9BS4GvzeJVDG-zNmtD2kPaS0DbeEovP8EdeT6v8xQK-9QLUIIJA5OL1Fvy_jjDAYFCoWoisqPax9tCpX3d-bxdSvWyayf2g20CE-xpuxawrz5iQ8o3yowZhXKSZAA-qBAWSPGb1wwxARKvSJrV-ocCO6I-ZH0kSHdDjz1OrV3ZuAiwYUxEzQ70xqeroFnS0qrWFtWJafnjr0R-pxaKFGMqMqVi5ea3aT5GYopoPgIt2mY3ocgh0rV98XMCxTZsoFpWJDJxHF0LZxaLWkFErqU0Y-X5jsdLTCd349rriy737Lhvc4fECH3LB05bhf9mI-1sm8aXQX6XPbB5GVsblcwKq6Ygi9egGo2LC1sVM4JhBllVYNlp2iK3EIaqhXvGKywDynPzDmsaMV9VJcnOok_CqiITyd7paSJbABxORY1H1gAknQ6epA=w685-h257-no\"\u003e\u003cbr\u003e\u003cstrong\u003eFullsmeef - \u003c/strong\u003eAyo! At this point you\u0027re basically me... so here\u0027s pretty much everything.\u003cbr\u003e\u003cstrong\u003eSmeefplements - ^^^\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e6:\u003c/strong\u003e\u00a0Access to the Smeef Smeltery: (A secret club within the Smeef-Syndicate that combines a myriad of personal and professional posts and solidifies them in one place just for Fullsmeefs to view.)\u003cbr\u003e\u003cstrong\u003e7:\u003c/strong\u003e Invitation to a monthly builder\u0027s summit I\u0027ll be hosting where we can chat about techniques, mediums, and cosplay!\u003cbr\u003e\u003cstrong\u003eBonus\u003c/strong\u003e:\u00a0You shall receive a Secondary Smeef Sack! (Next level up from The Starter)",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T07:28:35.312323+00:00",
+     "image_url": null,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2016-11-05T22:45:37+00:00",
+     "remaining": 25,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=526519\u0026rid=978513"
+    },
+    "id": "978513",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2016-11-05T22:45:37+00:00",
+     "description": "\u003cimg src=\"https://lh3.googleusercontent.com/FM6gsi4LMO881bq5Grpkm4cdtnuqzEh7gO-b-MJfCYBu2brIqyJ3AKyOpVB0cZqtSOzsHi4Xg4qAvcWvJFYQmlmIEeyUiF906EdsHj8lp0EA3B38bHWJPZMKzyUEAYRlDgpvYs1adKM8MBNeDo8LRHUbiOqqH4xsCW7nb18V7cNk8u1KKnOnZENQnz7hurecFSuJNjMIfKb9qe_bSh7S1R3cszKoGIWpyfaf_E-ihTcJw-KyAI_L3Pgj-yZK2OS5y7g7NQgL5bl1-XNrsH5DJw_5aV6dJ9V-aKY8yiZO5tAGyHIynQcMTqN-L2QZCufMIWBcO1J_qyOxxQKnTqdB9qmjRaWZjz7glOyRHT74JcUDbjWGIyVYXXj-_mrVPB_eJti0LbIrzIjio4Fj6cXa9CdDRwN8PIf8qzUTElmULE4wTJyWcj9Fwm_lpPKBKqjmrFUtXCOgaoLAdKI1K2O92B0F8ATPLPB2oluL_ZkBkCbd84q8GGCziSVkatx0dYufJAj3VQFFjbnNWBjRAf0DOsowNuV_dRnPYfYGpyrcP1yJ7EemF2oL73nvt1ICKdbYw_Tt6IvpymSGA0LXpofOnVZIebsF4YV8g1AeAQMIwKnAl8I=w685-h257-no\"\u003e\u003cbr\u003e\u003cstrong\u003eFiendsmeef -\u003c/strong\u003e A demonic version of the smeef-syndicate that takes being a smeef so seriously it is scary.\u003cbr\u003e\u003cstrong\u003eSmeefplements - ^^^\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e8: \u003c/strong\u003eAt this point you definitely have shown how big of a fan you are and I am eternally grateful, in return I\u0027d like to offer discounts on any products or items I may sell through Etsy or my business.\u00a0\u003cbr\u003e\u003cstrong\u003e9:\u003c/strong\u003e\u00a0A personal Smeef Skype Sesh where we can chat 1on1 and delve deep into the Smeefdom mentality.\u003cbr\u003e\u003cstrong\u003eBonus: \u003c/strong\u003eYou shall receive a Super Smeef Sack! (Next level up from The Secondary)",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T07:28:35.334531+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-11-05T22:45:37+00:00",
+     "remaining": 15,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=526519\u0026rid=978520"
+    },
+    "id": "978520",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-11-05T22:45:37+00:00",
+     "description": "\u003cimg src=\"https://lh3.googleusercontent.com/JAyxkqVZhR54AYt_4LybTWp9KewsWhcd63iuWGmZUuSWDq9XBauuiyhrF41iP0QfSti6oK1U-o74PFUy_U-hbk5M6ykUbiDGTa3ueld-8NUYjwbo1EzO8T9mdIrKe1UEdSczllFpggiXTaaUo0ctOJSSNqxv5xX1DrHbNlLr_ey7EVln86B3uBK6s1AEtWZEOf_ycpx_Htx2rCTQiupkxANbJsLS175L9ImdI2ugv1RJVYlva6dN33kNy0OtIB8FUKFPF7y9U9Lt2rqYkLV4FJV2C2tcLF3zaonyBfdIRpY2Ft-fjoQLLsSeTTKswMMiH39d3KwmGdesmZX4xWrORwhvaWCVEojs0lWeHrykrkYsYj-Jq_j2DrlC_HzWB1sTJP0yfMRjhYUjmtLG4yu1NEZg5ttYl-Xb9yAKkBynuZr30PReePrPmlvdyt9BWc6892jSsQgrKP5Mw2NBAIT68ySQ5_XpUC7ftNFQoTkjhtEUIiCD3-UOtZ2lrnzn7-lLGO7-tVXonxnGCsmrWHn6qpTCkyyefJ9yApB-Q8IZCDEPuSrImZA8MA7quqPgKzG0KKxYv_E3E3w6YWC5cXHdl420ourc_Z2Igu_PRz5d0HpG3hQ=w685-h257-no\"\u003e\u003cbr\u003e\u003cstrong\u003eFablesmeef -\u003c/strong\u003e A fantastical version of the smeef-syndicate that takes being a smeef so far beyond anything I could have imagined.\u003cbr\u003e\u003cstrong\u003eSmeefplements - ^^^\u003c/strong\u003e\u003cbr\u003e\u003cstrong\u003e10.\u003c/strong\u003e All I have left to offer is to make your dreams come true! Members at this level will be able to have personal input into costumes and future cos-plans, even business ops.; maybe I can create your favorite character or a prop! Who knows? The possabilities are endless!\u003cbr\u003e\u003cstrong\u003eBonus: \u003c/strong\u003eYou shall receive a Super Smeef Sack! (Next level up from The Secondary)",
+     "discord_role_ids": null,
+     "edited_at": "2017-02-09T07:28:35.356336+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2016-11-05T22:45:37+00:00",
+     "remaining": 10,
+     "requires_shipping": true,
+     "title": "",
+     "unpublished_at": null,
+     "url": "/bePatron?c=526519\u0026rid=978519"
+    },
+    "id": "978519",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 4,
+     "created_at": "2016-11-02T23:13:19+00:00",
+     "description": "I think this amount \u003cem\u003eshould \u003c/em\u003eoffset the cost of a major costume every month and allow me to produce content such as videos, schematics, tutorials, etc for all of you awesome people and also enable me to spend time developing studies and research to hone my skills with different products and pass on my findings to the public! \u003cbr\u003e\u003cbr\u003e(One of my first attempts down below! :} )\u003cbr\u003e\u003cbr\u003e\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/6W3mdiJAj_g?list=PL8_q0QqSGLN8csuU4DeYhhfZdvyJoa-CK\" width=\"560\"\u003e\u003c/iframe\u003e\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "600322",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/526519"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "8d965510-5ef5-4b4b-9f2b-8e2287c5ef4f",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Foamsmeef is creating Cosplay"
+});
+    </script>

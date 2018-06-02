@@ -1,0 +1,364 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "YujIWnJXCuWe2A-vM_UtMCz8sG_-KkuT86TVn0Q-7JQ";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "15602",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/15602"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2014-07-01T23:07:28+00:00",
+    "creation_name": "illustrations, conceptual art, writing, webcomics, videos, \u0026 pod",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI0IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/100194/01dbaef0ef34426ab45a26769bf8b9b8?token-time=2145916800\u0026token-hash=OGrIO32ti9G0_eI5136JdFzQqZGPAxFy0CZsrcSMd1s%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiNCJ9/patreon-media/campaign/100194/01dbaef0ef34426ab45a26769bf8b9b8?token-time=2145916800\u0026token-hash=-zqa0eFBN4SO-l_Y1Mo-F70dTeP4qUbsjVcvI0iadMg%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": true,
+    "main_video_embed": "",
+    "main_video_url": "",
+    "one_liner": "conceptual mixed media artist with moves like lovecraft",
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 461,
+    "pledge_url": "/bePatron?c=100194",
+    "published_at": "2014-07-01T23:07:28+00:00",
+    "summary": "\u003cimg src=\"https://farm5.staticflickr.com/4775/39952690394_a094be418a_o.jpg\"\u003ehi, i\u0027m \u0027trie (sounds like \"tree\") blasingame of tentacle-made studios, and i\u0027m a mixed media conceptual artist and illustrator who also writes, makes webcomics, and occasionally podcasts and even more occasionally makes videos\u003cbr\u003e\u003cbr\u003easide from creating conceptual works/illustrations, i\u0027m spend a lot of my time preparing work for cons and fulfilling commissions and other freelance work\u003cbr\u003e\u003cbr\u003ebasically, i make a (very, very, very, very questionable) living making art\u003cbr\u003e\u003cbr\u003eso, here\u0027s the thing:  the idea behind this patreon is to help subsidize my art-making practice so that i can share that work more readily with y\u0027all, which means that your support will go towards helping to pay for cons, for hardware and software in order to create better digital art, for traditional materials, and to pay for more mundane things like the roof over my head and ensuring that my tiny murder-machines are fed\u003cbr\u003e\u003cbr\u003eyour support will also mean more time spent working on my writing projects--\u003cem\u003ea glittering venery, the artifact chronicles\u003c/em\u003e, and \u003cem\u003ethe hunters\u003c/em\u003e series--and illustrating them.\u003cbr\u003e\u003cbr\u003ewhat i\u0027m hoping to share here with y\u0027all are the processes and behind-the-scenes parts of being an artist.  sometimes, that\u0027ll be process vids.  sometimes, that\u0027ll be wips.  sometimes, that\u0027ll be drips and drabs of what i\u0027m writing--sometimes, that\u0027ll be sneak-peaks at conlife\u003cbr\u003e\u003cbr\u003ehonestly, i\u0027m open to whatever y\u0027all would like to know about/see!\u003cbr\u003e\u003cbr\u003e(i should also mention that i\u0027m terrible at patreon bc, well, i feel like i\u0027m a bother and bothering people--basically, i\u0027m bad at self-promotion in any way *hands*)\u003cbr\u003e\u003cbr\u003ethe majority of what i do will always be accessible to all level of patrons, but i do have some double-super-extra bonus for patrons who are able to support in a financial way:\u003cbr\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e$1/month patrons:\u003c/strong\u003e access to my special \"kelp bed\" discord chat where y\u0027all can chat with me about art, character creation, what we\u0027re all reading/watching/obsessing over right now with the ability to choose which court or faction that one wants to be affiliated with; access to wips; the thanks of a grateful squid;\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e$5/month patrons:\u003c/strong\u003e  all $1/month perks; a downloadable poster print; the thanks of a grateful squid;\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e$10/month patrons:\u003c/strong\u003e  all $1/month and $5/month perks; special digital wallpapers to brighten (or traumatize) your day; icons to use on your socmed; the thanks of a grateful squid;\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e$25/month patrons:\u003c/strong\u003e  all $1/month, $5/month, and $10/month perks; access to patron-only art/writing streams (there will be art streams for everyone too, but patrons will get special ones); access to my special \"enkid\" discord chat where you\u0027ll be able to give me suggestions for characters and such; the thanks of a grateful squid.\u003c/li\u003e\u003c/ul\u003ei\u0027m sure that i will continue to tweak and refine these perks--and, i do reserve the right to--but these seem reasonable, yeah?\u003cbr\u003e\u003cbr\u003ethank you for taking the time to read this, looking at my various and sundry endeavors, and supporting them and me."
+   },
+   "id": "100194",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "214697",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/214697"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "47689",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-100194",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-100194"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "65365",
+       "type": "reward"
+      },
+      {
+       "id": "65367",
+       "type": "reward"
+      },
+      {
+       "id": "65368",
+       "type": "reward"
+      },
+      {
+       "id": "65369",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "hey, i\u0027m \u0027trie (sounds like \"tree\"), and i\u0027m a conceptual, mixed-media artist, illustrator, and graphic designer.\u003cbr\u003e\u003cbr\u003ei live in the north woods of wisconsin, dabble in ukulele, make things in my studios, or tap-clack away on my laptop.",
+     "created": "2014-07-01T23:07:28+00:00",
+     "facebook": "https://www.facebook.com/tentaclemadestudios",
+     "first_name": "\u0027trie",
+     "full_name": "\u0027trie blasingame \u0026 tentacle-made studios",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMyIsInciOjIwMH0%3D/patreon-media/user/214697/16647aeed3d34eddafb553bf346177ae?token-time=2145916800\u0026token-hash=BF8WwWdgiF8vpr8BXxcm4bifl94nVINiO7Bs0HdYlTg%3D",
+     "last_name": "blasingame \u0026 tentacle-made studios",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIzIiwidyI6MTAwfQ%3D%3D/patreon-media/user/214697/16647aeed3d34eddafb553bf346177ae?token-time=2145916800\u0026token-hash=RNf_QHGzm9Q3PMLzlGpqr7UPFhM5ezUNHd64we6uGqU%3D",
+     "twitch": "https://www.twitch.tv/tentaclemadestudios",
+     "twitter": "tentaclemade",
+     "url": "https://www.patreon.com/tentaclemadestudios",
+     "vanity": "tentaclemadestudios",
+     "youtube": "https://www.youtube.com/user/triesquid"
+    },
+    "id": "214697",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "100194",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/100194"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 39,
+     "upgrade_url": "/bePatron?c=100194\u0026rid=65365"
+    },
+    "id": "post-aggregation-for-0-100194",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-27T01:18:08+00:00",
+     "description": "\u003cstrong\u003eincludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eaccess to my special \"kelp bed\" discord chat where y\u0027all can chat with me about art, character creation, what we\u0027re all reading/watching/obsessing over right now with the ability to choose which court or faction that one wants to be affiliated with\u003c/li\u003e\n\u003cli\u003eaccess to wips\u003c/li\u003e\n\u003cli\u003ethe thanks of a grateful squid\u003c/li\u003e\n\u003cli\u003eaccess to my wips\u003c/li\u003e\n\u003cli\u003eaccess to patron-only content\u003c/li\u003e\n\u003cli\u003eaccess to the \"kelp bed\" discord server\u003c/li\u003e\n\u003cli\u003ethe thanks of a grateful squid\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "329345291020926986",
+      "384033002918772746"
+     ],
+     "edited_at": "2018-02-03T17:57:30.854955+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-03T17:57:30.824074+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "we\u0027re all cephalopods here together",
+     "unpublished_at": null,
+     "url": "/bePatron?c=100194\u0026rid=65365",
+     "user_limit": null
+    },
+    "id": "65365",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-27T01:18:08+00:00",
+     "description": "in addition to all the $1/month perks, \u00a0y\u0027all get\u00a0\n\u003cul\u003e\n\u003cli\u003ea downloadable poster print\u003c/li\u003e\n\u003cli\u003ethe thanks of a grateful squid\u00a0\u003c/li\u003e\n\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eIncludes\u003c/strong\u003e\u003cul\u003e\u003cli\u003eaccess to my wips\u003c/li\u003e\u003cli\u003eaccess to patron-only content\u003c/li\u003e\u003cli\u003eaccess to the \"kelp bed\" discord server\u003c/li\u003e\u003cli\u003ethe thanks of a grateful squid\u003c/li\u003e\u003cli\u003edownloadable digital poster\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": [
+      "329345291020926986",
+      "384033002918772746"
+     ],
+     "edited_at": "2018-02-03T17:59:10.135888+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-03T17:59:10.126423+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "tiny squids in tiny cans",
+     "unpublished_at": null,
+     "url": "/bePatron?c=100194\u0026rid=65367",
+     "user_limit": null
+    },
+    "id": "65367",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-27T01:18:09+00:00",
+     "description": "in addition to all the $1/month and $5/month perks\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003edigital wallpapers every month to brighten (or traumatize) your day\u003c/li\u003e\n\u003cli\u003eicons to use on your socmed\u003c/li\u003e\n\u003cli\u003ethe thanks of a grateful squid\u003c/li\u003e\n\u003cli\u003eaccess to my wips\u003c/li\u003e\n\u003cli\u003eaccess to patron-only content\u003c/li\u003e\n\u003cli\u003eaccess to the \"kelp bed\" discord server\u003c/li\u003e\n\u003cli\u003ethe thanks of a grateful squid\u003c/li\u003e\n\u003cli\u003edownloadable digital poster\u003c/li\u003e\n\u003cli\u003eicons to use on your various socmed\u003c/li\u003e\n\u003cli\u003edownloadable wallpapers\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "329345291020926986",
+      "384033002918772746"
+     ],
+     "edited_at": "2018-05-14T19:36:08.460818+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2018-05-14T19:36:08.453055+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "mystery squids",
+     "unpublished_at": null,
+     "url": "/bePatron?c=100194\u0026rid=65368",
+     "user_limit": null
+    },
+    "id": "65368",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2016-10-27T01:18:09+00:00",
+     "description": "in addition to all of the $1/month, $5/month, and $10/month perks, you get\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eIncludes\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003eaccess to patron-only art/writing streams (there will be art streams for everyone too, but patrons will get special ones)\u003c/li\u003e\n\u003cli\u003eaccess to my special \"enkid\" discord chat where you\u0027ll be able to give me suggestions for characters and such\u003c/li\u003e\n\u003cli\u003ethe thanks of a grateful squid\u003c/li\u003e\n\u003cli\u003eaccess to my wips\u003c/li\u003e\n\u003cli\u003eaccess to patron-only content\u003c/li\u003e\n\u003cli\u003eaccess to the \"kelp bed\" discord server\u003c/li\u003e\n\u003cli\u003ethe thanks of a grateful squid\u003c/li\u003e\n\u003cli\u003edownloadable digital poster\u003c/li\u003e\n\u003cli\u003eicons to use on your various socmed\u003c/li\u003e\n\u003cli\u003edownloadable wallpapers\u003c/li\u003e\n\u003cli\u003eaccess to my \"enkid\" discord server\u003c/li\u003e\n\u003c/ul\u003e",
+     "discord_role_ids": [
+      "329345291020926986",
+      "384033002918772746",
+      "384032132323868672"
+     ],
+     "edited_at": "2018-05-14T19:36:30.279599+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-05-14T19:36:30.272537+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "cecaelia",
+     "unpublished_at": null,
+     "url": "/bePatron?c=100194\u0026rid=65369",
+     "user_limit": null
+    },
+    "id": "65369",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 2,
+     "created_at": "2014-07-24T03:58:47+00:00",
+     "description": "so, we\u0027re going to start with a relatively small goal, which will help me to attend more cons, obtain better tech to make better digital art, obtain traditional art-making materials, and feed my cats\u003cbr\u003e\u003cbr\u003ehow about, once we reach this goal, i\u0027ll set up a poll, and y\u0027all will make the decision what your reward shall be?",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "47689",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/100194"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "42117ae1-d3f5-45f1-b252-0b5772677e33",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "\u0027trie blasingame \u0026 tentacle-made studios are creating illustrations, conceptual art, writing, webcomics, videos, \u0026 pod"
+});
+    </script>

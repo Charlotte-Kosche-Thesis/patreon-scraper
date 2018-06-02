@@ -1,0 +1,521 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "otYnyF1sP06ecyLP10vpGoXrjaCm1ZDCrtyjHLuen4A";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "715415",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/715415"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-01-18T03:02:27+00:00",
+    "creation_name": " a Gaming Channel",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1473209",
+    "published_at": "2018-01-18T17:07:49+00:00",
+    "summary": "Hi, I am Jpatz73 and since you clicked this link , that means you came from my twitch channel and decided to see why I have created a patreon. The reason I have created this is too be able to personally play with some of you . This will be mostly focused on destiny aspects but could branch out in the future. Also, if anyone has any ideas for more tiers , let me know.\u00a0"
+   },
+   "id": "1473209",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9346794",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9346794"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2294464",
+       "type": "reward"
+      },
+      {
+       "id": "2294472",
+       "type": "reward"
+      },
+      {
+       "id": "2296016",
+       "type": "reward"
+      },
+      {
+       "id": "2294478",
+       "type": "reward"
+      },
+      {
+       "id": "2296019",
+       "type": "reward"
+      },
+      {
+       "id": "2294481",
+       "type": "reward"
+      },
+      {
+       "id": "2296026",
+       "type": "reward"
+      },
+      {
+       "id": "2294493",
+       "type": "reward"
+      },
+      {
+       "id": "2296045",
+       "type": "reward"
+      },
+      {
+       "id": "2296100",
+       "type": "reward"
+      },
+      {
+       "id": "2296106",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-01-18T02:25:48+00:00",
+     "facebook": null,
+     "first_name": "JPatz73",
+     "full_name": "JPatz73",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c8.patreon.com/2/400/9346794",
+     "last_name": "",
+     "thumb_url": "https://c8.patreon.com/2/100/9346794",
+     "twitch": "https://www.twitch.tv/jpatz",
+     "twitter": null,
+     "url": "https://www.patreon.com/Jpatz73",
+     "vanity": "Jpatz73",
+     "youtube": null
+    },
+    "id": "9346794",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1473209",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1473209"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-01-18T03:28:31.310831+00:00",
+     "description": "This tier includes being able to play with me during the week and a trials of the nine run during each month.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-18T03:28:31.310831+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-18T03:28:31.310831+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 1",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1473209\u0026rid=2294464"
+    },
+    "id": "2294464",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-18T03:30:59.025481+00:00",
+     "description": "This tier includes tier 1 perks but the trials run is guaranteed flawless for the month\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-18T03:30:59.025481+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-18T03:30:59.025481+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1473209\u0026rid=2294472"
+    },
+    "id": "2294472",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-01-18T16:19:42.755100+00:00",
+     "description": "Same as tier 2 but I play on your account instead of you .\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-18T16:38:15.105285+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-18T16:38:15.085605+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 2.5",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1473209\u0026rid=2296016"
+    },
+    "id": "2296016",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-01-18T03:32:54.659148+00:00",
+     "description": "This tier includes tier 1 \u0026amp; 2 perks but the trials run is guaranteed flawless for 2 characters per month\u00a0and a psn or pc friend request .\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-18T03:34:23.726815+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-18T03:34:23.696153+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 3 ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1473209\u0026rid=2294478"
+    },
+    "id": "2294478",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-01-18T16:21:18.954166+00:00",
+     "description": "Same as tier 3 but I play on your account instead of you .\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-18T16:21:18.954166+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-18T16:21:18.954166+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 3.5 ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1473209\u0026rid=2296019"
+    },
+    "id": "2296019",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-01-18T03:33:50.705353+00:00",
+     "description": "This includes all the \u00a0perks before but the trials run is guaranteed flawless for 3 characters per month\u00a0and a psn or pc friend request .\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-18T03:34:41.289386+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-18T03:34:41.267957+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 4 ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1473209\u0026rid=2294481"
+    },
+    "id": "2294481",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2018-01-18T16:23:52.901000+00:00",
+     "description": "Same as tier 4 but I play on your account instead of you .\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-18T16:23:52.901000+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-18T16:23:52.901000+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 4.5 ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1473209\u0026rid=2296026"
+    },
+    "id": "2296026",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-01-18T03:36:41.239941+00:00",
+     "description": "This tier has the perks of having 6 guaranteed flawlesses per month and a psn or pc friend request\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-18T03:36:41.239941+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-18T03:36:41.239941+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 5 ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1473209\u0026rid=2294493"
+    },
+    "id": "2294493",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 6000,
+     "amount_cents": 6000,
+     "created_at": "2018-01-18T16:29:42.600664+00:00",
+     "description": "Same as tier 5 but I play on your account instead of you .\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-18T16:35:12.745932+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-18T16:35:12.720790+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 5.5 ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1473209\u0026rid=2296045"
+    },
+    "id": "2296045",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-01-18T16:43:08.285752+00:00",
+     "description": "This tier has the perks of having all your characters flawless every weekend in the month\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-18T16:46:04.673053+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-18T16:46:04.650516+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 6 ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1473209\u0026rid=2296100"
+    },
+    "id": "2296100",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 12000,
+     "amount_cents": 12000,
+     "created_at": "2018-01-18T16:46:48.398006+00:00",
+     "description": "Same perks as tier 6 but I play on your account instead\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-18T16:46:48.398006+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-18T16:46:48.398006+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tier 6.5 ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1473209\u0026rid=2296106"
+    },
+    "id": "2296106",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1473209"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "420ab0f8-b629-4dbc-9251-085a29376d49",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "JPatz73 is creating  a Gaming Channel"
+});
+    </script>

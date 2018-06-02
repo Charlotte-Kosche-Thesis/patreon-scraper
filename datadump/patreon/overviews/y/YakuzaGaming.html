@@ -1,0 +1,224 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "BBN27gu2GsY17BHmnouKxrUDhIYsHF7ZVJnKMP7jjKs";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "467629",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/467629"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-06-04T01:28:13+00:00",
+    "creation_name": "Creepy Games ",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/970722/d8bac9b7c0814d21be2cd7321829be11?token-time=2145916800\u0026token-hash=yAmHNaeYT5eo9z9LGLiEiKpULjr0CE0GZFEKm3oPytc%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/970722/d8bac9b7c0814d21be2cd7321829be11?token-time=2145916800\u0026token-hash=L4j7ZQCdYrRwKfNjU4mwGPHumLIfTCiIxXnUHC_07jg%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": "data:image/png;base64,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",
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": null,
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=970722",
+    "published_at": "2017-06-04T04:46:32+00:00",
+    "summary": "\u003cimg src=\"http://i1380.photobucket.com/albums/ah199/momoniko1/funsui%20-%20Titelbild_zpseic4ohgx.png\"\u003e\u003cbr\u003eWe need \u003cstrong\u003eYOU\u003c/strong\u003e!\u003cbr\u003e\u003cbr\u003eWe are game developers and trying to make great content for You.\u003cbr\u003eWe\u0027are currently working on an old school indie horror game called \"FUNSUI\" and it\u0027s based on the japanese horror movie \"the ring\".\u003cbr\u003e\"FUNSUI\" is our main project and we will probably work on it for a long time.\u003cbr\u003eWithout the tools that we need, we are quite restricted in our work.\u003cbr\u003eWe are trying to make the best of our situation. We came this far but we need your help!\u003cbr\u003eI hope there is a possibility that we may work together!\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003e\u003cspan style=\"color: rgb(149, 55, 52);\"\u003ewhy do we need your support?\u003c/span\u003e\u003c/strong\u003e\u003cbr\u003eWe are working on this game very often in the last time. We make everything by ourself. The story, music, artworks, animation etc.\u003cbr\u003eIt became pretty tough and we need some money for tools and stuff.\u003cbr\u003eWe\u0027re going to make this game just for you!\u003cbr\u003e\u003cbr\u003eThank you in advance!\u003cbr\u003e\u6709\u96e3\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u003cbr\u003e\u003cimg\u003e\u003cbr\u003e\u003cimg\u003e"
+   },
+   "id": "970722",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "6400853",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/6400853"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1740429",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-06-04T01:27:06+00:00",
+     "facebook": "",
+     "first_name": "Yakuza",
+     "full_name": "Yakuza Gaming",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/6400853/eca478c5001b4f26a9eb8595552bb550?token-time=2145916800\u0026token-hash=g6mqz3BBhnVlA9GDg6ikmiqi9v48IVUS15tX9ES89zg%3D",
+     "last_name": "Gaming",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/6400853/eca478c5001b4f26a9eb8595552bb550?token-time=2145916800\u0026token-hash=xNYZmrXiexdJu3DD5k7Ma1x8f0o913U-wJ5oqnE9v5k%3D",
+     "twitch": null,
+     "twitter": "Yakuza__Gaming",
+     "url": "https://www.patreon.com/YakuzaGaming",
+     "vanity": "YakuzaGaming",
+     "youtube": null
+    },
+    "id": "6400853",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "970722",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/970722"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-06-04T04:45:32.258018+00:00",
+     "description": "Thanks you very much for supporting us!\u003cbr\u003eYou won\u0027t regret your donation. Every dollar counts ;*\u003cbr\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-06-04T04:45:32.258018+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-06-04T04:45:32.258018+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The uncertain",
+     "unpublished_at": null,
+     "url": "/bePatron?c=970722\u0026rid=1740429",
+     "user_limit": null
+    },
+    "id": "1740429",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/970722"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": null,
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "411adb14-c28d-4de3-9571-2f1f22f9a919",
+ "is_impersonating": false,
+ "js_git_sha": "c63e95e8d0b5f99a7ad10ba27e6391decad5723c",
+ "page_title": "Yakuza Gaming is creating Creepy Games "
+});
+    </script>

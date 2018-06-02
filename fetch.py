@@ -28,6 +28,8 @@ GRAPHTREON_HEADERS = [
 DATA_DIR = Path('datadump', 'patreon', 'overviews')
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
+ERRORS_PATH = Path('mydata', 'badpaths.csv')
+
 METATAG = 'Object.assign(window.patreon.bootstrap, {'
 
 
@@ -41,6 +43,16 @@ def get_source_records(srcpath=GRAPHTREON_SRCPATH):
             records.append(d)
     return records
 
+
+def filter_paths(allpaths):
+    badurls = get_bad_urls()
+
+    paths = []
+    for p in allpaths:
+        s, url, dest = p
+        if not url in badurls and not dest.exists():
+            paths.append(p)
+    return paths
 
 
 def gather_paths():
@@ -56,6 +68,17 @@ def gather_paths():
         paths.append((slug, url, dest_name))
     return paths
 
+
+def __record_error(url, dest_name, error):
+    with open(str(ERRORS_PATH), 'a') as w:
+        slug = url.split('/')[-1]
+        m = [url, str(dest_name), error]
+        w.write(','.join(m))
+        w.write('\n')
+
+
+def get_bad_urls():
+    return [e['patreon_url'] for e in csv.DictReader(ERRORS_PATH.read_text().splitlines())]
 
 def extract(rawhtml):
     """
@@ -75,7 +98,7 @@ def fetch_and_extract(url, dest_name):
             w.write(scripttext)
             return {'success': True, 'content': scripttext, 'url': url, 'dest_name': dest_name}
     else:
-        msg = "\tNot OK; Status code: {}".format(resp.status_code)
+        msg = str(resp.status_code)
         return {'success': False, 'content': msg, 'url': url, 'dest_name': dest_name}
 
 
@@ -117,16 +140,18 @@ async def batch_fetch(batch):
                 print("Downloaded:", d['url'])
                 print("\tWrote:", len(d['content']), 'to:', d['dest_name'])
             else:
+                __record_error(url=d['url'], dest_name=d['dest_name'], error=d['content'])
                 print("Error with:", d['url'])
                 print("\t", d['content'])
 
 def main():
     all_paths = gather_paths()
     print("total paths:", len(all_paths))
-    paths = [(s, url, dest) for s, url, dest in all_paths if not dest.exists()]
+    paths = filter_paths(all_paths)
     print("remaining paths:", len(paths))
     print("-------------------------\n\n")
     batches = list(make_batches(paths, BATCH_SIZE))
+
 
 
     for i, batch in enumerate(batches):
