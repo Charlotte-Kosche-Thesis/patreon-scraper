@@ -1,0 +1,432 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "7a7hi1y75rZrrHyKYDMyWkPhwPZn-vZi7YxKloIlMiw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "796084",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/796084"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-01-28T18:58:18+00:00",
+    "creation_name": "fiction.",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1500465/06319d1850944194bb265f20782ef6e1?token-time=2145916800\u0026token-hash=YdYfvOZpZGq8gZNPfKVvzHIuLykoZ3teR8wVTdlQk64%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1500465/06319d1850944194bb265f20782ef6e1?token-time=2145916800\u0026token-hash=XL-5yBBw27VjzJ93XYkWdwZbUBTkio-BvAsX21YPs4g%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1500465",
+    "published_at": "2018-02-07T15:55:19+00:00",
+    "summary": "Hello, hello! Welcome.\u00a0\u003cbr\u003e\u003cbr\u003eThank you for stopping by my Patreon page.\u00a0\u003cbr\u003e\u003cbr\u003eI\u0027m a full-time parent, freelance editor, and an aspiring author. While I presently only post my work on\u00a0\u003ca href=\"https://www.reddit.com/r/EdgarAllanHobo/\"\u003eReddit\u003c/a\u003e,\u00a0I\u0027m also in the process of writing my second novel. The first novel, while completed, is sitting unedited and waiting for my attention, and it will continue do so until I complete and publish my current novel.\u00a0\u003cbr\u003e\u003cbr\u003eWriting has always been a way for me to decompress and, through possible escapist methods, cope with the every day stress of life. It brings me a great deal of joy to create worlds and characters, to weave plot and search (sometimes fumbling around clumsily as I do) for the right words to bring my story to life.\u00a0\u003cbr\u003e\u003cbr\u003eYour support here could help turn my humble hobby into a career!\u00a0\u003cbr\u003e\u003cbr\u003e"
+   },
+   "id": "1500465",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9521551",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9521551"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1104582",
+       "type": "goal"
+      },
+      {
+       "id": "1104583",
+       "type": "goal"
+      },
+      {
+       "id": "1104584",
+       "type": "goal"
+      },
+      {
+       "id": "1104585",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2353145",
+       "type": "reward"
+      },
+      {
+       "id": "2353149",
+       "type": "reward"
+      },
+      {
+       "id": "2353152",
+       "type": "reward"
+      },
+      {
+       "id": "2353155",
+       "type": "reward"
+      },
+      {
+       "id": "2353162",
+       "type": "reward"
+      },
+      {
+       "id": "2353173",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-01-28T18:58:08+00:00",
+     "facebook": null,
+     "first_name": "E.A.",
+     "full_name": "E.A. Hobbs",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/9521551/5f9d4c4f851c4d17b7e41927f8d07150?token-time=2145916800\u0026token-hash=6yZyXlDmOaVzQDgARJSndigF-JntsP4fTwXKE0ZJaik%3D",
+     "last_name": "Hobbs",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9521551/5f9d4c4f851c4d17b7e41927f8d07150?token-time=2145916800\u0026token-hash=dWzfp9iKpKobTHnsLi9CWSL3w0JeqjUeRN-Sq_bHY1s%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/eahobbs",
+     "vanity": "eahobbs",
+     "youtube": null
+    },
+    "id": "9521551",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1500465",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1500465"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-02-07T15:35:02.877048+00:00",
+     "description": "You\u0027ll have access to my Patreon content and my gratitude!",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T15:37:21.246662+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-07T15:37:21.237370+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level 1",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1500465\u0026rid=2353145"
+    },
+    "id": "2353145",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-07T15:37:11.910657+00:00",
+     "description": "In addition to the $1 rewards, you\u0027ll be given a free copy of my edited stories when I put them out in e-book form. The option to beta-read my novel, when complete, is also available upon request.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T15:41:58.934430+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-07T15:41:58.928002+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level 2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1500465\u0026rid=2353149"
+    },
+    "id": "2353149",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-07T15:38:33.366586+00:00",
+     "description": "A free digital copy of my novel, when published, in addition to all of the rewards of the previous levels.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T15:38:33.366586+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-07T15:38:33.366586+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level 3",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1500465\u0026rid=2353152"
+    },
+    "id": "2353152",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-02-07T15:39:57.920528+00:00",
+     "description": "As well as the $10 rewards, you\u0027ll receive a by name thanks in my first published novel.\u00a0Your name goes on my list of potential future character names.",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T15:43:01.444020+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-07T15:43:01.435021+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level 4",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1500465\u0026rid=2353155"
+    },
+    "id": "2353155",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-02-07T15:41:34.724142+00:00",
+     "description": "You\u0027ll receive a signed physical copy of my first published novel, in addition to the rewards of all previous tiers, and have the ability to send me a monthly prompt request.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T15:44:28.092416+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-07T15:44:28.083373+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level 5",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1500465\u0026rid=2353162"
+    },
+    "id": "2353162",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-02-07T15:45:02.154826+00:00",
+     "description": "All previous level rewards plus a guaranteed character in my next novel.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-07T15:45:02.154826+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-07T15:45:02.154826+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Level 6",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1500465\u0026rid=2353173"
+    },
+    "id": "2353173",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 9,
+     "created_at": "2018-02-07T15:48:53+00:00",
+     "description": "I\u0027m brand new to the whole Patreon thing, so meeting this goal would just be a thrill. If it happens, I\u0027ll post a monthly story accessible only to my Patreon supporters.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1104582",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 3,
+     "created_at": "2018-02-07T15:48:53+00:00",
+     "description": "If I reach this goal, I\u0027ll write for two Patreon submitted prompts a month.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1104583",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2018-02-07T15:48:53+00:00",
+     "description": "This would blow me away, honestly. But, if I reach this goal I will be able to take time away from freelancing and dedicate a few more hours a week to writing. If that happens, I\u0027ll start a Patreon only series.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1104584",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2018-02-07T15:48:53+00:00",
+     "description": "I\u0027ll post the first chapter of my novel.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1104585",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1500465"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "32f535db-c0f7-4808-bfa3-1292c305e927",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "E.A. Hobbs is creating fiction."
+});
+    </script>

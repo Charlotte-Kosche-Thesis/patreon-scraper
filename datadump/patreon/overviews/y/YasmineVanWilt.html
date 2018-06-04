@@ -1,0 +1,540 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "eYk9uu0sNB9bESzVnQDXBRV0_6vjmkeJMcBKnQZJjBk";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "579052",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/579052"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-09-18T02:10:03+00:00",
+    "creation_name": "Creating music, plays, poetry and radio plays. ",
+    "display_patron_goals": true,
+    "earnings_visibility": "private",
+    "has_rss": true,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "creation",
+    "pledge_url": "/bePatron?c=1228800",
+    "published_at": "2017-09-18T08:22:08+00:00",
+    "summary": null
+   },
+   "id": "1228800",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7734725",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7734725"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "969457",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "37149",
+       "type": "patron_goal"
+      },
+      {
+       "id": "37150",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2010465",
+       "type": "reward"
+      },
+      {
+       "id": "2011033",
+       "type": "reward"
+      },
+      {
+       "id": "2010466",
+       "type": "reward"
+      },
+      {
+       "id": "2011041",
+       "type": "reward"
+      },
+      {
+       "id": "2011031",
+       "type": "reward"
+      },
+      {
+       "id": "2011040",
+       "type": "reward"
+      },
+      {
+       "id": "2010467",
+       "type": "reward"
+      },
+      {
+       "id": "2011034",
+       "type": "reward"
+      },
+      {
+       "id": "2010468",
+       "type": "reward"
+      },
+      {
+       "id": "2011032",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-09-18T02:07:37+00:00",
+     "facebook": "https://www.facebook.com/YasmineVanWilt",
+     "first_name": "Yasmine",
+     "full_name": "Yasmine Van Wilt",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7734725/62c7a160bf194db0be2170fb6040be33?token-time=2145916800\u0026token-hash=W09WUnawWqYdQNNNiT2jlOWfbJ5G4Zc1EIQElRuO-6s%3D",
+     "last_name": "Van Wilt",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7734725/62c7a160bf194db0be2170fb6040be33?token-time=2145916800\u0026token-hash=EzZWpdETXTVolfHT08F2e8BfdEGZ7IUh9rffsyxz-w8%3D",
+     "twitch": null,
+     "twitter": "YasmineVanWilt",
+     "url": "https://www.patreon.com/YasmineVanWilt",
+     "vanity": "YasmineVanWilt",
+     "youtube": null
+    },
+    "id": "7734725",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1228800",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1228800"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-09-18T02:19:23.899223+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eA song a month, every month. You\u0027ll get digital copy of a song I\u0027ve written every month!\u003c/li\u003e\u003cli\u003eYou\u0027ll get songs I\u0027ve released myself\u003c/li\u003e\u003cli\u003eYou\u0027ll get songs I\u0027ve written for other artists\u003c/li\u003e\u003cli\u003eYou\u0027ll get unreleased versions of my songs\u00a0\u003c/li\u003e\u003cli\u003eIt\u0027s a blast!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-18T08:12:09.898932+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-18T02:19:23.899223+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "A Song a Month, Every Month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228800\u0026rid=2010465"
+    },
+    "id": "2010465",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-09-18T08:12:09.865068+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYou\u0027ll get copies of my published scripts\u003c/li\u003e\u003cli\u003eYou\u0027ll get copies of copyrighted work that has been performed around the world\u003c/li\u003e\u003cli\u003eThey\u0027ll be delivered digitally\u003c/li\u003e\u003cli\u003eYou\u0027ll get copies of my radio plays\u003c/li\u003e\u003cli\u003eYou\u0027ll get audio books\u003c/li\u003e\u003cli\u003eYou\u0027ll get one of these items every month! Don\u0027t worry, I have hundreds of these! We will not run out. :)\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-18T08:12:09.865068+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-18T08:12:09.865068+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "A publication of mine every month!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228800\u0026rid=2011033"
+    },
+    "id": "2011033",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-09-18T02:19:23.910349+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003eSneak peek photos of upcoming releases\u003c/li\u003e\u003cli\u003eAdvance copies of forthcoming work\u003c/li\u003e\u003cli\u003eAcoustic copies of songs\u003c/li\u003e\u003cli\u003eCopies of songs written for other artists\u003c/li\u003e\u003cli\u003eVan Wild songs and videos\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-18T02:19:23.910349+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-18T02:19:23.910349+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Behind the scenes access",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228800\u0026rid=2010466"
+    },
+    "id": "2010466",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-09-18T08:20:27.074423+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYou\u0027ll get access to a live online concert every month!\u003c/li\u003e\u003cli\u003eYou can tune in while I\u0027m live or you can watch later!\u003c/li\u003e\u003cli\u003eYou\u0027ll get to see plenty of new songs, right after they\u0027re written\u003c/li\u003e\u003cli\u003eYou\u0027ll be able to request songs!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-18T08:20:27.074423+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-18T08:20:27.074423+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "A Live Concert Every Month",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228800\u0026rid=2011041"
+    },
+    "id": "2011041",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-09-18T08:12:09.704546+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePersonalized messages are great for birthdays, holidays and other special occasions!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-18T08:12:09.704546+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-18T08:12:09.704546+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Personalized messages",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228800\u0026rid=2011031"
+    },
+    "id": "2011031",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-09-18T08:20:27.058297+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eYou\u0027ll be able to join a specially-curated FaceBook group of creatives and people just like you!\u003c/li\u003e\u003cli\u003eI\u0027ll answer questions, help with discussion threads and do my best to address anything from writer\u0027s block to networking!\u003c/li\u003e\u003cli\u003eThis is great for anyone who feels they\u0027d benefit from the opportunity to discuss creative processes.\u00a0\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-18T08:20:27.058297+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-18T08:20:27.058297+00:00",
+     "remaining": 100,
+     "requires_shipping": false,
+     "title": "Access to a private creative FaceBook Group",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228800\u0026rid=2011040"
+    },
+    "id": "2011040",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-09-18T02:19:23.917134+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e30 minute conversations and/or advice sessions about any area of the business...\u003c/li\u003e\u003cli\u003eVery limited in quantity!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-18T08:12:09.911840+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-18T02:19:23.917134+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Live question and answer session",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228800\u0026rid=2010467"
+    },
+    "id": "2010467",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-09-18T08:12:09.871287+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAlways fancied yourself an Executive Producer but weren\u0027t sure how to begin dipping your toes in?! Here\u0027s your chance! You can help support my new releases and earn credits all at the same time!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-18T08:12:09.871287+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-18T08:12:09.871287+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Credits on Releases",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228800\u0026rid=2011034"
+    },
+    "id": "2011034",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-09-18T02:19:23.914639+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e30 minute tutorials and critiques of submitted works\u003c/li\u003e\u003cli\u003eUp to 10 songs per person, per $100. I suggest limiting listens so we can dig into your material!\u003c/li\u003e\u003cli\u003eLimited quantity available\u00a0\u003c/li\u003e\u003cli\u003eI don\u0027t request co-writing credits; this is all for you!\u003c/li\u003e\u003cli\u003eMaximum 15 pages of written text, 10 songs, or 10K words (for prose or other mixed-medium works)\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-18T08:12:09.917823+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-18T02:19:23.914639+00:00",
+     "remaining": 53,
+     "requires_shipping": false,
+     "title": "Songwriting, playwriting and/or storytelling tutorials",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228800\u0026rid=2010468"
+    },
+    "id": "2010468",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 30000,
+     "amount_cents": 30000,
+     "created_at": "2017-09-18T08:12:09.866027+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eI will write a song a month for you.\u003c/li\u003e\u003cli\u003eThese are great as special occasion presents for weddings, engagements, babies and all kinds of celebration!\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-09-18T08:12:09.866027+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-09-18T08:12:09.866027+00:00",
+     "remaining": 10,
+     "requires_shipping": false,
+     "title": "Personalized Song",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228800\u0026rid=2011032"
+    },
+    "id": "2011032",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2017-09-18T08:15:03+00:00",
+     "description": "When I reach\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "969457",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-09-18T08:15:03+00:00",
+     "deleted_at": null,
+     "description": "When I reach 100 patrons, I will increase the number of songs patrons receive each month to 2.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e",
+     "goal_text": "When I reach 100 patrons, I will increase the number of songs patrons receive each month to 2.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e",
+     "number_patrons": 100,
+     "reached_at": null
+    },
+    "id": "37149",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2017-09-18T08:15:03+00:00",
+     "deleted_at": null,
+     "description": "I will begin sending live videos each month, alongside songs!\u00a0",
+     "goal_text": "I will begin sending live videos each month, alongside songs!\u00a0",
+     "number_patrons": 1000,
+     "reached_at": null
+    },
+    "id": "37150",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1228800"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "6fa943e9-0d80-4430-a2d0-0e71fcfa69b0",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "Yasmine Van Wilt is creating Creating music, plays, poetry and radio plays. "
+});
+    </script>

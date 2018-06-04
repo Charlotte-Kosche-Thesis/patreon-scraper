@@ -1,0 +1,415 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "q0uMJswVjcSdvwBE4_ES0s1klYPF4XKKEy5eRCRAJDQ";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "158962",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/158962"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-04-30T02:31:17+00:00",
+    "creation_name": "Videos",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/355384/f0e46fd8d810499f9e1a4808e6552512?token-time=2145916800\u0026token-hash=MYzZLX-ncSyBI9AbYdLh-50h3ZglpyZVMO3eCQLTth0%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/355384/f0e46fd8d810499f9e1a4808e6552512?token-time=2145916800\u0026token-hash=cqmFxEx6up6bdKnyrxlaZLMQ9kHvWRaiA1bcOxQlgPM%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FF539P52uY54%3Ffeature%3Doembed\u0026amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DF539P52uY54\u0026amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FF539P52uY54%2Fhqdefault.jpg\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;type=text%2Fhtml\u0026amp;schema=youtube\" width=\"854\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://www.youtube.com/watch?v=F539P52uY54",
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 63,
+    "pledge_url": "/bePatron?c=355384",
+    "published_at": "2016-04-30T02:47:02+00:00",
+    "summary": "What\u0027s up guys, Infinite Lists here. I made this Patreon because some of my videos are getting copyrighted, which means I am getting no money off them. If you donate ANY MONEY AT ALL you will automatically be SHOUT OUT on my channel or on my twitter. Donating will help me get better equipment and also a better mic! Thank you guys so much!"
+   },
+   "id": "355384",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "3235825",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/3235825"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "413553",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-355384",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-355384"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "833513",
+       "type": "reward"
+      },
+      {
+       "id": "833545",
+       "type": "reward"
+      },
+      {
+       "id": "833544",
+       "type": "reward"
+      },
+      {
+       "id": "833543",
+       "type": "reward"
+      },
+      {
+       "id": "833542",
+       "type": "reward"
+      },
+      {
+       "id": "833541",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "My name is Infinite Lists. I make YouTube videos! A lot of my videos get copyrighted, even though I put a lot of effort into them. This means I get no money from it. This patreon will help me continue YouTube. If you support this it means, Shoutouts for all supporters, me getting a better mic, and me uploading \u00a0a lot more!",
+     "created": "2016-04-30T02:29:32+00:00",
+     "facebook": null,
+     "first_name": "Infinite",
+     "full_name": "Infinite Lists",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/3235825/66d695ae5a2b42a88d36985ddc490a7e?token-time=2145916800\u0026token-hash=9b34_zcmCzT2pTqJbM3hJuFKFDw_zHalTDg-pcn1n_M%3D",
+     "last_name": "Lists",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/3235825/66d695ae5a2b42a88d36985ddc490a7e?token-time=2145916800\u0026token-hash=Hy-HPgIZLM-j-EWrM-4_6-qpm7y7daQoXjP3wzjWm2c%3D",
+     "twitch": null,
+     "twitter": "InfiniteLists",
+     "url": "https://www.patreon.com/Infinite",
+     "vanity": "Infinite",
+     "youtube": "https://www.youtube.com/channel/UC_hSjGOO67A6gIDUcyuv_8A"
+    },
+    "id": "3235825",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "355384",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/355384"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 3,
+     "upgrade_url": "/bePatron?c=355384\u0026rid=833513"
+    },
+    "id": "post-aggregation-for-0-355384",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2016-10-03T07:50:33+00:00",
+     "description": "You will be rewarded a Twitter Shout out!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 2,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-03T07:50:33+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=355384\u0026rid=833513",
+     "user_limit": null
+    },
+    "id": "833513",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-10-03T07:50:33+00:00",
+     "description": "Shout out at the top of my description for a video",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-03T07:50:33+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=355384\u0026rid=833545",
+     "user_limit": null
+    },
+    "id": "833545",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2016-10-03T07:50:33+00:00",
+     "description": "Shout out at the end of a video every single video",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-03T07:50:33+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=355384\u0026rid=833544",
+     "user_limit": null
+    },
+    "id": "833544",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2016-10-03T07:50:33+00:00",
+     "description": "Be shout out in the very beginning of a video. Also in the description. ( This will get you a lot of subs )",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-03T07:50:33+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=355384\u0026rid=833543",
+     "user_limit": null
+    },
+    "id": "833543",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-10-03T07:50:33+00:00",
+     "description": "Shout out in the beginning of the video, in the description, a twitter shout out, and a follow from me.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-03T07:50:33+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=355384\u0026rid=833542",
+     "user_limit": null
+    },
+    "id": "833542",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-10-03T07:50:33+00:00",
+     "description": "No one will probably do this.. but I will shout you out in every video in the beginning. I\u0027ll subbox you. follow you on twitter. shout you out on twitter. retweet any tweet you\u0027d like. and be your best friend.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-10-03T07:50:33+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=355384\u0026rid=833541",
+     "user_limit": null
+    },
+    "id": "833541",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 0,
+     "created_at": "2016-04-30T02:37:52+00:00",
+     "description": "If I complete this, all of you will be shout out in a video. Just a separate video for all of you!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "413553",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/355384"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "0ae0d5ff-dd00-407f-8a89-c018c1b0d882",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "Infinite Lists is creating Videos"
+});
+    </script>

@@ -1,0 +1,367 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "a4ZHHJA5QVT9JbJDnUKX6OifUHT5eEzZzuGmUxfbiyA";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "702502",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/702502"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-12-28T22:47:54+00:00",
+    "creation_name": "podcasts",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiI5IiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1425227/162c2dfcd29d4b2fa171a7e7bef5bc7b?token-time=2145916800\u0026token-hash=cAl571TREPZfPODfZeMxXpyyS5xZ30tDo2uK5_o3sw4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiOSJ9/patreon-media/campaign/1425227/162c2dfcd29d4b2fa171a7e7bef5bc7b?token-time=2145916800\u0026token-hash=1pwEj--b9CAtluAh0bUha1t3xLdBACRaAatMfzpdET8%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "creation",
+    "pledge_sum": 810,
+    "pledge_url": "/bePatron?c=1425227",
+    "published_at": "2018-01-08T19:43:51+00:00",
+    "summary": "I\u2019ve been playing in the outdoors since I was a kid. I can\u2019t think of anywhere I\u2019d rather be than on hiking a trail, fishing a stream or capturing a stunning landscape with my camera.\u003cbr\u003e\n\n\u003cp\u003eI\u2019m excited you\u2019ve found my Patreon Page and are interested in joining our close-knit outdoor industry tribe. As my patron you\u2019ll get access to great stories, advice, business resources favorite books and gear from inspiring folks that make up the outdoor industry.\u003cbr\u003e\n\n\u003c/p\u003e\u003cp\u003eMy aim for The Outdoor Biz Podcast is to be more than a venue solely for entertainment or passive listening while you kill time commuting to work or wait for a plane. My hope is these conversations are informative and a call to action. Whether you hear something you didn\u2019t know about a close friend or colleague, learn about new business resources or find a way to support a cause close to your heart I hope you take action. We are a unique tribe in the world and as someone much smarter than me once said we are stronger together. Each of us benefits from the wisdom of others and the wisdom of this tribe. \u003cbr\u003e\n\n\u003c/p\u003e\u003cp\u003eWelcome\u003c/p\u003e"
+   },
+   "id": "1425227",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9028766",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9028766"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1060589",
+       "type": "goal"
+      },
+      {
+       "id": "1060590",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1425227",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1425227"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2241459",
+       "type": "reward"
+      },
+      {
+       "id": "2241506",
+       "type": "reward"
+      },
+      {
+       "id": "2241537",
+       "type": "reward"
+      },
+      {
+       "id": "2268929",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-12-28T22:47:33+00:00",
+     "facebook": "https://www.facebook.com/theoutdoorbizpodcast/",
+     "first_name": "Rick",
+     "full_name": "Rick Saez",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMyIsInciOjIwMH0%3D/patreon-media/user/9028766/2680d359bf754064a04207993d6219e4?token-time=2145916800\u0026token-hash=1CKaurN0XT2ZZKrcGXOD4A0JWuDPXK1VozjIMZKw5oA%3D",
+     "last_name": "Saez",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIzIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9028766/2680d359bf754064a04207993d6219e4?token-time=2145916800\u0026token-hash=h-wV3I7Qcqknr9jEWOtSFmaa5-K7_LVQbAzJM7WiuXs%3D",
+     "twitch": null,
+     "twitter": "rick_saez",
+     "url": "https://www.patreon.com/theoutdoorbizpodcast",
+     "vanity": "theoutdoorbizpodcast",
+     "youtube": null
+    },
+    "id": "9028766",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1425227",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1425227"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 6,
+     "upgrade_url": "/bePatron?c=1425227\u0026rid=2241459"
+    },
+    "id": "post-aggregation-for-0-1425227",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-12-28T23:30:39.089374+00:00",
+     "description": "Supporters who pledge one dollar per episode will get my eternal thank you in a personal email.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-08T18:46:04.650263+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-08T18:46:04.625212+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Pledge $1 per episode",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1425227\u0026rid=2241459",
+     "user_limit": null
+    },
+    "id": "2241459",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-12-28T23:49:02.285244+00:00",
+     "description": "Supporters who pledge two dollars per episode will get my eternal thank you in a personal email \u003cstrong\u003eAND\u003c/strong\u003e I\u2019ll send you our Outdoor Biz Podcast sticker.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-15T22:01:52.296620+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-15T22:01:52.265595+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Pledge $2 per episode",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1425227\u0026rid=2241506",
+     "user_limit": null
+    },
+    "id": "2241506",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2017-12-29T00:02:22.003315+00:00",
+     "description": "Supporters who pledge four dollars per episode will get my eternal thank you in a personal email, I\u2019ll send you our Outdoor Biz Podcast sticker \u003cstrong\u003eAND\u003c/strong\u003e I\u2019ll list you in the show notes (5 patrons per episode will be listed)",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-15T21:59:54.982134+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-15T21:59:54.932303+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Pledge $4 per episode",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1425227\u0026rid=2241537",
+     "user_limit": null
+    },
+    "id": "2241537",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 800,
+     "amount_cents": 800,
+     "created_at": "2018-01-08T18:32:43.912074+00:00",
+     "description": "Supporters who pledge eight dollars per episode will get my eternal thank you in a personal email \u003cstrong\u003eAND\u003c/strong\u003e I\u2019ll send you our Outdoor Biz Podcast sticker \u003cstrong\u003eAND\u003c/strong\u003e I\u2019ll list you in the show notes (5 patrons per episode will be listed) \u003cstrong\u003eAND\u003c/strong\u003e you\u0027ll receive a sleek, fully featured \u003ca href=\"https://mudroombackpacks.com/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eMudroom backpack\u003c/a\u003e designed specifically for commuting,\u00a0working out or traveling with an extra pair of shoes.\u00a0Your laptop, devices and gear are all securely stored separate from your shoes.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-15T22:02:50.447653+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-15T22:02:50.429009+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Pledge $8 per episode",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1425227\u0026rid=2268929",
+     "user_limit": null
+    },
+    "id": "2268929",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2017-12-28T23:36:47+00:00",
+     "description": "$1000 per episode\u003cbr\u003eOnce I reach $1000 per episode in support I\u0027ll be able to hire a support person to help with social media, scheduling guests, transcribing show notes and more.\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1060589",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 150000,
+     "completed_percentage": 0,
+     "created_at": "2017-12-28T23:36:47+00:00",
+     "description": "$1500 per episode\u003cbr\u003eOnce I reach $1500 per episode in support I\u0027ll take the show on the road and add one LIVE episode per month to the show. (recorded LIVE at an Outdoor Venue near you.) We\u2019ll visit brand Headquarters, local pubs, industry events, or GET OUTSIDE on Public Lands near you!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1060590",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1425227"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "bc329490-5e27-49d4-827c-b8367144fac4",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "Rick Saez is creating podcasts"
+});
+    </script>

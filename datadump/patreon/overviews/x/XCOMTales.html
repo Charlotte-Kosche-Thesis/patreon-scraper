@@ -1,0 +1,505 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "LIqy7W-olP6iYJRtDo5ssvgBVMZkeP5bipKHolZ-ifk";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "590502",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/590502"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-10-01T20:38:06+00:00",
+    "creation_name": "XCOM Podcasts and Streams",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1248557/fdb354ab434c4baea158a7d01393f823?token-time=2145916800\u0026token-hash=I9nEfH7Epx7HCkUX1_CZWHRRFLbuT3ydle3YF6L6EVA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1248557/fdb354ab434c4baea158a7d01393f823?token-time=2145916800\u0026token-hash=is2rZolE-kzV0LMYpo0fAjo-H1TRyRoWb00jW9VCwo8%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "Podcast",
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=1248557",
+    "published_at": "2017-10-01T20:56:30+00:00",
+    "summary": "\u003cu\u003eTales from the Infirmary\u003c/u\u003e\u00a0brings the fun, terror, angst, and excitement of XCOM 2 to your ears. We tell the tale of a team trying to free the world from the grip of Advent once a week. Then, after the excitement of downing x-rays, we break down the decisions that were made, answer questions from listeners, discuss updates to the game, and highlight fun and interesting discussions from the XCOM subreddit.\u003cbr\u003e\u003cbr\u003eIn addition to the podcast, I also stream XCOM 2: War of the Chosen on my twitch channel\u00a0\u003ca href=\"https://www.twitch.tv/splicestream\"\u003etwitch.tv/splicestream\u003c/a\u003e. We are a family friendly stream that focuses on the enjoyable stress and angst a brutal game like XCOM creates. Live from the Infirmary starts at 5:30pm Mountain time every Monday through Thursday. Hope to see you there!\u003cbr\u003e\u003cbr\u003eThe Patreon is only for the weekly podcast. Any extra content content that is provided via the stream or special episodes of TFTI will never be paid posts.\u003cbr\u003e"
+   },
+   "id": "1248557",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7906388",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7906388"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "982998",
+       "type": "goal"
+      },
+      {
+       "id": "982999",
+       "type": "goal"
+      },
+      {
+       "id": "983000",
+       "type": "goal"
+      },
+      {
+       "id": "983001",
+       "type": "goal"
+      },
+      {
+       "id": "983002",
+       "type": "goal"
+      },
+      {
+       "id": "983069",
+       "type": "goal"
+      },
+      {
+       "id": "1012654",
+       "type": "goal"
+      },
+      {
+       "id": "1012655",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "2044403",
+       "type": "reward"
+      },
+      {
+       "id": "2044402",
+       "type": "reward"
+      },
+      {
+       "id": "2044401",
+       "type": "reward"
+      },
+      {
+       "id": "2044398",
+       "type": "reward"
+      },
+      {
+       "id": "2044399",
+       "type": "reward"
+      },
+      {
+       "id": "2044400",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2017-10-01T20:23:25+00:00",
+     "facebook": null,
+     "first_name": "Tales",
+     "full_name": "Tales From The Infirmary- An XCOM Podcast",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7906388/728697990672458ead27d6e48b5e15dd?token-time=2145916800\u0026token-hash=8glqHAPiej-QvWMrTH987xwtRyK3GYK70JposRaxVf0%3D",
+     "last_name": "From The Infirmary- An XCOM Podcast",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7906388/728697990672458ead27d6e48b5e15dd?token-time=2145916800\u0026token-hash=2T0amPse9Sl85WinKZBgw6LSTZ5E1Hd-GqUM_1Wdm_E%3D",
+     "twitch": "https://www.twitch.tv/splicestream",
+     "twitter": "XCOMTales",
+     "url": "https://www.patreon.com/XCOMTales",
+     "vanity": "XCOMTales",
+     "youtube": null
+    },
+    "id": "7906388",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1248557",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1248557"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": "2017-10-02T18:54:56.387646+00:00",
+     "description": "\u003cdiv\u003eNo matter how small, thanks for helping a poor commander out. And I didn\u0027t even have to build a satellite for you unlike a certain council! All Patrons, no matter how large or small get access to the TFTI Discord channel with the title of \"Squaddie\"!\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-02T18:54:56.387646+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-02T18:54:56.387646+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Discord Access",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1248557\u0026rid=2044403",
+     "user_limit": null
+    },
+    "id": "2044403",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-10-02T18:54:56.381355+00:00",
+     "description": "Want a chance to see how you\u0027d fare as my soldier? Sign up and get your name added to the soldier random name table and the title \"Sgt.\" in the Discord channel.",
+     "discord_role_ids": [
+      "378758837903032322"
+     ],
+     "edited_at": "2017-11-11T04:27:47.811034+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-11T04:27:47.760443+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Chance to appear as soldier in missions!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1248557\u0026rid=2044402",
+     "user_limit": null
+    },
+    "id": "2044402",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-10-02T18:54:56.381456+00:00",
+     "description": "\u003cdiv\u003eWho wants to be just a random soldier when you can get a customized look? At this level get your own customized soldier added to the Character Pool! Character Pool soldiers have an increased chance of appearing so this up your odds of showing in the podcast or stream.\u003cbr\u003e\u003cbr\u003eAlso, in the Discord Channel, get the title of \"Lt.\"\u003c/div\u003e",
+     "discord_role_ids": [
+      "378759128979341313"
+     ],
+     "edited_at": "2017-11-11T04:28:10.389799+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-11T04:28:10.364428+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Customized Character added to Character Pool!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1248557\u0026rid=2044401",
+     "user_limit": null
+    },
+    "id": "2044401",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2017-10-02T18:54:56.360801+00:00",
+     "description": "Now we\u0027re talking! Want to really up your odds on being a soldier that will shine? Grab one of the customize slots from the elite forces XCOM 2: War of the Chosen provides! Additionally you get a customized regular soldier as well so you can still show up as a regular soldier! Win/Win!\u003cbr\u003e\u003cbr\u003eAdditionally get the title of \"Cpt.\" in the Discord Channel.",
+     "discord_role_ids": [
+      "378759286278324234"
+     ],
+     "edited_at": "2017-11-11T04:29:04.712269+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-11T04:29:04.691646+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Customized Reaper/Skirmisher/Templar soldier!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1248557\u0026rid=2044398",
+     "user_limit": null
+    },
+    "id": "2044398",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-10-02T18:54:56.378727+00:00",
+     "description": "\u003cdiv\u003eWow! Thanks so much! Become an official producer of the podcast! In addition to getting everything above, your name will be at the end of every episode of \u003cu\u003eTales from the Infirmary\u003c/u\u003e\u00a0because, seriously you\u0027re helping to keep me motivated!\u003cbr\u003e\u003cbr\u003eAdditionally you will get the Discord title of \"Major\"\u003c/div\u003e",
+     "discord_role_ids": [
+      "378759391639502849"
+     ],
+     "edited_at": "2017-11-11T04:29:45.011376+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-11T04:29:44.986050+00:00",
+     "remaining": 5,
+     "requires_shipping": false,
+     "title": "Become a podcast producer!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1248557\u0026rid=2044399",
+     "user_limit": 5
+    },
+    "id": "2044399",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-10-02T18:54:56.378419+00:00",
+     "description": "WOAH! Seriously. I mean... this is... wow.\u003cbr\u003e\u003cbr\u003eIn addition to everything listed above, you also will get your name shout out at the end of every podcast, stream, youtube video, and whatever else I do for the show because, wow, you\u0027ve earned it!\u003cbr\u003e\u003cbr\u003eAnd, on top of all that, get the title of \"Colonel\" in the Discord!\u003cbr\u003e",
+     "discord_role_ids": [
+      "378759549349265408"
+     ],
+     "edited_at": "2017-11-11T04:31:15.721326+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-11T04:31:15.700736+00:00",
+     "remaining": 4,
+     "requires_shipping": false,
+     "title": "Become a stream producer!",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1248557\u0026rid=2044400",
+     "user_limit": 4
+    },
+    "id": "2044400",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1000,
+     "completed_percentage": 9,
+     "created_at": "2017-10-02T16:44:20+00:00",
+     "description": "Buy studio lighting to improve look of the stream!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "982998",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3000,
+     "completed_percentage": 3,
+     "created_at": "2017-10-02T16:44:20+00:00",
+     "description": "Start posting \"Tales From the Infirmary\" missions on Youtube. Complete with a camera on me with me discussing my decision reasoning and reactions. Plus you\u0027ll see me taking notes and get to see how the podcasting sausage is made!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "982999",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 1,
+     "created_at": "2017-10-02T16:44:20+00:00",
+     "description": "Once a month Treadmill Stream! Once a month, instead of just doing a normal Live from the Infirmary stream, we will add a real life difficulty of me performing the stream on a treadmill... and every time the soldier takes damage I increase the speed. It\u0027s like that one episode of \u003cu\u003eFamily Matters\u003c/u\u003e only there won\u0027t be a bomb attached to the treadmill. But I\u0027m also a klutz that runs like a duck so this could get dangerous XD",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "983000",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 0,
+     "created_at": "2017-10-02T16:44:20+00:00",
+     "description": "Karaoke XCOM! Once a month, instead of a normal \u003cu\u003eLive from the Infirmary\u003c/u\u003e stream we would do an extended Karaoke XCOM stream. Every time a soldier dies I have to sing a song of the chat\u0027s choosing. Sure it\u0027s silly, but it\u0027s also fun.\u003cbr\u003e\u003cbr\u003eOnce I hit this goal I will start upgrading my equipment for better audio quality.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "983001",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 20000,
+     "completed_percentage": 0,
+     "created_at": "2017-10-02T16:44:20+00:00",
+     "description": "Once a quarter XCOM tournament? Once every three months I\u0027d host a tournament for you the fans through either the Challenge Mode (higher scores advance through tournament) or Multiplayer. When we start getting close to this goal, I\u0027ll iron out more details to see what the community would prefer but regardless there WOULD be a prize for the winner!\u003cbr\u003e\u003cbr\u003eAlso, at this level I\u0027d start upgrading my computer hardware to improve stream quality!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "983002",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 30000,
+     "completed_percentage": 0,
+     "created_at": "2017-10-02T17:57:38+00:00",
+     "description": "Once a month call-in-show! Once a month I will do a bonus stream with you the listener where we can discuss XCOM, what books your\u0027e reading, current movies, what super hero you like the best,  pop-culture, or maybe you just tell your own XCOM stories of glory and woe!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "983069",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 2000,
+     "completed_percentage": 4,
+     "created_at": "2017-11-04T16:13:25+00:00",
+     "description": "Buy a better microphone to improve podcast quality!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1012654",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 4000,
+     "completed_percentage": 2,
+     "created_at": "2017-11-04T16:13:25+00:00",
+     "description": "Buy a mixboard to even further improve the sound quality and make it so we can do more sound shenanigans on stream!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1012655",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1248557"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "edf5cb7e-ccf6-4af4-8890-4908971d83b1",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "Tales From The Infirmary- An XCOM Podcast is creating XCOM Podcasts and Streams"
+});
+    </script>

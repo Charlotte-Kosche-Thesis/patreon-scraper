@@ -1,0 +1,465 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "k1wgo8T9RsF3-sOG7AGd6w5P83MMX9e1Z1OmqR_eBRw";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "429784",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/429784"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-04-29T18:03:10+00:00",
+    "creation_name": "Videos",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/892981/68e216286ad8437e92018e384313a815?token-time=2145916800\u0026token-hash=kEiE7ADdRawGJU8M4GSalApt_snL6mqcoMbSMri6D5Q%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/892981/68e216286ad8437e92018e384313a815?token-time=2145916800\u0026token-hash=_gBWQVYPuGnL2soePWuvryuzbbMHUhZIS96-PcaSu6s%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 64,
+    "pledge_url": "/bePatron?c=892981",
+    "published_at": "2017-04-29T18:13:22+00:00",
+    "summary": "I am providing you all those free apps that you download. I created this account here if you want to reward me for my effort. I would be thankful if you donated."
+   },
+   "id": "892981",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5944733",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5944733"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "818841",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1647403",
+       "type": "reward"
+      },
+      {
+       "id": "1647370",
+       "type": "reward"
+      },
+      {
+       "id": "1647401",
+       "type": "reward"
+      },
+      {
+       "id": "1647399",
+       "type": "reward"
+      },
+      {
+       "id": "1647396",
+       "type": "reward"
+      },
+      {
+       "id": "1647395",
+       "type": "reward"
+      },
+      {
+       "id": "1647479",
+       "type": "reward"
+      },
+      {
+       "id": "1647485",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-04-29T18:02:46+00:00",
+     "facebook": "https://www.facebook.com/TheLeakFather/",
+     "first_name": "The",
+     "full_name": "The LeakFather",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5944733/fbb502543a4b46f482081c00c6956522?token-time=2145916800\u0026token-hash=TdXvgjimoXtom49fWC2Ko7pdtV8W6UxwFTthgSAwGwk%3D",
+     "last_name": "LeakFather",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5944733/fbb502543a4b46f482081c00c6956522?token-time=2145916800\u0026token-hash=JwtJefiRMnj3SbFRjpZI1hpyupU2o-cTwuJHhVXSEuA%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/theleakfather",
+     "vanity": "theleakfather",
+     "youtube": "https://www.youtube.com/channel/UCXiyfqOZwhNuB3YtkgRTqgw"
+    },
+    "id": "5944733",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "892981",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/892981"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-04-29T18:23:08.255829+00:00",
+     "description": "Thank you.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-29T18:48:33.158785+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1647403/d106379f86fe49ac95bb3d38abc16e78?token-time=2145916800\u0026token-hash=DdyDlCd3RYOpb8B9qC3LDRi7WLEHCGoBEts5dzv_wMc%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-29T18:23:08.255829+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\"Thanks, Here\u0027s a Dollar (1$)\"",
+     "unpublished_at": null,
+     "url": "/bePatron?c=892981\u0026rid=1647403",
+     "user_limit": null
+    },
+    "id": "1647403",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-04-29T18:12:53.514246+00:00",
+     "description": "Thank you.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-29T18:52:49.539733+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1647370/b3142839adcd4ba1b70f02b734fb9d7f?token-time=2145916800\u0026token-hash=aYsk-5hGzPTBizXJLQFbl3MlH9uBI2DXcWphpTs37qY%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-29T18:12:53.514246+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\"Keep up the free work, Here is 5$\"",
+     "unpublished_at": null,
+     "url": "/bePatron?c=892981\u0026rid=1647370",
+     "user_limit": null
+    },
+    "id": "1647370",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-04-29T18:22:29.555501+00:00",
+     "description": "Thank you.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-29T18:48:12.507327+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1647401/0ba5178805ff4471ba7d136029dd4be1?token-time=2145916800\u0026token-hash=KtpdDb8noUnzmTQQc9uhOpab_H5PqLZV9EOsbFQWolA%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-29T18:22:29.555501+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\"Thank you, I will donate 10$\"",
+     "unpublished_at": null,
+     "url": "/bePatron?c=892981\u0026rid=1647401",
+     "user_limit": null
+    },
+    "id": "1647401",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2017-04-29T18:21:55.511904+00:00",
+     "description": "Thank you.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-29T18:21:58.236193+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1647399/523d7e214b164534944ee6fb4bfe4e09?token-time=2145916800\u0026token-hash=4EY_ImY7uiUmVo_yeFAdRsNIP7N2ObU4j7BSqQl1Va4%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-29T18:21:55.511904+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\"You are good at this, I will donate 30$\"",
+     "unpublished_at": null,
+     "url": "/bePatron?c=892981\u0026rid=1647399",
+     "user_limit": null
+    },
+    "id": "1647399",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-04-29T18:20:45.181071+00:00",
+     "description": "IF you really enjoyed my work, Donate.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-29T18:20:50.104606+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1647396/560cc1e9dbbf4b60a36b033e8856c737?token-time=2145916800\u0026token-hash=CzH-H4xKP4G_xGynDeLDpgOSfDGDjxeFV6IUeqlZ4k0%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-29T18:20:45.181071+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\"You are awesome, I will donate 50$\"",
+     "unpublished_at": null,
+     "url": "/bePatron?c=892981\u0026rid=1647396",
+     "user_limit": null
+    },
+    "id": "1647396",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-04-29T18:19:44.154521+00:00",
+     "description": "If you want to help me doing this, PLEASE DONATE !",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-29T18:50:26.122606+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1647395/8a2a64706fce436b83f7ae0aef892199?token-time=2145916800\u0026token-hash=yOmn721wp7aVFDC0xgrDRWbgNJpRLP6U1sPOtsmq5vk%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-29T18:19:44.154521+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\"You are KING! Here is 100$\"",
+     "unpublished_at": null,
+     "url": "/bePatron?c=892981\u0026rid=1647395",
+     "user_limit": null
+    },
+    "id": "1647395",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2017-04-29T18:51:30.589901+00:00",
+     "description": "Thank you.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-29T18:52:29.013213+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1647479/f8614f9aa6d44dedb4a8b5fc7a30f275?token-time=2145916800\u0026token-hash=d_zK-w8pp1WZKHJ5zF4YXIb3Iv-nQVIeHH4MZ91X-dA%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-29T18:51:30.589901+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\"You are BEAST! Here is 150$\"",
+     "unpublished_at": null,
+     "url": "/bePatron?c=892981\u0026rid=1647479",
+     "user_limit": null
+    },
+    "id": "1647479",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2017-04-29T18:52:10.526492+00:00",
+     "description": "Thank you.",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-29T18:52:13.146151+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/1647485/1fe0508e2d1f48b5b80491c4a7364879?token-time=2145916800\u0026token-hash=ga86eBJAxbaix0vEENic1I6-5rMFzDsOGFeeFS1gTf0%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-29T18:52:10.526492+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "\"YOU ARE GOD! Here is 200$.\"",
+     "unpublished_at": null,
+     "url": "/bePatron?c=892981\u0026rid=1647485",
+     "user_limit": null
+    },
+    "id": "1647485",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 1,
+     "created_at": "2017-05-03T12:46:19+00:00",
+     "description": "\u003cstrong\u003eWhen I reach 50$, I will post a poll on my Facebook Page and I will ask you which app you want me to share for free! \u003cbr\u003e\u003c/strong\u003eI want this community to grow and to help each other so we could get the best applications for free. \u003cbr\u003eIt\u0027s not a problem for me to provide you with the newest software, but I still need to make a living out of something.\u003cbr\u003eSo if it\u0027s not a problem to you, donate at least 1-2$ instead of buying a drink tonight. It will cost you almost nothing, but it will help me to give you all the software you need, FOR FREE!\u003cbr\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "818841",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/892981"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "9f28881d-2c01-4fcf-8b0c-57410e681b3a",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "The LeakFather is creating Videos"
+});
+    </script>

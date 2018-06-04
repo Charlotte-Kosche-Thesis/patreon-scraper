@@ -1,0 +1,609 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "ewuJrFwr2_Vlg-aDGLoDEmRg8gchNvQYvW5xW-ox4xM";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "703120",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/703120"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-01-09T03:40:23+00:00",
+    "creation_name": "Online Video Content, Humor, Entertainment, Video Games",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1451119/b96f1394ee8d461bb24e13020a8b9d8f?token-time=2145916800\u0026token-hash=uPeE9mNAl0kMP4y5R4YSTIlVgldDEqP4ZVWLubwas34%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1451119/b96f1394ee8d461bb24e13020a8b9d8f?token-time=2145916800\u0026token-hash=hfBRHElmDriV_nvDtxvVGTQzgLodKJn-O0_yR1r6eIs%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 447,
+    "pledge_url": "/bePatron?c=1451119",
+    "published_at": "2018-01-09T05:13:59+00:00",
+    "summary": "Thank you so much for taking the time to come visit! My name is John but I go by Lyon online, I have tons of hope for humanity and creating online content with a positive spin is my way of giving back. Our Pryde is one that is filled with a lot of incredible people who enjoy a variety of video games, music, food, and hobbies. Feel free to check us out any time for some good vibes!\u00a0"
+   },
+   "id": "1451119",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9207240",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9207240"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1072118",
+       "type": "goal"
+      },
+      {
+       "id": "1072119",
+       "type": "goal"
+      },
+      {
+       "id": "1072120",
+       "type": "goal"
+      },
+      {
+       "id": "1072121",
+       "type": "goal"
+      },
+      {
+       "id": "1072122",
+       "type": "goal"
+      },
+      {
+       "id": "1072123",
+       "type": "goal"
+      },
+      {
+       "id": "1072124",
+       "type": "goal"
+      },
+      {
+       "id": "1072125",
+       "type": "goal"
+      },
+      {
+       "id": "1072126",
+       "type": "goal"
+      },
+      {
+       "id": "1072127",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2270333",
+       "type": "reward"
+      },
+      {
+       "id": "2270352",
+       "type": "reward"
+      },
+      {
+       "id": "2270357",
+       "type": "reward"
+      },
+      {
+       "id": "2270360",
+       "type": "reward"
+      },
+      {
+       "id": "2270386",
+       "type": "reward"
+      },
+      {
+       "id": "2270424",
+       "type": "reward"
+      },
+      {
+       "id": "2270439",
+       "type": "reward"
+      },
+      {
+       "id": "2270447",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-01-09T03:40:04+00:00",
+     "facebook": null,
+     "first_name": "Lyon",
+     "full_name": "Lyon and The Pryde",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMyIsInciOjIwMH0%3D/patreon-media/user/9207240/ee27851e3b8044009bf55b8f175de77c?token-time=2145916800\u0026token-hash=jG23-8ST6ukmnEC-Wq_6w1GdDct2VEl8ZoI8zYYX-UU%3D",
+     "last_name": "and The Pryde",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIzIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9207240/ee27851e3b8044009bf55b8f175de77c?token-time=2145916800\u0026token-hash=ujfIlkmxMewZyqanZ4vKmYyzbUvsavBAZKlN4BY-atQ%3D",
+     "twitch": "https://www.twitch.tv/LyonandThePryde",
+     "twitter": null,
+     "url": "https://www.patreon.com/LyonAndThePryde",
+     "vanity": "LyonAndThePryde",
+     "youtube": null
+    },
+    "id": "9207240",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1451119",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1451119"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-01-09T04:20:05.288090+00:00",
+     "description": "The Foundation and Future of The Pryde!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-09T04:53:30.463321+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2270333/cb145b1f417f4452b6d7c8cccc7a2d8e?token-time=2145916800\u0026token-hash=dP17Uwhz2f1HAuxbLoMWbRUqmpWbJ8glQvh7KnxfT9E%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-09T04:53:30.444641+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Cubs",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1451119\u0026rid=2270333",
+     "user_limit": null
+    },
+    "id": "2270333",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-01-09T04:30:47.968385+00:00",
+     "description": "The Eyes and Visionaries of The Pryde",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-09T04:53:46.946984+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2270352/8488ddf2373c4abe8a6e3297c2deba11?token-time=2145916800\u0026token-hash=sOtJhy7u-fLlaFj2eoFL32-IyqFbZ5zJXfPbMco8Kxc%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-09T04:53:46.925504+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Scouts",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1451119\u0026rid=2270352",
+     "user_limit": null
+    },
+    "id": "2270352",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-09T04:33:07.839427+00:00",
+     "description": "The Ears and Vibrations of The Pryde!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-09T04:55:04.498322+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2270357/b4f6d6364c6b49f296643c66f0a367cd?token-time=2145916800\u0026token-hash=g5K9uTSr-O5XhmNi5PTFB_x3h_47ypvUjE2MvE4gCUA%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-09T04:55:04.477866+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Shadows",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1451119\u0026rid=2270357",
+     "user_limit": null
+    },
+    "id": "2270357",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-01-09T04:35:51.390754+00:00",
+     "description": "The Backbone and Column of The Pryde!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-09T04:55:48.336660+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2270360/9deb5c1663e84e578c50c3d330a34894?token-time=2145916800\u0026token-hash=u3xDJjFgCYwzx5WIu93kPMvYttr2ISatHLIGNDRUtH4%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-09T04:55:48.309297+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Hunters",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1451119\u0026rid=2270360",
+     "user_limit": null
+    },
+    "id": "2270360",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-01-09T04:46:07.167353+00:00",
+     "description": "The Central Core and Movement of The Pryde",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-09T04:56:32.647720+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2270386/c5c26ca4b200412bae3d7586547ae861?token-time=2145916800\u0026token-hash=eN0SSdRSW8mUmYeyt9jA-mAjpKdc-DKAID4eGlQm3xQ%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-09T04:56:32.624307+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Predators",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1451119\u0026rid=2270386",
+     "user_limit": null
+    },
+    "id": "2270386",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-01-09T05:01:00.099841+00:00",
+     "description": "The Heart and Blood of The Pryde!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-09T05:01:00.099841+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2270424/5d4aa19dbe78471c8dc16745ca76a1d0?token-time=2145916800\u0026token-hash=z5qHzmD8B7MHiZSF-B2lLWvXQKZrTOefFKUyKvAE5Qc%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-09T05:01:00.099841+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Leaders",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1451119\u0026rid=2270424",
+     "user_limit": null
+    },
+    "id": "2270424",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2018-01-09T05:06:38.538876+00:00",
+     "description": "The Body and Framework of The Pryde!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-09T05:06:38.538876+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2270439/d7c8b01f57a94ca78f7ad1b78c2f8bba?token-time=2145916800\u0026token-hash=moH9r_Jmp36jiALg_z8VEmRqXIPz46kPWY5YLubWWVM%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-09T05:06:38.538876+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Commanders",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1451119\u0026rid=2270439",
+     "user_limit": null
+    },
+    "id": "2270439",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 20000,
+     "amount_cents": 20000,
+     "created_at": "2018-01-09T05:09:29.913347+00:00",
+     "description": "The Balance and Co-Operation of The Pryde!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-09T05:09:29.913347+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2270447/908206eb60d245358e0d9c9e8568b5ba?token-time=2145916800\u0026token-hash=zOgEKJlHRDej5vutt3iFQDUEycP5Kee7fEQZr9BzLh0%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-09T05:09:29.913347+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Co-Commanders",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1451119\u0026rid=2270447",
+     "user_limit": null
+    },
+    "id": "2270447",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 5000,
+     "completed_percentage": 8,
+     "created_at": "2018-01-09T04:17:09+00:00",
+     "description": "Edit and post a weekly highlight video on youtube.\u00a0",
+     "reached_at": "2018-02-11T20:36:18+00:00",
+     "title": ""
+    },
+    "id": "1072118",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 4,
+     "created_at": "2018-01-09T04:17:09+00:00",
+     "description": "Special Highlight YouTube Post + Lyon Suite Hype Stream on Twitch",
+     "reached_at": "2018-03-26T18:59:40+00:00",
+     "title": ""
+    },
+    "id": "1072119",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 25000,
+     "completed_percentage": 1,
+     "created_at": "2018-01-09T04:17:09+00:00",
+     "description": "Special Highlight YouTube Post + Lyon Suite Hype Steam on Twitch + Gratitude Video\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1072120",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 0,
+     "created_at": "2018-01-09T04:17:09+00:00",
+     "description": "12 hour Lyon Suite Hype Stream + New Highlight Video!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1072121",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2018-01-09T04:17:09+00:00",
+     "description": "24 HOUR LYON SUITE HYPE STREAM!!!! Gratitude Video on how AMAZING the Pryde is! $1000! You all are INCREDIBLE!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1072122",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 0,
+     "created_at": "2018-01-09T04:17:09+00:00",
+     "description": "When we get to the point of 2000 steady income per month, i\u0027ll lose my sh*t! and who knows! The Lyon will go NUTS!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1072123",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 400000,
+     "completed_percentage": 0,
+     "created_at": "2018-01-09T04:17:09+00:00",
+     "description": "The Pryde is ABSOLUTELY insane! The Dream has become a REALITY! Dreams come True status at $4,000 per more! I will by rent or buy a ware-house and create a next level fantasy factory with the best streaming setup I can manage!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1072124",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 800000,
+     "completed_percentage": 0,
+     "created_at": "2018-01-09T04:17:09+00:00",
+     "description": "I have become Super Saiyan Lyon! I will create a reality show inside the streaming house allowing new levels of access between the Pryde and myself! Cooking shows, DJ\u0027s w/ live music, Virtual Reality Setups, New Adventures in the Fantasy Factory!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1072125",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 1600000,
+     "completed_percentage": 0,
+     "created_at": "2018-01-09T04:17:09+00:00",
+     "description": "Upgrade all the cameras and equipment to the highest quality. Bring on guest streamers to live in the house. Hire a full time chief, content editor, social media manager, maid, and buy my parents new cars!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1072126",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 3200000,
+     "completed_percentage": 0,
+     "created_at": "2018-01-09T04:17:09+00:00",
+     "description": "Hire Camera Crews, Production Teams, and All of the editors to film friends and myself experiencing all the adventures around the world. Basically create videos of us traveling the world playing video games, meeting all the members of The Pryde, eating all kinds of food, laughing at all the crazy things in the world that bring us together, spitfire, bungee jump over rivers, go cliff jumping, zip line over forests, learn to fly and then jump out of the plane and all kinds of other adventures that life is full of that need to be experienced through our perspective!\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1072127",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1451119"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "df1f8b76-f8a3-4d92-a758-27a7ceff389e",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "Lyon and The Pryde is creating Online Video Content, Humor, Entertainment, Video Games"
+});
+    </script>

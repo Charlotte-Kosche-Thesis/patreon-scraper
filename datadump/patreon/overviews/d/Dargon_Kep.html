@@ -1,0 +1,593 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "RBjo4vrWfKmHI_ri1x7XDi-XPCoFlWYct79iTE9pZPQ";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "706763",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/706763"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-01-12T04:45:39+00:00",
+    "creation_name": "Quality Streaming Content",
+    "display_patron_goals": true,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 2118,
+    "pledge_url": "/bePatron?c=1458468",
+    "published_at": "2018-01-12T05:39:00+00:00",
+    "summary": null
+   },
+   "id": "1458468",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9255827",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9255827"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "64379",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2279101",
+       "type": "reward"
+      },
+      {
+       "id": "2279105",
+       "type": "reward"
+      },
+      {
+       "id": "2279108",
+       "type": "reward"
+      },
+      {
+       "id": "2279111",
+       "type": "reward"
+      },
+      {
+       "id": "2279115",
+       "type": "reward"
+      },
+      {
+       "id": "2279121",
+       "type": "reward"
+      },
+      {
+       "id": "2279124",
+       "type": "reward"
+      },
+      {
+       "id": "2279125",
+       "type": "reward"
+      },
+      {
+       "id": "2279128",
+       "type": "reward"
+      },
+      {
+       "id": "2279133",
+       "type": "reward"
+      },
+      {
+       "id": "2279134",
+       "type": "reward"
+      },
+      {
+       "id": "2279135",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-01-12T04:45:18+00:00",
+     "facebook": null,
+     "first_name": "The",
+     "full_name": "The Dargon",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c8.patreon.com/2/400/9255827",
+     "last_name": "Dargon",
+     "thumb_url": "https://c8.patreon.com/2/100/9255827",
+     "twitch": "https://www.twitch.tv/thedragonrailroad",
+     "twitter": null,
+     "url": "https://www.patreon.com/Dargon_Kep",
+     "vanity": "Dargon_Kep",
+     "youtube": null
+    },
+    "id": "9255827",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1458468",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1458468"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-01-12T17:07:04.598080+00:00",
+     "description": "Its not that much, but it will help!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T17:07:04.598080+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T17:07:04.598080+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "1 Bullet for the 9mm ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458468\u0026rid=2279101",
+     "user_limit": null
+    },
+    "id": "2279101",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2018-01-12T17:08:10.181853+00:00",
+     "description": "Your getting there! This one will take out a clicker or two.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T17:08:10.181853+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T17:08:10.181853+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "2 Bullets for the Revolver",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458468\u0026rid=2279105",
+     "user_limit": null
+    },
+    "id": "2279105",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-01-12T17:09:32.049897+00:00",
+     "description": "I don\u0027t like the number three. That wont take out anything, you might be able to grill some bacon with it tho.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T17:09:32.049897+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T17:09:32.049897+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "3 Flame bursts for the FlameThrower",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458468\u0026rid=2279108",
+     "user_limit": null
+    },
+    "id": "2279108",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 400,
+     "amount_cents": 400,
+     "created_at": "2018-01-12T17:11:06.297156+00:00",
+     "description": "With this exclusive package, you will get one great steed and three others for your followers!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T17:11:06.297156+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T17:11:06.297156+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "4 Callus\u0027s",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458468\u0026rid=2279111",
+     "user_limit": null
+    },
+    "id": "2279111",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-01-12T17:11:59.024883+00:00",
+     "description": "You will always miss three of them, then hit two and still not kill the enemy.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T17:11:59.024883+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T17:11:59.024883+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "5 Bow Arrows",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458468\u0026rid=2279115",
+     "user_limit": null
+    },
+    "id": "2279115",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 600,
+     "amount_cents": 600,
+     "created_at": "2018-01-12T17:14:49.642960+00:00",
+     "description": "This package is a beast. You got three in the \u0027magazine\u0027 and 3 left. One bullet is always guaranteed to take out an enemy!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T17:14:49.642960+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T17:14:49.642960+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "6 Hunting Rifle Shots.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458468\u0026rid=2279121",
+     "user_limit": null
+    },
+    "id": "2279121",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2018-01-12T17:16:34.046598+00:00",
+     "description": "You can blow anything up with this bad boy, and with this much ammo! Your going to be a star kid.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T17:16:34.046598+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T17:16:34.046598+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "7 ShotGun Shells",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458468\u0026rid=2279124",
+     "user_limit": null
+    },
+    "id": "2279124",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 800,
+     "amount_cents": 800,
+     "created_at": "2018-01-12T17:17:33.819683+00:00",
+     "description": "I mean....its good, you throw them and it gets the job done. Bravo!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T17:17:33.819683+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T17:17:33.819683+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "8 Bottles",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458468\u0026rid=2279125",
+     "user_limit": null
+    },
+    "id": "2279125",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 900,
+     "amount_cents": 900,
+     "created_at": "2018-01-12T17:18:41.026090+00:00",
+     "description": "Bricks are almighty! They sound cooler, and look cooler than bottles!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T17:18:41.026090+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T17:18:41.026090+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "9 Bricks",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458468\u0026rid=2279128",
+     "user_limit": null
+    },
+    "id": "2279128",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-01-12T17:20:21.693431+00:00",
+     "description": "Bada Bing, Bada Boom! This package is litty and witty my dude. They can do almost anything! Joel can hold tons of stuff in his backpack and teach you how to play guitar. Ellie has a switchblade...Thats it.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T17:20:21.693431+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T17:20:21.693431+00:00",
+     "remaining": 1,
+     "requires_shipping": false,
+     "title": "1 Joel and Ellie",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458468\u0026rid=2279133",
+     "user_limit": 1
+    },
+    "id": "2279133",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-01-12T17:21:25.666633+00:00",
+     "description": "Molotovs can do anything man. They can burn bloaters, burn clicker, burn runners. EVEN BURN YOURSELF!",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T17:21:25.666633+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T17:21:25.666633+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "15 Molotovs",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458468\u0026rid=2279134",
+     "user_limit": null
+    },
+    "id": "2279134",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-01-12T17:22:02.768540+00:00",
+     "description": "You get 20 OOFS, ready to be used anytime.",
+     "discord_role_ids": null,
+     "edited_at": "2018-01-12T17:22:02.768540+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-01-12T17:22:02.768540+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "OOF",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1458468\u0026rid=2279135",
+     "user_limit": null
+    },
+    "id": "2279135",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-01-12T05:37:42+00:00",
+     "deleted_at": null,
+     "description": "When I reach 5 Patreons, I will begin to pump out videos on Youtube, mostly consisting of high quality Gameplay of my favorite games.",
+     "goal_text": "When I reach 5 Patreons, I will begin to pump out videos on Youtube, mostly consisting of high quality Gameplay of my favorite games.",
+     "number_patrons": 5,
+     "reached_at": null
+    },
+    "id": "64379",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1458468"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "3b818521-e5a8-4cad-af87-8b7e5c2cfe0e",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "The Dargon is creating Quality Streaming Content"
+});
+    </script>

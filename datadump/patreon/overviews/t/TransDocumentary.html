@@ -1,0 +1,495 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "8_cPSLYdfFbGvyUxfzySoicJvwLdaAseeLVHu-vErTg";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "141346",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/141346"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2016-02-29T15:31:34+00:00",
+    "creation_name": "A documentary exploring gender identity and transgender issues",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/307105/f60365fc9ab64d079c55a6e64689d76a?token-time=2145916800\u0026token-hash=H9QfJH_2Jv8ZCUuWmEW448Zm2PzIKV2KACRFc8HO8uA%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/307105/f60365fc9ab64d079c55a6e64689d76a?token-time=2145916800\u0026token-hash=T-hBxfnzA5ZH2j01vBRnt_Hcf_IVE0bQtHQbE1hreWg%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FxGxif_POWXc%3Ffeature%3Doembed\u0026amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxGxif_POWXc%26feature%3Dyoutu.be\u0026amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FxGxif_POWXc%2Fhqdefault.jpg\u0026amp;key=8ee8a2e6a8cc47aab1a5ee67f9a178e0\u0026amp;type=text%2Fhtml\u0026amp;schema=youtube\" width=\"854\"\u003e\u003c/iframe\u003e",
+    "main_video_url": "https://www.youtube.com/watch?v=xGxif_POWXc\u0026feature=youtu.be",
+    "one_liner": null,
+    "patron_count": 0,
+    "pay_per_name": "month",
+    "pledge_sum": 0,
+    "pledge_url": "/bePatron?c=307105",
+    "published_at": "2016-03-01T00:13:13+00:00",
+    "summary": "My name is Ash, I am a trans girl living in Colorado Springs. More than that, I am an artist and a filmmaker. Since starting my transition 7 months ago, I have had an increasing interest in pursuing a documentary exploring gender identity and what it means to be transgender. I finally decided to bite the bullet and give it a shot.\u00a0\u003cbr\u003e\n\u003cbr\u003e\u003ch2\u003e\u003cstrong\u003eAbout my work\u003cbr\u003e\u003cbr\u003e\u003c/strong\u003e\u003c/h2\u003e\nI have been working in the film industry for a little over 7 years as a DoP. \"What is a DoP?\" you might ask. DoP stands for \"Director of Photography\". Basically, I make all the pretty pictures that you see on screen. I have done everything from feature films to commercials. But now I want to focus on something that is meaningful to me.\n\u003cbr\u003e\u003cbr\u003e\u003ch2\u003e\u003cstrong\u003eThe Project\u003cbr\u003e\u003c/strong\u003e\u003c/h2\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/-_yLcScwA-_O__Z_JUMluuojtTt3mVBRrEdcH9mVxNwSGsCp4KQW2uFB_v-o40oDmjvj6g7qhxiXEQvpkn5RUvz2yZSvOihrvCW1zfWlPDyE5Jd2vfX0BhB_t718-6jHxaGoH0OyJXCruMJcKftNSJq9vlHob-zl4f_KtR_rZJ-WNxSsLO6EG5LvDUh_PB8t7WSAkPPYjLjbvtzPzhlXDUIJYhZ9g6_ecGKo_Vinxpy4nt57zmXFdzGClRbGyTZNABX7cUeUEZRqvxvxYEjUnkI_ojwhOIbAIgei2OTMtETM2BTk__WnUjXZgv8oQ3tsyNChfgFZ5wbZ0htzs5xRY4G8vbd-tIXhiugD4EW-lDBGjNfDD9JHkKZARlIB4wIZt_UJMe4Gi2eACbZS65ZvI97vNSTsnAFSa4WGxw3okcGqFkcSkQIjOvx83gzaIRudMwPUGHl9neS2PF9P5YPZJs_gnuqJFJ6Ppp-80VVgE-r5uCFSnDbH2AN5JIHSSTLk09nc8c4q3BpYIywvDuVpaScL1swrRILntgFpxUfz_wep5gT-C0IHMelCrOqJrhR_X_g=w330-h192-no\" style=\"float: left; margin: 0px 10px 10px 0px;\"\u003eMy story starts with my mom. When she was in the womb, she was exposed to a chemical called DES.\u00a0It was thought at the time that DES would ultimately ensure a healthy pregnancy. As many as 10\u00a0million women were exposed in their life times. They later found out that DES was harmful causing several different types of cancer and many other defects. This was all\u00a0pushed to the side and along\u00a0comes little old me, born on Feb 20th a healthy baby boy...\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/Iv98JG_0dzjhrCtXqVKWprRhnR8uNkokf1mwxKNKM0CYSHiTdrpGKFr7m5odAPYj6QuxEIgt59MfUIRNFRXVrmTg_DTDb0ELAA5fA9XBXpGhFwMuJohchR_I2u7otjCHB9B5L6IusynsfDvy3Tq2ZgNLzuvF-BjIoPEn3epmXz0si7imPwbE-mgT-8KMRv1cPw6WgqKYQ8zoblg3_lxnF_19LIruGC0HYdK9n522L8iuYauDctBbfys7k1jcuLnrOh7vwCcoVA97CLyPwwDWK5ZNObYcEoYaZUNpx7_ETBqBWkZ11pHgW_Z-FqRBp7bNgzcemRO3yK1ljfGEmWauafCfeBSjraK6y3zWLyRB9iBkkz0FJCS23ArSnbw84dsYocXULwpmR1lHrDZgdE8M3SKLsfvf5WBrJ33-JmLYD8qJcVP-53K45gBM86pZA-zxNJSW-dmcEmR2v_EEgKclnegEbPe18Fddsj20mamKvLRi-WbJDnDqy3dyGs4eQxfIzRpKW-tvH4BrmPCsA1aG7uaoJFCzjKacd2ChZZBW61IXhirVukSururyYeK9zoANLSg=w330-h342-no\" style=\"width: 179px; float: right; margin: 0px 0px 10px 10px;\"\u003eThe earliest memory of things feeling \u201cwrong\u201d would have been around the\u00a0age of 5.\u00a0This\u00a0feeling\u00a0continued on and on through my childhood. By the time I hit puberty, my body was in full\u00a0revolt.\u00a0I fell into a massive depression. How could I tell someone that I felt like a girl trapped in a boys body? I was shy and reclusive to begin with. I was in hell.\u00a0\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cdiv\u003e\u003cdiv\u003e\u003cimg src=\"https://lh3.googleusercontent.com/x5VzO2Oe9Ws1Sd6oX2GvBn5yCHW_9Nar5VWm_zpE9aY0moh1KPu7oZWqHrmzM2qx0CVppGJd34w_xdqb3U3ZJv4VyU7lbLmLlS4Y6xgdI0oOj13Am2cZYh_FEYi0aM8qsINcA0Wc-fBsp_iJvfXptCl6YuYHj5O0Fz52jeYFAeKLmWla9y-YQMi-S11ZgnWL8_pApMYTLSxob6S1U__tE1ddWI1ubMEW1TVe5U_zrOrrtDwOMQOqZ6QL1wBw72FJr5WlfGnNl5KriEekgbiIZpj6CbHNXa8YpF9cRMnRatAPTsfalbHk_RKTsGgPgxqjTIRBYHldipan0oiDIiYnbBgpmRTmKYqBmcbaE6AkMIlH2Cw99bnhD3XMLlDq9XDVAMXf2UwlwNijcHGOjzVWIHWaZePSK35N47Kz06X6t320NEeeqRtwCWrHMHw4ALkLLR5CFVec5VypQ6-KfAJ-f3fAfPIsxpMrlD5NYfjGbVK8UIVO8D-_fxEu78jG7LyOTQyZBn-xoTxGVYGGGDW7hM3aRubZzBtfWpNM9X3gQIaXeSVs7izyHET-a9lHtV0eUv0=w262-h330-no\" style=\"width: 168px; float: left; margin: 0px 10px 10px 0px;\"\u003e\u003cdiv style=\"text-align: center;\"\u003e\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u003c/div\u003eFast forward to college. I started adopting different personas to fit in and mask the turbulence beneath the surface. My sadness and depression was hidden behind the veil of false confidence and hyper masculinity. I built up a throne of achievements to make myself feel better. I only felt empty.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/fRl6C3dO153LVdKMH5xNQI9Vp3438pdBAsH_spRhAaLoZZ9AbioBZP42_X8HEPrtdjU0jqNLmqbx--NUwm8iyP5QBngmRSO6kTU2dZ4eSk7PoKOzmthdyZvoEuUX_-HTc6xaW7XMo4LB4-_1clWPfC1oA_EETxk9uuB3PCsTwuZHJ8HsEZ1GlQVKc6e19hiV3vdawNHpDPPbsXOtDNzxL_BYmoMPrNVIxy2AEOwDhJ8FViFu66OkYpVTHsZY0QVPPCRq9o-wYIhilOAQo-n2QLyei8A19HPiIXIdBmt77jL4CIAw4-hWQqJ_m3gPY_HcXoezZQzKVRXZJvn1OufMY3v7W_PyZS1FFEjyWzvFFMYPwCojnVzKc8Cvb5J3HNpesgQbEXOVoZw4eeWiJY9LZjVG-G0rZh1Lz-FA31kfVKjUebjChf59SI0Pcgeq8yXe2zYdZRfr9tfXexMHvRgDENyaEx4cW4nyhVDD7Sprqyp_5CQz3B0hO0xf-Y48cmSYUnFQg66MKVDsSqWKUsH9U4ALFjyjBKB8P7n4o_7hygVgqOxRH_TSNNTXG30-nU2dY1g=w261-h330-no\" style=\"float: right; width: 179px; margin: 0px 0px 10px 10px;\"\u003eThen I met the love of my life and things changed. Phil taught me how to be happy, how to enjoy life,\u00a0how to cut loose and yet something was still wrong. Each facade that I would shed for him put another crack in the foundation of the lie that I was living. Till one day it broke. I started binging on alcohol and drugs to try and hold on. Grasping for air and full of humility I told my husband what I had feared the most. I told him that I was transgender. That I wanted to be me. That I wanted to transition.\u003c/div\u003e\u003cdiv\u003e\u003cdiv style=\"text-align: center;\"\u003e\u00a0 \u00a0 \u00a0\u003c/div\u003eThat was a hard pill to swallow as you might imagine. We still talk about that moment from time to\u00a0time. Recounting the thoughts and emotions of that one simple moment when everything changed. 12 months of therapy and 6 months of hormones leaves me here. Someone who has been to the edge of oblivion and made it back in one piece.\u003cbr\u003e\u003cbr\u003e\u003c/div\u003e\u003cdiv\u003eRemember that DES that I was talking about? Well since I started my transition I remembered what my mom went through when I was younger. She had to get a hysterectomy and still suffers some of the\u00a0\u003c/div\u003e\u003cdiv style=\"background-color: rgb(255, 255, 255);\"\u003e\u003cimg src=\"http://the-medical-dictionary.com/pics/Diethylstilbestrol_1.png\" style=\"float: left; margin: 0px 10px 10px 0px;\"\u003e\u003c/div\u003e\u003cdiv\u003eeffects of her exposure to the drug. That got me thinking\u2026 Could this have an effect on me? I started researching DES exposure and gender identity. Sure enough there it was. And the kicker is that this exposure seems to span generations. \u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://lh3.googleusercontent.com/0MGcfbAnLNHxNNjyqGw3U4UPUF-Q9PX9-SyZ6uEKyV2FqD_-vKCZkUYgU0iMy-H8nH-_OyLA46KW41HNARkVM3Ovf7JYv5gw1Tyi0ssXHXjbPVdBQ5pzbIJT1u5DzDejVoe9puPcHl2KT8ssfN1sYqY3jt9AlM_2Lk6GARVdglnQHjyo6cDNY1G9n3w9I7fWeJYqIdaBKkY3gaCSpRi_g6DlEY_kErZ9RLa_qt0QYvXCx3dr5AC_aK6oHxrEN08uQLeaf6MkdzSjtcgn2sreei4fNcxK8DmY-eW4UjTFXwoNXmN7lWfCkX7lIgmacWJlL291GyG8-JNCVty8buR9VE0_BfepR4dDYoGtF6WrJjqG6NDaPkXv0aywUtvO0VOhD6hv4eRIthya6TH_st01UP1NAf_GsJrB9TZyDk_0rr3AaKIvj-DEftuVRoidE7eM09xICgzeV75ER3n3_hlO422n6uuid7E5qWtsozAuAotqkAxX2XwJgIe5L_t5ieHUyrnPs9bnHay8lHc6gJlbmkg3bWwl6XC_R1U2Pbt4JkmxUFrX154EkMLyUY7P1WADApI=w212-h330-no\" style=\"width: 123px; float: right; margin: 0px 0px 10px 10px;\"\u003eNow the purpose of this documentary isn\u2019t to point fingers at any one thing and blame them for my problems. No. In fact, its purpose is to explore some of the possible environmental causes of gender identity, how certain life experiences might play a roll and explore how chemical processes in the\u00a0womb might have a bearing on our identity as an adult.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003c/div\u003e\u003cdiv\u003eAs I go through my transition I want you to experience it with me. All the ups and downs, victories and\u00a0failures.\u003c/div\u003e\u003cdiv\u003e\n\u003cbr\u003e\n\u003ch2\u003e\n\u003cstrong\u003eWhat do I need?\u003c/strong\u003e\n\u003c/h2\u003e\n\u003cbr\u003e\nFor starters I would love to have enough money each month to travel and complete at least one interview. I already own all my own equipment (cameras, lenses, lights, ect) so at least that part is already taken care of. Every penny helps me move towards the goal of working on this documentary full time.\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ch2\u003e\n\u003cstrong\u003eWhere will the money go?\u003c/strong\u003e\n\u003c/h2\u003e\n\u003cbr\u003e\nAll fundraising for this project will go directly into the production. Your donations will pay for travel, an Audio engineer, and a second camera operator. With enough funding it will also pay for my time to focus on the completion of the documentary full time.\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ch2\u003e\n\u003cstrong\u003eWhat will I be using to film this project?\u003c/strong\u003e\n\u003c/h2\u003e\n\u003cbr\u003e\nI own a Sony FS7 and a set of cine lenses. I have used this camera kit on a lot of jobs over the past year. Trust me, it is an outstanding documentary camera. I will also be shooting some B-roll on the DJI Osmo and the Sony a6300. This means that I will maintain a strict quality standard for this project. Check out some of my recent projects below!\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cdiv style=\"text-align: center;\"\u003e\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"225\" src=\"https://www.youtube.com/embed/GIUD-QpTny4\" width=\"400\"\u003e\u003c/iframe\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"225\" src=\"https://www.youtube.com/embed/CHqrpFjsKu0\" width=\"400\"\u003e\u003c/iframe\u003e\n\u003cbr\u003e\n\u003cbr\u003e\n\u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"225\" src=\"https://www.youtube.com/embed/KieMFggSdSk\" width=\"400\"\u003e\u003c/iframe\u003e\n\u003c/div\u003e\u003cbr\u003e\n\u003cdiv style=\"text-align: center;\"\u003e\n\u003cstrong\u003eYou can also check me out on IMDB\u00a0\u003c/strong\u003e\u003cstrong\u003e\u003ca href=\"http://www.imdb.com/name/nm5348215/?ref_=fn_nm_nm_1\" rel=\"nofollow\"\u003e\u003cspan style=\"color: rgb(0, 0, 0);\"\u003ehere\u003c/span\u003e\u003c/a\u003e!\u003cbr\u003e\u003cbr\u003e\u003c/strong\u003e\n\u003c/div\u003e\nUltimately my goal for this project is to help educate the public on gender identity and transgender issues. By raising awareness, we are able to help others in a similar situation as well as broaden the acceptance of nonbinary individuals.\u003cbr\u003e\u00a0\u003cbr\u003e\n\u003c/div\u003e\u003c/div\u003e"
+   },
+   "id": "307105",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2689687",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2689687"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "364068",
+       "type": "goal"
+      },
+      {
+       "id": "364069",
+       "type": "goal"
+      },
+      {
+       "id": "364070",
+       "type": "goal"
+      },
+      {
+       "id": "364071",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-307105",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-307105"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "457511",
+       "type": "reward"
+      },
+      {
+       "id": "457512",
+       "type": "reward"
+      },
+      {
+       "id": "457513",
+       "type": "reward"
+      },
+      {
+       "id": "457514",
+       "type": "reward"
+      },
+      {
+       "id": "457515",
+       "type": "reward"
+      },
+      {
+       "id": "457516",
+       "type": "reward"
+      },
+      {
+       "id": "457517",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "I am a Colorado based filmmaker and transgender activist.",
+     "created": "2016-01-03T02:02:08+00:00",
+     "facebook": null,
+     "first_name": "Ash",
+     "full_name": "Ash",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2689687/9520935b306b4c48a4a69d5aea2bcb02?token-time=2145916800\u0026token-hash=VqFXnkKc1C2K7SUDIEuInKjeNQu7A91OhYIAn6BoSE8%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2689687/9520935b306b4c48a4a69d5aea2bcb02?token-time=2145916800\u0026token-hash=qbJDfMSfKf3H9mRMGGy8yBAUMnADSlt36OCwwbG_FxU%3D",
+     "twitch": null,
+     "twitter": "",
+     "url": "https://www.patreon.com/TransDocumentary",
+     "vanity": "TransDocumentary",
+     "youtube": null
+    },
+    "id": "2689687",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "307105",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/307105"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 5,
+     "upgrade_url": "/bePatron?c=307105\u0026rid=457511"
+    },
+    "id": "post-aggregation-for-0-307105",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2016-05-02T15:13:05+00:00",
+     "description": "Exclusive behind the scenes details and location photos updated after each shoot.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-02T15:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=307105\u0026rid=457511",
+     "user_limit": null
+    },
+    "id": "457511",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2016-05-02T15:13:05+00:00",
+     "description": "All of the above plus Digital copy of the completed film",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-02T15:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=307105\u0026rid=457512",
+     "user_limit": null
+    },
+    "id": "457512",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2016-05-02T15:13:05+00:00",
+     "description": "All of the above plus access to behind the scenes footage",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-02T15:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=307105\u0026rid=457513",
+     "user_limit": null
+    },
+    "id": "457513",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2016-05-02T15:13:05+00:00",
+     "description": "All of the above plus access to complete interviews, production notes and your name in the \u0027Special Thanks\u0027 section of the credits.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-02T15:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=307105\u0026rid=457514",
+     "user_limit": null
+    },
+    "id": "457514",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2016-05-02T15:13:05+00:00",
+     "description": "All of the above as well as sneak peeks of the film as it comes together.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-02T15:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=307105\u0026rid=457515",
+     "user_limit": null
+    },
+    "id": "457515",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2016-05-02T15:13:05+00:00",
+     "description": "All of the above plus your name in the credits as an associative producer.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-02T15:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=307105\u0026rid=457516",
+     "user_limit": null
+    },
+    "id": "457516",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200000,
+     "amount_cents": 200000,
+     "created_at": "2016-05-02T15:13:05+00:00",
+     "description": "Access to all the content that I create as well as an Executive producer credit. Monthly updates from me personally.",
+     "discord_role_ids": null,
+     "edited_at": null,
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2016-05-02T15:13:05+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": null,
+     "unpublished_at": null,
+     "url": "/bePatron?c=307105\u0026rid=457517",
+     "user_limit": null
+    },
+    "id": "457517",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 0,
+     "created_at": "2016-02-29T15:53:28+00:00",
+     "description": "If I reach $500 a month I will be able to travel by myself to various locations for interviews.",
+     "reached_at": null,
+     "title": "Travel for One"
+    },
+    "id": "364068",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2016-02-29T15:53:28+00:00",
+     "description": "By reaching $1000 a month I will be able to hire a Audio guy to work with me on the interview days and cover travel for two to different locations.",
+     "reached_at": null,
+     "title": "Travel for Two"
+    },
+    "id": "364069",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 0,
+     "created_at": "2016-02-29T15:53:28+00:00",
+     "description": "By reaching $2000 a month I will be able to dedicate more time to the documentary and focus on completing it faster by doing multiple travel days and interviews per a month.",
+     "reached_at": null,
+     "title": "Mulitiple interviews a month"
+    },
+    "id": "364070",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 0,
+     "created_at": "2016-02-29T15:53:28+00:00",
+     "description": "I will be able to spend the next year or so focusing on this documentary. Traveling where I need with the crew and covering the necessary costs of production.",
+     "reached_at": null,
+     "title": "Full time documentary"
+    },
+    "id": "364071",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/307105"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "47c83128-c378-4349-9bf5-903563e32c62",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "Ash is creating A documentary exploring gender identity and transgender issues"
+});
+    </script>

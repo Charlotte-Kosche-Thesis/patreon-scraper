@@ -1,0 +1,548 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "gYJqvZuaLIIGsjleVfSQeKRPUnOOYiGaCIQ0v0hYzWc";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "814983",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/814983"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-02-21T15:43:51+00:00",
+    "creation_name": "Comedy Videos",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIyIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1557938/a167352c1fb946b4899888326e0f7b15?token-time=2145916800\u0026token-hash=mLbFMqioF3phuCNUCHZdwmS-nTGbF3_nvHCLGpcPhs4%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMiJ9/patreon-media/campaign/1557938/a167352c1fb946b4899888326e0f7b15?token-time=2145916800\u0026token-hash=PJQe2FgmbeUd08PQOzzYxdDMp63Q1l_ccN54o9YNjq4%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 1371,
+    "pledge_url": "/bePatron?c=1557938",
+    "published_at": "2018-02-22T04:48:13+00:00",
+    "summary": "If you decide to help support me, you would be helping to advance my content along at a faster pace. I have so many projects beyond comedy videos that I plan to explore, such as with music, stand-up, and story-telling among other things. Alas, it is difficult to invest as much time as I would like into these projects because of school, work, and not having the money to buy the equipment I need to advance my projects. I will continue to invest in the things need to take my content to the next level, but your contribution could have huge impact on moving things along at a faster rate. I appreciate you for listening and just want you to know I\u0027m nothing without you."
+   },
+   "id": "1557938",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9886353",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9886353"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1119847",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": [
+      {
+       "id": "76740",
+       "type": "patron_goal"
+      },
+      {
+       "id": "76855",
+       "type": "patron_goal"
+      }
+     ]
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2392432",
+       "type": "reward"
+      },
+      {
+       "id": "2392428",
+       "type": "reward"
+      },
+      {
+       "id": "2391343",
+       "type": "reward"
+      },
+      {
+       "id": "2391387",
+       "type": "reward"
+      },
+      {
+       "id": "2391393",
+       "type": "reward"
+      },
+      {
+       "id": "2392442",
+       "type": "reward"
+      },
+      {
+       "id": "2391410",
+       "type": "reward"
+      },
+      {
+       "id": "2391411",
+       "type": "reward"
+      },
+      {
+       "id": "2392438",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-02-21T15:43:38+00:00",
+     "facebook": "https://www.facebook.com/cilvanis2/",
+     "first_name": "Cilvanis",
+     "full_name": "Cilvanis",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMiIsInciOjIwMH0%3D/patreon-media/user/9886353/2a2f071e51ac4aec82d8d5583628a3fa?token-time=2145916800\u0026token-hash=sW2Nn7QFBs7wikAlIlHzKSrC83aQmMwvwY26KADVM8I%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIyIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9886353/2a2f071e51ac4aec82d8d5583628a3fa?token-time=2145916800\u0026token-hash=gXgza7x8DlOcO59Ikuz8kbPQbn5WssIKupsZxvC2f2w%3D",
+     "twitch": "https://www.twitch.tv/cilvanis",
+     "twitter": "Cilvanis",
+     "url": "https://www.patreon.com/Cilvanis",
+     "vanity": "Cilvanis",
+     "youtube": "https://www.youtube.com/channel/UCccnyrT2NeVDzypO64Dif-A"
+    },
+    "id": "9886353",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1557938",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1557938"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-02-22T01:12:02.640214+00:00",
+     "description": "Every contribution helps!\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-Access to participate in polls that will decide my next video\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "431624978698338316"
+     ],
+     "edited_at": "2018-04-06T01:34:33.070978+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2392432/bb7958f1eb34455c899e98282132a109?token-time=2145916800\u0026token-hash=k_Ax5MgMD9EbjjWZMu7kovW1tcKh2VpsD92xnlL_pDQ%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T01:34:33.036960+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mortal",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1557938\u0026rid=2392432",
+     "user_limit": null
+    },
+    "id": "2392432",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-22T01:11:33.066007+00:00",
+     "description": "-Added to my Discord at the Saiyan Warrior status\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-Access to General, Smash bros, and DBFZ servers\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-Name displayed at the end of my Youtube Videos\u00a0\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "431625287294517248"
+     ],
+     "edited_at": "2018-04-06T01:34:42.688131+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2392428/61207f54729c4a90b15a4e39a906a4eb?token-time=2145916800\u0026token-hash=t66-6Qo2DaRoMtBq4LRAmsQeBNIE3gQXiitSvrCCrso%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T01:34:42.659725+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Saiyan Warrior",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1557938\u0026rid=2392428",
+     "user_limit": null
+    },
+    "id": "2392428",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-21T17:49:45.837908+00:00",
+     "description": "-Added to my Discord at the Super Saiyan status\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e-Access to General, Smash bros, and DBFZ servers\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-Access to Matchmaking server (Gives you the ability to play\u003cbr\u003e\ngames with me in Smash bros or FighterZ)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-One best of five set a month in Smash Bros or DBFZ\u003c/p\u003e",
+     "discord_role_ids": [
+      "431625494933274667"
+     ],
+     "edited_at": "2018-04-06T01:34:53.606770+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2391343/21c289f84ee54e19917e2a795a14c68a?token-time=2145916800\u0026token-hash=5Vbzl7d2tPuowR0JNMhv9oQGD_ThFu7do6vJd7Nqp3o%3D",
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T01:34:53.576944+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Super Saiyan ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1557938\u0026rid=2391343",
+     "user_limit": null
+    },
+    "id": "2391343",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2018-02-21T18:09:50.547199+00:00",
+     "description": "-Added to my Discord at the Super Saiyan 2 status\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-All rewards from previous tiers\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-Access to Skit Suggestions server\u003c/p\u003e\n\u003cp\u003e\u00a0(I will only do ideas suggested to me in this chat, you post ideas in this server and I will look at all of them. If I really like your idea, I will create the video and give you credit for the idea)\u003c/p\u003e",
+     "discord_role_ids": [
+      "431625618204131331"
+     ],
+     "edited_at": "2018-04-06T01:35:07.922672+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2391387/21e99dbe2701426d96050c6ad70eadab?token-time=2145916800\u0026token-hash=NufPhkeB81syYFV3xgvulnKYA0y4UmO5_TtIK1OM2n0%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T01:35:07.831472+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Super Saiyan 2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1557938\u0026rid=2391387",
+     "user_limit": null
+    },
+    "id": "2391387",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3000,
+     "amount_cents": 3000,
+     "created_at": "2018-02-21T18:10:49.233340+00:00",
+     "description": "-Added to my Discord at the Super Saiyan 3 status\u00a0\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-All rewards from previous tiers\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-You get to be a mod in my stream chats\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-Access to Super Skit Server\u003c/p\u003e\n\u003cp\u003e(I will pick my favorite idea in this chat per month and create the video, giving credit to the one who gives the idea)\u003c/p\u003e",
+     "discord_role_ids": [
+      "431625920089030676"
+     ],
+     "edited_at": "2018-04-06T01:35:16.284510+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2391393/2d5eee9c6b054f57b66a55a7fded517a?token-time=2145916800\u0026token-hash=_WmqxRPkLY-QeIyK5ILue9cAt4fYu9Lj0L1CgXAmx3M%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T01:35:16.254154+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Super Saiyan 3",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1557938\u0026rid=2391393",
+     "user_limit": null
+    },
+    "id": "2391393",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 3500,
+     "amount_cents": 3500,
+     "created_at": "2018-02-22T01:14:29.295549+00:00",
+     "description": "\u00a0-Added to my Discord at the Super Saiyan God status\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0-All rewards from previous tiers\u00a0\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-Early Access to my videos before the are released to public\u003c/p\u003e",
+     "discord_role_ids": [
+      "431626283760353291"
+     ],
+     "edited_at": "2018-04-06T01:35:27.042325+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2392442/6597cff1800744fd8711daadf35b8097?token-time=2145916800\u0026token-hash=N3h77f3vZmWxVJ1fFozWCJjtqbmKS-P2LhJH2pvwVvw%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T01:35:27.011425+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Super Saiyan God",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1557938\u0026rid=2392442",
+     "user_limit": null
+    },
+    "id": "2392442",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 4000,
+     "amount_cents": 4000,
+     "created_at": "2018-02-21T18:20:58.439925+00:00",
+     "description": "-Added to my Discord at the Super Saiyan Blue status\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-All rewards from previous tiers\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-One short video per month (max 2 minute length)\u003c/p\u003e\n\u003cp\u003e(I will create the video and give you credit for the idea)\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "431626466669756439"
+     ],
+     "edited_at": "2018-04-06T01:35:34.998669+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2391410/41b95b68ef974b108ca881723f577055?token-time=2145916800\u0026token-hash=6on8jS2ghVbzKOhfzcXnRdfVNp7jdqw-S6eYqaJFAzg%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T01:35:34.968645+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Super Saiyan Blue",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1557938\u0026rid=2391410",
+     "user_limit": null
+    },
+    "id": "2391410",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-02-21T18:21:36.806487+00:00",
+     "description": "\u00a0\n\u003cp\u003e-Added to my Discord at the Super Saiyan Blue status\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-All rewards from previous tiers\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-One longer video per month \u00a0(max 5 minute length)\u003c/p\u003e\n\u003cp\u003eor two short videos per month \u00a0(max 2 minute length)\u00a0\u003c/p\u003e\n\u003cp\u003e(I will create the video and give you credit for the idea)\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e\u00a0-I Follow you on Twitter\u00a0 \u00a0\u003c/p\u003e\n\u003cp\u003e\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "431626655417761792"
+     ],
+     "edited_at": "2018-04-06T01:35:42.473819+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2391411/06081db877f24e12a35a5af6a3a61e72?token-time=2145916800\u0026token-hash=BF50WpZyXlJiuioSdcPWi2JvOVAbn0PCb7MdK0I2GtA%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T01:35:42.415758+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Ultra Instinct",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1557938\u0026rid=2391411",
+     "user_limit": null
+    },
+    "id": "2391411",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-02-22T01:13:49.005081+00:00",
+     "description": "-Added to my Discord at the Mastered Ultra Instinct status\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cp\u003e-All rewards from previous tiers\u00a0\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-Voice a character in a Machinima skit\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e-Gear with my logo on it (When released)\u003c/p\u003e",
+     "discord_role_ids": [
+      "431626661109170208"
+     ],
+     "edited_at": "2018-04-06T01:36:27.033419+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2392438/5407959f6a5d4aadb9bcdbe417b510e6?token-time=2145916800\u0026token-hash=JgOhlYJUW9JDi60FHkRy7T96f3izHZKbINjxk_CIwn8%3D",
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-04-06T01:36:27.006421+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Mastered Ultra Instinct",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1557938\u0026rid=2392438",
+     "user_limit": null
+    },
+    "id": "2392438",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 2,
+     "created_at": "2018-02-22T01:50:35+00:00",
+     "description": "Reaching this sub goal would allow me to purchase better equipment for my videos. I would be able to upgrade to a camera to give my videos movie-like quality, add better lighting, and better sound devices for my videos. Helping me reach this goal would enhance the quality of  my videos by a great deal. Having more professional quality equipment would allow me to make content that wouldn\u0027t be possible with my current equipment, so it would add a new layer to my content overall. I would love to venture into creating short films and maybe even a comedy show of some kind, so having better equipment would be amazing for this. I appreciate anyone who would help me to reach this goal!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1119847",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-02-21T18:07:52+00:00",
+     "deleted_at": null,
+     "description": "My first goal at the moment is start a huge new project. I want to create a machinima for Smash Bros Wii U with my style of comedy, voice acting from prominent figures in the community, intense strategy based fight scenes, and a deep story based on the competitive scene. In order for me to start production on the project, I need to move in the LOF in the beginning of the summer to maximize my time I can spend on it before school starts back up. It would be difficult to start this project without living there, due to the fact that I\u0027m am always there in my free time to record footage for sketches, but I have no space to work on a task as strenuous as this one. In general, moving into the Loft house will increase the production of content by a lot. The lease that I have currently doesn\u0027t end until August, but I am going to take a financial hit in order to move in the Loft house in June to make sure I maximize my time by paying rent at my current apartment and the Loft house. Your support would help to lessen the financial blow, or possibly help me move in early at all, depending on if I have the money to make this move. Thank you for your consideration!",
+     "goal_text": "My first goal at the moment is start a huge new project. I want to create a machinima for Smash Bros Wii U with my style of comedy, voice acting from prominent figures in the community, intense strategy based fight scenes, and a deep story based on the competitive scene. In order for me to start production on the project, I need to move in the LOF in the beginning of the summer to maximize my time I can spend on it before school starts back up. It would be difficult to start this project without living there, due to the fact that I\u0027m am always there in my free time to record footage for sketches, but I have no space to work on a task as strenuous as this one. In general, moving into the Loft house will increase the production of content by a lot. The lease that I have currently doesn\u0027t end until August, but I am going to take a financial hit in order to move in the Loft house in June to make sure I maximize my time by paying rent at my current apartment and the Loft house. Your support would help to lessen the financial blow, or possibly help me move in early at all, depending on if I have the money to make this move. Thank you for your consideration!",
+     "number_patrons": 20,
+     "reached_at": null
+    },
+    "id": "76740",
+    "type": "patron_goal"
+   },
+   {
+    "attributes": {
+     "created_at": "2018-02-22T01:24:50+00:00",
+     "deleted_at": null,
+     "description": "Reaching this sub goal would allow me to purchase better equipment for my videos. I would be able to upgrade to a camera to give my videos movie-like quality, add better lighting, and better sound device for my videos. Helping me reach this goal would enhance the quality of\u00a0 my videos by a great deal. I appreciate anyone who would help me to reach this goal!",
+     "goal_text": "Reaching this sub goal would allow me to purchase better equipment for my videos. I would be able to upgrade to a camera to give my videos movie-like quality, add better lighting, and better sound device for my videos. Helping me reach this goal would enhance the quality of\u00a0 my videos by a great deal. I appreciate anyone who would help me to reach this goal!",
+     "number_patrons": 40,
+     "reached_at": null
+    },
+    "id": "76855",
+    "type": "patron_goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1557938"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "e5463347-5943-443d-b3c1-6860fb359237",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "Cilvanis is creating Comedy Videos"
+});
+    </script>

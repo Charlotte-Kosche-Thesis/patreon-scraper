@@ -1,0 +1,401 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "dCrQ9syWTx7e4jf1HEepc4V3CbmV-_R6LmFvGG1PLDc";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "426554",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/426554"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-04-26T15:21:38+00:00",
+    "creation_name": "Game reviews/sketches and overall game discussion",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/884919/01787e083afe4e1ea6fb52e1e2f4234a?token-time=2145916800\u0026token-hash=sgTB0o0pZwpNOO83tsHcUaF8usQPC0EjxMfaUFw8EQg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/884919/01787e083afe4e1ea6fb52e1e2f4234a?token-time=2145916800\u0026token-hash=WlCdMK1FsnaOfNZK3UXwzDtUUVQ-o9ghnl11KKln0EI%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 95,
+    "pledge_url": "/bePatron?c=884919",
+    "published_at": "2017-04-26T17:36:03+00:00",
+    "summary": "\u003cdiv style=\"text-align: center;\"\u003e\u003cstrong\u003eKEN NETWORK IS A GROUP OF FRIENDS MAKING VIDEOS!\u003c/strong\u003e\u003c/div\u003eHey everyone! This is Jio speaking from Ken. We started this channel in May 1st, 2015. (Thats my birthday month!) Our goal was always to bring quality videos that would discuss games and what they mean to us. Each upload we aim to make it better than the last. We wanna focus on our cinematography, our writing, and our editing. Although our uploads are a little slow ( Mainly due to day jobs, freelance, and the overall stress of being born), we always make sure they\u0027re worth the wait for our fans, and new viewers. Now the reason we started a Patreon is for the obvious reason, getting paid for this honestly helps us. It lets us be able to focus on making more videos, while making them look\u003cstrong\u003e \u003cem\u003ereally really good\u003c/em\u003e\u003c/strong\u003e. We\u0027d be able to put what we get towards equipment. Such as new lenses, new sound equipment so our live action shots can sound and look just as crisp as the rest of the video, and just overall let us do what we love full time! Any thing helps. Thanks for reading! We appreciate you so much, and you look really good today."
+   },
+   "id": "884919",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "5900390",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/5900390"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "808229",
+       "type": "goal"
+      },
+      {
+       "id": "808230",
+       "type": "goal"
+      },
+      {
+       "id": "808231",
+       "type": "goal"
+      },
+      {
+       "id": "808232",
+       "type": "goal"
+      },
+      {
+       "id": "808233",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1638025",
+       "type": "reward"
+      },
+      {
+       "id": "1638123",
+       "type": "reward"
+      },
+      {
+       "id": "1638125",
+       "type": "reward"
+      },
+      {
+       "id": "1638124",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-04-26T15:21:10+00:00",
+     "facebook": "https://www.facebook.com/KayodeEnt/",
+     "first_name": "Ken",
+     "full_name": "Ken network!",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/5900390/e285d97dc1954cefb806b0cf0b580fba?token-time=2145916800\u0026token-hash=f34pEy5LMY_oWvmSznlXV42G3o--PkYS9My3P2LZhIE%3D",
+     "last_name": "network!",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/5900390/e285d97dc1954cefb806b0cf0b580fba?token-time=2145916800\u0026token-hash=53BRdV-n0I8P1hR1AQJijA_GzScoisvRs4hTul1gMDA%3D",
+     "twitch": "https://www.twitch.tv/kayodeent",
+     "twitter": "TheKencrew",
+     "url": "https://www.patreon.com/kenbats",
+     "vanity": "kenbats",
+     "youtube": "https://www.youtube.com/Kayodeentertainmentnetwork-1"
+    },
+    "id": "5900390",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "884919",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/884919"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-04-26T16:20:39.302059+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e\u003cstrong\u003eYou are wholesome.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eYou didn\u0027t need to do this but you did, and we love you so much.\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eGet in on our early podcast live streams and ask questions\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-26T16:51:48.494151+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-26T16:20:39.302059+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "BEST PERSON EVER (that\u0027s you!)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=884919\u0026rid=1638025",
+     "user_limit": null
+    },
+    "id": "1638025",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-04-26T16:51:48.221893+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eExclusive pictures of our cats on discord\u003c/li\u003e\u003cli\u003eExclusive chat with us on games you\u0027d like us to review\u003c/li\u003e\u003cli\u003eMentioned in credits!\u003c/li\u003e\u003cli\u003eAsk us anything voice channel\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-26T16:51:48.221893+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-26T16:51:48.221893+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Special Discord feats! (The bat cave)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=884919\u0026rid=1638123",
+     "user_limit": null
+    },
+    "id": "1638123",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-04-26T16:51:48.467631+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eMonthly patron-only livestream on youtube\u003c/li\u003e\u003cli\u003eFan Input on new types of videos you\u0027d like to see (discord)\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-26T16:51:48.467631+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-26T16:51:48.467631+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Live! at Ken Network",
+     "unpublished_at": null,
+     "url": "/bePatron?c=884919\u0026rid=1638125",
+     "user_limit": null
+    },
+    "id": "1638125",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-04-26T16:51:48.227086+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePlay games with us on steam/console\u003c/li\u003e\u003cli\u003eHave a chance to be guest featured on our podcast\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-04-26T16:51:48.227086+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-04-26T16:51:48.227086+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Ever wanted to play games with a bunch of nerds? Hangin in the bat cave",
+     "unpublished_at": null,
+     "url": "/bePatron?c=884919\u0026rid=1638124",
+     "user_limit": null
+    },
+    "id": "1638124",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 300000,
+     "completed_percentage": 0,
+     "created_at": "2017-04-26T17:34:58+00:00",
+     "description": "At this goal we would be able to disable all monetization on Youtube for advertisement free viewing on KEN Network. We\u0027ll also be able to afford more professional equipment at this goal such as better lighting, sound equipment, camera equipment, and more!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "808229",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 200000,
+     "completed_percentage": 0,
+     "created_at": "2017-04-26T17:34:58+00:00",
+     "description": "We\u0027ll have complete financial independence meaning we can quit our day jobs and dedicate all of our time to creating high quality content for you to enjoy. At this point we\u0027ll be able to do more frequent or even daily streams, more consistent podcasts, and a more frequent video upload schedule.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "808230",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 0,
+     "created_at": "2017-04-26T17:34:58+00:00",
+     "description": "We\u0027d be able to dedicate more free time towards videos, at this point we want to be able to do weekly uploads and more frequent streams and podcasts.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "808231",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 0,
+     "created_at": "2017-04-26T17:34:58+00:00",
+     "description": "Our second milestone. When we get here we want to do an even bigger 24 hour Patreon only stream, we hope you love sleep deprivation as much as we do.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "808232",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 10000,
+     "completed_percentage": 0,
+     "created_at": "2017-04-26T17:34:58+00:00",
+     "description": "Our first milestone, we\u0027ll be able to afford a better audio system and deliver more podcasts. When we get here we want to do a big Patreon only stream where we all hang out and play some games for a while.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "808233",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/884919"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "33263ec0-defd-48ba-b6a1-840f27537e72",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "Ken network! is creating Game reviews/sketches and overall game discussion"
+});
+    </script>

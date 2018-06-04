@@ -1,0 +1,192 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "FnzVT3endiFjuA4CsdNW6OMfJyGSf8DATDEXUY8W45E";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "887791",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/887791"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-04-21T03:15:28+00:00",
+    "creation_name": "a Factorio calculator",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1703868/2c710a7d397442218cf4eaf41cedab0f?token-time=2145916800\u0026token-hash=R3wXE44pfrEfqC2IXchExV-3leTCho7nK0jI_Ho6wxk%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1703868/2c710a7d397442218cf4eaf41cedab0f?token-time=2145916800\u0026token-hash=z7zXFBHVi_p3QCEwUDnNSgi0PHwsOooj4EAN5uuEQh4%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 2,
+    "pay_per_name": "month",
+    "pledge_sum": 1351,
+    "pledge_url": "/bePatron?c=1703868",
+    "published_at": "2018-04-21T06:20:35+00:00",
+    "summary": "\u003cstrong\u003eWhat\u0027s this?\u003c/strong\u003e\u003cbr\u003e\n\u003cbr\u003e\nMy name is Kirk McDonald, and I\u0027ve written \n\u003ca href=\"https://kirkmcdonald.github.io/calc.html\"\u003ea ratio calculator\u003c/a\u003e for the game \u003ca href=\"https://factorio.com/\"\u003eFactorio\u003c/a\u003e. At the suggestion of \u003ca href=\"https://github.com/KirkMcDonald/kirkmcdonald.github.io/issues/55\"\u003esome of my users\u003c/a\u003e, I\u0027ve created this Patreon page.\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eWhat\u0027s Factorio?\u003c/strong\u003e\u003cbr\u003e\n\u003cbr\u003e\n\u003ca href=\"https://factorio.com/\"\u003eFactorio\u003c/a\u003e is a video game by Wube Software about building a factory, and you should buy and play it.\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eWhat\u0027s a ratio calculator, and why would I want one?\u003c/strong\u003e\u003cbr\u003e\n\u003cbr\u003e\nA ratio calculator is a tool that assists in designing a factory, by telling you about the prerequisites for whatever you want to make.\n\u003cbr\u003e\n\u003cbr\u003e\nWhile it is possible to play Factorio completely on the fly, by adding more parts to your factory whenever you observe that something is running short, I have found that it\u0027s much faster and more efficient to calculate how large your factory will need to be, before you even start building it.\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cstrong\u003eWhat\u0027s so special about your calculator?\u003c/strong\u003e\u003cbr\u003e\n\u003cbr\u003e\nMine is far from the only ratio calculator out there. Most of the problem of calculating ratios is fairly trivial to implement, and so you can find any number of implementations which can provide useful numbers for the first 90% or so of the problem.\n\u003cbr\u003e\n\u003cbr\u003e\nHowever, the problem becomes considerably more complicated as you start paying attention to the small details, and there are very few Factorio calculators which bother to pursue the problem after the point where solving it starts to become difficult.\n\u003cbr\u003e\n\u003cbr\u003e\nSome of the notable features of my calculator include:\n\u003cbr\u003e\n\u003cbr\u003e\n\u003cul\u003e\n\t\u003cli\u003eOil processing calculations. Factorio\u0027s oil processing recipes are the first point where most calculators start to have problems producing a solution. My calculator does the hard work necessary to calculate optimal and numerically precise results for these recipes.\u003c/li\u003e\n\t\u003cli\u003eModules and beacons. These items allow you to modify the costs of recipes, and can have an enormous impact on the designs of late-game factories.\u003c/li\u003e\n\t\u003cli\u003eUnlimited numerical precision. My calculator performs its calculations using\u00a0\u003ca href=\"https://en.wikipedia.org/wiki/Arbitrary-precision_arithmetic\"\u003ebignum rationals\u003c/a\u003e, avoiding any of the loss of precision that using ordinary floating-point values might cause.\u003c/li\u003e\n\t\u003cli\u003eAnd more!\u003c/li\u003e\n\u003c/ul\u003e\n\u003cstrong\u003eAnything else I should know?\u003c/strong\u003e\u003cbr\u003e\n\u003cbr\u003e\nIt\u0027s been quite gratifying to see the response to this little side-project of mine. I started writing it merely for my own benefit, and I\u0027ve been quite pleased to see that other people find it useful, as well.\u003cbr\u003e\u003cbr\u003eThanks for using my Factorio calculator!"
+   },
+   "id": "1703868",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "2435187",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/2435187"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "",
+     "created": "2015-10-16T04:04:07+00:00",
+     "facebook": null,
+     "first_name": "Kirk",
+     "full_name": "Kirk McDonald",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/2435187/a68cdcedf51d4c3997d2d86bc6fdda27?token-time=2145916800\u0026token-hash=c6GjJLZCCw7pPTRxuhrC6wB8HMx3YFN9Lpmny4uWZMc%3D",
+     "last_name": "McDonald",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/2435187/a68cdcedf51d4c3997d2d86bc6fdda27?token-time=2145916800\u0026token-hash=XNgs8IwwV1XdFzmNTq7SFr1kHy0DvCPppKDRtHrN_1k%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/kirkmcdonald",
+     "vanity": "kirkmcdonald",
+     "youtube": null
+    },
+    "id": "2435187",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1703868",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1703868"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1703868"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": true,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "c99b9678-c634-4c3f-8d72-2e091bebb212",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "Kirk McDonald is creating a Factorio calculator"
+});
+    </script>

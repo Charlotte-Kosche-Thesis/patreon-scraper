@@ -1,0 +1,746 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Bn4dliilVrbLJU68YRFfwgTnF0gYmYHpQ3gmjfBN7JY";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "734166",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/734166"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-02-01T08:33:56+00:00",
+    "creation_name": "praying mantis content and art",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1509681",
+    "published_at": "2018-02-01T08:37:13+00:00",
+    "summary": "Hi Im Mantis Monarch, a praying mantis enthusiast. I am seeking loyal patrons to help me expand and upgrade my mantis and art studio. As some as you know I created my website\u00a0\u003ca href=\"http://mantismonarch.wordpress.com\"\u003emantismonarch.wordpress.com\u003c/a\u003e as a way to educate people about how to care for captive mantid. Its been a great success, gaining traffic from around the world. But it\u0027s lacking and I\u0027m in need of some supporters to help get it into gear. I would love to give it a complete overhaul. I also drive follows with my unique mantis shots posted on Instagram\u00a0\u003ca href=\"https://www.instagram.com/mantismonarchxi/\"\u003e@mantismonarchxi\u003c/a\u003e and Tumblr\u00a0\u003ca href=\"http://mantismonarch.tumblr.com/\"\u003e@mantismonarch\u003c/a\u003e. But again my rig is ragged and in desperate need of repair. I want to be able to bring you the Patreons better, higher quality work. Also I\u0027ve been working on illustrating different species to be able to release in a tangible book version of my site packed with even more info not available online. Lastly I started a shop on Designed By Humans to start selling merch. I would love to be able to upgrade some computer equipment to make that job easier. That shop will have mantis merch but is not limited to only mantid. I intend to have trending and modern designs available to help support my dream.\u003cbr\u003e"
+   },
+   "id": "1509681",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9581562",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9581562"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1097837",
+       "type": "goal"
+      },
+      {
+       "id": "1097838",
+       "type": "goal"
+      },
+      {
+       "id": "1097839",
+       "type": "goal"
+      },
+      {
+       "id": "1097840",
+       "type": "goal"
+      },
+      {
+       "id": "1101107",
+       "type": "goal"
+      },
+      {
+       "id": "1101108",
+       "type": "goal"
+      },
+      {
+       "id": "1101113",
+       "type": "goal"
+      },
+      {
+       "id": "1101114",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1509681",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1509681"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2344182",
+       "type": "reward"
+      },
+      {
+       "id": "2335857",
+       "type": "reward"
+      },
+      {
+       "id": "2335873",
+       "type": "reward"
+      },
+      {
+       "id": "2335905",
+       "type": "reward"
+      },
+      {
+       "id": "2335907",
+       "type": "reward"
+      },
+      {
+       "id": "2335855",
+       "type": "reward"
+      },
+      {
+       "id": "2335865",
+       "type": "reward"
+      },
+      {
+       "id": "2335850",
+       "type": "reward"
+      },
+      {
+       "id": "2335897",
+       "type": "reward"
+      },
+      {
+       "id": "2335869",
+       "type": "reward"
+      },
+      {
+       "id": "2335863",
+       "type": "reward"
+      },
+      {
+       "id": "2335852",
+       "type": "reward"
+      },
+      {
+       "id": "2335883",
+       "type": "reward"
+      },
+      {
+       "id": "2344176",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": "\u0026lt;h5\u0026gt;MM\u2019s mission is to increase public interest of praying mantis, promote mantis pets, \u0026amp; advocate for the wild mantodea. Our aim is to bring to light the complex being that is mantid and to show them in all their glory by creating orginial content and sharing it with the world.\u0026lt;/h5\u0026gt;",
+     "created": "2018-02-01T08:28:54+00:00",
+     "facebook": "https://www.facebook.com/http%3A/www.facebook.com/mantismonarch",
+     "first_name": "Mantis",
+     "full_name": "Mantis Monarch",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/9581562/dc127c2819c54258aeac5405e25cd146?token-time=2145916800\u0026token-hash=OWGxui5iMXHNbVDrnXWFdG0ywFoA4olHx_Wo1JaAUng%3D",
+     "last_name": "Monarch",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9581562/dc127c2819c54258aeac5405e25cd146?token-time=2145916800\u0026token-hash=RJBTl38MD2VJO8TwgJG7s-V5lhjJTNzVnNgABUzrKMM%3D",
+     "twitch": null,
+     "twitter": "mantismonarchxi",
+     "url": "https://www.patreon.com/mantismonarch",
+     "vanity": "mantismonarch",
+     "youtube": null
+    },
+    "id": "9581562",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1509681",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1509681"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 28,
+     "upgrade_url": "/bePatron?c=1509681\u0026rid=2344182"
+    },
+    "id": "post-aggregation-for-0-1509681",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2018-02-04T09:46:34.224125+00:00",
+     "description": "Giving me a $3 tip",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:46:34.224125+00:00",
+     "image_url": null,
+     "post_count": 3,
+     "published": true,
+     "published_at": "2018-02-04T09:46:34.224125+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Tip",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2344182"
+    },
+    "id": "2344182",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-01T09:00:29.245359+00:00",
+     "description": "FANs can support me with a $5 donation\n\u003cp\u003e-Access to \"Ghost Coloring Page\"\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:35:26.539428+00:00",
+     "image_url": null,
+     "post_count": 21,
+     "published": true,
+     "published_at": "2018-02-04T09:35:26.533224+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "FAN",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2335857"
+    },
+    "id": "2335857",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-01T09:10:54.100865+00:00",
+     "description": "Carolina Level fans:\n\u003cp\u003e-Gain access to patron only feed\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:35:00.527259+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-04T09:35:00.518496+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Carolina Mantis",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2335873"
+    },
+    "id": "2335873",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1200,
+     "amount_cents": 1200,
+     "created_at": "2018-02-01T09:28:53.208958+00:00",
+     "description": "Arizona Level fans:\n\u003cp\u003e-Gain access to patron only feed\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:34:50.287284+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T09:34:50.278273+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Arizona Mantis",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2335905"
+    },
+    "id": "2335905",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2018-02-01T09:29:32.111637+00:00",
+     "description": "California Level fans:\n\u003cp\u003e-Gain access to patron only feed\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:34:34.122404+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T09:34:34.116082+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "California Mantis",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2335907"
+    },
+    "id": "2335907",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2018-02-01T08:59:36.359433+00:00",
+     "description": "Ghost Level fans:\n\u003cp\u003e-Gain access to patron only feed\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:34:19.179925+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-04T09:34:19.170480+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Ghost Mantis",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2335855"
+    },
+    "id": "2335855",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2018-02-01T09:04:17.569208+00:00",
+     "description": "Violin Level fans:\n\u003cp\u003e-Gain access to patron only feed\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:34:08.479785+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T09:34:08.473114+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Violin Mantis",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2335865"
+    },
+    "id": "2335865",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-02-01T08:56:49.918975+00:00",
+     "description": "Devil\u0027s Flower Level fans:\n\u003cp\u003e-Gain access to patron only feed\u003c/p\u003e\n\u003cp\u003e-One time download of \"Angry Idolo\" artwork\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:55:56.804680+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T09:55:56.798342+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Devil\u0027s Flower Mantis",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2335850"
+    },
+    "id": "2335850",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2018-02-01T09:22:35.494447+00:00",
+     "description": "Unicorn Level fans:\n\u003cp\u003e-Gain access to patron only feed\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:45:28.325858+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-04T09:45:28.319025+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Unicorn Mantis",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2335897"
+    },
+    "id": "2335897",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2018-02-01T09:07:15.068333+00:00",
+     "description": "\u00a0Dragon Level fans:\n\u003cp\u003e-Access to patron only feed\u00a0\u003c/p\u003e\n\u003cp\u003e-receives exclusive content once a month\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:56:12.461729+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2018-02-04T09:56:12.453086+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Dragon Mantis",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2335869"
+    },
+    "id": "2335869",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 70000,
+     "amount_cents": 70000,
+     "created_at": "2018-02-01T09:03:19.604267+00:00",
+     "description": "Contributor Level:\n\u003cp\u003e-receives one custom post promoting your product on social media. Will include at least one mantis.\u00a0Must supply product and it will not be returned. (May be deleted after three months.)\u003c/p\u003e\n\u003cp\u003e-OR\u003c/p\u003e\n\u003cp\u003e-Receives one shout out on social media story.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:53:37.663346+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T09:53:37.656403+00:00",
+     "remaining": 12,
+     "requires_shipping": true,
+     "title": "Contributor",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2335863"
+    },
+    "id": "2335863",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 140000,
+     "amount_cents": 140000,
+     "created_at": "2018-02-01T08:58:22.184143+00:00",
+     "description": "Sponsor level:\n\u003cp\u003e-Yields two plugs and/or product placement on social media. Will include at least one mantis. Must supply product and it will not be returned. (May be deleted after six months.)\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:52:13.291374+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T09:52:13.282702+00:00",
+     "remaining": 8,
+     "requires_shipping": true,
+     "title": "Sponsor ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2335852"
+    },
+    "id": "2335852",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500000,
+     "amount_cents": 500000,
+     "created_at": "2018-02-01T09:14:11.385306+00:00",
+     "description": "Backer:\n\u003cp\u003e-Access to patron only feed\u003c/p\u003e\n\u003cp\u003e-Receives exclusive behind the scenes content\u00a0\u003c/p\u003e\n\u003cp\u003e-Name credit on dedication page\u003c/p\u003e\n\u003cp\u003e-My thanks\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:50:33.341686+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T09:50:33.334972+00:00",
+     "remaining": 2,
+     "requires_shipping": true,
+     "title": "Backer",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2335883"
+    },
+    "id": "2335883",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000000,
+     "amount_cents": 1000000,
+     "created_at": "2018-02-04T09:39:08.106002+00:00",
+     "description": "Scholarship:\n\u003cp\u003e-You are paying for me to complete my degree. Which includes tuition, textbooks, and lodging. 5 credits.\u00a0\u003c/p\u003e\n\u003cp\u003e-Copy of my grades\u003c/p\u003e\n\u003cp\u003e-My thanks\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-04T09:58:04.432333+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-04T09:58:04.423418+00:00",
+     "remaining": 1,
+     "requires_shipping": true,
+     "title": "Scholarship ",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1509681\u0026rid=2344176"
+    },
+    "id": "2344176",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 100,
+     "created_at": "2018-02-01T08:39:22+00:00",
+     "description": "My first dollar",
+     "reached_at": "2018-02-08T02:43:38+00:00",
+     "title": ""
+    },
+    "id": "1097837",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2018-02-01T08:39:22+00:00",
+     "description": "Whot! I can pay rent... for a month but no utilities.\u00a0",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1097838",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2018-02-01T08:39:22+00:00",
+     "description": "All expenses paid. Yay! the lights are on.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1097839",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2018-02-01T08:39:22+00:00",
+     "description": "42 Millionaire\u0027s Club",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1097840",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2018-02-04T10:00:56+00:00",
+     "description": "I did it dad!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1101107",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 91,
+     "created_at": "2018-02-04T10:00:56+00:00",
+     "description": "five dollar make me hollar!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1101108",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2018-02-04T10:09:43+00:00",
+     "description": "Streaming rig setup. The initial cost is expensive but when I get enough Ill start streaming live for my fans.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1101113",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2018-02-04T10:09:43+00:00",
+     "description": "New computer that has enough rendering power to edit hd videos. Thanks",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1101114",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1509681"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "6a3f7358-f04e-4c59-98eb-18eb6f4b8d6c",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "Mantis Monarch is creating praying mantis content and art"
+});
+    </script>

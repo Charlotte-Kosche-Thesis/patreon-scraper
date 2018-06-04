@@ -1,0 +1,536 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "ZxjDlIYGvvTKjai3qieQmRkMLclb8nYCwZiHF_vFyTI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "817786",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/817786"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2018-02-24T15:47:03+00:00",
+    "creation_name": "cosplay, mods, illustrations",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1565075/9fd17cafa18b4d59ae28dac4908b6724?token-time=2145916800\u0026token-hash=8wFWpPJrpmrzsinzJ81ZaIQHh5nhprS07vqTqwprV_Q%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1565075/9fd17cafa18b4d59ae28dac4908b6724?token-time=2145916800\u0026token-hash=3YCX_T515T87zfuMx8Z6jAX1fb0cQZfaXS3OGL225Gk%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1565075",
+    "published_at": "2018-02-24T15:52:21+00:00",
+    "summary": "I\u0027m thoroughly addicted to making things. Here they are. They are mostly brightly colored and some are inspired by video games, comics, and my life.\u003cbr\u003e\u003cbr\u003eThere are 3 areas I\u0027m pretty passionate about - art, cosplay, and modding video games. While I\u0027ll work on all 3 every month, the tier that donates the most will get the most focus the next month (so if mods win for February, March I focus mostly on modding).\u003cbr\u003e\u003cbr\u003eThanks for checking out my page!\u003cbr\u003e"
+   },
+   "id": "1565075",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "9932855",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/9932855"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1122311",
+       "type": "goal"
+      },
+      {
+       "id": "1122312",
+       "type": "goal"
+      },
+      {
+       "id": "1122313",
+       "type": "goal"
+      },
+      {
+       "id": "1122315",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1565075",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1565075"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2398838",
+       "type": "reward"
+      },
+      {
+       "id": "2398839",
+       "type": "reward"
+      },
+      {
+       "id": "2398840",
+       "type": "reward"
+      },
+      {
+       "id": "2398856",
+       "type": "reward"
+      },
+      {
+       "id": "2398858",
+       "type": "reward"
+      },
+      {
+       "id": "2398862",
+       "type": "reward"
+      },
+      {
+       "id": "2398864",
+       "type": "reward"
+      },
+      {
+       "id": "2398865",
+       "type": "reward"
+      },
+      {
+       "id": "2398867",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2018-02-24T15:42:38+00:00",
+     "facebook": "https://www.facebook.com/KAMIcomics/",
+     "first_name": "KAMIcomics",
+     "full_name": "KAMIcomics",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/9932855/99b8a09dea82494c85217f8ddf32c9d2?token-time=2145916800\u0026token-hash=Xj3kIg1rfvZ2TFg0340CK3SAj7_TiiKl8yourN6IxvY%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/9932855/99b8a09dea82494c85217f8ddf32c9d2?token-time=2145916800\u0026token-hash=Qvd_RtM7mmSHMaIfA0UVJq-KlxAjSBai9ApXRUL_DhM%3D",
+     "twitch": "https://www.twitch.tv/kamicomics",
+     "twitter": null,
+     "url": "https://www.patreon.com/kamicomics",
+     "vanity": "kamicomics",
+     "youtube": "https://www.youtube.com/channel/UCWJRiLNn6RFZCks3raVOL7g"
+    },
+    "id": "9932855",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1565075",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1565075"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 2,
+     "upgrade_url": "/bePatron?c=1565075\u0026rid=2398838"
+    },
+    "id": "post-aggregation-for-0-1565075",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-02-24T15:59:01.765762+00:00",
+     "description": "Get this for more cosplay stuff",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-24T15:59:01.765762+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-24T15:59:01.765762+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Cosplay Love",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565075\u0026rid=2398838"
+    },
+    "id": "2398838",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-02-24T15:59:15.115075+00:00",
+     "description": "Get this for more mod stuff",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-24T15:59:15.115075+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-24T15:59:15.115075+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mod Love",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565075\u0026rid=2398839"
+    },
+    "id": "2398839",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2018-02-24T15:59:32.662150+00:00",
+     "description": "Get this for more 2D art stuff",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-24T15:59:32.662150+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-24T15:59:32.662150+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Art Love",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565075\u0026rid=2398840"
+    },
+    "id": "2398840",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-24T16:05:13.060380+00:00",
+     "description": "Get this for more cosplay stuff",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-24T16:05:13.060380+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-24T16:05:13.060380+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Cosplay Passion",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565075\u0026rid=2398856"
+    },
+    "id": "2398856",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-24T16:05:28.461489+00:00",
+     "description": "Get this for more 2D art stuff",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-24T16:05:28.461489+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-24T16:05:28.461489+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Art Passion",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565075\u0026rid=2398858"
+    },
+    "id": "2398858",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-24T16:05:48.903885+00:00",
+     "description": "Get this for more mod stuff",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-24T16:05:48.903885+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-24T16:05:48.903885+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mod Passion",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565075\u0026rid=2398862"
+    },
+    "id": "2398862",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-24T16:06:14.025302+00:00",
+     "description": "Get this for more cosplay stuff",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-24T16:06:14.025302+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-24T16:06:14.025302+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Cosplay Rapture",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565075\u0026rid=2398864"
+    },
+    "id": "2398864",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-24T16:06:24.768088+00:00",
+     "description": "Get this for more 2D art stuff",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-24T16:06:24.768088+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-24T16:06:24.768088+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Art Rapture",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565075\u0026rid=2398865"
+    },
+    "id": "2398865",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2018-02-24T16:06:39.037656+00:00",
+     "description": "Get this for more mod stuff",
+     "discord_role_ids": null,
+     "edited_at": "2018-02-24T16:06:39.037656+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2018-02-24T16:06:39.037656+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mod Rapture",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1565075\u0026rid=2398867"
+    },
+    "id": "2398867",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2018-02-24T16:04:12+00:00",
+     "description": "I\u0027ll build or make one a supporter voted thing a month\u003cbr\u003e\u003cbr\u003eFor example:\u00a0If ya\u0027ll\u00a0vote for me\u00a0to cosplay Fisto? I cosplay Fisto :)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1122311",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2018-02-24T16:04:12+00:00",
+     "description": "I\u0027ll focus on my youtube and streaming of things I build (mods, cosplay, art, whatever!)",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1122312",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 0,
+     "created_at": "2018-02-24T16:04:12+00:00",
+     "description": "I\u0027ll go live twice a month to talk to everyone. I\u0027ll also start a \"gift of the month\" club where every supporter gets a little gift from me, like art prints, buttons, digital wallpapers, etc.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1122313",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 1,
+     "created_at": "2018-02-24T16:04:47+00:00",
+     "description": "The next month\u0027s work will be dedicated to the tier that contributed the most",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1122315",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1565075"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "da5857c5-e077-4bfb-a069-41f1cd0ec9c5",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "KAMIcomics is creating cosplay, mods, illustrations"
+});
+    </script>

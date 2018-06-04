@@ -1,0 +1,433 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "Z05UowTfYNZSaG17NPUCxpCd5S64ri8sD52x8BiU36s";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "602018",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/602018"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-10-14T00:15:35+00:00",
+    "creation_name": "Fiction",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": null,
+    "image_url": null,
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": null,
+    "pledge_sum": 90,
+    "pledge_url": "/bePatron?c=1270957",
+    "published_at": "2017-10-14T00:17:52+00:00",
+    "summary": "This is the Patreon page for my original work of fiction, Devil Princess Reincarnation (That name makes me cringe) I am also the same Silveus that also makes let\u0027s play videos for Tibia and a few other games, but as mentioned, this is only for my story.\u003cbr\u003e\u003cbr\u003eI would like to thank anyone who shows up here, even if you are just looking around. My story can be found both on Royal Road Legends and Fictionress. And of course, here. You will also find a status report indicating where the next chapter is in the process, and any alerts to delays that might happen here.\u003cbr\u003e\u003cbr\u003eI also like to add some additional comments that are more like my musings to the chapters when i post them here."
+   },
+   "id": "1270957",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "8053760",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/8053760"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1004353",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2103196",
+       "type": "reward"
+      },
+      {
+       "id": "2103210",
+       "type": "reward"
+      },
+      {
+       "id": "2103220",
+       "type": "reward"
+      },
+      {
+       "id": "2103225",
+       "type": "reward"
+      },
+      {
+       "id": "2103232",
+       "type": "reward"
+      },
+      {
+       "id": "2103241",
+       "type": "reward"
+      },
+      {
+       "id": "2103246",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-10-14T00:15:25+00:00",
+     "facebook": null,
+     "first_name": "Silveus",
+     "full_name": "Silveus",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/8053760/db1664ebcdd44e5697cd4099b195dcba?token-time=2145916800\u0026token-hash=cdUZ3qo9EtCMRGR6A6107kiLJCAwM2aMMTobBSbK0W4%3D",
+     "last_name": "",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/8053760/db1664ebcdd44e5697cd4099b195dcba?token-time=2145916800\u0026token-hash=vfQxUsRoJ9iFjea5bwU_11SUTMHNU5EKNt4Qc7lERNU%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/SilveusWriting",
+     "vanity": "SilveusWriting",
+     "youtube": null
+    },
+    "id": "8053760",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1270957",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1270957"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-10-26T00:22:06.493577+00:00",
+     "description": "You\u0027re the lowest rank of fighter, equal to a farmer with a pitchfork.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou get a word of thanks in my author\u0027s notes.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-26T00:37:50.833057+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-26T00:37:50.804776+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Rank 1 warrior.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1270957\u0026rid=2103196",
+     "user_limit": null
+    },
+    "id": "2103196",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-10-26T00:28:20.326903+00:00",
+     "description": "Your training with weapons had progressed beyond the basics of pointy end towards enemy and you can now consider yourself as fodder. \u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou get a word of thanks in my author\u0027s notes, and it will be bold text.\u00a0\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-26T00:39:01.188704+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-26T00:39:01.164634+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Rank 2 Warrior.",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1270957\u0026rid=2103210",
+     "user_limit": null
+    },
+    "id": "2103210",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-10-26T00:30:41.209589+00:00",
+     "description": "You are no longer a conscript, but a professional warrior. People would say you are \"Competent\"\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYou get thanked, with italicized text, and you can also gain access to my still in progress chapters.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-26T00:37:42.802023+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-26T00:37:42.776543+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Rank 3 Warrior",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1270957\u0026rid=2103220",
+     "user_limit": null
+    },
+    "id": "2103220",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-10-26T00:33:57.554373+00:00",
+     "description": "You swat normal soldiers out of your way like flies, and you can fight monsters without a high risking of being eaten.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYour thank you note is underlined, and i will name a minor character after you, and you get access to the in progress chapters.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-26T00:37:34.000165+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-26T00:37:33.968475+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Rank 4 Warrior",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1270957\u0026rid=2103225",
+     "user_limit": null
+    },
+    "id": "2103225",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 700,
+     "amount_cents": 700,
+     "created_at": "2017-10-26T00:37:21.873619+00:00",
+     "description": "You are powerful and strong, when you go into battle it isn\u0027t an issue of whether you win, but how many you defeat. You are an expert.\u00a0\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYour thanks are bold and italicized, you get access to in progress chapters, and a moderately important character gets named after you.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-26T00:37:21.873619+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-26T00:37:21.873619+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Rank 5 Warrior",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1270957\u0026rid=2103232",
+     "user_limit": null
+    },
+    "id": "2103232",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-10-26T00:41:41.034217+00:00",
+     "description": "The pinnacle of mortals, you are an even match for hundreds of men. Some of the strongest beasts die by your hand.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYour thanks are italicized and underlined, you get access to in progress work, and a major character gets named after you.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-26T00:41:41.034217+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-26T00:41:41.034217+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Rank 6 Warrior",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1270957\u0026rid=2103241",
+     "user_limit": null
+    },
+    "id": "2103241",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-10-26T00:44:33.398715+00:00",
+     "description": "You have become something more than a mortal. Your\u0027re now a match for small armies and your deployment in battle is now considered on a tactical scale. Almost nothing under your rank is a threat to you any longer.\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eYour thank you note is bold, italicized, and underlined. You get access so the in progress chapters.\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003eAnd, not only is a character named after you, you may help craft it, partially deciding the characters position within the story, along with it\u0027s skills and personality.\u003c/p\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-10-26T00:44:33.398715+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-10-26T00:44:33.398715+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Rank 7 Warrior",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1270957\u0026rid=2103246",
+     "user_limit": null
+    },
+    "id": "2103246",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100,
+     "completed_percentage": 90,
+     "created_at": "2017-10-26T00:48:16+00:00",
+     "description": "",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1004353",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1270957"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "2f0649e7-febd-49a5-9daf-cef569067cbe",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "Silveus is creating Fiction"
+});
+    </script>

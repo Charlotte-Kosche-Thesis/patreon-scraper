@@ -1,0 +1,565 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "hwHuNc0bn3eLLAziIxv-1sCccne3fllU3UaMvKw5Gog";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "611256",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/611256"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-08-05T01:26:57+00:00",
+    "creation_name": "Bodybuilding information",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1143602/7db1ab0cca784d69ae9a975f29dab7bc?token-time=2145916800\u0026token-hash=Ba35fkrL6DDLwlN4zb7QlWSp3pCPi0kdlyDB2b8uQKQ%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1143602/7db1ab0cca784d69ae9a975f29dab7bc?token-time=2145916800\u0026token-hash=wU62VwZzJSThXptTh1w6ren7Pf4Lo9sPhmcVmLQmQME%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": "\n      \u003ciframe allowfullscreen=\"\" frameborder=\"0\" height=\"480\" scrolling=\"no\" src=\"https://www.youtube.com/embed/Hh7zMn9bmKQ\" width=\"854\"\u003e\u003c/iframe\u003e\n    ",
+    "main_video_url": "https://youtu.be/Hh7zMn9bmKQ",
+    "one_liner": null,
+    "patron_count": 0,
+    "pay_per_name": "month",
+    "pledge_url": "/bePatron?c=1143602",
+    "published_at": "2017-10-23T08:08:42+00:00",
+    "summary": "Learn the secrets of classic bodybuilding from one of the true greats of the sport - John Terilli. The 2 time Mr. Universe winner wants to improve the quality of information available to the public and your support as a patron helps to make this content a reality. Not only will you gain insider access to John\u0027s incredible array of bodybuilding insights every month, you also help the production of general content on social media, YouTube and the creation of tools to assist all bodybuilders and physique competitors achieve the best physique possible.\u003cbr\u003e\u003cem\u003ePatron exclusive content, seminars and discussion groups begin at the start of November 2017.\u003c/em\u003e"
+   },
+   "id": "1143602",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7194863",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7194863"
+     }
+    },
+    "goals": {
+     "data": []
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1143602",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1143602"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1901140",
+       "type": "reward"
+      },
+      {
+       "id": "1901130",
+       "type": "reward"
+      },
+      {
+       "id": "1901141",
+       "type": "reward"
+      },
+      {
+       "id": "1901137",
+       "type": "reward"
+      },
+      {
+       "id": "1901134",
+       "type": "reward"
+      },
+      {
+       "id": "1901136",
+       "type": "reward"
+      },
+      {
+       "id": "1901139",
+       "type": "reward"
+      },
+      {
+       "id": "1901138",
+       "type": "reward"
+      },
+      {
+       "id": "1901132",
+       "type": "reward"
+      },
+      {
+       "id": "1901135",
+       "type": "reward"
+      },
+      {
+       "id": "1901131",
+       "type": "reward"
+      },
+      {
+       "id": "1901133",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-08-05T01:26:43+00:00",
+     "facebook": "https://www.facebook.com/mrjohnterilli/",
+     "first_name": "John",
+     "full_name": "John Terilli",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7194863/4e2aea78d0d947d3832615358d1189bc?token-time=2145916800\u0026token-hash=OOWioASWt7Ato80t-aTkkdi9iK_kBsvLNknlH3vfkNk%3D",
+     "last_name": "Terilli",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7194863/4e2aea78d0d947d3832615358d1189bc?token-time=2145916800\u0026token-hash=uWydB8juTBBEGD2t_tUBHHiQJzjYGyZXhcVSdPaa4q0%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/johnterilli",
+     "vanity": "johnterilli",
+     "youtube": "https://www.youtube.com/channel/UCW-ngEciZFs53HkIUEyMXrQ"
+    },
+    "id": "7194863",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1143602",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1143602"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 3,
+     "upgrade_url": "/bePatron?c=1143602\u0026rid=1901130"
+    },
+    "id": "post-aggregation-for-0-1143602",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-08-05T02:07:09.885552+00:00",
+     "description": "\u003cdiv\u003eYou just want to support the content production for which we thank you.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-05T02:07:09.885552+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-05T02:07:09.885552+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Just want to support",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143602\u0026rid=1901140"
+    },
+    "id": "1901140",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 200,
+     "amount_cents": 200,
+     "created_at": "2017-08-05T02:07:09.872625+00:00",
+     "description": "\u003cdiv\u003e\u003cstrong\u003eYou will gain access to patron only content in the form of videos, downloads and other content that will only be available here.\u003c/strong\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-05T02:07:09.872625+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-08-05T02:07:09.872625+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Access exclusive Patron only content",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143602\u0026rid=1901130"
+    },
+    "id": "1901130",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-05T02:07:09.917094+00:00",
+     "description": "\u003cdiv\u003e\u003cstrong\u003eYou will be able to ask questions that will be answered in: videos, live streams and seminars.\u003c/strong\u003e\u003cbr\u003eYou will also have access to patron only content.\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-05T02:07:09.917094+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-08-05T02:07:09.917094+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Ask John - Ask questions and suggest content",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143602\u0026rid=1901141"
+    },
+    "id": "1901141",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-08-05T02:07:09.878083+00:00",
+     "description": "\u003cstrong\u003eYou will be credited for your support at the end of edited videos during the month\u003c/strong\u003e\u003cbr\u003eYou will be able to ask questions that will be answered in content. \u003cstrong\u003eYour questions will at the front of the queue\u003c/strong\u003e\u003cbr\u003eYou will also have access to patron only content.",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-05T02:07:09.878083+00:00",
+     "image_url": null,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-08-05T02:07:09.878083+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Video Credit",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143602\u0026rid=1901137"
+    },
+    "id": "1901137",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-08-05T02:07:09.874322+00:00",
+     "description": "\u003cdiv\u003e\u003cstrong\u003eYou can attend a monthly seminar on training, nutrition \u0026amp; supplements, contest prep, etc and interact with John for\u00a01-2 hours.\u003c/strong\u003e\u003cbr\u003eYou will be credited for your support at the end of edited videos during the month\u003cbr\u003eYou will be able to ask questions that will go at the front of the queue that will be answered in content.\u003cbr\u003eYou will also have access to patron only content.\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-05T02:07:09.874322+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-05T02:07:09.874322+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Monthly Seminar",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143602\u0026rid=1901134"
+    },
+    "id": "1901134",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-05T02:07:09.887663+00:00",
+     "description": "\u003cdiv\u003e\u003cstrong\u003eAccess to a private discussion group (maximum 10 people) once per month for 1 hour.\u003c/strong\u003e\u003cbr\u003eYou can attend a monthly seminar on training, nutrition \u0026amp; supplements, contest prep, etc and interact with John for 1-2 hours.\u003cbr\u003eYou will be credited for your support at the end of edited videos during the month\u003cbr\u003eYou will be able to ask questions that will go at the front of the queue that will be answered in content.\u003cbr\u003eYou will also have access to patron only content.\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-05T02:07:09.887663+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-05T02:07:09.887663+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Private Discussion Group (10 people)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143602\u0026rid=1901136"
+    },
+    "id": "1901136",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-05T02:07:09.895271+00:00",
+     "description": "\u003cstrong\u003eAccess to a private discussion group (maximum 5 people) once per month for 1 hour.\u003c/strong\u003e\u003cbr\u003eYou can attend a monthly seminar on training, nutrition \u0026amp; supplements, contest prep, etc and interact with John for 1-2 hours.\u003cbr\u003eYou will be credited for your support at the end of edited videos during the month\u003cbr\u003eYou will be able to ask questions that will go at the front of the queue that will be answered in content.\u003cbr\u003eYou will also have access to patron only content.",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-05T02:14:22.130287+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-05T02:07:09.895271+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Private Discussion Group (5 people)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143602\u0026rid=1901139"
+    },
+    "id": "1901139",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 15000,
+     "amount_cents": 15000,
+     "created_at": "2017-08-05T02:07:09.897197+00:00",
+     "description": "\u003cdiv\u003eOne edited video per month is sponsored by you with up to a 15 second pitch or thank you delivered by John as a pre-roll to the actual content.\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-05T02:07:09.897197+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-05T02:07:09.897197+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sponsored Video",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143602\u0026rid=1901138"
+    },
+    "id": "1901138",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 25000,
+     "amount_cents": 25000,
+     "created_at": "2017-08-05T02:07:09.879905+00:00",
+     "description": "\u003cstrong\u003eAccess to a private discussion group (maximum 2 people) once per month for 1 hour.\u003c/strong\u003e\u003cbr\u003eYou can attend a monthly seminar on training, nutrition \u0026amp; supplements, contest prep, etc and interact with John for 1-2 hours.\u003cbr\u003eYou will be credited for your support at the end of edited videos during the month\u003cbr\u003eYou will be able to ask questions that will go at the front of the queue that will be answered in content.\u003cbr\u003eYou will also have access to patron only content.",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-05T02:14:21.818357+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-05T02:07:09.879905+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Private Discussion Group (2 people)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143602\u0026rid=1901132"
+    },
+    "id": "1901132",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 30000,
+     "amount_cents": 30000,
+     "created_at": "2017-08-05T02:07:09.890287+00:00",
+     "description": "\u003cdiv\u003eOne LIVE video per month is sponsored by you with up to a 30 second pitch or thank you delivered by John as a pre-roll to the actual LIVE content.\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-05T02:07:09.890287+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-05T02:07:09.890287+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sponsored LIVE video",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143602\u0026rid=1901135"
+    },
+    "id": "1901135",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 50000,
+     "amount_cents": 50000,
+     "created_at": "2017-08-05T02:07:09.874610+00:00",
+     "description": "\u003cdiv\u003e\u003cstrong\u003eAccess to a private contest preparation discussion group (maximum 3 people) once per month for 2 hours.\u003c/strong\u003e\u003cbr\u003eYou can attend a monthly seminar on training, nutrition \u0026amp; supplements, contest prep, etc and interact with John for 1-2 hours.\u003cbr\u003eYou will be credited for your support at the end of edited videos during the month\u003cbr\u003eYou will be able to ask questions that will go at the front of the queue that will be answered in content.\u003cbr\u003eYou will also have access to patron only content.\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-05T02:14:21.813030+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-05T02:07:09.874610+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Competition Preparation Group",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143602\u0026rid=1901131"
+    },
+    "id": "1901131",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100000,
+     "amount_cents": 100000,
+     "created_at": "2017-08-05T02:07:09.875938+00:00",
+     "description": "\u003cdiv\u003e\u003cstrong\u003eAccess to a private contest preparation discussion (one-on-one) once per month for 2 hours.\u003c/strong\u003e\u003cbr\u003eYou can attend a monthly seminar on training, nutrition \u0026amp; supplements, contest prep, etc and interact with John for 1-2 hours.\u003cbr\u003eYou will be credited for your support at the end of edited videos during the month\u003cbr\u003eYou will be able to ask questions that will go at the front of the queue that will be answered in content.\u003cbr\u003eYou will also have access to patron only content.\u003cbr\u003e\u003c/div\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-05T02:14:21.834136+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-05T02:07:09.875938+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Contest Preparation (Individual)",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1143602\u0026rid=1901133"
+    },
+    "id": "1901133",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1143602"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "825d972e-040d-42ae-a712-edebdd12debb",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "John Terilli is creating Bodybuilding information"
+});
+    </script>

@@ -1,0 +1,479 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "r38QLRp5Xy24vM3UJJDUmvP2w-3cezhf-oXfBDx09wI";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "597845",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/597845"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-06-27T13:43:13+00:00",
+    "creation_name": "Podcasts",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1023936/d669477c2fac4090b8f1e25de78a873e?token-time=2145916800\u0026token-hash=w9eMWRBin4173paEBOLnNy96cfyOirGz7Vt2bDvKVdU%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1023936/d669477c2fac4090b8f1e25de78a873e?token-time=2145916800\u0026token-hash=UN52YG9U1ibKdtYS1NdYuGCNROhrPad7CEYiElGhdHw%3D",
+    "is_monthly": true,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 452,
+    "pledge_url": "/bePatron?c=1023936",
+    "published_at": "2017-10-09T18:37:36+00:00",
+    "summary": "Hello, and thank you for visiting the\u00a0\u003ca href=\"http://nostoryissacred.com/\"\u003eNo Story Is Sacred\u003c/a\u003e Patreon page!\u00a0We\u0027re four siblings who were raised by working freelance authors -- and when you have a big family with two parents who are full-time writers, the craft of writing basically becomes a family business. We grew up talking about the art of storytelling. Now that we\u2019re adults, we\u2019re still talking about it, and we\u2019re inviting you to join the conversation.\u003cbr\u003e\u003cbr\u003eWith your contribution we can improve our equipment, pay our hosting fees, and just generally make a better podcast for you! We love this podcast, and want it to be the best possible thing for you, our listeners.\u003cbr\u003e"
+   },
+   "id": "1023936",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "6675018",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/6675018"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "1010998",
+       "type": "goal"
+      },
+      {
+       "id": "1010999",
+       "type": "goal"
+      },
+      {
+       "id": "1011000",
+       "type": "goal"
+      },
+      {
+       "id": "1011001",
+       "type": "goal"
+      },
+      {
+       "id": "1011002",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1023936",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1023936"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2062362",
+       "type": "reward"
+      },
+      {
+       "id": "2121478",
+       "type": "reward"
+      },
+      {
+       "id": "2121475",
+       "type": "reward"
+      },
+      {
+       "id": "2121485",
+       "type": "reward"
+      },
+      {
+       "id": "2121490",
+       "type": "reward"
+      },
+      {
+       "id": "2121493",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-06-27T13:42:46+00:00",
+     "facebook": "https://www.facebook.com/nostoryissacred/",
+     "first_name": "No",
+     "full_name": "No Story Is Sacred",
+     "gender": 0,
+     "hide_pledges": true,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/6675018/6d1bcc3b332b427b8b27a558fe113a03?token-time=2145916800\u0026token-hash=KwKjACAvhdPceRZIZtFCW7s4QX8Lai3fWoUWB74_d3c%3D",
+     "last_name": "Story Is Sacred",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/6675018/6d1bcc3b332b427b8b27a558fe113a03?token-time=2145916800\u0026token-hash=2HsgV9iQVD0_PmSQ1ueIEK63-z9UsQuwPN47aNLaQCs%3D",
+     "twitch": null,
+     "twitter": "NoStoryIsSacred",
+     "url": "https://www.patreon.com/NoStoryIsSacred",
+     "vanity": "NoStoryIsSacred",
+     "youtube": "https://www.youtube.com/channel/UCiEKXphgv86dzVHhpd62VKg"
+    },
+    "id": "6675018",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1023936",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1023936"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 12,
+     "upgrade_url": "/bePatron?c=1023936\u0026rid=2121475"
+    },
+    "id": "post-aggregation-for-0-1023936",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-10-09T19:00:08.893573+00:00",
+     "description": "We\u2019ll be super thankful and think kind thoughts about you!",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-02T16:26:57.881291+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-02T16:26:57.862246+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Our Gratitude",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1023936\u0026rid=2062362",
+     "user_limit": null
+    },
+    "id": "2062362",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 300,
+     "amount_cents": 300,
+     "created_at": "2017-11-02T16:23:03.006582+00:00",
+     "description": "You\u0027ll receive a thank you on our website, along with our other contributors, for as long as you support at this level.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-02T16:26:49.662278+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-02T16:26:49.640739+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Mention on Website",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1023936\u0026rid=2121478",
+     "user_limit": null
+    },
+    "id": "2121478",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-11-02T16:21:56.619029+00:00",
+     "description": "Bi-weekly blog posts written by at least one of the Siblings. These can be quick updates on daily life, musings about fiction in general or works that may not be covered in the podcast, or segments of stuff that one of the Siblings is working on.\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-02T16:21:56.619029+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 6,
+     "published": true,
+     "published_at": "2017-11-02T16:21:56.619029+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Exclusive access to our blog",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1023936\u0026rid=2121475",
+     "user_limit": null
+    },
+    "id": "2121475",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-11-02T16:24:35.989513+00:00",
+     "description": "You\u0027ll have exclusive access to extended episodes, or bonus episodes when we have a topic we want to have a quick chat about. (Note that these may not have transcripts attached to them.)\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-02T16:26:40.309277+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 1,
+     "published": true,
+     "published_at": "2017-11-02T16:26:40.288672+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Extended/Bonus Episodes",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1023936\u0026rid=2121485",
+     "user_limit": null
+    },
+    "id": "2121485",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1500,
+     "amount_cents": 1500,
+     "created_at": "2017-11-02T16:25:50.506219+00:00",
+     "description": "See how we prepare for the podcast with copies of our notes -- we each try to take notes of varying details about the episodes before and during recording. You can see how much (or how little) we each prep before we go in.",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-02T16:25:50.506219+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 4,
+     "published": true,
+     "published_at": "2017-11-02T16:25:50.506219+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Our Notes",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1023936\u0026rid=2121490",
+     "user_limit": null
+    },
+    "id": "2121490",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-11-02T16:26:28.829870+00:00",
+     "description": "For as long as you donate at this level, we\u2019ll thank you on air for your generous donation!\u00a0",
+     "discord_role_ids": null,
+     "edited_at": "2017-11-02T16:26:28.829870+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-11-02T16:26:28.829870+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "On-Air Credit",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1023936\u0026rid=2121493",
+     "user_limit": null
+    },
+    "id": "2121493",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 500,
+     "completed_percentage": 90,
+     "created_at": "2017-11-02T16:20:11+00:00",
+     "description": "We\u0027ll post up a video of the four of us, thanking everybody for their support!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1010998",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 4000,
+     "completed_percentage": 11,
+     "created_at": "2017-11-02T16:20:11+00:00",
+     "description": "We can pay for our media hosting and website! Hooray!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1010999",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 8000,
+     "completed_percentage": 5,
+     "created_at": "2017-11-02T16:20:11+00:00",
+     "description": "We can commission real intro/outro music! No more cowbell!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1011000",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 24000,
+     "completed_percentage": 1,
+     "created_at": "2017-11-02T16:20:11+00:00",
+     "description": "We can pay for our hosting \u003cu\u003eand\u003c/u\u003e pay our transcriptionist for her awesome work!",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1011001",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 74000,
+     "completed_percentage": 0,
+     "created_at": "2017-11-02T16:20:11+00:00",
+     "description": "We can pay for hosting, pay our transcriptionist, and \u003cu\u003eupgrade our recording equipment!\u003c/u\u003e",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "1011002",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1023936"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "memberships_tab",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "2524421c-1ed9-441c-97de-3146069f8196",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "No Story Is Sacred is creating Podcasts"
+});
+    </script>

@@ -1,0 +1,402 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "2EWGv4V5TWNfwY0sHO9HxIJmPmR78QNcTe6N84mKris";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "562203",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/562203"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-08-30T22:10:56+00:00",
+    "creation_name": "Music, cosplay, books, and much more",
+    "display_patron_goals": false,
+    "earnings_visibility": "private",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1197146/4d21422c93bd44b8a574da322d26f63f?token-time=2145916800\u0026token-hash=qg46wQhP9-9TJiM86e2pDYMRTvK04u1tdudEs-cQyNU%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1197146/4d21422c93bd44b8a574da322d26f63f?token-time=2145916800\u0026token-hash=HjDvmAcIiSNRI6iVgJnDvRCER_zORgpbeBnsU8qOnGk%3D",
+    "is_monthly": false,
+    "is_nsfw": false,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "creation",
+    "pledge_url": "/bePatron?c=1197146",
+    "published_at": "2017-08-31T03:40:21+00:00",
+    "summary": "Thanks for stopping by! I apprecicate you taking the time. I love cosplay and writing, but they\u0027re expensive hobbies. Hopefully you\u0027ll help with that and will be part off this wonderful journey.\u00a0"
+   },
+   "id": "1197146",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7510029",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7510029"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "951796",
+       "type": "goal"
+      },
+      {
+       "id": "951797",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": null
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "1967393",
+       "type": "reward"
+      },
+      {
+       "id": "1967398",
+       "type": "reward"
+      },
+      {
+       "id": "1967397",
+       "type": "reward"
+      },
+      {
+       "id": "1967394",
+       "type": "reward"
+      },
+      {
+       "id": "1967395",
+       "type": "reward"
+      },
+      {
+       "id": "1967396",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-08-30T22:10:14+00:00",
+     "facebook": null,
+     "first_name": "Zach",
+     "full_name": "Zach kidberg",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7510029/f5d214d00e194b709c33b845e10a432f?token-time=2145916800\u0026token-hash=I_NaKS6TK2kotio96iazYJUEouJaOKzWoKGNWGc1RWU%3D",
+     "last_name": "kidberg",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7510029/f5d214d00e194b709c33b845e10a432f?token-time=2145916800\u0026token-hash=vba2p5ierQ_mFXNs8C9J1vb7Se_ZeAO6Y0DvDWIq6TM%3D",
+     "twitch": null,
+     "twitter": null,
+     "url": "https://www.patreon.com/Scarletson",
+     "vanity": "Scarletson",
+     "youtube": "https://www.youtube.com/channel/UC3plNpbGcTGVVpiYnGbB_5w"
+    },
+    "id": "7510029",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1197146",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1197146"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-08-31T03:31:52.067480+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eAccess to patron-only content\u003c/li\u003e\u003cli\u003eSneak peek photos of upcoming releases\u003c/li\u003e\u003cli\u003ePatron-only polls\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-31T03:31:52.067480+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-31T03:31:52.067480+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Patronage",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1197146\u0026rid=1967393"
+    },
+    "id": "1967393",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2017-08-31T03:31:52.237304+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eFirst looks at photo shoots\u003c/li\u003e\u003cli\u003eProcess/behind-the-scenes\u003c/li\u003e\u003cli\u003e+1 entry to giveaways and raffles\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-31T03:31:52.237304+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-31T03:31:52.237304+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Casual reader",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1197146\u0026rid=1967398"
+    },
+    "id": "1967398",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-08-31T03:31:52.231085+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eSuggestions on cosplays\u003c/li\u003e\u003cli\u003eAccess to exclusive videos and first looks\u003c/li\u003e\u003cli\u003eShootout on Instagram and youtube\u003c/li\u003e\u003cli\u003e+1 entries on raffles and giveaways\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-31T03:31:52.231085+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-31T03:31:52.231085+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "True fandom",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1197146\u0026rid=1967397"
+    },
+    "id": "1967397",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2000,
+     "amount_cents": 2000,
+     "created_at": "2017-08-31T03:31:52.211511+00:00",
+     "description": "\u003cul\u003e\u003cli\u003eEarly downloads of all releases\u003c/li\u003e\u003cli\u003e+1 entries on raffles and giveaways\u003c/li\u003e\u003cli\u003eYour name in the credits of my videos\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-31T03:31:52.211511+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-31T03:31:52.211511+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "The collector",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1197146\u0026rid=1967394"
+    },
+    "id": "1967394",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-08-31T03:31:52.225645+00:00",
+     "description": "\u003cul\u003e\u003cli\u003ePersonalized song/video posted on YouTube\u003c/li\u003e\u003cli\u003eSigned and dated first chapter of novel\u003c/li\u003e\u003cli\u003e+1 entries on raffles and giveaways\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-31T03:31:52.225645+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-31T03:31:52.225645+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Fame bus",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1197146\u0026rid=1967395"
+    },
+    "id": "1967395",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2017-08-31T03:31:52.227802+00:00",
+     "description": "\u003cul\u003e\u003cli\u003e+1 entries on raffles and giveaways\u003c/li\u003e\u003cli\u003e1st edition signed copy of novel\u003c/li\u003e\u003cli\u003ePick giveaway topic\u003c/li\u003e\u003cli\u003eMystery box with your choice of theme\u00a0\u003c/li\u003e\u003cli\u003ePlus all previous rewards\u003c/li\u003e\u003c/ul\u003e",
+     "discord_role_ids": null,
+     "edited_at": "2017-08-31T03:31:52.227802+00:00",
+     "image_url": null,
+     "post_count": null,
+     "published": true,
+     "published_at": "2017-08-31T03:31:52.227802+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Avid collector",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1197146\u0026rid=1967396"
+    },
+    "id": "1967396",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 5,
+     "created_at": "2017-08-31T03:35:32+00:00",
+     "description": "In order to continue my cosplay I need the resources. This will help fund my next cosplay and the photo shoot to go with it.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "951796",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "completed_percentage": 2,
+     "created_at": "2017-08-31T03:37:20+00:00",
+     "description": "This goal is to help fund the final stages of my novel including establishing the publishing co., and getting the editing needed.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "951797",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1197146"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "2876fee9-f71f-4dba-aa78-c68e9912b85d",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "Zach kidberg is creating Music, cosplay, books, and much more"
+});
+    </script>

@@ -1,0 +1,545 @@
+<script>
+        window.patreon = window.patreon || {};
+        window.patreon.apiServer = "www.patreon.com/api";
+        window.patreon.webServer = "www.patreon.com";
+        window.patreon.userId = "0";
+        window.patreon.csrfSignature = "25vO0TEH5GQ2wOdlM4HVAaf8266SKSC_wOCanc2avaU";
+
+        window.patreon.theme = 'america';
+
+        window.patreon.bootstrap = window.patreon.bootstrap || {};
+        window.patreon.experiments = window.patreon.experiments || {};
+        window.patreon.featureFlags = window.patreon.featureFlags || {};
+        window.patreon.presets = window.patreon.presets || {};
+
+        Object.assign(window.patreon.bootstrap, {
+ "channel": {
+  "data": {
+   "attributes": {
+    "last_posted_at": null
+   },
+   "id": "795960",
+   "relationships": {
+    "story": {
+     "data": []
+    }
+   },
+   "type": "monocle-channel"
+  },
+  "links": {
+   "self": "https://www.patreon.com/api/monocle-channels/795960"
+  }
+ },
+ "creator": {
+  "data": {
+   "attributes": {
+    "created_at": "2017-09-17T19:50:38+00:00",
+    "creation_name": "Behind the scenes, fun, and photos",
+    "display_patron_goals": false,
+    "earnings_visibility": "public",
+    "has_rss": false,
+    "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInYiOiIxIiwidyI6NjQwfQ%3D%3D/patreon-media/campaign/1228324/97e4648856484e3b9f754001b930f0da?token-time=2145916800\u0026token-hash=sMuBkD3uNfFOc3Rfkf492jCOk4-VN8hA49zxUmeC3Kg%3D",
+    "image_url": "https://c10.patreonusercontent.com/3/eyJwIjoxLCJ2IjoiMSJ9/patreon-media/campaign/1228324/97e4648856484e3b9f754001b930f0da?token-time=2145916800\u0026token-hash=Yka2jdjiP9jew-HDAAHxZk5ofI42WMmkkfsTvIo3oHU%3D",
+    "is_monthly": true,
+    "is_nsfw": true,
+    "is_paused": false,
+    "is_plural": false,
+    "main_video_embed": null,
+    "main_video_url": null,
+    "one_liner": null,
+    "patron_count": 1,
+    "pay_per_name": "month",
+    "pledge_sum": 9310,
+    "pledge_url": "/bePatron?c=1228324",
+    "published_at": "2018-02-07T13:16:04+00:00",
+    "summary": "Hi my name is JellieRose, I stream live on\u00a0\u003ca href=\"https://mixer.com/JellieRose\"\u003eMixer\u003c/a\u003e. I like sleeping, pretending I want to go outside, making plans and canceling them if it involves leaving the house, and lots of other things.\u00a0I play all sorts of games and have been playing All sorts of video games since I was a child. I use to mainly play on Nintendo systems (NES, SNES, N64, GameCube, did have a Sega too) until I got a Playstation, then PS2, swapped over to the xbox 360 because of a friend and have been Xbox since. I do a lot of random things, crafts, arts, cosplay, and rando hair colors. \u003cbr\u003eHere you will see exclusive photos, behind the scene photos and clips, art work, progress of projects, and tons of other tid bits. That you will only find here.\u003cbr\u003eEach tier will get new content one to two times a month. The 2nd for the first and if there\u0027s a second that month on the 16th. (Dates will change depending on the goals reached)\u003cbr\u003eI would like to thank you for taking the time to check out my page and to my patrons love you guys \u0026lt;3\u003cbr\u003eI might not be the best at this, but I am learning and will get better over time!"
+   },
+   "id": "1228324",
+   "relationships": {
+    "creator": {
+     "data": {
+      "id": "7710036",
+      "type": "user"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/user/7710036"
+     }
+    },
+    "goals": {
+     "data": [
+      {
+       "id": "969313",
+       "type": "goal"
+      },
+      {
+       "id": "969314",
+       "type": "goal"
+      }
+     ]
+    },
+    "patron_goals": {
+     "data": []
+    },
+    "post_aggregation": {
+     "data": {
+      "id": "post-aggregation-for-0-1228324",
+      "type": "post_aggregation"
+     },
+     "links": {
+      "related": "https://www.patreon.com/api/post-aggregations/post-aggregation-for-0-1228324"
+     }
+    },
+    "rewards": {
+     "data": [
+      {
+       "id": "-1",
+       "type": "reward"
+      },
+      {
+       "id": "0",
+       "type": "reward"
+      },
+      {
+       "id": "2009705",
+       "type": "reward"
+      },
+      {
+       "id": "2352108",
+       "type": "reward"
+      },
+      {
+       "id": "2010559",
+       "type": "reward"
+      },
+      {
+       "id": "2010560",
+       "type": "reward"
+      },
+      {
+       "id": "2010557",
+       "type": "reward"
+      },
+      {
+       "id": "2629893",
+       "type": "reward"
+      },
+      {
+       "id": "2549912",
+       "type": "reward"
+      },
+      {
+       "id": "2549921",
+       "type": "reward"
+      },
+      {
+       "id": "2629886",
+       "type": "reward"
+      }
+     ]
+    }
+   },
+   "type": "campaign"
+  },
+  "included": [
+   {
+    "attributes": {
+     "about": null,
+     "created": "2017-09-16T01:19:41+00:00",
+     "facebook": "",
+     "first_name": "Jellie",
+     "full_name": "Jellie Rose",
+     "gender": 0,
+     "hide_pledges": false,
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjIwMH0%3D/patreon-media/user/7710036/45c29fab32cf4f0fb9c003a12f622a87?token-time=2145916800\u0026token-hash=SQwHSaGmcUG2bCba3-iiy6DTucfbYL2EzEyOhRqGACY%3D",
+     "last_name": "Rose",
+     "thumb_url": "https://c10.patreonusercontent.com/3/eyJoIjoxMDAsInYiOiIxIiwidyI6MTAwfQ%3D%3D/patreon-media/user/7710036/45c29fab32cf4f0fb9c003a12f622a87?token-time=2145916800\u0026token-hash=hIA79lDz-XJdt8c9C8tQ9tPcC1ziMmn9KRYlYVaMkj8%3D",
+     "twitch": null,
+     "twitter": "j3lli3ros3",
+     "url": "https://www.patreon.com/JellieRose",
+     "vanity": "JellieRose",
+     "youtube": ""
+    },
+    "id": "7710036",
+    "relationships": {
+     "campaign": {
+      "data": {
+       "id": "1228324",
+       "type": "campaign"
+      },
+      "links": {
+       "related": "https://www.patreon.com/api/campaigns/1228324"
+      }
+     },
+     "pledge_to_current_user": {
+      "data": null
+     }
+    },
+    "type": "user"
+   },
+   {
+    "attributes": {
+     "next_inaccessible_posts_count": 53,
+     "upgrade_url": "/bePatron?c=1228324\u0026rid=2009705"
+    },
+    "id": "post-aggregation-for-0-1228324",
+    "type": "post_aggregation"
+   },
+   {
+    "attributes": {
+     "amount": 0,
+     "amount_cents": 0,
+     "created_at": null,
+     "description": "Everyone",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "-1",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1,
+     "amount_cents": 1,
+     "created_at": null,
+     "description": "Patrons Only",
+     "remaining": 0,
+     "requires_shipping": false,
+     "url": null,
+     "user_limit": null
+    },
+    "id": "0",
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 100,
+     "amount_cents": 100,
+     "created_at": "2017-09-17T20:53:44.204363+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eAccess to basic patron-only content\u003c/li\u003e\n\u003cli\u003eAdded to a Donator only chat in discord\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eHere you\u0027ll find basic selfies and all around messing around. Everything I post here is really random, so you might get something good or just okay.\u003c/p\u003e",
+     "discord_role_ids": [
+      "364291876536451073"
+     ],
+     "edited_at": "2018-04-04T05:20:53.663067+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2009705/ffd8801b3484409e9b1899b029c513f6?token-time=2145916800\u0026token-hash=zb4edx73Plcd02Wl8qshdgK1NopxJVEgarWY9uRP3Zg%3D",
+     "patron_count": 0,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2018-04-04T05:20:53.653287+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Hume\u0027s Blush",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228324\u0026rid=2009705",
+     "user_limit": null
+    },
+    "id": "2009705",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 500,
+     "amount_cents": 500,
+     "created_at": "2018-02-07T03:34:30.378277+00:00",
+     "description": "\u003cbr\u003e\n\u003cul\u003e\n\u003cli\u003eBehind-the-scenes information and pictures\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eWant to see my setup, how I do some of my projects and some back story to all the random things I do? Great You\u0027ll find that here and more.\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "364291876536451073"
+     ],
+     "edited_at": "2018-04-04T05:22:07.898291+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2352108/cfe6ae66149346eca5f4320809ce72dc?token-time=2145916800\u0026token-hash=TjMjdXK9OhRC8ue09uMWr3whfbvbmZJ0IfJ_Y-rXcXE%3D",
+     "patron_count": 0,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2018-04-04T05:22:07.891278+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sugar Baby",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228324\u0026rid=2352108",
+     "user_limit": null
+    },
+    "id": "2352108",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 1000,
+     "amount_cents": 1000,
+     "created_at": "2017-09-18T02:57:34.651539+00:00",
+     "description": "\u003cul\u003e\n\u003cli\u003eMore advanced content\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eHere you\u0027ll get better pictures that the first tier but they still aren\u0027t the best. Just a little more icing on the cake.\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "364291876536451073"
+     ],
+     "edited_at": "2018-04-04T05:22:55.045008+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2010559/04a4f01d065a4835b89723179aa2ac1d?token-time=2145916800\u0026token-hash=Z9wA8HiaIYn3ZLAbFtBRNJTIEtuHbru-i0xLd1Zeu7M%3D",
+     "patron_count": 0,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2018-04-04T05:22:55.034595+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Iceberg",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228324\u0026rid=2010559",
+     "user_limit": null
+    },
+    "id": "2010559",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 2500,
+     "amount_cents": 2500,
+     "created_at": "2017-09-18T02:57:34.659692+00:00",
+     "description": "\u00a0\n\u003cul\u003e\n\u003cli\u003eAccess to polls\u003c/li\u003e\n\u003cli\u003eMore pictures\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eWant to have a say on what is up and coming? You get access to poles and way better pictures here!\u003c/p\u003e",
+     "discord_role_ids": [
+      "364291876536451073"
+     ],
+     "edited_at": "2018-04-22T23:17:11.915300+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2010560/355a658faa6343449af70d4abd6cea16?token-time=2145916800\u0026token-hash=soApzhMicgxKS-oD9dtDCLVAaUcHh0bvUiAGDMv782w%3D",
+     "patron_count": 0,
+     "post_count": 11,
+     "published": true,
+     "published_at": "2018-04-22T23:17:11.890686+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sunset Beauty",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228324\u0026rid=2010560",
+     "user_limit": null
+    },
+    "id": "2010560",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 5000,
+     "amount_cents": 5000,
+     "created_at": "2017-09-18T02:57:34.453967+00:00",
+     "description": "\u003cbr\u003e\n\u003cul\u003e\n\u003cli\u003eThe most advanced photos\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eYou get the best pictures here! Out of each set that I do my favorite and best one of the set gets posted here! Sometimes/mostly lewds.\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "364291876536451073"
+     ],
+     "edited_at": "2018-04-22T23:16:39.148112+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2010557/1cbb43a8ff9a467f9551a4ac6427dd44?token-time=2145916800\u0026token-hash=xm-OD6aXfRMjnEe7XlD2L9UMaQAZ4r5mGiqUvOWQZW8%3D",
+     "patron_count": 0,
+     "post_count": 8,
+     "published": true,
+     "published_at": "2018-04-22T23:16:39.120968+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": " Juliet",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228324\u0026rid=2010557",
+     "user_limit": null
+    },
+    "id": "2010557",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2018-05-24T22:40:58.051392+00:00",
+     "description": "\u00a0\u00a0If you don\u0027t want the physical rewards pledge here. \u00a0\n\u003cp\u003e\u00a0\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAdvanced Snapchat group\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eHere you can get added to the snap chat group for set sneak peaks. Random lewds and other things.\u00a0\u003c/p\u003e",
+     "discord_role_ids": [
+      "364291876536451073"
+     ],
+     "edited_at": "2018-05-24T22:40:58.051392+00:00",
+     "image_url": null,
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-05-24T22:40:58.051392+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Sunsprite part 2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228324\u0026rid=2629893",
+     "user_limit": null
+    },
+    "id": "2629893",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 7500,
+     "amount_cents": 7500,
+     "created_at": "2018-04-22T23:16:23.108412+00:00",
+     "description": "\u00a0\n\u003cul\u003e\n\u003cli\u003eAdvanced Snapchat group\u003c/li\u003e\n\u003cli\u003e5x7 Signed photo from each set\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eHere you can get added to the snap chat group for set sneak peaks. Random lewds and other things. Also you get a random sighed photo from each set (Starts current/future sets from when you pledge no past ones) (You can opt out of this by leaving the shipping address blank)\u003c/p\u003e",
+     "discord_role_ids": [
+      "364291876536451073"
+     ],
+     "edited_at": "2018-04-22T23:32:27.525464+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2549912/e2467f647cf94283a0b6285420fc75c8?token-time=2145916800\u0026token-hash=7f8f2n86yPAMvEmmDHx1lgz77J9mJCA6Not4z4sLUpY%3D",
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-04-22T23:32:27.518475+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Sunsprite",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228324\u0026rid=2549912",
+     "user_limit": null
+    },
+    "id": "2549912",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-04-22T23:21:07.143768+00:00",
+     "description": "\u00a0\n\u003cul\u003e\n\u003cli\u003eSuggestive nudes\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e(Starting may 2nd)\u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e\u003c/p\u003e",
+     "discord_role_ids": [
+      "364291876536451073"
+     ],
+     "edited_at": "2018-04-22T23:32:39.972060+00:00",
+     "image_url": "https://c10.patreonusercontent.com/3/eyJ2IjoiMSIsInciOjQwMH0%3D/patreon-media/reward/2549921/27cd5179c8514ecbae21a79e7a067958?token-time=2145916800\u0026token-hash=iLoL0Vb1Gy_JiQYUkX_F7zfkvpN-Rrda5pdTdXFRWvA%3D",
+     "patron_count": 0,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-04-22T23:32:39.962138+00:00",
+     "remaining": null,
+     "requires_shipping": true,
+     "title": "Ispahan",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228324\u0026rid=2549921",
+     "user_limit": null
+    },
+    "id": "2549921",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount": 10000,
+     "amount_cents": 10000,
+     "created_at": "2018-05-24T22:39:21.105724+00:00",
+     "description": "\u00a0If you don\u0027t want the physical rewards pledge here.\u00a0\n\u003cul\u003e\n\u003cli\u003eSuggestive nudes\u003c/li\u003e\n\u003cli\u003ePlus all previous rewards\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e(Starting may 2nd)\u003c/p\u003e",
+     "discord_role_ids": [
+      "364291876536451073"
+     ],
+     "edited_at": "2018-05-24T22:39:21.105724+00:00",
+     "image_url": null,
+     "patron_count": 1,
+     "post_count": 2,
+     "published": true,
+     "published_at": "2018-05-24T22:39:21.105724+00:00",
+     "remaining": null,
+     "requires_shipping": false,
+     "title": "Ispahan part 2",
+     "unpublished_at": null,
+     "url": "/bePatron?c=1228324\u0026rid=2629886",
+     "user_limit": null
+    },
+    "id": "2629886",
+    "relationships": {
+     "items": {
+      "data": []
+     }
+    },
+    "type": "reward"
+   },
+   {
+    "attributes": {
+     "amount_cents": 50000,
+     "completed_percentage": 18,
+     "created_at": "2017-09-18T03:12:28+00:00",
+     "description": "If we can hit more than $500 a month, instead of updating content for each tier 2 times a months we will do 3 times a month.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "969313",
+    "type": "goal"
+   },
+   {
+    "attributes": {
+     "amount_cents": 100000,
+     "completed_percentage": 9,
+     "created_at": "2017-09-18T03:12:28+00:00",
+     "description": "If we can hit more than $1000 a month, instead of updating content for each tier 3 times a months we will do 4 times a month.",
+     "reached_at": null,
+     "title": ""
+    },
+    "id": "969314",
+    "type": "goal"
+   }
+  ],
+  "links": {
+   "self": "https://www.patreon.com/api/campaigns/1228324"
+  }
+ },
+ "currentUser": null,
+ "hasNoPosts": false,
+ "hasSeenPatronTour": false,
+ "isPreview": false,
+ "postFeedOptions": {
+  "includeExclusivePosts": true,
+  "includePostAggregations": true
+ },
+ "userCanMessageCreator": false
+});
+        Object.assign(window.patreon.experiments, {
+ "creator_page_memberships_tab_experiment": "control",
+ "hide_goals_card_experiment": "show_goals_card",
+ "mondo_creator_onboarding": false,
+ "post_grid_experiment": "hide_grid_view_and_toggle"
+});
+        Object.assign(window.patreon.featureFlags, {
+ "cole_banner": false,
+ "disable_suggested_feature": false,
+ "enable_advanced_logging": false,
+ "new_comments_pagination": false,
+ "rename_rewards": false,
+ "rewards_manager": false
+});
+        Object.assign(window.patreon.presets, {
+ "current_banners": [],
+ "device_id": "443aa072-fd52-42ae-9fec-f177595d28e0",
+ "is_impersonating": false,
+ "js_git_sha": "f2f4f11545acac6cb67d6b3f2f87e0b86746b20e",
+ "page_title": "Jellie Rose is creating Behind the scenes, fun, and photos"
+});
+    </script>
