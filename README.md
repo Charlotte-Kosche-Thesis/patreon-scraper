@@ -14,9 +14,10 @@ $ python detect_keywords.py
 
 ### The results
 
-The result of the script will be to generate a new version of the [mydata/2015-03.csv](mydata/2015-03.csv), with a few extra columns. This result file can be found at:
+The result of the script will be to generate a new version of the [mydata/2015-04.csv](mydata/2015-04.csv), with a few extra columns. The result files can be found at:
 
-[mydata/detected-2015-03.csv](mydata/detected-2015-03.csv)
+- Full version (with all entries, with and w/o keywords: [mydata/detected-2015-04.csv](mydata/detected-2015-04.csv)
+- Slim version (just entries with keywords): [mydata/filtered-detected-2015-04.csv](mydata/filtered-detected-2015-04.csv)
 
 This results file omits the invalid entries in the original data file (where `Graphtreon` had a pattern like '?user='), and a few new columns:
 

@@ -22,6 +22,7 @@ RESULTS_HEADERS = ["slug", "patreon_url", "keywords_count", "keywords_found"] + 
 
 SRC_DATAPATH = GRAPHTREON_SRCPATH
 DEST_DATAPATH = Path('mydata', 'detected-{}.csv'.format(SRC_DATAPATH.stem))
+FIL_DATAPATH =  Path('mydata', 'filtered-detected-{}.csv'.format(SRC_DATAPATH.stem))
 
 # def augment(records, src=SRC_DATAPATH, dest=DEST_DATAPATH):
 #     """
@@ -80,20 +81,33 @@ def main():
 
     # get the original records
     source_records = get_source_records()
-    with open(DEST_DATAPATH, 'w') as w:
-        cv = csv.DictWriter(w, fieldnames=RESULTS_HEADERS)
-        cv.writeheader()
-        for row in source_records:
-            d = next((x for x in frows if x['slug'] == row['slug']), False)
-            if d:
-                row['keywords_count'] = d['keywords_count']
-                row['keywords_found'] = d['keywords_found']
-            else:
-                row['keywords_count'] = 0
-                row['keywords_found'] = ""
-            cv.writerow(row)
+
+
+
+
+    dw = open(DEST_DATAPATH, 'w')
+    fw = open(FIL_DATAPATH, 'w')
+
+    cdw = csv.DictWriter(dw, fieldnames=RESULTS_HEADERS)
+    cdw.writeheader()
+    cfw = csv.DictWriter(fw, fieldnames=RESULTS_HEADERS)
+    cfw.writeheader()
+
+    for row in source_records:
+        d = next((x for x in frows if x['slug'] == row['slug']), False)
+        if d:
+            row['keywords_count'] = d['keywords_count']
+            row['keywords_found'] = d['keywords_found']
+            cfw.writerow(row)
+        else:
+            row['keywords_count'] = 0
+            row['keywords_found'] = ""
+        cdw.writerow(row)
 
     print("Wrote detected-keywords columns to:", DEST_DATAPATH)
+
+    dw.close()
+    fw.close()
 
 if __name__ == '__main__':
     main()
